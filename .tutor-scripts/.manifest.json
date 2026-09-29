@@ -1,0 +1,18 @@
+{
+  "plugin_version": "1.3.0",
+  "files": [
+    "apply_capabilities.py",
+    "bootstrap_scripts.py",
+    "cohort_status.py",
+    "coverage_check.py",
+    "gate_check.py",
+    "mark_scheme_check.py",
+    "migrate_schema.py",
+    "prereq_check.py",
+    "resume_enrollment.py",
+    "review_math.py",
+    "roster_check.py",
+    "slot_advance.py",
+    "validate_structure.py"
+  ]
+}
