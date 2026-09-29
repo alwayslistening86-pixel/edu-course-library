@@ -1,0 +1,19 @@
+All Rights Reserved
+
+Copyright (c) 2026 Ian (github.com/alwayslistening86-pixel)
+
+This applies to everything in this repository EXCEPT the plugin source under
+plugin/generic-tutor/, which is separately licensed under MIT — see
+plugin/generic-tutor/LICENSE.
+
+Most notably, this covers everything under courses/ (the compiled lesson,
+practice, test and exam content, rubrics, and curriculum maps) and anything
+that may later appear under profile/. This material paraphrases copyrighted
+exam-board specifications and mark schemes for personal study use — it is
+not offered for reuse or redistribution.
+
+Except as permitted by applicable law (such as fair dealing or fair use),
+no part of this content may be copied, redistributed, republished, sold, or
+used to create derivative works without prior written permission from the
+copyright holder. Viewing and forking on GitHub does not grant any of these
+rights. All rights not expressly granted are reserved.
