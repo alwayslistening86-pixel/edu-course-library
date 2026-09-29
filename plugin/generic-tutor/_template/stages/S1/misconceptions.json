@@ -1,0 +1,7 @@
+[
+  {
+    "pattern": "{{THE_SPECIFIC_WRONG_WAY_STUDENTS_COMMONLY_GET_THIS_WRONG — describe the error itself, not just the topic}}",
+    "correction": "{{THE_SPECIFIC_CORRECTION — what the right idea actually is, framed against the wrong one, not a generic re-explanation}}",
+    "source": "{{A_REAL_CITATION — e.g. 'AQA GCSE Psychology 8182, Examiner Report June 2025, Q4' — or, if no real documented source exists for a plausible error, the literal string 'plausible, not board-documented'}}"
+  }
+]

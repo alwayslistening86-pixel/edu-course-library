@@ -1,0 +1,22 @@
+{
+  "schema_version": 4,
+  "name": "{{COURSE_NAME}}",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": "{{OMIT_IF_NONE — e.g. {'set_texts': ['...']} for subjects with elective components}}",
+  "folder_access": { "status": "pending_confirmation" },
+  "currency": "live | historical — whether the underlying course is still actively taught/revised at all",
+  "material_vintage": "{{the actual dated snapshot whose material was fully resolvable and used — may lag behind currency:live's true current state}}",
+  "academic_level": "{{INTEGER — e.g. RQF level, sourced, never invented; null for a standalone course}}",
+  "level_source": "{{e.g. 'RQF Level 2, per Ofqual register' or 'learner-declared, no external framework available'}}",
+  "level_basis": "framework | declared | standalone",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "unverified",
+  "stage_ladder": ["S1", "S2", "S3"],
+  "linear": true,
+  "framework": "{{FRAMEWORK_OR_NULL}}",
+  "practical_stages": {},
+  "learner_notices": [],
+  "exam": { "enabled": true, "requires_all_stage_tests_passed": true }
+}
