@@ -39,6 +39,21 @@ against the five-cause taxonomy instead of guessed. This script returns
 that taxonomy table so the calling skill always has it in the same
 authoritative shape rather than re-typing it from memory each session.
 
+**(v1.5.0) `item_mastery` is surfaced, not a fifth trigger.** When
+item_mastery.py has an entry for this item, its current `p_mastery` and
+`observations` are included in the output purely as context for whatever
+response the calling skill gives once this gate has already fired for one
+of the four reasons above — a low `p_mastery` explains *why* trigger (a) or
+(b) fired, useful for tone, but it never fires this gate by itself. Adding
+mastery-level as a fifth trigger condition would reopen exactly the
+scope-creep this script was written to resist (see the four-trigger
+rationale above) for a signal (a decaying, item-specific tracking
+probability) whose exact threshold has never been validated; a persistently
+low `p_mastery` will, in practice, keep re-triggering trigger (a)/(b) on its
+own as further misses accumulate, so nothing is lost by not gating on it
+directly. When no entry exists yet for this item, `item_mastery` is `null`
+— a brand-new item, not an error condition.
+
 Usage:
     python3 diagnostic_gate.py <subjects.json> <stage_id> <item_id> \
         <explicit_confusion: true|false> <reasoning_mismatch: true|false>
@@ -48,7 +63,11 @@ logging the resulting diagnosis is error_log.py's job, after the model has
 actually done the diagnosing this gate only decided was worth doing.
 """
 import json
+import os
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import item_mastery  # noqa: E402
 
 TAXONOMY = {
     "slip": {
@@ -115,6 +134,10 @@ def evaluate(subjects_path, stage_id, item_id, explicit_confusion, reasoning_mis
 
     fire = bool(reasons)
 
+    mastery_status = item_mastery.status(subjects_path, item_id)
+    mastery_entry = mastery_status.get("mastery") if isinstance(mastery_status, dict) else None
+    item_mastery_info = mastery_entry if mastery_entry and mastery_entry.get("observations", 0) > 0 else None
+
     return {
         "fire": fire,
         "reasons": reasons,
@@ -124,6 +147,7 @@ def evaluate(subjects_path, stage_id, item_id, explicit_confusion, reasoning_mis
         "trigger_d_reasoning_mismatch": bool(reasoning_mismatch),
         "response_style": "elicit before explaining — ask what they did, don't just tell them what's wrong" if fire else None,
         "taxonomy": TAXONOMY,
+        "item_mastery": item_mastery_info,
     }
 
 

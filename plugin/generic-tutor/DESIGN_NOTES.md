@@ -457,3 +457,69 @@ it indefinitely or discard it with no trace at all.
     including the non-blocking guarantee on both absence and malformation). One `test_v130.py` assertion that
     had pinned the old subject schema version literal now asserts the current constant instead (same pattern as
     the 1.2.0→1.3.0 transition). Full suite 197 tests, OK.
+- **v1.5.0** — per-item BKT mastery, rubric-criterion-tagged errors and review cards, and a blocking
+  post-compile structural gate (the three-part project the library owner and I agreed on after reviewing and
+  narrowing a third party's — Grok's — five upgrade suggestions on 2026-09-29; two of Grok's five, multi-model
+  routing and predicting misconceptions before the learner answers, were explicitly shelved as disproportionate
+  to a single-learner system, not built).
+  - **Why BKT over DKT.** A neural sequence tracker (DKT) needs a training corpus across many learners to be
+    worth anything; this is a personal, single-learner-scale system producing at most a few hundred graded
+    events a year per course. Fitting DKT here would be fitting noise, not signal. `item_mastery.py` uses
+    textbook four-parameter Bayesian Knowledge Tracing instead, with fixed, documented, never-fit-to-this-
+    library's-own-data parameters (`P(L0)=0.3, P(T)=0.15, P(S)=0.1, P(G)=0.2` — the same order of magnitude
+    commonly reported in the BKT literature), the same "stated formula over an unauditable adaptive scheme"
+    reasoning `review_math.py` already used for spaced-repetition scheduling.
+  - **Augments `confidence`, never replaces it.** `confidence_update.py`'s course-level scalar is untouched —
+    it's still what `tutor-core`'s pacing section paces the whole subject by. `item_mastery.py` is new,
+    additional, per-item state for the finer-grained question "does this learner actually have item RM6" that
+    one course-wide number was never meant to answer.
+  - **Piggy-backed on existing signal, not new instrumentation.** Rather than requiring every teaching turn to
+    separately call `item_mastery.py`, `error_log.py`'s existing `append` (an incorrect observation) and
+    `resolve` (a correct one) — which already fire against a specific `item_id` — now call `item_mastery.observe()`
+    themselves and fold its result into their own return value. Mastery tracking updates automatically from data
+    the plugin was already collecting; no new behavioral discipline demanded of any calling skill.
+  - **`rubric_criterion` closes the same-taxonomy loop.** `error_log.py` entries can now optionally carry the
+    specific `rubric.json` criterion an error was graded against (an M/A/B tag or whatever shape that stage's
+    rubric uses), alongside the pre-existing `stage_id`/`item_id`. `stage-recap`'s review cards carry the same
+    `item_id`/`criterion` pair when derivable — reusing an error entry's own tags rather than re-deriving them —
+    so a graded error, a review card, and a mastery estimate can all be traced to the same item/criterion instead
+    of three separate ad-hoc labels. All three fields stay independently optional; `stage_id` remains the floor
+    every entry and every card always carries.
+  - **`diagnostic_gate.py` surfaces `item_mastery`, deliberately not a fifth trigger.** The four existing trigger
+    conditions (two misses on one item, a recurring cause, explicit confusion, a reasoning mismatch) are
+    unchanged — adding mastery-level as a new firing condition would reopen exactly the scope-creep the four-
+    trigger design was written to resist, for a threshold that's never been validated. A persistently low
+    `p_mastery` will in practice keep re-triggering the existing triggers as further misses accumulate, so
+    nothing is lost by only surfacing it as context once the gate has already fired for a real reason.
+    `tutor-core`'s pacing prose gained one parallel paragraph: `item_mastery` is for choosing *which* items
+    within an otherwise-fine stage deserve slower treatment, `confidence` is still the one number the whole
+    subject is paced by.
+  - **`postcompile_gate.py` — the compiler's advisory report becomes one blocking verdict.** Before this version,
+    `course-compiler`'s Step 8 ran `validate_structure.py` and `coverage_check.py` and then "reported back
+    honestly" — a real structural problem (a missing `test.md`, a rubric entry with no source, a 1.3.0 field
+    inconsistency) was disclosed in prose but never stopped the course from being written and enrolled anyway.
+    `postcompile_gate.py` combines both checks into one `can_ship` verdict, classifying their fields as
+    BLOCKING (missing stage files, an unreadable or missing-entry rubric, an empty source citation, any 1.3.0
+    field inconsistency — all data-integrity bugs, not content-quality gaps) or ADVISORY (orphaned stage dirs,
+    misconceptions status, coverage below `full` — all already explicitly, deliberately non-blocking by earlier
+    design and left exactly that way here). `course-compiler`'s new Step 7.5 refuses to proceed to enrollment
+    (Step 8) on a `false` verdict unless `postcompile_gate.py override <course_dir> "<reason>"` is called
+    explicitly, with the reason recorded in the verdict and required in Step 9's report — an override is never
+    silent, it's a deliberate, disclosed exception, not a bypass.
+  - **Schema.** `subjects/<course_id>.json` 4 → 5: `item_mastery: {}` added as a mechanical default (an empty
+    object means no item has an observation yet, never a guess). `course.json` unchanged.
+  - **Deliberately not done.** Multi-model routing for diagnostic/grading turns (shelved: no evidenced problem,
+    no clean routing layer inside Claude/Cowork, disproportionate to what it would fix). Predicting a
+    misconception before the learner answers (shelved: over-engineered for single-learner scale — reacting to
+    an actual wrong answer, which this plugin already does well, costs far less than trying to anticipate one).
+    No retrofitting of existing courses' review decks with `item_id`/`criterion` tags — additive going forward,
+    same as `misconceptions.json` in 1.4.0.
+  - **Tests.** `tests/test_v150.py` (25): `item_mastery.py`'s update formula against a hand-verified sequence,
+    monotonic climb and saturation-at-1.0 behavior, status lookups for both observed and never-observed items;
+    `error_log.py`'s automatic mastery feed on both `append` (incorrect) and `resolve` (correct, including the
+    "nothing resolved → no mastery call" case), `rubric_criterion` storage/defaulting/`NONE`-normalization;
+    `diagnostic_gate.py` surfacing mastery without it ever forcing a fire and never overriding a real trigger;
+    the 4→5 subject migration and its idempotence; and `postcompile_gate.py`'s blocking/advisory classification
+    for every field it reads plus the override path. One `test_v140.py` assertion that had pinned the old
+    subject schema version literal now asserts the current constant instead (same pattern as the 1.2.0→1.3.0 and
+    1.3.0→1.4.0 transitions). Full suite 222 tests, OK.

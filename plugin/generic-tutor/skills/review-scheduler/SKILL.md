@@ -21,6 +21,8 @@ Lives alongside the course's own micro-profile, under the same learner-isolation
     {
       "id": "string",
       "stage_id": "S3",
+      "item_id": "RM6" or null,
+      "criterion": "M2" or null,
       "front": "string",
       "back": "string",
       "interval_sessions": 4,
@@ -32,6 +34,8 @@ Lives alongside the course's own micro-profile, under the same learner-isolation
 }
 ```
 `due_at_slot` is a session-slot count, not a date — consistent with `journey-planner` having no calendar concept anywhere in the system. **The current slot is `student_profile.json.session_slot`** (advanced once per session by `slot_advance.py` at `/run`; `gate_check.py` also echoes it as `current_slot`). Read it from disk — never estimate it from conversation history.
+
+`item_id`/`criterion` (added alongside the pre-existing `stage_id`) name the specific syllabus item and rubric criterion a card exercises, when `stage-recap` can derive one cleanly at authoring time — the same taxonomy `error_log.py` tags entries with, so a card and the error that motivated it can be traced to the same item/criterion pair. Both are optional and independently nullable: a card built straight from a rubric criterion that doesn't map to one clean item, or a generic stage-level card, is still valid with one or both left `null` — `stage_id` remains the floor every card always carries. This skill does not derive or validate these fields itself; it stores whatever `stage-recap` hands it, unchanged, the same relationship it already has with `stage_id`.
 
 ## Scheduling (SM-2-lite; simple on purpose) — run the script, don't re-derive the arithmetic
 - New card: `interval_sessions = 1`, `ease = 2.3`, `lapses = 0`, `due_at_slot` = the current slot + 1 (no script call needed for a brand-new card — there's nothing to compute yet).

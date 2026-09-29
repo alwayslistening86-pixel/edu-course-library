@@ -62,6 +62,12 @@ subjects/<course_id>.json 3 -> 4 (1.4.0, the tutor-core adaptive layer), mechani
   - remediation -> added as {} if absent. Owned by remediation_state.py; an empty object means no
     stage has ever needed remediation, not that remediation is unavailable.
 
+subjects/<course_id>.json 4 -> 5 (1.5.0, per-item BKT mastery), mechanical only:
+  - item_mastery -> added as {} if absent. Owned from here on by item_mastery.py; an empty object
+    means no item has an observation yet (every `status` lookup already treats a missing key as
+    "prior only", so this is purely making the field's presence match what that script expects on
+    an older file, the same reasoning as error_patterns above).
+
 Usage:
     python3 migrate_schema.py course <course.json path>
     python3 migrate_schema.py subject <subjects.json path> <matching course.json path>
@@ -74,7 +80,7 @@ import os
 import sys
 
 COURSE_SCHEMA_VERSION = 4
-SUBJECT_SCHEMA_VERSION = 4
+SUBJECT_SCHEMA_VERSION = 5
 SUBJECT_DEFAULT_CONFIDENCE = 0.5
 
 
@@ -220,6 +226,10 @@ def migrate_subject(subj_path, course_path):
     if "remediation" not in d:
         d["remediation"] = {}
         changed_fields.append("remediation: added as {}")
+
+    if "item_mastery" not in d:
+        d["item_mastery"] = {}
+        changed_fields.append("item_mastery: added as {}")
 
     if "cohort_id" not in d or d.get("cohort_id") is None:
         academic_level = course.get("academic_level")
