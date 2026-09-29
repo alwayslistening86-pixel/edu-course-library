@@ -1,0 +1,369 @@
+{
+  "stage_rubrics": {
+    "L01_Nouns_Adjectives_Pronouns": {
+      "criteria": [
+        "Declines first-, second- and third-declension nouns accurately in all cases",
+        "States or recognises fourth- and fifth-declension nouns from their genitive singular",
+        "Agrees adjectives correctly by gender/number/case even across different declension patterns",
+        "Forms comparatives and superlatives accurately, including the irregular forms",
+        "Recognises the required pronouns and pronominal adjectives from the defined vocabulary list"
+      ],
+      "pass_threshold": "Secure, accurate declining of first-, second- and third-declension nouns and regular adjectives is required to pass; recognition of fourth/fifth declensions and pronouns should be reliable, allowing occasional slips under exam pressure.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Appendix B Accidence",
+        "reference": "Eduqas GCSE Latin specification, Appendix B (nouns, adjectives, pronouns)",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "L02_Verbs_Present_System": {
+      "criteria": [
+        "Conjugates the present indicative active accurately across all four conjugations, including the -iō subgroup",
+        "Forms the imperfect accurately and translates it with the correct ongoing/habitual sense",
+        "Forms the future accurately, using the correct pattern for 1st/2nd versus 3rd/4th conjugations",
+        "Recognises and translates the required forms of sum, possum, eo, fero, volo and nolo"
+      ],
+      "pass_threshold": "Accurate, reliable conjugation of the present, imperfect and future indicative active, and recognition of the six irregular verbs' key forms.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Appendix B Accidence",
+        "reference": "Eduqas GCSE Latin specification, Appendix B (verb conjugation, present system)",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "L03_Verbs_Perfect_System_Passive_Deponent": {
+      "criteria": [
+        "Forms the perfect and pluperfect indicative active accurately, using the correct perfect stem",
+        "Forms and translates the passive voice accurately across present, future, imperfect, perfect and pluperfect",
+        "Agrees the perfect passive participle correctly with its subject",
+        "Recognises deponent verbs and translates them with active meaning despite their passive form"
+      ],
+      "pass_threshold": "Accurate perfect and pluperfect active; secure recognition and translation of the passive across present, future, imperfect, perfect and pluperfect; correct handling of deponent verbs (passive form, active meaning).",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Appendix B Accidence",
+        "reference": "Eduqas GCSE Latin specification, Appendix B (verb conjugation, perfect system and voice)",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "L04_Nonfinite_Forms_and_Subjunctive": {
+      "criteria": [
+        "Forms the present infinitive accurately and uses it correctly after possum/volo/debeo-type verbs",
+        "Forms and translates present and perfect passive participles accurately, with correct agreement",
+        "Forms positive imperatives accurately across conjugations",
+        "Forms the imperfect and pluperfect subjunctive accurately and recognises them as a signal of a subordinate construction"
+      ],
+      "pass_threshold": "Reliable formation and translation of the present infinitive, participles and imperative; recognition of the subjunctive's form and its signal that a subordinate clause needs special translation.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Appendix B Accidence",
+        "reference": "Eduqas GCSE Latin specification, Appendix B (infinitives, participles, imperative, subjunctive)",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "L05_Syntax_Cases_Prepositions_Clauses": {
+      "criteria": [
+        "Identifies and translates the core function of each case correctly, including time expressions",
+        "Translates prepositional phrases with the correct case-governed meaning",
+        "Translates relative clauses correctly, including where the relative pronoun's case differs from its antecedent's",
+        "Distinguishes and translates temporal, causal and concessive clauses correctly"
+      ],
+      "pass_threshold": "Reliable identification of case function without relying on word order, accurate translation of common prepositional phrases, and correct translation of relative/temporal/causal/concessive clauses.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Appendix B Syntax",
+        "reference": "Eduqas GCSE Latin specification, Appendix B (case usage, prepositions, subordinate clauses with the indicative)",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "L06_Syntax_Indirect_Speech_Constructions": {
+      "criteria": [
+        "Translates indirect statement accurately, including tense of the infinitive",
+        "Translates indirect questions accurately, recognising the subjunctive as the construction's signal",
+        "Distinguishes indirect command from result clause correctly, both using ut + subjunctive",
+        "Translates participial phrases correctly and distinguishes them from the (excluded) ablative absolute",
+        "Translates open conditionals and purpose/result clauses accurately"
+      ],
+      "pass_threshold": "Accurate, confident translation of indirect statement, question and command, correct handling of participial phrases and conditionals, and correct distinguishing of purpose from result clauses.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Appendix B Syntax",
+        "reference": "Eduqas GCSE Latin specification, Appendix B (indirect speech, participial constructions, conditionals, purpose/result)",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "L07_Translation_Technique_and_Component1_Assessment": {
+      "criteria": [
+        "Applies the main-verb-first reading strategy consistently rather than translating left to right",
+        "Gives natural, paraphrased English for comprehension answers rather than forcing an exact match",
+        "Identifies correct English derivatives for set vocabulary",
+        "Understands and can describe the structure and weighting of Component 1's three assessed tasks"
+      ],
+      "pass_threshold": "Consistent use of the taught reading strategy on unseen passages, accurate derivation answers, and a working understanding of how each Component 1 task is marked, sufficient to attempt a full timed Component 1 paper.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 1 (Language): scheme of assessment",
+        "reference": "Eduqas GCSE Latin specification, Component 1 assessment structure (1 hour 30 minutes, 100 marks, 50% of the qualification)",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "M01_Livy_Hannibals_Career_and_Omens": {
+      "criteria": [
+        "Explains the historical background (Hamilcar, Spain, Saguntum) accurately and in the right causal order",
+        "Recounts the oath scene with correct detail (who, where, what was sworn)",
+        "Cites specific virtues and vices from the character sketch, not vague summary",
+        "Explains both stages of the dream and its function as foreshadowing",
+        "Describes the Rhone crossing and the elephant deception accurately"
+      ],
+      "pass_threshold": "Secure, accurate recall of the narrative content and sequence of events across passages A-D, with the historical context correctly explained and specific Latin vocabulary/detail from the passages cited in support, not vague paraphrase alone.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 3A Latin Literature and Sources — Livy, Hannibal Crosses the Alps",
+        "reference": "Eduqas GCSE Latin specification, Component 3A prescribed text (Livy 21), passages A-D",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "M02_Livy_Alps_Ascent_Descent_and_Style": {
+      "criteria": [
+        "Recounts the foothills, ascent, landslide and descent in the correct sequence with accurate detail",
+        "Explains Hannibal's summit speech and its function in the narrative",
+        "Describes the fire-and-vinegar solution accurately and step by step",
+        "Identifies at least four distinct Livian stylistic features by name with a correct example each",
+        "Explains the effect of at least two stylistic features on the reader, not just labelling them"
+      ],
+      "pass_threshold": "Accurate, sequenced recall of the Alpine crossing from foothills to arrival in Italy, plus confident identification of at least four of Livy's stylistic devices with a named effect for each, not just a spotted label.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 3A Latin Literature and Sources — Livy, Hannibal Crosses the Alps",
+        "reference": "Eduqas GCSE Latin specification, Component 3A prescribed text (Livy 21), passages E-H and stylistic features",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "N01_Virgil_Alliance_Banquet_and_Cacus_Lair": {
+      "criteria": [
+        "Locates the episode correctly within the Aeneid's plot and explains its purpose for a Roman audience",
+        "Explains the kinship basis of the Aeneas-Evander alliance accurately",
+        "Explains the banquet's narrative role as the frame for Evander's story",
+        "Describes Cacus's cave and monstrous nature with specific detail, not vague description",
+        "Recounts the cattle theft and its discovery accurately and in the correct order"
+      ],
+      "pass_threshold": "Secure, accurate recall of the narrative content of passages A-D in sequence, correctly locating the episode within the Aeneid's larger plot and explaining why Virgil includes a story about Hercules within a poem about Aeneas.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 3A Latin Literature and Sources — Virgil, Hercules and Cacus",
+        "reference": "Eduqas GCSE Latin specification, Component 3A prescribed text (Aeneid Book 8), passages A-D",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "N02_Virgil_Combat_Cult_and_Future_Rome": {
+      "criteria": [
+        "Recounts the exposure of the cave and the combat accurately and in the correct order",
+        "Explains the founding of the Ara Maxima and its aetiological function correctly",
+        "Summarises the Salii's hymn with specific detail, not vague reference to \"his deeds\"",
+        "Explains the purpose of the tour of future Rome for Virgil's contemporary audience",
+        "Identifies at least three named verse techniques with a correct example and a stated effect for each"
+      ],
+      "pass_threshold": "Accurate, sequenced recall of the combat, the founding of the cult and the tour of future Rome, plus confident identification of at least three of Virgil's verse techniques with the effect of each named precisely.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 3A Latin Literature and Sources — Virgil, Hercules and Cacus",
+        "reference": "Eduqas GCSE Latin specification, Component 3A prescribed text (Aeneid Book 8), passages E-I and stylistic features",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "O01_Roman_Religion_Nature_and_Major_Festivals": {
+      "criteria": [
+        "Explains pax deorum and pietas accurately as practice-based rather than belief-based",
+        "Describes the Lupercalia's date, location and ritual actions with named detail",
+        "Explains the Bona Dea's exclusivity and the source-reliability problem it illustrates",
+        "Describes the Saturnalia's dates, customs and social role-reversal accurately",
+        "Describes the Vestalia's date, ritual actions and the Vestal Virgins' role accurately"
+      ],
+      "pass_threshold": "Accurate description of what Roman religion actually was (practice over belief), and secure, dated, source-supported description of each named festival's ritual actions and social meaning, sufficient to answer a source-based question.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 3B Latin Sources for Topics — Topic 8: Roman Festivals and Worship",
+        "reference": "Eduqas GCSE Latin specification, Component 3B Topic 8 content list, festivals of the religious calendar",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "O02_Death_Rites_Lifecycle_and_Divination": {
+      "criteria": [
+        "Describes Parentalia and Lemuria accurately, including dates and the contrast in mood/purpose",
+        "Describes at least two life-cycle rites accurately with correct named ritual objects or actions",
+        "Describes sacrificial procedure accurately and in the correct sequence, including the role of the victimarius",
+        "Explains Roman afterlife belief as varied rather than fixed, with correct supporting detail",
+        "Distinguishes augury and haruspicy and explains the fasti/nefasti calendar distinction correctly"
+      ],
+      "pass_threshold": "Accurate, dated description of the festivals of the dead and their distinct moods, correct sequencing of life-cycle rites, accurate step-by-step description of sacrificial procedure, and secure explanation of Roman afterlife belief and divination practice, all supported by named sources or practices.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 3B Latin Sources for Topics — Topic 8: Roman Festivals and Worship",
+        "reference": "Eduqas GCSE Latin specification, Component 3B Topic 8 content list, life, death and the calendar",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    },
+    "O03_Temples_Deities_Priesthoods_Household_and_Sources": {
+      "criteria": [
+        "Identifies named temples correctly with an accurate function for each",
+        "Matches named deities correctly to their spheres and associated festivals",
+        "Distinguishes the priesthoods' distinct roles correctly, not treating them as interchangeable",
+        "Describes household religion and the lararium accurately with specific detail",
+        "Evaluates at least two different source types explicitly, stating a strength and a limitation for each"
+      ],
+      "pass_threshold": "Accurate identification of named temples and deities with their correct functions, correct distinction between the major priesthoods' duties, secure description of household religion, and a genuine evaluative comparison of what literary, inscriptional and archaeological evidence each can and cannot establish, sufficient for a full Component 3B source-based answer.",
+      "source": {
+        "issuing_body": "WJEC Eduqas",
+        "document": "WJEC Eduqas GCSE Latin (C990) specification, Component 3B Latin Sources for Topics — Topic 8: Roman Festivals and Worship",
+        "reference": "Eduqas GCSE Latin specification, Component 3B Topic 8 content list, institutions and sources",
+        "urls": [
+          "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+          "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+          "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+          "https://en.wikipedia.org/wiki/Livy",
+          "https://en.wikipedia.org/wiki/Aeneid",
+          "https://en.wikipedia.org/wiki/Roman_festivals",
+          "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Component 1: translates and comprehends the unseen passage accurately, correctly weighting finite verbs and comparatives/superlatives, and completes the Section B choice competently within its first-conjugation/first-second-declension scope",
+      "Component 1: correctly identifies and translates at least three distinct required Appendix B accidence or syntax constructions as they occur in the set passage",
+      "Component 3A: recounts Livy's Hannibal narrative accurately with at least one correctly named and explained stylistic feature",
+      "Component 3A: recounts Virgil's Hercules and Cacus narrative accurately with at least one correctly named and explained verse technique",
+      "Component 3B: identifies the correct festival/deity/practice from the source scenario, describes its ritual detail accurately, and evaluates the source type's strengths and limitations explicitly"
+    ],
+    "pass_threshold": "A genuine, curriculum-representative attempt at all three components' question types, marked against the rubric's exam_rubric criteria; a pass requires accurate, well-evidenced answers across accidence/syntax translation and comprehension (Component 1), both prescribed literature texts (Component 3A), and the Topic 8 source-based questions (Component 3B), not strength in only one component.",
+    "source": {
+      "issuing_body": "WJEC Eduqas",
+      "document": "WJEC Eduqas GCSE Latin (C990) specification, scheme of assessment",
+      "reference": "Eduqas GCSE Latin specification, Components 1, 3A and 3B (Component 2 Roman Civilisation not selected in this build)",
+      "urls": [
+        "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+        "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+        "https://www.eduqas.co.uk/qualifications/classical-greek-and-latin/",
+        "https://en.wikipedia.org/wiki/Livy",
+        "https://en.wikipedia.org/wiki/Aeneid",
+        "https://en.wikipedia.org/wiki/Roman_festivals",
+        "https://en.wikipedia.org/wiki/Religion_in_ancient_Rome"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.eduqas.co.uk/qualifications/latin/gcse/",
+    "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf"
+  ],
+  "source_notes": [
+    "WJEC Eduqas GCSE Latin (C990) specification, first teaching September 2019 (Appendix B accidence/syntax list; scheme of assessment weightings).",
+    "Eduqas GCSE Latin subject newsletters, January 2026 and September 2025 (confirmation of the Livy/Virgil set-text pairing for the 2026-27 cycle and Topic 8 as an available Component 3B topic).",
+    "Eduqas Component 1 Latin Marking Scheme, Summer 2023 (publicly rehosted copy) for the real balance of assessment objectives used to write this course's rubric language.",
+    "Livy, Ab Urbe Condita Book 21 (Hannibal Crosses the Alps) and Virgil, Aeneid Book 8 lines 184-305 (Hercules and Cacus): standard, widely published narrative content, used here only in original paraphrase and analysis, never verbatim beyond a few words."
+  ]
+}

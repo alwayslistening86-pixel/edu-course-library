@@ -1,0 +1,60 @@
+{
+  "schema_version": 4,
+  "name": "Biomedical Engineering BEng (Hons) -- Loughborough University programme structure, QAA Engineering Benchmark graded",
+  "requires_complete": [
+    "alevel_mathematics",
+    "alevel_physics"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "real_programme": "Biomedical Engineering BEng (Hons), UCAS H160 (3yr) / H161 (4yr with placement)",
+    "route_note": "This course follows the 3-year (H160) content spine; the placement year (H161) adds a supervised industry placement with no additional taught syllabus content, so both routes share this course."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "Loughborough University Biomedical Engineering BEng (Hons), UCAS code H160 (3-year full-time) / H161 (4-year with placement year), read live at lboro.ac.uk on 2026-09-27 for the course overview, real entry requirements ('A level: AAB including Maths with one from Chemistry, Biology and Physics') and the real compulsory/optional module titles for Years 1-3 (Year 1: Design and Make Project 1, Chemical Engineering Science, Mathematical Methods in Bioengineering, Introductory Materials Science, Anatomy and Physiology, Integrated Product Design; Year 2: Design and Make Project 2, Bioengineering Thermofluids, Data Analysis and Modelling, Digital Systems, Biochemistry and Cell Biology, Materials Characterisation, Biomaterials 1, Bioengineering Individual Project, Biomedical Component Design, optional Body Composition and Physiological Measurement; Year 3: Data Analysis, Product Innovation Management, Healthcare Engineering, optional Biochemical Engineering, Bioelectricity and Biophotonics Engineering, Additive Manufacturing for Product Development, Biomaterials 2, Regenerative Medicine, Emerging Technologies for Sport Health and Wellbeing, Sports Engineering). Cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023). Loughborough's internal module-by-module syllabus content (detailed learning outcomes, week-by-week content and reading lists, and its own internal module-code numbering) sits behind its module catalogue and student portal and was not accessible; everywhere this course itemises a topic under a real Loughborough module title, the content taught is the standard, well-established topic breakdown for that biomedical-engineering subject area found in any BEng-level biomedical/bioengineering textbook or module descriptor, verified from standard sources rather than from Loughborough's own gated materials -- see SOURCE_NOTES/rubric.json for the specific texts referenced. This course maps its own 13-stage, per-topic-area structure onto Loughborough's real Year 1/2/3 module titles as recorded in each stage's curriculum_map.json entry, compresses Loughborough's roughly 20+ modules (including options, the individual project, and hands-on Design and Make/laboratory modules) to the ~76-item taught core listed in the module_scope learner notice below, and declares the hands-on/fabrication/laboratory components out of scope per the practical_scope learner notice, teaching theory and design work only. Stage tests are original short-answer and calculation questions in the style of a UK engineering degree's structured written papers, never real Loughborough assessment questions (which were not accessible); every numerical answer was computed with Python when the course was built.",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (Bachelor's degree with Honours), per QAA Framework for Higher Education Qualifications and the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires alevel_mathematics and alevel_physics to be complete. Loughborough's real published entry requirement is 'A level: AAB including Maths with one from Chemistry, Biology and Physics' -- i.e. it treats Physics as one of three interchangeable second-science options alongside Chemistry and Biology, not as a name-specific hard requirement. This course nonetheless fixes A-level Physics (not Biology or Chemistry) as the hard co-requirement alongside Maths, because this course's own content -- biomechanics (statics, moments, stress/strain), materials science, and bioelectricity/biophotonics instrumentation -- draws directly and continuously on A-level Physics mechanics, materials and electricity content in a way the alternative sciences do not replace; a learner who took Biology or Chemistry instead of Physics at A-level would be missing load-bearing prerequisite knowledge this course assumes throughout, even though a real Loughborough offer holder could have taken that route. A-level Further Mathematics and A-level Biology/Chemistry are not made hard prerequisites: Further Maths goes beyond what this course's mathematics actually uses (first-order ODEs, statistics, linear regression -- all within core A-level Maths, per this course's own alevel_mathematics), so it is recorded only as a learner_notices recommendation for a learner who wants extra mathematical fluency; Biology and Chemistry are recorded as learner_notices, since they usefully deepen the physiology/biochemistry and materials-chemistry content respectively but are not load-bearing the way Physics is here."
+    },
+    {
+      "id": "practical_scope",
+      "text": "The real Loughborough programme includes hands-on components this course does not attempt to teach: two Design and Make Project modules (physical fabrication and workshop practice), practical/laboratory work within Materials Characterisation, Digital Systems and the Bioengineering Individual Project, and hands-on CAD software operation within Integrated Product Design. Matching this library's existing convention (used in engineering_design) of declaring the hands-on apparatus/workshop list out of scope, this course's S04 (design process) is theory-and-design only -- specification writing, concept generation, evaluation and technical-drawing convention as written/verbal design work, never physical prototyping, fabrication or CAD-tool operation -- and no stage in this course claims to teach or assess laboratory/workshop practical skills. A learner who completes this course has the underpinning theory and design-calculation knowledge, not certified hands-on laboratory or fabrication competence."
+    },
+    {
+      "id": "module_scope",
+      "text": "This compressed, ~76-item build teaches the core biomedical-engineering topic spine (anatomy/physiology, mathematical and statistical methods, materials science, engineering design process, biomechanics, biomaterials, data analysis, biochemistry/cell biology, bioelectric and biophotonic instrumentation, and healthcare engineering/regulation/professional practice) mapped onto Loughborough's real Year 1-3 compulsory module titles. Declared out of scope: Chemical Engineering Science and Digital Systems (adjacent engineering disciplines rather than biomedical-engineering core content), the Bioengineering Individual Project (a supervised research project, not taught syllabus content), and the optional Year 2/3 modules (Body Composition and Physiological Measurement, Biochemical Engineering, Additive Manufacturing for Product Development, Emerging Technologies for Sport Health and Wellbeing, and Sports Engineering) since Loughborough itself treats these as optional, not core to every student's route."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Human_Anatomy_and_Physiology_for_Engineers",
+    "S02_Mathematical_and_Statistical_Methods_for_Bioengineering",
+    "S03_Introductory_Materials_Science_for_Engineers",
+    "S04_Engineering_Design_Process_for_Healthcare",
+    "S05_Biomechanics_I_Statics_and_Musculoskeletal_Mechanics",
+    "S06_Biomechanics_II_Mechanics_of_Biological_Tissue",
+    "S07_Biomaterials_I_Tissue_Engineering_and_Implants",
+    "S08_Data_Analysis_and_Modelling_for_Bioengineers",
+    "S09_Biochemistry_and_Cell_Biology_for_Engineers",
+    "S10_Bioelectricity_and_Medical_Instrumentation",
+    "S11_Biophotonics_Signal_Processing_and_Biomedical_Component_Design",
+    "S12_Biomaterials_II_Drug_Delivery_and_Regenerative_Medicine",
+    "S13_Healthcare_Engineering_Systems_Regulation_and_Professional_Practice"
+  ]
+}

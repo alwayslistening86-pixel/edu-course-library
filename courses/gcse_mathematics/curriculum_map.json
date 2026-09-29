@@ -1,0 +1,1100 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "OCR GCSE (9-1) Mathematics J560 specification, subject content sections 1-12 (OCR reference codes)",
+    "url": "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+    "version": "Version 2.1, August 2026",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.01a",
+      "title": "Four operations with positive and negative integers",
+      "topic_area": "OCR 1 Number"
+    },
+    {
+      "id": "1.02a",
+      "title": "Vocabulary: odd, even, prime, factor, multiple, square, cube, root",
+      "topic_area": "OCR 1 Number"
+    },
+    {
+      "id": "1.02b",
+      "title": "Primes and prime factorisation (index notation at Higher)",
+      "topic_area": "OCR 1 Number"
+    },
+    {
+      "id": "1.02c",
+      "title": "HCF and LCM (from prime factorisations at Higher)",
+      "topic_area": "OCR 1 Number"
+    },
+    {
+      "id": "1.03a",
+      "title": "Conventional order of operations",
+      "topic_area": "OCR 1 Number"
+    },
+    {
+      "id": "1.04a",
+      "title": "Inverse operations and checking",
+      "topic_area": "OCR 1 Number"
+    },
+    {
+      "id": "2.01a",
+      "title": "Equivalent fractions and mixed numbers",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.01b",
+      "title": "Fraction arithmetic including mixed numbers (improper fractions at Higher)",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.01c",
+      "title": "Fractions of quantities; one quantity as a fraction of another",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.02a",
+      "title": "Fractions to decimals; place value; recurring decimals to fractions (Higher)",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.02b",
+      "title": "Decimal arithmetic including negatives, without a calculator",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.02c",
+      "title": "Dividing decimals without a calculator",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.03a",
+      "title": "Convert between fractions, decimals and percentages",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.03b",
+      "title": "Percentage as parts per hundred; calculating percentages",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.03c",
+      "title": "Percentage increase and decrease; simple interest; multipliers and reverse percentages (Higher)",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.04a",
+      "title": "Order integers, fractions, decimals and percentages",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "2.04b",
+      "title": "Comparison symbols",
+      "topic_area": "OCR 2 Fractions, decimals and percentages"
+    },
+    {
+      "id": "3.01a",
+      "title": "Positive and negative indices; fractional indices (Higher)",
+      "topic_area": "OCR 3 Indices and surds"
+    },
+    {
+      "id": "3.01b",
+      "title": "Integer powers and exact roots; recognising simple powers",
+      "topic_area": "OCR 3 Indices and surds"
+    },
+    {
+      "id": "3.01c",
+      "title": "Laws of indices (Higher)",
+      "topic_area": "OCR 3 Indices and surds"
+    },
+    {
+      "id": "3.02a",
+      "title": "Standard form: interpret, order, convert",
+      "topic_area": "OCR 3 Indices and surds"
+    },
+    {
+      "id": "3.02b",
+      "title": "Arithmetic with standard form (Higher)",
+      "topic_area": "OCR 3 Indices and surds"
+    },
+    {
+      "id": "3.03a",
+      "title": "Exact calculation with fractions, multiples of pi and surds",
+      "topic_area": "OCR 3 Indices and surds"
+    },
+    {
+      "id": "3.03b",
+      "title": "Simplify surds; rationalise denominators (Higher)",
+      "topic_area": "OCR 3 Indices and surds"
+    },
+    {
+      "id": "4.01a",
+      "title": "Rounding: tens, hundreds, significant figures, decimal places",
+      "topic_area": "OCR 4 Approximation and estimation"
+    },
+    {
+      "id": "4.01b",
+      "title": "Estimating calculations by approximation",
+      "topic_area": "OCR 4 Approximation and estimation"
+    },
+    {
+      "id": "4.01c",
+      "title": "Error intervals; upper and lower bounds (Higher)",
+      "topic_area": "OCR 4 Approximation and estimation"
+    },
+    {
+      "id": "5.01a",
+      "title": "Ratios as a:b and 1:n; simplifying",
+      "topic_area": "OCR 5 Ratio, proportion and rates of change"
+    },
+    {
+      "id": "5.01b",
+      "title": "Splitting a quantity in a ratio (three or more parts at Higher)",
+      "topic_area": "OCR 5 Ratio, proportion and rates of change"
+    },
+    {
+      "id": "5.01c",
+      "title": "Ratio as a fraction of the whole",
+      "topic_area": "OCR 5 Ratio, proportion and rates of change"
+    },
+    {
+      "id": "5.01d",
+      "title": "Simple ratio and proportion problems; ratio and linear functions (Higher)",
+      "topic_area": "OCR 5 Ratio, proportion and rates of change"
+    },
+    {
+      "id": "5.02a",
+      "title": "Direct proportion; y = kx (Higher)",
+      "topic_area": "OCR 5 Ratio, proportion and rates of change"
+    },
+    {
+      "id": "5.02b",
+      "title": "Inverse proportion; y = k/x (Higher)",
+      "topic_area": "OCR 5 Ratio, proportion and rates of change"
+    },
+    {
+      "id": "5.03a",
+      "title": "Simple and compound interest, depreciation; exponential growth and decay (Higher)",
+      "topic_area": "OCR 5 Ratio, proportion and rates of change"
+    },
+    {
+      "id": "6.01a",
+      "title": "Vocabulary of expressions, equations, formulae, inequalities; equivalence",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.01b",
+      "title": "Simplify by collecting like terms",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.01c",
+      "title": "Simplify products and quotients with index laws (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.01d",
+      "title": "Expand brackets; multiply binomials",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.01e",
+      "title": "Common factors; factorise quadratics (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.01f",
+      "title": "Complete the square (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.01g",
+      "title": "Algebraic fractions (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.02a",
+      "title": "Form formulae and expressions from contexts",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.02b",
+      "title": "Substitute values into formulae",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.02c",
+      "title": "Rearrange formulae, including repeated subject (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.02d",
+      "title": "Recall standard formulae (circle, Pythagoras, trigonometry, quadratic, sine/cosine rules)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.02e",
+      "title": "Constant-acceleration (kinematics) formulae",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.03a",
+      "title": "Solve linear equations; set up from context",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.03b",
+      "title": "Solve quadratics by factorising; quadratic formula (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.03c",
+      "title": "Simultaneous equations; linear/quadratic pairs (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.03d",
+      "title": "Approximate solutions from graphs",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.03e",
+      "title": "Iterative sign-change methods (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.04a",
+      "title": "Linear and quadratic inequalities",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.04b",
+      "title": "Inequalities in two variables, graphically (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.05a",
+      "title": "Functions: input/output, inverse and composite functions",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.06a",
+      "title": "Sequences: position-to-term rules and nth term (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "6.06b",
+      "title": "Special sequences and other nth-term sequences (Higher)",
+      "topic_area": "OCR 6 Algebra"
+    },
+    {
+      "id": "7.01a",
+      "title": "Coordinates in all four quadrants",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.01b",
+      "title": "Plot graphs from tables of values",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.01c",
+      "title": "Recognise and sketch linear, quadratic, cubic and reciprocal graphs (Higher)",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.01d",
+      "title": "Exponential graphs (Higher)",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.01e",
+      "title": "Sine, cosine and tangent graphs (Higher)",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.01f",
+      "title": "Equations of circles centred on the origin (Higher)",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.02a",
+      "title": "Gradient and intercept; y = mx + c",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.02b",
+      "title": "Parallel and perpendicular lines; tangent to a circle (Higher)",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.03a",
+      "title": "Translations and reflections of graphs",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.04a",
+      "title": "Real-life graphs; proportion relationships",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.04b",
+      "title": "Gradient as rate of change",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "7.04c",
+      "title": "Area under a graph",
+      "topic_area": "OCR 7 Graphs of equations and functions"
+    },
+    {
+      "id": "8.01a",
+      "title": "Vocabulary: points, lines, planes, parallel, perpendicular",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.01b",
+      "title": "Angle types; labelling conventions for triangles",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.01c",
+      "title": "Polygon terminology",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.01d",
+      "title": "Polyhedra terminology: face, edge, vertex, prism, pyramid etc.",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.01e",
+      "title": "Draw diagrams from written descriptions",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.01f",
+      "title": "Constructions with ruler, protractor, compasses",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.01g",
+      "title": "Coordinates in plane geometry",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.02a",
+      "title": "Perpendicular bisector and midpoint constructions",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.02b",
+      "title": "Angle bisector construction",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.02c",
+      "title": "Perpendicular from a point to a line (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.02d",
+      "title": "Loci from constructions (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.03a",
+      "title": "Angles at a point; angle proofs",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.03b",
+      "title": "Angles on a straight line",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.03c",
+      "title": "Angles in parallel lines",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.03d",
+      "title": "Angle sum of triangles and polygons",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.04a",
+      "title": "Properties of triangles",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.04b",
+      "title": "Properties of quadrilaterals",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.04c",
+      "title": "Reflection and rotation symmetry of polygons",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05a",
+      "title": "Circle terminology (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05b",
+      "title": "Circle theorem: angle at centre is twice angle at circumference (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05c",
+      "title": "Circle theorem: angle in a semicircle (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05d",
+      "title": "Circle theorem: angles in the same segment (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05e",
+      "title": "Circle theorem: radius and chord (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05f",
+      "title": "Circle theorem: radius and tangent (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05g",
+      "title": "Circle theorem: tangent-chord (alternate segment) (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.05h",
+      "title": "Circle theorem: cyclic quadrilateral (Higher)",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.06a",
+      "title": "Properties of cube, cuboid, prism, cylinder, pyramid, cone, sphere",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "8.06b",
+      "title": "Plans and elevations of 3D solids",
+      "topic_area": "OCR 8 Basic geometry"
+    },
+    {
+      "id": "9.01a",
+      "title": "Reflect shapes in mirror lines",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.01b",
+      "title": "Rotate shapes about a centre",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.01c",
+      "title": "Column vectors for translations",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.01d",
+      "title": "Sequences of transformations; describing the result",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.02a",
+      "title": "Congruent triangles and proofs (SSS, ASA, SAS, RHS)",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.02b",
+      "title": "Using congruence in calculations and proofs",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.03a",
+      "title": "Vector addition, subtraction, scalar multiplication; vector proofs",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.03b",
+      "title": "Column-vector representation on coordinate grids",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.04a",
+      "title": "Similar triangles and proofs",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.04b",
+      "title": "Enlargement, including fractional and negative scale factors",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "9.04c",
+      "title": "Length, area and volume ratios for similar shapes",
+      "topic_area": "OCR 9 Congruence and similarity"
+    },
+    {
+      "id": "10.01a",
+      "title": "Convert standard units",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.01b",
+      "title": "Compound units: speed, density, pressure",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.01c",
+      "title": "Map scales, bearings, scale drawings",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.02a",
+      "title": "Perimeter of rectilinear shapes",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.02b",
+      "title": "Circumference and arc length",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.02c",
+      "title": "Perimeter of composite shapes",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.03a",
+      "title": "Area of triangles, including 1/2 ab sin C",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.03b",
+      "title": "Area of parallelograms",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.03c",
+      "title": "Area of trapezia",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.03d",
+      "title": "Area of circles and sectors",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.03e",
+      "title": "Area of composite shapes",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.04a",
+      "title": "Surface area and volume of cuboids, prisms, cylinders",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.04b",
+      "title": "Surface area and volume of spheres, cones, composite solids",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.04c",
+      "title": "Surface area and volume of pyramids",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.05a",
+      "title": "Pythagoras' theorem in 2D and 3D",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.05b",
+      "title": "Trigonometric ratios in right-angled triangles, 2D and 3D",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.05c",
+      "title": "Exact trigonometric values for 0, 30, 45, 60, 90 degrees",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.05d",
+      "title": "Sine rule",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "10.05e",
+      "title": "Cosine rule",
+      "topic_area": "OCR 10 Mensuration"
+    },
+    {
+      "id": "11.01a",
+      "title": "Probability scale 0 to 1",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.01b",
+      "title": "Relative frequency recorded in tables and trees",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.01c",
+      "title": "Estimating probability from repeated trials",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.01d",
+      "title": "Equally likely outcomes; expected outcomes",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.02a",
+      "title": "Outcome tables and grids",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.02b",
+      "title": "Systematic listing and the product rule for counting",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.02c",
+      "title": "Two-circle Venn diagrams and probability",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.02d",
+      "title": "Tree diagrams for successive events",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.02e",
+      "title": "Addition law for mutually exclusive events; complement rule",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "11.02f",
+      "title": "Independent and dependent events; conditional probability (Higher)",
+      "topic_area": "OCR 11 Probability"
+    },
+    {
+      "id": "12.01a",
+      "title": "Populations, samples, random sampling and bias",
+      "topic_area": "OCR 12 Statistics"
+    },
+    {
+      "id": "12.02a",
+      "title": "Charts for categorical and time-series data",
+      "topic_area": "OCR 12 Statistics"
+    },
+    {
+      "id": "12.02b",
+      "title": "Diagrams for grouped data (Higher)",
+      "topic_area": "OCR 12 Statistics"
+    },
+    {
+      "id": "12.03a",
+      "title": "Summary statistics; comparing distributions with quartiles (Higher)",
+      "topic_area": "OCR 12 Statistics"
+    },
+    {
+      "id": "12.03b",
+      "title": "Misleading graphs (bad scales or labels)",
+      "topic_area": "OCR 12 Statistics"
+    },
+    {
+      "id": "12.03c",
+      "title": "Scatter diagrams; correlation vs causation",
+      "topic_area": "OCR 12 Statistics"
+    },
+    {
+      "id": "12.03d",
+      "title": "Outliers and data errors",
+      "topic_area": "OCR 12 Statistics"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Integers_Primes_and_Order": {
+    "covers_syllabus_refs": [
+      "OCR 1 Number"
+    ],
+    "syllabus_topic": "Number",
+    "covers_items": [
+      "1.01a",
+      "1.02a",
+      "1.02b",
+      "1.02c",
+      "1.03a",
+      "1.04a"
+    ]
+  },
+  "S02_Fractions_and_Decimals": {
+    "covers_syllabus_refs": [
+      "OCR 2 Fractions, decimals and percentages"
+    ],
+    "syllabus_topic": "Fractions, decimals and percentages",
+    "covers_items": [
+      "2.01a",
+      "2.01b",
+      "2.01c",
+      "2.02a",
+      "2.02b",
+      "2.02c",
+      "2.04a",
+      "2.04b"
+    ]
+  },
+  "S03_Percentages_and_Growth": {
+    "covers_syllabus_refs": [
+      "OCR 2 Fractions, decimals and percentages",
+      "OCR 5 Ratio, proportion and rates of change"
+    ],
+    "syllabus_topic": "Fractions, decimals and percentages; Ratio, proportion and rates",
+    "covers_items": [
+      "2.03a",
+      "2.03b",
+      "2.03c",
+      "5.03a"
+    ]
+  },
+  "S04_Rounding_Estimation_and_Bounds": {
+    "covers_syllabus_refs": [
+      "OCR 4 Approximation and estimation"
+    ],
+    "syllabus_topic": "Approximation and estimation",
+    "covers_items": [
+      "4.01a",
+      "4.01b",
+      "4.01c"
+    ]
+  },
+  "S05_Indices_Roots_Standard_Form_and_Surds": {
+    "covers_syllabus_refs": [
+      "OCR 3 Indices and surds"
+    ],
+    "syllabus_topic": "Indices and surds",
+    "covers_items": [
+      "3.01a",
+      "3.01b",
+      "3.01c",
+      "3.02a",
+      "3.02b",
+      "3.03a",
+      "3.03b"
+    ]
+  },
+  "S06_Ratio_and_Proportion": {
+    "covers_syllabus_refs": [
+      "OCR 5 Ratio, proportion and rates of change"
+    ],
+    "syllabus_topic": "Ratio, proportion and rates of change",
+    "covers_items": [
+      "5.01a",
+      "5.01b",
+      "5.01c",
+      "5.01d",
+      "5.02a",
+      "5.02b"
+    ]
+  },
+  "S07_Units_Compound_Measures_and_Scale": {
+    "covers_syllabus_refs": [
+      "OCR 10 Mensuration"
+    ],
+    "syllabus_topic": "Mensuration",
+    "covers_items": [
+      "10.01a",
+      "10.01b",
+      "10.01c"
+    ]
+  },
+  "S08_Algebraic_Expressions": {
+    "covers_syllabus_refs": [
+      "OCR 6 Algebra"
+    ],
+    "syllabus_topic": "Algebra",
+    "covers_items": [
+      "6.01a",
+      "6.01b",
+      "6.01c",
+      "6.01d",
+      "6.02b"
+    ]
+  },
+  "S09_Factorising_Completing_the_Square_and_Algebraic_Fractions": {
+    "covers_syllabus_refs": [
+      "OCR 6 Algebra"
+    ],
+    "syllabus_topic": "Algebra",
+    "covers_items": [
+      "6.01e",
+      "6.01f",
+      "6.01g"
+    ]
+  },
+  "S10_Forming_Rearranging_and_Recalling_Formulae": {
+    "covers_syllabus_refs": [
+      "OCR 6 Algebra"
+    ],
+    "syllabus_topic": "Algebra",
+    "covers_items": [
+      "6.02a",
+      "6.02c",
+      "6.02d",
+      "6.02e"
+    ]
+  },
+  "S11_Linear_Equations_and_Inequalities": {
+    "covers_syllabus_refs": [
+      "OCR 6 Algebra"
+    ],
+    "syllabus_topic": "Algebra",
+    "covers_items": [
+      "6.03a",
+      "6.04a",
+      "6.04b"
+    ]
+  },
+  "S12_Quadratic_and_Simultaneous_Equations_and_Iteration": {
+    "covers_syllabus_refs": [
+      "OCR 6 Algebra"
+    ],
+    "syllabus_topic": "Algebra",
+    "covers_items": [
+      "6.03b",
+      "6.03c",
+      "6.03e"
+    ]
+  },
+  "S13_Functions_and_Sequences": {
+    "covers_syllabus_refs": [
+      "OCR 6 Algebra"
+    ],
+    "syllabus_topic": "Algebra",
+    "covers_items": [
+      "6.05a",
+      "6.06a",
+      "6.06b"
+    ]
+  },
+  "S14_Coordinates_and_Straight_Line_Graphs": {
+    "covers_syllabus_refs": [
+      "OCR 7 Graphs of equations and functions",
+      "OCR 6 Algebra"
+    ],
+    "syllabus_topic": "Graphs of equations and functions",
+    "covers_items": [
+      "7.01a",
+      "7.01b",
+      "7.02a",
+      "7.02b",
+      "6.03d"
+    ]
+  },
+  "S15_Curves_and_Graph_Transformations": {
+    "covers_syllabus_refs": [
+      "OCR 7 Graphs of equations and functions"
+    ],
+    "syllabus_topic": "Graphs of equations and functions",
+    "covers_items": [
+      "7.01c",
+      "7.01d",
+      "7.01e",
+      "7.01f",
+      "7.03a"
+    ]
+  },
+  "S16_Real_Life_Graphs_and_Rates_of_Change": {
+    "covers_syllabus_refs": [
+      "OCR 7 Graphs of equations and functions"
+    ],
+    "syllabus_topic": "Graphs of equations and functions",
+    "covers_items": [
+      "7.04a",
+      "7.04b",
+      "7.04c"
+    ]
+  },
+  "S17_Angles_Polygons_and_Symmetry": {
+    "covers_syllabus_refs": [
+      "OCR 8 Basic geometry"
+    ],
+    "syllabus_topic": "Basic geometry",
+    "covers_items": [
+      "8.01a",
+      "8.01b",
+      "8.01c",
+      "8.03a",
+      "8.03b",
+      "8.03c",
+      "8.03d",
+      "8.04a",
+      "8.04b",
+      "8.04c"
+    ]
+  },
+  "S18_Constructions_Loci_and_Coordinate_Geometry": {
+    "covers_syllabus_refs": [
+      "OCR 8 Basic geometry"
+    ],
+    "syllabus_topic": "Basic geometry",
+    "covers_items": [
+      "8.01e",
+      "8.01f",
+      "8.01g",
+      "8.02a",
+      "8.02b",
+      "8.02c",
+      "8.02d"
+    ]
+  },
+  "S19_Circle_Theorems": {
+    "covers_syllabus_refs": [
+      "OCR 8 Basic geometry"
+    ],
+    "syllabus_topic": "Basic geometry",
+    "covers_items": [
+      "8.05a",
+      "8.05b",
+      "8.05c",
+      "8.05d",
+      "8.05e",
+      "8.05f",
+      "8.05g",
+      "8.05h"
+    ]
+  },
+  "S20_Three_Dimensional_Shapes": {
+    "covers_syllabus_refs": [
+      "OCR 8 Basic geometry"
+    ],
+    "syllabus_topic": "Basic geometry",
+    "covers_items": [
+      "8.01d",
+      "8.06a",
+      "8.06b"
+    ]
+  },
+  "S21_Transformations_and_Vectors": {
+    "covers_syllabus_refs": [
+      "OCR 9 Congruence and similarity"
+    ],
+    "syllabus_topic": "Congruence and similarity",
+    "covers_items": [
+      "9.01a",
+      "9.01b",
+      "9.01c",
+      "9.01d",
+      "9.03a",
+      "9.03b"
+    ]
+  },
+  "S22_Congruence_Similarity_and_Enlargement": {
+    "covers_syllabus_refs": [
+      "OCR 9 Congruence and similarity"
+    ],
+    "syllabus_topic": "Congruence and similarity",
+    "covers_items": [
+      "9.02a",
+      "9.02b",
+      "9.04a",
+      "9.04b",
+      "9.04c"
+    ]
+  },
+  "S23_Perimeter_and_Area": {
+    "covers_syllabus_refs": [
+      "OCR 10 Mensuration"
+    ],
+    "syllabus_topic": "Mensuration",
+    "covers_items": [
+      "10.02a",
+      "10.02b",
+      "10.02c",
+      "10.03a",
+      "10.03b",
+      "10.03c",
+      "10.03d",
+      "10.03e"
+    ]
+  },
+  "S24_Surface_Area_and_Volume": {
+    "covers_syllabus_refs": [
+      "OCR 10 Mensuration"
+    ],
+    "syllabus_topic": "Mensuration",
+    "covers_items": [
+      "10.04a",
+      "10.04b",
+      "10.04c"
+    ]
+  },
+  "S25_Pythagoras_and_Trigonometry": {
+    "covers_syllabus_refs": [
+      "OCR 10 Mensuration"
+    ],
+    "syllabus_topic": "Mensuration",
+    "covers_items": [
+      "10.05a",
+      "10.05b",
+      "10.05c",
+      "10.05d",
+      "10.05e"
+    ]
+  },
+  "S26_Probability_Basics": {
+    "covers_syllabus_refs": [
+      "OCR 11 Probability"
+    ],
+    "syllabus_topic": "Probability",
+    "covers_items": [
+      "11.01a",
+      "11.01b",
+      "11.01c",
+      "11.01d",
+      "11.02a",
+      "11.02b"
+    ]
+  },
+  "S27_Combined_Events_and_Conditional_Probability": {
+    "covers_syllabus_refs": [
+      "OCR 11 Probability"
+    ],
+    "syllabus_topic": "Probability",
+    "covers_items": [
+      "11.02c",
+      "11.02d",
+      "11.02e",
+      "11.02f"
+    ]
+  },
+  "S28_Statistics": {
+    "covers_syllabus_refs": [
+      "OCR 12 Statistics"
+    ],
+    "syllabus_topic": "Statistics",
+    "covers_items": [
+      "12.01a",
+      "12.02a",
+      "12.02b",
+      "12.03a",
+      "12.03b",
+      "12.03c",
+      "12.03d"
+    ]
+  }
+}

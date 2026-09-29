@@ -1,0 +1,20 @@
+# S05_Technology_and_Ethics - Lesson: Technology, ethics and the environment
+
+## Goal
+The learner explains the impact of e-commerce and digital communication on business, and the ethical, environmental and sustainability considerations businesses face.
+
+## Syllabus items taught here
+- 3.2.1 - Technology: the impact of e-commerce and digital communication on business
+- 3.2.2 - Ethical and environmental considerations: ethical trade-offs, environmental impacts (congestion, recycling, waste, pollution) and sustainability
+
+## How to teach this
+Ask the learner how differently they shop now compared with 20 years ago -- most answers involve technology, which has reshaped almost every part of how businesses sell and communicate. GCSE Business has real quantitative content throughout (at least 10% of all marks are quantitative skills): break-even (identifying break-even output and margin of safety from a chart -- AQA does not require the break-even formula or chart-drawing, but understanding the underlying contribution logic is how a learner reads a chart correctly), cash-flow forecasts (net cash flow, opening/closing balance), gross and net profit margins, and average rate of return on an investment. AQA does not give formulae in the exam for gross/net profit margin or average rate of return, so the learner must know these by heart, not just how to plug numbers in. Every numerical worked example in this course was computed and checked when this course was built, and the learner should always be made to show full working. AQA GCSE Business explicitly does NOT examine named motivational theories (e.g. Maslow, Herzberg, Taylor) by name -- only financial and non-financial motivation methods in general terms -- so this course does not teach or test theorist names either.
+
+#### 3.2.1 Technology: the impact of e-commerce and digital communication on business
+**Technology** has transformed business, especially through **e-commerce** (buying and selling online) and **digital communication**. E-commerce lets even a small business reach customers nationally or globally without needing multiple physical shops, often at lower overheads (no need for expensive high-street premises), but it also increases competition (a business now competes with sellers worldwide, not just locally) and requires investment in a website, secure payment systems and delivery/logistics. Digital communication (email, video calls, instant messaging, social media) lets businesses communicate with customers, suppliers and staff faster and more cheaply than traditional post or in-person meetings, and enables flexible/remote working, but can also mean customers expect a faster response and negative reviews/comments can spread quickly online, damaging reputation.
+
+#### 3.2.2 Ethical and environmental considerations: ethical trade-offs, environmental impacts (congestion, recycling, waste, pollution) and sustainability
+Businesses face **ethical considerations** -- doing what is morally 'right' even where not legally required, e.g. paying suppliers in developing countries a fair price, or not exploiting cheap labour, even if this raises costs and lowers profit; a firm choosing the cheapest, most profitable option is not always choosing the most ethical one, and firms must weigh reputation and principle against cost. **Environmental considerations** include a business's impact on **traffic congestion** (e.g. delivery lorries), the amount it **recycles** versus sends to landfill, how it **disposes of waste** (safely or otherwise), and the **noise and air pollution** its operations create. **Sustainability** is about meeting today's needs without compromising future generations' ability to meet theirs -- concerns include contributing to **global warming** (e.g. through carbon emissions) and the use of **scarce (non-renewable) resources** that cannot be replaced once used up. Firms increasingly face pressure from customers, government and investors to act ethically and sustainably, even where doing so costs more in the short term.
+
+## Explicitly not here
+How interest rates, employment, exchange rates and globalisation affect business is S06.

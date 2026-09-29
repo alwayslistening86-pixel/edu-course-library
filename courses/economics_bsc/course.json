@@ -1,0 +1,60 @@
+{
+  "schema_version": 4,
+  "name": "Economics (BSc/BA Hons) — Open University module-framework structure, QAA Economics Benchmark graded",
+  "requires_complete": [
+    "gcse_economics",
+    "alevel_economics"
+  ],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "Open University BA (Honours) Economics, qualification code R30 (confirmed current and live via ucas.com and discoveruni.gov.uk, and via the OU's own qualification page), 2026/27 module list and stage structure. R30 bundles its 360 credits into three stages: Stage 1 (Level 4, 120 credits) DB125 'You and your money' (30), DD126 'Economics in context' (30), MU123 'Discovering mathematics' (30) and M140 'Introducing statistics' (30); Stage 2 (Level 5, 120 credits) D217 'Essential economics: macro and micro perspectives' (60), M248 'Analysing data' (30) and DD226 'Economics in practice' (30); Stage 3 (Level 6, 120 credits) DD320 'Doing economics: inequalities, innovation and environment' (60), DD321 'Economics for a changing world' (30) and M348 'Applied statistical modelling' (30) -- all five module codes and titles independently verified live against open.ac.uk module pages, not merely carried over from the earlier, rate-limited research pass. This course does not reteach Stage 1: DD126's descriptive economics-in-context material and the personal-finance content of DB125 are substantially covered, at an equivalent or greater analytical depth, by the prerequisite GCSE and A-level Economics; MU123's and M140's introductory mathematics/statistics are likewise assumed from GCSE/A-level Mathematics-level numeracy. This course instead opens with a short bridging stage (S01, MQ1-MQ4) covering the calculus and optimisation techniques that D217's intermediate treatment assumes but that A-level Economics does not teach, then builds the full Stage 2 and Stage 3 module content: intermediate microeconomic theory and quantitative tools (S02-S06, D217 micro half), intermediate macroeconomic theory (S07-S10, D217 macro half), statistical inference and regression (S11-S12, M248), applied statistical modelling (S13, M348), and the applied/policy strands (S14 DD320, S15 DD321, S16 DD226 as an integrative capstone). The OU's own detailed unit-by-unit module materials, TMA questions and module handbooks sit behind its student VLE and were not accessible; every topic here uses the standard, institution-agnostic graduate-economics topic breakdown for that subject found in any intermediate microeconomics/macroeconomics/econometrics textbook or module descriptor -- this is core undergraduate economic theory, not institution-specific content -- cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023, current), which the OU's own module pages (fetched live) were consulted alongside for each module's stated topic summary. Stage tests and the cumulative exam are original problems in the style used across UK intermediate/degree economics assessment, never real OU TMA or exam questions; this course's cumulative exam is accordingly an original synthesis assessment spanning every stage, since the OU's own per-module continuous assessment (TMAs plus an EMA or exam per module) is not itemisable from the open web and does not correspond to a single combined final exam in the way this library's exam block models. Every numerical answer in this course was computed with Python when the course was built.",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (Bachelor's degree with Honours), per QAA Framework for Higher Education Qualifications and the QAA Subject Benchmark Statement: Economics",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires GCSE Economics and A-level Economics, matching the roadmap's rule that a degree requires the specific prior qualifications it depends on. It deliberately does not reteach the descriptive economics that GCSE and A-level Economics already cover (supply and demand, market structures described qualitatively, AD/AS, fiscal and monetary policy in outline); every stage here extends that base with formal (typically calculus-based) derivations, statistical/econometric technique, or applied/policy depth the A-level does not reach."
+    },
+    {
+      "id": "current_data",
+      "text": "Economics uses real, changing data (interest rates, inflation, growth, exchange rates, tax and benefit rules). Where this course gives a figure, treat it as an illustration computed for a worked example; for any real analysis, use recent data you have checked from official sources such as the ONS, the Bank of England, the IMF or HM Treasury."
+    },
+    {
+      "id": "assessment_model",
+      "text": "The real OU R30 is assessed through continuous tutor-marked assignments (TMAs) plus a module-level exam or end-of-module assessment (EMA) for each of the ten real modules, not one combined final exam across the whole degree. This course's stage tests substitute for TMA-style formative checkpoints and its cumulative exam is an original, comprehensive synthesis assessment for tutoring purposes -- it does not represent any single real OU assessment."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Quantitative_Tools_for_Economics",
+    "S02_Consumer_Theory",
+    "S03_Producer_Theory",
+    "S04_Market_Structures_with_Calculus",
+    "S05_Game_Theory_and_Strategic_Behaviour",
+    "S06_Welfare_Economics_and_Market_Failure",
+    "S07_National_Income_and_IS_LM",
+    "S08_Aggregate_Supply_Expectations_Phillips",
+    "S09_Economic_Growth_Theory",
+    "S10_Open_Economy_Macroeconomics",
+    "S11_Probability_and_Statistical_Inference",
+    "S12_Regression_Analysis_and_Econometric_Basics",
+    "S13_Applied_Statistical_Modelling",
+    "S14_Inequality_Innovation_and_Environment",
+    "S15_International_and_Global_Economics",
+    "S16_Economic_Policy_Analysis_Capstone"
+  ]
+}

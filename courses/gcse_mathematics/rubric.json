@@ -1,0 +1,559 @@
+{
+  "stage_rubrics": {
+    "S01_Integers_Primes_and_Order": {
+      "criteria": [
+        "Carries out integer operations with correct sign handling and shows working",
+        "Uses factor, multiple, prime, square, cube and root correctly and writes a number as a product of primes (index form at Higher)",
+        "Finds HCF and LCM correctly (by listing at Foundation, from prime factorisations at Higher)",
+        "Applies the order of operations correctly and can check an answer using an inverse operation"
+      ],
+      "pass_threshold": "Foundation: correct on standard integer, factor/multiple and order-of-operations questions (grade 3-5), with working shown. Higher: also finds HCF/LCM from prime factorisations and handles index notation in prime factor products.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 1 Number (codes 1.01a-1.04a), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S02_Fractions_and_Decimals": {
+      "criteria": [
+        "Converts between equivalent fractions, mixed numbers and improper fractions and simplifies fully",
+        "Adds, subtracts, multiplies and divides fractions and mixed numbers correctly with working shown",
+        "Works accurately with decimals by hand (multiplication, division, place value) and converts between fractions and decimals, including recurring at Higher",
+        "Orders numbers given as fractions, decimals and percentages by converting to a common form and uses the comparison symbols correctly"
+      ],
+      "pass_threshold": "Foundation: correct on standard fraction and decimal arithmetic and ordering questions (grade 3-5) with working shown. Higher: also handles improper fractions in complex calculations, recurring-decimal conversion and decimal-by-decimal division.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 2 Fractions, decimals and percentages (codes 2.01a-2.02c, 2.04a-2.04b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 2",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S03_Percentages_and_Growth": {
+      "criteria": [
+        "Converts between fractions, decimals and percentages and finds a percentage of an amount with an efficient, clearly shown method",
+        "Applies a percentage increase or decrease using a single multiplier and expresses one quantity as a percentage of another",
+        "Calculates simple interest correctly, and compound interest or depreciation by repeated multiplication (or a power) at the required accuracy",
+        "Higher: solves a reverse-percentage problem by dividing by the multiplier and writes/uses a growth or decay formula"
+      ],
+      "pass_threshold": "Foundation: correct on percentage-of-amount, percentage change and simple interest questions (grade 3-5). Higher: correctly performs a reverse percentage and a repeated (compound) change, and can write growth or decay as a formula.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 2 (codes 2.03a-2.03c) and section 5 (code 5.03a), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, sections 2 and 5",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S04_Rounding_Estimation_and_Bounds": {
+      "criteria": [
+        "Rounds to the requested number of decimal places or significant figures without mid-calculation rounding errors",
+        "Produces a sensible estimate by rounding each number first and shows the rounded values",
+        "Writes an error interval with correct inequality signs (lower bound included, upper bound excluded)",
+        "Higher: selects the correct bound for each quantity when finding an upper or lower bound of a calculation"
+      ],
+      "pass_threshold": "Foundation: rounds correctly to given accuracy and produces a sensible estimate by rounding first (grade 3-5). Higher: also writes an error interval and finds a bound of a calculation using the correct bounds.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 4 Approximation and estimation (codes 4.01a-4.01c), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 4",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S05_Indices_Roots_Standard_Form_and_Surds": {
+      "criteria": [
+        "Evaluates positive, zero, negative and (Higher) fractional indices, and recalls squares, cubes and their roots",
+        "Applies the laws of indices correctly to numerical and algebraic expressions",
+        "Converts to and from standard form and calculates with it (Higher: multiplication, division, addition, subtraction), always giving a correctly formatted answer",
+        "Higher: simplifies surds, expands surd brackets and rationalises denominators; leaves answers exact when asked"
+      ],
+      "pass_threshold": "Foundation: correct on integer powers, roots, negative indices and standard-form conversion (grade 3-5). Higher: correct on index laws with fractional indices, standard-form arithmetic, surd simplification and rationalising a denominator.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 3 Indices and surds (codes 3.01a-3.03b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 3",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S06_Ratio_and_Proportion": {
+      "criteria": [
+        "Writes, simplifies and compares ratios, including in the form 1 : n",
+        "Shares a quantity in a ratio (two or more parts) and links ratio to fractions of a whole",
+        "Identifies direct and inverse proportion and solves problems with a clear method (unitary or constant of proportionality)",
+        "Higher: forms and uses proportion equations such as y = kx, y = kx^2, y = k/x"
+      ],
+      "pass_threshold": "Foundation: correct on ratio sharing, unit-ratio and simple proportion problems (grade 3-5). Higher: forms and uses proportion equations such as y = kx, y = kx^2 and y = k/x.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 5 Ratio, proportion and rates of change (codes 5.01a-5.02b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 5",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S07_Units_Compound_Measures_and_Scale": {
+      "criteria": [
+        "Converts length, mass, capacity, time and (Higher) area and volume units correctly",
+        "Uses speed, density and pressure formulae with consistent units and states the correct compound unit",
+        "Uses map scales and scale drawings accurately",
+        "Gives three-figure bearings correctly, including back bearings"
+      ],
+      "pass_threshold": "Foundation: converts common units and solves speed/density/pressure and scale questions (grade 3-5). Higher: converts area and volume units and handles compound units in algebraic contexts.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 10 Mensuration (codes 10.01a-10.01c), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 10",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S08_Algebraic_Expressions": {
+      "criteria": [
+        "Uses the terms expression, equation, formula, identity and inequality correctly and shows two expressions are equivalent",
+        "Collects like terms and simplifies expressions (Higher: with index laws, negative and fractional indices)",
+        "Expands single and double brackets accurately (Higher: three brackets) with a clear method",
+        "Substitutes values, including negatives, into formulae with correct order of operations"
+      ],
+      "pass_threshold": "Foundation: correct on collecting like terms, single-bracket and double-bracket expansion, and substitution (grade 3-5). Higher: also simplifies expressions using index laws and expands three linear brackets.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 6 Algebra (codes 6.01a-6.01d, 6.02b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S09_Factorising_Completing_the_Square_and_Algebraic_Fractions": {
+      "criteria": [
+        "Takes out common factors and factorises quadratics of the form x^2 + bx + c, checking by expansion",
+        "Higher: factorises ax^2 + bx + c and a difference of two squares",
+        "Higher: completes the square correctly and uses the result (turning point or minimum)",
+        "Higher: simplifies, adds, subtracts, multiplies and divides algebraic fractions using factorising and common denominators"
+      ],
+      "pass_threshold": "Foundation: correct factorising of common factors and simple quadratics x^2 + bx + c (grade 4-5). Higher: correct factorising of ax^2 + bx + c and the difference of two squares, completing the square, and simplifying and combining algebraic fractions.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 6 Algebra (codes 6.01e-6.01g), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S10_Forming_Rearranging_and_Recalling_Formulae": {
+      "criteria": [
+        "Forms a formula from a context with clearly defined letters and checks it",
+        "Rearranges formulae, including where the subject appears more than once (Higher), using inverse operations in the right order",
+        "Recalls the required standard formulae without prompting",
+        "Selects and uses the correct constant-acceleration formula with consistent units"
+      ],
+      "pass_threshold": "Foundation: forms a simple formula and rearranges where the subject appears once (grade 3-5), recalling the required formulae. Higher: rearranges where the subject appears more than once and uses the constant-acceleration formulae.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 6 Algebra (codes 6.02a, 6.02c-6.02e), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S11_Linear_Equations_and_Inequalities": {
+      "criteria": [
+        "Solves linear equations with unknowns on both sides and with fractions, showing each step, and checks the solution",
+        "Builds an equation from words with a clearly defined unknown",
+        "Solves linear inequalities, reversing the sign when multiplying or dividing by a negative and representing solutions correctly (Higher: quadratic inequalities)",
+        "Higher: draws boundaries (solid or dashed) and identifies the correct region for two-variable inequalities"
+      ],
+      "pass_threshold": "Foundation: solves two-step and unknown-on-both-sides equations and linear inequalities (grade 3-5). Higher: also solves quadratic inequalities and identifies regions from inequalities in two variables.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 6 Algebra (codes 6.03a, 6.04a, 6.04b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S12_Quadratic_and_Simultaneous_Equations_and_Iteration": {
+      "criteria": [
+        "Rearranges to equal zero and solves quadratics by factorising with both solutions given",
+        "Higher: applies the quadratic formula correctly with the requested accuracy",
+        "Solves pairs of linear simultaneous equations and (Higher) a linear/quadratic pair, giving coordinate pairs correctly matched",
+        "Higher: justifies a root by change of sign and uses an iterative formula to a requested accuracy"
+      ],
+      "pass_threshold": "Foundation: solves simple quadratics by factorising and pairs of linear simultaneous equations (grade 4-5). Higher: uses the quadratic formula, solves a linear/quadratic pair and applies change-of-sign and iterative methods.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 6 Algebra (codes 6.03b, 6.03c, 6.03e), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S13_Functions_and_Sequences": {
+      "criteria": [
+        "Evaluates functions and, at Higher, finds inverse and composite functions correctly",
+        "Generates sequences from term-to-term and position-to-term rules and finds the nth term of a linear sequence",
+        "Higher: finds the nth term of a quadratic sequence using first and second differences",
+        "Recognises special sequences (square, cube, triangular, Fibonacci, powers, geometric) and tests whether a number is a term"
+      ],
+      "pass_threshold": "Foundation: generates sequences and finds the nth term of a linear sequence (grade 3-5). Higher: uses inverse and composite functions and finds the nth term of quadratic and geometric sequences.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 6 Algebra (codes 6.05a, 6.06a, 6.06b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S14_Coordinates_and_Straight_Line_Graphs": {
+      "criteria": [
+        "Plots coordinates in all four quadrants and draws graphs from tables of values accurately",
+        "Finds gradient and intercept and writes or reads the equation of a straight line",
+        "Higher: uses gradient relationships for parallel and perpendicular lines and finds a tangent to a circle at a point",
+        "Reads approximate solutions to equations from a graph and explains what is being read"
+      ],
+      "pass_threshold": "Foundation: plots from a table, finds gradient and intercept, and reads approximate solutions from a graph (grade 3-5). Higher: uses parallel and perpendicular gradients, finds a tangent to a circle and solves simultaneous graph problems.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 7 Graphs of equations and functions (codes 7.01a, 7.01b, 7.02a, 7.02b) and section 6 (code 6.03d), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, sections 6 and 7",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S15_Curves_and_Graph_Transformations": {
+      "criteria": [
+        "Recognises linear, quadratic, cubic and reciprocal graphs from equation or shape and sketches a quadratic with its key points",
+        "Higher: sketches exponential and trigonometric graphs with correct key features and uses them to solve simple equations",
+        "Higher: uses x^2 + y^2 = r^2 to find a radius, test a point or write an equation",
+        "Describes and applies translations and reflections of a graph using correct notation"
+      ],
+      "pass_threshold": "Foundation: recognises straight-line and quadratic graphs and sketches a quadratic with its roots and y-intercept (grade 4-5). Higher: recognises and sketches cubic, reciprocal, exponential and trigonometric graphs, uses circle equations and describes transformations of graphs.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 7 Graphs of equations and functions (codes 7.01c-7.01f, 7.03a), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 7",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S16_Real_Life_Graphs_and_Rates_of_Change": {
+      "criteria": [
+        "Constructs and interprets distance-time, speed-time and conversion graphs with a description in context",
+        "Interprets gradient as a rate with the correct units and estimates the gradient of a curve at a point with a tangent",
+        "Calculates the area under a graph using appropriate shapes and interprets it (distance from a speed-time graph)",
+        "Higher: estimates an area under a curve using trapezia and comments on over- or under-estimation"
+      ],
+      "pass_threshold": "Foundation: interprets distance-time and conversion graphs and reads gradients as rates (grade 3-5). Higher: estimates the gradient of a curve at a point with a tangent and estimates and interprets areas under a speed-time or other graph.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 7 Graphs of equations and functions (codes 7.04a-7.04c), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 7",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S17_Angles_Polygons_and_Symmetry": {
+      "criteria": [
+        "Uses vocabulary and notation (parallel, perpendicular, three-letter angle names, polygon names) correctly",
+        "Finds missing angles on lines, at points and in parallel lines and gives a correct geometric reason for each step",
+        "Calculates interior and exterior angles of regular and irregular polygons, and (Higher) derives or proves angle results",
+        "Uses properties and symmetry of triangles and quadrilaterals accurately"
+      ],
+      "pass_threshold": "Foundation: finds missing angles using stated angle facts and uses shape properties and symmetry (grade 3-5). Higher: also justifies results with geometric reasoning and proof, including polygon angle formulae.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 8 Basic geometry (codes 8.01a-8.01c, 8.03a-8.04c), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 8",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S18_Constructions_Loci_and_Coordinate_Geometry": {
+      "criteria": [
+        "Sketches from a description with correct labelling and draws accurate triangles, measuring lengths and angles within tolerance",
+        "Constructs perpendicular bisectors and angle bisectors accurately with construction arcs left in",
+        "Uses coordinates to find lengths, midpoints and to test for parallel/perpendicular sides",
+        "Higher: constructs a perpendicular from a point and draws and shades loci to answer a region problem"
+      ],
+      "pass_threshold": "Foundation: draws diagrams from descriptions, constructs triangles and bisectors accurately with visible construction arcs (grade 3-5). Higher: also constructs perpendiculars from a point and draws and shades loci to solve region problems.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 8 Basic geometry (codes 8.01e-8.01g, 8.02a-8.02d), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 8",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S19_Circle_Theorems": {
+      "criteria": [
+        "Names the parts of a circle correctly",
+        "Applies each circle theorem to find angles and lengths, stating the theorem in full as the reason",
+        "Combines circle theorems with other angle and triangle facts in multi-step problems",
+        "Proves at least one circle theorem with a logical chain of reasons"
+      ],
+      "pass_threshold": "Higher: correct application of each circle theorem with the theorem stated as a reason, and a clear proof of at least one theorem.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 8 Basic geometry (codes 8.05a-8.05h), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 8",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S20_Three_Dimensional_Shapes": {
+      "criteria": [
+        "Uses face, edge, vertex, prism, pyramid, cylinder, cone and sphere correctly",
+        "States correct properties of the standard solids and can check with V - E + F = 2",
+        "Draws and interprets plans and elevations of simple solids (Higher: from less familiar views)"
+      ],
+      "pass_threshold": "Foundation: names solids and their faces, edges and vertices and draws plans and elevations of simple solids (grade 3-5). Higher: interprets less familiar plans and elevations and constructs solids from them.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 8 Basic geometry (codes 8.01d, 8.06a, 8.06b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 8",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S21_Transformations_and_Vectors": {
+      "criteria": [
+        "Reflects and rotates shapes correctly and describes each fully (mirror line equation; centre, angle, direction)",
+        "Translates using column vectors and describes translations with vector notation",
+        "Higher: describes combinations of transformations and identifies the equivalent single transformation",
+        "Higher: uses vector addition, subtraction and scalar multiplication to find paths and prove parallelism or collinearity"
+      ],
+      "pass_threshold": "Foundation: performs and describes reflections, rotations and translations fully (grade 3-5). Higher: describes combinations of transformations and uses vectors in geometric proofs.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 9 Congruence and similarity (codes 9.01a-9.01d, 9.03a, 9.03b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 9",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S22_Congruence_Similarity_and_Enlargement": {
+      "criteria": [
+        "States the congruence conditions correctly and writes a congruence proof with reasons",
+        "Uses congruence to prove geometric facts and calculate lengths and angles",
+        "Proves similarity and finds missing lengths using ratios of corresponding sides",
+        "Enlarges shapes with fractional and negative scale factors and describes an enlargement fully",
+        "Uses length, area and volume scale factors correctly"
+      ],
+      "pass_threshold": "Higher: correct congruence and similarity proofs with reasons, enlargements with fractional and negative scale factors, and area and volume scale factors.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 9 Congruence and similarity (codes 9.02a, 9.02b, 9.04a-9.04c), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 9",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S23_Perimeter_and_Area": {
+      "criteria": [
+        "Calculates perimeters of rectilinear and composite shapes, including missing sides, with correct units",
+        "Uses circumference, arc length, circle area and sector area formulae correctly (leaving answers in terms of pi when asked)",
+        "Finds areas of triangles, parallelograms, trapezia and composite shapes with clear working; Higher: uses 1/2 ab sin C and segment areas",
+        "Distinguishes perimeter (length units) from area (square units) in answers"
+      ],
+      "pass_threshold": "Foundation: correct perimeters and areas of standard shapes and composite shapes (grade 3-5). Higher: also arc length, sector area and area of a triangle using 1/2 ab sin C.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 10 Mensuration (codes 10.02a-10.03e), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 10",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S24_Surface_Area_and_Volume": {
+      "criteria": [
+        "Calculates volume and surface area of prisms and cylinders with correct formulae and units",
+        "Higher: uses the given formulae for spheres, cones, pyramids and composite solids, including slant height by Pythagoras",
+        "Distinguishes vertical height from slant height and does not count joined faces in a composite solid's surface area"
+      ],
+      "pass_threshold": "Foundation: volume and surface area of cuboids, prisms and cylinders (grade 3-5). Higher: also spheres, cones, pyramids and composite solids using the given formulae.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 10 Mensuration (codes 10.04a-10.04c), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 10",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S25_Pythagoras_and_Trigonometry": {
+      "criteria": [
+        "Uses Pythagoras' theorem for a missing hypotenuse or shorter side, and in three dimensions",
+        "Selects the correct trigonometric ratio and uses it to find a side or an angle (elevation and depression included)",
+        "Recalls and uses the exact trigonometric values without a calculator",
+        "Higher: selects and applies the sine rule, cosine rule and 1/2 ab sin C with sensible accuracy"
+      ],
+      "pass_threshold": "Higher: correct choice and use of Pythagoras, right-angled trigonometry, exact values, sine rule and cosine rule with sensible accuracy, including in 3D.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 10 Mensuration (codes 10.05a-10.05e), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 10",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S26_Probability_Basics": {
+      "criteria": [
+        "Places probabilities on a 0 to 1 scale and writes them as fractions, decimals and percentages",
+        "Calculates theoretical probabilities of equally likely outcomes and expected numbers",
+        "Uses relative frequency from experiments as an estimate, commenting on reliability",
+        "Lists outcomes systematically using tables and grids and (Higher) applies the product rule for counting"
+      ],
+      "pass_threshold": "Foundation: calculates simple probabilities, relative frequencies and expected outcomes and lists outcomes systematically (grade 3-5). Higher: uses the product rule for counting and handles less routine experiments.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 11 Probability (codes 11.01a-11.02b), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 11",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S27_Combined_Events_and_Conditional_Probability": {
+      "criteria": [
+        "Draws and completes a Venn diagram and reads probabilities from it",
+        "Draws tree diagrams with correct branch probabilities and combines them by multiplying and adding",
+        "Uses the addition law for mutually exclusive events and the complement rule",
+        "Higher: adjusts probabilities for dependent events and calculates conditional probabilities"
+      ],
+      "pass_threshold": "Foundation: uses tree diagrams and Venn diagrams for independent events (grade 4-5). Higher: uses conditional probability, tree diagrams without replacement and Venn set notation.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 11 Probability (codes 11.02c-11.02f), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 11",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    },
+    "S28_Statistics": {
+      "criteria": [
+        "Identifies sources of bias in a sampling method and (Higher) calculates stratified sample sizes",
+        "Draws and reads bar charts, pie charts, line graphs and (Higher) histograms and cumulative frequency graphs",
+        "Calculates mean, median, mode and range, estimates the mean from grouped data and (Higher) uses quartiles and IQR to compare distributions",
+        "Draws and interprets scatter graphs, distinguishing correlation from causation, and recognises misleading graphs and outliers"
+      ],
+      "pass_threshold": "Foundation: calculates averages, draws charts and scatter graphs and comments on bias and correlation (grade 3-5). Higher: uses histograms, cumulative frequency and box plots and compares distributions using median and interquartile range.",
+      "source": {
+        "issuing_body": "OCR",
+        "document": "GCSE Mathematics (9-1) J560 specification, section 12 Statistics (codes 12.01a-12.03d), Version 2.1 (Aug 2026)",
+        "reference": "OCR 168982 specification, section 12",
+        "urls": [
+          "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+          "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+          "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A complete, timed 1 hour 30 minute, 100-mark paper attempted at the learner's tier -- one non-calculator and one calculator paper, ideally, since real candidates sit three papers in total",
+      "Working is shown throughout so method marks would genuinely be awarded, not just final answers",
+      "Performance holds up across every content strand under mixed, non-sequential question order (unlike stage tests, which isolate one topic at a time)",
+      "No single strand (number, algebra, graphs, geometry and measures, probability, statistics) collapses when questions are not sign-posted by topic"
+    ],
+    "pass_threshold": "Foundation tier: performance consistent with grade 4-5 (a standard/strong pass) across a full paper. Higher tier: performance consistent with grade 6-7. OCR sets exact grade boundaries per series rather than a fixed mark table, so this is a standard/consistency judgement, not a single number.",
+    "source": {
+      "issuing_body": "OCR",
+      "document": "GCSE Mathematics (9-1) J560 Assessment overview and specification, Version 2.1 (Aug 2026)",
+      "reference": "OCR 168982 specification; ocr.org.uk assessment page",
+      "urls": [
+        "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+        "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+        "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.ocr.org.uk/Images/168982-specification-gcse-mathematics.pdf",
+    "https://www.ocr.org.uk/Images/563140-mark-scheme-paper-2.pdf",
+    "https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/assessment/"
+  ]
+}

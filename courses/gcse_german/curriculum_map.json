@@ -1,0 +1,401 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+    "url": "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF",
+    "version": "Specification for first teaching from September 2024, linked from aqa.org.uk/8662, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers the three themes and their three topics each (3.1.1-3.1.3 per theme) but presents the content under each topic, and the whole of 3.2 Grammar, as unnumbered bullet lists. This course codes the eighteen topic-content items by theme.topic and a letter in AQA's own bullet order (e.g. T1.1a, T1.1b for Theme 1 Topic 1), and codes the sixteen grammar points G1-G16 in a logical teaching order built from the specification's own Foundation/Higher split (Foundation content first, then the Higher-tier additions folded into the same numbered point where they extend the same structure), plus five items (LIS.1, SPK.1, SPK.2, RDG.1, WRT.1) for the exam-skill content of each of the four papers, which AQA sets out in its scheme of assessment rather than as numbered subject content."
+  },
+  "_syllabus_items": [
+    {
+      "id": "T1.1a",
+      "title": "Identity and relationships with family and friends",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 1: Identity and relationships with others"
+    },
+    {
+      "id": "T1.1b",
+      "title": "Personality, physical description, marriage and partnership",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 1: Identity and relationships with others"
+    },
+    {
+      "id": "T1.2a",
+      "title": "Diet, exercise and keeping fit",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 2: Healthy living and lifestyle"
+    },
+    {
+      "id": "T1.2b",
+      "title": "Illness, unhealthy habits and addiction",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 2: Healthy living and lifestyle"
+    },
+    {
+      "id": "T1.3a",
+      "title": "School life, subjects and pressures of school",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 3: Education and work"
+    },
+    {
+      "id": "T1.3b",
+      "title": "Jobs, careers, part-time work and future plans",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 3: Education and work"
+    },
+    {
+      "id": "T2.1a",
+      "title": "Sport and hobbies",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 1: Free-time activities"
+    },
+    {
+      "id": "T2.1b",
+      "title": "Music, cinema, television and reading",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 1: Free-time activities"
+    },
+    {
+      "id": "T2.2a",
+      "title": "Customs and festivals in Germany",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 2: Customs, festivals and celebrations"
+    },
+    {
+      "id": "T2.2b",
+      "title": "Customs and festivals in Austria and Switzerland",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 2: Customs, festivals and celebrations"
+    },
+    {
+      "id": "T2.3a",
+      "title": "Celebrities in sport, music and film",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 3: Celebrity culture"
+    },
+    {
+      "id": "T2.3b",
+      "title": "The impact of celebrity culture and social media",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 3: Celebrity culture"
+    },
+    {
+      "id": "T3.1a",
+      "title": "Holidays, transport and types of travel",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 1: Travel and tourism, including places of interest"
+    },
+    {
+      "id": "T3.1b",
+      "title": "Tourist attractions in German-speaking countries",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 1: Travel and tourism, including places of interest"
+    },
+    {
+      "id": "T3.2a",
+      "title": "The internet and social media",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 2: Media and technology"
+    },
+    {
+      "id": "T3.2b",
+      "title": "The benefits and dangers of technology",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 2: Media and technology"
+    },
+    {
+      "id": "T3.3a",
+      "title": "Home, town and region",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 3: The environment and where people live"
+    },
+    {
+      "id": "T3.3b",
+      "title": "Environmental problems and solutions",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 3: The environment and where people live"
+    },
+    {
+      "id": "G1",
+      "title": "Nouns: gender, compound-noun formation, plural formation, nominalised infinitives",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G2",
+      "title": "Definite/indefinite articles and the nominative, accusative and dative cases; negation with kein",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G3",
+      "title": "Other determiners (dieser/jeder/welcher, possessive adjectives, quantifiers) across the three cases",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G4",
+      "title": "Personal pronouns (subject, accusative, dative) and the interrogative pronoun wer/wen/wem",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G5",
+      "title": "Reflexive pronouns and reflexive verbs; relative pronouns in subject relative clauses",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G6",
+      "title": "Present tense (weak and strong verbs, haben/sein/werden/wissen) and question formation",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G7",
+      "title": "Perfect tense, including past-participle formation patterns and haben/sein as auxiliary",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G8",
+      "title": "Future tense (werden + infinitive) and modal verbs, including m\u00f6chte",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G9",
+      "title": "Word order: verb-second in main clauses, verb-final in subordinate clauses, separable verbs, negation with nicht/kein/nie",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G10",
+      "title": "Adjective endings after definite/indefinite articles and with no article, in the nominative, accusative and dative",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G11",
+      "title": "Comparative and superlative adjectives/adverbs, and adverb position",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G12",
+      "title": "Accusative, dative and two-way prepositions, their contractions, and da-/wo- compounds",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G13",
+      "title": "Higher tier: the genitive case, dative plural nouns, plural object pronouns, and word order in two-verb subordinate clauses",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G14",
+      "title": "Higher tier: the imperfect/simple past for narrative, and the imperative",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G15",
+      "title": "Higher tier: um/ohne/statt...zu infinitive constructions, the man-passive-avoidance structure, and the conditional (w\u00fcrde/h\u00e4tte/w\u00e4re)",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G16",
+      "title": "Higher tier: derivational morphology for reading (un-, -heit/-keit, -los, -chen/-lein, -ung, agent nouns in -er, Lieblings-/Haupt-)",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "LIS.1",
+      "title": "Listening strategies and dictation",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "SPK.1",
+      "title": "Speaking: role-play and reading aloud",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "SPK.2",
+      "title": "Speaking: photo card discussion and unprepared conversation",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "RDG.1",
+      "title": "Reading strategies and translation into English",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "WRT.1",
+      "title": "Writing tasks, translation into German and extended writing",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Identitaet_und_Beziehungen": {
+    "covers_syllabus_refs": [
+      "8662 T1.1a",
+      "8662 T1.1b",
+      "8662 G1",
+      "8662 G2"
+    ],
+    "syllabus_topic": "3.1 Theme 1: People and lifestyle",
+    "covers_items": [
+      "T1.1a",
+      "T1.1b",
+      "G1",
+      "G2"
+    ]
+  },
+  "S02_Gesundes_Leben": {
+    "covers_syllabus_refs": [
+      "8662 T1.2a",
+      "8662 T1.2b",
+      "8662 G3",
+      "8662 G4"
+    ],
+    "syllabus_topic": "3.1 Theme 1: People and lifestyle",
+    "covers_items": [
+      "T1.2a",
+      "T1.2b",
+      "G3",
+      "G4"
+    ]
+  },
+  "S03_Schule_und_Arbeit": {
+    "covers_syllabus_refs": [
+      "8662 T1.3a",
+      "8662 T1.3b",
+      "8662 G5"
+    ],
+    "syllabus_topic": "3.1 Theme 1: People and lifestyle",
+    "covers_items": [
+      "T1.3a",
+      "T1.3b",
+      "G5"
+    ]
+  },
+  "S04_Freizeit": {
+    "covers_syllabus_refs": [
+      "8662 T2.1a",
+      "8662 T2.1b",
+      "8662 G6"
+    ],
+    "syllabus_topic": "3.1 Theme 2: Popular culture",
+    "covers_items": [
+      "T2.1a",
+      "T2.1b",
+      "G6"
+    ]
+  },
+  "S05_Braeuche_und_Feste": {
+    "covers_syllabus_refs": [
+      "8662 T2.2a",
+      "8662 T2.2b",
+      "8662 G7"
+    ],
+    "syllabus_topic": "3.1 Theme 2: Popular culture",
+    "covers_items": [
+      "T2.2a",
+      "T2.2b",
+      "G7"
+    ]
+  },
+  "S06_Promikultur": {
+    "covers_syllabus_refs": [
+      "8662 T2.3a",
+      "8662 T2.3b",
+      "8662 G8"
+    ],
+    "syllabus_topic": "3.1 Theme 2: Popular culture",
+    "covers_items": [
+      "T2.3a",
+      "T2.3b",
+      "G8"
+    ]
+  },
+  "S07_Reisen_und_Tourismus": {
+    "covers_syllabus_refs": [
+      "8662 T3.1a",
+      "8662 T3.1b",
+      "8662 G9"
+    ],
+    "syllabus_topic": "3.1 Theme 3: Communication and the world around us",
+    "covers_items": [
+      "T3.1a",
+      "T3.1b",
+      "G9"
+    ]
+  },
+  "S08_Medien_und_Technologie": {
+    "covers_syllabus_refs": [
+      "8662 T3.2a",
+      "8662 T3.2b",
+      "8662 G10"
+    ],
+    "syllabus_topic": "3.1 Theme 3: Communication and the world around us",
+    "covers_items": [
+      "T3.2a",
+      "T3.2b",
+      "G10"
+    ]
+  },
+  "S09_Umwelt_und_Wohnen": {
+    "covers_syllabus_refs": [
+      "8662 T3.3a",
+      "8662 T3.3b",
+      "8662 G11",
+      "8662 G12"
+    ],
+    "syllabus_topic": "3.1 Theme 3: Communication and the world around us",
+    "covers_items": [
+      "T3.3a",
+      "T3.3b",
+      "G11",
+      "G12"
+    ]
+  },
+  "S10_Vergangenheit_und_Imperativ": {
+    "covers_syllabus_refs": [
+      "8662 G13",
+      "8662 G14"
+    ],
+    "syllabus_topic": "3.2 Grammar",
+    "covers_items": [
+      "G13",
+      "G14"
+    ]
+  },
+  "S11_Hoehere_Strukturen": {
+    "covers_syllabus_refs": [
+      "8662 G15",
+      "8662 G16"
+    ],
+    "syllabus_topic": "3.2 Grammar",
+    "covers_items": [
+      "G15",
+      "G16"
+    ]
+  },
+  "S12_Hoeren_Paper1": {
+    "covers_syllabus_refs": [
+      "8662 LIS.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "LIS.1"
+    ]
+  },
+  "S13_Sprechen_Rollenspiel": {
+    "covers_syllabus_refs": [
+      "8662 SPK.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "SPK.1"
+    ]
+  },
+  "S14_Sprechen_Fotokarte": {
+    "covers_syllabus_refs": [
+      "8662 SPK.2"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "SPK.2"
+    ]
+  },
+  "S15_Lesen_Paper3": {
+    "covers_syllabus_refs": [
+      "8662 RDG.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "RDG.1"
+    ]
+  },
+  "S16_Schreiben_Paper4": {
+    "covers_syllabus_refs": [
+      "8662 WRT.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "WRT.1"
+    ]
+  }
+}

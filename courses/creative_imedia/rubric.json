@@ -1,0 +1,616 @@
+{
+  "stage_rubrics": {
+    "S01_Media_Industry_Sectors_Products_and_Job_Roles": {
+      "criteria": [
+        "Identifies sectors and products accurately, including that one product can serve several sectors",
+        "Names job roles correctly and states their main responsibilities",
+        "Explains each role's contribution to the scenario with a reason, not a definition",
+        "Recognises that scale and size of a production affects who does which role (Level 2 standard needs at least one developed point)"
+      ],
+      "pass_threshold": "Level 2 standard: names sectors, products and roles accurately and explains each role's contribution to a given scenario with a because/this means statement rather than a bare list (roughly 60% of the test marks or better).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR Level 1/Level 2 Cambridge National in Creative iMedia J834 (Version 6, June 2026), Unit R093 Topic Area 1, teaching content 1.1 and 1.2",
+        "reference": "J834 specification, R093 Topic Area 1 (1.1, 1.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S02_Purpose_Style_and_Client_Briefs": {
+      "criteria": [
+        "Names purposes and requirements correctly from a brief",
+        "Explains at least two style, content or layout choices linked to purpose with reasons",
+        "Explains how a requirement (timescale, ethos, style) constrains planning or production",
+        "Distinguishes brief formats accurately"
+      ],
+      "pass_threshold": "Level 2 standard: identifies the purpose(s) and the brief's requirements correctly and explains, using the scenario, how at least two style, content or layout choices suit them.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 2, 2.1 and 2.2",
+        "reference": "J834 specification, R093 Topic Area 2 (2.1, 2.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S03_Audience_Segmentation_and_Research": {
+      "criteria": [
+        "Identifies and exemplifies segmentation categories accurately",
+        "Links a specific audience characteristic to a specific design or production decision with a reason",
+        "Distinguishes primary/secondary and qualitative/quantitative correctly",
+        "Gives balanced advantages and disadvantages tied to a named method"
+      ],
+      "pass_threshold": "Level 2 standard: lists segmentation categories with examples, explains how one or two characteristics change a design, and gives balanced advantages and disadvantages for named research methods.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 2, 2.3 and 2.4",
+        "reference": "J834 specification, R093 Topic Area 2 (2.3, 2.4)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S04_Media_Codes": {
+      "criteria": [
+        "Identifies media codes accurately from technical, symbolic and written groups",
+        "Explains the effect of each code on the audience, not just its name",
+        "Shows that codes work in combination and suit the stated audience, purpose and context",
+        "Uses correct vocabulary for camera, lighting, audio and typography"
+      ],
+      "pass_threshold": "Level 2 standard: identifies codes correctly and explains how at least two work together in a named product to create a specific meaning, impact or engagement for the audience.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 2, 2.5",
+        "reference": "J834 specification, R093 Topic Area 2 (2.5)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S05_Work_Planning_Mind_Maps_and_Mood_Boards": {
+      "criteria": [
+        "Names workplan components accurately and links them to a specific project",
+        "Explains advantages of workplans for time, tasks and resources",
+        "Distinguishes the purpose and users of a mind map and a mood board",
+        "Identifies what makes each document effective and how to improve it"
+      ],
+      "pass_threshold": "Level 2 standard: names workplan components and explains their role in a scenario, and explains when a mind map or mood board is appropriate and how to make one more effective.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 3, 3.1 and 3.2",
+        "reference": "J834 specification, R093 Topic Area 3 (3.1, 3.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S06_Design_and_Planning_Documents": {
+      "criteria": [
+        "Chooses the right document for each planning need",
+        "States components and users of each document accurately",
+        "Explains why a document is appropriate for the scenario",
+        "Suggests specific, useful improvements to a weak document"
+      ],
+      "pass_threshold": "Level 2 standard: chooses an appropriate document for a scenario, states its components and users and explains how to improve a weak example.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 3, 3.3",
+        "reference": "J834 specification, R093 Topic Area 3 (3.3)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S07_Legal_Issues_Protecting_Individuals_and_IP": {
+      "criteria": [
+        "Identifies the relevant legal issue in each part of the scenario",
+        "Explains the purpose of the legal consideration and what must be done to comply",
+        "Explains the impact or implication of not complying",
+        "Uses correct terms (libel, slander, copyright, trademark, licence, fair dealing, data subject) without citing specific Acts"
+      ],
+      "pass_threshold": "Level 2 standard: explains the purpose of each legal consideration, what a producer must do to comply and what could happen if they do not, without naming specific Acts (which the specification excludes).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 3, 3.4.1 and 3.4.2",
+        "reference": "J834 specification, R093 Topic Area 3 (3.4.1, 3.4.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S08_Regulation_Classification_and_Health_and_Safety": {
+      "criteria": [
+        "Identifies the correct regulatory body or classification system for each product",
+        "Explains the reason for and the impact of regulation or classification on production",
+        "Identifies realistic hazards and appropriate controls",
+        "Explains the specific purpose of a risk assessment and of a location recce"
+      ],
+      "pass_threshold": "Level 2 standard: matches each body or classification to the products it covers, explains impacts on production and explains how a risk assessment and recce reduce hazards.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 3, 3.4.3 and 3.4.4",
+        "reference": "J834 specification, R093 Topic Area 3 (3.4.3, 3.4.4)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S09_Distribution_Platforms_and_Media": {
+      "criteria": [
+        "Classifies platforms and media accurately",
+        "Gives balanced advantages and disadvantages tied to the scenario",
+        "Recommends a suitable option with reasons linked to audience and context",
+        "Explains how the platform influences file format or size"
+      ],
+      "pass_threshold": "Level 2 standard: chooses a suitable platform or medium for a scenario, gives advantages and disadvantages and explains the link to file format with a reason.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 4, 4.1",
+        "reference": "J834 specification, R093 Topic Area 4 (4.1)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S10_Image_and_Audio_File_Properties_and_Formats": {
+      "criteria": [
+        "Defines pixel dimensions, dpi/ppi, sample rate and bit depth accurately",
+        "Distinguishes raster/vector and compressed/uncompressed and gives examples",
+        "Explains the effect on quality and file size, not just the definition",
+        "Justifies a format choice for a specific use and context"
+      ],
+      "pass_threshold": "Level 2 standard: defines the key terms correctly, explains the effect on quality and file size, and justifies a format for a stated use.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 4, 4.2.1 and 4.2.2",
+        "reference": "J834 specification, R093 Topic Area 4 (4.2.1, 4.2.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S11_Moving_Image_Files_and_File_Compression": {
+      "criteria": [
+        "Defines frame rate, resolution names, lossy and lossless correctly",
+        "Explains the effect on quality and file size using cause and effect",
+        "Chooses different formats for different uses and justifies them",
+        "Gives a trade-off, not a one-sided answer"
+      ],
+      "pass_threshold": "Level 2 standard: defines frame rate and the resolution names, explains how they affect quality and file size, and explains why lossy or lossless compression is chosen.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Topic Area 4, 4.2.3 and 4.2.4",
+        "reference": "J834 specification, R093 Topic Area 4 (4.2.3, 4.2.4)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S12_R093_Exam_Structure_and_Technique": {
+      "criteria": [
+        "Uses the marks and command words to decide how much to write and in what form",
+        "Uses scenario details (client, audience, product, purpose) in every Section B answer",
+        "Extended answers develop points with because/therefore reasoning and reach a judgement where asked",
+        "Section A answers show accurate recall with precise vocabulary"
+      ],
+      "pass_threshold": "Level 2 standard on a mixed paper practice: about 60% of marks or better, with at least two of three extended responses developed with reasoned analysis or evaluation tied to the scenario.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R093 Assessment guidance, section 5.1 and Appendix B",
+        "reference": "J834 specification, R093 Assessment guidance, 5.1 and Appendix B",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S13_R094_Overview_and_Visual_Identity": {
+      "criteria": [
+        "Explains the purposes and component features of visual identity accurately",
+        "Links each element (graphics, typography, colour, layout) to brand values, business type and positioning with reasons",
+        "Explains that identity must match brand identity and suit the audience",
+        "Describes the two tasks, the strands and the mark bands of R094 accurately (Level 2 standard)"
+      ],
+      "pass_threshold": "Level 2 standard on a practice brief: names the purpose and components accurately, and explains how at least three elements (graphics, typography, colour, layout) suit the brand values and market position with reasons.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R094 Topic Area 1 (1.1), marking criteria and assessment guidance",
+        "reference": "J834 specification, R094 Topic Area 1 (1.1) and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S14_Graphic_Design_Concepts_and_Layout_Conventions": {
+      "criteria": [
+        "Explains each concept with reference to a specific product",
+        "Applies the visual identity consistently and says why",
+        "Describes conventional layouts accurately for the named product",
+        "Gives reasons for choices rather than lists of features"
+      ],
+      "pass_threshold": "Level 2 standard: critiques a graphic using the five concepts and states the layout conventions of two named graphic products with reasons.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R094 Topic Area 2 (2.1)",
+        "reference": "J834 specification, R094 Topic Area 2 (2.1)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S15_Graphic_Properties_Licences_and_Permissions": {
+      "criteria": [
+        "Chooses bitmap or vector correctly and justifies with scalability, transparency or file size",
+        "Explains colour mode and resolution for screen and print",
+        "Identifies who owns each asset and the permission needed",
+        "Records licence information in a clear asset table"
+      ],
+      "pass_threshold": "Level 2 standard: chooses and justifies a graphic type and file properties for a stated use, and identifies the licence status and how to record it for a set of assets.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R094 Topic Area 2 (2.2)",
+        "reference": "J834 specification, R094 Topic Area 2 (2.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S16_Planning_Techniques_and_Task_1_Evidence": {
+      "criteria": [
+        "Uses appropriate ideas-generation documents and links them to the brief",
+        "Presents a concept with suitable components clearly appropriate for the audience and client (MB3 needs a clear, complex identity, not just a simple logo)",
+        "Justification explains how and why for both client and audience rather than stating it meets needs",
+        "Layout diagram and asset table are detailed enough for a third party and include permission information"
+      ],
+      "pass_threshold": "Level 2 standard: on a practice brief produces a design concept with justification of how and why for client and audience, plus a layout diagram and asset table detailed enough for a third party to use (MB2 or better).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R094 Topic Area 2 (2.3), marking criteria and assessment guidance, Task 1",
+        "reference": "J834 specification, R094 Topic Area 2 (2.3) and Task 1 strands 1a-1c",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S17_Image_Editing_Tools_and_Techniques": {
+      "criteria": [
+        "Uses a range of tool groups from the specification on a single practice graphic",
+        "Techniques are applied effectively (accurate selections, sensible adjustments, readable typography)",
+        "Provides clear evidence of each technique used (screenshots or annotated stages)",
+        "Organises layers and files so that another person can follow the work"
+      ],
+      "pass_threshold": "Level 2 standard: uses at least six of the listed tool groups accurately on a practice graphic and captures process evidence (screenshots with short annotations).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R094 Topic Area 3 (3.1)",
+        "reference": "J834 specification, R094 Topic Area 3 (3.1)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S18_Sourcing_Creating_and_Preparing_Assets": {
+      "criteria": [
+        "Sources assets with recorded licence information and suitable resolution",
+        "Creates or edits at least one asset to produce a derivative or original asset",
+        "Prepares all assets explicitly for the output size, checking dimensions and dpi, with evidence",
+        "Stores originals and edited assets separately with sensible names and appropriate formats"
+      ],
+      "pass_threshold": "Level 2 standard: on a practice set of assets, sources them with licence information, prepares every asset for the stated output size with explicit before and after evidence, and stores originals and edited copies separately.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R094 Topic Area 3 (3.2)",
+        "reference": "J834 specification, R094 Topic Area 3 (3.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S19_Saving_Exporting_and_Task_2_Evidence": {
+      "criteria": [
+        "Creates the visual identity with effective technical skills and saves it in appropriate properties and formats",
+        "Prepares all assets explicitly before creation, with dimensions, resolution and formats checked",
+        "Uses tools and techniques effectively, applies design concepts and layout conventions and meets the client requirements",
+        "Exports both required versions with correct properties and formats and evidences the choices"
+      ],
+      "pass_threshold": "Level 2 standard on a practice brief: creates and exports the visual identity and one graphic with prepared assets, explicit tool evidence, design and layout conventions, and correct properties and formats for two outputs (MB2 or better in every strand).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R094 Topic Area 3 (3.3), marking criteria and assessment guidance, Task 2",
+        "reference": "J834 specification, R094 Topic Area 3 (3.3) and Task 2 strands 2a-2d",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S20_R097_Overview_Formats_and_Content": {
+      "criteria": [
+        "Matches format types to purpose and audience with justified reasoning",
+        "Identifies content types and explains what each contributes to a product",
+        "Links hardware/device choice to interface and content decisions",
+        "Describes R097's tasks, strands and mark-band structure accurately (Level 2 standard)"
+      ],
+      "pass_threshold": "Level 2 standard on a practice brief: describes R097's structure accurately, names a suitable format and at least three content types for a given brief, and explains how the choice of hardware fits the intended audience.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 1 (1.1), assessment guidance",
+        "reference": "J834 specification, R097 Topic Area 1 (1.1) and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S21_R097_Interaction_GUI_and_Accessibility": {
+      "criteria": [
+        "Matches interaction methods to devices and audiences with reasons",
+        "Designs a consistent GUI covering layout, colour scheme, typography and white space",
+        "Compares interface/interaction styles including feedback and closure",
+        "Selects accessibility features justified against a specific audience"
+      ],
+      "pass_threshold": "Level 2 standard: names a suitable interaction method for a device, designs a consistent GUI describing layout/colour/typography/white space, compares at least two interface styles, and selects two accessibility features with reasons.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 1 (1.1-1.2)",
+        "reference": "J834 specification, R097 Topic Area 1 (1.1-1.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S22_R097_Conventions_Creativity_and_Creation_Hardware": {
+      "criteria": [
+        "Explains conventions and the risk of breaking them without reason",
+        "Distinguishes original, imaginative and derivative work with an example",
+        "Recommends creation hardware justified against the product",
+        "Recommends creation software justified against format and platform"
+      ],
+      "pass_threshold": "Level 2 standard: explains a convention and why breaking it is risky, distinguishes original from derivative work, and recommends suitable hardware and software for a stated product with reasons.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 1 (1.2-1.3)",
+        "reference": "J834 specification, R097 Topic Area 1 (1.2-1.3)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S23_R097_Planning_Documents_and_Task1_Interpretation": {
+      "criteria": [
+        "Produces a labelled, buildable wireframe or storyboard",
+        "Produces a detailed asset table covering position, purpose, quality, size, type and resolution",
+        "Produces a navigation/hierarchy diagram that accounts for every planned screen",
+        "Interprets a brief and explains audience appeal with specific reasons, not generic claims"
+      ],
+      "pass_threshold": "Level 2 standard: produces a wireframe/storyboard, a usable asset table, a navigation diagram, and a written interpretation of a brief that explains fit and audience appeal, matching the detail expected of a Task 1 strand 1a MB3 response.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 1 (1.4), marking criteria strand 1a",
+        "reference": "J834 specification, R097 Topic Area 1 (1.4) and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S24_R097_Task1_Evidence_and_Sourcing_Assets": {
+      "criteria": [
+        "Explains what complete planning documentation covers across every element of a product",
+        "Explains how an asset's technical properties support audience, purpose and conventions",
+        "Describes sourcing assets by feature, property and licence with a recorded licence",
+        "Describes repurposing techniques applied to a static image asset with reasons"
+      ],
+      "pass_threshold": "Level 2 standard: produces full planning documentation for every element of a product, explains asset choices against technical properties and audience, and sources and repurposes a static image asset with a clear licence record.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 1 marking criteria (1b-1c), Topic Area 2 (2.1)",
+        "reference": "J834 specification, R097 section 5.1 and Topic Area 2 (2.1)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S25_R097_Repurposing_Audio_Moving_Image_and_Interactive_Assets": {
+      "criteria": [
+        "Describes specific, named techniques for repurposing audio assets",
+        "Describes specific, named techniques for repurposing moving image assets, linked to device/format",
+        "Describes building interactive assets with appropriate states or behaviour",
+        "Structures a logical, consistently named product folder"
+      ],
+      "pass_threshold": "Level 2 standard: repurposes an audio and a moving image asset with a clear technique, creates a suitable interactive element, and structures a logically named product folder.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 2 (2.1-2.2)",
+        "reference": "J834 specification, R097 Topic Area 2 (2.1-2.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S26_R097_Building_Saving_and_Exporting_the_Product": {
+      "criteria": [
+        "Describes building a product that matches its planning closely, including navigation",
+        "Describes disciplined native-format saving with meaningful versioning",
+        "Describes exporting/publishing in a platform-independent format and checking it works",
+        "Evidences a good range of separately prepared, technically skilled component parts"
+      ],
+      "pass_threshold": "Level 2 standard: builds a product following the plan closely, keeps versioned native saves, exports correctly for the target platform, and evidences prepared component parts to strand 2a's standard.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 2 (2.2-2.3), marking criteria strand 2a",
+        "reference": "J834 specification, R097 Topic Area 2 (2.2-2.3) and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S27_R097_Task2_Formats_Evidence_and_Testing": {
+      "criteria": [
+        "Evidences a complete, consistently working final product against strand 2b's standard",
+        "Justifies formats and properties for saved components and the final export",
+        "Produces a test plan with success criteria set before testing",
+        "Covers functionality, technical properties and multimedia checks in testing"
+      ],
+      "pass_threshold": "Level 2 standard: evidences an effectively built final product with conventions and creativity, justifies formats used, and runs a documented technical test with a fitness-for-purpose judgement.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 2 marking criteria (2b-2c), Topic Area 3 (3.1)",
+        "reference": "J834 specification, R097 section 5.1 and Topic Area 3 (3.1)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S28_R097_Review_Improvement_and_Task3_Evidence": {
+      "criteria": [
+        "Reviews fitness for purpose with balanced, specific judgement against the brief and audience",
+        "Explains constraints and proposes feasible, linked improvements",
+        "Proposes further development linked to client requirements and future work",
+        "Prioritises and justifies recommendations rather than listing them"
+      ],
+      "pass_threshold": "Level 2 standard: reviews a product critically against the brief and audience, explains real constraints on quality, proposes feasible and linked improvements, and evidences both Task 3 strands to a comprehensive standard.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), Unit R097 Topic Area 3 (3.1-3.2), marking criteria strands 3a-3b",
+        "reference": "J834 specification, R097 Topic Area 3 (3.1-3.2) and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    },
+    "S29_J834_Qualification_Structure_Grading_and_NEA_Rules": {
+      "criteria": [
+        "States the unit structure, GLH and terminal assessment rule accurately",
+        "Explains what each performance objective assesses with a course example",
+        "Calculates UMS totals correctly and reads grade boundaries accurately",
+        "States the core NEA independence/authenticity rules, including acceptable versus unacceptable feedback",
+        "Links an R093 topic area to a specific R094 or R097 strand"
+      ],
+      "pass_threshold": "Level 2 standard: states the qualification's unit structure and terminal rule correctly, explains what each performance objective assesses, calculates a plausible overall grade from unit UMS, states the core NEA rules, and links an NEA topic area to a related R093 topic area.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J834 specification Version 6 (June 2026), sections 4, 5 and 6",
+        "reference": "J834 specification sections 4.1.5, 5.1-5.5, 5.2 and 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+          "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+          "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Section A/recall responses are accurate and concise, matching R093's short-answer style",
+      "Section B/extended responses use the correct command word, are well structured and cover analysis and evaluation as required",
+      "R094-style and R097-style task responses reach MB3 standard across strands: detailed, consistent planning; effective, conventions-respecting creation described or evidenced; and a balanced, specific review with justified formats and prioritised recommendations",
+      "Responses correctly apply J834's performance objectives, UMS/grading logic and NEA independence rules where the scenario calls for them",
+      "No real OCR set-assignment or past-paper material is reproduced; all scenarios used are original"
+    ],
+    "pass_threshold": "R093 component: performance consistent with the grade descriptors for the boundary being targeted, applying OCR's own grade-boundary approach (set per series, not a fixed table) to the raw-mark performance shown. R094 and R097 components: MB3 (effective/fully suitable/comprehensive) evidence across all strands of both units, matching real moderation standards.",
+    "source": {
+      "issuing_body": "OCR (Cambridge OCR)",
+      "document": "OCR J834 specification Version 6 (June 2026), section 5 Assessment overview (R093 external exam) and sections 5.1/6 (R094, R097 NEA); R093 sample assessment materials structure",
+      "reference": "J834 specification, section 5 (assessment overview and grading) and Appendix B (command words)",
+      "urls": [
+        "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+        "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/",
+        "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+        "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+    "https://www.ocr.org.uk/Images/704362-moderators-report-creative-imedia.pdf",
+    "https://www.ocr.org.uk/blog/how-to-tackle-the-mandatory-nea-for-creative-imedia-unit-r094-visual-identity-and-digital-graphics/",
+    "https://www.ocr.org.uk/blog/how-to-tackle-the-nea-for-creative-imedia-unit-r097-interactive-digital-media/"
+  ],
+  "source_notes": [
+    "Moderators' report URL is the Summer 2023 series (OCR 704362); OCR also publishes Summer 2024 (727137) - newer, not yet re-derived against.",
+    "Specification re-read 2026-09-19: the live PDF at the old URL is now Version 6 (June 2026), branded Cambridge OCR; unit content and marking criteria for R093, R094 and R097 match the structure the old build cited, with the terminal assessment rule and the 70-mark R093 exam structure now stated explicitly."
+  ]
+}

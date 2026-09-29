@@ -1,0 +1,78 @@
+{
+  "schema_version": 4,
+  "name": "A Level Further Mathematics (OCR A, H245): Pure Core with Statistics and Mechanics",
+  "requires_complete": [
+    "alevel_mathematics"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "optional_papers": [
+      "Y542 Statistics",
+      "Y543 Mechanics"
+    ],
+    "not_taken": [
+      "Y544 Discrete Mathematics",
+      "Y545 Additional Pure Mathematics"
+    ]
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "OCR A Level Further Mathematics A (H245) specification, Version 2 (October 2025), downloaded from ocr.org.uk on 2026-09-27 and itemised in full: all 298 OCR reference codes are items. This course follows the Pure Core (Y540, Y541) with the Statistics (Y542) and Mechanics (Y543) options; the 124 codes of the Discrete Mathematics (Y544) and Additional Pure Mathematics (Y545) options are declared out of scope. Assessment for this route: four 90-minute papers of 75 marks, each 25% (Pure Core 1, Pure Core 2, Statistics, Mechanics). Stage tests and the mock are original questions in OCR's style; every numerical answer was computed with sympy or scipy when the course was built.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A Level), per Ofqual's register listing for OCR H245",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "option_route",
+      "text": "This course follows OCR's Statistics (Y542) and Mechanics (Y543) options. The Discrete Mathematics and Additional Pure Mathematics options are not taught, so a learner entered for either of those papers needs another course for them."
+    },
+    {
+      "id": "co_teaching",
+      "text": "Further Mathematics assumes all of A Level Mathematics, which is why it requires alevel_mathematics to be complete first."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Proof_by_Induction",
+    "S02_Complex_Numbers_Basics",
+    "S03_Complex_Roots_and_Argand_Diagrams",
+    "S04_Complex_Loci",
+    "S05_Exponential_Form_and_de_Moivre",
+    "S06_Matrices_and_Transformations",
+    "S07_Determinants_and_Inverses",
+    "S08_Systems_of_Equations_and_Planes",
+    "S09_Lines_and_Planes",
+    "S10_Vector_Product_and_Distances",
+    "S11_Roots_of_Polynomials_and_Partial_Fractions",
+    "S12_Series",
+    "S13_Hyperbolic_Functions",
+    "S14_Maclaurin_Series_Improper_Integrals_Mean_Value",
+    "S15_Volumes_and_Further_Integration",
+    "S16_Polar_Coordinates",
+    "S17_First_Order_Differential_Equations",
+    "S18_Second_Order_and_Coupled_Differential_Equations",
+    "S19_Combinatorics_and_Discrete_Random_Variables",
+    "S20_Geometric_and_Poisson_Distributions",
+    "S21_Continuous_Random_Variables",
+    "S22_Linear_Combinations_Estimation_and_Tests",
+    "S23_Chi_Squared_Tests",
+    "S24_Non_Parametric_Tests",
+    "S25_Correlation_and_Regression",
+    "S26_Dimensional_Analysis",
+    "S27_Work_Energy_and_Power",
+    "S28_Impulse_Momentum_and_Restitution",
+    "S29_Centre_of_Mass",
+    "S30_Circular_Motion_and_Variable_Force"
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "stage_rubrics": {
+    "S01_Perspectives_on_the_Role_of_Education": {
+      "criteria": [
+        "EDU.1: Functionalist, Marxist and New Right perspectives on the role and functions of education"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives EDU.1 (Paper 1, Section A: Education (3.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S02_Class_and_Gender_Differences_in_Achievement": {
+      "criteria": [
+        "EDU.2: Class differences in achievement: external (material/cultural deprivation) and internal (labelling, streaming) factors",
+        "EDU.3: Gender differences in achievement: external and internal factors, and explanations for boys' relative underachievement"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives EDU.2, EDU.3 (Paper 1, Section A: Education (3.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S03_Ethnicity_Differences_and_School_Processes": {
+      "criteria": [
+        "EDU.4: Ethnicity differences in achievement: external and internal factors, including institutional racism and the ethnocentric curriculum",
+        "EDU.5: Teacher/pupil relationships, labelling and the self-fulfilling prophecy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives EDU.4, EDU.5 (Paper 1, Section A: Education (3.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S04_Pupil_Subcultures_Hidden_Curriculum_and_Organisation": {
+      "criteria": [
+        "EDU.6: Pupil identities and subcultures: pro-school and anti-school responses (Lacey, Willis, Mac an Ghaill)",
+        "EDU.7: The hidden curriculum, and the organisation of teaching and learning (streaming, setting, mixed ability)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives EDU.6, EDU.7 (Paper 1, Section A: Education (3.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S05_Educational_Policy": {
+      "criteria": [
+        "EDU.8: Educational policy: selection (tripartite/comprehensive), marketisation and privatisation",
+        "EDU.9: Educational policy: compensatory/equality policies and the impact of globalisation on policy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives EDU.8, EDU.9 (Paper 1, Section A: Education (3.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S06_Methods_in_Context": {
+      "criteria": [
+        "MIC.1: Methods in Context: practical, ethical and theoretical issues specific to researching education"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives MIC.1 (Paper 1, Section B: Methods in Context (3.1.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S07_Research_Design_and_Sources_of_Data": {
+      "criteria": [
+        "TM.1: Quantitative and qualitative methods; research design, operationalisation and sampling",
+        "TM.2: Sources of data: questionnaires and interviews (structured, unstructured, semi-structured)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives TM.1, TM.2 (Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S08_Observation_Experiments_and_Documentary_Sources": {
+      "criteria": [
+        "TM.3: Observation: participant and non-participant, overt and covert",
+        "TM.4: Experiments: laboratory, field and the comparative method",
+        "TM.5: Documents and official statistics as sources of data"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives TM.3, TM.4, TM.5 (Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S09_Choosing_Methods_Theoretical_Practical_and_Ethical": {
+      "criteria": [
+        "TM.6: Theoretical, practical and ethical factors affecting choice of research method"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives TM.6 (Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S10_Positivism_Interpretivism_and_Sociological_Theory": {
+      "criteria": [
+        "TM.7: Positivism, interpretivism, and the debate on sociology as a science",
+        "TM.8: Consensus, conflict, structural and social action theories"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives TM.7, TM.8 (Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S11_Modernity_Postmodernity_Value_Freedom_and_Policy": {
+      "criteria": [
+        "TM.9: Modernity and postmodernity in relation to sociological theory",
+        "TM.10: Value freedom, and the relationship between sociological theory/methods and social policy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives TM.9, TM.10 (Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S12_Family_Perspectives_and_Changing_Patterns": {
+      "criteria": [
+        "FAM.1: The family and social structure/change: functionalist, Marxist and feminist perspectives",
+        "FAM.2: Changing patterns of marriage, cohabitation, divorce, childbearing and family diversity (the Rapoports, Giddens, Stacey)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives FAM.1, FAM.2 (Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S13_Gender_Domestic_Labour_and_Childhood": {
+      "criteria": [
+        "FAM.3: Gender roles, domestic labour and power within the family",
+        "FAM.4: The social construction of childhood, and debates on its changing status"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives FAM.3, FAM.4 (Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S14_Demographic_Trends": {
+      "criteria": [
+        "FAM.5: UK demographic trends since 1900: birth/death rates, family size, ageing population and migration"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives FAM.5 (Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S15_Religion_Ideology_and_Social_Change": {
+      "criteria": [
+        "BEL.1: Ideology, science and religion as belief systems, and Christian/non-Christian religious traditions",
+        "BEL.2: Religion and social change/social stability: functionalist, Marxist, feminist and Weberian perspectives"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives BEL.1, BEL.2 (Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S16_Religious_Organisations_and_Social_Groups": {
+      "criteria": [
+        "BEL.3: Religious organisations: churches, denominations, sects, cults and New Age movements",
+        "BEL.4: Religion, class, gender, ethnicity and age: patterns of participation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives BEL.3, BEL.4 (Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S17_Secularisation_Globalisation_and_Fundamentalism": {
+      "criteria": [
+        "BEL.5: The secularisation debate, religion and globalisation, and religious fundamentalism"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives BEL.5 (Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S18_Functionalist_Strain_and_Subcultural_Theories": {
+      "criteria": [
+        "CD.1: Functionalist theory of crime, and Merton's strain theory",
+        "CD.2: Subcultural theories of crime and deviance (Cohen; Cloward and Ohlin)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives CD.1, CD.2 (Paper 3, Section A: Crime and Deviance (3.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S19_Labelling_Marxist_Criminology_and_Realism": {
+      "criteria": [
+        "CD.3: Interactionist/labelling theory, deviancy amplification and moral panics",
+        "CD.4: Marxist and neo-Marxist criminology; left realism and right realism"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives CD.3, CD.4 (Paper 3, Section A: Crime and Deviance (3.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S20_Crime_Class_Gender_and_Ethnicity": {
+      "criteria": [
+        "CD.5: Crime and social class, and crime and gender",
+        "CD.6: Crime and ethnicity"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives CD.5, CD.6 (Paper 3, Section A: Crime and Deviance (3.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S21_Globalisation_Green_State_Crime_and_the_Media": {
+      "criteria": [
+        "CD.7: Globalisation and crime, green crime, and human rights/state crime",
+        "CD.8: Crime and the media"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives CD.7, CD.8 (Paper 3, Section A: Crime and Deviance (3.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S22_Crime_Control_Surveillance_and_Punishment": {
+      "criteria": [
+        "CD.9: Crime control, surveillance, prevention and punishment"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives CD.9 (Paper 3, Section A: Crime and Deviance (3.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    },
+    "S23_Victims_and_Measuring_Crime": {
+      "criteria": [
+        "CD.10: Victims of crime: positivist and critical victimology, and patterns of victimisation",
+        "CD.11: Measuring crime: official statistics, victim surveys and self-report studies"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. AQA's 4/6-mark 'Outline...' items are point-based (each developed reason scored with M/A/B tags); AQA's 10/20/30-mark items (including every item requiring application of a given Item) are marked holistically by AQA's levels-of-response scheme (AO1 knowledge, AO2 application of the item, AO3 analysis/evaluation, weighted differently by tariff), not by summed method/working marks. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+        "reference": "7192 objectives CD.10, CD.11 (Paper 3, Section A: Crime and Deviance (3.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of three papers in AQA's structure: Paper 1 'Education with Theory and Methods' (2h, 80 marks: Section A Education 50 -- 4-mark and 6-mark 'Outline...' items, a 10-mark item applying an Item, and a 30-mark essay applying an Item; Section B Methods in Context 20 marks, applying an Item; Section C Theory and Methods 10 marks, no Item)",
+      "Paper 2 'Topics in Sociology' (2h, 80 marks: Section A Families and Households 40 -- 10+10+20; Section B Beliefs in Society 40 -- 10+10+20, each topic's 10/10/20 following the same no-Item/Item/Item pattern as Paper 1 Section A but at Paper 2's own tariffs)",
+      "Paper 3 'Crime and Deviance with Theory and Methods' (2h, 80 marks: Section A Crime and Deviance 50, the same 4/6/10/30 structure as Paper 1 Section A; Section B Theory and Methods 30 -- a 10-mark item, no Item, and a 20-mark item applying an Item)",
+      "Point-based marking for 4/6-mark items (each developed reason scored, checkable by summed M/A/B tags); AQA's levels of response for every 10/20/30-mark item (AO1 knowledge, AO2 application of the given Item where one is provided, AO3 analysis and evaluation, weighted differently by tariff)"
+    ],
+    "pass_threshold": "At least 50% of the 240 marks overall and at least 40% on each of the three papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+      "reference": "AQA 7192 scheme of assessment: Paper 1 80 marks/33.3%, Paper 2 80 marks/33.3%, Paper 3 80 marks/33.3%",
+      "urls": [
+        "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification"
+  ],
+  "source_notes": "AQA publishes the 7192 specification, including the subject content for Education with Theory and Methods, Topics in Sociology (all eight option topics), and Crime and Deviance with Theory and Methods, and the scheme of assessment, at aqa.org.uk/subjects/sociology/a-level/sociology-7192, cross-checked against the original AQA-7191-7192-SP-2015.PDF specification and real, published AQA mark schemes (e.g. AQA-71921-MS-JUN23 for Paper 1, AQA-71922-MS-JUN23 for Paper 2, AQA-71923-MS-JUN22 for Paper 3) confirming the exact question structure and tariffs used in this course (4/6-mark 'Outline...' items, 10-mark 'Outline and explain...' and 'applying the Item, analyse...' items, 20-mark and 30-mark 'applying the Item... evaluate...' essays). Stage tests and the mock are original questions in AQA's style, not real past-paper items. Every named theorist, theory and study was checked against real, correctly attributed sociological knowledge when this course was built."
+}

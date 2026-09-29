@@ -1,0 +1,454 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "SRA SQE2 Assessment Specification (six skills: client interview and attendance note, advocacy, case and matter analysis, legal research, legal writing, legal drafting) and SQE2 Annexes 1-4",
+    "url": "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+    "version": "SQE2 Assessment Specification as published on sqe.sra.org.uk, live version fetched 2026-09-22",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "SQE2-INT-1",
+      "title": "Interview structure",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-2",
+      "title": "Questioning technique",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-3",
+      "title": "Identifying the client's objectives",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-4",
+      "title": "The attendance note",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-CRI-1",
+      "title": "Worked scenario: police station follow-up interview",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-DR-1",
+      "title": "Worked scenario: new litigation client take-on interview",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-PROP-1",
+      "title": "Worked scenario: residential buyer take-on interview",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-WILLS-1",
+      "title": "Worked scenario: will instructions interview",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-INT-BUS-1",
+      "title": "Worked scenario: company formation instructions interview",
+      "topic_area": "Client Interviewing"
+    },
+    {
+      "id": "SQE2-ADV-1",
+      "title": "Submission structure",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-2",
+      "title": "Examination-in-chief basics",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-3",
+      "title": "Cross-examination basics",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-4",
+      "title": "Court etiquette and procedure",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-CRI-1",
+      "title": "Worked scenario: bail application",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-DR-1",
+      "title": "Worked scenario: interim applications hearing",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-PROP-1",
+      "title": "Worked scenario: possession hearing",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-WILLS-1",
+      "title": "Worked scenario: contested probate directions hearing",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-ADV-BUS-1",
+      "title": "Worked scenario: interim injunction application",
+      "topic_area": "Advocacy"
+    },
+    {
+      "id": "SQE2-CMA-1",
+      "title": "Extracting the legal issues",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-2",
+      "title": "Extracting the relevant facts",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-3",
+      "title": "Identifying gaps and further evidence needed",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-4",
+      "title": "Producing a client-focused analysis",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-CRI-1",
+      "title": "Worked scenario: prosecution evidence bundle",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-DR-1",
+      "title": "Worked scenario: breach of contract bundle",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-PROP-1",
+      "title": "Worked scenario: title and search bundle",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-WILLS-1",
+      "title": "Worked scenario: contested will bundle",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-CMA-BUS-1",
+      "title": "Worked scenario: shareholder dispute bundle",
+      "topic_area": "Case and Matter Analysis"
+    },
+    {
+      "id": "SQE2-RES-1",
+      "title": "Identifying the research issue",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-2",
+      "title": "Finding the sources",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-3",
+      "title": "Applying the law to the facts",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-4",
+      "title": "Presenting and referencing research",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-CRI-1",
+      "title": "Worked scenario: sentencing guideline research",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-DR-1",
+      "title": "Worked scenario: limitation period research",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-PROP-1",
+      "title": "Worked scenario: restrictive covenant research",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-WILLS-1",
+      "title": "Worked scenario: intestacy entitlement research",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-RES-BUS-1",
+      "title": "Worked scenario: directors' duties research",
+      "topic_area": "Legal Research"
+    },
+    {
+      "id": "SQE2-WRI-1",
+      "title": "Writing conventions",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-2",
+      "title": "The attendance note as a document",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-3",
+      "title": "Letters of advice",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-4",
+      "title": "Other conventional documents",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-CRI-1",
+      "title": "Worked scenario: letter of advice on plea options",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-DR-1",
+      "title": "Worked scenario: letter before claim",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-PROP-1",
+      "title": "Worked scenario: report on title letter",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-WILLS-1",
+      "title": "Worked scenario: letter of advice on executor duties",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-WRI-BUS-1",
+      "title": "Worked scenario: letter of advice on company formation",
+      "topic_area": "Legal Writing"
+    },
+    {
+      "id": "SQE2-DRA-1",
+      "title": "Drafting principles",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-2",
+      "title": "Drafting clauses to instructions",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-3",
+      "title": "Drafting simple documents to instructions",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-4",
+      "title": "Checking and amending a draft",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-CRI-1",
+      "title": "Worked scenario: bail conditions notice",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-DR-1",
+      "title": "Worked scenario: particulars of claim extract",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-PROP-1",
+      "title": "Worked scenario: sale contract special condition",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-WILLS-1",
+      "title": "Worked scenario: will clause",
+      "topic_area": "Legal Drafting"
+    },
+    {
+      "id": "SQE2-DRA-BUS-1",
+      "title": "Worked scenario: board resolution",
+      "topic_area": "Legal Drafting"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_INT_Core": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, client interview and attendance note station",
+      "SQE2 Annex 2 Threshold Standard",
+      "SQE2 Annex 3 Technical Legal Practice and Working with Other People"
+    ],
+    "syllabus_topic": "Client Interviewing",
+    "covers_items": [
+      "SQE2-INT-1",
+      "SQE2-INT-2",
+      "SQE2-INT-3",
+      "SQE2-INT-4"
+    ]
+  },
+  "S02_INT_Worked_Scenarios": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, client interview and attendance note station, practice-area application",
+      "SQE2 Annex 1 Functioning Legal Knowledge"
+    ],
+    "syllabus_topic": "Client Interviewing",
+    "covers_items": [
+      "SQE2-INT-CRI-1",
+      "SQE2-INT-DR-1",
+      "SQE2-INT-PROP-1",
+      "SQE2-INT-WILLS-1",
+      "SQE2-INT-BUS-1"
+    ]
+  },
+  "S03_ADV_Core": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, advocacy station",
+      "SQE2 Annex 2 Threshold Standard",
+      "SQE2 Annex 3 Technical Legal Practice"
+    ],
+    "syllabus_topic": "Advocacy",
+    "covers_items": [
+      "SQE2-ADV-1",
+      "SQE2-ADV-2",
+      "SQE2-ADV-3",
+      "SQE2-ADV-4"
+    ]
+  },
+  "S04_ADV_Worked_Scenarios": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, advocacy station, practice-area application",
+      "SQE2 Annex 1 Functioning Legal Knowledge"
+    ],
+    "syllabus_topic": "Advocacy",
+    "covers_items": [
+      "SQE2-ADV-CRI-1",
+      "SQE2-ADV-DR-1",
+      "SQE2-ADV-PROP-1",
+      "SQE2-ADV-WILLS-1",
+      "SQE2-ADV-BUS-1"
+    ]
+  },
+  "S05_CMA_Core": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, case and matter analysis station",
+      "SQE2 Annex 2 Threshold Standard",
+      "SQE2 Annex 3 Technical Legal Practice"
+    ],
+    "syllabus_topic": "Case and Matter Analysis",
+    "covers_items": [
+      "SQE2-CMA-1",
+      "SQE2-CMA-2",
+      "SQE2-CMA-3",
+      "SQE2-CMA-4"
+    ]
+  },
+  "S06_CMA_Worked_Scenarios": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, case and matter analysis station, practice-area application",
+      "SQE2 Annex 1 Functioning Legal Knowledge"
+    ],
+    "syllabus_topic": "Case and Matter Analysis",
+    "covers_items": [
+      "SQE2-CMA-CRI-1",
+      "SQE2-CMA-DR-1",
+      "SQE2-CMA-PROP-1",
+      "SQE2-CMA-WILLS-1",
+      "SQE2-CMA-BUS-1"
+    ]
+  },
+  "S07_RES_Core": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, legal research station",
+      "SQE2 Annex 2 Threshold Standard",
+      "SQE2 Annex 3 Technical Legal Practice"
+    ],
+    "syllabus_topic": "Legal Research",
+    "covers_items": [
+      "SQE2-RES-1",
+      "SQE2-RES-2",
+      "SQE2-RES-3",
+      "SQE2-RES-4"
+    ]
+  },
+  "S08_RES_Worked_Scenarios": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, legal research station, practice-area application",
+      "SQE2 Annex 1 Functioning Legal Knowledge"
+    ],
+    "syllabus_topic": "Legal Research",
+    "covers_items": [
+      "SQE2-RES-CRI-1",
+      "SQE2-RES-DR-1",
+      "SQE2-RES-PROP-1",
+      "SQE2-RES-WILLS-1",
+      "SQE2-RES-BUS-1"
+    ]
+  },
+  "S09_WRI_Core": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, legal writing station",
+      "SQE2 Annex 2 Threshold Standard",
+      "SQE2 Annex 3 Working with Other People"
+    ],
+    "syllabus_topic": "Legal Writing",
+    "covers_items": [
+      "SQE2-WRI-1",
+      "SQE2-WRI-2",
+      "SQE2-WRI-3",
+      "SQE2-WRI-4"
+    ]
+  },
+  "S10_WRI_Worked_Scenarios": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, legal writing station, practice-area application",
+      "SQE2 Annex 1 Functioning Legal Knowledge"
+    ],
+    "syllabus_topic": "Legal Writing",
+    "covers_items": [
+      "SQE2-WRI-CRI-1",
+      "SQE2-WRI-DR-1",
+      "SQE2-WRI-PROP-1",
+      "SQE2-WRI-WILLS-1",
+      "SQE2-WRI-BUS-1"
+    ]
+  },
+  "S11_DRA_Core": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, legal drafting station",
+      "SQE2 Annex 2 Threshold Standard",
+      "SQE2 Annex 3 Technical Legal Practice"
+    ],
+    "syllabus_topic": "Legal Drafting",
+    "covers_items": [
+      "SQE2-DRA-1",
+      "SQE2-DRA-2",
+      "SQE2-DRA-3",
+      "SQE2-DRA-4"
+    ]
+  },
+  "S12_DRA_Worked_Scenarios": {
+    "covers_syllabus_refs": [
+      "SQE2 Assessment Specification, legal drafting station, practice-area application",
+      "SQE2 Annex 1 Functioning Legal Knowledge"
+    ],
+    "syllabus_topic": "Legal Drafting",
+    "covers_items": [
+      "SQE2-DRA-CRI-1",
+      "SQE2-DRA-DR-1",
+      "SQE2-DRA-PROP-1",
+      "SQE2-DRA-WILLS-1",
+      "SQE2-DRA-BUS-1"
+    ]
+  }
+}

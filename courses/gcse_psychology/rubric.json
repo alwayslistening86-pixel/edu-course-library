@@ -1,0 +1,302 @@
+{
+  "stage_rubrics": {
+    "S01_Memory_Processes_and_Models": {
+      "criteria": [
+        "1.1: Processes of memory: encoding, storage and retrieval; episodic, semantic and procedural memory",
+        "1.2: Structures of memory: the multi-store model (sensory register, STM, LTM), coding/capacity/duration, primacy and recency (Murdock)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 1.1, 1.2 (3.1.1 Memory)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S02_Reconstructive_Memory": {
+      "criteria": [
+        "1.3: Memory as an active process: the theory of reconstructive memory, effort after meaning (Bartlett), factors affecting accuracy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 1.3 (3.1.1 Memory)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S03_Perception_Cues_and_Theories": {
+      "criteria": [
+        "2.1: Sensation and perception distinguished; monocular and binocular depth cues; visual constancies",
+        "2.2: Theories of perception: Gibson's direct theory and Gregory's constructivist (indirect) theory"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 2.1, 2.2 (3.1.2 Perception)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S04_Illusions_and_Perceptual_Set": {
+      "criteria": [
+        "2.3: Visual illusions: explanations (ambiguity, misinterpreted depth cues, fiction, size constancy) and named examples",
+        "2.4: Factors affecting perception: perceptual set, culture, motivation and emotion (Gilchrist and Nesberg; Bruner and Minturn)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 2.3, 2.4 (3.1.2 Perception)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S05_Brain_Development_and_Piaget": {
+      "criteria": [
+        "3.1: Early brain development: neural structures (brain stem, thalamus, cerebellum, cortex) and the nature-nurture debate",
+        "3.2: Piaget's stage theory of cognitive development: assimilation/accommodation, the four stages, conservation and egocentrism (McGarrigle and Donaldson; Hughes)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 3.1, 3.2 (3.1.3 Development)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S06_Learning_Mindset_and_Style": {
+      "criteria": [
+        "3.3: Effects of learning on development: Dweck's mindset theory, praise and self-efficacy; learning styles and Willingham's critique"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 3.3 (3.1.3 Development)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S07_Hypotheses_Variables_and_Sampling": {
+      "criteria": [
+        "4.1: Formulating hypotheses (null and alternative) and types of variable (independent, dependent, extraneous)",
+        "4.2: Sampling methods: random, opportunity, systematic and stratified, with strengths and weaknesses"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 4.1, 4.2 (3.1.4 Research methods)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S08_Experimental_and_Other_Methods": {
+      "criteria": [
+        "4.3: Experimental design and types of experiment: independent groups, repeated measures, matched pairs; laboratory, field and natural experiments",
+        "4.4: Non-experimental methods: questionnaires, interviews, case studies and observation (behaviour categories, interobserver reliability), and correlation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 4.3, 4.4 (3.1.4 Research methods)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S09_Procedures_Reliability_and_Ethics": {
+      "criteria": [
+        "4.5: Research procedures and quality: standardisation, control of extraneous variables, reliability, validity, and BPS ethical guidelines"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 4.5 (3.1.4 Research methods)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S10_Data_Handling_and_Statistics": {
+      "criteria": [
+        "4.6: Data handling: quantitative/qualitative and primary/secondary data; computation; descriptive statistics (mean, median, mode, range); tables, charts and the normal distribution"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 4.6 (3.1.4 Research methods)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S11_Conformity": {
+      "criteria": [
+        "5.1: Conformity: social factors (group size, anonymity, task difficulty) and dispositional factors (Asch's study)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 5.1 (3.2.1 Social influence)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S12_Obedience": {
+      "criteria": [
+        "5.2: Obedience: Milgram's agency theory (agency, authority, culture, proximity) and Adorno's authoritarian personality theory"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 5.2 (3.2.1 Social influence)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S13_Prosocial_and_Crowd_Behaviour": {
+      "criteria": [
+        "5.3: Prosocial behaviour: bystander intervention, social and dispositional factors (Piliavin's subway study)",
+        "5.4: Crowd and collective behaviour: prosocial and antisocial crowd behaviour, social loafing, deindividuation, and dispositional factors"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 5.3, 5.4 (3.2.1 Social influence)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S14_Language_and_Thought": {
+      "criteria": [
+        "6.1: The relationship between language and thought: Piaget's and the Sapir-Whorf (linguistic relativity) views, with cross-cultural evidence",
+        "6.2: Human and animal communication compared, including Von Frisch's honeybee dance study"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 6.1, 6.2 (3.2.2 Language, thought and communication)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S15_Non_Verbal_Communication": {
+      "criteria": [
+        "6.3: Non-verbal communication: eye contact, body language (posture, postural echo, touch) and personal space",
+        "6.4: Explanations of non-verbal behaviour: Darwin's evolutionary account, innate and learned evidence (Yuki's emoticon study)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 6.3, 6.4 (3.2.2 Language, thought and communication)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S16_Nervous_System_and_Neurons": {
+      "criteria": [
+        "7.1: The nervous system: central and peripheral (somatic and autonomic) divisions; the fight-or-flight response; James-Lange theory of emotion",
+        "7.2: Neuron structure and function: sensory, relay and motor neurons; synaptic transmission; Hebb's theory of learning"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 7.1, 7.2 (3.2.3 Brain and neuropsychology)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S17_Brain_Structure_and_Neuropsychology": {
+      "criteria": [
+        "7.3: Brain structure and function: the lobes and cerebellum, and localisation of function (Penfield's interpretive cortex study)",
+        "7.4: Neuropsychology: cognitive neuroscience, brain-scanning techniques (CT, PET, fMRI), Tulving's memory study, and effects of neurological damage"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 7.3, 7.4 (3.2.3 Brain and neuropsychology)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S18_Mental_Health_and_Depression": {
+      "criteria": [
+        "8.1: Introduction to mental health: characteristics of mental health, cultural variation, and the effects of poor mental health on the individual and society",
+        "8.2: Clinical depression: unipolar/bipolar distinction and ICD criteria; biological and psychological explanations; treatments including antidepressants and CBT (Wiles' study)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 8.1, 8.2 (3.2.4 Psychological problems)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    },
+    "S19_Addiction": {
+      "criteria": [
+        "8.3: Addiction: characteristics and ICD dependence syndrome criteria; biological (Kaij's twin study) and psychological explanations; treatments"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+        "reference": "8182 objectives 8.3 (3.2.4 Psychological problems)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of both papers in AQA's structure: Paper 1 'Cognition and Behaviour' (1 hour 45 minutes, 100 marks, Memory/Perception/Development/Research methods) and Paper 2 'Social Context and Behaviour' (1 hour 45 minutes, 100 marks, Social influence/Language/Brain and neuropsychology/Psychological problems)",
+      "Each paper split into four 25-mark sections (A-D), one per topic, mixing multiple-choice, short-answer and extended-writing questions, matching AQA's published question styles",
+      "Calculation questions marked with method shown; extended-writing questions marked by levels; correct attribution of every named study or theory required for full marks"
+    ],
+    "pass_threshold": "At least 50% of the 200 marks overall and at least 40% on each of the two papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+      "reference": "AQA 8182 scheme of assessment: Paper 1 (1h45, 100 marks, 50%) and Paper 2 (1h45, 100 marks, 50%)",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF"
+  ],
+  "source_notes": "AQA publishes the 8182 specification, including the subject content across both papers and the assessment structure. Stage tests and the mock are original questions in AQA's style, not real past-paper items. Numerical worked examples (mean, median, mode, range, percentages) were computed and checked with Python when this course was built; every named study or theory was checked against real psychological knowledge."
+}

@@ -1,0 +1,450 @@
+{
+  "stage_rubrics": {
+    "S01_How_The_Qualification_Works": {
+      "criteria": [
+        "States unit structure, marks, timing and the terminal rule accurately",
+        "Calculates a UMS total and identifies the correct overall grade from the table",
+        "Names the four performance objectives and says which apply to exam and NEA",
+        "Explains MB1, MB2 and MB3 descriptor words in own words with an example"
+      ],
+      "pass_threshold": "The learner correctly states the unit structure, marks and weightings, the terminal rule, the UMS grade table, and explains at least four MB1, MB2 and MB3 descriptor words in plain English.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Level 1/Level 2 Cambridge National in Health and Social Care J835 specification, sections 2, 4.1, 5 and Appendix B (Version 6, June 2026)",
+        "reference": "J835 specification sections 2.2, 4.1.5, 5.1 to 5.5, Appendix B",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S02_Care_Settings_and_Service_User_Rights": {
+      "criteria": [
+        "Classifies care settings correctly into health and social care",
+        "Names each right and gives a scenario-specific example of how it is met",
+        "Links each right to a named benefit (empowerment, self-esteem, needs met, trust) with a reason",
+        "Uses appropriate terminology and develops two examples for a Level 3 six-mark answer"
+      ],
+      "pass_threshold": "Level 2 or above on a six-mark style answer: two developed examples of rights being met, linked to a named benefit, with terms such as choice, consultation and empowerment used correctly.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 1 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S03_Person_Centred_Values_and_the_6Cs": {
+      "criteria": [
+        "Defines the person-centred values and the 6Cs accurately",
+        "Gives a specific example of a named person applying each value in a named setting",
+        "Links a C to a value with an explanation of how it delivers it",
+        "Uses accurate terminology and avoids generic answers such as 'be nice'"
+      ],
+      "pass_threshold": "The learner defines each value or C accurately (knowledge) and gives an applied example for at least six of the nine values and four of the 6Cs (understanding).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 2, teaching content 2.1 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 2, 2.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S04_Benefits_and_Effects_of_Person_Centred_Values": {
+      "criteria": [
+        "Explains provider and service-user benefits with an example and a link to a named person-centred value",
+        "Gives accurate, distinct effects for physical, intellectual, emotional and social areas",
+        "Makes explicit connections between PIES areas using reasoning words",
+        "Applies effects to the scenario person, not generic statements"
+      ],
+      "pass_threshold": "The learner gives at least two developed benefits for providers and two for service users, and explains at least one effect in each of the four PIES areas with a linking sentence showing how one effect leads to another.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 2, teaching content 2.2 and 2.3 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 2, 2.2 and 2.3",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S05_Verbal_and_Non_Verbal_Communication": {
+      "criteria": [
+        "Identifies verbal and non-verbal skills accurately using the spec's terms",
+        "Says how and when each skill is used with the named service user",
+        "States a specific benefit to the service user for each skill",
+        "Develops two examples for extended answers using appropriate terminology"
+      ],
+      "pass_threshold": "For each skill the learner can give how it is used, when, and the benefit, and applies at least four verbal and four non-verbal skills correctly to a named service user.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 3, teaching content 3.1 and 3.2 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 3, 3.1 and 3.2",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S06_Active_Listening_Special_Methods_and_Why_Communication_Matters": {
+      "criteria": [
+        "Applies at least four active listening skills with correct terminology",
+        "Matches special methods to suitable service users and explains the benefit",
+        "Explains impacts of both good and poor communication with linked consequences",
+        "Refers to Mr Osei's needs rather than giving generic points"
+      ],
+      "pass_threshold": "The learner matches at least five special methods to appropriate service users, applies six active listening skills in a scenario, and explains one good and one poor communication impact with linked consequences.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 3, teaching content 3.3 to 3.5 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 3, 3.3 to 3.5",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S07_Safeguarding": {
+      "criteria": [
+        "Defines safeguarding accurately and gives a group-specific reason for need",
+        "Explains impacts in linked PIES terms",
+        "Explains policy, DSL and training as procedures with a protective effect",
+        "Distinguishes standard checks, enhanced checks and the barred list accurately"
+      ],
+      "pass_threshold": "Correct definition of safeguarding, accurate distinction between standard checks, enhanced checks and the barred list, and a developed explanation of how a policy, DSL and staff training protect a named group.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 4, teaching content 4.1 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 4, 4.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S08_Infection_Prevention": {
+      "criteria": [
+        "Names spec-listed measures accurately in each of the three groups",
+        "Gives a setting-specific reason for each measure",
+        "Explains protection for both service users and service providers",
+        "Uses appropriate terminology and develops two examples for extended answers"
+      ],
+      "pass_threshold": "The learner gives at least two measures in each of the three groups with a reason specific to a named setting, and explains how each protects both service users and service providers.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 4, teaching content 4.2 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 4, 4.2",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S09_Safety_Procedures_Measures_and_Security": {
+      "criteria": [
+        "Distinguishes procedure from measure with correct examples",
+        "Explains each named safety procedure and equipment consideration with a protective reason",
+        "Explains security measures with reference to who is protected",
+        "Applies content to the named setting and develops points for extended answers"
+      ],
+      "pass_threshold": "The learner correctly distinguishes a procedure from a measure with examples, explains at least four safety procedures and four security measures with a protective reason for each, in a named setting.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R032 Topic Area 4, teaching content 4.3 and 4.4 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.2, Topic Area 4, 4.3 and 4.4",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S10_R032_Exam_Technique": {
+      "criteria": [
+        "Applies command words correctly, matching the depth of the answer to the marks available",
+        "Six-mark answers reach Level 3: two relevant, developed examples with appropriate terminology",
+        "Eight-mark answers include discussion and a judgement with two or more examples",
+        "Answers are tailored to the scenario person and setting throughout"
+      ],
+      "pass_threshold": "The learner writes a six-mark answer at Level 3 with two developed examples and an eight-mark answer at Level 3 with two examples, a balanced discussion and a judgement, when marked against the paraphrased levels.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR J835 specification, R032 assessment guidance (section 4.2) and Appendix B; Mark Scheme R032/01 January 2024 for level-of-response format",
+        "reference": "J835 specification section 4.2 Assessment guidance and Appendix B",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S11_Life_Stages_and_PIES_Development": {
+      "criteria": [
+        "Names the five life stages with correct age ranges and gives correct milestones",
+        "Describes physical, intellectual, emotional and social development with accurate, specific detail",
+        "Uses the spec's PIES terms (for example fine and gross motor skills, self-esteem, attachment)",
+        "Explains what MB1, MB2 and MB3 mean for a description criterion"
+      ],
+      "pass_threshold": "The learner correctly names the five life stages with age ranges, describes at least two PIES developments for each stage, and can explain in their own words what separates MB1, MB2 and MB3 for the 'describe growth and development using PIES' criterion (6 marks).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R033 Topic Area 1 teaching content and marking criteria (Version 6, June 2026)",
+        "reference": "J835 specification section 4.3, Topic Area 1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S12_Factors_Affecting_Growth_and_Development": {
+      "criteria": [
+        "Identifies all six types of factor accurately with fitting examples",
+        "Explains effects using cause and consequence and refers to PIES",
+        "Covers both positive and negative influences and interactions",
+        "Shows in own words what the criterion requires for MB3 (two of each, all types, comprehensive)"
+      ],
+      "pass_threshold": "The learner names all six factor types with at least two examples each, and writes a reasoned positive-and-negative explanation for at least three of them for a fictional individual using cause-and-effect words.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R033 Topic Area 1 teaching content, exemplification and marking criteria (Version 6, June 2026)",
+        "reference": "J835 specification section 4.3, Topic Area 1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S13_Life_Events_Impacts_and_Needs": {
+      "criteria": [
+        "Classifies events correctly and justifies expected or unexpected",
+        "Explains all five impacts with reasons and applies them to the individual",
+        "Derives needs directly from stated impacts using appropriate examples",
+        "Recognises that impacts and needs differ between individuals"
+      ],
+      "pass_threshold": "The learner classifies at least six events, explains impacts in all five areas for one event with reasoning, and states a distinct need for each impact.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R033 Topic Area 2 teaching content and exemplification (Version 6, June 2026)",
+        "reference": "J835 specification section 4.3, Topic Area 2",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S14_R033_NEA_Task_2a_Skills_and_Evidence": {
+      "criteria": [
+        "States consent, authentication, redaction and storage requirements accurately",
+        "Distinguishes own words from copying and knows what to reference",
+        "States which help teachers may and may not give",
+        "Explains what MB1 to MB3 mean for description, explanation of impacts and needs criteria"
+      ],
+      "pass_threshold": "The learner can explain the interview permissions and anonymity rules, describe what own words and referencing mean, and state what each Task 2a criterion requires for MB1, MB2 and MB3.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R033 assessment guidance and marking criteria; section 6 NEA rules (Version 6, June 2026)",
+        "reference": "J835 specification sections 4.3 and 6.2 to 6.3",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S15_Sources_of_Support": {
+      "criteria": [
+        "Classifies sources of support correctly with realistic examples",
+        "Describes practitioner and informal carer roles accurately",
+        "Matches the way of meeting needs to the impact/need described",
+        "Considers practical factors such as cost, location and availability"
+      ],
+      "pass_threshold": "The learner sorts at least ten sources of support into formal, informal and charity, describes six practitioner roles, and matches each of the six ways of meeting needs to a scenario.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R033 Topic Area 3 teaching content and exemplification (Version 6, June 2026)",
+        "reference": "J835 specification section 4.3, Topic Area 3",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S16_R033_NEA_Task_2b_Recommending_Support": {
+      "criteria": [
+        "Describes research as a methodical, recorded, referenced process",
+        "Distinguishes brief, sound and comprehensive information with reference to formal, informal and charity support",
+        "Explains the difference between description, justification and application of values",
+        "Chooses person-centred values from R032 and links them to recommendations"
+      ],
+      "pass_threshold": "The learner explains the research process, states what MB3 requires for each Task 2b criterion, and can identify (in a fictional example supplied by the tutor) whether a passage describes, justifies or applies person-centred values.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R033 Topic Area 3 and assessment guidance for Task 2b (Version 6, June 2026)",
+        "reference": "J835 specification section 4.3, Topic Area 3",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S17_R035_Public_Health_Issues": {
+      "criteria": [
+        "States accurate reasons for the importance of a healthy society, linked to individuals and society",
+        "Explains at least one public health challenge accurately: what it is, who is affected, its impact",
+        "Names organisations of different types with an accurate example of their role",
+        "Describes a real campaign's aim, benefit and target audience with justification"
+      ],
+      "pass_threshold": "The learner states all four reasons a healthy society matters, names and explains at least three current public health challenges with who is affected and the impact, names organisations that tackle them, and describes one real campaign, its benefits and its target audience accurately.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835 specification, Unit R035 Topic Area 1 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.5, R035 TA1 1.1 to 1.3",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S18_R035_Factors_Influencing_Health": {
+      "criteria": [
+        "Correctly identifies and explains factors from at least two of the four factor groups",
+        "Describes healthy-lifestyle choices accurately and links each to a genuine PIES benefit",
+        "Explains barriers with reasoning specific to the scenario, not generic statements",
+        "Applies factors and barriers to a named individual's circumstances rather than in the abstract"
+      ],
+      "pass_threshold": "The learner explains at least one factor from each of the four groups, describes healthy-lifestyle choices with their PIES benefits, and explains at least three barriers with why each makes healthy living harder.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835 specification, Unit R035 Topic Area 2 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.5, R035 TA2 2.1 to 2.3",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S19_R035_Planning_a_Campaign": {
+      "criteria": [
+        "States a specific, PIES-related aim rather than a vague statement",
+        "Covers timescale, resources, safety and communication with realistic, relevant detail",
+        "Explains why the approach and engagement methods suit the named target audience",
+        "Chooses a feedback method that would genuinely support later evaluation"
+      ],
+      "pass_threshold": "The learner produces a campaign plan that covers all seven planning strands (aims/PIES, timescales/resources/safety/communication/appropriateness, engagement methods, feedback methods) with clear, specific detail for each.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835 specification, Unit R035 Topic Area 3 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.5, R035 TA3 3.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S20_R035_Delivering_and_Evaluating_a_Campaign": {
+      "criteria": [
+        "Describes an introduction and delivery that suit the audience and hold their attention",
+        "Explains feedback collection that would capture honest, useful responses",
+        "Evaluation covers planning, communication and engagement separately, each with evidence",
+        "Improvement suggestions are specific, justified and clearly based on the feedback given"
+      ],
+      "pass_threshold": "The learner describes how to introduce, deliver and collect feedback on a campaign, and produces a structured self-evaluation covering strengths, weaknesses and specific improvements using feedback and self-reflection.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835 specification, Unit R035 Topic Area 4 (Version 6, June 2026)",
+        "reference": "J835 specification section 4.5, R035 TA4 4.1 to 4.2",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S21_R035_NEA_Skills_and_Task1_Evidence": {
+      "criteria": [
+        "Describes a genuine research method with more than one source type and correct referencing",
+        "States the independence and observation rules for R035 accurately",
+        "Explains what MB1 to MB3 require for the reasons-for-choice and importance criteria",
+        "Explains what a comprehensive answer needs for factors/barriers and for all four PIES benefit areas"
+      ],
+      "pass_threshold": "The learner explains what proper research and referencing look like, states what help a teacher may and may not give during R035 planning, and states what MB1, MB2 and MB3 require for each Task 1 evidence criterion.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R035 assessment guidance and marking criteria, and section 6 NEA rules (Version 6, June 2026)",
+        "reference": "J835 specification sections 4.5 and 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    },
+    "S22_R035_NEA_Tasks_2_to_4_Evidence": {
+      "criteria": [
+        "Names all seven Task 2 planning strands and explains what comprehensive coverage needs",
+        "Distinguishes MB1 to MB3 accurately for introduction/communication and for delivery complexity",
+        "Explains what a comprehensive evaluation needs across all three areas with specific evidence",
+        "Explains what detailed, feedback-based improvement suggestions look like, with an example"
+      ],
+      "pass_threshold": "The learner states what MB1 to MB3 require for a comprehensive plan, for introduction/communication and for delivery complexity, and for a comprehensive evaluation with detailed suggestions and full use of feedback.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+        "document": "OCR Cambridge National in Health and Social Care J835, Unit R035 assessment guidance and marking criteria (Version 6, June 2026)",
+        "reference": "J835 specification section 4.5",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+          "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "R032 six-mark and eight-mark answers reach Level 3: developed examples, appropriate terminology, and (for the eight-mark question) a balanced discussion with a judgement",
+      "R032 short and medium answers use command words correctly and match scenario detail where given",
+      "R033 evidence-knowledge answers show what MB3 requires for life-stage, factors, interview and support-recommendation criteria, and state the authenticity and interview-consent rules accurately",
+      "R035 evidence-knowledge answers show what MB3 requires for challenge-choice, factors/barriers, planning, delivery and evaluation criteria, and state the research and independence rules accurately"
+    ],
+    "pass_threshold": "Written paper (R032): performance consistent with a paraphrased Level 3 (comprehensive/thorough) response on six-mark and eight-mark extended-response questions, applying the command words, levels of response and scenario-matching skills taught in this course. NEA units (R033, R035): performance consistent with MB3 (comprehensive/full/effective) across the marking criteria for every task, applying the skills, rules and evidence requirements taught in this course, produced independently as OCR's NEA rules require.",
+    "source": {
+      "issuing_body": "OCR (Cambridge OCR), Cambridge Nationals",
+      "document": "OCR Cambridge National in Health and Social Care J835 specification, Section 5 Assessment of the qualification (Version 6, June 2026)",
+      "reference": "J835 specification section 5, Scheme of Assessment",
+      "urls": [
+        "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+        "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf",
+        "https://www.ocr.org.uk/qualifications/cambridge-nationals/health-and-social-care-level-1-2-j835/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+    "https://www.ocr.org.uk/Images/729443-mark-scheme-principles-of-care-in-health-and-social-care-settings.pdf"
+  ],
+  "source_notes": [
+    "Cited as 'assessment from 2024'; OCR's current specification PDF is the 'assessment from 2025' issue (711831). R033/R035 'NEA unit content and mark band guidance' is contained in that specification; no separate public mark-band document was found.",
+    "Cited R032/01 mark scheme is the January 2024 series (OCR 729443).",
+    "Re-checked 2026-09-19: the file at the 711831 URL now reads Version 6 (June 2026), first teaching September 2022; content of R032, R033 and R035 was itemised from that version."
+  ]
+}

@@ -1,0 +1,28 @@
+# S18_BE_Contract_Law - Lesson: Contract law
+
+## Goal
+The learner explains the different classifications and sources of law, the key features required for a valid contract, and the remedies available for breach of contract.
+
+## Syllabus items taught here
+- BE1.1 - The different classifications of law: common law and equity, public and private law, criminal and civil law
+- BE1.2 - The main sources of law: development of law by the courts, tribunals and parliament
+- BE1.3 - Key features of contracts: offer, acceptance, consideration, capacity and legality, discharge by performance or breach
+- BE1.4 - Remedies available for breach of contract: damages and equitable remedies
+
+## How to teach this
+Ask the learner: if a friend promises to give you their old bike for free and then changes their mind, could you sue them? What's missing compared to a proper contract? Have the learner attempt every calculation (VAT, discounts, control-account reconciliations, bank reconciliations, FIFO/LIFO/AVCO, labour pay, overhead absorption, product costs, budget variances) with full workings before checking the model answer -- these are computer-marked numeric-entry items in the real AAT assessment, so exact figures matter. Every numeric example in this course was computed and verified in Python when the course was built. UK VAT is taken at the standard rate of 20% throughout unless an item states otherwise; check the current rate at gov.uk if it may have changed. AAT's assessments use a mix of multiple-choice, numeric gap-fill and journal/ledger-entry question tools; this course's items mirror the same calculation-and-entry style using clearly marked short-answer and multiple-choice items.
+
+#### BE1.1 The different classifications of law: common law and equity, public and private law, criminal and civil law
+Law can be classified several ways. **Common law and equity**: common law developed through court decisions (precedent) and provides fixed remedies (chiefly damages); equity developed later to fill gaps and unfairness in common law, and provides more flexible, discretionary remedies (e.g. injunctions, specific performance -- see BE1.4). **Public and private law**: public law governs the relationship between individuals/organisations and the state (e.g. criminal law, constitutional law); private law governs relationships between individuals/organisations themselves (e.g. contract law, tort law). **Criminal and civil law**: criminal law deals with conduct the state treats as an offence against society, prosecuted by the state, with the standard of proof "beyond reasonable doubt" and punishment as the outcome; civil law deals with disputes between private parties (e.g. breach of contract), brought by the wronged party, with the standard of proof "on the balance of probabilities" and compensation/remedy as the outcome.
+
+#### BE1.2 The main sources of law: development of law by the courts, tribunals and parliament
+Law in England and Wales comes from several sources. **Parliament** creates law directly through **statute** (Acts of Parliament) and indirectly through **delegated/secondary legislation** made under powers Parliament grants. **The courts** develop the **common law** through **precedent** -- a decision by a higher court binds lower courts in future cases with similar facts, and this body of case law also **interprets** statute where its wording is unclear. **Tribunals** are specialist bodies that decide disputes in particular areas (e.g. employment) more quickly and informally than the ordinary courts, applying the same underlying law.
+
+#### BE1.3 Key features of contracts: offer, acceptance, consideration, capacity and legality, discharge by performance or breach
+For a contract to be legally valid and enforceable, several features must be present. **Offer**: a clear proposal by one party (the offeror) to be bound on stated terms if accepted -- distinct from an "invitation to treat" (e.g. goods displayed in a shop window, which merely invites offers). **Acceptance**: an unqualified agreement to all the terms of the offer, communicated to the offeror (a counter-offer is not acceptance -- it ends the original offer). **Consideration**: something of value given by each party in exchange (e.g. money for goods) -- a promise given for nothing in return (a "gift") is not a binding contract. **Capacity**: both parties must be legally able to contract (e.g. minors and people lacking mental capacity have limited contractual capacity). **Legality**: the contract's purpose must not be illegal or contrary to public policy. A contract can end (**discharge**) by **performance** (both parties do what they promised) or by **breach** (one party fails to perform as agreed, without lawful excuse).
+
+#### BE1.4 Remedies available for breach of contract: damages and equitable remedies
+When a contract is breached, the injured party may seek a remedy. **Damages** (a common-law remedy, available as of right) are a sum of money intended to put the injured party in the position they would have been in had the contract been performed. **Equitable remedies** are discretionary (the court need not grant them, and will only where damages are an inadequate remedy): **specific performance** orders the party in breach to actually carry out their contractual obligations (typically used where the subject matter is unique, e.g. land); an **injunction** orders a party to stop doing something that breaches the contract (or, less commonly, to do something).
+
+## Explicitly not here
+The external business environment (economics, government, international trade) is S19.

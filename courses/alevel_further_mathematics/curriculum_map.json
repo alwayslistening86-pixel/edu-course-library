@@ -1,0 +1,2561 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+    "url": "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf",
+    "version": "Version 2 (October 2025), downloaded from ocr.org.uk and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "The specification's own OCR reference codes, one item per code: Pure Core 4.01a-4.10h (81), Statistics 5.01a-5.09e (51), Mechanics 6.01a-6.06a (42), Discrete Mathematics 7.01a-7.08f and Additional Pure Mathematics 8.01a-8.06b (124, declared out of scope because this course takes the Statistics and Mechanics options). 298 codes in all."
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.01a",
+      "title": "Proof by mathematical induction (sums of series, divisibility, matrix powers)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.01b",
+      "title": "Proofs of a more demanding nature, including conjecture followed by proof",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02a",
+      "title": "The language of complex numbers: real and imaginary parts, conjugate, modulus, argument",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02b",
+      "title": "Cartesian form x + iy and modulus-argument form r(cos \u03b8 + i sin \u03b8)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02c",
+      "title": "Notation Re z, Im z, arg z, z*, |z|; principal argument; z = 0 iff Re z = Im z = 0",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02d",
+      "title": "Exponential form re^(i\u03b8)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02e",
+      "title": "Arithmetic with complex numbers in cartesian and modulus-argument forms",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02f",
+      "title": "Converting between cartesian and modulus-argument forms",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02g",
+      "title": "Complex roots of real polynomials occur in conjugate pairs",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02h",
+      "title": "Square roots of a complex number",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02i",
+      "title": "Quadratic equations with real coefficients and complex roots",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02j",
+      "title": "Solving and factorising real cubics and quartics using conjugate pairs and the factor theorem",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02k",
+      "title": "Argand diagrams",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02l",
+      "title": "Geometrical effect of conjugation and of adding and subtracting complex numbers",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02m",
+      "title": "Geometrical effect of multiplying and dividing complex numbers",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02n",
+      "title": "Euler's formula e^(i\u03b8) = cos \u03b8 + i sin \u03b8",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02o",
+      "title": "Loci and regions in the Argand diagram: circles, half-lines and perpendicular bisectors",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02p",
+      "title": "Set notation for loci",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02q",
+      "title": "De Moivre's theorem: multiple-angle formulae and sums of trigonometric or exponential series",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02r",
+      "title": "The n distinct nth roots of re^(i\u03b8); vertices of a regular n-gon",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.02s",
+      "title": "Complex roots of unity in geometric problems",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03a",
+      "title": "The language of matrices: order, square, zero and identity matrices",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03b",
+      "title": "Adding, subtracting and multiplying conformable matrices; scalar multiplication",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03c",
+      "title": "Matrix multiplication is associative but not commutative",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03d",
+      "title": "Matrices for 2-D linear transformations: reflections, rotations, enlargements, stretches and shears",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03e",
+      "title": "Matrices for successive transformations",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03f",
+      "title": "Matrices for 3-D reflections in coordinate planes and rotations about coordinate axes",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03g",
+      "title": "Invariant points and invariant lines",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03h",
+      "title": "Determinant of a 2 x 2 matrix",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03i",
+      "title": "The determinant as an area scale factor and its sign as orientation",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03j",
+      "title": "Determinant of a 3 x 3 matrix",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03k",
+      "title": "The 3 x 3 determinant as a volume scale factor and orientation",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03l",
+      "title": "Singular and non-singular matrices",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03m",
+      "title": "det(AB) = det(A) det(B)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03n",
+      "title": "Inverse of a non-singular 2 x 2 matrix",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03o",
+      "title": "Inverse of a non-singular 3 x 3 matrix",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03p",
+      "title": "Properties of inverses, including (AB)^(-1) = B^(-1)A^(-1)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03q",
+      "title": "Inverse matrices and inverse transformations",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03r",
+      "title": "Solving two or three simultaneous linear equations with an inverse matrix",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03s",
+      "title": "Consistency: infinitely many or no solutions when no unique solution exists",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.03t",
+      "title": "Geometrical interpretation of three linear equations as three planes",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04a",
+      "title": "Equation of a line in 2-D and 3-D in cartesian and vector form",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04b",
+      "title": "Equation of a plane in cartesian and vector (including scalar product) form",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04c",
+      "title": "The scalar product: angles between vectors or lines, and perpendicularity",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04d",
+      "title": "Angle between two planes and between a line and a plane",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04e",
+      "title": "Point of intersection of two lines; skew lines",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04f",
+      "title": "Intersection of a line and a plane",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04g",
+      "title": "The vector product to find a vector perpendicular to two given vectors",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04h",
+      "title": "Distance between parallel lines and shortest distance between skew lines",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04i",
+      "title": "Shortest distance between a point and a line",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.04j",
+      "title": "Shortest distance between a point and a plane",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.05a",
+      "title": "Relationships between the roots and coefficients of polynomial equations (up to quartic)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.05b",
+      "title": "Substitutions to form an equation with roots related to those of a given equation",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.05c",
+      "title": "Partial fractions with quadratic factors ax^2 + c, and improper fractions",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.06a",
+      "title": "Standard sums of integers, squares and cubes, and related series",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.06b",
+      "title": "The method of differences for finite and infinite series",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.07a",
+      "title": "Definitions of sinh, cosh and tanh in terms of exponentials",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.07b",
+      "title": "Graphs of the hyperbolic functions",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.07c",
+      "title": "The identity cosh^2 x - sinh^2 x = 1 and other identities",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.07d",
+      "title": "Differentiating and integrating hyperbolic functions",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.07e",
+      "title": "Inverse hyperbolic functions: definitions, domains and ranges",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.07f",
+      "title": "Logarithmic forms of the inverse hyperbolic functions",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08a",
+      "title": "Maclaurin series of a function, including the general term",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08b",
+      "title": "Standard Maclaurin series for e^x, sin x, cos x, ln(1 + x) and (1 + x)^n, and functions built from them",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08c",
+      "title": "Improper integrals: infinite ranges and integrands undefined in the range",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08d",
+      "title": "Volumes of revolution about the x- and y-axes, including parametric and composite shapes",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08e",
+      "title": "The mean value of a function",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08f",
+      "title": "Integration using partial fractions, including quadratic factors",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08g",
+      "title": "Derivatives of arcsin, arccos, arctan and the inverse hyperbolic functions",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.08h",
+      "title": "Integrals of 1/(a^2 + x^2), 1/root(a^2 - x^2), 1/root(x^2 + a^2), 1/root(x^2 - a^2) with inverse trig or hyperbolic substitutions",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.09a",
+      "title": "Polar coordinates (r \u2265 0) and converting between polar and cartesian",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.09b",
+      "title": "Sketching polar curves r = f(\u03b8)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.09c",
+      "title": "Area enclosed by a polar curve: (1/2)\u222br^2 d\u03b8",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10a",
+      "title": "General and particular solutions of differential equations",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10b",
+      "title": "Differential equations in modelling, in kinematics and other contexts",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10c",
+      "title": "Integrating factors for dy/dx + P(x)y = Q(x)",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10d",
+      "title": "Second-order homogeneous equations y'' + ay' + by = 0 via the auxiliary equation",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10e",
+      "title": "Second-order non-homogeneous equations: complementary function plus particular integral",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10f",
+      "title": "Simple harmonic motion x'' = -\u03c9^2 x and its solution",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10g",
+      "title": "Damped oscillations modelled by second-order differential equations",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "4.10h",
+      "title": "Coupled first-order linear differential equations (e.g. predator-prey), solved by elimination",
+      "topic_area": "Pure Core (Y540, Y541)"
+    },
+    {
+      "id": "5.01a",
+      "title": "Probabilities using permutations and combinations (nPr, nCr)",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.01b",
+      "title": "Probabilities in selection and arrangement problems, including repetition and restriction",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02a",
+      "title": "Discrete probability distributions",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02b",
+      "title": "Expectation and variance of a discrete random variable, including E(g(X))",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02c",
+      "title": "Effect of linear coding on the mean and variance of a random variable",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02d",
+      "title": "Mean np and variance np(1 - p) of a binomial distribution",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02e",
+      "title": "The discrete uniform distribution: conditions, probabilities, mean and variance",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02f",
+      "title": "Conditions for a geometric distribution",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02g",
+      "title": "Geometric probabilities, including P(X > x) = q^x",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02h",
+      "title": "Mean 1/p and variance (1 - p)/p^2 of a geometric distribution",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02i",
+      "title": "The Poisson distribution as a model for random events",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02j",
+      "title": "The Poisson formula P(X = x) = e^(-\u03bb) \u03bb^x / x!",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02k",
+      "title": "Calculating Poisson probabilities",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02l",
+      "title": "Conditions for a Poisson model",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02m",
+      "title": "Mean and variance of a Poisson distribution both equal \u03bb",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.02n",
+      "title": "The sum of independent Poisson variables is Poisson",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.03a",
+      "title": "Continuous random variables, probability density functions and cumulative distribution functions",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.03b",
+      "title": "Probabilities from a p.d.f., including piecewise definitions",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.03c",
+      "title": "Mean and variance of a continuous random variable",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.03d",
+      "title": "E(g(X)) for a continuous random variable",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.03e",
+      "title": "Finding and using a cumulative distribution function, including piecewise",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.03f",
+      "title": "Relationship between the p.d.f. and the c.d.f.; medians and percentiles",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.03g",
+      "title": "Cumulative distribution functions of related variables",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.04a",
+      "title": "E(aX + bY + c) and Var(aX + bY + c) for independent X and Y",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.04b",
+      "title": "Linear combinations of independent normal variables are normal",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.05a",
+      "title": "The distribution of the sample mean: mean \u03bc, variance \u03c3^2/n, approximately normal for large n (central limit theorem)",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.05b",
+      "title": "Unbiased estimates of the population mean and variance",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.05c",
+      "title": "Hypothesis tests for a population mean using a normal distribution (known variance, or large samples)",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.05d",
+      "title": "Confidence intervals for a population mean using a normal distribution",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.06a",
+      "title": "Chi-squared test for independence in a contingency table",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.06b",
+      "title": "Fitting a distribution given by a ratio, proportion or discrete uniform distribution",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.06c",
+      "title": "Fitting other discrete and continuous distributions",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.06d",
+      "title": "Chi-squared goodness-of-fit tests with the correct degrees of freedom",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.07a",
+      "title": "Non-parametric tests: when they are useful and choosing one",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.07b",
+      "title": "The basis of the sign test, Wilcoxon signed-rank test and Wilcoxon rank-sum test",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.07c",
+      "title": "Single-sample sign test and Wilcoxon signed-rank test for a median",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.07d",
+      "title": "Paired-sample versus two-sample tests",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.07e",
+      "title": "Paired-sample sign test, Wilcoxon matched-pairs signed-rank test and Wilcoxon rank-sum test",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.07f",
+      "title": "Normal approximations for the Wilcoxon tests with large samples",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.08a",
+      "title": "Calculating the PMCC from raw or summarised data",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.08b",
+      "title": "Correlation coefficients are unaffected by linear coding",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.08c",
+      "title": "The PMCC as a measure of linear fit",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.08d",
+      "title": "Hypothesis tests using the PMCC (critical value or p-value)",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.08e",
+      "title": "Spearman's rank correlation coefficient",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.08f",
+      "title": "Hypothesis test for association using Spearman's coefficient",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.08g",
+      "title": "Choosing between the PMCC and Spearman's coefficient",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.09a",
+      "title": "Independent (controlled) and dependent (response) variables",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.09b",
+      "title": "Least squares and regression lines",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.09c",
+      "title": "The regression line of y on x from raw or summarised data",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.09d",
+      "title": "Effect of linear coding on a regression line",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "5.09e",
+      "title": "Using a regression line for estimation, and the uncertainty of the estimates",
+      "topic_area": "Statistics (Y542)"
+    },
+    {
+      "id": "6.01a",
+      "title": "Dimensions of quantities in terms of M, L and T; dimensionless quantities",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.01b",
+      "title": "The relationship between units and dimensions",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.01c",
+      "title": "Dimensional analysis as an error check",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.01d",
+      "title": "Dimensional analysis to find unknown indices in a proposed formula",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.01e",
+      "title": "Formulating models using a dimensional argument",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02a",
+      "title": "The concept of work done by a force",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02b",
+      "title": "Work done by a constant force",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02c",
+      "title": "Work done by a constant force using vectors (F.x) or by a variable force \u222bF dx",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02d",
+      "title": "Mechanical energy",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02e",
+      "title": "Gravitational potential energy mgh and kinetic energy (1/2)mv^2",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02f",
+      "title": "Kinetic energy with the scalar product (1/2)m v.v",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02g",
+      "title": "Hooke's law T = \u03bbx/l for elastic strings and springs",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02h",
+      "title": "Elastic potential energy \u03bbx^2/(2l)",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02i",
+      "title": "Conservation of mechanical energy and the work-energy principle",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02j",
+      "title": "Energy principles with elastic strings and springs",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02k",
+      "title": "Power as the rate of doing work",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02l",
+      "title": "Power, tractive force and velocity: P = Fv",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.02m",
+      "title": "Power for a variable force in two dimensions: P = F.v",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03a",
+      "title": "Linear momentum in one dimension",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03b",
+      "title": "Conservation of linear momentum in one dimension for two particles",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03c",
+      "title": "Momentum in two dimensions as a vector mv",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03d",
+      "title": "Conservation of linear momentum in two dimensions",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03e",
+      "title": "The impulse of a force",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03f",
+      "title": "Impulse equals change in momentum: I = mv - mu",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03g",
+      "title": "The impulse-momentum principle in two dimensions",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03h",
+      "title": "Impulse of a constant force (Ft) or a variable force (\u222bF dt)",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03i",
+      "title": "The coefficient of restitution, 0 \u2264 e \u2264 1",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03j",
+      "title": "Perfectly elastic (e = 1) and inelastic (e = 0) collisions",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03k",
+      "title": "Newton's experimental law for direct impact in one dimension",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.03l",
+      "title": "Newton's experimental law in two dimensions (oblique impact with a surface or sphere)",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.04a",
+      "title": "Weight acting at the centre of mass",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.04b",
+      "title": "Centre of mass of uniform bodies by symmetry",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.04c",
+      "title": "Centre of mass of systems of particles and composite bodies",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.04d",
+      "title": "Centre of mass of uniform laminas and solids of revolution by integration",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.04e",
+      "title": "Equilibrium of a rigid body under coplanar forces, including suspension and toppling",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.05a",
+      "title": "Angular velocity, velocity, speed and acceleration for circular motion",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.05b",
+      "title": "v = r\u03c9 and a = r\u03c9^2 = v^2/r for uniform circular motion",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.05c",
+      "title": "Motion in a horizontal circle (including conical pendulums and banked tracks)",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.05d",
+      "title": "Circular motion with variable speed, using energy",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.05e",
+      "title": "Radial and tangential components of acceleration",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.05f",
+      "title": "Motion in a vertical circle, including leaving the circular path",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "6.06a",
+      "title": "Straight-line motion under a variable force, solved by separation or an integrating factor",
+      "topic_area": "Mechanics (Y543)"
+    },
+    {
+      "id": "7.01a",
+      "title": "The terms \u201cexistence\u201d \u201cconstruction\u201d, \u201cenumeration\u201d and \u201coptimisation\u201d in the context of problem solving",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01b",
+      "title": "The basic language and notation of sets",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01c",
+      "title": "Use the pigeonhole principle in solving problems",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01d",
+      "title": "Use the multiplicative principle",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01e",
+      "title": "Enumerate the number of ways of obtaining an ordered subset (permutation) of r elements from a set of n distinct...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01f",
+      "title": "Enumerate the number of ways of obtaining an unordered subset (combination) of r elements from a set of n distinct...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01g",
+      "title": "Solve problems about enumerating the number of arrangements of objects in a line, including those involving: e.g",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01h",
+      "title": "Solve problems about enumerating the number of arrangements of only some of a group of objects",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01i",
+      "title": "Solve problems about selections, including with constraints",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01j",
+      "title": "Solve problems with several constraints",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01k",
+      "title": "The inclusion-exclusion principle for two sets",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01l",
+      "title": "Extending the inclusion-exclusion principle to more than two sets",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.01m",
+      "title": "Derangements (by ad hoc methods)",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02a",
+      "title": "The meaning of the terms \u201cvertex\u201d (or \u201cnode\u201d) and \u201carc\u201d (or \u201cedge\u201d)",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02b",
+      "title": "The meaning of the terms \u201ctree\u201d, \u201csimple\u201d, \u201cconnected\u201d and \u201csimply connected\u201d as they refer to graphs",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02c",
+      "title": "The meaning of the terms \u201cwalk\u201d, \u201ctrail\u201d, \u201cpath\u201d, \u201ccycle\u201d and \u201croute\u201d. A \u201cwalk\u201d is a set of arcs where the end...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02d",
+      "title": "The term \u201ccomplete\u201d and the notation K for a complete graph on n vertices",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02e",
+      "title": "Bipartite graphs and the notation K for a complete bipartite graph connecting m,n m vertices to n vertices",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02f",
+      "title": "Use a colouring argument to show that a given graph is, or is not, bipartite",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02g",
+      "title": "Use the degrees of vertices to determine whether a given graph is Eulerian, semi-Eulerian or neither",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02h",
+      "title": "The definition of a Hamiltonian path, a Hamiltonian cycle and a Hamiltonian graph",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02i",
+      "title": "Ore\u2019s theorem",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02j",
+      "title": "What it means to say that two graphs are isomorphic",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02k",
+      "title": "Digraphs",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02l",
+      "title": "Apply the concepts of planarity, subdivision and contraction",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02m",
+      "title": "Know, understand and use Euler\u2019s formula",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02n",
+      "title": "Kuratowski\u2019s theorem",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02o",
+      "title": "The concept of thickness",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02p",
+      "title": "A network is a weighted graph; modelling connections with graphs and networks",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02q",
+      "title": "Adjacency matrices and weighted matrices",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.02r",
+      "title": "Modelling and solving problems using graphs or networks",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03a",
+      "title": "That an algorithm has an input and an output, is deterministic and finite",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03b",
+      "title": "Appreciate why an algorithmic approach to problem- solving is generally preferable to ad hoc methods, and understand...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03c",
+      "title": "Trace through an algorithm and interpret what the algorithm has achieved",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03d",
+      "title": "Use the order of an algorithm to calculate an approximate run-time for a large problem by scaling up a given run-time",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03e",
+      "title": "Compare the efficiency of two algorithms that achieve the same end result by considering a given aspect of the...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03f",
+      "title": "Calculate worst case time complexity, the \u201cmaximum T( ) run-time\u201d n , as a function of the size of a problem by...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03g",
+      "title": "Nk , where is a measure of the size k=0, 1, 2, 3 of the problems and or 4",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03h",
+      "title": "Calculate the run-time as a function of the size of a problem by considering the best case, the worst case or a...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03i",
+      "title": "Be familiar with: O( ) k! R, nk for O( ) >0, an for a O(log ) n where n is a measure of the size of the problem",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03j",
+      "title": "Sort a list using bubble sort and using shuttle sort",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03k",
+      "title": "Sort a list using quick sort",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03l",
+      "title": "The next-fit, first-fit, first-fit decreasing and full bin methods for one-dimensional packing problems",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.03m",
+      "title": "Extend their knowledge of packing methods",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.04a",
+      "title": "Use examples to demonstrate understanding and use of Dijkstra\u2019s algorithm to find the length and route of a least...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.04b",
+      "title": "Use examples to demonstrate understanding and use of Prim\u2019s algorithm (both in graphical and tabular/matrix form)...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.04c",
+      "title": "Use the nearest neighbour method on a network formed by weighting a complete graph to find an upper bound for the...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.04d",
+      "title": "Use a minimum spanning tree on a reduced network to calculate a lower bound for the travelling salesperson problem...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.04e",
+      "title": "Solve the route inspection problem by consideration of all possible pairings of up to six odd nodes",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.04f",
+      "title": "Choose an appropriate algorithm to solve a practical problem",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.05a",
+      "title": "Construct and interpret activity networks using activity on arc",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.05b",
+      "title": "Carry out a forward pass to determine earliest start times and find the minimum project completion time, and to...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.05c",
+      "title": "Understand, and be able to calculate, (total) float",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.05d",
+      "title": "Find latest start times and earliest finish times for activities",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.05e",
+      "title": "Use an activity network to construct a cascade chart and use a cascade chart to determine the effect on the minimum...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.06a",
+      "title": "Set up a linear programming formulation in the form \u201cmaximise (or minimise) objective subject to inequality...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.06b",
+      "title": "Use slack variables to convert inequality # constraints, each being a non-negative constant, into equations,...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.06c",
+      "title": "Investigate constraints and objectives in numerical cases using algebra and ad hoc methods",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.06d",
+      "title": "Carry out and interpret a graphical solution for problems where the objective is a function of two variables,...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.06e",
+      "title": "Discuss the effect of making a change to one or two of the coefficients and how this will change the solution",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.06f",
+      "title": "Carry out integer programming, including using the branch-and-bound method",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.07a",
+      "title": "Set up an initial simplex tableau in standard format",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.07b",
+      "title": "Perform an iteration of a simplex tableau, including the choice of the pivot",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.07c",
+      "title": "Interpret the values of the variables, slack variables and objective at any stage and know when the optimum has been...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.07d",
+      "title": "Use the terms \u201cbasic feasible solution\u201d, \u201cbasic variable\u201d and \u201cnon-basic variable\u201d appropriately",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.07e",
+      "title": "What an iteration of the simplex algorithm achieves, in terms of moving along edges of a multi- dimensional convex...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.07f",
+      "title": "Explain, algebraically, some of the calculations used in the simplex algorithm",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.08a",
+      "title": "The idea of a zero-sum game and its representation by means of a pay-off matrix",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.08b",
+      "title": "Reduce a matrix using a dominance argument",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.08c",
+      "title": "Identify play-safe strategies and stable solutions and understand what they represent",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.08d",
+      "title": "Identify a Nash Equilibrium solution and understand what it represents",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.08e",
+      "title": "Be able determine an optimal mixed strategy for a game with no stable solution by reducing to two variables and...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "7.08f",
+      "title": "Determine an optimal mixed strategy for a game with no stable solution by reformulating the problem as a linear...",
+      "topic_area": "Y544 Discrete Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01a",
+      "title": "Work with general sequences given either as recurrence relations or by position-to-term (closed form) =f( ) formulae...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01b",
+      "title": "Use induction to prove results relating to both sequences and series",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01c",
+      "title": "Describe various possibilities for the behaviour of sequences",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01d",
+      "title": "Identify and be able to use the limit of the nth term of a \" 3, sequence as n including steady-states",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01e",
+      "title": "Work with the Fibonacci numbers (and other Fibonacci-like sequences, such as the Lucas numbers), and understand...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01f",
+      "title": "Solve a first-order linear recurrence relation with constant coefficients, using the associated auxiliary equation...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01g",
+      "title": "Solve a second-order linear recurrence relation with constant coefficients, using the associated auxiliary equation...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01h",
+      "title": "Apply their knowledge of recurrence relations to modelling",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.01i",
+      "title": "Extend their knowledge of modelling to second order recurrence relations",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02a",
+      "title": "Work with numbers written in base n, where n is a positive integer",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02b",
+      "title": "Use (without proof) the standard tests for divisibility by 2, 3, 4, 5, 8, 9 and 11",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02c",
+      "title": "Establish suitable (algorithmic) tests for divisibility by other primes less than 50",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02d",
+      "title": "Appreciate that, for any pair of positive integers a, b with 0<b#a, a= bq+r we can uniquely express a as where q...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02e",
+      "title": "Finite arithmetics (the $2)",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02f",
+      "title": "Solve single linear congruences of the form (mod ) ax/ b n ",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02g",
+      "title": "Calculate quadratic residues and solve, or prove insoluble, equations involving them",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02h",
+      "title": "Solve simultaneous linear congruences of the (mod ) ax/ form b n . No more than three simultaneous linear...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02i",
+      "title": "The concepts of prime numbers, composite numbers, highest common factors (hcf), and coprimality (relative primeness)",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02j",
+      "title": "Be able to apply the result that a|b and | |( ) c& bx+cy a a for any integers x and y",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02k",
+      "title": "Euclid\u2019s lemma: if a|rs and hcf( , )=1 a r then a|s",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02l",
+      "title": "Fermat's little theorem",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02m",
+      "title": "P - 1 is not necessarily the least n with a^n \u2261 1 (mod p)",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02n",
+      "title": "The order of a modulo p divides p - 1",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.02o",
+      "title": "Using the binomial theorem to prove divisibility results",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03a",
+      "title": "Work with binary operations and their properties when defined on given sets",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03b",
+      "title": "Construct Cayley tables for given finite sets under the action of a given binary operation",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03c",
+      "title": "Recall and be able to use the definition of a group, for example to show that a given structure is, or is not, a group",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03d",
+      "title": "Recognise and be able to use the Latin square property for group tables",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03e",
+      "title": "Recall the meaning of the term \u201corder\u201d, as applied both to groups and to elements of a group, and be able to...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03f",
+      "title": "The definition of a subgroup, find subgroups and show that given subsets are, or are not, proper subgroups",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03g",
+      "title": "Recall the meaning of the term \u201ccyclic\u201d as applied to groups",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03h",
+      "title": "That a cyclic group is generated by \u201cpowers\u201d of a single element (generator), that there may be more than one such...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03i",
+      "title": "The structure of finite groups up to, and including, order seven, and be able to apply this knowledge in solving...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03j",
+      "title": "Work with groups of higher finite order, or of infinite order",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03k",
+      "title": "Recall and be able to apply Lagrange\u2019s theorem concerning the order of a subgroup of a finite group",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03l",
+      "title": "Determine whether two given groups are, or are not, isomorphic using informal methods",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.03m",
+      "title": "Work with groups defined by their algebraic properties",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.04a",
+      "title": "The vector product: geometric definition, magnitude, direction and components",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.04b",
+      "title": "Anti-commutative and distributive properties of the vector product",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.04c",
+      "title": "Areas of triangles and parallelograms using the vector product",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.04d",
+      "title": "The significance of a \u00d7 b = 0",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.04e",
+      "title": "The scalar triple product and volumes of tetrahedra and parallelepipeds",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.05a",
+      "title": "Work with functions of two variables, given =f( , ) either explicitly in the form z x y or implicitly in the g( , ,...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.05b",
+      "title": "Extend their knowledge of surfaces to those defined by functions of more than two variables, and incorporating...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.05c",
+      "title": "Sketch sections and contours, and know how these are related to the surface",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.05d",
+      "title": "Find first and second derivatives, including mixed derivatives",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.05e",
+      "title": "Apply the concept that 2f 2f =0 = stationary points of z arise when (or 2x 2y f =f =0 ) and that these can be...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.05f",
+      "title": "Determine, for 3-D surfaces given in the form =f( , ) z x y , the nature of maxima, minima and saddle- points by...",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.05g",
+      "title": "Tangent planes to surfaces z = f(x, y)",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.06a",
+      "title": "Establish and use given reduction formulae, and employ them to evaluate integrals using recursive techniques",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    },
+    {
+      "id": "8.06b",
+      "title": "Find arc lengths and areas of surface of revolution for curves defined in cartesian or parametric form",
+      "topic_area": "Y545 Additional Pure Mathematics (optional paper, not selected)"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "7.01a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01g",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01h",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01i",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01j",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01k",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01l",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.01m",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02g",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02h",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02i",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02j",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02k",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02l",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02m",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02n",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02o",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02p",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02q",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.02r",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03g",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03h",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03i",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03j",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03k",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03l",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.03m",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.04a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.04b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.04c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.04d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.04e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.04f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.05a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.05b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.05c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.05d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.05e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.06a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.06b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.06c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.06d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.06e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.06f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.07a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.07b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.07c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.07d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.07e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.07f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.08a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.08b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.08c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.08d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.08e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "7.08f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Discrete Mathematics (Y544) is therefore not taught."
+    },
+    {
+      "id": "8.01a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01g",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01h",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.01i",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02g",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02h",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02i",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02j",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02k",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02l",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02m",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02n",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.02o",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03g",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03h",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03i",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03j",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03k",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03l",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.03m",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.04a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.04b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.04c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.04d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.04e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.05a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.05b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.05c",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.05d",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.05e",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.05f",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.05g",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.06a",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    },
+    {
+      "id": "8.06b",
+      "reason": "Content of an optional paper this course does not take. OCR H245 candidates sit two of the four optional papers; this course takes Statistics (Y542) and Mechanics (Y543), the most common route and the one that continues A Level Mathematics. Additional Pure Mathematics (Y545) is therefore not taught."
+    }
+  ],
+  "S01_Proof_by_Induction": {
+    "covers_syllabus_refs": [
+      "H245 4.01a",
+      "H245 4.01b"
+    ],
+    "syllabus_topic": "4.01 Proof",
+    "covers_items": [
+      "4.01a",
+      "4.01b"
+    ]
+  },
+  "S02_Complex_Numbers_Basics": {
+    "covers_syllabus_refs": [
+      "H245 4.02a",
+      "H245 4.02b",
+      "H245 4.02c",
+      "H245 4.02e",
+      "H245 4.02f",
+      "H245 4.02h",
+      "H245 4.02i"
+    ],
+    "syllabus_topic": "4.02 Complex Numbers",
+    "covers_items": [
+      "4.02a",
+      "4.02b",
+      "4.02c",
+      "4.02e",
+      "4.02f",
+      "4.02h",
+      "4.02i"
+    ]
+  },
+  "S03_Complex_Roots_and_Argand_Diagrams": {
+    "covers_syllabus_refs": [
+      "H245 4.02g",
+      "H245 4.02j",
+      "H245 4.02k",
+      "H245 4.02l",
+      "H245 4.02m"
+    ],
+    "syllabus_topic": "4.02 Complex Numbers",
+    "covers_items": [
+      "4.02g",
+      "4.02j",
+      "4.02k",
+      "4.02l",
+      "4.02m"
+    ]
+  },
+  "S04_Complex_Loci": {
+    "covers_syllabus_refs": [
+      "H245 4.02o",
+      "H245 4.02p"
+    ],
+    "syllabus_topic": "4.02 Complex Numbers",
+    "covers_items": [
+      "4.02o",
+      "4.02p"
+    ]
+  },
+  "S05_Exponential_Form_and_de_Moivre": {
+    "covers_syllabus_refs": [
+      "H245 4.02d",
+      "H245 4.02n",
+      "H245 4.02q",
+      "H245 4.02r",
+      "H245 4.02s"
+    ],
+    "syllabus_topic": "4.02 Complex Numbers",
+    "covers_items": [
+      "4.02d",
+      "4.02n",
+      "4.02q",
+      "4.02r",
+      "4.02s"
+    ]
+  },
+  "S06_Matrices_and_Transformations": {
+    "covers_syllabus_refs": [
+      "H245 4.03a",
+      "H245 4.03b",
+      "H245 4.03c",
+      "H245 4.03d",
+      "H245 4.03e",
+      "H245 4.03f",
+      "H245 4.03g"
+    ],
+    "syllabus_topic": "4.03 Matrices",
+    "covers_items": [
+      "4.03a",
+      "4.03b",
+      "4.03c",
+      "4.03d",
+      "4.03e",
+      "4.03f",
+      "4.03g"
+    ]
+  },
+  "S07_Determinants_and_Inverses": {
+    "covers_syllabus_refs": [
+      "H245 4.03h",
+      "H245 4.03i",
+      "H245 4.03j",
+      "H245 4.03k",
+      "H245 4.03l",
+      "H245 4.03m",
+      "H245 4.03n",
+      "H245 4.03o",
+      "H245 4.03p",
+      "H245 4.03q",
+      "H245 4.03r"
+    ],
+    "syllabus_topic": "4.03 Matrices",
+    "covers_items": [
+      "4.03h",
+      "4.03i",
+      "4.03j",
+      "4.03k",
+      "4.03l",
+      "4.03m",
+      "4.03n",
+      "4.03o",
+      "4.03p",
+      "4.03q",
+      "4.03r"
+    ]
+  },
+  "S08_Systems_of_Equations_and_Planes": {
+    "covers_syllabus_refs": [
+      "H245 4.03s",
+      "H245 4.03t"
+    ],
+    "syllabus_topic": "4.03 Matrices",
+    "covers_items": [
+      "4.03s",
+      "4.03t"
+    ]
+  },
+  "S09_Lines_and_Planes": {
+    "covers_syllabus_refs": [
+      "H245 4.04a",
+      "H245 4.04b",
+      "H245 4.04c",
+      "H245 4.04d",
+      "H245 4.04e",
+      "H245 4.04f"
+    ],
+    "syllabus_topic": "4.04 Further Vectors",
+    "covers_items": [
+      "4.04a",
+      "4.04b",
+      "4.04c",
+      "4.04d",
+      "4.04e",
+      "4.04f"
+    ]
+  },
+  "S10_Vector_Product_and_Distances": {
+    "covers_syllabus_refs": [
+      "H245 4.04g",
+      "H245 4.04h",
+      "H245 4.04i",
+      "H245 4.04j"
+    ],
+    "syllabus_topic": "4.04 Further Vectors",
+    "covers_items": [
+      "4.04g",
+      "4.04h",
+      "4.04i",
+      "4.04j"
+    ]
+  },
+  "S11_Roots_of_Polynomials_and_Partial_Fractions": {
+    "covers_syllabus_refs": [
+      "H245 4.05a",
+      "H245 4.05b",
+      "H245 4.05c"
+    ],
+    "syllabus_topic": "4.05 Further Algebra",
+    "covers_items": [
+      "4.05a",
+      "4.05b",
+      "4.05c"
+    ]
+  },
+  "S12_Series": {
+    "covers_syllabus_refs": [
+      "H245 4.06a",
+      "H245 4.06b"
+    ],
+    "syllabus_topic": "4.06 Series",
+    "covers_items": [
+      "4.06a",
+      "4.06b"
+    ]
+  },
+  "S13_Hyperbolic_Functions": {
+    "covers_syllabus_refs": [
+      "H245 4.07a",
+      "H245 4.07b",
+      "H245 4.07c",
+      "H245 4.07d",
+      "H245 4.07e",
+      "H245 4.07f"
+    ],
+    "syllabus_topic": "4.07 Hyperbolic Functions",
+    "covers_items": [
+      "4.07a",
+      "4.07b",
+      "4.07c",
+      "4.07d",
+      "4.07e",
+      "4.07f"
+    ]
+  },
+  "S14_Maclaurin_Series_Improper_Integrals_Mean_Value": {
+    "covers_syllabus_refs": [
+      "H245 4.08a",
+      "H245 4.08b",
+      "H245 4.08c",
+      "H245 4.08e"
+    ],
+    "syllabus_topic": "4.08 Further Calculus",
+    "covers_items": [
+      "4.08a",
+      "4.08b",
+      "4.08c",
+      "4.08e"
+    ]
+  },
+  "S15_Volumes_and_Further_Integration": {
+    "covers_syllabus_refs": [
+      "H245 4.08d",
+      "H245 4.08f",
+      "H245 4.08g",
+      "H245 4.08h"
+    ],
+    "syllabus_topic": "4.08 Further Calculus",
+    "covers_items": [
+      "4.08d",
+      "4.08f",
+      "4.08g",
+      "4.08h"
+    ]
+  },
+  "S16_Polar_Coordinates": {
+    "covers_syllabus_refs": [
+      "H245 4.09a",
+      "H245 4.09b",
+      "H245 4.09c"
+    ],
+    "syllabus_topic": "4.09 Polar Coordinates",
+    "covers_items": [
+      "4.09a",
+      "4.09b",
+      "4.09c"
+    ]
+  },
+  "S17_First_Order_Differential_Equations": {
+    "covers_syllabus_refs": [
+      "H245 4.10a",
+      "H245 4.10b",
+      "H245 4.10c"
+    ],
+    "syllabus_topic": "4.10 Differential Equations",
+    "covers_items": [
+      "4.10a",
+      "4.10b",
+      "4.10c"
+    ]
+  },
+  "S18_Second_Order_and_Coupled_Differential_Equations": {
+    "covers_syllabus_refs": [
+      "H245 4.10d",
+      "H245 4.10e",
+      "H245 4.10f",
+      "H245 4.10g",
+      "H245 4.10h"
+    ],
+    "syllabus_topic": "4.10 Differential Equations",
+    "covers_items": [
+      "4.10d",
+      "4.10e",
+      "4.10f",
+      "4.10g",
+      "4.10h"
+    ]
+  },
+  "S19_Combinatorics_and_Discrete_Random_Variables": {
+    "covers_syllabus_refs": [
+      "H245 5.01a",
+      "H245 5.01b",
+      "H245 5.02a",
+      "H245 5.02b",
+      "H245 5.02c",
+      "H245 5.02d",
+      "H245 5.02e"
+    ],
+    "syllabus_topic": "Y542 Statistics: 5.01 Probability and 5.02 Discrete Random Variables",
+    "covers_items": [
+      "5.01a",
+      "5.01b",
+      "5.02a",
+      "5.02b",
+      "5.02c",
+      "5.02d",
+      "5.02e"
+    ]
+  },
+  "S20_Geometric_and_Poisson_Distributions": {
+    "covers_syllabus_refs": [
+      "H245 5.02f",
+      "H245 5.02g",
+      "H245 5.02h",
+      "H245 5.02i",
+      "H245 5.02j",
+      "H245 5.02k",
+      "H245 5.02l",
+      "H245 5.02m",
+      "H245 5.02n"
+    ],
+    "syllabus_topic": "Y542 Statistics: 5.01 Probability and 5.02 Discrete Random Variables",
+    "covers_items": [
+      "5.02f",
+      "5.02g",
+      "5.02h",
+      "5.02i",
+      "5.02j",
+      "5.02k",
+      "5.02l",
+      "5.02m",
+      "5.02n"
+    ]
+  },
+  "S21_Continuous_Random_Variables": {
+    "covers_syllabus_refs": [
+      "H245 5.03a",
+      "H245 5.03b",
+      "H245 5.03c",
+      "H245 5.03d",
+      "H245 5.03e",
+      "H245 5.03f",
+      "H245 5.03g"
+    ],
+    "syllabus_topic": "Y542 Statistics: 5.03 Continuous Random Variables, 5.04 Linear Combinations and 5.05 Hypothesis Tests and Confidence Intervals",
+    "covers_items": [
+      "5.03a",
+      "5.03b",
+      "5.03c",
+      "5.03d",
+      "5.03e",
+      "5.03f",
+      "5.03g"
+    ]
+  },
+  "S22_Linear_Combinations_Estimation_and_Tests": {
+    "covers_syllabus_refs": [
+      "H245 5.04a",
+      "H245 5.04b",
+      "H245 5.05a",
+      "H245 5.05b",
+      "H245 5.05c",
+      "H245 5.05d"
+    ],
+    "syllabus_topic": "Y542 Statistics: 5.03 Continuous Random Variables, 5.04 Linear Combinations and 5.05 Hypothesis Tests and Confidence Intervals",
+    "covers_items": [
+      "5.04a",
+      "5.04b",
+      "5.05a",
+      "5.05b",
+      "5.05c",
+      "5.05d"
+    ]
+  },
+  "S23_Chi_Squared_Tests": {
+    "covers_syllabus_refs": [
+      "H245 5.06a",
+      "H245 5.06b",
+      "H245 5.06c",
+      "H245 5.06d"
+    ],
+    "syllabus_topic": "Y542 Statistics: 5.06 Chi-squared Tests and 5.07 Non-parametric Tests",
+    "covers_items": [
+      "5.06a",
+      "5.06b",
+      "5.06c",
+      "5.06d"
+    ]
+  },
+  "S24_Non_Parametric_Tests": {
+    "covers_syllabus_refs": [
+      "H245 5.07a",
+      "H245 5.07b",
+      "H245 5.07c",
+      "H245 5.07d",
+      "H245 5.07e",
+      "H245 5.07f"
+    ],
+    "syllabus_topic": "Y542 Statistics: 5.06 Chi-squared Tests and 5.07 Non-parametric Tests",
+    "covers_items": [
+      "5.07a",
+      "5.07b",
+      "5.07c",
+      "5.07d",
+      "5.07e",
+      "5.07f"
+    ]
+  },
+  "S25_Correlation_and_Regression": {
+    "covers_syllabus_refs": [
+      "H245 5.08a",
+      "H245 5.08b",
+      "H245 5.08c",
+      "H245 5.08d",
+      "H245 5.08e",
+      "H245 5.08f",
+      "H245 5.08g",
+      "H245 5.09a",
+      "H245 5.09b",
+      "H245 5.09c",
+      "H245 5.09d",
+      "H245 5.09e"
+    ],
+    "syllabus_topic": "Y542 Statistics: 5.08 Correlation and 5.09 Linear Regression",
+    "covers_items": [
+      "5.08a",
+      "5.08b",
+      "5.08c",
+      "5.08d",
+      "5.08e",
+      "5.08f",
+      "5.08g",
+      "5.09a",
+      "5.09b",
+      "5.09c",
+      "5.09d",
+      "5.09e"
+    ]
+  },
+  "S26_Dimensional_Analysis": {
+    "covers_syllabus_refs": [
+      "H245 6.01a",
+      "H245 6.01b",
+      "H245 6.01c",
+      "H245 6.01d",
+      "H245 6.01e"
+    ],
+    "syllabus_topic": "Y543 Mechanics: 6.01 Dimensional Analysis and 6.02 Work, Energy and Power",
+    "covers_items": [
+      "6.01a",
+      "6.01b",
+      "6.01c",
+      "6.01d",
+      "6.01e"
+    ]
+  },
+  "S27_Work_Energy_and_Power": {
+    "covers_syllabus_refs": [
+      "H245 6.02a",
+      "H245 6.02b",
+      "H245 6.02c",
+      "H245 6.02d",
+      "H245 6.02e",
+      "H245 6.02f",
+      "H245 6.02g",
+      "H245 6.02h",
+      "H245 6.02i",
+      "H245 6.02j",
+      "H245 6.02k",
+      "H245 6.02l",
+      "H245 6.02m"
+    ],
+    "syllabus_topic": "Y543 Mechanics: 6.01 Dimensional Analysis and 6.02 Work, Energy and Power",
+    "covers_items": [
+      "6.02a",
+      "6.02b",
+      "6.02c",
+      "6.02d",
+      "6.02e",
+      "6.02f",
+      "6.02g",
+      "6.02h",
+      "6.02i",
+      "6.02j",
+      "6.02k",
+      "6.02l",
+      "6.02m"
+    ]
+  },
+  "S28_Impulse_Momentum_and_Restitution": {
+    "covers_syllabus_refs": [
+      "H245 6.03a",
+      "H245 6.03b",
+      "H245 6.03c",
+      "H245 6.03d",
+      "H245 6.03e",
+      "H245 6.03f",
+      "H245 6.03g",
+      "H245 6.03h",
+      "H245 6.03i",
+      "H245 6.03j",
+      "H245 6.03k",
+      "H245 6.03l"
+    ],
+    "syllabus_topic": "Y543 Mechanics: 6.03 Impulse and Momentum and 6.04 Centre of Mass",
+    "covers_items": [
+      "6.03a",
+      "6.03b",
+      "6.03c",
+      "6.03d",
+      "6.03e",
+      "6.03f",
+      "6.03g",
+      "6.03h",
+      "6.03i",
+      "6.03j",
+      "6.03k",
+      "6.03l"
+    ]
+  },
+  "S29_Centre_of_Mass": {
+    "covers_syllabus_refs": [
+      "H245 6.04a",
+      "H245 6.04b",
+      "H245 6.04c",
+      "H245 6.04d",
+      "H245 6.04e"
+    ],
+    "syllabus_topic": "Y543 Mechanics: 6.03 Impulse and Momentum and 6.04 Centre of Mass",
+    "covers_items": [
+      "6.04a",
+      "6.04b",
+      "6.04c",
+      "6.04d",
+      "6.04e"
+    ]
+  },
+  "S30_Circular_Motion_and_Variable_Force": {
+    "covers_syllabus_refs": [
+      "H245 6.05a",
+      "H245 6.05b",
+      "H245 6.05c",
+      "H245 6.05d",
+      "H245 6.05e",
+      "H245 6.05f",
+      "H245 6.06a"
+    ],
+    "syllabus_topic": "Y543 Mechanics: 6.05 Motion in a Circle and 6.06 Further Dynamics and Kinematics",
+    "covers_items": [
+      "6.05a",
+      "6.05b",
+      "6.05c",
+      "6.05d",
+      "6.05e",
+      "6.05f",
+      "6.06a"
+    ]
+  }
+}

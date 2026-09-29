@@ -1,0 +1,16 @@
+# S16_Synthesis_and_Exam_Technique - Lesson: Synoptic comparison across 1485-1603, and exam technique for all three papers
+
+## Goal
+The learner compares the effectiveness of government responses to Tudor rebellions across the full period 1485-1603, applies Paper 1 and Paper 3 exam technique (interpretations, source utility and essay planning under timed conditions), and understands why the independent historical enquiry (coursework) is outside this course's scope.
+
+## Syllabus items taught here
+- 31.SYNTHESIS - Synoptic comparison of government responses to rebellion, 1485-1603
+
+## How to teach this
+Ask: across every rebellion studied, which single government response would the learner judge most effective, and why - and which rebellion came closest to real success? Teach each key topic as: what happened (facts, names, dates, precise detail examiners reward), then why it matters (analysis: cause, consequence, change, significance), then how historians read it (interpretations, where relevant). Push the learner to write timed, planned answers regularly, not just to recall facts: Edexcel's essays are marked by levels that reward explained, weighed argument reaching a supported judgement, not narrative or a list of points. Historical facts here (names, dates, figures) do not change with time in the way current-affairs content would, but historians' interpretations do develop; treat the interpretations content as a live debate, not a settled answer.
+
+#### 31.SYNTHESIS Synoptic comparison of government responses to rebellion, 1485-1603
+**Comparing government responses across the period.** A strong synoptic answer draws on multiple case studies rather than treating each rebellion in isolation. Patterns worth weighing: government responses grew progressively faster and more organised across the century (compare the slow, magnate-dependent response to Simnel in 1487 with the rapid, lords-lieutenant-backed suppression of the Northern Earls in 1569-70); the severity of punishment also generally increased for risings judged to combine religious and dynastic danger (Warbeck, the Northern Earls) compared with those judged more containable or more purely economic (Simnel's leniency; even Kett's rebels, though crushed, saw fewer subsequent executions than the Northern Earls); negotiation followed by bad-faith reversal (as with the Pilgrimage of Grace) proved a recurring and effective government tactic once a rising's immediate military threat had passed; risings that secured substantial and sustained foreign state backing (Warbeck with Scotland, Tyrone with Spain) proved by far the most dangerous and durable, far more than risings relying on domestic grievance alone, however large (Kett's 16,000 at Mousehold Heath was still defeated relatively quickly without external military support). No Tudor rebellion ultimately succeeded in overthrowing or fundamentally altering the reigning monarch's policy by force, which some historians take as evidence of underlying government resilience across the period, while others stress how close several risings (the Pilgrimage of Grace in 1536, Tyrone's Rebellion before Kinsale in 1601) came to far more serious outcomes.
+
+## Explicitly not here
+All content for Papers 1, 2 and 3 has now been taught; the mock exam follows.

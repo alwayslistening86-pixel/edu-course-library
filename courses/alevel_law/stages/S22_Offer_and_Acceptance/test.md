@@ -1,0 +1,21 @@
+# S22_Offer_and_Acceptance - Test: Offer; acceptance
+
+## How to run this
+A real checkpoint in AQA's style: a mix of short knowledge questions, application-to-scenario questions and levels-marked extended writing (discursive essay or extended scenario) at tariffs matching the real papers (typically 4-6 marks for short knowledge, 5-10 for application, 15 for a discursive essay, up to 30 for an extended scenario or scenario-plus-essay), with marks shown. Give the whole test at once, with no hints, under rough time pressure (allow about 1.2 minutes per mark, matching the real papers' 100 marks in 120 minutes). Then mark against the mark schemes below -- short/application items by the M/A/B points the answer key allows, extended writing by AQA's generic levels of response -- and this stage's entry in `rubric.json`.
+
+## Test items
+1. Explain the postal rule, and how it differs from the rule for instantaneous communication. [6 marks]
+2. A gallery advertises a painting for sale in a local newspaper at 'offers over £5,000'. A buyer emails offering exactly £5,500, which the gallery owner reads that evening but does not reply to; the buyer then posts a signed letter the next morning confirming the same offer, addressed correctly, which is lost in the post and never arrives. The gallery sells the painting to someone else two days later. Using IRAC, advise the buyer on whether a contract was formed. [10 marks]
+
+## Answer key (for the tutor only)
+1. [6] B2 the postal rule: where post is a reasonable contemplated method of acceptance, acceptance is complete the moment the letter is posted, even if delayed or lost (Adams v Lindsell (1818) 1 B & Ald 681); B2 instantaneous communication (e.g. telephone, telex): acceptance takes effect when and where it is actually received by the offeror (Entores Ltd v Miles Far East Corp [1955] 2 QB 327); B2 the postal rule is an exception justified by the offeree having no way to know if a posted letter arrived, unlike instantaneous methods where the sender can generally tell at once whether the message got through.
+2. [10] Mark using issue-rule-application-conclusion (IRAC): identify the issue(s), state the rule precisely with its authority (case or statute, named exactly), apply it to the facts given, and reach a supported conclusion. Credit: issue = whether the newspaper advert was an offer, and whether either the email or the posted letter created a binding acceptance; rule = a newspaper advertisement is ordinarily an invitation to treat, not an offer (Partridge v Crittenden [1968] 1 WLR 1204), meaning the buyer's email/letter would themselves be offers, not acceptances, requiring the gallery's own acceptance to form a contract; even if some communication from the buyer were treated as an offer, the gallery reading but not responding to the email is not itself acceptance, and mere silence cannot bind the gallery (Felthouse v Bindley (1862) 11 CB (NS) 869); application = 'offers over £5,000' is classic invitation-to-treat language, inviting offers rather than making one, so the buyer's £5,500 email is properly analysed as the buyer's own offer; the gallery never accepted it (reading without replying is not acceptance), and the postal rule (Adams v Lindsell (1818) 1 B & Ald 681) is irrelevant here since it applies to an offeree's acceptance of an existing offer, not to an original offer being made by post, and in any event the letter never arrived and there is no separate acceptance to attach the postal rule to; conclusion = no contract was formed at any point -- the buyer only ever made offers which the gallery never accepted, so the gallery was free to sell the painting elsewhere.
+
+## Grading
+Apply `rubric.json`'s `stage_rubrics.S22_Offer_and_Acceptance` exactly. Mark each answer against its mark scheme (method marks need the method shown; a multiple-choice item is worth 1 mark and needs every correct option and nothing else). 16 marks in all; a pass needs at least 10 (60%, rounded up). Record `pass` or `fail` in `syllabus_status`, with the mark and a short honest note on what was missed.
+
+## If not passed
+Name the specific misconceptions the wrong answers show, run remediation on those, then re-test with fresh items of the same types (never this exact set).
+
+## On pass
+Record the pass and move on to S23_Consideration_Privity_and_Intention.

@@ -1,0 +1,2160 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Combined Science: Trilogy 8464 specification: subject content 4.1-4.7 (Biology), 5.1-5.10 (Chemistry), 6.1-6.8 (Physics), required practicals, working scientifically (section 3), mathematical requirements (section 7)",
+    "url": "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+    "version": "AQA 8464 (first teaching 2016), current version as published on aqa.org.uk",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.1.1.1",
+      "title": "Eukaryotes and prokaryotes",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.1.2",
+      "title": "Animal and plant cells",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.1.3",
+      "title": "Cell specialisation",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.1.4",
+      "title": "Cell differentiation",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.1.5",
+      "title": "Microscopy",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "B-RP1",
+      "title": "Required practical: microscopy",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.2.1",
+      "title": "Chromosomes",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.2.2",
+      "title": "Mitosis and the cell cycle",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.2.3",
+      "title": "Stem cells",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.3.1",
+      "title": "Diffusion",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.3.2",
+      "title": "Osmosis",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.1.3.3",
+      "title": "Active transport",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "B-RP2",
+      "title": "Required practical: osmosis in plant tissue",
+      "topic_area": "Cell biology"
+    },
+    {
+      "id": "4.2.1",
+      "title": "Principles of organisation",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.2.1",
+      "title": "The human digestive system",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "B-RP3",
+      "title": "Required practical: food tests",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "B-RP4",
+      "title": "Required practical: pH and the rate of amylase activity",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.2.2",
+      "title": "The heart and blood vessels",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.2.3",
+      "title": "Blood",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.2.4",
+      "title": "Coronary heart disease: a non-communicable disease",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.2.5",
+      "title": "Health issues",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.2.6",
+      "title": "The effect of lifestyle on some non-communicable diseases",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.2.7",
+      "title": "Cancer",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.3.1",
+      "title": "Plant tissues",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.2.3.2",
+      "title": "Plant organ system",
+      "topic_area": "Organisation"
+    },
+    {
+      "id": "4.3.1.1",
+      "title": "Communicable (infectious) diseases",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.2",
+      "title": "Viral diseases",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.3",
+      "title": "Bacterial diseases",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.4",
+      "title": "Fungal diseases",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.5",
+      "title": "Protist diseases",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.6",
+      "title": "Human defence systems",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.7",
+      "title": "Vaccination",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.8",
+      "title": "Antibiotics and painkillers",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.3.1.9",
+      "title": "Discovery and development of drugs",
+      "topic_area": "Infection and response"
+    },
+    {
+      "id": "4.4.1.1",
+      "title": "Photosynthetic reaction",
+      "topic_area": "Bioenergetics"
+    },
+    {
+      "id": "4.4.1.2",
+      "title": "Rate of photosynthesis",
+      "topic_area": "Bioenergetics"
+    },
+    {
+      "id": "4.4.1.3",
+      "title": "Uses of glucose from photosynthesis",
+      "topic_area": "Bioenergetics"
+    },
+    {
+      "id": "4.4.2.1",
+      "title": "Aerobic and anaerobic respiration",
+      "topic_area": "Bioenergetics"
+    },
+    {
+      "id": "4.4.2.2",
+      "title": "Response to exercise",
+      "topic_area": "Bioenergetics"
+    },
+    {
+      "id": "4.4.2.3",
+      "title": "Metabolism",
+      "topic_area": "Bioenergetics"
+    },
+    {
+      "id": "B-RP5",
+      "title": "Required practical: light intensity and the rate of photosynthesis",
+      "topic_area": "Bioenergetics"
+    },
+    {
+      "id": "4.5.1",
+      "title": "Homeostasis",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.5.2",
+      "title": "Structure and function",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.1",
+      "title": "Human endocrine system",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.2",
+      "title": "Control of blood glucose concentration",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.3",
+      "title": "Hormones in human reproduction",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.4",
+      "title": "Contraception",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.5",
+      "title": "The use of hormones to treat infertility (Higher tier)",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.6",
+      "title": "Negative feedback (Higher tier)",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "B-RP6",
+      "title": "Required practical: human reaction time",
+      "topic_area": "Homeostasis and response"
+    },
+    {
+      "id": "4.6.1.1",
+      "title": "Sexual and asexual reproduction",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.2",
+      "title": "Meiosis",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.3",
+      "title": "DNA and the genome",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.4",
+      "title": "Genetic inheritance",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.5",
+      "title": "Inherited disorders",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.6",
+      "title": "Sex determination",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.1",
+      "title": "Variation",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.2",
+      "title": "Evolution",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.3",
+      "title": "Selective breeding",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.4",
+      "title": "Genetic engineering",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.1",
+      "title": "Evidence for evolution",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.2",
+      "title": "Fossils",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.3",
+      "title": "Extinction",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.4",
+      "title": "Resistant bacteria",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.4",
+      "title": "Classification of living organisms",
+      "topic_area": "Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.7.1.1",
+      "title": "Communities",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.1.2",
+      "title": "Abiotic factors",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.1.3",
+      "title": "Biotic factors",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.1.4",
+      "title": "Adaptations",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.2.1",
+      "title": "Levels of organisation",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.2.2",
+      "title": "How materials are cycled",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "B-RP7",
+      "title": "Required practical: population sampling with quadrats",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.3.1",
+      "title": "Biodiversity",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.3.2",
+      "title": "Waste management",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.3.3",
+      "title": "Land use",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.3.4",
+      "title": "Deforestation",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.3.5",
+      "title": "Global warming",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "4.7.3.6",
+      "title": "Maintaining biodiversity",
+      "topic_area": "Ecology"
+    },
+    {
+      "id": "5.1.1.1",
+      "title": "Atoms, elements and compounds",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.1.2",
+      "title": "Mixtures",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.1.3",
+      "title": "The development of the model of the atom",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.1.4",
+      "title": "Relative electrical charges of subatomic particles",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.1.5",
+      "title": "Size and mass of atoms",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.1.6",
+      "title": "Relative atomic mass",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.1.7",
+      "title": "Electronic structure",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.2.1",
+      "title": "The periodic table",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.2.2",
+      "title": "Development of the periodic table",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.2.3",
+      "title": "Metals and non-metals",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.2.4",
+      "title": "Group 0",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.2.5",
+      "title": "Group 1",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.1.2.6",
+      "title": "Group 7",
+      "topic_area": "Atomic structure and the periodic table"
+    },
+    {
+      "id": "5.2.1.1",
+      "title": "Chemical bonds",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.1.2",
+      "title": "Ionic bonding",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.1.3",
+      "title": "Ionic compounds",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.1.4",
+      "title": "Covalent bonding",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.1.5",
+      "title": "Metallic bonding",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.1",
+      "title": "The three states of matter",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.2",
+      "title": "State symbols",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.3",
+      "title": "Properties of ionic compounds",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.4",
+      "title": "Properties of small molecules",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.5",
+      "title": "Polymers",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.6",
+      "title": "Giant covalent structures",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.7",
+      "title": "Properties of metals and alloys",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.2.8",
+      "title": "Metals as conductors",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.3.1",
+      "title": "Diamond",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.3.2",
+      "title": "Graphite",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.2.3.3",
+      "title": "Graphene and fullerenes",
+      "topic_area": "Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "5.3.1.1",
+      "title": "Conservation of mass and balanced chemical equations",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.1.2",
+      "title": "Relative formula mass",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.1.3",
+      "title": "Mass changes when a reactant or product is a gas",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.1.4",
+      "title": "Chemical measurements",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.2.1",
+      "title": "Moles (Higher tier)",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.2.2",
+      "title": "Amounts of substances in equations (Higher tier)",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.2.3",
+      "title": "Using moles to balance equations (Higher tier)",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.2.4",
+      "title": "Limiting reactants (Higher tier)",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.3.2.5",
+      "title": "Concentration of solutions",
+      "topic_area": "Quantitative chemistry"
+    },
+    {
+      "id": "5.4.1.1",
+      "title": "Metal oxides",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.1.2",
+      "title": "The reactivity series",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.1.3",
+      "title": "Extraction of metals and reduction",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.1.4",
+      "title": "Oxidation and reduction in terms of electrons (Higher tier)",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.2.1",
+      "title": "Reactions of acids with metals",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.2.2",
+      "title": "Neutralisation of acids and salt production",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.2.3",
+      "title": "Soluble salts",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.2.4",
+      "title": "The pH scale and neutralisation",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.2.5",
+      "title": "Strong and weak acids (Higher tier)",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "C-RP1",
+      "title": "Required practical: preparation of a pure, dry sample of a soluble salt",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.3.1",
+      "title": "The process of electrolysis",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.3.2",
+      "title": "Electrolysis of molten ionic compounds",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.3.3",
+      "title": "Using electrolysis to extract metals",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.3.4",
+      "title": "Electrolysis of aqueous solutions",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.4.3.5",
+      "title": "Representation of reactions at electrodes as half equations (Higher tier)",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "C-RP2",
+      "title": "Required practical: electrolysis of aqueous solutions",
+      "topic_area": "Chemical changes"
+    },
+    {
+      "id": "5.5.1.1",
+      "title": "Energy transfer during exothermic and endothermic reactions",
+      "topic_area": "Energy changes"
+    },
+    {
+      "id": "5.5.1.2",
+      "title": "Reaction profiles",
+      "topic_area": "Energy changes"
+    },
+    {
+      "id": "5.5.1.3",
+      "title": "The energy change of reactions (Higher tier)",
+      "topic_area": "Energy changes"
+    },
+    {
+      "id": "C-RP3",
+      "title": "Required practical: variables affecting temperature changes in reacting solutions",
+      "topic_area": "Energy changes"
+    },
+    {
+      "id": "5.6.1.1",
+      "title": "Calculating rates of reactions",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.1.2",
+      "title": "Factors which affect the rates of chemical reactions",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.1.3",
+      "title": "Collision theory and activation energy",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.1.4",
+      "title": "Catalysts",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "C-RP4",
+      "title": "Required practical: concentration and rate of reaction",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.2.1",
+      "title": "Reversible reactions",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.2.2",
+      "title": "Energy changes and reversible reactions",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.2.3",
+      "title": "Equilibrium",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.2.4",
+      "title": "The effect of changing conditions on equilibrium (Higher tier)",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.2.5",
+      "title": "The effect of changing concentration (Higher tier)",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.2.6",
+      "title": "The effect of temperature changes on equilibrium (Higher tier)",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.6.2.7",
+      "title": "The effect of pressure changes on equilibrium (Higher tier)",
+      "topic_area": "The rate and extent of chemical change"
+    },
+    {
+      "id": "5.7.1.1",
+      "title": "Crude oil, hydrocarbons and alkanes",
+      "topic_area": "Organic chemistry"
+    },
+    {
+      "id": "5.7.1.2",
+      "title": "Fractional distillation and petrochemicals",
+      "topic_area": "Organic chemistry"
+    },
+    {
+      "id": "5.7.1.3",
+      "title": "Properties of hydrocarbons",
+      "topic_area": "Organic chemistry"
+    },
+    {
+      "id": "5.7.1.4",
+      "title": "Cracking and alkenes",
+      "topic_area": "Organic chemistry"
+    },
+    {
+      "id": "5.8.1.1",
+      "title": "Pure substances",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "5.8.1.2",
+      "title": "Formulations",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "5.8.1.3",
+      "title": "Chromatography",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "5.8.2.1",
+      "title": "Test for hydrogen",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "5.8.2.2",
+      "title": "Test for oxygen",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "5.8.2.3",
+      "title": "Test for carbon dioxide",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "5.8.2.4",
+      "title": "Test for chlorine",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "C-RP5",
+      "title": "Required practical: paper chromatography and Rf values",
+      "topic_area": "Chemical analysis"
+    },
+    {
+      "id": "5.9.1.1",
+      "title": "The proportions of different gases in the atmosphere",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.1.2",
+      "title": "The Earth's early atmosphere",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.1.3",
+      "title": "How oxygen increased",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.1.4",
+      "title": "How carbon dioxide decreased",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.2.1",
+      "title": "Greenhouse gases",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.2.2",
+      "title": "Human activities which contribute to an increase in greenhouse gases in the atmosphere",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.2.3",
+      "title": "Global climate change",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.2.4",
+      "title": "The carbon footprint and its reduction",
+      "topic_area": "Chemistry of the atmosphere"
+    },
+    {
+      "id": "5.9.3.1",
+      "title": "Atmospheric pollutants from fuels",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "5.9.3.2",
+      "title": "Properties and effects of atmospheric pollutants",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "5.10.1.1",
+      "title": "Using the Earth's resources and sustainable development",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "5.10.1.2",
+      "title": "Potable water",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "5.10.1.3",
+      "title": "Waste water treatment",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "5.10.1.4",
+      "title": "Alternative methods of extracting metals (Higher tier)",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "5.10.2.1",
+      "title": "Life cycle assessment",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "5.10.2.2",
+      "title": "Ways of reducing the use of resources",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "C-RP6",
+      "title": "Required practical: analysis and purification of water samples",
+      "topic_area": "Using resources"
+    },
+    {
+      "id": "6.1.1.1",
+      "title": "Energy stores and systems",
+      "topic_area": "Energy"
+    },
+    {
+      "id": "6.1.1.2",
+      "title": "Changes in energy",
+      "topic_area": "Energy"
+    },
+    {
+      "id": "6.1.1.3",
+      "title": "Energy changes in systems",
+      "topic_area": "Energy"
+    },
+    {
+      "id": "6.1.1.4",
+      "title": "Power",
+      "topic_area": "Energy"
+    },
+    {
+      "id": "6.1.2.1",
+      "title": "Energy transfers in a system",
+      "topic_area": "Energy"
+    },
+    {
+      "id": "6.1.2.2",
+      "title": "Efficiency",
+      "topic_area": "Energy"
+    },
+    {
+      "id": "6.1.3",
+      "title": "National and global energy resources",
+      "topic_area": "Energy"
+    },
+    {
+      "id": "6.2.1.1",
+      "title": "Standard circuit diagram symbols",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.1.2",
+      "title": "Electrical charge and current",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.1.3",
+      "title": "Current, resistance and potential difference",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.1.4",
+      "title": "Resistors",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.2",
+      "title": "Series and parallel circuits",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "P-RP2",
+      "title": "Required practical: factors affecting resistance",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "P-RP3",
+      "title": "Required practical: I-V characteristics",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.3.1",
+      "title": "Direct and alternating potential difference",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.3.2",
+      "title": "Mains electricity",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.4.1",
+      "title": "Power",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.4.2",
+      "title": "Energy transfers in everyday appliances",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.2.4.3",
+      "title": "The National Grid",
+      "topic_area": "Electricity"
+    },
+    {
+      "id": "6.3.1.1",
+      "title": "Density of materials",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "6.3.1.2",
+      "title": "Changes of state",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "6.3.2.1",
+      "title": "Internal energy",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "6.3.2.2",
+      "title": "Temperature changes in a system and specific heat capacity",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "6.3.2.3",
+      "title": "Changes of state and specific latent heat",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "6.3.3.1",
+      "title": "Particle motion in gases",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "P-RP1",
+      "title": "Required practical: specific heat capacity",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "P-RP4",
+      "title": "Required practical: density of solids and liquids",
+      "topic_area": "Particle model of matter"
+    },
+    {
+      "id": "6.4.1.1",
+      "title": "The structure of an atom",
+      "topic_area": "Atomic structure"
+    },
+    {
+      "id": "6.4.1.2",
+      "title": "Mass number, atomic number and isotopes",
+      "topic_area": "Atomic structure"
+    },
+    {
+      "id": "6.4.1.3",
+      "title": "The development of the model of the atom",
+      "topic_area": "Atomic structure"
+    },
+    {
+      "id": "6.4.2.1",
+      "title": "Radioactive decay and nuclear radiation",
+      "topic_area": "Atomic structure"
+    },
+    {
+      "id": "6.4.2.2",
+      "title": "Nuclear equations",
+      "topic_area": "Atomic structure"
+    },
+    {
+      "id": "6.4.2.3",
+      "title": "Half-lives and the random nature of radioactive decay",
+      "topic_area": "Atomic structure"
+    },
+    {
+      "id": "6.4.2.4",
+      "title": "Radioactive contamination",
+      "topic_area": "Atomic structure"
+    },
+    {
+      "id": "6.5.1.1",
+      "title": "Scalar and vector quantities",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.1.2",
+      "title": "Contact and non-contact forces",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.1.3",
+      "title": "Gravity",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.1.4",
+      "title": "Resultant forces",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.2",
+      "title": "Work done and energy transfer",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.3",
+      "title": "Forces and elasticity",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "P-RP5",
+      "title": "Required practical: force and extension of a spring",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.1.1",
+      "title": "Distance and displacement",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.1.2",
+      "title": "Speed",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.1.3",
+      "title": "Velocity",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.1.4",
+      "title": "The distance-time relationship",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.1.5",
+      "title": "Acceleration",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.2.1",
+      "title": "Newton's First Law",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.2.2",
+      "title": "Newton's Second Law",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.2.3",
+      "title": "Newton's Third Law",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.3.1",
+      "title": "Stopping distance",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.3.2",
+      "title": "Reaction time",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.3.3",
+      "title": "Factors affecting braking distance 1",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.4.3.4",
+      "title": "Factors affecting braking distance 2",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.5.1",
+      "title": "Momentum is a property of moving objects (Higher tier)",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.5.5.2",
+      "title": "Conservation of momentum (Higher tier)",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "P-RP6",
+      "title": "Required practical: force, mass and acceleration",
+      "topic_area": "Forces"
+    },
+    {
+      "id": "6.6.1.1",
+      "title": "Transverse and longitudinal waves",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "6.6.1.2",
+      "title": "Properties of waves",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "6.6.2.1",
+      "title": "Types of electromagnetic waves",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "6.6.2.2",
+      "title": "Properties of electromagnetic waves 1 (Higher tier)",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "6.6.2.3",
+      "title": "Properties of electromagnetic waves 2 (Higher tier)",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "6.6.2.4",
+      "title": "Uses and applications of electromagnetic waves (Higher tier)",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "P-RP7",
+      "title": "Required practical: wave properties",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "P-RP8",
+      "title": "Required practical: infrared radiation and surfaces",
+      "topic_area": "Waves"
+    },
+    {
+      "id": "6.7.1.1",
+      "title": "Poles of a magnet",
+      "topic_area": "Magnetism and electromagnetism"
+    },
+    {
+      "id": "6.7.1.2",
+      "title": "Magnetic fields",
+      "topic_area": "Magnetism and electromagnetism"
+    },
+    {
+      "id": "6.7.2.1",
+      "title": "Electromagnetism",
+      "topic_area": "Magnetism and electromagnetism"
+    },
+    {
+      "id": "6.7.2.2",
+      "title": "Fleming's left-hand rule (Higher tier)",
+      "topic_area": "Magnetism and electromagnetism"
+    },
+    {
+      "id": "6.7.2.3",
+      "title": "Electric motors (Higher tier)",
+      "topic_area": "Magnetism and electromagnetism"
+    },
+    {
+      "id": "6.8",
+      "title": "Key ideas",
+      "topic_area": "Magnetism and electromagnetism"
+    },
+    {
+      "id": "WS1.1",
+      "title": "Development of scientific methods and theories",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.2",
+      "title": "Use of models",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.3",
+      "title": "Power and limitations of science, ethical issues",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.4",
+      "title": "Applications of science and implications",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.5",
+      "title": "Risks in practical science and society",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.6",
+      "title": "Peer review and communicating results",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.1",
+      "title": "Using theories to develop hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.2",
+      "title": "Planning experiments",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.3",
+      "title": "Selecting apparatus and techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.4",
+      "title": "Carrying out experiments safely and accurately",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.5",
+      "title": "Sampling techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.6",
+      "title": "Making and recording observations and measurements",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.7",
+      "title": "Evaluating methods and improvements",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.1",
+      "title": "Presenting observations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.2",
+      "title": "Translating data between forms",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.3",
+      "title": "Mathematical and statistical analysis",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.4",
+      "title": "Distributions and uncertainty",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.5",
+      "title": "Interpreting observations and patterns",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.6",
+      "title": "Reasoned explanations relating data to hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.7",
+      "title": "Evaluating data: accuracy, precision and error",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.8",
+      "title": "Communicating findings",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.1",
+      "title": "Scientific vocabulary and definitions",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.2",
+      "title": "Scientific quantities and how they are determined",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.3",
+      "title": "SI units and nomenclature",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.4",
+      "title": "Prefixes and powers of ten",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.5",
+      "title": "Converting between units",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.6",
+      "title": "Significant figures in calculations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "M1a",
+      "title": "Maths: decimal form",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M1b",
+      "title": "Maths: standard form",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M1c",
+      "title": "Maths: ratios, fractions and percentages",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M1d",
+      "title": "Maths: estimating results",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2a",
+      "title": "Maths: significant figures",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2b",
+      "title": "Maths: arithmetic means",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2c",
+      "title": "Maths: frequency tables, bar charts and histograms",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2d",
+      "title": "Maths: sampling principles",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2e",
+      "title": "Maths: simple probability",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2f",
+      "title": "Maths: mean, mode and median",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2g",
+      "title": "Maths: scatter diagrams and correlation",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M2h",
+      "title": "Maths: order of magnitude",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M3a",
+      "title": "Maths: symbols",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M3b",
+      "title": "Maths: changing the subject of an equation",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M3c",
+      "title": "Maths: substituting values with units",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M3d",
+      "title": "Maths: solving simple algebraic equations",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M4a",
+      "title": "Maths: translating information between graphical and numeric form",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M4b",
+      "title": "Maths: y = mx + c",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M4c",
+      "title": "Maths: plotting two variables",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M4d",
+      "title": "Maths: slope and intercept",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M4e",
+      "title": "Maths: tangent to a curve as rate of change",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M4f",
+      "title": "Maths: area under a graph by counting squares",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M5a",
+      "title": "Maths: angles in degrees",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M5b",
+      "title": "Maths: visualising 2D and 3D forms",
+      "topic_area": "Mathematical requirements"
+    },
+    {
+      "id": "M5c",
+      "title": "Maths: areas of triangles and rectangles, surface areas and volumes of cubes",
+      "topic_area": "Mathematical requirements"
+    }
+  ],
+  "_declared_exclusions": [],
+  "B01_Cell_Structure_and_Microscopy": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.1.1 Cell structure",
+      "required practical (microscopy)"
+    ],
+    "syllabus_topic": "Cell biology",
+    "covers_items": [
+      "4.1.1.1",
+      "4.1.1.2",
+      "4.1.1.3",
+      "4.1.1.4",
+      "4.1.1.5",
+      "B-RP1"
+    ]
+  },
+  "B02_Cell_Division_and_Transport": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.1.2 Cell division",
+      "4.1.3 Transport in cells",
+      "required practical (osmosis)"
+    ],
+    "syllabus_topic": "Cell biology",
+    "covers_items": [
+      "4.1.2.1",
+      "4.1.2.2",
+      "4.1.2.3",
+      "4.1.3.1",
+      "4.1.3.2",
+      "4.1.3.3",
+      "B-RP2"
+    ]
+  },
+  "B03_Organisation_Digestion_and_Enzymes": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.2.1 Principles of organisation",
+      "4.2.2.1 The human digestive system",
+      "required practicals (food tests",
+      "pH and amylase)"
+    ],
+    "syllabus_topic": "Organisation",
+    "covers_items": [
+      "4.2.1",
+      "4.2.2.1",
+      "B-RP3",
+      "B-RP4"
+    ]
+  },
+  "B04_Circulation_Health_and_Plant_Organisation": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.2.2.2-4.2.2.7",
+      "4.2.3 Organisation in plants"
+    ],
+    "syllabus_topic": "Organisation",
+    "covers_items": [
+      "4.2.2.2",
+      "4.2.2.3",
+      "4.2.2.4",
+      "4.2.2.5",
+      "4.2.2.6",
+      "4.2.2.7",
+      "4.2.3.1",
+      "4.2.3.2"
+    ]
+  },
+  "B05_Infection_and_Response": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.3.1 Communicable diseases"
+    ],
+    "syllabus_topic": "Infection and response",
+    "covers_items": [
+      "4.3.1.1",
+      "4.3.1.2",
+      "4.3.1.3",
+      "4.3.1.4",
+      "4.3.1.5",
+      "4.3.1.6",
+      "4.3.1.7",
+      "4.3.1.8",
+      "4.3.1.9"
+    ]
+  },
+  "B06_Bioenergetics": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.4 Bioenergetics",
+      "required practical (light intensity and photosynthesis)"
+    ],
+    "syllabus_topic": "Bioenergetics",
+    "covers_items": [
+      "4.4.1.1",
+      "4.4.1.2",
+      "4.4.1.3",
+      "4.4.2.1",
+      "4.4.2.2",
+      "4.4.2.3",
+      "B-RP5"
+    ]
+  },
+  "B07_Homeostasis_and_Response": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.5 Homeostasis and response",
+      "required practical (reaction time)"
+    ],
+    "syllabus_topic": "Homeostasis and response",
+    "covers_items": [
+      "4.5.1",
+      "4.5.2",
+      "4.5.3.1",
+      "4.5.3.2",
+      "4.5.3.3",
+      "4.5.3.4",
+      "4.5.3.5",
+      "4.5.3.6",
+      "B-RP6"
+    ]
+  },
+  "B08_Reproduction_DNA_and_Inheritance": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.6.1 Reproduction"
+    ],
+    "syllabus_topic": "Inheritance, variation and evolution",
+    "covers_items": [
+      "4.6.1.1",
+      "4.6.1.2",
+      "4.6.1.3",
+      "4.6.1.4",
+      "4.6.1.5",
+      "4.6.1.6"
+    ]
+  },
+  "B09_Variation_Evolution_and_Classification": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.6.2 Variation and evolution",
+      "4.6.3 The development of understanding of genetics and evolution",
+      "4.6.4 Classification of living organisms"
+    ],
+    "syllabus_topic": "Inheritance, variation and evolution",
+    "covers_items": [
+      "4.6.2.1",
+      "4.6.2.2",
+      "4.6.2.3",
+      "4.6.2.4",
+      "4.6.3.1",
+      "4.6.3.2",
+      "4.6.3.3",
+      "4.6.3.4",
+      "4.6.4"
+    ]
+  },
+  "B10_Ecology_Adaptation_and_Cycles": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.7.1 Adaptations, interdependence and competition",
+      "4.7.2 Organisation of an ecosystem",
+      "required practical (population sampling)"
+    ],
+    "syllabus_topic": "Ecology",
+    "covers_items": [
+      "4.7.1.1",
+      "4.7.1.2",
+      "4.7.1.3",
+      "4.7.1.4",
+      "4.7.2.1",
+      "4.7.2.2",
+      "B-RP7"
+    ]
+  },
+  "B11_Biodiversity_and_Human_Impact": {
+    "covers_syllabus_refs": [
+      "AQA 8464 4.7.3 Biodiversity and ecosystems"
+    ],
+    "syllabus_topic": "Ecology",
+    "covers_items": [
+      "4.7.3.1",
+      "4.7.3.2",
+      "4.7.3.3",
+      "4.7.3.4",
+      "4.7.3.5",
+      "4.7.3.6"
+    ]
+  },
+  "C01_Atomic_Structure": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.1.1 A simple model of the atom"
+    ],
+    "syllabus_topic": "Atomic structure and the periodic table",
+    "covers_items": [
+      "5.1.1.1",
+      "5.1.1.2",
+      "5.1.1.3",
+      "5.1.1.4",
+      "5.1.1.5",
+      "5.1.1.6",
+      "5.1.1.7"
+    ]
+  },
+  "C02_The_Periodic_Table": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.1.2 The periodic table"
+    ],
+    "syllabus_topic": "Atomic structure and the periodic table",
+    "covers_items": [
+      "5.1.2.1",
+      "5.1.2.2",
+      "5.1.2.3",
+      "5.1.2.4",
+      "5.1.2.5",
+      "5.1.2.6"
+    ]
+  },
+  "C03_Bonding_and_States_of_Matter": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.2.1 Chemical bonds",
+      "5.2.2.1-5.2.2.2 States of matter"
+    ],
+    "syllabus_topic": "Bonding, structure and the properties of matter",
+    "covers_items": [
+      "5.2.1.1",
+      "5.2.1.2",
+      "5.2.1.3",
+      "5.2.1.4",
+      "5.2.1.5",
+      "5.2.2.1",
+      "5.2.2.2"
+    ]
+  },
+  "C04_Structure_and_Properties": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.2.2.3-5.2.2.8 Properties of substances",
+      "5.2.3 Structure and bonding of carbon"
+    ],
+    "syllabus_topic": "Bonding, structure and the properties of matter",
+    "covers_items": [
+      "5.2.2.3",
+      "5.2.2.4",
+      "5.2.2.5",
+      "5.2.2.6",
+      "5.2.2.7",
+      "5.2.2.8",
+      "5.2.3.1",
+      "5.2.3.2",
+      "5.2.3.3"
+    ]
+  },
+  "C05_Quantitative_Chemistry": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.3 Quantitative chemistry"
+    ],
+    "syllabus_topic": "Quantitative chemistry",
+    "covers_items": [
+      "5.3.1.1",
+      "5.3.1.2",
+      "5.3.1.3",
+      "5.3.1.4",
+      "5.3.2.1",
+      "5.3.2.2",
+      "5.3.2.3",
+      "5.3.2.4",
+      "5.3.2.5"
+    ]
+  },
+  "C06_Reactivity_of_Metals": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.4.1 Reactivity of metals"
+    ],
+    "syllabus_topic": "Chemical changes",
+    "covers_items": [
+      "5.4.1.1",
+      "5.4.1.2",
+      "5.4.1.3",
+      "5.4.1.4"
+    ]
+  },
+  "C07_Acids_and_Salts": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.4.2 Reactions of acids",
+      "required practical (preparation of a soluble salt)"
+    ],
+    "syllabus_topic": "Chemical changes",
+    "covers_items": [
+      "5.4.2.1",
+      "5.4.2.2",
+      "5.4.2.3",
+      "5.4.2.4",
+      "5.4.2.5",
+      "C-RP1"
+    ]
+  },
+  "C08_Electrolysis": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.4.3 Electrolysis",
+      "required practical (electrolysis of aqueous solutions)"
+    ],
+    "syllabus_topic": "Chemical changes",
+    "covers_items": [
+      "5.4.3.1",
+      "5.4.3.2",
+      "5.4.3.3",
+      "5.4.3.4",
+      "5.4.3.5",
+      "C-RP2"
+    ]
+  },
+  "C09_Energy_Changes": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.5 Energy changes",
+      "required practical (temperature changes)"
+    ],
+    "syllabus_topic": "Energy changes",
+    "covers_items": [
+      "5.5.1.1",
+      "5.5.1.2",
+      "5.5.1.3",
+      "C-RP3"
+    ]
+  },
+  "C10_Rates_of_Reaction": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.6.1 Rate of reaction",
+      "required practical (concentration and rate)"
+    ],
+    "syllabus_topic": "The rate and extent of chemical change",
+    "covers_items": [
+      "5.6.1.1",
+      "5.6.1.2",
+      "5.6.1.3",
+      "5.6.1.4",
+      "C-RP4"
+    ]
+  },
+  "C11_Reversible_Reactions_and_Equilibrium": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.6.2 Reversible reactions and dynamic equilibrium"
+    ],
+    "syllabus_topic": "The rate and extent of chemical change",
+    "covers_items": [
+      "5.6.2.1",
+      "5.6.2.2",
+      "5.6.2.3",
+      "5.6.2.4",
+      "5.6.2.5",
+      "5.6.2.6",
+      "5.6.2.7"
+    ]
+  },
+  "C12_Hydrocarbons_and_Crude_Oil": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.7.1 Carbon compounds as fuels and feedstock"
+    ],
+    "syllabus_topic": "Organic chemistry",
+    "covers_items": [
+      "5.7.1.1",
+      "5.7.1.2",
+      "5.7.1.3",
+      "5.7.1.4"
+    ]
+  },
+  "C13_Chemical_Analysis": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.8 Chemical analysis",
+      "required practical (chromatography)"
+    ],
+    "syllabus_topic": "Chemical analysis",
+    "covers_items": [
+      "5.8.1.1",
+      "5.8.1.2",
+      "5.8.1.3",
+      "5.8.2.1",
+      "5.8.2.2",
+      "5.8.2.3",
+      "5.8.2.4",
+      "C-RP5"
+    ]
+  },
+  "C14_Atmosphere_and_Climate": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.9.1 The composition and evolution of the Earth's atmosphere",
+      "5.9.2 Carbon dioxide and methane as greenhouse gases"
+    ],
+    "syllabus_topic": "Chemistry of the atmosphere",
+    "covers_items": [
+      "5.9.1.1",
+      "5.9.1.2",
+      "5.9.1.3",
+      "5.9.1.4",
+      "5.9.2.1",
+      "5.9.2.2",
+      "5.9.2.3",
+      "5.9.2.4"
+    ]
+  },
+  "C15_Pollutants_and_Using_Resources": {
+    "covers_syllabus_refs": [
+      "AQA 8464 5.9.3 Common atmospheric pollutants",
+      "5.10 Using resources",
+      "required practical (water analysis and purification)"
+    ],
+    "syllabus_topic": "Using resources",
+    "covers_items": [
+      "5.9.3.1",
+      "5.9.3.2",
+      "5.10.1.1",
+      "5.10.1.2",
+      "5.10.1.3",
+      "5.10.1.4",
+      "5.10.2.1",
+      "5.10.2.2",
+      "C-RP6"
+    ]
+  },
+  "P01_Energy": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.1 Energy"
+    ],
+    "syllabus_topic": "Energy",
+    "covers_items": [
+      "6.1.1.1",
+      "6.1.1.2",
+      "6.1.1.3",
+      "6.1.1.4",
+      "6.1.2.1",
+      "6.1.2.2",
+      "6.1.3"
+    ]
+  },
+  "P02_Circuits": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.2.1 Current, potential difference and resistance",
+      "6.2.2 Series and parallel circuits",
+      "required practicals (resistance",
+      "I-V characteristics)"
+    ],
+    "syllabus_topic": "Electricity",
+    "covers_items": [
+      "6.2.1.1",
+      "6.2.1.2",
+      "6.2.1.3",
+      "6.2.1.4",
+      "6.2.2",
+      "P-RP2",
+      "P-RP3"
+    ]
+  },
+  "P03_Mains_Electricity_and_Power": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.2.3 Domestic uses and safety",
+      "6.2.4 Energy transfers"
+    ],
+    "syllabus_topic": "Electricity",
+    "covers_items": [
+      "6.2.3.1",
+      "6.2.3.2",
+      "6.2.4.1",
+      "6.2.4.2",
+      "6.2.4.3"
+    ]
+  },
+  "P04_Particle_Model_and_Thermal_Physics": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.3 Particle model of matter",
+      "required practicals (specific heat capacity",
+      "density)"
+    ],
+    "syllabus_topic": "Particle model of matter",
+    "covers_items": [
+      "6.3.1.1",
+      "6.3.1.2",
+      "6.3.2.1",
+      "6.3.2.2",
+      "6.3.2.3",
+      "6.3.3.1",
+      "P-RP1",
+      "P-RP4"
+    ]
+  },
+  "P05_Atomic_Structure_and_Radiation": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.4 Atomic structure"
+    ],
+    "syllabus_topic": "Atomic structure",
+    "covers_items": [
+      "6.4.1.1",
+      "6.4.1.2",
+      "6.4.1.3",
+      "6.4.2.1",
+      "6.4.2.2",
+      "6.4.2.3",
+      "6.4.2.4"
+    ]
+  },
+  "P06_Forces_Work_and_Elasticity": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.5.1 Forces and their interactions",
+      "6.5.2 Work done and energy transfer",
+      "6.5.3 Forces and elasticity",
+      "required practical (force and extension)"
+    ],
+    "syllabus_topic": "Forces",
+    "covers_items": [
+      "6.5.1.1",
+      "6.5.1.2",
+      "6.5.1.3",
+      "6.5.1.4",
+      "6.5.2",
+      "6.5.3",
+      "P-RP5"
+    ]
+  },
+  "P07_Motion": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.5.4.1 Describing motion along a line"
+    ],
+    "syllabus_topic": "Forces",
+    "covers_items": [
+      "6.5.4.1.1",
+      "6.5.4.1.2",
+      "6.5.4.1.3",
+      "6.5.4.1.4",
+      "6.5.4.1.5"
+    ]
+  },
+  "P08_Newtons_Laws_Braking_and_Momentum": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.5.4.2 Newton's Laws",
+      "6.5.4.3 Forces and braking",
+      "6.5.5 Momentum",
+      "required practical (force, mass and acceleration)"
+    ],
+    "syllabus_topic": "Forces",
+    "covers_items": [
+      "6.5.4.2.1",
+      "6.5.4.2.2",
+      "6.5.4.2.3",
+      "6.5.4.3.1",
+      "6.5.4.3.2",
+      "6.5.4.3.3",
+      "6.5.4.3.4",
+      "6.5.5.1",
+      "6.5.5.2",
+      "P-RP6"
+    ]
+  },
+  "P09_Waves_and_Electromagnetic_Spectrum": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.6 Waves",
+      "required practicals (wave properties",
+      "infrared radiation)"
+    ],
+    "syllabus_topic": "Waves",
+    "covers_items": [
+      "6.6.1.1",
+      "6.6.1.2",
+      "6.6.2.1",
+      "6.6.2.2",
+      "6.6.2.3",
+      "6.6.2.4",
+      "P-RP7",
+      "P-RP8"
+    ]
+  },
+  "P10_Magnetism_and_Key_Ideas": {
+    "covers_syllabus_refs": [
+      "AQA 8464 6.7 Magnetism and electromagnetism",
+      "6.8 Key ideas"
+    ],
+    "syllabus_topic": "Magnetism and electromagnetism",
+    "covers_items": [
+      "6.7.1.1",
+      "6.7.1.2",
+      "6.7.2.1",
+      "6.7.2.2",
+      "6.7.2.3",
+      "6.8"
+    ]
+  },
+  "W1_Working_Scientifically_Thinking_and_Experiments": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS1 and WS2"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS1.1",
+      "WS1.2",
+      "WS1.3",
+      "WS1.4",
+      "WS1.5",
+      "WS1.6",
+      "WS2.1",
+      "WS2.2",
+      "WS2.3",
+      "WS2.4",
+      "WS2.5",
+      "WS2.6",
+      "WS2.7"
+    ]
+  },
+  "W2_Working_Scientifically_Analysis_and_Vocabulary": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS3 and WS4"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS3.1",
+      "WS3.2",
+      "WS3.3",
+      "WS3.4",
+      "WS3.5",
+      "WS3.6",
+      "WS3.7",
+      "WS3.8",
+      "WS4.1",
+      "WS4.2",
+      "WS4.3",
+      "WS4.4",
+      "WS4.5",
+      "WS4.6"
+    ]
+  },
+  "M1_Mathematical_Skills_for_Science": {
+    "covers_syllabus_refs": [
+      "AQA 8464 section 7 Mathematical requirements"
+    ],
+    "syllabus_topic": "Mathematical requirements",
+    "covers_items": [
+      "M1a",
+      "M1b",
+      "M1c",
+      "M1d",
+      "M2a",
+      "M2b",
+      "M2c",
+      "M2d",
+      "M2e",
+      "M2f",
+      "M2g",
+      "M2h",
+      "M3a",
+      "M3b",
+      "M3c",
+      "M3d",
+      "M4a",
+      "M4b",
+      "M4c",
+      "M4d",
+      "M4e",
+      "M4f",
+      "M5a",
+      "M5b",
+      "M5c"
+    ]
+  }
+}

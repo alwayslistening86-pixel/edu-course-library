@@ -1,0 +1,24 @@
+# S12_Structure_Analysis_Paper_1_Q3 - Lesson: Analysing structure: Paper 1 Question 3 (8 marks)
+
+## Goal
+The learner can name structural features and write an 8-mark analysis of how a whole fiction source is structured to interest the reader.
+
+## Syllabus items taught here
+- 3.1.1.11 - Analysing and evaluating form and structure: explain how form and structure shape a reader's response
+- P1.Q3 - Paper 1 Question 3: structure of the whole source, focused on a single named effect from 2026 (8 marks, AO2): analyse how the whole text is structured
+- T.8 - Structural terminology: openings, focus, shifts, pace, flashback, foreshadowing, endings: name structural features precisely
+
+## How to teach this
+Take a familiar film or story and ask: where does it start, where does the camera go next, and where does it stop? Then say, 'A text is a journey; structure is the route the writer plans for your attention.' Have the learner sketch the shape of a passage as a graph of tension or as a set of zoom shots (wide, narrow, wide).
+
+#### 3.1.1.11 Analysing and evaluating form and structure
+Form is the kind of text (a diary, a letter, a chapter opening); structure is how it is organised: what comes first, what changes, how paragraphs connect, how it ends. Structure works at three levels named in the mark scheme: whole text (beginnings, endings, shifts of perspective), paragraph (topic changes, cohesion) and sentence (where a sentence's position or length shapes the whole). Analysing structure means saying what the writer does with the reader's attention and why: 'The writer opens with a close-up of the door handle, narrowing our focus to create suspense, then pulls back to reveal the whole room.' Evaluating adds a judgement: how effective is this ordering for interest, tension, sympathy or persuasion? Teach the habit of moving from what happens to how the text is arranged and what that does to us.
+
+#### P1.Q3 Paper 1 Question 3: structure of the whole source (8 marks, AO2) -- 2026 wording
+From the 2026 exam series, the question names a single structural effect rather than asking generally how structure is interesting, for example: 'You now need to think about the whole of the source. This text is from the opening of a novel. How has the writer used structure to build a sense of suspense as the source develops?' -- with the named effect varying by paper (suspense, tension, curiosity, a shift in sympathy, and so on), and prompts: what the writer focuses your attention on at the beginning; how and why the focus changes as the source develops; any other structural features. Before 2026 the question asked more generally 'how has the writer structured the text to interest you as a reader?'; the 2026 wording is more precise about which effect to track, but the task itself (cover the whole source, explain what the writer does with structure and why) is unchanged, so the same method applies with one extra step: relate every structural choice back to the named effect specifically, not to 'interest' in general. Spend about ten minutes and cover the whole source: beginning, middle and end, not just the opening paragraph. Model plan: (1) beginning focus and how it plants the named effect; (2) the first significant shift (place, time, character, mood) and how it develops that effect; (3) a turning or pivotal point (dialogue, new arrival, decision) and its effect; (4) the ending (cliff-hanger, resolution, a change of perspective) and how it leaves the named effect with the reader. Quote sparingly, and prefer paraphrase to describe what happens: this is not a language question. Level 4 analyses the effect of structural choices; the mark scheme gives credit to features such as journey structure, flashback, delayed introduction of a character, changes of pace, shifts in focus from outside to inside, and a final cliff-hanger -- always tied to the effect the question names.
+
+#### T.8 Structural terminology: openings, focus, shifts, pace, flashback, foreshadowing, endings
+Learn and use: opening (in medias res, scene-setting, character-first), focus (where the writer directs attention), shift (a change of setting, time, tone, character or perspective), zoom in or out (from wide setting to detail and back), flashback and flash-forward, foreshadowing (hinting at what will come), contrast and juxtaposition, cyclical structure (ending echoes beginning), climax and anti-climax, cliff-hanger, pace (speeded up with short sentences and action, slowed with long descriptive sentences), dialogue, single-sentence paragraphs for emphasis, repetition of a motif, and a sudden sentence change at paragraph end. Not just 'the paragraph changes': say 'the narrative shifts from the crowded street to the empty flat, mirroring the character's loneliness'. Always finish with the effect on the reader.
+
+## Explicitly not here
+Language choices (S10), the evaluation question (S14), fiction devices in depth (S13).

@@ -1,0 +1,555 @@
+{
+  "stage_rubrics": {
+    "S01_How_the_Qualification_Works": {
+      "criteria": [
+        "States the three papers with correct timings, marks and weightings (1h20/52/30%, 1h50/64/40%, 1h30/52/30%) and the 168 total with 8 SPaG marks",
+        "Explains AO1 to AO4 accurately and matches each to a question type",
+        "Explains that SPaG marks are on Paper 1 Q5/6 and Paper 3 Q3(d) and what earns them",
+        "Explains stimulus points and the need for additional own points and a supported conclusion"
+      ],
+      "pass_threshold": "Learner states the papers, timings, marks and weightings correctly, explains AO1-AO4 with an example of each in the four chosen options, and explains what earns SPaG marks and what a stimulus point is.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification Issue 6, Qualification at a glance and section 3 Assessment information",
+        "reference": "Edexcel 1HI0 spec: Qualification at a glance; Assessment Objectives table; Assessment of extended writing",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S02_Second_Order_Concepts_Sources_Interpretations": {
+      "criteria": [
+        "Uses causation, consequence, change, continuity, similarity, difference and significance correctly with examples",
+        "Makes supported inferences from a source and comments on provenance and context for a specific enquiry",
+        "Explains how and why interpretations differ with reference to argument, evidence, viewpoint and context, without calling a later account 'wrong' simply because it is later",
+        "Reaches a judgement rather than listing points"
+      ],
+      "pass_threshold": "Learner defines each of the seven concepts, applies each to a short worked example, and analyses one source and one interpretation using content, provenance and context (sources) or argument, evidence and viewpoint (interpretations).",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Assessment Objectives and footnote on second-order concepts",
+        "reference": "Edexcel 1HI0 spec: Assessment Objectives AO2-AO4; Paper 1 Assessment; Paper 3 Assessment",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S03_Crime_Process_of_Change_and_Medieval_Crime": {
+      "criteria": [
+        "Names accurate medieval categories of crime and places examples in the correct category",
+        "Explains poaching as social crime with reference to attitudes of ordinary people and the Forest Laws",
+        "Explains changes after 1066 (Forest Laws, murdrum fine, king's peace) with accurate detail",
+        "Identifies and applies the three key factors and shows they can work together"
+      ],
+      "pass_threshold": "Learner explains the three key factors with an example each, names the categories of medieval crime, explains why poaching was a social crime and gives at least two effects of the Norman Conquest on definitions of crime, using accurate dates and terms.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 1 Option 10, Crime and punishment in Britain c1000-present: The process of change; c1000-c1500 strand 1",
+        "reference": "Edexcel 1HI0 Option 10, The process of change and c1000-c1500 (strand 1)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S04_Medieval_Enforcement_Church_and_Early_Modern_Crime": {
+      "criteria": [
+        "Describes tithings, hue and cry, constable and sheriff accurately and explains reliance on the community",
+        "Explains deterrence, retribution and Wergild's use and end with correct terms",
+        "Explains Sanctuary, Benefit of Clergy and the end of the ordeal with dates and causes (the Church, juries, attitudes)",
+        "Explains vagabondage and witchcraft as new crimes with causes and legal changes; shows continuity of ordinary crimes"
+      ],
+      "pass_threshold": "Learner describes tithings, hue and cry and the parish constable; explains deterrence and retribution with the Wergild's use and end; explains Sanctuary, Benefit of Clergy and the ordeal's end; and explains why vagabondage and witchcraft were new crimes.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 1 Option 10, c1000-c1500 strands 2-3 and c1500-c1700 strand 1",
+        "reference": "Edexcel 1HI0 Option 10, c1000-c1500 strands 2-3 and c1500-c1700 strand 1",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S05_Early_Modern_Enforcement_Punishment_and_Case_Studies": {
+      "criteria": [
+        "Gives accurate dated detail on the Gunpowder Plot (people, cellar, Monteagle letter, arrests, trial, execution)",
+        "Explains Hopkins's methods and links the intensity to the Civil War, Puritanism and Hopkins himself",
+        "Describes town watchmen, constables and JPs and shows continuity with medieval enforcement",
+        "Explains transportation's start and the Bloody Code with reasons, and reaches a supported judgement on continuity and change"
+      ],
+      "pass_threshold": "Learner gives a dated, specific account of the Plot (people, events, punishment) and of the Hopkins witch-hunts (methods, reasons for intensity, punishment) and explains continuity in enforcement and punishment with the start of transportation and the Bloody Code.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 1 Option 10, c1500-c1700 strands 2-3",
+        "reference": "Edexcel 1HI0 Option 10, c1500-c1700 strand 2 and strand 3 case studies",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S06_Eighteenth_and_Nineteenth_Century_Crime": {
+      "criteria": [
+        "Describes highway robbery, poaching and smuggling accurately and explains them as social crimes",
+        "Explains the end of witchcraft prosecutions and the Tolpuddle Martyrs with accurate causes and dates",
+        "Traces enforcement from the Fielding brothers through Peel's Metropolitan Police to the CID with dates",
+        "Explains the decline of the Bloody Code, the end of public execution and transportation, and the contribution of Howard and Fry"
+      ],
+      "pass_threshold": "Learner describes highway robbery, poaching and smuggling as social crimes; explains the end of witchcraft prosecutions and the Tolpuddle case; traces enforcement from the Fielding brothers to the Metropolitan Police and CID; and explains the shift from the Bloody Code and transportation towards reform, using Pentonville and Peel.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 1 Option 10, c1700-c1900 strands 1-3",
+        "reference": "Edexcel 1HI0 Option 10, c1700-c1900 (strands 1-3)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S07_Crime_and_Punishment_since_1900": {
+      "criteria": [
+        "Explains continuity and new forms of crime, including cyber and drug offences, with causes",
+        "Explains at least two new legal definitions (driving, race, drugs) with dates and causes",
+        "Describes the shift to specialisation, science, technology and prevention (including Neighbourhood Watch) in policing",
+        "Explains the abolition of the death penalty and non-custodial punishment, using the Conscientious Objector comparison and the Bentley case accurately"
+      ],
+      "pass_threshold": "Learner describes continuity and new crimes since 1900, explains modern policing's shift to prevention and specialisation, explains the end of the death penalty for murder and the rise of non-custodial and youth punishment, and explains the significance of Conscientious Objectors and the Bentley case.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 1 Option 10, c1900-present strands 1-3",
+        "reference": "Edexcel 1HI0 Option 10, c1900-present (strands 1-3)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S08_Whitechapel_Context_and_Policing": {
+      "criteria": [
+        "Describes housing, overcrowding and the Peabody Estate with accurate detail",
+        "Describes employment, poverty and migration, including Irish and Jewish communities, accurately",
+        "Explains H Division's organisation and the problems posed by the rookeries and community relations",
+        "Explains the Ripper investigation's methods and limits, and places events in the national policing context (CID, Warren, the Home Secretary)"
+      ],
+      "pass_threshold": "Learner describes Whitechapel's housing, poverty and overcrowding; its population, employment and migration (including Irish and Jewish communities); the organisation and limits of H Division policing; the Ripper investigation and its methods; and places it in the national context of the Metropolitan Police, CID and Sir Charles Warren.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 1 Option 10 historic environment, Whitechapel c1870-c1900",
+        "reference": "Edexcel 1HI0 Option 10, Whitechapel c1870-c1900",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S09_Whitechapel_Sources_and_Enquiry_Skills": {
+      "criteria": [
+        "Names at least two accurate local sources with a correct description of what each shows",
+        "Names at least two accurate national sources with a correct description of what each shows",
+        "Evaluates at least two source types' strengths and weaknesses using nature, origin and purpose",
+        "Frames a specific enquiry question and justifies a source choice fit for that purpose"
+      ],
+      "pass_threshold": "Learner names appropriate local and national sources for a stated Whitechapel enquiry, evaluates at least two source types' strengths and weaknesses, frames a focused enquiry question with detail and source type, and justifies source selection for a given purpose, in preparation for Paper 1 Q1 and Q2.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 1 Option 10 historic environment, Whitechapel sources for historical enquiries",
+        "reference": "Edexcel 1HI0 Option 10, Whitechapel sources for historical enquiries",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S10_Paper_1_Question_Types": {
+      "criteria": [
+        "Q1 gives two accurate, specific, developed features rather than vague or repeated points",
+        "Q2(a)-(b) judges usefulness using content and provenance for the stated enquiry, and gives a concrete, linked follow-up",
+        "Q3 makes the similarity or difference explicit with specific detail from both named periods",
+        "Q4 and Q5/6 explain causes fully, use stimulus and own points, and Q5/6 reaches a clearly supported overall judgement with accurate SPaG"
+      ],
+      "pass_threshold": "Learner produces a correctly structured, timed answer to each Paper 1 question type using accurate Option 10 and Whitechapel content, including two clear points for the 4-mark questions, a justified usefulness judgement, a sensible follow-up question, and a sustained, well-organised argument reaching a supported judgement for the 20-mark question with accurate SPaG.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification and sample assessment materials, Paper 1 assessment overview",
+        "reference": "Edexcel 1HI0 Paper 1, question types Q1-Q6",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S11_Plains_Life_and_Early_Migration": {
+      "criteria": [
+        "Describes Plains tribal organisation, survival and beliefs about land and nature accurately",
+        "Explains push and pull migration factors with named examples (Oregon Trail, Manifest Destiny, Gold Rush)",
+        "Compares the Donner Party and Mormon migrations with accurate causes of success and failure",
+        "Explains early government policy (Fort Laramie 1851) and the causes of early lawlessness"
+      ],
+      "pass_threshold": "Learner describes Plains tribal life and beliefs, explains push and pull migration factors, compares the Donner Party and Mormon migrations, describes early settlement problems, and explains early government policy (Permanent Indian Frontier, Fort Laramie 1851) and lawlessness in new settlements.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option P3 The American West, Key Topic 1",
+        "reference": "Edexcel 1HI0 Option P3, Key Topic 1, c1835-c1862",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S12_Development_of_the_Plains_1862_1876": {
+      "criteria": [
+        "Explains the building and 1869 completion of the transcontinental railroad and its significance",
+        "Explains the Homestead Act, homesteaders' problems and at least two solutions, with the Timber Culture Act",
+        "Describes the development of law and order (sheriffs, marshals, federal marshals) accurately",
+        "Explains the growth of the cattle industry (named individuals, Abilene) and the changing role of the cowboy"
+      ],
+      "pass_threshold": "Learner explains the significance of the Pacific Railroad Act and 1869 completion, the Homestead Act and homesteaders' problems and solutions, describes early settlement law and order, and explains the cattle industry's growth and the cowboy's changing role.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option P3 The American West, Key Topic 2",
+        "reference": "Edexcel 1HI0 Option P3, Key Topic 2, c1862-c1876",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S13_Conflict_with_Plains_Indians_1862_1876": {
+      "criteria": [
+        "Explains the impact of railroads, cattle and gold prospecting on Plains Indian land and resources",
+        "Describes reservation policy and the 1868 Fort Laramie Treaty and explains why it broke down",
+        "Narrates Little Crow's War, Sand Creek and Red Cloud's War with accurate causes and outcomes",
+        "Answers the explain-two-consequences question with two fully developed, accurate consequences"
+      ],
+      "pass_threshold": "Learner explains how railroads, cattle and mining harmed Plains Indian life, describes reservation policy and the 1868 Fort Laramie Treaty, narrates the causes and outcomes of Little Crow's War, Sand Creek and Red Cloud's War, and can answer the Paper 2 explain-two-consequences question accurately.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option P3 The American West, Key Topic 2 and Paper 2 question types",
+        "reference": "Edexcel 1HI0 Option P3, Key Topic 2, conflict c1862-c1876 and Paper 2 Q1",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S14_Farming_Ranching_and_Law_in_the_Final_Phase": {
+      "criteria": [
+        "Explains changes in farming technology and methods with accurate detail",
+        "Explains the causes and consequences of the end of the open range, including the 1886-87 winter",
+        "Describes Exodusters and the closing of free land accurately, with dates",
+        "Assesses named lawmen, the OK Corral and the Johnson County War with accurate causes and outcomes"
+      ],
+      "pass_threshold": "Learner explains changes in farming technology, the causes of the open range's end, describes Exodusters and the 1893 Land Rush, assesses named lawmen and the OK Corral gunfight, and explains the Johnson County range war.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option P3 The American West, Key Topic 3",
+        "reference": "Edexcel 1HI0 Option P3, Key Topic 3, c1876-c1895",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S15_Final_Conflict_Reservations_and_Assimilation": {
+      "criteria": [
+        "Explains the causes of the destruction of the buffalo and its impact on Plains Indian life",
+        "Narrates Little Big Horn and Wounded Knee with accurate causes, events and consequences",
+        "Describes reservation life and the Ghost Dance movement accurately",
+        "Explains the Dawes Act's aims and effects, and produces a correctly structured narrative account and importance answer"
+      ],
+      "pass_threshold": "Learner explains why and how the buffalo were destroyed, narrates Little Big Horn (1876) and Wounded Knee (1890) with accurate causes and outcomes, describes reservation life, explains the Dawes Act's aims and effects, and produces a correctly structured narrative account and an importance answer.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option P3 The American West, Key Topic 3 and Paper 2 question types",
+        "reference": "Edexcel 1HI0 Option P3, Key Topic 3 and Paper 2 Q2-Q3",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S16_Elizabeths_Accession_and_Religious_Settlement": {
+      "criteria": [
+        "Describes the social hierarchy and structures of government and local administration accurately",
+        "Explains Elizabeth's problems and strengths as an unmarried female monarch with specific detail",
+        "Explains the finance, religious and French threats facing Elizabeth in 1558 with accurate detail",
+        "Describes and evaluates the religious settlement's features and its role in society"
+      ],
+      "pass_threshold": "Learner describes society and government at the accession, explains Elizabeth's problems as an unmarried female monarch and her strengths, explains the challenges facing her in 1558, and describes and evaluates the religious settlement and Church of England.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option B4 Early Elizabethan England, Key Topic 1",
+        "reference": "Edexcel 1HI0 Option B4, Key Topic 1, 1558-69",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S17_Puritan_and_Catholic_Challenges_and_Mary_Queen_of_Scots": {
+      "criteria": [
+        "Assesses the nature and extent of the Puritan challenge with accurate detail and named examples",
+        "Assesses the Catholic challenge from nobility, Papacy and foreign powers with accurate detail",
+        "Explains Mary Queen of Scots' claim to the throne accurately, with correct family relationship",
+        "Explains the causes and nature of Elizabeth's detention of Mary in 1568-69"
+      ],
+      "pass_threshold": "Learner assesses the extent of Puritan and Catholic challenges to the settlement, explains Mary Queen of Scots' claim to the English throne, and explains the causes and nature of her arrival in and detention by England in 1568-69.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option B4 Early Elizabethan England, Key Topic 1",
+        "reference": "Edexcel 1HI0 Option B4, Key Topic 1, 1558-69",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S18_Plots_and_Relations_with_Spain": {
+      "criteria": [
+        "Explains the causes, events and significance of the Revolt of the Northern Earls",
+        "Describes the three plots accurately in sequence and explains Walsingham's role",
+        "Explains the reasons for and significance of Mary's execution in 1587",
+        "Explains political, religious and commercial rivalry with Spain with specific, accurate detail"
+      ],
+      "pass_threshold": "Learner explains the causes and significance of the Revolt of the Northern Earls, describes the three named plots and Walsingham's spy network, explains why Mary was executed in 1587, and explains political, religious and commercial rivalry with Spain.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option B4 Early Elizabethan England, Key Topic 2",
+        "reference": "Edexcel 1HI0 Option B4, Key Topic 2, 1569-88",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S19_War_with_Spain_and_the_Armada": {
+      "criteria": [
+        "Explains privateering and Drake's activities and their effect on Anglo-Spanish relations",
+        "Explains the outbreak of war in the Netherlands and the significance of the Cadiz raid",
+        "Narrates the Armada campaign accurately and in the correct sequence",
+        "Explains and ranks at least three distinct reasons for the English victory with specific evidence"
+      ],
+      "pass_threshold": "Learner explains Drake's privateering and its significance, describes the outbreak of war in the Netherlands and the Cadiz raid, narrates the Armada campaign accurately, and explains and ranks reasons for the English victory.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option B4 Early Elizabethan England, Key Topic 2",
+        "reference": "Edexcel 1HI0 Option B4, Key Topic 2, 1585-88",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S20_Elizabethan_Society_Education_and_Poverty": {
+      "criteria": [
+        "Describes education by class and gender accurately with specific detail",
+        "Describes leisure and the growth of theatre, and explains Puritan objections",
+        "Explains at least three accurate causes of rising poverty",
+        "Traces the shift from punishment to provision, citing the 1601 Poor Law accurately"
+      ],
+      "pass_threshold": "Learner describes Elizabethan education and leisure accurately, explains causes of rising poverty, and traces the shift in poor law policy from punishment to provision, using the 1601 Poor Law and earlier legislation.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option B4 Early Elizabethan England, Key Topic 3",
+        "reference": "Edexcel 1HI0 Option B4, Key Topic 3, 1558-88",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S21_Exploration_Colonisation_and_Paper_2_British_Depth_Study_Questions": {
+      "criteria": [
+        "Explains reasons for the growth of exploration and Drake's circumnavigation with accurate detail",
+        "Explains reasons for colonisation and for the failure of the Virginia settlements with accurate detail",
+        "Q1 gives two accurate, specific, developed features",
+        "Q2 and Q3/4 explain causes fully using stimulus and own points, and Q3/4 reaches a clearly supported overall judgement"
+      ],
+      "pass_threshold": "Learner explains reasons for exploration, the significance of Drake's voyage, reasons for and causes of the failure of Roanoke, and produces correctly structured answers to the British depth study's describe, explain-why and how-far-do-you-agree question types.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 2 Option B4 Early Elizabethan England, Key Topic 3, and Paper 2 assessment overview",
+        "reference": "Edexcel 1HI0 Option B4, Key Topic 3 and Paper 2 British depth study question types",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S22_Birth_of_the_Weimar_Republic_and_Early_Crises": {
+      "criteria": [
+        "Narrates the end of the war and the birth of the Republic with accurate dates",
+        "Evaluates the constitution's strengths and weaknesses using named features (proportional representation, Article 48)",
+        "Explains the stab-in-the-back myth and reaction to Versailles accurately",
+        "Explains the Spartacist and Kapp challenges and the causes and effects of 1923 hyperinflation with accurate detail"
+      ],
+      "pass_threshold": "Learner narrates the Republic's founding with dates, evaluates named strengths and weaknesses of the constitution, explains early unpopularity and the stab-in-the-back myth, compares the Spartacist and Kapp challenges, and explains the causes and effects of 1923 hyperinflation.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 1",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 1, 1918-23",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S23_Recovery_under_Stresemann_and_Weimar_Culture": {
+      "criteria": [
+        "Explains Stresemann's economic measures (Rentenmark, Dawes Plan, Young Plan, American loans) accurately",
+        "Explains Stresemann's diplomatic achievements (Locarno, League of Nations) accurately",
+        "Assesses living standards and women's position with balanced, specific evidence",
+        "Describes cultural change with named examples and explains conservative unease"
+      ],
+      "pass_threshold": "Learner explains Stresemann's economic and diplomatic achievements, assesses living standards and women's changing position with balance, and describes cultural change, all with accurate dates and named examples.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 1",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 1, 1924-29",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S24_Hitlers_Early_Career_and_the_Munich_Putsch": {
+      "criteria": [
+        "Explains Hitler's rise within the party and the significance of Munich as a base",
+        "Describes the Twenty-Five Points and the SA's role accurately",
+        "Narrates the Munich Putsch's causes, events and consequences with accurate dates",
+        "Explains why Nazi support stayed limited 1924-28 and describes the party's reorganisation"
+      ],
+      "pass_threshold": "Learner explains Hitler's entry into and takeover of the party, describes the Twenty-Five Points and the SA's role, narrates the Munich Putsch's causes, events and consequences, and explains why Nazi support remained limited 1924-28 despite reorganisation.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 2",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 2, 1919-28",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S25_Depression_and_Hitlers_Rise_to_Power": {
+      "criteria": [
+        "Explains the Depression's causes and its political impact, including the growth of the KPD",
+        "Explains at least three distinct reasons for growth in Nazi support with specific evidence",
+        "Explains the 1932 elections and the political manoeuvring behind Hitler's appointment accurately",
+        "Analyses at least two contrasting historians' interpretations of Weimar's collapse with named historians"
+      ],
+      "pass_threshold": "Learner explains the Depression's political effects, explains reasons for Nazi electoral growth, narrates how Hitler became Chancellor in January 1933, and analyses at least two named historians' interpretations of the Republic's collapse and the Nazis' rise.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 2",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 2, 1929-33",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S26_Creating_the_Nazi_Dictatorship": {
+      "criteria": [
+        "Explains the Reichstag Fire Decree and Enabling Act's role in ending democracy with accurate dates",
+        "Explains the Night of the Long Knives' causes and consequences and Hitler's consolidation as Führer",
+        "Describes the Gestapo, SS and concentration camps' early role accurately",
+        "Explains how the legal system was brought under Nazi control"
+      ],
+      "pass_threshold": "Learner explains how the Reichstag Fire and Enabling Act ended democracy, explains the Night of the Long Knives and Hitler's consolidation of power on Hindenburg's death, and describes the Gestapo, SS, concentration camps and Nazi control of the courts.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 3",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 3, 1933-34",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S27_Nazi_Propaganda_Culture_and_the_Churches": {
+      "criteria": [
+        "Explains Goebbels' propaganda methods with named, accurate examples",
+        "Describes Nazi control of culture and the arts with named examples",
+        "Explains the Concordat and Reich Church accurately",
+        "Assesses consent versus coercion with balanced, specific evidence on both sides"
+      ],
+      "pass_threshold": "Learner explains Goebbels' propaganda methods with named examples, describes Nazi control of culture, explains the Concordat and Reich Church policy, and assesses the balance of consent and coercion in maintaining Nazi rule.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 3",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 3, 1933-39",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S28_Opposition_and_Nazi_Policy_towards_Women": {
+      "criteria": [
+        "Describes Church opposition and Niemöller's role with accurate detail",
+        "Describes the Swing Youth and Edelweiss Pirates with an accurate distinction between them",
+        "Explains Nazi ideology on women's role accurately",
+        "Explains at least two specific policies on marriage, family and employment with their effects"
+      ],
+      "pass_threshold": "Learner describes Church opposition including Niemoeller, describes the Swing Youth and Edelweiss Pirates, explains Nazi ideology on women, and explains policies towards marriage, family, employment and appearance and their effects.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topics 3-4",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 3 opposition and Key Topic 4, 1933-39",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S29_Nazi_Youth_Policy_and_the_Economy": {
+      "criteria": [
+        "Explains the Hitler Youth and League of German Maidens' aims and activities accurately",
+        "Explains control of education (curriculum and teachers) with specific detail",
+        "Assesses unemployment policy including invisible unemployment with balanced evidence",
+        "Assesses living standards using the Labour Front, Strength Through Joy and Beauty of Labour with balanced evidence"
+      ],
+      "pass_threshold": "Learner explains the Hitler Youth and League of German Maidens' aims and activities, explains control of education (curriculum and teachers), assesses named employment policies, and assesses living standards with evidence for improvement and hardship.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 4",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 4, 1933-39",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S30_Nazi_Racial_Policy_and_Persecution": {
+      "criteria": [
+        "Describes Nazi racial ideology and its treatment of at least two named non-Jewish groups accurately",
+        "Narrates the escalation of antisemitic persecution 1933-38 with accurate dates and named measures",
+        "Analyses at least two contrasting historians' interpretations of Nazi control with named historians",
+        "Answers the Q1 inference question with two supported inferences"
+      ],
+      "pass_threshold": "Learner describes Nazi racial ideology and its victims beyond Jewish people, narrates escalating antisemitic persecution to 1938, analyses at least two historians' interpretations of Nazi rule, and answers the Paper 3 4-mark inference question correctly.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, Paper 3 Option 31 Weimar and Nazi Germany, Key Topic 4 and Paper 3 assessment overview",
+        "reference": "Edexcel 1HI0 Option 31, Key Topic 4 and Paper 3 question types",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    },
+    "S31_Weimar_and_Nazi_Germany_Paper_3_Question_Types": {
+      "criteria": [
+        "Q2 explains causes fully using stimulus and own points with clear organisation",
+        "Q3(a) judges usefulness using content and provenance for the stated enquiry",
+        "Q3(b) identifies the specific difference between two interpretations accurately",
+        "Q3(c) and Q3(d) suggest plausible reasons for difference and reach a clearly supported overall judgement with accurate SPaG"
+      ],
+      "pass_threshold": "Learner produces a correctly structured, timed answer to each remaining Paper 3 question type using accurate Weimar and Nazi Germany content, including a fully explained causation answer, a justified source usefulness judgement, accurate comparison and explanation of two interpretations, and a sustained, well-organised extended judgement reaching a supported conclusion with accurate SPaG.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification and sample assessment materials, Paper 3 assessment overview",
+        "reference": "Edexcel 1HI0 Paper 3, question types Q2-Q3",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Paper 1: gives accurate, specific AO1 detail; judges source usefulness using content and provenance against the stated enquiry; explains similarity/difference and causation with developed reasoning; the Whitechapel extended judgement weighs stimulus and own points to a supported conclusion with acceptable SPaG",
+      "Paper 2: explains consequences fully; writes a coherent, chronological, analytical narrative connecting events; explains importance with developed reasoning for the two chosen sub-questions; the British depth study extended judgement weighs stimulus and own points to a supported conclusion",
+      "Paper 3: draws two supported inferences from the source; explains causation fully for the chosen topic; judges source usefulness using content and provenance; accurately identifies and explains how and why the two interpretations differ; the extended interpretation judgement uses own knowledge to test the interpretation and reaches a supported conclusion with acceptable SPaG",
+      "Across all three papers, uses accurate dates, names and specialist historical terminology (deterrence, retribution, social crime, causation, provenance, interpretation) consistently and correctly"
+    ],
+    "pass_threshold": "A pass is a Grade-4-standard performance across all three papers combined: accurate, well-selected AO1 knowledge; developed AO2 causation, change/continuity, similarity/difference and significance analysis; AO3 source usefulness judgements grounded in content and provenance; and, on Paper 3, AO4 interpretation analysis reaching a supported judgement; extended answers show a clear, evidenced line of reasoning and a stated overall judgement where the question asks for one, with acceptable SPaG on the two designated questions.",
+    "source": {
+      "issuing_body": "Pearson Edexcel",
+      "document": "Pearson Edexcel GCSE (9-1) History 1HI0 specification, section 3 Assessment information, and Paper 1/2/3 sample assessment materials",
+      "reference": "Edexcel 1HI0 Papers 1, 2 and 3 assessment overview",
+      "urls": [
+        "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf"
+  ],
+  "source_notes": [
+    "Edexcel's separate 'sources/interpretations teaching guidance' cited at top level was not located as a single public document; assessment-objective wording is taken from the specification.",
+    "Linked specification is Issue 6 (June 2024)."
+  ]
+}

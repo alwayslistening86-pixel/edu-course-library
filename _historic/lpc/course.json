@@ -1,0 +1,52 @@
+{
+  "schema_version": 3,
+  "name": "LPC (Legal Practice Course) — BPP, historical (personal interest, no longer required for qualification)",
+  "requires_complete": "llb",
+  "selected_options": {
+    "vocational_electives": [
+      "Commercial Law and Intellectual Property",
+      "Employment Law",
+      "Family Law"
+    ]
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "historical",
+  "material_vintage": "BPP Legal Practice Course Programme Handbook 2017-18 (openly hosted PDF), cross-referenced against the SRA's live LPC route overview and LPC Information Pack (sra.org.uk) for outcomes and requirements, itemised 2026-09-22. BPP no longer runs the LPC live (superseded by the SQE), so the 2017-18 handbook is the most recent fully-resolvable real snapshot of module list, credit values, assessment formats and the Distinction/Commendation/Pass classification scheme, combined with the still-current SRA outcomes framework and competence standard. Practical/procedural content within each module (the actual steps, forms, procedure and professional conduct rules, not just the underlying doctrine) is itemised from the standard LPC/SRA-outcomes topic breakdown for that practice area, as taught on any equivalent legal-practice course of the period, and cites real English statutes, rules and procedure (Companies Act 2006, CPR, PACE 1984, Wills Act 1837, SRA Principles/Code of Conduct, etc.) throughout. Practical Legal Research and Legal Writing are examined as ONE combined module in BPP's real handbook (a single takeaway assessment); this course's stage ladder, inherited unchanged from the prior build, splits them into two stages for teaching granularity, disclosed honestly here rather than inventing two independent BPP assessments.",
+  "academic_level": 7,
+  "level_source": "RQF/FHEQ Level 7 (Postgraduate Diploma), per QAA Framework for Higher Education Qualifications — the LPC is validated as a postgraduate diploma-level professional legal qualification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_BLP_Vehicles_and_Governance",
+    "S02_BLP_Finance_Insolvency_and_Tax",
+    "S03_PLP_PreContract_to_Exchange",
+    "S04_PLP_Completion_SDLT_and_Leasehold",
+    "S05_LIT_Civil_PreAction_and_Starting_a_Claim",
+    "S06_LIT_Civil_Interim_Trial_and_Costs",
+    "S07_LIT_Criminal_PoliceStation_to_Bail",
+    "S08_LIT_Criminal_Trial_and_Sentencing",
+    "S09_PCR_Conduct_and_Regulation",
+    "S10_WAE_Wills_Intestacy_and_Estate_Administration",
+    "S11_Skills_Interviewing_and_Advising",
+    "S12_Skills_Advocacy",
+    "S13_Skills_Practical_Legal_Research",
+    "S14_Skills_Legal_Writing",
+    "S15_Skills_Drafting",
+    "S16_CLIP_Commercial_Contracts_and_Trade_Marks",
+    "S17_CLIP_Copyright_Patents_Confidentiality_and_Exploitation",
+    "S18_EMP_Status_Contract_and_Dismissal",
+    "S19_EMP_Redundancy_Discrimination_and_Tribunal_Procedure",
+    "S20_FAM_Divorce_and_Financial_Remedies",
+    "S21_FAM_Children_Proceedings_and_Practice"
+  ],
+  "linear": false,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0"
+}

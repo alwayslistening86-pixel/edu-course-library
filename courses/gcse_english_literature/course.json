@@ -1,0 +1,48 @@
+{
+  "schema_version": 4,
+  "name": "GCSE English Literature (AQA 8702)",
+  "requires_complete": [],
+  "selected_options": {
+    "shakespeare_play": "Macbeth",
+    "nineteenth_century_novel": "A Christmas Carol (Dickens)",
+    "modern_text": "An Inspector Calls (JB Priestley) — drama route",
+    "poetry_anthology_cluster": "Power and Conflict"
+  },
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE English Literature (8702) specification, Version 1.3 (28 September 2022; first teaching 2015, first exams 2017), itemised on 2026-09-22. Verified against AQA's own specification PDF (sections 3.1 Shakespeare/19th-century novel, 3.2 Modern texts and poetry, 3.3 Skills, 4.1-4.3 aims/assessment objectives/weightings) and against AQA's live subject-content pages for the current modern-texts list, confirming AO wording, the AO1 37.5% / AO2 42.5% / AO3 15% / AO4 5% overall weighting split, the 64-mark 1h45 Paper 1 (40%) and 96-mark 2h15 Paper 2 (60%) structure, that there is no non-exam assessment or Spoken Language component in Literature (unlike English Language 8700), and the current (non-retired) modern-texts and poetry-cluster option lists. Individual question mark splits (Section A/B extract questions 30+4 AO4, unseen poetry Q1 24 / Q2 8) are carried from the previously-verified AQA mark-scheme rubric (see source_notes) and not re-fetched line by line on this rebuild, so are flagged for re-verification against a live mark scheme. The Power and Conflict poem list (15 titles/poets) is written from established, stable AQA cluster content and is flagged for re-verification against the anthology page. Lesson explanations, paraphrase, context notes, model-paragraph structure and every practice/test scenario are original and written for this course; no set-text passage, poem or mark-scheme wording is reproduced beyond the brief, sub-eight-word quotations the copyright rule allows for in-copyright texts.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9 / Foundation+Higher tiers covered), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Course_Structure_Assessment_Objectives_and_Levels",
+    "S02_Core_Literary_Essay_Skills",
+    "S03_Macbeth_Overview_Context_and_Acts_1_to_3",
+    "S04_Macbeth_Acts_4_to_5_Structure_and_Language",
+    "S05_Macbeth_Themes_Characters_and_the_Exam_Question",
+    "S06_A_Christmas_Carol_Overview_Context_and_Staves_1_to_3",
+    "S07_A_Christmas_Carol_Staves_4_to_5_Structure_and_Language",
+    "S08_A_Christmas_Carol_Themes_Characters_and_the_Exam_Question",
+    "S09_An_Inspector_Calls_Overview_Context_Acts_and_Structure",
+    "S10_An_Inspector_Calls_Themes_Characters_and_the_Exam_Question",
+    "S11_Power_and_Conflict_Poetry_I_Overview_and_Four_Founding_Poems",
+    "S12_Power_and_Conflict_Poetry_II_War_and_Nature",
+    "S13_Power_and_Conflict_Poetry_III_Loss_Identity_and_Voice",
+    "S14_Poetry_Comparison_Exam_Question_and_Unseen_Poetry"
+  ],
+  "linear": true,
+  "framework": "AQA's six-level 'levels of response' ladder for every essay (Level 1 simple/narrative -> Level 6 critical/exploratory), assessing AO1 (response with references), AO2 (analyse language/form/structure), AO3 (context), and AO4 (technical accuracy, Shakespeare and modern-text essays only). Paper 1 Section A (Shakespeare) and Paper 2 Section A (modern text) are marked out of 34 (30 content marks across AO1/AO2/AO3 plus 4 separate AO4 marks); Paper 1 Section B (19th-century novel) and Paper 2 Section B (poetry comparison) are marked out of 30 with no separate AO4 component; Paper 2 Section C (unseen poetry) is marked out of 32, split Question 1 24 marks (AO1+AO2, single poem) and Question 2 8 marks (AO2 only, comparison of methods), with no AO3/context marks.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

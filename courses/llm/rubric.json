@@ -1,0 +1,245 @@
+{
+  "stage_rubrics": {
+    "LWM83_Advanced_Contract_Law_1": {
+      "criteria": [
+        "Correctly states the orthodox rule for each doctrine before engaging critically with the contested modern authority",
+        "Applies the relational-contract framework accurately, including the more cautious post-Candey case law",
+        "Applies the Cavendish legitimate-interest test rather than the superseded genuine-pre-estimate-of-loss test",
+        "Reaches a defended critical position on at least one contested point, with named academic or judicial disagreement acknowledged"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer states the orthodox rule, the contested modern authority, and reaches a defended critical position rather than a purely descriptive account.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM83 Advanced Contract Law module page, sub-module A",
+        "reference": "LWM83A",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "LWM83_Advanced_Contract_Law_2": {
+      "criteria": [
+        "Correctly applies the Commercial Agents Regulations 1993 compensation/indemnity framework to the termination",
+        "Correctly applies the relevant nemo dat exception to the innocent purchaser's title",
+        "Correctly applies the Insurance Act 2015 fair-presentation and proportionate-remedy framework to the non-disclosure",
+        "Engages critically with at least one named debate (apparent authority's doctrinal basis, s.15A, or the 2015 Act reform)"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer applies each sub-module's doctrine accurately and engages with at least one named critical angle per sub-module.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM83 Advanced Contract Law module page, sub-modules B-D",
+        "reference": "LWM83B, LWM83C, LWM83D",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "LWM20_Industrial_and_Intellectual_Property_1": {
+      "criteria": [
+        "Correctly applies all four Aerotel/Macrossan steps to the routing method, engaging with the EPO divergence",
+        "Gives a reasoned, not merely descriptive, patent-versus-trade-secret strategic recommendation",
+        "Correctly applies the substantial-part test and identifies the applicable fair dealing defence for the quotations",
+        "Engages with at least one named post-Brexit critical angle (Infopaq's status, or the closed-list/fair-use comparison)"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer applies each doctrine accurately with the correct statutory provision and engages with the named critical angle.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM20 Industrial and Intellectual Property module page, sub-modules A-B",
+        "reference": "LWM20A, LWM20B",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "LWM20_Industrial_and_Intellectual_Property_2": {
+      "criteria": [
+        "Correctly applies the average consumer likelihood-of-confusion test to the packaging and naming similarity",
+        "Correctly applies the Jif Lemon classic trinity to both the general passing off claim and the personality-rights extension",
+        "Engages critically with the Fenty v Arcadia extension of passing off into image rights",
+        "Links at least two of the doctrines applied back to a named theoretical justification for IP protection"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer applies each doctrine accurately and, for sub-module D, shows fluency in the competing theoretical justifications for IP.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM20 Industrial and Intellectual Property module page, sub-modules C-D",
+        "reference": "LWM20C, LWM20D",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "LWM36_International_Trade_Law_1": {
+      "criteria": [
+        "Correctly applies the CIF documents-not-goods principle to conclude the seller has performed",
+        "Correctly applies the Hague-Visby package/weight limitation to the buyer's claim against the carrier",
+        "Correctly applies COGSA 1992 to explain how the buyer, as a non-original-shipper holder of the bill of lading, can sue the carrier",
+        "Engages with the critical angle on whether the package limitation remains a meaningful protection"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer applies the correct trade term and carriage rules and engages with the named critical angle on documentary sales.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM36 International Trade Law module page, sub-modules A-B",
+        "reference": "LWM36A, LWM36B",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "LWM36_International_Trade_Law_2": {
+      "criteria": [
+        "Correctly applies the autonomy principle to conclude the bank must pay on conforming documents, engaging with the narrow fraud exception",
+        "Correctly identifies whether the CISG applies to the underlying contract given the parties' places of business",
+        "Correctly applies the fundamental breach test under Article 25, using the buyer's specific-purpose facts",
+        "Draws an explicit, reasoned comparison with the English conditions/warranties/innominate-terms approach"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer applies the autonomy principle and the CISG framework accurately, comparing it with English law where required.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM36 International Trade Law module page, sub-modules C-D",
+        "reference": "LWM36C, LWM36D",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "LWM11_European_Union_Competition_Law_1": {
+      "criteria": [
+        "Correctly applies the Hoffmann-La Roche dominance factors before assessing abuse",
+        "Correctly applies the as-efficient-competitor test from Post Danmark II/Intel to the rebate scheme",
+        "Correctly applies the restrictively-construed object category from Cartes Bancaires to the information exchange",
+        "Addresses the post-Brexit UK CMA relevance of the EU authority relied on"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer applies Article 101 or 102 accurately, addresses the post-Brexit UK relevance, and engages with the named critical angle.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM11 European Union Competition Law module page, sub-modules A-B",
+        "reference": "LWM11A, LWM11B",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "LWM11_European_Union_Competition_Law_2": {
+      "criteria": [
+        "Correctly applies the SIEC test, distinguishing unilateral effects from the older dominance-only test",
+        "Correctly explains the one-stop-shop notification procedure and the standstill obligation",
+        "Correctly applies the Antitrust Damages Directive framework to the follow-on claim, including the binding effect of the Commission decision",
+        "Engages with the critical angle on jurisdictional fragmentation or decentralised enforcement"
+      ],
+      "pass_threshold": "Merit-standard (60%+) answer applies the SIEC test and the Regulation 1/2003 framework accurately, with critical evaluation of decentralised enforcement.",
+      "source": {
+        "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "University of London LWM11 European Union Competition Law module page, sub-modules C-D",
+        "reference": "LWM11C, LWM11D",
+        "urls": [
+          "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+          "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+          "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+          "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+          "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+          "https://eur-lex.europa.eu",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Correctly states the rule for each doctrine raised, with real, accurately cited authority (case, article, regulation or statute)",
+      "Applies the rule to the specific facts given, at Master's depth, rather than writing a general descriptive account",
+      "Engages explicitly with the named critical angle for at least one sub-module per question, reaching a defended position",
+      "Where relevant, correctly addresses the post-Brexit UK status of EU-derived doctrine (retained EU law, CMA practice, or the CISG/UK non-ratification contrast)",
+      "Manages multi-sub-module questions with reasonably even depth rather than over-developing one part at the expense of others"
+    ],
+    "pass_threshold": "A merit-standard (60%+) answer on each represented sub-module, correctly applying doctrine with named authority and reaching a defended critical position where the sub-module calls for evaluation.",
+    "source": {
+      "issuing_body": "University of London (LLM, International Programmes) and the Quality Assurance Agency for Higher Education (QAA)",
+      "document": "University of London 2026-27 Programme Regulations for the Postgraduate Laws suite; QAA Master's Degree Characteristics Statement (February 2020)",
+      "reference": "Cumulative across the four chosen LLM modules (LWM83, LWM20, LWM36, LWM11)",
+      "urls": [
+        "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+        "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+        "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+        "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+        "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+        "https://www.qaa.ac.uk/docs/qaa/quality-code/master's-degree-characteristics-statement-2020.pdf",
+        "https://eur-lex.europa.eu",
+        "https://www.legislation.gov.uk",
+        "https://www.bailii.org"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.london.ac.uk/study/courses/short-courses/advanced-contract-law",
+    "https://www.london.ac.uk/study/courses/short-courses/industrial-intellectual-property",
+    "https://www.london.ac.uk/study/courses/short-courses/international-trade-law",
+    "https://www.london.ac.uk/study/courses/short-courses/european-union-competition-law",
+    "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+    "https://eur-lex.europa.eu",
+    "https://www.legislation.gov.uk"
+  ],
+  "source_notes": [
+    "This rubric is built from two kinds of real, openly-published source: (1) University of London's own live programme materials for the LLM Postgraduate Laws route (module short-course pages and the 2026-27 Programme Regulations), and (2) the UK sector-wide QAA Master's Degree Characteristics Statement (February 2020). UoL's detailed module study guides, module-specific examiners' reports, and the numeric marking-band descriptors in the gated 'Appendix D - Assessment criteria' were not accessible; this course does not invent numbers or descriptors to fill that gap.",
+    "Assessment facts carried over: each of the four sub-modules (A-D) within a module is separately assessed by a 45-minute (plus 10 minutes' reading time) unseen closed-book written examination, with no coursework component; pass mark 50% per module (40-49% occasionally condoned at the Board of Examiners' discretion); merit requires an average of 60-69% with at least half of contributing modules at 60%+; distinction requires an average of 70%+ with at least half at 70%+; maximum two attempts per module, examinations sit twice yearly (May and October), the higher mark is taken.",
+    "LWM36 (International Trade Law) is, as UoL actually defines it, a private-law module about the network of contracts (sale, carriage, finance) needed to move goods across borders, not a public international trade law/WTO module (GATT, trade remedies, dispute panels) -- that subject matter belongs to a different UoL module. This course stays faithful to LWM36's real, confirmed scope.",
+    "Case law and statutes cited throughout are real, well-known primary authority (CJEU/General Court, English courts, EU regulations/directives and UK statutes), verified from their own primary text via EUR-Lex, legislation.gov.uk and BAILII rather than from UoL's gated numbering."
+  ]
+}

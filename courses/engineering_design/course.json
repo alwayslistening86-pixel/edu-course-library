@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "name": "Engineering Design (OCR Cambridge National Level 1/2, J822)",
+  "requires_complete": [],
+  "selected_options": {
+    "note": "All three units (R038, R039, R040) are mandatory — this specification has no optional units, so no option choice was needed. Confirmed against the live OCR J822 specification.",
+    "qualification_note": "This is a Level 1/2 vocational award, not a GCSE, but included in this build per the user's confirmed 20-course plan."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "OCR (Cambridge OCR) Level 1/Level 2 Cambridge National in Engineering Design J822 (assessment from 2025), first teaching September 2022, qualification number 603/7086/5; itemised 2026-09-22. Unit R038's four Topic Areas (designing processes, design requirements, communicating design outcomes, evaluating design ideas), the R039 and R040 task lists, section 4.1.5 (performance objectives), section 5 (assessment overview and grading/UMS boundaries) and Appendix B (command words) were re-read from the live specification PDF (OCR file 711493) on 2026-09-22 and confirmed unchanged in structure and numbering from the earlier build. The R038/01 mark scheme (OCR file 716319, January 2024 series) supplies the level-of-response band descriptors, paraphrased not quoted. R039 and R040 set-assignment task wording is the specification's own task summaries; the live OCR-set assignment PDFs themselves are on OCR's centre-only Teach Cambridge portal and were not read, as before. Practice tasks and the exam-style question in this build are original and are not OCR set assignments.",
+  "academic_level": 2,
+  "level_source": "RQF Level 1/2 (OCR Cambridge National / WJEC-Eduqas Vocational Award), per Ofqual's Register of Regulated Qualifications; recorded at the qualification's upper band since this build is not tier-restricted",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Design_Strategies_and_the_Iterative_Design_Process",
+    "S02_Specifications_Ideas_and_the_Make_and_Evaluate_Stage",
+    "S03_Manufacturing_Considerations_and_Communicating_Outcomes",
+    "S04_CAD_and_Evaluating_Design_Ideas",
+    "S05_R038_Exam_Structure_and_Technique",
+    "S06_R039_Overview_Freehand_Proposals_and_Development",
+    "S07_R039_Drawings_CAD_and_R040_Overview",
+    "S08_R040_Product_Analysis_Disassembly_and_CAD_Modelling",
+    "S09_Production_Planning_Prototyping_and_the_Qualification_Structure",
+    "S10_Prototype_Evaluation_Grading_NEA_Rules_and_Synoptic_Links"
+  ],
+  "linear": true,
+  "framework": "Two genuine, sourced marking frameworks used side by side: (1) OCR's three-level-of-response bands for R038's extended exam questions — Level 3 (5-6 marks, scaling down proportionally for lower-tariff questions): thorough discussion, consistent technical terminology, two or more points developed with genuine discussion or weighing of alternatives; Level 2 (3-4 marks): adequate discussion, some terminology, one or two points with some justification; Level 1 (1-2 marks): brief discussion, little or no terminology, one or two undeveloped points; (2) OCR's generic three-mark-band structure (MB1 limited/basic, MB2 adequate/sound, MB3 comprehensive/effective) applied per task within R039 and R040's OCR-set, OCR-moderated assignments. R038 is a 1 hour 15 minute, 70-mark written exam (multiple choice, short answer and extended/level-of-response questions), sat in the learner's final assessment series. Unit grades are set on the Uniform Mark Scale (R038 80 UMS, R039 60 UMS, R040 60 UMS, 200 UMS overall). Overall grade minimum total uniform marks out of 200: Distinction* at Level 2 180, Distinction at Level 2 160, Merit at Level 2 140, Pass at Level 2 120, Distinction at Level 1 100, Merit at Level 1 80, Pass at Level 1 60 (below 60 is unclassified), per specification section 5.4.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {
+    "S06_R039_Overview_Freehand_Proposals_and_Development": [
+      "share_images"
+    ],
+    "S07_R039_Drawings_CAD_and_R040_Overview": [
+      "share_images"
+    ],
+    "S08_R040_Product_Analysis_Disassembly_and_CAD_Modelling": [
+      "share_images"
+    ],
+    "S09_Production_Planning_Prototyping_and_the_Qualification_Structure": [
+      "share_images"
+    ]
+  },
+  "learner_notices": [],
+  "level_basis": "framework"
+}

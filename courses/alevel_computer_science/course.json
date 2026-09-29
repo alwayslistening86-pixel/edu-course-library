@@ -1,0 +1,72 @@
+{
+  "schema_version": 4,
+  "name": "A-level Computer Science (AQA 7517)",
+  "requires_complete": [
+    "gcse_computer_science"
+  ],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA A-level Computer Science (7517) specification, Version 1.6 (31 July 2023), the current version linked from aqa.org.uk/7517, itemised on 2026-09-27: every AQA A-level content reference across subject content sections 4.1 Fundamentals of programming, 4.2 Fundamentals of data structures, 4.3 Fundamentals of algorithms, 4.4 Theory of computation, 4.5 Fundamentals of data representation, 4.6 Fundamentals of computer systems, 4.7 Fundamentals of computer organisation and architecture, 4.8 Consequences of uses of computing, 4.9 Fundamentals of communication and networking, 4.10 Fundamentals of databases, 4.11 Big Data, 4.12 Fundamentals of functional programming and 4.13 Systematic approach to problem solving. Assessment: two written papers, each 100 raw marks (scaled to 150, 40% of the A-level) and linear -- Paper 1 (2 hours 30 minutes, on-screen, programming/problem-solving in the candidate's chosen high-level language plus algorithm-tracing and theory-of-computation questions in AQA pseudo-code, covering 4.1-4.4 and 4.13) and Paper 2 (2 hours 30 minutes, a conventional written exam, covering 4.5-4.12) -- plus the non-exam assessment (the computing practical project, 75 marks, 20%), which is declared out of scope; see the notice below. Stage tests and the mock are original questions in AQA's style; every numerical answer (binary/hex/two's-complement conversions, floating-point workings, Big-O comparisons, truth tables, algorithm traces) was computed and verified when this course was built. Python (one of AQA's own four supported languages for Paper 1 and the NEA) is used for runnable code examples and code-output items; theory/algorithm-tracing questions are also shown in AQA's own pseudo-code, since that is what Paper 1's non-coding questions and Paper 2 actually use.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "pseudocode_and_language",
+      "text": "AQA's Paper 1 is an on-screen exam: coding questions are answered by writing/adapting real code in a chosen high-level language (this course uses Python, one of AQA's four supported languages alongside C#, Java and VB.Net), and are run and checked for real here. But Paper 1's algorithm-tracing and theory-of-computation questions, and all of Paper 2, use AQA's own pseudo-code and written notation, not Python -- make sure you can also read and write that pseudo-code fluently, and trace finite state machines, Turing machines and algorithms by hand without running anything."
+    },
+    {
+      "id": "nea",
+      "text": "This course does not cover the non-exam assessment (the computing practical project, 75 marks, 20% of the A-level): an individually supervised programming project of your own choosing, developed over several months using a systematic (4.13) methodology and marked by your teacher, then moderated by AQA. It cannot be meaningfully taught or graded in this format. Ask your teacher how your centre runs it, and start thinking about a suitable problem early -- it is usually proposed and agreed well before the final write-up deadline."
+    },
+    {
+      "id": "units",
+      "text": "This course uses AQA's decimal (SI) storage units throughout: 1 kB = 1,000 bytes, 1 MB = 1,000 kB, and so on -- not the older 1,024-based (binary) convention some other tools and operating systems display."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Data_Types_and_Programming_Concepts",
+    "S02_Operators",
+    "S03_Constants_Strings_Random_Exceptions",
+    "S04_Subroutines_Scope_Recursion",
+    "S05_Programming_Paradigms",
+    "S06_Arrays_Records_ADTs",
+    "S07_Queues_and_Stacks",
+    "S08_Graphs_Trees_Hash_Dict_Vectors",
+    "S09_Graph_Tree_Traversal_and_RPN",
+    "S10_Searching_Algorithms",
+    "S11_Sorting_and_Dijkstra",
+    "S12_Abstraction_and_Automation",
+    "S13_FSM_Regex_and_BNF",
+    "S14_Complexity_and_Turing_Machines",
+    "S15_Software_Development_Lifecycle",
+    "S16_Number_Systems_Bases_Units",
+    "S17_Binary_Integers_and_Floating_Point",
+    "S18_Character_Coding_and_Error_Checking",
+    "S19_Analogue_Digital_and_Multimedia",
+    "S20_Hardware_Software_Languages_Logic",
+    "S21_Components_Stored_Program_Processor",
+    "S22_Fetch_Execute_Interrupts_External_Devices",
+    "S23_Consequences_of_Computing",
+    "S24_Transmission_Topology_and_Network_Models",
+    "S25_Wireless_Internet_and_Security",
+    "S26_TCPIP_Protocols_and_Addressing",
+    "S27_Data_Modelling_and_Normalisation",
+    "S28_SQL_ClientServer_and_BigData",
+    "S29_Functional_Programming"
+  ]
+}

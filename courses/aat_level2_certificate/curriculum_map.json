@@ -1,0 +1,625 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+    "url": "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf",
+    "version": "Version 5.6 (published 1 September 2026), the current version linked from aat.org.uk/deliver/qualifications/specifications-outlines, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AAT's own scope-of-content numbering, which restarts at 1 for each of the four units. This course prefixes each reference with the unit's initials to keep every code unique across the qualification: IB (Introduction to Bookkeeping), PBC (Principles of Bookkeeping Controls), PC (Principles of Costing), BE (The Business Environment) -- e.g. IB2.1 is AAT's own topic 2.1 within Introduction to Bookkeeping's learning outcome 2."
+  },
+  "_syllabus_items": [
+    {
+      "id": "IB1.1",
+      "title": "The purpose of business documents: petty cash voucher, invoice, credit note (including for PPD), remittance advice, statement of account, bank statement",
+      "topic_area": "Introduction to Bookkeeping -- LO1 Understand how to set up bookkeeping systems"
+    },
+    {
+      "id": "IB1.2",
+      "title": "The process of recording bookkeeping transactions: books of prime entry, the cash book and petty cash book, the ledgers, the trial balance, financial statements, accuracy and digital systems",
+      "topic_area": "Introduction to Bookkeeping -- LO1 Understand how to set up bookkeeping systems"
+    },
+    {
+      "id": "IB1.3",
+      "title": "Create and use coding systems: types of code and where to use them",
+      "topic_area": "Introduction to Bookkeeping -- LO1 Understand how to set up bookkeeping systems"
+    },
+    {
+      "id": "IB1.4",
+      "title": "Set bookkeeping systems: the dual effect (debits and credits) and the accounting equation",
+      "topic_area": "Introduction to Bookkeeping -- LO1 Understand how to set up bookkeeping systems"
+    },
+    {
+      "id": "IB2.1",
+      "title": "Calculate invoice and credit note amounts: item price, net, VAT, total, trade discount, bulk discount",
+      "topic_area": "Introduction to Bookkeeping -- LO2 Process customer transactions"
+    },
+    {
+      "id": "IB2.2",
+      "title": "Enter customer invoices and credit notes into books of prime entry: sales daybook, sales returns daybook, discounts allowed daybook",
+      "topic_area": "Introduction to Bookkeeping -- LO2 Process customer transactions"
+    },
+    {
+      "id": "IB2.3",
+      "title": "Process receipts from customers: discrepancies, calculating amounts due including PPD, allocating receipts",
+      "topic_area": "Introduction to Bookkeeping -- LO2 Process customer transactions"
+    },
+    {
+      "id": "IB3.1",
+      "title": "Check the accuracy of supplier invoices and credit notes: documents used, discounts, discrepancies",
+      "topic_area": "Introduction to Bookkeeping -- LO3 Process supplier transactions"
+    },
+    {
+      "id": "IB3.2",
+      "title": "Enter purchase supplier invoices and credit notes into books of prime entry: purchases daybook, purchases returns daybook, discounts received daybook",
+      "topic_area": "Introduction to Bookkeeping -- LO3 Process supplier transactions"
+    },
+    {
+      "id": "IB3.3",
+      "title": "Process payments to suppliers: discrepancies, calculating payments due including PPD, allocating payments",
+      "topic_area": "Introduction to Bookkeeping -- LO3 Process supplier transactions"
+    },
+    {
+      "id": "IB4.1",
+      "title": "Enter receipts and payments into an analysed cash book",
+      "topic_area": "Introduction to Bookkeeping -- LO4 Process receipts and payments"
+    },
+    {
+      "id": "IB4.2",
+      "title": "Enter receipts and payments into an analysed petty cash book, including the imprest and non-imprest systems",
+      "topic_area": "Introduction to Bookkeeping -- LO4 Process receipts and payments"
+    },
+    {
+      "id": "IB4.3",
+      "title": "Total and balance the cash book and petty cash book",
+      "topic_area": "Introduction to Bookkeeping -- LO4 Process receipts and payments"
+    },
+    {
+      "id": "IB4.4",
+      "title": "Process recurring receipts and payments",
+      "topic_area": "Introduction to Bookkeeping -- LO4 Process receipts and payments"
+    },
+    {
+      "id": "IB5.1",
+      "title": "Transfer data from the books of prime entry to the ledgers: receivables, payables and general ledgers",
+      "topic_area": "Introduction to Bookkeeping -- LO5 Process transactions into the ledger accounts"
+    },
+    {
+      "id": "IB5.2",
+      "title": "Total and balance ledger accounts: balance carried/brought down, debit and credit balances",
+      "topic_area": "Introduction to Bookkeeping -- LO5 Process transactions into the ledger accounts"
+    },
+    {
+      "id": "PBC1.1",
+      "title": "Produce control accounts: receivables, payables and VAT control accounts",
+      "topic_area": "Principles of Bookkeeping Controls -- LO1 Use control accounts"
+    },
+    {
+      "id": "PBC1.2",
+      "title": "Reconcile control accounts with the receivables and payables ledgers, and identify reasons for discrepancies",
+      "topic_area": "Principles of Bookkeeping Controls -- LO1 Use control accounts"
+    },
+    {
+      "id": "PBC2.1",
+      "title": "Payment methods and how they affect the bank balance",
+      "topic_area": "Principles of Bookkeeping Controls -- LO2 Reconcile a bank statement with the cash book"
+    },
+    {
+      "id": "PBC2.2",
+      "title": "Use the bank statement to update the cash book: unrecorded and duplicated items",
+      "topic_area": "Principles of Bookkeeping Controls -- LO2 Reconcile a bank statement with the cash book"
+    },
+    {
+      "id": "PBC2.3",
+      "title": "Complete bank reconciliation statements: unpresented cheques and outstanding lodgements",
+      "topic_area": "Principles of Bookkeeping Controls -- LO2 Reconcile a bank statement with the cash book"
+    },
+    {
+      "id": "PBC3.1",
+      "title": "Produce journal entries to record bookkeeping transactions: opening entries, irrecoverable debts written off, payroll transactions",
+      "topic_area": "Principles of Bookkeeping Controls -- LO3 Use the journal"
+    },
+    {
+      "id": "PBC3.2",
+      "title": "Produce journal entries to correct errors not disclosed by the trial balance",
+      "topic_area": "Principles of Bookkeeping Controls -- LO3 Use the journal"
+    },
+    {
+      "id": "PBC3.3",
+      "title": "Produce journal entries to correct errors disclosed by the trial balance, using a suspense account",
+      "topic_area": "Principles of Bookkeeping Controls -- LO3 Use the journal"
+    },
+    {
+      "id": "PBC4.1",
+      "title": "Extract an initial trial balance",
+      "topic_area": "Principles of Bookkeeping Controls -- LO4 Produce trial balances"
+    },
+    {
+      "id": "PBC4.2",
+      "title": "Redraft the trial balance following adjustments",
+      "topic_area": "Principles of Bookkeeping Controls -- LO4 Produce trial balances"
+    },
+    {
+      "id": "PC1.1",
+      "title": "Collection and classification of costs: element (labour/materials/overheads), nature (direct/indirect), behaviour (fixed/variable/semi-variable/stepped), product vs period costs",
+      "topic_area": "Principles of Costing -- LO1 Understand the cost recording system within an organisation"
+    },
+    {
+      "id": "PC1.2",
+      "title": "Costing techniques used in organisations: how product cost is determined, inventory valuation methods, labour costing methods, overhead absorption methods",
+      "topic_area": "Principles of Costing -- LO1 Understand the cost recording system within an organisation"
+    },
+    {
+      "id": "PC1.3",
+      "title": "Relationships between costing and financial accounting systems within organisations",
+      "topic_area": "Principles of Costing -- LO1 Understand the cost recording system within an organisation"
+    },
+    {
+      "id": "PC1.4",
+      "title": "Sources of information on income and expenditure: historic, actual and budgeted costs, planning and control",
+      "topic_area": "Principles of Costing -- LO1 Understand the cost recording system within an organisation"
+    },
+    {
+      "id": "PC1.5",
+      "title": "Differences between cost, profit and investment centres, and their use in different organisations",
+      "topic_area": "Principles of Costing -- LO1 Understand the cost recording system within an organisation"
+    },
+    {
+      "id": "PC1.6",
+      "title": "Classification and recording of labour and overheads: coding systems and the manufacturing account",
+      "topic_area": "Principles of Costing -- LO1 Understand the cost recording system within an organisation"
+    },
+    {
+      "id": "PC2.1",
+      "title": "Calculate cost of inventory issues and inventory valuations using FIFO, LIFO and AVCO",
+      "topic_area": "Principles of Costing -- LO2 Use cost recording techniques"
+    },
+    {
+      "id": "PC2.2",
+      "title": "Calculate labour payments: time-rate, overtime, piecework, bonuses, guaranteed minimum payments",
+      "topic_area": "Principles of Costing -- LO2 Use cost recording techniques"
+    },
+    {
+      "id": "PC2.3",
+      "title": "Calculate overhead absorption rates: per unit, per labour hour, per machine hour",
+      "topic_area": "Principles of Costing -- LO2 Use cost recording techniques"
+    },
+    {
+      "id": "PC2.4",
+      "title": "Use cost behaviour to calculate total and unit costs at different levels of output",
+      "topic_area": "Principles of Costing -- LO2 Use cost recording techniques"
+    },
+    {
+      "id": "PC2.5",
+      "title": "Calculate the costs of a product: direct cost, manufacturing cost, cost of goods manufactured and sold, in manufacturing and service organisations",
+      "topic_area": "Principles of Costing -- LO2 Use cost recording techniques"
+    },
+    {
+      "id": "PC3.1",
+      "title": "Actual and budgeted costs and income: fixed and flexible budgets, adverse/favourable variances",
+      "topic_area": "Principles of Costing -- LO3 Provide information on actual and budgeted costs and income"
+    },
+    {
+      "id": "PC3.2",
+      "title": "Exception reporting to identify, analyse and report on significant variances",
+      "topic_area": "Principles of Costing -- LO3 Provide information on actual and budgeted costs and income"
+    },
+    {
+      "id": "PC4.1",
+      "title": "Enter and format data in a spreadsheet: cells, formatting numbers and text",
+      "topic_area": "Principles of Costing -- LO4 Use tools and techniques to support cost calculations"
+    },
+    {
+      "id": "PC4.2",
+      "title": "Use formulas to support cost calculations: addition, subtraction, multiplication, division",
+      "topic_area": "Principles of Costing -- LO4 Use tools and techniques to support cost calculations"
+    },
+    {
+      "id": "BE1.1",
+      "title": "The different classifications of law: common law and equity, public and private law, criminal and civil law",
+      "topic_area": "The Business Environment -- LO1 Understand the principles of contract law"
+    },
+    {
+      "id": "BE1.2",
+      "title": "The main sources of law: development of law by the courts, tribunals and parliament",
+      "topic_area": "The Business Environment -- LO1 Understand the principles of contract law"
+    },
+    {
+      "id": "BE1.3",
+      "title": "Key features of contracts: offer, acceptance, consideration, capacity and legality, discharge by performance or breach",
+      "topic_area": "The Business Environment -- LO1 Understand the principles of contract law"
+    },
+    {
+      "id": "BE1.4",
+      "title": "Remedies available for breach of contract: damages and equitable remedies",
+      "topic_area": "The Business Environment -- LO1 Understand the principles of contract law"
+    },
+    {
+      "id": "BE2.1",
+      "title": "The economic environment: the micro-economic environment, the profit motive, uncertainty and risk, the global business environment",
+      "topic_area": "The Business Environment -- LO2 Understand the external business environment"
+    },
+    {
+      "id": "BE2.2",
+      "title": "Government control of the economy: taxation, the principles of an effective tax system, government impact on interest rates, employment and spending",
+      "topic_area": "The Business Environment -- LO2 Understand the external business environment"
+    },
+    {
+      "id": "BE2.3",
+      "title": "The competitive environment: the global market, exchange rates, risk, the benefits and disadvantages of international trade",
+      "topic_area": "The Business Environment -- LO2 Understand the external business environment"
+    },
+    {
+      "id": "BE3.1",
+      "title": "Corporate social responsibilities of a business: objectives, stakeholders, how CSR responsibilities change over time",
+      "topic_area": "The Business Environment -- LO3 Understand key principles of corporate social responsibility (CSR), ethics and sustainability"
+    },
+    {
+      "id": "BE3.2",
+      "title": "Sustainability and the environment: triple bottom line reporting, the trade-off between sustainability and profit",
+      "topic_area": "The Business Environment -- LO3 Understand key principles of corporate social responsibility (CSR), ethics and sustainability"
+    },
+    {
+      "id": "BE3.3",
+      "title": "The fundamental principles of ethics for accounting technicians: confidentiality, professional behaviour, professional competence and due care, integrity, objectivity",
+      "topic_area": "The Business Environment -- LO3 Understand key principles of corporate social responsibility (CSR), ethics and sustainability"
+    },
+    {
+      "id": "BE3.4",
+      "title": "The need to act ethically: AAT's Code of Professional Ethics, the public interest duty, consequences of unethical behaviour",
+      "topic_area": "The Business Environment -- LO3 Understand key principles of corporate social responsibility (CSR), ethics and sustainability"
+    },
+    {
+      "id": "BE4.1",
+      "title": "Models of business ownership: sole trader, partnership (including LLP), company, not-for-profit; limited liability; taxes applicable to each",
+      "topic_area": "The Business Environment -- LO4 Understand the impact of setting up different types of business entity"
+    },
+    {
+      "id": "BE4.2",
+      "title": "The legal administration of a business: statutory books, accounting records, tax records, annual filing requirements",
+      "topic_area": "The Business Environment -- LO4 Understand the impact of setting up different types of business entity"
+    },
+    {
+      "id": "BE4.3",
+      "title": "Business formation: how entities are formed, off-the-shelf companies, pre-incorporation contracts, business names",
+      "topic_area": "The Business Environment -- LO4 Understand the impact of setting up different types of business entity"
+    },
+    {
+      "id": "BE5.1",
+      "title": "The different functions of a business: operations, sales and marketing, finance, HR, IT, distribution and logistics",
+      "topic_area": "The Business Environment -- LO5 Understand the finance function within an organisation"
+    },
+    {
+      "id": "BE5.2",
+      "title": "The role of the finance function: statutory financial statements, service to internal and external stakeholders, outsourcing",
+      "topic_area": "The Business Environment -- LO5 Understand the finance function within an organisation"
+    },
+    {
+      "id": "BE5.3",
+      "title": "How the finance team contributes to the success of an organisation: effective communication, solvency, policies and procedures",
+      "topic_area": "The Business Environment -- LO5 Understand the finance function within an organisation"
+    },
+    {
+      "id": "BE6.1",
+      "title": "Sources of information: valid vs invalid, primary vs secondary, choosing information for a purpose",
+      "topic_area": "The Business Environment -- LO6 Produce work in appropriate formats and communicate effectively"
+    },
+    {
+      "id": "BE6.2",
+      "title": "Communicate information: business letters and emails, features of business communications, risks of social media and inappropriate sharing",
+      "topic_area": "The Business Environment -- LO6 Produce work in appropriate formats and communicate effectively"
+    },
+    {
+      "id": "BE6.3",
+      "title": "Plan workload to meet the needs of the organisation: prioritising, monitoring and reviewing",
+      "topic_area": "The Business Environment -- LO6 Produce work in appropriate formats and communicate effectively"
+    },
+    {
+      "id": "BE7.1",
+      "title": "The role of information in the work of the finance function: characteristics of useful information, digital technologies, documents received and produced",
+      "topic_area": "The Business Environment -- LO7 Understand the importance of information to business operations"
+    },
+    {
+      "id": "BE7.2",
+      "title": "The importance of data and information security: privacy, confidentiality, passwords, archiving, backups, cybersecurity",
+      "topic_area": "The Business Environment -- LO7 Understand the importance of information to business operations"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_IB_Systems_and_Documents": {
+    "covers_syllabus_refs": [
+      "603/6338/1 IB1.1",
+      "603/6338/1 IB1.2",
+      "603/6338/1 IB1.3",
+      "603/6338/1 IB1.4"
+    ],
+    "syllabus_topic": "Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "IB1.1",
+      "IB1.2",
+      "IB1.3",
+      "IB1.4"
+    ]
+  },
+  "S02_IB_Customer_Invoices": {
+    "covers_syllabus_refs": [
+      "603/6338/1 IB2.1",
+      "603/6338/1 IB2.2"
+    ],
+    "syllabus_topic": "Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "IB2.1",
+      "IB2.2"
+    ]
+  },
+  "S03_IB_Customer_Receipts": {
+    "covers_syllabus_refs": [
+      "603/6338/1 IB2.3"
+    ],
+    "syllabus_topic": "Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "IB2.3"
+    ]
+  },
+  "S04_IB_Supplier_Invoices": {
+    "covers_syllabus_refs": [
+      "603/6338/1 IB3.1",
+      "603/6338/1 IB3.2"
+    ],
+    "syllabus_topic": "Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "IB3.1",
+      "IB3.2"
+    ]
+  },
+  "S05_IB_Supplier_Payments": {
+    "covers_syllabus_refs": [
+      "603/6338/1 IB3.3"
+    ],
+    "syllabus_topic": "Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "IB3.3"
+    ]
+  },
+  "S06_IB_Cash_Book_and_Petty_Cash": {
+    "covers_syllabus_refs": [
+      "603/6338/1 IB4.1",
+      "603/6338/1 IB4.2",
+      "603/6338/1 IB4.3",
+      "603/6338/1 IB4.4"
+    ],
+    "syllabus_topic": "Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "IB4.1",
+      "IB4.2",
+      "IB4.3",
+      "IB4.4"
+    ]
+  },
+  "S07_IB_Ledgers": {
+    "covers_syllabus_refs": [
+      "603/6338/1 IB5.1",
+      "603/6338/1 IB5.2"
+    ],
+    "syllabus_topic": "Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "IB5.1",
+      "IB5.2"
+    ]
+  },
+  "S08_PBC_Control_Accounts": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PBC1.1",
+      "603/6338/1 PBC1.2"
+    ],
+    "syllabus_topic": "Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "PBC1.1",
+      "PBC1.2"
+    ]
+  },
+  "S09_PBC_Bank_Reconciliation": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PBC2.1",
+      "603/6338/1 PBC2.2",
+      "603/6338/1 PBC2.3"
+    ],
+    "syllabus_topic": "Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "PBC2.1",
+      "PBC2.2",
+      "PBC2.3"
+    ]
+  },
+  "S10_PBC_Journal_Transactions": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PBC3.1"
+    ],
+    "syllabus_topic": "Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "PBC3.1"
+    ]
+  },
+  "S11_PBC_Journal_Error_Correction": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PBC3.2",
+      "603/6338/1 PBC3.3"
+    ],
+    "syllabus_topic": "Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "PBC3.2",
+      "PBC3.3"
+    ]
+  },
+  "S12_PBC_Trial_Balances": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PBC4.1",
+      "603/6338/1 PBC4.2"
+    ],
+    "syllabus_topic": "Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment)",
+    "covers_items": [
+      "PBC4.1",
+      "PBC4.2"
+    ]
+  },
+  "S13_PC_Cost_Classification": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PC1.1",
+      "603/6338/1 PC1.3",
+      "603/6338/1 PC1.4",
+      "603/6338/1 PC1.5",
+      "603/6338/1 PC1.6"
+    ],
+    "syllabus_topic": "Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only)",
+    "covers_items": [
+      "PC1.1",
+      "PC1.3",
+      "PC1.4",
+      "PC1.5",
+      "PC1.6"
+    ]
+  },
+  "S14_PC_Inventory_Valuation": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PC1.2",
+      "603/6338/1 PC2.1"
+    ],
+    "syllabus_topic": "Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only)",
+    "covers_items": [
+      "PC1.2",
+      "PC2.1"
+    ]
+  },
+  "S15_PC_Labour_and_Overheads": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PC2.2",
+      "603/6338/1 PC2.3"
+    ],
+    "syllabus_topic": "Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only)",
+    "covers_items": [
+      "PC2.2",
+      "PC2.3"
+    ]
+  },
+  "S16_PC_Cost_Behaviour_and_Product_Cost": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PC2.4",
+      "603/6338/1 PC2.5"
+    ],
+    "syllabus_topic": "Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only)",
+    "covers_items": [
+      "PC2.4",
+      "PC2.5"
+    ]
+  },
+  "S17_PC_Budgets_Variances_Tools": {
+    "covers_syllabus_refs": [
+      "603/6338/1 PC3.1",
+      "603/6338/1 PC3.2",
+      "603/6338/1 PC4.1",
+      "603/6338/1 PC4.2"
+    ],
+    "syllabus_topic": "Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only)",
+    "covers_items": [
+      "PC3.1",
+      "PC3.2",
+      "PC4.1",
+      "PC4.2"
+    ]
+  },
+  "S18_BE_Contract_Law": {
+    "covers_syllabus_refs": [
+      "603/6338/1 BE1.1",
+      "603/6338/1 BE1.2",
+      "603/6338/1 BE1.3",
+      "603/6338/1 BE1.4"
+    ],
+    "syllabus_topic": "The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only)",
+    "covers_items": [
+      "BE1.1",
+      "BE1.2",
+      "BE1.3",
+      "BE1.4"
+    ]
+  },
+  "S19_BE_External_Environment": {
+    "covers_syllabus_refs": [
+      "603/6338/1 BE2.1",
+      "603/6338/1 BE2.2",
+      "603/6338/1 BE2.3"
+    ],
+    "syllabus_topic": "The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only)",
+    "covers_items": [
+      "BE2.1",
+      "BE2.2",
+      "BE2.3"
+    ]
+  },
+  "S20_BE_CSR_Ethics_Sustainability": {
+    "covers_syllabus_refs": [
+      "603/6338/1 BE3.1",
+      "603/6338/1 BE3.2",
+      "603/6338/1 BE3.3",
+      "603/6338/1 BE3.4"
+    ],
+    "syllabus_topic": "The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only)",
+    "covers_items": [
+      "BE3.1",
+      "BE3.2",
+      "BE3.3",
+      "BE3.4"
+    ]
+  },
+  "S21_BE_Business_Entities": {
+    "covers_syllabus_refs": [
+      "603/6338/1 BE4.1",
+      "603/6338/1 BE4.2",
+      "603/6338/1 BE4.3"
+    ],
+    "syllabus_topic": "The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only)",
+    "covers_items": [
+      "BE4.1",
+      "BE4.2",
+      "BE4.3"
+    ]
+  },
+  "S22_BE_Finance_Function": {
+    "covers_syllabus_refs": [
+      "603/6338/1 BE5.1",
+      "603/6338/1 BE5.2",
+      "603/6338/1 BE5.3"
+    ],
+    "syllabus_topic": "The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only)",
+    "covers_items": [
+      "BE5.1",
+      "BE5.2",
+      "BE5.3"
+    ]
+  },
+  "S23_BE_Communication": {
+    "covers_syllabus_refs": [
+      "603/6338/1 BE6.1",
+      "603/6338/1 BE6.2",
+      "603/6338/1 BE6.3"
+    ],
+    "syllabus_topic": "The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only)",
+    "covers_items": [
+      "BE6.1",
+      "BE6.2",
+      "BE6.3"
+    ]
+  },
+  "S24_BE_Information_and_Security": {
+    "covers_syllabus_refs": [
+      "603/6338/1 BE7.1",
+      "603/6338/1 BE7.2"
+    ],
+    "syllabus_topic": "The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only)",
+    "covers_items": [
+      "BE7.1",
+      "BE7.2"
+    ]
+  }
+}

@@ -1,0 +1,1280 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Chemistry 8462 specification: subject content 4.1-4.10, practical assessment, working scientifically (section 3), mathematical requirements (section 7)",
+    "url": "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+    "version": "AQA 8462 (first teaching 2016), current version as published on aqa.org.uk",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.1.1.1",
+      "title": "Atoms, elements and compounds",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.1.2",
+      "title": "Mixtures",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.1.3",
+      "title": "The development of the model of the atom",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.1.4",
+      "title": "Relative electrical charges of subatomic particles",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.1.5",
+      "title": "Size and mass of atoms",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.1.6",
+      "title": "Relative atomic mass",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.1.7",
+      "title": "Electronic structure",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.2.1",
+      "title": "The periodic table",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.2.2",
+      "title": "Development of the periodic table",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.2.3",
+      "title": "Metals and non-metals",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.2.4",
+      "title": "Group 0",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.2.5",
+      "title": "Group 1",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.2.6",
+      "title": "Group 7",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.3.1",
+      "title": "Comparison with Group 1 elements",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.1.3.2",
+      "title": "Typical properties of transition metals",
+      "topic_area": "4.1 Atomic structure and the periodic table"
+    },
+    {
+      "id": "4.2.1.1",
+      "title": "Chemical bonds",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.1.2",
+      "title": "Ionic bonding",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.1.3",
+      "title": "Ionic compounds",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.1.4",
+      "title": "Covalent bonding",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.1.5",
+      "title": "Metallic bonding",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.1",
+      "title": "The three states of matter",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.2",
+      "title": "State symbols",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.3",
+      "title": "Properties of ionic compounds",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.4",
+      "title": "Properties of small molecules",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.5",
+      "title": "Polymers",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.6",
+      "title": "Giant covalent structures",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.7",
+      "title": "Properties of metals and alloys",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.2.8",
+      "title": "Metals as conductors",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.3.1",
+      "title": "Diamond",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.3.2",
+      "title": "Graphite",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.3.3",
+      "title": "Graphene and fullerenes",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.4.1",
+      "title": "Sizes of particles and their properties",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.2.4.2",
+      "title": "Uses of nanoparticles",
+      "topic_area": "4.2 Bonding, structure and the properties of matter"
+    },
+    {
+      "id": "4.3.1.1",
+      "title": "Conservation of mass and balanced chemical equations",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.1.2",
+      "title": "Relative formula mass",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.1.3",
+      "title": "Mass changes when a reactant or product is a gas",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.1.4",
+      "title": "Chemical measurements",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.2.1",
+      "title": "Moles (Higher tier)",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.2.2",
+      "title": "Amounts of substances in equations (Higher tier)",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.2.3",
+      "title": "Using moles to balance equations (Higher tier)",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.2.4",
+      "title": "Limiting reactants (Higher tier)",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.2.5",
+      "title": "Concentration of solutions",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.3.1",
+      "title": "Percentage yield",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.3.2",
+      "title": "Atom economy",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.4.1",
+      "title": "Using concentrations of solutions in mol/dm3",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.3.5.1",
+      "title": "Use of amount of substance in relation to volumes of gases",
+      "topic_area": "4.3 Quantitative chemistry"
+    },
+    {
+      "id": "4.4.1.1",
+      "title": "Metal oxides",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.1.2",
+      "title": "The reactivity series",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.1.3",
+      "title": "Extraction of metals and reduction",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.1.4",
+      "title": "Oxidation and reduction in terms of electrons",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.2.1",
+      "title": "Reactions of acids with metals",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.2.2",
+      "title": "Neutralisation of acids and salt production",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.2.3",
+      "title": "Soluble salts",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.2.4",
+      "title": "The pH scale and neutralisation",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.2.5",
+      "title": "Titrations",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.2.6",
+      "title": "Strong and weak acids",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.3.1",
+      "title": "The process of electrolysis",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.3.2",
+      "title": "Electrolysis of molten ionic compounds",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.3.3",
+      "title": "Using electrolysis to extract metals",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.3.4",
+      "title": "Electrolysis of aqueous solutions",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.4.3.5",
+      "title": "Representation of reactions at electrodes as half equations",
+      "topic_area": "4.4 Chemical changes"
+    },
+    {
+      "id": "4.5.1.1",
+      "title": "Energy transfer during exothermic and endothermic reactions",
+      "topic_area": "4.5 Energy changes"
+    },
+    {
+      "id": "4.5.1.2",
+      "title": "Reaction profiles",
+      "topic_area": "4.5 Energy changes"
+    },
+    {
+      "id": "4.5.1.3",
+      "title": "The energy change of reactions",
+      "topic_area": "4.5 Energy changes"
+    },
+    {
+      "id": "4.5.2.1",
+      "title": "Cells and batteries",
+      "topic_area": "4.5 Energy changes"
+    },
+    {
+      "id": "4.5.2.2",
+      "title": "Fuel cells",
+      "topic_area": "4.5 Energy changes"
+    },
+    {
+      "id": "4.6.1.1",
+      "title": "Calculating rates of reactions",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.1.2",
+      "title": "Factors which affect the rates of chemical reactions",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.1.3",
+      "title": "Collision theory and activation energy",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.1.4",
+      "title": "Catalysts",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.2.1",
+      "title": "Reversible reactions",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.2.2",
+      "title": "Energy changes and reversible reactions",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.2.3",
+      "title": "Equilibrium",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.2.4",
+      "title": "The effect of changing conditions on equilibrium",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.2.5",
+      "title": "The effect of changing concentration",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.2.6",
+      "title": "The effect of temperature changes on equilibrium",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.6.2.7",
+      "title": "The effect of pressure changes on equilibrium",
+      "topic_area": "4.6 The rate and extent of chemical change"
+    },
+    {
+      "id": "4.7.1.1",
+      "title": "Crude oil, hydrocarbons and alkanes",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.1.2",
+      "title": "Fractional distillation and petrochemicals",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.1.3",
+      "title": "Properties of hydrocarbons",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.1.4",
+      "title": "Cracking and alkenes",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.2.1",
+      "title": "Structure and formulae of alkenes",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.2.2",
+      "title": "Reactions of alkenes",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.2.3",
+      "title": "Alcohols",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.2.4",
+      "title": "Carboxylic acids",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.3.1",
+      "title": "Addition polymerisation",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.3.2",
+      "title": "Condensation polymerisation (Higher tier)",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.3.3",
+      "title": "Amino acids (Higher tier)",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.7.3.4",
+      "title": "DNA (deoxyribonucleic acid) and other naturally occurring polymers",
+      "topic_area": "4.7 Organic chemistry"
+    },
+    {
+      "id": "4.8.1.1",
+      "title": "Pure substances",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.1.2",
+      "title": "Formulations",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.1.3",
+      "title": "Chromatography",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.2.1",
+      "title": "Test for hydrogen",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.2.2",
+      "title": "Test for oxygen",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.2.3",
+      "title": "Test for carbon dioxide",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.2.4",
+      "title": "Test for chlorine",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.3.1",
+      "title": "Flame tests",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.3.2",
+      "title": "Metal hydroxides",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.3.3",
+      "title": "Carbonates",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.3.4",
+      "title": "Halides",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.3.5",
+      "title": "Sulfates",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.3.6",
+      "title": "Instrumental methods",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.8.3.7",
+      "title": "Flame emission spectroscopy",
+      "topic_area": "4.8 Chemical analysis"
+    },
+    {
+      "id": "4.9.1.1",
+      "title": "The proportions of different gases in the atmosphere",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.1.2",
+      "title": "The Earth's early atmosphere",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.1.3",
+      "title": "How oxygen increased",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.1.4",
+      "title": "How carbon dioxide decreased",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.2.1",
+      "title": "Greenhouse gases",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.2.2",
+      "title": "Human activities which contribute to an increase in greenhouse gases in the atmosphere",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.2.3",
+      "title": "Global climate change",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.2.4",
+      "title": "The carbon footprint and its reduction",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.3.1",
+      "title": "Atmospheric pollutants from fuels",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.9.3.2",
+      "title": "Properties and effects of atmospheric pollutants",
+      "topic_area": "4.9 Chemistry of the atmosphere"
+    },
+    {
+      "id": "4.10.1.1",
+      "title": "Using the Earth's resources and sustainable development",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.1.2",
+      "title": "Potable water",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.1.3",
+      "title": "Waste water treatment",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.1.4",
+      "title": "Alternative methods of extracting metals",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.2.1",
+      "title": "Life cycle assessment",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.2.2",
+      "title": "Ways of reducing the use of resources",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.3.1",
+      "title": "Corrosion and its prevention",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.3.2",
+      "title": "Alloys as useful materials",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.3.3",
+      "title": "Ceramics, polymers and composites",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.4.1",
+      "title": "The Haber process",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "4.10.4.2",
+      "title": "Production and uses of NPK fertilisers",
+      "topic_area": "4.10 Using resources"
+    },
+    {
+      "id": "RP1",
+      "title": "Required practical 1: preparation of a pure, dry sample of a soluble salt",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP2",
+      "title": "Required practical 2: titration of a strong acid and a strong alkali",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP3",
+      "title": "Required practical 3: electrolysis of aqueous solutions",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP4",
+      "title": "Required practical 4: variables affecting temperature changes in reacting solutions",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP5",
+      "title": "Required practical 5: concentration and rate of reaction",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP6",
+      "title": "Required practical 6: paper chromatography and Rf values",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP7",
+      "title": "Required practical 7: identifying ions in unknown ionic compounds",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP8",
+      "title": "Required practical 8: analysis and purification of water samples",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "WS1.1",
+      "title": "Development of scientific methods and theories",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.2",
+      "title": "Use of models",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.3",
+      "title": "Power and limitations of science, ethical issues",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.4",
+      "title": "Applications of science and implications",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.5",
+      "title": "Risks in practical science and society",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.6",
+      "title": "Peer review and communicating results",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.1",
+      "title": "Using theories to develop hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.2",
+      "title": "Planning experiments",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.3",
+      "title": "Selecting apparatus and techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.4",
+      "title": "Carrying out experiments safely and accurately",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.5",
+      "title": "Sampling techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.6",
+      "title": "Making and recording observations and measurements",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.7",
+      "title": "Evaluating methods and improvements",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.1",
+      "title": "Presenting observations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.2",
+      "title": "Translating data between forms",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.3",
+      "title": "Mathematical and statistical analysis",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.4",
+      "title": "Distributions and uncertainty",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.5",
+      "title": "Interpreting observations and patterns",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.6",
+      "title": "Reasoned explanations relating data to hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.7",
+      "title": "Evaluating data: accuracy, precision and error",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.8",
+      "title": "Communicating findings",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.1",
+      "title": "Scientific vocabulary and definitions",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.2",
+      "title": "Scientific quantities and how they are determined",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.3",
+      "title": "SI units and IUPAC chemical nomenclature",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.4",
+      "title": "Prefixes and powers of ten",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.5",
+      "title": "Converting between units",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.6",
+      "title": "Significant figures in calculations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "M1a",
+      "title": "Maths: decimal form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1b",
+      "title": "Maths: standard form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1c",
+      "title": "Maths: ratios, fractions and percentages",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1d",
+      "title": "Maths: estimating results",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2a",
+      "title": "Maths: significant figures",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2b",
+      "title": "Maths: arithmetic means",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2c",
+      "title": "Maths: frequency tables, bar charts and histograms",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2h",
+      "title": "Maths: order of magnitude",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3a",
+      "title": "Maths: symbols",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3b",
+      "title": "Maths: changing the subject of an equation",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3c",
+      "title": "Maths: substituting values with units",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4a",
+      "title": "Maths: translating graphical and numeric form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4b",
+      "title": "Maths: y = mx + c",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4c",
+      "title": "Maths: plotting two variables",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4d",
+      "title": "Maths: slope and intercept",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4e",
+      "title": "Maths: tangent to a curve as rate (Higher tier)",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M5b",
+      "title": "Maths: visualising 2D and 3D forms",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M5c",
+      "title": "Maths: areas and volumes of basic shapes",
+      "topic_area": "7 Mathematical requirements"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Atoms_Elements_and_the_Atomic_Model": {
+    "covers_syllabus_refs": [
+      "AQA 4.1.1"
+    ],
+    "syllabus_topic": "Atomic structure",
+    "covers_items": [
+      "4.1.1.1",
+      "4.1.1.2",
+      "4.1.1.3",
+      "4.1.1.4",
+      "4.1.1.5",
+      "4.1.1.6",
+      "4.1.1.7"
+    ]
+  },
+  "S02_The_Periodic_Table_and_Groups": {
+    "covers_syllabus_refs": [
+      "AQA 4.1.2 The periodic table",
+      "AQA 4.1.3 Properties of transition metals"
+    ],
+    "syllabus_topic": "Atomic structure and the periodic table",
+    "covers_items": [
+      "4.1.2.1",
+      "4.1.2.2",
+      "4.1.2.3",
+      "4.1.2.4",
+      "4.1.2.5",
+      "4.1.2.6",
+      "4.1.3.1",
+      "4.1.3.2"
+    ]
+  },
+  "S03_Chemical_Bonding": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.1"
+    ],
+    "syllabus_topic": "Bonding, structure and properties",
+    "covers_items": [
+      "4.2.1.1",
+      "4.2.1.2",
+      "4.2.1.3",
+      "4.2.1.4",
+      "4.2.1.5"
+    ]
+  },
+  "S04_States_of_Matter_and_Properties": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.2"
+    ],
+    "syllabus_topic": "Bonding, structure and properties",
+    "covers_items": [
+      "4.2.2.1",
+      "4.2.2.2",
+      "4.2.2.3",
+      "4.2.2.4",
+      "4.2.2.5",
+      "4.2.2.6",
+      "4.2.2.7",
+      "4.2.2.8"
+    ]
+  },
+  "S05_Carbon_Structures_and_Nanoscience": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.3 Structure and bonding of carbon",
+      "AQA 4.2.4 Nanoscience"
+    ],
+    "syllabus_topic": "Bonding, structure and properties",
+    "covers_items": [
+      "4.2.3.1",
+      "4.2.3.2",
+      "4.2.3.3",
+      "4.2.4.1",
+      "4.2.4.2"
+    ]
+  },
+  "S06_Conservation_of_Mass_and_Moles": {
+    "covers_syllabus_refs": [
+      "AQA 4.3.1",
+      "AQA 4.3.2.1-4.3.2.4"
+    ],
+    "syllabus_topic": "Quantitative chemistry",
+    "covers_items": [
+      "4.3.1.1",
+      "4.3.1.2",
+      "4.3.1.3",
+      "4.3.1.4",
+      "4.3.2.1",
+      "4.3.2.2",
+      "4.3.2.3",
+      "4.3.2.4"
+    ]
+  },
+  "S07_Concentration_Yield_and_Gas_Volumes": {
+    "covers_syllabus_refs": [
+      "AQA 4.3.2.5",
+      "AQA 4.3.3",
+      "AQA 4.3.4",
+      "AQA 4.3.5"
+    ],
+    "syllabus_topic": "Quantitative chemistry",
+    "covers_items": [
+      "4.3.2.5",
+      "4.3.3.1",
+      "4.3.3.2",
+      "4.3.4.1",
+      "4.3.5.1"
+    ]
+  },
+  "S08_Reactivity_and_Extraction_of_Metals": {
+    "covers_syllabus_refs": [
+      "AQA 4.4.1"
+    ],
+    "syllabus_topic": "Chemical changes",
+    "covers_items": [
+      "4.4.1.1",
+      "4.4.1.2",
+      "4.4.1.3",
+      "4.4.1.4"
+    ]
+  },
+  "S09_Acids_Salts_and_pH": {
+    "covers_syllabus_refs": [
+      "AQA 4.4.2",
+      "required practicals 1 and 2"
+    ],
+    "syllabus_topic": "Chemical changes",
+    "covers_items": [
+      "4.4.2.1",
+      "4.4.2.2",
+      "4.4.2.3",
+      "4.4.2.4",
+      "4.4.2.5",
+      "4.4.2.6",
+      "RP1",
+      "RP2"
+    ]
+  },
+  "S10_Electrolysis": {
+    "covers_syllabus_refs": [
+      "AQA 4.4.3",
+      "required practical 3"
+    ],
+    "syllabus_topic": "Chemical changes",
+    "covers_items": [
+      "4.4.3.1",
+      "4.4.3.2",
+      "4.4.3.3",
+      "4.4.3.4",
+      "4.4.3.5",
+      "RP3"
+    ]
+  },
+  "S11_Energy_Changes_and_Cells": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.1",
+      "AQA 4.5.2",
+      "required practical 4"
+    ],
+    "syllabus_topic": "Energy changes",
+    "covers_items": [
+      "4.5.1.1",
+      "4.5.1.2",
+      "4.5.1.3",
+      "4.5.2.1",
+      "4.5.2.2",
+      "RP4"
+    ]
+  },
+  "S12_Rates_of_Reaction": {
+    "covers_syllabus_refs": [
+      "AQA 4.6.1",
+      "required practical 5"
+    ],
+    "syllabus_topic": "Rate and extent of chemical change",
+    "covers_items": [
+      "4.6.1.1",
+      "4.6.1.2",
+      "4.6.1.3",
+      "4.6.1.4",
+      "RP5"
+    ]
+  },
+  "S13_Reversible_Reactions_and_Equilibrium": {
+    "covers_syllabus_refs": [
+      "AQA 4.6.2"
+    ],
+    "syllabus_topic": "Rate and extent of chemical change",
+    "covers_items": [
+      "4.6.2.1",
+      "4.6.2.2",
+      "4.6.2.3",
+      "4.6.2.4",
+      "4.6.2.5",
+      "4.6.2.6",
+      "4.6.2.7"
+    ]
+  },
+  "S14_Crude_Oil_and_Hydrocarbons": {
+    "covers_syllabus_refs": [
+      "AQA 4.7.1"
+    ],
+    "syllabus_topic": "Organic chemistry",
+    "covers_items": [
+      "4.7.1.1",
+      "4.7.1.2",
+      "4.7.1.3",
+      "4.7.1.4"
+    ]
+  },
+  "S15_Alkenes_Alcohols_Acids_and_Polymers": {
+    "covers_syllabus_refs": [
+      "AQA 4.7.2",
+      "AQA 4.7.3"
+    ],
+    "syllabus_topic": "Organic chemistry",
+    "covers_items": [
+      "4.7.2.1",
+      "4.7.2.2",
+      "4.7.2.3",
+      "4.7.2.4",
+      "4.7.3.1",
+      "4.7.3.2",
+      "4.7.3.3",
+      "4.7.3.4"
+    ]
+  },
+  "S16_Purity_Chromatography_and_Gas_Tests": {
+    "covers_syllabus_refs": [
+      "AQA 4.8.1",
+      "AQA 4.8.2",
+      "required practical 6"
+    ],
+    "syllabus_topic": "Chemical analysis",
+    "covers_items": [
+      "4.8.1.1",
+      "4.8.1.2",
+      "4.8.1.3",
+      "4.8.2.1",
+      "4.8.2.2",
+      "4.8.2.3",
+      "4.8.2.4",
+      "RP6"
+    ]
+  },
+  "S17_Ion_Tests_and_Instrumental_Analysis": {
+    "covers_syllabus_refs": [
+      "AQA 4.8.3",
+      "required practical 7"
+    ],
+    "syllabus_topic": "Chemical analysis",
+    "covers_items": [
+      "4.8.3.1",
+      "4.8.3.2",
+      "4.8.3.3",
+      "4.8.3.4",
+      "4.8.3.5",
+      "4.8.3.6",
+      "4.8.3.7",
+      "RP7"
+    ]
+  },
+  "S18_The_Atmosphere_and_Climate": {
+    "covers_syllabus_refs": [
+      "AQA 4.9"
+    ],
+    "syllabus_topic": "Chemistry of the atmosphere",
+    "covers_items": [
+      "4.9.1.1",
+      "4.9.1.2",
+      "4.9.1.3",
+      "4.9.1.4",
+      "4.9.2.1",
+      "4.9.2.2",
+      "4.9.2.3",
+      "4.9.2.4",
+      "4.9.3.1",
+      "4.9.3.2"
+    ]
+  },
+  "S19_Water_Resources_and_Life_Cycle_Assessment": {
+    "covers_syllabus_refs": [
+      "AQA 4.10.1",
+      "AQA 4.10.2",
+      "required practical 8"
+    ],
+    "syllabus_topic": "Using resources",
+    "covers_items": [
+      "4.10.1.1",
+      "4.10.1.2",
+      "4.10.1.3",
+      "4.10.1.4",
+      "4.10.2.1",
+      "4.10.2.2",
+      "RP8"
+    ]
+  },
+  "S20_Corrosion_Materials_and_the_Haber_Process": {
+    "covers_syllabus_refs": [
+      "AQA 4.10.3",
+      "AQA 4.10.4"
+    ],
+    "syllabus_topic": "Using resources",
+    "covers_items": [
+      "4.10.3.1",
+      "4.10.3.2",
+      "4.10.3.3",
+      "4.10.4.1",
+      "4.10.4.2"
+    ]
+  },
+  "S21_Working_Scientifically_Thinking_and_Experiments": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS1 and WS2"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS1.1",
+      "WS1.2",
+      "WS1.3",
+      "WS1.4",
+      "WS1.5",
+      "WS1.6",
+      "WS2.1",
+      "WS2.2",
+      "WS2.3",
+      "WS2.4",
+      "WS2.5",
+      "WS2.6",
+      "WS2.7"
+    ]
+  },
+  "S22_Working_Scientifically_Analysis_and_Vocabulary": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS3 and WS4"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS3.1",
+      "WS3.2",
+      "WS3.3",
+      "WS3.4",
+      "WS3.5",
+      "WS3.6",
+      "WS3.7",
+      "WS3.8",
+      "WS4.1",
+      "WS4.2",
+      "WS4.3",
+      "WS4.4",
+      "WS4.5",
+      "WS4.6"
+    ]
+  },
+  "S23_Mathematical_Skills_for_Chemistry": {
+    "covers_syllabus_refs": [
+      "AQA section 7 Mathematical requirements"
+    ],
+    "syllabus_topic": "Mathematical requirements",
+    "covers_items": [
+      "M1a",
+      "M1b",
+      "M1c",
+      "M1d",
+      "M2a",
+      "M2b",
+      "M2c",
+      "M2h",
+      "M3a",
+      "M3b",
+      "M3c",
+      "M4a",
+      "M4b",
+      "M4c",
+      "M4d",
+      "M4e",
+      "M5b",
+      "M5c"
+    ]
+  }
+}

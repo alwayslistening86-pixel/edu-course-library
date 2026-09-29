@@ -1,0 +1,874 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "Council of Europe CEFR Table 1 (Global Scale) and Table 2 (Self-assessment Grid) for the 30 can-do items; standard Romanian-as-a-foreign-language grammar and vocabulary progression (as used by ILR/ACLro-aligned courses) for the grammar and vocabulary items. Ids are a stable scheme built for this course: RO-<level>-G<n> (grammar), RO-<level>-V<n> (vocabulary/topic), RO-<level>-CD-<skill><n> (can-do), since neither CEFR nor ILR publish a single numbered item list.",
+    "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale ; https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+    "version": "CEFR (2001, reaffirmed by the 2020 Companion Volume); Europass self-assessment grid PDF as published 2020-05",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "RO-A1-G1",
+      "title": "Alphabet, pronunciation and diacritics",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G2",
+      "title": "Present tense of a fi and a avea",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G3",
+      "title": "Three genders and plural formation",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G4",
+      "title": "The definite article suffixed to the noun",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G5",
+      "title": "Indefinite article and basic noun phrases",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G6",
+      "title": "Present tense of the four verb conjugations",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G7",
+      "title": "Subject pronouns and question words",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G8",
+      "title": "Cardinal numbers, time, days and months",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G9",
+      "title": "Negation and basic word order",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-G10",
+      "title": "Demonstrative and possessive adjectives",
+      "topic_area": "A1 Grammar"
+    },
+    {
+      "id": "RO-A1-V1",
+      "title": "Greetings and introductions",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-V2",
+      "title": "Family members",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-V3",
+      "title": "Food, drink and the restaurant",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-V4",
+      "title": "Shopping, numbers and prices",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-V5",
+      "title": "Directions and places in town",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-V6",
+      "title": "Daily routine and time expressions",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-V7",
+      "title": "Colours, clothing and describing objects",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-V8",
+      "title": "Weather and seasons",
+      "topic_area": "A1 Vocabulary"
+    },
+    {
+      "id": "RO-A1-CD-listen1",
+      "title": "Can-do: listening at A1",
+      "topic_area": "A1 Can-do"
+    },
+    {
+      "id": "RO-A1-CD-read1",
+      "title": "Can-do: reading at A1",
+      "topic_area": "A1 Can-do"
+    },
+    {
+      "id": "RO-A1-CD-spokeninteract1",
+      "title": "Can-do: spoken interaction at A1",
+      "topic_area": "A1 Can-do"
+    },
+    {
+      "id": "RO-A1-CD-spokenprod1",
+      "title": "Can-do: spoken production at A1",
+      "topic_area": "A1 Can-do"
+    },
+    {
+      "id": "RO-A1-CD-write1",
+      "title": "Can-do: writing at A1",
+      "topic_area": "A1 Can-do"
+    },
+    {
+      "id": "RO-A2-G1",
+      "title": "Perfect compus with a avea",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G2",
+      "title": "Perfect compus: one auxiliary only, avea",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G3",
+      "title": "Reflexive verbs, present and past",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G4",
+      "title": "Near future with o sa",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G5",
+      "title": "Common irregular verbs",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G6",
+      "title": "Descriptive adjectives: agreement and position",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G7",
+      "title": "Comparative and superlative of adjectives",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G8",
+      "title": "Prepositions of place and time",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G9",
+      "title": "Direct object pronouns (accusative clitics)",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-G10",
+      "title": "Indirect object pronouns (dative clitics)",
+      "topic_area": "A2 Grammar"
+    },
+    {
+      "id": "RO-A2-V1",
+      "title": "Travel and transport",
+      "topic_area": "A2 Vocabulary"
+    },
+    {
+      "id": "RO-A2-V2",
+      "title": "Shopping and clothes sizes",
+      "topic_area": "A2 Vocabulary"
+    },
+    {
+      "id": "RO-A2-V3",
+      "title": "Health and the body",
+      "topic_area": "A2 Vocabulary"
+    },
+    {
+      "id": "RO-A2-V4",
+      "title": "Free time and hobbies",
+      "topic_area": "A2 Vocabulary"
+    },
+    {
+      "id": "RO-A2-V5",
+      "title": "House and home",
+      "topic_area": "A2 Vocabulary"
+    },
+    {
+      "id": "RO-A2-V6",
+      "title": "Describing people",
+      "topic_area": "A2 Vocabulary"
+    },
+    {
+      "id": "RO-A2-V7",
+      "title": "School and work basics",
+      "topic_area": "A2 Vocabulary"
+    },
+    {
+      "id": "RO-A2-CD-listen1",
+      "title": "Can-do: listening at A2",
+      "topic_area": "A2 Can-do"
+    },
+    {
+      "id": "RO-A2-CD-read1",
+      "title": "Can-do: reading at A2",
+      "topic_area": "A2 Can-do"
+    },
+    {
+      "id": "RO-A2-CD-spokeninteract1",
+      "title": "Can-do: spoken interaction at A2",
+      "topic_area": "A2 Can-do"
+    },
+    {
+      "id": "RO-A2-CD-spokenprod1",
+      "title": "Can-do: spoken production at A2",
+      "topic_area": "A2 Can-do"
+    },
+    {
+      "id": "RO-A2-CD-write1",
+      "title": "Can-do: writing at A2",
+      "topic_area": "A2 Can-do"
+    },
+    {
+      "id": "RO-B1-G1",
+      "title": "Imperfect tense",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G2",
+      "title": "Imperfect versus perfect compus",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G3",
+      "title": "Subjunctive formation with sa",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G4",
+      "title": "Subjunctive after common verbs",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G5",
+      "title": "Reported speech basics",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G6",
+      "title": "Conditional-optative present",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G7",
+      "title": "Relative pronouns and clauses",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G8",
+      "title": "Sentence connectors",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G9",
+      "title": "Possessive pronouns and the genitive-dative marker al/a/ai/ale",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-G10",
+      "title": "Impersonal and reflexive-passive se",
+      "topic_area": "B1 Grammar"
+    },
+    {
+      "id": "RO-B1-V1",
+      "title": "Work and professions",
+      "topic_area": "B1 Vocabulary"
+    },
+    {
+      "id": "RO-B1-V2",
+      "title": "Travel arrangements and accommodation",
+      "topic_area": "B1 Vocabulary"
+    },
+    {
+      "id": "RO-B1-V3",
+      "title": "Opinions, agreement and disagreement",
+      "topic_area": "B1 Vocabulary"
+    },
+    {
+      "id": "RO-B1-V4",
+      "title": "Media, news and technology",
+      "topic_area": "B1 Vocabulary"
+    },
+    {
+      "id": "RO-B1-V5",
+      "title": "Environment and nature",
+      "topic_area": "B1 Vocabulary"
+    },
+    {
+      "id": "RO-B1-V6",
+      "title": "Romanian festivals and traditions",
+      "topic_area": "B1 Vocabulary"
+    },
+    {
+      "id": "RO-B1-CD-listen1",
+      "title": "Can-do: listening at B1",
+      "topic_area": "B1 Can-do"
+    },
+    {
+      "id": "RO-B1-CD-read1",
+      "title": "Can-do: reading at B1",
+      "topic_area": "B1 Can-do"
+    },
+    {
+      "id": "RO-B1-CD-spokeninteract1",
+      "title": "Can-do: spoken interaction at B1",
+      "topic_area": "B1 Can-do"
+    },
+    {
+      "id": "RO-B1-CD-spokenprod1",
+      "title": "Can-do: spoken production at B1",
+      "topic_area": "B1 Can-do"
+    },
+    {
+      "id": "RO-B1-CD-write1",
+      "title": "Can-do: writing at B1",
+      "topic_area": "B1 Can-do"
+    },
+    {
+      "id": "RO-B2-G1",
+      "title": "Full subjunctive system across tenses",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-G2",
+      "title": "Conditional perfect and hypothetical clauses",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-G3",
+      "title": "Passive voice",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-G4",
+      "title": "The gerund (present participle)",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-G5",
+      "title": "Concessive and purpose clauses",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-G6",
+      "title": "The vocative case and address register",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-G7",
+      "title": "Reported speech: full tense-shift rules",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-G8",
+      "title": "Formal genitive-dative and nominal case in register",
+      "topic_area": "B2 Grammar"
+    },
+    {
+      "id": "RO-B2-V1",
+      "title": "Education, society and politics",
+      "topic_area": "B2 Vocabulary"
+    },
+    {
+      "id": "RO-B2-V2",
+      "title": "Business and formal correspondence",
+      "topic_area": "B2 Vocabulary"
+    },
+    {
+      "id": "RO-B2-V3",
+      "title": "Culture, arts and literature",
+      "topic_area": "B2 Vocabulary"
+    },
+    {
+      "id": "RO-B2-V4",
+      "title": "Debating and nuanced opinion",
+      "topic_area": "B2 Vocabulary"
+    },
+    {
+      "id": "RO-B2-CD-listen1",
+      "title": "Can-do: listening at B2",
+      "topic_area": "B2 Can-do"
+    },
+    {
+      "id": "RO-B2-CD-read1",
+      "title": "Can-do: reading at B2",
+      "topic_area": "B2 Can-do"
+    },
+    {
+      "id": "RO-B2-CD-spokeninteract1",
+      "title": "Can-do: spoken interaction at B2",
+      "topic_area": "B2 Can-do"
+    },
+    {
+      "id": "RO-B2-CD-spokenprod1",
+      "title": "Can-do: spoken production at B2",
+      "topic_area": "B2 Can-do"
+    },
+    {
+      "id": "RO-B2-CD-write1",
+      "title": "Can-do: writing at B2",
+      "topic_area": "B2 Can-do"
+    },
+    {
+      "id": "RO-C1-G1",
+      "title": "Nuanced discourse connectors and register shifting",
+      "topic_area": "C1 Grammar"
+    },
+    {
+      "id": "RO-C1-G2",
+      "title": "Idiomatic expressions and fixed phrases",
+      "topic_area": "C1 Grammar"
+    },
+    {
+      "id": "RO-C1-G3",
+      "title": "Stylistic variation: formal versus colloquial",
+      "topic_area": "C1 Grammar"
+    },
+    {
+      "id": "RO-C1-G4",
+      "title": "Complex argumentation and cohesion devices",
+      "topic_area": "C1 Grammar"
+    },
+    {
+      "id": "RO-C1-G5",
+      "title": "Advanced subjunctive and conditional in hedged statements",
+      "topic_area": "C1 Grammar"
+    },
+    {
+      "id": "RO-C1-G6",
+      "title": "Word formation: prefixes and suffixes",
+      "topic_area": "C1 Grammar"
+    },
+    {
+      "id": "RO-C1-V1",
+      "title": "Specialised and professional vocabulary",
+      "topic_area": "C1 Vocabulary"
+    },
+    {
+      "id": "RO-C1-V2",
+      "title": "Literary and journalistic style",
+      "topic_area": "C1 Vocabulary"
+    },
+    {
+      "id": "RO-C1-V3",
+      "title": "Synonymy, connotation and collocation",
+      "topic_area": "C1 Vocabulary"
+    },
+    {
+      "id": "RO-C1-CD-listen1",
+      "title": "Can-do: listening at C1",
+      "topic_area": "C1 Can-do"
+    },
+    {
+      "id": "RO-C1-CD-read1",
+      "title": "Can-do: reading at C1",
+      "topic_area": "C1 Can-do"
+    },
+    {
+      "id": "RO-C1-CD-spokeninteract1",
+      "title": "Can-do: spoken interaction at C1",
+      "topic_area": "C1 Can-do"
+    },
+    {
+      "id": "RO-C1-CD-spokenprod1",
+      "title": "Can-do: spoken production at C1",
+      "topic_area": "C1 Can-do"
+    },
+    {
+      "id": "RO-C1-CD-write1",
+      "title": "Can-do: writing at C1",
+      "topic_area": "C1 Can-do"
+    },
+    {
+      "id": "RO-C2-G1",
+      "title": "Rare and archaic constructions",
+      "topic_area": "C2 Grammar"
+    },
+    {
+      "id": "RO-C2-G2",
+      "title": "Literary register and classic style",
+      "topic_area": "C2 Grammar"
+    },
+    {
+      "id": "RO-C2-G3",
+      "title": "Full clitic pronoun system and case precision",
+      "topic_area": "C2 Grammar"
+    },
+    {
+      "id": "RO-C2-G4",
+      "title": "Near-native idiomatic and cultural fluency",
+      "topic_area": "C2 Grammar"
+    },
+    {
+      "id": "RO-C2-V1",
+      "title": "Formal and literary register vocabulary",
+      "topic_area": "C2 Vocabulary"
+    },
+    {
+      "id": "RO-C2-V2",
+      "title": "Register range: dialect, slang and academic Romanian",
+      "topic_area": "C2 Vocabulary"
+    },
+    {
+      "id": "RO-C2-CD-listen1",
+      "title": "Can-do: listening at C2",
+      "topic_area": "C2 Can-do"
+    },
+    {
+      "id": "RO-C2-CD-read1",
+      "title": "Can-do: reading at C2",
+      "topic_area": "C2 Can-do"
+    },
+    {
+      "id": "RO-C2-CD-spokeninteract1",
+      "title": "Can-do: spoken interaction at C2",
+      "topic_area": "C2 Can-do"
+    },
+    {
+      "id": "RO-C2-CD-spokenprod1",
+      "title": "Can-do: spoken production at C2",
+      "topic_area": "C2 Can-do"
+    },
+    {
+      "id": "RO-C2-CD-write1",
+      "title": "Can-do: writing at C2",
+      "topic_area": "C2 Can-do"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_A1_Grammar_Basics": {
+    "covers_syllabus_refs": [
+      "CEFR A1",
+      "Romanian foreign-language teaching sequence, unit 1"
+    ],
+    "syllabus_topic": "A1 Grammar -- sounds, gender, articles",
+    "covers_items": [
+      "RO-A1-G1",
+      "RO-A1-G2",
+      "RO-A1-G3",
+      "RO-A1-G4",
+      "RO-A1-G5"
+    ]
+  },
+  "S02_A1_Grammar_Numbers_Pronouns": {
+    "covers_syllabus_refs": [
+      "CEFR A1",
+      "Romanian foreign-language teaching sequence, unit 2"
+    ],
+    "syllabus_topic": "A1 Grammar -- verbs, pronouns, numbers",
+    "covers_items": [
+      "RO-A1-G6",
+      "RO-A1-G7",
+      "RO-A1-G8",
+      "RO-A1-G9",
+      "RO-A1-G10"
+    ]
+  },
+  "S03_A1_Vocab_People_Food": {
+    "covers_syllabus_refs": [
+      "CEFR A1",
+      "Romanian foreign-language teaching sequence, unit 3"
+    ],
+    "syllabus_topic": "A1 Vocabulary -- greetings, family, food",
+    "covers_items": [
+      "RO-A1-V1",
+      "RO-A1-V2",
+      "RO-A1-V3",
+      "RO-A1-V4"
+    ]
+  },
+  "S04_A1_Vocab_World_Around": {
+    "covers_syllabus_refs": [
+      "CEFR A1",
+      "Romanian foreign-language teaching sequence, unit 4"
+    ],
+    "syllabus_topic": "A1 Vocabulary -- directions, routine, description, weather",
+    "covers_items": [
+      "RO-A1-V5",
+      "RO-A1-V6",
+      "RO-A1-V7",
+      "RO-A1-V8"
+    ]
+  },
+  "S05_A1_CanDo_Skills": {
+    "covers_syllabus_refs": [
+      "CEFR Table 2 Self-assessment Grid, level A1"
+    ],
+    "syllabus_topic": "A1 Can-do -- CEFR skills check",
+    "covers_items": [
+      "RO-A1-CD-listen1",
+      "RO-A1-CD-read1",
+      "RO-A1-CD-spokeninteract1",
+      "RO-A1-CD-spokenprod1",
+      "RO-A1-CD-write1"
+    ]
+  },
+  "S06_A2_Grammar_Past_Tenses": {
+    "covers_syllabus_refs": [
+      "CEFR A2",
+      "Romanian foreign-language teaching sequence, unit 5"
+    ],
+    "syllabus_topic": "A2 Grammar -- perfect compus, reflexives, near future",
+    "covers_items": [
+      "RO-A2-G1",
+      "RO-A2-G2",
+      "RO-A2-G3",
+      "RO-A2-G4"
+    ]
+  },
+  "S07_A2_Grammar_Adjectives_Prepositions": {
+    "covers_syllabus_refs": [
+      "CEFR A2",
+      "Romanian foreign-language teaching sequence, unit 6"
+    ],
+    "syllabus_topic": "A2 Grammar -- adjectives, irregular verbs, prepositions",
+    "covers_items": [
+      "RO-A2-G5",
+      "RO-A2-G6",
+      "RO-A2-G7",
+      "RO-A2-G8"
+    ]
+  },
+  "S08_A2_Grammar_Pronouns_Travel_Shopping": {
+    "covers_syllabus_refs": [
+      "CEFR A2",
+      "Romanian foreign-language teaching sequence, unit 7"
+    ],
+    "syllabus_topic": "A2 Grammar and vocabulary -- object pronouns, travel, shopping",
+    "covers_items": [
+      "RO-A2-G9",
+      "RO-A2-G10",
+      "RO-A2-V1",
+      "RO-A2-V2"
+    ]
+  },
+  "S09_A2_Vocab_Life_Topics": {
+    "covers_syllabus_refs": [
+      "CEFR A2",
+      "Romanian foreign-language teaching sequence, unit 8"
+    ],
+    "syllabus_topic": "A2 Vocabulary -- health, hobbies, home, people, work",
+    "covers_items": [
+      "RO-A2-V3",
+      "RO-A2-V4",
+      "RO-A2-V5",
+      "RO-A2-V6",
+      "RO-A2-V7"
+    ]
+  },
+  "S10_A2_CanDo_Skills": {
+    "covers_syllabus_refs": [
+      "CEFR Table 2 Self-assessment Grid, level A2"
+    ],
+    "syllabus_topic": "A2 Can-do -- CEFR skills check",
+    "covers_items": [
+      "RO-A2-CD-listen1",
+      "RO-A2-CD-read1",
+      "RO-A2-CD-spokeninteract1",
+      "RO-A2-CD-spokenprod1",
+      "RO-A2-CD-write1"
+    ]
+  },
+  "S11_B1_Grammar_Imperfect_Subjunctive": {
+    "covers_syllabus_refs": [
+      "CEFR B1",
+      "Romanian foreign-language teaching sequence, unit 9"
+    ],
+    "syllabus_topic": "B1 Grammar -- imperfect, subjunctive",
+    "covers_items": [
+      "RO-B1-G1",
+      "RO-B1-G2",
+      "RO-B1-G3",
+      "RO-B1-G4"
+    ]
+  },
+  "S12_B1_Grammar_Reported_Conditional": {
+    "covers_syllabus_refs": [
+      "CEFR B1",
+      "Romanian foreign-language teaching sequence, unit 10"
+    ],
+    "syllabus_topic": "B1 Grammar -- reported speech, conditional, relatives, connectors",
+    "covers_items": [
+      "RO-B1-G5",
+      "RO-B1-G6",
+      "RO-B1-G7",
+      "RO-B1-G8"
+    ]
+  },
+  "S13_B1_Grammar_Case_Work_Travel": {
+    "covers_syllabus_refs": [
+      "CEFR B1",
+      "Romanian foreign-language teaching sequence, unit 11"
+    ],
+    "syllabus_topic": "B1 Grammar and vocabulary -- possession, impersonal se, work, travel",
+    "covers_items": [
+      "RO-B1-G9",
+      "RO-B1-G10",
+      "RO-B1-V1",
+      "RO-B1-V2"
+    ]
+  },
+  "S14_B1_Vocab_Opinions_World": {
+    "covers_syllabus_refs": [
+      "CEFR B1",
+      "Romanian foreign-language teaching sequence, unit 12"
+    ],
+    "syllabus_topic": "B1 Vocabulary -- opinions, media, environment, culture",
+    "covers_items": [
+      "RO-B1-V3",
+      "RO-B1-V4",
+      "RO-B1-V5",
+      "RO-B1-V6"
+    ]
+  },
+  "S15_B1_CanDo_Skills": {
+    "covers_syllabus_refs": [
+      "CEFR Table 2 Self-assessment Grid, level B1"
+    ],
+    "syllabus_topic": "B1 Can-do -- CEFR skills check",
+    "covers_items": [
+      "RO-B1-CD-listen1",
+      "RO-B1-CD-read1",
+      "RO-B1-CD-spokeninteract1",
+      "RO-B1-CD-spokenprod1",
+      "RO-B1-CD-write1"
+    ]
+  },
+  "S16_B2_Grammar_Subjunctive_Passive": {
+    "covers_syllabus_refs": [
+      "CEFR B2",
+      "Romanian foreign-language teaching sequence, unit 13"
+    ],
+    "syllabus_topic": "B2 Grammar -- subjunctive, conditional perfect, passive, gerund",
+    "covers_items": [
+      "RO-B2-G1",
+      "RO-B2-G2",
+      "RO-B2-G3",
+      "RO-B2-G4"
+    ]
+  },
+  "S17_B2_Grammar_Clauses_Register": {
+    "covers_syllabus_refs": [
+      "CEFR B2",
+      "Romanian foreign-language teaching sequence, unit 14"
+    ],
+    "syllabus_topic": "B2 Grammar -- complex clauses, vocative, reported speech, formal register",
+    "covers_items": [
+      "RO-B2-G5",
+      "RO-B2-G6",
+      "RO-B2-G7",
+      "RO-B2-G8"
+    ]
+  },
+  "S18_B2_Vocab_Abstract_Topics": {
+    "covers_syllabus_refs": [
+      "CEFR B2",
+      "Romanian foreign-language teaching sequence, unit 15"
+    ],
+    "syllabus_topic": "B2 Vocabulary -- society, business, culture, debate",
+    "covers_items": [
+      "RO-B2-V1",
+      "RO-B2-V2",
+      "RO-B2-V3",
+      "RO-B2-V4"
+    ]
+  },
+  "S19_B2_CanDo_Skills": {
+    "covers_syllabus_refs": [
+      "CEFR Table 2 Self-assessment Grid, level B2"
+    ],
+    "syllabus_topic": "B2 Can-do -- CEFR skills check",
+    "covers_items": [
+      "RO-B2-CD-listen1",
+      "RO-B2-CD-read1",
+      "RO-B2-CD-spokeninteract1",
+      "RO-B2-CD-spokenprod1",
+      "RO-B2-CD-write1"
+    ]
+  },
+  "S20_C1_Grammar_Discourse_Idiom": {
+    "covers_syllabus_refs": [
+      "CEFR C1",
+      "Romanian foreign-language teaching sequence, unit 16"
+    ],
+    "syllabus_topic": "C1 Grammar -- discourse, idiom, register, argumentation, word formation",
+    "covers_items": [
+      "RO-C1-G1",
+      "RO-C1-G2",
+      "RO-C1-G3",
+      "RO-C1-G4",
+      "RO-C1-G5",
+      "RO-C1-G6"
+    ]
+  },
+  "S21_C1_Vocab_Register_Nuance": {
+    "covers_syllabus_refs": [
+      "CEFR C1",
+      "Romanian foreign-language teaching sequence, unit 17"
+    ],
+    "syllabus_topic": "C1 Vocabulary -- specialised, literary/journalistic, nuance",
+    "covers_items": [
+      "RO-C1-V1",
+      "RO-C1-V2",
+      "RO-C1-V3"
+    ]
+  },
+  "S22_C1_CanDo_Skills": {
+    "covers_syllabus_refs": [
+      "CEFR Table 2 Self-assessment Grid, level C1"
+    ],
+    "syllabus_topic": "C1 Can-do -- CEFR skills check",
+    "covers_items": [
+      "RO-C1-CD-listen1",
+      "RO-C1-CD-read1",
+      "RO-C1-CD-spokeninteract1",
+      "RO-C1-CD-spokenprod1",
+      "RO-C1-CD-write1"
+    ]
+  },
+  "S23_C2_Grammar_Mastery_Vocab": {
+    "covers_syllabus_refs": [
+      "CEFR C2",
+      "Romanian foreign-language teaching sequence, unit 18"
+    ],
+    "syllabus_topic": "C2 Grammar and vocabulary -- mastery",
+    "covers_items": [
+      "RO-C2-G1",
+      "RO-C2-G2",
+      "RO-C2-G3",
+      "RO-C2-G4",
+      "RO-C2-V1",
+      "RO-C2-V2"
+    ]
+  },
+  "S24_C2_CanDo_Skills": {
+    "covers_syllabus_refs": [
+      "CEFR Table 2 Self-assessment Grid, level C2"
+    ],
+    "syllabus_topic": "C2 Can-do -- CEFR skills check",
+    "covers_items": [
+      "RO-C2-CD-listen1",
+      "RO-C2-CD-read1",
+      "RO-C2-CD-spokeninteract1",
+      "RO-C2-CD-spokenprod1",
+      "RO-C2-CD-write1"
+    ]
+  }
+}

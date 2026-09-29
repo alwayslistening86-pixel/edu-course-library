@@ -1,0 +1,489 @@
+{
+  "stage_rubrics": {
+    "S01_Data_Types_and_Programming_Concepts": {
+      "criteria": [
+        "4.1.1.1: Data types: integer, real, Boolean, character, string, date/time, pointer/reference, record, array; user-defined types",
+        "4.1.1.2: Programming concepts: declaration, assignment, definite and indefinite iteration, nested selection/iteration, meaningful identifiers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.1.1.1, 4.1.1.2 (4.1 Fundamentals of programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S02_Operators": {
+      "criteria": [
+        "4.1.1.3: Arithmetic operations: +, -, *, real and integer division (with remainder), exponentiation, rounding, truncation",
+        "4.1.1.4: Relational operations",
+        "4.1.1.5: Boolean operations: NOT, AND, OR, XOR"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.1.1.3, 4.1.1.4, 4.1.1.5 (4.1 Fundamentals of programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S03_Constants_Strings_Random_Exceptions": {
+      "criteria": [
+        "4.1.1.6: Constants and variables",
+        "4.1.1.7: String-handling operations: length, position, substring, concatenation, character/string conversion",
+        "4.1.1.8: Random number generation",
+        "4.1.1.9: Exception handling"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.1.1.6, 4.1.1.7, 4.1.1.8, 4.1.1.9 (4.1 Fundamentals of programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S04_Subroutines_Scope_Recursion": {
+      "criteria": [
+        "4.1.1.10: Subroutines (procedures and functions): parameters and returning values",
+        "4.1.1.13: Local and global variables; the role of stack frames",
+        "4.1.1.16: Recursive techniques"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.1.1.10, 4.1.1.13, 4.1.1.16 (4.1 Fundamentals of programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S05_Programming_Paradigms": {
+      "criteria": [
+        "4.1.2.1: Programming paradigms, and procedural-oriented programming",
+        "4.1.2.3: Object-oriented programming"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.1.2.1, 4.1.2.3 (4.1 Fundamentals of programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S06_Arrays_Records_ADTs": {
+      "criteria": [
+        "4.2.1.1: Data structures, arrays (single- and multi-dimensional) and records/files",
+        "4.2.1.4: Abstract data types"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.2.1.1, 4.2.1.4 (4.2 Fundamentals of data structures)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S07_Queues_and_Stacks": {
+      "criteria": [
+        "4.2.2.1: Queues",
+        "4.2.3.1: Stacks"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.2.2.1, 4.2.3.1 (4.2 Fundamentals of data structures)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S08_Graphs_Trees_Hash_Dict_Vectors": {
+      "criteria": [
+        "4.2.4.1: Graphs",
+        "4.2.5.1: Trees",
+        "4.2.6.1: Hash tables",
+        "4.2.7.1: Dictionaries",
+        "4.2.8.1: Vectors"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.2.4.1, 4.2.5.1, 4.2.6.1, 4.2.7.1, 4.2.8.1 (4.2 Fundamentals of data structures)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S09_Graph_Tree_Traversal_and_RPN": {
+      "criteria": [
+        "4.3.1.1: Graph-traversal algorithms: breadth-first and depth-first search",
+        "4.3.2.1: Tree-traversal algorithms: pre-order, in-order, post-order",
+        "4.3.3.1: Reverse Polish notation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.3.1.1, 4.3.2.1, 4.3.3.1 (4.3 Fundamentals of algorithms)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S10_Searching_Algorithms": {
+      "criteria": [
+        "4.3.4.1: Linear search",
+        "4.3.4.2: Binary search",
+        "4.3.4.3: Binary tree search"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.3.4.1, 4.3.4.2, 4.3.4.3 (4.3 Fundamentals of algorithms)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S11_Sorting_and_Dijkstra": {
+      "criteria": [
+        "4.3.5.1: Bubble sort",
+        "4.3.5.2: Merge sort",
+        "4.3.6.1: Dijkstra's shortest path algorithm"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.3.5.1, 4.3.5.2, 4.3.6.1 (4.3 Fundamentals of algorithms)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S12_Abstraction_and_Automation": {
+      "criteria": [
+        "4.4.1.1: Problem-solving and algorithms",
+        "4.4.1.3: Abstraction: representational, procedural, functional and data abstraction; decomposition and composition",
+        "4.4.1.11: Automation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.4.1.1, 4.4.1.3, 4.4.1.11 (4.4 Theory of computation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S13_FSM_Regex_and_BNF": {
+      "criteria": [
+        "4.4.2.1: Finite state machines",
+        "4.4.2.2: Set notation for regular expressions",
+        "4.4.2.3: Regular expressions and regular languages",
+        "4.4.3.1: Backus-Naur Form and syntax diagrams"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.4.2.1, 4.4.2.2, 4.4.2.3, 4.4.3.1 (4.4 Theory of computation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S14_Complexity_and_Turing_Machines": {
+      "criteria": [
+        "4.4.4.1: Comparing algorithms; the maths behind Big-O notation",
+        "4.4.4.3: Order of complexity: Big-O notation",
+        "4.4.4.4: Limits of computation: tractability, computability and the halting problem",
+        "4.4.5.1: The Turing machine"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.4.4.1, 4.4.4.3, 4.4.4.4, 4.4.5.1 (4.4 Theory of computation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S15_Software_Development_Lifecycle": {
+      "criteria": [
+        "4.13.1.1: Analysis",
+        "4.13.1.2: Design",
+        "4.13.1.3: Implementation",
+        "4.13.1.4: Testing",
+        "4.13.1.5: Evaluation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.13.1.1, 4.13.1.2, 4.13.1.3, 4.13.1.4, 4.13.1.5 (4.13 Systematic approach to problem solving)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S16_Number_Systems_Bases_Units": {
+      "criteria": [
+        "4.5.1.1: Number systems: natural, integer, rational, irrational, real and ordinal numbers",
+        "4.5.2.1: Number bases",
+        "4.5.3.1: Units of information"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.5.1.1, 4.5.2.1, 4.5.3.1 (4.5 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S17_Binary_Integers_and_Floating_Point": {
+      "criteria": [
+        "4.5.4.1: Unsigned binary and binary arithmetic",
+        "4.5.4.3: Signed binary using two's complement",
+        "4.5.4.4: Floating point: normalisation, range, precision, rounding, underflow and overflow"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.5.4.1, 4.5.4.3, 4.5.4.4 (4.5 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S18_Character_Coding_and_Error_Checking": {
+      "criteria": [
+        "4.5.5.1: Character encoding: ASCII and Unicode",
+        "4.5.5.3: Error checking and correction"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.5.5.1, 4.5.5.3 (4.5 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S19_Analogue_Digital_and_Multimedia": {
+      "criteria": [
+        "4.5.6.1: Analogue and digital data; analogue-to-digital conversion",
+        "4.5.6.4: Bitmapped and vector graphics",
+        "4.5.6.7: Digital representation of sound, and MIDI",
+        "4.5.6.9: Data compression and encryption"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.5.6.1, 4.5.6.4, 4.5.6.7, 4.5.6.9 (4.5 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S20_Hardware_Software_Languages_Logic": {
+      "criteria": [
+        "4.6.1.1: Hardware, software and the operating system",
+        "4.6.2.1: Classification of programming languages and translators",
+        "4.6.4.1: Logic gates and Boolean algebra"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.6.1.1, 4.6.2.1, 4.6.4.1 (4.6 Fundamentals of computer systems)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S21_Components_Stored_Program_Processor": {
+      "criteria": [
+        "4.7.1.1: Internal hardware components and the stored program concept",
+        "4.7.3.1: Processor structure: ALU, control unit, clock and registers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.7.1.1, 4.7.3.1 (4.7 Fundamentals of computer organisation and architecture)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S22_Fetch_Execute_Interrupts_External_Devices": {
+      "criteria": [
+        "4.7.3.2: The fetch-execute cycle, instruction sets and addressing modes",
+        "4.7.3.6: Interrupts and factors affecting processor performance",
+        "4.7.4.1: External hardware devices and secondary storage"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.7.3.2, 4.7.3.6, 4.7.4.1 (4.7 Fundamentals of computer organisation and architecture)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S23_Consequences_of_Computing": {
+      "criteria": [
+        "4.8.1.1: Individual, social, legal and cultural issues and opportunities"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.8.1.1 (4.8 Consequences of uses of computing)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S24_Transmission_Topology_and_Network_Models": {
+      "criteria": [
+        "4.9.1.1: Communication methods and data-transmission basics",
+        "4.9.2.1: Network topologies: star and bus",
+        "4.9.2.2: Peer-to-peer and client-server networking"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.9.1.1, 4.9.2.1, 4.9.2.2 (4.9 Fundamentals of communication and networking)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S25_Wireless_Internet_and_Security": {
+      "criteria": [
+        "4.9.2.3: Wireless networking",
+        "4.9.3.1: The Internet: packet switching, routers, DNS and URLs",
+        "4.9.3.2: Internet security"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.9.2.3, 4.9.3.1, 4.9.3.2 (4.9 Fundamentals of communication and networking)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S26_TCPIP_Protocols_and_Addressing": {
+      "criteria": [
+        "4.9.4.1: The TCP/IP stack, sockets and MAC addresses",
+        "4.9.4.2: Standard application-layer protocols",
+        "4.9.4.3: IP addressing, subnetting, DHCP, NAT and port forwarding",
+        "4.9.4.10: The client-server model, WebSockets, REST, and thin- vs thick-client computing"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.9.4.1, 4.9.4.2, 4.9.4.3, 4.9.4.10 (4.9 Fundamentals of communication and networking)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S27_Data_Modelling_and_Normalisation": {
+      "criteria": [
+        "4.10.1.1: Conceptual data models and entity-relationship modelling",
+        "4.10.2.1: Relational databases",
+        "4.10.3.1: Database design and normalisation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.10.1.1, 4.10.2.1, 4.10.3.1 (4.10 Fundamentals of databases, and 4.11 Big Data)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S28_SQL_ClientServer_and_BigData": {
+      "criteria": [
+        "4.10.4.1: Structured Query Language (SQL)",
+        "4.10.5.1: Client-server databases",
+        "4.11.1.1: Big Data: volume, velocity and variety; distributed processing"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.10.4.1, 4.10.5.1, 4.11.1.1 (4.10 Fundamentals of databases, and 4.11 Big Data)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    },
+    "S29_Functional_Programming": {
+      "criteria": [
+        "4.12.1.1: Functional programming concepts",
+        "4.12.2.1: Writing functional programs: higher-order functions",
+        "4.12.3.1: Lists in functional programming"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items the exact output (or the exact error/failure named) is required for the mark; method marks need the method shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+        "reference": "7517 objectives 4.12.1.1, 4.12.2.1, 4.12.3.1 (4.12 Fundamentals of functional programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of both papers in AQA's structure: Paper 1 (2 h 30, 100 marks, 4.1-4.4 and 4.13 -- programming/problem-solving plus algorithm-tracing and theory questions) and Paper 2 (2 h 30, 100 marks, 4.5-4.12 -- written theory questions)",
+      "A mix of multiple-choice, short-answer, code-writing/tracing and longer written/extended-response questions, matching AQA's published question styles for each paper",
+      "Code-tracing/output questions marked on exact output (or the exact error named); calculations, conversions and algorithm traces marked with method/working shown"
+    ],
+    "pass_threshold": "At least 50% of the 200 marks overall and at least 40% on each of the two papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+      "reference": "AQA 7517 scheme of assessment: Paper 1 (2 h 30, 100 marks, 40%) and Paper 2 (2 h 30, 100 marks, 40%); NEA 75 marks/20% out of scope",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF"
+  ],
+  "source_notes": "AQA publishes the 7517 specification, including the subject content and the assessment structure. Stage tests and the mock are original questions in AQA's style, not real past-paper items. Numerical answers (conversions, floating-point workings, complexity comparisons, truth tables, algorithm traces) were computed and checked with Python when this course was built."
+}

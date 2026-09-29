@@ -1,0 +1,61 @@
+{
+  "schema_version": 4,
+  "name": "LLB (Bachelor of Laws) — Open University module-framework structure, QAA Law Benchmark graded",
+  "requires_complete": [
+    "alevel_history"
+  ],
+  "selected_options": {
+    "level_5_optional": [
+      "Family Law",
+      "Property Law",
+      "Commercial Law"
+    ],
+    "level_6_optional": [
+      "Alternative Dispute Resolution",
+      "Equity and Trusts",
+      "Dissertation"
+    ]
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "Open University Bachelor of Laws (Honours), qualification R81 (the direct successor, from October 2021, to the earlier Q79), 2026-27 module list and stage structure (module codes and titles from the OU's own module pages and digital archive), and the QAA Subject Benchmark Statement for Law (published 2023-03-08, current), itemised 2026-09-28. The OU's real LLB bundles its 360 credits into six modules across three stages -- Stage 1 (Level 4): W101 'An introduction to law' and W102 'Law: concepts and perspectives'; Stage 2 (Level 5): W201 'Law: the individual and the state' and W202 'Contract law and tort law'; Stage 3 (Level 6): W300 'Law: agreements, rights and responsibilities' and W301 'Law: ownership and trusteeship: rights and responsibilities' -- each a large, multi-subject module rather than one subject per module. This course keeps its existing per-subject stage split (one stage per Foundation of Legal Knowledge, e.g. L4_Contract_1/2, L5_Tort_Law) for teachability, and maps that split onto the OU's six real modules as follows: L4_Legal_System_and_Method + L4_Contract_1/2 + L4_Criminal_1/2 correspond to W101/W102; L4_Public_Law + L5_Tort_Law correspond to W201; L5_Family_Law/Property_Law/Commercial_Law correspond to W202's contract-and-tort core plus standard wider-curriculum electives; L6_Jurisprudence_and_Legal_Theory and L6_Alternative_Dispute_Resolution correspond to W300; and L6_Equity_and_Trusts corresponds to W301's ownership-and-trusteeship focus. The OU's own detailed unit-by-unit module materials, module handbooks and assessment guides sit behind its student VLE and were not accessible; everywhere this course itemises a subject using the standard, well-established topic breakdown for that area of English law found in any qualifying-law-degree textbook, module descriptor or reading list -- this is core legal knowledge, not institution-specific content -- verified from standard legal sources (legislation.gov.uk, BAILII, leading textbooks) rather than from the OU's own gated materials. Stage test scenarios are original problem questions in the IRAC/problem-question style used across UK qualifying law degrees, never real past-paper questions. The OU's LLB is, like the University of London's, a Qualifying Law Degree recognised by the SRA/BSB, so the underlying Foundations of Legal Knowledge this course teaches are unchanged by this re-sourcing.",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (Bachelor's degree with Honours), per QAA Framework for Higher Education Qualifications and the QAA Subject Benchmark Statement: Law",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "L4_Contract_1",
+    "L4_Contract_2",
+    "L4_Criminal_1",
+    "L4_Criminal_2",
+    "L4_Legal_System_and_Method",
+    "L4_Public_Law",
+    "L5_Tort_Law",
+    "L5_Family_Law",
+    "L5_Property_Law",
+    "L5_Commercial_Law",
+    "L6_Jurisprudence_and_Legal_Theory",
+    "L6_Alternative_Dispute_Resolution",
+    "L6_Equity_and_Trusts",
+    "L6_Dissertation"
+  ],
+  "linear": true,
+  "framework": "IRAC",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires A-level History, matching the roadmap's rule that a degree requires the specific A-levels it depends on -- not because a real law degree requires History by name, but because A-level History builds the essay-writing, primary-source-handling and argument-construction skills a law degree assumes from day one. A-level English Literature would serve the same purpose (close reading and argument) and is not yet in this library; once it is built, it may become an accepted alternative."
+    }
+  ],
+  "level_basis": "framework"
+}

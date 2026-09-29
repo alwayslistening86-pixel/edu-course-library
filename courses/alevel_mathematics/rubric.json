@@ -1,0 +1,620 @@
+{
+  "stage_rubrics": {
+    "S01_Proof": {
+      "criteria": [
+        "1.01a: Structure of mathematical proof: from assumptions through logical steps to a conclusion (proof by deduction and by exhaustion)",
+        "1.01b: Logical connectives: implies, is implied by, if and only if; language of necessary and sufficient",
+        "1.01c: Disproof by counter-example",
+        "1.01d: Proof by contradiction (including irrationality of root 2 and infinitely many primes)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.01a, 1.01b, 1.01c, 1.01d (1.01 Proof)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S02_Indices_Surds_and_Quadratics": {
+      "criteria": [
+        "1.02a: Laws of indices for all rational exponents",
+        "1.02b: Surds, including rationalising the denominator",
+        "1.02d: Quadratic functions, their graphs and the discriminant (conditions for real and repeated roots)",
+        "1.02e: Completing the square",
+        "1.02f: Solving quadratic equations, including quadratics in a function of the unknown"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.02a, 1.02b, 1.02d, 1.02e, 1.02f (1.02 Algebra and Functions)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S03_Simultaneous_Equations_and_Inequalities": {
+      "criteria": [
+        "1.02c: Simultaneous equations in two variables, including one linear and one quadratic",
+        "1.02g: Linear and quadratic inequalities in one variable, interpreted graphically",
+        "1.02h: Expressing solutions using 'and', 'or' and set notation",
+        "1.02i: Representing linear and quadratic inequalities in two variables graphically"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.02c, 1.02g, 1.02h, 1.02i (1.02 Algebra and Functions)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S04_Polynomials_Rational_Expressions_Partial_Fractions": {
+      "criteria": [
+        "1.02j: Manipulating polynomials: expanding, factorising, algebraic division and the factor theorem",
+        "1.02k: Simplifying rational expressions",
+        "1.02y: Partial fractions (denominators up to a squared linear term, at most three terms)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.02j, 1.02k, 1.02y (1.02 Algebra and Functions)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S05_Graphs_and_Curve_Sketching": {
+      "criteria": [
+        "1.02m: Using graphs of functions",
+        "1.02n: Sketching curves defined by simple equations, including polynomials",
+        "1.02o: Sketching y = a/x and y = a/x^2, including asymptotes",
+        "1.02p: Interpreting the algebraic solution of equations graphically",
+        "1.02q: Using intersection points of graphs to solve equations",
+        "1.02r: Proportional relationships and their graphs"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.02m, 1.02n, 1.02o, 1.02p, 1.02q, 1.02r (1.02 Algebra and Functions)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S06_Functions_Modulus_and_Transformations": {
+      "criteria": [
+        "1.02l: The modulus function and its properties",
+        "1.02s: Sketching the graph of the modulus of a linear function",
+        "1.02t: Solving equations and inequalities involving the modulus function graphically",
+        "1.02u: The definition of a function: domain and range, one-one and many-one",
+        "1.02v: Inverse functions and their graphs; composite functions",
+        "1.02w: Effect of single transformations on y = f(x): translations, stretches and reflections",
+        "1.02x: Combinations of transformations on y = f(x)",
+        "1.02z: Using functions in modelling, including limitations and refinements"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.02l, 1.02s, 1.02t, 1.02u, 1.02v, 1.02w, 1.02x, 1.02z (1.02 Algebra and Functions)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S07_Lines_and_Circles": {
+      "criteria": [
+        "1.03a: Equation of a straight line in the forms y = mx + c, y - y1 = m(x - x1) and ax + by + c = 0",
+        "1.03b: Gradient conditions for parallel and perpendicular lines",
+        "1.03c: Straight-line models in context",
+        "1.03d: Coordinate geometry of a circle: (x - a)^2 + (y - b)^2 = r^2",
+        "1.03e: Completing the square to find a circle's centre and radius",
+        "1.03f: Circle properties in coordinate geometry: angle in a semicircle, perpendicular bisector of a chord, tangent perpendicular to radius"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.03a, 1.03b, 1.03c, 1.03d, 1.03e, 1.03f (1.03 Coordinate Geometry in the x-y Plane)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S08_Parametric_Equations": {
+      "criteria": [
+        "1.03g: Parametric equations: converting between cartesian and parametric forms",
+        "1.03h: Parametric equations in modelling"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.03g, 1.03h (1.03 Coordinate Geometry in the x-y Plane)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S09_Binomial_Expansion": {
+      "criteria": [
+        "1.04a: Binomial expansion of (a + bx)^n for positive integer n; n!, nCr notation",
+        "1.04b: Link between binomial coefficients and binomial probabilities",
+        "1.04c: Binomial expansion of (a + bx)^n for any rational n, including approximations",
+        "1.04d: Validity of the expansion: |bx/a| < 1"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.04a, 1.04b, 1.04c, 1.04d (1.04 Sequences and Series)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S10_Sequences_and_Series": {
+      "criteria": [
+        "1.04e: Sequences given by an nth-term formula or a recurrence relation",
+        "1.04f: Increasing, decreasing and periodic sequences",
+        "1.04g: Sigma notation",
+        "1.04h: Arithmetic sequences and series: nth term and sum to n terms",
+        "1.04i: Geometric sequences and series: nth term and sum of a finite series",
+        "1.04j: Sum to infinity of a convergent geometric series, |r| < 1",
+        "1.04k: Sequences and series in modelling"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.04e, 1.04f, 1.04g, 1.04h, 1.04i, 1.04j, 1.04k (1.04 Sequences and Series)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S11_Trigonometry_Foundations": {
+      "criteria": [
+        "1.05a: Definitions of sine, cosine and tangent for all arguments",
+        "1.05b: The sine and cosine rules",
+        "1.05c: Area of a triangle: (1/2)ab sin C",
+        "1.05d: Radian measure, arc length and sector area",
+        "1.05f: Graphs, symmetries and periodicity of sin, cos and tan",
+        "1.05g: Exact values of sin, cos and tan for 0, pi/6, pi/4, pi/3, pi/2 and multiples"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.05a, 1.05b, 1.05c, 1.05d, 1.05f, 1.05g (1.05 Trigonometry)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S12_Trig_Functions_Identities_and_Equations": {
+      "criteria": [
+        "1.05e: Small-angle approximations for sin, cos and tan",
+        "1.05h: Secant, cosecant and cotangent; arcsin, arccos and arctan",
+        "1.05i: Graphs, domains and ranges of sec, cosec, cot and the inverse trig functions",
+        "1.05j: Identities tan x = sin x / cos x and sin^2 x + cos^2 x = 1",
+        "1.05k: Identities sec^2 x = 1 + tan^2 x and cosec^2 x = 1 + cot^2 x",
+        "1.05o: Solving trigonometric equations in a given interval, including quadratics and multiple angles"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.05e, 1.05h, 1.05i, 1.05j, 1.05k, 1.05o (1.05 Trigonometry)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S13_Compound_Angles_and_Trig_Proof": {
+      "criteria": [
+        "1.05l: Double-angle formulae and the compound-angle formulae for sin, cos and tan of (A +/- B)",
+        "1.05m: Geometrical proofs of the compound-angle formulae",
+        "1.05n: Expressing a cos x + b sin x as R cos(x +/- alpha) or R sin(x +/- alpha)",
+        "1.05p: Proofs involving trigonometric functions and identities",
+        "1.05q: Trigonometric functions in context (vectors, kinematics and forces)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.05l, 1.05m, 1.05n, 1.05p, 1.05q (1.05 Trigonometry)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S14_Exponentials_and_Logarithms": {
+      "criteria": [
+        "1.06a: The function a^x and its graph (a > 0)",
+        "1.06b: The gradient of e^(kx) is k e^(kx); why exponential models are widely used",
+        "1.06c: log_a x as the inverse of a^x",
+        "1.06d: The function ln x and its graph",
+        "1.06e: ln x as the inverse of e^x",
+        "1.06f: Laws of logarithms",
+        "1.06g: Solving equations of the form a^x = b",
+        "1.06h: Logarithmic graphs to estimate parameters in y = ax^n and y = kb^x",
+        "1.06i: Exponential growth and decay in modelling, including limitations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.06a, 1.06b, 1.06c, 1.06d, 1.06e, 1.06f, 1.06g, 1.06h, 1.06i (1.06 Exponentials and Logarithms)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S15_Differentiation_Basics": {
+      "criteria": [
+        "1.07a: The derivative as the gradient of the tangent at a general point",
+        "1.07b: The gradient of the tangent as a limit; the derivative as a rate of change",
+        "1.07c: Sketching the gradient function of a given curve",
+        "1.07d: Second derivatives",
+        "1.07e: The second derivative as the rate of change of gradient",
+        "1.07g: Differentiation from first principles for small positive integer powers of x",
+        "1.07i: Differentiating x^n for rational n, with constant multiples, sums and differences",
+        "1.07m: Gradients, tangents and normals",
+        "1.07n: Finding and classifying stationary points as maxima or minima",
+        "1.07o: Increasing and decreasing functions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.07a, 1.07b, 1.07c, 1.07d, 1.07e, 1.07g, 1.07i, 1.07m, 1.07n, 1.07o (1.07 Differentiation)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S16_Further_Differentiation": {
+      "criteria": [
+        "1.07f: Second derivative, convex and concave sections, and points of inflection",
+        "1.07h: Differentiation from first principles for sin x and cos x",
+        "1.07j: Differentiating e^(kx) and a^(kx)",
+        "1.07k: Differentiating sin kx, cos kx and tan kx",
+        "1.07l: The derivative of ln x",
+        "1.07p: Finding points of inflection",
+        "1.07q: The product and quotient rules",
+        "1.07r: The chain rule, including connected rates of change and inverse functions",
+        "1.07s: Implicit and parametric differentiation (first derivative)",
+        "1.07t: Constructing simple differential equations in pure mathematics and in context"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.07f, 1.07h, 1.07j, 1.07k, 1.07l, 1.07p, 1.07q, 1.07r, 1.07s, 1.07t (1.07 Differentiation)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S17_Integration_Basics": {
+      "criteria": [
+        "1.08a: The fundamental theorem of calculus",
+        "1.08b: Integrating x^n (n not -1), with sums, differences and constant multiples",
+        "1.08d: Evaluating definite integrals",
+        "1.08e: Area between a curve and the x-axis"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.08a, 1.08b, 1.08d, 1.08e (1.08 Integration)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S18_Further_Integration": {
+      "criteria": [
+        "1.08c: Integrating e^(kx), 1/x, sin kx and cos kx",
+        "1.08f: Area between two curves",
+        "1.08g: Integration as the limit of a sum",
+        "1.08h: Integration by substitution",
+        "1.08i: Integration by parts",
+        "1.08j: Integrating using partial fractions with linear denominators"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.08c, 1.08f, 1.08g, 1.08h, 1.08i, 1.08j (1.08 Integration)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S19_Differential_Equations": {
+      "criteria": [
+        "1.08k: First-order differential equations with separable variables: general and particular solutions",
+        "1.08l: Interpreting the solution of a differential equation in context, including limitations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.08k, 1.08l (1.08 Integration)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S20_Numerical_Methods": {
+      "criteria": [
+        "1.09a: Locating roots by change of sign",
+        "1.09b: How change-of-sign methods can fail",
+        "1.09c: Iteration x(n+1) = g(x(n)); cobweb and staircase diagrams",
+        "1.09d: The Newton-Raphson method",
+        "1.09e: How iterative methods can fail",
+        "1.09f: Numerical integration: the trapezium rule, over- and under-estimates",
+        "1.09g: Using numerical methods to solve problems in context"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.09a, 1.09b, 1.09c, 1.09d, 1.09e, 1.09f, 1.09g (1.09 Numerical Methods)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S21_Vectors": {
+      "criteria": [
+        "1.10a: Vectors in two dimensions",
+        "1.10b: Vectors in three dimensions",
+        "1.10c: Magnitude and direction of a vector; converting between component and magnitude-direction form",
+        "1.10d: Adding vectors and multiplying by scalars, with geometrical interpretations",
+        "1.10e: Position vectors",
+        "1.10f: Distance between two points from position vectors",
+        "1.10g: Vectors to solve problems in pure mathematics and in context, including forces",
+        "1.10h: Vectors to solve problems in kinematics"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 1.10a, 1.10b, 1.10c, 1.10d, 1.10e, 1.10f, 1.10g, 1.10h (1.10 Vectors)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S22_Sampling_and_Data": {
+      "criteria": [
+        "2.01a: Population and sample",
+        "2.01b: Using samples to make informal inferences about the population",
+        "2.01c: Sampling techniques: simple random, stratified, systematic, quota, cluster and opportunity",
+        "2.01d: Selecting and critiquing sampling techniques; different samples lead to different conclusions",
+        "2.02a: Interpreting tables and diagrams for single-variable data",
+        "2.02b: Histograms: area represents frequency",
+        "2.02c: Scatter diagrams and regression lines for bivariate data, including distinct sections",
+        "2.02d: Informal interpretation of correlation",
+        "2.02e: Correlation does not imply causation",
+        "2.02f: Measures of central tendency and variation: mean, median, mode, percentiles, quartiles, IQR, standard deviation and variance",
+        "2.02g: Mean and standard deviation from raw data, summary statistics or a frequency distribution",
+        "2.02h: Recognising and interpreting possible outliers",
+        "2.02i: Selecting or critiquing data presentation techniques",
+        "2.02j: Cleaning data: missing data, errors and outliers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 2.01a, 2.01b, 2.01c, 2.01d, 2.02a, 2.02b, 2.02c, 2.02d, 2.02e, 2.02f, 2.02g, 2.02h, 2.02i, 2.02j (2.01 Statistical Sampling and 2.02 Data Presentation and Interpretation)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S23_Probability": {
+      "criteria": [
+        "2.03a: Mutually exclusive and independent events",
+        "2.03b: Diagrams to calculate probabilities",
+        "2.03c: Conditional probability using tree diagrams, Venn diagrams and two-way tables",
+        "2.03d: Conditional probability from first principles: P(A|B) = P(A and B)/P(B)",
+        "2.03e: Modelling with probability and critiquing assumptions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 2.03a, 2.03b, 2.03c, 2.03d, 2.03e (2.03 Probability)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S24_Discrete_and_Binomial_Distributions": {
+      "criteria": [
+        "2.04a: Simple finite discrete probability distributions given by a table or formula",
+        "2.04b: The binomial distribution as a model",
+        "2.04c: Calculating binomial probabilities"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 2.04a, 2.04b, 2.04c (2.04 Statistical Distributions)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S25_Normal_Distribution": {
+      "criteria": [
+        "2.04d: Using np and npq to choose a normal approximation to a binomial",
+        "2.04e: The normal distribution as a model",
+        "2.04f: Finding normal probabilities and inverse normal values",
+        "2.04g: Links between the normal distribution, histograms, mean and standard deviation",
+        "2.04h: Selecting an appropriate distribution for a context (binomial or normal)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 2.04d, 2.04e, 2.04f, 2.04g, 2.04h (2.04 Statistical Distributions)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S26_Hypothesis_Testing": {
+      "criteria": [
+        "2.05a: Language of hypothesis testing: hypotheses, significance level, test statistic, critical value and region, acceptance region, p-value",
+        "2.05b: Hypothesis test for a binomial proportion, interpreted in context",
+        "2.05c: Inference from a sample; the significance level as the probability of wrongly rejecting H0",
+        "2.05d: The sample mean as a random variable: X-bar ~ N(mu, sigma^2/n)",
+        "2.05e: Hypothesis test for the mean of a normal distribution with known variance",
+        "2.05f: Pearson's product-moment correlation coefficient as a measure of linear fit",
+        "2.05g: Hypothesis test for zero correlation using the PMCC (critical value or p-value)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 2.05a, 2.05b, 2.05c, 2.05d, 2.05e, 2.05f, 2.05g (2.05 Statistical Hypothesis Testing)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S27_Units_and_Kinematics": {
+      "criteria": [
+        "3.01a: Fundamental SI quantities and units: length (m), time (s), mass (kg)",
+        "3.01b: Derived quantities and units: velocity, acceleration, force, weight",
+        "3.01c: The unit of moment (N m)",
+        "3.02a: Language of kinematics: position, displacement, distance, velocity, speed, acceleration",
+        "3.02b: Graphs in kinematics for straight-line motion",
+        "3.02c: Gradient and area of displacement-time and velocity-time graphs",
+        "3.02d: The constant-acceleration (suvat) formulae for straight-line motion, including derivation",
+        "3.02f: Calculus in kinematics for straight-line motion"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 3.01a, 3.01b, 3.01c, 3.02a, 3.02b, 3.02c, 3.02d, 3.02f (3.01 Quantities and Units in Mechanics and 3.02 Kinematics)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S28_Kinematics_in_2D_and_Projectiles": {
+      "criteria": [
+        "3.02e: Constant-acceleration formulae in two dimensions using vectors",
+        "3.02g: Calculus in kinematics in two dimensions using vectors",
+        "3.02h: Motion under gravity in a vertical plane using vectors",
+        "3.02i: Projectiles: modelling with constant acceleration and the model's limitations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 3.02e, 3.02g, 3.02h, 3.02i (3.01 Quantities and Units in Mechanics and 3.02 Kinematics)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S29_Forces_and_Newtons_Laws": {
+      "criteria": [
+        "3.03a: Force and its vector nature",
+        "3.03b: Newton's first law",
+        "3.03c: Newton's second law F = ma in a straight line",
+        "3.03d: Newton's second law with forces given as 2D vectors",
+        "3.03e: Newton's second law with resolving forces in two dimensions",
+        "3.03f: Weight and motion in a straight line under gravity",
+        "3.03g: Gravitational acceleration g and its value to different accuracies",
+        "3.03h: Newton's third law",
+        "3.03i: Normal reaction force",
+        "3.03j: The 'smooth' model and its limitations",
+        "3.03k: Connected particles in a straight line; equilibrium; light inextensible strings and smooth pulleys",
+        "3.03l: Newton's third law where forces need resolving (two dimensions)",
+        "3.03m: Equilibrium: resolved parts in any direction sum to zero",
+        "3.03n: Equilibrium of forces on a particle in two dimensions, including connected particles",
+        "3.03o: Resolving forces for connected particles and smooth pulleys",
+        "3.03p: Resultant of two or more forces at a point",
+        "3.03q: Dynamics of a particle moving in a plane under forces"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 3.03a, 3.03b, 3.03c, 3.03d, 3.03e, 3.03f, 3.03g, 3.03h, 3.03i, 3.03j, 3.03k, 3.03l, 3.03m, 3.03n, 3.03o, 3.03p, 3.03q (3.03 Forces and Newton's Laws)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S30_Friction": {
+      "criteria": [
+        "3.03r: Frictional force given in vector or component form or as a magnitude",
+        "3.03s: Contact force between rough surfaces as normal and frictional components",
+        "3.03t: The coefficient of friction; F <= mu R; limiting friction",
+        "3.03u: Static and limiting equilibrium on a rough surface",
+        "3.03v: Motion of a body on a rough surface"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 3.03r, 3.03s, 3.03t, 3.03u, 3.03v (3.03 Forces and Newton's Laws)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    },
+    "S31_Moments": {
+      "criteria": [
+        "3.04a: Moment of a force about a point",
+        "3.04b: Rigid body in equilibrium: resultant force and resultant moment are zero",
+        "3.04c: Moments in simple static contexts (beams, rods, ladders)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+        "reference": "H240 objectives 3.04a, 3.04b, 3.04c (3.04 Moments)",
+        "urls": [
+          "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of three 2-hour, 100-mark papers in OCR's structure: Paper 1 Pure; Paper 2 Pure (about 50 marks) and Statistics (about 50); Paper 3 Pure (about 50) and Mechanics (about 50)",
+      "Structured questions with a gradient of difficulty, including extended problem-solving and modelling questions, as OCR's papers have",
+      "Method shown throughout, marked against written mark schemes with method (M), accuracy (A) and independent (B) marks"
+    ],
+    "pass_threshold": "At least 50% of the 300 marks overall and at least 40% on each of the three papers (the course's own standard; OCR boundaries vary by series). Report the percentage per paper.",
+    "source": {
+      "issuing_body": "OCR (Cambridge OCR)",
+      "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+      "reference": "OCR H240 assessment overview: three papers, 2 hours and 100 marks each, each 33 1/3% of the A Level",
+      "urls": [
+        "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf"
+  ],
+  "source_notes": "OCR publishes the H240 specification (content, assessment structure, formula list, command words and the large data set). Stage tests and the mock are original, written in the style of OCR's papers and mark schemes; every numerical answer was computed with sympy when the course was built."
+}

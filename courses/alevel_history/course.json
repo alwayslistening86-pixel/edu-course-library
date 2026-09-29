@@ -1,0 +1,67 @@
+{
+  "schema_version": 4,
+  "name": "A-level History (Edexcel 9HI0): Route B - Tudor England, the German Reformation and Rebellion under the Tudors",
+  "requires_complete": [
+    "gcse_history"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "paper1": "1B: England, 1509-1603: Authority, Nation and Religion",
+    "paper2": "2B.1: Luther and the German Reformation, c1515-55",
+    "paper3": "31: Rebellion and Disorder under the Tudors, 1485-1603",
+    "depth_studies": [
+      "Pilgrimage of Grace, 1536-37",
+      "Kett's Rebellion, 1549"
+    ]
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3 (first teaching September 2015), linked from qualifications.pearson.com and itemised on 2026-09-27. Edexcel 9HI0 offers 8 Paper 1 breadth-study options, 16 Paper 2 depth-study options (paired with Paper 1 by named route) and 16 Paper 3 theme options, plus a non-exam coursework component. This course follows Route B, a well-established, well-resourced Tudor-Reformation route: Paper 1 Option 1B (England, 1509-1603: Authority, Nation and Religion, its four themes and the historical-interpretations topic on the 1589-1603 'crisis of government' debate) paired, per Edexcel's own Route B pairing, with Paper 2 Option 2B.1 (Luther and the German Reformation, c1515-55, its four key topics); and, for Paper 3, Topic 31 (Rebellion and Disorder under the Tudors, 1485-1603), covering breadth across the period plus named case studies with two in-depth studies (the Pilgrimage of Grace, 1536-37, and Kett's Rebellion, 1549). Assessment: Paper 1 (2h15, 60 marks, 30%: Section A interpretations 20 marks, Section B two essays 20 marks each from a choice); Paper 2 (1h30, 40 marks, 20%: two essays 20 marks each from a choice); Paper 3 (2h15, 60 marks, 30%: Section A source utility 20 marks, Section B two essays 20 marks each from a choice). The coursework/NEA (Independently Researched Enquiry, 40 marks, 20%) is a non-exam, individually supervised 3,000-4,000 word extended essay and is declared out of scope; see the notice below. Stage tests and the mock are original questions in Edexcel's style, marked against Edexcel's generic levels for extended writing and this course's approximation of its source/interpretation-utility levels.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for Edexcel 9HI0",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "route",
+      "text": "Edexcel 9HI0 offers many possible option combinations (Route A-K and independent Paper 3 choices). This course teaches Route B (Paper 1 Option 1B paired with Paper 2 Option 2B.1) and Paper 3 Topic 31. If your school or exam entry uses different options, the papers here will not match what you sit; check your own exam board entry."
+    },
+    {
+      "id": "coursework",
+      "text": "This course does not cover the Independently Researched Enquiry (coursework/NEA, 20% of the A-level): a 3,000-4,000 word essay on a question of your own choosing, researched over several months and marked by your teacher and moderated by Edexcel. It cannot be meaningfully taught or graded in this format. Ask your teacher how your centre runs it, and start thinking about a topic early - it usually needs to be agreed in Year 12."
+    },
+    {
+      "id": "essay_practice",
+      "text": "Edexcel's essays are marked by levels that reward a sustained, weighed argument reaching a supported judgement, not narrative retelling or a list of facts. Write full, timed answers regularly, not just plans."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Monarchy_and_Government",
+    "S02_Religious_Change_Henry_to_Mary",
+    "S03_Catholicism_Elizabethan_Settlement",
+    "S04_State_Control_and_Resistance",
+    "S05_Economy_Society_Culture_and_Interpretations",
+    "S06_Germany_in_1515",
+    "S07_Luthers_Early_Challenge",
+    "S08_Development_and_Leadership",
+    "S09_Spread_Survival_and_Exam_Technique",
+    "S10_Breadth_Government_and_Resistance",
+    "S11_Simnel_and_Warbeck",
+    "S12_Pilgrimage_of_Grace",
+    "S13_Western_Rebellion_and_Ketts_Rebellion",
+    "S14_Wyatt_and_Northern_Earls",
+    "S15_Tyrones_Rebellion_and_Source_Skills",
+    "S16_Synthesis_and_Exam_Technique"
+  ]
+}

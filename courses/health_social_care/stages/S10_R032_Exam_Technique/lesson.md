@@ -1,0 +1,32 @@
+# S10_R032_Exam_Technique - Lesson: R032 exam technique: paper structure, command words and extended answers
+
+## Goal
+The learner can use the paper structure, command words and levels of response to gain marks on short, six-mark, eight-mark and scenario questions.
+
+## Syllabus items taught here
+- R032-X1 - R032 exam paper structure and marks: know the paper layout, timing and what each question type tests
+- R032-X2 - Command words in short and medium answers: answer identify, state, describe, explain, outline and justify questions as the board expects
+- R032-X3 - 6-mark extended response: level-of-response answers: write a Level 3 six-mark explanation with two developed examples
+- R032-X4 - 8-mark extended response: discuss and evaluate (PO3): write a Level 3 eight-mark discussion with analysis and a judgement
+- R032-X5 - Answering scenario-based questions: apply knowledge to the named person, setting and needs in a scenario
+
+## How to teach this
+Give the learner two answers to the same six-mark question, one that lists and one that develops, and ask them to mark each using the levels. Then do the same for an eight-mark question. Use the levels as a checklist. All practice must use original questions, not real papers, and short timed bursts (1 hour 15 minutes for 70 marks is about a minute a mark, with five minutes for checking).
+
+#### R032-X1 R032 exam paper structure and marks
+R032 is 1 hour 15 minutes, 70 marks, six compulsory questions, no calculator. Question types are short and medium answer, and extended response. Three questions are set in a situation or scenario. There are always up to two 6-mark extended response questions requiring an extended answer, and always one 8-mark extended response question assessing PO3, needing discussion or evaluation. The question topic may come from any relevant aspect of the teaching content, and a direct question may be asked about any listed content (except where the spec says 'know' only, meaning recall of the meaning or an example is enough, for example the meaning of person-centred values or types of setting). Timing rule of thumb: about one minute per mark; 6 and 8 mark answers need 7 to 10 minutes each. Read the whole question, including the scenario name, setting and needs, before writing.
+
+#### R032-X2 Command words in short and medium answers
+Appendix B gives the meanings. Identify and state: give a short, factual answer, no explanation needed. Outline: a short account or summary. Describe: give an account including all relevant characteristics; a detailed account. Explain: give reasons or causes; use because, therefore, this means that. Justify: give good reasons for an opinion or conclusion. Analyse: break information into parts and explain the impact using a logical chain of reasoning. Discuss: present, analyse and evaluate relevant points. Evaluate: make a reasoned judgement considering different factors. Compare and contrast: similarities and differences. Rule: the number of marks tells you the number of points; a 3-mark 'explain' usually wants one point, a reason and a consequence. Example: 'State one right' (1 mark) is 'confidentiality'; 'Explain how confidentiality benefits a service user' (2 marks) needs 'they trust staff because their information is not shared, so they are open about their health'.
+
+#### R032-X3 6-mark extended response: level-of-response answers
+Six-mark questions are marked by levels. In OCR's published wording (paraphrased): Level 3 (5 to 6 marks) is a thorough explanation with detailed understanding, two examples given, relevant points many of which are developed, and consistent use of appropriate terminology. Level 2 (3 to 4) is an adequate explanation with sound understanding, two examples and some developed points, using some terminology. Level 1 (1 to 2) is a brief attempt with limited understanding, examples not relevant or undeveloped, little terminology. Two examples are needed to reach Level 2. Method: pick two specific examples from the teaching content that fit the scenario, and for each write point, evidence, so what? For example: 'Fit for purpose equipment: a hoist suited to Mr Ali's weight means staff can move him safely, so he avoids falls, and staff avoid back injuries.' Then repeat with the second example (for instance risk assessment), using terms from the spec.
+
+#### R032-X4 8-mark extended response: discuss and evaluate (PO3)
+The 8-mark question always assesses PO3, so it needs discussion or evaluation, not description. Paraphrasing the levels: Level 3 (6 to 8) is a thorough discussion with detailed understanding, relevant points many of them developed, two or more examples considered and consistent terminology. Level 2 (3 to 5) is adequate with sound understanding, some developed points and at least two examples. Level 1 (1 to 2) is brief, limited, with at least one example. Method: PEEL adapted: Point (name the skill, value or measure), Example (in the scenario), Effect (on the person's health and wellbeing), Link (to another PIES area or to the other side). Cover the impact of using it and, where the question asks, the drawbacks or consequences of not using it. Finish with a short judgement: which factor matters most and why. Worked line: 'Because Beth reassures Mr Lee using clear, jargon-free language, he feels valued and more willing to follow the treatment; however, if she also spoke too fast this could have confused him, which shows pace is equally important.'
+
+#### R032-X5 Answering scenario-based questions
+Three questions are set in a scenario. The mark scheme accepts answers that are appropriate for the named person and setting, and it rejects answers that do not fit (for example sign language for someone who does not speak English). Use the scenario: name the person, their age, condition or need, and the setting, and match the content to them. Underline the setting, the service user's need, the practitioner's job and the verb. Common errors: generic answers that could be about anyone; describing when asked to explain; giving three examples in a two-mark question; not using person-centred value or right terms; and answering about poor communication when the question asks about good communication. Worked example: in a scenario about a Polish-speaking patient at a GP surgery, name an interpreter, translated leaflets and patient, clear speech, not Braille or Makaton.
+
+## Explicitly not here
+The NEA units R033 and R035 (later stages). The full timed mixed paper is at the end of the course.

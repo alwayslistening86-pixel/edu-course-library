@@ -1,0 +1,1318 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "Pearson Edexcel Level 1/Level 2 GCSE (9-1) in History (1HI0) specification: Paper 1 Option 10 (thematic study and Whitechapel), Paper 2 Options P3 and B4, Paper 3 Option 31, section 3 Assessment information and Assessment Objectives",
+    "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf",
+    "version": "Issue 6, June 2024",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "H-STRUCT",
+      "title": "Qualification structure: three papers, 168 marks, weightings",
+      "topic_area": "Assessment",
+      "tier": "Understand the three externally examined papers, their timings, marks and weightings"
+    },
+    {
+      "id": "H-AO1",
+      "title": "AO1: knowledge and understanding of key features and characteristics",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-AO2",
+      "title": "AO2: explain and analyse using second-order concepts",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-AO3",
+      "title": "AO3: analyse, evaluate and use contemporary sources",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-AO4",
+      "title": "AO4: analyse and evaluate interpretations",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-SPAG",
+      "title": "Spelling, punctuation, grammar and use of specialist terminology (8 marks)",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-EXT",
+      "title": "Extended writing, sustained reasoning and stimulus points",
+      "topic_area": "Assessment"
+    },
+    {
+      "id": "H-SO1",
+      "title": "Second-order concepts: causation and consequence",
+      "topic_area": "Second-order concepts"
+    },
+    {
+      "id": "H-SO2",
+      "title": "Second-order concepts: change and continuity",
+      "topic_area": "Second-order concepts"
+    },
+    {
+      "id": "H-SO3",
+      "title": "Second-order concepts: similarity and difference",
+      "topic_area": "Second-order concepts"
+    },
+    {
+      "id": "H-SO4",
+      "title": "Second-order concepts: significance",
+      "topic_area": "Second-order concepts"
+    },
+    {
+      "id": "H-SRC",
+      "title": "Working with contemporary sources: inference, content, provenance, context",
+      "topic_area": "Sources"
+    },
+    {
+      "id": "H-INT",
+      "title": "Working with interpretations: how and why they differ",
+      "topic_area": "Interpretations"
+    },
+    {
+      "id": "10.0a",
+      "title": "Crime and punishment: the nature and process of change",
+      "topic_area": "10 Crime and punishment: process of change"
+    },
+    {
+      "id": "10.0b",
+      "title": "Key factors: attitudes in society, individuals and institutions, science and technology",
+      "topic_area": "10 Crime and punishment: process of change"
+    },
+    {
+      "id": "10.0c",
+      "title": "How factors worked together; using strand 3 case studies",
+      "topic_area": "10 Crime and punishment: process of change"
+    },
+    {
+      "id": "10.1.1a",
+      "title": "Medieval crimes against the person, property and authority; poaching as social crime",
+      "topic_area": "10 c1000-c1500 medieval England"
+    },
+    {
+      "id": "10.1.1b",
+      "title": "Changing definitions of crime after the Norman Conquest; William I's Forest Laws",
+      "topic_area": "10 c1000-c1500 medieval England"
+    },
+    {
+      "id": "10.1.2a",
+      "title": "Law enforcement in Anglo-Saxon, Norman and later medieval England: tithings, hue and cry, parish constable",
+      "topic_area": "10 c1000-c1500 medieval England"
+    },
+    {
+      "id": "10.1.2b",
+      "title": "Deterrence and retribution: fines, corporal and capital punishment; the Saxon Wergild",
+      "topic_area": "10 c1000-c1500 medieval England"
+    },
+    {
+      "id": "10.1.3",
+      "title": "Case study: the Church, Sanctuary, Benefit of Clergy and trial by ordeal (early thirteenth century)",
+      "topic_area": "10 c1000-c1500 medieval England"
+    },
+    {
+      "id": "10.2.1a",
+      "title": "Continuity and change in crimes against the person, property and authority, including heresy and treason",
+      "topic_area": "10 c1500-c1700 early modern England"
+    },
+    {
+      "id": "10.2.1b",
+      "title": "New definitions of crime in the sixteenth century: vagabondage and witchcraft",
+      "topic_area": "10 c1500-c1700 early modern England"
+    },
+    {
+      "id": "10.2.2a",
+      "title": "Law enforcement in early modern England, including town watchmen",
+      "topic_area": "10 c1500-c1700 early modern England"
+    },
+    {
+      "id": "10.2.2b",
+      "title": "Corporal and capital punishment; transportation begins; the start of the Bloody Code",
+      "topic_area": "10 c1500-c1700 early modern England"
+    },
+    {
+      "id": "10.2.3a",
+      "title": "Case study: the Gunpowder Plotters, 1605 - crimes and punishment",
+      "topic_area": "10 c1500-c1700 early modern England"
+    },
+    {
+      "id": "10.2.3b",
+      "title": "Case study: Matthew Hopkins and the witch-hunts of 1645-47",
+      "topic_area": "10 c1500-c1700 early modern England"
+    },
+    {
+      "id": "10.3.1a",
+      "title": "Highway robbery, poaching and smuggling in the eighteenth and nineteenth centuries",
+      "topic_area": "10 c1700-c1900 18th-19th century Britain"
+    },
+    {
+      "id": "10.3.1b",
+      "title": "Changing definitions of crime: the end of witchcraft prosecutions; the Tolpuddle Martyrs",
+      "topic_area": "10 c1700-c1900 18th-19th century Britain"
+    },
+    {
+      "id": "10.3.2a",
+      "title": "Law enforcement: the Fielding brothers, development of police forces, beginning of CID",
+      "topic_area": "10 c1700-c1900 18th-19th century Britain"
+    },
+    {
+      "id": "10.3.2b",
+      "title": "Purpose of punishment: transportation, public execution, Bloody Code, prison reform (Howard, Fry)",
+      "topic_area": "10 c1700-c1900 18th-19th century Britain"
+    },
+    {
+      "id": "10.3.3a",
+      "title": "Case study: Pentonville prison, mid nineteenth century - the separate system",
+      "topic_area": "10 c1700-c1900 18th-19th century Britain"
+    },
+    {
+      "id": "10.3.3b",
+      "title": "Key individual: Robert Peel - penal reform and the Metropolitan Police",
+      "topic_area": "10 c1700-c1900 18th-19th century Britain"
+    },
+    {
+      "id": "10.4.1a",
+      "title": "Continuity and change in crimes since 1900, including new forms of theft and smuggling",
+      "topic_area": "10 c1900-present modern Britain"
+    },
+    {
+      "id": "10.4.1b",
+      "title": "Changing definitions of crime: driving offences, race crimes and drug crimes",
+      "topic_area": "10 c1900-present modern Britain"
+    },
+    {
+      "id": "10.4.2a",
+      "title": "Law enforcement: Neighbourhood Watch; specialisation, science and technology, prevention",
+      "topic_area": "10 c1900-present modern Britain"
+    },
+    {
+      "id": "10.4.2b",
+      "title": "Abolition of the death penalty; open prisons; young offenders; non-custodial punishments",
+      "topic_area": "10 c1900-present modern Britain"
+    },
+    {
+      "id": "10.4.3a",
+      "title": "Case study: Conscientious Objectors in the First and Second World Wars",
+      "topic_area": "10 c1900-present modern Britain"
+    },
+    {
+      "id": "10.4.3b",
+      "title": "Case study: the Derek Bentley case and the abolition of the death penalty",
+      "topic_area": "10 c1900-present modern Britain"
+    },
+    {
+      "id": "10.W1a",
+      "title": "Whitechapel: local context - housing, overcrowding, Peabody Estate, workhouses, environment and crime",
+      "topic_area": "10 Whitechapel c1870-c1900"
+    },
+    {
+      "id": "10.W1b",
+      "title": "Whitechapel: inhabitants - employment, poverty, lodging houses, pubs, migration",
+      "topic_area": "10 Whitechapel c1870-c1900"
+    },
+    {
+      "id": "10.W1c",
+      "title": "Whitechapel: organisation of policing - beat constable, H Division, rookeries, alleys and courts, crimes and antisocial behaviour",
+      "topic_area": "10 Whitechapel c1870-c1900"
+    },
+    {
+      "id": "10.W1d",
+      "title": "Whitechapel: investigative policing, Jack the Ripper, media, Vigilance Committee",
+      "topic_area": "10 Whitechapel c1870-c1900"
+    },
+    {
+      "id": "10.W1e",
+      "title": "Whitechapel: national and regional context - the Met, recruits, CID, Home Secretary, Sir Charles Warren, public attitudes",
+      "topic_area": "10 Whitechapel c1870-c1900"
+    },
+    {
+      "id": "10.W2a",
+      "title": "Whitechapel enquiries: knowledge of local sources",
+      "topic_area": "10 Whitechapel sources"
+    },
+    {
+      "id": "10.W2b",
+      "title": "Whitechapel enquiries: knowledge of national sources",
+      "topic_area": "10 Whitechapel sources"
+    },
+    {
+      "id": "10.W2c",
+      "title": "Whitechapel enquiries: strengths and weaknesses of different types of source",
+      "topic_area": "10 Whitechapel sources"
+    },
+    {
+      "id": "10.W2d",
+      "title": "Whitechapel enquiries: framing questions for a specific enquiry",
+      "topic_area": "10 Whitechapel sources"
+    },
+    {
+      "id": "10.W2e",
+      "title": "Whitechapel enquiries: selecting appropriate sources",
+      "topic_area": "10 Whitechapel sources"
+    },
+    {
+      "id": "Q-P1-1",
+      "title": "Paper 1 Q1: describe two features (historic environment)",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-2a",
+      "title": "Paper 1 Q2(a): how useful are Sources A and B for an enquiry into...",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-2b",
+      "title": "Paper 1 Q2(b): follow-up enquiry",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-3",
+      "title": "Paper 1 Q3: similarity or difference across time",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-4",
+      "title": "Paper 1 Q4: explain why (process of change)",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-56",
+      "title": "Paper 1 Q5/6: how far do you agree (extended judgement, 16 plus 4 SPaG)",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "P3.1.1a",
+      "title": "American West: Plains Indians - social and tribal structures, ways of life, survival",
+      "topic_area": "P3 American West KT1 c1835-c1862"
+    },
+    {
+      "id": "P3.1.1b",
+      "title": "American West: Plains Indians - beliefs about land and nature, attitudes to war and property",
+      "topic_area": "P3 American West KT1 c1835-c1862"
+    },
+    {
+      "id": "P3.1.2a",
+      "title": "American West: factors encouraging migration - Oregon Trail, Manifest Destiny, Gold Rush",
+      "topic_area": "P3 American West KT1 c1835-c1862"
+    },
+    {
+      "id": "P3.1.2b",
+      "title": "American West: early migration to c1850 - the Donner Party and the Mormon migration",
+      "topic_area": "P3 American West KT1 c1835-c1862"
+    },
+    {
+      "id": "P3.1.2c",
+      "title": "American West: development and problems of early settlement",
+      "topic_area": "P3 American West KT1 c1835-c1862"
+    },
+    {
+      "id": "P3.1.3a",
+      "title": "American West: tension with Plains Indians - Permanent Indian Frontier, Fort Laramie 1851, Indian Appropriations Act 1851",
+      "topic_area": "P3 American West KT1 c1835-c1862"
+    },
+    {
+      "id": "P3.1.3b",
+      "title": "American West: lawlessness in early towns and settlements",
+      "topic_area": "P3 American West KT1 c1835-c1862"
+    },
+    {
+      "id": "P3.2.1a",
+      "title": "American West: railroads - Pacific Railroad Act 1862, First Transcontinental 1869, network spread",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.2.1b",
+      "title": "American West: Homestead Act 1862, homesteaders' problems and solutions, Timber Culture Act 1873",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.2.1c",
+      "title": "American West: law and order in settlements - law officers, federal influence",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.2.2a",
+      "title": "American West: cattle industry - Iliff, McCoy, Goodnight, Abilene, railroads",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.2.2b",
+      "title": "American West: the changing role of the cowboy; ranchers and homesteaders",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.2.3a",
+      "title": "American West: impact of railroads, cattle industry and gold prospecting on Plains Indians",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.2.3b",
+      "title": "American West: government policy, reservations, second Fort Laramie Treaty 1868",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.2.3c",
+      "title": "American West: conflict - Little Crow's War, Sand Creek, Red Cloud's War",
+      "topic_area": "P3 American West KT2 c1862-c1876"
+    },
+    {
+      "id": "P3.3.1a",
+      "title": "American West: changes in farming - new technology and methods",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.1b",
+      "title": "American West: changes in the cattle industry - winter 1886-87, end of the open range",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.1c",
+      "title": "American West: continued settlement - Exodusters, Oklahoma Land Rush 1893, closure of the Indian Frontier",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.2a",
+      "title": "American West: law and order - sheriffs and marshals, Billy the Kid, Wyatt Earp, OK Corral 1881",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.2b",
+      "title": "American West: range wars and the Johnson County War 1892",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.2c",
+      "title": "American West: Little Big Horn 1876 and Wounded Knee 1890",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.3a",
+      "title": "American West: the hunting and extermination of the buffalo",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.3b",
+      "title": "American West: Plains Indians' lives on the reservations",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "P3.3.3c",
+      "title": "American West: changing government attitudes and the Dawes Act 1887",
+      "topic_area": "P3 American West KT3 c1876-c1895"
+    },
+    {
+      "id": "Q-P2P-1",
+      "title": "Paper 2 period study Q1: explain two consequences",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2P-2",
+      "title": "Paper 2 period study Q2: write a narrative account",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2P-3",
+      "title": "Paper 2 period study Q3: explain the importance of...",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "B4.1.1a",
+      "title": "Elizabeth: England in 1558 - society and government",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.1b",
+      "title": "Elizabeth: the Virgin Queen - legitimacy, gender, marriage, character and strengths",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.1c",
+      "title": "Elizabeth: challenges at home and abroad in 1558 - finances, religious divisions, the French threat",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.2a",
+      "title": "Elizabeth: the religious settlement of 1559 - features and impact",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.2b",
+      "title": "Elizabeth: the Church of England and its role in society",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.3a",
+      "title": "Elizabeth: the Puritan challenge - nature and extent",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.3b",
+      "title": "Elizabeth: the Catholic challenge - nobility, Papacy, foreign powers",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.4a",
+      "title": "Elizabeth: Mary, Queen of Scots - her claim to the English throne",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.1.4b",
+      "title": "Elizabeth: relations between Elizabeth and Mary, 1568-69",
+      "topic_area": "B4 Elizabeth KT1 1558-69"
+    },
+    {
+      "id": "B4.2.1a",
+      "title": "Elizabeth: Revolt of the Northern Earls 1569-70 - reasons and significance",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.1b",
+      "title": "Elizabeth: Ridolfi, Throckmorton and Babington plots; Walsingham and spies",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.1c",
+      "title": "Elizabeth: the execution of Mary, Queen of Scots, 1587 - reasons and significance",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.2a",
+      "title": "Elizabeth: relations with Spain - political, religious and commercial rivalry",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.2b",
+      "title": "Elizabeth: privateering and the activities of Drake",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.3a",
+      "title": "Elizabeth: outbreak of war 1585-88 - the Netherlands and Robert Dudley",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.3b",
+      "title": "Elizabeth: Drake and the raid on Cadiz, 1587",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.4a",
+      "title": "Elizabeth: Spanish invasion plans and the key events of the Armada",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.2.4b",
+      "title": "Elizabeth: reasons for the English victory",
+      "topic_area": "B4 Elizabeth KT2 1569-88"
+    },
+    {
+      "id": "B4.3.1a",
+      "title": "Elizabeth: education in the home and schools",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "B4.3.1b",
+      "title": "Elizabeth: sport, pastimes and the theatre",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "B4.3.2a",
+      "title": "Elizabeth: reasons for the increase in poverty and vagabondage",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "B4.3.2b",
+      "title": "Elizabeth: changing attitudes and policies towards the poor",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "B4.3.3a",
+      "title": "Elizabeth: factors prompting exploration - technology and trade",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "B4.3.3b",
+      "title": "Elizabeth: Drake's circumnavigation of the globe - reasons and significance",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "B4.3.4a",
+      "title": "Elizabeth: attempted colonisation of Virginia and Raleigh's significance",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "B4.3.4b",
+      "title": "Elizabeth: reasons for the failure of the first Virginia settlement",
+      "topic_area": "B4 Elizabeth KT3 1558-88"
+    },
+    {
+      "id": "Q-P2B-1",
+      "title": "Paper 2 British depth study Q1: describe two features",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2B-2",
+      "title": "Paper 2 British depth study Q2: explain why",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2B-34",
+      "title": "Paper 2 British depth study Q3/4: how far do you agree (judgement)",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "31.1.1a",
+      "title": "Weimar: end of the war - unrest, abdication of the Kaiser, armistice, new republic",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.1b",
+      "title": "Weimar: strengths and weaknesses of the Weimar Constitution",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.2a",
+      "title": "Weimar: early unpopularity - stab in the back and the Treaty of Versailles",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.2b",
+      "title": "Weimar: challenges from Left and Right - Spartacists, Freikorps, Kapp Putsch",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.2c",
+      "title": "Weimar: 1923 - hyperinflation and the French occupation of the Ruhr",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.3a",
+      "title": "Weimar: recovery - Stresemann, Rentenmark, Dawes and Young Plans, American loans",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.3b",
+      "title": "Weimar: Stresemann and international acceptance - Locarno Pact, League of Nations",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.4a",
+      "title": "Weimar: changes in the standard of living 1924-29",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.4b",
+      "title": "Weimar: changes in the position of women - work, politics, leisure",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.1.4c",
+      "title": "Weimar: cultural changes - architecture, art, cinema",
+      "topic_area": "Weimar KT1 1918-29"
+    },
+    {
+      "id": "31.2.1a",
+      "title": "Hitler: early career - German Workers' Party and the Nazi Party 1919-20",
+      "topic_area": "Weimar KT2 1919-33"
+    },
+    {
+      "id": "31.2.1b",
+      "title": "Hitler: the Twenty-Five Point Programme and the role of the SA",
+      "topic_area": "Weimar KT2 1919-33"
+    },
+    {
+      "id": "31.2.2a",
+      "title": "Hitler: the Munich Putsch - reasons, events, consequences; Mein Kampf",
+      "topic_area": "Weimar KT2 1919-33"
+    },
+    {
+      "id": "31.2.2b",
+      "title": "Hitler: limited support 1924-28; reorganisation and the Bamberg Conference 1926",
+      "topic_area": "Weimar KT2 1919-33"
+    },
+    {
+      "id": "31.2.3a",
+      "title": "Hitler: unemployment, its causes and impact; growth of the Communist Party",
+      "topic_area": "Weimar KT2 1919-33"
+    },
+    {
+      "id": "31.2.3b",
+      "title": "Hitler: reasons for growth in Nazi support - appeal, propaganda, SA",
+      "topic_area": "Weimar KT2 1919-33"
+    },
+    {
+      "id": "31.2.4a",
+      "title": "Hitler: 1932 elections and how Hitler became Chancellor - Hindenburg and von Papen",
+      "topic_area": "Weimar KT2 1919-33"
+    },
+    {
+      "id": "31.3.1a",
+      "title": "Nazi control: Reichstag Fire, Enabling Act, banning of parties and trade unions",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.1b",
+      "title": "Nazi control: Roehm and the SA, Night of the Long Knives, Hindenburg's death, Fuehrer, army oath",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.2a",
+      "title": "Nazi control: the Gestapo, SS and concentration camps",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.2b",
+      "title": "Nazi control: control of the legal system",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.3a",
+      "title": "Nazi control: Goebbels and the Ministry of Propaganda - censorship, media, rallies, sport, Berlin Olympics",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.3b",
+      "title": "Nazi control: culture and the arts - art, architecture, literature, film",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.3c",
+      "title": "Nazi control: the Churches - Concordat and Reich Church",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.4a",
+      "title": "Nazi control: the extent of support for the regime",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.4b",
+      "title": "Nazi control: opposition from the Churches, Pastor Niemoeller",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.3.4c",
+      "title": "Nazi control: opposition from the young - Swing Youth and Edelweiss Pirates",
+      "topic_area": "Nazi dictatorship KT3 1933-39"
+    },
+    {
+      "id": "31.4.1a",
+      "title": "Life in Nazi Germany: Nazi views on women and the family",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.4.1b",
+      "title": "Life in Nazi Germany: policies towards women - marriage, family, employment, appearance",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.4.2a",
+      "title": "Life in Nazi Germany: aims and policies towards the young - Hitler Youth, League of German Maidens",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.4.2b",
+      "title": "Life in Nazi Germany: control of the young through education - curriculum and teachers",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.4.3a",
+      "title": "Life in Nazi Germany: reducing unemployment - labour service, autobahns, rearmament, invisible unemployment",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.4.3b",
+      "title": "Life in Nazi Germany: standard of living - Labour Front, Strength Through Joy, Beauty of Labour",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.4.4a",
+      "title": "Life in Nazi Germany: racial beliefs and treatment of Slavs, Roma and Sinti, homosexuals, disabled people",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.4.4b",
+      "title": "Life in Nazi Germany: persecution of Jewish people - 1933 boycott, Nuremberg Laws, Kristallnacht",
+      "topic_area": "Nazi Germany KT4 1933-39"
+    },
+    {
+      "id": "31.INT1",
+      "title": "Historians' interpretations: the Weimar Republic and Hitler's rise (Kolb, Peukert, Evans, Turner, Kershaw)",
+      "topic_area": "Weimar and Nazi Germany interpretations"
+    },
+    {
+      "id": "31.INT2",
+      "title": "Historians' interpretations: Nazi control, consent and coercion, life in Nazi Germany (Gellately, Kershaw, Mommsen, Overy, Stargardt)",
+      "topic_area": "Weimar and Nazi Germany interpretations"
+    },
+    {
+      "id": "Q-P3-1",
+      "title": "Paper 3 Q1: what can you infer from Source A",
+      "topic_area": "Paper 3 question types"
+    },
+    {
+      "id": "Q-P3-2",
+      "title": "Paper 3 Q2(a)/(b): explain why (causation, choice of two)",
+      "topic_area": "Paper 3 question types"
+    },
+    {
+      "id": "Q-P3-3a",
+      "title": "Paper 3 Q3(a): how useful are Sources A and B",
+      "topic_area": "Paper 3 question types"
+    },
+    {
+      "id": "Q-P3-3b",
+      "title": "Paper 3 Q3(b): how do Interpretations 1 and 2 differ",
+      "topic_area": "Paper 3 question types"
+    },
+    {
+      "id": "Q-P3-3c",
+      "title": "Paper 3 Q3(c): suggest why the interpretations differ",
+      "topic_area": "Paper 3 question types"
+    },
+    {
+      "id": "Q-P3-3d",
+      "title": "Paper 3 Q3(d): how far do you agree with Interpretation 2 (16 plus 4 SPaG)",
+      "topic_area": "Paper 3 question types"
+    },
+    {
+      "id": "EX-11",
+      "title": "Option 11: Medicine in Britain, c1250-present and the British sector of the Western Front",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-12",
+      "title": "Option 12: Warfare and British society, c1250-present and London and the Second World War",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-13",
+      "title": "Option 13: Migrants in Britain, c800-present and Notting Hill, c1948-c1970",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-B1",
+      "title": "Option B1: Anglo-Saxon and Norman England, c1060-88",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-B2",
+      "title": "Option B2: The reigns of King Richard I and King John, 1189-1216",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-B3",
+      "title": "Option B3: Henry VIII and his ministers, 1509-40",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-P1",
+      "title": "Option P1: Spain and the New World, c1490-c1555",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-P2",
+      "title": "Option P2: British America, 1713-83: empire and revolution",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-P4",
+      "title": "Option P4: Superpower relations and the Cold War, 1941-91",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-P5",
+      "title": "Option P5: Conflict in the Middle East, 1945-95",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-30",
+      "title": "Option 30: Russia and the Soviet Union, 1917-41",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-32",
+      "title": "Option 32: Mao's China, 1945-76",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-33",
+      "title": "Option 33: The USA, 1954-75: conflict at home and abroad",
+      "topic_area": "Not selected"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "EX-11",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-12",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-13",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-B1",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-B2",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-B3",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-P1",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-P2",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-P4",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-P5",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-30",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-32",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-33",
+      "reason": "outside this course's selected options"
+    }
+  ],
+  "S01_How_the_Qualification_Works": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Section 1 Qualification at a glance",
+      "Section 3 Assessment information",
+      "Assessment Objectives"
+    ],
+    "syllabus_topic": "Assessment structure and assessment objectives",
+    "covers_items": [
+      "H-STRUCT",
+      "H-AO1",
+      "H-AO2",
+      "H-AO3",
+      "H-AO4",
+      "H-SPAG",
+      "H-EXT"
+    ]
+  },
+  "S02_Second_Order_Concepts_Sources_Interpretations": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Assessment Objectives AO2, AO3, AO4",
+      "DfE second-order concepts"
+    ],
+    "syllabus_topic": "Historical concepts and skills",
+    "covers_items": [
+      "H-SO1",
+      "H-SO2",
+      "H-SO3",
+      "H-SO4",
+      "H-SRC",
+      "H-INT"
+    ]
+  },
+  "S03_Crime_Process_of_Change_and_Medieval_Crime": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 10 The process of change",
+      "c1000-c1500 strand 1 Nature and changing definitions of criminal activity"
+    ],
+    "syllabus_topic": "Option 10 Crime and punishment in Britain, c1000-present: the process of change; medieval England",
+    "covers_items": [
+      "10.0a",
+      "10.0b",
+      "10.0c",
+      "10.1.1a",
+      "10.1.1b"
+    ]
+  },
+  "S04_Medieval_Enforcement_Church_and_Early_Modern_Crime": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 10 c1000-c1500 strands 2 and 3",
+      "c1500-c1700 strand 1"
+    ],
+    "syllabus_topic": "Option 10: c1000-c1500 strands 2-3; c1500-c1700 strand 1",
+    "covers_items": [
+      "10.1.2a",
+      "10.1.2b",
+      "10.1.3",
+      "10.2.1a",
+      "10.2.1b"
+    ]
+  },
+  "S05_Early_Modern_Enforcement_Punishment_and_Case_Studies": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 10 c1500-c1700 strands 2 and 3"
+    ],
+    "syllabus_topic": "Option 10: c1500-c1700 strands 2 and 3",
+    "covers_items": [
+      "10.2.2a",
+      "10.2.2b",
+      "10.2.3a",
+      "10.2.3b"
+    ]
+  },
+  "S06_Eighteenth_and_Nineteenth_Century_Crime": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 10 c1700-c1900 strand 1 Nature and changing definitions of criminal activity",
+      "strand 2 The nature of law enforcement and punishment"
+    ],
+    "syllabus_topic": "Option 10: c1700-c1900 strands 1 and 2",
+    "covers_items": [
+      "10.3.1a",
+      "10.3.1b",
+      "10.3.2a",
+      "10.3.2b",
+      "10.3.3a",
+      "10.3.3b"
+    ]
+  },
+  "S07_Crime_and_Punishment_since_1900": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 10 c1900-present strands 1-3"
+    ],
+    "syllabus_topic": "Option 10: c1900-present strands 1-3",
+    "covers_items": [
+      "10.4.1a",
+      "10.4.1b",
+      "10.4.2a",
+      "10.4.2b",
+      "10.4.3a",
+      "10.4.3b"
+    ]
+  },
+  "S08_Whitechapel_Context_and_Policing": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 10 Whitechapel, c1870-c1900: crime, policing and the inner city"
+    ],
+    "syllabus_topic": "Whitechapel c1870-c1900 historic environment",
+    "covers_items": [
+      "10.W1a",
+      "10.W1b",
+      "10.W1c",
+      "10.W1d",
+      "10.W1e"
+    ]
+  },
+  "S09_Whitechapel_Sources_and_Enquiry_Skills": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 10 Whitechapel, knowledge, selection and use of sources for historical enquiries"
+    ],
+    "syllabus_topic": "Whitechapel c1870-c1900: historical sources and enquiry skills",
+    "covers_items": [
+      "10.W2a",
+      "10.W2b",
+      "10.W2c",
+      "10.W2d",
+      "10.W2e"
+    ]
+  },
+  "S10_Paper_1_Question_Types": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Paper 1 assessment overview and sample assessment materials"
+    ],
+    "syllabus_topic": "Paper 1 assessment: question types and technique",
+    "covers_items": [
+      "Q-P1-1",
+      "Q-P1-2a",
+      "Q-P1-2b",
+      "Q-P1-3",
+      "Q-P1-4",
+      "Q-P1-56"
+    ]
+  },
+  "S11_Plains_Life_and_Early_Migration": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option P3 The American West, Key Topic 1: The early settlement of the West, c1835-62"
+    ],
+    "syllabus_topic": "Option P3 The American West, c1835-c1895: Key Topic 1, c1835-c1862",
+    "covers_items": [
+      "P3.1.1a",
+      "P3.1.1b",
+      "P3.1.2a",
+      "P3.1.2b",
+      "P3.1.2c",
+      "P3.1.3a",
+      "P3.1.3b"
+    ]
+  },
+  "S12_Development_of_the_Plains_1862_1876": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option P3 The American West, Key Topic 2: Development of the Plains, c1862-76"
+    ],
+    "syllabus_topic": "Option P3 The American West: Key Topic 2, c1862-c1876",
+    "covers_items": [
+      "P3.2.1a",
+      "P3.2.1b",
+      "P3.2.1c",
+      "P3.2.2a",
+      "P3.2.2b"
+    ]
+  },
+  "S13_Conflict_with_Plains_Indians_1862_1876": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option P3 The American West, Key Topic 2: Conflict with Plains Indians"
+    ],
+    "syllabus_topic": "Option P3 The American West: Key Topic 2, conflict and government policy, c1862-c1876",
+    "covers_items": [
+      "P3.2.3a",
+      "P3.2.3b",
+      "P3.2.3c",
+      "Q-P2P-1"
+    ]
+  },
+  "S14_Farming_Ranching_and_Law_in_the_Final_Phase": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option P3 The American West, Key Topic 3: Conflicts and conquest, farming, ranching and law and order"
+    ],
+    "syllabus_topic": "Option P3 The American West: Key Topic 3, c1876-c1895",
+    "covers_items": [
+      "P3.3.1a",
+      "P3.3.1b",
+      "P3.3.1c",
+      "P3.3.2a",
+      "P3.3.2b"
+    ]
+  },
+  "S15_Final_Conflict_Reservations_and_Assimilation": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option P3 The American West, Key Topic 3: The destruction of the Plains Indians' way of life"
+    ],
+    "syllabus_topic": "Option P3 The American West: Key Topic 3, final conflict and government policy",
+    "covers_items": [
+      "P3.3.2c",
+      "P3.3.3a",
+      "P3.3.3b",
+      "P3.3.3c",
+      "Q-P2P-2",
+      "Q-P2P-3"
+    ]
+  },
+  "S16_Elizabeths_Accession_and_Religious_Settlement": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option B4 Early Elizabethan England, Key Topic 1: Elizabeth's court and Parliament"
+    ],
+    "syllabus_topic": "Option B4 Early Elizabethan England, 1558-88: Key Topic 1, Elizabeth's court and Parliament",
+    "covers_items": [
+      "B4.1.1a",
+      "B4.1.1b",
+      "B4.1.1c",
+      "B4.1.2a",
+      "B4.1.2b"
+    ]
+  },
+  "S17_Puritan_and_Catholic_Challenges_and_Mary_Queen_of_Scots": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option B4 Early Elizabethan England, Key Topic 1: The challenge of Puritans and Catholics, and Mary, Queen of Scots"
+    ],
+    "syllabus_topic": "Option B4 Early Elizabethan England: Key Topic 1, challenges to the settlement",
+    "covers_items": [
+      "B4.1.3a",
+      "B4.1.3b",
+      "B4.1.4a",
+      "B4.1.4b"
+    ]
+  },
+  "S18_Plots_and_Relations_with_Spain": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option B4 Early Elizabethan England, Key Topic 2: The Revolt of the Northern Earls, plots and the execution of Mary"
+    ],
+    "syllabus_topic": "Option B4 Early Elizabethan England: Key Topic 2, Plots and revolts at home and abroad",
+    "covers_items": [
+      "B4.2.1a",
+      "B4.2.1b",
+      "B4.2.1c",
+      "B4.2.2a"
+    ]
+  },
+  "S19_War_with_Spain_and_the_Armada": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option B4 Early Elizabethan England, Key Topic 2: Outbreak of war and the Armada"
+    ],
+    "syllabus_topic": "Option B4 Early Elizabethan England: Key Topic 2, war with Spain",
+    "covers_items": [
+      "B4.2.2b",
+      "B4.2.3a",
+      "B4.2.3b",
+      "B4.2.4a",
+      "B4.2.4b"
+    ]
+  },
+  "S20_Elizabethan_Society_Education_and_Poverty": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option B4 Early Elizabethan England, Key Topic 3: Education, leisure and the problem of poverty"
+    ],
+    "syllabus_topic": "Option B4 Early Elizabethan England: Key Topic 3, Elizabethan society",
+    "covers_items": [
+      "B4.3.1a",
+      "B4.3.1b",
+      "B4.3.2a",
+      "B4.3.2b"
+    ]
+  },
+  "S21_Exploration_Colonisation_and_Paper_2_British_Depth_Study_Questions": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option B4 Early Elizabethan England, Key Topic 3: The New World",
+      "Paper 2 assessment overview"
+    ],
+    "syllabus_topic": "Option B4 Early Elizabethan England: Key Topic 3, exploration and colonisation; Paper 2 question types",
+    "covers_items": [
+      "B4.3.3a",
+      "B4.3.3b",
+      "B4.3.4a",
+      "B4.3.4b",
+      "Q-P2B-1",
+      "Q-P2B-2",
+      "Q-P2B-34"
+    ]
+  },
+  "S22_Birth_of_the_Weimar_Republic_and_Early_Crises": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 1: The Weimar Republic 1918-29"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany, 1918-39: Key Topic 1, the Weimar Republic 1918-29",
+    "covers_items": [
+      "31.1.1a",
+      "31.1.1b",
+      "31.1.2a",
+      "31.1.2b",
+      "31.1.2c"
+    ]
+  },
+  "S23_Recovery_under_Stresemann_and_Weimar_Culture": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 1: Recovery 1924-29"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 1, the recovery years 1924-29",
+    "covers_items": [
+      "31.1.3a",
+      "31.1.3b",
+      "31.1.4a",
+      "31.1.4b",
+      "31.1.4c"
+    ]
+  },
+  "S24_Hitlers_Early_Career_and_the_Munich_Putsch": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 2: Hitler's rise to 1928"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 2, Hitler and the growth of the Nazi Party 1919-33",
+    "covers_items": [
+      "31.2.1a",
+      "31.2.1b",
+      "31.2.2a",
+      "31.2.2b"
+    ]
+  },
+  "S25_Depression_and_Hitlers_Rise_to_Power": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 2: Hitler's rise to power 1929-33",
+      "interpretations"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 2, the Depression and the Nazis' rise to power",
+    "covers_items": [
+      "31.2.3a",
+      "31.2.3b",
+      "31.2.4a",
+      "31.INT1"
+    ]
+  },
+  "S26_Creating_the_Nazi_Dictatorship": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 3: Creating the dictatorship"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 3, Nazi control and dictatorship 1933-39",
+    "covers_items": [
+      "31.3.1a",
+      "31.3.1b",
+      "31.3.2a",
+      "31.3.2b"
+    ]
+  },
+  "S27_Nazi_Propaganda_Culture_and_the_Churches": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 3: Propaganda, censorship, culture and the Churches"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 3, propaganda, culture and the Churches",
+    "covers_items": [
+      "31.3.3a",
+      "31.3.3b",
+      "31.3.3c",
+      "31.3.4a"
+    ]
+  },
+  "S28_Opposition_and_Nazi_Policy_towards_Women": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 3: Opposition",
+      "Key Topic 4: Women"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 3, opposition; Key Topic 4, life in Nazi Germany",
+    "covers_items": [
+      "31.3.4b",
+      "31.3.4c",
+      "31.4.1a",
+      "31.4.1b"
+    ]
+  },
+  "S29_Nazi_Youth_Policy_and_the_Economy": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 4: Young people, employment and the standard of living"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 4, young people and the economy",
+    "covers_items": [
+      "31.4.2a",
+      "31.4.2b",
+      "31.4.3a",
+      "31.4.3b"
+    ]
+  },
+  "S30_Nazi_Racial_Policy_and_Persecution": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Option 31 Weimar and Nazi Germany, Key Topic 4: Racial policy",
+      "interpretations",
+      "Paper 3 assessment overview"
+    ],
+    "syllabus_topic": "Weimar and Nazi Germany: Key Topic 4, racial policy and persecution; interpretations; Paper 3 question types",
+    "covers_items": [
+      "31.4.4a",
+      "31.4.4b",
+      "31.INT2",
+      "Q-P3-1"
+    ]
+  },
+  "S31_Weimar_and_Nazi_Germany_Paper_3_Question_Types": {
+    "covers_syllabus_refs": [
+      "Edexcel 1HI0 Paper 3 assessment overview and sample assessment materials"
+    ],
+    "syllabus_topic": "Paper 3 assessment: question types and technique",
+    "covers_items": [
+      "Q-P3-2",
+      "Q-P3-3a",
+      "Q-P3-3b",
+      "Q-P3-3c",
+      "Q-P3-3d"
+    ]
+  }
+}

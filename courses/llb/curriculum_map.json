@@ -1,0 +1,638 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "Standard qualifying-law-degree topic breakdown for each of the twelve LLB subjects (offer/acceptance through discharge and remedies for Contract; actus reus through inchoate offences for Criminal; and so on), as found in any UK qualifying-law-degree textbook, module descriptor or reading list for that subject, cross-checked against the QAA Subject Benchmark Statement: Law (2023) for the threshold learning outcomes a law graduate must show. The Open University's own detailed unit-by-unit numbering within its six real LLB modules (W101, W102, W201, W202, W300, W301 -- each a large, multi-subject module) sits behind the enrolled-student VLE and could not be resolved from the open web, so this course keeps its own stable id scheme per subject (e.g. L4-Contract-1) rather than reproducing the OU's gated unit numbering, and records that fact honestly here rather than inventing numbers. See course.json's material_vintage for the mapping between this course's per-subject stages and the OU's six real bundled modules.",
+    "url": "https://www.open.ac.uk/courses/qualifications/r81",
+    "version": "Standard-topic itemisation compiled 2026-09-28 against the Open University LLB (R81) module list and stage structure; the OU's internal unit-by-unit numbering within each of its six real modules is not accessible and not reproduced.",
+    "itemised_on": "2026-09-28"
+  },
+  "_syllabus_items": [
+    {
+      "id": "L4-Contract-1",
+      "title": "Offer and invitation to treat",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-2",
+      "title": "Acceptance, revocation and the postal rule",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-3",
+      "title": "Consideration",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-4",
+      "title": "Promissory estoppel",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-5",
+      "title": "Intention to create legal relations",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-6",
+      "title": "Express and implied terms",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-7",
+      "title": "Exclusion and limitation clauses",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-8",
+      "title": "Misrepresentation",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-9",
+      "title": "Mistake",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-10",
+      "title": "Duress and undue influence",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Contract-11",
+      "title": "Discharge and remedies",
+      "topic_area": "Contract Law"
+    },
+    {
+      "id": "L4-Criminal-1",
+      "title": "Actus reus",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-2",
+      "title": "Mens rea",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-3",
+      "title": "Murder and voluntary manslaughter",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-4",
+      "title": "Involuntary manslaughter",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-5",
+      "title": "Non-fatal offences against the person",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-6",
+      "title": "Theft",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-7",
+      "title": "Robbery, burglary and fraud",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-8",
+      "title": "General defences: self-defence, duress and necessity",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-9",
+      "title": "General defences: insanity and intoxication",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-Criminal-10",
+      "title": "Inchoate offences: attempt and conspiracy",
+      "topic_area": "Criminal Law"
+    },
+    {
+      "id": "L4-LSM-1",
+      "title": "Sources of English law",
+      "topic_area": "Legal System and Method"
+    },
+    {
+      "id": "L4-LSM-2",
+      "title": "Precedent and the court hierarchy",
+      "topic_area": "Legal System and Method"
+    },
+    {
+      "id": "L4-LSM-3",
+      "title": "Statutory interpretation: the rules",
+      "topic_area": "Legal System and Method"
+    },
+    {
+      "id": "L4-LSM-4",
+      "title": "Statutory interpretation: the purposive approach and aids",
+      "topic_area": "Legal System and Method"
+    },
+    {
+      "id": "L4-LSM-5",
+      "title": "Civil and criminal court structure and process",
+      "topic_area": "Legal System and Method"
+    },
+    {
+      "id": "L4-LSM-6",
+      "title": "Legal research and citation",
+      "topic_area": "Legal System and Method"
+    },
+    {
+      "id": "L4-Public-1",
+      "title": "Parliamentary sovereignty",
+      "topic_area": "Public Law"
+    },
+    {
+      "id": "L4-Public-2",
+      "title": "The rule of law",
+      "topic_area": "Public Law"
+    },
+    {
+      "id": "L4-Public-3",
+      "title": "Separation of powers",
+      "topic_area": "Public Law"
+    },
+    {
+      "id": "L4-Public-4",
+      "title": "The royal prerogative",
+      "topic_area": "Public Law"
+    },
+    {
+      "id": "L4-Public-5",
+      "title": "Human Rights Act 1998",
+      "topic_area": "Public Law"
+    },
+    {
+      "id": "L4-Public-6",
+      "title": "Grounds for judicial review",
+      "topic_area": "Public Law"
+    },
+    {
+      "id": "L4-Public-7",
+      "title": "Judicial review procedure and remedies",
+      "topic_area": "Public Law"
+    },
+    {
+      "id": "L5-Tort-1",
+      "title": "Duty of care",
+      "topic_area": "Tort Law"
+    },
+    {
+      "id": "L5-Tort-2",
+      "title": "Breach of duty",
+      "topic_area": "Tort Law"
+    },
+    {
+      "id": "L5-Tort-3",
+      "title": "Causation and remoteness",
+      "topic_area": "Tort Law"
+    },
+    {
+      "id": "L5-Tort-4",
+      "title": "Occupiers' liability",
+      "topic_area": "Tort Law"
+    },
+    {
+      "id": "L5-Tort-5",
+      "title": "Nuisance and Rylands v Fletcher",
+      "topic_area": "Tort Law"
+    },
+    {
+      "id": "L5-Tort-6",
+      "title": "Vicarious liability",
+      "topic_area": "Tort Law"
+    },
+    {
+      "id": "L5-Tort-7",
+      "title": "Defences and remedies in tort",
+      "topic_area": "Tort Law"
+    },
+    {
+      "id": "L5-Family-1",
+      "title": "Marriage, civil partnership and nullity",
+      "topic_area": "Family Law"
+    },
+    {
+      "id": "L5-Family-2",
+      "title": "No-fault divorce procedure",
+      "topic_area": "Family Law"
+    },
+    {
+      "id": "L5-Family-3",
+      "title": "Financial remedies on divorce",
+      "topic_area": "Family Law"
+    },
+    {
+      "id": "L5-Family-4",
+      "title": "Child arrangements and the welfare principle",
+      "topic_area": "Family Law"
+    },
+    {
+      "id": "L5-Family-5",
+      "title": "Parental responsibility",
+      "topic_area": "Family Law"
+    },
+    {
+      "id": "L5-Family-6",
+      "title": "Domestic abuse and protective orders",
+      "topic_area": "Family Law"
+    },
+    {
+      "id": "L5-Property-1",
+      "title": "Legal estates in land",
+      "topic_area": "Property Law"
+    },
+    {
+      "id": "L5-Property-2",
+      "title": "Registered land and the LRA 2002",
+      "topic_area": "Property Law"
+    },
+    {
+      "id": "L5-Property-3",
+      "title": "Leases and licences",
+      "topic_area": "Property Law"
+    },
+    {
+      "id": "L5-Property-4",
+      "title": "Easements",
+      "topic_area": "Property Law"
+    },
+    {
+      "id": "L5-Property-5",
+      "title": "Freehold covenants",
+      "topic_area": "Property Law"
+    },
+    {
+      "id": "L5-Property-6",
+      "title": "Mortgages",
+      "topic_area": "Property Law"
+    },
+    {
+      "id": "L5-Property-7",
+      "title": "Co-ownership and trusts of land",
+      "topic_area": "Property Law"
+    },
+    {
+      "id": "L5-Commercial-1",
+      "title": "Sale of goods: implied terms",
+      "topic_area": "Commercial Law"
+    },
+    {
+      "id": "L5-Commercial-2",
+      "title": "Passing of property and risk",
+      "topic_area": "Commercial Law"
+    },
+    {
+      "id": "L5-Commercial-3",
+      "title": "Nemo dat and its exceptions",
+      "topic_area": "Commercial Law"
+    },
+    {
+      "id": "L5-Commercial-4",
+      "title": "Agency: creation and authority",
+      "topic_area": "Commercial Law"
+    },
+    {
+      "id": "L5-Commercial-5",
+      "title": "Agency: duties and liability",
+      "topic_area": "Commercial Law"
+    },
+    {
+      "id": "L5-Commercial-6",
+      "title": "International sale essentials",
+      "topic_area": "Commercial Law"
+    },
+    {
+      "id": "L6-Jurisprudence-1",
+      "title": "Natural law theory",
+      "topic_area": "Jurisprudence and Legal Theory"
+    },
+    {
+      "id": "L6-Jurisprudence-2",
+      "title": "Legal positivism: Austin and Hart",
+      "topic_area": "Jurisprudence and Legal Theory"
+    },
+    {
+      "id": "L6-Jurisprudence-3",
+      "title": "Dworkin's rights thesis",
+      "topic_area": "Jurisprudence and Legal Theory"
+    },
+    {
+      "id": "L6-Jurisprudence-4",
+      "title": "The Hart-Fuller-Devlin debates",
+      "topic_area": "Jurisprudence and Legal Theory"
+    },
+    {
+      "id": "L6-Jurisprudence-5",
+      "title": "Critical legal studies",
+      "topic_area": "Jurisprudence and Legal Theory"
+    },
+    {
+      "id": "L6-Jurisprudence-6",
+      "title": "Feminist legal theory",
+      "topic_area": "Jurisprudence and Legal Theory"
+    },
+    {
+      "id": "L6-ADR-1",
+      "title": "Negotiation theory and practice",
+      "topic_area": "Alternative Dispute Resolution"
+    },
+    {
+      "id": "L6-ADR-2",
+      "title": "Mediation",
+      "topic_area": "Alternative Dispute Resolution"
+    },
+    {
+      "id": "L6-ADR-3",
+      "title": "Arbitration",
+      "topic_area": "Alternative Dispute Resolution"
+    },
+    {
+      "id": "L6-ADR-4",
+      "title": "Expert determination and adjudication",
+      "topic_area": "Alternative Dispute Resolution"
+    },
+    {
+      "id": "L6-ADR-5",
+      "title": "Court encouragement of ADR",
+      "topic_area": "Alternative Dispute Resolution"
+    },
+    {
+      "id": "L6-Equity-1",
+      "title": "Nature and maxims of equity",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Equity-2",
+      "title": "The three certainties",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Equity-3",
+      "title": "Formalities and constitution of trusts",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Equity-4",
+      "title": "Resulting trusts",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Equity-5",
+      "title": "Constructive trusts",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Equity-6",
+      "title": "Trustees' duties and powers",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Equity-7",
+      "title": "Breach of trust",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Equity-8",
+      "title": "Equitable remedies",
+      "topic_area": "Equity and the Law of Trusts"
+    },
+    {
+      "id": "L6-Dissertation-1",
+      "title": "Formulating a research question",
+      "topic_area": "Independent Dissertation"
+    },
+    {
+      "id": "L6-Dissertation-2",
+      "title": "Literature review and source synthesis",
+      "topic_area": "Independent Dissertation"
+    },
+    {
+      "id": "L6-Dissertation-3",
+      "title": "Research methodology",
+      "topic_area": "Independent Dissertation"
+    },
+    {
+      "id": "L6-Dissertation-4",
+      "title": "Structuring a sustained argument",
+      "topic_area": "Independent Dissertation"
+    },
+    {
+      "id": "L6-Dissertation-5",
+      "title": "Critical evaluation and engaging with uncertainty",
+      "topic_area": "Independent Dissertation"
+    },
+    {
+      "id": "L6-Dissertation-6",
+      "title": "Referencing and academic integrity",
+      "topic_area": "Independent Dissertation"
+    }
+  ],
+  "_declared_exclusions": [],
+  "L4_Contract_1": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Contract Law topic list, Formation"
+    ],
+    "syllabus_topic": "Contract Law",
+    "covers_items": [
+      "L4-Contract-1",
+      "L4-Contract-2",
+      "L4-Contract-3",
+      "L4-Contract-4",
+      "L4-Contract-5"
+    ]
+  },
+  "L4_Contract_2": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Contract Law topic list, Content and vitiating factors, Discharge and remedies"
+    ],
+    "syllabus_topic": "Contract Law",
+    "covers_items": [
+      "L4-Contract-6",
+      "L4-Contract-7",
+      "L4-Contract-8",
+      "L4-Contract-9",
+      "L4-Contract-10",
+      "L4-Contract-11"
+    ]
+  },
+  "L4_Criminal_1": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Criminal Law topic list, General principles, Homicide"
+    ],
+    "syllabus_topic": "Criminal Law",
+    "covers_items": [
+      "L4-Criminal-1",
+      "L4-Criminal-2",
+      "L4-Criminal-3",
+      "L4-Criminal-4"
+    ]
+  },
+  "L4_Criminal_2": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Criminal Law topic list, Non-fatal offences, Property offences, Defences, Inchoate offences"
+    ],
+    "syllabus_topic": "Criminal Law",
+    "covers_items": [
+      "L4-Criminal-5",
+      "L4-Criminal-6",
+      "L4-Criminal-7",
+      "L4-Criminal-8",
+      "L4-Criminal-9",
+      "L4-Criminal-10"
+    ]
+  },
+  "L4_Legal_System_and_Method": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Legal System and Method topic list"
+    ],
+    "syllabus_topic": "Legal System and Method",
+    "covers_items": [
+      "L4-LSM-1",
+      "L4-LSM-2",
+      "L4-LSM-3",
+      "L4-LSM-4",
+      "L4-LSM-5",
+      "L4-LSM-6"
+    ]
+  },
+  "L4_Public_Law": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Public/Constitutional Law topic list"
+    ],
+    "syllabus_topic": "Public Law",
+    "covers_items": [
+      "L4-Public-1",
+      "L4-Public-2",
+      "L4-Public-3",
+      "L4-Public-4",
+      "L4-Public-5",
+      "L4-Public-6",
+      "L4-Public-7"
+    ]
+  },
+  "L5_Tort_Law": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Tort Law topic list"
+    ],
+    "syllabus_topic": "Tort Law",
+    "covers_items": [
+      "L5-Tort-1",
+      "L5-Tort-2",
+      "L5-Tort-3",
+      "L5-Tort-4",
+      "L5-Tort-5",
+      "L5-Tort-6",
+      "L5-Tort-7"
+    ]
+  },
+  "L5_Family_Law": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Family Law topic list"
+    ],
+    "syllabus_topic": "Family Law",
+    "covers_items": [
+      "L5-Family-1",
+      "L5-Family-2",
+      "L5-Family-3",
+      "L5-Family-4",
+      "L5-Family-5",
+      "L5-Family-6"
+    ]
+  },
+  "L5_Property_Law": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Property/Land Law topic list"
+    ],
+    "syllabus_topic": "Property Law",
+    "covers_items": [
+      "L5-Property-1",
+      "L5-Property-2",
+      "L5-Property-3",
+      "L5-Property-4",
+      "L5-Property-5",
+      "L5-Property-6",
+      "L5-Property-7"
+    ]
+  },
+  "L5_Commercial_Law": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Commercial Law topic list"
+    ],
+    "syllabus_topic": "Commercial Law",
+    "covers_items": [
+      "L5-Commercial-1",
+      "L5-Commercial-2",
+      "L5-Commercial-3",
+      "L5-Commercial-4",
+      "L5-Commercial-5",
+      "L5-Commercial-6"
+    ]
+  },
+  "L6_Jurisprudence_and_Legal_Theory": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Jurisprudence topic list"
+    ],
+    "syllabus_topic": "Jurisprudence and Legal Theory",
+    "covers_items": [
+      "L6-Jurisprudence-1",
+      "L6-Jurisprudence-2",
+      "L6-Jurisprudence-3",
+      "L6-Jurisprudence-4",
+      "L6-Jurisprudence-5",
+      "L6-Jurisprudence-6"
+    ]
+  },
+  "L6_Alternative_Dispute_Resolution": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree ADR topic list"
+    ],
+    "syllabus_topic": "Alternative Dispute Resolution",
+    "covers_items": [
+      "L6-ADR-1",
+      "L6-ADR-2",
+      "L6-ADR-3",
+      "L6-ADR-4",
+      "L6-ADR-5"
+    ]
+  },
+  "L6_Equity_and_Trusts": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Equity and Trusts topic list"
+    ],
+    "syllabus_topic": "Equity and the Law of Trusts",
+    "covers_items": [
+      "L6-Equity-1",
+      "L6-Equity-2",
+      "L6-Equity-3",
+      "L6-Equity-4",
+      "L6-Equity-5",
+      "L6-Equity-6",
+      "L6-Equity-7",
+      "L6-Equity-8"
+    ]
+  },
+  "L6_Dissertation": {
+    "covers_syllabus_refs": [
+      "Standard qualifying-law-degree Dissertation/Independent Study topic list"
+    ],
+    "syllabus_topic": "Independent Dissertation",
+    "covers_items": [
+      "L6-Dissertation-1",
+      "L6-Dissertation-2",
+      "L6-Dissertation-3",
+      "L6-Dissertation-4",
+      "L6-Dissertation-5",
+      "L6-Dissertation-6"
+    ]
+  }
+}

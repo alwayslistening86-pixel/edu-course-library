@@ -1,0 +1,21 @@
+# S17_Causation_Remoteness_and_Economic_Loss - Test: Damage, causation and remoteness; pure economic loss
+
+## How to run this
+A real checkpoint in AQA's style: a mix of short knowledge questions, application-to-scenario questions and levels-marked extended writing (discursive essay or extended scenario) at tariffs matching the real papers (typically 4-6 marks for short knowledge, 5-10 for application, 15 for a discursive essay, up to 30 for an extended scenario or scenario-plus-essay), with marks shown. Give the whole test at once, with no hints, under rough time pressure (allow about 1.2 minutes per mark, matching the real papers' 100 marks in 120 minutes). Then mark against the mark schemes below -- short/application items by the M/A/B points the answer key allows, extended writing by AQA's generic levels of response -- and this stage's entry in `rubric.json`.
+
+## Test items
+1. Explain, with authority, why pure economic loss is generally not recoverable in negligence, and one recognised exception. [8 marks]
+2. An accountant, asked informally by a friend for a quick view on whether a small business is a 'safe bet' to invest in, gives a confident but carelessly researched positive opinion, knowing the friend is about to invest their savings on the strength of it. The business fails soon after and the friend loses the investment. Using IRAC, advise on a possible negligence claim. [10 marks]
+
+## Answer key (for the tutor only)
+1. [8] M2 pure economic loss (financial loss unaccompanied by physical damage to the claimant's own property) is generally irrecoverable as a matter of policy, to avoid indeterminate liability to an indeterminate class for an indeterminate amount, illustrated in Spartan Steel & Alloys Ltd v Martin & Co (Contractors) Ltd [1973] QB 27 (lost profit on melts with no physical damage was irrecoverable, unlike the loss consequential on the damaged melt); M3 the exception for negligent misstatement, where a special relationship of proximity and reasonable, known reliance exists (Hedley Byrne & Co Ltd v Heller & Partners Ltd [1964] AC 465); M3 the special relationship typically requires an assumption of responsibility by the defendant for the accuracy of the statement, known to be relied on for the purpose in question.
+2. [10] Mark using issue-rule-application-conclusion (IRAC): identify the issue(s), state the rule precisely with its authority (case or statute, named exactly), apply it to the facts given, and reach a supported conclusion. Credit: issue = whether the friend can recover pure economic loss for a negligent misstatement; rule = pure economic loss requires a special relationship of proximity and reasonable, known reliance (Hedley Byrne & Co Ltd v Heller & Partners Ltd [1964] AC 465), which can arise even from informal advice where the adviser holds themselves out as knowledgeable and knows reliance will follow (Chaudhry v Prabhakar [1989] 1 WLR 29); application = the accountant's professional background, the confident tone of the opinion, and known knowledge that the friend was about to invest on the strength of it all support the necessary special relationship and known reliance; conclusion = the friend has a reasonable prospect of establishing a duty for negligent misstatement, and (subject to proving breach -- careless research below the standard of a reasonably competent accountant giving such an opinion -- and that the loss was caused by and not too remote from that breach) a claim for the lost investment as pure economic loss.
+
+## Grading
+Apply `rubric.json`'s `stage_rubrics.S17_Causation_Remoteness_and_Economic_Loss` exactly. Mark each answer against its mark scheme (method marks need the method shown; a multiple-choice item is worth 1 mark and needs every correct option and nothing else). 18 marks in all; a pass needs at least 11 (60%, rounded up). Record `pass` or `fail` in `syllabus_status`, with the mark and a short honest note on what was missed.
+
+## If not passed
+Name the specific misconceptions the wrong answers show, run remediation on those, then re-test with fresh items of the same types (never this exact set).
+
+## On pass
+Record the pass and move on to S18_Psychiatric_Injury_and_Occupiers_Liability_Visitors.

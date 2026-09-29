@@ -1,0 +1,745 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+    "url": "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF",
+    "version": "The current AQA 7162 specification (first teaching September 2017, unchanged in structure since; PDF update-stamped 10 Jul 2026), linked from aqa.org.uk/subjects/law/a-level/law-7162/specification and itemised 2026-09-27, cross-checked against the June 2023 Paper 1, Paper 2 and Paper 3A published mark schemes for question style, tariff and case citations",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers the four content areas 3.1-3.4 (plus 3.5 Human Rights, not selected) with lettered sub-headings but leaves the bullet detail under each sub-heading unnumbered. This course codes 3.1 The nature of law and the English legal system as NL.1-NL.4 (nature of law/law and society/law and morality/law and justice), RL.1 (the rule of law), PLM.1 (parliamentary law making), DL.1 (delegated legislation), SI.1 (statutory interpretation), JP.1 (judicial precedent), LR.1 (law reform), EU.1 (the European Union), CC.1 (civil courts and dispute resolution), CR.1 (criminal courts and lay people), LP.1 (legal personnel and the judiciary) and AJ.1 (access to justice and funding); 3.2 Criminal law as GE.1-GE.2 (general elements of liability), FO.1-FO.4 (fatal offences), NFO.1-NFO.4 (non-fatal offences), PO.1-PO.2 (property offences), PREL.1 (attempt) and DEF.1-DEF.4 (defences); 3.3 Tort as NEG.1-NEG.3 (negligence for physical injury/property), ECO.1-ECO.2 (economic loss and psychiatric injury), OL.1-OL.2 (occupiers' liability), NUI.1-NUI.2 (nuisance and Rylands v Fletcher), VL.1 (vicarious liability), TDEF.1 (tort defences) and REM.1 (tort remedies); and 3.4 Law of contract (the Paper 3A option) as FORM.1-FORM.4 (essential requirements), TERMS.1-TERMS.2 (contract terms and exclusion clauses), STAT.1-STAT.2 (Consumer Rights Act 2015 implied terms), VIT.1-VIT.2 (vitiating factors), DIS.1-DIS.2 (discharge) and CREM.1-CREM.2 (contract remedies). 3.5 Human Rights (the unselected Paper 3B option) is coded HR.1-HR.14 in the same style, matching that section's own sub-headings (rules, theory, international law, HR in the UK before/after the Human Rights Act 1998, Articles 2/5/8/10/11, restrictions, enforcement, HR and English law, and reform) and declared out of scope below."
+  },
+  "_syllabus_items": [
+    {
+      "id": "NL.1",
+      "title": "The nature of law: enforceable legal rules distinguished from other social/moral rules; the distinction between civil and criminal law; the main sources of law (custom, case law, legislation)",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "NL.2",
+      "title": "Law and society: the role of law in regulating society and balancing competing interests; enforceable legal rights and obligations; the meaning and importance of fault",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "NL.3",
+      "title": "Law and morality: the distinction between law and morality in a pluralist society; the relationship between the two; the extent to which law enforces moral values",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "NL.4",
+      "title": "Law and justice: the meaning of justice, and theories of justice (formal, procedural, distributive, corrective/commutative); the extent to which law achieves justice in civil and criminal contexts",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "RL.1",
+      "title": "The rule of law: the constitutional doctrine and its application to law-making, the legal system and substantive law -- no punishment without breach of a known law, equality before the law, and access to fair, clear legal process",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "PLM.1",
+      "title": "Parliamentary law making: Green and White Papers; the formal legislative process and the stages a Bill goes through; influences on Parliament (pressure groups, the media, the Law Commission); parliamentary supremacy and its limits; advantages and disadvantages of the process and its influences",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "DL.1",
+      "title": "Delegated legislation: types (Orders in Council, statutory instruments, by-laws); reasons for its use; parliamentary and judicial controls (including substantive and procedural ultra vires); advantages and disadvantages",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "SI.1",
+      "title": "Statutory interpretation: the literal, golden, mischief and purposive approaches; intrinsic and extrinsic aids; the impact of the Human Rights Act 1998 and retained EU law principles on interpretation; advantages and disadvantages of each approach",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "JP.1",
+      "title": "Judicial precedent: the doctrine of stare decisis; the court hierarchy including the Supreme Court; ratio decidendi and obiter dicta; law reporting; original, binding and persuasive precedent; distinguishing, overruling and reversing; advantages and disadvantages",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "LR.1",
+      "title": "Law reform: the role of the Law Commission in reform, codification, consolidation and repeal, and the process by which it works; advantages and disadvantages of Law Commission-led reform",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "EU.1",
+      "title": "The European Union: the institutions of the EU and their functions; sources of EU law (treaties, regulations, directives); the impact of EU law and its retained status on the law of England and Wales after Brexit",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "CC.1",
+      "title": "The civil legal system: the civil courts and the track system (small claims, fast track, multi-track); the civil appeal system; tribunals; the role of mediation and negotiation as dispute resolution methods",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "CR.1",
+      "title": "The criminal legal system and lay people: classification of offences (summary/either-way/indictable); the criminal courts and the appeal system; the powers of the criminal courts and adult offender sentencing; the role and powers of magistrates; the role, selection and advantages/disadvantages of juries",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "LP.1",
+      "title": "Legal personnel and the judiciary: the roles of barristers, solicitors and legal executives and how they are regulated; types of judge; the role of judges in civil and criminal courts; judicial independence -- security of tenure, immunity from suit, independence from the executive -- why it matters and how it is secured",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "AJ.1",
+      "title": "Access to justice and funding: alternative sources of legal advice (helplines, Citizens Advice, law centres, trade unions); private funding (own resources, insurance, conditional fee agreements); public funding for criminal and civil matters",
+      "topic_area": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)"
+    },
+    {
+      "id": "GE.1",
+      "title": "General elements of criminal liability: actus reus -- conduct, acts and omissions (and when a duty to act arises), state-of-affairs offences, voluntariness, causation (factual and legal, including intervening acts) and consequences",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "GE.2",
+      "title": "General elements of criminal liability: mens rea -- direct and oblique intention, subjective (Cunningham) recklessness, negligence, transferred malice, the coincidence of actus reus and mens rea (continuing act/single transaction), and strict liability offences",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "FO.1",
+      "title": "Fatal offences: murder -- the actus reus (unlawful killing of a person under the King's Peace) and mens rea (intention to kill or cause grievous bodily harm)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "FO.2",
+      "title": "Fatal offences: voluntary manslaughter -- loss of control under s54 Coroners and Justice Act 2009 (qualifying triggers, the objective standard of self-restraint expected)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "FO.3",
+      "title": "Fatal offences: voluntary manslaughter -- diminished responsibility under s2 Homicide Act 1957 as amended by the Coroners and Justice Act 2009 (abnormality of mental functioning from a recognised medical condition, substantially impairing responsibility)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "FO.4",
+      "title": "Fatal offences: involuntary manslaughter -- unlawful act (constructive) manslaughter and gross negligence manslaughter",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "NFO.1",
+      "title": "Non-fatal offences: common assault -- assault and battery at common law",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "NFO.2",
+      "title": "Non-fatal offences: assault occasioning actual bodily harm, s47 Offences Against the Person Act 1861",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "NFO.3",
+      "title": "Non-fatal offences: malicious wounding or inflicting grievous bodily harm, s20 Offences Against the Person Act 1861",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "NFO.4",
+      "title": "Non-fatal offences: wounding or causing grievous bodily harm with intent, s18 Offences Against the Person Act 1861",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "PO.1",
+      "title": "Property offences: theft, s1 Theft Act 1968 (appropriation, property, belonging to another, dishonesty, intention permanently to deprive)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "PO.2",
+      "title": "Property offences: robbery, s8 Theft Act 1968 (theft plus force or the threat of force, immediately before or at the time of stealing, in order to steal)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "PREL.1",
+      "title": "Preliminary offence: attempt, s1 Criminal Attempts Act 1981 (an act more than merely preparatory, done with intent to commit the full offence)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "DEF.1",
+      "title": "Defences: capacity -- insanity (the M'Naghten Rules) and automatism (including self-induced automatism)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "DEF.2",
+      "title": "Defences: capacity -- voluntary and involuntary intoxication and its effect on liability for specific and basic intent offences",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "DEF.3",
+      "title": "Defences: necessity -- self-defence and the prevention of crime, s76 Criminal Justice and Immigration Act 2008 (the need to act, the degree of force reasonable in the circumstances as the defendant believed them to be)",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "DEF.4",
+      "title": "Defences: necessity -- duress by threats and duress of circumstances",
+      "topic_area": "Paper 1: Criminal law (75 marks)"
+    },
+    {
+      "id": "NEG.1",
+      "title": "Liability in negligence: duty of care -- the neighbour principle and the modern Caparo three-stage test (foreseeability, proximity, fair/just/reasonable to impose a duty)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "NEG.2",
+      "title": "Liability in negligence: breach of duty -- the objective standard of the reasonable person, and the factors courts weigh (risk, cost/practicability of precautions, special characteristics, benefit to society)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "NEG.3",
+      "title": "Liability in negligence: damage -- factual causation (the 'but for' test), legal causation (intervening acts) and remoteness of damage (the type of harm must be a reasonably foreseeable kind)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "ECO.1",
+      "title": "Liability in negligence for pure economic loss: loss from negligent acts (generally not recoverable) and loss from negligent misstatement (recoverable where a special relationship of proximity/reliance exists)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "ECO.2",
+      "title": "Liability in negligence for psychiatric injury: the primary/secondary victim distinction and the additional control mechanisms secondary victims must satisfy (proximity of relationship, time/space, and perception through own unaided senses)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "OL.1",
+      "title": "Occupiers' liability to visitors under the Occupiers' Liability Act 1957: the common duty of care, who is an occupier, who is a visitor, and defences (warnings, independent contractors, volenti, contributory negligence)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "OL.2",
+      "title": "Occupiers' liability to trespassers under the Occupiers' Liability Act 1984: the conditions for a duty to arise (awareness of the danger, knowledge/reasonable grounds to believe someone is in the vicinity, the risk is one the occupier can reasonably be expected to protect against) and its more limited content",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "NUI.1",
+      "title": "Private nuisance: an unlawful, indirect interference with a person's use or enjoyment of land, the factors courts weigh (locality, duration, sensitivity, malice), and defences (prescription, statutory authority)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "NUI.2",
+      "title": "The rule in Rylands v Fletcher (1868): strict liability for the escape of a dangerous thing accumulated on land in the course of a non-natural use, and its relationship with private nuisance",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "VL.1",
+      "title": "Vicarious liability: the nature and public-policy purpose of the doctrine; the tests for employment status (the relationship 'akin to employment'); the 'close connection' test for whether a tort is committed in the course of employment",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "TDEF.1",
+      "title": "Tort defences: contributory negligence (Law Reform (Contributory Negligence) Act 1945, apportionment) and consent/volenti non fit injuria (full defence, requiring genuine free and informed agreement to the risk)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "REM.1",
+      "title": "Tort remedies: compensatory damages (special/general damages for physical injury, property and economic loss, and the duty to mitigate loss) and injunctions (to restrain a continuing tort such as nuisance)",
+      "topic_area": "Paper 2: Tort (75 marks)"
+    },
+    {
+      "id": "FORM.1",
+      "title": "Essential requirements of a valid contract: offer -- distinguished from an invitation to treat (goods on display, advertisements, auctions), how an offer may be terminated (revocation, rejection, lapse of time, counter-offer)",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "FORM.2",
+      "title": "Essential requirements of a valid contract: acceptance -- a mirror-image, unconditional agreement to the offer's terms, communication of acceptance, the postal rule, and acceptance by electronic/instantaneous communication",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "FORM.3",
+      "title": "Essential requirements of a valid contract: consideration -- must have some value but need not be adequate, must move from the promisee, and cannot be past; promissory estoppel as a limited exception where a promise is relied on; privity of contract and the Contracts (Rights of Third Parties) Act 1999",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "FORM.4",
+      "title": "Essential requirements of a valid contract: intention to create legal relations -- the rebuttable presumptions in social/domestic and commercial agreements, and how each presumption can be displaced on the facts",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "TERMS.1",
+      "title": "Contract terms: express terms; implied terms (by statute, custom, courts and, for commercial contracts, by trade custom); the distinction between conditions, warranties and innominate terms, and the remedy each attracts on breach",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "TERMS.2",
+      "title": "Exclusion and limitation clauses: incorporation (signature, notice, course of dealing) and construction (the contra proferentem rule) at common law; statutory control under the Unfair Contract Terms Act 1977 (s2, s3) for business-to-business contracts and the Consumer Rights Act 2015 (s31, s57, s65) for consumer contracts",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "STAT.1",
+      "title": "Statutory implied terms in consumer contracts for the supply of goods, Consumer Rights Act 2015: s9 satisfactory quality, s10 fitness for a particular purpose, s11 as described; the tiered consumer remedies -- s20 short-term right to reject, s23 repair or replacement, s24 price reduction or final right to reject",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "STAT.2",
+      "title": "Statutory implied terms in consumer contracts for the supply of services, Consumer Rights Act 2015: s49 reasonable care and skill, s52 performance within a reasonable time; the consumer remedies of s55 repeat performance and s56 price reduction",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "VIT.1",
+      "title": "Vitiating factors: misrepresentation -- a false statement of fact inducing the contract; the categories (fraudulent, negligent under Misrepresentation Act 1967 s2(1), and innocent) and the remedies (rescission, damages) each attracts",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "VIT.2",
+      "title": "Vitiating factors: economic duress -- illegitimate pressure that is a significant cause of entering the contract, leaving the victim no reasonable alternative, and the remedy of rescission",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "DIS.1",
+      "title": "Discharge of a contract: by performance (the general rule of complete and exact performance, and its exceptions) and by breach (actual and anticipatory breach, and when a breach entitles the innocent party to treat the contract as discharged)",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "DIS.2",
+      "title": "Discharge of a contract: by frustration -- events making performance impossible, illegal or radically different from what was contracted for, and the effect of the Law Reform (Frustrated Contracts) Act 1943",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "CREM.1",
+      "title": "Contract remedies: compensatory damages -- the categories of recoverable loss, causation, remoteness (the rule in Hadley v Baxendale) and the claimant's duty to mitigate loss",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "CREM.2",
+      "title": "Contract remedies: equitable remedies -- specific performance and rescission, and why they are discretionary and subject to equitable bars (delay, a claimant not coming 'with clean hands', third-party rights)",
+      "topic_area": "Paper 3A: Law of contract (75 marks) -- the option this course takes"
+    },
+    {
+      "id": "HR.1",
+      "title": "Human rights: the rules in human rights law -- the right to life, liberty and security, privacy, expression and assembly/association under the European Convention on Human Rights and UK law (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.2",
+      "title": "Human rights: theory -- theories of rights, the distinction between rights and liberties, and the scope of fundamental human rights (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.3",
+      "title": "Human rights in international law: the Second World War and its aftermath, the United Nations and the Universal Declaration of Human Rights 1948, the Council of Europe and the European Convention on Human Rights 1953 (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.4",
+      "title": "Human rights in the UK before the Human Rights Act 1998: the status of the European Convention and the impact of European Court of Human Rights decisions (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.5",
+      "title": "Human rights in the UK after the Human Rights Act 1998: the extent and method of incorporation, its constitutional impact and interaction with devolution, and criticisms of the Act (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.6",
+      "title": "Article 2, the right to life: the qualified right and its justified exceptions (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.7",
+      "title": "Article 5, liberty and security: the right and the grounds for justified deprivation of liberty (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.8",
+      "title": "Article 8, the right to respect for private and family life, home and correspondence (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.9",
+      "title": "Article 10, freedom of expression, including the right to receive and communicate information and ideas (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.10",
+      "title": "Article 11, freedom of peaceful assembly and freedom of association (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.11",
+      "title": "Restrictions on qualified rights: the framework in Articles 8.2, 10.2 and 11.2 and the general requirements for a justified restriction (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.12",
+      "title": "Enforcement of human rights: claims to the European Court of Human Rights, the role of domestic courts, and judicial review (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.13",
+      "title": "Human rights and English law in practice: the interaction of the right to life, liberty, privacy and expression/assembly with specific criminal and civil provisions (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    },
+    {
+      "id": "HR.14",
+      "title": "Reform of UK human rights protection (not taught)",
+      "topic_area": "Paper 3B: Human rights (75 marks) -- the option this course does not take"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "HR.1",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.2",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.3",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.4",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.5",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.6",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.7",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.8",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.9",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.10",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.11",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.12",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.13",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    },
+    {
+      "id": "HR.14",
+      "reason": "Paper 3 optional section not selected. AQA 7162 candidates study one of two Paper 3 options -- Law of Contract (3A) or Human Rights (3B); this course takes Contract, the more widely taught option and the one that overlaps most usefully with this library's other law courses (CILEX, SQE)."
+    }
+  ],
+  "S01_Nature_of_Law_and_Society": {
+    "covers_syllabus_refs": [
+      "7162 NL.1",
+      "7162 NL.2",
+      "7162 NL.3",
+      "7162 NL.4"
+    ],
+    "syllabus_topic": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)",
+    "covers_items": [
+      "NL.1",
+      "NL.2",
+      "NL.3",
+      "NL.4"
+    ]
+  },
+  "S02_Rule_of_Law_and_Parliamentary_Law_Making": {
+    "covers_syllabus_refs": [
+      "7162 RL.1",
+      "7162 PLM.1"
+    ],
+    "syllabus_topic": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)",
+    "covers_items": [
+      "RL.1",
+      "PLM.1"
+    ]
+  },
+  "S03_Delegated_Legislation_and_Statutory_Interpretation": {
+    "covers_syllabus_refs": [
+      "7162 DL.1",
+      "7162 SI.1"
+    ],
+    "syllabus_topic": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)",
+    "covers_items": [
+      "DL.1",
+      "SI.1"
+    ]
+  },
+  "S04_Precedent_Law_Reform_and_the_EU": {
+    "covers_syllabus_refs": [
+      "7162 JP.1",
+      "7162 LR.1",
+      "7162 EU.1"
+    ],
+    "syllabus_topic": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)",
+    "covers_items": [
+      "JP.1",
+      "LR.1",
+      "EU.1"
+    ]
+  },
+  "S05_Civil_and_Criminal_Courts": {
+    "covers_syllabus_refs": [
+      "7162 CC.1",
+      "7162 CR.1"
+    ],
+    "syllabus_topic": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)",
+    "covers_items": [
+      "CC.1",
+      "CR.1"
+    ]
+  },
+  "S06_Legal_Personnel_Judiciary_and_Access_to_Justice": {
+    "covers_syllabus_refs": [
+      "7162 LP.1",
+      "7162 AJ.1"
+    ],
+    "syllabus_topic": "The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper)",
+    "covers_items": [
+      "LP.1",
+      "AJ.1"
+    ]
+  },
+  "S07_General_Elements_of_Criminal_Liability": {
+    "covers_syllabus_refs": [
+      "7162 GE.1",
+      "7162 GE.2"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "GE.1",
+      "GE.2"
+    ]
+  },
+  "S08_Murder_and_Loss_of_Control": {
+    "covers_syllabus_refs": [
+      "7162 FO.1",
+      "7162 FO.2"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "FO.1",
+      "FO.2"
+    ]
+  },
+  "S09_Diminished_Responsibility_and_Involuntary_Manslaughter": {
+    "covers_syllabus_refs": [
+      "7162 FO.3",
+      "7162 FO.4"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "FO.3",
+      "FO.4"
+    ]
+  },
+  "S10_Common_Assault_and_ABH": {
+    "covers_syllabus_refs": [
+      "7162 NFO.1",
+      "7162 NFO.2"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "NFO.1",
+      "NFO.2"
+    ]
+  },
+  "S11_GBH_and_Wounding": {
+    "covers_syllabus_refs": [
+      "7162 NFO.3",
+      "7162 NFO.4"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "NFO.3",
+      "NFO.4"
+    ]
+  },
+  "S12_Theft_and_Robbery": {
+    "covers_syllabus_refs": [
+      "7162 PO.1",
+      "7162 PO.2"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "PO.1",
+      "PO.2"
+    ]
+  },
+  "S13_Attempt_and_Capacity_Defences": {
+    "covers_syllabus_refs": [
+      "7162 PREL.1",
+      "7162 DEF.1"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "PREL.1",
+      "DEF.1"
+    ]
+  },
+  "S14_Intoxication_and_Self_Defence": {
+    "covers_syllabus_refs": [
+      "7162 DEF.2",
+      "7162 DEF.3"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "DEF.2",
+      "DEF.3"
+    ]
+  },
+  "S15_Duress": {
+    "covers_syllabus_refs": [
+      "7162 DEF.4"
+    ],
+    "syllabus_topic": "Paper 1: Criminal law (75 marks)",
+    "covers_items": [
+      "DEF.4"
+    ]
+  },
+  "S16_Duty_and_Breach_in_Negligence": {
+    "covers_syllabus_refs": [
+      "7162 NEG.1",
+      "7162 NEG.2"
+    ],
+    "syllabus_topic": "Paper 2: Tort (75 marks)",
+    "covers_items": [
+      "NEG.1",
+      "NEG.2"
+    ]
+  },
+  "S17_Causation_Remoteness_and_Economic_Loss": {
+    "covers_syllabus_refs": [
+      "7162 NEG.3",
+      "7162 ECO.1"
+    ],
+    "syllabus_topic": "Paper 2: Tort (75 marks)",
+    "covers_items": [
+      "NEG.3",
+      "ECO.1"
+    ]
+  },
+  "S18_Psychiatric_Injury_and_Occupiers_Liability_Visitors": {
+    "covers_syllabus_refs": [
+      "7162 ECO.2",
+      "7162 OL.1"
+    ],
+    "syllabus_topic": "Paper 2: Tort (75 marks)",
+    "covers_items": [
+      "ECO.2",
+      "OL.1"
+    ]
+  },
+  "S19_Occupiers_Liability_Trespassers_and_Private_Nuisance": {
+    "covers_syllabus_refs": [
+      "7162 OL.2",
+      "7162 NUI.1"
+    ],
+    "syllabus_topic": "Paper 2: Tort (75 marks)",
+    "covers_items": [
+      "OL.2",
+      "NUI.1"
+    ]
+  },
+  "S20_Rylands_v_Fletcher_and_Vicarious_Liability": {
+    "covers_syllabus_refs": [
+      "7162 NUI.2",
+      "7162 VL.1"
+    ],
+    "syllabus_topic": "Paper 2: Tort (75 marks)",
+    "covers_items": [
+      "NUI.2",
+      "VL.1"
+    ]
+  },
+  "S21_Tort_Defences_and_Remedies": {
+    "covers_syllabus_refs": [
+      "7162 TDEF.1",
+      "7162 REM.1"
+    ],
+    "syllabus_topic": "Paper 2: Tort (75 marks)",
+    "covers_items": [
+      "TDEF.1",
+      "REM.1"
+    ]
+  },
+  "S22_Offer_and_Acceptance": {
+    "covers_syllabus_refs": [
+      "7162 FORM.1",
+      "7162 FORM.2"
+    ],
+    "syllabus_topic": "Paper 3A: Law of contract (75 marks) -- the option this course takes",
+    "covers_items": [
+      "FORM.1",
+      "FORM.2"
+    ]
+  },
+  "S23_Consideration_Privity_and_Intention": {
+    "covers_syllabus_refs": [
+      "7162 FORM.3",
+      "7162 FORM.4"
+    ],
+    "syllabus_topic": "Paper 3A: Law of contract (75 marks) -- the option this course takes",
+    "covers_items": [
+      "FORM.3",
+      "FORM.4"
+    ]
+  },
+  "S24_Contract_Terms_and_Exclusion_Clauses": {
+    "covers_syllabus_refs": [
+      "7162 TERMS.1",
+      "7162 TERMS.2"
+    ],
+    "syllabus_topic": "Paper 3A: Law of contract (75 marks) -- the option this course takes",
+    "covers_items": [
+      "TERMS.1",
+      "TERMS.2"
+    ]
+  },
+  "S25_Consumer_Rights_Act_Implied_Terms": {
+    "covers_syllabus_refs": [
+      "7162 STAT.1",
+      "7162 STAT.2"
+    ],
+    "syllabus_topic": "Paper 3A: Law of contract (75 marks) -- the option this course takes",
+    "covers_items": [
+      "STAT.1",
+      "STAT.2"
+    ]
+  },
+  "S26_Vitiating_Factors": {
+    "covers_syllabus_refs": [
+      "7162 VIT.1",
+      "7162 VIT.2"
+    ],
+    "syllabus_topic": "Paper 3A: Law of contract (75 marks) -- the option this course takes",
+    "covers_items": [
+      "VIT.1",
+      "VIT.2"
+    ]
+  },
+  "S27_Discharge_of_Contract": {
+    "covers_syllabus_refs": [
+      "7162 DIS.1",
+      "7162 DIS.2"
+    ],
+    "syllabus_topic": "Paper 3A: Law of contract (75 marks) -- the option this course takes",
+    "covers_items": [
+      "DIS.1",
+      "DIS.2"
+    ]
+  },
+  "S28_Contract_Remedies": {
+    "covers_syllabus_refs": [
+      "7162 CREM.1",
+      "7162 CREM.2"
+    ],
+    "syllabus_topic": "Paper 3A: Law of contract (75 marks) -- the option this course takes",
+    "covers_items": [
+      "CREM.1",
+      "CREM.2"
+    ]
+  }
+}

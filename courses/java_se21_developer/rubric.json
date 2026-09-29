@@ -1,0 +1,246 @@
+{
+  "stage_rubrics": {
+    "S01_Primitives_Wrappers_and_Math": {
+      "criteria": [
+        "1.1: Use primitives and wrapper classes; evaluate arithmetic and boolean expressions using the Math API, precedence rules, type conversions and casting"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 1.1 (Area 1 Handling Date, Time, Text, Numeric and Boolean Values)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S02_Strings_StringBuilder_Text_Blocks": {
+      "criteria": [
+        "1.2: Manipulate text, including text blocks, using the String and StringBuilder classes"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 1.2 (Area 1 Handling Date, Time, Text, Numeric and Boolean Values)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S03_Date_Time_API": {
+      "criteria": [
+        "1.3: Manipulate date, time, duration, period, instant and time-zone objects, including daylight saving time, using the Date-Time API"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 1.3 (Area 1 Handling Date, Time, Text, Numeric and Boolean Values)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S04_Program_Flow": {
+      "criteria": [
+        "2.1: Create program flow control constructs, including if/else, switch statements and expressions, loops, and break and continue"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 2.1 (Area 2 Controlling Program Flow)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S05_Objects_Classes_and_Records": {
+      "criteria": [
+        "3.1: Declare and instantiate Java objects, including nested class objects, and explain the object life-cycle: creation, reassigning references and garbage collection",
+        "3.2: Create classes and records, and define and use instance and static fields and methods, constructors, and instance and static initializers"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 3.1, 3.2 (Area 3 Using Object-Oriented Concepts in Java)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S06_Overloading_Scope_and_Immutability": {
+      "criteria": [
+        "3.3: Implement overloaded methods, including var-arg methods",
+        "3.4: Understand variable scopes, apply encapsulation, create immutable objects, and use local variable type inference"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 3.3, 3.4 (Area 3 Using Object-Oriented Concepts in Java)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S07_Inheritance_Polymorphism_Pattern_Matching": {
+      "criteria": [
+        "3.5: Implement inheritance with abstract and sealed types and records; override methods including Object's; polymorphism, object vs reference type, reference casting, instanceof, and pattern matching with instanceof and switch"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 3.5 (Area 3 Using Object-Oriented Concepts in Java)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S08_Interfaces_and_Enums": {
+      "criteria": [
+        "3.6: Create and use interfaces, identify functional interfaces, and use private, static and default interface methods",
+        "3.7: Create and use enum types with fields, methods and constructors"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 3.6, 3.7 (Area 3 Using Object-Oriented Concepts in Java)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S09_Exceptions": {
+      "criteria": [
+        "4.1: Handle exceptions using try/catch/finally, try-with-resources and multi-catch blocks, including custom exceptions"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 4.1 (Area 4 Handling Exceptions)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S10_Collections_Generics_Annotations": {
+      "criteria": [
+        "5.1: Create arrays, List, Set, Map and Deque collections, and add, remove, update, retrieve and sort their elements",
+        "11.2: Use annotations such as Override, FunctionalInterface, Deprecated, SuppressWarnings and SafeVarargs",
+        "11.3: Use generics, including wildcards"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 5.1, 11.2, 11.3 (Area 5 Working with Arrays and Collections, with the generics and annotations objectives from 'Candidates are also expected to')",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S11_Streams_and_Lambdas": {
+      "criteria": [
+        "6.1: Use object and primitive streams, with lambda expressions implementing functional interfaces, to create, filter, transform, process and sort data",
+        "6.2: Perform decomposition, concatenation and reduction, and grouping and partitioning, on sequential and parallel streams"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 6.1, 6.2 (Area 6 Working with Streams and Lambda Expressions)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S12_Concurrency": {
+      "criteria": [
+        "8.1: Create platform and virtual threads; use Runnable and Callable; manage the thread life-cycle; use Executor services and the concurrent API to run tasks",
+        "8.2: Develop thread-safe code using locking mechanisms and the concurrent API",
+        "8.3: Process Java collections concurrently and use parallel streams"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 8.1, 8.2, 8.3 (Area 8 Managing Concurrent Code Execution)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S13_IO_and_NIO2": {
+      "criteria": [
+        "9.1: Read and write console and file data using I/O streams",
+        "9.2: Serialize and deserialize Java objects",
+        "9.3: Construct, traverse, create, read and write Path objects and their properties using the java.nio.file API"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 9.1, 9.2, 9.3 (Area 9 Using the Java I/O API)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S14_Localization_and_Logging": {
+      "criteria": [
+        "10.1: Implement localization using locales and resource bundles; parse and format messages, dates, times and numbers, including currency and percentage values",
+        "11.1: Understand the basics of the Java Logging API"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 10.1, 11.1 (Area 10 Implementing Localization, with the Logging API objective from 'Candidates are also expected to')",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    },
+    "S15_Modules_and_Deployment": {
+      "criteria": [
+        "7.1: Define modules and expose module content, including by reflection; declare module dependencies; define services, providers and consumers",
+        "7.2: Compile Java code; create modular and non-modular jars and runtime images; migrate to modules using unnamed and automatic modules"
+      ],
+      "pass_threshold": "At least 68% of this test's items fully correct, mirroring the published pass mark (1Z0-830: 68%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-830 objectives 7.1, 7.2 (Area 7 Packaging and Deploying Java Code)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 50-item exam covering all 11 areas, weighted towards object-oriented concepts, collections and streams as the objective list is",
+      "Code-output (including 'does not compile' and 'throws') and multiple-select items, as on the real exam",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 68% overall (34 of 50 items fully correct), the published 1Z0-830 passing score. Also report the score per area.",
+    "source": {
+      "issuing_body": "Oracle University",
+      "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+      "reference": "1Z0-830 exam format: multiple choice, 50 questions, 120 minutes, passing score 68%",
+      "urls": [
+        "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555"
+  ],
+  "source_notes": "Oracle MyLearn publishes the 1Z0-830 objectives, format, pass mark and code-reading assumptions, but no weights or past papers. Stage tests are original; output answer keys come from compiling and running the code on JDK 21. Items whose output depends on timing, hashing or the platform are avoided or made deterministic (joins, seeds, sorted output)."
+}

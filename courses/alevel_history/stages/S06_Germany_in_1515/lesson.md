@@ -1,0 +1,28 @@
+# S06_Germany_in_1515 - Lesson: The Holy Roman Empire, the German economy, the German Church and the Papacy's financial demands
+
+## Goal
+The learner explains the structure of the Holy Roman Empire and the relative powers of Emperor and princes, the state of the German economy, the condition of the German Catholic Church including anticlericalism and humanism, and the Papacy's financial demands on Germany including the indulgences controversy.
+
+## Syllabus items taught here
+- 2B1.KT1.1 - The Holy Roman Empire: structure, Electors, Emperor and princes
+- 2B1.KT1.2 - The German economy c1515
+- 2B1.KT1.3 - The German Catholic Church: bishops, parish clergy, anticlericalism, humanism
+- 2B1.KT1.4 - The Papacy and Germany: corruption, financial demands, the indulgences controversy
+
+## How to teach this
+Ask: why might it matter that 'Germany' in 1515 was not one country but hundreds of separate territories loosely bound together? Teach each key topic as: what happened (facts, names, dates, precise detail examiners reward), then why it matters (analysis: cause, consequence, change, significance), then how historians read it (interpretations, where relevant). Push the learner to write timed, planned answers regularly, not just to recall facts: Edexcel's essays are marked by levels that reward explained, weighed argument reaching a supported judgement, not narrative or a list of points. Historical facts here (names, dates, figures) do not change with time in the way current-affairs content would, but historians' interpretations do develop; treat the interpretations content as a live debate, not a settled answer.
+
+#### 2B1.KT1.1 The Holy Roman Empire: structure, Electors, Emperor and princes
+**The Holy Roman Empire.** The HRE was not a unified state but a loose confederation of several hundred territories (princedoms, ecclesiastical states, free imperial cities) covering much of central Europe, nominally headed by an Emperor elected (not inherited) by seven Electors (three archbishops - Mainz, Trier, Cologne - and four lay princes). The Emperor's real power was limited: he needed the cooperation of the Imperial Diet (Reichstag, an assembly of princes, prelates and city representatives) to raise taxes or troops, and individual princes exercised near-sovereign authority (justice, taxation, and increasingly religion) within their own territories. This fragmentation meant that once Luther's ideas took hold in particular princely territories, the Emperor could not simply suppress them by central decree - he needed political and military cooperation he did not automatically command.
+
+#### 2B1.KT1.2 The German economy c1515
+**The German economy.** Germany's towns and cities were growing in wealth and population, especially trading and mining centres (e.g. Augsburg, home to the banking Fugger family, who financed both the Emperor and, notoriously, part of the indulgence sale of 1517); this created a literate, prosperous urban class receptive to new ideas circulated in print. Agriculture remained the base of the wider economy, with rising population creating some peasant land-hunger and rent/due pressures that fed into the social grievances behind the Peasants' War of 1525. Trade and communications between the German states were reasonably well developed along major trade routes and rivers, which also helped Lutheran ideas and Luther's own pamphlets spread rapidly between towns.
+
+#### 2B1.KT1.3 The German Catholic Church: bishops, parish clergy, anticlericalism, humanism
+**The German Catholic Church.** German bishops held extensive secular as well as religious power (many were also territorial rulers, prince-bishops), which blurred the line between spiritual and worldly authority and fed resentment. The parish clergy varied enormously in quality; many lower clergy were poorly educated and poorly paid, undermining the Church's spiritual authority at grassroots level. Anticlericalism - resentment of clerical wealth, tax exemption, perceived corruption and privilege - was already widespread across German society by 1515, cutting across social classes, which meant Luther's early criticisms of clerical abuse found a receptive audience well before his deeper theological arguments were widely understood. Christian humanism (associated with figures like Erasmus) also encouraged, in a milder, non-schismatic way, criticism of clerical ignorance and superstition and a return to biblical texts, preparing some educated opinion for more radical reforming ideas.
+
+#### 2B1.KT1.4 The Papacy and Germany: corruption, financial demands, the indulgences controversy
+**The Papacy and Germany.** Germany, lacking a strong central monarchy able to resist papal demands (unlike England or France), was seen by contemporaries as an easy source of papal revenue - sometimes called a 'cash cow' by resentful Germans. The corruption of the Renaissance papal court (its worldly, expensive lifestyle, nepotism and political ambitions, especially under Leo X) was widely known and criticised. Papal financial demands - annates, fees for church appointments, and especially the sale of indulgences - caused particular anger. The 1517 indulgence campaign, ostensibly to help fund the rebuilding of St Peter's Basilica in Rome, was preached in parts of Germany by the Dominican friar Johann Tetzel, whose crude sales techniques (a famous, if simplified, saying attributed to his campaign: 'as soon as the coin in the coffer rings, the soul from purgatory springs') became the immediate trigger for Luther's public protest.
+
+## Explicitly not here
+Luther's early challenge is S07.

@@ -1,0 +1,20 @@
+# S23_Network_Fundamentals_and_Topologies - Lesson: Network fundamentals and topologies
+
+## Goal
+The learner defines a computer network, discusses its advantages and disadvantages, describes PAN/LAN/WAN, compares wired and wireless networks, and describes and compares star and bus topologies.
+
+## Syllabus items taught here
+- 3.5.1 - Network fundamentals: definition, advantages/disadvantages, PAN/LAN/WAN, wired vs wireless
+- 3.5.2 - Network topologies: star and bus
+
+## How to teach this
+Ask the learner to list everything that stops working at school if the network goes down -- and everything that becomes possible because it's there in the first place. Have the learner predict the output of every Python example before running it, and run code for real whenever they can. AQA's own exams are set in AQA's pseudo-code, not any specific language; Python (AQA's widely-used reference teaching language) is used here so examples can be run for real and their output verified, but the learner should also be shown the equivalent pseudo-code form for exam-style tracing questions, since Paper 1 code-reading/writing questions are set in pseudo-code with only the constructs taught in 3.2. Binary/hex conversions, storage and sound/image size calculations, Huffman/RLE compression and logic-gate truth tables were computed/verified when this course was built.
+
+#### 3.5.1 Network fundamentals: definition, advantages/disadvantages, PAN/LAN/WAN, wired vs wireless
+A **computer network** is two or more devices connected together so they can communicate and share resources. Advantages: sharing resources such as printers, an internet connection and files, easier communication between users, and centralised management (e.g. backups, security updates, user accounts can be controlled from one place). Disadvantages: a bigger security risk (more devices/access points for an attacker to target, and malware can spread between connected devices), cost of setting up and maintaining the hardware, and reliance on the network being available (if it fails, shared resources become unreachable). Network types by scale: a **Personal Area Network (PAN)** connects devices over a very short range around a single person, e.g. a phone connected to wireless earbuds; a **Local Area Network (LAN)** covers a small geographical area such as one building or site, and is typically owned and managed by a single organisation; a **Wide Area Network (WAN)** covers a large geographical area, often connecting multiple LANs together, typically using infrastructure leased from a third party (the internet is the largest WAN). Networks can be **wired** (e.g. Ethernet cabling) or **wireless** (e.g. Wi-Fi): wired connections are generally faster, more reliable and more secure (an attacker needs physical access to the cable), but are less flexible (a device must be near a socket, and cabling is fixed); wireless connections are more flexible (devices can move and new devices are easy to add), but can be less reliable (interference, walls, distance affect signal) and can be less secure (the signal can potentially be intercepted by anyone in range).
+
+#### 3.5.2 Network topologies: star and bus
+Within a LAN, devices can be arranged in different **topologies** (layouts). In a **star topology**, every device connects individually, by its own cable, to a central device (e.g. a switch); if one device or its cable fails, only that device is affected, and data collisions are rare, but it needs more cabling than a bus, and if the central device fails the whole network goes down. In a **bus topology**, every device connects to a single shared central cable (the "bus"), with a terminator at each end to stop signals reflecting back; it needs less cabling and is cheap and simple to install, but if the main cable fails or is damaged the whole network goes down, performance degrades as more devices are added (more data collisions on the shared cable), and it can be harder to identify the fault.
+
+## Explicitly not here
+The rules (protocols) that let those devices actually understand each other, and how the network is kept secure, are S24.

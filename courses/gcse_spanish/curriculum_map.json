@@ -1,0 +1,401 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Spanish (8692) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+    "url": "https://filestore.aqa.org.uk/resources/spanish/specifications/AQA-8692-SP-2024.PDF",
+    "version": "Specification for first teaching from September 2024, linked from aqa.org.uk/8692, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers the three themes and their three topics each (3.1.1-3.1.3 per theme) but presents the content under each topic, and the whole of 3.2 Grammar, as unnumbered bullet lists. This course codes the eighteen topic-content items by theme.topic and a letter in AQA's own bullet order (e.g. T1.1a, T1.1b for Theme 1 Topic 1), and codes the sixteen grammar points G1-G16 in the specification's own order (Foundation content first, then the Higher-tier additions folded into the same numbered point where AQA presents them together), plus five items (LIS.1, SPK.1, SPK.2, RDG.1, WRT.1) for the exam-skill content of each of the four papers, which AQA sets out in its scheme of assessment rather than as numbered subject content."
+  },
+  "_syllabus_items": [
+    {
+      "id": "T1.1a",
+      "title": "Identity and relationships with family and friends",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 1: Identity and relationships with others"
+    },
+    {
+      "id": "T1.1b",
+      "title": "Personality, physical description, marriage and partnership",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 1: Identity and relationships with others"
+    },
+    {
+      "id": "T1.2a",
+      "title": "Diet, exercise and keeping fit",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 2: Healthy living and lifestyle"
+    },
+    {
+      "id": "T1.2b",
+      "title": "Illness, unhealthy habits and addiction",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 2: Healthy living and lifestyle"
+    },
+    {
+      "id": "T1.3a",
+      "title": "School life, subjects and pressures of school",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 3: Education and work"
+    },
+    {
+      "id": "T1.3b",
+      "title": "Jobs, careers, part-time work and future plans",
+      "topic_area": "3.1.1 Theme 1: People and lifestyle, Topic 3: Education and work"
+    },
+    {
+      "id": "T2.1a",
+      "title": "Sport and hobbies",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 1: Free-time activities"
+    },
+    {
+      "id": "T2.1b",
+      "title": "Music, cinema, television and reading",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 1: Free-time activities"
+    },
+    {
+      "id": "T2.2a",
+      "title": "Festivals and celebrations in Spain",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 2: Customs, festivals and celebrations"
+    },
+    {
+      "id": "T2.2b",
+      "title": "Festivals and celebrations in Latin America",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 2: Customs, festivals and celebrations"
+    },
+    {
+      "id": "T2.3a",
+      "title": "Celebrities in sport, music and film",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 3: Celebrity culture"
+    },
+    {
+      "id": "T2.3b",
+      "title": "The impact of celebrity culture and social media",
+      "topic_area": "3.1.2 Theme 2: Popular culture, Topic 3: Celebrity culture"
+    },
+    {
+      "id": "T3.1a",
+      "title": "Holidays, transport and types of travel",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 1: Travel and tourism, including places of interest"
+    },
+    {
+      "id": "T3.1b",
+      "title": "Tourist attractions in Spain and Latin America",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 1: Travel and tourism, including places of interest"
+    },
+    {
+      "id": "T3.2a",
+      "title": "The internet and social media",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 2: Media and technology"
+    },
+    {
+      "id": "T3.2b",
+      "title": "The benefits and dangers of technology",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 2: Media and technology"
+    },
+    {
+      "id": "T3.3a",
+      "title": "Home, town and region",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 3: The environment and where people live"
+    },
+    {
+      "id": "T3.3b",
+      "title": "Environmental problems and solutions",
+      "topic_area": "3.1.3 Theme 3: Communication and the world around us, Topic 3: The environment and where people live"
+    },
+    {
+      "id": "G1",
+      "title": "Nouns: gender, plural formation, infinitives as nouns",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G2",
+      "title": "Articles and demonstrative, indefinite and possessive adjectives",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G3",
+      "title": "Adjective agreement, position, and comparatives/superlatives",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G4",
+      "title": "Ser and estar",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G5",
+      "title": "Adverbs, including -mente formation, and prepositions",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G6",
+      "title": "Subject, direct/indirect object and reflexive pronouns",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G7",
+      "title": "Interrogative, relative, neuter demonstrative and possessive pronouns; pronouns after prepositions",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G8",
+      "title": "Negation",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G9",
+      "title": "Present indicative, present continuous, modal, reflexive and impersonal verbs",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G10",
+      "title": "Preterite tense, including stem-changing -ir verbs",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G11",
+      "title": "Imperfect and imperfect continuous",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G12",
+      "title": "Present perfect",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G13",
+      "title": "Future (ir a + infinitive and the inflectional future) and conditional",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G14",
+      "title": "Imperative",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G15",
+      "title": "Present subjunctive (common Higher-tier uses), acabar de, seguir/llevar + gerund, passive voice, desde hace + present",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "G16",
+      "title": "Derivational morphology for reading: diminutives, superlatives, -mente, -idad, -able",
+      "topic_area": "3.2 Grammar"
+    },
+    {
+      "id": "LIS.1",
+      "title": "Listening strategies and dictation",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "SPK.1",
+      "title": "Speaking: role-play and reading aloud",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "SPK.2",
+      "title": "Speaking: photo card discussion and general conversation",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "RDG.1",
+      "title": "Reading strategies and translation into English",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    },
+    {
+      "id": "WRT.1",
+      "title": "Writing tasks, translation into Spanish and extended writing",
+      "topic_area": "Scheme of assessment: Papers 1-4"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Identidad_y_relaciones": {
+    "covers_syllabus_refs": [
+      "8692 T1.1a",
+      "8692 T1.1b",
+      "8692 G1",
+      "8692 G2"
+    ],
+    "syllabus_topic": "3.1 Theme 1: People and lifestyle",
+    "covers_items": [
+      "T1.1a",
+      "T1.1b",
+      "G1",
+      "G2"
+    ]
+  },
+  "S02_Vida_sana": {
+    "covers_syllabus_refs": [
+      "8692 T1.2a",
+      "8692 T1.2b",
+      "8692 G3",
+      "8692 G4"
+    ],
+    "syllabus_topic": "3.1 Theme 1: People and lifestyle",
+    "covers_items": [
+      "T1.2a",
+      "T1.2b",
+      "G3",
+      "G4"
+    ]
+  },
+  "S03_Estudios_y_trabajo": {
+    "covers_syllabus_refs": [
+      "8692 T1.3a",
+      "8692 T1.3b",
+      "8692 G5"
+    ],
+    "syllabus_topic": "3.1 Theme 1: People and lifestyle",
+    "covers_items": [
+      "T1.3a",
+      "T1.3b",
+      "G5"
+    ]
+  },
+  "S04_Tiempo_libre": {
+    "covers_syllabus_refs": [
+      "8692 T2.1a",
+      "8692 T2.1b",
+      "8692 G6"
+    ],
+    "syllabus_topic": "3.1 Theme 2: Popular culture",
+    "covers_items": [
+      "T2.1a",
+      "T2.1b",
+      "G6"
+    ]
+  },
+  "S05_Costumbres_y_festivales": {
+    "covers_syllabus_refs": [
+      "8692 T2.2a",
+      "8692 T2.2b",
+      "8692 G7"
+    ],
+    "syllabus_topic": "3.1 Theme 2: Popular culture",
+    "covers_items": [
+      "T2.2a",
+      "T2.2b",
+      "G7"
+    ]
+  },
+  "S06_Cultura_de_famosos": {
+    "covers_syllabus_refs": [
+      "8692 T2.3a",
+      "8692 T2.3b",
+      "8692 G8"
+    ],
+    "syllabus_topic": "3.1 Theme 2: Popular culture",
+    "covers_items": [
+      "T2.3a",
+      "T2.3b",
+      "G8"
+    ]
+  },
+  "S07_Viajes_y_turismo": {
+    "covers_syllabus_refs": [
+      "8692 T3.1a",
+      "8692 T3.1b",
+      "8692 G9"
+    ],
+    "syllabus_topic": "3.1 Theme 3: Communication and the world around us",
+    "covers_items": [
+      "T3.1a",
+      "T3.1b",
+      "G9"
+    ]
+  },
+  "S08_Medios_y_tecnologia": {
+    "covers_syllabus_refs": [
+      "8692 T3.2a",
+      "8692 T3.2b",
+      "8692 G10"
+    ],
+    "syllabus_topic": "3.1 Theme 3: Communication and the world around us",
+    "covers_items": [
+      "T3.2a",
+      "T3.2b",
+      "G10"
+    ]
+  },
+  "S09_Medio_ambiente_y_vivienda": {
+    "covers_syllabus_refs": [
+      "8692 T3.3a",
+      "8692 T3.3b",
+      "8692 G11",
+      "8692 G12"
+    ],
+    "syllabus_topic": "3.1 Theme 3: Communication and the world around us",
+    "covers_items": [
+      "T3.3a",
+      "T3.3b",
+      "G11",
+      "G12"
+    ]
+  },
+  "S10_Futuro_condicional_imperativo": {
+    "covers_syllabus_refs": [
+      "8692 G13",
+      "8692 G14"
+    ],
+    "syllabus_topic": "3.2 Grammar",
+    "covers_items": [
+      "G13",
+      "G14"
+    ]
+  },
+  "S11_Subjuntivo_y_estructuras_avanzadas": {
+    "covers_syllabus_refs": [
+      "8692 G15",
+      "8692 G16"
+    ],
+    "syllabus_topic": "3.2 Grammar",
+    "covers_items": [
+      "G15",
+      "G16"
+    ]
+  },
+  "S12_Escucha_Paper1": {
+    "covers_syllabus_refs": [
+      "8692 LIS.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "LIS.1"
+    ]
+  },
+  "S13_Habla_juego_de_rol": {
+    "covers_syllabus_refs": [
+      "8692 SPK.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "SPK.1"
+    ]
+  },
+  "S14_Habla_tarjeta_y_conversacion": {
+    "covers_syllabus_refs": [
+      "8692 SPK.2"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "SPK.2"
+    ]
+  },
+  "S15_Lectura_Paper3": {
+    "covers_syllabus_refs": [
+      "8692 RDG.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "RDG.1"
+    ]
+  },
+  "S16_Escritura_Paper4": {
+    "covers_syllabus_refs": [
+      "8692 WRT.1"
+    ],
+    "syllabus_topic": "Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing)",
+    "covers_items": [
+      "WRT.1"
+    ]
+  }
+}

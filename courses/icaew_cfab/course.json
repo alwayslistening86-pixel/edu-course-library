@@ -1,0 +1,71 @@
+{
+  "schema_version": 4,
+  "name": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation",
+  "requires_complete": [],
+  "standalone": true,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "ICAEW's live CFAB exam-modules page and each module's CFAB/Certificate-level study-resources pages (icaew.com), plus the ICAEW Next Generation ACA/CFAB syllabus handbook for detailed topic coverage, fetched live on 2026-09-27 and itemised in full against ICAEW's own CFAB syllabus numbering (a section number plus lettered sub-point, e.g. ACC.1a-ACC.5b; ASR.1a-ASR.4f; BTF.1a-BTF.5e; LAW.1a-LAW.5f; MI.1a-MI.5e; TAX.1a-TAX.6g). Exam format: each of the six modules is its own 1.5-hour computer-based exam (CBE), objective-test in style (single-select, multiple-response and multi-part/multi-task questions), confirmed live from ICAEW's exam-modules page; Management Information and Principles of Taxation were further confirmed to mix mostly-objective questions (80% of marks) with one or two scenario-based multi-task questions (20% of marks). ICAEW publishes a single, fixed pass mark of 55% for every module, applied per module as well as (in this course's combined mock) overall. Every numeric worked example (bookkeeping, ratios, materiality, costing, budgeting, variances, breakeven, investment appraisal, and every UK tax computation) was computed live with Python, so it is correct by construction. The Principles of Taxation module's UK tax figures are the 2026/27 tax year's personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, and corporation tax rates and marginal relief, fetched live 2026-09-27 from HMRC (gov.uk), the House of Commons Library and current professional tax-rates publishers - UK tax rates/thresholds/allowances change at least annually (normally from 6 April following a Budget/Autumn Statement, sometimes intra-year), so the tutor should recheck these figures against HMRC's published current rates before relying on them beyond the tax year they were fetched for.",
+  "academic_level": null,
+  "level_source": "standalone: a professional accounting body (ICAEW) certificate with no RQF/FHEQ level",
+  "level_basis": "standalone",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "cfab_module_independence",
+      "text": "In the real ICAEW CFAB, each of the six modules is a wholly independent 1.5-hour exam that can be sat in any order and retaken individually (up to 4 attempts per module) - there is no single combined 'CFAB final exam'. This course's EXAM combines all six modules into one mock sitting purely for tutoring convenience; it applies ICAEW's real 55% pass mark to each module's mini-paper within the mock as well as to the mock overall, so passing this mock is a reasonable proxy for being ready to sit and pass all six real, separate module exams."
+    },
+    {
+      "id": "tax_rates_currency",
+      "text": "The Principles of Taxation module teaches the 2026/27 UK tax year's rates, thresholds and allowances (personal allowance £12,570; income tax bands/rates; Class 1 and Class 4 National Insurance thresholds/rates; VAT registration threshold £90,000 and VAT rates; corporation tax small profits/main rates and marginal relief). UK tax law changes at least once a year -- the tutor and learner should recheck these figures against HMRC's current published rates (gov.uk) before relying on them for any tax year other than 2026/27, or if a Budget or Autumn Statement has announced a change since this course was built."
+    },
+    {
+      "id": "question_format",
+      "text": "ICAEW's real CFAB module exams are predominantly objective-test in style (single-select, multiple-response and multi-part/multi-task questions), with Management Information and Principles of Taxation mixing in a minority of scenario-based multi-task items. Roughly half of this course's practice and stage-test items across all six modules use an 'Explain...'/'Calculate and state...' short-answer format instead, as a deeper comprehension check on both qualitative and numeric topics -- these build understanding but are not a format simulation of the real CBE. Learners preparing for the real exam should also practise with ICAEW's own objective-test-style question banks to become comfortable with the CBE's actual item types."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "ACC_S01_Concepts_Ethics_and_Regulatory_Framework",
+    "ACC_S02_Maintaining_Financial_Records_and_Double_Entry",
+    "ACC_S03_Adjustments_and_Correction_of_Errors",
+    "ACC_S04_Preparing_Financial_Statements",
+    "ACC_S05_Further_Ratio_Analysis_and_Interpretation",
+    "ASR_S01_Concept_Process_and_Need_for_Assurance",
+    "ASR_S02_Risk_Internal_Controls_and_Information_Flows",
+    "ASR_S03_Obtaining_Assurance_Evidence",
+    "ASR_S04_Professional_Ethics_and_Regulatory_Issues",
+    "BTF_S01_Business_Organisations_and_Stakeholders",
+    "BTF_S02_External_Environment",
+    "BTF_S03_Governance_Ethics_and_Corporate_Responsibility",
+    "BTF_S04_Finance_Function_and_Sources_of_Finance",
+    "BTF_S05_Business_Technology_Data_and_Cybersecurity",
+    "LAW_S01_English_Legal_System_and_Sources_of_Law",
+    "LAW_S02_Contract_Agency_and_Negligence",
+    "LAW_S03_Company_and_Insolvency_Law",
+    "LAW_S04_Criminal_Law_in_Business",
+    "LAW_S05_Law_in_the_Professional_Context",
+    "MI_S01_Costing_and_Pricing",
+    "MI_S02_Budgeting_and_Forecasting",
+    "MI_S03_Performance_Management",
+    "MI_S04_Management_Decision_Making",
+    "MI_S05_Technology_Data_and_Ethics_in_Decision_Making",
+    "TAX_S01_Objectives_Types_of_Tax_and_Ethics",
+    "TAX_S02_Administration_of_Taxation",
+    "TAX_S03_Income_Tax_and_National_Insurance",
+    "TAX_S04_Capital_Gains_Tax_and_Inheritance_Tax",
+    "TAX_S05_Corporation_Tax",
+    "TAX_S06_VAT_and_Stamp_Taxes"
+  ]
+}

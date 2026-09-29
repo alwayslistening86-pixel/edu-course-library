@@ -1,0 +1,56 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Business (AQA 8132)",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Business (8132) specification, for first teaching from September 2017, linked from aqa.org.uk/8132 and itemised on 2026-09-27: all six topics across the two papers -- Paper 1 'Influences of operations and HRM on business activity' (Topic 3.1 Business in the real world; Topic 3.2 Influences on business; Topic 3.3 Business operations; Topic 3.4 Human resources) and Paper 2 'Influences of marketing and finance on business activity' (Topic 3.1 Business in the real world, re-examined through a marketing/finance lens; Topic 3.5 Marketing; Topic 3.6 Finance), plus the quantitative skills requirement running through both papers (at least 10% of total marks). Assessment: two linear written papers, each 1 hour 45 minutes, 90 marks, 50% of the GCSE -- each paper has Section A (multiple-choice and short-answer questions, 20 marks), Section B (a case study/data-response set, around 34 marks) and Section C (a further case study/data-response set, around 36 marks), assessing AO1 knowledge/understanding (35%), AO2 application (35%) and AO3 analysis/evaluation (30%) across both papers. Stage tests and the mock are original questions in AQA's style, never real past-paper items; every numerical worked example (break-even, cash-flow forecasts, gross/net profit margin, average rate of return) was computed and verified when this course was built.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, grades 1-9), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "case_study",
+      "text": "AQA GCSE Business is heavily case-study/data-response based -- Sections B and C of both papers give the learner a business scenario (often with data, e.g. a small table or a cash-flow extract) and ask questions that apply the topic content to it. Practice always means applying a concept to a specific scenario, not just stating the definition."
+    },
+    {
+      "id": "quant_skills",
+      "text": "At least 10% of all marks across both papers are for quantitative skills. AQA does not give formulae in the exam for gross/net profit margin or average rate of return, so these must be known by heart; break-even is tested by reading a given chart, not by using the break-even formula or drawing a chart from scratch. Always show full working -- AQA awards method marks that a bare correct answer alone will not earn."
+    },
+    {
+      "id": "no_theorists",
+      "text": "AQA explicitly does not examine named motivational theories (e.g. Maslow, Herzberg, Taylor) -- only financial and non-financial motivation methods in general terms. This course does not teach or test theorist names for that reason."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Purpose_and_Ownership",
+    "S02_Aims_Objectives_Stakeholders",
+    "S03_Location_and_Planning",
+    "S04_Expansion_and_Scale",
+    "S05_Technology_and_Ethics",
+    "S06_Economy_and_Globalisation",
+    "S07_Legislation_and_Competition",
+    "S08_Production_and_Procurement",
+    "S09_Quality_and_Customer_Service",
+    "S10_Organisational_Structure_and_Recruitment",
+    "S11_Motivation_and_Training",
+    "S12_Customers_and_Segmentation",
+    "S13_Market_Research_and_Marketing_Mix",
+    "S14_Sources_of_Finance_and_Cash_Flow",
+    "S15_Financial_Calculations_and_Performance"
+  ]
+}

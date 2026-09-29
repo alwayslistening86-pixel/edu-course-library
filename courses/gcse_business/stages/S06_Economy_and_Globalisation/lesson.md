@@ -1,0 +1,20 @@
+# S06_Economy_and_Globalisation - Lesson: The economic climate and globalisation
+
+## Goal
+The learner explains how interest rates, employment and consumer spending affect businesses, and how globalisation and exchange rates affect a UK business's ability to compete internationally.
+
+## Syllabus items taught here
+- 3.2.3 - The economic climate on businesses: interest rates, the level of employment and consumer spending
+- 3.2.4 - Globalisation: how UK businesses compete internationally (design, quality, pricing) and the effect of exchange rates
+
+## How to teach this
+Ask the learner: if the Bank of England raised interest rates sharply tomorrow, would people spend more or less on eating out? Trace that chain of effects through to a local restaurant's takings. GCSE Business has real quantitative content throughout (at least 10% of all marks are quantitative skills): break-even (identifying break-even output and margin of safety from a chart -- AQA does not require the break-even formula or chart-drawing, but understanding the underlying contribution logic is how a learner reads a chart correctly), cash-flow forecasts (net cash flow, opening/closing balance), gross and net profit margins, and average rate of return on an investment. AQA does not give formulae in the exam for gross/net profit margin or average rate of return, so the learner must know these by heart, not just how to plug numbers in. Every numerical worked example in this course was computed and checked when this course was built, and the learner should always be made to show full working. AQA GCSE Business explicitly does NOT examine named motivational theories (e.g. Maslow, Herzberg, Taylor) by name -- only financial and non-financial motivation methods in general terms -- so this course does not teach or test theorist names either.
+
+#### 3.2.3 The economic climate on businesses: interest rates, the level of employment and consumer spending
+The wider **economic climate** affects every business. **Interest rates** (set by the Bank of England) affect the cost of borrowing: higher rates make loans/mortgages/overdrafts more expensive for both businesses (raising their costs, discouraging investment/expansion) and consumers (who then have less disposable income to spend, and may cut back on non-essential purchases). The **level of employment** in the economy affects both how much disposable income consumers have to spend (high employment generally means more consumer spending) and how easily a business can recruit staff (high employment can mean a shortage of available workers, pushing wages up). **Consumer spending** -- the total amount households spend on goods and services -- rises in a strong economy (boosting most businesses' sales, especially for non-essential/luxury goods) and falls in a weak economy/downturn (consumers cut back, especially on non-essentials, hitting sales).
+
+#### 3.2.4 Globalisation: how UK businesses compete internationally (design, quality, pricing) and the effect of exchange rates
+**Globalisation** is the increasing interconnectedness of the world's economies, with businesses trading, competing and operating across national borders far more than in the past. UK businesses increasingly compete with firms worldwide, and can compete internationally on **design** (offering more innovative or distinctive products), **quality** (higher standards than lower-cost rivals), and **pricing** (competing on cost where possible, though this is hard against very low-cost overseas producers). **Exchange rates** (the price of one currency in terms of another) affect international trade: if the pound **strengthens** (rises in value against other currencies), UK exports become more expensive for foreign buyers (harder to sell abroad) but imports become cheaper for UK businesses/consumers (easier/cheaper to buy foreign goods and raw materials); if the pound **weakens**, the reverse happens -- UK exports become cheaper/more competitive abroad, but imports become more expensive.
+
+## Explicitly not here
+How specific laws and how competitive a market is affect a business is S07.

@@ -1,0 +1,16 @@
+# S23_Consequences_of_Computing - Lesson: Individual, social, legal and cultural issues and opportunities in computing
+
+## Goal
+The learner discusses individual (moral), social (ethical), legal and cultural issues and opportunities raised by the uses of computing.
+
+## Syllabus items taught here
+- 4.8.1.1 - Individual, social, legal and cultural issues and opportunities
+
+## How to teach this
+Ask the learner: who is responsible if an algorithm makes an unfair or harmful decision -- the programmer who wrote it, the company that deployed it, or no one in particular? AQA's A-level Paper 1 is an on-screen exam: the learner writes, adapts and runs real code in a skeleton program, in one of AQA's four supported languages (C#, Java, Python, VB.Net) -- Python is used throughout this course so code can be run for real and its output verified, which is also one of AQA's own supported choices. Paper 1 also includes algorithm-tracing and theory-of-computation questions (4.3, 4.4) answered in AQA's own pseudo-code on paper within the on-screen exam, not in the candidate's chosen language; show the learner both the runnable Python and the equivalent AQA pseudo-code for any algorithm likely to be traced or written from scratch (searches, sorts, traversals, FSMs, Turing-machine transition tables). Paper 2 is a conventional written exam with no code execution, covering the theory sections (4.5-4.12). Have the learner predict output/traces before running or checking anything. Binary/hex conversions, two's-complement and floating-point workings, Big-O comparisons, truth tables and algorithm traces were computed/verified when this course was built.
+
+#### 4.8.1.1 Individual, social, legal and cultural issues and opportunities
+Computing raises **individual (moral)**, **social (ethical)**, **legal** and **cultural** issues alongside its opportunities. Digital technologies have transformed how information and communication spread globally, at a speed and scale never previously possible -- creating huge opportunities (access to information, connection, automation of tedious/dangerous work) but also risks (misinformation spreading fast, privacy loss, algorithmic bias). Computer scientists hold real power and responsibility in how they design algorithms and systems: **software and its algorithms embed moral and cultural values**, whether intentionally or not (e.g. what a recommendation algorithm optimises for, or what a facial-recognition system is trained on, reflects choices with real consequences for real people). Because software can be deployed at enormous **scale**, a single flawed or biased algorithm can affect millions of people near-simultaneously, in a way a single human decision-maker's individual mistakes cannot. **Legislation** (e.g. data protection law) struggles to keep pace with fast-moving technology, raising ongoing challenges about who is accountable when automated systems cause harm, and how individual rights (privacy, fairness, being able to challenge an automated decision) are protected in a digital age. Real-world hypotheticals and case studies (e.g. the privacy questions raised by services like Google Street View photographing streets/property) are useful for exploring these tensions concretely.
+
+## Explicitly not here
+This is the only stage in this block; S24 begins communication and networking.

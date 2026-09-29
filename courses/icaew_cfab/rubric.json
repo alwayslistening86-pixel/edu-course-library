@@ -1,0 +1,566 @@
+{
+  "stage_rubrics": {
+    "ACC_S01_Concepts_Ethics_and_Regulatory_Framework": {
+      "criteria": [
+        "ACC.1a: Standard-setting process and authority",
+        "ACC.1b: Qualitative characteristics of financial information",
+        "ACC.1c: Effect of transactions under the IFRS Conceptual Framework",
+        "ACC.1d: Fair presentation and true and fair view",
+        "ACC.1e: Accounting concepts and principles",
+        "ACC.1f: Accrual basis versus cash basis accounting",
+        "ACC.1g: Ethical and sustainability considerations",
+        "ACC.1h: ISSB aims and standards"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ACC.1a, ACC.1b, ACC.1c, ACC.1d, ACC.1e, ACC.1f, ACC.1g, ACC.1h (Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ACC_S02_Maintaining_Financial_Records_and_Double_Entry": {
+      "criteria": [
+        "ACC.2a: Purpose of financial records and financial statements",
+        "ACC.2b: Sources of accounting information and double-entry bookkeeping",
+        "ACC.2c: Recording transactions per applicable standards"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ACC.2a, ACC.2b, ACC.2c (Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ACC_S03_Adjustments_and_Correction_of_Errors": {
+      "criteria": [
+        "ACC.3a: Identifying omissions and errors",
+        "ACC.3b: Correcting errors via journal entries",
+        "ACC.3c: Suspense accounts and period-end adjustments"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ACC.3a, ACC.3b, ACC.3c (Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ACC_S04_Preparing_Financial_Statements": {
+      "criteria": [
+        "ACC.4a: Components and purpose of financial statements",
+        "ACC.4b: Preparing statements for sole traders, partnerships and companies",
+        "ACC.4c: Interpreting financial statements with ratios"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ACC.4a, ACC.4b, ACC.4c (Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ACC_S05_Further_Ratio_Analysis_and_Interpretation": {
+      "criteria": [
+        "ACC.5a: Efficiency and liquidity ratios",
+        "ACC.5b: Limitations of ratio analysis"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ACC.5a, ACC.5b (Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ASR_S01_Concept_Process_and_Need_for_Assurance": {
+      "criteria": [
+        "ASR.1a: Concept of assurance",
+        "ASR.1b: Why users desire assurance reports",
+        "ASR.1c: Functions and responsibilities of parties involved",
+        "ASR.1d: Expectation gap",
+        "ASR.1e: Planning an assurance engagement and materiality",
+        "ASR.1f: Reporting to the engaging party",
+        "ASR.1g: Professional scepticism and judgement",
+        "ASR.1h: Fraud versus error",
+        "ASR.1i: Assurance over sustainability reporting"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ASR.1a, ASR.1b, ASR.1c, ASR.1d, ASR.1e, ASR.1f, ASR.1g, ASR.1h, ASR.1i (Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ASR_S02_Risk_Internal_Controls_and_Information_Flows": {
+      "criteria": [
+        "ASR.2a: Audit risk and its components",
+        "ASR.2b: Business risk and its impact on audit risk",
+        "ASR.2c: Why effective internal control matters",
+        "ASR.2d: Fundamental principles of effective controls",
+        "ASR.2e: Main business processes and information flows",
+        "ASR.2f: Types of internal control",
+        "ASR.2g: Controls mitigating cyber and digital-transformation risk",
+        "ASR.2h: Internal audit function"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ASR.2a, ASR.2b, ASR.2c, ASR.2d, ASR.2e, ASR.2f, ASR.2g, ASR.2h (Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ASR_S03_Obtaining_Assurance_Evidence": {
+      "criteria": [
+        "ASR.3a: Reasons for assurance documentation",
+        "ASR.3b: Methods of obtaining evidence",
+        "ASR.3c: Reliability of different evidence types",
+        "ASR.3d: Sufficiency and quality of evidence, sampling risk",
+        "ASR.3e: Written management representations",
+        "ASR.3f: Issues requiring referral"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ASR.3a, ASR.3b, ASR.3c, ASR.3d, ASR.3e, ASR.3f (Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "ASR_S04_Professional_Ethics_and_Regulatory_Issues": {
+      "criteria": [
+        "ASR.4a: Role of regulatory bodies and ethical codes",
+        "ASR.4b: Fundamental principles of the ICAEW Code of Ethics",
+        "ASR.4c: Threats to integrity, objectivity and independence",
+        "ASR.4d: Safeguards to eliminate or reduce threats",
+        "ASR.4e: Confidentiality and GDPR",
+        "ASR.4f: Work outside expertise or experience"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives ASR.4a, ASR.4b, ASR.4c, ASR.4d, ASR.4e, ASR.4f (Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "BTF_S01_Business_Organisations_and_Stakeholders": {
+      "criteria": [
+        "BTF.1a: Types of business organisation",
+        "BTF.1b: Stakeholders and Mendelow's matrix",
+        "BTF.1c: Business objectives"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives BTF.1a, BTF.1b, BTF.1c (Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "BTF_S02_External_Environment": {
+      "criteria": [
+        "BTF.2a: PESTLE analysis",
+        "BTF.2b: Macroeconomic factors",
+        "BTF.2c: Microeconomic factors",
+        "BTF.2d: Social and demographic factors",
+        "BTF.2e: Competitive factors (Porter's Five Forces)"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives BTF.2a, BTF.2b, BTF.2c, BTF.2d, BTF.2e (Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "BTF_S03_Governance_Ethics_and_Corporate_Responsibility": {
+      "criteria": [
+        "BTF.3a: Corporate governance and the board",
+        "BTF.3b: Board committees",
+        "BTF.3c: Corporate codes of ethics",
+        "BTF.3d: Ethical conflicts and dilemmas",
+        "BTF.3e: Sustainable business practices"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives BTF.3a, BTF.3b, BTF.3c, BTF.3d, BTF.3e (Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "BTF_S04_Finance_Function_and_Sources_of_Finance": {
+      "criteria": [
+        "BTF.4a: The accounting and finance function",
+        "BTF.4b: Sources of short-term and long-term finance",
+        "BTF.4c: Cost of debt versus equity finance",
+        "BTF.4d: Financial information provided by a business"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives BTF.4a, BTF.4b, BTF.4c, BTF.4d (Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "BTF_S05_Business_Technology_Data_and_Cybersecurity": {
+      "criteria": [
+        "BTF.5a: Automation, RPA and AI in business",
+        "BTF.5b: Financial systems and technology",
+        "BTF.5c: Cybersecurity risk and controls",
+        "BTF.5d: Data protection principles",
+        "BTF.5e: Career skills and lifelong learning"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives BTF.5a, BTF.5b, BTF.5c, BTF.5d, BTF.5e (Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "LAW_S01_English_Legal_System_and_Sources_of_Law": {
+      "criteria": [
+        "LAW.1a: Civil law, criminal law and sources of law",
+        "LAW.1b: Structure of the English court system",
+        "LAW.1c: Alternative dispute resolution",
+        "LAW.1d: European Convention on Human Rights and the Human Rights Act 1998",
+        "LAW.1e: International law and regulations"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives LAW.1a, LAW.1b, LAW.1c, LAW.1d, LAW.1e (Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "LAW_S02_Contract_Agency_and_Negligence": {
+      "criteria": [
+        "LAW.2a: When a legally binding contract exists",
+        "LAW.2b: Termination of a contract and breach remedies",
+        "LAW.2c: Agency: roles, duties and authority",
+        "LAW.2d: Partnerships and partner authority",
+        "LAW.2e: Negligence and negligent misstatement",
+        "LAW.2f: Vicarious liability"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives LAW.2a, LAW.2b, LAW.2c, LAW.2d, LAW.2e, LAW.2f (Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "LAW_S03_Company_and_Insolvency_Law": {
+      "criteria": [
+        "LAW.3a: Incorporation and separate legal personality",
+        "LAW.3b: Company/LLP formation and pre-incorporation contracts",
+        "LAW.3c: Financing and capital, capital maintenance",
+        "LAW.3d: Shareholder resolutions and director duties",
+        "LAW.3e: Fixed and floating charges, insolvency procedures"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives LAW.3a, LAW.3b, LAW.3c, LAW.3d, LAW.3e (Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "LAW_S04_Criminal_Law_in_Business": {
+      "criteria": [
+        "LAW.4a: Anti-money laundering offences and obligations",
+        "LAW.4b: Bribery Act 2010 offences",
+        "LAW.4c: Fraud Act 2006 and cybercrime offences",
+        "LAW.4d: Protection from dismissal for reporting workplace malpractice"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives LAW.4a, LAW.4b, LAW.4c, LAW.4d (Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "LAW_S05_Law_in_the_Professional_Context": {
+      "criteria": [
+        "LAW.5a: Data Protection Act 2018 and UK GDPR",
+        "LAW.5b: Employment status",
+        "LAW.5c: Employment contracts",
+        "LAW.5d: Wrongful versus unfair dismissal",
+        "LAW.5e: Statutory redundancy",
+        "LAW.5f: Equality Act 2010 and Modern Slavery Act 2015"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives LAW.5a, LAW.5b, LAW.5c, LAW.5d, LAW.5e, LAW.5f (Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "MI_S01_Costing_and_Pricing": {
+      "criteria": [
+        "MI.1a: Uses of cost information and cost classification",
+        "MI.1b: Marginal and absorption costing",
+        "MI.1c: Selecting an appropriate costing method",
+        "MI.1d: Cost-based pricing",
+        "MI.1e: Price mechanism and elasticity",
+        "MI.1f: Transfer pricing"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives MI.1a, MI.1b, MI.1c, MI.1d, MI.1e, MI.1f (Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "MI_S02_Budgeting_and_Forecasting": {
+      "criteria": [
+        "MI.2a: Forecasting techniques (high-low, time series)",
+        "MI.2b: Data analytics in budgeting and forecasting",
+        "MI.2c: Preparing budgets",
+        "MI.2d: Budgeting approaches",
+        "MI.2e: Cash budgets and the cash operating cycle",
+        "MI.2f: Managing cash surpluses and deficits"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives MI.2a, MI.2b, MI.2c, MI.2d, MI.2e, MI.2f (Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "MI_S03_Performance_Management": {
+      "criteria": [
+        "MI.3a: Standard costing and variance analysis - materials",
+        "MI.3b: Material price and usage variances (worked)",
+        "MI.3c: Labour and sales variances"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives MI.3a, MI.3b, MI.3c (Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "MI_S04_Management_Decision_Making": {
+      "criteria": [
+        "MI.4a: Breakeven, contribution and margin of safety",
+        "MI.4b: Limiting factor decisions",
+        "MI.4c: Investment appraisal: payback, ARR, NPV, IRR",
+        "MI.4d: NPV worked example and appraisal limitations"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives MI.4a, MI.4b, MI.4c, MI.4d (Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "MI_S05_Technology_Data_and_Ethics_in_Decision_Making": {
+      "criteria": [
+        "MI.5a: Data purpose, types, sources and comparability",
+        "MI.5b: Data collection and analysis principles",
+        "MI.5c: Data errors and spreadsheet risk",
+        "MI.5d: Visualisations, graphs and charts",
+        "MI.5e: Ethics in preparing and using management information"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives MI.5a, MI.5b, MI.5c, MI.5d, MI.5e (Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "TAX_S01_Objectives_Types_of_Tax_and_Ethics": {
+      "criteria": [
+        "TAX.1a: Objectives of taxation",
+        "TAX.1b: Main UK taxes and who bears them",
+        "TAX.1c: UK tax year and sources of tax law",
+        "TAX.1d: Ethics in tax practice, avoidance versus evasion",
+        "TAX.1e: Conflicts of interest and money laundering in tax practice"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives TAX.1a, TAX.1b, TAX.1c, TAX.1d, TAX.1e (Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "TAX_S02_Administration_of_Taxation": {
+      "criteria": [
+        "TAX.2a: Record retention requirements",
+        "TAX.2b: PAYE and Class 1 NIC administration",
+        "TAX.2c: Self-assessment for individuals and companies",
+        "TAX.2d: VAT and other reporting due dates",
+        "TAX.2e: Interest, penalties and HMRC enquiries"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives TAX.2a, TAX.2b, TAX.2c, TAX.2d, TAX.2e (Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "TAX_S03_Income_Tax_and_National_Insurance": {
+      "criteria": [
+        "TAX.3a: Income tax computation 2026/27",
+        "TAX.3b: Personal allowance taper",
+        "TAX.3c: Full income tax computation (worked)",
+        "TAX.3d: Marriage allowance",
+        "TAX.3e: Class 1 employee and employer NIC 2026/27",
+        "TAX.3f: Class 4 self-employed NIC 2026/27"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives TAX.3a, TAX.3b, TAX.3c, TAX.3d, TAX.3e, TAX.3f (Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "TAX_S04_Capital_Gains_Tax_and_Inheritance_Tax": {
+      "criteria": [
+        "TAX.4a: CGT chargeable persons, assets and disposals",
+        "TAX.4b: Calculating a chargeable gain",
+        "TAX.4c: Total taxable gains and CGT liability",
+        "TAX.4d: Inheritance tax key principles: PETs and CLTs",
+        "TAX.4e: Lifetime and death IHT calculations (principles)"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives TAX.4a, TAX.4b, TAX.4c, TAX.4d, TAX.4e (Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "TAX_S05_Corporation_Tax": {
+      "criteria": [
+        "TAX.5a: Company accounting periods and associated companies",
+        "TAX.5b: Adjustment of trading profit",
+        "TAX.5c: Taxable total profits and corporation tax rates 2026/27",
+        "TAX.5d: Marginal relief worked example"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives TAX.5a, TAX.5b, TAX.5c, TAX.5d (Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    },
+    "TAX_S06_VAT_and_Stamp_Taxes": {
+      "criteria": [
+        "TAX.6a: Classifying supplies for VAT",
+        "TAX.6b: Implications of supply classification for input VAT",
+        "TAX.6c: VAT registration and deregistration",
+        "TAX.6d: Tax point determination",
+        "TAX.6e: Calculating VAT payable/repayable",
+        "TAX.6f: VAT alternative schemes",
+        "TAX.6g: Stamp taxes"
+      ],
+      "pass_threshold": "At least 55% of this test's items/marks fully correct AND, on the full mock exam, at least 55% on each of the six modules individually (ICAEW's own published pass mark of 55%, which applies uniformly to every CFAB module exam, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+        "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+        "reference": "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation objectives TAX.6a, TAX.6b, TAX.6c, TAX.6d, TAX.6e, TAX.6f, TAX.6g (Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes)",
+        "urls": [
+          "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock covering all six CFAB modules in ICAEW's real CBE objective-test style: mostly single-select/multiple-response/multi-part objective questions, plus a small number of scenario-based multi-task questions (as in the real Management Information and Principles of Taxation exams) reflecting each module's own real proportions",
+      "Item types as in the real exams: single-select and multiple-response objective questions, short numeric-entry items, and scenario-based multi-task questions",
+      "Every numerical answer computed with Python, using the live-fetched 2026/27 UK tax figures where relevant; questions drawn from every stage of every module"
+    ],
+    "pass_threshold": "At least 55% overall AND at least 55% on each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) individually - ICAEW's own published, uniform pass mark.",
+    "source": {
+      "issuing_body": "ICAEW (Institute of Chartered Accountants in England and Wales)",
+      "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+      "reference": "ICAEW CFAB exam format: six separate 1.5-hour CBEs (one per module), objective-test in style, 55% pass mark per module",
+      "urls": [
+        "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules"
+  ],
+  "source_notes": "ICAEW publishes the module list, exam format and pass mark on its CFAB exam-modules page, and syllabus/topic detail across its CFAB and Next Generation ACA study-resources pages, but not full past papers beyond limited sample/specimen material. Stage tests and the mock are original questions in ICAEW's real objective-test/multi-task style; every numeric answer, including every UK tax computation, was computed with Python against the live-fetched 2026/27 tax figures."
+}

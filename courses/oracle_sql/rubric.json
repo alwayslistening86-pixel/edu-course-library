@@ -1,0 +1,291 @@
+{
+  "stage_rubrics": {
+    "S01_Relational_Concepts": {
+      "criteria": [
+        "1.1: Explain the theoretical and physical aspects of a relational database",
+        "1.2: Relate clauses in SQL SELECT statements to the components of an ERD",
+        "1.3: Explain the relationship between a database and SQL"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 1.1, 1.2, 1.3 (Area 1 Relational Database concepts)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S02_Basic_SELECT": {
+      "criteria": [
+        "2.1: Use column aliases",
+        "2.2: Use the SQL SELECT statement",
+        "2.3: Use the concatenation operator, literal character strings, the alternative quote operator and the DISTINCT keyword",
+        "2.4: Use arithmetic expressions and NULL values in the SELECT statement"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 2.1, 2.2, 2.3, 2.4 (Area 2 Retrieving Data using the SQL SELECT Statement)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S03_Restricting_and_Sorting": {
+      "criteria": [
+        "3.1: Apply the rules of precedence for operators in an expression",
+        "3.2: Limit the rows returned in a SQL statement",
+        "3.5: Sort data"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 3.1, 3.2, 3.5 (Area 3 Restricting and Sorting Data)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S04_Substitution_Variables": {
+      "criteria": [
+        "3.3: Use substitution variables",
+        "3.4: Use the DEFINE and VERIFY commands"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 3.3, 3.4 (Area 3 Restricting and Sorting Data)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S05_Character_and_Number_Functions": {
+      "criteria": [
+        "4.1: Manipulate strings with character functions in SQL SELECT and WHERE clauses",
+        "4.3: Manipulate numbers with the ROUND, TRUNC and MOD functions"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 4.1, 4.3 (Area 4 Using Single-Row Functions to Customize Output)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S06_Dates": {
+      "criteria": [
+        "4.2: Perform arithmetic with date data",
+        "4.4: Manipulate dates with the date functions"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 4.2, 4.4 (Area 4 Using Single-Row Functions to Customize Output)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S07_Conversion_and_Conditional": {
+      "criteria": [
+        "5.1: Apply the NVL, NULLIF and COALESCE functions to data",
+        "5.2: Understand implicit and explicit data type conversion",
+        "5.3: Use the TO_CHAR, TO_NUMBER and TO_DATE conversion functions",
+        "5.4: Nest multiple functions"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 5.1, 5.2, 5.3, 5.4 (Area 5 Using Conversion Functions and Conditional Expressions)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S08_Group_Functions": {
+      "criteria": [
+        "6.3: Use group functions",
+        "6.2: Create groups of data",
+        "6.1: Restrict group results"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 6.3, 6.2, 6.1 (Area 6 Reporting Aggregated Data Using Group Functions)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S09_Joins": {
+      "criteria": [
+        "7.1: Use self-joins",
+        "7.2: Use various types of joins",
+        "7.3: Use non-equijoins",
+        "7.4: Use OUTER joins",
+        "7.5: Understand and use Cartesian products"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 7.1, 7.2, 7.3, 7.4, 7.5 (Area 7 Displaying Data from Multiple Tables)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S10_Subqueries": {
+      "criteria": [
+        "8.1: Use single-row subqueries",
+        "8.2: Use multiple-row subqueries",
+        "8.3: Update and delete rows using correlated subqueries"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 8.1, 8.2, 8.3 (Area 8 Using Subqueries to Solve Queries)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S11_Set_Operators": {
+      "criteria": [
+        "9.1: Match the SELECT statements",
+        "9.2: Use the ORDER BY clause in set operations",
+        "9.3: Use the INTERSECT operator",
+        "9.4: Use the MINUS operator",
+        "9.5: Use the UNION and UNION ALL operators"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 9.1, 9.2, 9.3, 9.4, 9.5 (Area 9 Using SET Operators)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S12_DML_and_Transactions": {
+      "criteria": [
+        "10.1: Manage database transactions",
+        "10.2: Control transactions",
+        "10.3: Perform insert, update and delete operations",
+        "10.4: Perform multi-table inserts",
+        "10.5: Perform MERGE statements"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 10.1, 10.2, 10.3, 10.4, 10.5 (Area 10 Managing Tables using DML statements)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S13_DDL_Tables_and_Constraints": {
+      "criteria": [
+        "12.1: Describe and work with tables",
+        "12.2: Describe and work with columns and data types",
+        "12.3: Create tables",
+        "12.4: Drop columns and set columns UNUSED",
+        "12.5: Truncate tables",
+        "12.6: Create and use temporary tables",
+        "12.7: Create and use external tables",
+        "12.8: Manage constraints"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8 (Area 12 Use DDL to manage tables and their relationships)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S14_Views_Indexes_Synonyms_Sequences": {
+      "criteria": [
+        "13.1: Manage views",
+        "11.1: Manage indexes",
+        "11.2: Manage synonyms",
+        "11.3: Manage sequences"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 13.1, 11.1, 11.2, 11.3 (Areas 13 Managing Views and 11 Managing Indexes, Synonyms and Sequences)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S15_User_Access_and_Data_Dictionary": {
+      "criteria": [
+        "14.1: Differentiate system privileges from object privileges",
+        "14.2: Grant privileges on tables",
+        "14.3: Distinguish between granting privileges and roles",
+        "15.1: Use data dictionary views"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 14.1, 14.2, 14.3, 15.1 (Areas 14 Controlling User Access and 15 Managing Objects with Data Dictionary Views)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    },
+    "S16_Time_Zones_and_Intervals": {
+      "criteria": [
+        "16.1: Work with CURRENT_DATE, CURRENT_TIMESTAMP and LOCALTIMESTAMP",
+        "16.2: Work with INTERVAL data types"
+      ],
+      "pass_threshold": "At least 63% of this test's items fully correct, mirroring the published pass mark (1Z0-071: 63%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-071 objectives 16.1, 16.2 (Area 16 Managing Data in Different Time Zones)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 63-item exam covering all 16 areas, weighted towards querying (SELECT, functions, groups, joins, subqueries, set operators) as the topic list is",
+      "Query-result, 'which statements are true' and 'which queries will succeed' items, as on the real exam",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 63% overall (40 of 63 items fully correct), the published 1Z0-071 passing score. Also report the score per area.",
+    "source": {
+      "issuing_body": "Oracle University",
+      "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+      "reference": "1Z0-071 exam format: multiple choice, 63 questions, 120 minutes, passing score 63%",
+      "urls": [
+        "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369"
+  ],
+  "source_notes": "Oracle MyLearn publishes the 1Z0-071 topics, format and pass mark, but no weights or past papers. Stage tests are original; query answer keys come from running the SQL on Oracle AI Database Free 23.26 in SQL*Plus. Oracle also offers 1Z0-171; this course follows 1Z0-071, which remains live."
+}

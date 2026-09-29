@@ -1,0 +1,678 @@
+{
+  "stage_rubrics": {
+    "S01_Scheme_of_Assessment_and_AOs": {
+      "criteria": [
+        "States each paper's title, timing, marks and section structure accurately",
+        "Distinguishes command words (describe/explain/assess/evaluate/suggest) and what each demands",
+        "Explains what AO1-AO4 each reward, including the fieldwork minimums within AO3 and AO4",
+        "Applies this understanding to judge whether a sample answer meets a given AO"
+      ],
+      "pass_threshold": "Learner can state each paper's title, length, marks and weighting from memory, and correctly sort a set of sample question stems into the AO they mainly reward.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, sections 2 and 4",
+        "reference": "AQA 8035 specification, Scheme of assessment",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S02_Natural_Hazards_and_Tectonic_Processes": {
+      "criteria": [
+        "Defines a natural hazard accurately, including the idea of potential harm to people or property",
+        "Classifies hazard types (geological, meteorological/atmospheric) correctly",
+        "Explains at least two factors affecting hazard risk between places",
+        "Explains the process at each of the three plate margin types using correct tectonic vocabulary"
+      ],
+      "pass_threshold": "Foundation: correctly defines a natural hazard, classifies at least three hazard types, and names the three plate margin types with one correct process each. Higher: explains why risk varies between places and links margin type to landform and hazard produced.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.1.1-3.1.1.2",
+        "reference": "AQA 8035 specification, section 3.1.1.1 and 3.1.1.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S03_Tectonic_Hazards_Effects_Responses_and_Case_Studies": {
+      "criteria": [
+        "Correctly distinguishes primary from secondary effects and immediate from long-term responses",
+        "Uses accurate named figures (dates, magnitude, death toll) for both Chile 2010 and Nepal 2015",
+        "Explains, with reasoning, how wealth and development change the scale of effects and speed of response",
+        "Explains monitoring, prediction, protection and planning as distinct but related ways to reduce risk"
+      ],
+      "pass_threshold": "Foundation: correctly sorts effects and responses into the right categories and names one figure from each case study. Higher: compares Chile and Nepal explaining why wealth changed the effects and responses, and explains monitoring, prediction, protection and planning together.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.1.2",
+        "reference": "AQA 8035 specification, section 3.1.1.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S04_Tropical_Storms": {
+      "criteria": [
+        "Explains the three-cell model in enough detail to account for the pressure belts and trade winds",
+        "States accurate formation conditions and the global distribution of tropical storms",
+        "Labels and explains the eye, eye wall and rain bands correctly",
+        "Distinguishes primary from secondary effects and immediate from long-term responses, and links climate change to storm intensity"
+      ],
+      "pass_threshold": "Foundation: names the global distribution and formation conditions of tropical storms and labels the main structural features. Higher: explains the three-cell model and links storm distribution and possible future change to atmospheric circulation and climate change.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.1.3",
+        "reference": "AQA 8035 specification, section 3.1.1.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S05_Tropical_Storms_Case_Study_and_UK_Weather": {
+      "criteria": [
+        "Gives accurate named figures for Typhoon Haiyan's effects",
+        "Names UK weather hazard types and explains the causes of Storm Desmond",
+        "Describes social, economic and environmental impacts of Storm Desmond and the response to it",
+        "Evaluates evidence for increasingly extreme UK weather with balanced reasoning"
+      ],
+      "pass_threshold": "Foundation: gives named figures for Typhoon Haiyan and Storm Desmond and lists UK weather hazard types. Higher: explains how monitoring, prediction, protection and planning reduced (or could have reduced) impacts, and evaluates evidence that UK weather is becoming more extreme.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.1.3",
+        "reference": "AQA 8035 specification, section 3.1.1.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S06_Climate_Change": {
+      "criteria": [
+        "Explains at least two forms of evidence for climate change accurately",
+        "Correctly distinguishes natural from human causes of climate change",
+        "Describes effects on people and the environment with specific detail",
+        "Distinguishes mitigation from adaptation and evaluates the need for both"
+      ],
+      "pass_threshold": "Foundation: names evidence and at least one natural and one human cause of climate change, and gives one mitigation and one adaptation example. Higher: explains how each piece of evidence works and evaluates mitigation versus adaptation as different approaches.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.1.4",
+        "reference": "AQA 8035 specification, section 3.1.1.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S07_Ecosystems_and_Rainforest_Characteristics": {
+      "criteria": [
+        "Explains food chains, food webs, nutrient cycling and the impact of removing a component",
+        "Describes the global distribution of large-scale ecosystems in relation to latitude and climate",
+        "Describes rainforest climate and correctly labels its four vegetation layers",
+        "Explains plant and animal adaptations and why interdependence makes the rainforest a fragile system"
+      ],
+      "pass_threshold": "Foundation: describes a food chain/web and names the four rainforest layers with basic adaptations. Higher: explains what happens to the whole ecosystem if one component changes, and explains interdependence in the rainforest as a system.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.2.1 and 3.1.2.2",
+        "reference": "AQA 8035 specification, section 3.1.2.1 and 3.1.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S08_Rainforest_Deforestation_and_Management": {
+      "criteria": [
+        "Explains that deforestation rates have varied rather than only ever risen or fallen",
+        "Names and explains at least three causes and three impacts of Amazon deforestation with specific detail",
+        "Explains the value of tropical rainforests to both people and the environment",
+        "Evaluates at least two management strategies and reaches a supported judgement"
+      ],
+      "pass_threshold": "Foundation: names at least three causes and three impacts of Amazon deforestation and one management strategy. Higher: explains the trend in deforestation rates over time and evaluates whether management strategies can genuinely balance development with conservation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.2.2",
+        "reference": "AQA 8035 specification, section 3.1.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S09_Cold_Environments": {
+      "criteria": [
+        "Describes cold environment climate and defines permafrost and the active layer accurately",
+        "Explains interdependence between climate, permafrost, soils, plants, animals and people",
+        "Names specific Alaska development opportunities and challenges with detail",
+        "Evaluates at least one strategy for balancing development with conservation"
+      ],
+      "pass_threshold": "Foundation: describes cold environment climate and names development opportunities and challenges for Alaska. Higher: explains how climate, permafrost, soils, plants, animals and people are interdependent, and evaluates how development and conservation can be balanced.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.2.4",
+        "reference": "AQA 8035 specification, section 3.1.2.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S10_UK_Landscapes_and_Coastal_Processes": {
+      "criteria": [
+        "Distinguishes constructive from destructive waves using swash and backwash correctly",
+        "Names and explains all four processes of coastal erosion accurately",
+        "Distinguishes weathering from mass movement and names at least one example of each type",
+        "Explains how rock structure and type produce concordant and discordant coastlines"
+      ],
+      "pass_threshold": "Foundation: locates upland and lowland UK areas and names the four coastal erosion processes with a basic definition. Higher: explains why waves, weathering and mass movement type vary with rock structure and exposure.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.3.1 and 3.1.3.2",
+        "reference": "AQA 8035 specification, section 3.1.3.1 and 3.1.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S11_Coastal_Landforms": {
+      "criteria": [
+        "Explains the formation of headlands and bays with reference to rock resistance",
+        "Explains the full cave-arch-stack-stump erosional sequence correctly and in order",
+        "Explains beach, sand dune and spit/bar formation with correct process vocabulary",
+        "Uses specific, accurately located Purbeck examples to support the explanation"
+      ],
+      "pass_threshold": "Foundation: describes the formation sequence of at least three landforms and locates them on the Purbeck coast. Higher: explains the full formation sequence from headland to cave-arch-stack-stump, and from sand dune to established dune system.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.3.2",
+        "reference": "AQA 8035 specification, section 3.1.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S12_Coastal_Management": {
+      "criteria": [
+        "Explains at least one hard and one soft engineering option with accurate costs and benefits",
+        "Defines managed retreat and explains its costs and benefits",
+        "Explains the reasons for the specific strategy used at Cleveleys, using located detail",
+        "Evaluates and compares strategies, reaching a supported judgement"
+      ],
+      "pass_threshold": "Foundation: names hard and soft engineering options with one cost and one benefit each. Higher: evaluates which approach best suits Cleveleys, and compares it with a managed retreat scheme.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.3.2",
+        "reference": "AQA 8035 specification, section 3.1.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S13_Glacial_Processes_and_Erosional_Landforms": {
+      "criteria": [
+        "Explains freeze-thaw weathering and both glacial erosion processes (abrasion and plucking) accurately",
+        "Explains the formation of at least three erosional landforms with correct process detail",
+        "Distinguishes till from outwash and explains at least two depositional landforms",
+        "Sequences landform formation correctly rather than describing landforms in isolation"
+      ],
+      "pass_threshold": "Foundation: names the main erosional and depositional landforms with a basic description. Higher: explains the process (freeze-thaw, abrasion, plucking, rotational slip) responsible for each landform in sequence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.3.4",
+        "reference": "AQA 8035 specification, section 3.1.3.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S14_Lake_District_Landforms_and_Tourism": {
+      "criteria": [
+        "Names and correctly locates specific Lake District glacial landforms",
+        "Explains at least two economic activities and one land-use conflict with reasoning",
+        "Explains social, economic and environmental impacts of tourism with specific detail",
+        "Evaluates management strategies and reaches a supported judgement"
+      ],
+      "pass_threshold": "Foundation: names at least two Lake District landforms and two economic activities with a tourism impact. Higher: explains land-use conflicts between activities and evaluates whether management strategies successfully balance them.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.1.3.4",
+        "reference": "AQA 8035 specification, section 3.1.3.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S15_Urbanisation_and_Lagos_Growth": {
+      "criteria": [
+        "Explains urbanisation and correctly contrasts the rate and pattern between HICs and LICs/NEEs",
+        "Explains rural-urban migration using push-pull theory, and defines natural increase correctly",
+        "Locates Lagos accurately and explains its importance",
+        "Explains specific social and economic opportunities urban growth has brought to Lagos"
+      ],
+      "pass_threshold": "Foundation: explains urbanisation and names Lagos's causes of growth. Higher: explains why urbanisation rates differ between HICs and LICs/NEEs and links Lagos's growth to both migration and natural increase.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.1",
+        "reference": "AQA 8035 specification, section 3.2.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S16_Lagos_Challenges_and_Solutions": {
+      "criteria": [
+        "Explains why squatter settlements such as Makoko developed, with specific detail",
+        "Explains at least two service-provision challenges (water/sanitation/energy, health/education) with detail",
+        "Links unemployment, the informal economy and crime with clear reasoning",
+        "Evaluates a named scheme improving quality of life for the urban poor, reaching a judgement"
+      ],
+      "pass_threshold": "Foundation: names at least three Lagos challenges with a specific detail each. Higher: explains why rapid, unplanned growth causes these challenges and evaluates a named scheme improving quality of life for the urban poor.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.1",
+        "reference": "AQA 8035 specification, section 3.2.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S17_UK_Cities_and_Manchester": {
+      "criteria": [
+        "Describes UK population distribution and locates Manchester accurately",
+        "Explains the impact of national and international migration on Manchester with specific detail",
+        "Explains social, economic and environmental opportunities with named examples",
+        "Explains social, economic and environmental challenges, linking them to Manchester's economic history"
+      ],
+      "pass_threshold": "Foundation: locates Manchester and names two opportunities and two challenges. Higher: explains how migration has shaped Manchester's growth and character, and how opportunities and challenges are linked to its economic history.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.1",
+        "reference": "AQA 8035 specification, section 3.2.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S18_Urban_Sprawl_Regeneration_and_Sustainability": {
+      "criteria": [
+        "Defines urban sprawl and the rural-urban fringe correctly",
+        "Explains the reasons for, and features of, the Salford Quays and MediaCityUK regeneration with specific detail",
+        "Explains at least three features of sustainable urban living",
+        "Explains and evaluates transport strategies for reducing congestion"
+      ],
+      "pass_threshold": "Foundation: defines urban sprawl and names the reasons for, and features of, the Salford Quays regeneration. Higher: evaluates whether regeneration and sustainability strategies fully resolve the problems of sprawl and congestion.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.1",
+        "reference": "AQA 8035 specification, section 3.2.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S19_Development_and_the_Development_Gap": {
+      "criteria": [
+        "Classifies HIC/LIC/NEE correctly and explains what distinguishes them",
+        "Names and explains economic and social development measures accurately",
+        "Explains DTM stages correctly, linking birth/death rate change to development",
+        "Explains causes and consequences of uneven development, and evaluates at least two strategies to reduce it"
+      ],
+      "pass_threshold": "Foundation: names development measures and DTM stages, and lists strategies to reduce the gap. Higher: evaluates limitations of development measures and explains multiple causes and consequences of uneven development.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.2",
+        "reference": "AQA 8035 specification, section 3.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S20_Nigeria_Case_Study": {
+      "criteria": [
+        "Explains tourism's costs and benefits for Jamaica's development with specific detail",
+        "Locates Nigeria accurately and explains its regional and international importance",
+        "Explains Nigeria's industrial structure, TNCs and trading relationships with named detail",
+        "Evaluates environmental impacts and quality-of-life effects, reaching a supported judgement"
+      ],
+      "pass_threshold": "Foundation: locates Nigeria and names its industry, trading partners and aid. Higher: evaluates whether TNCs and international aid have made Nigeria's quality of life better or worse overall.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.2",
+        "reference": "AQA 8035 specification, section 3.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S21_UK_Economic_Change": {
+      "criteria": [
+        "Explains at least two causes of UK deindustrialisation with named detail",
+        "Explains the shift to a post-industrial economy with named examples",
+        "Explains rural growth and decline with specific located examples",
+        "Explains infrastructure investment and evaluates strategies addressing the north-south divide"
+      ],
+      "pass_threshold": "Foundation: names causes of UK deindustrialisation and one example each of rural growth, rural decline and infrastructure investment. Higher: evaluates whether regional strategies are closing the north-south divide.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.2",
+        "reference": "AQA 8035 specification, section 3.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S22_Resource_Management_and_UK_Water": {
+      "criteria": [
+        "Explains why food, water and energy matter to wellbeing and development",
+        "Explains global inequality in resource supply and consumption using scarcity concepts",
+        "Explains UK water demand trends and quality management measures with detail",
+        "Explains the UK's supply-demand mismatch and names a specific transfer scheme correctly"
+      ],
+      "pass_threshold": "Foundation: explains why resources matter and describes the UK's water supply-demand pattern. Higher: explains why water must be transferred within the UK and evaluates the trade-offs involved.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.3.1",
+        "reference": "AQA 8035 specification, section 3.2.3.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S23_Global_Water_Resource_Option": {
+      "criteria": [
+        "Explains global patterns of water surplus and deficit with correct reasoning",
+        "Explains factors affecting availability and impacts of water insecurity with specific detail",
+        "Explains the Lesotho Highlands scheme's advantages and disadvantages accurately",
+        "Explains the Kenyan sand dam scheme and evaluates it against the large-scale scheme"
+      ],
+      "pass_threshold": "Foundation: names factors affecting water availability and one large-scale and one small-scale water scheme. Higher: evaluates the Lesotho Highlands scheme's costs and benefits against Kenyan sand dams as contrasting approaches.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.2.3.3",
+        "reference": "AQA 8035 specification, section 3.2.3.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S24_Issue_Evaluation_Skills": {
+      "criteria": [
+        "Explains the synoptic, multi-scale nature of issue evaluation",
+        "Explains the purpose and use of the pre-release resources booklet",
+        "Identifies stakeholders and weighs advantages, disadvantages and alternatives",
+        "Reaches a decision clearly justified with specific evidence and explained interrelationships"
+      ],
+      "pass_threshold": "Foundation: describes the pre-release booklet's role and the typical question sequence. Higher: produces a justified decision that weighs stakeholders, advantages, disadvantages and alternatives using evidence from the booklet.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.3.1",
+        "reference": "AQA 8035 specification, section 3.3.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S25_Fieldwork_Enquiry_Questions_and_Data_Collection": {
+      "criteria": [
+        "States the fieldwork requirement and explains how fieldwork is assessed",
+        "Writes a testable, theory-linked enquiry question or hypothesis",
+        "Distinguishes primary from secondary evidence and justifies location choice",
+        "Identifies fieldwork risks and explains specific, realistic ways to reduce them"
+      ],
+      "pass_threshold": "Foundation: states the fieldwork requirement and names the theory behind an enquiry question. Higher: writes a testable enquiry question, links it to geographical theory, and justifies data sources, locations and risk-reduction measures.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.3.2",
+        "reference": "AQA 8035 specification, section 3.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S26_Fieldwork_Data_Types_and_Sampling": {
+      "criteria": [
+        "Distinguishes primary/secondary and physical/human data with specific examples",
+        "Explains all three sampling methods correctly with a suitable example for each",
+        "Justifies data collection method choices for a specific enquiry",
+        "Selects, accurately describes and justifies an appropriate presentation method"
+      ],
+      "pass_threshold": "Foundation: names sampling methods and presentation techniques with a basic description. Higher: justifies the choice of data collection and presentation methods for the Cleveleys and Salford Quays enquiries.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.3.2",
+        "reference": "AQA 8035 specification, section 3.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S27_Fieldwork_Analysis_and_Conclusions": {
+      "criteria": [
+        "Describes, analyses and explains results, going beyond description to reasoned explanation",
+        "Uses an appropriate statistical technique correctly to support analysis",
+        "Identifies and offers a plausible explanation for an anomaly",
+        "Reaches a conclusion directly answering the enquiry question, using specific evidence"
+      ],
+      "pass_threshold": "Foundation: describes a data pattern and states one problem with a data collection method. Higher: analyses linked data sets using statistics, explains an anomaly, and reaches a conclusion that answers the original enquiry question.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.3.2",
+        "reference": "AQA 8035 specification, section 3.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S28_Fieldwork_Evaluation_and_School_Enquiries": {
+      "criteria": [
+        "Suggests specific, relevant further data to strengthen an enquiry",
+        "Judges reliability using sample size, data problems and limitations correctly",
+        "Outlines the Cleveleys enquiry's question, methods, analysis and conclusion accurately",
+        "Outlines the Salford Quays enquiry's question, methods, analysis and conclusion accurately"
+      ],
+      "pass_threshold": "Foundation: states one improvement and one reliability judgement for an enquiry, and outlines both enquiries. Higher: evaluates how reliable the conclusions from Cleveleys and Salford Quays are, and what further data would improve each.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.3.2",
+        "reference": "AQA 8035 specification, section 3.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S29_Atlas_Maps_and_OS_Map_Basics": {
+      "criteria": [
+        "Reads and states latitude/longitude coordinates correctly",
+        "Describes a distribution using direction, named places and comparative language",
+        "Gives four- and six-figure grid references correctly (eastings before northings)",
+        "Measures straight and curved-line distance accurately using the map scale"
+      ],
+      "pass_threshold": "Foundation: gives a four-figure grid reference and reads a map scale correctly. Higher: gives a six-figure grid reference, measures a curved route accurately, and explains an association shown on a thematic map.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.4.1",
+        "reference": "AQA 8035 specification, section 3.4.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S30_OS_Maps_Relief_and_Landscape_Features": {
+      "criteria": [
+        "Reads gradient, contours and spot heights correctly and links contour spacing to steepness",
+        "Identifies named landscape features from contour patterns with accurate description",
+        "Constructs a cross-section correctly using the paper-strip method",
+        "Draws a well-evidenced inference supported by specific grid references or map evidence"
+      ],
+      "pass_threshold": "Foundation: reads a spot height and describes one landscape feature shown on a map. Higher: constructs and interprets a cross-section and draws a well-evidenced inference about physical or human landscape from map evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.4.1",
+        "reference": "AQA 8035 specification, section 3.4.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S31_Maps_with_Photographs_and_Annotation": {
+      "criteria": [
+        "Infers human activity, including tourism, correctly from map symbol evidence",
+        "Compares two maps or sources accurately, identifying specific change with grid references",
+        "Draws a clear, roughly-to-scale sketch map or field sketch with title, key/labels and north arrow where relevant",
+        "Distinguishes ground, aerial and satellite images, and writes explanatory annotations rather than bare labels"
+      ],
+      "pass_threshold": "Foundation: labels one feature on a photograph and describes what a symbol suggests about human activity. Higher: draws a clearly labelled field sketch from a photograph and compares it accurately against a map of the same area.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.4.1",
+        "reference": "AQA 8035 specification, section 3.4.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S32_Graphical_Skills": {
+      "criteria": [
+        "Selects an appropriate graph or chart type and justifies the choice against the data type",
+        "Constructs or completes a graph/chart/thematic map accurately with correct labels, scale and key",
+        "Interprets isoline gradient and estimates intermediate values correctly",
+        "Interprets a complex representation (population pyramid, choropleth map) with specific, accurate description"
+      ],
+      "pass_threshold": "Foundation: names an appropriate graph type for a given data set and plots simple data accurately. Higher: justifies the choice of graphical technique and interprets a complex data representation such as a population pyramid or choropleth map correctly.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.4.2",
+        "reference": "AQA 8035 specification, section 3.4.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S33_Numerical_and_Statistical_Skills": {
+      "criteria": [
+        "Calculates mean, median, mode, range and interquartile range correctly from given data",
+        "Calculates percentage change correctly and interprets its direction",
+        "Describes a bivariate relationship and distinguishes interpolation from extrapolation correctly",
+        "Identifies and explains a specific weakness in selective statistical presentation"
+      ],
+      "pass_threshold": "Foundation: calculates a mean and a simple percentage change correctly. Higher: calculates interquartile range, describes a scatter graph relationship with interpolation/extrapolation, and spots weaknesses in selective statistical presentation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.4.3 and 3.4.4",
+        "reference": "AQA 8035 specification, sections 3.4.3 and 3.4.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    },
+    "S34_Data_Sources_Enquiry_Writing_and_SPaG": {
+      "criteria": [
+        "Distinguishes qualitative/quantitative and primary/secondary data with specific, correct examples",
+        "Identifies GIS, satellite imagery or another digital source and explains a specific relevant use",
+        "Writes with a clear escalation from description to analysis and, where required, critical evaluation",
+        "Reaches a well-evidenced conclusion that explicitly weighs evidence and answers the question asked",
+        "Uses accurate spelling, punctuation, grammar and correct specialist terminology throughout"
+      ],
+      "pass_threshold": "Foundation: distinguishes primary from secondary and qualitative from quantitative data, and writes a clear descriptive paragraph. Higher: plans a full enquiry sequence, writes a well-structured extended argument reaching an evidenced conclusion, and uses accurate spelling, punctuation and specialist terminology throughout.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Geography (8035) specification, 3.4.5, 3.4.6, 3.4.7 and 4.4",
+        "reference": "AQA 8035 specification, sections 3.4.5, 3.4.6, 3.4.7 and 4.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+          "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Answers accurately across all three papers without needing prompting on which topic applies",
+      "Uses named case studies, locations and the Cleveleys/Salford Quays enquiries correctly and specifically",
+      "Applies cartographic, graphical, numerical and statistical skills correctly to unfamiliar map, graph and data resources",
+      "Reaches and justifies a reasoned decision on the issue-evaluation question, weighing evidence from the resource booklet",
+      "Uses accurate spelling, punctuation, grammar and specialist terminology on SPaG-assessed extended questions"
+    ],
+    "pass_threshold": "Performance consistent with the grade the learner is aiming for, judged against the levels of response bands in `rubric.json`'s `exam_rubric`. AQA sets exact grade boundaries per series rather than a fixed mark table; there is no foundation/higher tier split in AQA GCSE Geography 8035 (all candidates sit the same papers).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE Geography (8035) specification, Scheme of Assessment (Papers 1, 2 and 3)",
+      "reference": "AQA 8035 specification, section 2.2 Scheme of assessment",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF",
+        "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification/subject-content"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-80352-W-MS-NOV20.PDF"
+  ],
+  "source_notes": [
+    "The Paper 2 mark scheme at the linked AQA URL is filed under the November 2020 series but its cover page reads 'June 2020' (AQA reused the June 2020 labelling for the autumn 2020 series)."
+  ]
+}

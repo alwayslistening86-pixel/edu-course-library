@@ -1,0 +1,519 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "OpenEDG JS Institute, JSA-41-01 Exam Syllabus (Certified Associate JavaScript Programmer), status ACTIVE",
+    "url": "https://jsinstitute.org/jsa-exam-syllabus",
+    "version": "JSA-41-01 (ACTIVE), fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "Ids use the JS Institute's objective numbers (1.1-4.10, each with a single sub-objective x.y.1); the letter suffix numbers the listed sub-points in syllabus order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1a",
+      "title": "Creating objects with literal syntax and initialising fields",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.2a",
+      "title": "Adding, modifying and deleting properties",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.2b",
+      "title": "Nested properties and optional chaining",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.3a",
+      "title": "Dot notation for ordinary identifiers",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.3b",
+      "title": "Bracket notation for multi-word, dynamic or computed keys",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.4a",
+      "title": "Testing existence with in and safe access",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.4b",
+      "title": "for...in over own properties (with filtering)",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.4c",
+      "title": "Object.keys(), Object.values(), Object.entries()",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.5a",
+      "title": "Reference equality versus deep structural comparison",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.5b",
+      "title": "Identity versus value equivalence",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.6a",
+      "title": "Copying a reference versus cloning a value",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.6b",
+      "title": "Shallow clones with Object.assign() and spread",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.6c",
+      "title": "Deep cloning strategies and caveats",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.7a",
+      "title": "Functions as properties and methods in literals",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.7b",
+      "title": "Adding methods to existing objects",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.7c",
+      "title": "this in method calls",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.8a",
+      "title": "Accessor properties with get and set",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.8b",
+      "title": "Validating or computing fields with accessors",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.9a",
+      "title": "Property descriptors with Object.defineProperty()",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.9b",
+      "title": "Object.preventExtensions(), Object.seal(), Object.freeze()",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.10a",
+      "title": "Factory functions",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.10b",
+      "title": "Constructor functions with new",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.10c",
+      "title": "Object.create() with an explicit prototype",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.11a",
+      "title": "Prototype-based inheritance links",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.11b",
+      "title": "__proto__, [[Prototype]] and Function.prototype",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "1.11c",
+      "title": "Object.setPrototypeOf()",
+      "topic_area": "1 Classless objects"
+    },
+    {
+      "id": "2.1a",
+      "title": "Class declarations: constructor, fields and methods",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.1b",
+      "title": "Class expressions; classes as first-class values",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.2a",
+      "title": "Instantiating with new and checking with instanceof",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.3a",
+      "title": "Initialising fields in the constructor or with field syntax",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.4a",
+      "title": "get and set in class bodies",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.5a",
+      "title": "extends and overriding members",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.5b",
+      "title": "super in constructors and methods",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.6a",
+      "title": "static methods and properties",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "2.7a",
+      "title": "Class syntax related to constructor functions and prototype methods",
+      "topic_area": "2 Classes"
+    },
+    {
+      "id": "3.1a",
+      "title": "Number: converting to and from numeric strings",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.1b",
+      "title": "Number: static properties and methods; formatting (toFixed and others)",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.2a",
+      "title": "String: case, split, find/replace, pad/trim and comparison",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.3a",
+      "title": "Date: constructing, reading and writing components, elapsed time",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.3b",
+      "title": "Date: local time versus UTC",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.4a",
+      "title": "Arrays: creating, merging, adding and removing, slice and splice, spread and destructuring",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.5a",
+      "title": "find, every, some, filter, sort, map and reduce",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.6a",
+      "title": "Set: construct, add/has/delete/clear/size, iterate, spread",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.7a",
+      "title": "Map: construct, set/get/has/delete/clear/size, iterate pairs",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.8a",
+      "title": "Plain objects as dictionaries: managing and iterating entries",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.9a",
+      "title": "JSON.stringify and JSON.parse",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.10a",
+      "title": "Math: ceil, floor, round, random, min, max, abs, pow, log and trigonometry",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.11a",
+      "title": "Regular expressions: RegExp and literals; test, exec, match, search, replace",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "3.12a",
+      "title": "Extending built-in types through prototypes, and the risks",
+      "topic_area": "3 Built-in objects"
+    },
+    {
+      "id": "4.1a",
+      "title": "Default values, rest parameters and spread",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.1b",
+      "title": "Simulating named parameters with objects and destructuring",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.2a",
+      "title": "Closures over the lexical environment",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.2b",
+      "title": "Immediately Invoked Function Expressions (IIFEs)",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.3a",
+      "title": "Managing this with call, apply and bind",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.4a",
+      "title": "Decorators: wrapper and higher-order functions",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.5a",
+      "title": "Generator functions iterated with for...of",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.5b",
+      "title": "Custom iterables and iterators",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.6a",
+      "title": "Asynchronous flows with callbacks and error-first conventions",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.7a",
+      "title": "Creating promises; then, catch and finally",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.8a",
+      "title": "Promise chains; Promise.all, Promise.any, Promise.race",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.9a",
+      "title": "async functions, await, and try/catch for errors",
+      "topic_area": "4 Advanced functions"
+    },
+    {
+      "id": "4.10a",
+      "title": "Network requests with XMLHttpRequest and the Fetch API",
+      "topic_area": "4 Advanced functions"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Object_Literals_and_Properties": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 1.1",
+      "JSA-41-01 1.2",
+      "JSA-41-01 1.3"
+    ],
+    "syllabus_topic": "Block 1: Classless Objects (11 items, 25%)",
+    "covers_items": [
+      "1.1a",
+      "1.2a",
+      "1.2b",
+      "1.3a",
+      "1.3b"
+    ]
+  },
+  "S02_Enumerating_Comparing_and_Copying_Objects": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 1.4",
+      "JSA-41-01 1.5",
+      "JSA-41-01 1.6"
+    ],
+    "syllabus_topic": "Block 1: Classless Objects (11 items, 25%)",
+    "covers_items": [
+      "1.4a",
+      "1.4b",
+      "1.4c",
+      "1.5a",
+      "1.5b",
+      "1.6a",
+      "1.6b",
+      "1.6c"
+    ]
+  },
+  "S03_Methods_this_Accessors_and_Configuration": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 1.7",
+      "JSA-41-01 1.8",
+      "JSA-41-01 1.9"
+    ],
+    "syllabus_topic": "Block 1: Classless Objects (11 items, 25%)",
+    "covers_items": [
+      "1.7a",
+      "1.7b",
+      "1.7c",
+      "1.8a",
+      "1.8b",
+      "1.9a",
+      "1.9b"
+    ]
+  },
+  "S04_Creating_Objects_and_Prototypes": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 1.10",
+      "JSA-41-01 1.11"
+    ],
+    "syllabus_topic": "Block 1: Classless Objects (11 items, 25%)",
+    "covers_items": [
+      "1.10a",
+      "1.10b",
+      "1.10c",
+      "1.11a",
+      "1.11b",
+      "1.11c"
+    ]
+  },
+  "S05_Classes_Fields_and_Accessors": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 2.1",
+      "JSA-41-01 2.2",
+      "JSA-41-01 2.3",
+      "JSA-41-01 2.4"
+    ],
+    "syllabus_topic": "Block 2: Classes and the Class-Based Approach (7 items, 23%)",
+    "covers_items": [
+      "2.1a",
+      "2.1b",
+      "2.2a",
+      "2.3a",
+      "2.4a"
+    ]
+  },
+  "S06_Inheritance_Static_and_Constructors": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 2.5",
+      "JSA-41-01 2.6",
+      "JSA-41-01 2.7"
+    ],
+    "syllabus_topic": "Block 2: Classes and the Class-Based Approach (7 items, 23%)",
+    "covers_items": [
+      "2.5a",
+      "2.5b",
+      "2.6a",
+      "2.7a"
+    ]
+  },
+  "S07_Number_String_and_Date": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 3.1",
+      "JSA-41-01 3.2",
+      "JSA-41-01 3.3"
+    ],
+    "syllabus_topic": "Block 3: Built-in Objects (12 items, 27%)",
+    "covers_items": [
+      "3.1a",
+      "3.1b",
+      "3.2a",
+      "3.3a",
+      "3.3b"
+    ]
+  },
+  "S08_Arrays_and_Array_Methods": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 3.4",
+      "JSA-41-01 3.5"
+    ],
+    "syllabus_topic": "Block 3: Built-in Objects (12 items, 27%)",
+    "covers_items": [
+      "3.4a",
+      "3.5a"
+    ]
+  },
+  "S09_Set_Map_Dictionaries_and_JSON": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 3.6",
+      "JSA-41-01 3.7",
+      "JSA-41-01 3.8",
+      "JSA-41-01 3.9"
+    ],
+    "syllabus_topic": "Block 3: Built-in Objects (12 items, 27%)",
+    "covers_items": [
+      "3.6a",
+      "3.7a",
+      "3.8a",
+      "3.9a"
+    ]
+  },
+  "S10_Math_RegExp_and_Extending_Builtins": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 3.10",
+      "JSA-41-01 3.11",
+      "JSA-41-01 3.12"
+    ],
+    "syllabus_topic": "Block 3: Built-in Objects (12 items, 27%)",
+    "covers_items": [
+      "3.10a",
+      "3.11a",
+      "3.12a"
+    ]
+  },
+  "S11_Parameters_Closures_Context_Decorators": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 4.1",
+      "JSA-41-01 4.2",
+      "JSA-41-01 4.3",
+      "JSA-41-01 4.4"
+    ],
+    "syllabus_topic": "Block 4: Advanced Functions (10 items, 25%)",
+    "covers_items": [
+      "4.1a",
+      "4.1b",
+      "4.2a",
+      "4.2b",
+      "4.3a",
+      "4.4a"
+    ]
+  },
+  "S12_Generators_Iterators_and_Callbacks": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 4.5",
+      "JSA-41-01 4.6"
+    ],
+    "syllabus_topic": "Block 4: Advanced Functions (10 items, 25%)",
+    "covers_items": [
+      "4.5a",
+      "4.5b",
+      "4.6a"
+    ]
+  },
+  "S13_Promises_Async_Await_and_Fetch": {
+    "covers_syllabus_refs": [
+      "JSA-41-01 4.7",
+      "JSA-41-01 4.8",
+      "JSA-41-01 4.9",
+      "JSA-41-01 4.10"
+    ],
+    "syllabus_topic": "Block 4: Advanced Functions (10 items, 25%)",
+    "covers_items": [
+      "4.7a",
+      "4.8a",
+      "4.9a",
+      "4.10a"
+    ]
+  }
+}

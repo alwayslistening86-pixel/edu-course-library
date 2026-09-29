@@ -1,0 +1,28 @@
+# S20_BE_CSR_Ethics_Sustainability - Lesson: CSR, ethics and sustainability
+
+## Goal
+The learner explains corporate social responsibility, sustainability and the environment, and the fundamental principles of ethics that apply to accounting technicians, including AAT's Code of Professional Ethics.
+
+## Syllabus items taught here
+- BE3.1 - Corporate social responsibilities of a business: objectives, stakeholders, how CSR responsibilities change over time
+- BE3.2 - Sustainability and the environment: triple bottom line reporting, the trade-off between sustainability and profit
+- BE3.3 - The fundamental principles of ethics for accounting technicians: confidentiality, professional behaviour, professional competence and due care, integrity, objectivity
+- BE3.4 - The need to act ethically: AAT's Code of Professional Ethics, the public interest duty, consequences of unethical behaviour
+
+## How to teach this
+Ask the learner: a factory could cut costs by using a cheaper, more polluting production method. Who, besides the factory's owners, might be affected by that choice? Have the learner attempt every calculation (VAT, discounts, control-account reconciliations, bank reconciliations, FIFO/LIFO/AVCO, labour pay, overhead absorption, product costs, budget variances) with full workings before checking the model answer -- these are computer-marked numeric-entry items in the real AAT assessment, so exact figures matter. Every numeric example in this course was computed and verified in Python when the course was built. UK VAT is taken at the standard rate of 20% throughout unless an item states otherwise; check the current rate at gov.uk if it may have changed. AAT's assessments use a mix of multiple-choice, numeric gap-fill and journal/ledger-entry question tools; this course's items mirror the same calculation-and-entry style using clearly marked short-answer and multiple-choice items.
+
+#### BE3.1 Corporate social responsibilities of a business: objectives, stakeholders, how CSR responsibilities change over time
+**Corporate social responsibility (CSR)** means a business voluntarily considers the impact of its activities on society and the environment, beyond its strict legal obligations and beyond pure profit. A business's **objectives** may include CSR goals (e.g. reducing environmental impact, supporting local communities) alongside financial ones. **Stakeholders** -- anyone affected by or interested in the business's activities (owners/shareholders, employees, customers, suppliers, the local community, government, the environment) -- have different, sometimes conflicting, expectations of CSR. How CSR responsibilities are understood and expected **has changed over time**: what was once seen as optional "good citizenship" is increasingly expected by customers, investors and regulators, and businesses seen as ignoring CSR risk reputational and even financial damage.
+
+#### BE3.2 Sustainability and the environment: triple bottom line reporting, the trade-off between sustainability and profit
+**Sustainability** means meeting present needs without compromising the ability of future generations to meet their own needs. **Triple bottom line reporting** evaluates a business against three dimensions rather than profit alone: **people** (social impact, e.g. on employees and communities), **planet** (environmental impact) and **profit** (financial performance) -- sometimes called the "3 Ps". There is often a real **trade-off between sustainability and profit**: more sustainable practices (e.g. more expensive but lower-emission materials or processes) can raise costs and reduce short-term profit, even where they may protect long-term profitability, reputation or regulatory compliance.
+
+#### BE3.3 The fundamental principles of ethics for accounting technicians: confidentiality, professional behaviour, professional competence and due care, integrity, objectivity
+AAT sets out **five fundamental principles of ethics** for accounting technicians (shared with the wider international accountancy profession): **integrity** (being straightforward and honest in all professional relationships); **objectivity** (not allowing bias, conflict of interest or undue influence of others to override professional judgement); **professional competence and due care** (maintaining the knowledge and skill needed, and acting diligently, in line with current technical and professional standards); **confidentiality** (not disclosing information acquired professionally without proper authority, and not using it for personal advantage); **professional behaviour** (complying with relevant laws and regulations, and avoiding conduct that discredits the profession).
+
+#### BE3.4 The need to act ethically: AAT's Code of Professional Ethics, the public interest duty, consequences of unethical behaviour
+Accounting technicians must act ethically because they hold positions of trust handling others' financial information. **AAT's Code of Professional Ethics** sets out the five fundamental principles (BE3.3) and how members must apply them. This reflects a wider **public interest duty**: accountants serve not just their employer or client, but the wider public who rely on the integrity of financial information (e.g. investors, lenders, tax authorities). **Consequences of unethical behaviour** can include: disciplinary action by AAT (up to expulsion from membership), legal consequences (e.g. for fraud), damage to the individual's and the employer's reputation, and financial loss to those who relied on inaccurate or dishonest information.
+
+## Explicitly not here
+Business entities (sole trader, partnership, company) are S21.

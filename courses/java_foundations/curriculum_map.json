@@ -1,0 +1,464 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+    "url": "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389",
+    "version": "1Z0-811 exam topics as published on Oracle MyLearn, fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "Oracle lists the topics under 13 headed areas without numbers; ids number them area.position in the page's own order (1.1-13.4)."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1",
+      "title": "Describe the features of Java",
+      "topic_area": "1 What Is Java?"
+    },
+    {
+      "id": "1.2",
+      "title": "Describe the real-world applications of Java",
+      "topic_area": "1 What Is Java?"
+    },
+    {
+      "id": "2.1",
+      "title": "Describe the Java Development Kit (JDK) and the Java Runtime Environment (JRE)",
+      "topic_area": "2 Java Basics"
+    },
+    {
+      "id": "2.2",
+      "title": "Describe the components of object-oriented programming",
+      "topic_area": "2 Java Basics"
+    },
+    {
+      "id": "2.3",
+      "title": "Describe the components of a basic Java program",
+      "topic_area": "2 Java Basics"
+    },
+    {
+      "id": "2.4",
+      "title": "Compile and execute a Java program",
+      "topic_area": "2 Java Basics"
+    },
+    {
+      "id": "3.1",
+      "title": "Identify the conventions to be followed in a Java program",
+      "topic_area": "3 Basic Java Elements"
+    },
+    {
+      "id": "3.2",
+      "title": "Use Java reserved words",
+      "topic_area": "3 Basic Java Elements"
+    },
+    {
+      "id": "3.3",
+      "title": "Use single-line and multi-line comments in Java programs",
+      "topic_area": "3 Basic Java Elements"
+    },
+    {
+      "id": "3.4",
+      "title": "Import other Java packages to make them accessible in your code",
+      "topic_area": "3 Basic Java Elements"
+    },
+    {
+      "id": "3.5",
+      "title": "Describe the java.lang package",
+      "topic_area": "3 Basic Java Elements"
+    },
+    {
+      "id": "4.1",
+      "title": "Declare and initialize variables, including a variable using final",
+      "topic_area": "4 Working with Java Data Types"
+    },
+    {
+      "id": "4.2",
+      "title": "Cast a value from one data type to another, including automatic and manual promotion",
+      "topic_area": "4 Working with Java Data Types"
+    },
+    {
+      "id": "4.3",
+      "title": "Declare and initialize a String variable",
+      "topic_area": "4 Working with Java Data Types"
+    },
+    {
+      "id": "5.1",
+      "title": "Use basic arithmetic operators to manipulate data, including +, -, *, / and %",
+      "topic_area": "5 Working with Java Operators"
+    },
+    {
+      "id": "5.2",
+      "title": "Use the increment and decrement operators",
+      "topic_area": "5 Working with Java Operators"
+    },
+    {
+      "id": "5.3",
+      "title": "Use relational operators, including ==, !=, >, >=, < and <=",
+      "topic_area": "5 Working with Java Operators"
+    },
+    {
+      "id": "5.4",
+      "title": "Use arithmetic assignment operators",
+      "topic_area": "5 Working with Java Operators"
+    },
+    {
+      "id": "5.5",
+      "title": "Use conditional operators, including &&, || and ?",
+      "topic_area": "5 Working with Java Operators"
+    },
+    {
+      "id": "5.6",
+      "title": "Describe operator precedence and the use of parentheses",
+      "topic_area": "5 Working with Java Operators"
+    },
+    {
+      "id": "6.1",
+      "title": "Develop code that uses methods from the String class",
+      "topic_area": "6 Working with the String Class"
+    },
+    {
+      "id": "6.2",
+      "title": "Format Strings using escape sequences, including %d, %n and %s",
+      "topic_area": "6 Working with the String Class"
+    },
+    {
+      "id": "7.1",
+      "title": "Use the Random class",
+      "topic_area": "7 Working with the Random and Math Classes"
+    },
+    {
+      "id": "7.2",
+      "title": "Use the Math class",
+      "topic_area": "7 Working with the Random and Math Classes"
+    },
+    {
+      "id": "8.1",
+      "title": "Use the decision-making statements if-then and if-then-else",
+      "topic_area": "8 Using Decision Statements"
+    },
+    {
+      "id": "8.2",
+      "title": "Use the switch statement",
+      "topic_area": "8 Using Decision Statements"
+    },
+    {
+      "id": "8.3",
+      "title": "Compare how == differs between primitives and objects",
+      "topic_area": "8 Using Decision Statements"
+    },
+    {
+      "id": "8.4",
+      "title": "Compare two String objects using the compareTo and equals methods",
+      "topic_area": "8 Using Decision Statements"
+    },
+    {
+      "id": "9.1",
+      "title": "Describe looping statements",
+      "topic_area": "9 Using Looping Statements"
+    },
+    {
+      "id": "9.2",
+      "title": "Use a for loop, including an enhanced for loop",
+      "topic_area": "9 Using Looping Statements"
+    },
+    {
+      "id": "9.3",
+      "title": "Use a while loop",
+      "topic_area": "9 Using Looping Statements"
+    },
+    {
+      "id": "9.4",
+      "title": "Use a do-while loop",
+      "topic_area": "9 Using Looping Statements"
+    },
+    {
+      "id": "9.5",
+      "title": "Compare and contrast the for, while and do-while loops",
+      "topic_area": "9 Using Looping Statements"
+    },
+    {
+      "id": "9.6",
+      "title": "Develop code that uses break and continue statements",
+      "topic_area": "9 Using Looping Statements"
+    },
+    {
+      "id": "10.1",
+      "title": "Identify syntax and logic errors",
+      "topic_area": "10 Debugging and Exception Handling"
+    },
+    {
+      "id": "10.2",
+      "title": "Use exception handling",
+      "topic_area": "10 Debugging and Exception Handling"
+    },
+    {
+      "id": "10.3",
+      "title": "Handle common exceptions thrown",
+      "topic_area": "10 Debugging and Exception Handling"
+    },
+    {
+      "id": "10.4",
+      "title": "Use try and catch blocks",
+      "topic_area": "10 Debugging and Exception Handling"
+    },
+    {
+      "id": "11.1",
+      "title": "Use a one-dimensional array",
+      "topic_area": "11 Arrays and ArrayLists"
+    },
+    {
+      "id": "11.2",
+      "title": "Create and manipulate an ArrayList",
+      "topic_area": "11 Arrays and ArrayLists"
+    },
+    {
+      "id": "11.3",
+      "title": "Traverse the elements of an ArrayList using iterators and loops, including the enhanced for loop",
+      "topic_area": "11 Arrays and ArrayLists"
+    },
+    {
+      "id": "11.4",
+      "title": "Compare an array and an ArrayList",
+      "topic_area": "11 Arrays and ArrayLists"
+    },
+    {
+      "id": "12.1",
+      "title": "Create a new class, including a main method",
+      "topic_area": "12 Classes and Constructors"
+    },
+    {
+      "id": "12.2",
+      "title": "Use the private modifier",
+      "topic_area": "12 Classes and Constructors"
+    },
+    {
+      "id": "12.3",
+      "title": "Describe the relationship between an object and its members",
+      "topic_area": "12 Classes and Constructors"
+    },
+    {
+      "id": "12.4",
+      "title": "Describe the difference between a class variable, an instance variable and a local variable",
+      "topic_area": "12 Classes and Constructors"
+    },
+    {
+      "id": "12.5",
+      "title": "Develop code that creates an object's default constructor and modifies the object's fields",
+      "topic_area": "12 Classes and Constructors"
+    },
+    {
+      "id": "12.6",
+      "title": "Use constructors with and without parameters",
+      "topic_area": "12 Classes and Constructors"
+    },
+    {
+      "id": "12.7",
+      "title": "Develop code that overloads constructors",
+      "topic_area": "12 Classes and Constructors"
+    },
+    {
+      "id": "13.1",
+      "title": "Describe and create a method",
+      "topic_area": "13 Java Methods"
+    },
+    {
+      "id": "13.2",
+      "title": "Create and use accessor and mutator methods",
+      "topic_area": "13 Java Methods"
+    },
+    {
+      "id": "13.3",
+      "title": "Create overloaded methods",
+      "topic_area": "13 Java Methods"
+    },
+    {
+      "id": "13.4",
+      "title": "Describe a static method and demonstrate its use within a program",
+      "topic_area": "13 Java Methods"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_What_Is_Java_and_Java_Basics": {
+    "covers_syllabus_refs": [
+      "1Z0-811 1.1",
+      "1Z0-811 1.2",
+      "1Z0-811 2.1",
+      "1Z0-811 2.2",
+      "1Z0-811 2.3",
+      "1Z0-811 2.4"
+    ],
+    "syllabus_topic": "Areas 1 What Is Java? and 2 Java Basics",
+    "covers_items": [
+      "1.1",
+      "1.2",
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4"
+    ]
+  },
+  "S02_Basic_Java_Elements": {
+    "covers_syllabus_refs": [
+      "1Z0-811 3.1",
+      "1Z0-811 3.2",
+      "1Z0-811 3.3",
+      "1Z0-811 3.4",
+      "1Z0-811 3.5"
+    ],
+    "syllabus_topic": "Area 3 Basic Java Elements",
+    "covers_items": [
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5"
+    ]
+  },
+  "S03_Data_Types_and_Casting": {
+    "covers_syllabus_refs": [
+      "1Z0-811 4.1",
+      "1Z0-811 4.2",
+      "1Z0-811 4.3"
+    ],
+    "syllabus_topic": "Area 4 Working with Java Data Types",
+    "covers_items": [
+      "4.1",
+      "4.2",
+      "4.3"
+    ]
+  },
+  "S04_Operators": {
+    "covers_syllabus_refs": [
+      "1Z0-811 5.1",
+      "1Z0-811 5.2",
+      "1Z0-811 5.3",
+      "1Z0-811 5.4",
+      "1Z0-811 5.5",
+      "1Z0-811 5.6"
+    ],
+    "syllabus_topic": "Area 5 Working with Java Operators",
+    "covers_items": [
+      "5.1",
+      "5.2",
+      "5.3",
+      "5.4",
+      "5.5",
+      "5.6"
+    ]
+  },
+  "S05_String_Random_and_Math": {
+    "covers_syllabus_refs": [
+      "1Z0-811 6.1",
+      "1Z0-811 6.2",
+      "1Z0-811 7.1",
+      "1Z0-811 7.2"
+    ],
+    "syllabus_topic": "Areas 6 Working with the String Class and 7 Working with the Random and Math Classes",
+    "covers_items": [
+      "6.1",
+      "6.2",
+      "7.1",
+      "7.2"
+    ]
+  },
+  "S06_Decision_Statements": {
+    "covers_syllabus_refs": [
+      "1Z0-811 8.1",
+      "1Z0-811 8.2",
+      "1Z0-811 8.3",
+      "1Z0-811 8.4"
+    ],
+    "syllabus_topic": "Area 8 Using Decision Statements",
+    "covers_items": [
+      "8.1",
+      "8.2",
+      "8.3",
+      "8.4"
+    ]
+  },
+  "S07_Loops": {
+    "covers_syllabus_refs": [
+      "1Z0-811 9.1",
+      "1Z0-811 9.2",
+      "1Z0-811 9.3",
+      "1Z0-811 9.4",
+      "1Z0-811 9.5",
+      "1Z0-811 9.6"
+    ],
+    "syllabus_topic": "Area 9 Using Looping Statements",
+    "covers_items": [
+      "9.1",
+      "9.2",
+      "9.3",
+      "9.4",
+      "9.5",
+      "9.6"
+    ]
+  },
+  "S08_Debugging_and_Exceptions": {
+    "covers_syllabus_refs": [
+      "1Z0-811 10.1",
+      "1Z0-811 10.2",
+      "1Z0-811 10.3",
+      "1Z0-811 10.4"
+    ],
+    "syllabus_topic": "Area 10 Debugging and Exception Handling",
+    "covers_items": [
+      "10.1",
+      "10.2",
+      "10.3",
+      "10.4"
+    ]
+  },
+  "S09_Arrays_and_ArrayLists": {
+    "covers_syllabus_refs": [
+      "1Z0-811 11.1",
+      "1Z0-811 11.2",
+      "1Z0-811 11.3",
+      "1Z0-811 11.4"
+    ],
+    "syllabus_topic": "Area 11 Arrays and ArrayLists",
+    "covers_items": [
+      "11.1",
+      "11.2",
+      "11.3",
+      "11.4"
+    ]
+  },
+  "S10_Classes_and_Constructors": {
+    "covers_syllabus_refs": [
+      "1Z0-811 12.1",
+      "1Z0-811 12.2",
+      "1Z0-811 12.3",
+      "1Z0-811 12.4",
+      "1Z0-811 12.5",
+      "1Z0-811 12.6",
+      "1Z0-811 12.7"
+    ],
+    "syllabus_topic": "Area 12 Classes and Constructors",
+    "covers_items": [
+      "12.1",
+      "12.2",
+      "12.3",
+      "12.4",
+      "12.5",
+      "12.6",
+      "12.7"
+    ]
+  },
+  "S11_Methods": {
+    "covers_syllabus_refs": [
+      "1Z0-811 13.1",
+      "1Z0-811 13.2",
+      "1Z0-811 13.3",
+      "1Z0-811 13.4"
+    ],
+    "syllabus_topic": "Area 13 Java Methods",
+    "covers_items": [
+      "13.1",
+      "13.2",
+      "13.3",
+      "13.4"
+    ]
+  }
+}

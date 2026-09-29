@@ -1,0 +1,588 @@
+{
+  "stage_rubrics": {
+    "S01_Proof_by_Induction": {
+      "criteria": [
+        "4.01a: Proof by mathematical induction (sums of series, divisibility, matrix powers)",
+        "4.01b: Proofs of a more demanding nature, including conjecture followed by proof"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.01a, 4.01b (4.01 Proof)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S02_Complex_Numbers_Basics": {
+      "criteria": [
+        "4.02a: The language of complex numbers: real and imaginary parts, conjugate, modulus, argument",
+        "4.02b: Cartesian form x + iy and modulus-argument form r(cos \u03b8 + i sin \u03b8)",
+        "4.02c: Notation Re z, Im z, arg z, z*, |z|; principal argument; z = 0 iff Re z = Im z = 0",
+        "4.02e: Arithmetic with complex numbers in cartesian and modulus-argument forms",
+        "4.02f: Converting between cartesian and modulus-argument forms",
+        "4.02h: Square roots of a complex number",
+        "4.02i: Quadratic equations with real coefficients and complex roots"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.02a, 4.02b, 4.02c, 4.02e, 4.02f, 4.02h, 4.02i (4.02 Complex Numbers)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S03_Complex_Roots_and_Argand_Diagrams": {
+      "criteria": [
+        "4.02g: Complex roots of real polynomials occur in conjugate pairs",
+        "4.02j: Solving and factorising real cubics and quartics using conjugate pairs and the factor theorem",
+        "4.02k: Argand diagrams",
+        "4.02l: Geometrical effect of conjugation and of adding and subtracting complex numbers",
+        "4.02m: Geometrical effect of multiplying and dividing complex numbers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.02g, 4.02j, 4.02k, 4.02l, 4.02m (4.02 Complex Numbers)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S04_Complex_Loci": {
+      "criteria": [
+        "4.02o: Loci and regions in the Argand diagram: circles, half-lines and perpendicular bisectors",
+        "4.02p: Set notation for loci"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.02o, 4.02p (4.02 Complex Numbers)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S05_Exponential_Form_and_de_Moivre": {
+      "criteria": [
+        "4.02d: Exponential form re^(i\u03b8)",
+        "4.02n: Euler's formula e^(i\u03b8) = cos \u03b8 + i sin \u03b8",
+        "4.02q: De Moivre's theorem: multiple-angle formulae and sums of trigonometric or exponential series",
+        "4.02r: The n distinct nth roots of re^(i\u03b8); vertices of a regular n-gon",
+        "4.02s: Complex roots of unity in geometric problems"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.02d, 4.02n, 4.02q, 4.02r, 4.02s (4.02 Complex Numbers)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S06_Matrices_and_Transformations": {
+      "criteria": [
+        "4.03a: The language of matrices: order, square, zero and identity matrices",
+        "4.03b: Adding, subtracting and multiplying conformable matrices; scalar multiplication",
+        "4.03c: Matrix multiplication is associative but not commutative",
+        "4.03d: Matrices for 2-D linear transformations: reflections, rotations, enlargements, stretches and shears",
+        "4.03e: Matrices for successive transformations",
+        "4.03f: Matrices for 3-D reflections in coordinate planes and rotations about coordinate axes",
+        "4.03g: Invariant points and invariant lines"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.03a, 4.03b, 4.03c, 4.03d, 4.03e, 4.03f, 4.03g (4.03 Matrices)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S07_Determinants_and_Inverses": {
+      "criteria": [
+        "4.03h: Determinant of a 2 x 2 matrix",
+        "4.03i: The determinant as an area scale factor and its sign as orientation",
+        "4.03j: Determinant of a 3 x 3 matrix",
+        "4.03k: The 3 x 3 determinant as a volume scale factor and orientation",
+        "4.03l: Singular and non-singular matrices",
+        "4.03m: det(AB) = det(A) det(B)",
+        "4.03n: Inverse of a non-singular 2 x 2 matrix",
+        "4.03o: Inverse of a non-singular 3 x 3 matrix",
+        "4.03p: Properties of inverses, including (AB)^(-1) = B^(-1)A^(-1)",
+        "4.03q: Inverse matrices and inverse transformations",
+        "4.03r: Solving two or three simultaneous linear equations with an inverse matrix"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.03h, 4.03i, 4.03j, 4.03k, 4.03l, 4.03m, 4.03n, 4.03o, 4.03p, 4.03q, 4.03r (4.03 Matrices)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S08_Systems_of_Equations_and_Planes": {
+      "criteria": [
+        "4.03s: Consistency: infinitely many or no solutions when no unique solution exists",
+        "4.03t: Geometrical interpretation of three linear equations as three planes"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.03s, 4.03t (4.03 Matrices)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S09_Lines_and_Planes": {
+      "criteria": [
+        "4.04a: Equation of a line in 2-D and 3-D in cartesian and vector form",
+        "4.04b: Equation of a plane in cartesian and vector (including scalar product) form",
+        "4.04c: The scalar product: angles between vectors or lines, and perpendicularity",
+        "4.04d: Angle between two planes and between a line and a plane",
+        "4.04e: Point of intersection of two lines; skew lines",
+        "4.04f: Intersection of a line and a plane"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.04a, 4.04b, 4.04c, 4.04d, 4.04e, 4.04f (4.04 Further Vectors)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S10_Vector_Product_and_Distances": {
+      "criteria": [
+        "4.04g: The vector product to find a vector perpendicular to two given vectors",
+        "4.04h: Distance between parallel lines and shortest distance between skew lines",
+        "4.04i: Shortest distance between a point and a line",
+        "4.04j: Shortest distance between a point and a plane"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.04g, 4.04h, 4.04i, 4.04j (4.04 Further Vectors)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S11_Roots_of_Polynomials_and_Partial_Fractions": {
+      "criteria": [
+        "4.05a: Relationships between the roots and coefficients of polynomial equations (up to quartic)",
+        "4.05b: Substitutions to form an equation with roots related to those of a given equation",
+        "4.05c: Partial fractions with quadratic factors ax^2 + c, and improper fractions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.05a, 4.05b, 4.05c (4.05 Further Algebra)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S12_Series": {
+      "criteria": [
+        "4.06a: Standard sums of integers, squares and cubes, and related series",
+        "4.06b: The method of differences for finite and infinite series"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.06a, 4.06b (4.06 Series)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S13_Hyperbolic_Functions": {
+      "criteria": [
+        "4.07a: Definitions of sinh, cosh and tanh in terms of exponentials",
+        "4.07b: Graphs of the hyperbolic functions",
+        "4.07c: The identity cosh^2 x - sinh^2 x = 1 and other identities",
+        "4.07d: Differentiating and integrating hyperbolic functions",
+        "4.07e: Inverse hyperbolic functions: definitions, domains and ranges",
+        "4.07f: Logarithmic forms of the inverse hyperbolic functions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.07a, 4.07b, 4.07c, 4.07d, 4.07e, 4.07f (4.07 Hyperbolic Functions)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S14_Maclaurin_Series_Improper_Integrals_Mean_Value": {
+      "criteria": [
+        "4.08a: Maclaurin series of a function, including the general term",
+        "4.08b: Standard Maclaurin series for e^x, sin x, cos x, ln(1 + x) and (1 + x)^n, and functions built from them",
+        "4.08c: Improper integrals: infinite ranges and integrands undefined in the range",
+        "4.08e: The mean value of a function"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.08a, 4.08b, 4.08c, 4.08e (4.08 Further Calculus)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S15_Volumes_and_Further_Integration": {
+      "criteria": [
+        "4.08d: Volumes of revolution about the x- and y-axes, including parametric and composite shapes",
+        "4.08f: Integration using partial fractions, including quadratic factors",
+        "4.08g: Derivatives of arcsin, arccos, arctan and the inverse hyperbolic functions",
+        "4.08h: Integrals of 1/(a^2 + x^2), 1/root(a^2 - x^2), 1/root(x^2 + a^2), 1/root(x^2 - a^2) with inverse trig or hyperbolic substitutions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.08d, 4.08f, 4.08g, 4.08h (4.08 Further Calculus)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S16_Polar_Coordinates": {
+      "criteria": [
+        "4.09a: Polar coordinates (r \u2265 0) and converting between polar and cartesian",
+        "4.09b: Sketching polar curves r = f(\u03b8)",
+        "4.09c: Area enclosed by a polar curve: (1/2)\u222br^2 d\u03b8"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.09a, 4.09b, 4.09c (4.09 Polar Coordinates)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S17_First_Order_Differential_Equations": {
+      "criteria": [
+        "4.10a: General and particular solutions of differential equations",
+        "4.10b: Differential equations in modelling, in kinematics and other contexts",
+        "4.10c: Integrating factors for dy/dx + P(x)y = Q(x)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.10a, 4.10b, 4.10c (4.10 Differential Equations)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S18_Second_Order_and_Coupled_Differential_Equations": {
+      "criteria": [
+        "4.10d: Second-order homogeneous equations y'' + ay' + by = 0 via the auxiliary equation",
+        "4.10e: Second-order non-homogeneous equations: complementary function plus particular integral",
+        "4.10f: Simple harmonic motion x'' = -\u03c9^2 x and its solution",
+        "4.10g: Damped oscillations modelled by second-order differential equations",
+        "4.10h: Coupled first-order linear differential equations (e.g. predator-prey), solved by elimination"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 4.10d, 4.10e, 4.10f, 4.10g, 4.10h (4.10 Differential Equations)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S19_Combinatorics_and_Discrete_Random_Variables": {
+      "criteria": [
+        "5.01a: Probabilities using permutations and combinations (nPr, nCr)",
+        "5.01b: Probabilities in selection and arrangement problems, including repetition and restriction",
+        "5.02a: Discrete probability distributions",
+        "5.02b: Expectation and variance of a discrete random variable, including E(g(X))",
+        "5.02c: Effect of linear coding on the mean and variance of a random variable",
+        "5.02d: Mean np and variance np(1 - p) of a binomial distribution",
+        "5.02e: The discrete uniform distribution: conditions, probabilities, mean and variance"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 5.01a, 5.01b, 5.02a, 5.02b, 5.02c, 5.02d, 5.02e (Y542 Statistics: 5.01 Probability and 5.02 Discrete Random Variables)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S20_Geometric_and_Poisson_Distributions": {
+      "criteria": [
+        "5.02f: Conditions for a geometric distribution",
+        "5.02g: Geometric probabilities, including P(X > x) = q^x",
+        "5.02h: Mean 1/p and variance (1 - p)/p^2 of a geometric distribution",
+        "5.02i: The Poisson distribution as a model for random events",
+        "5.02j: The Poisson formula P(X = x) = e^(-\u03bb) \u03bb^x / x!",
+        "5.02k: Calculating Poisson probabilities",
+        "5.02l: Conditions for a Poisson model",
+        "5.02m: Mean and variance of a Poisson distribution both equal \u03bb",
+        "5.02n: The sum of independent Poisson variables is Poisson"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 5.02f, 5.02g, 5.02h, 5.02i, 5.02j, 5.02k, 5.02l, 5.02m, 5.02n (Y542 Statistics: 5.01 Probability and 5.02 Discrete Random Variables)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S21_Continuous_Random_Variables": {
+      "criteria": [
+        "5.03a: Continuous random variables, probability density functions and cumulative distribution functions",
+        "5.03b: Probabilities from a p.d.f., including piecewise definitions",
+        "5.03c: Mean and variance of a continuous random variable",
+        "5.03d: E(g(X)) for a continuous random variable",
+        "5.03e: Finding and using a cumulative distribution function, including piecewise",
+        "5.03f: Relationship between the p.d.f. and the c.d.f.; medians and percentiles",
+        "5.03g: Cumulative distribution functions of related variables"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 5.03a, 5.03b, 5.03c, 5.03d, 5.03e, 5.03f, 5.03g (Y542 Statistics: 5.03 Continuous Random Variables, 5.04 Linear Combinations and 5.05 Hypothesis Tests and Confidence Intervals)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S22_Linear_Combinations_Estimation_and_Tests": {
+      "criteria": [
+        "5.04a: E(aX + bY + c) and Var(aX + bY + c) for independent X and Y",
+        "5.04b: Linear combinations of independent normal variables are normal",
+        "5.05a: The distribution of the sample mean: mean \u03bc, variance \u03c3^2/n, approximately normal for large n (central limit theorem)",
+        "5.05b: Unbiased estimates of the population mean and variance",
+        "5.05c: Hypothesis tests for a population mean using a normal distribution (known variance, or large samples)",
+        "5.05d: Confidence intervals for a population mean using a normal distribution"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 5.04a, 5.04b, 5.05a, 5.05b, 5.05c, 5.05d (Y542 Statistics: 5.03 Continuous Random Variables, 5.04 Linear Combinations and 5.05 Hypothesis Tests and Confidence Intervals)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S23_Chi_Squared_Tests": {
+      "criteria": [
+        "5.06a: Chi-squared test for independence in a contingency table",
+        "5.06b: Fitting a distribution given by a ratio, proportion or discrete uniform distribution",
+        "5.06c: Fitting other discrete and continuous distributions",
+        "5.06d: Chi-squared goodness-of-fit tests with the correct degrees of freedom"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 5.06a, 5.06b, 5.06c, 5.06d (Y542 Statistics: 5.06 Chi-squared Tests and 5.07 Non-parametric Tests)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S24_Non_Parametric_Tests": {
+      "criteria": [
+        "5.07a: Non-parametric tests: when they are useful and choosing one",
+        "5.07b: The basis of the sign test, Wilcoxon signed-rank test and Wilcoxon rank-sum test",
+        "5.07c: Single-sample sign test and Wilcoxon signed-rank test for a median",
+        "5.07d: Paired-sample versus two-sample tests",
+        "5.07e: Paired-sample sign test, Wilcoxon matched-pairs signed-rank test and Wilcoxon rank-sum test",
+        "5.07f: Normal approximations for the Wilcoxon tests with large samples"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 5.07a, 5.07b, 5.07c, 5.07d, 5.07e, 5.07f (Y542 Statistics: 5.06 Chi-squared Tests and 5.07 Non-parametric Tests)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S25_Correlation_and_Regression": {
+      "criteria": [
+        "5.08a: Calculating the PMCC from raw or summarised data",
+        "5.08b: Correlation coefficients are unaffected by linear coding",
+        "5.08c: The PMCC as a measure of linear fit",
+        "5.08d: Hypothesis tests using the PMCC (critical value or p-value)",
+        "5.08e: Spearman's rank correlation coefficient",
+        "5.08f: Hypothesis test for association using Spearman's coefficient",
+        "5.08g: Choosing between the PMCC and Spearman's coefficient",
+        "5.09a: Independent (controlled) and dependent (response) variables",
+        "5.09b: Least squares and regression lines",
+        "5.09c: The regression line of y on x from raw or summarised data",
+        "5.09d: Effect of linear coding on a regression line",
+        "5.09e: Using a regression line for estimation, and the uncertainty of the estimates"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 5.08a, 5.08b, 5.08c, 5.08d, 5.08e, 5.08f, 5.08g, 5.09a, 5.09b, 5.09c, 5.09d, 5.09e (Y542 Statistics: 5.08 Correlation and 5.09 Linear Regression)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S26_Dimensional_Analysis": {
+      "criteria": [
+        "6.01a: Dimensions of quantities in terms of M, L and T; dimensionless quantities",
+        "6.01b: The relationship between units and dimensions",
+        "6.01c: Dimensional analysis as an error check",
+        "6.01d: Dimensional analysis to find unknown indices in a proposed formula",
+        "6.01e: Formulating models using a dimensional argument"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 6.01a, 6.01b, 6.01c, 6.01d, 6.01e (Y543 Mechanics: 6.01 Dimensional Analysis and 6.02 Work, Energy and Power)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S27_Work_Energy_and_Power": {
+      "criteria": [
+        "6.02a: The concept of work done by a force",
+        "6.02b: Work done by a constant force",
+        "6.02c: Work done by a constant force using vectors (F.x) or by a variable force \u222bF dx",
+        "6.02d: Mechanical energy",
+        "6.02e: Gravitational potential energy mgh and kinetic energy (1/2)mv^2",
+        "6.02f: Kinetic energy with the scalar product (1/2)m v.v",
+        "6.02g: Hooke's law T = \u03bbx/l for elastic strings and springs",
+        "6.02h: Elastic potential energy \u03bbx^2/(2l)",
+        "6.02i: Conservation of mechanical energy and the work-energy principle",
+        "6.02j: Energy principles with elastic strings and springs",
+        "6.02k: Power as the rate of doing work",
+        "6.02l: Power, tractive force and velocity: P = Fv",
+        "6.02m: Power for a variable force in two dimensions: P = F.v"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 6.02a, 6.02b, 6.02c, 6.02d, 6.02e, 6.02f, 6.02g, 6.02h, 6.02i, 6.02j, 6.02k, 6.02l, 6.02m (Y543 Mechanics: 6.01 Dimensional Analysis and 6.02 Work, Energy and Power)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S28_Impulse_Momentum_and_Restitution": {
+      "criteria": [
+        "6.03a: Linear momentum in one dimension",
+        "6.03b: Conservation of linear momentum in one dimension for two particles",
+        "6.03c: Momentum in two dimensions as a vector mv",
+        "6.03d: Conservation of linear momentum in two dimensions",
+        "6.03e: The impulse of a force",
+        "6.03f: Impulse equals change in momentum: I = mv - mu",
+        "6.03g: The impulse-momentum principle in two dimensions",
+        "6.03h: Impulse of a constant force (Ft) or a variable force (\u222bF dt)",
+        "6.03i: The coefficient of restitution, 0 \u2264 e \u2264 1",
+        "6.03j: Perfectly elastic (e = 1) and inelastic (e = 0) collisions",
+        "6.03k: Newton's experimental law for direct impact in one dimension",
+        "6.03l: Newton's experimental law in two dimensions (oblique impact with a surface or sphere)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 6.03a, 6.03b, 6.03c, 6.03d, 6.03e, 6.03f, 6.03g, 6.03h, 6.03i, 6.03j, 6.03k, 6.03l (Y543 Mechanics: 6.03 Impulse and Momentum and 6.04 Centre of Mass)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S29_Centre_of_Mass": {
+      "criteria": [
+        "6.04a: Weight acting at the centre of mass",
+        "6.04b: Centre of mass of uniform bodies by symmetry",
+        "6.04c: Centre of mass of systems of particles and composite bodies",
+        "6.04d: Centre of mass of uniform laminas and solids of revolution by integration",
+        "6.04e: Equilibrium of a rigid body under coplanar forces, including suspension and toppling"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 6.04a, 6.04b, 6.04c, 6.04d, 6.04e (Y543 Mechanics: 6.03 Impulse and Momentum and 6.04 Centre of Mass)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    },
+    "S30_Circular_Motion_and_Variable_Force": {
+      "criteria": [
+        "6.05a: Angular velocity, velocity, speed and acceleration for circular motion",
+        "6.05b: v = r\u03c9 and a = r\u03c9^2 = v^2/r for uniform circular motion",
+        "6.05c: Motion in a horizontal circle (including conical pendulums and banked tracks)",
+        "6.05d: Circular motion with variable speed, using energy",
+        "6.05e: Radial and tangential components of acceleration",
+        "6.05f: Motion in a vertical circle, including leaving the circular path",
+        "6.06a: Straight-line motion under a variable force, solved by separation or an integrating factor"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A Level; OCR sets grade boundaries afresh each series, so no fixed OCR pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+        "reference": "H245 objectives 6.05a, 6.05b, 6.05c, 6.05d, 6.05e, 6.05f, 6.06a (Y543 Mechanics: 6.05 Motion in a Circle and 6.06 Further Dynamics and Kinematics)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of four 90-minute, 75-mark papers in OCR's structure: Pure Core 1, Pure Core 2, Statistics and Mechanics",
+      "Structured questions with a gradient of difficulty, including proof, problem-solving and modelling, as OCR's papers have",
+      "Method shown throughout, marked against written mark schemes with M, A and B marks"
+    ],
+    "pass_threshold": "At least 50% of the 300 marks overall and at least 40% on each of the four papers (the course's own standard; OCR boundaries vary by series). Report the percentage per paper.",
+    "source": {
+      "issuing_body": "OCR (Cambridge OCR)",
+      "document": "OCR A Level Further Mathematics A (H245) specification, sections 2c-2g (OCR reference codes 4.01a-8.06b)",
+      "reference": "OCR H245 assessment overview: Y540 and Y541 (Pure Core) plus two options, each 90 minutes, 75 marks and 25% of the A Level",
+      "urls": [
+        "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.ocr.org.uk/Images/308752-specification-accredited-a-level-gce-further-mathematics-a-h245.pdf"
+  ],
+  "source_notes": "OCR publishes the H245 specification (content for all six papers, assessment structure and formulae). Stage tests and the mock are original, in the style of OCR's papers and mark schemes; every numerical answer was computed with sympy or scipy when the course was built. Critical values quoted in statistics items are the standard tabulated values for the stated test, sample size and level, recomputed with scipy where a formula exists."
+}

@@ -1,0 +1,24 @@
+# BT_S05_Financial_Systems_Internal_Controls_and_Technology - Lesson: Financial systems, internal controls and technology
+
+## Goal
+The learner explains financial systems and how technology (including big data, AI, cloud, blockchain and automation) is changing them, describes the purpose and types of internal control, and evaluates the impact and risks of technological advances such as cybersecurity threats.
+
+## Syllabus items taught here
+- BT.C5 - Financial systems and technology
+- BT.C6 - Internal controls
+- BT.C7 - Impact of advances in technology
+
+## How to teach this
+Ask: 'If a junior clerk can both approve an invoice and pay it themselves, what could go wrong, and how would you stop it without slowing the business down?' Use the answer to introduce internal control. Have the learner predict the result of every example before running it, and run code for real whenever they can.
+
+#### BT.C5 Financial systems and technology
+**Financial systems and technology.** Modern accounting relies on integrated **Enterprise Resource Planning (ERP)** systems linking finance with sales, purchasing, inventory and HR data in real time, reducing duplicate entry and improving consistency. Key current technologies: **cloud computing** (software and data hosted remotely and accessed over the internet, reducing the need for in-house IT infrastructure, enabling remote access and easier scaling); **big data** (very large, fast-moving, varied datasets - e.g. transaction logs, customer behaviour - analysed for patterns that inform pricing, forecasting and risk management); **artificial intelligence (AI) and machine learning** (used for automating routine judgement-based tasks such as invoice matching and anomaly detection, predictive analytics, and increasingly for drafting and summarising reports, with growing use across audit and accounting functions, always requiring human review of outputs); **robotic process automation (RPA)** (software robots performing repetitive, rules-based tasks such as data entry or reconciliations, faster and with fewer errors than manual processing); and **blockchain/distributed ledger technology** (a shared, tamper-resistant record of transactions across multiple parties, with potential accounting applications in areas such as supply chain verification and instant, mutually-verified reconciliation, though adoption in mainstream financial reporting remains limited).
+
+#### BT.C6 Internal controls
+**Internal controls** are the policies and procedures an organisation puts in place to ensure the reliability of financial reporting, safeguard assets, ensure compliance with laws and regulations, and promote operational efficiency. Key control types: **segregation of duties** (splitting a process, e.g. authorisation, custody of assets and recording, across different people so no one person can both commit and conceal an error or fraud); **authorisation controls** (transactions above a threshold require sign-off from an appropriately senior person); **physical controls** (locks, access cards, restricting physical access to cash, inventory or IT systems); **arithmetic and accounting controls** (reconciliations, e.g. bank reconciliations, and control account comparisons that catch recording errors); and **management/supervisory controls** (review of reports, budget-to-actual comparisons, exception reporting). No system of internal control can give absolute assurance (people can collude to override controls, and controls have a cost that must be weighed against the risk they reduce), but a well-designed system substantially reduces the risk of error and fraud going undetected.
+
+#### BT.C7 Impact of advances in technology
+**Impact of advances in technology.** Benefits: faster processing, lower routine labour cost, improved accuracy and consistency, richer real-time information for decision-making, and new capabilities (e.g. predictive analytics). Risks and challenges: **cybersecurity threats** (hacking, phishing, ransomware, and data breaches that can disrupt operations, cause direct financial loss, and damage reputation - mitigated by firewalls, encryption, access controls, staff training and incident-response plans); **data privacy and protection obligations** (personal data must be collected, stored and processed lawfully and securely); the risk of **over-reliance on automated/AI output without adequate human review**, which can embed errors or bias at scale; the cost and disruption of implementation and staff retraining; and the risk that some roles become redundant while new skills (data analysis, systems oversight) become essential, requiring workforce planning and reskilling.
+
+## Explicitly not here
+The organisational structures and culture technology operates within are BT_S03; leadership response to change is partly BT_S06.

@@ -1,0 +1,308 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "University of London LLM module short-course pages confirming the real four-sub-module (A-D) structure of each of the four chosen modules, combined with the standard postgraduate commercial-law topic breakdown for each subject (Advanced Contract Law, Industrial and Intellectual Property, International Trade Law, EU Competition Law) as taught in any Master's-level module on that subject. UoL's own internal subject-guide unit numbering below sub-module level sits behind the VLE and could not be resolved, so this course invents its own stable id scheme built on UoL's confirmed, open sub-module letters (e.g. LWM83-A1 for the first item within Advanced Contract Law's sub-module A), recorded honestly here rather than reproducing gated numbering.",
+    "url": "https://www.london.ac.uk/sites/default/files/prog-regs-pg-laws-2026-27.pdf",
+    "version": "Standard-topic itemisation compiled 2026-09-22 against UoL's confirmed sub-module (A-D) structure for each chosen module; UoL's internal below-sub-module numbering not accessible.",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "LWM83-A1",
+      "title": "Implied duty of good faith",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-A2",
+      "title": "Penalty clauses after Cavendish",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-A3",
+      "title": "Remoteness of damage: orthodox test vs assumption of responsibility",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-A4",
+      "title": "Frustration in modern commercial contexts",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-B1",
+      "title": "Creation of agency and actual/apparent authority",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-B2",
+      "title": "Agent's duties, undisclosed principal and termination",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-C1",
+      "title": "Sale of goods implied terms at advanced level",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-C2",
+      "title": "Passing of property, risk and nemo dat exceptions",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-D1",
+      "title": "Utmost good faith and the Insurance Act 2015",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM83-D2",
+      "title": "Insurable interest, indemnity and subrogation",
+      "topic_area": "Advanced Contract Law"
+    },
+    {
+      "id": "LWM20-A1",
+      "title": "Patentability and the patent bargain",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-A2",
+      "title": "Computer-implemented inventions: the as such problem",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-A3",
+      "title": "Trade secrets and breach of confidence",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-B1",
+      "title": "Copyright subject matter and originality",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-B2",
+      "title": "Copyright ownership, duration and moral rights",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-B3",
+      "title": "Copyright infringement and fair dealing defences",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-C1",
+      "title": "Registered trade marks: registrability and grounds for refusal",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-C2",
+      "title": "Trade mark infringement and the average consumer",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-C3",
+      "title": "Passing off",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-D1",
+      "title": "Theoretical justifications for IP protection",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-D2",
+      "title": "IP enforcement and remedies",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM20-D3",
+      "title": "UK design law post-Brexit",
+      "topic_area": "Industrial and Intellectual Property"
+    },
+    {
+      "id": "LWM36-A1",
+      "title": "FOB and CIF trade terms",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM36-A2",
+      "title": "Seller's obligations and interaction with the SGA 1979",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM36-B1",
+      "title": "The Hague-Visby Rules",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM36-B2",
+      "title": "The bill of lading: three functions and the COGSA 1992",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM36-C1",
+      "title": "Documentary credits and the autonomy principle",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM36-C2",
+      "title": "The fraud exception and standby credits",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM36-D1",
+      "title": "CISG scope and Article 7 interpretation",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM36-D2",
+      "title": "CISG obligations, fundamental breach and remedies",
+      "topic_area": "International Trade Law"
+    },
+    {
+      "id": "LWM11-A1",
+      "title": "Article 101 TFEU: agreements and object vs effect",
+      "topic_area": "European Union Competition Law"
+    },
+    {
+      "id": "LWM11-A2",
+      "title": "Vertical agreements, block exemptions and cartels",
+      "topic_area": "European Union Competition Law"
+    },
+    {
+      "id": "LWM11-B1",
+      "title": "Article 102 TFEU: dominance",
+      "topic_area": "European Union Competition Law"
+    },
+    {
+      "id": "LWM11-B2",
+      "title": "The as-efficient-competitor test and post-Brexit relevance",
+      "topic_area": "European Union Competition Law"
+    },
+    {
+      "id": "LWM11-C1",
+      "title": "EU merger control: the SIEC test",
+      "topic_area": "European Union Competition Law"
+    },
+    {
+      "id": "LWM11-C2",
+      "title": "Joint ventures and jurisdictional thresholds",
+      "topic_area": "European Union Competition Law"
+    },
+    {
+      "id": "LWM11-D1",
+      "title": "Regulation 1/2003: modernisation and self-assessment",
+      "topic_area": "European Union Competition Law"
+    },
+    {
+      "id": "LWM11-D2",
+      "title": "Private enforcement and the Damages Directive",
+      "topic_area": "European Union Competition Law"
+    }
+  ],
+  "_declared_exclusions": [],
+  "LWM83_Advanced_Contract_Law_1": {
+    "covers_syllabus_refs": [
+      "LWM83A Overview of English contract law (advanced level)"
+    ],
+    "syllabus_topic": "Advanced Contract Law",
+    "covers_items": [
+      "LWM83-A1",
+      "LWM83-A2",
+      "LWM83-A3",
+      "LWM83-A4"
+    ]
+  },
+  "LWM83_Advanced_Contract_Law_2": {
+    "covers_syllabus_refs": [
+      "LWM83B Law of agency, LWM83C Sale of goods law, LWM83D Insurance"
+    ],
+    "syllabus_topic": "Advanced Contract Law",
+    "covers_items": [
+      "LWM83-B1",
+      "LWM83-B2",
+      "LWM83-C1",
+      "LWM83-C2",
+      "LWM83-D1",
+      "LWM83-D2"
+    ]
+  },
+  "LWM20_Industrial_and_Intellectual_Property_1": {
+    "covers_syllabus_refs": [
+      "LWM20A Intellectual property and technology, LWM20B Copyright law"
+    ],
+    "syllabus_topic": "Industrial and Intellectual Property",
+    "covers_items": [
+      "LWM20-A1",
+      "LWM20-A2",
+      "LWM20-A3",
+      "LWM20-B1",
+      "LWM20-B2",
+      "LWM20-B3"
+    ]
+  },
+  "LWM20_Industrial_and_Intellectual_Property_2": {
+    "covers_syllabus_refs": [
+      "LWM20C Trade marks and passing off, LWM20D Integrated IP topics"
+    ],
+    "syllabus_topic": "Industrial and Intellectual Property",
+    "covers_items": [
+      "LWM20-C1",
+      "LWM20-C2",
+      "LWM20-C3",
+      "LWM20-D1",
+      "LWM20-D2",
+      "LWM20-D3"
+    ]
+  },
+  "LWM36_International_Trade_Law_1": {
+    "covers_syllabus_refs": [
+      "LWM36A Export sales on English law terms, LWM36B Carriage of goods by sea"
+    ],
+    "syllabus_topic": "International Trade Law",
+    "covers_items": [
+      "LWM36-A1",
+      "LWM36-A2",
+      "LWM36-B1",
+      "LWM36-B2"
+    ]
+  },
+  "LWM36_International_Trade_Law_2": {
+    "covers_syllabus_refs": [
+      "LWM36C Bankers' commercial (letters of) credit, LWM36D The Vienna Convention (CISG 1980)"
+    ],
+    "syllabus_topic": "International Trade Law",
+    "covers_items": [
+      "LWM36-C1",
+      "LWM36-C2",
+      "LWM36-D1",
+      "LWM36-D2"
+    ]
+  },
+  "LWM11_European_Union_Competition_Law_1": {
+    "covers_syllabus_refs": [
+      "LWM11A Anti-competitive agreements and collusion, LWM11B Abuse of a dominant position"
+    ],
+    "syllabus_topic": "European Union Competition Law",
+    "covers_items": [
+      "LWM11-A1",
+      "LWM11-A2",
+      "LWM11-B1",
+      "LWM11-B2"
+    ]
+  },
+  "LWM11_European_Union_Competition_Law_2": {
+    "covers_syllabus_refs": [
+      "LWM11C Merger control, LWM11D Practice and procedure"
+    ],
+    "syllabus_topic": "European Union Competition Law",
+    "covers_items": [
+      "LWM11-C1",
+      "LWM11-C2",
+      "LWM11-D1",
+      "LWM11-D2"
+    ]
+  }
+}

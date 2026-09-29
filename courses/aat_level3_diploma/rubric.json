@@ -1,0 +1,467 @@
+{
+  "stage_rubrics": {
+    "S01_BA_Business_Types_Structures_and_Governance": {
+      "criteria": [
+        "BA1.1: Types of business: sole trader, partnership, LLP, limited partnership, Ltd, PLC, not-for-profit; ownership/management separation, funding sources, organisational features, manufacturing vs service",
+        "BA1.2: The legal framework: company legislation (shareholder rights, director duties, formation/reporting), partnership law (agreement contents, goodwill, changes in partners)",
+        "BA1.3: Stakeholders: the eight stakeholder categories, their objectives, their contributions and relative significance",
+        "BA1.4: Organisational structure and governance: functional/divisional/matrix structures, span of control, centralised vs decentralised, operational/managerial/strategic levels, the finance function's role, types of risk and how they are managed"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives BA1.1, BA1.2, BA1.3, BA1.4 (Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S02_BA_External_and_Internal_Environment": {
+      "criteria": [
+        "BA2.1: PESTLE analysis of the external/macro-economic environment: political, economic, social, technological, legal and environmental factors",
+        "BA2.2: The micro-economic environment: supply and demand, the price mechanism, effects of price changes, and factors affecting competition",
+        "BA2.3: Sustainability: the triple bottom line (social, ecological, economic/financial), long-term stakeholder perspectives, responsible resource management and the accountant's public interest duty"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives BA2.1, BA2.2, BA2.3 (Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S03_BA_Ethics_and_Money_Laundering": {
+      "criteria": [
+        "BA3.1: The fundamental principles of the ethical code: integrity, objectivity, professional behaviour, professional competence and due care, confidentiality, professional scepticism, and safeguards against threats",
+        "BA3.2: Ethical conflicts: how they arise, resolving them, disciplinary and legal consequences, and how to report unethical behaviour",
+        "BA3.3: Money laundering: placement, layering and integration, the offences of tipping off and failure to disclose, and reporting suspicious activity"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives BA3.1, BA3.2, BA3.3 (Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S04_BA_Technology_and_Data_Security": {
+      "criteria": [
+        "BA4.1: New technologies in accounting: automation, AI and machine learning, blockchain, e-filing/e-signing, data analytics, outsourcing/offshoring, and cloud accounting",
+        "BA4.2: Data protection and security: the UK GDPR principles, the impact of a data breach, information security controls and cybersecurity"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives BA4.1, BA4.2 (Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S05_BA_Information_Visualisation_and_Communication": {
+      "criteria": [
+        "BA5.1: Information requirements and big data: qualities of good information, the three organisational levels, the five Vs of big data, and its benefits, limitations and sources",
+        "BA5.2: Visualising information: choosing an appropriate chart/diagram/table/matrix, identifying patterns and anomalies, and communicating dashboards to non-technical stakeholders",
+        "BA5.3: Choosing an appropriate communication method: matching the medium to the stakeholder, ensuring validity and confidentiality"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives BA5.1, BA5.2, BA5.3 (Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S06_FA_Principles_and_Qualities_of_Information": {
+      "criteria": [
+        "FA1.1: The primary users of final accounts: existing and potential investors, lenders, and other creditors, and how each uses the accounts",
+        "FA1.2: The framework of accounting: the accruals, going concern, business entity, materiality, consistency, prudence and money measurement principles",
+        "FA1.3: Qualities of useful financial information: the fundamental characteristics (relevance, faithful representation) and enhancing characteristics (comparability, verifiability, timeliness, understandability)"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA1.1, FA1.2, FA1.3 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S07_FA_Advanced_Double_Entry_and_Ledgers": {
+      "criteria": [
+        "FA2.1: The accounting equation: its importance, the effect of transactions on capital/assets/liabilities, and calculating any element from the other two",
+        "FA2.2: Classifying ledger accounts: non-current and current assets (tangible/intangible), non-current and current liabilities, equity, income and expenses",
+        "FA2.3: Books of prime entry and ledger accounting: the daybooks, the general ledger vs memorandum ledgers, and control accounts (receivables, payables, wages and salaries, VAT)",
+        "FA2.4: Financial period end routines: balancing off accounts by classification, verifying balances, and determining whether transactions are genuine and valid"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA2.1, FA2.2, FA2.3, FA2.4 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S08_FA_Non_Current_Asset_Acquisition_and_Disposal": {
+      "criteria": [
+        "FA3.1: The importance of prior authority for capital expenditure: why it is needed and who should give it",
+        "FA3.2: Capital vs revenue expenditure under IAS 16: cost, useful life, residual value, depreciable amount and carrying amount; what can and cannot be included in cost",
+        "FA3.3: Recording acquisitions and disposals: the non-current asset register, part-exchange, and gains/losses on disposal (including VAT treatment by registration status)"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA3.1, FA3.2, FA3.3 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S09_FA_Depreciation": {
+      "criteria": [
+        "FA4.1: Calculating depreciation: the straight-line method (with/without residual value, full year or pro-rata) and the diminishing (reducing) balance method",
+        "FA4.2: Recording depreciation: in the non-current asset register and the general ledger (journal entries), and reconciling the two"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA4.1, FA4.2 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S10_FA_Accruals_Prepayments_and_Receivables": {
+      "criteria": [
+        "FA5.1: Accruals and prepayments of income and expenditure: calculating and recording the adjustment, and reversing the prior period's accrual/prepayment",
+        "FA5.2: Irrecoverable debts and allowances for doubtful receivables: writing off, recovering a previously written-off debt, and specific vs general allowances"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA5.1, FA5.2 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S11_FA_Inventory_and_Period_End_Judgement": {
+      "criteria": [
+        "FA5.3: Recording inventory under IAS 2: valuing at the lower of cost and net realisable value on an item-by-item basis, and the journal for closing inventory",
+        "FA5.4: Considerations when recording period end adjustments: their effect on reported results, and responding appropriately to time and reporting pressure"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA5.3, FA5.4 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S12_FA_Trial_Balance_and_Extended_Trial_Balance": {
+      "criteria": [
+        "FA6.1: The initial trial balance: normal debit/credit balances, its purpose and limitations, and correcting errors with and without a suspense account",
+        "FA6.2: The adjusted trial balance: placing closing inventory, accruals/prepayments, error corrections, depreciation, irrecoverable debts/allowances and disposals",
+        "FA6.3: The extended trial balance (ETB): completing the profit-or-loss and financial-position columns and balancing off to find the profit or loss for the period"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA6.1, FA6.2, FA6.3 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S13_FA_Sole_Trader_Financial_Statements": {
+      "criteria": [
+        "FA7.1: The sole trader's statement of profit or loss and statement of financial position: purpose, terminology and preparation (net assets presentation)",
+        "FA7.2: The sole trader's capital account: accounting for drawings (cash, goods, services), capital injections and the period's profit or loss"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA7.1, FA7.2 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S14_FA_Partnership_Financial_Statements": {
+      "criteria": [
+        "FA7.3: The partnership's statement of profit or loss and appropriation account: interest on capital/drawings, salaries and the residual profit share by profit-sharing ratio",
+        "FA7.4: The partnership's statement of financial position: partners' capital and current accounts, and preparing both"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA7.3, FA7.4 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S15_FA_Profitability_Ratios": {
+      "criteria": [
+        "FA8.1: Calculating profitability ratios: ROCE, gross profit margin, net profit margin and the expense/sales revenue percentage",
+        "FA8.2: Interpreting profitability ratios: why they matter for planning/decisions/control, what causes them to change, and comparing them meaningfully"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA8.1, FA8.2 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S16_FA_Incomplete_Records": {
+      "criteria": [
+        "FA9.1: Identifying missing figures from incomplete records: reconstructing the receivables/payables control accounts, the VAT control account and the bank account",
+        "FA9.2: Mark-up and margin: the difference between them, and using each to calculate missing figures via cost of sales",
+        "FA9.3: Assessing the reasonableness of figures when information is incomplete, and why an actual and a calculated balance can differ"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives FA9.1, FA9.2, FA9.3 (Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S17_MA_Purpose_and_Cost_Classification": {
+      "criteria": [
+        "MA1.1: The purpose of costing, budgeting and internal reporting, and the importance of providing accurate information",
+        "MA2.1: Classifying costs: fixed, variable and semi-variable by behaviour; direct and indirect by element; product and period costs"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA1.1, MA2.1 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S18_MA_Materials_Costing": {
+      "criteria": [
+        "MA2.2: Materials costing: calculating the cost of issues and closing inventory using FIFO, LIFO and AVCO, and their effect on profit and inventory valuation"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA2.2 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S19_MA_Labour_and_Overhead_Costing": {
+      "criteria": [
+        "MA2.3: Labour costing: direct vs indirect labour, and calculating labour cost including overtime premium",
+        "MA2.4: Overhead allocation and absorption: allocation vs apportionment, apportionment bases, calculating absorption rates, and accounting for under/over absorption"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA2.3, MA2.4 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S20_MA_Marginal_and_Absorption_Costing": {
+      "criteria": [
+        "MA3.1: Marginal vs absorption costing: preparing statements under each method, and reconciling the difference in reported profit"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA3.1 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S21_MA_Budgeting_and_Variance_Analysis": {
+      "criteria": [
+        "MA4.1: Budgeting: the purpose of budgets, fixed and flexible budgets, and preparing functional budgets",
+        "MA4.2: Variance analysis: material price/usage, labour rate/efficiency, variable and fixed overhead, and sales price/volume variances, and interpreting their causes"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA4.1, MA4.2 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S22_MA_Spreadsheet_Techniques": {
+      "criteria": [
+        "MA5.1: Spreadsheet techniques for management accounting: formulas and functions, sorting/filtering, pivot tables, charts and validating data"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA5.1 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S23_MA_Short_Term_Decision_Making": {
+      "criteria": [
+        "MA6.1: Cost-volume-profit analysis: contribution, calculating the breakeven point (units and sales value), margin of safety and target profit",
+        "MA6.2: Limiting factor analysis: identifying the scarce resource and ranking products by contribution per unit of limiting factor to find the optimal mix",
+        "MA6.3: Relevant costing: distinguishing relevant from irrelevant costs, and applying this to make-or-buy and discontinuation decisions"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA6.1, MA6.2, MA6.3 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S24_MA_Cash_Management": {
+      "criteria": [
+        "MA7.1: Cash flow forecasting: the difference between profit and cash, and preparing a cash flow forecast",
+        "MA7.2: Managing cash surpluses and deficits, and working-capital measures (current ratio, quick ratio, receivables/payables/inventory days)"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives MA7.1, MA7.2 (Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S25_TAX_UK_Tax_System_and_VAT_Principles": {
+      "criteria": [
+        "TAX1.1: The UK tax system: the main taxes and their purposes, HMRC's role, how tax legislation is made and changed, and the impact of avoidance vs evasion",
+        "TAX2.1: VAT principles: VAT as a consumption tax, taxable/exempt/zero-rated/outside-the-scope supplies, and the current VAT rates"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives TAX1.1, TAX2.1 (Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S26_TAX_VAT_Registration_and_Deregistration": {
+      "criteria": [
+        "TAX2.2: VAT registration and deregistration: the registration threshold, mandatory vs voluntary registration, the deregistration threshold and its VAT implications"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives TAX2.2 (Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S27_TAX_VAT_Calculations_and_Returns": {
+      "criteria": [
+        "TAX3.1: Calculating VAT: output tax and input tax, when input tax cannot be recovered, and adjusting for credit notes/prompt payment discounts",
+        "TAX3.2: Preparing and submitting the VAT return: the return's boxes, deadlines, records to keep, and the consequences of non-compliance"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives TAX3.1, TAX3.2 (Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S28_TAX_Documentation_and_Communication": {
+      "criteria": [
+        "TAX4.1: Using tax documentation and legislation: the types of documentation used, accessing current information, and applying it to specific situations",
+        "TAX5.1: Communicating VAT and tax information: choosing the right method for HMRC vs for clients, and the importance of accuracy and timeliness"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives TAX4.1, TAX5.1 (Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S29_TAX_Payroll_and_Statutory_Payments": {
+      "criteria": [
+        "TAX6.1: Payroll: the documents used, the components of gross pay, statutory and voluntary deductions (income tax via PAYE, employee NIC), and calculating net pay",
+        "TAX6.2: Statutory payments (SSP, SMP, SPP), Real Time Information (RTI) submission, and payment deadlines to HMRC"
+      ],
+      "pass_threshold": "At least 70% of this test's items/marks fully correct AND, on the full mock exam, at least 70% on each of the four units individually (AAT's own published pass mark of 70%, which applies uniformly to every AAT unit assessment for this qualification, individually as well as overall). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+        "reference": "603/6337/X objectives TAX6.1, TAX6.2 (Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock covering all four AAT Level 3 units in the real unit-assessment style: numeric gap-fill calculations, multiple-choice/multiple-response items, and journal/ledger-entry and financial-statement short answers, in each unit's own real proportions",
+      "Item types as in the real assessments: single-select and multiple-response objective questions, numeric gap-fill/calculation items, and short written/journal/financial-statement items",
+      "Every numerical answer computed with Python, using the 2026/27 UK tax year's live-fetched VAT and payroll figures where relevant; questions drawn from every stage of every unit"
+    ],
+    "pass_threshold": "At least 70% overall AND at least 70% on each of the four units (Business Awareness, Financial Accounting: Preparing Financial Statements, Management Accounting Techniques, Tax Processes for Businesses) individually -- AAT's own published, uniform pass mark.",
+    "source": {
+      "issuing_body": "AAT (Association of Accounting Technicians)",
+      "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+      "reference": "AAT 603/6337/X: four separate computer-based unit assessments (one per unit), 70% pass mark per unit",
+      "urls": [
+        "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf"
+  ],
+  "source_notes": "AAT publishes the Level 3 Diploma in Accounting qualification specification, including the scope of content, learning outcomes and test specification for each unit. Stage tests, practice items and the cumulative exam are original questions in AAT's assessment style (numeric gap-fill, multiple-choice, journal/ledger-entry and financial-statement short answers), not real past-assessment items. Every numerical answer was computed and checked with Python when this course was built, using the 2026/27 UK tax year's live-fetched VAT and payroll figures for the Tax Processes for Businesses unit."
+}

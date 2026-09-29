@@ -1,0 +1,316 @@
+{
+  "stage_rubrics": {
+    "L4_Contract_1": {
+      "criteria": [
+        "Correctly classifies the newsletter advert and Priya's exchanges as offer, invitation to treat or acceptance, with supporting authority",
+        "Applies the communication and postal rules accurately to decide when (if at all) a contract formed",
+        "Applies the consideration and/or promissory estoppel rules correctly to the deposit-reduction point",
+        "Structures the whole answer in IRAC form and reaches a reasoned, honestly-qualified conclusion"
+      ],
+      "pass_threshold": "Correctly applies IRAC to a formation problem: identifies the issue, states the rule with authority, applies it to the facts, and reaches a reasoned conclusion on whether a contract exists.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Contract Law syllabus, Formation of contract",
+        "reference": "L4-Contract-1 to L4-Contract-5",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L4_Contract_2": {
+      "criteria": [
+        "Correctly identifies and classifies the relevant express and implied terms",
+        "Correctly applies incorporation and the UCTA 1977 reasonableness test to the exclusion clause",
+        "Applies the misrepresentation, mistake or duress/undue influence framework only where genuinely raised by the facts, without inventing issues",
+        "Selects and justifies the appropriate remedy, including a reasoned view on frustration or discharge where relevant"
+      ],
+      "pass_threshold": "Correctly classifies terms and vitiating factors on the facts, applies the relevant statutory controls, and selects the appropriate remedy with reasons.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Contract Law syllabus, Terms, vitiating factors, discharge and remedies",
+        "reference": "L4-Contract-6 to L4-Contract-11",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L4_Criminal_1": {
+      "criteria": [
+        "Correctly separates and applies actus reus and mens rea, including the coincidence principle where relevant",
+        "Correctly applies factual and legal causation, addressing any intervening act or omission",
+        "Identifies murder as the starting offence and correctly analyses whether a partial defence reduces it",
+        "Supports every proposition with the correct named authority"
+      ],
+      "pass_threshold": "Correctly separates actus reus from mens rea for a given offence, applies the correct homicide category, and supports each step with authority.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Criminal Law syllabus, General principles and homicide",
+        "reference": "L4-Criminal-1 to L4-Criminal-4",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L4_Criminal_2": {
+      "criteria": [
+        "Correctly identifies burglary and any non-fatal offence on the facts, with accurate elements",
+        "Correctly applies duress by threats to Ravi, including the Hasan restriction where relevant",
+        "Distinguishes the liability of each participant rather than treating the group as a single unit",
+        "Supports every proposition with the correct named authority or statutory section"
+      ],
+      "pass_threshold": "Correctly identifies the applicable non-fatal, property or inchoate offence and applies any general defence raised by the facts.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Criminal Law syllabus, Non-fatal offences, property offences, defences and inchoate liability",
+        "reference": "L4-Criminal-5 to L4-Criminal-10",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L4_Legal_System_and_Method": {
+      "criteria": [
+        "Applies at least three distinct interpretive approaches accurately and distinguishes their likely outcomes",
+        "Correctly identifies the trial court and the appellate route for the offence described",
+        "Correctly explains the binding or persuasive status of any authority relied on",
+        "Uses accurate OSCOLA-style citation for any case or statute named in the answer"
+      ],
+      "pass_threshold": "Correctly identifies the source and precedent status of a rule, applies at least two interpretive approaches to an ambiguous statutory word, and cites sources accurately.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Legal System and Method syllabus",
+        "reference": "L4-LSM-1 to L4-LSM-6",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L4_Public_Law": {
+      "criteria": [
+        "Correctly applies at least two of the three GCHQ grounds to the facts given",
+        "Correctly identifies the legitimate expectation point and its procedural-impropriety basis",
+        "Identifies standing and the three-month time limit as live procedural issues",
+        "Selects and justifies an appropriate discretionary remedy"
+      ],
+      "pass_threshold": "Correctly identifies the applicable constitutional principle and, for a judicial review problem, applies the correct ground, standing and remedy.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Public Law syllabus",
+        "reference": "L4-Public-1 to L4-Public-7",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L5_Tort_Law": {
+      "criteria": [
+        "Applies duty, breach, causation and remoteness in the correct sequence for the slip claim",
+        "Correctly applies contributory negligence to the member's own inattention",
+        "Correctly applies the close-connection test to the instructor's deliberate act",
+        "Supports every proposition with the correct named authority"
+      ],
+      "pass_threshold": "Correctly applies duty, breach, causation and remoteness in sequence, and identifies any relevant special liability regime, defence or remedy.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Tort Law syllabus",
+        "reference": "L5-Tort-1 to L5-Tort-7",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L5_Family_Law": {
+      "criteria": [
+        "Correctly applies the s.25 factors and the sharing/needs/compensation framework to the financial remedies issue",
+        "Correctly applies the welfare principle and welfare checklist, weighting the children's ages appropriately",
+        "Correctly identifies non-molestation and occupation orders and their statutory basis",
+        "Reaches a reasoned, non-formulaic conclusion rather than assuming an automatic 50/50 split"
+      ],
+      "pass_threshold": "Correctly applies the divorce procedure, the s.25 factors and sharing principle, and the welfare checklist to reach a reasoned outcome.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Family Law syllabus",
+        "reference": "L5-Family-1 to L5-Family-6",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L5_Property_Law": {
+      "criteria": [
+        "Correctly applies the LRA 2002 registration framework to the restrictive covenant",
+        "Correctly applies Re Ellenborough Park and the prescription requirements to Priya's path use",
+        "Correctly distinguishes the shed arrangement as a licence rather than a proprietary interest",
+        "Reaches a clear, reasoned conclusion on whether each right binds Leo as purchaser"
+      ],
+      "pass_threshold": "Correctly identifies whether an interest binds a purchaser under the registration rules, and applies the correct test for leases, easements or covenants.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Property Law syllabus",
+        "reference": "L5-Property-1 to L5-Property-7",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L5_Commercial_Law": {
+      "criteria": [
+        "Correctly identifies and applies the relevant SGA 1979 implied terms to the rusting machinery",
+        "Correctly applies the rules on remedies, including any s.15A limitation for a business buyer",
+        "Correctly applies actual and apparent authority to the sales agent's conduct",
+        "Reaches a clear conclusion on whether the manufacturer is bound by the payment term"
+      ],
+      "pass_threshold": "Correctly applies the SGA 1979 implied terms and passing-of-title rules, and identifies whether an agent's act binds their principal.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Commercial Law syllabus",
+        "reference": "L5-Commercial-1 to L5-Commercial-6",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L6_Jurisprudence_and_Legal_Theory": {
+      "criteria": [
+        "Accurately states each jurisprudential position argued, without conflating them",
+        "Applies each position specifically to the facts rather than describing it in the abstract only",
+        "Identifies precisely where the positions diverge and why",
+        "Reaches a position of its own while fairly representing the strongest form of competing views"
+      ],
+      "pass_threshold": "Argues at least two competing jurisprudential positions rigorously on the same problem and identifies precisely where they diverge.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Jurisprudence and Legal Theory syllabus",
+        "reference": "L6-Jurisprudence-1 to L6-Jurisprudence-6",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L6_Alternative_Dispute_Resolution": {
+      "criteria": [
+        "Correctly applies the Halsey factors to assess whether the refusal to mediate was unreasonable",
+        "Correctly explains the costs-sanction consequence even for the winning party",
+        "Correctly distinguishes the effect of a valid arbitration clause from the absence of one",
+        "Distinguishes mediation, arbitration and expert determination accurately throughout"
+      ],
+      "pass_threshold": "Correctly identifies the appropriate ADR method for a dispute and applies the Halsey factors to a costs-sanction problem.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Alternative Dispute Resolution syllabus",
+        "reference": "L6-ADR-1 to L6-ADR-5",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L6_Equity_and_Trusts": {
+      "criteria": [
+        "Correctly applies the three certainties and explains why no valid express trust arises",
+        "Correctly applies resulting and constructive trust doctrine to Grace's continued occupation and payments",
+        "Identifies and addresses the illegality complication honestly rather than ignoring it",
+        "Reaches a reasoned conclusion on the strength of Grace's claim"
+      ],
+      "pass_threshold": "Correctly applies the certainties and, where an express trust fails, the resulting or constructive trust doctrine, plus trustees' duties and the appropriate equitable remedy.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "Standard qualifying-law-degree Equity and Trusts syllabus",
+        "reference": "L6-Equity-1 to L6-Equity-8",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    },
+    "L6_Dissertation": {
+      "criteria": [
+        "The research question is narrow, genuinely contestable, and clearly scoped rather than merely descriptive",
+        "The chosen methodology is named and justified, not left implicit",
+        "The outline shows genuine argument structure, including engagement with a real counter-argument",
+        "Sources are real, relevant, and accurately OSCOLA-cited"
+      ],
+      "pass_threshold": "Produces a narrow, contestable research question, a synthesised (not merely summarised) source base, a structured argument, and accurate referencing.",
+      "source": {
+        "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+        "document": "QAA Subject Benchmark Statement: Law (2023), independent research and critical skills outcomes",
+        "reference": "L6-Dissertation-1 to L6-Dissertation-6",
+        "urls": [
+          "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+          "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+          "https://www.legislation.gov.uk",
+          "https://www.bailii.org"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Correctly identifies every legal issue raised across all four questions, without missing a clearly-signalled issue",
+      "States the correct rule for each issue with accurate, real case law or statutory authority",
+      "Applies the law to the specific facts given, reaching a reasoned conclusion, rather than writing a general descriptive account of the topic",
+      "Structures every answer in IRAC form and manages all parts of each multi-issue question with reasonably even depth",
+      "Shows critical engagement where a question calls for evaluation (especially the Level 6 and Dissertation-reflection elements), not mere description"
+    ],
+    "pass_threshold": "A pass-standard law-graduate answer on each of the four represented modules, correctly using IRAC, supported by accurate authority, with no module left materially unaddressed.",
+    "source": {
+      "issuing_body": "The Open University (LLB (Honours) R81, Qualifying Law Degree) and the Quality Assurance Agency for Higher Education (QAA)",
+      "document": "Standard qualifying-law-degree LLB assessment format (unseen problem/essay questions per module) and QAA Subject Benchmark Statement: Law (2023)",
+      "reference": "Cumulative across all twelve modules in the stage_ladder",
+      "urls": [
+        "https://www.london.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+        "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+        "https://www.legislation.gov.uk",
+        "https://www.bailii.org"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.open.ac.uk/sites/default/files/progspec-llb-2026-27.pdf",
+    "https://www.qaa.ac.uk/docs/qaa/subject-benchmark-statements/subject-benchmark-statement-law.pdf",
+    "https://www.legislation.gov.uk",
+    "https://www.bailii.org"
+  ],
+  "source_notes": [
+    "The Open University's detailed module handbooks, unit materials and current-year assessment guides are gated behind its student VLE and were not accessible; the QAA Subject Benchmark Statement for Law (2023, openly published) is used as the umbrella threshold academic standard for every stage's rubric instead of inventing OU-specific numeric mark bands.",
+    "A small number of genuinely open, third-party-rehosted OU module descriptions and past-student materials (not the current year, which is VLE-gated) were traceable for some subjects — Contract Law, Criminal Law, Tort Law, Family Law, Property Law, Commercial Law, Jurisprudence and Legal Theory, and Equity and Trusts — and were used to sharpen that stage's pass_threshold language; Legal System and Method, Public Law, Alternative Dispute Resolution and Dissertation could not be backward-resolved to an open module-specific report, and rest on the QAA benchmark alone, stated honestly rather than papered over.",
+    "Doctrinal content (case law, statutes, the shape of each topic) is itemised from standard, universally-taught qualifying-law-degree topic lists, not from the OU's own gated unit-by-unit numbering, and every case and statute cited is real, checkable, well-known English authority."
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA A-level Sociology (7192) specification: 3.1 Education with Theory and Methods (3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods); 3.2 Topics in Sociology (Families and Households and Beliefs in Society selected, one from each of the two option groups); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance, 3.3.2 Theory and Methods)",
+    "url": "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification",
+    "version": "The current specification (first teaching from September 2015, unchanged in core structure since), linked from aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification and cross-checked against the AQA-7191-7192-SP-2015.PDF specification document and real AQA mark schemes (e.g. AQA-71921-MS-JUN23, AQA-71922-MS-JUN23, AQA-71923-MS-JUN22), itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers this specification's subject content at three levels (3.1 Education with Theory and Methods, containing 3.1.1 Education, 3.1.2 Methods in Context, 3.1.3 Theory and Methods; 3.2 Topics in Sociology, containing eight named option topics split into two groups of four, of which candidates study one per group; 3.3 Crime and Deviance with Theory and Methods, containing 3.3.1 Crime and Deviance and 3.3.2 Theory and Methods) but leaves each subsection's own content as unnumbered bullet points. This course codes Education as EDU1-9, Methods in Context as MIC1, and Theory and Methods (common content examined via both Paper 1 Section C and Paper 3 Section B) as TM1-10; Families and Households (the selected Group 1 option) as FAM1-5 and Beliefs in Society (the selected Group 2 option) as BEL1-5; Crime and Deviance as CD1-11. The six option topics not selected for Paper 2 (Culture and Identity, Health, Work Poverty and Welfare from Group 1; Global Development, The Media, Stratification and Differentiation from Group 2) are itemised at a coarser grain (5 bullets each, coded CULT/HEALTH/WPW/GD/MEDIA/STRAT) purely to record them as declared exclusions; they are not taught."
+  },
+  "_syllabus_items": [
+    {
+      "id": "EDU.1",
+      "title": "Functionalist, Marxist and New Right perspectives on the role and functions of education",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.2",
+      "title": "Class differences in achievement: external (material/cultural deprivation) and internal (labelling, streaming) factors",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.3",
+      "title": "Gender differences in achievement: external and internal factors, and explanations for boys' relative underachievement",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.4",
+      "title": "Ethnicity differences in achievement: external and internal factors, including institutional racism and the ethnocentric curriculum",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.5",
+      "title": "Teacher/pupil relationships, labelling and the self-fulfilling prophecy",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.6",
+      "title": "Pupil identities and subcultures: pro-school and anti-school responses (Lacey, Willis, Mac an Ghaill)",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.7",
+      "title": "The hidden curriculum, and the organisation of teaching and learning (streaming, setting, mixed ability)",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.8",
+      "title": "Educational policy: selection (tripartite/comprehensive), marketisation and privatisation",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "EDU.9",
+      "title": "Educational policy: compensatory/equality policies and the impact of globalisation on policy",
+      "topic_area": "Paper 1, Section A: Education (3.1.1)"
+    },
+    {
+      "id": "MIC.1",
+      "title": "Methods in Context: practical, ethical and theoretical issues specific to researching education",
+      "topic_area": "Paper 1, Section B: Methods in Context (3.1.2)"
+    },
+    {
+      "id": "TM.1",
+      "title": "Quantitative and qualitative methods; research design, operationalisation and sampling",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.2",
+      "title": "Sources of data: questionnaires and interviews (structured, unstructured, semi-structured)",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.3",
+      "title": "Observation: participant and non-participant, overt and covert",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.4",
+      "title": "Experiments: laboratory, field and the comparative method",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.5",
+      "title": "Documents and official statistics as sources of data",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.6",
+      "title": "Theoretical, practical and ethical factors affecting choice of research method",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.7",
+      "title": "Positivism, interpretivism, and the debate on sociology as a science",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.8",
+      "title": "Consensus, conflict, structural and social action theories",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.9",
+      "title": "Modernity and postmodernity in relation to sociological theory",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "TM.10",
+      "title": "Value freedom, and the relationship between sociological theory/methods and social policy",
+      "topic_area": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)"
+    },
+    {
+      "id": "FAM.1",
+      "title": "The family and social structure/change: functionalist, Marxist and feminist perspectives",
+      "topic_area": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)"
+    },
+    {
+      "id": "FAM.2",
+      "title": "Changing patterns of marriage, cohabitation, divorce, childbearing and family diversity (the Rapoports, Giddens, Stacey)",
+      "topic_area": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)"
+    },
+    {
+      "id": "FAM.3",
+      "title": "Gender roles, domestic labour and power within the family",
+      "topic_area": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)"
+    },
+    {
+      "id": "FAM.4",
+      "title": "The social construction of childhood, and debates on its changing status",
+      "topic_area": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)"
+    },
+    {
+      "id": "FAM.5",
+      "title": "UK demographic trends since 1900: birth/death rates, family size, ageing population and migration",
+      "topic_area": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)"
+    },
+    {
+      "id": "BEL.1",
+      "title": "Ideology, science and religion as belief systems, and Christian/non-Christian religious traditions",
+      "topic_area": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)"
+    },
+    {
+      "id": "BEL.2",
+      "title": "Religion and social change/social stability: functionalist, Marxist, feminist and Weberian perspectives",
+      "topic_area": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)"
+    },
+    {
+      "id": "BEL.3",
+      "title": "Religious organisations: churches, denominations, sects, cults and New Age movements",
+      "topic_area": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)"
+    },
+    {
+      "id": "BEL.4",
+      "title": "Religion, class, gender, ethnicity and age: patterns of participation",
+      "topic_area": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)"
+    },
+    {
+      "id": "BEL.5",
+      "title": "The secularisation debate, religion and globalisation, and religious fundamentalism",
+      "topic_area": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)"
+    },
+    {
+      "id": "CD.1",
+      "title": "Functionalist theory of crime, and Merton's strain theory",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.2",
+      "title": "Subcultural theories of crime and deviance (Cohen; Cloward and Ohlin)",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.3",
+      "title": "Interactionist/labelling theory, deviancy amplification and moral panics",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.4",
+      "title": "Marxist and neo-Marxist criminology; left realism and right realism",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.5",
+      "title": "Crime and social class, and crime and gender",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.6",
+      "title": "Crime and ethnicity",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.7",
+      "title": "Globalisation and crime, green crime, and human rights/state crime",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.8",
+      "title": "Crime and the media",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.9",
+      "title": "Crime control, surveillance, prevention and punishment",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.10",
+      "title": "Victims of crime: positivist and critical victimology, and patterns of victimisation",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CD.11",
+      "title": "Measuring crime: official statistics, victim surveys and self-report studies",
+      "topic_area": "Paper 3, Section A: Crime and Deviance (3.3.1)"
+    },
+    {
+      "id": "CULT.1",
+      "title": "Culture and Identity: conceptions of culture (subculture, mass, folk, high/low, popular, global) (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "CULT.2",
+      "title": "Culture and Identity: socialisation and the construction of self/personal identity (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "CULT.3",
+      "title": "Culture and Identity: identity and social position (age, disability, ethnicity, gender, nationality, sexuality, class) (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "CULT.4",
+      "title": "Culture and Identity: identity, consumption and globalisation (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "CULT.5",
+      "title": "Culture and Identity: sociological explanations of the relationship between culture, identity and social change (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "HEALTH.1",
+      "title": "Health: the social construction of health, illness, disability and the body (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "HEALTH.2",
+      "title": "Health: the social distribution of health/illness by class, gender, ethnicity and region (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "HEALTH.3",
+      "title": "Health: inequalities of access to health care (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "HEALTH.4",
+      "title": "Health: the nature and social distribution of mental illness (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "HEALTH.5",
+      "title": "Health: the role of health-related institutions/organisations in local, national and global contexts (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "WPW.1",
+      "title": "Work, Poverty and Welfare: the definition and persistence of poverty in contemporary society (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "WPW.2",
+      "title": "Work, Poverty and Welfare: the distribution of poverty, wealth and income between social groups (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "WPW.3",
+      "title": "Work, Poverty and Welfare: state and non-state responses to poverty (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "WPW.4",
+      "title": "Work, Poverty and Welfare: the organisation of, and changes in, paid and unpaid work, including automation (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "WPW.5",
+      "title": "Work, Poverty and Welfare: the significance of employment/unemployment and globalisation for life chances (not taught)",
+      "topic_area": "Paper 2, Section A: unselected Group 1 options (Culture and Identity / Health / Work, Poverty and Welfare)"
+    },
+    {
+      "id": "GD.1",
+      "title": "Global Development: development, underdevelopment and global inequality (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "GD.2",
+      "title": "Global Development: globalisation and its economic, political and cultural consequences (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "GD.3",
+      "title": "Global Development: the role of transnational corporations, NGOs and international agencies (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "GD.4",
+      "title": "Global Development: aid, trade, industrialisation, urbanisation, war and conflict in relation to development (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "GD.5",
+      "title": "Global Development: development in relation to employment, education, health, demographic change and gender (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "MEDIA.1",
+      "title": "The Media: new media and their significance for understanding the media's role in society (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "MEDIA.2",
+      "title": "The Media: patterns of ownership and control of the mass media (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "MEDIA.3",
+      "title": "The Media: the relationship between the media, globalisation and popular culture (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "MEDIA.4",
+      "title": "The Media: the selection and presentation of news content (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "MEDIA.5",
+      "title": "The Media: media representations of age, social class, ethnicity, gender, sexuality and disability, and audience response (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "STRAT.1",
+      "title": "Stratification and Differentiation: different theories of stratification by class, gender, ethnicity and age (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "STRAT.2",
+      "title": "Stratification and Differentiation: the nature and role of class, status and power in the distribution of resources/life chances (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "STRAT.3",
+      "title": "Stratification and Differentiation: the problem of measuring and conceptualising social class (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "STRAT.4",
+      "title": "Stratification and Differentiation: globalisation and changing patterns of stratification, including global elites (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    },
+    {
+      "id": "STRAT.5",
+      "title": "Stratification and Differentiation: the extent and significance of social mobility (not taught)",
+      "topic_area": "Paper 2, Section B: unselected Group 2 options (Global Development / The Media / Stratification and Differentiation)"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "CULT.1",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "CULT.2",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "CULT.3",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "CULT.4",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "CULT.5",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "HEALTH.1",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "HEALTH.2",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "HEALTH.3",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "HEALTH.4",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "HEALTH.5",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "WPW.1",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "WPW.2",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "WPW.3",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "WPW.4",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "WPW.5",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) for Section A. This course takes Families and Households, a well-resourced, widely taught option that pairs naturally with the family content implicit in Education and Beliefs in Society."
+    },
+    {
+      "id": "GD.1",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "GD.2",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "GD.3",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "GD.4",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "GD.5",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MEDIA.1",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MEDIA.2",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MEDIA.3",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MEDIA.4",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MEDIA.5",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "STRAT.1",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "STRAT.2",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "STRAT.3",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "STRAT.4",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    },
+    {
+      "id": "STRAT.5",
+      "reason": "Topics in Sociology (Paper 2) option not selected. AQA 7192 candidates study one topic from Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation) for Section B. This course takes Beliefs in Society, a well-resourced, widely taught option."
+    }
+  ],
+  "S01_Perspectives_on_the_Role_of_Education": {
+    "covers_syllabus_refs": [
+      "7192 EDU.1"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Education (3.1.1)",
+    "covers_items": [
+      "EDU.1"
+    ]
+  },
+  "S02_Class_and_Gender_Differences_in_Achievement": {
+    "covers_syllabus_refs": [
+      "7192 EDU.2",
+      "7192 EDU.3"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Education (3.1.1)",
+    "covers_items": [
+      "EDU.2",
+      "EDU.3"
+    ]
+  },
+  "S03_Ethnicity_Differences_and_School_Processes": {
+    "covers_syllabus_refs": [
+      "7192 EDU.4",
+      "7192 EDU.5"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Education (3.1.1)",
+    "covers_items": [
+      "EDU.4",
+      "EDU.5"
+    ]
+  },
+  "S04_Pupil_Subcultures_Hidden_Curriculum_and_Organisation": {
+    "covers_syllabus_refs": [
+      "7192 EDU.6",
+      "7192 EDU.7"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Education (3.1.1)",
+    "covers_items": [
+      "EDU.6",
+      "EDU.7"
+    ]
+  },
+  "S05_Educational_Policy": {
+    "covers_syllabus_refs": [
+      "7192 EDU.8",
+      "7192 EDU.9"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Education (3.1.1)",
+    "covers_items": [
+      "EDU.8",
+      "EDU.9"
+    ]
+  },
+  "S06_Methods_in_Context": {
+    "covers_syllabus_refs": [
+      "7192 MIC.1"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Methods in Context (3.1.2)",
+    "covers_items": [
+      "MIC.1"
+    ]
+  },
+  "S07_Research_Design_and_Sources_of_Data": {
+    "covers_syllabus_refs": [
+      "7192 TM.1",
+      "7192 TM.2"
+    ],
+    "syllabus_topic": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)",
+    "covers_items": [
+      "TM.1",
+      "TM.2"
+    ]
+  },
+  "S08_Observation_Experiments_and_Documentary_Sources": {
+    "covers_syllabus_refs": [
+      "7192 TM.3",
+      "7192 TM.4",
+      "7192 TM.5"
+    ],
+    "syllabus_topic": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)",
+    "covers_items": [
+      "TM.3",
+      "TM.4",
+      "TM.5"
+    ]
+  },
+  "S09_Choosing_Methods_Theoretical_Practical_and_Ethical": {
+    "covers_syllabus_refs": [
+      "7192 TM.6"
+    ],
+    "syllabus_topic": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)",
+    "covers_items": [
+      "TM.6"
+    ]
+  },
+  "S10_Positivism_Interpretivism_and_Sociological_Theory": {
+    "covers_syllabus_refs": [
+      "7192 TM.7",
+      "7192 TM.8"
+    ],
+    "syllabus_topic": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)",
+    "covers_items": [
+      "TM.7",
+      "TM.8"
+    ]
+  },
+  "S11_Modernity_Postmodernity_Value_Freedom_and_Policy": {
+    "covers_syllabus_refs": [
+      "7192 TM.9",
+      "7192 TM.10"
+    ],
+    "syllabus_topic": "Paper 1, Section C and Paper 3, Section B: Theory and Methods (3.1.3 / 3.3.2, common content)",
+    "covers_items": [
+      "TM.9",
+      "TM.10"
+    ]
+  },
+  "S12_Family_Perspectives_and_Changing_Patterns": {
+    "covers_syllabus_refs": [
+      "7192 FAM.1",
+      "7192 FAM.2"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)",
+    "covers_items": [
+      "FAM.1",
+      "FAM.2"
+    ]
+  },
+  "S13_Gender_Domestic_Labour_and_Childhood": {
+    "covers_syllabus_refs": [
+      "7192 FAM.3",
+      "7192 FAM.4"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)",
+    "covers_items": [
+      "FAM.3",
+      "FAM.4"
+    ]
+  },
+  "S14_Demographic_Trends": {
+    "covers_syllabus_refs": [
+      "7192 FAM.5"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Families and Households (3.2.2, Group 1 selected option)",
+    "covers_items": [
+      "FAM.5"
+    ]
+  },
+  "S15_Religion_Ideology_and_Social_Change": {
+    "covers_syllabus_refs": [
+      "7192 BEL.1",
+      "7192 BEL.2"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)",
+    "covers_items": [
+      "BEL.1",
+      "BEL.2"
+    ]
+  },
+  "S16_Religious_Organisations_and_Social_Groups": {
+    "covers_syllabus_refs": [
+      "7192 BEL.3",
+      "7192 BEL.4"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)",
+    "covers_items": [
+      "BEL.3",
+      "BEL.4"
+    ]
+  },
+  "S17_Secularisation_Globalisation_and_Fundamentalism": {
+    "covers_syllabus_refs": [
+      "7192 BEL.5"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Beliefs in Society (3.2.5, Group 2 selected option)",
+    "covers_items": [
+      "BEL.5"
+    ]
+  },
+  "S18_Functionalist_Strain_and_Subcultural_Theories": {
+    "covers_syllabus_refs": [
+      "7192 CD.1",
+      "7192 CD.2"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Crime and Deviance (3.3.1)",
+    "covers_items": [
+      "CD.1",
+      "CD.2"
+    ]
+  },
+  "S19_Labelling_Marxist_Criminology_and_Realism": {
+    "covers_syllabus_refs": [
+      "7192 CD.3",
+      "7192 CD.4"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Crime and Deviance (3.3.1)",
+    "covers_items": [
+      "CD.3",
+      "CD.4"
+    ]
+  },
+  "S20_Crime_Class_Gender_and_Ethnicity": {
+    "covers_syllabus_refs": [
+      "7192 CD.5",
+      "7192 CD.6"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Crime and Deviance (3.3.1)",
+    "covers_items": [
+      "CD.5",
+      "CD.6"
+    ]
+  },
+  "S21_Globalisation_Green_State_Crime_and_the_Media": {
+    "covers_syllabus_refs": [
+      "7192 CD.7",
+      "7192 CD.8"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Crime and Deviance (3.3.1)",
+    "covers_items": [
+      "CD.7",
+      "CD.8"
+    ]
+  },
+  "S22_Crime_Control_Surveillance_and_Punishment": {
+    "covers_syllabus_refs": [
+      "7192 CD.9"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Crime and Deviance (3.3.1)",
+    "covers_items": [
+      "CD.9"
+    ]
+  },
+  "S23_Victims_and_Measuring_Crime": {
+    "covers_syllabus_refs": [
+      "7192 CD.10",
+      "7192 CD.11"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Crime and Deviance (3.3.1)",
+    "covers_items": [
+      "CD.10",
+      "CD.11"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 4,
+  "name": "A Level Mathematics (OCR A, H240)",
+  "requires_complete": [
+    "gcse_mathematics"
+  ],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "OCR A Level Mathematics A (H240) specification, Version 3.1 (August 2026), downloaded from ocr.org.uk on 2026-09-27 and itemised in full: all 193 OCR reference codes (1.01a-3.04c) are items. Assessment: three 2-hour papers of 100 marks each (Paper 1 Pure Mathematics; Paper 2 Pure Mathematics and Statistics; Paper 3 Pure Mathematics and Mechanics), each a third of the A Level; a formula booklet is provided and a calculator is allowed throughout. Stage tests and the mock are original questions in OCR's style; no past-paper items are reproduced. Every numerical answer was computed with sympy when the course was built.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A Level), per Ofqual's register listing for OCR H240",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "large_data_set",
+      "text": "OCR's Paper 2 assumes familiarity with OCR's pre-released large data set (published on the OCR website with its metadata). Download it and explore it alongside S22; exam questions may use its context.",
+      "stages": [
+        "S22_Sampling_and_Data"
+      ]
+    },
+    {
+      "id": "calculator",
+      "text": "OCR expects a calculator that can compute binomial and normal probabilities (including inverse normal) and summary statistics. Have one from S22 onwards."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Proof",
+    "S02_Indices_Surds_and_Quadratics",
+    "S03_Simultaneous_Equations_and_Inequalities",
+    "S04_Polynomials_Rational_Expressions_Partial_Fractions",
+    "S05_Graphs_and_Curve_Sketching",
+    "S06_Functions_Modulus_and_Transformations",
+    "S07_Lines_and_Circles",
+    "S08_Parametric_Equations",
+    "S09_Binomial_Expansion",
+    "S10_Sequences_and_Series",
+    "S11_Trigonometry_Foundations",
+    "S12_Trig_Functions_Identities_and_Equations",
+    "S13_Compound_Angles_and_Trig_Proof",
+    "S14_Exponentials_and_Logarithms",
+    "S15_Differentiation_Basics",
+    "S16_Further_Differentiation",
+    "S17_Integration_Basics",
+    "S18_Further_Integration",
+    "S19_Differential_Equations",
+    "S20_Numerical_Methods",
+    "S21_Vectors",
+    "S22_Sampling_and_Data",
+    "S23_Probability",
+    "S24_Discrete_and_Binomial_Distributions",
+    "S25_Normal_Distribution",
+    "S26_Hypothesis_Testing",
+    "S27_Units_and_Kinematics",
+    "S28_Kinematics_in_2D_and_Projectiles",
+    "S29_Forces_and_Newtons_Laws",
+    "S30_Friction",
+    "S31_Moments"
+  ]
+}

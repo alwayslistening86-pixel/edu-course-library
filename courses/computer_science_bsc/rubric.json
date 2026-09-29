@@ -1,0 +1,279 @@
+{
+  "stage_rubrics": {
+    "S01_Programming_Foundations": {
+      "criteria": [
+        "1a: Python control flow beyond A-level: list/dict/set comprehensions, generators and iterators",
+        "1b: Recursion: recursive function design, base and recursive cases, tracing recursive calls and call-stack depth",
+        "1c: Object-oriented programming in Python: classes, encapsulation, inheritance, polymorphism, dunder methods",
+        "1d: Functional programming: higher-order functions, closures, lambda, map/filter/reduce, first-class functions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 1a, 1b, 1c, 1d (1 Computing Fundamentals 1: Programming Foundations (TM110))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S02_Systems_Networks_and_Cybersecurity_Foundations": {
+      "criteria": [
+        "2a: Data representation in depth: IEEE 754 floating point, character encoding (ASCII/Unicode/UTF-8)",
+        "2b: Cloud and distributed computing: IaaS/PaaS/SaaS, virtualisation, client-server vs peer-to-peer models",
+        "2c: Mobile computing architectures: mobile OS stack, sensors, app sandboxing",
+        "2d: Cybersecurity fundamentals: threat types, the CIA triad, authentication vs authorisation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 2a, 2b, 2c, 2d (2 Technologies in Practice: Systems, Networks and Cybersecurity Foundations (TM129))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S03_Discrete_Mathematics_for_Computing": {
+      "criteria": [
+        "3a: Propositional logic: truth tables, logical equivalence, De Morgan's laws and Boolean circuit simplification",
+        "3b: Sets, relations and functions: set operations, relations (reflexive/symmetric/transitive), injective/surjective/bijective functions",
+        "3c: Graph theory fundamentals: graphs, trees, adjacency matrix/list representations",
+        "3d: Proof techniques: proof by induction and proof by contradiction, applied to a computing result"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 3a, 3b, 3c, 3d (3 Essential and Discrete Mathematics for Computing (MST124))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S04_Databases_and_Software_Engineering_Foundations": {
+      "criteria": [
+        "4a: Relational database design: ER modelling, primary/foreign keys, 1:1, 1:M and M:N relationships",
+        "4b: Normalisation: functional dependencies, 1NF, 2NF, 3NF, redundancy and update/insert/delete anomalies",
+        "4c: Transactions and the ACID properties; basic concurrency control (locking)",
+        "4d: Software development lifecycle models: waterfall, iterative, Agile/Scrum, requirements engineering"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 4a, 4b, 4c, 4d (4 Computing Fundamentals 2: Databases and Software Engineering Foundations (TM113))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S05_Programming_and_Software_Engineering": {
+      "criteria": [
+        "5a: Object-oriented design principles: the SOLID principles, coupling and cohesion",
+        "5b: Design patterns: Singleton, Factory Method, Observer and Strategy -- purpose and structure",
+        "5c: Software testing: unit testing, black-box vs white-box testing, test coverage, test-driven development",
+        "5d: Version control and collaborative engineering practice: Git branching model, pull requests, code review"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 5a, 5b, 5c, 5d (5 Programming and Software Engineering (TM253))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S06_Practical_Modern_Statistics": {
+      "criteria": [
+        "6a: Probability distributions for data analysis: binomial, Poisson and normal, applied to real data problems",
+        "6b: Statistical inference: confidence intervals, hypothesis testing and p-values at degree depth",
+        "6c: Correlation and simple linear regression: least squares, the correlation coefficient, R-squared, residuals",
+        "6d: Data analysis in practice: descriptive statistics, choosing an appropriate summary/visualisation for a dataset"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 6a, 6b, 6c, 6d (6 Practical Modern Statistics (M249))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S07_Algorithms_and_Data_Structures": {
+      "criteria": [
+        "7a: Asymptotic analysis: Big-O, Big-Omega and Big-Theta; analysing the time and space complexity of code",
+        "7b: Sorting algorithms: bubble/insertion sort (O(n^2)) versus merge sort/quicksort (O(n log n))",
+        "7c: Data structures: linked lists, hash tables and collision handling, beyond A-level stacks/queues",
+        "7d: Trees: binary search trees, tree traversal (in-order/pre-order/post-order), the case for self-balancing trees"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 7a, 7b, 7c, 7d (7 Algorithms and Data Structures (M269))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S08_Computability_and_Complexity_Theory": {
+      "criteria": [
+        "8a: Formal languages and automata: finite state machines, regular expressions, an outline of the Chomsky hierarchy",
+        "8b: Turing machines: definition, the Church-Turing thesis, the universal Turing machine",
+        "8c: Decidability: the halting problem and a proof sketch of its undecidability",
+        "8d: Complexity classes: P, NP, NP-complete and NP-hard; the significance of the P vs NP question"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 8a, 8b, 8c, 8d (8 Computability and Complexity Theory (M269))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S09_Computer_Systems_and_Architecture": {
+      "criteria": [
+        "9a: The von Neumann architecture and the fetch-decode-execute cycle at degree depth: pipelining and hazards",
+        "9b: Memory hierarchy: registers, cache levels and hit/miss behaviour, RAM, virtual memory and paging",
+        "9c: Operating systems: process states, CPU scheduling algorithms (FCFS, round robin, priority), deadlock",
+        "9d: Parallel and multicore architectures: concurrency versus parallelism, race conditions and mutual exclusion"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 9a, 9b, 9c, 9d (9 Computer Systems and Architecture (QAA benchmark core area))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S10_Computer_Networks_and_Cybersecurity": {
+      "criteria": [
+        "10a: The OSI and TCP/IP reference models: layers and their responsibilities",
+        "10b: IP addressing and subnetting: CIDR notation, subnet masks, calculating network/broadcast addresses and usable hosts",
+        "10c: Transport and routing: TCP versus UDP, the TCP three-way handshake, routing fundamentals",
+        "10d: Network and application security: symmetric/asymmetric encryption, hashing, digital signatures, common web attacks"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 10a, 10b, 10c, 10d (10 Computer Networks and Cybersecurity (QAA benchmark core area))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S11_Introduction_to_Machine_Learning_and_AI": {
+      "criteria": [
+        "11a: Supervised learning: classification versus regression, the train/test split, overfitting and underfitting",
+        "11b: Key supervised algorithms: k-nearest neighbours, decision trees, linear regression as a learned model",
+        "11c: Unsupervised learning: clustering with k-means, the idea of dimensionality reduction",
+        "11d: Evaluating classifiers: accuracy, precision, recall, F1 score and the confusion matrix"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 11a, 11b, 11c, 11d (11 Introduction to Machine Learning and Artificial Intelligence (TM258))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S12_HCI_and_Professional_Ethical_Issues": {
+      "criteria": [
+        "12a: HCI principles: Nielsen's usability heuristics, the user-centred design process",
+        "12b: Accessibility and inclusive design: the WCAG principles, assistive technology",
+        "12c: Professional and legal frameworks: the BCS Code of Conduct, the Computer Misuse Act 1990, UK GDPR/Data Protection Act 2018",
+        "12d: Ethics of computing: consequentialist and deontological frameworks applied to a professional computing dilemma"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 12a, 12b, 12c, 12d (12 Human-Computer Interaction and Professional, Legal, Ethical and Social Issues (QAA benchmark core area))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S13_Advanced_Machine_Learning_and_AI": {
+      "criteria": [
+        "13a: Neural networks: the perceptron, activation functions, computing a forward pass by hand",
+        "13b: Backpropagation and gradient descent: the intuition and a simple worked weight update",
+        "13c: Deep learning architectures: the convolution operation (CNNs), the idea of a recurrent/sequence model (RNNs)",
+        "13d: Practical machine learning: bias in training data, fairness metrics, model interpretability"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 13a, 13b, 13c, 13d (13 Advanced Machine Learning and Artificial Intelligence (TM358))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S14_AI_in_Practice_Cognitive_Science_and_Ethics": {
+      "criteria": [
+        "14a: Symbolic AI versus connectionist AI: expert systems and knowledge representation versus neural approaches",
+        "14b: The Turing Test and philosophy of mind: strong versus weak AI, Searle's Chinese Room argument",
+        "14c: Deploying AI in practice: monitoring, data drift, the deployment-pipeline idea (MLOps basics)",
+        "14d: Ethics and risk of AI: bias and fairness, explainability, safety concerns, an outline of AI-specific regulation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 14a, 14b, 14c, 14d (14 AI in Practice, Cognitive Science and Ethics of AI (TM343/TM342))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    },
+    "S15_The_Computing_and_IT_Project": {
+      "criteria": [
+        "15a: Project planning for a computing project: requirements gathering, scoping, milestone/Gantt planning",
+        "15b: Literature review and research methods appropriate to a computing project",
+        "15c: Software project risk management and quality assurance",
+        "15d: Writing and presenting a computing project report: structure, evaluation and critical reflection"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across its varied module assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+        "reference": "R88 objectives 15a, 15b, 15c, 15d (15 The Computing and IT Project: Methodology and Practice (TM470))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r88"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A cumulative paper spanning every stage: programming and software engineering foundations (S01, S04-S05), systems/maths/data foundations (S02-S03, S06), algorithms and theory (S07-S08), systems and networks (S09-S10), and the AI/professional strand (S11-S15)",
+      "A mix of structured code-trace/calculation questions, multiple-select conceptual items and at least one extended-response professional/ethical item, at the standard of Level 6 (OU Stage 3) honours computer science",
+      "Working and reasoning shown throughout; a code trace or calculation with a gap in its logic does not earn the marks for that step"
+    ],
+    "pass_threshold": "At least 60% of the total marks overall and at least 50% on each of the two sections (the course's own standard). Report the percentage per section.",
+    "source": {
+      "issuing_body": "The Open University",
+      "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+      "reference": "This course's own cumulative-exam standard, modelled on how an OU honours computer science module's End-of-Module Assessment combines calculation, code and extended writing",
+      "urls": [
+        "https://www.open.ac.uk/courses/qualifications/r88"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.open.ac.uk/courses/qualifications/r88"
+  ],
+  "source_notes": "The OU publishes R88's module list, credits and stage structure, and each module's own overview page (open.ac.uk/courses/modules/<code>) and qualification page (open.ac.uk/courses/qualifications/r88). Detailed unit-by-unit module content sits behind the OU's VLE and was not accessible, so every lesson, worked example, practice item, test question and mark scheme below is original, written from the standard undergraduate topic breakdown for that area of computer science (per standard textbooks -- see material_vintage) and cross-checked against the QAA Subject Benchmark Statement for Computing, and checked by actually running Python when the course was built; none reproduces an OU question, TMA or exam paper."
+}

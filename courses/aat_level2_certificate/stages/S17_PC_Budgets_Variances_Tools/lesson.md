@@ -1,0 +1,28 @@
+# S17_PC_Budgets_Variances_Tools - Lesson: Budgets, variances and spreadsheet tools
+
+## Goal
+The learner prepares budgets for a single-product organisation, calculates and reports variances (including as a percentage), identifies significant variances for exception reporting, and enters/formats data and uses formulas in a spreadsheet to support cost calculations.
+
+## Syllabus items taught here
+- PC3.1 - Actual and budgeted costs and income: fixed and flexible budgets, adverse/favourable variances
+- PC3.2 - Exception reporting to identify, analyse and report on significant variances
+- PC4.1 - Enter and format data in a spreadsheet: cells, formatting numbers and text
+- PC4.2 - Use formulas to support cost calculations: addition, subtraction, multiplication, division
+
+## How to teach this
+Ask the learner: if a business budgeted to spend £15,000 on materials but actually spent £15,900, is that good news or bad news -- and how would you describe it in one word? Have the learner attempt every calculation (VAT, discounts, control-account reconciliations, bank reconciliations, FIFO/LIFO/AVCO, labour pay, overhead absorption, product costs, budget variances) with full workings before checking the model answer -- these are computer-marked numeric-entry items in the real AAT assessment, so exact figures matter. Every numeric example in this course was computed and verified in Python when the course was built. UK VAT is taken at the standard rate of 20% throughout unless an item states otherwise; check the current rate at gov.uk if it may have changed. AAT's assessments use a mix of multiple-choice, numeric gap-fill and journal/ledger-entry question tools; this course's items mirror the same calculation-and-entry style using clearly marked short-answer and multiple-choice items.
+
+#### PC3.1 Actual and budgeted costs and income: fixed and flexible budgets, adverse/favourable variances
+A **fixed budget** does not change once set, regardless of the actual level of output achieved; a **flexible budget** is recalculated ("flexed") to what the budget *would have been* at the actual output level, giving a fairer comparison since it separates a genuine cost/efficiency variance from a variance simply caused by producing a different quantity than planned. *Worked example (flexing a budget):* a budget assumes fixed costs of £10,000 and a variable cost of £4 per unit at a budgeted output of 1,000 units; actual output was 1,200 units. Flexed budget = £10,000 + (£4 x 1,200) = £10,000 + £4,800 = **£14,800** (compare actual costs against this £14,800, not against the original budget for 1,000 units). A **variance** is the difference between budgeted and actual figures; it is **adverse** (unfavourable) if it makes profit worse (e.g. actual costs higher than budgeted, or actual income lower than budgeted) and **favourable** if it makes profit better (e.g. actual costs lower than budgeted, or actual income higher than budgeted). *Worked example:* budgeted materials cost £15,000, actual cost £15,900 -- variance = £15,900 - £15,000 = **£900 adverse** (a cost overrun); as a percentage of budget = £900 / £15,000 x 100 = **6.0% adverse**. Budgeted labour cost £20,000, actual cost £19,200 -- variance = £19,200 - £20,000 = **-£800**, i.e. **£800 favourable**; as a percentage = £800 / £20,000 x 100 = **4.0% favourable**.
+
+#### PC3.2 Exception reporting to identify, analyse and report on significant variances
+**Exception reporting** focuses management attention only on **significant** variances (identified according to the organisation's own policy, e.g. a set £ amount or percentage threshold), rather than every minor difference. This involves: **identifying** which variances are significant against that policy, **analysing potential causes** (e.g. a price change, inefficiency, a change in output volume, an error), **analysing potential effects** (e.g. on profit, cash flow, future pricing decisions) and **reporting the variance analysis to the relevant manager**, so it can be acted on.
+
+#### PC4.1 Enter and format data in a spreadsheet: cells, formatting numbers and text
+Basic spreadsheet skills to support cost calculations: **entering data into specified cells**; **formatting cells** (bold, italics, underline, merge, fill colour, wrap text, text size, borders); **formatting numbers** (thousand separators, accountancy format, percentages, decimals); **copying and pasting cells** (not paste values or paste link, at this level); and **inserting rows and columns**.
+
+#### PC4.2 Use formulas to support cost calculations: addition, subtraction, multiplication, division
+Basic spreadsheet **formulas**: addition (`=SUM(A1:A10)` or `=A1+B10`), subtraction (`=A1-B10`), multiplication (`=A1*B10`) and division (`=A1/B10`); more complex calculations combine more than one function. Formulas will **not** be credited if they include: unnecessary spaces; unnecessary commas (e.g. `=SUM(B2,C2)` instead of `=SUM(B2:C2)`); square or curly brackets (only round brackets `()` are allowed); referencing a single cell in brackets where not needed (e.g. `=SUM(B1+B2+B3)` instead of `=SUM(B1:B3)`); using `PRODUCT` for multiplication; typing numbers in place of cell references; redundant cell references not needed for the calculation; unnecessary positive/negative signs (e.g. writing `=C11-B11` as `=+C11-B11` or `=-(B11-C11)`); or adding unnecessary leading zeros to cell references (e.g. `A01` instead of `A1`).
+
+## Explicitly not here
+This is the last Principles of Costing stage; the qualification's synoptic assessment integrates content from the other three units, not Principles of Costing.

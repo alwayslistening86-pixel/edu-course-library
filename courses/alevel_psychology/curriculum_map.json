@@ -1,0 +1,1094 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+    "url": "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification",
+    "version": "The current specification (first teaching from September 2015, unchanged in core structure since), linked from aqa.org.uk/subjects/psychology/a-level/psychology-7182 and cross-checked against the original AQA-7181-7182-SP-2015.PDF specification document, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers this specification's subject content in three levels (e.g. 4.1.1 Social Influence, 4.2.3 Research Methods, 4.3.5 Schizophrenia). This course keeps its own short sequential topic.subtopic codes (SI1-9 Social Influence, MEM1-7 Memory, ATT1-10 Attachment, PSY1-4 Psychopathology; APP1-6 Approaches, BIO1-7 Biopsychology, RM1-11 Research Methods; ID1-5 Issues and Debates, REL1-5 Relationships, SCZ1-4 Schizophrenia, AGG1-3 Aggression), cross-referenced in each stage's `topic_area` to AQA's own 4.1.1-4.3.8 section numbers. The six option topics not selected for this course (Gender, Cognition and Development, Eating Behaviour, Stress, Forensic Psychology, Addiction) are itemised at a coarser grain (4-5 bullets each, coded GEN/COG/EAT/STR/FOR/ADD) purely to record them as declared exclusions; they are not taught."
+  },
+  "_syllabus_items": [
+    {
+      "id": "SI1",
+      "title": "Types and explanations of conformity (internalisation, identification, compliance; ISI/NSI)",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI2",
+      "title": "Variables affecting conformity (Asch) and conformity to social roles (Zimbardo)",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI3",
+      "title": "Zimbardo's Stanford Prison Experiment",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI4",
+      "title": "Milgram's research and the situational variables affecting obedience (proximity, location, uniform)",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI5",
+      "title": "Explanations for obedience: legitimacy of authority and the agentic state",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI6",
+      "title": "The dispositional explanation for obedience: the Authoritarian Personality",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI7",
+      "title": "Resistance to social influence: social support and locus of control",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI8",
+      "title": "Minority influence: consistency, commitment, flexibility (Moscovici)",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "SI9",
+      "title": "The role of social influence processes in social change",
+      "topic_area": "Paper 1, Section A: Social Influence (4.1.1)"
+    },
+    {
+      "id": "MEM1",
+      "title": "The multi-store model of memory (sensory register, STM, LTM; coding, capacity, duration)",
+      "topic_area": "Paper 1, Section B: Memory (4.1.2)"
+    },
+    {
+      "id": "MEM2",
+      "title": "The working memory model (central executive, phonological loop, visuo-spatial sketchpad, episodic buffer)",
+      "topic_area": "Paper 1, Section B: Memory (4.1.2)"
+    },
+    {
+      "id": "MEM3",
+      "title": "Explanations for forgetting: interference",
+      "topic_area": "Paper 1, Section B: Memory (4.1.2)"
+    },
+    {
+      "id": "MEM4",
+      "title": "Explanations for forgetting: retrieval failure due to absence of cues",
+      "topic_area": "Paper 1, Section B: Memory (4.1.2)"
+    },
+    {
+      "id": "MEM5",
+      "title": "Eyewitness testimony: misleading information (leading questions, post-event discussion)",
+      "topic_area": "Paper 1, Section B: Memory (4.1.2)"
+    },
+    {
+      "id": "MEM6",
+      "title": "Eyewitness testimony: the effect of anxiety",
+      "topic_area": "Paper 1, Section B: Memory (4.1.2)"
+    },
+    {
+      "id": "MEM7",
+      "title": "Improving the accuracy of eyewitness testimony: the cognitive interview",
+      "topic_area": "Paper 1, Section B: Memory (4.1.2)"
+    },
+    {
+      "id": "ATT1",
+      "title": "Caregiver-infant interactions (reciprocity, interactional synchrony) and Schaffer's stages of attachment",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT2",
+      "title": "Multiple attachments and the role of the father",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT3",
+      "title": "Animal studies of attachment: Lorenz (imprinting)",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT4",
+      "title": "Animal studies of attachment: Harlow (contact comfort)",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT5",
+      "title": "Learning theory (cupboard love) as an explanation of attachment",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT6",
+      "title": "Bowlby's monotropic theory of attachment",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT7",
+      "title": "Ainsworth's Strange Situation and types of attachment",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT8",
+      "title": "Cultural variations in attachment (Van Ijzendoorn and Kroonenberg)",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT9",
+      "title": "Bowlby's theory of maternal deprivation and the Romanian orphan studies (Rutter)",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "ATT10",
+      "title": "The influence of early attachment on childhood and adult relationships (Hazan and Shaver)",
+      "topic_area": "Paper 1, Section C: Attachment (4.1.3)"
+    },
+    {
+      "id": "PSY1",
+      "title": "Definitions of abnormality: statistical infrequency, deviation from social norms, failure to function adequately, deviation from ideal mental health",
+      "topic_area": "Paper 1, Section D: Psychopathology (4.1.4)"
+    },
+    {
+      "id": "PSY2",
+      "title": "Phobias: behavioural/emotional/cognitive characteristics, the two-process model, and behavioural treatments (systematic desensitisation, flooding)",
+      "topic_area": "Paper 1, Section D: Psychopathology (4.1.4)"
+    },
+    {
+      "id": "PSY3",
+      "title": "Depression: characteristics, Beck's negative triad, Ellis's ABC model, and CBT",
+      "topic_area": "Paper 1, Section D: Psychopathology (4.1.4)"
+    },
+    {
+      "id": "PSY4",
+      "title": "OCD: characteristics, genetic and neural explanations, and drug therapy",
+      "topic_area": "Paper 1, Section D: Psychopathology (4.1.4)"
+    },
+    {
+      "id": "APP1",
+      "title": "The origins of psychology (Wundt, introspection) and the behaviourist approach (classical and operant conditioning)",
+      "topic_area": "Paper 2, Section A: Approaches in Psychology (4.2.1)"
+    },
+    {
+      "id": "APP2",
+      "title": "Social learning theory (imitation, identification, modelling, vicarious reinforcement, mediational processes; Bandura)",
+      "topic_area": "Paper 2, Section A: Approaches in Psychology (4.2.1)"
+    },
+    {
+      "id": "APP3",
+      "title": "The cognitive approach (internal mental processes, schemas, theoretical/computer models, cognitive neuroscience)",
+      "topic_area": "Paper 2, Section A: Approaches in Psychology (4.2.1)"
+    },
+    {
+      "id": "APP4",
+      "title": "The biological approach (genes, biological structures, neurochemistry, genotype/phenotype, evolution)",
+      "topic_area": "Paper 2, Section A: Approaches in Psychology (4.2.1)"
+    },
+    {
+      "id": "APP5",
+      "title": "The psychodynamic approach (the unconscious, id/ego/superego, defence mechanisms, psychosexual stages)",
+      "topic_area": "Paper 2, Section A: Approaches in Psychology (4.2.1)"
+    },
+    {
+      "id": "APP6",
+      "title": "The humanistic approach (free will, self-actualisation, Maslow, congruence) and comparison of approaches",
+      "topic_area": "Paper 2, Section A: Approaches in Psychology (4.2.1)"
+    },
+    {
+      "id": "BIO1",
+      "title": "The nervous system: central and peripheral (somatic and autonomic) divisions",
+      "topic_area": "Paper 2, Section B: Biopsychology (4.2.2)"
+    },
+    {
+      "id": "BIO2",
+      "title": "Neurons (sensory, relay, motor) and synaptic transmission",
+      "topic_area": "Paper 2, Section B: Biopsychology (4.2.2)"
+    },
+    {
+      "id": "BIO3",
+      "title": "The endocrine system and the fight-or-flight response",
+      "topic_area": "Paper 2, Section B: Biopsychology (4.2.2)"
+    },
+    {
+      "id": "BIO4",
+      "title": "Localisation of brain function and hemispheric lateralisation (split-brain research)",
+      "topic_area": "Paper 2, Section B: Biopsychology (4.2.2)"
+    },
+    {
+      "id": "BIO5",
+      "title": "Plasticity and functional recovery of the brain after trauma",
+      "topic_area": "Paper 2, Section B: Biopsychology (4.2.2)"
+    },
+    {
+      "id": "BIO6",
+      "title": "Ways of studying the brain: fMRI, EEG, ERPs, post-mortem examinations",
+      "topic_area": "Paper 2, Section B: Biopsychology (4.2.2)"
+    },
+    {
+      "id": "BIO7",
+      "title": "Biological rhythms: circadian, infradian, ultradian; endogenous pacemakers and exogenous zeitgebers",
+      "topic_area": "Paper 2, Section B: Biopsychology (4.2.2)"
+    },
+    {
+      "id": "RM1",
+      "title": "Types of experiment: laboratory, field, natural, quasi",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM2",
+      "title": "Experimental design: independent groups, repeated measures, matched pairs",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM3",
+      "title": "Other research methods: observation, self-report, case studies, content analysis",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM4",
+      "title": "Correlations; aims and hypotheses (directional/non-directional)",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM5",
+      "title": "Sampling methods: random, systematic, stratified, opportunity, volunteer",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM6",
+      "title": "Variables (IV/DV/EV/confounding, operationalisation), control (randomisation, standardisation, counterbalancing), demand characteristics/investigator effects, and pilot studies",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM7",
+      "title": "Ethical issues in research and the BPS Code of Ethics and Conduct",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM8",
+      "title": "Reliability (test-retest, inter-observer) and validity (face, concurrent, ecological, temporal)",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM9",
+      "title": "Features of science, scientific report writing, peer review, and economic implications of research",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM10",
+      "title": "Data handling: quantitative/qualitative and primary/secondary data, levels of measurement, descriptive statistics, distributions",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "RM11",
+      "title": "Introduction to inferential testing: probability, significance, Type I/II errors, the sign test, and choosing/using statistical tests",
+      "topic_area": "Paper 2, Section C: Research Methods (4.2.3)"
+    },
+    {
+      "id": "ID1",
+      "title": "Gender bias and cultural bias in psychological research",
+      "topic_area": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)"
+    },
+    {
+      "id": "ID2",
+      "title": "The free will versus determinism debate (hard/soft determinism; biological/environmental/psychic determinism)",
+      "topic_area": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)"
+    },
+    {
+      "id": "ID3",
+      "title": "The nature-nurture debate and the interactionist approach (diathesis-stress, epigenetics)",
+      "topic_area": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)"
+    },
+    {
+      "id": "ID4",
+      "title": "Holism versus reductionism, including levels of explanation",
+      "topic_area": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)"
+    },
+    {
+      "id": "ID5",
+      "title": "Idiographic and nomothetic approaches; ethical implications of research studies and theory, including socially sensitive research",
+      "topic_area": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)"
+    },
+    {
+      "id": "REL1",
+      "title": "Evolutionary explanations of partner preferences (sexual selection, anisogamy, inter-/intra-sexual selection)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "REL2",
+      "title": "Factors affecting attraction: self-disclosure, physical attractiveness (matching hypothesis), filter theory",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "REL3",
+      "title": "Theories of romantic relationships: social exchange theory, equity theory, Rusbult's investment model",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "REL4",
+      "title": "Duck's phase model of relationship breakdown",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "REL5",
+      "title": "Virtual relationships and parasocial relationships",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "SCZ1",
+      "title": "Classification of schizophrenia; reliability and validity of diagnosis",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "SCZ2",
+      "title": "Biological explanations of schizophrenia: genetics and neural correlates (dopamine hypothesis)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "SCZ3",
+      "title": "Psychological explanations of schizophrenia: family dysfunction and cognitive explanations",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "SCZ4",
+      "title": "Drug therapy, psychological treatments (CBT, family therapy, token economies) and the interactionist approach",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "AGG1",
+      "title": "Neural and hormonal mechanisms in aggression, and the ethological/evolutionary explanations",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "AGG2",
+      "title": "Social psychological explanations of aggression: frustration-aggression hypothesis, social learning theory, deindividuation",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "AGG3",
+      "title": "Institutional aggression in prisons, and media influences on aggression",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "GEN.1",
+      "title": "Gender: sex/gender distinction, sex-role stereotypes, androgyny, the Bem Sex Role Inventory (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "GEN.2",
+      "title": "Gender: chromosomes and hormones, atypical sex-chromosome patterns (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "GEN.3",
+      "title": "Gender: cognitive (Kohlberg, gender schema theory) and psychodynamic explanations of gender development (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "GEN.4",
+      "title": "Gender: social learning theory applied to gender, and atypical gender development (gender dysphoria) (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "COG.1",
+      "title": "Cognition and development: Piaget's theory of cognitive development (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "COG.2",
+      "title": "Cognition and development: Vygotsky's theory (zone of proximal development, scaffolding) (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "COG.3",
+      "title": "Cognition and development: Baillargeon's research on early infant abilities (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "COG.4",
+      "title": "Cognition and development: social cognition (Selman, theory of mind, mirror neurons) (not taught)",
+      "topic_area": "Paper 3, Section B: Relationships (4.3.2, selected option)"
+    },
+    {
+      "id": "EAT.1",
+      "title": "Eating behaviour: explanations of food preference (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "EAT.2",
+      "title": "Eating behaviour: neural and hormonal mechanisms controlling eating behaviour (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "EAT.3",
+      "title": "Eating behaviour: biological and psychological explanations of anorexia nervosa (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "EAT.4",
+      "title": "Eating behaviour: biological and psychological explanations of obesity (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "STR.1",
+      "title": "Stress: physiology of stress (GAS, HPA system, sympathomedullary pathway) (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "STR.2",
+      "title": "Stress: the role of stress in illness (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "STR.3",
+      "title": "Stress: sources of stress and measures of stress (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "STR.4",
+      "title": "Stress: individual differences, and stress management (not taught)",
+      "topic_area": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)"
+    },
+    {
+      "id": "FOR.1",
+      "title": "Forensic psychology: offender profiling (top-down, bottom-up) (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "FOR.2",
+      "title": "Forensic psychology: biological explanations of offending behaviour (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "FOR.3",
+      "title": "Forensic psychology: psychological explanations of offending behaviour (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "FOR.4",
+      "title": "Forensic psychology: dealing with offending behaviour (custodial sentencing, behaviour programmes) (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "ADD.1",
+      "title": "Addiction: description of addiction (dependence, tolerance, withdrawal) (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "ADD.2",
+      "title": "Addiction: risk factors for addiction (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "ADD.3",
+      "title": "Addiction: explanations for nicotine and gambling addiction (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    },
+    {
+      "id": "ADD.4",
+      "title": "Addiction: reducing addiction (not taught)",
+      "topic_area": "Paper 3, Section D: Aggression (4.3.8, selected option)"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "GEN.1",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "GEN.2",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "GEN.3",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "GEN.4",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "COG.1",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "COG.2",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "COG.3",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "COG.4",
+      "reason": "Option not selected. AQA 7182 candidates study one applied option from each of three groups for Paper 3. This course takes Relationships from Group 1 (the others being Gender and Cognition and Development)."
+    },
+    {
+      "id": "EAT.1",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "EAT.2",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "EAT.3",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "EAT.4",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "STR.1",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "STR.2",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "STR.3",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "STR.4",
+      "reason": "Option not selected. This course takes Schizophrenia from Group 2 (the others being Eating Behaviour and Stress)."
+    },
+    {
+      "id": "FOR.1",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    },
+    {
+      "id": "FOR.2",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    },
+    {
+      "id": "FOR.3",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    },
+    {
+      "id": "FOR.4",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    },
+    {
+      "id": "ADD.1",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    },
+    {
+      "id": "ADD.2",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    },
+    {
+      "id": "ADD.3",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    },
+    {
+      "id": "ADD.4",
+      "reason": "Option not selected. This course takes Aggression from Group 3 (the others being Forensic Psychology and Addiction)."
+    }
+  ],
+  "S01_Conformity_Types_and_Explanations": {
+    "covers_syllabus_refs": [
+      "7182 SI1"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Social Influence (4.1.1)",
+    "covers_items": [
+      "SI1"
+    ]
+  },
+  "S02_Conformity_Variables_and_Social_Roles": {
+    "covers_syllabus_refs": [
+      "7182 SI2",
+      "7182 SI3"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Social Influence (4.1.1)",
+    "covers_items": [
+      "SI2",
+      "SI3"
+    ]
+  },
+  "S03_Explanations_for_Obedience": {
+    "covers_syllabus_refs": [
+      "7182 SI4",
+      "7182 SI5"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Social Influence (4.1.1)",
+    "covers_items": [
+      "SI4",
+      "SI5"
+    ]
+  },
+  "S04_Dispositional_Explanation_and_Resistance": {
+    "covers_syllabus_refs": [
+      "7182 SI6",
+      "7182 SI7"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Social Influence (4.1.1)",
+    "covers_items": [
+      "SI6",
+      "SI7"
+    ]
+  },
+  "S05_Minority_Influence_and_Social_Change": {
+    "covers_syllabus_refs": [
+      "7182 SI8",
+      "7182 SI9"
+    ],
+    "syllabus_topic": "Paper 1, Section A: Social Influence (4.1.1)",
+    "covers_items": [
+      "SI8",
+      "SI9"
+    ]
+  },
+  "S06_Multi_Store_and_Working_Memory_Models": {
+    "covers_syllabus_refs": [
+      "7182 MEM1",
+      "7182 MEM2"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Memory (4.1.2)",
+    "covers_items": [
+      "MEM1",
+      "MEM2"
+    ]
+  },
+  "S07_Explanations_for_Forgetting": {
+    "covers_syllabus_refs": [
+      "7182 MEM3",
+      "7182 MEM4"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Memory (4.1.2)",
+    "covers_items": [
+      "MEM3",
+      "MEM4"
+    ]
+  },
+  "S08_Eyewitness_Testimony": {
+    "covers_syllabus_refs": [
+      "7182 MEM5",
+      "7182 MEM6"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Memory (4.1.2)",
+    "covers_items": [
+      "MEM5",
+      "MEM6"
+    ]
+  },
+  "S09_Improving_EWT_Cognitive_Interview": {
+    "covers_syllabus_refs": [
+      "7182 MEM7"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Memory (4.1.2)",
+    "covers_items": [
+      "MEM7"
+    ]
+  },
+  "S10_Caregiver_Infant_Interactions_and_Schaffers_Stages": {
+    "covers_syllabus_refs": [
+      "7182 ATT1",
+      "7182 ATT2"
+    ],
+    "syllabus_topic": "Paper 1, Section C: Attachment (4.1.3)",
+    "covers_items": [
+      "ATT1",
+      "ATT2"
+    ]
+  },
+  "S11_Animal_Studies_of_Attachment": {
+    "covers_syllabus_refs": [
+      "7182 ATT3",
+      "7182 ATT4"
+    ],
+    "syllabus_topic": "Paper 1, Section C: Attachment (4.1.3)",
+    "covers_items": [
+      "ATT3",
+      "ATT4"
+    ]
+  },
+  "S12_Explanations_of_Attachment": {
+    "covers_syllabus_refs": [
+      "7182 ATT5",
+      "7182 ATT6"
+    ],
+    "syllabus_topic": "Paper 1, Section C: Attachment (4.1.3)",
+    "covers_items": [
+      "ATT5",
+      "ATT6"
+    ]
+  },
+  "S13_Strange_Situation_Cultural_Variations_and_Disruption": {
+    "covers_syllabus_refs": [
+      "7182 ATT7",
+      "7182 ATT8",
+      "7182 ATT9",
+      "7182 ATT10"
+    ],
+    "syllabus_topic": "Paper 1, Section C: Attachment (4.1.3)",
+    "covers_items": [
+      "ATT7",
+      "ATT8",
+      "ATT9",
+      "ATT10"
+    ]
+  },
+  "S14_Definitions_of_Abnormality": {
+    "covers_syllabus_refs": [
+      "7182 PSY1"
+    ],
+    "syllabus_topic": "Paper 1, Section D: Psychopathology (4.1.4)",
+    "covers_items": [
+      "PSY1"
+    ]
+  },
+  "S15_Phobias": {
+    "covers_syllabus_refs": [
+      "7182 PSY2"
+    ],
+    "syllabus_topic": "Paper 1, Section D: Psychopathology (4.1.4)",
+    "covers_items": [
+      "PSY2"
+    ]
+  },
+  "S16_Depression": {
+    "covers_syllabus_refs": [
+      "7182 PSY3"
+    ],
+    "syllabus_topic": "Paper 1, Section D: Psychopathology (4.1.4)",
+    "covers_items": [
+      "PSY3"
+    ]
+  },
+  "S17_OCD": {
+    "covers_syllabus_refs": [
+      "7182 PSY4"
+    ],
+    "syllabus_topic": "Paper 1, Section D: Psychopathology (4.1.4)",
+    "covers_items": [
+      "PSY4"
+    ]
+  },
+  "S18_Origins_and_Behaviourist_Approach": {
+    "covers_syllabus_refs": [
+      "7182 APP1"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Approaches in Psychology (4.2.1)",
+    "covers_items": [
+      "APP1"
+    ]
+  },
+  "S19_Social_Learning_Theory": {
+    "covers_syllabus_refs": [
+      "7182 APP2"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Approaches in Psychology (4.2.1)",
+    "covers_items": [
+      "APP2"
+    ]
+  },
+  "S20_Cognitive_Approach": {
+    "covers_syllabus_refs": [
+      "7182 APP3"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Approaches in Psychology (4.2.1)",
+    "covers_items": [
+      "APP3"
+    ]
+  },
+  "S21_Biological_Approach": {
+    "covers_syllabus_refs": [
+      "7182 APP4"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Approaches in Psychology (4.2.1)",
+    "covers_items": [
+      "APP4"
+    ]
+  },
+  "S22_Psychodynamic_Approach": {
+    "covers_syllabus_refs": [
+      "7182 APP5"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Approaches in Psychology (4.2.1)",
+    "covers_items": [
+      "APP5"
+    ]
+  },
+  "S23_Humanistic_Approach_and_Comparison": {
+    "covers_syllabus_refs": [
+      "7182 APP6"
+    ],
+    "syllabus_topic": "Paper 2, Section A: Approaches in Psychology (4.2.1)",
+    "covers_items": [
+      "APP6"
+    ]
+  },
+  "S24_Nervous_System": {
+    "covers_syllabus_refs": [
+      "7182 BIO1"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Biopsychology (4.2.2)",
+    "covers_items": [
+      "BIO1"
+    ]
+  },
+  "S25_Neurons_and_Synaptic_Transmission": {
+    "covers_syllabus_refs": [
+      "7182 BIO2"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Biopsychology (4.2.2)",
+    "covers_items": [
+      "BIO2"
+    ]
+  },
+  "S26_Endocrine_System_and_Fight_or_Flight": {
+    "covers_syllabus_refs": [
+      "7182 BIO3"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Biopsychology (4.2.2)",
+    "covers_items": [
+      "BIO3"
+    ]
+  },
+  "S27_Localisation_of_Function": {
+    "covers_syllabus_refs": [
+      "7182 BIO4"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Biopsychology (4.2.2)",
+    "covers_items": [
+      "BIO4"
+    ]
+  },
+  "S28_Plasticity_and_Functional_Recovery": {
+    "covers_syllabus_refs": [
+      "7182 BIO5"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Biopsychology (4.2.2)",
+    "covers_items": [
+      "BIO5"
+    ]
+  },
+  "S29_Ways_of_Studying_the_Brain": {
+    "covers_syllabus_refs": [
+      "7182 BIO6"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Biopsychology (4.2.2)",
+    "covers_items": [
+      "BIO6"
+    ]
+  },
+  "S30_Biological_Rhythms": {
+    "covers_syllabus_refs": [
+      "7182 BIO7"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Biopsychology (4.2.2)",
+    "covers_items": [
+      "BIO7"
+    ]
+  },
+  "S31_Experimental_Methods_and_Design": {
+    "covers_syllabus_refs": [
+      "7182 RM1",
+      "7182 RM2"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM1",
+      "RM2"
+    ]
+  },
+  "S32_Other_Research_Methods": {
+    "covers_syllabus_refs": [
+      "7182 RM3"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM3"
+    ]
+  },
+  "S33_Correlations_Aims_and_Hypotheses": {
+    "covers_syllabus_refs": [
+      "7182 RM4"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM4"
+    ]
+  },
+  "S34_Sampling_Methods": {
+    "covers_syllabus_refs": [
+      "7182 RM5"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM5"
+    ]
+  },
+  "S35_Variables_Control_and_Demand_Characteristics": {
+    "covers_syllabus_refs": [
+      "7182 RM6"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM6"
+    ]
+  },
+  "S36_Ethics_in_Research": {
+    "covers_syllabus_refs": [
+      "7182 RM7"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM7"
+    ]
+  },
+  "S37_Reliability_and_Validity": {
+    "covers_syllabus_refs": [
+      "7182 RM8"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM8"
+    ]
+  },
+  "S38_Features_of_Science": {
+    "covers_syllabus_refs": [
+      "7182 RM9"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM9"
+    ]
+  },
+  "S39_Descriptive_Statistics_and_Data_Handling": {
+    "covers_syllabus_refs": [
+      "7182 RM10"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM10"
+    ]
+  },
+  "S40_Inferential_Testing": {
+    "covers_syllabus_refs": [
+      "7182 RM11"
+    ],
+    "syllabus_topic": "Paper 2, Section C: Research Methods (4.2.3)",
+    "covers_items": [
+      "RM11"
+    ]
+  },
+  "S41_Gender_Culture_Free_Will_and_Determinism": {
+    "covers_syllabus_refs": [
+      "7182 ID1",
+      "7182 ID2"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)",
+    "covers_items": [
+      "ID1",
+      "ID2"
+    ]
+  },
+  "S42_Nature_Nurture_Holism_and_Reductionism": {
+    "covers_syllabus_refs": [
+      "7182 ID3",
+      "7182 ID4"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)",
+    "covers_items": [
+      "ID3",
+      "ID4"
+    ]
+  },
+  "S43_Idiographic_Nomothetic_and_Ethical_Implications": {
+    "covers_syllabus_refs": [
+      "7182 ID5"
+    ],
+    "syllabus_topic": "Paper 3, Section A: Issues and Debates in Psychology (4.3.1)",
+    "covers_items": [
+      "ID5"
+    ]
+  },
+  "S44_Evolutionary_Explanations_and_Attraction": {
+    "covers_syllabus_refs": [
+      "7182 REL1",
+      "7182 REL2"
+    ],
+    "syllabus_topic": "Paper 3, Section B: Relationships (4.3.2, selected option)",
+    "covers_items": [
+      "REL1",
+      "REL2"
+    ]
+  },
+  "S45_Theories_of_Romantic_Relationships": {
+    "covers_syllabus_refs": [
+      "7182 REL3"
+    ],
+    "syllabus_topic": "Paper 3, Section B: Relationships (4.3.2, selected option)",
+    "covers_items": [
+      "REL3"
+    ]
+  },
+  "S46_Relationship_Breakdown_Virtual_and_Parasocial": {
+    "covers_syllabus_refs": [
+      "7182 REL4",
+      "7182 REL5"
+    ],
+    "syllabus_topic": "Paper 3, Section B: Relationships (4.3.2, selected option)",
+    "covers_items": [
+      "REL4",
+      "REL5"
+    ]
+  },
+  "S47_Classification_and_Diagnosis_of_Schizophrenia": {
+    "covers_syllabus_refs": [
+      "7182 SCZ1"
+    ],
+    "syllabus_topic": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)",
+    "covers_items": [
+      "SCZ1"
+    ]
+  },
+  "S48_Biological_and_Psychological_Explanations_of_Schizophrenia": {
+    "covers_syllabus_refs": [
+      "7182 SCZ2",
+      "7182 SCZ3"
+    ],
+    "syllabus_topic": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)",
+    "covers_items": [
+      "SCZ2",
+      "SCZ3"
+    ]
+  },
+  "S49_Treating_Schizophrenia": {
+    "covers_syllabus_refs": [
+      "7182 SCZ4"
+    ],
+    "syllabus_topic": "Paper 3, Section C: Schizophrenia (4.3.5, selected option)",
+    "covers_items": [
+      "SCZ4"
+    ]
+  },
+  "S50_Neural_Hormonal_and_Evolutionary_Explanations_of_Aggression": {
+    "covers_syllabus_refs": [
+      "7182 AGG1"
+    ],
+    "syllabus_topic": "Paper 3, Section D: Aggression (4.3.8, selected option)",
+    "covers_items": [
+      "AGG1"
+    ]
+  },
+  "S51_Social_Psychological_Explanations_of_Aggression": {
+    "covers_syllabus_refs": [
+      "7182 AGG2"
+    ],
+    "syllabus_topic": "Paper 3, Section D: Aggression (4.3.8, selected option)",
+    "covers_items": [
+      "AGG2"
+    ]
+  },
+  "S52_Institutional_Aggression_and_Media_Influences": {
+    "covers_syllabus_refs": [
+      "7182 AGG3"
+    ],
+    "syllabus_topic": "Paper 3, Section D: Aggression (4.3.8, selected option)",
+    "covers_items": [
+      "AGG3"
+    ]
+  }
+}

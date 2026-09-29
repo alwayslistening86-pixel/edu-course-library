@@ -1,0 +1,436 @@
+{
+  "stage_rubrics": {
+    "S01_Scheme_of_Assessment_and_Assessment_Objectives": {
+      "criteria": [
+        "States both papers' duration, marks, weighting and content correctly",
+        "Identifies the question types used and links them to what they are testing",
+        "Explains AO1, AO2 and AO3 accurately and distinctly, each with a clear example",
+        "Explains why extended questions require more than description to reach the top mark band"
+      ],
+      "pass_threshold": "States both papers' duration, marks and content correctly, and explains the difference between AO1, AO2 and AO3 with an example of each.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, sections 2 and 4",
+        "reference": "AQA 8192 specification, Scheme of assessment and Assessment objectives",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S02_The_Sociological_Approach_Concepts_and_Classical_Theorists": {
+      "criteria": [
+        "Defines society, socialisation, norms, values and roles accurately with examples",
+        "Explains the consensus/conflict debate clearly and links it to relevant theorists",
+        "Correctly explains Durkheim's, Marx's and Weber's core contribution to sociology",
+        "Uses precise sociological vocabulary rather than everyday description"
+      ],
+      "pass_threshold": "Defines society, socialisation, norms, values and roles accurately, explains the consensus/conflict debate, and correctly links Durkheim, Marx and Weber to their core contribution.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.1",
+        "reference": "AQA 8192 specification, section 3.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S03_Core_Perspectives_Key_Concepts_and_Sociological_Skills": {
+      "criteria": [
+        "Explains all four core perspectives accurately and distinctly, without conflating them",
+        "Defines labelling, discrimination, power and authority correctly with examples",
+        "Genuinely compares two explanations against each other rather than listing them separately",
+        "Uses specific evidence from a source or data extract to support a stated interpretation",
+        "Applies a sociological concept to a real, contemporary example rather than only a textbook one"
+      ],
+      "pass_threshold": "Explains the core claims of all four perspectives accurately and distinctly, defines labelling, discrimination, power and authority correctly, and produces a genuinely evaluative comparison of two explanations using evidence from a source.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.1 and 3.2",
+        "reference": "AQA 8192 specification, sections 3.1 and 3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S04_Functions_of_Families": {
+      "criteria": [
+        "Explains Parsons' functionalist view accurately, using correct terminology",
+        "Identifies and explains all four core functions (sexual, reproductive, economic, educational)",
+        "Explains a specific, accurate feminist critique of family functions",
+        "Explains a specific, accurate Marxist critique of family functions",
+        "Reaches a supported judgement when asked to assess or evaluate, rather than simply describing both sides"
+      ],
+      "pass_threshold": "Explains Parsons' functionalist view accurately, identifies and explains all four core functions, and explains at least one feminist and one Marxist critique with a supported judgement.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.3.1",
+        "reference": "AQA 8192 specification, section 3.3.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S05_Family_Forms": {
+      "criteria": [
+        "Explains how UK family forms have diversified, with a comparison to global variation",
+        "Explains at least three of the Rapoports' types of family diversity accurately",
+        "Correctly identifies and distinguishes nuclear, extended, reconstituted, lone-parent and same-sex families",
+        "Supports explanations with a specific, real-world example rather than only definitions"
+      ],
+      "pass_threshold": "Explains the Rapoports' typology accurately, and correctly identifies and distinguishes nuclear, extended, reconstituted, lone-parent and same-sex family forms with real-world examples.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.3.2",
+        "reference": "AQA 8192 specification, section 3.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S06_Conjugal_Role_Relationships": {
+      "criteria": [
+        "Distinguishes joint and segregated conjugal roles correctly with examples",
+        "Explains Oakley's argument accurately, including the 'dual burden' idea",
+        "Discusses the domestic division of labour with specific detail across at least two named areas",
+        "Compares at least two perspectives on conjugal roles and reaches a supported judgement"
+      ],
+      "pass_threshold": "Distinguishes joint and segregated roles correctly, explains Oakley's argument, discusses the domestic division of labour with specific detail across the named areas, and compares at least two perspectives with a judgement.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.3.3",
+        "reference": "AQA 8192 specification, section 3.3.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S07_Changing_Relationships_Within_Families": {
+      "criteria": [
+        "Explains the historical shift in family relationships accurately with specific detail",
+        "Explains Willmott and Young's theory correctly, including stratified diffusion",
+        "Discusses at least two contemporary family issues with specific, accurate detail",
+        "Reaches a supported judgement when assessing a theory or claim"
+      ],
+      "pass_threshold": "Explains the historical shift accurately, explains Willmott and Young's theory including stratified diffusion, and discusses at least two contemporary issues with evaluation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.3.4",
+        "reference": "AQA 8192 specification, section 3.3.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S08_Criticisms_of_Families_and_Divorce": {
+      "criteria": [
+        "Explains at least two criticisms of the family, correctly attributed to a theorist or perspective",
+        "Explains Delphy and Leonard's and/or Zaretsky's argument accurately",
+        "Explains the divorce trend and at least three distinct, correctly explained reasons for its rise",
+        "Explains consequences of divorce for more than one group (spouses, children, extended family) with evidence"
+      ],
+      "pass_threshold": "Explains at least two criticisms of the family with named theorists, and explains the divorce trend, at least three reasons for its rise, and its consequences with supporting evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.3.5 and 3.3.6",
+        "reference": "AQA 8192 specification, sections 3.3.5 and 3.3.6",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S09_Roles_and_Functions_of_Education": {
+      "criteria": [
+        "Explains Durkheim's and Parsons' views accurately and distinctly",
+        "Identifies and explains all three functions (economy's needs, social mobility, social cohesion)",
+        "Describes primary, secondary, state and private schools accurately",
+        "Explains at least one genuine alternative to mainstream schooling correctly"
+      ],
+      "pass_threshold": "Explains Durkheim's and Parsons' views accurately, identifies and explains all three named functions, and correctly describes school types and at least one alternative to mainstream schooling.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.4.1",
+        "reference": "AQA 8192 specification, section 3.4.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S10_Education_Capitalism_and_Achievement": {
+      "criteria": [
+        "Explains the correspondence principle accurately with a specific supporting example",
+        "Explicitly compares the Marxist and functionalist accounts of education",
+        "Explains class, gender and ethnicity patterns in achievement with named, accurate supporting detail",
+        "Explains Ball's concept of parentocracy correctly and evaluates its implications for equality of opportunity"
+      ],
+      "pass_threshold": "Explains the correspondence principle accurately, compares it with functionalism, and explains class, gender and ethnicity patterns in achievement with named evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.4.2 and 3.4.3",
+        "reference": "AQA 8192 specification, sections 3.4.2 and 3.4.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S11_Processes_Within_Schools": {
+      "criteria": [
+        "Explains streaming, setting and mixed-ability teaching accurately and distinctly",
+        "Explains the labelling/self-fulfilling prophecy mechanism step by step with a specific example",
+        "Explains Willis' study accurately, including his conclusion about class reproduction",
+        "Compares at least two perspectives on school processes and reaches a supported judgement"
+      ],
+      "pass_threshold": "Explains streaming/setting, the labelling/self-fulfilling prophecy mechanism, and Willis' study accurately, and compares at least two perspectives on school processes with a judgement.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.4.4",
+        "reference": "AQA 8192 specification, section 3.4.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S12_Social_Construction_of_Crime_and_Social_Control": {
+      "criteria": [
+        "Explains the social construction of crime and deviance accurately, distinguishing crime from deviance",
+        "Explains Merton's strain theory and Becker's labelling theory accurately and distinctly",
+        "Explains formal and informal social control with specific, correct examples",
+        "Explains Heidensohn's argument accurately with supporting reasoning"
+      ],
+      "pass_threshold": "Explains the social construction of crime, Merton's and Becker's theories accurately and distinctly, and explains formal/informal control and Heidensohn's argument with evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.5.1 and 3.5.2",
+        "reference": "AQA 8192 specification, sections 3.5.1 and 3.5.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S13_Criminal_and_Deviant_Behaviour": {
+      "criteria": [
+        "Explains at least three of class, gender, ethnicity and age with specific, accurate reasoning",
+        "Explains Albert Cohen's delinquent subculture theory accurately",
+        "Explains Carlen's argument about women, crime and poverty accurately",
+        "Discusses at least one public debate with more than one viewpoint and some evaluation"
+      ],
+      "pass_threshold": "Explains at least three factors affecting criminal/deviant behaviour with evidence, explains Cohen's and Carlen's studies, and discusses one public debate with a balanced, evaluative answer.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.5.3",
+        "reference": "AQA 8192 specification, section 3.5.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S14_Data_on_Crime": {
+      "criteria": [
+        "Names and describes at least two sources of crime data accurately",
+        "Explains patterns/trends and the risk of misreading them correctly",
+        "Explains the dark figure of crime accurately with a correct reason for its existence",
+        "Reaches a balanced, supported evaluative judgement about official statistics' reliability"
+      ],
+      "pass_threshold": "Names and describes at least two sources of crime data, correctly explains the dark figure of crime, and reaches a supported evaluative judgement about official statistics' reliability.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.5.4",
+        "reference": "AQA 8192 specification, section 3.5.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S15_Functionalist_Theory_and_Socio_Economic_Class": {
+      "criteria": [
+        "Explains Davis and Moore's theory accurately with a supporting example",
+        "Explains at least one specific, accurate critique of the functionalist theory",
+        "Explains Marx's and Weber's theories of class accurately and distinctly",
+        "Applies class concepts to contemporary Britain with specific, relevant detail"
+      ],
+      "pass_threshold": "Explains Davis and Moore's theory and at least one critique accurately, and explains Marx's and Weber's differing views of class with an application to contemporary Britain.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.6.1 and 3.6.2",
+        "reference": "AQA 8192 specification, sections 3.6.1 and 3.6.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S16_Life_Chances": {
+      "criteria": [
+        "Explains how class affects life chances with specific, accurate supporting evidence",
+        "Explains how at least two of gender, ethnicity, sexuality, age, disability or religion affect life chances",
+        "Explains Devine's study accurately, including what it challenges",
+        "Reaches a supported judgement when comparing the relative significance of different factors"
+      ],
+      "pass_threshold": "Explains at least three factors affecting life chances with specific evidence, and explains Devine's study and its implications accurately.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.6.3",
+        "reference": "AQA 8192 specification, section 3.6.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S17_Poverty_as_a_Social_Issue": {
+      "criteria": [
+        "Defines absolute and relative poverty accurately, correctly attributing relative deprivation to Townsend",
+        "Explains the culture of poverty explanation and Murray's underclass theory accurately and distinctly",
+        "Evaluates at least one government attempt to alleviate poverty with a strength and a limitation",
+        "Explains globalisation's effect on poverty with a specific, accurate example"
+      ],
+      "pass_threshold": "Defines absolute and relative poverty accurately using Townsend, explains at least two competing explanations of poverty, and evaluates a government attempt to reduce it.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.6.4",
+        "reference": "AQA 8192 specification, section 3.6.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S18_Power_Authority_and_Power_Relationships": {
+      "criteria": [
+        "Explains all three of Weber's types of authority accurately and distinctly, with correct examples",
+        "Distinguishes formal and informal sources of power with accurate examples",
+        "Explains Walby's theory of patriarchy accurately, naming specific structures",
+        "Explains how at least two named factors shape power relationships with specific, accurate detail"
+      ],
+      "pass_threshold": "Explains Weber's three types of authority accurately, explains Walby's concept of patriarchy, and explains how at least two factors shape power relationships with evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.6.5 and 3.6.6",
+        "reference": "AQA 8192 specification, sections 3.6.5 and 3.6.6",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S19_Research_Design_Sampling_and_Data_Collection_Methods": {
+      "criteria": [
+        "Formulates a clear, testable aim and hypothesis",
+        "Explains pilot studies and at least two sampling methods correctly with accurate detail",
+        "Evaluates at least two data collection methods, each with a specific strength and weakness",
+        "Justifies a method recommendation for a stated research topic, not just describing methods generically"
+      ],
+      "pass_threshold": "Formulates a clear aim/hypothesis, explains pilot studies and at least two sampling methods correctly, and evaluates at least two data collection methods with a specific strength and weakness each.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.7",
+        "reference": "AQA 8192 specification, section 3.7",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S20_Data_Types_Sources_Interpretation_and_Practical_Ethical_Issues": {
+      "criteria": [
+        "Distinguishes qualitative/quantitative and official/non-official data accurately with examples",
+        "Distinguishes primary and secondary sources accurately with an original example of each",
+        "Correctly interprets a described data presentation, citing specific figures",
+        "Explains at least one practical and one ethical issue and applies them to a specific research scenario"
+      ],
+      "pass_threshold": "Distinguishes all named data-type pairs accurately, correctly interprets a described data presentation, and explains at least one practical and one ethical issue with application to a scenario.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Sociology (8192) specification, 3.7",
+        "reference": "AQA 8192 specification, section 3.7",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+          "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Applies sociological perspectives precisely to the specific question asked, rather than describing them in the abstract (AO1/AO2)",
+      "Weighs perspectives or explanations against each other rather than presenting them side by side (AO3)",
+      "Reaches a conclusion that is genuinely supported by that weighing, not just asserted (AO3)",
+      "Names specific theorists, studies and concepts accurately and uses precise sociological terminology throughout",
+      "Interprets a data source or extract correctly and applies it as evidence within an answer"
+    ],
+    "pass_threshold": "Combined mark total across both papers (out of 200 raw marks) consistent with meeting or exceeding AQA's published grade boundary for a Grade 4, judged against the levels of response bands in `rubric.json`'s `exam_rubric`. AQA sets exact grade boundaries per series rather than a fixed mark table; there is no Foundation/Higher tier split in AQA GCSE Sociology 8192 (all candidates sit the same two papers).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE Sociology (8192) specification, Scheme of Assessment (Papers 1 and 2)",
+      "reference": "AQA 8192 specification, section 2 Scheme of assessment",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+        "https://www.aqa.org.uk/subjects/sociology/gcse/sociology-8192/specification/subject-content",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/sociology/specifications/AQA-8192-SP-2017.PDF",
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81921-MS-JUN23.PDF",
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-81922-MS-JUN23.PDF"
+  ],
+  "source_notes": [
+    "Carried over from the original build's rubric.json: source is the AQA GCSE Sociology (8192) specification (subject content, scheme of assessment) and the AQA-published June 2023 Paper 2 (8192/2) mark scheme's generic levels-of-response bands.",
+    "The 8192/1 (Paper 1) June 2023 mark scheme URL is also carried over and added for Paper-1-specific stages."
+  ]
+}

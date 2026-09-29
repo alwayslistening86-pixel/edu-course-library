@@ -1,0 +1,359 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+    "url": "https://cppinstitute.org/cpa",
+    "version": "CPA-21-02 (active), fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "The CPA page lists topics per block without numbers; ids number them block.position in the page's own order (1.1-5.9)."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1",
+      "title": "Unary, binary and ternary operators; precedence and associativity",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.2",
+      "title": "Arithmetic, relational, logical, bitwise and assignment operators",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.3",
+      "title": "The conditional operator ?:",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.4",
+      "title": "Predefined types, their ranges and representations",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.5",
+      "title": "Literals: decimal, octal, hexadecimal, binary, floating-point, char and bool",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.6",
+      "title": "std::string objects, escape sequences and string operations",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.7",
+      "title": "Aggregates: vectors, arrays, structures, unions and enums",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.8",
+      "title": "Type conversion, casting, promotion and sizeof",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "1.9",
+      "title": "Declaration modifiers: signed, unsigned, static and const",
+      "topic_area": "1 Types and operators"
+    },
+    {
+      "id": "2.1",
+      "title": "Conditional statements and loops: if, else, while, do, for",
+      "topic_area": "2 Control and exceptions"
+    },
+    {
+      "id": "2.2",
+      "title": "break, continue and goto",
+      "topic_area": "2 Control and exceptions"
+    },
+    {
+      "id": "2.3",
+      "title": "switch, case and default",
+      "topic_area": "2 Control and exceptions"
+    },
+    {
+      "id": "2.4",
+      "title": "return statements",
+      "topic_area": "2 Control and exceptions"
+    },
+    {
+      "id": "2.5",
+      "title": "Exception handling: try, catch, throw and catch-all",
+      "topic_area": "2 Control and exceptions"
+    },
+    {
+      "id": "2.6",
+      "title": "Exception hierarchies and the throw() specifier",
+      "topic_area": "2 Control and exceptions"
+    },
+    {
+      "id": "3.1",
+      "title": "Defining, declaring and invoking functions",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "3.2",
+      "title": "Typed and void functions with return",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "3.3",
+      "title": "Overloading functions and default parameters",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "3.4",
+      "title": "Passing arguments by value, reference and pointer",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "3.5",
+      "title": "Recursion",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "3.6",
+      "title": "main() conventions",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "3.7",
+      "title": "Conditional compilation: #if, #ifdef, #else, #endif",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "3.8",
+      "title": "Parameterised and non-parameterised macros",
+      "topic_area": "3 Functions and preprocessor directives"
+    },
+    {
+      "id": "4.1",
+      "title": "Pointers to variables, objects, functions and aggregates",
+      "topic_area": "4 Pointers"
+    },
+    {
+      "id": "4.2",
+      "title": "Dereferencing and the address-of operator",
+      "topic_area": "4 Pointers"
+    },
+    {
+      "id": "4.3",
+      "title": "Pointer arithmetic and comparisons",
+      "topic_area": "4 Pointers"
+    },
+    {
+      "id": "4.4",
+      "title": "Dynamic memory with new, delete and delete[]; avoiding leaks",
+      "topic_area": "4 Pointers"
+    },
+    {
+      "id": "5.1",
+      "title": "OOP principles: inheritance, encapsulation, polymorphism, abstraction",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.2",
+      "title": "Defining classes; access specifiers; the :: operator and this",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.3",
+      "title": "Constructors and destructors: default, copy and explicit",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.4",
+      "title": "Overloading member functions and operators",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.5",
+      "title": "Single and multiple inheritance; managing visibility",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.6",
+      "title": "Class type compatibility and casting with static_cast and dynamic_cast",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.7",
+      "title": "Overriding; virtual and polymorphic functions; const members",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.8",
+      "title": "Friend classes and functions",
+      "topic_area": "5 Classes and namespaces"
+    },
+    {
+      "id": "5.9",
+      "title": "Namespaces: anonymous, named, aliases and scope resolution",
+      "topic_area": "5 Classes and namespaces"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Operators_and_Expressions": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 1.1",
+      "CPA-21-02 1.2",
+      "CPA-21-02 1.3"
+    ],
+    "syllabus_topic": "Block 1: Types and Operators (9 items, 24.5%)",
+    "covers_items": [
+      "1.1",
+      "1.2",
+      "1.3"
+    ]
+  },
+  "S02_Types_Literals_Conversions_Modifiers": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 1.4",
+      "CPA-21-02 1.5",
+      "CPA-21-02 1.8",
+      "CPA-21-02 1.9"
+    ],
+    "syllabus_topic": "Block 1: Types and Operators (9 items, 24.5%)",
+    "covers_items": [
+      "1.4",
+      "1.5",
+      "1.8",
+      "1.9"
+    ]
+  },
+  "S03_Strings_and_Aggregates": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 1.6",
+      "CPA-21-02 1.7"
+    ],
+    "syllabus_topic": "Block 1: Types and Operators (9 items, 24.5%)",
+    "covers_items": [
+      "1.6",
+      "1.7"
+    ]
+  },
+  "S04_Control_Flow": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 2.1",
+      "CPA-21-02 2.2",
+      "CPA-21-02 2.3",
+      "CPA-21-02 2.4"
+    ],
+    "syllabus_topic": "Block 2: Control and Exceptions (8 items, 18%)",
+    "covers_items": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4"
+    ]
+  },
+  "S05_Exceptions": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 2.5",
+      "CPA-21-02 2.6"
+    ],
+    "syllabus_topic": "Block 2: Control and Exceptions (8 items, 18%)",
+    "covers_items": [
+      "2.5",
+      "2.6"
+    ]
+  },
+  "S06_Functions_Overloading_and_Parameters": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 3.1",
+      "CPA-21-02 3.2",
+      "CPA-21-02 3.3",
+      "CPA-21-02 3.4",
+      "CPA-21-02 3.5",
+      "CPA-21-02 3.6"
+    ],
+    "syllabus_topic": "Block 3: Functions and Preprocessor Directives (9 items, 17.5%)",
+    "covers_items": [
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6"
+    ]
+  },
+  "S07_Preprocessor_Directives": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 3.7",
+      "CPA-21-02 3.8"
+    ],
+    "syllabus_topic": "Block 3: Functions and Preprocessor Directives (9 items, 17.5%)",
+    "covers_items": [
+      "3.7",
+      "3.8"
+    ]
+  },
+  "S08_Pointers_and_Dynamic_Memory": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 4.1",
+      "CPA-21-02 4.2",
+      "CPA-21-02 4.3",
+      "CPA-21-02 4.4"
+    ],
+    "syllabus_topic": "Block 4: Pointers (4 items, 11%)",
+    "covers_items": [
+      "4.1",
+      "4.2",
+      "4.3",
+      "4.4"
+    ]
+  },
+  "S09_OOP_Principles_and_Class_Definitions": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 5.1",
+      "CPA-21-02 5.2"
+    ],
+    "syllabus_topic": "Block 5: Classes and Namespaces (10 items, 29%)",
+    "covers_items": [
+      "5.1",
+      "5.2"
+    ]
+  },
+  "S10_Constructors_and_Destructors": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 5.3"
+    ],
+    "syllabus_topic": "Block 5: Classes and Namespaces (10 items, 29%)",
+    "covers_items": [
+      "5.3"
+    ]
+  },
+  "S11_Overloading_Members_and_Operators": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 5.4"
+    ],
+    "syllabus_topic": "Block 5: Classes and Namespaces (10 items, 29%)",
+    "covers_items": [
+      "5.4"
+    ]
+  },
+  "S12_Inheritance_Casting_and_Polymorphism": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 5.5",
+      "CPA-21-02 5.6",
+      "CPA-21-02 5.7"
+    ],
+    "syllabus_topic": "Block 5: Classes and Namespaces (10 items, 29%)",
+    "covers_items": [
+      "5.5",
+      "5.6",
+      "5.7"
+    ]
+  },
+  "S13_Friends_and_Namespaces": {
+    "covers_syllabus_refs": [
+      "CPA-21-02 5.8",
+      "CPA-21-02 5.9"
+    ],
+    "syllabus_topic": "Block 5: Classes and Namespaces (10 items, 29%)",
+    "covers_items": [
+      "5.8",
+      "5.9"
+    ]
+  }
+}

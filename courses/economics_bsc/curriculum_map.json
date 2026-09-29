@@ -1,0 +1,597 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+    "url": "https://www.open.ac.uk/courses/qualifications/r30",
+    "version": "R30 module list and stage structure as published in the OU's 2026/27 Social Sciences Prospectus, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "This course numbers its own syllabus items per real OU module (e.g. D217-1, D217-2, ...; M248-1, ...; M348-1, ...; DD320-1, ...; DD321-1, ...; DD226-1, ...), plus a bridging quantitative-methods stage numbered MQ1-MQ4 covering calculus and optimisation tools the intermediate D217 module assumes. The OU's own internal unit-by-unit numbering within each module sits behind the enrolled-student VLE and was not accessible, so this course keeps its own stable id scheme rather than reproducing gated numbering, exactly as the LLB and PPE courses in this library already do."
+  },
+  "_syllabus_items": [
+    {
+      "id": "MQ1",
+      "title": "Marginal functions via differentiation",
+      "topic_area": "Quantitative bridge (calculus and optimisation tools for degree-level economics, matching the intermediate mathematical demands of D217, MU123 and M140)"
+    },
+    {
+      "id": "MQ2",
+      "title": "Constrained optimisation and the Lagrange multiplier",
+      "topic_area": "Quantitative bridge (calculus and optimisation tools for degree-level economics, matching the intermediate mathematical demands of D217, MU123 and M140)"
+    },
+    {
+      "id": "MQ3",
+      "title": "Compound growth and logarithmic growth rates",
+      "topic_area": "Quantitative bridge (calculus and optimisation tools for degree-level economics, matching the intermediate mathematical demands of D217, MU123 and M140)"
+    },
+    {
+      "id": "MQ4",
+      "title": "Point (calculus) elasticity",
+      "topic_area": "Quantitative bridge (calculus and optimisation tools for degree-level economics, matching the intermediate mathematical demands of D217, MU123 and M140)"
+    },
+    {
+      "id": "D217-1",
+      "title": "Indifference curves and the marginal rate of substitution",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-2",
+      "title": "The consumer's optimum: tangency and Cobb-Douglas demand",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-3",
+      "title": "Substitution and income effects; Giffen goods",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-4",
+      "title": "The Slutsky equation",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-5",
+      "title": "Revealed preference theory (WARP)",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-6",
+      "title": "Production functions, marginal product and isoquants",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-7",
+      "title": "Cost minimisation: MRTS = w/r",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-8",
+      "title": "Long-run cost curves and returns to scale",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-9",
+      "title": "Profit maximisation via calculus: MR = MC",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-10",
+      "title": "Long-run perfect competition: P = min LRAC",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-11",
+      "title": "Monopoly markup and the Lerner index",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-12",
+      "title": "First-, second- and third-degree price discrimination",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-13",
+      "title": "Game theory: normal form, dominant strategies, Nash equilibrium",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-14",
+      "title": "The prisoner's dilemma and oligopoly collusion",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-15",
+      "title": "Cournot duopoly and reaction functions",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-16",
+      "title": "Bertrand competition and Stackelberg leadership",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-17",
+      "title": "Pareto efficiency and the first welfare theorem",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-18",
+      "title": "Externalities and the Pigouvian tax",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-19",
+      "title": "The Coase theorem",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-20",
+      "title": "Public goods, free-riding and the Samuelson condition",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-21",
+      "title": "GDP measurement, nominal vs real GDP, the GDP deflator",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-22",
+      "title": "The Keynesian multiplier",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-23",
+      "title": "Deriving the IS curve",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-24",
+      "title": "Deriving the LM curve and IS-LM equilibrium",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-25",
+      "title": "Short-run vs long-run aggregate supply",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-26",
+      "title": "The expectations-augmented Phillips curve and NAIRU",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-27",
+      "title": "Adaptive vs rational expectations; time inconsistency",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-28",
+      "title": "The Solow model: production and capital accumulation",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-29",
+      "title": "The Solow steady state and the golden rule",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-30",
+      "title": "Convergence and endogenous growth theory",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-31",
+      "title": "The balance of payments identity",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-32",
+      "title": "Purchasing power parity and interest rate parity",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-33",
+      "title": "The Mundell-Fleming model",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "D217-34",
+      "title": "The impossible trinity",
+      "topic_area": "D217 Essential economics: macro and micro perspectives"
+    },
+    {
+      "id": "M248-1",
+      "title": "Random variables and probability distributions",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-2",
+      "title": "Sampling distributions and the Central Limit Theorem",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-3",
+      "title": "Confidence intervals",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-4",
+      "title": "Hypothesis testing, Type I/II errors and p-values",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-5",
+      "title": "The two-sample t-test",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-6",
+      "title": "Simple linear regression by OLS",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-7",
+      "title": "R-squared and residuals",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-8",
+      "title": "Hypothesis tests on regression coefficients",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M248-9",
+      "title": "Correlation, causation and omitted variable bias",
+      "topic_area": "M248 Analysing data"
+    },
+    {
+      "id": "M348-1",
+      "title": "Multiple regression and ceteris paribus interpretation",
+      "topic_area": "M348 Applied statistical modelling"
+    },
+    {
+      "id": "M348-2",
+      "title": "Multicollinearity and heteroscedasticity",
+      "topic_area": "M348 Applied statistical modelling"
+    },
+    {
+      "id": "M348-3",
+      "title": "Dummy variables",
+      "topic_area": "M348 Applied statistical modelling"
+    },
+    {
+      "id": "M348-4",
+      "title": "Logistic regression for binary outcomes",
+      "topic_area": "M348 Applied statistical modelling"
+    },
+    {
+      "id": "M348-5",
+      "title": "Trend, seasonality and autocorrelation in time series",
+      "topic_area": "M348 Applied statistical modelling"
+    },
+    {
+      "id": "DD320-1",
+      "title": "The Lorenz curve and Gini coefficient",
+      "topic_area": "DD320 Doing economics: inequalities, innovation and environment"
+    },
+    {
+      "id": "DD320-2",
+      "title": "Absolute vs relative poverty",
+      "topic_area": "DD320 Doing economics: inequalities, innovation and environment"
+    },
+    {
+      "id": "DD320-3",
+      "title": "Innovation economics and the Arrow replacement effect",
+      "topic_area": "DD320 Doing economics: inequalities, innovation and environment"
+    },
+    {
+      "id": "DD320-4",
+      "title": "Carbon taxes vs cap-and-trade",
+      "topic_area": "DD320 Doing economics: inequalities, innovation and environment"
+    },
+    {
+      "id": "DD320-5",
+      "title": "Pluralism: mainstream vs heterodox approaches",
+      "topic_area": "DD320 Doing economics: inequalities, innovation and environment"
+    },
+    {
+      "id": "DD321-1",
+      "title": "Comparative advantage and gains from trade",
+      "topic_area": "DD321 Economics for a changing world"
+    },
+    {
+      "id": "DD321-2",
+      "title": "The Heckscher-Ohlin model",
+      "topic_area": "DD321 Economics for a changing world"
+    },
+    {
+      "id": "DD321-3",
+      "title": "Tariffs and deadweight loss",
+      "topic_area": "DD321 Economics for a changing world"
+    },
+    {
+      "id": "DD321-4",
+      "title": "Globalisation and global value chains",
+      "topic_area": "DD321 Economics for a changing world"
+    },
+    {
+      "id": "DD321-5",
+      "title": "Growth vs development and the Human Development Index",
+      "topic_area": "DD321 Economics for a changing world"
+    },
+    {
+      "id": "DD226-1",
+      "title": "The monetary policy transmission mechanism",
+      "topic_area": "DD226 Economics in practice"
+    },
+    {
+      "id": "DD226-2",
+      "title": "Automatic stabilisers, discretionary policy and debt sustainability",
+      "topic_area": "DD226 Economics in practice"
+    },
+    {
+      "id": "DD226-3",
+      "title": "Cost-benefit analysis and discounting",
+      "topic_area": "DD226 Economics in practice"
+    },
+    {
+      "id": "DD226-4",
+      "title": "Behavioural and pluralist critiques of policy design",
+      "topic_area": "DD226 Economics in practice"
+    },
+    {
+      "id": "DD226-5",
+      "title": "Writing an integrative policy briefing",
+      "topic_area": "DD226 Economics in practice"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Quantitative_Tools_for_Economics": {
+    "covers_syllabus_refs": [
+      "R30 MQ1",
+      "R30 MQ2",
+      "R30 MQ3",
+      "R30 MQ4"
+    ],
+    "syllabus_topic": "Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus)",
+    "covers_items": [
+      "MQ1",
+      "MQ2",
+      "MQ3",
+      "MQ4"
+    ]
+  },
+  "S02_Consumer_Theory": {
+    "covers_syllabus_refs": [
+      "R30 D217-1",
+      "R30 D217-2",
+      "R30 D217-3",
+      "R30 D217-4",
+      "R30 D217-5"
+    ],
+    "syllabus_topic": "Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus)",
+    "covers_items": [
+      "D217-1",
+      "D217-2",
+      "D217-3",
+      "D217-4",
+      "D217-5"
+    ]
+  },
+  "S03_Producer_Theory": {
+    "covers_syllabus_refs": [
+      "R30 D217-6",
+      "R30 D217-7",
+      "R30 D217-8",
+      "R30 D217-9"
+    ],
+    "syllabus_topic": "Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus)",
+    "covers_items": [
+      "D217-6",
+      "D217-7",
+      "D217-8",
+      "D217-9"
+    ]
+  },
+  "S04_Market_Structures_with_Calculus": {
+    "covers_syllabus_refs": [
+      "R30 D217-10",
+      "R30 D217-11",
+      "R30 D217-12"
+    ],
+    "syllabus_topic": "Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus)",
+    "covers_items": [
+      "D217-10",
+      "D217-11",
+      "D217-12"
+    ]
+  },
+  "S05_Game_Theory_and_Strategic_Behaviour": {
+    "covers_syllabus_refs": [
+      "R30 D217-13",
+      "R30 D217-14",
+      "R30 D217-15",
+      "R30 D217-16"
+    ],
+    "syllabus_topic": "Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus)",
+    "covers_items": [
+      "D217-13",
+      "D217-14",
+      "D217-15",
+      "D217-16"
+    ]
+  },
+  "S06_Welfare_Economics_and_Market_Failure": {
+    "covers_syllabus_refs": [
+      "R30 D217-17",
+      "R30 D217-18",
+      "R30 D217-19",
+      "R30 D217-20"
+    ],
+    "syllabus_topic": "Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus)",
+    "covers_items": [
+      "D217-17",
+      "D217-18",
+      "D217-19",
+      "D217-20"
+    ]
+  },
+  "S07_National_Income_and_IS_LM": {
+    "covers_syllabus_refs": [
+      "R30 D217-21",
+      "R30 D217-22",
+      "R30 D217-23",
+      "R30 D217-24"
+    ],
+    "syllabus_topic": "Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data)",
+    "covers_items": [
+      "D217-21",
+      "D217-22",
+      "D217-23",
+      "D217-24"
+    ]
+  },
+  "S08_Aggregate_Supply_Expectations_Phillips": {
+    "covers_syllabus_refs": [
+      "R30 D217-25",
+      "R30 D217-26",
+      "R30 D217-27"
+    ],
+    "syllabus_topic": "Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data)",
+    "covers_items": [
+      "D217-25",
+      "D217-26",
+      "D217-27"
+    ]
+  },
+  "S09_Economic_Growth_Theory": {
+    "covers_syllabus_refs": [
+      "R30 D217-28",
+      "R30 D217-29",
+      "R30 D217-30"
+    ],
+    "syllabus_topic": "Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data)",
+    "covers_items": [
+      "D217-28",
+      "D217-29",
+      "D217-30"
+    ]
+  },
+  "S10_Open_Economy_Macroeconomics": {
+    "covers_syllabus_refs": [
+      "R30 D217-31",
+      "R30 D217-32",
+      "R30 D217-33",
+      "R30 D217-34"
+    ],
+    "syllabus_topic": "Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data)",
+    "covers_items": [
+      "D217-31",
+      "D217-32",
+      "D217-33",
+      "D217-34"
+    ]
+  },
+  "S11_Probability_and_Statistical_Inference": {
+    "covers_syllabus_refs": [
+      "R30 M248-1",
+      "R30 M248-2",
+      "R30 M248-3",
+      "R30 M248-4",
+      "R30 M248-5"
+    ],
+    "syllabus_topic": "Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data)",
+    "covers_items": [
+      "M248-1",
+      "M248-2",
+      "M248-3",
+      "M248-4",
+      "M248-5"
+    ]
+  },
+  "S12_Regression_Analysis_and_Econometric_Basics": {
+    "covers_syllabus_refs": [
+      "R30 M248-6",
+      "R30 M248-7",
+      "R30 M248-8",
+      "R30 M248-9"
+    ],
+    "syllabus_topic": "Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data)",
+    "covers_items": [
+      "M248-6",
+      "M248-7",
+      "M248-8",
+      "M248-9"
+    ]
+  },
+  "S13_Applied_Statistical_Modelling": {
+    "covers_syllabus_refs": [
+      "R30 M348-1",
+      "R30 M348-2",
+      "R30 M348-3",
+      "R30 M348-4",
+      "R30 M348-5"
+    ],
+    "syllabus_topic": "Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226)",
+    "covers_items": [
+      "M348-1",
+      "M348-2",
+      "M348-3",
+      "M348-4",
+      "M348-5"
+    ]
+  },
+  "S14_Inequality_Innovation_and_Environment": {
+    "covers_syllabus_refs": [
+      "R30 DD320-1",
+      "R30 DD320-2",
+      "R30 DD320-3",
+      "R30 DD320-4",
+      "R30 DD320-5"
+    ],
+    "syllabus_topic": "Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226)",
+    "covers_items": [
+      "DD320-1",
+      "DD320-2",
+      "DD320-3",
+      "DD320-4",
+      "DD320-5"
+    ]
+  },
+  "S15_International_and_Global_Economics": {
+    "covers_syllabus_refs": [
+      "R30 DD321-1",
+      "R30 DD321-2",
+      "R30 DD321-3",
+      "R30 DD321-4",
+      "R30 DD321-5"
+    ],
+    "syllabus_topic": "Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226)",
+    "covers_items": [
+      "DD321-1",
+      "DD321-2",
+      "DD321-3",
+      "DD321-4",
+      "DD321-5"
+    ]
+  },
+  "S16_Economic_Policy_Analysis_Capstone": {
+    "covers_syllabus_refs": [
+      "R30 DD226-1",
+      "R30 DD226-2",
+      "R30 DD226-3",
+      "R30 DD226-4",
+      "R30 DD226-5"
+    ],
+    "syllabus_topic": "Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226)",
+    "covers_items": [
+      "DD226-1",
+      "DD226-2",
+      "DD226-3",
+      "DD226-4",
+      "DD226-5"
+    ]
+  }
+}

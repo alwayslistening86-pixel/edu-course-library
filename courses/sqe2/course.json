@@ -1,0 +1,43 @@
+{
+  "schema_version": 4,
+  "name": "SQE2 (Solicitors Qualifying Examination, Stage 2) — Practical Legal Skills",
+  "requires_complete": [
+    "sqe1"
+  ],
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "SRA SQE2 Assessment Specification, published on sqe.sra.org.uk (current, live assessment for all SQE2 sittings). Itemised on 2026-09-19/re-fetched 2026-09-22. The six skills, their timings/format (interview and attendance note, advocacy, case and matter analysis, legal research, legal writing, legal drafting) and the five practice-area contexts were verified against the live SQE2 specification page (sqe2-assessments) and Annexes 1-4 (Functioning Legal Knowledge, Threshold Standard, Statement of Solicitor Competence, skills mapping). The SRA's annexes give the Threshold Standard and competence statement rather than a skill-by-skill numbered list of performance criteria, so the detailed assessed components/criteria under each skill combine the SRA's own wording (quoted/paraphrased from the specification and Annexes 2-3) with standard, well-established SQE2 preparation practice for that skill's criteria and question style; this blend is flagged per item in items_source and is not a claim that the SRA numbers criteria this way itself. Worked scenarios are original and not taken from SRA sample questions or past assessments.",
+  "academic_level": null,
+  "level_source": "standalone: the SRA publishes no RQF/FHEQ level for the SQE (a professional licensing assessment); no level recorded. Made standalone by the library owner on 2026-09-26.",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_INT_Core",
+    "S02_INT_Worked_Scenarios",
+    "S03_ADV_Core",
+    "S04_ADV_Worked_Scenarios",
+    "S05_CMA_Core",
+    "S06_CMA_Worked_Scenarios",
+    "S07_RES_Core",
+    "S08_RES_Worked_Scenarios",
+    "S09_WRI_Core",
+    "S10_WRI_Worked_Scenarios",
+    "S11_DRA_Core",
+    "S12_DRA_Worked_Scenarios"
+  ],
+  "linear": true,
+  "framework": "SRA SQE2 Threshold Standard (Level 3), from SQE2 Annex 2: candidates must show a functioning legal knowledge that identifies the relevant legal principles and applies them appropriately and effectively; work to an acceptable standard for routine tasks (recognising when more complex work needs review); manage most tasks independently while knowing when to seek guidance; handle straightforward transactions and some unfamiliar elements; understand how their actions serve the wider matter/case objective; and use experience and judgement to evaluate information and options. Assessors mark each skills assessment on a six-point A-F scale, weighting the skill itself and the candidate's application of law equally (SQE2 Assessment Specification, sqe2-assessments page). The Statement of Solicitor Competence (Annex 3) and its skills mapping (Annex 4) underpin all six skills: ethics/professionalism/judgement, technical legal practice, working with other people, and managing themselves and their own work.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": true,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "standalone"
+}

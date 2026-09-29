@@ -1,0 +1,653 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+    "url": "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF",
+    "version": "Version 1.0 (22 December 2016), for teaching from September 2017 onwards - the current version linked from aqa.org.uk/7127, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers the A-level content only to section level (3.1-3.18); it has no official numbering below that. This course adds its own sub-lettering (e.g. 3.3a, 3.3b) at the deepest examinable point within each section, in the order AQA's specification text presents them. The nine quantitative skills in the annex are unnumbered bullets; this course numbers them QS1-QS9 in AQA's own order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "3.1a",
+      "title": "Role of the accountant in business",
+      "topic_area": "3.1 An introduction to the role of the accountant in business"
+    },
+    {
+      "id": "3.1b",
+      "title": "Financial accounting versus management accounting",
+      "topic_area": "3.1 An introduction to the role of the accountant in business"
+    },
+    {
+      "id": "3.2a",
+      "title": "Sole trader organisation and unlimited liability",
+      "topic_area": "3.2 Types of business organisation"
+    },
+    {
+      "id": "3.2b",
+      "title": "Partnership organisation and the Partnership Act 1890",
+      "topic_area": "3.2 Types of business organisation"
+    },
+    {
+      "id": "3.2c",
+      "title": "Private/public limited companies; sources of finance compared",
+      "topic_area": "3.2 Types of business organisation"
+    },
+    {
+      "id": "3.3a",
+      "title": "Source documents and books of prime entry",
+      "topic_area": "3.3 The double entry model"
+    },
+    {
+      "id": "3.3b",
+      "title": "Double entry: the accounting equation and ledger posting",
+      "topic_area": "3.3 The double entry model"
+    },
+    {
+      "id": "3.3c",
+      "title": "Capital vs revenue expenditure/income; the trial balance",
+      "topic_area": "3.3 The double entry model"
+    },
+    {
+      "id": "3.3d",
+      "title": "Accruals and prepayments",
+      "topic_area": "3.3 The double entry model"
+    },
+    {
+      "id": "3.3e",
+      "title": "Irrecoverable debts and the allowance for doubtful debts",
+      "topic_area": "3.3 The double entry model"
+    },
+    {
+      "id": "3.3f",
+      "title": "Depreciation: straight line, reducing balance and disposal",
+      "topic_area": "3.3 The double entry model"
+    },
+    {
+      "id": "3.4a",
+      "title": "Bank reconciliation statements",
+      "topic_area": "3.4 Verification of accounting records"
+    },
+    {
+      "id": "3.4b",
+      "title": "Sales and purchases ledger control accounts",
+      "topic_area": "3.4 Verification of accounting records"
+    },
+    {
+      "id": "3.4c",
+      "title": "Errors that do and do not affect the trial balance",
+      "topic_area": "3.4 Verification of accounting records"
+    },
+    {
+      "id": "3.4d",
+      "title": "Correcting errors via the journal and suspense account",
+      "topic_area": "3.4 Verification of accounting records"
+    },
+    {
+      "id": "3.5a",
+      "title": "Accounting concepts I (money measurement, duality, cost, going concern, accruals)",
+      "topic_area": "3.5 Accounting concepts used in the preparation of accounting records"
+    },
+    {
+      "id": "3.5b",
+      "title": "Accounting concepts II (consistency, prudence, materiality, realisation, business entity)",
+      "topic_area": "3.5 Accounting concepts used in the preparation of accounting records"
+    },
+    {
+      "id": "3.6a",
+      "title": "Sole trader statement of profit or loss",
+      "topic_area": "3.6 Preparation of financial statements of sole traders"
+    },
+    {
+      "id": "3.6b",
+      "title": "Sole trader statement of financial position",
+      "topic_area": "3.6 Preparation of financial statements of sole traders"
+    },
+    {
+      "id": "3.7a",
+      "title": "Company statement of profit or loss",
+      "topic_area": "3.7 Limited company accounts"
+    },
+    {
+      "id": "3.7b",
+      "title": "Statement of changes in equity",
+      "topic_area": "3.7 Limited company accounts"
+    },
+    {
+      "id": "3.7c",
+      "title": "Company statement of financial position with subheadings",
+      "topic_area": "3.7 Limited company accounts"
+    },
+    {
+      "id": "3.8a",
+      "title": "Profitability ratios and ROCE",
+      "topic_area": "3.8 Analysis and evaluation of financial information"
+    },
+    {
+      "id": "3.8b",
+      "title": "Liquidity ratios; cash versus profit",
+      "topic_area": "3.8 Analysis and evaluation of financial information"
+    },
+    {
+      "id": "3.8c",
+      "title": "Efficiency ratios",
+      "topic_area": "3.8 Analysis and evaluation of financial information"
+    },
+    {
+      "id": "3.8d",
+      "title": "Limitations of financial statement and ratio analysis",
+      "topic_area": "3.8 Analysis and evaluation of financial information"
+    },
+    {
+      "id": "3.9a",
+      "title": "Purpose of budgeting",
+      "topic_area": "3.9 Budgeting"
+    },
+    {
+      "id": "3.9b",
+      "title": "Incremental vs zero-based budgeting; cash budgets",
+      "topic_area": "3.9 Budgeting"
+    },
+    {
+      "id": "3.9c",
+      "title": "Budget variances (favourable/adverse)",
+      "topic_area": "3.9 Budgeting"
+    },
+    {
+      "id": "3.10a",
+      "title": "Cost behaviour and contribution",
+      "topic_area": "3.10 Marginal costing"
+    },
+    {
+      "id": "3.10b",
+      "title": "Break-even analysis and the break-even chart",
+      "topic_area": "3.10 Marginal costing"
+    },
+    {
+      "id": "3.10c",
+      "title": "Marginal costing in decision-making",
+      "topic_area": "3.10 Marginal costing"
+    },
+    {
+      "id": "3.11a",
+      "title": "Purpose, advantages and disadvantages of standard costing",
+      "topic_area": "3.11 Standard costing and variance analysis"
+    },
+    {
+      "id": "3.11b",
+      "title": "Material price and usage variances",
+      "topic_area": "3.11 Standard costing and variance analysis"
+    },
+    {
+      "id": "3.11c",
+      "title": "Labour rate and efficiency variances; reconciliation statement",
+      "topic_area": "3.11 Standard costing and variance analysis"
+    },
+    {
+      "id": "3.12a",
+      "title": "Absorption costing and the overhead absorption rate",
+      "topic_area": "3.12 Absorption and activity based costing"
+    },
+    {
+      "id": "3.12b",
+      "title": "Activity based costing and cost drivers",
+      "topic_area": "3.12 Absorption and activity based costing"
+    },
+    {
+      "id": "3.12c",
+      "title": "Benefits/limitations of absorption, ABC and marginal costing; pricing from cost",
+      "topic_area": "3.12 Absorption and activity based costing"
+    },
+    {
+      "id": "3.13a",
+      "title": "Relevant cash flows in investment appraisal",
+      "topic_area": "3.13 Capital investment appraisal"
+    },
+    {
+      "id": "3.13b",
+      "title": "Payback period",
+      "topic_area": "3.13 Capital investment appraisal"
+    },
+    {
+      "id": "3.13c",
+      "title": "Net present value and discounting",
+      "topic_area": "3.13 Capital investment appraisal"
+    },
+    {
+      "id": "3.14a",
+      "title": "Net assets (change-in-capital) method",
+      "topic_area": "3.14 Accounting for organisations with incomplete records"
+    },
+    {
+      "id": "3.14b",
+      "title": "Reconstructing missing figures from control accounts",
+      "topic_area": "3.14 Accounting for organisations with incomplete records"
+    },
+    {
+      "id": "3.14c",
+      "title": "Benefits and limitations of incomplete records",
+      "topic_area": "3.14 Accounting for organisations with incomplete records"
+    },
+    {
+      "id": "3.15a",
+      "title": "Partnership appropriation account",
+      "topic_area": "3.15 Partnership accounts"
+    },
+    {
+      "id": "3.15b",
+      "title": "Partners' capital and current accounts",
+      "topic_area": "3.15 Partnership accounts"
+    },
+    {
+      "id": "3.15c",
+      "title": "Admission/retirement of a partner and goodwill",
+      "topic_area": "3.15 Partnership accounts"
+    },
+    {
+      "id": "3.16a",
+      "title": "Revaluation of non-current assets",
+      "topic_area": "3.16 Accounting for limited companies"
+    },
+    {
+      "id": "3.16b",
+      "title": "Rights issue of shares",
+      "topic_area": "3.16 Accounting for limited companies"
+    },
+    {
+      "id": "3.16c",
+      "title": "Bonus issue of shares",
+      "topic_area": "3.16 Accounting for limited companies"
+    },
+    {
+      "id": "3.16d",
+      "title": "Published accounts, stakeholders and the IASB framework",
+      "topic_area": "3.16 Accounting for limited companies"
+    },
+    {
+      "id": "3.17a",
+      "title": "Internal evaluation of performance",
+      "topic_area": "3.17 Interpretation, analysis and communication of accounting information"
+    },
+    {
+      "id": "3.17b",
+      "title": "External evaluation of performance",
+      "topic_area": "3.17 Interpretation, analysis and communication of accounting information"
+    },
+    {
+      "id": "3.17c",
+      "title": "Stakeholder interests and effective communication",
+      "topic_area": "3.17 Interpretation, analysis and communication of accounting information"
+    },
+    {
+      "id": "3.17d",
+      "title": "Impact of different systems of recording data",
+      "topic_area": "3.17 Interpretation, analysis and communication of accounting information"
+    },
+    {
+      "id": "3.18a",
+      "title": "Fundamental ethical principles",
+      "topic_area": "3.18 The impact of ethical considerations"
+    },
+    {
+      "id": "3.18b",
+      "title": "How ethical principles shape professional conduct",
+      "topic_area": "3.18 The impact of ethical considerations"
+    },
+    {
+      "id": "3.18c",
+      "title": "Legal and regulatory frameworks",
+      "topic_area": "3.18 The impact of ethical considerations"
+    },
+    {
+      "id": "3.18d",
+      "title": "Role of professional bodies",
+      "topic_area": "3.18 The impact of ethical considerations"
+    },
+    {
+      "id": "3.18e",
+      "title": "Appropriate action on suspected unethical/illegal acts",
+      "topic_area": "3.18 The impact of ethical considerations"
+    },
+    {
+      "id": "QS1",
+      "title": "Ratios and fractions",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS2",
+      "title": "Percentages and percentage changes",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS3",
+      "title": "Cost, revenue, profit and break-even",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS4",
+      "title": "Investment appraisal outcomes",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS5",
+      "title": "Payback and NPV, including discounting",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS6",
+      "title": "Variances",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS7",
+      "title": "Total product cost and selling price (ABC and absorption)",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS8",
+      "title": "Written, graphical and numerical information",
+      "topic_area": "Annex: quantitative skills in accounting"
+    },
+    {
+      "id": "QS9",
+      "title": "Quantitative and non-quantitative information for decisions",
+      "topic_area": "Annex: quantitative skills in accounting"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Accountant_Role_and_Business_Organisations": {
+    "covers_syllabus_refs": [
+      "7127 3.1a",
+      "7127 3.1b",
+      "7127 3.2a",
+      "7127 3.2b",
+      "7127 3.2c"
+    ],
+    "syllabus_topic": "3.1-3.3 The accountant, business organisations and double entry",
+    "covers_items": [
+      "3.1a",
+      "3.1b",
+      "3.2a",
+      "3.2b",
+      "3.2c"
+    ]
+  },
+  "S02_Double_Entry_Recording": {
+    "covers_syllabus_refs": [
+      "7127 3.3a",
+      "7127 3.3b",
+      "7127 3.3c"
+    ],
+    "syllabus_topic": "3.1-3.3 The accountant, business organisations and double entry",
+    "covers_items": [
+      "3.3a",
+      "3.3b",
+      "3.3c"
+    ]
+  },
+  "S03_Double_Entry_Adjustments": {
+    "covers_syllabus_refs": [
+      "7127 3.3d",
+      "7127 3.3e",
+      "7127 3.3f"
+    ],
+    "syllabus_topic": "3.1-3.3 The accountant, business organisations and double entry",
+    "covers_items": [
+      "3.3d",
+      "3.3e",
+      "3.3f"
+    ]
+  },
+  "S04_Verification_and_Error_Correction": {
+    "covers_syllabus_refs": [
+      "7127 3.4a",
+      "7127 3.4b",
+      "7127 3.4c",
+      "7127 3.4d"
+    ],
+    "syllabus_topic": "3.4-3.7 Verification, concepts and financial statements (Paper 1)",
+    "covers_items": [
+      "3.4a",
+      "3.4b",
+      "3.4c",
+      "3.4d"
+    ]
+  },
+  "S05_Accounting_Concepts": {
+    "covers_syllabus_refs": [
+      "7127 3.5a",
+      "7127 3.5b"
+    ],
+    "syllabus_topic": "3.4-3.7 Verification, concepts and financial statements (Paper 1)",
+    "covers_items": [
+      "3.5a",
+      "3.5b"
+    ]
+  },
+  "S06_Sole_Trader_Financial_Statements": {
+    "covers_syllabus_refs": [
+      "7127 3.6a",
+      "7127 3.6b"
+    ],
+    "syllabus_topic": "3.4-3.7 Verification, concepts and financial statements (Paper 1)",
+    "covers_items": [
+      "3.6a",
+      "3.6b"
+    ]
+  },
+  "S07_Limited_Company_Accounts": {
+    "covers_syllabus_refs": [
+      "7127 3.7a",
+      "7127 3.7b",
+      "7127 3.7c"
+    ],
+    "syllabus_topic": "3.4-3.7 Verification, concepts and financial statements (Paper 1)",
+    "covers_items": [
+      "3.7a",
+      "3.7b",
+      "3.7c"
+    ]
+  },
+  "S08a_Ratio_Analysis_Profitability_and_Liquidity": {
+    "covers_syllabus_refs": [
+      "7127 QS1",
+      "7127 3.8a",
+      "7127 QS2",
+      "7127 3.8b"
+    ],
+    "syllabus_topic": "3.8 Analysis and evaluation of financial information (both papers)",
+    "covers_items": [
+      "QS1",
+      "3.8a",
+      "QS2",
+      "3.8b"
+    ]
+  },
+  "S08b_Ratio_Analysis_Efficiency_and_Limitations": {
+    "covers_syllabus_refs": [
+      "7127 3.8c",
+      "7127 3.8d"
+    ],
+    "syllabus_topic": "3.8 Analysis and evaluation of financial information (both papers)",
+    "covers_items": [
+      "3.8c",
+      "3.8d"
+    ]
+  },
+  "S09_Budgeting": {
+    "covers_syllabus_refs": [
+      "7127 3.9a",
+      "7127 3.9b",
+      "7127 3.9c"
+    ],
+    "syllabus_topic": "3.9-3.13 Budgeting and management accounting (Paper 2)",
+    "covers_items": [
+      "3.9a",
+      "3.9b",
+      "3.9c"
+    ]
+  },
+  "S10_Marginal_Costing_and_BreakEven": {
+    "covers_syllabus_refs": [
+      "7127 3.10a",
+      "7127 QS3",
+      "7127 3.10b",
+      "7127 3.10c"
+    ],
+    "syllabus_topic": "3.9-3.13 Budgeting and management accounting (Paper 2)",
+    "covers_items": [
+      "3.10a",
+      "QS3",
+      "3.10b",
+      "3.10c"
+    ]
+  },
+  "S11_Standard_Costing_and_Variances": {
+    "covers_syllabus_refs": [
+      "7127 3.11a",
+      "7127 QS6",
+      "7127 3.11b",
+      "7127 3.11c"
+    ],
+    "syllabus_topic": "3.9-3.13 Budgeting and management accounting (Paper 2)",
+    "covers_items": [
+      "3.11a",
+      "QS6",
+      "3.11b",
+      "3.11c"
+    ]
+  },
+  "S12_Absorption_and_ABC_Costing": {
+    "covers_syllabus_refs": [
+      "7127 3.12a",
+      "7127 3.12b",
+      "7127 QS7",
+      "7127 3.12c"
+    ],
+    "syllabus_topic": "3.9-3.13 Budgeting and management accounting (Paper 2)",
+    "covers_items": [
+      "3.12a",
+      "3.12b",
+      "QS7",
+      "3.12c"
+    ]
+  },
+  "S13_Capital_Investment_Appraisal": {
+    "covers_syllabus_refs": [
+      "7127 3.13a",
+      "7127 QS4",
+      "7127 3.13b",
+      "7127 QS5",
+      "7127 3.13c"
+    ],
+    "syllabus_topic": "3.9-3.13 Budgeting and management accounting (Paper 2)",
+    "covers_items": [
+      "3.13a",
+      "QS4",
+      "3.13b",
+      "QS5",
+      "3.13c"
+    ]
+  },
+  "S14_Incomplete_Records": {
+    "covers_syllabus_refs": [
+      "7127 3.14a",
+      "7127 3.14b",
+      "7127 3.14c"
+    ],
+    "syllabus_topic": "3.14-3.16 Incomplete records, partnerships and company accounts extended (Paper 1)",
+    "covers_items": [
+      "3.14a",
+      "3.14b",
+      "3.14c"
+    ]
+  },
+  "S15_Partnership_Accounts": {
+    "covers_syllabus_refs": [
+      "7127 3.15a",
+      "7127 3.15b",
+      "7127 3.15c"
+    ],
+    "syllabus_topic": "3.14-3.16 Incomplete records, partnerships and company accounts extended (Paper 1)",
+    "covers_items": [
+      "3.15a",
+      "3.15b",
+      "3.15c"
+    ]
+  },
+  "S16_Limited_Company_Accounts_Extended": {
+    "covers_syllabus_refs": [
+      "7127 3.16a",
+      "7127 3.16b",
+      "7127 3.16c",
+      "7127 3.16d"
+    ],
+    "syllabus_topic": "3.14-3.16 Incomplete records, partnerships and company accounts extended (Paper 1)",
+    "covers_items": [
+      "3.16a",
+      "3.16b",
+      "3.16c",
+      "3.16d"
+    ]
+  },
+  "S17_Interpretation_and_Evaluation": {
+    "covers_syllabus_refs": [
+      "7127 3.17a",
+      "7127 3.17b"
+    ],
+    "syllabus_topic": "3.17 Interpretation, analysis and communication (both papers)",
+    "covers_items": [
+      "3.17a",
+      "3.17b"
+    ]
+  },
+  "S18_Communication_and_Recording_Systems": {
+    "covers_syllabus_refs": [
+      "7127 3.17c",
+      "7127 3.17d"
+    ],
+    "syllabus_topic": "3.17 Interpretation, analysis and communication (both papers)",
+    "covers_items": [
+      "3.17c",
+      "3.17d"
+    ]
+  },
+  "S19_Ethics_Fundamental_Principles": {
+    "covers_syllabus_refs": [
+      "7127 3.18a",
+      "7127 3.18b"
+    ],
+    "syllabus_topic": "3.18 Ethics, and quantitative/exam skills (both papers)",
+    "covers_items": [
+      "3.18a",
+      "3.18b"
+    ]
+  },
+  "S20_Ethics_Regulatory_Frameworks_and_Action": {
+    "covers_syllabus_refs": [
+      "7127 3.18c",
+      "7127 3.18d",
+      "7127 3.18e"
+    ],
+    "syllabus_topic": "3.18 Ethics, and quantitative/exam skills (both papers)",
+    "covers_items": [
+      "3.18c",
+      "3.18d",
+      "3.18e"
+    ]
+  },
+  "S21_Quantitative_and_Exam_Skills": {
+    "covers_syllabus_refs": [
+      "7127 QS8",
+      "7127 QS9"
+    ],
+    "syllabus_topic": "3.18 Ethics, and quantitative/exam skills (both papers)",
+    "covers_items": [
+      "QS8",
+      "QS9"
+    ]
+  }
+}

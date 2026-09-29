@@ -1,0 +1,229 @@
+{
+  "stage_rubrics": {
+    "S01_Operators_and_Expressions": {
+      "criteria": [
+        "1.1: Unary, binary and ternary operators; precedence and associativity",
+        "1.2: Arithmetic, relational, logical, bitwise and assignment operators",
+        "1.3: The conditional operator ?:"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 1.1, 1.2, 1.3 (Block 1: Types and Operators (9 items, 24.5%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S02_Types_Literals_Conversions_Modifiers": {
+      "criteria": [
+        "1.4: Predefined types, their ranges and representations",
+        "1.5: Literals: decimal, octal, hexadecimal, binary, floating-point, char and bool",
+        "1.8: Type conversion, casting, promotion and sizeof",
+        "1.9: Declaration modifiers: signed, unsigned, static and const"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 1.4, 1.5, 1.8, 1.9 (Block 1: Types and Operators (9 items, 24.5%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S03_Strings_and_Aggregates": {
+      "criteria": [
+        "1.6: std::string objects, escape sequences and string operations",
+        "1.7: Aggregates: vectors, arrays, structures, unions and enums"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 1.6, 1.7 (Block 1: Types and Operators (9 items, 24.5%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S04_Control_Flow": {
+      "criteria": [
+        "2.1: Conditional statements and loops: if, else, while, do, for",
+        "2.2: break, continue and goto",
+        "2.3: switch, case and default",
+        "2.4: return statements"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 2.1, 2.2, 2.3, 2.4 (Block 2: Control and Exceptions (8 items, 18%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S05_Exceptions": {
+      "criteria": [
+        "2.5: Exception handling: try, catch, throw and catch-all",
+        "2.6: Exception hierarchies and the throw() specifier"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 2.5, 2.6 (Block 2: Control and Exceptions (8 items, 18%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S06_Functions_Overloading_and_Parameters": {
+      "criteria": [
+        "3.1: Defining, declaring and invoking functions",
+        "3.2: Typed and void functions with return",
+        "3.3: Overloading functions and default parameters",
+        "3.4: Passing arguments by value, reference and pointer",
+        "3.5: Recursion",
+        "3.6: main() conventions"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 3.1, 3.2, 3.3, 3.4, 3.5, 3.6 (Block 3: Functions and Preprocessor Directives (9 items, 17.5%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S07_Preprocessor_Directives": {
+      "criteria": [
+        "3.7: Conditional compilation: #if, #ifdef, #else, #endif",
+        "3.8: Parameterised and non-parameterised macros"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 3.7, 3.8 (Block 3: Functions and Preprocessor Directives (9 items, 17.5%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S08_Pointers_and_Dynamic_Memory": {
+      "criteria": [
+        "4.1: Pointers to variables, objects, functions and aggregates",
+        "4.2: Dereferencing and the address-of operator",
+        "4.3: Pointer arithmetic and comparisons",
+        "4.4: Dynamic memory with new, delete and delete[]; avoiding leaks"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 4.1, 4.2, 4.3, 4.4 (Block 4: Pointers (4 items, 11%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S09_OOP_Principles_and_Class_Definitions": {
+      "criteria": [
+        "5.1: OOP principles: inheritance, encapsulation, polymorphism, abstraction",
+        "5.2: Defining classes; access specifiers; the :: operator and this"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 5.1, 5.2 (Block 5: Classes and Namespaces (10 items, 29%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S10_Constructors_and_Destructors": {
+      "criteria": [
+        "5.3: Constructors and destructors: default, copy and explicit"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 5.3 (Block 5: Classes and Namespaces (10 items, 29%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S11_Overloading_Members_and_Operators": {
+      "criteria": [
+        "5.4: Overloading member functions and operators"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 5.4 (Block 5: Classes and Namespaces (10 items, 29%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S12_Inheritance_Casting_and_Polymorphism": {
+      "criteria": [
+        "5.5: Single and multiple inheritance; managing visibility",
+        "5.6: Class type compatibility and casting with static_cast and dynamic_cast",
+        "5.7: Overriding; virtual and polymorphic functions; const members"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 5.5, 5.6, 5.7 (Block 5: Classes and Namespaces (10 items, 29%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    },
+    "S13_Friends_and_Namespaces": {
+      "criteria": [
+        "5.8: Friend classes and functions",
+        "5.9: Namespaces: anonymous, named, aliases and scope resolution"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPA-21-02: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+        "reference": "CPA-21-02 objectives 5.8, 5.9 (Block 5: Classes and Namespaces (10 items, 29%))",
+        "urls": [
+          "https://cppinstitute.org/cpa"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 40-item mixed exam in CPA's own proportions: 9, 8, 9, 4 and 10 items from Blocks 1 to 5",
+      "Single-choice, multiple-choice and code-output items, as in the real exam",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 70% overall (28 of 40 items fully correct), the published CPA pass mark. Also report the score per block.",
+    "source": {
+      "issuing_body": "C++ Institute (OpenEDG)",
+      "document": "C++ Institute, CPA - C++ Certified Associate Programmer, exam CPA-21-02 (active; CPA-21-01 retired): exam syllabus on the certification page",
+      "reference": "CPA-21-02 exam format: 40 items, 65 minutes, five blocks, pass mark 70%",
+      "urls": [
+        "https://cppinstitute.org/cpa"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://cppinstitute.org/cpa"
+  ],
+  "source_notes": "The C++ Institute publishes blocks, topics, weights, format and the pass mark, but no past papers. Stage tests are original; output answer keys come from compiling and running the code."
+}

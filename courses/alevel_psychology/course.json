@@ -1,0 +1,107 @@
+{
+  "schema_version": 4,
+  "name": "A-level Psychology (AQA 7182): Introductory Topics, Psychology in Context, and Relationships/Schizophrenia/Aggression",
+  "requires_complete": [
+    "gcse_psychology"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "paper3_option_group_1": "Relationships",
+    "paper3_option_group_2": "Schizophrenia",
+    "paper3_option_group_3": "Aggression"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA A-level Psychology (7182) specification, the current specification (first teaching from September 2015), linked from aqa.org.uk/subjects/psychology/a-level/psychology-7182 and itemised on 2026-09-27: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods, at least 25% of overall assessment and including a minimum 10% mathematical-skills requirement); and 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, compulsory, plus one option from each of three groups -- this course selects Relationships from Group 1, Schizophrenia from Group 2, and Aggression from Group 3; the other six options -- Gender, Cognition and Development, Eating Behaviour, Stress, Forensic Psychology, Addiction -- are declared out of scope). Assessment: three written papers, each 2 hours, 96 marks, 33.3% of the qualification (288 marks total). Paper 1 'Introductory Topics in Psychology': four 24-mark sections (Social Influence, Memory, Attachment, Psychopathology). Paper 2 'Psychology in Context': Section A Approaches (24 marks), Section B Biopsychology (24 marks), Section C Research Methods (48 marks). Paper 3 'Issues and Options in Psychology': Section A Issues and Debates (24 marks, compulsory), then 24 marks each on the selected option from each of the three option groups (Relationships, Schizophrenia, Aggression). Stage tests and the mock are original questions in AQA's style at the real question tariffs (1-16 marks), marked against AQA's own mark-scheme conventions -- short-answer items award marks per valid point (using M/A/B tags), calculation items require method shown, and extended-writing items are marked holistically by AQA's levels-of-response descriptors.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for AQA 7182",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "options",
+      "text": "AQA 7182 requires one option from each of three groups for Paper 3: Group 1 (Relationships, Gender, Cognition and Development), Group 2 (Schizophrenia, Eating Behaviour, Stress), Group 3 (Aggression, Forensic Psychology, Addiction). This course teaches Relationships, Schizophrenia and Aggression -- a common, well-resourced combination. If your school or exam entry uses different options, the Paper 3 Sections B/C/D content here will not match what you sit; check your own exam board entry before relying on this course for Paper 3."
+    },
+    {
+      "id": "gcse_overlap",
+      "text": "This course requires GCSE Psychology (AQA 8182) as a prerequisite and assumes that foundation. Where the specifications overlap (e.g. memory, research methods basics, social influence), this course does not simply repeat the GCSE content -- it teaches the substantially deeper A-level treatment (e.g. the working memory model beyond the multi-store model, the full range of attachment research, inferential statistics beyond descriptive statistics, and additional named studies not on the GCSE specification). Revisit the GCSE course's content directly if a foundational term or study needs refreshing."
+    },
+    {
+      "id": "current_diagnostic_criteria",
+      "text": "This course's Psychopathology and Schizophrenia content describes symptoms and classification using DSM-5 and ICD-11, the current diagnostic manuals as of when this course was built. These manuals are periodically revised (DSM and ICD have each been revised several times historically); check the current edition and any criteria changes via a reliable source (e.g. psychiatry.org for DSM, who.int/classifications/icd for ICD) before relying on this course's exact wording of diagnostic criteria for a real exam."
+    },
+    {
+      "id": "sensitive_content",
+      "text": "This course covers mental health conditions (depression, OCD, schizophrenia, addiction) and relationship/family topics in clinical, academic detail, including diagnostic criteria and treatments. This is taught as academic psychological content, not personal advice; a learner who raises their own or someone else's mental health should be encouraged to speak to a trusted adult, their GP, or a service such as Childline, Samaritans or Mind, alongside continuing the academic content."
+    },
+    {
+      "id": "practical_and_mock_scope",
+      "text": "AQA's Paper 1 and Paper 2 also draw on the required 'practical research' the specification expects students to carry out (e.g. designing and running a small-scale study), assessed indirectly through Research Methods questions about a described study rather than through separate coursework. This course teaches Research Methods (RM1-RM11) to the depth needed to answer such questions about a given scenario, but does not itself run supervised practical investigations -- a declared scope limit, since AQA Psychology (unlike some sciences) has no separate practical endorsement or NEA component to be out of scope of."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Conformity_Types_and_Explanations",
+    "S02_Conformity_Variables_and_Social_Roles",
+    "S03_Explanations_for_Obedience",
+    "S04_Dispositional_Explanation_and_Resistance",
+    "S05_Minority_Influence_and_Social_Change",
+    "S06_Multi_Store_and_Working_Memory_Models",
+    "S07_Explanations_for_Forgetting",
+    "S08_Eyewitness_Testimony",
+    "S09_Improving_EWT_Cognitive_Interview",
+    "S10_Caregiver_Infant_Interactions_and_Schaffers_Stages",
+    "S11_Animal_Studies_of_Attachment",
+    "S12_Explanations_of_Attachment",
+    "S13_Strange_Situation_Cultural_Variations_and_Disruption",
+    "S14_Definitions_of_Abnormality",
+    "S15_Phobias",
+    "S16_Depression",
+    "S17_OCD",
+    "S18_Origins_and_Behaviourist_Approach",
+    "S19_Social_Learning_Theory",
+    "S20_Cognitive_Approach",
+    "S21_Biological_Approach",
+    "S22_Psychodynamic_Approach",
+    "S23_Humanistic_Approach_and_Comparison",
+    "S24_Nervous_System",
+    "S25_Neurons_and_Synaptic_Transmission",
+    "S26_Endocrine_System_and_Fight_or_Flight",
+    "S27_Localisation_of_Function",
+    "S28_Plasticity_and_Functional_Recovery",
+    "S29_Ways_of_Studying_the_Brain",
+    "S30_Biological_Rhythms",
+    "S31_Experimental_Methods_and_Design",
+    "S32_Other_Research_Methods",
+    "S33_Correlations_Aims_and_Hypotheses",
+    "S34_Sampling_Methods",
+    "S35_Variables_Control_and_Demand_Characteristics",
+    "S36_Ethics_in_Research",
+    "S37_Reliability_and_Validity",
+    "S38_Features_of_Science",
+    "S39_Descriptive_Statistics_and_Data_Handling",
+    "S40_Inferential_Testing",
+    "S41_Gender_Culture_Free_Will_and_Determinism",
+    "S42_Nature_Nurture_Holism_and_Reductionism",
+    "S43_Idiographic_Nomothetic_and_Ethical_Implications",
+    "S44_Evolutionary_Explanations_and_Attraction",
+    "S45_Theories_of_Romantic_Relationships",
+    "S46_Relationship_Breakdown_Virtual_and_Parasocial",
+    "S47_Classification_and_Diagnosis_of_Schizophrenia",
+    "S48_Biological_and_Psychological_Explanations_of_Schizophrenia",
+    "S49_Treating_Schizophrenia",
+    "S50_Neural_Hormonal_and_Evolutionary_Explanations_of_Aggression",
+    "S51_Social_Psychological_Explanations_of_Aggression",
+    "S52_Institutional_Aggression_and_Media_Influences"
+  ]
+}

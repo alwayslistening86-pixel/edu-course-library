@@ -1,0 +1,288 @@
+{
+  "stage_rubrics": {
+    "S01_Complex_Numbers_Algebra_and_Series": {
+      "criteria": [
+        "1a: Complex numbers: Cartesian and polar (modulus-argument) form, arithmetic and the Argand diagram",
+        "1b: De Moivre's theorem; nth roots of a complex number",
+        "1c: The complex exponential e^{i theta} and Euler's formula; e^{i pi} + 1 = 0",
+        "1d: The Fundamental Theorem of Algebra; factorising real polynomials over C using conjugate root pairs",
+        "1e: Sequences and series: convergence, the ratio test, Taylor/Maclaurin series of standard functions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 1a, 1b, 1c, 1d, 1e (1 Complex Numbers, Algebra and Series (MST125))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S02_Multivariable_Calculus": {
+      "criteria": [
+        "2a: Partial derivatives, the gradient vector and directional derivatives",
+        "2b: Stationary points of functions of two variables; classification via the Hessian/second-derivative test",
+        "2c: The multivariable chain rule and implicit differentiation",
+        "2d: Lagrange multipliers for constrained optimisation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 2a, 2b, 2c, 2d (2 Multivariable Calculus (MST125))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S03_Probability_and_Statistical_Inference": {
+      "criteria": [
+        "3a: Discrete and continuous random variables; expectation and variance",
+        "3b: The binomial, Poisson and normal distributions as models; the Central Limit Theorem",
+        "3c: Point estimation, confidence intervals and the sampling distribution of the mean",
+        "3d: Hypothesis testing: null/alternative hypotheses, significance level, Type I/II error, p-values",
+        "3e: Simple linear regression and the least-squares line"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 3a, 3b, 3c, 3d, 3e (3 Probability and Statistical Inference (M140))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S04_Groups_and_Subgroups": {
+      "criteria": [
+        "4a: Groups: definition, axioms, examples (Z_n, symmetric groups, dihedral groups, matrix groups)",
+        "4b: Subgroups; the subgroup test; cyclic groups and generators",
+        "4c: Permutations: cycle notation, transpositions, even/odd permutations and the sign of a permutation",
+        "4d: Lagrange's theorem and its consequences (order of an element divides |G|)",
+        "4e: Cosets of a subgroup"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 4a, 4b, 4c, 4d, 4e (4 Group Theory I: Groups and Subgroups (M208))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S05_Homomorphisms_and_Quotient_Groups": {
+      "criteria": [
+        "5a: Group homomorphisms and isomorphisms; kernel and image",
+        "5b: Normal subgroups",
+        "5c: Quotient groups",
+        "5d: The First Isomorphism Theorem"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 5a, 5b, 5c, 5d (5 Group Theory II: Homomorphisms and Quotient Groups (M208))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S06_Vector_Spaces_and_Linear_Maps": {
+      "criteria": [
+        "6a: Vector spaces over R: axioms, subspaces, examples (R^n, polynomials, matrices, function spaces)",
+        "6b: Linear independence, spanning sets, basis and dimension",
+        "6c: Linear transformations; matrix representation with respect to a basis",
+        "6d: Kernel and image of a linear map; the Rank-Nullity Theorem",
+        "6e: Change of basis"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 6a, 6b, 6c, 6d, 6e (6 Linear Algebra I: Vector Spaces and Linear Maps (M208))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S07_Eigenvalues_Diagonalisation_and_Inner_Product_Spaces": {
+      "criteria": [
+        "7a: Eigenvalues and eigenvectors; the characteristic polynomial",
+        "7b: Diagonalisation of a matrix; when diagonalisation is possible",
+        "7c: Inner product spaces; the Euclidean/standard inner product; orthogonality and orthonormal bases",
+        "7d: Symmetric matrices, orthogonal diagonalisation and the spectral theorem"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 7a, 7b, 7c, 7d (7 Linear Algebra II: Eigenvalues, Diagonalisation and Inner Product Spaces (M208))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S08_Sequences_and_Limits": {
+      "criteria": [
+        "8a: The formal (epsilon-N) definition of the limit of a sequence",
+        "8b: Algebra of limits; the Sandwich (Squeeze) Theorem",
+        "8c: Monotone convergence; bounded monotonic sequences converge",
+        "8d: Cauchy sequences and completeness of R"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 8a, 8b, 8c, 8d (8 Real Analysis I: Sequences and Limits (M208))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S09_Continuity_Differentiation_and_Integration": {
+      "criteria": [
+        "9a: The formal (epsilon-delta) definition of continuity; the Intermediate Value Theorem",
+        "9b: Differentiability from first principles; Rolle's Theorem and the Mean Value Theorem",
+        "9c: The Riemann integral: definition via upper/lower sums; integrability of continuous functions",
+        "9d: The Fundamental Theorem of Calculus, proved rigorously",
+        "9e: Series of functions: pointwise vs uniform convergence; term-by-term integration/differentiation (informal treatment)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 9a, 9b, 9c, 9d, 9e (9 Real Analysis II: Continuity, Differentiation and Integration (M208))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S10_Ordinary_Differential_Equations": {
+      "criteria": [
+        "10a: First-order ODEs: separable equations and integrating factors for linear equations",
+        "10b: Second-order linear ODEs with constant coefficients: complementary function and particular integral",
+        "10c: Systems of first-order linear ODEs; solution via eigenvalues/eigenvectors of the coefficient matrix",
+        "10d: Phase-plane classification of equilibria for 2x2 linear systems (node, saddle, spiral, centre)",
+        "10e: Modelling with ODEs: exponential growth/decay, damped harmonic motion, predator-prey"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 10a, 10b, 10c, 10d, 10e (10 Ordinary Differential Equations (MST224))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S11_Vector_Calculus": {
+      "criteria": [
+        "11a: Scalar and vector fields; grad, div and curl",
+        "11b: Line integrals of scalar and vector fields; work done by a force field",
+        "11c: Surface integrals and flux; the Divergence Theorem",
+        "11d: Green's Theorem and Stokes' Theorem"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 11a, 11b, 11c, 11d (11 Vector Calculus (MST224))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S12_Rings_and_Fields": {
+      "criteria": [
+        "12a: Rings: definition, axioms, examples (Z, Z_n, polynomial rings, matrix rings)",
+        "12b: Integral domains and fields; zero divisors; units",
+        "12c: Ideals and quotient rings",
+        "12d: Ring homomorphisms and the First Isomorphism Theorem for rings",
+        "12e: Unique factorisation in Z and in polynomial rings; irreducibility"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 12a, 12b, 12c, 12d, 12e (12 Rings and Fields (M303))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S13_Metric_Spaces_and_Topology": {
+      "criteria": [
+        "13a: Metric spaces: definition, examples (Euclidean, discrete, sup-norm on C[a,b]) and metrics induced by a norm",
+        "13b: Open and closed sets; interior, closure and boundary in a metric space",
+        "13c: Convergence and continuity in a general metric space; equivalence with sequential continuity",
+        "13d: Compactness and completeness in a metric space; a continuous image of a compact set is compact"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 13a, 13b, 13c, 13d (13 Metric Spaces and Topology (M303))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S14_Complex_Analysis": {
+      "criteria": [
+        "14a: Complex differentiability and the Cauchy-Riemann equations; holomorphic functions",
+        "14b: Power series and elementary functions (exp, sin, cos, log branches) as complex functions",
+        "14c: Contour integration; Cauchy's Theorem and Cauchy's Integral Formula",
+        "14d: Taylor and Laurent series; classification of singularities (removable, pole, essential)",
+        "14e: The Residue Theorem and its use in evaluating real integrals"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 14a, 14b, 14c, 14d, 14e (14 Complex Analysis (M337))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    },
+    "S15_Mathematical_Statistics": {
+      "criteria": [
+        "15a: Likelihood and maximum likelihood estimation",
+        "15b: Properties of estimators: bias, consistency, efficiency; the Cramer-Rao bound (statement only)",
+        "15c: Confidence intervals via the likelihood/normal approximation and via pivotal quantities",
+        "15d: The general linear model; least squares as maximum likelihood under normal errors",
+        "15e: Chi-squared tests: goodness of fit and tests of independence in contingency tables"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure honours-level work; the OU does not publish a single fixed pass mark across all of its modules' varied assessment schemes, so no one official figure exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+        "reference": "Q31 objectives 15a, 15b, 15c, 15d, 15e (15 Mathematical Statistics (M347))",
+        "urls": [
+          "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A cumulative paper spanning every stage: algebra/analysis foundations (S01-S03), abstract/linear algebra (S04-S07), real analysis (S08-S09), differential equations and vector calculus (S10-S11), and the Stage-3 strands (S12-S15: rings/fields, metric spaces, complex analysis, mathematical statistics)",
+      "A mix of full rigorous proofs, structured calculation questions and multiple-select conceptual items, at the standard of Level 6 (OU Stage 3) honours mathematics",
+      "Method and reasoning shown throughout; a proof with a gap in its logic does not earn the marks for that step"
+    ],
+    "pass_threshold": "At least 60% of the total marks overall and at least 50% on each of the two sections (the course's own standard). Report the percentage per section.",
+    "source": {
+      "issuing_body": "The Open University",
+      "document": "The Open University BSc (Hons) Mathematics, qualification Q31, module list and stage structure (module pages at open.ac.uk/courses/modules/<code> and the OU Mathematics and Statistics prospectus), cross-checked against the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08)",
+      "reference": "This course's own cumulative-exam standard, modelled on how an OU honours mathematics module's End-of-Module Assessment combines calculation and proof",
+      "urls": [
+        "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.open.ac.uk/courses/maths/degrees/bsc-mathematics-q31"
+  ],
+  "source_notes": "The OU publishes Q31's module list, credits and stage structure, and each module's own overview page (open.ac.uk/courses/modules/<code>). Detailed unit-by-unit module content sits behind the OU's VLE and was not accessible, so every lesson, worked example, practice item, test question and mark scheme below is original, written from the standard undergraduate topic breakdown for that area of mathematics and checked with sympy/scipy when the course was built; none reproduces an OU question, TMA or exam paper."
+}

@@ -1,0 +1,1584 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "OCR A Level Mathematics A (H240) specification, section 2f Detailed Content (OCR reference codes 1.01a-3.04c)",
+    "url": "https://www.ocr.org.uk/images/308723-specification-accredited-a-level-gce-mathematics-a-h240.pdf",
+    "version": "Version 3.1 (August 2026), downloaded from ocr.org.uk and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "The specification's own OCR reference codes (1.01a-3.04c), one item per code; 193 codes in all."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.01a",
+      "title": "Structure of mathematical proof: from assumptions through logical steps to a conclusion (proof by deduction and by exhaustion)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.01b",
+      "title": "Logical connectives: implies, is implied by, if and only if; language of necessary and sufficient",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.01c",
+      "title": "Disproof by counter-example",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.01d",
+      "title": "Proof by contradiction (including irrationality of root 2 and infinitely many primes)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02a",
+      "title": "Laws of indices for all rational exponents",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02b",
+      "title": "Surds, including rationalising the denominator",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02c",
+      "title": "Simultaneous equations in two variables, including one linear and one quadratic",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02d",
+      "title": "Quadratic functions, their graphs and the discriminant (conditions for real and repeated roots)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02e",
+      "title": "Completing the square",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02f",
+      "title": "Solving quadratic equations, including quadratics in a function of the unknown",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02g",
+      "title": "Linear and quadratic inequalities in one variable, interpreted graphically",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02h",
+      "title": "Expressing solutions using 'and', 'or' and set notation",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02i",
+      "title": "Representing linear and quadratic inequalities in two variables graphically",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02j",
+      "title": "Manipulating polynomials: expanding, factorising, algebraic division and the factor theorem",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02k",
+      "title": "Simplifying rational expressions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02l",
+      "title": "The modulus function and its properties",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02m",
+      "title": "Using graphs of functions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02n",
+      "title": "Sketching curves defined by simple equations, including polynomials",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02o",
+      "title": "Sketching y = a/x and y = a/x^2, including asymptotes",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02p",
+      "title": "Interpreting the algebraic solution of equations graphically",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02q",
+      "title": "Using intersection points of graphs to solve equations",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02r",
+      "title": "Proportional relationships and their graphs",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02s",
+      "title": "Sketching the graph of the modulus of a linear function",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02t",
+      "title": "Solving equations and inequalities involving the modulus function graphically",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02u",
+      "title": "The definition of a function: domain and range, one-one and many-one",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02v",
+      "title": "Inverse functions and their graphs; composite functions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02w",
+      "title": "Effect of single transformations on y = f(x): translations, stretches and reflections",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02x",
+      "title": "Combinations of transformations on y = f(x)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02y",
+      "title": "Partial fractions (denominators up to a squared linear term, at most three terms)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.02z",
+      "title": "Using functions in modelling, including limitations and refinements",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03a",
+      "title": "Equation of a straight line in the forms y = mx + c, y - y1 = m(x - x1) and ax + by + c = 0",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03b",
+      "title": "Gradient conditions for parallel and perpendicular lines",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03c",
+      "title": "Straight-line models in context",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03d",
+      "title": "Coordinate geometry of a circle: (x - a)^2 + (y - b)^2 = r^2",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03e",
+      "title": "Completing the square to find a circle's centre and radius",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03f",
+      "title": "Circle properties in coordinate geometry: angle in a semicircle, perpendicular bisector of a chord, tangent perpendicular to radius",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03g",
+      "title": "Parametric equations: converting between cartesian and parametric forms",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.03h",
+      "title": "Parametric equations in modelling",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04a",
+      "title": "Binomial expansion of (a + bx)^n for positive integer n; n!, nCr notation",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04b",
+      "title": "Link between binomial coefficients and binomial probabilities",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04c",
+      "title": "Binomial expansion of (a + bx)^n for any rational n, including approximations",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04d",
+      "title": "Validity of the expansion: |bx/a| < 1",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04e",
+      "title": "Sequences given by an nth-term formula or a recurrence relation",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04f",
+      "title": "Increasing, decreasing and periodic sequences",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04g",
+      "title": "Sigma notation",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04h",
+      "title": "Arithmetic sequences and series: nth term and sum to n terms",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04i",
+      "title": "Geometric sequences and series: nth term and sum of a finite series",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04j",
+      "title": "Sum to infinity of a convergent geometric series, |r| < 1",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.04k",
+      "title": "Sequences and series in modelling",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05a",
+      "title": "Definitions of sine, cosine and tangent for all arguments",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05b",
+      "title": "The sine and cosine rules",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05c",
+      "title": "Area of a triangle: (1/2)ab sin C",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05d",
+      "title": "Radian measure, arc length and sector area",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05e",
+      "title": "Small-angle approximations for sin, cos and tan",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05f",
+      "title": "Graphs, symmetries and periodicity of sin, cos and tan",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05g",
+      "title": "Exact values of sin, cos and tan for 0, pi/6, pi/4, pi/3, pi/2 and multiples",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05h",
+      "title": "Secant, cosecant and cotangent; arcsin, arccos and arctan",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05i",
+      "title": "Graphs, domains and ranges of sec, cosec, cot and the inverse trig functions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05j",
+      "title": "Identities tan x = sin x / cos x and sin^2 x + cos^2 x = 1",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05k",
+      "title": "Identities sec^2 x = 1 + tan^2 x and cosec^2 x = 1 + cot^2 x",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05l",
+      "title": "Double-angle formulae and the compound-angle formulae for sin, cos and tan of (A +/- B)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05m",
+      "title": "Geometrical proofs of the compound-angle formulae",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05n",
+      "title": "Expressing a cos x + b sin x as R cos(x +/- alpha) or R sin(x +/- alpha)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05o",
+      "title": "Solving trigonometric equations in a given interval, including quadratics and multiple angles",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05p",
+      "title": "Proofs involving trigonometric functions and identities",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.05q",
+      "title": "Trigonometric functions in context (vectors, kinematics and forces)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06a",
+      "title": "The function a^x and its graph (a > 0)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06b",
+      "title": "The gradient of e^(kx) is k e^(kx); why exponential models are widely used",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06c",
+      "title": "log_a x as the inverse of a^x",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06d",
+      "title": "The function ln x and its graph",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06e",
+      "title": "ln x as the inverse of e^x",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06f",
+      "title": "Laws of logarithms",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06g",
+      "title": "Solving equations of the form a^x = b",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06h",
+      "title": "Logarithmic graphs to estimate parameters in y = ax^n and y = kb^x",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.06i",
+      "title": "Exponential growth and decay in modelling, including limitations",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07a",
+      "title": "The derivative as the gradient of the tangent at a general point",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07b",
+      "title": "The gradient of the tangent as a limit; the derivative as a rate of change",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07c",
+      "title": "Sketching the gradient function of a given curve",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07d",
+      "title": "Second derivatives",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07e",
+      "title": "The second derivative as the rate of change of gradient",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07f",
+      "title": "Second derivative, convex and concave sections, and points of inflection",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07g",
+      "title": "Differentiation from first principles for small positive integer powers of x",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07h",
+      "title": "Differentiation from first principles for sin x and cos x",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07i",
+      "title": "Differentiating x^n for rational n, with constant multiples, sums and differences",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07j",
+      "title": "Differentiating e^(kx) and a^(kx)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07k",
+      "title": "Differentiating sin kx, cos kx and tan kx",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07l",
+      "title": "The derivative of ln x",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07m",
+      "title": "Gradients, tangents and normals",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07n",
+      "title": "Finding and classifying stationary points as maxima or minima",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07o",
+      "title": "Increasing and decreasing functions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07p",
+      "title": "Finding points of inflection",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07q",
+      "title": "The product and quotient rules",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07r",
+      "title": "The chain rule, including connected rates of change and inverse functions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07s",
+      "title": "Implicit and parametric differentiation (first derivative)",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.07t",
+      "title": "Constructing simple differential equations in pure mathematics and in context",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08a",
+      "title": "The fundamental theorem of calculus",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08b",
+      "title": "Integrating x^n (n not -1), with sums, differences and constant multiples",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08c",
+      "title": "Integrating e^(kx), 1/x, sin kx and cos kx",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08d",
+      "title": "Evaluating definite integrals",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08e",
+      "title": "Area between a curve and the x-axis",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08f",
+      "title": "Area between two curves",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08g",
+      "title": "Integration as the limit of a sum",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08h",
+      "title": "Integration by substitution",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08i",
+      "title": "Integration by parts",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08j",
+      "title": "Integrating using partial fractions with linear denominators",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08k",
+      "title": "First-order differential equations with separable variables: general and particular solutions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.08l",
+      "title": "Interpreting the solution of a differential equation in context, including limitations",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.09a",
+      "title": "Locating roots by change of sign",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.09b",
+      "title": "How change-of-sign methods can fail",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.09c",
+      "title": "Iteration x(n+1) = g(x(n)); cobweb and staircase diagrams",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.09d",
+      "title": "The Newton-Raphson method",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.09e",
+      "title": "How iterative methods can fail",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.09f",
+      "title": "Numerical integration: the trapezium rule, over- and under-estimates",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.09g",
+      "title": "Using numerical methods to solve problems in context",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10a",
+      "title": "Vectors in two dimensions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10b",
+      "title": "Vectors in three dimensions",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10c",
+      "title": "Magnitude and direction of a vector; converting between component and magnitude-direction form",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10d",
+      "title": "Adding vectors and multiplying by scalars, with geometrical interpretations",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10e",
+      "title": "Position vectors",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10f",
+      "title": "Distance between two points from position vectors",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10g",
+      "title": "Vectors to solve problems in pure mathematics and in context, including forces",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "1.10h",
+      "title": "Vectors to solve problems in kinematics",
+      "topic_area": "1 Pure Mathematics"
+    },
+    {
+      "id": "2.01a",
+      "title": "Population and sample",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.01b",
+      "title": "Using samples to make informal inferences about the population",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.01c",
+      "title": "Sampling techniques: simple random, stratified, systematic, quota, cluster and opportunity",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.01d",
+      "title": "Selecting and critiquing sampling techniques; different samples lead to different conclusions",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02a",
+      "title": "Interpreting tables and diagrams for single-variable data",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02b",
+      "title": "Histograms: area represents frequency",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02c",
+      "title": "Scatter diagrams and regression lines for bivariate data, including distinct sections",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02d",
+      "title": "Informal interpretation of correlation",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02e",
+      "title": "Correlation does not imply causation",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02f",
+      "title": "Measures of central tendency and variation: mean, median, mode, percentiles, quartiles, IQR, standard deviation and variance",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02g",
+      "title": "Mean and standard deviation from raw data, summary statistics or a frequency distribution",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02h",
+      "title": "Recognising and interpreting possible outliers",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02i",
+      "title": "Selecting or critiquing data presentation techniques",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.02j",
+      "title": "Cleaning data: missing data, errors and outliers",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.03a",
+      "title": "Mutually exclusive and independent events",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.03b",
+      "title": "Diagrams to calculate probabilities",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.03c",
+      "title": "Conditional probability using tree diagrams, Venn diagrams and two-way tables",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.03d",
+      "title": "Conditional probability from first principles: P(A|B) = P(A and B)/P(B)",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.03e",
+      "title": "Modelling with probability and critiquing assumptions",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04a",
+      "title": "Simple finite discrete probability distributions given by a table or formula",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04b",
+      "title": "The binomial distribution as a model",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04c",
+      "title": "Calculating binomial probabilities",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04d",
+      "title": "Using np and npq to choose a normal approximation to a binomial",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04e",
+      "title": "The normal distribution as a model",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04f",
+      "title": "Finding normal probabilities and inverse normal values",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04g",
+      "title": "Links between the normal distribution, histograms, mean and standard deviation",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.04h",
+      "title": "Selecting an appropriate distribution for a context (binomial or normal)",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.05a",
+      "title": "Language of hypothesis testing: hypotheses, significance level, test statistic, critical value and region, acceptance region, p-value",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.05b",
+      "title": "Hypothesis test for a binomial proportion, interpreted in context",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.05c",
+      "title": "Inference from a sample; the significance level as the probability of wrongly rejecting H0",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.05d",
+      "title": "The sample mean as a random variable: X-bar ~ N(mu, sigma^2/n)",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.05e",
+      "title": "Hypothesis test for the mean of a normal distribution with known variance",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.05f",
+      "title": "Pearson's product-moment correlation coefficient as a measure of linear fit",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "2.05g",
+      "title": "Hypothesis test for zero correlation using the PMCC (critical value or p-value)",
+      "topic_area": "2 Statistics"
+    },
+    {
+      "id": "3.01a",
+      "title": "Fundamental SI quantities and units: length (m), time (s), mass (kg)",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.01b",
+      "title": "Derived quantities and units: velocity, acceleration, force, weight",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.01c",
+      "title": "The unit of moment (N m)",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02a",
+      "title": "Language of kinematics: position, displacement, distance, velocity, speed, acceleration",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02b",
+      "title": "Graphs in kinematics for straight-line motion",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02c",
+      "title": "Gradient and area of displacement-time and velocity-time graphs",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02d",
+      "title": "The constant-acceleration (suvat) formulae for straight-line motion, including derivation",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02e",
+      "title": "Constant-acceleration formulae in two dimensions using vectors",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02f",
+      "title": "Calculus in kinematics for straight-line motion",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02g",
+      "title": "Calculus in kinematics in two dimensions using vectors",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02h",
+      "title": "Motion under gravity in a vertical plane using vectors",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.02i",
+      "title": "Projectiles: modelling with constant acceleration and the model's limitations",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03a",
+      "title": "Force and its vector nature",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03b",
+      "title": "Newton's first law",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03c",
+      "title": "Newton's second law F = ma in a straight line",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03d",
+      "title": "Newton's second law with forces given as 2D vectors",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03e",
+      "title": "Newton's second law with resolving forces in two dimensions",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03f",
+      "title": "Weight and motion in a straight line under gravity",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03g",
+      "title": "Gravitational acceleration g and its value to different accuracies",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03h",
+      "title": "Newton's third law",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03i",
+      "title": "Normal reaction force",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03j",
+      "title": "The 'smooth' model and its limitations",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03k",
+      "title": "Connected particles in a straight line; equilibrium; light inextensible strings and smooth pulleys",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03l",
+      "title": "Newton's third law where forces need resolving (two dimensions)",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03m",
+      "title": "Equilibrium: resolved parts in any direction sum to zero",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03n",
+      "title": "Equilibrium of forces on a particle in two dimensions, including connected particles",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03o",
+      "title": "Resolving forces for connected particles and smooth pulleys",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03p",
+      "title": "Resultant of two or more forces at a point",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03q",
+      "title": "Dynamics of a particle moving in a plane under forces",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03r",
+      "title": "Frictional force given in vector or component form or as a magnitude",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03s",
+      "title": "Contact force between rough surfaces as normal and frictional components",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03t",
+      "title": "The coefficient of friction; F <= mu R; limiting friction",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03u",
+      "title": "Static and limiting equilibrium on a rough surface",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.03v",
+      "title": "Motion of a body on a rough surface",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.04a",
+      "title": "Moment of a force about a point",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.04b",
+      "title": "Rigid body in equilibrium: resultant force and resultant moment are zero",
+      "topic_area": "3 Mechanics"
+    },
+    {
+      "id": "3.04c",
+      "title": "Moments in simple static contexts (beams, rods, ladders)",
+      "topic_area": "3 Mechanics"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Proof": {
+    "covers_syllabus_refs": [
+      "H240 1.01a",
+      "H240 1.01b",
+      "H240 1.01c",
+      "H240 1.01d"
+    ],
+    "syllabus_topic": "1.01 Proof",
+    "covers_items": [
+      "1.01a",
+      "1.01b",
+      "1.01c",
+      "1.01d"
+    ]
+  },
+  "S02_Indices_Surds_and_Quadratics": {
+    "covers_syllabus_refs": [
+      "H240 1.02a",
+      "H240 1.02b",
+      "H240 1.02d",
+      "H240 1.02e",
+      "H240 1.02f"
+    ],
+    "syllabus_topic": "1.02 Algebra and Functions",
+    "covers_items": [
+      "1.02a",
+      "1.02b",
+      "1.02d",
+      "1.02e",
+      "1.02f"
+    ]
+  },
+  "S03_Simultaneous_Equations_and_Inequalities": {
+    "covers_syllabus_refs": [
+      "H240 1.02c",
+      "H240 1.02g",
+      "H240 1.02h",
+      "H240 1.02i"
+    ],
+    "syllabus_topic": "1.02 Algebra and Functions",
+    "covers_items": [
+      "1.02c",
+      "1.02g",
+      "1.02h",
+      "1.02i"
+    ]
+  },
+  "S04_Polynomials_Rational_Expressions_Partial_Fractions": {
+    "covers_syllabus_refs": [
+      "H240 1.02j",
+      "H240 1.02k",
+      "H240 1.02y"
+    ],
+    "syllabus_topic": "1.02 Algebra and Functions",
+    "covers_items": [
+      "1.02j",
+      "1.02k",
+      "1.02y"
+    ]
+  },
+  "S05_Graphs_and_Curve_Sketching": {
+    "covers_syllabus_refs": [
+      "H240 1.02m",
+      "H240 1.02n",
+      "H240 1.02o",
+      "H240 1.02p",
+      "H240 1.02q",
+      "H240 1.02r"
+    ],
+    "syllabus_topic": "1.02 Algebra and Functions",
+    "covers_items": [
+      "1.02m",
+      "1.02n",
+      "1.02o",
+      "1.02p",
+      "1.02q",
+      "1.02r"
+    ]
+  },
+  "S06_Functions_Modulus_and_Transformations": {
+    "covers_syllabus_refs": [
+      "H240 1.02l",
+      "H240 1.02s",
+      "H240 1.02t",
+      "H240 1.02u",
+      "H240 1.02v",
+      "H240 1.02w",
+      "H240 1.02x",
+      "H240 1.02z"
+    ],
+    "syllabus_topic": "1.02 Algebra and Functions",
+    "covers_items": [
+      "1.02l",
+      "1.02s",
+      "1.02t",
+      "1.02u",
+      "1.02v",
+      "1.02w",
+      "1.02x",
+      "1.02z"
+    ]
+  },
+  "S07_Lines_and_Circles": {
+    "covers_syllabus_refs": [
+      "H240 1.03a",
+      "H240 1.03b",
+      "H240 1.03c",
+      "H240 1.03d",
+      "H240 1.03e",
+      "H240 1.03f"
+    ],
+    "syllabus_topic": "1.03 Coordinate Geometry in the x-y Plane",
+    "covers_items": [
+      "1.03a",
+      "1.03b",
+      "1.03c",
+      "1.03d",
+      "1.03e",
+      "1.03f"
+    ]
+  },
+  "S08_Parametric_Equations": {
+    "covers_syllabus_refs": [
+      "H240 1.03g",
+      "H240 1.03h"
+    ],
+    "syllabus_topic": "1.03 Coordinate Geometry in the x-y Plane",
+    "covers_items": [
+      "1.03g",
+      "1.03h"
+    ]
+  },
+  "S09_Binomial_Expansion": {
+    "covers_syllabus_refs": [
+      "H240 1.04a",
+      "H240 1.04b",
+      "H240 1.04c",
+      "H240 1.04d"
+    ],
+    "syllabus_topic": "1.04 Sequences and Series",
+    "covers_items": [
+      "1.04a",
+      "1.04b",
+      "1.04c",
+      "1.04d"
+    ]
+  },
+  "S10_Sequences_and_Series": {
+    "covers_syllabus_refs": [
+      "H240 1.04e",
+      "H240 1.04f",
+      "H240 1.04g",
+      "H240 1.04h",
+      "H240 1.04i",
+      "H240 1.04j",
+      "H240 1.04k"
+    ],
+    "syllabus_topic": "1.04 Sequences and Series",
+    "covers_items": [
+      "1.04e",
+      "1.04f",
+      "1.04g",
+      "1.04h",
+      "1.04i",
+      "1.04j",
+      "1.04k"
+    ]
+  },
+  "S11_Trigonometry_Foundations": {
+    "covers_syllabus_refs": [
+      "H240 1.05a",
+      "H240 1.05b",
+      "H240 1.05c",
+      "H240 1.05d",
+      "H240 1.05f",
+      "H240 1.05g"
+    ],
+    "syllabus_topic": "1.05 Trigonometry",
+    "covers_items": [
+      "1.05a",
+      "1.05b",
+      "1.05c",
+      "1.05d",
+      "1.05f",
+      "1.05g"
+    ]
+  },
+  "S12_Trig_Functions_Identities_and_Equations": {
+    "covers_syllabus_refs": [
+      "H240 1.05e",
+      "H240 1.05h",
+      "H240 1.05i",
+      "H240 1.05j",
+      "H240 1.05k",
+      "H240 1.05o"
+    ],
+    "syllabus_topic": "1.05 Trigonometry",
+    "covers_items": [
+      "1.05e",
+      "1.05h",
+      "1.05i",
+      "1.05j",
+      "1.05k",
+      "1.05o"
+    ]
+  },
+  "S13_Compound_Angles_and_Trig_Proof": {
+    "covers_syllabus_refs": [
+      "H240 1.05l",
+      "H240 1.05m",
+      "H240 1.05n",
+      "H240 1.05p",
+      "H240 1.05q"
+    ],
+    "syllabus_topic": "1.05 Trigonometry",
+    "covers_items": [
+      "1.05l",
+      "1.05m",
+      "1.05n",
+      "1.05p",
+      "1.05q"
+    ]
+  },
+  "S14_Exponentials_and_Logarithms": {
+    "covers_syllabus_refs": [
+      "H240 1.06a",
+      "H240 1.06b",
+      "H240 1.06c",
+      "H240 1.06d",
+      "H240 1.06e",
+      "H240 1.06f",
+      "H240 1.06g",
+      "H240 1.06h",
+      "H240 1.06i"
+    ],
+    "syllabus_topic": "1.06 Exponentials and Logarithms",
+    "covers_items": [
+      "1.06a",
+      "1.06b",
+      "1.06c",
+      "1.06d",
+      "1.06e",
+      "1.06f",
+      "1.06g",
+      "1.06h",
+      "1.06i"
+    ]
+  },
+  "S15_Differentiation_Basics": {
+    "covers_syllabus_refs": [
+      "H240 1.07a",
+      "H240 1.07b",
+      "H240 1.07c",
+      "H240 1.07d",
+      "H240 1.07e",
+      "H240 1.07g",
+      "H240 1.07i",
+      "H240 1.07m",
+      "H240 1.07n",
+      "H240 1.07o"
+    ],
+    "syllabus_topic": "1.07 Differentiation",
+    "covers_items": [
+      "1.07a",
+      "1.07b",
+      "1.07c",
+      "1.07d",
+      "1.07e",
+      "1.07g",
+      "1.07i",
+      "1.07m",
+      "1.07n",
+      "1.07o"
+    ]
+  },
+  "S16_Further_Differentiation": {
+    "covers_syllabus_refs": [
+      "H240 1.07f",
+      "H240 1.07h",
+      "H240 1.07j",
+      "H240 1.07k",
+      "H240 1.07l",
+      "H240 1.07p",
+      "H240 1.07q",
+      "H240 1.07r",
+      "H240 1.07s",
+      "H240 1.07t"
+    ],
+    "syllabus_topic": "1.07 Differentiation",
+    "covers_items": [
+      "1.07f",
+      "1.07h",
+      "1.07j",
+      "1.07k",
+      "1.07l",
+      "1.07p",
+      "1.07q",
+      "1.07r",
+      "1.07s",
+      "1.07t"
+    ]
+  },
+  "S17_Integration_Basics": {
+    "covers_syllabus_refs": [
+      "H240 1.08a",
+      "H240 1.08b",
+      "H240 1.08d",
+      "H240 1.08e"
+    ],
+    "syllabus_topic": "1.08 Integration",
+    "covers_items": [
+      "1.08a",
+      "1.08b",
+      "1.08d",
+      "1.08e"
+    ]
+  },
+  "S18_Further_Integration": {
+    "covers_syllabus_refs": [
+      "H240 1.08c",
+      "H240 1.08f",
+      "H240 1.08g",
+      "H240 1.08h",
+      "H240 1.08i",
+      "H240 1.08j"
+    ],
+    "syllabus_topic": "1.08 Integration",
+    "covers_items": [
+      "1.08c",
+      "1.08f",
+      "1.08g",
+      "1.08h",
+      "1.08i",
+      "1.08j"
+    ]
+  },
+  "S19_Differential_Equations": {
+    "covers_syllabus_refs": [
+      "H240 1.08k",
+      "H240 1.08l"
+    ],
+    "syllabus_topic": "1.08 Integration",
+    "covers_items": [
+      "1.08k",
+      "1.08l"
+    ]
+  },
+  "S20_Numerical_Methods": {
+    "covers_syllabus_refs": [
+      "H240 1.09a",
+      "H240 1.09b",
+      "H240 1.09c",
+      "H240 1.09d",
+      "H240 1.09e",
+      "H240 1.09f",
+      "H240 1.09g"
+    ],
+    "syllabus_topic": "1.09 Numerical Methods",
+    "covers_items": [
+      "1.09a",
+      "1.09b",
+      "1.09c",
+      "1.09d",
+      "1.09e",
+      "1.09f",
+      "1.09g"
+    ]
+  },
+  "S21_Vectors": {
+    "covers_syllabus_refs": [
+      "H240 1.10a",
+      "H240 1.10b",
+      "H240 1.10c",
+      "H240 1.10d",
+      "H240 1.10e",
+      "H240 1.10f",
+      "H240 1.10g",
+      "H240 1.10h"
+    ],
+    "syllabus_topic": "1.10 Vectors",
+    "covers_items": [
+      "1.10a",
+      "1.10b",
+      "1.10c",
+      "1.10d",
+      "1.10e",
+      "1.10f",
+      "1.10g",
+      "1.10h"
+    ]
+  },
+  "S22_Sampling_and_Data": {
+    "covers_syllabus_refs": [
+      "H240 2.01a",
+      "H240 2.01b",
+      "H240 2.01c",
+      "H240 2.01d",
+      "H240 2.02a",
+      "H240 2.02b",
+      "H240 2.02c",
+      "H240 2.02d",
+      "H240 2.02e",
+      "H240 2.02f",
+      "H240 2.02g",
+      "H240 2.02h",
+      "H240 2.02i",
+      "H240 2.02j"
+    ],
+    "syllabus_topic": "2.01 Statistical Sampling and 2.02 Data Presentation and Interpretation",
+    "covers_items": [
+      "2.01a",
+      "2.01b",
+      "2.01c",
+      "2.01d",
+      "2.02a",
+      "2.02b",
+      "2.02c",
+      "2.02d",
+      "2.02e",
+      "2.02f",
+      "2.02g",
+      "2.02h",
+      "2.02i",
+      "2.02j"
+    ]
+  },
+  "S23_Probability": {
+    "covers_syllabus_refs": [
+      "H240 2.03a",
+      "H240 2.03b",
+      "H240 2.03c",
+      "H240 2.03d",
+      "H240 2.03e"
+    ],
+    "syllabus_topic": "2.03 Probability",
+    "covers_items": [
+      "2.03a",
+      "2.03b",
+      "2.03c",
+      "2.03d",
+      "2.03e"
+    ]
+  },
+  "S24_Discrete_and_Binomial_Distributions": {
+    "covers_syllabus_refs": [
+      "H240 2.04a",
+      "H240 2.04b",
+      "H240 2.04c"
+    ],
+    "syllabus_topic": "2.04 Statistical Distributions",
+    "covers_items": [
+      "2.04a",
+      "2.04b",
+      "2.04c"
+    ]
+  },
+  "S25_Normal_Distribution": {
+    "covers_syllabus_refs": [
+      "H240 2.04d",
+      "H240 2.04e",
+      "H240 2.04f",
+      "H240 2.04g",
+      "H240 2.04h"
+    ],
+    "syllabus_topic": "2.04 Statistical Distributions",
+    "covers_items": [
+      "2.04d",
+      "2.04e",
+      "2.04f",
+      "2.04g",
+      "2.04h"
+    ]
+  },
+  "S26_Hypothesis_Testing": {
+    "covers_syllabus_refs": [
+      "H240 2.05a",
+      "H240 2.05b",
+      "H240 2.05c",
+      "H240 2.05d",
+      "H240 2.05e",
+      "H240 2.05f",
+      "H240 2.05g"
+    ],
+    "syllabus_topic": "2.05 Statistical Hypothesis Testing",
+    "covers_items": [
+      "2.05a",
+      "2.05b",
+      "2.05c",
+      "2.05d",
+      "2.05e",
+      "2.05f",
+      "2.05g"
+    ]
+  },
+  "S27_Units_and_Kinematics": {
+    "covers_syllabus_refs": [
+      "H240 3.01a",
+      "H240 3.01b",
+      "H240 3.01c",
+      "H240 3.02a",
+      "H240 3.02b",
+      "H240 3.02c",
+      "H240 3.02d",
+      "H240 3.02f"
+    ],
+    "syllabus_topic": "3.01 Quantities and Units in Mechanics and 3.02 Kinematics",
+    "covers_items": [
+      "3.01a",
+      "3.01b",
+      "3.01c",
+      "3.02a",
+      "3.02b",
+      "3.02c",
+      "3.02d",
+      "3.02f"
+    ]
+  },
+  "S28_Kinematics_in_2D_and_Projectiles": {
+    "covers_syllabus_refs": [
+      "H240 3.02e",
+      "H240 3.02g",
+      "H240 3.02h",
+      "H240 3.02i"
+    ],
+    "syllabus_topic": "3.01 Quantities and Units in Mechanics and 3.02 Kinematics",
+    "covers_items": [
+      "3.02e",
+      "3.02g",
+      "3.02h",
+      "3.02i"
+    ]
+  },
+  "S29_Forces_and_Newtons_Laws": {
+    "covers_syllabus_refs": [
+      "H240 3.03a",
+      "H240 3.03b",
+      "H240 3.03c",
+      "H240 3.03d",
+      "H240 3.03e",
+      "H240 3.03f",
+      "H240 3.03g",
+      "H240 3.03h",
+      "H240 3.03i",
+      "H240 3.03j",
+      "H240 3.03k",
+      "H240 3.03l",
+      "H240 3.03m",
+      "H240 3.03n",
+      "H240 3.03o",
+      "H240 3.03p",
+      "H240 3.03q"
+    ],
+    "syllabus_topic": "3.03 Forces and Newton's Laws",
+    "covers_items": [
+      "3.03a",
+      "3.03b",
+      "3.03c",
+      "3.03d",
+      "3.03e",
+      "3.03f",
+      "3.03g",
+      "3.03h",
+      "3.03i",
+      "3.03j",
+      "3.03k",
+      "3.03l",
+      "3.03m",
+      "3.03n",
+      "3.03o",
+      "3.03p",
+      "3.03q"
+    ]
+  },
+  "S30_Friction": {
+    "covers_syllabus_refs": [
+      "H240 3.03r",
+      "H240 3.03s",
+      "H240 3.03t",
+      "H240 3.03u",
+      "H240 3.03v"
+    ],
+    "syllabus_topic": "3.03 Forces and Newton's Laws",
+    "covers_items": [
+      "3.03r",
+      "3.03s",
+      "3.03t",
+      "3.03u",
+      "3.03v"
+    ]
+  },
+  "S31_Moments": {
+    "covers_syllabus_refs": [
+      "H240 3.04a",
+      "H240 3.04b",
+      "H240 3.04c"
+    ],
+    "syllabus_topic": "3.04 Moments",
+    "covers_items": [
+      "3.04a",
+      "3.04b",
+      "3.04c"
+    ]
+  }
+}

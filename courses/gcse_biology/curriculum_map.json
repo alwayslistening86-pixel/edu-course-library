@@ -1,0 +1,1082 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Biology 8461 specification: subject content 4.1-4.7, practical assessment, working scientifically (section 3), mathematical requirements (section 7)",
+    "url": "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+    "version": "AQA 8461 (first teaching 2016), current version as published on aqa.org.uk",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.1.1.1",
+      "title": "Eukaryotes and prokaryotes",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.1.2",
+      "title": "Animal and plant cells",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.1.3",
+      "title": "Cell specialisation",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.1.4",
+      "title": "Cell differentiation",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.1.5",
+      "title": "Microscopy",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.1.6",
+      "title": "Culturing microorganisms",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.2.1",
+      "title": "Chromosomes",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.2.2",
+      "title": "Mitosis and the cell cycle",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.2.3",
+      "title": "Stem cells",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.3.1",
+      "title": "Diffusion",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.3.2",
+      "title": "Osmosis",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.1.3.3",
+      "title": "Active transport",
+      "topic_area": "4.1 Cell biology"
+    },
+    {
+      "id": "4.2.1",
+      "title": "Principles of organisation",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.2.1",
+      "title": "The human digestive system",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.2.2",
+      "title": "The heart and blood vessels",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.2.3",
+      "title": "Blood",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.2.4",
+      "title": "Coronary heart disease: a non-communicable disease",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.2.5",
+      "title": "Health issues",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.2.6",
+      "title": "The effect of lifestyle on some non-communicable diseases",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.2.7",
+      "title": "Cancer",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.3.1",
+      "title": "Plant tissues",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.2.3.2",
+      "title": "Plant organ system",
+      "topic_area": "4.2 Organisation"
+    },
+    {
+      "id": "4.3.1.1",
+      "title": "Communicable (infectious) diseases",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.2",
+      "title": "Viral diseases",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.3",
+      "title": "Bacterial diseases",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.4",
+      "title": "Fungal diseases",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.5",
+      "title": "Protist diseases",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.6",
+      "title": "Human defence systems",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.7",
+      "title": "Vaccination",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.8",
+      "title": "Antibiotics and painkillers",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.1.9",
+      "title": "Discovery and development of drugs",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.2.1",
+      "title": "Producing monoclonal antibodies",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.2.2",
+      "title": "Uses of monoclonal antibodies",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.3.1",
+      "title": "Detection and identification of plant diseases",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.3.3.2",
+      "title": "Plant defence responses",
+      "topic_area": "4.3 Infection and response"
+    },
+    {
+      "id": "4.4.1.1",
+      "title": "Photosynthetic reaction",
+      "topic_area": "4.4 Bioenergetics"
+    },
+    {
+      "id": "4.4.1.2",
+      "title": "Rate of photosynthesis",
+      "topic_area": "4.4 Bioenergetics"
+    },
+    {
+      "id": "4.4.1.3",
+      "title": "Uses of glucose from photosynthesis",
+      "topic_area": "4.4 Bioenergetics"
+    },
+    {
+      "id": "4.4.2.1",
+      "title": "Aerobic and anaerobic respiration",
+      "topic_area": "4.4 Bioenergetics"
+    },
+    {
+      "id": "4.4.2.2",
+      "title": "Response to exercise",
+      "topic_area": "4.4 Bioenergetics"
+    },
+    {
+      "id": "4.4.2.3",
+      "title": "Metabolism",
+      "topic_area": "4.4 Bioenergetics"
+    },
+    {
+      "id": "4.5.1",
+      "title": "Homeostasis",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.2.1",
+      "title": "Structure and function",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.2.2",
+      "title": "The brain",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.2.3",
+      "title": "The eye",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.2.4",
+      "title": "Control of body temperature",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.1",
+      "title": "Human endocrine system",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.2",
+      "title": "Control of blood glucose concentration",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.3",
+      "title": "Maintaining water and nitrogen balance in the body",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.4",
+      "title": "Hormones in human reproduction",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.5",
+      "title": "Contraception",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.6",
+      "title": "The use of hormones to treat infertility",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.3.7",
+      "title": "Negative feedback",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.4.1",
+      "title": "Control and coordination",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.5.4.2",
+      "title": "Use of plant hormones",
+      "topic_area": "4.5 Homeostasis and response"
+    },
+    {
+      "id": "4.6.1.1",
+      "title": "Sexual and asexual reproduction",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.2",
+      "title": "Meiosis",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.3",
+      "title": "Advantages and disadvantages of sexual and asexual reproduction",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.4",
+      "title": "DNA and the genome",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.5",
+      "title": "DNA structure",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.6",
+      "title": "Genetic inheritance",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.7",
+      "title": "Inherited disorders",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.1.8",
+      "title": "Sex determination",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.1",
+      "title": "Variation",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.2",
+      "title": "Evolution",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.3",
+      "title": "Selective breeding",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.4",
+      "title": "Genetic engineering",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.2.5",
+      "title": "Cloning",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.1",
+      "title": "Theory of evolution",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.2",
+      "title": "Speciation",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.3",
+      "title": "The understanding of genetics",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.4",
+      "title": "Evidence for evolution",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.5",
+      "title": "Fossils",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.6",
+      "title": "Extinction",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.3.7",
+      "title": "Resistant bacteria",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.6.4",
+      "title": "Classification of living organisms",
+      "topic_area": "4.6 Inheritance, variation and evolution"
+    },
+    {
+      "id": "4.7.1.1",
+      "title": "Communities",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.1.2",
+      "title": "Abiotic factors",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.1.3",
+      "title": "Biotic factors",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.1.4",
+      "title": "Adaptations",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.2.1",
+      "title": "Levels of organisation",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.2.2",
+      "title": "How materials are cycled",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.2.3",
+      "title": "Decomposition",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.2.4",
+      "title": "Impact of environmental change",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.3.1",
+      "title": "Biodiversity",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.3.2",
+      "title": "Waste management",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.3.3",
+      "title": "Land use",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.3.4",
+      "title": "Deforestation",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.3.5",
+      "title": "Global warming",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.3.6",
+      "title": "Maintaining biodiversity",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.4.1",
+      "title": "Trophic levels",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.4.2",
+      "title": "Pyramids of biomass",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.4.3",
+      "title": "Transfer of biomass",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.5.1",
+      "title": "Factors affecting food security",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.5.2",
+      "title": "Farming techniques",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.5.3",
+      "title": "Sustainable fisheries",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "4.7.5.4",
+      "title": "Role of biotechnology",
+      "topic_area": "4.7 Ecology"
+    },
+    {
+      "id": "RP1",
+      "title": "Required practical 1: microscopy",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP2",
+      "title": "Required practical 2: antiseptics and bacterial growth",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP3",
+      "title": "Required practical 3: osmosis in plant tissue",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP4",
+      "title": "Required practical 4: food tests",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP5",
+      "title": "Required practical 5: pH and amylase",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP6",
+      "title": "Required practical 6: light intensity and photosynthesis",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP7",
+      "title": "Required practical 7: human reaction time",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP8",
+      "title": "Required practical 8: plant responses",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP9",
+      "title": "Required practical 9: population sampling",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP10",
+      "title": "Required practical 10: rate of decay",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "WS1.1",
+      "title": "Development of scientific methods and theories",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.2",
+      "title": "Use of models",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.3",
+      "title": "Power and limitations of science, ethical issues",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.4",
+      "title": "Applications of science and implications",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.5",
+      "title": "Risks in practical science and society",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.6",
+      "title": "Peer review and communicating results",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.1",
+      "title": "Using theories to develop hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.2",
+      "title": "Planning experiments",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.3",
+      "title": "Selecting apparatus and techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.4",
+      "title": "Carrying out experiments safely and accurately",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.5",
+      "title": "Sampling techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.6",
+      "title": "Making and recording observations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.7",
+      "title": "Evaluating methods and improvements",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.1",
+      "title": "Presenting observations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.2",
+      "title": "Translating data between forms",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.3",
+      "title": "Mathematical and statistical analysis",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.4",
+      "title": "Distributions and uncertainty",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.5",
+      "title": "Interpreting observations and patterns",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.6",
+      "title": "Reasoned explanations relating data to hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.7",
+      "title": "Evaluating data: accuracy and precision",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.8",
+      "title": "Communicating findings",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4",
+      "title": "Scientific vocabulary, quantities, units, symbols and nomenclature (WS 4.1-4.6)",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "M1a",
+      "title": "Maths: decimal form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1b",
+      "title": "Maths: standard form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1c",
+      "title": "Maths: ratios, fractions and percentages",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1d",
+      "title": "Maths: estimating results",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2a",
+      "title": "Maths: significant figures",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2b",
+      "title": "Maths: arithmetic means",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2c",
+      "title": "Maths: frequency tables, bar charts and histograms",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2d",
+      "title": "Maths: sampling principles",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2e",
+      "title": "Maths: simple probability",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2f",
+      "title": "Maths: mean, mode and median",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2g",
+      "title": "Maths: scatter diagrams and correlation",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2h",
+      "title": "Maths: order of magnitude",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3a",
+      "title": "Maths: symbols =, <, <<, >>, >, proportional, ~",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3d",
+      "title": "Maths: solving simple algebraic equations",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4a",
+      "title": "Maths: translating graphical and numeric form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4b",
+      "title": "Maths: y = mx + c",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4c",
+      "title": "Maths: plotting two variables",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4d",
+      "title": "Maths: slope and intercept",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M5c",
+      "title": "Maths: areas, surface areas and volumes",
+      "topic_area": "7 Mathematical requirements"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Cells_and_Microscopy": {
+    "covers_syllabus_refs": [
+      "AQA 4.1.1 Cell structure",
+      "AQA required practicals 1 and 2"
+    ],
+    "syllabus_topic": "Cell biology",
+    "covers_items": [
+      "4.1.1.1",
+      "4.1.1.2",
+      "4.1.1.3",
+      "4.1.1.4",
+      "4.1.1.5",
+      "4.1.1.6",
+      "RP1",
+      "RP2"
+    ]
+  },
+  "S02_Cell_Division_and_Transport": {
+    "covers_syllabus_refs": [
+      "AQA 4.1.2 Cell division",
+      "AQA 4.1.3 Transport in cells",
+      "required practical 3"
+    ],
+    "syllabus_topic": "Cell biology",
+    "covers_items": [
+      "4.1.2.1",
+      "4.1.2.2",
+      "4.1.2.3",
+      "4.1.3.1",
+      "4.1.3.2",
+      "4.1.3.3",
+      "RP3"
+    ]
+  },
+  "S03_Enzymes_and_Digestion": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.1",
+      "AQA 4.2.2.1",
+      "required practicals 4 and 5"
+    ],
+    "syllabus_topic": "Organisation",
+    "covers_items": [
+      "4.2.1",
+      "4.2.2.1",
+      "RP4",
+      "RP5"
+    ]
+  },
+  "S04_Heart_Blood_and_Disease": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.2.2-4.2.2.7"
+    ],
+    "syllabus_topic": "Organisation",
+    "covers_items": [
+      "4.2.2.2",
+      "4.2.2.3",
+      "4.2.2.4",
+      "4.2.2.5",
+      "4.2.2.6",
+      "4.2.2.7"
+    ]
+  },
+  "S05_Plant_Organisation_and_Photosynthesis": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.3 Plant tissues, organs and systems",
+      "AQA 4.4.1 Photosynthesis",
+      "required practical 6"
+    ],
+    "syllabus_topic": "Organisation and Bioenergetics",
+    "covers_items": [
+      "4.2.3.1",
+      "4.2.3.2",
+      "4.4.1.1",
+      "4.4.1.2",
+      "4.4.1.3",
+      "RP6"
+    ]
+  },
+  "S06_Respiration_and_Metabolism": {
+    "covers_syllabus_refs": [
+      "AQA 4.4.2 Respiration"
+    ],
+    "syllabus_topic": "Bioenergetics",
+    "covers_items": [
+      "4.4.2.1",
+      "4.4.2.2",
+      "4.4.2.3"
+    ]
+  },
+  "S07_Communicable_Disease": {
+    "covers_syllabus_refs": [
+      "AQA 4.3.1.1-4.3.1.5"
+    ],
+    "syllabus_topic": "Infection and response",
+    "covers_items": [
+      "4.3.1.1",
+      "4.3.1.2",
+      "4.3.1.3",
+      "4.3.1.4",
+      "4.3.1.5"
+    ]
+  },
+  "S08_Defence_Vaccines_and_Drugs": {
+    "covers_syllabus_refs": [
+      "AQA 4.3.1.6-4.3.1.9",
+      "AQA 4.3.2",
+      "AQA 4.3.3"
+    ],
+    "syllabus_topic": "Infection and response",
+    "covers_items": [
+      "4.3.1.6",
+      "4.3.1.7",
+      "4.3.1.8",
+      "4.3.1.9",
+      "4.3.2.1",
+      "4.3.2.2",
+      "4.3.3.1",
+      "4.3.3.2"
+    ]
+  },
+  "S09_Nervous_System_and_Homeostasis": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.1",
+      "AQA 4.5.2",
+      "required practical 7"
+    ],
+    "syllabus_topic": "Homeostasis and response",
+    "covers_items": [
+      "4.5.1",
+      "4.5.2.1",
+      "4.5.2.2",
+      "4.5.2.3",
+      "4.5.2.4",
+      "RP7"
+    ]
+  },
+  "S10_Hormones_and_Reproduction_Control": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.3"
+    ],
+    "syllabus_topic": "Homeostasis and response",
+    "covers_items": [
+      "4.5.3.1",
+      "4.5.3.2",
+      "4.5.3.3",
+      "4.5.3.4",
+      "4.5.3.5",
+      "4.5.3.6",
+      "4.5.3.7"
+    ]
+  },
+  "S11_Plant_Hormones": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.4 Plant hormones",
+      "required practical 8"
+    ],
+    "syllabus_topic": "Homeostasis and response",
+    "covers_items": [
+      "4.5.4.1",
+      "4.5.4.2",
+      "RP8"
+    ]
+  },
+  "S12_Reproduction_DNA_and_Inheritance": {
+    "covers_syllabus_refs": [
+      "AQA 4.6.1"
+    ],
+    "syllabus_topic": "Inheritance, variation and evolution",
+    "covers_items": [
+      "4.6.1.1",
+      "4.6.1.2",
+      "4.6.1.3",
+      "4.6.1.4",
+      "4.6.1.5",
+      "4.6.1.6",
+      "4.6.1.7",
+      "4.6.1.8"
+    ]
+  },
+  "S13_Variation_Selection_and_Genetic_Technology": {
+    "covers_syllabus_refs": [
+      "AQA 4.6.2"
+    ],
+    "syllabus_topic": "Inheritance, variation and evolution",
+    "covers_items": [
+      "4.6.2.1",
+      "4.6.2.2",
+      "4.6.2.3",
+      "4.6.2.4",
+      "4.6.2.5"
+    ]
+  },
+  "S14_Evolution_Evidence_and_Classification": {
+    "covers_syllabus_refs": [
+      "AQA 4.6.3",
+      "AQA 4.6.4"
+    ],
+    "syllabus_topic": "Inheritance, variation and evolution",
+    "covers_items": [
+      "4.6.3.1",
+      "4.6.3.2",
+      "4.6.3.3",
+      "4.6.3.4",
+      "4.6.3.5",
+      "4.6.3.6",
+      "4.6.3.7",
+      "4.6.4"
+    ]
+  },
+  "S15_Ecosystems_and_Adaptation": {
+    "covers_syllabus_refs": [
+      "AQA 4.7.1",
+      "AQA 4.7.2.1-4.7.2.2",
+      "required practical 9"
+    ],
+    "syllabus_topic": "Ecology",
+    "covers_items": [
+      "4.7.1.1",
+      "4.7.1.2",
+      "4.7.1.3",
+      "4.7.1.4",
+      "4.7.2.1",
+      "4.7.2.2",
+      "RP9"
+    ]
+  },
+  "S16_Decay_Biodiversity_and_Global_Warming": {
+    "covers_syllabus_refs": [
+      "AQA 4.7.2.3-4.7.2.4",
+      "AQA 4.7.3",
+      "required practical 10"
+    ],
+    "syllabus_topic": "Ecology",
+    "covers_items": [
+      "4.7.2.3",
+      "4.7.2.4",
+      "4.7.3.1",
+      "4.7.3.2",
+      "4.7.3.3",
+      "4.7.3.4",
+      "4.7.3.5",
+      "4.7.3.6",
+      "RP10"
+    ]
+  },
+  "S17_Trophic_Levels_and_Food_Security": {
+    "covers_syllabus_refs": [
+      "AQA 4.7.4 Trophic levels",
+      "AQA 4.7.5 Food production"
+    ],
+    "syllabus_topic": "Ecology",
+    "covers_items": [
+      "4.7.4.1",
+      "4.7.4.2",
+      "4.7.4.3",
+      "4.7.5.1",
+      "4.7.5.2",
+      "4.7.5.3",
+      "4.7.5.4"
+    ]
+  },
+  "S18_Working_Scientifically_Thinking_and_Experiments": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS1 and WS2"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS1.1",
+      "WS1.2",
+      "WS1.3",
+      "WS1.4",
+      "WS1.5",
+      "WS1.6",
+      "WS2.1",
+      "WS2.2",
+      "WS2.3",
+      "WS2.4",
+      "WS2.5",
+      "WS2.6",
+      "WS2.7"
+    ]
+  },
+  "S19_Working_Scientifically_Analysis_and_Vocabulary": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS3 and WS4"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS3.1",
+      "WS3.2",
+      "WS3.3",
+      "WS3.4",
+      "WS3.5",
+      "WS3.6",
+      "WS3.7",
+      "WS3.8",
+      "WS4"
+    ]
+  },
+  "S20_Mathematical_Skills_for_Biology": {
+    "covers_syllabus_refs": [
+      "AQA section 7 Mathematical requirements"
+    ],
+    "syllabus_topic": "Mathematical requirements",
+    "covers_items": [
+      "M1a",
+      "M1b",
+      "M1c",
+      "M1d",
+      "M2a",
+      "M2b",
+      "M2c",
+      "M2d",
+      "M2e",
+      "M2f",
+      "M2g",
+      "M2h",
+      "M3a",
+      "M3d",
+      "M4a",
+      "M4b",
+      "M4c",
+      "M4d",
+      "M5c"
+    ]
+  }
+}

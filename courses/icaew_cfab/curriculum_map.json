@@ -1,0 +1,1290 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "ICAEW CFAB exam modules page (module list, 1.5-hour CBE format, 55% pass mark) plus the CFAB/Certificate-level study-resources pages for each of the six modules (Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation) and the ICAEW Next Generation ACA/CFAB syllabus handbook (icaew.com), all fetched live 2026-09-27. UK tax figures for the Principles of Taxation module (personal allowance, income tax bands/rates, Class 1/Class 4 NIC thresholds and rates, VAT registration threshold and rates, corporation tax rates and marginal relief) are the 2026/27 UK tax year figures, fetched live from HMRC (gov.uk), the House of Commons Library, and current professional tax-rates publishers on 2026-09-27.",
+    "url": "https://www.icaew.com/learning-and-development/icaew-cfab/cfab-students/cfab-exam-modules",
+    "version": "Current live CFAB syllabus and exam-format pages (module list, format, pass mark) as published on icaew.com on 2026-09-27; UK tax rates/thresholds are the 2026/27 tax year figures, fetched live on the same date. Both should be rechecked periodically: ICAEW updates its syllabus/study guides roughly annually, and UK tax rates/thresholds change at least annually (usually from 6 April following a Budget/Autumn Statement).",
+    "itemised_on": "2026-09-27",
+    "numbering": "Ids use ICAEW's own CFAB syllabus numbering style for each module - a syllabus section number plus a lettered sub-point, e.g. ACC.1a, ASR.2c, BTF.3d, LAW.4a, MI.1e, TAX.3f - prefixed with a short module code (ACC=Accounting, ASR=Assurance, BTF=Business Technology and Finance, LAW=Law, MI=Management Information, TAX=Principles of Taxation) so ids are unique across the combined course."
+  },
+  "_syllabus_items": [
+    {
+      "id": "ACC.1a",
+      "title": "Standard-setting process and authority",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.1b",
+      "title": "Qualitative characteristics of financial information",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.1c",
+      "title": "Effect of transactions under the IFRS Conceptual Framework",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.1d",
+      "title": "Fair presentation and true and fair view",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.1e",
+      "title": "Accounting concepts and principles",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.1f",
+      "title": "Accrual basis versus cash basis accounting",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.1g",
+      "title": "Ethical and sustainability considerations",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.1h",
+      "title": "ISSB aims and standards",
+      "topic_area": "1 Accounting concepts, ethics and sustainability"
+    },
+    {
+      "id": "ACC.2a",
+      "title": "Purpose of financial records and financial statements",
+      "topic_area": "2 Maintaining financial records"
+    },
+    {
+      "id": "ACC.2b",
+      "title": "Sources of accounting information and double-entry bookkeeping",
+      "topic_area": "2 Maintaining financial records"
+    },
+    {
+      "id": "ACC.2c",
+      "title": "Recording transactions per applicable standards",
+      "topic_area": "2 Maintaining financial records"
+    },
+    {
+      "id": "ACC.3a",
+      "title": "Identifying omissions and errors",
+      "topic_area": "3 Adjustments to accounting records and financial statements"
+    },
+    {
+      "id": "ACC.3b",
+      "title": "Correcting errors via journal entries",
+      "topic_area": "3 Adjustments to accounting records and financial statements"
+    },
+    {
+      "id": "ACC.3c",
+      "title": "Suspense accounts and period-end adjustments",
+      "topic_area": "3 Adjustments to accounting records and financial statements"
+    },
+    {
+      "id": "ACC.4a",
+      "title": "Components and purpose of financial statements",
+      "topic_area": "4 Preparing financial statements"
+    },
+    {
+      "id": "ACC.4b",
+      "title": "Preparing statements for sole traders, partnerships and companies",
+      "topic_area": "4 Preparing financial statements"
+    },
+    {
+      "id": "ACC.4c",
+      "title": "Interpreting financial statements with ratios",
+      "topic_area": "4 Preparing financial statements"
+    },
+    {
+      "id": "ACC.5a",
+      "title": "Efficiency and liquidity ratios",
+      "topic_area": "4 Preparing financial statements"
+    },
+    {
+      "id": "ACC.5b",
+      "title": "Limitations of ratio analysis",
+      "topic_area": "4 Preparing financial statements"
+    },
+    {
+      "id": "ASR.1a",
+      "title": "Concept of assurance",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1b",
+      "title": "Why users desire assurance reports",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1c",
+      "title": "Functions and responsibilities of parties involved",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1d",
+      "title": "Expectation gap",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1e",
+      "title": "Planning an assurance engagement and materiality",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1f",
+      "title": "Reporting to the engaging party",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1g",
+      "title": "Professional scepticism and judgement",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1h",
+      "title": "Fraud versus error",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.1i",
+      "title": "Assurance over sustainability reporting",
+      "topic_area": "1 The concept, process and need for assurance"
+    },
+    {
+      "id": "ASR.2a",
+      "title": "Audit risk and its components",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.2b",
+      "title": "Business risk and its impact on audit risk",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.2c",
+      "title": "Why effective internal control matters",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.2d",
+      "title": "Fundamental principles of effective controls",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.2e",
+      "title": "Main business processes and information flows",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.2f",
+      "title": "Types of internal control",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.2g",
+      "title": "Controls mitigating cyber and digital-transformation risk",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.2h",
+      "title": "Internal audit function",
+      "topic_area": "2 Risk, internal controls and information flows"
+    },
+    {
+      "id": "ASR.3a",
+      "title": "Reasons for assurance documentation",
+      "topic_area": "3 Obtaining assurance evidence"
+    },
+    {
+      "id": "ASR.3b",
+      "title": "Methods of obtaining evidence",
+      "topic_area": "3 Obtaining assurance evidence"
+    },
+    {
+      "id": "ASR.3c",
+      "title": "Reliability of different evidence types",
+      "topic_area": "3 Obtaining assurance evidence"
+    },
+    {
+      "id": "ASR.3d",
+      "title": "Sufficiency and quality of evidence, sampling risk",
+      "topic_area": "3 Obtaining assurance evidence"
+    },
+    {
+      "id": "ASR.3e",
+      "title": "Written management representations",
+      "topic_area": "3 Obtaining assurance evidence"
+    },
+    {
+      "id": "ASR.3f",
+      "title": "Issues requiring referral",
+      "topic_area": "3 Obtaining assurance evidence"
+    },
+    {
+      "id": "ASR.4a",
+      "title": "Role of regulatory bodies and ethical codes",
+      "topic_area": "4 Professional ethics and regulatory issues"
+    },
+    {
+      "id": "ASR.4b",
+      "title": "Fundamental principles of the ICAEW Code of Ethics",
+      "topic_area": "4 Professional ethics and regulatory issues"
+    },
+    {
+      "id": "ASR.4c",
+      "title": "Threats to integrity, objectivity and independence",
+      "topic_area": "4 Professional ethics and regulatory issues"
+    },
+    {
+      "id": "ASR.4d",
+      "title": "Safeguards to eliminate or reduce threats",
+      "topic_area": "4 Professional ethics and regulatory issues"
+    },
+    {
+      "id": "ASR.4e",
+      "title": "Confidentiality and GDPR",
+      "topic_area": "4 Professional ethics and regulatory issues"
+    },
+    {
+      "id": "ASR.4f",
+      "title": "Work outside expertise or experience",
+      "topic_area": "4 Professional ethics and regulatory issues"
+    },
+    {
+      "id": "BTF.1a",
+      "title": "Types of business organisation",
+      "topic_area": "1 Business organisations, stakeholders and objectives"
+    },
+    {
+      "id": "BTF.1b",
+      "title": "Stakeholders and Mendelow's matrix",
+      "topic_area": "1 Business organisations, stakeholders and objectives"
+    },
+    {
+      "id": "BTF.1c",
+      "title": "Business objectives",
+      "topic_area": "1 Business organisations, stakeholders and objectives"
+    },
+    {
+      "id": "BTF.2a",
+      "title": "PESTLE analysis",
+      "topic_area": "2 The external environment of business"
+    },
+    {
+      "id": "BTF.2b",
+      "title": "Macroeconomic factors",
+      "topic_area": "2 The external environment of business"
+    },
+    {
+      "id": "BTF.2c",
+      "title": "Microeconomic factors",
+      "topic_area": "2 The external environment of business"
+    },
+    {
+      "id": "BTF.2d",
+      "title": "Social and demographic factors",
+      "topic_area": "2 The external environment of business"
+    },
+    {
+      "id": "BTF.2e",
+      "title": "Competitive factors (Porter's Five Forces)",
+      "topic_area": "2 The external environment of business"
+    },
+    {
+      "id": "BTF.3a",
+      "title": "Corporate governance and the board",
+      "topic_area": "3 Organisational structure, culture and governance"
+    },
+    {
+      "id": "BTF.3b",
+      "title": "Board committees",
+      "topic_area": "3 Organisational structure, culture and governance"
+    },
+    {
+      "id": "BTF.3c",
+      "title": "Corporate codes of ethics",
+      "topic_area": "3 Organisational structure, culture and governance"
+    },
+    {
+      "id": "BTF.3d",
+      "title": "Ethical conflicts and dilemmas",
+      "topic_area": "3 Organisational structure, culture and governance"
+    },
+    {
+      "id": "BTF.3e",
+      "title": "Sustainable business practices",
+      "topic_area": "3 Organisational structure, culture and governance"
+    },
+    {
+      "id": "BTF.4a",
+      "title": "The accounting and finance function",
+      "topic_area": "4 Financial information and sources of finance"
+    },
+    {
+      "id": "BTF.4b",
+      "title": "Sources of short-term and long-term finance",
+      "topic_area": "4 Financial information and sources of finance"
+    },
+    {
+      "id": "BTF.4c",
+      "title": "Cost of debt versus equity finance",
+      "topic_area": "4 Financial information and sources of finance"
+    },
+    {
+      "id": "BTF.4d",
+      "title": "Financial information provided by a business",
+      "topic_area": "4 Financial information and sources of finance"
+    },
+    {
+      "id": "BTF.5a",
+      "title": "Automation, RPA and AI in business",
+      "topic_area": "5 Business technology and data"
+    },
+    {
+      "id": "BTF.5b",
+      "title": "Financial systems and technology",
+      "topic_area": "5 Business technology and data"
+    },
+    {
+      "id": "BTF.5c",
+      "title": "Cybersecurity risk and controls",
+      "topic_area": "5 Business technology and data"
+    },
+    {
+      "id": "BTF.5d",
+      "title": "Data protection principles",
+      "topic_area": "5 Business technology and data"
+    },
+    {
+      "id": "BTF.5e",
+      "title": "Career skills and lifelong learning",
+      "topic_area": "5 Business technology and data"
+    },
+    {
+      "id": "LAW.1a",
+      "title": "Civil law, criminal law and sources of law",
+      "topic_area": "1 Introduction to legal principles"
+    },
+    {
+      "id": "LAW.1b",
+      "title": "Structure of the English court system",
+      "topic_area": "1 Introduction to legal principles"
+    },
+    {
+      "id": "LAW.1c",
+      "title": "Alternative dispute resolution",
+      "topic_area": "1 Introduction to legal principles"
+    },
+    {
+      "id": "LAW.1d",
+      "title": "European Convention on Human Rights and the Human Rights Act 1998",
+      "topic_area": "1 Introduction to legal principles"
+    },
+    {
+      "id": "LAW.1e",
+      "title": "International law and regulations",
+      "topic_area": "1 Introduction to legal principles"
+    },
+    {
+      "id": "LAW.2a",
+      "title": "When a legally binding contract exists",
+      "topic_area": "2 The impact of civil law on business and professional services"
+    },
+    {
+      "id": "LAW.2b",
+      "title": "Termination of a contract and breach remedies",
+      "topic_area": "2 The impact of civil law on business and professional services"
+    },
+    {
+      "id": "LAW.2c",
+      "title": "Agency: roles, duties and authority",
+      "topic_area": "2 The impact of civil law on business and professional services"
+    },
+    {
+      "id": "LAW.2d",
+      "title": "Partnerships and partner authority",
+      "topic_area": "2 The impact of civil law on business and professional services"
+    },
+    {
+      "id": "LAW.2e",
+      "title": "Negligence and negligent misstatement",
+      "topic_area": "2 The impact of civil law on business and professional services"
+    },
+    {
+      "id": "LAW.2f",
+      "title": "Vicarious liability",
+      "topic_area": "2 The impact of civil law on business and professional services"
+    },
+    {
+      "id": "LAW.3a",
+      "title": "Incorporation and separate legal personality",
+      "topic_area": "3 Company and insolvency law"
+    },
+    {
+      "id": "LAW.3b",
+      "title": "Company/LLP formation and pre-incorporation contracts",
+      "topic_area": "3 Company and insolvency law"
+    },
+    {
+      "id": "LAW.3c",
+      "title": "Financing and capital, capital maintenance",
+      "topic_area": "3 Company and insolvency law"
+    },
+    {
+      "id": "LAW.3d",
+      "title": "Shareholder resolutions and director duties",
+      "topic_area": "3 Company and insolvency law"
+    },
+    {
+      "id": "LAW.3e",
+      "title": "Fixed and floating charges, insolvency procedures",
+      "topic_area": "3 Company and insolvency law"
+    },
+    {
+      "id": "LAW.4a",
+      "title": "Anti-money laundering offences and obligations",
+      "topic_area": "4 The impact of criminal law on business and professional services"
+    },
+    {
+      "id": "LAW.4b",
+      "title": "Bribery Act 2010 offences",
+      "topic_area": "4 The impact of criminal law on business and professional services"
+    },
+    {
+      "id": "LAW.4c",
+      "title": "Fraud Act 2006 and cybercrime offences",
+      "topic_area": "4 The impact of criminal law on business and professional services"
+    },
+    {
+      "id": "LAW.4d",
+      "title": "Protection from dismissal for reporting workplace malpractice",
+      "topic_area": "4 The impact of criminal law on business and professional services"
+    },
+    {
+      "id": "LAW.5a",
+      "title": "Data Protection Act 2018 and UK GDPR",
+      "topic_area": "5 The impact of law in the professional context"
+    },
+    {
+      "id": "LAW.5b",
+      "title": "Employment status",
+      "topic_area": "5 The impact of law in the professional context"
+    },
+    {
+      "id": "LAW.5c",
+      "title": "Employment contracts",
+      "topic_area": "5 The impact of law in the professional context"
+    },
+    {
+      "id": "LAW.5d",
+      "title": "Wrongful versus unfair dismissal",
+      "topic_area": "5 The impact of law in the professional context"
+    },
+    {
+      "id": "LAW.5e",
+      "title": "Statutory redundancy",
+      "topic_area": "5 The impact of law in the professional context"
+    },
+    {
+      "id": "LAW.5f",
+      "title": "Equality Act 2010 and Modern Slavery Act 2015",
+      "topic_area": "5 The impact of law in the professional context"
+    },
+    {
+      "id": "MI.1a",
+      "title": "Uses of cost information and cost classification",
+      "topic_area": "1 Costing and pricing"
+    },
+    {
+      "id": "MI.1b",
+      "title": "Marginal and absorption costing",
+      "topic_area": "1 Costing and pricing"
+    },
+    {
+      "id": "MI.1c",
+      "title": "Selecting an appropriate costing method",
+      "topic_area": "1 Costing and pricing"
+    },
+    {
+      "id": "MI.1d",
+      "title": "Cost-based pricing",
+      "topic_area": "1 Costing and pricing"
+    },
+    {
+      "id": "MI.1e",
+      "title": "Price mechanism and elasticity",
+      "topic_area": "1 Costing and pricing"
+    },
+    {
+      "id": "MI.1f",
+      "title": "Transfer pricing",
+      "topic_area": "1 Costing and pricing"
+    },
+    {
+      "id": "MI.2a",
+      "title": "Forecasting techniques (high-low, time series)",
+      "topic_area": "2 Budgeting and forecasting"
+    },
+    {
+      "id": "MI.2b",
+      "title": "Data analytics in budgeting and forecasting",
+      "topic_area": "2 Budgeting and forecasting"
+    },
+    {
+      "id": "MI.2c",
+      "title": "Preparing budgets",
+      "topic_area": "2 Budgeting and forecasting"
+    },
+    {
+      "id": "MI.2d",
+      "title": "Budgeting approaches",
+      "topic_area": "2 Budgeting and forecasting"
+    },
+    {
+      "id": "MI.2e",
+      "title": "Cash budgets and the cash operating cycle",
+      "topic_area": "2 Budgeting and forecasting"
+    },
+    {
+      "id": "MI.2f",
+      "title": "Managing cash surpluses and deficits",
+      "topic_area": "2 Budgeting and forecasting"
+    },
+    {
+      "id": "MI.3a",
+      "title": "Standard costing and variance analysis - materials",
+      "topic_area": "3 Performance management"
+    },
+    {
+      "id": "MI.3b",
+      "title": "Material price and usage variances (worked)",
+      "topic_area": "3 Performance management"
+    },
+    {
+      "id": "MI.3c",
+      "title": "Labour and sales variances",
+      "topic_area": "3 Performance management"
+    },
+    {
+      "id": "MI.4a",
+      "title": "Breakeven, contribution and margin of safety",
+      "topic_area": "5 Management decision making"
+    },
+    {
+      "id": "MI.4b",
+      "title": "Limiting factor decisions",
+      "topic_area": "5 Management decision making"
+    },
+    {
+      "id": "MI.4c",
+      "title": "Investment appraisal: payback, ARR, NPV, IRR",
+      "topic_area": "5 Management decision making"
+    },
+    {
+      "id": "MI.4d",
+      "title": "NPV worked example and appraisal limitations",
+      "topic_area": "5 Management decision making"
+    },
+    {
+      "id": "MI.5a",
+      "title": "Data purpose, types, sources and comparability",
+      "topic_area": "6 Technology and data analysis"
+    },
+    {
+      "id": "MI.5b",
+      "title": "Data collection and analysis principles",
+      "topic_area": "6 Technology and data analysis"
+    },
+    {
+      "id": "MI.5c",
+      "title": "Data errors and spreadsheet risk",
+      "topic_area": "6 Technology and data analysis"
+    },
+    {
+      "id": "MI.5d",
+      "title": "Visualisations, graphs and charts",
+      "topic_area": "6 Technology and data analysis"
+    },
+    {
+      "id": "MI.5e",
+      "title": "Ethics in preparing and using management information",
+      "topic_area": "7 Ethics"
+    },
+    {
+      "id": "TAX.1a",
+      "title": "Objectives of taxation",
+      "topic_area": "1 Objectives, types of tax and ethics"
+    },
+    {
+      "id": "TAX.1b",
+      "title": "Main UK taxes and who bears them",
+      "topic_area": "1 Objectives, types of tax and ethics"
+    },
+    {
+      "id": "TAX.1c",
+      "title": "UK tax year and sources of tax law",
+      "topic_area": "1 Objectives, types of tax and ethics"
+    },
+    {
+      "id": "TAX.1d",
+      "title": "Ethics in tax practice, avoidance versus evasion",
+      "topic_area": "1 Objectives, types of tax and ethics"
+    },
+    {
+      "id": "TAX.1e",
+      "title": "Conflicts of interest and money laundering in tax practice",
+      "topic_area": "1 Objectives, types of tax and ethics"
+    },
+    {
+      "id": "TAX.2a",
+      "title": "Record retention requirements",
+      "topic_area": "2 Administration of taxation"
+    },
+    {
+      "id": "TAX.2b",
+      "title": "PAYE and Class 1 NIC administration",
+      "topic_area": "2 Administration of taxation"
+    },
+    {
+      "id": "TAX.2c",
+      "title": "Self-assessment for individuals and companies",
+      "topic_area": "2 Administration of taxation"
+    },
+    {
+      "id": "TAX.2d",
+      "title": "VAT and other reporting due dates",
+      "topic_area": "2 Administration of taxation"
+    },
+    {
+      "id": "TAX.2e",
+      "title": "Interest, penalties and HMRC enquiries",
+      "topic_area": "2 Administration of taxation"
+    },
+    {
+      "id": "TAX.3a",
+      "title": "Income tax computation 2026/27",
+      "topic_area": "3 Income tax and national insurance contributions"
+    },
+    {
+      "id": "TAX.3b",
+      "title": "Personal allowance taper",
+      "topic_area": "3 Income tax and national insurance contributions"
+    },
+    {
+      "id": "TAX.3c",
+      "title": "Full income tax computation (worked)",
+      "topic_area": "3 Income tax and national insurance contributions"
+    },
+    {
+      "id": "TAX.3d",
+      "title": "Marriage allowance",
+      "topic_area": "3 Income tax and national insurance contributions"
+    },
+    {
+      "id": "TAX.3e",
+      "title": "Class 1 employee and employer NIC 2026/27",
+      "topic_area": "3 Income tax and national insurance contributions"
+    },
+    {
+      "id": "TAX.3f",
+      "title": "Class 4 self-employed NIC 2026/27",
+      "topic_area": "3 Income tax and national insurance contributions"
+    },
+    {
+      "id": "TAX.4a",
+      "title": "CGT chargeable persons, assets and disposals",
+      "topic_area": "4 Capital gains tax and inheritance tax"
+    },
+    {
+      "id": "TAX.4b",
+      "title": "Calculating a chargeable gain",
+      "topic_area": "4 Capital gains tax and inheritance tax"
+    },
+    {
+      "id": "TAX.4c",
+      "title": "Total taxable gains and CGT liability",
+      "topic_area": "4 Capital gains tax and inheritance tax"
+    },
+    {
+      "id": "TAX.4d",
+      "title": "Inheritance tax key principles: PETs and CLTs",
+      "topic_area": "4 Capital gains tax and inheritance tax"
+    },
+    {
+      "id": "TAX.4e",
+      "title": "Lifetime and death IHT calculations (principles)",
+      "topic_area": "4 Capital gains tax and inheritance tax"
+    },
+    {
+      "id": "TAX.5a",
+      "title": "Company accounting periods and associated companies",
+      "topic_area": "5 Corporation tax"
+    },
+    {
+      "id": "TAX.5b",
+      "title": "Adjustment of trading profit",
+      "topic_area": "5 Corporation tax"
+    },
+    {
+      "id": "TAX.5c",
+      "title": "Taxable total profits and corporation tax rates 2026/27",
+      "topic_area": "5 Corporation tax"
+    },
+    {
+      "id": "TAX.5d",
+      "title": "Marginal relief worked example",
+      "topic_area": "5 Corporation tax"
+    },
+    {
+      "id": "TAX.6a",
+      "title": "Classifying supplies for VAT",
+      "topic_area": "6 VAT and stamp taxes"
+    },
+    {
+      "id": "TAX.6b",
+      "title": "Implications of supply classification for input VAT",
+      "topic_area": "6 VAT and stamp taxes"
+    },
+    {
+      "id": "TAX.6c",
+      "title": "VAT registration and deregistration",
+      "topic_area": "6 VAT and stamp taxes"
+    },
+    {
+      "id": "TAX.6d",
+      "title": "Tax point determination",
+      "topic_area": "6 VAT and stamp taxes"
+    },
+    {
+      "id": "TAX.6e",
+      "title": "Calculating VAT payable/repayable",
+      "topic_area": "6 VAT and stamp taxes"
+    },
+    {
+      "id": "TAX.6f",
+      "title": "VAT alternative schemes",
+      "topic_area": "6 VAT and stamp taxes"
+    },
+    {
+      "id": "TAX.6g",
+      "title": "Stamp taxes",
+      "topic_area": "6 VAT and stamp taxes"
+    }
+  ],
+  "_declared_exclusions": [],
+  "ACC_S01_Concepts_Ethics_and_Regulatory_Framework": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1f",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1g",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.1h"
+    ],
+    "syllabus_topic": "Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis",
+    "covers_items": [
+      "ACC.1a",
+      "ACC.1b",
+      "ACC.1c",
+      "ACC.1d",
+      "ACC.1e",
+      "ACC.1f",
+      "ACC.1g",
+      "ACC.1h"
+    ]
+  },
+  "ACC_S02_Maintaining_Financial_Records_and_Double_Entry": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.2a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.2b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.2c"
+    ],
+    "syllabus_topic": "Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis",
+    "covers_items": [
+      "ACC.2a",
+      "ACC.2b",
+      "ACC.2c"
+    ]
+  },
+  "ACC_S03_Adjustments_and_Correction_of_Errors": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.3a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.3b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.3c"
+    ],
+    "syllabus_topic": "Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis",
+    "covers_items": [
+      "ACC.3a",
+      "ACC.3b",
+      "ACC.3c"
+    ]
+  },
+  "ACC_S04_Preparing_Financial_Statements": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.4a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.4b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.4c"
+    ],
+    "syllabus_topic": "Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis",
+    "covers_items": [
+      "ACC.4a",
+      "ACC.4b",
+      "ACC.4c"
+    ]
+  },
+  "ACC_S05_Further_Ratio_Analysis_and_Interpretation": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.5a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ACC.5b"
+    ],
+    "syllabus_topic": "Module: Accounting - accounting concepts and the regulatory framework, maintaining financial records and double-entry bookkeeping, adjustments and correction of errors, preparing financial statements and ratio analysis",
+    "covers_items": [
+      "ACC.5a",
+      "ACC.5b"
+    ]
+  },
+  "ASR_S01_Concept_Process_and_Need_for_Assurance": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1f",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1g",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1h",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.1i"
+    ],
+    "syllabus_topic": "Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation",
+    "covers_items": [
+      "ASR.1a",
+      "ASR.1b",
+      "ASR.1c",
+      "ASR.1d",
+      "ASR.1e",
+      "ASR.1f",
+      "ASR.1g",
+      "ASR.1h",
+      "ASR.1i"
+    ]
+  },
+  "ASR_S02_Risk_Internal_Controls_and_Information_Flows": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2f",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2g",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.2h"
+    ],
+    "syllabus_topic": "Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation",
+    "covers_items": [
+      "ASR.2a",
+      "ASR.2b",
+      "ASR.2c",
+      "ASR.2d",
+      "ASR.2e",
+      "ASR.2f",
+      "ASR.2g",
+      "ASR.2h"
+    ]
+  },
+  "ASR_S03_Obtaining_Assurance_Evidence": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.3a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.3b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.3c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.3d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.3e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.3f"
+    ],
+    "syllabus_topic": "Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation",
+    "covers_items": [
+      "ASR.3a",
+      "ASR.3b",
+      "ASR.3c",
+      "ASR.3d",
+      "ASR.3e",
+      "ASR.3f"
+    ]
+  },
+  "ASR_S04_Professional_Ethics_and_Regulatory_Issues": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.4a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.4b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.4c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.4d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.4e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation ASR.4f"
+    ],
+    "syllabus_topic": "Module: Assurance - the concept, process and need for assurance, risk and internal controls, obtaining evidence, and professional ethics and regulation",
+    "covers_items": [
+      "ASR.4a",
+      "ASR.4b",
+      "ASR.4c",
+      "ASR.4d",
+      "ASR.4e",
+      "ASR.4f"
+    ]
+  },
+  "BTF_S01_Business_Organisations_and_Stakeholders": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.1a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.1b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.1c"
+    ],
+    "syllabus_topic": "Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data",
+    "covers_items": [
+      "BTF.1a",
+      "BTF.1b",
+      "BTF.1c"
+    ]
+  },
+  "BTF_S02_External_Environment": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.2a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.2b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.2c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.2d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.2e"
+    ],
+    "syllabus_topic": "Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data",
+    "covers_items": [
+      "BTF.2a",
+      "BTF.2b",
+      "BTF.2c",
+      "BTF.2d",
+      "BTF.2e"
+    ]
+  },
+  "BTF_S03_Governance_Ethics_and_Corporate_Responsibility": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.3a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.3b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.3c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.3d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.3e"
+    ],
+    "syllabus_topic": "Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data",
+    "covers_items": [
+      "BTF.3a",
+      "BTF.3b",
+      "BTF.3c",
+      "BTF.3d",
+      "BTF.3e"
+    ]
+  },
+  "BTF_S04_Finance_Function_and_Sources_of_Finance": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.4a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.4b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.4c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.4d"
+    ],
+    "syllabus_topic": "Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data",
+    "covers_items": [
+      "BTF.4a",
+      "BTF.4b",
+      "BTF.4c",
+      "BTF.4d"
+    ]
+  },
+  "BTF_S05_Business_Technology_Data_and_Cybersecurity": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.5a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.5b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.5c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.5d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation BTF.5e"
+    ],
+    "syllabus_topic": "Module: Business, Technology and Finance - business organisations and stakeholders, the external environment, governance and ethics, the finance function and sources of finance, and business technology/data",
+    "covers_items": [
+      "BTF.5a",
+      "BTF.5b",
+      "BTF.5c",
+      "BTF.5d",
+      "BTF.5e"
+    ]
+  },
+  "LAW_S01_English_Legal_System_and_Sources_of_Law": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.1a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.1b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.1c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.1d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.1e"
+    ],
+    "syllabus_topic": "Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context",
+    "covers_items": [
+      "LAW.1a",
+      "LAW.1b",
+      "LAW.1c",
+      "LAW.1d",
+      "LAW.1e"
+    ]
+  },
+  "LAW_S02_Contract_Agency_and_Negligence": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.2a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.2b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.2c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.2d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.2e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.2f"
+    ],
+    "syllabus_topic": "Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context",
+    "covers_items": [
+      "LAW.2a",
+      "LAW.2b",
+      "LAW.2c",
+      "LAW.2d",
+      "LAW.2e",
+      "LAW.2f"
+    ]
+  },
+  "LAW_S03_Company_and_Insolvency_Law": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.3a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.3b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.3c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.3d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.3e"
+    ],
+    "syllabus_topic": "Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context",
+    "covers_items": [
+      "LAW.3a",
+      "LAW.3b",
+      "LAW.3c",
+      "LAW.3d",
+      "LAW.3e"
+    ]
+  },
+  "LAW_S04_Criminal_Law_in_Business": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.4a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.4b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.4c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.4d"
+    ],
+    "syllabus_topic": "Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context",
+    "covers_items": [
+      "LAW.4a",
+      "LAW.4b",
+      "LAW.4c",
+      "LAW.4d"
+    ]
+  },
+  "LAW_S05_Law_in_the_Professional_Context": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.5a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.5b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.5c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.5d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.5e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation LAW.5f"
+    ],
+    "syllabus_topic": "Module: Law - the English legal system, contract/agency/negligence, company and insolvency law, criminal law in business, and law in the professional (data protection/employment) context",
+    "covers_items": [
+      "LAW.5a",
+      "LAW.5b",
+      "LAW.5c",
+      "LAW.5d",
+      "LAW.5e",
+      "LAW.5f"
+    ]
+  },
+  "MI_S01_Costing_and_Pricing": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.1a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.1b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.1c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.1d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.1e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.1f"
+    ],
+    "syllabus_topic": "Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics",
+    "covers_items": [
+      "MI.1a",
+      "MI.1b",
+      "MI.1c",
+      "MI.1d",
+      "MI.1e",
+      "MI.1f"
+    ]
+  },
+  "MI_S02_Budgeting_and_Forecasting": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.2a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.2b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.2c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.2d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.2e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.2f"
+    ],
+    "syllabus_topic": "Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics",
+    "covers_items": [
+      "MI.2a",
+      "MI.2b",
+      "MI.2c",
+      "MI.2d",
+      "MI.2e",
+      "MI.2f"
+    ]
+  },
+  "MI_S03_Performance_Management": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.3a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.3b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.3c"
+    ],
+    "syllabus_topic": "Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics",
+    "covers_items": [
+      "MI.3a",
+      "MI.3b",
+      "MI.3c"
+    ]
+  },
+  "MI_S04_Management_Decision_Making": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.4a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.4b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.4c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.4d"
+    ],
+    "syllabus_topic": "Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics",
+    "covers_items": [
+      "MI.4a",
+      "MI.4b",
+      "MI.4c",
+      "MI.4d"
+    ]
+  },
+  "MI_S05_Technology_Data_and_Ethics_in_Decision_Making": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.5a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.5b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.5c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.5d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation MI.5e"
+    ],
+    "syllabus_topic": "Module: Management Information - costing and pricing, budgeting and forecasting, performance management (variances), management decision making, and technology/data/ethics",
+    "covers_items": [
+      "MI.5a",
+      "MI.5b",
+      "MI.5c",
+      "MI.5d",
+      "MI.5e"
+    ]
+  },
+  "TAX_S01_Objectives_Types_of_Tax_and_Ethics": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.1a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.1b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.1c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.1d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.1e"
+    ],
+    "syllabus_topic": "Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes",
+    "covers_items": [
+      "TAX.1a",
+      "TAX.1b",
+      "TAX.1c",
+      "TAX.1d",
+      "TAX.1e"
+    ]
+  },
+  "TAX_S02_Administration_of_Taxation": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.2a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.2b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.2c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.2d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.2e"
+    ],
+    "syllabus_topic": "Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes",
+    "covers_items": [
+      "TAX.2a",
+      "TAX.2b",
+      "TAX.2c",
+      "TAX.2d",
+      "TAX.2e"
+    ]
+  },
+  "TAX_S03_Income_Tax_and_National_Insurance": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.3a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.3b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.3c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.3d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.3e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.3f"
+    ],
+    "syllabus_topic": "Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes",
+    "covers_items": [
+      "TAX.3a",
+      "TAX.3b",
+      "TAX.3c",
+      "TAX.3d",
+      "TAX.3e",
+      "TAX.3f"
+    ]
+  },
+  "TAX_S04_Capital_Gains_Tax_and_Inheritance_Tax": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.4a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.4b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.4c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.4d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.4e"
+    ],
+    "syllabus_topic": "Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes",
+    "covers_items": [
+      "TAX.4a",
+      "TAX.4b",
+      "TAX.4c",
+      "TAX.4d",
+      "TAX.4e"
+    ]
+  },
+  "TAX_S05_Corporation_Tax": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.5a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.5b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.5c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.5d"
+    ],
+    "syllabus_topic": "Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes",
+    "covers_items": [
+      "TAX.5a",
+      "TAX.5b",
+      "TAX.5c",
+      "TAX.5d"
+    ]
+  },
+  "TAX_S06_VAT_and_Stamp_Taxes": {
+    "covers_syllabus_refs": [
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.6a",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.6b",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.6c",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.6d",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.6e",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.6f",
+      "ICAEW CFAB: Accounting, Assurance, Business Technology and Finance, Law, Management Information, Principles of Taxation TAX.6g"
+    ],
+    "syllabus_topic": "Module: Principles of Taxation (UK) - objectives and administration of taxation, income tax and NIC, capital gains tax and inheritance tax, corporation tax, and VAT and stamp taxes",
+    "covers_items": [
+      "TAX.6a",
+      "TAX.6b",
+      "TAX.6c",
+      "TAX.6d",
+      "TAX.6e",
+      "TAX.6f",
+      "TAX.6g"
+    ]
+  }
+}

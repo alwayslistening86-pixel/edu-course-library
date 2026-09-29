@@ -1,0 +1,60 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Psychology (AQA 8182)",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Psychology (8182) specification, for first teaching from September 2017, linked from aqa.org.uk/8182 and itemised on 2026-09-27: both content areas across the two papers -- Paper 1 'Cognition and Behaviour' (3.1.1 Memory; 3.1.2 Perception; 3.1.3 Development; 3.1.4 Research methods, including 3.1.4.1 Data handling) and Paper 2 'Social Context and Behaviour' (3.2.1 Social influence; 3.2.2 Language, thought and communication; 3.2.3 Brain and neuropsychology; 3.2.4 Psychological problems). Assessment: two linear written papers, each 1 hour 45 minutes, 100 marks, 50% of the GCSE -- each paper is split into four sections (A-D), one per topic, each worth 25 marks and mixing multiple-choice, short-answer and extended-writing questions; no tiering. Stage tests and the mock are original questions in AQA's style, never real past-paper items; every numerical worked example (mean, median, mode, range, and percentages) was computed and verified when this course was built, and every named study or theory (e.g. Murdock, Bartlett, Piaget, Dweck, Gibson, Gregory, Asch, Milgram, Adorno, Piliavin, Von Frisch, Darwin, Hebb, Penfield, Tulving, Wiles, Kaij) is genuine psychology, correctly attributed.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, grades 1-9), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "research_methods",
+      "text": "Research methods (3.1.4, including 3.1.4.1 Data handling) is examined throughout both papers, not only in its own stages -- sampling methods, experimental design and descriptive statistics (mean, median, mode, range) can appear applied to any topic. Always show full working for a calculation, not just a final answer -- AQA credits correct method as well as a correct result."
+    },
+    {
+      "id": "diagrams",
+      "text": "This course describes every diagram it cannot draw (the multi-store model, visual illusions, brain lobes, a neuron, a scatter diagram) precisely in words -- sketch or describe each one back, since accurately labelling a diagram is itself examined."
+    },
+    {
+      "id": "sensitive_content",
+      "text": "3.2.4 Psychological Problems covers clinical depression and addiction, including diagnostic criteria and treatments. This is taught as academic content about how psychologists define and study these conditions, not as personal advice; a learner who raises their own or someone else's mental health should be encouraged to speak to a trusted adult, their GP, or a service such as Childline or Samaritans, alongside continuing the academic content."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Memory_Processes_and_Models",
+    "S02_Reconstructive_Memory",
+    "S03_Perception_Cues_and_Theories",
+    "S04_Illusions_and_Perceptual_Set",
+    "S05_Brain_Development_and_Piaget",
+    "S06_Learning_Mindset_and_Style",
+    "S07_Hypotheses_Variables_and_Sampling",
+    "S08_Experimental_and_Other_Methods",
+    "S09_Procedures_Reliability_and_Ethics",
+    "S10_Data_Handling_and_Statistics",
+    "S11_Conformity",
+    "S12_Obedience",
+    "S13_Prosocial_and_Crowd_Behaviour",
+    "S14_Language_and_Thought",
+    "S15_Non_Verbal_Communication",
+    "S16_Nervous_System_and_Neurons",
+    "S17_Brain_Structure_and_Neuropsychology",
+    "S18_Mental_Health_and_Depression",
+    "S19_Addiction"
+  ]
+}

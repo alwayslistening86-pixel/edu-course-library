@@ -1,0 +1,248 @@
+{
+  "stage_rubrics": {
+    "S01_Purpose_and_Ownership": {
+      "criteria": [
+        "3.1.1: The purpose and nature of businesses: why businesses exist, reasons for starting a business, enterprise and entrepreneurship, the dynamic (constantly changing) nature of business",
+        "3.1.2: Business ownership: sole traders, partnerships, private limited companies (ltd), public limited companies (plc), not-for-profit organisations/social enterprises"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.1.1, 3.1.2 (Topic 3.1: Business in the real world)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S02_Aims_Objectives_Stakeholders": {
+      "criteria": [
+        "3.1.3: Setting business aims and objectives: what aims and objectives are, why businesses set them, how they can change, and using them to judge success",
+        "3.1.4: Stakeholders: owners, employees, customers, local community and suppliers -- their objectives and how they influence and are affected by a business"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.1.3, 3.1.4 (Topic 3.1: Business in the real world)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S03_Location_and_Planning": {
+      "criteria": [
+        "3.1.5: Business location: factors influencing where a business locates (proximity to market, raw materials, labour, competitors, costs)",
+        "3.1.6: Business planning: the purpose of a business plan, its main sections, and basic financial terms and calculations used in it"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.1.5, 3.1.6 (Topic 3.1: Business in the real world)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S04_Expansion_and_Scale": {
+      "criteria": [
+        "3.1.7: Expanding a business: methods of expansion, benefits and drawbacks, and economies and diseconomies of scale"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.1.7 (Topic 3.1: Business in the real world)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S05_Technology_and_Ethics": {
+      "criteria": [
+        "3.2.1: Technology: the impact of e-commerce and digital communication on business",
+        "3.2.2: Ethical and environmental considerations: ethical trade-offs, environmental impacts (congestion, recycling, waste, pollution) and sustainability"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.2.1, 3.2.2 (Topic 3.2: Influences on business)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S06_Economy_and_Globalisation": {
+      "criteria": [
+        "3.2.3: The economic climate on businesses: interest rates, the level of employment and consumer spending",
+        "3.2.4: Globalisation: how UK businesses compete internationally (design, quality, pricing) and the effect of exchange rates"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.2.3, 3.2.4 (Topic 3.2: Influences on business)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S07_Legislation_and_Competition": {
+      "criteria": [
+        "3.2.5: Legislation: employment law, health and safety law, and consumer law",
+        "3.2.6: Competitive environment: the impact of operating in competitive markets, and the uncertainty and risks businesses face"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.2.5, 3.2.6 (Topic 3.2: Influences on business)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S08_Production_and_Procurement": {
+      "criteria": [
+        "3.3.1: Production processes: job and flow production, lean production and just in time (JIT)",
+        "3.3.2: The role of procurement: JIT and just in case (JIC) stock management, supplier selection, and supply-chain management"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.3.1, 3.3.2 (Topic 3.3: Business operations)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S09_Quality_and_Customer_Service": {
+      "criteria": [
+        "3.3.3: The concept of quality: consequences of poor quality, total quality management (TQM), and the costs and benefits of quality",
+        "3.3.4: Good customer service: product knowledge, after-sales service, customer satisfaction/loyalty, reputation risk, and the impact of ICT"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.3.3, 3.3.4 (Topic 3.3: Business operations)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S10_Organisational_Structure_and_Recruitment": {
+      "criteria": [
+        "3.4.1: Organisational structures: span of control, chain of command, delayering and delegation, tall vs. flat structures and their effect on communication",
+        "3.4.2: Recruitment and selection: internal and external recruitment, job analysis/description/person specification, selection methods, and full-time/part-time/job-share/zero-hours contracts"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.4.1, 3.4.2 (Topic 3.4: Human resources)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S11_Motivation_and_Training": {
+      "criteria": [
+        "3.4.3: Motivating employees: financial methods (salary, wage, commission, profit sharing) and non-financial methods (management style, training, responsibility, fringe benefits)",
+        "3.4.4: Training: induction, on-the-job and off-the-job training, and their effect on productivity, quality, technology adoption and retention"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.4.3, 3.4.4 (Topic 3.4: Human resources)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S12_Customers_and_Segmentation": {
+      "criteria": [
+        "3.5.1: Identifying and understanding customers: why businesses need to know their customers (product fit, sales, marketing mix, avoiding costly mistakes, competitiveness)",
+        "3.5.2: Segmentation: dividing a market by gender, age, location and income"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.5.1, 3.5.2 (Topic 3.5: Marketing)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S13_Market_Research_and_Marketing_Mix": {
+      "criteria": [
+        "3.5.3: The purpose and methods of market research: primary research (questionnaires, surveys, interviews, focus groups) and secondary research (internet, printed press), qualitative vs. quantitative data, market size and market share",
+        "3.5.4: The marketing mix (4Ps): price (skimming, penetration, competitive, loss leader, cost-plus), product (USP, brand image, product life cycle, extension strategies, product portfolio), promotion (advertising, PR, sales promotion, sponsorship, social media) and place (retailers, wholesalers, telesales, e-commerce/m-commerce)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.5.3, 3.5.4 (Topic 3.5: Marketing)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S14_Sources_of_Finance_and_Cash_Flow": {
+      "criteria": [
+        "3.6.1: Sources of finance: internal (retained profit, sale of assets) and external (family/friends, share issue, loans/mortgages, overdraft, trade credit, hire purchase, government grants), and their suitability",
+        "3.6.2: Cash flow: why cash matters, the consequences of cash-flow problems, how and why cash-flow forecasts are built, net cash flow and opening/closing balances, and solutions to cash-flow problems"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.6.1, 3.6.2 (Topic 3.6: Finance)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    },
+    "S15_Financial_Calculations_and_Performance": {
+      "criteria": [
+        "3.6.3: Financial terms and calculations: fixed/variable/total costs, revenue, costs, profit and loss, break-even output and margin of safety (read from a chart), and average rate of return",
+        "3.6.4: Analysing the financial performance of a business: the income statement and statement of financial position, assets vs. liabilities, and gross/net profit margin"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+        "reference": "8132 objectives 3.6.3, 3.6.4 (Topic 3.6: Finance)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of both papers in AQA's structure: Paper 1 'Influences of operations and HRM on business activity' (1 hour 45 minutes, 90 marks, Topics 3.1-3.4) and Paper 2 'Influences of marketing and finance on business activity' (1 hour 45 minutes, 90 marks, Topics 3.1, 3.5-3.6)",
+      "Each paper's Section A (multiple-choice and short-answer, 20 marks), Section B (case study/data response, ~34 marks) and Section C (a further case study/data response, ~36 marks), matching AQA's published question styles",
+      "Calculation questions marked with method shown; extended-response (12-mark 'evaluate'/'discuss') questions marked by levels; at least 10% of marks overall on quantitative skills"
+    ],
+    "pass_threshold": "At least 50% of the 180 marks overall and at least 40% on each of the two papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+      "reference": "AQA 8132 scheme of assessment: Paper 1 (1h45, 90 marks, 50%) and Paper 2 (1h45, 90 marks, 50%)",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF"
+  ],
+  "source_notes": "AQA publishes the 8132 specification, including the subject content across all six topics and the assessment structure. Stage tests and the mock are original questions in AQA's style, not real past-paper items. Numerical worked examples (break-even, cash-flow forecasts, gross/net profit margin, average rate of return) were computed and checked with Python when this course was built."
+}

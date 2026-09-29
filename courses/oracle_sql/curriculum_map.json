@@ -1,0 +1,541 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "Oracle University, Exam 1Z0-071: Oracle Database SQL (Oracle Database SQL Certified Associate): exam topics on the Oracle MyLearn exam page",
+    "url": "https://mylearn.oracle.com/ou/exam/oracle-database-sql-1z0-071/105037/110647/170369",
+    "version": "1Z0-071 exam topics as published on Oracle MyLearn, fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "Oracle lists the topics under 16 headed areas without numbers (the page runs headings and topics together; they were split by the accordion's heading structure, and under 'Managing Tables using DML statements' the first line, 'Managing Database Transactions', is treated as a topic). Ids number them area.position in the page's order (1.1-16.2)."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1",
+      "title": "Explain the theoretical and physical aspects of a relational database",
+      "topic_area": "1 Relational Database concepts"
+    },
+    {
+      "id": "1.2",
+      "title": "Relate clauses in SQL SELECT statements to the components of an ERD",
+      "topic_area": "1 Relational Database concepts"
+    },
+    {
+      "id": "1.3",
+      "title": "Explain the relationship between a database and SQL",
+      "topic_area": "1 Relational Database concepts"
+    },
+    {
+      "id": "2.1",
+      "title": "Use column aliases",
+      "topic_area": "2 Retrieving Data using the SQL SELECT Statement"
+    },
+    {
+      "id": "2.2",
+      "title": "Use the SQL SELECT statement",
+      "topic_area": "2 Retrieving Data using the SQL SELECT Statement"
+    },
+    {
+      "id": "2.3",
+      "title": "Use the concatenation operator, literal character strings, the alternative quote operator and the DISTINCT keyword",
+      "topic_area": "2 Retrieving Data using the SQL SELECT Statement"
+    },
+    {
+      "id": "2.4",
+      "title": "Use arithmetic expressions and NULL values in the SELECT statement",
+      "topic_area": "2 Retrieving Data using the SQL SELECT Statement"
+    },
+    {
+      "id": "3.1",
+      "title": "Apply the rules of precedence for operators in an expression",
+      "topic_area": "3 Restricting and Sorting Data"
+    },
+    {
+      "id": "3.2",
+      "title": "Limit the rows returned in a SQL statement",
+      "topic_area": "3 Restricting and Sorting Data"
+    },
+    {
+      "id": "3.3",
+      "title": "Use substitution variables",
+      "topic_area": "3 Restricting and Sorting Data"
+    },
+    {
+      "id": "3.4",
+      "title": "Use the DEFINE and VERIFY commands",
+      "topic_area": "3 Restricting and Sorting Data"
+    },
+    {
+      "id": "3.5",
+      "title": "Sort data",
+      "topic_area": "3 Restricting and Sorting Data"
+    },
+    {
+      "id": "4.1",
+      "title": "Manipulate strings with character functions in SQL SELECT and WHERE clauses",
+      "topic_area": "4 Using Single-Row Functions to Customize Output"
+    },
+    {
+      "id": "4.2",
+      "title": "Perform arithmetic with date data",
+      "topic_area": "4 Using Single-Row Functions to Customize Output"
+    },
+    {
+      "id": "4.3",
+      "title": "Manipulate numbers with the ROUND, TRUNC and MOD functions",
+      "topic_area": "4 Using Single-Row Functions to Customize Output"
+    },
+    {
+      "id": "4.4",
+      "title": "Manipulate dates with the date functions",
+      "topic_area": "4 Using Single-Row Functions to Customize Output"
+    },
+    {
+      "id": "5.1",
+      "title": "Apply the NVL, NULLIF and COALESCE functions to data",
+      "topic_area": "5 Using Conversion Functions and Conditional Expressions"
+    },
+    {
+      "id": "5.2",
+      "title": "Understand implicit and explicit data type conversion",
+      "topic_area": "5 Using Conversion Functions and Conditional Expressions"
+    },
+    {
+      "id": "5.3",
+      "title": "Use the TO_CHAR, TO_NUMBER and TO_DATE conversion functions",
+      "topic_area": "5 Using Conversion Functions and Conditional Expressions"
+    },
+    {
+      "id": "5.4",
+      "title": "Nest multiple functions",
+      "topic_area": "5 Using Conversion Functions and Conditional Expressions"
+    },
+    {
+      "id": "6.1",
+      "title": "Restrict group results",
+      "topic_area": "6 Reporting Aggregated Data Using Group Functions"
+    },
+    {
+      "id": "6.2",
+      "title": "Create groups of data",
+      "topic_area": "6 Reporting Aggregated Data Using Group Functions"
+    },
+    {
+      "id": "6.3",
+      "title": "Use group functions",
+      "topic_area": "6 Reporting Aggregated Data Using Group Functions"
+    },
+    {
+      "id": "7.1",
+      "title": "Use self-joins",
+      "topic_area": "7 Displaying Data from Multiple Tables"
+    },
+    {
+      "id": "7.2",
+      "title": "Use various types of joins",
+      "topic_area": "7 Displaying Data from Multiple Tables"
+    },
+    {
+      "id": "7.3",
+      "title": "Use non-equijoins",
+      "topic_area": "7 Displaying Data from Multiple Tables"
+    },
+    {
+      "id": "7.4",
+      "title": "Use OUTER joins",
+      "topic_area": "7 Displaying Data from Multiple Tables"
+    },
+    {
+      "id": "7.5",
+      "title": "Understand and use Cartesian products",
+      "topic_area": "7 Displaying Data from Multiple Tables"
+    },
+    {
+      "id": "8.1",
+      "title": "Use single-row subqueries",
+      "topic_area": "8 Using Subqueries to Solve Queries"
+    },
+    {
+      "id": "8.2",
+      "title": "Use multiple-row subqueries",
+      "topic_area": "8 Using Subqueries to Solve Queries"
+    },
+    {
+      "id": "8.3",
+      "title": "Update and delete rows using correlated subqueries",
+      "topic_area": "8 Using Subqueries to Solve Queries"
+    },
+    {
+      "id": "9.1",
+      "title": "Match the SELECT statements",
+      "topic_area": "9 Using SET Operators"
+    },
+    {
+      "id": "9.2",
+      "title": "Use the ORDER BY clause in set operations",
+      "topic_area": "9 Using SET Operators"
+    },
+    {
+      "id": "9.3",
+      "title": "Use the INTERSECT operator",
+      "topic_area": "9 Using SET Operators"
+    },
+    {
+      "id": "9.4",
+      "title": "Use the MINUS operator",
+      "topic_area": "9 Using SET Operators"
+    },
+    {
+      "id": "9.5",
+      "title": "Use the UNION and UNION ALL operators",
+      "topic_area": "9 Using SET Operators"
+    },
+    {
+      "id": "10.1",
+      "title": "Manage database transactions",
+      "topic_area": "10 Managing Tables using DML statements"
+    },
+    {
+      "id": "10.2",
+      "title": "Control transactions",
+      "topic_area": "10 Managing Tables using DML statements"
+    },
+    {
+      "id": "10.3",
+      "title": "Perform insert, update and delete operations",
+      "topic_area": "10 Managing Tables using DML statements"
+    },
+    {
+      "id": "10.4",
+      "title": "Perform multi-table inserts",
+      "topic_area": "10 Managing Tables using DML statements"
+    },
+    {
+      "id": "10.5",
+      "title": "Perform MERGE statements",
+      "topic_area": "10 Managing Tables using DML statements"
+    },
+    {
+      "id": "11.1",
+      "title": "Manage indexes",
+      "topic_area": "11 Managing Indexes, Synonyms and Sequences"
+    },
+    {
+      "id": "11.2",
+      "title": "Manage synonyms",
+      "topic_area": "11 Managing Indexes, Synonyms and Sequences"
+    },
+    {
+      "id": "11.3",
+      "title": "Manage sequences",
+      "topic_area": "11 Managing Indexes, Synonyms and Sequences"
+    },
+    {
+      "id": "12.1",
+      "title": "Describe and work with tables",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "12.2",
+      "title": "Describe and work with columns and data types",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "12.3",
+      "title": "Create tables",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "12.4",
+      "title": "Drop columns and set columns UNUSED",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "12.5",
+      "title": "Truncate tables",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "12.6",
+      "title": "Create and use temporary tables",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "12.7",
+      "title": "Create and use external tables",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "12.8",
+      "title": "Manage constraints",
+      "topic_area": "12 Use DDL to manage tables and their relationships"
+    },
+    {
+      "id": "13.1",
+      "title": "Manage views",
+      "topic_area": "13 Managing Views"
+    },
+    {
+      "id": "14.1",
+      "title": "Differentiate system privileges from object privileges",
+      "topic_area": "14 Controlling User Access"
+    },
+    {
+      "id": "14.2",
+      "title": "Grant privileges on tables",
+      "topic_area": "14 Controlling User Access"
+    },
+    {
+      "id": "14.3",
+      "title": "Distinguish between granting privileges and roles",
+      "topic_area": "14 Controlling User Access"
+    },
+    {
+      "id": "15.1",
+      "title": "Use data dictionary views",
+      "topic_area": "15 Managing Objects with Data Dictionary Views"
+    },
+    {
+      "id": "16.1",
+      "title": "Work with CURRENT_DATE, CURRENT_TIMESTAMP and LOCALTIMESTAMP",
+      "topic_area": "16 Managing Data in Different Time Zones"
+    },
+    {
+      "id": "16.2",
+      "title": "Work with INTERVAL data types",
+      "topic_area": "16 Managing Data in Different Time Zones"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Relational_Concepts": {
+    "covers_syllabus_refs": [
+      "1Z0-071 1.1",
+      "1Z0-071 1.2",
+      "1Z0-071 1.3"
+    ],
+    "syllabus_topic": "Area 1 Relational Database concepts",
+    "covers_items": [
+      "1.1",
+      "1.2",
+      "1.3"
+    ]
+  },
+  "S02_Basic_SELECT": {
+    "covers_syllabus_refs": [
+      "1Z0-071 2.1",
+      "1Z0-071 2.2",
+      "1Z0-071 2.3",
+      "1Z0-071 2.4"
+    ],
+    "syllabus_topic": "Area 2 Retrieving Data using the SQL SELECT Statement",
+    "covers_items": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4"
+    ]
+  },
+  "S03_Restricting_and_Sorting": {
+    "covers_syllabus_refs": [
+      "1Z0-071 3.1",
+      "1Z0-071 3.2",
+      "1Z0-071 3.5"
+    ],
+    "syllabus_topic": "Area 3 Restricting and Sorting Data",
+    "covers_items": [
+      "3.1",
+      "3.2",
+      "3.5"
+    ]
+  },
+  "S04_Substitution_Variables": {
+    "covers_syllabus_refs": [
+      "1Z0-071 3.3",
+      "1Z0-071 3.4"
+    ],
+    "syllabus_topic": "Area 3 Restricting and Sorting Data",
+    "covers_items": [
+      "3.3",
+      "3.4"
+    ]
+  },
+  "S05_Character_and_Number_Functions": {
+    "covers_syllabus_refs": [
+      "1Z0-071 4.1",
+      "1Z0-071 4.3"
+    ],
+    "syllabus_topic": "Area 4 Using Single-Row Functions to Customize Output",
+    "covers_items": [
+      "4.1",
+      "4.3"
+    ]
+  },
+  "S06_Dates": {
+    "covers_syllabus_refs": [
+      "1Z0-071 4.2",
+      "1Z0-071 4.4"
+    ],
+    "syllabus_topic": "Area 4 Using Single-Row Functions to Customize Output",
+    "covers_items": [
+      "4.2",
+      "4.4"
+    ]
+  },
+  "S07_Conversion_and_Conditional": {
+    "covers_syllabus_refs": [
+      "1Z0-071 5.1",
+      "1Z0-071 5.2",
+      "1Z0-071 5.3",
+      "1Z0-071 5.4"
+    ],
+    "syllabus_topic": "Area 5 Using Conversion Functions and Conditional Expressions",
+    "covers_items": [
+      "5.1",
+      "5.2",
+      "5.3",
+      "5.4"
+    ]
+  },
+  "S08_Group_Functions": {
+    "covers_syllabus_refs": [
+      "1Z0-071 6.3",
+      "1Z0-071 6.2",
+      "1Z0-071 6.1"
+    ],
+    "syllabus_topic": "Area 6 Reporting Aggregated Data Using Group Functions",
+    "covers_items": [
+      "6.3",
+      "6.2",
+      "6.1"
+    ]
+  },
+  "S09_Joins": {
+    "covers_syllabus_refs": [
+      "1Z0-071 7.1",
+      "1Z0-071 7.2",
+      "1Z0-071 7.3",
+      "1Z0-071 7.4",
+      "1Z0-071 7.5"
+    ],
+    "syllabus_topic": "Area 7 Displaying Data from Multiple Tables",
+    "covers_items": [
+      "7.1",
+      "7.2",
+      "7.3",
+      "7.4",
+      "7.5"
+    ]
+  },
+  "S10_Subqueries": {
+    "covers_syllabus_refs": [
+      "1Z0-071 8.1",
+      "1Z0-071 8.2",
+      "1Z0-071 8.3"
+    ],
+    "syllabus_topic": "Area 8 Using Subqueries to Solve Queries",
+    "covers_items": [
+      "8.1",
+      "8.2",
+      "8.3"
+    ]
+  },
+  "S11_Set_Operators": {
+    "covers_syllabus_refs": [
+      "1Z0-071 9.1",
+      "1Z0-071 9.2",
+      "1Z0-071 9.3",
+      "1Z0-071 9.4",
+      "1Z0-071 9.5"
+    ],
+    "syllabus_topic": "Area 9 Using SET Operators",
+    "covers_items": [
+      "9.1",
+      "9.2",
+      "9.3",
+      "9.4",
+      "9.5"
+    ]
+  },
+  "S12_DML_and_Transactions": {
+    "covers_syllabus_refs": [
+      "1Z0-071 10.1",
+      "1Z0-071 10.2",
+      "1Z0-071 10.3",
+      "1Z0-071 10.4",
+      "1Z0-071 10.5"
+    ],
+    "syllabus_topic": "Area 10 Managing Tables using DML statements",
+    "covers_items": [
+      "10.1",
+      "10.2",
+      "10.3",
+      "10.4",
+      "10.5"
+    ]
+  },
+  "S13_DDL_Tables_and_Constraints": {
+    "covers_syllabus_refs": [
+      "1Z0-071 12.1",
+      "1Z0-071 12.2",
+      "1Z0-071 12.3",
+      "1Z0-071 12.4",
+      "1Z0-071 12.5",
+      "1Z0-071 12.6",
+      "1Z0-071 12.7",
+      "1Z0-071 12.8"
+    ],
+    "syllabus_topic": "Area 12 Use DDL to manage tables and their relationships",
+    "covers_items": [
+      "12.1",
+      "12.2",
+      "12.3",
+      "12.4",
+      "12.5",
+      "12.6",
+      "12.7",
+      "12.8"
+    ]
+  },
+  "S14_Views_Indexes_Synonyms_Sequences": {
+    "covers_syllabus_refs": [
+      "1Z0-071 13.1",
+      "1Z0-071 11.1",
+      "1Z0-071 11.2",
+      "1Z0-071 11.3"
+    ],
+    "syllabus_topic": "Areas 13 Managing Views and 11 Managing Indexes, Synonyms and Sequences",
+    "covers_items": [
+      "13.1",
+      "11.1",
+      "11.2",
+      "11.3"
+    ]
+  },
+  "S15_User_Access_and_Data_Dictionary": {
+    "covers_syllabus_refs": [
+      "1Z0-071 14.1",
+      "1Z0-071 14.2",
+      "1Z0-071 14.3",
+      "1Z0-071 15.1"
+    ],
+    "syllabus_topic": "Areas 14 Controlling User Access and 15 Managing Objects with Data Dictionary Views",
+    "covers_items": [
+      "14.1",
+      "14.2",
+      "14.3",
+      "15.1"
+    ]
+  },
+  "S16_Time_Zones_and_Intervals": {
+    "covers_syllabus_refs": [
+      "1Z0-071 16.1",
+      "1Z0-071 16.2"
+    ],
+    "syllabus_topic": "Area 16 Managing Data in Different Time Zones",
+    "covers_items": [
+      "16.1",
+      "16.2"
+    ]
+  }
+}

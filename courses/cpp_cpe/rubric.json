@@ -1,0 +1,193 @@
+{
+  "stage_rubrics": {
+    "S01_Program_Structure_Types_and_Literals": {
+      "criteria": [
+        "1.1: Valid C++ syntax elements, keywords and code structure",
+        "1.2: Built-in data types and their literals",
+        "1.3: Structure and declaration of main() and its parameters"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 1.1, 1.2, 1.3 (Block 1: Syntax, Literals and Operators (9 items, 28%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S02_Operators_and_Precedence": {
+      "criteria": [
+        "1.4: Arithmetic, relational, logical, bitwise and assignment operators",
+        "1.5: Operator precedence and associativity, and their effect on expressions",
+        "1.6: Short-circuit evaluation in control expressions"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 1.4, 1.5, 1.6 (Block 1: Syntax, Literals and Operators (9 items, 28%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S03_Console_Input_and_Output": {
+      "criteria": [
+        "1.7: Basic I/O streams cin, cout, cerr and manipulators endl, setw"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 1.7 (Block 1: Syntax, Literals and Operators (9 items, 28%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S04_Decisions_switch_and_goto": {
+      "criteria": [
+        "2.1: Conditional statements if and else",
+        "2.3: The goto statement and labelled statements",
+        "2.4: Multiple selection with switch, case and default"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 2.1, 2.3, 2.4 (Block 2: Flow Control and Functions (8 items, 28%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S05_Loops": {
+      "criteria": [
+        "2.2: Loops while, do and for; break and continue"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 2.2 (Block 2: Flow Control and Functions (8 items, 28%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S06_Functions_and_Return": {
+      "criteria": [
+        "2.5: Defining, declaring and calling functions",
+        "2.6: return in typed and void functions"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 2.5, 2.6 (Block 2: Flow Control and Functions (8 items, 28%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S07_Parameter_Passing_and_Recursion": {
+      "criteria": [
+        "2.7: Passing arguments by value, by reference and by pointer",
+        "2.8: Basic recursion"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 2.7, 2.8 (Block 2: Flow Control and Functions (8 items, 28%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S08_Arrays_and_Vectors": {
+      "criteria": [
+        "3.1: Vectors and arrays, including multidimensional arrays",
+        "3.2: Accessing vector data through data()"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 3.1, 3.2 (Block 3: Vectors and Pointers (7 items, 24%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S09_Pointers_Casts_and_Dynamic_Memory": {
+      "criteria": [
+        "3.3: Declaring and initialising pointers, including nullptr",
+        "3.4: Dereferencing and the address-of operator &",
+        "3.5: Pointer conversions with static_cast and dynamic_cast",
+        "3.6: Dynamic memory with new, delete and delete[]"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 3.3, 3.4, 3.5, 3.6 (Block 3: Vectors and Pointers (7 items, 24%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S10_Structures": {
+      "criteria": [
+        "4.1: Declaring and defining structures",
+        "4.2: Accessing structure members with the dot operator",
+        "4.3: Vectors of structures and their fields"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 4.1, 4.2, 4.3 (Block 4: Structures and Strings (6 items, 20%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    },
+    "S11_Strings": {
+      "criteria": [
+        "4.4: Declaring, initialising and changing std::string objects",
+        "4.5: Basic string operations and comparisons"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (CPE-20-01: 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "C++ Institute (OpenEDG)",
+        "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+        "reference": "CPE-20-01 objectives 4.4, 4.5 (Block 4: Structures and Strings (6 items, 20%))",
+        "urls": [
+          "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 30-item mixed exam in CPE's own proportions: 9, 8, 7 and 6 items from Blocks 1 to 4",
+      "Single-choice, multiple-choice, gap-fill and code-output items, as in the real exam",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 70% overall (21 of 30 items fully correct), the published CPE pass mark. Also report the score per block.",
+    "source": {
+      "issuing_body": "C++ Institute (OpenEDG)",
+      "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+      "reference": "CPE-20-01 exam format: 30 items, 45 minutes, four blocks, pass mark 70%",
+      "urls": [
+        "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification"
+  ],
+  "source_notes": "The C++ Institute publishes objectives, block weights, format and the pass mark, but no past papers. Stage tests are original; output answer keys come from compiling and running the code."
+}

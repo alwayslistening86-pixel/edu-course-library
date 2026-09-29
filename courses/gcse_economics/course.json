@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Economics (AQA 8136)",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Economics (8136) specification, for first teaching from September 2017, linked from aqa.org.uk/8136 and itemised on 2026-09-27: all 11 topics across the two papers -- Paper 1 'How markets work' (Topics 1-6: Economic foundations; Resource allocation; How prices are determined; Production, costs, revenue and profit; Competitive and concentrated markets; Market failure) and Paper 2 'How the economy works' (Topics 7-11: Introduction to the national economy; Government objectives; How the government manages the economy; International trade and the global economy; The role of money and financial markets), plus the quantitative skills requirement running through both papers (at least 10% of total marks). Assessment: two linear written papers, each 1 hour 45 minutes, 80 marks, 50% of the GCSE -- each paper's Section A is 10 multiple-choice questions plus a range of calculation, short and extended-response questions, and Section B is five questions mixing calculations, short and extended responses. Stage tests and the mock are original questions in AQA's style, never real past-paper items; every numerical worked example (elasticities, costs/revenue/profit, economies of scale, gross/net pay, GDP/CPI/unemployment-rate calculations, balance of payments, exchange rates, interest) was computed and verified when this course was built.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, grades 1-9), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "diagrams",
+      "text": "AQA GCSE Economics relies heavily on diagrams (demand/supply curves, shifts, externality diagrams). This course describes every diagram precisely in words (axes, curve shapes, direction and cause of any shift); sketch each one by hand as it is described, since being able to draw and label these diagrams accurately is itself examined."
+    },
+    {
+      "id": "quant_skills",
+      "text": "At least 10% of all marks across both papers are for quantitative skills (percentages, averages, totals, income calculations, constructing and interpreting graphs/data). Always show full working, not just a final answer -- AQA awards method marks that a bare correct answer alone will not earn."
+    },
+    {
+      "id": "current_figures",
+      "text": "Illustrative calculations in this course (e.g. income tax and National Insurance on a given gross pay, or a given CPI basket) use real UK institutions and a real current-style method, but tax bands, interest rates and similar figures change over time and are always given in the question in a real exam -- learn the method, not fixed numbers to memorise."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Economic_Foundations",
+    "S02_Resource_Allocation",
+    "S03_Demand_Supply_Equilibrium",
+    "S04_Elasticity_and_Intermarket",
+    "S05_Costs_Revenue_Profit",
+    "S06_Productivity_and_Economies_of_Scale",
+    "S07_Market_Structures",
+    "S08_Labour_Market",
+    "S09_Market_Failure_and_Externalities",
+    "S10_Interest_Rates_and_Government_Finance",
+    "S11_Growth_and_Government_Objectives",
+    "S12_Employment_and_Inflation",
+    "S13_Balance_of_Payments_and_Inequality",
+    "S14_Fiscal_and_Monetary_Policy",
+    "S15_Supply_Side_and_Externality_Policies",
+    "S16_International_Trade_and_Exchange_Rates",
+    "S17_Trade_Agreements_and_Globalisation",
+    "S18_Money_and_Financial_Sector"
+  ]
+}

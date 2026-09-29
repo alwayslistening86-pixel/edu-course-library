@@ -1,0 +1,375 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+    "url": "https://jsinstitute.org/jse-exam-syllabus",
+    "version": "JSE-40-01 (ACTIVE), fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "Ids use the JS Institute's own objective numbers (1.1-6.4); the letter suffix numbers each objective's listed sub-points in syllabus order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1a",
+      "title": "Interpreting versus compilation; interpreter versus compiler",
+      "topic_area": "1 Basics"
+    },
+    {
+      "id": "1.1b",
+      "title": "Client-side versus server-side JavaScript",
+      "topic_area": "1 Basics"
+    },
+    {
+      "id": "1.2a",
+      "title": "Development tools: editor, console, debugger",
+      "topic_area": "1 Basics"
+    },
+    {
+      "id": "1.2b",
+      "title": "Online versus local development environments",
+      "topic_area": "1 Basics"
+    },
+    {
+      "id": "1.3a",
+      "title": "HTML basics and ways to embed scripts",
+      "topic_area": "1 Basics"
+    },
+    {
+      "id": "1.3b",
+      "title": "Running code in the browser console",
+      "topic_area": "1 Basics"
+    },
+    {
+      "id": "2.1a",
+      "title": "Naming, declaring and initialising variables; updating values; constants",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.1b",
+      "title": "Block scope, shadowing and hoisting",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.2a",
+      "title": "Numbers and BigInt: ranges and formats",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.2b",
+      "title": "Boolean, null and undefined",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.3a",
+      "title": "String literals, escapes and template interpolation",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.3b",
+      "title": "String basics: length, charAt, slice, split",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.4a",
+      "title": "Converting with String, Number, BigInt and Boolean",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.4b",
+      "title": "Primitive conversion and implicit (automatic) conversion",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.5a",
+      "title": "Objects as records: literals, getting and setting properties",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.6a",
+      "title": "Arrays: length, indexOf, push, unshift, pop, shift",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "2.6b",
+      "title": "Arrays: reverse, slice, concat",
+      "topic_area": "2 Variables and types"
+    },
+    {
+      "id": "3.1a",
+      "title": "Assignment and compound assignment operators",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "3.1b",
+      "title": "Arithmetic operators and string concatenation",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "3.2a",
+      "title": "Logical operators",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "3.2b",
+      "title": "Equality and relational comparisons",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "3.3a",
+      "title": "The conditional (ternary) operator",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "3.3b",
+      "title": "typeof, instanceof and delete",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "3.4a",
+      "title": "Precedence, associativity and parentheses",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "3.5a",
+      "title": "Dialog boxes alert, confirm and prompt; acting on input",
+      "topic_area": "3 Operators and interaction"
+    },
+    {
+      "id": "4.1a",
+      "title": "if and if...else; multiple and nested conditions",
+      "topic_area": "4 Control flow"
+    },
+    {
+      "id": "4.2a",
+      "title": "switch and case",
+      "topic_area": "4 Control flow"
+    },
+    {
+      "id": "4.3a",
+      "title": "while and do...while loops",
+      "topic_area": "4 Control flow"
+    },
+    {
+      "id": "4.3b",
+      "title": "break and continue",
+      "topic_area": "4 Control flow"
+    },
+    {
+      "id": "4.4a",
+      "title": "for loops over ranges and collections",
+      "topic_area": "4 Control flow"
+    },
+    {
+      "id": "4.5a",
+      "title": "for...in over enumerable properties, and its caveats",
+      "topic_area": "4 Control flow"
+    },
+    {
+      "id": "4.6a",
+      "title": "for...of over arrays and other iterables",
+      "topic_area": "4 Control flow"
+    },
+    {
+      "id": "5.1a",
+      "title": "Declaring and calling functions; arguments and return",
+      "topic_area": "5 Functions"
+    },
+    {
+      "id": "5.2a",
+      "title": "Parameters, local variables and shadowing",
+      "topic_area": "5 Functions"
+    },
+    {
+      "id": "5.3a",
+      "title": "Function expressions and functions as values",
+      "topic_area": "5 Functions"
+    },
+    {
+      "id": "5.4a",
+      "title": "Recursion",
+      "topic_area": "5 Functions"
+    },
+    {
+      "id": "5.5a",
+      "title": "Synchronous and asynchronous callbacks; setTimeout and setInterval",
+      "topic_area": "5 Functions"
+    },
+    {
+      "id": "5.6a",
+      "title": "Arrow functions",
+      "topic_area": "5 Functions"
+    },
+    {
+      "id": "6.1a",
+      "title": "Syntax, semantic, logic and runtime errors",
+      "topic_area": "6 Errors and debugging"
+    },
+    {
+      "id": "6.2a",
+      "title": "SyntaxError, ReferenceError, TypeError, RangeError",
+      "topic_area": "6 Errors and debugging"
+    },
+    {
+      "id": "6.3a",
+      "title": "try...catch...finally and throw",
+      "topic_area": "6 Errors and debugging"
+    },
+    {
+      "id": "6.4a",
+      "title": "Debugging: stepping, inspecting variables, timing code",
+      "topic_area": "6 Errors and debugging"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_JavaScript_and_Its_Environment": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 1.1",
+      "JSE-40-01 1.2",
+      "JSE-40-01 1.3"
+    ],
+    "syllabus_topic": "Block 1: Basics of JavaScript and Computer Programming (3 items, 8%)",
+    "covers_items": [
+      "1.1a",
+      "1.1b",
+      "1.2a",
+      "1.2b",
+      "1.3a",
+      "1.3b"
+    ]
+  },
+  "S02_Variables_Scope_and_Hoisting": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 2.1"
+    ],
+    "syllabus_topic": "Block 2: Variables, Data Types and Type Casting (6 items, 20%)",
+    "covers_items": [
+      "2.1a",
+      "2.1b"
+    ]
+  },
+  "S03_Primitive_Types_and_Strings": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 2.2",
+      "JSE-40-01 2.3"
+    ],
+    "syllabus_topic": "Block 2: Variables, Data Types and Type Casting (6 items, 20%)",
+    "covers_items": [
+      "2.2a",
+      "2.2b",
+      "2.3a",
+      "2.3b"
+    ]
+  },
+  "S04_Type_Conversion": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 2.4"
+    ],
+    "syllabus_topic": "Block 2: Variables, Data Types and Type Casting (6 items, 20%)",
+    "covers_items": [
+      "2.4a",
+      "2.4b"
+    ]
+  },
+  "S05_Objects_and_Arrays": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 2.5",
+      "JSE-40-01 2.6"
+    ],
+    "syllabus_topic": "Block 2: Variables, Data Types and Type Casting (6 items, 20%)",
+    "covers_items": [
+      "2.5a",
+      "2.6a",
+      "2.6b"
+    ]
+  },
+  "S06_Operators_and_User_Interaction": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 3.1",
+      "JSE-40-01 3.2",
+      "JSE-40-01 3.3",
+      "JSE-40-01 3.4",
+      "JSE-40-01 3.5"
+    ],
+    "syllabus_topic": "Block 3: Operators and User Interaction (5 items, 18%)",
+    "covers_items": [
+      "3.1a",
+      "3.1b",
+      "3.2a",
+      "3.2b",
+      "3.3a",
+      "3.3b",
+      "3.4a",
+      "3.5a"
+    ]
+  },
+  "S07_Conditional_Execution": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 4.1",
+      "JSE-40-01 4.2"
+    ],
+    "syllabus_topic": "Block 4: Control Flow (6 items, 21%)",
+    "covers_items": [
+      "4.1a",
+      "4.2a"
+    ]
+  },
+  "S08_Loops": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 4.3",
+      "JSE-40-01 4.4",
+      "JSE-40-01 4.5",
+      "JSE-40-01 4.6"
+    ],
+    "syllabus_topic": "Block 4: Control Flow (6 items, 21%)",
+    "covers_items": [
+      "4.3a",
+      "4.3b",
+      "4.4a",
+      "4.5a",
+      "4.6a"
+    ]
+  },
+  "S09_Functions_Scope_and_Recursion": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 5.1",
+      "JSE-40-01 5.2",
+      "JSE-40-01 5.3",
+      "JSE-40-01 5.4"
+    ],
+    "syllabus_topic": "Block 5: Functions (6 items, 21%)",
+    "covers_items": [
+      "5.1a",
+      "5.2a",
+      "5.3a",
+      "5.4a"
+    ]
+  },
+  "S10_Callbacks_Timers_and_Arrow_Functions": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 5.5",
+      "JSE-40-01 5.6"
+    ],
+    "syllabus_topic": "Block 5: Functions (6 items, 21%)",
+    "covers_items": [
+      "5.5a",
+      "5.6a"
+    ]
+  },
+  "S11_Errors_Exceptions_and_Debugging": {
+    "covers_syllabus_refs": [
+      "JSE-40-01 6.1",
+      "JSE-40-01 6.2",
+      "JSE-40-01 6.3",
+      "JSE-40-01 6.4"
+    ],
+    "syllabus_topic": "Block 6: Errors, Exceptions, Debugging and Troubleshooting (4 items, 12%)",
+    "covers_items": [
+      "6.1a",
+      "6.2a",
+      "6.3a",
+      "6.4a"
+    ]
+  }
+}

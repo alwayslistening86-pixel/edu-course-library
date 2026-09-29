@@ -1,0 +1,1096 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Physics 8463 specification: subject content 4.1-4.8, practical assessment, working scientifically (section 3), mathematical requirements (section 7)",
+    "url": "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+    "version": "AQA 8463 (first teaching 2016), current version as published on aqa.org.uk",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.1.1.1",
+      "title": "Energy stores and systems",
+      "topic_area": "4.1 Energy"
+    },
+    {
+      "id": "4.1.1.2",
+      "title": "Changes in energy",
+      "topic_area": "4.1 Energy"
+    },
+    {
+      "id": "4.1.1.3",
+      "title": "Energy changes in systems",
+      "topic_area": "4.1 Energy"
+    },
+    {
+      "id": "4.1.1.4",
+      "title": "Power",
+      "topic_area": "4.1 Energy"
+    },
+    {
+      "id": "4.1.2.1",
+      "title": "Energy transfers in a system",
+      "topic_area": "4.1 Energy"
+    },
+    {
+      "id": "4.1.2.2",
+      "title": "Efficiency",
+      "topic_area": "4.1 Energy"
+    },
+    {
+      "id": "4.1.3",
+      "title": "National and global energy resources",
+      "topic_area": "4.1 Energy"
+    },
+    {
+      "id": "4.2.1.1",
+      "title": "Standard circuit diagram symbols",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.1.2",
+      "title": "Electrical charge and current",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.1.3",
+      "title": "Current, resistance and potential difference",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.1.4",
+      "title": "Resistors",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.2",
+      "title": "Series and parallel circuits",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.3.1",
+      "title": "Direct and alternating potential difference",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.3.2",
+      "title": "Mains electricity",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.4.1",
+      "title": "Power",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.4.2",
+      "title": "Energy transfers in everyday appliances",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.4.3",
+      "title": "The National Grid",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.5.1",
+      "title": "Static charge",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.2.5.2",
+      "title": "Electric fields",
+      "topic_area": "4.2 Electricity"
+    },
+    {
+      "id": "4.3.1.1",
+      "title": "Density of materials",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.3.1.2",
+      "title": "Changes of state",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.3.2.1",
+      "title": "Internal energy",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.3.2.2",
+      "title": "Temperature changes in a system and specific heat capacity",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.3.2.3",
+      "title": "Changes of state and specific latent heat",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.3.3.1",
+      "title": "Particle motion in gases",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.3.3.2",
+      "title": "Pressure in gases",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.3.3.3",
+      "title": "Increasing the pressure of a gas",
+      "topic_area": "4.3 Particle model of matter"
+    },
+    {
+      "id": "4.4.1.1",
+      "title": "The structure of an atom",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.1.2",
+      "title": "Mass number, atomic number and isotopes",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.1.3",
+      "title": "The development of the model of the atom",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.2.1",
+      "title": "Radioactive decay and nuclear radiation",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.2.2",
+      "title": "Nuclear equations",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.2.3",
+      "title": "Half-lives and the random nature of radioactive decay",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.2.4",
+      "title": "Radioactive contamination",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.3.1",
+      "title": "Background radiation",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.3.2",
+      "title": "Different half-lives of radioactive isotopes",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.3.3",
+      "title": "Uses of nuclear radiation",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.4.1",
+      "title": "Nuclear fission",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.4.4.2",
+      "title": "Nuclear fusion",
+      "topic_area": "4.4 Atomic structure"
+    },
+    {
+      "id": "4.5.1.1",
+      "title": "Scalar and vector quantities",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.1.2",
+      "title": "Contact and non-contact forces",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.1.3",
+      "title": "Gravity",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.1.4",
+      "title": "Resultant forces",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.2",
+      "title": "Work done and energy transfer",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.3",
+      "title": "Forces and elasticity",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.4",
+      "title": "Moments, levers and gears",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.5.1.1",
+      "title": "Pressure in a fluid 1",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.5.1.2",
+      "title": "Pressure in a fluid 2",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.5.2",
+      "title": "Atmospheric pressure",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.1.1",
+      "title": "Distance and displacement",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.1.2",
+      "title": "Speed",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.1.3",
+      "title": "Velocity",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.1.4",
+      "title": "The distance-time relationship",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.1.5",
+      "title": "Acceleration",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.2.1",
+      "title": "Newton's First Law",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.2.2",
+      "title": "Newton's Second Law",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.2.3",
+      "title": "Newton's Third Law",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.3.1",
+      "title": "Stopping distance",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.3.2",
+      "title": "Reaction time",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.3.3",
+      "title": "Factors affecting braking distance 1",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.6.3.4",
+      "title": "Factors affecting braking distance 2",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.7.1",
+      "title": "Momentum is a property of moving objects",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.7.2",
+      "title": "Conservation of momentum",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.5.7.3",
+      "title": "Changes in momentum",
+      "topic_area": "4.5 Forces"
+    },
+    {
+      "id": "4.6.1.1",
+      "title": "Transverse and longitudinal waves",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.1.2",
+      "title": "Properties of waves",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.1.3",
+      "title": "Reflection of waves",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.1.4",
+      "title": "Sound waves",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.1.5",
+      "title": "Waves for detection and exploration",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.2.1",
+      "title": "Types of electromagnetic waves",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.2.2",
+      "title": "Properties of electromagnetic waves 1",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.2.3",
+      "title": "Properties of electromagnetic waves 2",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.2.4",
+      "title": "Uses and applications of electromagnetic waves",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.2.5",
+      "title": "Lenses",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.2.6",
+      "title": "Visible light",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.3.1",
+      "title": "Emission and absorption of infrared radiation",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.6.3.2",
+      "title": "Perfect black bodies and radiation",
+      "topic_area": "4.6 Waves"
+    },
+    {
+      "id": "4.7.1.1",
+      "title": "Poles of a magnet",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.1.2",
+      "title": "Magnetic fields",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.2.1",
+      "title": "Electromagnetism",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.2.2",
+      "title": "Fleming's left-hand rule",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.2.3",
+      "title": "Electric motors",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.2.4",
+      "title": "Loudspeakers",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.3.1",
+      "title": "Induced potential",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.3.2",
+      "title": "Uses of the generator effect",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.3.3",
+      "title": "Microphones",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.7.3.4",
+      "title": "Transformers",
+      "topic_area": "4.7 Magnetism and electromagnetism"
+    },
+    {
+      "id": "4.8.1.1",
+      "title": "Our Solar System",
+      "topic_area": "4.8 Space physics"
+    },
+    {
+      "id": "4.8.1.2",
+      "title": "The life cycle of a star",
+      "topic_area": "4.8 Space physics"
+    },
+    {
+      "id": "4.8.1.3",
+      "title": "Orbital motion, natural and artificial satellites",
+      "topic_area": "4.8 Space physics"
+    },
+    {
+      "id": "4.8.2.1",
+      "title": "Red-shift",
+      "topic_area": "4.8 Space physics"
+    },
+    {
+      "id": "RP1",
+      "title": "Required practical 1: specific heat capacity",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP2",
+      "title": "Required practical 2: thermal insulators",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP3",
+      "title": "Required practical 3: factors affecting resistance",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP4",
+      "title": "Required practical 4: I-V characteristics",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP5",
+      "title": "Required practical 5: density of solids and liquids",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP6",
+      "title": "Required practical 6: force and extension of a spring",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP7",
+      "title": "Required practical 7: force, mass and acceleration",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP8",
+      "title": "Required practical 8: wave properties",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP9",
+      "title": "Required practical 9: reflection and refraction of light",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "RP10",
+      "title": "Required practical 10: infrared radiation and surfaces",
+      "topic_area": "Practical assessment"
+    },
+    {
+      "id": "WS1.1",
+      "title": "Development of scientific methods and theories",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.2",
+      "title": "Use of models",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.3",
+      "title": "Power and limitations of science, ethical issues",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.4",
+      "title": "Applications of science and implications",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.5",
+      "title": "Risks in practical science and society",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS1.6",
+      "title": "Peer review and communicating results",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.1",
+      "title": "Using theories to develop hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.2",
+      "title": "Planning experiments",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.3",
+      "title": "Selecting apparatus and techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.4",
+      "title": "Carrying out experiments safely and accurately",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.5",
+      "title": "Sampling techniques",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.6",
+      "title": "Making and recording observations and measurements",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS2.7",
+      "title": "Evaluating methods and improvements",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.1",
+      "title": "Presenting observations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.2",
+      "title": "Translating data between forms",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.3",
+      "title": "Mathematical and statistical analysis",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.4",
+      "title": "Distributions and uncertainty",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.5",
+      "title": "Interpreting observations and patterns",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.6",
+      "title": "Reasoned explanations relating data to hypotheses",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.7",
+      "title": "Evaluating data: accuracy, precision and error",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS3.8",
+      "title": "Communicating findings",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.1",
+      "title": "Scientific vocabulary and definitions",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.2",
+      "title": "Scientific quantities and how they are determined",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.3",
+      "title": "SI units and nomenclature",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.4",
+      "title": "Prefixes and powers of ten",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.5",
+      "title": "Converting between units",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "WS4.6",
+      "title": "Significant figures in calculations",
+      "topic_area": "3 Working scientifically"
+    },
+    {
+      "id": "M1a",
+      "title": "Maths: decimal form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1b",
+      "title": "Maths: standard form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1c",
+      "title": "Maths: ratios, fractions and percentages",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M1d",
+      "title": "Maths: estimating results",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2a",
+      "title": "Maths: significant figures",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2b",
+      "title": "Maths: arithmetic means",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2c",
+      "title": "Maths: frequency tables, bar charts and histograms",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2f",
+      "title": "Maths: mean, mode and median",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2g",
+      "title": "Maths: scatter diagrams and correlation",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M2h",
+      "title": "Maths: order of magnitude",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3a",
+      "title": "Maths: symbols",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3b",
+      "title": "Maths: changing the subject of an equation",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3c",
+      "title": "Maths: substituting values with units",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M3d",
+      "title": "Maths: solving simple algebraic equations",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4a",
+      "title": "Maths: translating graphical and numeric form",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4b",
+      "title": "Maths: y = mx + c",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4c",
+      "title": "Maths: plotting two variables",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4d",
+      "title": "Maths: slope and intercept",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4e",
+      "title": "Maths: tangent to a curve as rate of change",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M4f",
+      "title": "Maths: area under a graph by counting squares",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M5a",
+      "title": "Maths: angles in degrees",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M5b",
+      "title": "Maths: visualising 2D and 3D forms",
+      "topic_area": "7 Mathematical requirements"
+    },
+    {
+      "id": "M5c",
+      "title": "Maths: areas of triangles and rectangles, surface areas and volumes of cubes",
+      "topic_area": "7 Mathematical requirements"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Energy_Stores_Transfers_and_Resources": {
+    "covers_syllabus_refs": [
+      "AQA 4.1.1",
+      "AQA 4.1.2",
+      "AQA 4.1.3"
+    ],
+    "syllabus_topic": "Energy",
+    "covers_items": [
+      "4.1.1.1",
+      "4.1.1.2",
+      "4.1.1.3",
+      "4.1.1.4",
+      "4.1.2.1",
+      "4.1.2.2",
+      "4.1.3"
+    ]
+  },
+  "S02_Circuits_Resistance_and_Series_Parallel": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.1",
+      "AQA 4.2.2",
+      "required practicals 3 and 4"
+    ],
+    "syllabus_topic": "Electricity",
+    "covers_items": [
+      "4.2.1.1",
+      "4.2.1.2",
+      "4.2.1.3",
+      "4.2.1.4",
+      "4.2.2",
+      "RP3",
+      "RP4"
+    ]
+  },
+  "S03_Mains_Power_the_Grid_and_Static": {
+    "covers_syllabus_refs": [
+      "AQA 4.2.3",
+      "AQA 4.2.4",
+      "AQA 4.2.5"
+    ],
+    "syllabus_topic": "Electricity",
+    "covers_items": [
+      "4.2.3.1",
+      "4.2.3.2",
+      "4.2.4.1",
+      "4.2.4.2",
+      "4.2.4.3",
+      "4.2.5.1",
+      "4.2.5.2"
+    ]
+  },
+  "S04_Density_Heating_and_States_of_Matter": {
+    "covers_syllabus_refs": [
+      "AQA 4.3.1",
+      "AQA 4.3.2",
+      "required practicals 1, 2 and 5"
+    ],
+    "syllabus_topic": "Particle model of matter",
+    "covers_items": [
+      "4.3.1.1",
+      "4.3.1.2",
+      "4.3.2.1",
+      "4.3.2.2",
+      "4.3.2.3",
+      "RP1",
+      "RP2",
+      "RP5"
+    ]
+  },
+  "S05_Gases_and_Fluid_Pressure": {
+    "covers_syllabus_refs": [
+      "AQA 4.3.3",
+      "AQA 4.5.5"
+    ],
+    "syllabus_topic": "Particle model and forces",
+    "covers_items": [
+      "4.3.3.1",
+      "4.3.3.2",
+      "4.3.3.3",
+      "4.5.5.1.1",
+      "4.5.5.1.2",
+      "4.5.5.2"
+    ]
+  },
+  "S06_Atoms_and_Radioactive_Decay": {
+    "covers_syllabus_refs": [
+      "AQA 4.4.1",
+      "AQA 4.4.2.1-4.4.2.2"
+    ],
+    "syllabus_topic": "Atomic structure",
+    "covers_items": [
+      "4.4.1.1",
+      "4.4.1.2",
+      "4.4.1.3",
+      "4.4.2.1",
+      "4.4.2.2"
+    ]
+  },
+  "S07_Half_Life_Uses_of_Radiation_Fission_and_Fusion": {
+    "covers_syllabus_refs": [
+      "AQA 4.4.2.3-4.4.2.4",
+      "AQA 4.4.3",
+      "AQA 4.4.4"
+    ],
+    "syllabus_topic": "Atomic structure",
+    "covers_items": [
+      "4.4.2.3",
+      "4.4.2.4",
+      "4.4.3.1",
+      "4.4.3.2",
+      "4.4.3.3",
+      "4.4.4.1",
+      "4.4.4.2"
+    ]
+  },
+  "S08_Forces_Work_Elasticity_and_Moments": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.1",
+      "AQA 4.5.2",
+      "AQA 4.5.3",
+      "AQA 4.5.4",
+      "required practical 6"
+    ],
+    "syllabus_topic": "Forces",
+    "covers_items": [
+      "4.5.1.1",
+      "4.5.1.2",
+      "4.5.1.3",
+      "4.5.1.4",
+      "4.5.2",
+      "4.5.3",
+      "4.5.4",
+      "RP6"
+    ]
+  },
+  "S09_Motion_Speed_Velocity_and_Acceleration": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.6.1"
+    ],
+    "syllabus_topic": "Forces",
+    "covers_items": [
+      "4.5.6.1.1",
+      "4.5.6.1.2",
+      "4.5.6.1.3",
+      "4.5.6.1.4",
+      "4.5.6.1.5"
+    ]
+  },
+  "S10_Newtons_Laws_Stopping_Distance_and_Practical": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.6.2",
+      "AQA 4.5.6.3",
+      "required practical 7"
+    ],
+    "syllabus_topic": "Forces",
+    "covers_items": [
+      "4.5.6.2.1",
+      "4.5.6.2.2",
+      "4.5.6.2.3",
+      "4.5.6.3.1",
+      "4.5.6.3.2",
+      "4.5.6.3.3",
+      "4.5.6.3.4",
+      "RP7"
+    ]
+  },
+  "S11_Momentum": {
+    "covers_syllabus_refs": [
+      "AQA 4.5.7"
+    ],
+    "syllabus_topic": "Forces",
+    "covers_items": [
+      "4.5.7.1",
+      "4.5.7.2",
+      "4.5.7.3"
+    ]
+  },
+  "S12_Waves_Sound_and_Wave_Properties": {
+    "covers_syllabus_refs": [
+      "AQA 4.6.1",
+      "required practical 8"
+    ],
+    "syllabus_topic": "Waves",
+    "covers_items": [
+      "4.6.1.1",
+      "4.6.1.2",
+      "4.6.1.3",
+      "4.6.1.4",
+      "4.6.1.5",
+      "RP8"
+    ]
+  },
+  "S13_Electromagnetic_Waves_Lenses_and_Radiation": {
+    "covers_syllabus_refs": [
+      "AQA 4.6.2",
+      "AQA 4.6.3",
+      "required practicals 9 and 10"
+    ],
+    "syllabus_topic": "Waves",
+    "covers_items": [
+      "4.6.2.1",
+      "4.6.2.2",
+      "4.6.2.3",
+      "4.6.2.4",
+      "4.6.2.5",
+      "4.6.2.6",
+      "4.6.3.1",
+      "4.6.3.2",
+      "RP9",
+      "RP10"
+    ]
+  },
+  "S14_Magnets_and_Electromagnetism": {
+    "covers_syllabus_refs": [
+      "AQA 4.7.1",
+      "AQA 4.7.2"
+    ],
+    "syllabus_topic": "Magnetism and electromagnetism",
+    "covers_items": [
+      "4.7.1.1",
+      "4.7.1.2",
+      "4.7.2.1",
+      "4.7.2.2",
+      "4.7.2.3",
+      "4.7.2.4"
+    ]
+  },
+  "S15_Induction_Generators_and_Transformers": {
+    "covers_syllabus_refs": [
+      "AQA 4.7.3"
+    ],
+    "syllabus_topic": "Magnetism and electromagnetism",
+    "covers_items": [
+      "4.7.3.1",
+      "4.7.3.2",
+      "4.7.3.3",
+      "4.7.3.4"
+    ]
+  },
+  "S16_Space_Physics": {
+    "covers_syllabus_refs": [
+      "AQA 4.8"
+    ],
+    "syllabus_topic": "Space physics",
+    "covers_items": [
+      "4.8.1.1",
+      "4.8.1.2",
+      "4.8.1.3",
+      "4.8.2.1"
+    ]
+  },
+  "S17_Working_Scientifically_Thinking_and_Experiments": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS1 and WS2"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS1.1",
+      "WS1.2",
+      "WS1.3",
+      "WS1.4",
+      "WS1.5",
+      "WS1.6",
+      "WS2.1",
+      "WS2.2",
+      "WS2.3",
+      "WS2.4",
+      "WS2.5",
+      "WS2.6",
+      "WS2.7"
+    ]
+  },
+  "S18_Working_Scientifically_Analysis_and_Vocabulary": {
+    "covers_syllabus_refs": [
+      "AQA section 3 Working scientifically, WS3 and WS4"
+    ],
+    "syllabus_topic": "Working scientifically",
+    "covers_items": [
+      "WS3.1",
+      "WS3.2",
+      "WS3.3",
+      "WS3.4",
+      "WS3.5",
+      "WS3.6",
+      "WS3.7",
+      "WS3.8",
+      "WS4.1",
+      "WS4.2",
+      "WS4.3",
+      "WS4.4",
+      "WS4.5",
+      "WS4.6"
+    ]
+  },
+  "S19_Mathematical_Skills_for_Physics": {
+    "covers_syllabus_refs": [
+      "AQA section 7 Mathematical requirements"
+    ],
+    "syllabus_topic": "Mathematical requirements",
+    "covers_items": [
+      "M1a",
+      "M1b",
+      "M1c",
+      "M1d",
+      "M2a",
+      "M2b",
+      "M2c",
+      "M2f",
+      "M2g",
+      "M2h",
+      "M3a",
+      "M3b",
+      "M3c",
+      "M3d",
+      "M4a",
+      "M4b",
+      "M4c",
+      "M4d",
+      "M4e",
+      "M4f",
+      "M5a",
+      "M5b",
+      "M5c"
+    ]
+  }
+}

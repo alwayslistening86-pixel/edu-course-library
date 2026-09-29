@@ -1,0 +1,2045 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Geography 8035 specification: subject content 3.1 Living with the physical environment, 3.2 Challenges in the human environment, 3.3 Geographical applications, 3.4 Geographical skills, plus section 2 scheme of assessment and section 4 assessment objectives",
+    "url": "https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF",
+    "version": "AQA 8035 (first teaching 2016), current version as published on aqa.org.uk, checked 2026-09-22",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "2.2-P1",
+      "title": "Paper 1 structure: Living with the physical environment",
+      "topic_area": "Scheme of assessment"
+    },
+    {
+      "id": "2.2-P2",
+      "title": "Paper 2 structure: Challenges in the human environment",
+      "topic_area": "Scheme of assessment"
+    },
+    {
+      "id": "2.2-P3",
+      "title": "Paper 3 structure: Geographical applications",
+      "topic_area": "Scheme of assessment"
+    },
+    {
+      "id": "2.2-QT",
+      "title": "Question types and command words",
+      "topic_area": "Scheme of assessment"
+    },
+    {
+      "id": "4.2-AO1",
+      "title": "AO1 knowledge of locations, places, processes, environments and scales",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "4.2-AO2",
+      "title": "AO2 geographical understanding and interrelationships",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "4.2-AO3",
+      "title": "AO3 apply, interpret, analyse and evaluate to make judgements",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "4.2-AO4",
+      "title": "AO4 select and use skills and techniques",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "3.1.1.1a",
+      "title": "Definition of a natural hazard",
+      "topic_area": "3.1.1.1 Natural hazards"
+    },
+    {
+      "id": "3.1.1.1b",
+      "title": "Types of natural hazard",
+      "topic_area": "3.1.1.1 Natural hazards"
+    },
+    {
+      "id": "3.1.1.1c",
+      "title": "Factors affecting hazard risk",
+      "topic_area": "3.1.1.1 Natural hazards"
+    },
+    {
+      "id": "3.1.1.2a",
+      "title": "Plate tectonics theory",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2b",
+      "title": "Global distribution of earthquakes and volcanoes and plate margins",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2c",
+      "title": "Constructive margins: processes",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2d",
+      "title": "Destructive margins: processes",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2e",
+      "title": "Conservative margins: processes",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2f",
+      "title": "Primary and secondary effects of a tectonic hazard",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2g",
+      "title": "Immediate and long-term responses to a tectonic hazard",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2h",
+      "title": "Case study: Chile earthquake 2010 (higher-income area)",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2i",
+      "title": "Case study: Nepal earthquake 2015 (lower-income area)",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2j",
+      "title": "How wealth changes effects and responses",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2k",
+      "title": "Why people live in areas at risk from tectonic hazards",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2l",
+      "title": "Monitoring and prediction of tectonic hazards",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.2m",
+      "title": "Protection and planning for tectonic hazards",
+      "topic_area": "3.1.1.2 Tectonic hazards"
+    },
+    {
+      "id": "3.1.1.3a",
+      "title": "Global atmospheric circulation: pressure belts and surface winds",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3b",
+      "title": "Global distribution of tropical storms",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3c",
+      "title": "Tropical storms and atmospheric circulation",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3d",
+      "title": "Causes and formation sequence of tropical storms",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3e",
+      "title": "Structure and features of a tropical storm",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3f",
+      "title": "Climate change and tropical storms",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3g",
+      "title": "Primary and secondary effects of tropical storms",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3h",
+      "title": "Immediate and long-term responses to tropical storms",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3i",
+      "title": "Named example: Typhoon Haiyan 2013",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3j",
+      "title": "Monitoring, prediction, protection and planning for tropical storms",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3k",
+      "title": "Types of weather hazard in the UK",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3l",
+      "title": "UK extreme weather event: Storm Desmond 2015, causes",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3m",
+      "title": "UK extreme weather event: Storm Desmond, social, economic and environmental impacts",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3n",
+      "title": "UK extreme weather event: Storm Desmond, management strategies",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.3o",
+      "title": "Evidence that UK weather is becoming more extreme",
+      "topic_area": "3.1.1.3 Weather hazards"
+    },
+    {
+      "id": "3.1.1.4a",
+      "title": "Evidence for climate change from the Quaternary to the present",
+      "topic_area": "3.1.1.4 Climate change"
+    },
+    {
+      "id": "3.1.1.4b",
+      "title": "Natural causes of climate change",
+      "topic_area": "3.1.1.4 Climate change"
+    },
+    {
+      "id": "3.1.1.4c",
+      "title": "Human causes of climate change",
+      "topic_area": "3.1.1.4 Climate change"
+    },
+    {
+      "id": "3.1.1.4d",
+      "title": "Effects of climate change on people and the environment",
+      "topic_area": "3.1.1.4 Climate change"
+    },
+    {
+      "id": "3.1.1.4e",
+      "title": "Managing climate change: mitigation",
+      "topic_area": "3.1.1.4 Climate change"
+    },
+    {
+      "id": "3.1.1.4f",
+      "title": "Managing climate change: adaptation",
+      "topic_area": "3.1.1.4 Climate change"
+    },
+    {
+      "id": "3.1.2.1a",
+      "title": "Small-scale UK ecosystem, food chains, food webs and nutrient cycling",
+      "topic_area": "3.1.2.1 Ecosystems"
+    },
+    {
+      "id": "3.1.2.1b",
+      "title": "Balance between ecosystem components and impact of change",
+      "topic_area": "3.1.2.1 Ecosystems"
+    },
+    {
+      "id": "3.1.2.1c",
+      "title": "Distribution and characteristics of large-scale global ecosystems",
+      "topic_area": "3.1.2.1 Ecosystems"
+    },
+    {
+      "id": "3.1.2.2a",
+      "title": "Physical characteristics of a tropical rainforest",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2b",
+      "title": "Interdependence of climate, water, soils, plants, animals and people in the rainforest",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2c",
+      "title": "Adaptations of rainforest plants and animals",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2d",
+      "title": "Rainforest biodiversity issues",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2e",
+      "title": "Changing rates of deforestation",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2f",
+      "title": "Case study: Amazon rainforest, causes of deforestation",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2g",
+      "title": "Case study: Amazon rainforest, impacts of deforestation",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2h",
+      "title": "Value of tropical rainforests to people and the environment",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.2i",
+      "title": "Strategies to manage the rainforest sustainably",
+      "topic_area": "3.1.2.2 Tropical rainforests"
+    },
+    {
+      "id": "3.1.2.3a",
+      "title": "EXCLUDED Hot deserts: physical characteristics",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.3b",
+      "title": "EXCLUDED Hot deserts: interdependence",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.3c",
+      "title": "EXCLUDED Hot deserts: adaptations",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.3d",
+      "title": "EXCLUDED Hot deserts: biodiversity issues",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.3e",
+      "title": "EXCLUDED Hot deserts: case study development opportunities",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.3f",
+      "title": "EXCLUDED Hot deserts: case study development challenges",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.3g",
+      "title": "EXCLUDED Hot deserts: causes of desertification",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.3h",
+      "title": "EXCLUDED Hot deserts: strategies to reduce desertification",
+      "topic_area": "3.1.2.3 Hot deserts"
+    },
+    {
+      "id": "3.1.2.4a",
+      "title": "Physical characteristics of a cold environment",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.2.4b",
+      "title": "Interdependence of climate, permafrost, soils, plants, animals and people",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.2.4c",
+      "title": "Adaptations of cold-environment plants and animals",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.2.4d",
+      "title": "Cold-environment biodiversity issues",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.2.4e",
+      "title": "Case study: Alaska, development opportunities",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.2.4f",
+      "title": "Case study: Alaska, challenges of development",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.2.4g",
+      "title": "Value of cold environments as wilderness and why to protect them",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.2.4h",
+      "title": "Balancing economic development and conservation in cold environments",
+      "topic_area": "3.1.2.4 Cold environments"
+    },
+    {
+      "id": "3.1.3.1a",
+      "title": "The UK's diverse landscapes: uplands, lowlands and river systems",
+      "topic_area": "3.1.3.1 UK physical landscapes"
+    },
+    {
+      "id": "3.1.3.2a",
+      "title": "Coastal wave types and characteristics",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2b",
+      "title": "Coastal weathering: mechanical and chemical",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2c",
+      "title": "Coastal mass movement: sliding, slumping and rock falls",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2d",
+      "title": "Coastal erosion: hydraulic power, abrasion and attrition",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2e",
+      "title": "Coastal transportation and longshore drift",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2f",
+      "title": "Coastal deposition",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2g",
+      "title": "Geological structure and rock type and coastal forms",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2h",
+      "title": "Headlands and bays",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2i",
+      "title": "Cliffs and wave-cut platforms",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2j",
+      "title": "Caves, arches and stacks",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2k",
+      "title": "Beaches",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2l",
+      "title": "Sand dunes",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2m",
+      "title": "Spits and bars",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2n",
+      "title": "UK coastline example: Purbeck, Dorset",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2o",
+      "title": "Hard engineering: costs and benefits",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2p",
+      "title": "Soft engineering: costs and benefits",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2q",
+      "title": "Managed retreat (coastal realignment): costs and benefits",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.2r",
+      "title": "UK coastal management scheme: Cleveleys (with Medmerry contrast)",
+      "topic_area": "3.1.3.2 Coastal landscapes"
+    },
+    {
+      "id": "3.1.3.3a",
+      "title": "EXCLUDED Rivers: long profile and changing cross profile",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3b",
+      "title": "EXCLUDED Rivers: fluvial processes",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3c",
+      "title": "EXCLUDED Rivers: interlocking spurs, waterfalls and gorges",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3d",
+      "title": "EXCLUDED Rivers: meanders and ox-bow lakes",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3e",
+      "title": "EXCLUDED Rivers: levees, flood plains and estuaries",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3f",
+      "title": "EXCLUDED Rivers: UK river valley example",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3g",
+      "title": "EXCLUDED Rivers: physical and human factors affecting flood risk",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3h",
+      "title": "EXCLUDED Rivers: hydrographs",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3i",
+      "title": "EXCLUDED Rivers: hard engineering flood management",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3j",
+      "title": "EXCLUDED Rivers: soft engineering flood management",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.3k",
+      "title": "EXCLUDED Rivers: UK flood management scheme example",
+      "topic_area": "3.1.3.3 River landscapes"
+    },
+    {
+      "id": "3.1.3.4a",
+      "title": "Maximum extent of ice cover in the UK in the last ice age",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4b",
+      "title": "Freeze-thaw weathering",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4c",
+      "title": "Glacial erosion: abrasion and plucking",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4d",
+      "title": "Glacial movement and transportation: rotational slip and bulldozing",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4e",
+      "title": "Glacial deposition: till and outwash",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4f",
+      "title": "Corries, arêtes and pyramidal peaks",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4g",
+      "title": "Truncated spurs, glacial troughs, ribbon lakes and hanging valleys",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4h",
+      "title": "Erratics, drumlins and moraines",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4i",
+      "title": "UK glaciated upland example: the Lake District landforms",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4j",
+      "title": "Economic activities in glaciated uplands",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4k",
+      "title": "Land-use conflicts and development versus conservation",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4l",
+      "title": "Lake District tourism: attractions",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4m",
+      "title": "Lake District tourism: social, economic and environmental impacts",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.1.3.4n",
+      "title": "Lake District tourism: management strategies",
+      "topic_area": "3.1.3.4 Glacial landscapes"
+    },
+    {
+      "id": "3.2.1a",
+      "title": "Global pattern of urban change",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1b",
+      "title": "Urban trends in HICs and LICs",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1c",
+      "title": "Factors affecting the rate of urbanisation: migration and natural increase",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1d",
+      "title": "The emergence of megacities",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1e",
+      "title": "Lagos: location and importance",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1f",
+      "title": "Lagos: causes of growth",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1g",
+      "title": "Lagos: social opportunities of urban growth",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1h",
+      "title": "Lagos: economic opportunities of urban growth",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1i",
+      "title": "Lagos: managing slums and squatter settlements",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1j",
+      "title": "Lagos: clean water, sanitation and energy",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1k",
+      "title": "Lagos: access to health and education",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1l",
+      "title": "Lagos: unemployment and crime",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1m",
+      "title": "Lagos: environmental issues",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1n",
+      "title": "Urban planning improving quality of life for the urban poor",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1o",
+      "title": "Distribution of UK population and major cities",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1p",
+      "title": "Manchester: location and importance",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1q",
+      "title": "Manchester: impacts of national and international migration",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1r",
+      "title": "Manchester: social and economic opportunities",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1s",
+      "title": "Manchester: environmental opportunities, urban greening",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1t",
+      "title": "Manchester: social and economic challenges",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1u",
+      "title": "Manchester: environmental challenges",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1v",
+      "title": "Urban sprawl, the rural-urban fringe and commuter settlements",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1w",
+      "title": "Urban regeneration project: Salford Quays and MediaCityUK",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1x",
+      "title": "Features of sustainable urban living",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.1y",
+      "title": "Urban transport strategies to reduce congestion",
+      "topic_area": "3.2.1 Urban issues and challenges"
+    },
+    {
+      "id": "3.2.2a",
+      "title": "Classifying parts of the world by development and quality of life",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2b",
+      "title": "Economic and social measures of development",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2c",
+      "title": "Limitations of development measures",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2d",
+      "title": "Demographic Transition Model and development",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2e",
+      "title": "Causes of uneven development",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2f",
+      "title": "Consequences of uneven development",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2g",
+      "title": "Strategies to reduce the development gap",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2h",
+      "title": "Tourism reducing the development gap: Jamaica",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2i",
+      "title": "Nigeria: location and importance",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2j",
+      "title": "Nigeria: political, social, cultural and environmental context",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2k",
+      "title": "Nigeria: changing industrial structure and manufacturing",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2l",
+      "title": "Nigeria: role of transnational corporations",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2m",
+      "title": "Nigeria: changing political and trading relationships",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2n",
+      "title": "Nigeria: international aid",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2o",
+      "title": "Nigeria: environmental impacts of economic development",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2p",
+      "title": "Nigeria: effects of development on quality of life",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2q",
+      "title": "UK economic change: causes",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2r",
+      "title": "UK economy: moving towards a post-industrial economy",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2s",
+      "title": "UK industry and the environment: a more sustainable industrial example",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2t",
+      "title": "UK rural change: one growth area and one decline area",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2u",
+      "title": "UK road, rail, port and airport infrastructure",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2v",
+      "title": "The north-south divide and regional strategies",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.2w",
+      "title": "The UK in the wider world: trade, culture, transport, communication, EU and Commonwealth",
+      "topic_area": "3.2.2 The changing economic world"
+    },
+    {
+      "id": "3.2.3.1a",
+      "title": "Significance of food, water and energy to well-being",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1b",
+      "title": "Global inequalities in supply and consumption of resources",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1c",
+      "title": "Overview of resources in relation to the UK",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1d",
+      "title": "EXCLUDED UK food: high-value exports, food miles, agribusiness",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1e",
+      "title": "UK water: changing demand for water",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1f",
+      "title": "UK water: quality and pollution management",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1g",
+      "title": "UK water: matching supply and demand, deficit and surplus",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1h",
+      "title": "UK water: the need for transfer to maintain supplies",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.1i",
+      "title": "EXCLUDED UK energy: changing energy mix, domestic supplies, exploitation issues",
+      "topic_area": "3.2.3.1 Resource management"
+    },
+    {
+      "id": "3.2.3.2a",
+      "title": "EXCLUDED Food: global patterns of surplus and deficit",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.2b",
+      "title": "EXCLUDED Food: reasons for increasing consumption",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.2c",
+      "title": "EXCLUDED Food: factors affecting supply",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.2d",
+      "title": "EXCLUDED Food: impacts of food insecurity",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.2e",
+      "title": "EXCLUDED Food: strategies to increase supply",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.2f",
+      "title": "EXCLUDED Food: large-scale agricultural development example",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.2g",
+      "title": "EXCLUDED Food: sustainable food supplies",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.2h",
+      "title": "EXCLUDED Food: local scheme in an LIC or NEE",
+      "topic_area": "3.2.3.2 Food"
+    },
+    {
+      "id": "3.2.3.3a",
+      "title": "Water: global patterns of surplus and deficit",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.3b",
+      "title": "Water: reasons for increasing consumption",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.3c",
+      "title": "Water: factors affecting availability",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.3d",
+      "title": "Water: impacts of water insecurity",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.3e",
+      "title": "Water: strategies to increase supply",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.3f",
+      "title": "Water: large-scale transfer scheme, Lesotho Highlands Water Project",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.3g",
+      "title": "Water: moving towards a sustainable water future",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.3h",
+      "title": "Water: local scheme in an LIC or NEE, sand dams in Kenya",
+      "topic_area": "3.2.3.3 Water"
+    },
+    {
+      "id": "3.2.3.4a",
+      "title": "EXCLUDED Energy: global distribution of consumption and supply",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.2.3.4b",
+      "title": "EXCLUDED Energy: reasons for increasing consumption",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.2.3.4c",
+      "title": "EXCLUDED Energy: factors affecting supply",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.2.3.4d",
+      "title": "EXCLUDED Energy: impacts of energy insecurity",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.2.3.4e",
+      "title": "EXCLUDED Energy: strategies to increase supply",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.2.3.4f",
+      "title": "EXCLUDED Energy: fossil-fuel extraction example",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.2.3.4g",
+      "title": "EXCLUDED Energy: conservation and sustainable energy future",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.2.3.4h",
+      "title": "EXCLUDED Energy: local renewable scheme in an LIC or NEE",
+      "topic_area": "3.2.3.4 Energy"
+    },
+    {
+      "id": "3.3.1a",
+      "title": "Issue evaluation: nature, synoptic requirement and scales",
+      "topic_area": "3.3.1 Issue evaluation"
+    },
+    {
+      "id": "3.3.1b",
+      "title": "Issue evaluation: the pre-release resource booklet and its sources",
+      "topic_area": "3.3.1 Issue evaluation"
+    },
+    {
+      "id": "3.3.1c",
+      "title": "Issue evaluation: question sequence leading to the extended judgement",
+      "topic_area": "3.3.1 Issue evaluation"
+    },
+    {
+      "id": "3.3.1d",
+      "title": "Issue evaluation: stakeholders, advantages, disadvantages and alternatives",
+      "topic_area": "3.3.1 Issue evaluation"
+    },
+    {
+      "id": "3.3.1e",
+      "title": "Issue evaluation: physical and human interrelationships and justified decisions",
+      "topic_area": "3.3.1 Issue evaluation"
+    },
+    {
+      "id": "3.3.2.0a",
+      "title": "Fieldwork requirements: two enquiries in contrasting environments",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.0b",
+      "title": "Fieldwork assessment: unfamiliar contexts and own enquiries",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.1a",
+      "title": "Enquiry strand 1: suitable questions and hypotheses",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.1b",
+      "title": "Enquiry strand 1: the geographical theory or concept underpinning the enquiry",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.1c",
+      "title": "Enquiry strand 1: primary and secondary evidence and fieldwork locations",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.1d",
+      "title": "Enquiry strand 1: risks of fieldwork and how to reduce them",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.2a",
+      "title": "Enquiry strand 2: primary and secondary data",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.2b",
+      "title": "Enquiry strand 2: identifying and selecting appropriate physical and human data",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.2c",
+      "title": "Enquiry strand 2: measuring and recording data with sampling methods",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.2d",
+      "title": "Enquiry strand 2: describing and justifying data collection methods",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.3a",
+      "title": "Enquiry strand 3: range of visual, graphical and cartographic presentation methods",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.3b",
+      "title": "Enquiry strand 3: selecting and accurately using presentation methods",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.3c",
+      "title": "Enquiry strand 3: describing, explaining and adapting presentation methods",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.4a",
+      "title": "Enquiry strand 4: describing, analysing and explaining results",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.4b",
+      "title": "Enquiry strand 4: establishing links between data sets",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.4c",
+      "title": "Enquiry strand 4: using appropriate statistical techniques",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.4d",
+      "title": "Enquiry strand 4: identifying anomalies",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.5a",
+      "title": "Enquiry strand 5: reaching evidenced conclusions",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.6a",
+      "title": "Enquiry strand 6: problems of data collection methods",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.6b",
+      "title": "Enquiry strand 6: limitations of the data collected",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.6c",
+      "title": "Enquiry strand 6: suggestions for other useful data",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.6d",
+      "title": "Enquiry strand 6: how reliable the conclusions were",
+      "topic_area": "3.3.2 Fieldwork"
+    },
+    {
+      "id": "3.3.2.7a",
+      "title": "Cleveleys coastal enquiry: question, methods and data",
+      "topic_area": "3.3.2 Fieldwork (school enquiry)"
+    },
+    {
+      "id": "3.3.2.7b",
+      "title": "Cleveleys coastal enquiry: analysis, conclusion and evaluation",
+      "topic_area": "3.3.2 Fieldwork (school enquiry)"
+    },
+    {
+      "id": "3.3.2.8a",
+      "title": "Salford Quays regeneration enquiry: question, methods and data",
+      "topic_area": "3.3.2 Fieldwork (school enquiry)"
+    },
+    {
+      "id": "3.3.2.8b",
+      "title": "Salford Quays regeneration enquiry: analysis, conclusion and evaluation",
+      "topic_area": "3.3.2 Fieldwork (school enquiry)"
+    },
+    {
+      "id": "3.4.1a",
+      "title": "Atlas maps: latitude and longitude coordinates",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1b",
+      "title": "Atlas maps: describing distributions and patterns of human and physical features",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1c",
+      "title": "Atlas maps: global and other scales, significant features",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1d",
+      "title": "Atlas maps: interrelationship of physical and human factors, associations on thematic maps",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1e",
+      "title": "OS maps: use at 1:50 000 and 1:25 000 and other scales",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1f",
+      "title": "OS maps: four- and six-figure grid references",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1g",
+      "title": "OS maps: scale, distance and direction, straight and curved lines",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1h",
+      "title": "OS maps: gradient, contour and spot height",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1i",
+      "title": "OS maps: numerical and statistical information",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1j",
+      "title": "OS maps: identifying landscape features and describing their characteristics",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1k",
+      "title": "OS maps: major relief features and cross-sectional drawings",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1l",
+      "title": "OS maps: drawing inferences about physical and human landscape",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1m",
+      "title": "OS maps: cross sections and transects",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1n",
+      "title": "OS maps: physical features of coastal and glacial landscapes on large-scale maps",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1o",
+      "title": "OS maps: inferring human activity including tourism",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1p",
+      "title": "Maps with photographs: comparing maps",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1q",
+      "title": "Maps with photographs: sketch maps",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1r",
+      "title": "Maps with photographs: ground, aerial and satellite photographs",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1s",
+      "title": "Maps with photographs: describing landscapes and phenomena from photographs",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1t",
+      "title": "Maps with photographs: drawing sketches from photographs",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.1u",
+      "title": "Labelling and annotating diagrams, maps, graphs, sketches and photographs",
+      "topic_area": "3.4.1 Cartographic skills"
+    },
+    {
+      "id": "3.4.2a",
+      "title": "Graphs and charts: selecting and constructing",
+      "topic_area": "3.4.2 Graphical skills"
+    },
+    {
+      "id": "3.4.2b",
+      "title": "Suggesting an appropriate form of graphical representation",
+      "topic_area": "3.4.2 Graphical skills"
+    },
+    {
+      "id": "3.4.2c",
+      "title": "Completing choropleth, isoline, dot, desire line, proportional symbol and flow line maps",
+      "topic_area": "3.4.2 Graphical skills"
+    },
+    {
+      "id": "3.4.2d",
+      "title": "Gradient, contour and value on isoline maps",
+      "topic_area": "3.4.2 Graphical skills"
+    },
+    {
+      "id": "3.4.2e",
+      "title": "Plotting information on graphs when axes and scales are provided",
+      "topic_area": "3.4.2 Graphical skills"
+    },
+    {
+      "id": "3.4.2f",
+      "title": "Interpreting population pyramids, choropleth maps, flow-line maps and dispersion graphs",
+      "topic_area": "3.4.2 Graphical skills"
+    },
+    {
+      "id": "3.4.3a",
+      "title": "Number, area, scales and units",
+      "topic_area": "3.4.3 Numerical skills"
+    },
+    {
+      "id": "3.4.3b",
+      "title": "Fieldwork data sheets, accuracy, sample size, control groups and reliability",
+      "topic_area": "3.4.3 Numerical skills"
+    },
+    {
+      "id": "3.4.3c",
+      "title": "Proportion, ratio, magnitude and frequency",
+      "topic_area": "3.4.3 Numerical skills"
+    },
+    {
+      "id": "3.4.3d",
+      "title": "Drawing informed conclusions from numerical data",
+      "topic_area": "3.4.3 Numerical skills"
+    },
+    {
+      "id": "3.4.4a",
+      "title": "Central tendency, spread and cumulative frequency",
+      "topic_area": "3.4.4 Statistical skills"
+    },
+    {
+      "id": "3.4.4b",
+      "title": "Percentage change and percentiles",
+      "topic_area": "3.4.4 Statistical skills"
+    },
+    {
+      "id": "3.4.4c",
+      "title": "Bivariate data: scatter graphs, lines of best fit, interpolation and extrapolation",
+      "topic_area": "3.4.4 Statistical skills"
+    },
+    {
+      "id": "3.4.4d",
+      "title": "Weaknesses in selective statistical presentation",
+      "topic_area": "3.4.4 Statistical skills"
+    },
+    {
+      "id": "3.4.5a",
+      "title": "Qualitative and quantitative data from primary and secondary sources",
+      "topic_area": "3.4.5 Use of qualitative and quantitative data"
+    },
+    {
+      "id": "3.4.5b",
+      "title": "Data types: maps, fieldwork data, GIS, satellite imagery, digital sources",
+      "topic_area": "3.4.5 Use of qualitative and quantitative data"
+    },
+    {
+      "id": "3.4.6a",
+      "title": "Formulating enquiry: questions and sequences of enquiry",
+      "topic_area": "3.4.6 Formulate enquiry and argument"
+    },
+    {
+      "id": "3.4.6b",
+      "title": "Writing descriptively, analytically and critically",
+      "topic_area": "3.4.6 Formulate enquiry and argument"
+    },
+    {
+      "id": "3.4.6c",
+      "title": "Communicating ideas effectively",
+      "topic_area": "3.4.6 Formulate enquiry and argument"
+    },
+    {
+      "id": "3.4.6d",
+      "title": "Developing an extended written argument",
+      "topic_area": "3.4.6 Formulate enquiry and argument"
+    },
+    {
+      "id": "3.4.6e",
+      "title": "Drawing well-evidenced conclusions about geographical questions and issues",
+      "topic_area": "3.4.6 Formulate enquiry and argument"
+    },
+    {
+      "id": "3.4.7a",
+      "title": "Literacy: communicating for different audiences",
+      "topic_area": "3.4.7 Literacy"
+    },
+    {
+      "id": "4.4-SPaG",
+      "title": "Spelling, punctuation, grammar and specialist terminology (SPaG)",
+      "topic_area": "4.4 SPaG"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "3.1.2.3a",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.2.3b",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.2.3c",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.2.3d",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.2.3e",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.2.3f",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.2.3g",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.2.3h",
+      "reason": "Hot Deserts not selected: this course's Living World option is Cold Environments (not Hot Deserts)"
+    },
+    {
+      "id": "3.1.3.3a",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3b",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3c",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3d",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3e",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3f",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3g",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3h",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3i",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3j",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.1.3.3k",
+      "reason": "River landscapes not selected: this course's UK physical landscapes options are Coastal and Glacial landscapes (not River landscapes)"
+    },
+    {
+      "id": "3.2.3.1d",
+      "reason": "UK food content not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.1i",
+      "reason": "UK energy content not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.2a",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.2b",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.2c",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.2d",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.2e",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.2f",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.2g",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.2h",
+      "reason": "Food option not selected: this course's resource management option is Water, not Food"
+    },
+    {
+      "id": "3.2.3.4a",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.4b",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.4c",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.4d",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.4e",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.4f",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.4g",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    },
+    {
+      "id": "3.2.3.4h",
+      "reason": "Energy option not selected: this course's resource management option is Water, not Energy"
+    }
+  ],
+  "S01_Scheme_of_Assessment_and_AOs": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, section 2 (Subject content overview) and section 4 (Scheme of assessment)"
+    ],
+    "syllabus_topic": "Scheme of assessment and assessment objectives",
+    "covers_items": [
+      "2.2-P1",
+      "2.2-P2",
+      "2.2-P3",
+      "2.2-QT",
+      "4.2-AO1",
+      "4.2-AO2",
+      "4.2-AO3",
+      "4.2-AO4"
+    ]
+  },
+  "S02_Natural_Hazards_and_Tectonic_Processes": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.1.1 Natural hazards",
+      "3.1.1.2 Tectonic hazards"
+    ],
+    "syllabus_topic": "The challenge of natural hazards: tectonic hazards",
+    "covers_items": [
+      "3.1.1.1a",
+      "3.1.1.1b",
+      "3.1.1.1c",
+      "3.1.1.2a",
+      "3.1.1.2b",
+      "3.1.1.2c",
+      "3.1.1.2d",
+      "3.1.1.2e"
+    ]
+  },
+  "S03_Tectonic_Hazards_Effects_Responses_and_Case_Studies": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.1.2 Tectonic hazards"
+    ],
+    "syllabus_topic": "The challenge of natural hazards: tectonic hazards",
+    "covers_items": [
+      "3.1.1.2f",
+      "3.1.1.2g",
+      "3.1.1.2h",
+      "3.1.1.2i",
+      "3.1.1.2j",
+      "3.1.1.2k",
+      "3.1.1.2l",
+      "3.1.1.2m"
+    ]
+  },
+  "S04_Tropical_Storms": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.1.3 Weather hazards"
+    ],
+    "syllabus_topic": "The challenge of natural hazards: weather hazards",
+    "covers_items": [
+      "3.1.1.3a",
+      "3.1.1.3b",
+      "3.1.1.3c",
+      "3.1.1.3d",
+      "3.1.1.3e",
+      "3.1.1.3f",
+      "3.1.1.3g",
+      "3.1.1.3h"
+    ]
+  },
+  "S05_Tropical_Storms_Case_Study_and_UK_Weather": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.1.3 Weather hazards"
+    ],
+    "syllabus_topic": "The challenge of natural hazards: weather hazards",
+    "covers_items": [
+      "3.1.1.3i",
+      "3.1.1.3j",
+      "3.1.1.3k",
+      "3.1.1.3l",
+      "3.1.1.3m",
+      "3.1.1.3n",
+      "3.1.1.3o"
+    ]
+  },
+  "S06_Climate_Change": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.1.4 Climate change"
+    ],
+    "syllabus_topic": "The challenge of natural hazards: climate change",
+    "covers_items": [
+      "3.1.1.4a",
+      "3.1.1.4b",
+      "3.1.1.4c",
+      "3.1.1.4d",
+      "3.1.1.4e",
+      "3.1.1.4f"
+    ]
+  },
+  "S07_Ecosystems_and_Rainforest_Characteristics": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.2.1 Ecosystems",
+      "3.1.2.2 Tropical rainforests"
+    ],
+    "syllabus_topic": "The living world: ecosystems and tropical rainforests",
+    "covers_items": [
+      "3.1.2.1a",
+      "3.1.2.1b",
+      "3.1.2.1c",
+      "3.1.2.2a",
+      "3.1.2.2b",
+      "3.1.2.2c",
+      "3.1.2.2d"
+    ]
+  },
+  "S08_Rainforest_Deforestation_and_Management": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.2.2 Tropical rainforests"
+    ],
+    "syllabus_topic": "The living world: tropical rainforests",
+    "covers_items": [
+      "3.1.2.2e",
+      "3.1.2.2f",
+      "3.1.2.2g",
+      "3.1.2.2h",
+      "3.1.2.2i"
+    ]
+  },
+  "S09_Cold_Environments": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.2.4 Cold environments"
+    ],
+    "syllabus_topic": "The living world: cold environments",
+    "covers_items": [
+      "3.1.2.4a",
+      "3.1.2.4b",
+      "3.1.2.4c",
+      "3.1.2.4d",
+      "3.1.2.4e",
+      "3.1.2.4f",
+      "3.1.2.4g",
+      "3.1.2.4h"
+    ]
+  },
+  "S10_UK_Landscapes_and_Coastal_Processes": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.3.1 UK physical landscapes",
+      "3.1.3.2 Coastal landscapes"
+    ],
+    "syllabus_topic": "Physical landscapes in the UK: coastal landscapes",
+    "covers_items": [
+      "3.1.3.1a",
+      "3.1.3.2a",
+      "3.1.3.2b",
+      "3.1.3.2c",
+      "3.1.3.2d",
+      "3.1.3.2e",
+      "3.1.3.2f",
+      "3.1.3.2g"
+    ]
+  },
+  "S11_Coastal_Landforms": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.3.2 Coastal landscapes"
+    ],
+    "syllabus_topic": "Physical landscapes in the UK: coastal landscapes",
+    "covers_items": [
+      "3.1.3.2h",
+      "3.1.3.2i",
+      "3.1.3.2j",
+      "3.1.3.2k",
+      "3.1.3.2l",
+      "3.1.3.2m",
+      "3.1.3.2n"
+    ]
+  },
+  "S12_Coastal_Management": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.3.2 Coastal landscapes"
+    ],
+    "syllabus_topic": "Physical landscapes in the UK: coastal landscapes",
+    "covers_items": [
+      "3.1.3.2o",
+      "3.1.3.2p",
+      "3.1.3.2q",
+      "3.1.3.2r"
+    ]
+  },
+  "S13_Glacial_Processes_and_Erosional_Landforms": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.3.4 Glacial landscapes"
+    ],
+    "syllabus_topic": "Physical landscapes in the UK: glacial landscapes",
+    "covers_items": [
+      "3.1.3.4a",
+      "3.1.3.4b",
+      "3.1.3.4c",
+      "3.1.3.4d",
+      "3.1.3.4e",
+      "3.1.3.4f",
+      "3.1.3.4g",
+      "3.1.3.4h"
+    ]
+  },
+  "S14_Lake_District_Landforms_and_Tourism": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.1.3.4 Glacial landscapes"
+    ],
+    "syllabus_topic": "Physical landscapes in the UK: glacial landscapes",
+    "covers_items": [
+      "3.1.3.4i",
+      "3.1.3.4j",
+      "3.1.3.4k",
+      "3.1.3.4l",
+      "3.1.3.4m",
+      "3.1.3.4n"
+    ]
+  },
+  "S15_Urbanisation_and_Lagos_Growth": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.1 Urban issues and challenges"
+    ],
+    "syllabus_topic": "Urban issues and challenges: Lagos",
+    "covers_items": [
+      "3.2.1a",
+      "3.2.1b",
+      "3.2.1c",
+      "3.2.1d",
+      "3.2.1e",
+      "3.2.1f",
+      "3.2.1g",
+      "3.2.1h"
+    ]
+  },
+  "S16_Lagos_Challenges_and_Solutions": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.1 Urban issues and challenges"
+    ],
+    "syllabus_topic": "Urban issues and challenges: Lagos",
+    "covers_items": [
+      "3.2.1i",
+      "3.2.1j",
+      "3.2.1k",
+      "3.2.1l",
+      "3.2.1m",
+      "3.2.1n"
+    ]
+  },
+  "S17_UK_Cities_and_Manchester": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.1 Urban issues and challenges"
+    ],
+    "syllabus_topic": "Urban issues and challenges: Manchester",
+    "covers_items": [
+      "3.2.1o",
+      "3.2.1p",
+      "3.2.1q",
+      "3.2.1r",
+      "3.2.1s",
+      "3.2.1t",
+      "3.2.1u"
+    ]
+  },
+  "S18_Urban_Sprawl_Regeneration_and_Sustainability": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.1 Urban issues and challenges"
+    ],
+    "syllabus_topic": "Urban issues and challenges: sustainable urban living",
+    "covers_items": [
+      "3.2.1v",
+      "3.2.1w",
+      "3.2.1x",
+      "3.2.1y"
+    ]
+  },
+  "S19_Development_and_the_Development_Gap": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.2 The changing economic world"
+    ],
+    "syllabus_topic": "The changing economic world: measuring development",
+    "covers_items": [
+      "3.2.2a",
+      "3.2.2b",
+      "3.2.2c",
+      "3.2.2d",
+      "3.2.2e",
+      "3.2.2f",
+      "3.2.2g"
+    ]
+  },
+  "S20_Nigeria_Case_Study": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.2 The changing economic world"
+    ],
+    "syllabus_topic": "The changing economic world: Nigeria",
+    "covers_items": [
+      "3.2.2h",
+      "3.2.2i",
+      "3.2.2j",
+      "3.2.2k",
+      "3.2.2l",
+      "3.2.2m",
+      "3.2.2n",
+      "3.2.2o",
+      "3.2.2p"
+    ]
+  },
+  "S21_UK_Economic_Change": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.2 The changing economic world"
+    ],
+    "syllabus_topic": "The changing economic world: the UK",
+    "covers_items": [
+      "3.2.2q",
+      "3.2.2r",
+      "3.2.2s",
+      "3.2.2t",
+      "3.2.2u",
+      "3.2.2v",
+      "3.2.2w"
+    ]
+  },
+  "S22_Resource_Management_and_UK_Water": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.3.1 Resource management"
+    ],
+    "syllabus_topic": "The challenge of resource management: UK water",
+    "covers_items": [
+      "3.2.3.1a",
+      "3.2.3.1b",
+      "3.2.3.1c",
+      "3.2.3.1e",
+      "3.2.3.1f",
+      "3.2.3.1g",
+      "3.2.3.1h"
+    ]
+  },
+  "S23_Global_Water_Resource_Option": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.2.3.3 Water"
+    ],
+    "syllabus_topic": "The challenge of resource management: Water",
+    "covers_items": [
+      "3.2.3.3a",
+      "3.2.3.3b",
+      "3.2.3.3c",
+      "3.2.3.3d",
+      "3.2.3.3e",
+      "3.2.3.3f",
+      "3.2.3.3g",
+      "3.2.3.3h"
+    ]
+  },
+  "S24_Issue_Evaluation_Skills": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.3.1 Issue evaluation"
+    ],
+    "syllabus_topic": "Geographical applications: issue evaluation",
+    "covers_items": [
+      "3.3.1a",
+      "3.3.1b",
+      "3.3.1c",
+      "3.3.1d",
+      "3.3.1e"
+    ]
+  },
+  "S25_Fieldwork_Enquiry_Questions_and_Data_Collection": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.3.2 Fieldwork"
+    ],
+    "syllabus_topic": "Geographical applications: fieldwork",
+    "covers_items": [
+      "3.3.2.0a",
+      "3.3.2.0b",
+      "3.3.2.1a",
+      "3.3.2.1b",
+      "3.3.2.1c",
+      "3.3.2.1d"
+    ]
+  },
+  "S26_Fieldwork_Data_Types_and_Sampling": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.3.2 Fieldwork"
+    ],
+    "syllabus_topic": "Geographical applications: fieldwork",
+    "covers_items": [
+      "3.3.2.2a",
+      "3.3.2.2b",
+      "3.3.2.2c",
+      "3.3.2.2d",
+      "3.3.2.3a",
+      "3.3.2.3b",
+      "3.3.2.3c"
+    ]
+  },
+  "S27_Fieldwork_Analysis_and_Conclusions": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.3.2 Fieldwork"
+    ],
+    "syllabus_topic": "Geographical applications: fieldwork",
+    "covers_items": [
+      "3.3.2.4a",
+      "3.3.2.4b",
+      "3.3.2.4c",
+      "3.3.2.4d",
+      "3.3.2.5a",
+      "3.3.2.6a",
+      "3.3.2.6b"
+    ]
+  },
+  "S28_Fieldwork_Evaluation_and_School_Enquiries": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.3.2 Fieldwork"
+    ],
+    "syllabus_topic": "Geographical applications: fieldwork (school enquiry)",
+    "covers_items": [
+      "3.3.2.6c",
+      "3.3.2.6d",
+      "3.3.2.7a",
+      "3.3.2.7b",
+      "3.3.2.8a",
+      "3.3.2.8b"
+    ]
+  },
+  "S29_Atlas_Maps_and_OS_Map_Basics": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.4.1 Cartographic skills"
+    ],
+    "syllabus_topic": "Geographical skills: cartographic skills",
+    "covers_items": [
+      "3.4.1a",
+      "3.4.1b",
+      "3.4.1c",
+      "3.4.1d",
+      "3.4.1e",
+      "3.4.1f",
+      "3.4.1g"
+    ]
+  },
+  "S30_OS_Maps_Relief_and_Landscape_Features": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.4.1 Cartographic skills"
+    ],
+    "syllabus_topic": "Geographical skills: cartographic skills",
+    "covers_items": [
+      "3.4.1h",
+      "3.4.1i",
+      "3.4.1j",
+      "3.4.1k",
+      "3.4.1l",
+      "3.4.1m",
+      "3.4.1n"
+    ]
+  },
+  "S31_Maps_with_Photographs_and_Annotation": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.4.1 Cartographic skills"
+    ],
+    "syllabus_topic": "Geographical skills: cartographic skills",
+    "covers_items": [
+      "3.4.1o",
+      "3.4.1p",
+      "3.4.1q",
+      "3.4.1r",
+      "3.4.1s",
+      "3.4.1t",
+      "3.4.1u"
+    ]
+  },
+  "S32_Graphical_Skills": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.4.2 Graphical skills"
+    ],
+    "syllabus_topic": "Geographical skills: graphical skills",
+    "covers_items": [
+      "3.4.2a",
+      "3.4.2b",
+      "3.4.2c",
+      "3.4.2d",
+      "3.4.2e",
+      "3.4.2f"
+    ]
+  },
+  "S33_Numerical_and_Statistical_Skills": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.4.3 Numerical skills",
+      "3.4.4 Statistical skills"
+    ],
+    "syllabus_topic": "Geographical skills: numerical and statistical skills",
+    "covers_items": [
+      "3.4.3a",
+      "3.4.3b",
+      "3.4.3c",
+      "3.4.3d",
+      "3.4.4a",
+      "3.4.4b",
+      "3.4.4c",
+      "3.4.4d"
+    ]
+  },
+  "S34_Data_Sources_Enquiry_Writing_and_SPaG": {
+    "covers_syllabus_refs": [
+      "AQA 8035 specification, 3.4.5 Use of qualitative and quantitative data",
+      "3.4.6 Formulate enquiry and argument",
+      "3.4.7 Literacy",
+      "4.4 SPaG"
+    ],
+    "syllabus_topic": "Geographical skills: data use, enquiry and literacy",
+    "covers_items": [
+      "3.4.5a",
+      "3.4.5b",
+      "3.4.6a",
+      "3.4.6b",
+      "3.4.6c",
+      "3.4.6d",
+      "3.4.6e",
+      "3.4.7a",
+      "4.4-SPaG"
+    ]
+  }
+}

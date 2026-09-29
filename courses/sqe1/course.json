@@ -1,0 +1,44 @@
+{
+  "schema_version": 4,
+  "name": "SQE1 (Solicitors Qualifying Examination, Stage 1) — Functioning Legal Knowledge",
+  "requires_complete": [
+    "llb"
+  ],
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "SRA SQE1 Assessment Specification, FLK1 and FLK2 content-statement pages, fetched live on 2026-09-22 from sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1 and /flk2 and itemised in full -- every subject heading and sub-heading on both pages is represented by at least one item id below, using the SRA's own sub-heading wording. Assessment mechanics (170 single-best-answer questions per paper across two 2 hour 33 minute sessions of 85 questions each, five answer options, criterion-referenced pass-mark setting rather than a fixed percentage) carried over unchanged from the prior build's rubric.json, which recorded these as checked against the SRA's own pages on 2026-09-17 (including the correction that the SRA specifies 170 questions per paper, not 180). Item ids are this build's own stable scheme (subject-code.number, e.g. BLP.1, DR.1, CON.1), since the SRA's content pages use nested headings rather than a single running numbering scheme across the whole page.",
+  "academic_level": null,
+  "level_source": "standalone: the SRA publishes no RQF/FHEQ level for the SQE (a professional licensing assessment); no level recorded. Made standalone by the library owner on 2026-09-26.",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "FLK1_Business_Law_and_Practice",
+    "FLK1_Dispute_Resolution",
+    "FLK1_Contract_Law",
+    "FLK1_Tort",
+    "FLK1_Legal_System_Constitutional_Administrative_EU_Law",
+    "FLK1_Legal_Services",
+    "FLK2_Property_Law_and_Practice",
+    "FLK2_Wills_and_Administration_of_Estates",
+    "FLK2_Solicitors_Accounts",
+    "FLK2_Land_Law",
+    "FLK2_Trusts_Law",
+    "FLK2_Criminal_Liability",
+    "FLK2_Criminal_Law_and_Practice"
+  ],
+  "linear": true,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": true,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "standalone"
+}

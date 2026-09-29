@@ -1,0 +1,23 @@
+# S13_Strange_Situation_Cultural_Variations_and_Disruption - Test: The Strange Situation, cultural variations, disruption of attachment, and later relationships
+
+## How to run this
+A real checkpoint in AQA's style: short-answer, calculation and levels-marked extended-writing questions at the real tariffs used in the actual papers (1-16 marks), with marks shown. Give the whole test at once, with no hints, under rough time pressure (allow about 1.5 minutes per mark, matching AQA's papers). Then mark short/calculation items against the mark schemes below, and extended-writing items using AQA's levels-of-response descriptors (also below), together with this stage's entry in `rubric.json`.
+
+## Test items
+1. Describe the procedure of Ainsworth's Strange Situation. [4 marks]
+2. Outline the key findings of the English and Romanian Adoptees (ERA) study, and explain what they show about a sensitive period for attachment. [6 marks]
+3. [16-mark style] Discuss research into cultural variations in attachment. [16 marks]
+
+## Answer key (for the tutor only)
+1. [4] B1 controlled observation in an unfamiliar room involving a sequence of separations and reunions between caregiver and infant, and the introduction of a stranger; B1 behaviour scored on proximity-seeking/exploration, stranger anxiety, separation anxiety and reunion behaviour; B1 correctly identifies the three (or four, if disorganised is included) resulting attachment types; B1 accurate description of at least one type's typical behaviour pattern (e.g. secure: moderate anxiety, easily comforted at reunion).
+2. [6] B1 Rutter et al. followed over 100 Romanian orphans adopted into UK families after severe institutional deprivation, comparing developmental outcomes to UK-adopted children; B1 children adopted before six months showed close to normal intellectual/emotional development by later childhood; B1 children adopted later (especially after age two) showed significantly poorer outcomes; B1 including a distinctive pattern of disinhibited attachment (indiscriminate friendliness to unfamiliar adults); B1 and lower average intellectual development that improved less fully; B1 supporting the existence of a sensitive period (rather than Bowlby's original strict critical period), with a dose-response relationship between length of deprivation and severity of effects.
+3. [16] Mark out of 16 using AQA's levels of response for a 16-mark 'Discuss ...' essay (AO1 knowledge + AO3 discussion/evaluation, no fixed AO1/AO3 split): Level 4 (13-16) knowledge is accurate and generally well detailed; discussion/evaluation is thorough and effective; the answer is clear, coherent, focused and well structured, using appropriate psychological terminology throughout. Level 3 (9-12) knowledge is evident but there are some inaccuracies/a lack of detail; discussion/evaluation is mostly effective and shows some depth; the answer is mostly clear and organised, with generally appropriate terminology. Level 2 (5-8) knowledge is limited, and mostly focused on description; discussion/evaluation is limited, superficial or lacks focus; the answer lacks a logical structure, with some use of psychological terminology. Level 1 (1-4) knowledge is very limited or muddled; evaluation/discussion, if present at all, is barely discernible or inappropriate; the answer lacks any clear structure; terminology is used inaccurately or not at all. 0 marks: no relevant content. Credit accurate description of Van Ijzendoorn and Kroonenberg's meta-analytic method and findings (universality of secure attachment as the most common type; cultural variation in the pattern of insecure types; greater within- than between-country variation); discussion should include the large combined sample's strength for generalisability, and the imposed etic criticism -- that the Strange Situation, developed in a Western context, may not carry the same meaning for attachment behaviour observed in other cultures.
+
+## Grading
+Apply `rubric.json`'s `stage_rubrics.S13_Strange_Situation_Cultural_Variations_and_Disruption` exactly. Mark each answer against its mark scheme (method marks need the method shown; a multiple-choice item is worth 1 mark and needs every correct option and nothing else). 26 marks in all; a pass needs at least 16 (60%, rounded up). Record `pass` or `fail` in `syllabus_status`, with the mark and a short honest note on what was missed.
+
+## If not passed
+Name the specific misconceptions the wrong answers show, run remediation on those, then re-test with fresh items of the same types (never this exact set).
+
+## On pass
+Record the pass and move on to S14_Definitions_of_Abnormality.

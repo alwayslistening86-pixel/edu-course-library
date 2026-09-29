@@ -1,0 +1,58 @@
+{
+  "schema_version": 4,
+  "name": "Accounting & Finance (BSc Hons) — Open University module-framework structure, QAA Accounting Benchmark graded",
+  "requires_complete": [
+    "alevel_mathematics",
+    "alevel_accounting"
+  ],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "Open University BSc (Honours) Accounting and Finance, qualification code R52 (confirmed current and live via open.ac.uk/courses/qualifications/r52), 2026/27 module list and stage structure. R52 bundles its 360 credits into three stages: Stage 1 (Level 4, 120 credits) B100 'An introduction to business and management' (60), B124 'Fundamentals of accounting' (30), B126 'Business data analytics and decision making' (30); Stage 2 (Level 5, 120 credits) B250 'Intermediate financial accounting' (30), B251 'Business law' (30), B252 'Financial management' (30), B253 'Intermediate management accounting' (30); Stage 3 (Level 6, 120 credits) B350 'Advanced financial accounting' (30), B351 'Governance, audit and assurance' (30), B352 'Advanced financial management and management accounting' (30), B353 'Taxation' (30) -- every module code independently verified live for a current, scheduled presentation (not merely carried over from an older prospectus), with two plausible but actually withdrawn codes (B291, B292) explicitly ruled out along the way; see VERSION_NOTE for exactly which pages were fetched and what each one showed. This course does not reteach Stage 1: B100's general introductory business/management content and B124's introductory double-entry bookkeeping/basic financial statements are substantially covered, at an equivalent or greater computational depth in the bookkeeping case, by the prerequisite A-level Accounting and GCSE/A-level Mathematics; this course instead opens with a short bridging stage (S01, BQ1-BQ5) covering the business-statistics/data-analytics toolkit B126 introduces at Stage 1 but that A-level Mathematics' pure/mechanics-heavy syllabus does not (business descriptive statistics, sampling, confidence intervals/hypothesis testing, regression, index numbers), then builds the full Stage 2 and Stage 3 module content: intermediate financial reporting standards and law (S02-S04, B250/B251), financial management and management accounting foundations (S05-S07, B252/B253), advanced financial accounting -- group accounts, associates, FX translation, financial instruments and EPS (S08-S09, B350), governance/audit/assurance (S10, B351), advanced financial management and management accounting (S11-S12, B352), and taxation (S13, B353), closing with an original integrative capstone (S14) synthesising the whole degree in a single professional-style scenario, as the QAA benchmark's emphasis on graduate professional judgement -- not just isolated technical recall -- expects. The OU's own detailed unit-by-unit module materials, TMA questions and module handbooks sit behind its student VLE and were not accessible; every topic here uses the standard, institution-agnostic topic breakdown for that subject found in any intermediate/advanced financial accounting, financial management, management accounting, audit and UK taxation textbook or module descriptor -- this is core undergraduate accounting/finance content, not institution-specific material -- cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition, current at qaa.ac.uk), which each module's own live description page (fetched live) was consulted alongside for its stated topic summary. Stage tests and the cumulative exam are original problems in the style used across UK intermediate/degree accounting and finance assessment, never real OU TMA or exam questions; this course's cumulative exam is accordingly an original synthesis assessment spanning every stage, since the OU's own per-module continuous assessment (TMAs plus an EMA or exam per module) is not itemisable from the open web and does not correspond to a single combined final exam in the way this library's exam block models. Every numerical answer in this course was computed with Python when the course was built, and every accounting/finance scenario (group accounts, NPV/IRR, cost variances, tax computations) was checked for internal arithmetic consistency -- each figure used in a question's answer is the actual result of the stated inputs, not an invented round number. UK tax figures (S13) are the current 2026/27 tax year rates/thresholds/allowances and should be rechecked against HMRC's published rates before relying on a real-world calculation, since they change at least annually.",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (Bachelor's degree with Honours), per QAA Framework for Higher Education Qualifications and the QAA Subject Benchmark Statement: Accounting (2025)",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires A-level Mathematics and A-level Accounting, matching the roadmap's rule that a degree requires the specific prior qualifications it depends on. A-level Mathematics is the standard quantitative prerequisite most UK universities set for an Accounting & Finance degree (algebra, basic calculus and the numeracy this course's financial calculations assume); A-level Accounting is the direct subject match now that this library has it, giving the learner double-entry bookkeeping, basic financial statements and core accounting concepts as a floor. This course deliberately does not reteach A-level Accounting's basic financial statement preparation or A-level Mathematics' algebra/calculus; every stage here extends that base with specific IFRS Accounting Standards, group accounts, audit/governance, corporate financial management, advanced management accounting, UK taxation, and the business-statistics toolkit A-level Mathematics does not cover."
+    },
+    {
+      "id": "current_figures",
+      "text": "UK tax rates/thresholds (S13) and any illustrative interest rates/market values used elsewhere in this course are real, changing figures. Where this course gives a figure, treat it as an illustration for a worked example; for any real-world application, use current rates you have checked from official sources such as HMRC (gov.uk), the FRC (UK Corporate Governance Code), or the IFRS Foundation (current Accounting Standards)."
+    },
+    {
+      "id": "assessment_model",
+      "text": "The real OU R52 is assessed through continuous tutor-marked assignments (TMAs) plus a module-level exam or end-of-module assessment (EMA) for each of the eleven real modules, not one combined final exam across the whole degree. This course's stage tests substitute for TMA-style formative checkpoints and its cumulative exam is an original, comprehensive synthesis assessment for tutoring purposes -- it does not represent any single real OU assessment."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Quantitative_Bridge_for_Accounting_Finance",
+    "S02_Financial_Reporting_Standards_I",
+    "S03_Financial_Reporting_Standards_II_and_Analysis",
+    "S04_Law_for_Accounting_and_Finance",
+    "S05_Financial_Management",
+    "S06_Management_Accounting_I_Costing_and_Budgeting",
+    "S07_Management_Accounting_II_Standard_Costing_and_Performance",
+    "S08_Advanced_Financial_Accounting_I_Group_Accounts",
+    "S09_Advanced_Financial_Accounting_II",
+    "S10_Governance_Audit_and_Assurance",
+    "S11_Advanced_Financial_Management",
+    "S12_Advanced_Management_Accounting",
+    "S13_Taxation",
+    "S14_Integrative_Capstone"
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "BPP Legal Practice Course Programme Handbook 2017-18 (module list, credit values, assessment formats, classification scheme) combined with the standard LPC/SRA-outcomes-framework topic breakdown for each practice area's actual practical content (procedure, forms, professional conduct rules), as taught on any equivalent legal practice course of the period. BPP's own detailed module study materials and specific SRA outcome-by-outcome numbering below module level were not independently re-verified line-by-line, so this course invents its own stable id scheme per module (e.g. BLP-1 for Business Law and Practice topic 1) rather than reproducing any single provider's internal numbering, recorded honestly here.",
+    "url": "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+    "version": "Standard-topic itemisation compiled 2026-09-22 against the BPP 2017-18 handbook's module list and the SRA's live outcomes framework; below-module SRA outcome numbering not independently re-verified line by line.",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "BLP-1",
+      "title": "Choosing and comparing business vehicles",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-2",
+      "title": "Company formation and constitutional documents",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-3",
+      "title": "Board decision-making procedure",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-4",
+      "title": "Shareholder decision-making procedure",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-5",
+      "title": "Directors' general duties (CA 2006 ss.171-177)",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-6",
+      "title": "Raising equity finance",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-7",
+      "title": "Raising debt finance and taking security",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-8",
+      "title": "Corporate insolvency procedures",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-9",
+      "title": "Order of priority on liquidation",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-10",
+      "title": "Taxation of unincorporated businesses",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "BLP-11",
+      "title": "Taxation of companies and VAT; reading business accounts",
+      "topic_area": "Business Law and Practice"
+    },
+    {
+      "id": "PLP-1",
+      "title": "Taking instructions and investigating title",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "PLP-2",
+      "title": "Pre-contract searches and enquiries",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "PLP-3",
+      "title": "Drafting and negotiating the contract",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "PLP-4",
+      "title": "Exchange of contracts",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "PLP-5",
+      "title": "Completion procedure",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "PLP-6",
+      "title": "Stamp Duty Land Tax",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "PLP-7",
+      "title": "Post-completion registration",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "PLP-8",
+      "title": "Leasehold-specific conveyancing procedure",
+      "topic_area": "Property Law and Practice"
+    },
+    {
+      "id": "LIT-C1",
+      "title": "Pre-action conduct and protocols",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-C2",
+      "title": "Starting a claim and statements of case",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-C3",
+      "title": "Limitation periods",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-C4",
+      "title": "Track allocation",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-C5",
+      "title": "Disclosure",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-C6",
+      "title": "Interim applications",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-C7",
+      "title": "Part 36 offers",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-C8",
+      "title": "Trial, costs and enforcement",
+      "topic_area": "Litigation - Civil"
+    },
+    {
+      "id": "LIT-CR1",
+      "title": "Police station procedure",
+      "topic_area": "Litigation - Criminal"
+    },
+    {
+      "id": "LIT-CR2",
+      "title": "Interview and adverse inference",
+      "topic_area": "Litigation - Criminal"
+    },
+    {
+      "id": "LIT-CR3",
+      "title": "Charge and bail",
+      "topic_area": "Litigation - Criminal"
+    },
+    {
+      "id": "LIT-CR4",
+      "title": "Classification of offences and mode of trial",
+      "topic_area": "Litigation - Criminal"
+    },
+    {
+      "id": "LIT-CR5",
+      "title": "Trial process",
+      "topic_area": "Litigation - Criminal"
+    },
+    {
+      "id": "LIT-CR6",
+      "title": "Sentencing basics",
+      "topic_area": "Litigation - Criminal"
+    },
+    {
+      "id": "PCR-1",
+      "title": "SRA Principles and Code of Conduct",
+      "topic_area": "Professional Conduct and Regulation"
+    },
+    {
+      "id": "PCR-2",
+      "title": "Conflicts of interest",
+      "topic_area": "Professional Conduct and Regulation"
+    },
+    {
+      "id": "PCR-3",
+      "title": "Confidentiality and disclosure",
+      "topic_area": "Professional Conduct and Regulation"
+    },
+    {
+      "id": "PCR-4",
+      "title": "Client care and complaints handling",
+      "topic_area": "Professional Conduct and Regulation"
+    },
+    {
+      "id": "PCR-5",
+      "title": "Anti-money laundering",
+      "topic_area": "Professional Conduct and Regulation"
+    },
+    {
+      "id": "PCR-6",
+      "title": "Solicitors' accounts basics",
+      "topic_area": "Professional Conduct and Regulation"
+    },
+    {
+      "id": "WAE-1",
+      "title": "Will validity formalities and capacity",
+      "topic_area": "Wills and Administration of Estates"
+    },
+    {
+      "id": "WAE-2",
+      "title": "Revocation of wills",
+      "topic_area": "Wills and Administration of Estates"
+    },
+    {
+      "id": "WAE-3",
+      "title": "Intestacy rules",
+      "topic_area": "Wills and Administration of Estates"
+    },
+    {
+      "id": "WAE-4",
+      "title": "Obtaining the grant",
+      "topic_area": "Wills and Administration of Estates"
+    },
+    {
+      "id": "WAE-5",
+      "title": "Inheritance tax on death",
+      "topic_area": "Wills and Administration of Estates"
+    },
+    {
+      "id": "WAE-6",
+      "title": "Administering the estate",
+      "topic_area": "Wills and Administration of Estates"
+    },
+    {
+      "id": "SK-IA-1",
+      "title": "Opening the interview",
+      "topic_area": "Skills - Interviewing and Advising"
+    },
+    {
+      "id": "SK-IA-2",
+      "title": "Information gathering",
+      "topic_area": "Skills - Interviewing and Advising"
+    },
+    {
+      "id": "SK-IA-3",
+      "title": "Identifying the client's real objective",
+      "topic_area": "Skills - Interviewing and Advising"
+    },
+    {
+      "id": "SK-IA-4",
+      "title": "Advising in plain English with options",
+      "topic_area": "Skills - Interviewing and Advising"
+    },
+    {
+      "id": "SK-IA-5",
+      "title": "Closing and next steps",
+      "topic_area": "Skills - Interviewing and Advising"
+    },
+    {
+      "id": "SK-ADV-1",
+      "title": "Structuring a short oral submission",
+      "topic_area": "Skills - Advocacy"
+    },
+    {
+      "id": "SK-ADV-2",
+      "title": "Ordering and supporting arguments",
+      "topic_area": "Skills - Advocacy"
+    },
+    {
+      "id": "SK-ADV-3",
+      "title": "Handling judicial interventions",
+      "topic_area": "Skills - Advocacy"
+    },
+    {
+      "id": "SK-ADV-4",
+      "title": "Courtroom manner and etiquette",
+      "topic_area": "Skills - Advocacy"
+    },
+    {
+      "id": "SK-ADV-5",
+      "title": "Preparing an unseen brief under time pressure",
+      "topic_area": "Skills - Advocacy"
+    },
+    {
+      "id": "SK-PLR-1",
+      "title": "Framing the research question",
+      "topic_area": "Skills - Practical Legal Research"
+    },
+    {
+      "id": "SK-PLR-2",
+      "title": "Selecting the right source type",
+      "topic_area": "Skills - Practical Legal Research"
+    },
+    {
+      "id": "SK-PLR-3",
+      "title": "Efficient search technique",
+      "topic_area": "Skills - Practical Legal Research"
+    },
+    {
+      "id": "SK-PLR-4",
+      "title": "Verifying currency of the law",
+      "topic_area": "Skills - Practical Legal Research"
+    },
+    {
+      "id": "SK-PLR-5",
+      "title": "Building a usable research trail",
+      "topic_area": "Skills - Practical Legal Research"
+    },
+    {
+      "id": "SK-LW-1",
+      "title": "Attendance note conventions",
+      "topic_area": "Skills - Legal Writing"
+    },
+    {
+      "id": "SK-LW-2",
+      "title": "Client letter and email structure",
+      "topic_area": "Skills - Legal Writing"
+    },
+    {
+      "id": "SK-LW-3",
+      "title": "Plain-English drafting conventions",
+      "topic_area": "Skills - Legal Writing"
+    },
+    {
+      "id": "SK-LW-4",
+      "title": "Matching register to reader",
+      "topic_area": "Skills - Legal Writing"
+    },
+    {
+      "id": "SK-DR-1",
+      "title": "Core drafting principles",
+      "topic_area": "Skills - Drafting"
+    },
+    {
+      "id": "SK-DR-2",
+      "title": "Operative clauses",
+      "topic_area": "Skills - Drafting"
+    },
+    {
+      "id": "SK-DR-3",
+      "title": "Drafting a contractual clause",
+      "topic_area": "Skills - Drafting"
+    },
+    {
+      "id": "SK-DR-4",
+      "title": "Drafting particulars of claim",
+      "topic_area": "Skills - Drafting"
+    },
+    {
+      "id": "SK-DR-5",
+      "title": "Drafting a simple will clause",
+      "topic_area": "Skills - Drafting"
+    },
+    {
+      "id": "SK-DR-6",
+      "title": "Drafting conveyancing special conditions",
+      "topic_area": "Skills - Drafting"
+    },
+    {
+      "id": "CLIP-1",
+      "title": "Sale of goods and retention of title",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "CLIP-2",
+      "title": "Agency",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "CLIP-3",
+      "title": "Distribution and franchising",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "CLIP-4",
+      "title": "Trade marks and passing off",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "CLIP-5",
+      "title": "Copyright",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "CLIP-6",
+      "title": "Patents",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "CLIP-7",
+      "title": "Confidential information",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "CLIP-8",
+      "title": "IP licensing and IP due diligence",
+      "topic_area": "Elective - Commercial Law and IP"
+    },
+    {
+      "id": "EMP-1",
+      "title": "Employment status",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "EMP-2",
+      "title": "Terms of the contract of employment",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "EMP-3",
+      "title": "Wrongful dismissal",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "EMP-4",
+      "title": "Unfair dismissal",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "EMP-5",
+      "title": "Redundancy",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "EMP-6",
+      "title": "Discrimination under the Equality Act 2010",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "EMP-7",
+      "title": "Reasonable adjustments",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "EMP-8",
+      "title": "Employment Tribunal procedure",
+      "topic_area": "Elective - Employment Law"
+    },
+    {
+      "id": "FAM-1",
+      "title": "Divorce and dissolution procedure",
+      "topic_area": "Elective - Family Law"
+    },
+    {
+      "id": "FAM-2",
+      "title": "Financial remedies: the statutory checklist",
+      "topic_area": "Elective - Family Law"
+    },
+    {
+      "id": "FAM-3",
+      "title": "Financial remedies: approaches and orders",
+      "topic_area": "Elective - Family Law"
+    },
+    {
+      "id": "FAM-4",
+      "title": "The clean break principle",
+      "topic_area": "Elective - Family Law"
+    },
+    {
+      "id": "FAM-5",
+      "title": "Private law children proceedings and the welfare principle",
+      "topic_area": "Elective - Family Law"
+    },
+    {
+      "id": "FAM-6",
+      "title": "The welfare checklist",
+      "topic_area": "Elective - Family Law"
+    },
+    {
+      "id": "FAM-7",
+      "title": "Parental responsibility",
+      "topic_area": "Elective - Family Law"
+    },
+    {
+      "id": "FAM-8",
+      "title": "Practice points for family clients",
+      "topic_area": "Elective - Family Law"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_BLP_Vehicles_and_Governance": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Business Law and Practice",
+      "Companies Act 2006 Parts 3, 10"
+    ],
+    "syllabus_topic": "Business Law and Practice",
+    "covers_items": [
+      "BLP-1",
+      "BLP-2",
+      "BLP-3",
+      "BLP-4",
+      "BLP-5"
+    ]
+  },
+  "S02_BLP_Finance_Insolvency_and_Tax": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Business Law and Practice",
+      "Companies Act 2006 Part 17, Part 25",
+      "Insolvency Act 1986"
+    ],
+    "syllabus_topic": "Business Law and Practice",
+    "covers_items": [
+      "BLP-6",
+      "BLP-7",
+      "BLP-8",
+      "BLP-9",
+      "BLP-10",
+      "BLP-11"
+    ]
+  },
+  "S03_PLP_PreContract_to_Exchange": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Property Law and Practice",
+      "Law of Property Act 1925",
+      "Land Registration Act 2002"
+    ],
+    "syllabus_topic": "Property Law and Practice",
+    "covers_items": [
+      "PLP-1",
+      "PLP-2",
+      "PLP-3",
+      "PLP-4"
+    ]
+  },
+  "S04_PLP_Completion_SDLT_and_Leasehold": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Property Law and Practice",
+      "Finance Act 2003 (SDLT)",
+      "Land Registration Act 2002"
+    ],
+    "syllabus_topic": "Property Law and Practice",
+    "covers_items": [
+      "PLP-5",
+      "PLP-6",
+      "PLP-7",
+      "PLP-8"
+    ]
+  },
+  "S05_LIT_Civil_PreAction_and_Starting_a_Claim": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Litigation (Civil)",
+      "Civil Procedure Rules",
+      "Limitation Act 1980"
+    ],
+    "syllabus_topic": "Litigation - Civil",
+    "covers_items": [
+      "LIT-C1",
+      "LIT-C2",
+      "LIT-C3",
+      "LIT-C4"
+    ]
+  },
+  "S06_LIT_Civil_Interim_Trial_and_Costs": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Litigation (Civil)",
+      "Civil Procedure Rules Parts 24, 25, 31, 36, 44"
+    ],
+    "syllabus_topic": "Litigation - Civil",
+    "covers_items": [
+      "LIT-C5",
+      "LIT-C6",
+      "LIT-C7",
+      "LIT-C8"
+    ]
+  },
+  "S07_LIT_Criminal_PoliceStation_to_Bail": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Litigation (Criminal)",
+      "PACE 1984 and Codes of Practice",
+      "Bail Act 1976"
+    ],
+    "syllabus_topic": "Litigation - Criminal",
+    "covers_items": [
+      "LIT-CR1",
+      "LIT-CR2",
+      "LIT-CR3"
+    ]
+  },
+  "S08_LIT_Criminal_Trial_and_Sentencing": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Litigation (Criminal)",
+      "Magistrates' Courts Act 1980",
+      "Sentencing Act 2020"
+    ],
+    "syllabus_topic": "Litigation - Criminal",
+    "covers_items": [
+      "LIT-CR4",
+      "LIT-CR5",
+      "LIT-CR6"
+    ]
+  },
+  "S09_PCR_Conduct_and_Regulation": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Professional Conduct and Regulation",
+      "SRA Principles",
+      "SRA Code of Conduct",
+      "Solicitors' Accounts Rules",
+      "Money Laundering Regulations"
+    ],
+    "syllabus_topic": "Professional Conduct and Regulation",
+    "covers_items": [
+      "PCR-1",
+      "PCR-2",
+      "PCR-3",
+      "PCR-4",
+      "PCR-5",
+      "PCR-6"
+    ]
+  },
+  "S10_WAE_Wills_Intestacy_and_Estate_Administration": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Wills and Administration of Estates",
+      "Wills Act 1837",
+      "Administration of Estates Act 1925",
+      "Inheritance Tax Act 1984"
+    ],
+    "syllabus_topic": "Wills and Administration of Estates",
+    "covers_items": [
+      "WAE-1",
+      "WAE-2",
+      "WAE-3",
+      "WAE-4",
+      "WAE-5",
+      "WAE-6"
+    ]
+  },
+  "S11_Skills_Interviewing_and_Advising": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Course Skills - Interviewing and Advising"
+    ],
+    "syllabus_topic": "Skills - Interviewing and Advising",
+    "covers_items": [
+      "SK-IA-1",
+      "SK-IA-2",
+      "SK-IA-3",
+      "SK-IA-4",
+      "SK-IA-5"
+    ]
+  },
+  "S12_Skills_Advocacy": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Course Skills - Advocacy"
+    ],
+    "syllabus_topic": "Skills - Advocacy",
+    "covers_items": [
+      "SK-ADV-1",
+      "SK-ADV-2",
+      "SK-ADV-3",
+      "SK-ADV-4",
+      "SK-ADV-5"
+    ]
+  },
+  "S13_Skills_Practical_Legal_Research": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Course Skills - Practical Legal Research and Writing (research half)"
+    ],
+    "syllabus_topic": "Skills - Practical Legal Research",
+    "covers_items": [
+      "SK-PLR-1",
+      "SK-PLR-2",
+      "SK-PLR-3",
+      "SK-PLR-4",
+      "SK-PLR-5"
+    ]
+  },
+  "S14_Skills_Legal_Writing": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Course Skills - Practical Legal Research and Writing (writing half)"
+    ],
+    "syllabus_topic": "Skills - Legal Writing",
+    "covers_items": [
+      "SK-LW-1",
+      "SK-LW-2",
+      "SK-LW-3",
+      "SK-LW-4"
+    ]
+  },
+  "S15_Skills_Drafting": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Course Skills - Drafting"
+    ],
+    "syllabus_topic": "Skills - Drafting",
+    "covers_items": [
+      "SK-DR-1",
+      "SK-DR-2",
+      "SK-DR-3",
+      "SK-DR-4",
+      "SK-DR-5",
+      "SK-DR-6"
+    ]
+  },
+  "S16_CLIP_Commercial_Contracts_and_Trade_Marks": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Commercial Law and Intellectual Property",
+      "Sale of Goods Act 1979",
+      "Trade Marks Act 1994"
+    ],
+    "syllabus_topic": "Elective - Commercial Law and IP",
+    "covers_items": [
+      "CLIP-1",
+      "CLIP-2",
+      "CLIP-3",
+      "CLIP-4"
+    ]
+  },
+  "S17_CLIP_Copyright_Patents_Confidentiality_and_Exploitation": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Commercial Law and Intellectual Property",
+      "Copyright, Designs and Patents Act 1988",
+      "Patents Act 1977"
+    ],
+    "syllabus_topic": "Elective - Commercial Law and IP",
+    "covers_items": [
+      "CLIP-5",
+      "CLIP-6",
+      "CLIP-7",
+      "CLIP-8"
+    ]
+  },
+  "S18_EMP_Status_Contract_and_Dismissal": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Employment Law",
+      "Employment Rights Act 1996"
+    ],
+    "syllabus_topic": "Elective - Employment Law",
+    "covers_items": [
+      "EMP-1",
+      "EMP-2",
+      "EMP-3",
+      "EMP-4"
+    ]
+  },
+  "S19_EMP_Redundancy_Discrimination_and_Tribunal_Procedure": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Employment Law",
+      "Equality Act 2010"
+    ],
+    "syllabus_topic": "Elective - Employment Law",
+    "covers_items": [
+      "EMP-5",
+      "EMP-6",
+      "EMP-7",
+      "EMP-8"
+    ]
+  },
+  "S20_FAM_Divorce_and_Financial_Remedies": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Family Law",
+      "Matrimonial Causes Act 1973",
+      "Divorce, Dissolution and Separation Act 2020"
+    ],
+    "syllabus_topic": "Elective - Family Law",
+    "covers_items": [
+      "FAM-1",
+      "FAM-2",
+      "FAM-3",
+      "FAM-4"
+    ]
+  },
+  "S21_FAM_Children_Proceedings_and_Practice": {
+    "covers_syllabus_refs": [
+      "BPP LPC Handbook 2017-18, Family Law",
+      "Children Act 1989"
+    ],
+    "syllabus_topic": "Elective - Family Law",
+    "covers_items": [
+      "FAM-5",
+      "FAM-6",
+      "FAM-7",
+      "FAM-8"
+    ]
+  }
+}

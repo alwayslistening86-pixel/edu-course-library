@@ -1,0 +1,562 @@
+{
+  "stage_rubrics": {
+    "S01_Course_Map_Papers_and_Marks": {
+      "criteria": [
+        "States both papers' length, marks and weightings correctly, and divides 80 marks into 40 reading and 40 writing",
+        "Recalls Paper 1 Section A question marks and AOs (4 AO1, 8 AO2, 8 AO2, 20 AO4) accurately",
+        "Explains levels of response in the board's terms (skills descriptors, quality over quantity, four levels)",
+        "Identifies Spoken Language as separately reported, unmarked, Pass/Merit/Distinction/Not Classified"
+      ],
+      "pass_threshold": "Recalls each paper's length, marks, sections and question marks without prompting, explains the 4-level ladder and can say what level and mark an unseen short answer deserves and why.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6 (March 2026), sections 2, 4 and 4.6, with the levels-of-response marking instructions in the published Paper 1 (June 2021) and Paper 2 (June 2022) mark schemes",
+        "reference": "AQA 8700 specification sections 2, 4, 4.6; 8700/1 and 8700/2 mark schemes, Level of response marking instructions",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S02_Texts_Periods_and_What_Sources_Look_Like": {
+      "criteria": [
+        "Correct text-type and century identification with specific evidence from language",
+        "Understands Paper 1 is 20th/21st-century fiction and Paper 2 non-fiction/literary non-fiction spanning centuries",
+        "Recalls the exclusion of transient text and the requirement for substantial, unseen texts",
+        "Expresses reasoning in clear, accurate sentences"
+      ],
+      "pass_threshold": "Correctly classifies at least six unfamiliar short extracts by text type and period with reasons, and states the rule about transient content.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, section 3 Subject content (text requirements)",
+        "reference": "AQA 8700 specification section 3 and 4.1",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S03_Terminology_Word_Classes_Phrases_Clauses": {
+      "criteria": [
+        "Labels word classes accurately in context, not in isolation",
+        "Correctly separates main, subordinate and relative clauses",
+        "Explains effects of tense, voice or modality rather than just naming them",
+        "Uses terminology accurately in a written explanation"
+      ],
+      "pass_threshold": "Accurately labels the word class of ten words in context, identifies a main and subordinate clause in five sentences, and explains an effect of tense or modality in a given sentence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, section 4.1 aims and AO2 'using relevant subject terminology'",
+        "reference": "AQA 8700 specification 4.1 and 4.5 AO2",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S04_Terminology_Sentences_and_Punctuation": {
+      "criteria": [
+        "Names sentence forms and functions accurately",
+        "Explains the effect of sentence length, not just the label",
+        "Explains at least three punctuation choices with reference to meaning and tone",
+        "Links form to effect coherently, using relevant terminology"
+      ],
+      "pass_threshold": "Names the form and purpose of eight sentences and explains, with evidence, the effect of at least four punctuation choices in a supplied paragraph.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, AO2 and AO6 in section 4.5",
+        "reference": "AQA 8700 specification 4.1 and 4.5",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S05_Terminology_Figurative_and_Sound_Language": {
+      "criteria": [
+        "Identifies devices accurately with correct terminology",
+        "Explains effects specifically (what the reader sees, feels or thinks), not generically",
+        "Uses short, precise quotations",
+        "Shows how devices work together to build atmosphere"
+      ],
+      "pass_threshold": "Identifies and explains at least eight devices in a supplied passage, at least five with accurate, specific effects.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, section 3.1.1 (evaluation of a writer's choice of vocabulary) and AO2",
+        "reference": "AQA 8700 specification 3.1.1 and 4.5",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S06_Reading_Explicit_and_Implicit_Meaning": {
+      "criteria": [
+        "Separates explicit from implicit information accurately",
+        "Draws reasonable, text-based inferences and justifies each with a quotation and reason",
+        "Uses short, judicious, embedded evidence rather than copying",
+        "Identifies the theme as an idea and tests a claim against the text"
+      ],
+      "pass_threshold": "Correctly separates at least four explicit and four implicit points in an unseen passage, supports each implicit point with a short quotation and states its inference in a full sentence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.1 Critical reading and comprehension and AO1 (identify and interpret explicit and implicit information and ideas)",
+        "reference": "AQA 8700 specification 3.1.1 bullet 1; 4.5 AO1",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S07_Short_Reading_Questions_P1Q1_and_P2Q1": {
+      "criteria": [
+        "Shades exactly the supported statements in Part 1 (A, C, E, G) and no more than four are shaded, or if more are chosen the learner recognises the maximum rule -- 2026 shade-the-boxes format for Paper 1 Q1",
+        "Shades exactly the supported statements in Part 2 (B, C, E, F, H) and no more than four are shaded, or if more are chosen the learner recognises the maximum rule -- Paper 2 Q1's unchanged format",
+        "Identifies the mechanism of a distractor (wrong detail, exaggeration, unmentioned idea) in either part",
+        "Works quickly and accurately (about five minutes per question)"
+      ],
+      "pass_threshold": "Scores at least 3 of 4 on an unseen Paper 1 Q1 shade-the-boxes question and at least 3 of 4 on an unseen Paper 2 Q1 shade-the-boxes question, identifying the trap in any wrong answer.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700, Paper 2 question paper and mark scheme (June 2022) Q1 for the shade-the-boxes format and distractor style (unchanged for 2026); for the 2026 change to Paper 1 Q1 (from a free-response 'list four things' format to the same shade-the-boxes format as Paper 2 Q1), confirmed directly by AQA's own published change page (aqa.org.uk/english-language-changes), which describes Q1 as converted to multiple-choice, shading a circle rather than ticking; the marks (4) and AO (AO1) are unchanged.",
+        "reference": "AQA 8700/1 and 8700/2 mark schemes, Question 1",
+        "urls": [
+          "https://www.aqa.org.uk/english-language-changes",
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF",
+          "https://www.thinksmartacademy.co.uk/blog/aqa-gcse-english-language-2026-changes/",
+          "https://www.uplevel-academy.co.uk/post/aqa-gcse-english-language-2026-exam-changes"
+        ]
+      }
+    },
+    "S08_Purposes_Usefulness_Bias_and_Evidence": {
+      "criteria": [
+        "Distinguishes fact, opinion and evidence-supported claims correctly",
+        "Identifies bias and misuse of evidence with specific reference to the text",
+        "Evaluates usefulness relative to a stated purpose",
+        "Expresses evaluation in clear, reasoned sentences"
+      ],
+      "pass_threshold": "Correctly labels at least six statements in an unseen text as fact, opinion or evidence-supported claim and identifies one piece of bias or misused evidence with an explanation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.1 Critical reading and comprehension",
+        "reference": "AQA 8700 specification 3.1.1 bullet 1",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S09_Summary_and_Synthesis_P2Q2": {
+      "criteria": [
+        "Covers both sources equally and addresses the stated focus (differences between the schools)",
+        "Makes clear or perceptive inferences beyond paraphrase (for example that resources are limited in A and plentiful in B)",
+        "Selects short, relevant quotations or details from each source",
+        "Uses comparative language and stays inside the focus without commenting on methods",
+        "Reaches Level 3 or above by the board's descriptors"
+      ],
+      "pass_threshold": "Writes an 8-mark synthesis on an unseen pair of short sources at Level 3 (5-6 marks) or above: both sources covered, differences stated with inference and selected quotations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.1 (summary and synthesis), AO1, and Paper 2 mark scheme (June 2022) Q2",
+        "reference": "AQA 8700 specification 3.1.1 bullet 2; 8700/2 mark scheme Question 2",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S10_Language_Analysis_Paper_1_Q2": {
+      "criteria": [
+        "Answers the question focus (atmosphere) throughout and stays within the lines given",
+        "Selects a range of short, relevant quotations from across the extract",
+        "Analyses effects on the reader with clear (Level 3) or perceptive (Level 4) explanation",
+        "Uses accurate subject terminology (simile, verb, adjective, sentence form) to support views",
+        "Zooms in on individual words and connotations"
+      ],
+      "pass_threshold": "Writes an 8-mark language response to an unseen fiction extract that reaches Level 3 (5-6) or above: focus on the question, a range of relevant quotations, clear effects on the reader and accurate terminology.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, AO2 and 3.1.1 (evaluation of vocabulary, grammar, form and structure); Paper 1 mark scheme (June 2021) Question 2",
+        "reference": "AQA 8700 specification 3.1.1 and 4.5; 8700/1 mark scheme Question 2",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S11_Language_Analysis_Paper_2_Q3_and_Persuasive_Devices": {
+      "criteria": [
+        "Stays on the given lines and source and keeps to the focus (anger/attitude)",
+        "Covers a range of language features across the passage with short quotations",
+        "Explains effects on the reader clearly (Level 3) or perceptively (Level 4)",
+        "Uses accurate terminology (rhetorical question, triple, repetition, emotive language, parenthesis)",
+        "Links language to the writer's purpose and viewpoint"
+      ],
+      "pass_threshold": "Writes an unseen 12-mark language answer at Level 3 (7-9) or above with at least four well-explained points on a range of features, plus correctly identifies six rhetorical devices in a supplied text.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700, Paper 2 question paper and mark scheme (June 2022) Question 3; specification 3.1.2 (rhetorical devices)",
+        "reference": "AQA 8700/2 mark scheme Question 3; specification 3.1.2",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S12_Structure_Analysis_Paper_1_Q3": {
+      "criteria": [
+        "Covers beginning, middle and end of the whole extract",
+        "Identifies specific structural features (shift of focus, flashback, pace change, delayed reveal, final sentence)",
+        "From 2026, ties each structural feature back to the single effect the question names (e.g. suspense, tension, a growing sense of loss), not to 'interest' in general",
+        "Explains the effect of each choice on the reader, not only what happens",
+        "Uses accurate structural terminology",
+        "Reaches Level 3 or above on the board's descriptors"
+      ],
+      "pass_threshold": "Writes an unseen 8-mark structure response at Level 3 (5-6) or above: at least three structural features across beginning, middle and end, each with a clear effect on the reader.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.1 (analysing and evaluating form and structure) and Paper 1 mark scheme (June 2021) Question 3 -- from 2026, AQA's Question 3 names a single structural effect to track (e.g. suspense) rather than asking generally how structure is interesting; the mark scheme's levels and marks (8, Level 1-4) are unchanged, per several independent GCSE revision publishers (Save My Exams, Think Smart Academy, Uplevel Academy) who agree on this change, confirmed directly by AQA's own published change page (aqa.org.uk/english-language-changes), which gives 'how has the writer structured the text to create suspense' as the new example wording.",
+        "reference": "AQA 8700 specification 3.1.1; 8700/1 mark scheme Question 3",
+        "urls": [
+          "https://www.aqa.org.uk/english-language-changes",
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S13_Reading_Fiction_Openings_Voice_and_Perspective": {
+      "criteria": [
+        "Identifies perspective and tense accurately and explains their effect",
+        "Describes tone with precise words backed by short quotations",
+        "Tracks focus and shifts across the extract",
+        "Links technique to the reader's response (unease, sympathy, curiosity)"
+      ],
+      "pass_threshold": "Correctly identifies narrative perspective, tone and the focus of an unseen fiction extract, and explains in two paragraphs how the writer uses these to engage the reader.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, section 4.2 Explorations in creative reading and writing (content)",
+        "reference": "AQA 8700 specification 4.2",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S14_Evaluation_Paper_1_Q4": {
+      "criteria": [
+        "Gives a clear, sustained line of argument answering the statement directly",
+        "Selects a range of judicious quotations from the specified lines",
+        "Analyses writer's methods (language, imagery, structure) and evaluates effect on the reader",
+        "Acknowledges alternative interpretations with tentative language",
+        "Reaches Level 3 or 4 by the board's descriptors"
+      ],
+      "pass_threshold": "Writes a 20-mark evaluation of an unseen statement at Level 3 (11-15) or above: a clear line of argument, a range of relevant detail, methods explained and the effect on the reader evaluated, with at least one acknowledgement of a different response.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, AO4 and 3.1.1; Paper 1 mark scheme (June 2021) Question 4",
+        "reference": "AQA 8700 specification 3.1.1 and 4.5; 8700/1 mark scheme Question 4",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S15_Comparison_Paper_2_Q4": {
+      "criteria": [
+        "Compares perspectives across both texts in an integrated way, not one after the other",
+        "Explains how methods (language, tone, imagery, structure) convey each viewpoint",
+        "Uses judicious short quotations from both texts",
+        "Uses comparative connectives and reaches a clear judgement",
+        "Reaches Level 3 or above by the board's descriptors"
+      ],
+      "pass_threshold": "Writes an unseen 16-mark comparison at Level 3 (9-12) or above: perspectives compared, methods explained with references from both sources, and comparative connectives throughout.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, AO3 and 3.1.1; Paper 2 mark scheme (June 2022) Question 4",
+        "reference": "AQA 8700 specification 3.1.1 and 4.5; 8700/2 mark scheme Question 4",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S16_Reading_Nineteenth_Century_and_Non_Fiction_Forms": {
+      "criteria": [
+        "Identifies the form and period with evidence from the text",
+        "Summarises a long-sentence 19th-century text accurately",
+        "Explains the writer's attitude using quotation and terminology",
+        "Recognises period features of syntax, vocabulary and assumption without anachronistic judgement"
+      ],
+      "pass_threshold": "Reads an unseen 19th-century extract and correctly states the form, three conventions, the writer's attitude with evidence and two features of period language.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, section 4.3 Writers' viewpoints and perspectives (content)",
+        "reference": "AQA 8700 specification 4.3",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S17_Writing_for_Purpose_Audience_and_a_Consistent_Voice": {
+      "criteria": [
+        "Purpose (argue/persuade) and audience (younger students, assembly) are visibly reflected in vocabulary and tone",
+        "Point of view and register stay consistent across both paragraphs",
+        "Paragraphs are organised with a visible plan, not just length breaks",
+        "At least one cohesive device links the two paragraphs",
+        "Self-explanation correctly names the choices made and why"
+      ],
+      "pass_threshold": "Plans and drafts a short piece (150-200 words) that names its purpose and audience, keeps one consistent viewpoint throughout, and organises ideas into linked paragraphs at Level 3 (13-18) or above on the AO5 content and organisation grid.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.2 (Writing) and AO5 descriptors from the Paper 1/2 Section B mark scheme",
+        "reference": "AQA 8700 specification 3.1.2; 8700/1 and 8700/2 mark scheme AO5 grid",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S18_Descriptive_and_Narrative_Craft_Paper_1_Section_B": {
+      "criteria": [
+        "Chooses one option (description or narrative) and commits to it without drifting into the other",
+        "Shows a visible, sensible shape (spatial/sensory structure or small-story structure)",
+        "Uses imaginative, purpose-fitting language rather than cliche, in restrained, controlled amounts",
+        "Maintains a consistent point of view and tense throughout",
+        "Reaches Level 3 (13-18 AO5 / 9-12 AO6) or above"
+      ],
+      "pass_threshold": "Plans in under 5 minutes and writes a complete, controlled descriptive or narrative response of 350-450 words to an original image or title prompt within 45 minutes, reaching Level 3 or above on both the AO5 and AO6 grids.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.2 and 4.2 (Paper 1) plus the 8700/1 mark scheme Question 5 AO5/AO6 grids",
+        "reference": "AQA 8700 specification 3.1.2, 4.2.2; 8700/1 mark scheme Question 5",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S19_Writing_for_Impact_Argument_and_Rhetorical_Devices": {
+      "criteria": [
+        "States a clear position early and returns to it with force at the end",
+        "Uses at least two accurately deployed rhetorical devices, not overloaded",
+        "Cites at least one specific, pertinent piece of evidence or example, explained",
+        "Creates a deliberate emotional effect through detail, address or sentence rhythm",
+        "Language is imaginative and purposeful rather than generic or list-like"
+      ],
+      "pass_threshold": "Writes a persuasive paragraph that leads with its strongest point, cites one well-chosen piece of evidence, and uses at least two accurate rhetorical devices without overloading the paragraph.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.2 (Writing) bullets on writing for impact",
+        "reference": "AQA 8700 specification 3.1.2",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S20_Paper_2_Section_B_Viewpoint_Task_and_Technical_Accuracy_I": {
+      "criteria": [
+        "Form (speech), audience (school debate) and purpose (argue a viewpoint) are correctly identified and reflected",
+        "Opens with a clear position and hook appropriate to a speech",
+        "Uses at least three varied sentence forms deliberately, for effect",
+        "Uses accurate sentence demarcation throughout, with no comma splices",
+        "Uses at least two punctuation marks beyond full stops and commas, accurately"
+      ],
+      "pass_threshold": "Writes a controlled 300-400 word viewpoint piece in a specified form (article, letter, speech or similar) within 40 minutes, demarcating sentences accurately, punctuating with a growing range, and varying sentence forms at Level 3 or above on AO6.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 4.3 (Paper 2) and the 8700/2 mark scheme Question 5 AO6 grid",
+        "reference": "AQA 8700 specification 4.3.2; 8700/2 mark scheme Question 5",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S21_Technical_Accuracy_II_Form_Conventions_and_Proofreading": {
+      "criteria": [
+        "Identifies subject-verb agreement and tense errors correctly",
+        "Identifies and corrects the comma splice/run-on sentence",
+        "Identifies at least two spelling errors, including homophone or near-homophone slips",
+        "Corrections are neat single-line edits, not illegible rewrites",
+        "Can state a realistic timing plan for a full paper when asked"
+      ],
+      "pass_threshold": "Writes a short passage with secure Standard English grammar, ambitious accurately spelled vocabulary, and correct form conventions for a named non-fiction form; can state a realistic minute-by-minute plan for a full 1h45 paper and proofread a short passage to find at least four planted errors in two minutes.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 4.2-4.3 (Papers 1 and 2) and the 8700/1, 8700/2 mark schemes AO6 grid",
+        "reference": "AQA 8700 specification 4.2, 4.3; 8700/1 and 8700/2 mark schemes AO6 grid and timing guidance",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S22_Spoken_Language_Skills_and_the_Speaking_and_Listening_AOs": {
+      "criteria": [
+        "Talk has a clear organising structure (opener, developed points, summing-up)",
+        "Content is paced and detailed appropriately for a listening audience",
+        "Spoken Standard English is used consistently, including in the follow-up answer",
+        "The follow-up question is answered directly, not by repeating the original talk",
+        "Delivery (or written equivalent) shows confidence and control appropriate to a formal setting"
+      ],
+      "pass_threshold": "Delivers a short prepared talk (2-3 minutes) with clear structure and audible, spoken Standard English, then answers two follow-up questions appropriately and without simply repeating the talk.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 3.1.3 (Spoken language) and AO7-AO9 descriptors",
+        "reference": "AQA 8700 specification 3.1.3",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    },
+    "S23_Spoken_Language_Endorsement_Criteria_and_Reporting": {
+      "criteria": [
+        "Correctly states both general criteria (audibility, spoken Standard English)",
+        "Correctly states the Pass-level requirements (clarity, organisation, relevant response, some Standard English)",
+        "Correctly identifies at least one feature that distinguishes Merit from Pass (confidence/engagement, perceptive response, adaptability)",
+        "Correctly states the endorsement is reported separately as Pass/Merit/Distinction/Not Classified and does not affect the numerical GCSE grade",
+        "Explanation is accurate and in the learner's own words, not copied phrasing"
+      ],
+      "pass_threshold": "Correctly states the task's format requirements, identifies which of their own rehearsed talk's features meet Pass, Merit or Distinction criteria, and explains accurately how the endorsement is graded and reported.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Language 8700 specification v1.6, 4.4 (Spoken Language endorsement requirements) and 5 (non-exam assessment)",
+        "reference": "AQA 8700 specification 4.4.1-4.4.5, 5.0",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Paper 1 Section A: all four reading questions (Q1-Q4) reach at least Level 3 (or the numeric equivalent) against their own AO1/AO2/AO4 grids",
+      "Paper 1 Section B (Q5): reaches Level 3 or above on both the AO5 content/organisation grid and the AO6 technical-accuracy grid",
+      "Paper 2 Section A: all four reading questions (Q1-Q4) reach at least Level 3 against their own AO1/AO2/AO3 grids, including a genuine two-source comparison in Q4",
+      "Paper 2 Section B (Q5): reaches Level 3 or above on both the AO5 and AO6 grids, in the form specified by the task",
+      "Technical accuracy (AO6) is consistently controlled across both writing responses, not just one",
+      "The learner can correctly state the Spoken Language endorsement's separate, non-numerical reporting when asked, even though it is not marked within this written mock"
+    ],
+    "pass_threshold": "Achieves Level 3 or above (or the equivalent mark-scheme band) on every question across a full timed sitting of both papers, with technical accuracy (AO6) also reaching Level 3 or above on both writing questions.",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE English Language 8700 specification v1.6, sections 2 and 4.1-4.6, plus the 8700/1 and 8700/2 mark schemes",
+      "reference": "AQA 8700 specification section 2 (Specification at a glance) and 4 (Scheme of assessment)",
+      "urls": [
+        "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+        "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content",
+        "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8700-SP-2015.PDF",
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-87001-MS-NOV21.PDF",
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-MS-JUN22.PDF",
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-87002-QP-JUN22.PDF"
+  ],
+  "source_notes": [
+    "No June 2021 exam series ran (cancelled); the Paper 1 mark scheme cited as 'June 2021' is AQA's own file filed under the November 2021 series, whose cover still reads 'June 2021'.",
+    "Added on rebuild (2026-09-19): the current specification, Version 1.6 (March 2026), from AQA's own page at aqa.org.uk/subjects/english/gcse/english-language-8700/specification/subject-content; sections 3.1 and 4 read identically to Version 1.5 (Oct 2021), which is the version served at the older filestore URL."
+  ]
+}

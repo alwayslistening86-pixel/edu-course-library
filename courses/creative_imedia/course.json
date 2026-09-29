@@ -1,0 +1,61 @@
+{
+  "schema_version": 4,
+  "name": "Creative iMedia (OCR Cambridge National Level 1/2, J834)",
+  "requires_complete": [],
+  "selected_options": {
+    "optional_unit": "R097: Interactive digital media — the school's booklet confirms this optional unit is a student choice from five options (R095 Characters and Comics, R096 Animation with Audio, R097 Interactive Digital Media, R098 Visual Imaging, R099 Digital Games), so there is no single school-wide answer. R097 was built as a genuinely common, representative choice; the pattern established in this course (research a real, sourced unit -> build it the same way) can be repeated for a different optional unit later if a specific student needs one of the other four instead.",
+    "note": "This is a Level 1/2 vocational award, not a GCSE, but included in this build per the user's confirmed 20-course plan."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "OCR (Cambridge OCR) Level 1/Level 2 Cambridge National in Creative iMedia J834, Version 6 (June 2026), first teaching September 2022, qualification number 603/7090/7; itemised 2026-09-19. Units R093, R094 and R097 (topic areas, teaching content, breadth and depth, exemplification, marking criteria, assessment guidance, grading, UMS boundaries and performance descriptors) were read in full from the published specification PDF (OCR file 610942) and the OCR R097 NEA blog (9 April 2024 update). The Summer 2023 moderators' report cited in the old rubric was not re-read; its themes are carried only as paraphrased teaching points and flagged for re-verification against the newer Summer 2024 report. Optional units R095, R096, R098 and R099 were confirmed as options in the specification and are declared exclusions. Practice briefs and tests are original and are not OCR set assignments (which are on Teach Cambridge and must not be used for practice).",
+  "academic_level": 2,
+  "level_source": "RQF Level 1/2 (OCR Cambridge National / WJEC-Eduqas Vocational Award), per Ofqual's Register of Regulated Qualifications; recorded at the qualification's upper band since this build is not tier-restricted",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Media_Industry_Sectors_Products_and_Job_Roles",
+    "S02_Purpose_Style_and_Client_Briefs",
+    "S03_Audience_Segmentation_and_Research",
+    "S04_Media_Codes",
+    "S05_Work_Planning_Mind_Maps_and_Mood_Boards",
+    "S06_Design_and_Planning_Documents",
+    "S07_Legal_Issues_Protecting_Individuals_and_IP",
+    "S08_Regulation_Classification_and_Health_and_Safety",
+    "S09_Distribution_Platforms_and_Media",
+    "S10_Image_and_Audio_File_Properties_and_Formats",
+    "S11_Moving_Image_Files_and_File_Compression",
+    "S12_R093_Exam_Structure_and_Technique",
+    "S13_R094_Overview_and_Visual_Identity",
+    "S14_Graphic_Design_Concepts_and_Layout_Conventions",
+    "S15_Graphic_Properties_Licences_and_Permissions",
+    "S16_Planning_Techniques_and_Task_1_Evidence",
+    "S17_Image_Editing_Tools_and_Techniques",
+    "S18_Sourcing_Creating_and_Preparing_Assets",
+    "S19_Saving_Exporting_and_Task_2_Evidence",
+    "S20_R097_Overview_Formats_and_Content",
+    "S21_R097_Interaction_GUI_and_Accessibility",
+    "S22_R097_Conventions_Creativity_and_Creation_Hardware",
+    "S23_R097_Planning_Documents_and_Task1_Interpretation",
+    "S24_R097_Task1_Evidence_and_Sourcing_Assets",
+    "S25_R097_Repurposing_Audio_Moving_Image_and_Interactive_Assets",
+    "S26_R097_Building_Saving_and_Exporting_the_Product",
+    "S27_R097_Task2_Formats_Evidence_and_Testing",
+    "S28_R097_Review_Improvement_and_Task3_Evidence",
+    "S29_J834_Qualification_Structure_Grading_and_NEA_Rules"
+  ],
+  "linear": true,
+  "framework": "OCR's three-mark-band structure for the NEA units (R094 and R097): MB1 (limited, basic, few), MB2 (adequate, partly effective, some, sound), MB3 (effective, fully suitable, detailed, comprehensive, critical), applied per strand within each set-assignment task; no MB1 evidence in a task means zero for that task. R093 is a 1 hour 30 minute, 70-mark exam (Section A 10 marks of recall; Section B 60 marks of scenario questions including three extended responses, two testing analysis/evaluation and one recall and application). Unit grades are set on the Uniform Mark Scale (R093 80 UMS, R094 50 UMS, R097 70 UMS). Overall grade minimum total uniform marks out of 200: Distinction* at Level 2 180, Distinction at Level 2 160, Merit at Level 2 140, Pass at Level 2 120, Distinction at Level 1 100, Merit at Level 1 80, Pass at Level 1 60 (below 60 is unclassified), per specification section 5.4.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

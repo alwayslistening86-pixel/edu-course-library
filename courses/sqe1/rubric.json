@@ -1,0 +1,337 @@
+{
+  "stage_rubrics": {
+    "FLK1_Business_Law_and_Practice": {
+      "criteria": [
+        "Correctly classifies the business vehicle and its legal-personality/liability consequences before analysing anything else",
+        "Applies the correct statutory rule (Partnership Act 1890, Companies Act 2006 provisions) to the facts, citing the right section where relevant",
+        "Matches the correct insolvency procedure to whether the client is an individual or a company, and to the client's rescue-or-wind-up objective",
+        "Spots which tax applies to which taxpayer and transaction without needing a full calculation",
+        "In the SBA test, explains why each incorrect option is wrong, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Correctly applies the relevant rule to a realistic client scenario at day-one-competence standard, and in the SBA test explains why each wrong option is wrong, not only why the right one is right.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK1 - Business Law and Practice content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK1_Dispute_Resolution": {
+      "criteria": [
+        "Correctly sequences the procedural stages of a civil claim (pre-action, issue, response, interim, trial, enforcement) for the scenario given",
+        "Applies the correct test for the interim application or procedural step in question, not just names it",
+        "Correctly identifies limitation and pre-action protocol issues before any other analysis",
+        "Distinguishes privilege, disclosure and evidence rules accurately",
+        "In the SBA test, explains why each incorrect option is wrong given the specific facts, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Correctly sequences the real procedural steps of a civil claim under the CPR and applies the right rule at each stage to a realistic scenario, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK1 - Dispute Resolution content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK1_Contract_Law": {
+      "criteria": [
+        "Runs the formation analysis systematically (offer, acceptance, consideration, intention) before addressing any other issue",
+        "Correctly classifies any vitiating factor raised (misrepresentation vs mistake vs duress/undue influence) and identifies the right remedy for that classification",
+        "Applies Hadley v Baxendale remoteness and mitigation correctly to a damages question",
+        "Distinguishes termination-plus-damages from affirmation-plus-damages on a breach question, and applies Hong Kong Fir reasoning where the term is innominate",
+        "In the SBA test, explains why each incorrect option is wrong given the specific facts, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Runs the full analysis in sequence (formation, terms, vitiating factors if raised, termination, remedy) and reaches the correct, case-law-supported conclusion for the specific facts, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK1 - Contract Law content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK1_Tort": {
+      "criteria": [
+        "Runs the full negligence sequence (duty, breach, causation, remoteness) before concluding on any negligence-based claim",
+        "Correctly selects between overlapping regimes (negligence, occupiers' liability 1957/1984, vicarious liability, product liability) on a single fact pattern",
+        "Applies the correct test for psychiatric harm (primary vs secondary victim) or pure economic loss where raised",
+        "Applies defences (volenti, contributory negligence, illegality) accurately and distinguishes complete from partial defences",
+        "In the SBA test, explains why each incorrect option is wrong given the specific facts, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Runs the full negligence analysis in sequence (duty, breach, causation, remoteness) and correctly selects and applies any special regime engaged, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK1 - Tort content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK1_Legal_System_Constitutional_Administrative_EU_Law": {
+      "criteria": [
+        "Correctly places a dispute in the court hierarchy and applies the doctrine of precedent (ratio vs obiter, binding vs persuasive) accurately",
+        "Applies the correct statutory interpretation approach(es) to a genuinely ambiguous provision",
+        "Identifies the correct ground(s) of judicial review and an appropriate discretionary remedy for the specific facts",
+        "Identifies the correct Human Rights Act 1998 section and Convention right engaged by a scenario",
+        "In the SBA test, explains why each incorrect option is wrong given the specific facts, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Correctly applies precedent and statutory interpretation to a given case/statute, identifies the correct ground of judicial review and available remedy, and applies the right Human Rights Act provision to a scenario.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK1 - Legal System of England and Wales; Constitutional and Administrative Law and EU Law content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK1_Legal_Services": {
+      "criteria": [
+        "Correctly identifies which regulatory obligation (SRA Principles/reserved activities, Equality Act, AML, financial services) is engaged by a realistic scenario",
+        "Applies the AML due diligence and reporting chain accurately, including the tipping-off prohibition",
+        "Matches a client's actual circumstances to a realistic funding option and explains the trade-offs",
+        "Distinguishes a firm's own regulatory obligations from those of an authorised financial services firm",
+        "In the SBA test, explains why each incorrect option is wrong given the specific facts, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Correctly identifies the regulatory, AML or funding issue engaged by a realistic client scenario and applies the right rule or obligation, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK1 - Legal Services content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK2_Property_Law_and_Practice": {
+      "criteria": [
+        "Correctly identifies which title system applies (registered/unregistered) and investigates it using the right method",
+        "Sequences the transaction correctly: no binding contract before exchange, no legal title before completion and registration",
+        "Applies the right test for whether time is of the essence and identifies the resulting remedy for delayed completion",
+        "Correctly applies the Landlord and Tenant Act 1954 Part II security-of-tenure framework, including the relevant s.30 ground",
+        "In the SBA test, explains why each incorrect option is wrong, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Correctly sequences the real conveyancing steps for the fact pattern given (freehold or leasehold, residential or commercial), applies the right rule at each stage, and in the SBA test explains why each wrong option is wrong.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK2 - Property Law and Practice content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK2_Wills_and_Administration_of_Estates": {
+      "criteria": [
+        "Correctly applies all four elements of will validity (capacity, knowledge and approval, formalities, undue influence) in order",
+        "Correctly identifies whether revocation, alteration or interpretation rules govern the fact pattern",
+        "Applies the intestacy hierarchy or the correct grant-priority rule accurately to the facts given",
+        "Applies the 1975 Act eligibility, time limit and s.3 factors correctly where a claim is raised",
+        "Correctly issue-spots which tax (IHT, income tax, CGT) applies and to whom, without needing a full calculation"
+      ],
+      "pass_threshold": "Correctly determines whether a will is valid and what it means, or how an estate devolves if it is not, obtains the correct grant, and applies IHT/income tax/CGT correctly to the administration, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK2 - Wills and the Administration of Estates content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK2_Solicitors_Accounts": {
+      "criteria": [
+        "Correctly classifies a sum as client money, business money, or a mixed receipt requiring splitting",
+        "Applies the separation rule and the prompt-transfer-on-billing rule accurately to the facts",
+        "Identifies a breach of the Accounts Rules and states the correct action to remedy it",
+        "Applies the default interest obligation correctly, including when it can be validly displaced",
+        "In the SBA test, explains why each incorrect option is wrong, not just why the chosen option is right"
+      ],
+      "pass_threshold": "Correctly classifies money received as client or business money, records the entry accurately on both ledgers, identifies and corrects any breach, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK2 - Solicitors Accounts content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK2_Land_Law": {
+      "criteria": [
+        "Correctly identifies whether the title is registered or unregistered and applies the matching protection regime",
+        "Applies the correct test for joint tenancy versus tenancy in common, including whether severance has occurred",
+        "Applies the Re Ellenborough Park criteria and the correct creation method for an easement",
+        "Distinguishes restrictive from positive covenants and applies the correct rule on whether the burden runs",
+        "Applies the Street v Mountford test to distinguish a lease from a licence, and the correct privity rule for old versus new leases"
+      ],
+      "pass_threshold": "Correctly identifies whether an interest is legal or equitable, whether it is protected against a purchaser under the applicable registration/notice regime, and applies the right rule to co-ownership, easements, covenants, mortgages or leases, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK2 - Land Law content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK2_Trusts_Law": {
+      "criteria": [
+        "Correctly applies the three certainties, in order, before concluding an express trust exists",
+        "Correctly identifies whether a trust is fully constituted, and applies any relevant exception if not",
+        "Distinguishes automatic and presumed resulting trusts from common intention constructive trusts and proprietary estoppel on the facts",
+        "Correctly identifies knowing receipt or dishonest assistance liability where a stranger is involved, using the right test for each",
+        "Identifies the correct trustee duty or power in play, and states the correct personal and/or proprietary remedy for any breach"
+      ],
+      "pass_threshold": "Correctly identifies the type of trust arising (or failing) on the facts, applies the right test for its creation/constitution, and analyses trustees' duties, breach and remedies accurately, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK2 - Trusts Law content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK2_Criminal_Liability": {
+      "criteria": [
+        "Proves actus reus and mens rea as separate, named elements before naming an offence",
+        "Correctly applies the basic/specific intent distinction to intoxication, and the honesty/reasonableness test to self-defence",
+        "Correctly identifies whether a partial defence to murder is available and applies its specific statutory test",
+        "Distinguishes principal, secondary and attempt liability, and applies the correct test for each",
+        "Correctly matches the harm and mens rea to the right OAPA, theft-family, criminal damage, homicide or fraud offence"
+      ],
+      "pass_threshold": "Correctly proves every element of the actus reus and mens rea of the specified offence, applies any defence raised on the facts, and in the SBA test explains why each wrong option is wrong, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK2 - Criminal Liability content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    },
+    "FLK2_Criminal_Law_and_Practice": {
+      "criteria": [
+        "Correctly applies custody time limits and the right to legal advice at the police station stage",
+        "Applies the Bail Act 1976 presumption and identifies the specific statutory exception relied on to refuse bail",
+        "Correctly applies plea-before-venue and allocation rules, including the defendant's election right",
+        "Applies the correct evidential test (Turnbull, s.34-37 inferences, hearsay gateway, s.76/s.78 PACE, or bad character gateway) to the fact pattern given",
+        "Applies the two-stage sentencing guideline approach, or the correct appeal route, or the correct youth-court rule, accurately to the facts"
+      ],
+      "pass_threshold": "Correctly advises a client at each procedural stage from police station to appeal, applies the right evidential test, and reaches an accurate sentencing or appeal analysis, at day-one-competence standard.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE1 Assessment Specification, FLK2 - Criminal Law and Practice content statements",
+        "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+          "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+          "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+          "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Selects the single best answer for each SBA question, not merely a defensible one",
+      "Correctly explains why each distractor is wrong, using the specific rule, test or threshold it misapplies",
+      "Applies the right subject's rule to the scenario given, without confusing adjacent subjects (e.g. contract remedies vs tort remedies, resulting vs constructive trusts, s.20 vs s.18 OAPA)",
+      "Reaches the day-one-competence standard consistently across both FLK1-style and FLK2-style questions, not only in one paper's subjects",
+      "Where a question turns on a threshold or time limit (limitation periods, custody time limits, bail exceptions, the 1975 Act six-month window), identifies and applies it correctly"
+    ],
+    "pass_threshold": "Passes both FLK1 and FLK2 papers at the SRA's criterion-referenced day-one-competence standard set for that sitting (no fixed published percentage), demonstrated here by correctly answering original SBA questions across every subject and explaining why each distractor is wrong.",
+    "source": {
+      "issuing_body": "Solicitors Regulation Authority (SRA)",
+      "document": "SRA SQE1 Assessment Specification (FLK1 and FLK2)",
+      "reference": "sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+      "urls": [
+        "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+        "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+        "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+        "https://sqe.sra.org.uk/assessments/preparing-for-sqe",
+        "https://www.sra.org.uk/globalassets/documents/sra/sqe1-functioning-legal-knowledge-assessment-specification.pdf",
+        "https://www.sra.org.uk/sra/research-publications/sqe-four-years-facts-figures/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification",
+    "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+    "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk2",
+    "https://sqe.sra.org.uk/assessments/preparing-for-sqe"
+  ],
+  "source_notes": [
+    "The prior build's own note is carried forward: an earlier assumption of 180 questions per FLK paper was corrected against the SRA's live pages to the real figure of 170 questions per paper (two sessions of 85, 2 hours 33 minutes each), five answer options, single best answer.",
+    "No fixed pass-percentage is published in advance; the SRA sets the cut score per sitting via a criterion-referenced standard-setting exercise against the 'day one competence' standard (commonly reported as Angoff-based in secondary sources, not stated as an exact formula on the SRA's own pages). This course therefore grades tests on correct-option-plus-reasoning, not a memorised numeric cut score.",
+    "Both FLK1 and FLK2 pages were fetched in full for this itemisation on 2026-09-22 and every subject sub-heading is represented; where the SRA's own page groups several closely related sub-bullets under one heading (e.g. several Theft Act sections, or several PACE Code provisions), this course sometimes teaches them as one item rather than one item per sub-bullet, to keep items at the level of an examinable content statement rather than a citation list -- flagged here rather than silently done."
+  ]
+}

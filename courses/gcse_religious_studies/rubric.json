@@ -1,0 +1,355 @@
+{
+  "stage_rubrics": {
+    "S01_How_the_Qualification_Works": {
+      "criteria": [
+        "States both papers' timing and marks accurately",
+        "Defines AO1 and AO2 correctly and distinguishes them from each other",
+        "Explains the SPaG allocation and the meaning of 'non-religious worldview' with an example",
+        "Matches command words to their required answer length and type correctly"
+      ],
+      "pass_threshold": "Learner states both papers' timing and marks, defines AO1 and AO2 in their own words, states where SPaG marks fall, explains what 'non-religious worldviews' means for this course, and matches each command word to the length and type of answer it requires.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Assessment information, Assessment Objectives and Command Words",
+        "reference": "Edexcel 1RB0, section 3 and Appendix 3",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S02_Christian_Beliefs_God_Jesus": {
+      "criteria": [
+        "Explains the Trinity accurately using correct terminology",
+        "Explains the creation account(s), including both literal and metaphorical readings",
+        "Explains the incarnation with a correct biblical reference",
+        "Narrates the last days of Jesus accurately, in order, and explains their significance"
+      ],
+      "pass_threshold": "Learner explains the Trinity using correct terms, explains the creation account(s) including literal and metaphorical readings, explains the incarnation with biblical reference, and narrates the last days of Jesus with their significance for Christian belief.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Christian Beliefs",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Christian Beliefs",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S03_Christian_Beliefs_Salvation_Afterlife_Evil": {
+      "criteria": [
+        "Explains salvation using law, sin, grace and atonement accurately",
+        "Explains divergent Christian afterlife beliefs, including the Catholic/Protestant difference on purgatory",
+        "States the problem of evil precisely, distinguishing natural and moral suffering",
+        "Explains and evaluates at least two solutions (biblical, theoretical, practical) with specific detail"
+      ],
+      "pass_threshold": "Learner explains salvation using the terms law, sin, grace and atonement, explains divergent afterlife beliefs (resurrection, judgement, heaven, hell, purgatory), states the problem of evil precisely, and explains and evaluates at least two proposed solutions.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Christian Beliefs",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Christian Beliefs",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S04_Christianity_Marriage_and_Family_Part_1": {
+      "criteria": [
+        "Explains Christian teaching on marriage and contrasts it with a named non-religious attitude",
+        "Explains divergent Christian teachings on sexual relationships with accurate reasoning",
+        "Explains the purpose of family and at least one divergent response to a modern family type",
+        "Explains at least two accurate ways the local parish supports families"
+      ],
+      "pass_threshold": "Learner explains Christian teaching on marriage and contrasts it with named non-religious attitudes, explains divergent Christian teachings on sex outside marriage and same-sex relationships, explains the purpose of family and divergent responses to family types, and explains how the local church supports families.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Marriage and the Family",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Marriage and the Family",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S05_Christianity_Marriage_and_Family_Part_2": {
+      "criteria": [
+        "Explains divergent Christian attitudes to contraception, including the Catholic position, accurately",
+        "Explains divergent Christian attitudes to divorce and remarriage with accurate reasoning",
+        "Explains complementarian and egalitarian views on gender roles in the family",
+        "Explains Christian opposition to gender prejudice and the divide over women's ordination accurately"
+      ],
+      "pass_threshold": "Learner explains divergent Christian and non-religious attitudes to contraception and divorce, explains divergent Christian attitudes on gender roles including women's ordination, and explains Christian opposition to gender prejudice with biblical reference.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Marriage and the Family",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Marriage and the Family",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S06_Living_the_Christian_Life_Worship_and_Devotion": {
+      "criteria": [
+        "Contrasts liturgical, non-liturgical and informal worship accurately",
+        "Explains baptism and the Eucharist across at least two denominations with correct terminology",
+        "Explains at least two types of prayer and when each is used",
+        "Explains pilgrimage's purpose and at least one divergent Christian view on its importance"
+      ],
+      "pass_threshold": "Learner contrasts liturgical, non-liturgical and informal worship, explains baptism and the Eucharist across at least two denominations, explains at least two types of prayer with when each is used, and explains pilgrimage's purpose and divergent views on its importance.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Living the Christian Life",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Living the Christian Life",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S07_Living_the_Christian_Life_Church_and_Community": {
+      "criteria": [
+        "Explains the significance of Christmas and Easter, and why Easter is often considered theologically primary",
+        "Explains mission and evangelism's purpose and at least two ways it is put into practice",
+        "Explains at least two accurate ways the local church supports its community",
+        "Explains the Church's worldwide role, including reconciliation, the persecuted Church and Christian Aid, accurately"
+      ],
+      "pass_threshold": "Learner explains the significance of Advent/Christmas and Holy Week/Easter, explains mission and evangelism's purpose, explains how the local church supports its community, and explains the Church's worldwide role including reconciliation, the persecuted Church and Christian Aid's work.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Living the Christian Life",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Living the Christian Life",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S08_Matters_of_Life_and_Death_Part_1": {
+      "criteria": [
+        "Explains scientific and Christian views on the universe's origin and value, referencing Lemaître accurately",
+        "Explains sanctity of life and its biblical grounding accurately",
+        "Explains at least two Christian responses to evolution",
+        "Explains divergent Christian teaching on abortion and at least one non-religious argument accurately"
+      ],
+      "pass_threshold": "Learner explains scientific and Christian views on the universe's origin and value, explains sanctity of life, explains Christian responses to evolution, and explains divergent pro-life/pro-choice Christian teaching and non-religious arguments on abortion.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Matters of Life and Death",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Matters of Life and Death",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S09_Matters_of_Life_and_Death_Part_2": {
+      "criteria": [
+        "Explains at least two Christian arguments for life after death, including the resurrection's central role",
+        "Explains at least two non-religious objections to an afterlife and accurate Christian responses to each",
+        "Explains divergent Christian teaching on euthanasia and at least one non-religious argument accurately",
+        "Explains stewardship and at least two applications (environment, animals) accurately"
+      ],
+      "pass_threshold": "Learner explains Christian arguments for life after death, explains why Christians reject at least two non-religious objections to it, explains divergent Christian and non-religious views on euthanasia, and explains Christian teaching on stewardship, pollution, global warming and animal rights.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 1B Christianity, Matters of Life and Death",
+        "reference": "Edexcel 1RB0, Area of Study 1B, Matters of Life and Death",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S10_Paper_1_Question_Types": {
+      "criteria": [
+        "Part (a) and (b) give brief, accurate answers with no unnecessary explanation",
+        "Part (c) develops two points fully with a reason or example for each",
+        "Part (d)(i) explains two genuinely contrasting beliefs and cites a specific, accurate source of wisdom and authority",
+        "Part (d)(ii) uses religious and non-religious arguments, weighs them, and reaches a clearly justified conclusion with accurate SPaG"
+      ],
+      "pass_threshold": "Learner produces a correctly structured, timed answer to each Paper 1 question part using accurate Christianity content, including two contrasting beliefs with a named source of authority for part (d)(i), and a balanced, evidenced argument reaching a justified conclusion for part (d)(ii) with accurate SPaG.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification and sample assessment materials, Paper 1 assessment overview",
+        "reference": "Edexcel 1RB0 Paper 1, question parts (a)-(d)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S11_Muslim_Beliefs_Part_1": {
+      "criteria": [
+        "Lists and explains the Six Beliefs and the Sunni/Shi'a division with accurate historical context",
+        "Explains the Five Roots of Shi'a Islam accurately, including 'Adl and Imamah",
+        "Explains at least four characteristics of Allah's nature using correct terminology",
+        "Explains Risalah and the significance of the Muslim holy books accurately"
+      ],
+      "pass_threshold": "Learner lists and explains the Six Beliefs and the Sunni/Shi'a distinction, explains the Five Roots of Shi'a Islam, explains at least four named characteristics of Allah, and explains Risalah and the significance of the Muslim holy books.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 2C Islam, Muslim Beliefs",
+        "reference": "Edexcel 1RB0, Area of Study 2C, Muslim Beliefs",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S12_Muslim_Beliefs_Part_2_and_Crime_and_Sin": {
+      "criteria": [
+        "Explains al-Qadr and its relationship to human responsibility accurately",
+        "Explains Akhirah, judgement, paradise and hell accurately",
+        "Explains Muslim teaching on crime and sin with an accurate distinction between the two",
+        "Explains the three purposes of punishment (deterrence, reform, protection) with accurate reasoning"
+      ],
+      "pass_threshold": "Learner explains al-Qadr and its relationship to free will, explains Akhirah including judgement, paradise and hell, explains Muslim teaching on crime and sin with Qur'anic basis, and explains punishment's purposes as deterrence, reform and protection.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 2C Islam, Muslim Beliefs and Crime and Punishment",
+        "reference": "Edexcel 1RB0, Area of Study 2C, Muslim Beliefs and Crime and Punishment",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S13_Crime_and_Punishment_in_Islam": {
+      "criteria": [
+        "Explains divergent Muslim attitudes to capital punishment and at least one non-religious objection accurately",
+        "Explains divergent Muslim understandings of corporal punishment accurately",
+        "Explains forgiveness and rehabilitation in Islamic teaching with accurate reasoning",
+        "Explains restitution and the importance of victim support in Islamic justice accurately"
+      ],
+      "pass_threshold": "Learner explains divergent Muslim attitudes to capital and corporal punishment with named non-religious objections, explains forgiveness and rehabilitation in Islamic teaching, and explains the importance of victim support and restitution.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 2C Islam, Crime and Punishment",
+        "reference": "Edexcel 1RB0, Area of Study 2C, Crime and Punishment",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S14_Living_the_Muslim_Life_Shahadah_Salah_Sawm_Zakah": {
+      "criteria": [
+        "Explains the Shahadah's content and significance across a Muslim's life",
+        "Explains how Salah is performed and its significance accurately",
+        "Explains Sawm and the Night of Power with accurate detail",
+        "Explains Zakah's calculation, practical role and spiritual significance accurately"
+      ],
+      "pass_threshold": "Learner explains the Shahadah's content and significance, explains how Salah is performed (ablution, times, direction, movements, recitations) and its significance, explains Sawm and the Night of Power, and explains Zakah's nature and significance.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 2C Islam, Living the Muslim Life",
+        "reference": "Edexcel 1RB0, Area of Study 2C, Living the Muslim Life",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S15_Living_the_Muslim_Life_Hajj_Obligatory_Acts_Jihad_Festivals": {
+      "criteria": [
+        "Explains how and why Hajj is performed with accurate detail",
+        "Explains the Ten Obligatory Acts, including their distinctively Shi'a elements",
+        "Explains the difference between greater and lesser Jihad and at least one condition for lesser Jihad",
+        "Explains the main Sunni and Shi'a festivals with accurate detail"
+      ],
+      "pass_threshold": "Learner explains how and why Hajj is performed, explains the Ten Obligatory Acts, explains the difference between lesser and greater Jihad and the conditions for lesser Jihad, and explains the main Sunni and Shi'a festivals.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 2C Islam, Living the Muslim Life",
+        "reference": "Edexcel 1RB0, Area of Study 2C, Living the Muslim Life",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S16_Peace_and_Conflict_Teachings_Causes_and_Holy_War": {
+      "criteria": [
+        "Explains the importance of peace for Muslims with accurate reference to Islamic terms or teaching",
+        "Explains at least two causes of conflict and Muslim responses to them",
+        "Explains at least three accurate conditions for legitimate holy war with a correct Qur'anic reference",
+        "Explains divergent Muslim responses to weapons of mass destruction with accurate reasoning"
+      ],
+      "pass_threshold": "Learner explains why peace matters to Muslims with Qur'anic reference, explains named causes of conflict and Muslim responses, explains the conditions for holy war, and explains divergent Muslim responses to weapons of mass destruction.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 2C Islam, Peace and Conflict",
+        "reference": "Edexcel 1RB0, Area of Study 2C, Peace and Conflict",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S17_Peace_and_Conflict_Victims_Pacifism_and_Interfaith": {
+      "criteria": [
+        "Explains Islamic protection for civilians and prisoners and the condemnation of terrorism accurately",
+        "Explains divergent Muslim views on pacifism and the value of reconciliation",
+        "Explains Muslim approaches to interfaith dialogue with accurate reasoning",
+        "Answers the Paper 2 part (a) question briefly and accurately"
+      ],
+      "pass_threshold": "Learner explains Islamic protection for civilians and prisoners and Muslim condemnation of terrorism, explains divergent Muslim views on pacifism and the value of reconciliation, explains Muslim approaches to interfaith dialogue, and answers the Paper 2 1-mark recognition question correctly.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Area of Study 2C Islam, Peace and Conflict, and Paper 2 assessment overview",
+        "reference": "Edexcel 1RB0, Area of Study 2C, Peace and Conflict and Paper 2 question part (a)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    },
+    "S18_Paper_2_Question_Types": {
+      "criteria": [
+        "Part (b) gives two brief, accurate, distinct points with no unnecessary explanation",
+        "Part (c) develops two points fully with a reason or example for each",
+        "Part (d)(i) explains two genuinely contrasting Muslim beliefs and cites a specific, accurate source of wisdom and authority",
+        "Part (d)(ii) uses religious and non-religious arguments, weighs them, and reaches a clearly justified conclusion with accurate SPaG"
+      ],
+      "pass_threshold": "Learner produces a correctly structured, timed answer to each remaining Paper 2 question part using accurate Islam content, including two contrasting beliefs with a named source of authority for part (d)(i), and a balanced, evidenced argument reaching a justified conclusion for part (d)(ii) with accurate SPaG.",
+      "source": {
+        "issuing_body": "Pearson Edexcel",
+        "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification and sample assessment materials, Paper 2 assessment overview",
+        "reference": "Edexcel 1RB0 Paper 2, question parts (b)-(d)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+          "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Parts (a) and (b) on both papers give brief, accurate, correctly targeted answers with no unnecessary explanation",
+      "Parts (c) on both papers develop two points fully, each with a reason or example",
+      "Parts (d)(i) on both papers explain two genuinely contrasting beliefs (Christian or Muslim as appropriate) and cite a specific, accurate source of wisdom and authority for each",
+      "Parts (d)(ii) on both papers present religious and non-religious arguments, weigh them against each other, and reach a clearly justified conclusion, with acceptable SPaG on the two designated questions per paper",
+      "Across both papers, uses accurate dates, names, scripture references and specialist religious terminology (Trinity, incarnation, sanctity of life, Tawhid, Akhirah, Jihad, Shari'ah) consistently and correctly, and correctly identifies where a non-religious (atheist or Humanist) viewpoint is required"
+    ],
+    "pass_threshold": "A pass is a Grade-4-standard performance across both papers combined: accurate, well-selected AO1 knowledge of Christianity and Islam; developed 4-mark and 5-mark explanations, the 5-mark parts correctly citing a source of wisdom and authority for two genuinely contrasting beliefs; and, on both papers' extended evaluate questions, a balanced AO2 argument using religious and non-religious viewpoints that reaches a clearly justified conclusion, with acceptable SPaG on the two designated questions per paper.",
+    "source": {
+      "issuing_body": "Pearson Edexcel",
+      "document": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, section 3 Assessment information, and Paper 1/2 sample assessment materials",
+      "reference": "Edexcel 1RB0 Papers 1 and 2 assessment overview",
+      "urls": [
+        "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+        "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+    "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/religious-studies-b-2016.html"
+  ],
+  "source_notes": [
+    "The specification names three Areas of Study (Religion and Ethics, Religion Peace and Conflict, Religion Philosophy and Social Justice), each offered with a choice of seven religions (Catholic Christianity, Christianity, Islam, Buddhism, Hinduism, Judaism, Sikhism); a candidate takes two of the three areas, each with one religion. This build itemises only the two chosen areas/religions in full; the third area and the unchosen religion options are recorded in declared_exclusions rather than itemised bullet by bullet, matching how unchosen options were handled for other rebuilt courses in this set.",
+    "Linked specification is Issue 2 (January 2024); the original meta_old.json carried over no source URLs from the earlier build, so these are newly located and recorded here."
+  ]
+}

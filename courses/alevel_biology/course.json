@@ -1,0 +1,71 @@
+{
+  "schema_version": 4,
+  "name": "A-level Biology (AQA 7402)",
+  "requires_complete": [
+    [
+      "gcse_biology",
+      "gcse_combined_science"
+    ],
+    "gcse_mathematics"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "practical_endorsement": "not covered (teacher-assessed, separate from the grade)"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA AS and A-level Biology (7401/7402) specification, Version 1.6 (July 2026), linked from aqa.org.uk/7402 and itemised on 2026-09-27: every content code at its deepest level (3.1.1-3.8.4.3), the mathematical requirements MS 0.1-4.1, the practical skills PS1.1-4.1, the apparatus and techniques ATa-l and the twelve required practicals. The hands-on apparatus list (practical endorsement only) is declared out of scope. Assessment: Paper 1 (2 h, 91 marks, 35%: topics 1-4), Paper 2 (2 h, 91 marks, 35%: topics 5-8), Paper 3 (2 h, 78 marks, 30%: topics 1-8; 38 marks structured questions including practical techniques, 15 marks critical analysis of experimental data, and a 25-mark essay from a choice of two titles). Stage tests and the mock are original questions in AQA's style; every numerical answer and statistic was computed when the course was built.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for AQA 7402",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "practical_endorsement",
+      "text": "The A-level grade comes only from the written papers. AQA also reports a separate practical endorsement, assessed by a teacher watching you work in a lab. This course teaches the required practicals' methods, analysis and evaluation for the written papers, but it cannot award or replace the endorsement."
+    },
+    {
+      "id": "diagrams",
+      "text": "Biology answers often use diagrams (cell structures, graphs, the heart). In this course they are described in words; practise sketching and labelling each one on paper as you go, since the exam may ask you to draw them."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Carbohydrates_and_Lipids",
+    "S02_Proteins_and_Enzymes",
+    "S03_Nucleic_Acids_ATP_Water_Ions",
+    "S04_Cell_Structure_and_Microscopy",
+    "S05_Cell_Division",
+    "S06_Membrane_Transport",
+    "S07_Immune_System",
+    "S08_Gas_Exchange",
+    "S09_Digestion_and_Transport_in_Animals",
+    "S10_Transport_in_Plants",
+    "S11_Genes_and_Protein_Synthesis",
+    "S12_Genetic_Diversity_and_Adaptation",
+    "S13_Species_Taxonomy_Biodiversity",
+    "S14_Photosynthesis",
+    "S15_Respiration",
+    "S16_Ecosystems_and_Nutrient_Cycles",
+    "S17_Stimuli_Receptors_Heart_Rate",
+    "S18_Nerve_Impulses_and_Synapses",
+    "S19_Muscle_Contraction",
+    "S20_Homeostasis",
+    "S21_Inheritance",
+    "S22_Populations_Evolution_Speciation",
+    "S23_Populations_in_Ecosystems",
+    "S24_Mutation_and_Gene_Expression",
+    "S25_Genome_Projects_and_Gene_Technology",
+    "S26_Practical_Skills_Data_and_Essay"
+  ]
+}

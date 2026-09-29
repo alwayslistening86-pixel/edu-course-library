@@ -1,0 +1,410 @@
+{
+  "stage_rubrics": {
+    "S01_Energy_Stores_Transfers_and_Resources": {
+      "criteria": [
+        "Identifies energy stores and transfers in everyday situations and applies conservation of energy",
+        "Uses kinetic, gravitational potential, elastic and thermal energy equations with correct units",
+        "Calculates power and efficiency and explains how to reduce wasted energy",
+        "Evaluates energy resources with balanced reasoning on reliability, cost and environment"
+      ],
+      "pass_threshold": "Foundation: correct on energy stores, transfers, power and efficiency calculations (grade 4-5). Higher: rearranges equations, combines steps and evaluates resources critically.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.1 Energy (4.1.1.1-4.1.3)",
+        "reference": "AQA 8463 specification, section 4.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S02_Circuits_Resistance_and_Series_Parallel": {
+      "criteria": [
+        "Uses circuit symbols and places ammeters and voltmeters correctly",
+        "Uses Q = It, V = IR and E = QV with correct units",
+        "Describes and explains I-V characteristics of resistors, lamps, diodes, LDRs and thermistors",
+        "Applies series and parallel rules to current, potential difference and resistance, and evaluates the practicals"
+      ],
+      "pass_threshold": "Foundation: correct on circuit symbols, V = IR and series and parallel rules (grade 4-5). Higher: interprets I-V graphs and solves multi-step circuits with combined resistors.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.2.1 Current, potential difference and resistance, 4.2.2 Series and parallel circuits, and required practicals 3-4",
+        "reference": "AQA 8463 specification, sections 4.2.1 and 4.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S03_Mains_Power_the_Grid_and_Static": {
+      "criteria": [
+        "Describes d.c. and a.c. and mains wiring and safety",
+        "Calculates power and energy using P = VI, P = I squared R and E = Pt",
+        "Explains why the National Grid uses transformers and high potential difference",
+        "Explains static charging by electron transfer and describes electric fields"
+      ],
+      "pass_threshold": "Foundation: correct on plug wiring, power calculations and static charge (grade 4-5). Higher: explains grid efficiency and calculates energy and power in multi-step contexts.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.2.3 Mains electricity, 4.2.4 Energy transfers and 4.2.5 Static electricity",
+        "reference": "AQA 8463 specification, sections 4.2.3-4.2.5",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S04_Density_Heating_and_States_of_Matter": {
+      "criteria": [
+        "Calculates and measures density for regular and irregular objects and liquids",
+        "Explains changes of state and internal energy using the particle model",
+        "Uses specific heat capacity and specific latent heat equations correctly with units",
+        "Plans and evaluates the specific heat capacity, insulation and density practicals"
+      ],
+      "pass_threshold": "Foundation: correct on density, changes of state and heating calculations (grade 4-5). Higher: multi-step calculations with specific heat capacity and latent heat, and interpretation of heating curves.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.3.1 Density of materials, 4.3.2 Temperature changes and changes of state, and required practicals 1, 2 and 5",
+        "reference": "AQA 8463 specification, sections 4.3.1 and 4.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S05_Gases_and_Fluid_Pressure": {
+      "criteria": [
+        "Explains gas pressure and temperature in terms of particle motion",
+        "Calculates pressure with p = F/A and, at Higher, p = h rho g and p1V1 = p2V2",
+        "Explains pressure in liquids, upthrust and floating",
+        "Explains how atmospheric pressure changes with height"
+      ],
+      "pass_threshold": "Foundation: correct on gas pressure and temperature and on pressure calculations (grade 4-5). Higher: uses p1V1 = p2V2 and pressure in liquids p = h rho g.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.3.3 Particle model and pressure and 4.5.5 Pressure and pressure differences in fluids",
+        "reference": "AQA 8463 specification, sections 4.3.3 and 4.5.5",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S06_Atoms_and_Radioactive_Decay": {
+      "criteria": [
+        "Describes the structure of the atom, isotopes, and how electron energy levels change",
+        "Explains how evidence led to the nuclear model, from plum pudding to Bohr and the neutron",
+        "Compares alpha, beta and gamma radiation by nature, ionisation and penetration",
+        "Balances nuclear equations for alpha and beta decay"
+      ],
+      "pass_threshold": "Foundation: correct on atomic structure, isotopes and types of radiation (grade 4-5). Higher: balanced nuclear equations and evidence for changes to the atomic model.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.4.1 Atoms and isotopes and 4.4.2 Atoms and nuclear radiation (4.4.2.1-4.4.2.2)",
+        "reference": "AQA 8463 specification, sections 4.4.1 and 4.4.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S07_Half_Life_Uses_of_Radiation_Fission_and_Fusion": {
+      "criteria": [
+        "Uses half-life to calculate remaining activity and explains the random nature of decay",
+        "Distinguishes contamination from irradiation and identifies precautions",
+        "Describes background radiation, and evaluates uses and risks of radiation",
+        "Explains fission chain reactions with control and fusion with the conditions required"
+      ],
+      "pass_threshold": "Foundation: correct on half-life reasoning, hazards and uses of radiation, fission and fusion (grade 4-5). Higher: quantitative half-life problems and evaluation of risk.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.4.2 (half-lives, contamination), 4.4.3 Hazards and uses of radioactive emissions and 4.4.4 Nuclear fission and fusion",
+        "reference": "AQA 8463 specification, sections 4.4.2-4.4.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S08_Forces_Work_Elasticity_and_Moments": {
+      "criteria": [
+        "Distinguishes scalars and vectors and contact and non-contact forces",
+        "Calculates weight, resultant force, work done and moments with correct units",
+        "Uses F = ke and elastic energy for springs and explains the limit of proportionality",
+        "Explains levers and gears and evaluates the spring practical"
+      ],
+      "pass_threshold": "Foundation: correct on forces, weight, work done, F = ke and moments (grade 4-5). Higher: resolves forces with scale drawings and uses the work done on a spring.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.5.1 Forces and their interactions, 4.5.2 Work done and energy transfer, 4.5.3 Forces and elasticity, 4.5.4 Moments, levers and gears, and required practical 6",
+        "reference": "AQA 8463 specification, sections 4.5.1-4.5.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S09_Motion_Speed_Velocity_and_Acceleration": {
+      "criteria": [
+        "Distinguishes distance, displacement, speed and velocity",
+        "Calculates speed, acceleration and distance using the correct equations and units",
+        "Interprets distance-time and velocity-time graphs including gradient and area",
+        "Explains terminal velocity and uniform acceleration"
+      ],
+      "pass_threshold": "Foundation: correct on speed, distance-time graphs and acceleration calculations (grade 4-5). Higher: interprets velocity-time graphs including area, and uses the uniform acceleration equation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.5.6.1 Describing motion along a line",
+        "reference": "AQA 8463 specification, section 4.5.6.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S10_Newtons_Laws_Stopping_Distance_and_Practical": {
+      "criteria": [
+        "States and applies Newton's three laws with correct force pairs",
+        "Uses F = ma with correct units and identifies resultant force",
+        "Describes stopping distance, its components and the factors affecting each",
+        "Explains braking in terms of work and kinetic energy, and evaluates the acceleration practical"
+      ],
+      "pass_threshold": "Foundation: correct on Newton's laws, F = ma and stopping distance factors (grade 4-5). Higher: calculates braking forces and energy and evaluates safety factors.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.5.6.2 Forces, accelerations and Newton's Laws of motion, 4.5.6.3 Forces and braking, and required practical 7",
+        "reference": "AQA 8463 specification, sections 4.5.6.2 and 4.5.6.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S11_Momentum": {
+      "criteria": [
+        "Calculates momentum with correct units and direction",
+        "Applies conservation of momentum to collisions and explosions",
+        "Uses force as rate of change of momentum",
+        "Explains safety features in terms of longer impact time"
+      ],
+      "pass_threshold": "Foundation: correct on momentum calculation (grade 4-5). Higher: uses conservation of momentum in collisions and explosions, and force as rate of change of momentum.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.5.7 Momentum",
+        "reference": "AQA 8463 specification, section 4.5.7",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S12_Waves_Sound_and_Wave_Properties": {
+      "criteria": [
+        "Distinguishes transverse and longitudinal waves with examples",
+        "Uses v = f lambda and T = 1/f with correct units",
+        "Describes reflection and refraction, including wavefront diagrams at Higher tier",
+        "Explains uses of ultrasound and seismic waves and the wave-properties practical"
+      ],
+      "pass_threshold": "Foundation: correct on wave types, wave equation and basic reflection (grade 4-5). Higher: explains refraction with wavefronts, sound, ultrasound and seismic waves.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.6.1 Waves in air, fluids and solids, and required practical 8",
+        "reference": "AQA 8463 specification, section 4.6.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S13_Electromagnetic_Waves_Lenses_and_Radiation": {
+      "criteria": [
+        "Names the EM spectrum in order and links frequency and wavelength",
+        "Describes the uses and hazards of each type of EM radiation",
+        "Draws ray diagrams for lenses and calculates magnification, and explains colour",
+        "Explains emission, absorption and black-body radiation and carries out the reflection, refraction and infrared practicals"
+      ],
+      "pass_threshold": "Foundation: correct on the order and uses of the spectrum, ray diagrams and radiation from surfaces (grade 4-5). Higher: explains properties, hazards, magnification and black-body radiation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.6.2 Electromagnetic waves, 4.6.3 Black body radiation and required practicals 9-10",
+        "reference": "AQA 8463 specification, sections 4.6.2 and 4.6.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S14_Magnets_and_Electromagnetism": {
+      "criteria": [
+        "Describes poles, permanent and induced magnets, and magnetic field patterns",
+        "Explains the magnetic field of a current-carrying wire and solenoid and the factors affecting an electromagnet",
+        "Uses Fleming's left-hand rule and F = BIl",
+        "Explains how motors and loudspeakers work"
+      ],
+      "pass_threshold": "Foundation: correct on magnetic poles, fields and electromagnets (grade 4-5). Higher: uses Fleming's left-hand rule and F = BIl, and explains motors and loudspeakers.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.7.1 Permanent and induced magnetism, magnetic forces and fields and 4.7.2 The motor effect",
+        "reference": "AQA 8463 specification, sections 4.7.1 and 4.7.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S15_Induction_Generators_and_Transformers": {
+      "criteria": [
+        "Explains the generator effect and factors that change induced potential",
+        "Distinguishes alternators and dynamos and explains how microphones work",
+        "Uses Vp/Vs = Np/Ns and VsIs = VpIp for transformers",
+        "Explains why transformers need a.c. and are used in the National Grid"
+      ],
+      "pass_threshold": "Foundation: correct on the generator effect and transformer roles (grade 4-5). Higher: uses the transformer equations and explains factors affecting induced potential.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.7.3 Induced potential, generators and transformers",
+        "reference": "AQA 8463 specification, section 4.7.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S16_Space_Physics": {
+      "criteria": [
+        "Describes the Solar System and how it formed",
+        "Explains the life cycle of stars of different masses and the origin of elements",
+        "Explains orbital motion with changing velocity and, at Higher, the speed-radius relationship",
+        "Explains red-shift as evidence for an expanding universe and the Big Bang"
+      ],
+      "pass_threshold": "Foundation: correct on Solar System features, star life cycle and red-shift evidence (grade 4-5). Higher: explains orbital speed and radius relationships and the red-shift evidence in detail.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, 4.8 Space physics (Physics only)",
+        "reference": "AQA 8463 specification, section 4.8",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S17_Working_Scientifically_Thinking_and_Experiments": {
+      "criteria": [
+        "Explains how theories, models and evidence develop and the role of peer review",
+        "Evaluates ethical and risk issues in science and society",
+        "Plans a controlled investigation with clearly identified variables, apparatus and sampling",
+        "Evaluates a method, distinguishing random and systematic error and suggesting improvements"
+      ],
+      "pass_threshold": "Foundation: identifies variables, plans a fair test and suggests improvements (grade 4-5). Higher: evaluates a method critically with reasoned suggestions and explains risk and ethical issues.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, section 3 Working scientifically, WS1 Development of scientific thinking and WS2 Experimental skills and strategies",
+        "reference": "AQA 8463 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S18_Working_Scientifically_Analysis_and_Vocabulary": {
+      "criteria": [
+        "Presents data in an appropriate table or graph with labelled axes and units",
+        "Calculates means and ranges and treats anomalies sensibly",
+        "Describes patterns using figures and writes conclusions that match the evidence",
+        "Evaluates accuracy, precision and repeatability and uses units, prefixes and significant figures correctly"
+      ],
+      "pass_threshold": "Foundation: plots and reads graphs, calculates means and draws conclusions (grade 4-5). Higher: evaluates data quality with uncertainty, and links data to hypotheses in reasoned explanations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, section 3 Working scientifically, WS3 Analysis and evaluation and WS4 Scientific vocabulary, quantities, units, symbols and nomenclature",
+        "reference": "AQA 8463 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    },
+    "S19_Mathematical_Skills_for_Physics": {
+      "criteria": [
+        "Performs calculations with decimals, standard form, ratios and percentages and estimates sensibly",
+        "Rearranges and substitutes into equations with correct units",
+        "Plots and interprets graphs, finding gradient, tangent and area",
+        "Uses statistics, correlation, order of magnitude, angle and area and volume skills correctly"
+      ],
+      "pass_threshold": "Foundation: routine calculations, means, graph plotting and equation substitution (grade 4-5). Higher: rearranging equations, gradients, tangents and areas in multi-step problems.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Physics (8463) specification, section 7 Mathematical requirements (1a-1d, 2a-2c, 2f-2h, 3a-3d, 4a-4f, 5a-5c)",
+        "reference": "AQA 8463 specification, section 7",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Two complete, timed 1 hour 45 minute, 100-mark papers at the learner's tier (Paper 1: topics 4.1-4.4; Paper 2: topics 4.5-4.8)",
+      "At least one required-practical-based question answered correctly in each paper",
+      "Performance holds up across topics under mixed order, including Physics-only depth content",
+      "Calculations show working and units, and extended answers use precise scientific vocabulary"
+    ],
+    "pass_threshold": "Foundation tier: performance consistent with grade 4-5 across full papers. Higher tier: performance consistent with grade 6-7. AQA sets exact grade boundaries per series rather than a fixed mark table.",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "GCSE Physics (8463) specification, Scheme of Assessment (Papers 1 and 2)",
+      "reference": "AQA 8463 specification, Scheme of Assessment",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+        "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+        "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+        "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/physics/specifications/AQA-8463-SP-2016.PDF",
+    "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/practical-assessment",
+    "https://www.aqa.org.uk/subjects/science/gcse/physics-8463/specification/mathematical-requirements",
+    "https://www.aqa.org.uk/subjects/physics/gcse/physics-8463/specification/subject-content/space-physics-physics-only"
+  ]
+}

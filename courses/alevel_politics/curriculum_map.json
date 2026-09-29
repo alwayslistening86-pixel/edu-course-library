@@ -1,0 +1,755 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "Pearson Edexcel Level 3 Advanced GCE in Politics (9PL0) specification, Issue 4: Component 1 (UK Politics and Core Political Ideas), Component 2 (UK Government and Non-core Political Ideas, Feminism option) and Component 3A (Comparative Politics: Government and Politics of the USA)",
+    "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Politics/2017/Specification%20and%20sample%20assessments/9781446933602-gce2017-al-politics-issue4.pdf",
+    "version": "Issue 4 (May 2026), the current specification (first teaching September 2017, unchanged since), linked from qualifications.pearson.com and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "Edexcel numbers the content areas and sub-points (e.g. 1.1-1.4 for Democracy and participation; 3.3.1-3.3.2 for the Prime Minister and Cabinet) but leaves the thinkers, ideology tensions and much comparative content as unnumbered bullets. This course codes UK Politics by topic-prefix and sub-point (DP1.1-1.4 Democracy and participation, PP2.1-2.4 Political parties, ES3.1-3.3 Electoral systems, VB4.1-4.2 Voting behaviour and the media); Core Political Ideas by ideology and unnumbered content area (CON/LIB/SOC .1 core ideas, .2 tensions, .3 thinkers); UK Government the same way as UK Politics (GOV1.1-1.4 the constitution, GOV2.1-2.4 Parliament, GOV3.1-3.3 Prime Minister and executive, GOV4.1-4.4 relations between branches); the Feminism option and the four unselected non-core ideas (Anarchism, Ecologism, Multiculturalism, Nationalism) the same way as the core ideas (FEM/ANA/ECO/MC/NAT .1-.3); and Component 3A USA content by topic-prefix and Edexcel's own sub-numbering where it exists (USC1.1-1.4 US Constitution and federalism, CONG2.1-2.3 US Congress structure/functions/interpretations, PRES3.1-3.4 US presidency, SCOTUS4.1-4.6 US Supreme Court and civil rights, USDEM5.1-5.4 US democracy and participation, COMP6.1-6.5+UK/US pairings for comparative theories)."
+  },
+  "_syllabus_items": [
+    {
+      "id": "DP1.1",
+      "title": "Current systems of representative and direct democracy: features, similarities/differences, advantages/disadvantages and the case for reform",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "DP1.2",
+      "title": "The widening franchise: 1832 Great Reform Act, 1918/1928/1969 Representation of the People Acts, the suffragists/suffragettes, and a current movement to extend the franchise",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "DP1.3",
+      "title": "Pressure groups and other influences: how methods and influence vary, two case-study pressure groups, and think tanks, lobbyists and corporations",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "DP1.4",
+      "title": "Rights in context: Magna Carta to the Human Rights Act 1998 and Equality Act 2010, tensions in the UK's rights-based culture, and two civil liberty pressure groups",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "PP2.1",
+      "title": "Political parties: functions and features in UK representative democracy; party funding and funding-reform debates",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "PP2.2",
+      "title": "Established parties: the origins and development of the Conservative, Labour and Liberal Democrat parties and how this shaped their policies",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "PP2.3",
+      "title": "Emerging and minor UK parties: their importance and the ideas and policies of two minor parties",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "PP2.4",
+      "title": "UK parties in context: the development of a multi-party system, and factors (including leadership and the media) affecting party success",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "ES3.1",
+      "title": "Electoral systems: FPTP, AMS, STV and the Closed Proportional List System (CPLS), their advantages/disadvantages, and FPTP compared with a devolved system",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "ES3.2",
+      "title": "Referendums: how they have been used in the UK since 1997 and their impact; the case for and against referendums",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "ES3.3",
+      "title": "Electoral system analysis: why different systems are used in the UK, and their impact on government formation, party representation and voter choice",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "VB4.1",
+      "title": "Case studies of three general elections (1945-92, 1997, and one since 1997): outcomes, party policy/manifestos/leadership/campaigns, class and partisan factors, and demographic factors",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "VB4.2",
+      "title": "The influence of the media on politics between and during elections, including media bias and the role of opinion polls",
+      "topic_area": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)"
+    },
+    {
+      "id": "CON.1",
+      "title": "Conservatism: core ideas and principles - pragmatism, tradition, human imperfection, organic society/state, paternalism, libertarianism (neo-liberalism)",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "CON.2",
+      "title": "Tensions within conservatism: traditional conservatism, one-nation conservatism, and the New Right's fusion of neo-liberalism and neo-conservatism",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "CON.3",
+      "title": "Conservative thinkers: Hobbes, Burke, Oakeshott, Rand, Nozick",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "LIB.1",
+      "title": "Liberalism: core ideas and principles - individualism, freedom/liberty, the state as necessary evil, rationalism, equality/social justice, liberal democracy",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "LIB.2",
+      "title": "Tensions within liberalism: classical liberalism and modern liberalism",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "LIB.3",
+      "title": "Liberal thinkers: Locke, Wollstonecraft, Mill, Rawls, Friedan",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "SOC.1",
+      "title": "Socialism: core ideas and principles - collectivism, common humanity, equality, social class, workers' control",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "SOC.2",
+      "title": "Tensions within socialism: revolutionary socialism, social democracy, the Third Way",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "SOC.3",
+      "title": "Socialist thinkers: Marx and Engels, Webb, Luxemburg, Crosland, Giddens",
+      "topic_area": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)"
+    },
+    {
+      "id": "GOV1.1",
+      "title": "The nature and sources of the UK constitution: key historical documents, uncodified/unentrenched/unitary character, and the five sources of the constitution",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV1.2",
+      "title": "How the constitution has changed since 1997: Labour 1997-2010, the Coalition 2010-15, and reforms since 2015 including further devolution to Scotland",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV1.3",
+      "title": "The role and powers of devolved bodies: England, the Scottish Parliament/Government, the Welsh Senedd/Government, the Northern Ireland Assembly/Executive",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV1.4",
+      "title": "Debates on further constitutional reform: extending the 1997-present reforms, further devolution in England, and whether the constitution should be codified and entrenched",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV2.1",
+      "title": "The structure and role of the Commons and Lords: membership, types of peer, and the extent to which their functions are fulfilled",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV2.2",
+      "title": "The comparative powers of the Commons and Lords: exclusive Commons powers, the Lords' main powers, and debates on their relative power",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV2.3",
+      "title": "The legislative process: the stages a bill goes through, and Commons-Lords interaction including the Salisbury Convention",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV2.4",
+      "title": "Parliament and the Executive: backbenchers and parliamentary privilege, select committees, public bill committees, the Official Opposition, and ministerial question time/PMQs",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV3.1",
+      "title": "The structure, role and powers of the Executive: PM, Cabinet, junior ministers, departments; proposing legislation/budget/policy; royal prerogative and secondary legislative powers",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV3.2",
+      "title": "Ministerial responsibility: individual and collective responsibility",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV3.3",
+      "title": "The Prime Minister and Cabinet: factors governing ministerial selection and the PM-Cabinet relationship; the power of one pre-1997 and one post-1997 PM to dictate events and policy",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV4.1",
+      "title": "The Supreme Court: role and composition, judicial neutrality and independence, and its influence via ultra vires and judicial review",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV4.2",
+      "title": "The Executive-Parliament relationship: Parliament's effectiveness in holding the Executive to account, and the Executive's attempts to dominate Parliament",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV4.3",
+      "title": "The EU's aims, role and impact on UK government: the 'four freedoms', its role in policymaking, and the impact of at least two EU policies before Brexit",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "GOV4.4",
+      "title": "The location of sovereignty: legal vs political sovereignty, and how it has moved between branches and to/from the EU and devolved bodies",
+      "topic_area": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)"
+    },
+    {
+      "id": "FEM.1",
+      "title": "Feminism: ideas and principles - sex and gender, patriarchy, the personal is political, equality feminism/difference feminism, intersectionality",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "FEM.2",
+      "title": "Types of feminism: liberal, socialist, radical, post-modern",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "FEM.3",
+      "title": "Feminist thinkers: Gilman, de Beauvoir, Millett, Rowbotham, hooks",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "USC.1",
+      "title": "The nature of the US Constitution: vagueness, codification, entrenchment; the constitutional framework of the branches; the amendment process (Article V)",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "USC.2",
+      "title": "Key features of the US Constitution: federalism; separation of powers and checks and balances; bipartisanship; limited government",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "USC.3",
+      "title": "US federalism: the nature of the federal system and its relationship with the states",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "USC.4",
+      "title": "Interpretations and debates: the Constitution's democratic effectiveness, strengths/weaknesses, and the extent to which the USA remains federal today",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "CONG.1",
+      "title": "The structure of Congress and the distribution of powers: bicameral nature, membership, election cycle, enumerated/exclusive/concurrent powers",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "CONG.2",
+      "title": "Representation: congressional elections, incumbency, and factors affecting voting behaviour in Congress (parties/caucuses, constituency, interest groups, lobbyists)",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "CONG.3",
+      "title": "The legislative function: the legislative process, differences between the chambers, and the policy significance of Congress",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "CONG.4",
+      "title": "Oversight: factors influencing Congress-presidency relations, and Congress as a check on the presidency and Supreme Court",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "CONG.5",
+      "title": "Interpretations and debates: Congress's changing role/powers, adequacy of representation, changing party significance, and effectiveness of its constitutional powers",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "PRES.1",
+      "title": "Formal presidential powers (Head of State/Government) since 2000",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "PRES.2",
+      "title": "Informal presidential powers since 2000: electoral mandate, executive orders, national events, cabinet, powers of persuasion, EXOP (NSC, OMB, WHO)",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "PRES.3",
+      "title": "Presidential relationships (Congress, Supreme Court) and limitations on presidential power (term stage, Congress/Court/Constitution, election cycle, divided government) since 2000",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "PRES.4",
+      "title": "Interpretations and debates: effectiveness in achieving aims, imperial/imperilled presidency, accountability to Congress, foreign-policy power",
+      "topic_area": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)"
+    },
+    {
+      "id": "SCOTUS.1",
+      "title": "The nature and role of the Supreme Court: the Constitution, judicial independence, judicial review (Marbury v Madison 1803, Fletcher v Peck 1810)",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "SCOTUS.2",
+      "title": "The appointment process: strengths/weaknesses, factors in presidential nomination, current composition and ideological balance",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "SCOTUS.3",
+      "title": "The Supreme Court and public policy: impact with examples post-2005; judicial activism vs restraint; Living Constitution vs originalism",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "SCOTUS.4",
+      "title": "Protection of civil liberties and rights: the Constitution, Bill of Rights, later amendments, and Supreme Court rulings",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "SCOTUS.5",
+      "title": "Race and rights in contemporary US politics: racial rights campaigns' methods/influence/effectiveness on voting rights, affirmative action and representation",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "SCOTUS.6",
+      "title": "Interpretations and debates: political vs judicial nature of the Court, effectiveness of rights protection, checks and balances, successes/failures of equality measures",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "USDEM.1",
+      "title": "US elections: constitutional requirements, invisible primary, primaries/caucuses, National Party Conventions, the Electoral College, incumbency, congressional elections",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "USDEM.2",
+      "title": "Campaign finance: current legislation and the implications of Supreme Court rulings (McCain-Feingold 2002, Citizens United v FEC 2010)",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "USDEM.3",
+      "title": "Democratic and Republican ideas: attitudes to social/moral issues and crime, economic intervention, social welfare, and immigration",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "USDEM.4",
+      "title": "Party conflicts and coalitions: factions within each party, and voter coalitions (race, religion, gender, education) in a post-2000 presidential election",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "USDEM.5",
+      "title": "Interest groups in the USA: influence, methods and power of a single-interest, professional or policy group",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "USDEM.6",
+      "title": "Interpretations and debates: the Electoral College and reform, campaign-finance reform, incumbency, and the role/influence of interest groups",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "COMP.1",
+      "title": "Theoretical approaches to comparative politics: rational, cultural, structural",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "COMP.2",
+      "title": "Comparing UK and US constitutions: codified/uncodified, sources/provisions/principles, separation of powers/checks and balances, federalism vs devolution",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "COMP.3",
+      "title": "Comparing UK and US legislatures: powers/strengths/weaknesses of each chamber and the extent to which the two chambers in each system are equal",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "COMP.4",
+      "title": "Comparing UK and US executives: role and powers of the President vs the Prime Minister, and accountability to the legislature",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "COMP.5",
+      "title": "Comparing UK and US supreme courts and civil rights: basis/extent of powers, judicial independence, effectiveness of rights protection, interest groups' role",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "COMP.6",
+      "title": "Comparing UK and US democracy and participation: party systems, internal party unity, party policy profiles, campaign-finance debates, pressure/interest group power",
+      "topic_area": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)"
+    },
+    {
+      "id": "ANA.1",
+      "title": "Anarchism: core ideas and principles (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "ANA.2",
+      "title": "Types of anarchism: collectivist and individualist (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "ANA.3",
+      "title": "Anarchist thinkers: Stirner, Proudhon, Bakunin, Kropotkin, Goldman (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "ECO.1",
+      "title": "Ecologism: core ideas and principles (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "ECO.2",
+      "title": "Types of ecologism (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "ECO.3",
+      "title": "Ecologist thinkers (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "MC.1",
+      "title": "Multiculturalism: ideas and principles (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "MC.2",
+      "title": "Types of multiculturalism (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "MC.3",
+      "title": "Multiculturalist thinkers (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "NAT.1",
+      "title": "Nationalism: core ideas and principles (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "NAT.2",
+      "title": "Types of nationalism (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    },
+    {
+      "id": "NAT.3",
+      "title": "Nationalist thinkers (not taught)",
+      "topic_area": "Paper 2, Section B: Non-core Political Ideas (Feminism)"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "ANA.1",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "ANA.2",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "ANA.3",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "ECO.1",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "ECO.2",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "ECO.3",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MC.1",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MC.2",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "MC.3",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "NAT.1",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "NAT.2",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    },
+    {
+      "id": "NAT.3",
+      "reason": "Non-core political idea not selected. Edexcel 9PL0 candidates study one of five non-core political ideas for Component 2 Section B; this course takes Feminism, a well-resourced, widely taught option."
+    }
+  ],
+  "S01_Democracy_and_Participation": {
+    "covers_syllabus_refs": [
+      "9PL0 DP1.1",
+      "9PL0 DP1.2",
+      "9PL0 DP1.3",
+      "9PL0 DP1.4"
+    ],
+    "syllabus_topic": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)",
+    "covers_items": [
+      "DP1.1",
+      "DP1.2",
+      "DP1.3",
+      "DP1.4"
+    ]
+  },
+  "S02_Political_Parties": {
+    "covers_syllabus_refs": [
+      "9PL0 PP2.1",
+      "9PL0 PP2.2",
+      "9PL0 PP2.3",
+      "9PL0 PP2.4"
+    ],
+    "syllabus_topic": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)",
+    "covers_items": [
+      "PP2.1",
+      "PP2.2",
+      "PP2.3",
+      "PP2.4"
+    ]
+  },
+  "S03_Electoral_Systems": {
+    "covers_syllabus_refs": [
+      "9PL0 ES3.1",
+      "9PL0 ES3.2",
+      "9PL0 ES3.3"
+    ],
+    "syllabus_topic": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)",
+    "covers_items": [
+      "ES3.1",
+      "ES3.2",
+      "ES3.3"
+    ]
+  },
+  "S04_Voting_Behaviour_and_Media": {
+    "covers_syllabus_refs": [
+      "9PL0 VB4.1",
+      "9PL0 VB4.2"
+    ],
+    "syllabus_topic": "Paper 1, Section A: UK Politics (democracy and participation, political parties, electoral systems, voting behaviour and the media)",
+    "covers_items": [
+      "VB4.1",
+      "VB4.2"
+    ]
+  },
+  "S05_Conservatism": {
+    "covers_syllabus_refs": [
+      "9PL0 CON.1",
+      "9PL0 CON.2",
+      "9PL0 CON.3"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)",
+    "covers_items": [
+      "CON.1",
+      "CON.2",
+      "CON.3"
+    ]
+  },
+  "S06_Liberalism": {
+    "covers_syllabus_refs": [
+      "9PL0 LIB.1",
+      "9PL0 LIB.2",
+      "9PL0 LIB.3"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)",
+    "covers_items": [
+      "LIB.1",
+      "LIB.2",
+      "LIB.3"
+    ]
+  },
+  "S07_Socialism": {
+    "covers_syllabus_refs": [
+      "9PL0 SOC.1",
+      "9PL0 SOC.2",
+      "9PL0 SOC.3"
+    ],
+    "syllabus_topic": "Paper 1, Section B: Core Political Ideas (conservatism, liberalism, socialism)",
+    "covers_items": [
+      "SOC.1",
+      "SOC.2",
+      "SOC.3"
+    ]
+  },
+  "S08_The_Constitution": {
+    "covers_syllabus_refs": [
+      "9PL0 GOV1.1",
+      "9PL0 GOV1.2",
+      "9PL0 GOV1.3",
+      "9PL0 GOV1.4"
+    ],
+    "syllabus_topic": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)",
+    "covers_items": [
+      "GOV1.1",
+      "GOV1.2",
+      "GOV1.3",
+      "GOV1.4"
+    ]
+  },
+  "S09_Parliament": {
+    "covers_syllabus_refs": [
+      "9PL0 GOV2.1",
+      "9PL0 GOV2.2",
+      "9PL0 GOV2.3",
+      "9PL0 GOV2.4"
+    ],
+    "syllabus_topic": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)",
+    "covers_items": [
+      "GOV2.1",
+      "GOV2.2",
+      "GOV2.3",
+      "GOV2.4"
+    ]
+  },
+  "S10_PM_and_Executive": {
+    "covers_syllabus_refs": [
+      "9PL0 GOV3.1",
+      "9PL0 GOV3.2",
+      "9PL0 GOV3.3"
+    ],
+    "syllabus_topic": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)",
+    "covers_items": [
+      "GOV3.1",
+      "GOV3.2",
+      "GOV3.3"
+    ]
+  },
+  "S11_Relations_Between_Branches": {
+    "covers_syllabus_refs": [
+      "9PL0 GOV4.1",
+      "9PL0 GOV4.2",
+      "9PL0 GOV4.3",
+      "9PL0 GOV4.4"
+    ],
+    "syllabus_topic": "Paper 2, Section A: UK Government (the constitution, Parliament, Prime Minister and executive, relations between branches)",
+    "covers_items": [
+      "GOV4.1",
+      "GOV4.2",
+      "GOV4.3",
+      "GOV4.4"
+    ]
+  },
+  "S12_Feminism": {
+    "covers_syllabus_refs": [
+      "9PL0 FEM.1",
+      "9PL0 FEM.2",
+      "9PL0 FEM.3"
+    ],
+    "syllabus_topic": "Paper 2, Section B: Non-core Political Ideas (Feminism)",
+    "covers_items": [
+      "FEM.1",
+      "FEM.2",
+      "FEM.3"
+    ]
+  },
+  "S13_US_Constitution_and_Federalism": {
+    "covers_syllabus_refs": [
+      "9PL0 USC.1",
+      "9PL0 USC.2",
+      "9PL0 USC.3",
+      "9PL0 USC.4"
+    ],
+    "syllabus_topic": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)",
+    "covers_items": [
+      "USC.1",
+      "USC.2",
+      "USC.3",
+      "USC.4"
+    ]
+  },
+  "S14_US_Congress": {
+    "covers_syllabus_refs": [
+      "9PL0 CONG.1",
+      "9PL0 CONG.2",
+      "9PL0 CONG.3",
+      "9PL0 CONG.4",
+      "9PL0 CONG.5"
+    ],
+    "syllabus_topic": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)",
+    "covers_items": [
+      "CONG.1",
+      "CONG.2",
+      "CONG.3",
+      "CONG.4",
+      "CONG.5"
+    ]
+  },
+  "S15_US_Presidency": {
+    "covers_syllabus_refs": [
+      "9PL0 PRES.1",
+      "9PL0 PRES.2",
+      "9PL0 PRES.3",
+      "9PL0 PRES.4"
+    ],
+    "syllabus_topic": "Paper 3A, Sections A/B: Comparative Politics - USA (Constitution and federalism, Congress, presidency)",
+    "covers_items": [
+      "PRES.1",
+      "PRES.2",
+      "PRES.3",
+      "PRES.4"
+    ]
+  },
+  "S16_US_Supreme_Court_and_Civil_Rights": {
+    "covers_syllabus_refs": [
+      "9PL0 SCOTUS.1",
+      "9PL0 SCOTUS.2",
+      "9PL0 SCOTUS.3",
+      "9PL0 SCOTUS.4",
+      "9PL0 SCOTUS.5",
+      "9PL0 SCOTUS.6"
+    ],
+    "syllabus_topic": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)",
+    "covers_items": [
+      "SCOTUS.1",
+      "SCOTUS.2",
+      "SCOTUS.3",
+      "SCOTUS.4",
+      "SCOTUS.5",
+      "SCOTUS.6"
+    ]
+  },
+  "S17_US_Democracy_and_Participation": {
+    "covers_syllabus_refs": [
+      "9PL0 USDEM.1",
+      "9PL0 USDEM.2",
+      "9PL0 USDEM.3",
+      "9PL0 USDEM.4",
+      "9PL0 USDEM.5",
+      "9PL0 USDEM.6"
+    ],
+    "syllabus_topic": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)",
+    "covers_items": [
+      "USDEM.1",
+      "USDEM.2",
+      "USDEM.3",
+      "USDEM.4",
+      "USDEM.5",
+      "USDEM.6"
+    ]
+  },
+  "S18_Comparative_Theories_Constitutions_and_Legislatures": {
+    "covers_syllabus_refs": [
+      "9PL0 COMP.1",
+      "9PL0 COMP.2",
+      "9PL0 COMP.3"
+    ],
+    "syllabus_topic": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)",
+    "covers_items": [
+      "COMP.1",
+      "COMP.2",
+      "COMP.3"
+    ]
+  },
+  "S19_Comparing_Executives_Judiciaries_and_Democracy": {
+    "covers_syllabus_refs": [
+      "9PL0 COMP.4",
+      "9PL0 COMP.5",
+      "9PL0 COMP.6"
+    ],
+    "syllabus_topic": "Paper 3A, Sections B/C: Comparative Politics - USA (Supreme Court and civil rights, democracy and participation, comparative theories)",
+    "covers_items": [
+      "COMP.4",
+      "COMP.5",
+      "COMP.6"
+    ]
+  }
+}

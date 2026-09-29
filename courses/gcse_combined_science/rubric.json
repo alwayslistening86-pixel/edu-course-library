@@ -1,0 +1,933 @@
+{
+  "stage_rubrics": {
+    "B01_Cell_Structure_and_Microscopy": {
+      "criteria": [
+        "Identifies eukaryotic and prokaryotic features and links structures to functions correctly",
+        "Explains how specialised cells are adapted to their function using structure-function reasoning",
+        "Carries out magnification and unit-conversion calculations with correct units and standard form where needed",
+        "Uses a light microscope and produces a labelled scientific drawing with magnification"
+      ],
+      "pass_threshold": "Foundation: correct on standard recall-and-apply questions on cell structures, specialisation and magnification (grade 4-5). Higher: also carries out magnification calculations in standard form with unit conversion.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.1.1 Cell structure and the microscopy required practical",
+        "reference": "AQA 8464 specification, section 4.1.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B02_Cell_Division_and_Transport": {
+      "criteria": [
+        "Describes the cell cycle and mitosis, and the sources and uses of stem cells",
+        "Explains diffusion, osmosis and active transport and the factors that affect each",
+        "Calculates percentage change in mass and surface area to volume ratio with correct working",
+        "Plans and interprets the osmosis practical, controlling variables"
+      ],
+      "pass_threshold": "Foundation: describes mitosis, stem cell uses and the three transport processes correctly (grade 4-5). Higher: calculates percentage change in mass and surface area to volume ratio and explains transport in reasoned detail.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.1.2 Cell division, 4.1.3 Transport in cells and the osmosis required practical",
+        "reference": "AQA 8464 specification, section 4.1.2 and 4.1.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B03_Organisation_Digestion_and_Enzymes": {
+      "criteria": [
+        "Explains the levels of organisation and the roles of digestive organs and enzymes",
+        "Uses the lock and key model to explain enzyme action, temperature and pH effects",
+        "Carries out and interprets food tests and the amylase and pH investigation with controlled variables",
+        "Explains the role of bile and digestive enzymes with correct substrates and products"
+      ],
+      "pass_threshold": "Foundation: names enzymes, substrates and products and carries out the food tests correctly (grade 4-5). Higher: explains enzyme action with the lock and key model, denaturation and the role of bile.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.2.1 Principles of organisation, 4.2.2.1 The human digestive system and the food test and amylase required practicals",
+        "reference": "AQA 8464 specification, section 4.2.1 and 4.2.2.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B04_Circulation_Health_and_Plant_Organisation": {
+      "criteria": [
+        "Describes the heart, blood vessels and blood components and links structure to function",
+        "Explains non-communicable disease, risk factors and cancer using data appropriately",
+        "Evaluates treatments for heart disease with advantages and disadvantages",
+        "Describes plant tissues and organs and explains transpiration and translocation"
+      ],
+      "pass_threshold": "Foundation: describes the heart, vessels, blood and plant tissues and gives risk factors for disease (grade 4-5). Higher: evaluates treatments and interprets correlation and causation in health data.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.2.2 Animal tissues, organs and organ systems and 4.2.3 Plant tissues, organs and systems",
+        "reference": "AQA 8464 specification, section 4.2.2 and 4.2.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B05_Infection_and_Response": {
+      "criteria": [
+        "Identifies pathogens, the diseases they cause, how they spread and how spread is prevented",
+        "Explains non-specific and specific defences including antibodies and memory cells",
+        "Explains vaccination, herd immunity and how antibiotics and painkillers work",
+        "Describes drug development and testing including trials and placebos"
+      ],
+      "pass_threshold": "Foundation: identifies pathogens, spread, symptoms and defences correctly (grade 4-5). Higher: explains immunity, herd immunity and antibiotic resistance in detail.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.3.1 Communicable diseases",
+        "reference": "AQA 8464 specification, section 4.3.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B06_Bioenergetics": {
+      "criteria": [
+        "States and balances the equations for photosynthesis and respiration",
+        "Explains limiting factors and interprets rate data including the inverse square law at Higher",
+        "Compares aerobic and anaerobic respiration and explains the body's response to exercise",
+        "Carries out the light intensity investigation, controlling variables and presenting data"
+      ],
+      "pass_threshold": "Foundation: writes the equations and names limiting factors and the products of respiration (grade 4-5). Higher: interprets rate graphs, uses the inverse square law and explains oxygen debt.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.4 Bioenergetics and the photosynthesis required practical",
+        "reference": "AQA 8464 specification, section 4.4",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B07_Homeostasis_and_Response": {
+      "criteria": [
+        "Explains homeostasis and control systems with receptors, coordination centres and effectors",
+        "Describes the reflex arc and the roles of neurones, synapses and effectors",
+        "Explains blood glucose control, diabetes and the hormones of the menstrual cycle and contraception",
+        "Carries out and evaluates the reaction time investigation, calculating means and controlling variables"
+      ],
+      "pass_threshold": "Foundation: describes the reflex arc, insulin control of glucose and the menstrual cycle hormones (grade 4-5). Higher: explains negative feedback and the use of hormones to treat infertility in reasoned detail.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.5 Homeostasis and response and the reaction time required practical",
+        "reference": "AQA 8464 specification, section 4.5",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B08_Reproduction_DNA_and_Inheritance": {
+      "criteria": [
+        "Compares sexual and asexual reproduction and describes meiosis and fertilisation",
+        "Uses inheritance vocabulary correctly for genes, alleles, genotype and phenotype",
+        "Completes and interprets genetic crosses and states probabilities correctly",
+        "Explains inherited disorders, sex determination and the genome including ethical issues"
+      ],
+      "pass_threshold": "Foundation: completes a Punnett square and uses the key inheritance terms correctly (grade 4-5). Higher: explains meiosis and the probabilities of crosses, including repeated births.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.6.1 Reproduction",
+        "reference": "AQA 8464 specification, section 4.6.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B09_Variation_Evolution_and_Classification": {
+      "criteria": [
+        "Explains variation and the process of natural selection with correct terminology",
+        "Describes and evaluates selective breeding and genetic engineering",
+        "Uses fossil, extinction and resistant-bacteria evidence to support evolution",
+        "Describes the classification system and binomial naming"
+      ],
+      "pass_threshold": "Foundation: explains variation, natural selection, selective breeding and fossils correctly (grade 4-5). Higher: applies natural selection to antibiotic resistance and evaluates genetic engineering.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.6.2 Variation and evolution, 4.6.3 The development of understanding of genetics and evolution and 4.6.4 Classification",
+        "reference": "AQA 8464 specification, section 4.6.2 to 4.6.4",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B10_Ecology_Adaptation_and_Cycles": {
+      "criteria": [
+        "Describes communities, abiotic and biotic factors, interdependence and competition",
+        "Explains structural, behavioural and functional adaptations",
+        "Carries out and interprets sampling with quadrats and calculates population estimates",
+        "Describes the carbon and water cycles and the levels of organisation in an ecosystem"
+      ],
+      "pass_threshold": "Foundation: names abiotic and biotic factors, adaptations and describes the carbon and water cycles (grade 4-5). Higher: carries out and interprets population estimates and explains adaptations of extremophiles.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.7.1 Adaptations, interdependence and competition, 4.7.2 Organisation of an ecosystem and the population sampling required practical",
+        "reference": "AQA 8464 specification, section 4.7.1 and 4.7.2",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "B11_Biodiversity_and_Human_Impact": {
+      "criteria": [
+        "Explains biodiversity and the effects of human population growth, waste and land use",
+        "Explains deforestation, global warming and their consequences for ecosystems",
+        "Describes ways of maintaining biodiversity",
+        "Evaluates a scheme by weighing evidence and competing interests"
+      ],
+      "pass_threshold": "Foundation: describes causes and effects of reduced biodiversity and global warming (grade 4-5). Higher: evaluates schemes to maintain biodiversity using evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 4.7.3 Biodiversity and ecosystems",
+        "reference": "AQA 8464 specification, section 4.7.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C01_Atomic_Structure": {
+      "criteria": [
+        "Distinguishes elements, compounds and mixtures and chooses suitable separation methods",
+        "Describes the development of the model of the atom using the evidence for each change",
+        "States particle charges and masses and calculates numbers of protons, neutrons and electrons",
+        "Writes electronic structures and calculates relative atomic mass"
+      ],
+      "pass_threshold": "Foundation: gives particle charges and masses, electronic structure and separation methods (grade 4-5). Higher: calculates relative atomic mass from isotope abundance and explains how models developed with evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.1.1 A simple model of the atom, symbols, relative atomic mass, electronic charge and isotopes",
+        "reference": "AQA 8464 specification, section 5.1.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C02_The_Periodic_Table": {
+      "criteria": [
+        "Explains how the periodic table was developed and how it is arranged",
+        "Describes properties and reactions of alkali metals, halogens and noble gases",
+        "Explains trends in reactivity using electron structure",
+        "Predicts products and writes equations for displacement reactions"
+      ],
+      "pass_threshold": "Foundation: describes group trends and observations correctly (grade 4-5). Higher: explains reactivity trends in terms of electron structure and predicts displacement reactions.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.1.2 The periodic table",
+        "reference": "AQA 8464 specification, section 5.1.2",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C03_Bonding_and_States_of_Matter": {
+      "criteria": [
+        "Draws correct dot-and-cross diagrams for ionic and covalent compounds",
+        "Explains ionic, covalent and metallic bonding in terms of electrons",
+        "Describes particles in solids, liquids and gases and uses state symbols",
+        "Predicts formulae of ionic compounds from ion charges"
+      ],
+      "pass_threshold": "Foundation: draws dot-and-cross diagrams and names the bonding in common compounds (grade 4-5). Higher: predicts formulae, explains electron transfer and links state changes to energy.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.2.1 Chemical bonds, ionic, covalent and metallic and 5.2.2 States of matter",
+        "reference": "AQA 8464 specification, section 5.2.1 and 5.2.2.1-5.2.2.2",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C04_Structure_and_Properties": {
+      "criteria": [
+        "Links structure and bonding to physical properties for each type of substance",
+        "Explains conduction in terms of mobile ions or delocalised electrons",
+        "Compares the forms of carbon and their uses",
+        "Explains why alloys differ from pure metals"
+      ],
+      "pass_threshold": "Foundation: links structure to properties correctly for each type of substance (grade 4-5). Higher: gives reasoned explanations of conductivity and melting points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.2.2 How bonding and structure are related to the properties of substances and 5.2.3 Structure and bonding of carbon",
+        "reference": "AQA 8464 specification, section 5.2.2 and 5.2.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C05_Quantitative_Chemistry": {
+      "criteria": [
+        "Balances chemical equations and calculates relative formula mass",
+        "Explains mass changes in reactions involving gases using conservation of mass",
+        "Calculates concentration in g/dm3 and estimates uncertainty",
+        "At Higher, uses moles to calculate reacting masses and identify limiting reactants"
+      ],
+      "pass_threshold": "Foundation: balances equations, calculates relative formula mass and concentration (grade 4-5). Higher: calculates reacting masses using moles and identifies limiting reactants.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.3 Quantitative chemistry",
+        "reference": "AQA 8464 specification, section 5.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C06_Reactivity_of_Metals": {
+      "criteria": [
+        "Orders metals by reactivity from observations of reactions",
+        "Predicts displacement reactions and writes equations",
+        "Chooses an extraction method by position relative to carbon",
+        "At Higher, explains oxidation and reduction in terms of electrons"
+      ],
+      "pass_threshold": "Foundation: orders metals, predicts displacement reactions and chooses an extraction method (grade 4-5). Higher: describes oxidation and reduction in terms of electrons with ionic equations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.4.1 Reactivity of metals",
+        "reference": "AQA 8464 specification, section 5.4.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C07_Acids_and_Salts": {
+      "criteria": [
+        "Writes correct equations for the reactions of acids and names salts",
+        "Describes making a pure dry sample of a soluble salt with reasons for each step",
+        "Uses the pH scale and explains neutralisation with ions",
+        "At Higher, distinguishes strong, weak, concentrated and dilute acids"
+      ],
+      "pass_threshold": "Foundation: writes word equations for acid reactions and describes making a pure dry salt (grade 4-5). Higher: explains strong and weak acids and pH in terms of ions.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.4.2 Reactions of acids and the preparation of a soluble salt required practical",
+        "reference": "AQA 8464 specification, section 5.4.2",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C08_Electrolysis": {
+      "criteria": [
+        "Explains electrolysis in terms of the movement of ions to electrodes",
+        "Predicts the products of molten and aqueous electrolysis",
+        "Describes the extraction of aluminium by electrolysis",
+        "At Higher, writes balanced half equations and identifies oxidation and reduction"
+      ],
+      "pass_threshold": "Foundation: names electrolysis products for molten and aqueous compounds (grade 4-5). Higher: writes half equations and explains oxidation and reduction at electrodes.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.4.3 Electrolysis and the electrolysis of aqueous solutions required practical",
+        "reference": "AQA 8464 specification, section 5.4.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C09_Energy_Changes": {
+      "criteria": [
+        "Classifies reactions as exothermic or endothermic from temperature changes",
+        "Draws and labels reaction profiles including activation energy",
+        "Carries out the temperature change investigation controlling variables",
+        "At Higher, calculates energy changes from bond energies"
+      ],
+      "pass_threshold": "Foundation: classifies reactions and sketches reaction profiles (grade 4-5). Higher: calculates energy change using bond energies.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.5 Energy changes and the temperature changes required practical",
+        "reference": "AQA 8464 specification, section 5.5",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C10_Rates_of_Reaction": {
+      "criteria": [
+        "Calculates mean rates from data and reads rates from graphs",
+        "Explains factors affecting rate using collision theory",
+        "Carries out the concentration and rate investigation with controlled variables",
+        "Explains how catalysts work through activation energy"
+      ],
+      "pass_threshold": "Foundation: calculates mean rates and lists factors affecting rate (grade 4-5). Higher: uses collision theory and tangents to explain and calculate rates.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.6.1 Rate of reaction and the concentration and rate required practical",
+        "reference": "AQA 8464 specification, section 5.6.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C11_Reversible_Reactions_and_Equilibrium": {
+      "criteria": [
+        "Describes reversible reactions with examples and energy changes",
+        "Explains dynamic equilibrium in a closed system",
+        "At Higher, predicts effects of changing conditions on the position of equilibrium",
+        "Explains predictions using pressure, temperature and concentration"
+      ],
+      "pass_threshold": "Foundation: describes reversible reactions and the meaning of equilibrium (grade 4-5). Higher: applies Le Chatelier's principle to concentration, temperature and pressure changes.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.6.2 Reversible reactions and dynamic equilibrium",
+        "reference": "AQA 8464 specification, section 5.6.2",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C12_Hydrocarbons_and_Crude_Oil": {
+      "criteria": [
+        "Describes crude oil, alkanes and their formulae",
+        "Explains fractional distillation and trends in properties of fractions",
+        "Writes balanced combustion equations and explains incomplete combustion",
+        "Explains cracking, its products and the test for alkenes"
+      ],
+      "pass_threshold": "Foundation: names alkanes, describes distillation and cracking (grade 4-5). Higher: writes balanced equations for combustion and cracking and explains trends in properties.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.7.1 Carbon compounds as fuels and feedstock",
+        "reference": "AQA 8464 specification, section 5.7.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C13_Chemical_Analysis": {
+      "criteria": [
+        "Explains purity and formulations and uses melting points as evidence",
+        "Carries out chromatography and calculates and interprets Rf values",
+        "States the tests and results for common gases",
+        "Evaluates identification by chromatography and gives reasoned conclusions"
+      ],
+      "pass_threshold": "Foundation: describes purity, calculates Rf values and gives gas tests (grade 4-5). Higher: interprets chromatograms and evaluates identification methods.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.8 Chemical analysis and the chromatography required practical",
+        "reference": "AQA 8464 specification, section 5.8",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C14_Atmosphere_and_Climate": {
+      "criteria": [
+        "Describes the composition of the atmosphere and its evolution",
+        "Explains the greenhouse effect and the human activities that enhance it",
+        "Describes and evaluates the effects of climate change",
+        "Explains carbon footprint reduction with reasoned evaluation"
+      ],
+      "pass_threshold": "Foundation: gives atmosphere percentages and describes the greenhouse effect and human activity (grade 4-5). Higher: evaluates evidence and predictions about climate change.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.9.1 Composition and evolution of the atmosphere and 5.9.2 Carbon dioxide and methane as greenhouse gases",
+        "reference": "AQA 8464 specification, section 5.9.1 and 5.9.2",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "C15_Pollutants_and_Using_Resources": {
+      "criteria": [
+        "Names atmospheric pollutants and explains their sources and effects",
+        "Describes potable water production and waste water treatment",
+        "Carries out and explains a water analysis and purification investigation",
+        "Evaluates life cycle assessments, recycling and alternative methods of extracting metals"
+      ],
+      "pass_threshold": "Foundation: names pollutants and describes water treatment and recycling (grade 4-5). Higher: evaluates life cycle assessments and alternative extraction methods.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 5.9.3 Atmospheric pollutants, 5.10 Using resources and the water analysis required practical",
+        "reference": "AQA 8464 specification, section 5.9.3 and 5.10",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P01_Energy": {
+      "criteria": [
+        "Describes energy stores and transfers and applies conservation of energy",
+        "Calculates kinetic and gravitational potential energy, power and efficiency",
+        "Explains how to reduce unwanted energy transfers",
+        "Compares energy resources using reliability, cost and environmental criteria"
+      ],
+      "pass_threshold": "Foundation: identifies stores and transfers and calculates efficiency (grade 4-5). Higher: uses kinetic and gravitational energy equations in multi-step problems.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.1 Energy",
+        "reference": "AQA 8464 specification, section 6.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P02_Circuits": {
+      "criteria": [
+        "Draws and uses circuit symbols and circuit diagrams correctly",
+        "Uses charge, current, potential difference and resistance equations with units",
+        "Describes and explains I-V characteristics of common components",
+        "Analyses series and parallel circuits and carries out the practicals with controlled variables"
+      ],
+      "pass_threshold": "Foundation: uses V = IR and Q = It, and describes the I-V graphs (grade 4-5). Higher: explains I-V shapes and analyses combined circuits.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.2.1 Current, potential difference and resistance, 6.2.2 Series and parallel circuits and the resistance and I-V required practicals",
+        "reference": "AQA 8464 specification, section 6.2.1 and 6.2.2",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P03_Mains_Electricity_and_Power": {
+      "criteria": [
+        "Distinguishes a.c. and d.c. and describes mains wiring and safety devices",
+        "Calculates power and energy transferred with correct units",
+        "Explains the function of the National Grid and transformers",
+        "Applies E = QV and P = VI in multi-step problems at Higher"
+      ],
+      "pass_threshold": "Foundation: describes mains wiring, calculates power and explains the National Grid (grade 4-5). Higher: uses E = QV and reasons about fuses and transformers.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.2.3 Domestic uses and safety and 6.2.4 Energy transfers",
+        "reference": "AQA 8464 specification, section 6.2.3 and 6.2.4",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P04_Particle_Model_and_Thermal_Physics": {
+      "criteria": [
+        "Calculates density and describes methods for measuring it",
+        "Describes particle arrangement and explains changes of state and conservation of mass",
+        "Uses specific heat capacity and specific latent heat equations with correct units",
+        "Explains gas pressure in terms of particle motion and carries out the practicals accurately"
+      ],
+      "pass_threshold": "Foundation: calculates density and describes states and changes (grade 4-5). Higher: uses specific heat capacity and latent heat equations and explains constant temperature during a change of state.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.3 Particle model of matter and the specific heat capacity and density required practicals",
+        "reference": "AQA 8464 specification, section 6.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P05_Atomic_Structure_and_Radiation": {
+      "criteria": [
+        "Describes atomic structure, isotopes and the development of the nuclear model",
+        "Compares alpha, beta and gamma radiation and describes their hazards",
+        "Completes nuclear equations for alpha and beta decay",
+        "Calculates half-life and explains contamination and irradiation"
+      ],
+      "pass_threshold": "Foundation: describes atoms, radiation types and half-life (grade 4-5). Higher: writes nuclear equations and calculates half-life from data.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.4 Atomic structure",
+        "reference": "AQA 8464 specification, section 6.4",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P06_Forces_Work_and_Elasticity": {
+      "criteria": [
+        "Distinguishes scalar and vector quantities and contact and non-contact forces",
+        "Calculates weight, resultant force and work done with correct units",
+        "Applies Hooke's law and elastic potential energy",
+        "Carries out the force and extension investigation and interprets the graph"
+      ],
+      "pass_threshold": "Foundation: draws force diagrams, calculates weight and work done (grade 4-5). Higher: uses F = ke and elastic potential energy in multi-step problems.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.5.1 to 6.5.3 Forces, work done and elasticity and the force and extension required practical",
+        "reference": "AQA 8464 specification, section 6.5.1 to 6.5.3",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P07_Motion": {
+      "criteria": [
+        "Distinguishes distance, displacement, speed and velocity",
+        "Calculates speed and acceleration with correct units",
+        "Reads and interprets distance-time and velocity-time graphs",
+        "At Higher, uses v squared - u squared = 2as and areas under graphs"
+      ],
+      "pass_threshold": "Foundation: calculates speed and reads distance-time graphs (grade 4-5). Higher: uses equations of motion and finds distances from velocity-time graphs.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.5.4.1 Describing motion along a line",
+        "reference": "AQA 8464 specification, section 6.5.4.1",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P08_Newtons_Laws_Braking_and_Momentum": {
+      "criteria": [
+        "States and applies Newton's three laws",
+        "Calculates force, mass and acceleration and carries out the practical",
+        "Explains stopping distance and the factors that affect thinking and braking distance",
+        "At Higher, calculates momentum and applies conservation of momentum"
+      ],
+      "pass_threshold": "Foundation: applies F = ma and describes stopping distance factors (grade 4-5). Higher: explains braking energy and uses conservation of momentum.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.5.4.2 Newton's Laws, 6.5.4.3 Forces and braking, 6.5.5 Momentum and the force, mass and acceleration required practical",
+        "reference": "AQA 8464 specification, section 6.5.4.2 to 6.5.5",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P09_Waves_and_Electromagnetic_Spectrum": {
+      "criteria": [
+        "Describes waves and uses wave speed, frequency and wavelength equations",
+        "Orders the electromagnetic spectrum and links properties to uses and hazards",
+        "Carries out the wave and infrared practicals with controlled variables",
+        "Explains refraction and radio wave production at Higher"
+      ],
+      "pass_threshold": "Foundation: uses v = f lambda and orders the spectrum (grade 4-5). Higher: explains uses and hazards and refraction in reasoned detail.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.6 Waves and the wave properties and infrared radiation required practicals",
+        "reference": "AQA 8464 specification, section 6.6",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "P10_Magnetism_and_Key_Ideas": {
+      "criteria": [
+        "Describes magnetic fields, poles and permanent and induced magnetism",
+        "Explains electromagnets and the factors that affect their strength",
+        "At Higher, applies the motor effect, Fleming's left-hand rule and F = BIl",
+        "Links the key ideas of energy, forces, waves, fields and atoms coherently"
+      ],
+      "pass_threshold": "Foundation: describes fields and electromagnets and the effect of magnets (grade 4-5). Higher: uses the motor effect and Fleming's left-hand rule in calculations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, 6.7 Magnetism and electromagnetism and 6.8 Key ideas",
+        "reference": "AQA 8464 specification, section 6.7 and 6.8",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "W1_Working_Scientifically_Thinking_and_Experiments": {
+      "criteria": [
+        "Explains how theories, models and evidence develop and the role of peer review",
+        "Evaluates ethical and risk issues in science and society",
+        "Plans a controlled investigation with clearly identified variables, apparatus and sampling",
+        "Evaluates a method, distinguishing random and systematic error and suggesting improvements"
+      ],
+      "pass_threshold": "Foundation: identifies variables, plans a fair test and suggests improvements (grade 4-5). Higher: evaluates a method critically with reasoned suggestions and explains risk and ethical issues.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science (8464) specification, section 3 Working scientifically, WS1 Development of scientific thinking and WS2 Experimental skills and strategies",
+        "reference": "AQA 8464 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "W2_Working_Scientifically_Analysis_and_Vocabulary": {
+      "criteria": [
+        "Presents data in an appropriate table or graph with labelled axes and units",
+        "Calculates means and ranges and treats anomalies sensibly",
+        "Describes patterns using figures and writes conclusions that match the evidence",
+        "Evaluates accuracy, precision and repeatability and uses units, prefixes and significant figures correctly"
+      ],
+      "pass_threshold": "Foundation: plots and reads graphs, calculates means and draws conclusions (grade 4-5). Higher: evaluates data quality with uncertainty, and links data to hypotheses in reasoned explanations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science (8464) specification, section 3 Working scientifically, WS3 Analysis and evaluation and WS4 Scientific vocabulary, quantities, units, symbols and nomenclature",
+        "reference": "AQA 8464 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    },
+    "M1_Mathematical_Skills_for_Science": {
+      "criteria": [
+        "Handles decimal, standard form, ratios and percentages and estimates answers",
+        "Calculates means, ranges and other statistics and treats anomalies sensibly",
+        "Rearranges and substitutes into equations with correct units",
+        "Plots graphs and finds gradients, intercepts and areas, using tangents at Higher"
+      ],
+      "pass_threshold": "Foundation: routine calculations, means, graph plotting and equation substitution (grade 4-5). Higher: rearranging equations, gradients, tangents and areas in multi-step problems.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Combined Science: Trilogy (8464) specification, section 7 Mathematical requirements (1a-1d, 2a-2h, 3a-3d, 4a-4f, 5a-5c)",
+        "reference": "AQA 8464 specification, section 7",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+          "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Six complete, timed 1 hour 15 minute, 70-mark papers at the learner's tier (Biology 4.1-4.4 and 4.5-4.7; Chemistry 5.1-5.5 and 5.6-5.10; Physics 6.1-6.4 and 6.5-6.8)",
+      "At least one required-practical-based question answered correctly in each paper",
+      "Performance holds up across topics under mixed order, including Higher-only content at Higher tier",
+      "Extended answers use precise scientific vocabulary, and calculations show working and units"
+    ],
+    "pass_threshold": "Foundation tier: performance consistent with grade 4-4 to 5-5 across full papers. Higher tier: performance consistent with grade 6-6 or above. AQA sets exact grade boundaries per series rather than a fixed mark table.",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "GCSE Combined Science: Trilogy (8464) specification, Scheme of Assessment (six papers)",
+      "reference": "AQA 8464 specification, Scheme of Assessment",
+      "urls": [
+        "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+        "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+        "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+        "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+        "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+        "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+        "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/biology-subject-content",
+    "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/chemistry-subject-content",
+    "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/physics-subject-content",
+    "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/practical-assessment",
+    "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/working-scientifically",
+    "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/mathematical-requirements",
+    "https://www.aqa.org.uk/subjects/science/gcse/science-8464/specification/scheme-of-assessment"
+  ]
+}

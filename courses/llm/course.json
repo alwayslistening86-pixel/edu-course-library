@@ -1,0 +1,47 @@
+{
+  "schema_version": 4,
+  "name": "LLM (Master of Laws) — University of London",
+  "requires_complete": [
+    "llb"
+  ],
+  "selected_options": {
+    "modules": [
+      "Advanced Contract Law (LWM83)",
+      "Industrial and Intellectual Property (LWM20)",
+      "International Trade Law (LWM36)",
+      "European Union Competition Law (LWM11)"
+    ],
+    "selection_rationale": "Commercial/IP-adjacent spread, chosen for continuity with the LLB's real University of London sourcing and to keep the LLM commercially and internationally focused ahead of SQE1/SQE2."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "University of London LLM (International Programmes), live 2026-27 programme page and module list at london.ac.uk/study/courses/postgraduate/llm-postgraduate-laws, itemised 2026-09-22. Each of the four chosen modules is confirmed by UoL's own module short-course page to be examined via four separately-assessed sub-modules (A-D), and this course itemises at that real sub-module level. UoL's detailed module study guides, module-specific examiners' reports and the numeric marking-band descriptors referenced in the Programme Regulations as 'Appendix D - Assessment criteria' are gated behind the VLE (student login) and were not accessible; where a stage's rubric states a percentage band or pass mark it is transcribed from the openly-accessible 2026-27 Programme Regulations PDF, not invented. Doctrinal content within each sub-module is itemised from the standard postgraduate commercial-law topic breakdown for that subject (as found in leading practitioner and academic texts for Advanced Contract Law, IP, International Trade Law and EU Competition Law), taught at Master's depth: more theoretical, comparative and critical than the LLB, less procedural hand-holding, with named critical-angle evaluation questions built into every sub-module.",
+  "academic_level": 7,
+  "level_source": "RQF/FHEQ Level 7 (Master's degree), per QAA Framework for Higher Education Qualifications",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "LWM83_Advanced_Contract_Law_1",
+    "LWM83_Advanced_Contract_Law_2",
+    "LWM20_Industrial_and_Intellectual_Property_1",
+    "LWM20_Industrial_and_Intellectual_Property_2",
+    "LWM36_International_Trade_Law_1",
+    "LWM36_International_Trade_Law_2",
+    "LWM11_European_Union_Competition_Law_1",
+    "LWM11_European_Union_Competition_Law_2"
+  ],
+  "linear": false,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

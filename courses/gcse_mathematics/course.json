@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Mathematics (OCR J560) — Foundation and Higher tier",
+  "requires_complete": [],
+  "selected_options": {
+    "tiers_built": "Both Foundation (grades 1-5) and Higher (grades 4-9) -- content overlaps substantially; each stage teaches the shared Foundation core first, then a clearly marked Higher-tier extension. Items whose OCR content is Higher-only are marked (Higher) in their titles."
+  },
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "OCR GCSE Mathematics (J560) specification, Version 2.1 (Aug 2026), current and live (first assessment 2017, ongoing); every OCR content reference code 1.01a-12.03d itemised on 2026-09-19 (code lists cross-checked across independent reads of the spec). Assessment structure and AO weightings from the specification; seed questions drawn from real OCR published papers (Foundation Paper 2 mark scheme, Nov 2018 series; Higher Tier Practice Papers Set 1) on ocr.org.uk. Stage test scenarios are original questions written in the style of those papers, not real past-paper items.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9 / Foundation+Higher tiers covered), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Integers_Primes_and_Order",
+    "S02_Fractions_and_Decimals",
+    "S03_Percentages_and_Growth",
+    "S04_Rounding_Estimation_and_Bounds",
+    "S05_Indices_Roots_Standard_Form_and_Surds",
+    "S06_Ratio_and_Proportion",
+    "S07_Units_Compound_Measures_and_Scale",
+    "S08_Algebraic_Expressions",
+    "S09_Factorising_Completing_the_Square_and_Algebraic_Fractions",
+    "S10_Forming_Rearranging_and_Recalling_Formulae",
+    "S11_Linear_Equations_and_Inequalities",
+    "S12_Quadratic_and_Simultaneous_Equations_and_Iteration",
+    "S13_Functions_and_Sequences",
+    "S14_Coordinates_and_Straight_Line_Graphs",
+    "S15_Curves_and_Graph_Transformations",
+    "S16_Real_Life_Graphs_and_Rates_of_Change",
+    "S17_Angles_Polygons_and_Symmetry",
+    "S18_Constructions_Loci_and_Coordinate_Geometry",
+    "S19_Circle_Theorems",
+    "S20_Three_Dimensional_Shapes",
+    "S21_Transformations_and_Vectors",
+    "S22_Congruence_Similarity_and_Enlargement",
+    "S23_Perimeter_and_Area",
+    "S24_Surface_Area_and_Volume",
+    "S25_Pythagoras_and_Trigonometry",
+    "S26_Probability_Basics",
+    "S27_Combined_Events_and_Conditional_Probability",
+    "S28_Statistics"
+  ],
+  "linear": false,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

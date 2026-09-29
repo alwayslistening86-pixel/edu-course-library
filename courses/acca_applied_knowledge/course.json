@@ -1,0 +1,61 @@
+{
+  "schema_version": 4,
+  "name": "ACCA Applied Knowledge: Business and Technology, Management Accounting, Financial Accounting (BT/FBT, MA/FMA, FA/FFA)",
+  "requires_complete": [],
+  "standalone": true,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "ACCA's syllabus and study guides for the three Applied Knowledge papers - Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA) - Session 2025-2026 (S25-A26) editions, fetched live from accaglobal.com on 2026-09-27 and itemised in full against ACCA's own syllabus heading letters and numbers (BT.A1-BT.F4; MA.A1-MA.F4; FA.A1-FA.I3). Exam format: each paper is a 2-hour computer-based exam (CBE), objective-test only - BT/FBT: Section A 46 objective questions (30 x 2 marks + 16 x 1 mark) + Section B 6 x 4-mark multi-task questions (one per syllabus section A-F), 100 marks; MA/FMA: the same CBE objective-test structure, 100 marks; FA/FFA: Section A 35 x 2-mark objective questions + Section B 2 x 15-mark multi-task questions (consolidations and accounts preparation), 100 marks. ACCA publishes a single, fixed pass mark of 50% for every exam, applied per paper as well as overall. Every numeric worked example (cost accounting, budgeting, variances, depreciation, double-entry, ratios, basic consolidation) was computed live with Python, so it is correct by construction; the tutor should still check current live data (tax rates, interest rates) is not needed here, since accounting mechanics rather than jurisdiction-specific rates are examined at this level.",
+  "academic_level": null,
+  "level_source": "standalone: a professional accounting body qualification with no RQF/FHEQ level",
+  "level_basis": "standalone",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "bt_question_format",
+      "text": "ACCA's real BT/FBT exam is 100% objective-test (single-select, multiple-response, multi-task/matching, no free-text questions). Some of this course's Business and Technology stage-test items use an 'Explain...'/'Outline...' short-answer format instead, as a deeper comprehension check on qualitative topics (e.g. leadership vs management, ethical threats) -- these build understanding but are not a format simulation of the real CBE. The course's cumulative exam uses genuine objective-test items throughout, matching ACCA's real format."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "BT_S01_Business_Purpose_Stakeholders_and_Political_Legal_Macro_Factors",
+    "BT_S02_Micro_Social_Technological_Environmental_and_Competitive_Factors",
+    "BT_S03_Organisational_Structure_Culture_and_Governance",
+    "BT_S04_Accounting_and_Finance_Functions_Regulation_and_Financial_Information",
+    "BT_S05_Financial_Systems_Internal_Controls_and_Technology",
+    "BT_S06_Leadership_Management_and_Teams",
+    "BT_S07_Personal_Effectiveness_and_Communication",
+    "BT_S08_Professional_Ethics",
+    "MA_S01_Management_Information_and_Cost_Classification",
+    "MA_S02_Data_Analysis_and_Statistical_Techniques",
+    "MA_S03_Materials_Labour_and_Overheads",
+    "MA_S04_Costing_Methods_and_Alternative_Principles",
+    "MA_S05_Budgeting_Fundamentals_and_Preparation",
+    "MA_S06_Investment_Appraisal_and_Budgetary_Control",
+    "MA_S07_Standard_Costing_and_Variance_Analysis",
+    "MA_S08_Performance_Measurement",
+    "FA_S01_Context_and_Purpose_of_Financial_Reporting",
+    "FA_S02_Accounting_Principles_and_Double_Entry_Systems",
+    "FA_S03_Sales_Purchases_and_Cash",
+    "FA_S04_Inventories",
+    "FA_S05_Non_Current_Assets_Depreciation_and_Intangibles",
+    "FA_S06_Accruals_Receivables_Payables_Provisions_and_Capital_Structure",
+    "FA_S07_Bank_and_Payables_Reconciliations",
+    "FA_S08_Trial_Balance_Errors_and_Suspense_Accounts",
+    "FA_S09_Statement_of_Financial_Position_and_Profit_or_Loss",
+    "FA_S10_Statement_of_Cash_Flows_and_Incomplete_Records",
+    "FA_S11_Introduction_to_Consolidated_Financial_Statements",
+    "FA_S12_Interpretation_of_Financial_Statements"
+  ]
+}

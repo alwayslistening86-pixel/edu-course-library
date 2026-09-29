@@ -1,0 +1,51 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Physics (AQA 8463) — separate science, Foundation and Higher tier",
+  "requires_complete": [],
+  "selected_options": {
+    "tiers_built": "Both Foundation and Higher, consistent with the other GCSE sciences and Mathematics",
+    "pathway_note": "This is the separate-science route (full Physics GCSE, 8463), distinct from the Physics content within Combined Science: Trilogy. It includes Physics-only content such as static electricity, moments, pressure in fluids, momentum changes, lenses, black-body radiation, loudspeakers, microphones, transformers and space physics."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Physics (8463) specification (first teaching 2016, current and live). Subject-content codes 4.1.1.1-4.8.2.1, the 10 required practicals, Working scientifically WS1-WS4 (section 3) and the Mathematical requirements (section 7) were itemised on 2026-09-19 from AQA's specification pages and PDF. Section 4.8 Space physics and the 4.7 subsection list were completed from the AQA published structure and flagged for re-verification against the live page. Stage test scenarios are original questions written in the style of AQA papers, not real past-paper items.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9 / Foundation+Higher tiers covered), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Energy_Stores_Transfers_and_Resources",
+    "S02_Circuits_Resistance_and_Series_Parallel",
+    "S03_Mains_Power_the_Grid_and_Static",
+    "S04_Density_Heating_and_States_of_Matter",
+    "S05_Gases_and_Fluid_Pressure",
+    "S06_Atoms_and_Radioactive_Decay",
+    "S07_Half_Life_Uses_of_Radiation_Fission_and_Fusion",
+    "S08_Forces_Work_Elasticity_and_Moments",
+    "S09_Motion_Speed_Velocity_and_Acceleration",
+    "S10_Newtons_Laws_Stopping_Distance_and_Practical",
+    "S11_Momentum",
+    "S12_Waves_Sound_and_Wave_Properties",
+    "S13_Electromagnetic_Waves_Lenses_and_Radiation",
+    "S14_Magnets_and_Electromagnetism",
+    "S15_Induction_Generators_and_Transformers",
+    "S16_Space_Physics",
+    "S17_Working_Scientifically_Thinking_and_Experiments",
+    "S18_Working_Scientifically_Analysis_and_Vocabulary",
+    "S19_Mathematical_Skills_for_Physics"
+  ],
+  "linear": false,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

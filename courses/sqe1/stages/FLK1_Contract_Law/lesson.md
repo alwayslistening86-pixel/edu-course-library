@@ -1,0 +1,48 @@
+# FLK1_Contract_Law - Lesson: Contract Law
+
+## Goal
+The learner runs a structured contract analysis - formation, terms, vitiating factors, termination, remedies - on a realistic fact pattern at day-one-competence standard, and answers SQE1-style single-best-answer questions on all of it.
+
+## Syllabus items taught here
+- CON.1 - Formation: offer, acceptance, consideration, intention, certainty, capacity: learn and apply: contract formation
+- CON.2 - Privity of contract and rights of third parties: learn and apply: privity of contract
+- CON.3 - Contract terms: express, implied, exclusion clauses, interpretation, classification, variation: learn and apply: contract terms
+- CON.4 - Vitiating factors: misrepresentation and mistake: learn and apply: misrepresentation and mistake
+- CON.5 - Vitiating factors: duress, undue influence, illegality, unfair contract terms: learn and apply: duress, undue influence, illegality
+- CON.6 - Termination: breach and frustration: learn and apply: termination by breach and frustration
+- CON.7 - Restitution and unjust enrichment on termination: learn and apply: restitution and unjust enrichment
+- CON.8 - Remedies: damages, causation, remoteness, mitigation: learn and apply: damages, causation and remoteness
+- CON.9 - Remedies: specific performance, injunctions, liquidated sums, indemnities, guarantees: learn and apply: specific performance, injunctions and other remedies
+
+## How to teach this
+Open with: a café owner emails a coffee roaster asking about a regular order "on usual terms"; the roaster replies with a price and payment terms; the café owner then orders and pays for six months before a bad delivery arrives and they refuse to pay, saying "we never signed anything." Have the learner work through whether a contract exists, on what terms, and what can be done about the bad beans - using this single scenario as the throughline for every item in this stage, exactly mirroring how SQE1 builds a fact pattern that tests the full analytical sequence.
+
+#### CON.1 Formation: offer, acceptance, consideration, intention, certainty, capacity
+A binding contract needs an offer (a clear statement of terms capable of acceptance, distinct from an invitation to treat such as goods in a shop window, Fisher v Bell [1961]; advertisements are usually invitations to treat unless clearly a unilateral offer, Carlill v Carbolic Smoke Ball Co [1893]), acceptance (unconditional agreement to the exact terms - a response changing terms is a counter-offer that destroys the original offer, Hyde v Wrench [1840] - the "mirror image rule"), consideration (something of value; sufficient but need not be adequate; past consideration is generally not good consideration, Re McArdle [1951]; performing an existing duty can be good consideration if there is a practical benefit to the promisor, Williams v Roffey Bros [1991]), and intention to create legal relations (presumed in commercial agreements, presumed absent in domestic/social ones, both rebuttable). Courts can find a contract from conduct alone, without a signed document, where the parties' dealings show agreement (Trentham v Archital Luxfer [1993]).
+
+#### CON.2 Privity of contract and rights of third parties
+Only parties to a contract can generally sue or be sued on it (privity). The Contracts (Rights of Third Parties) Act 1999 creates a statutory exception: a third party can enforce a term if the contract expressly says they may, or if the term purports to confer a benefit on them, unless on the contract's proper construction the parties did not intend it to be enforceable by that third party. Teach the learner to check both limbs of the 1999 Act test before concluding a third party has (or lacks) enforceable rights.
+
+#### CON.3 Contract terms: express, implied, exclusion clauses, interpretation, classification, variation
+Express terms are incorporated by signature (L'Estrange v Graucob [1934] - signing generally binds regardless of whether the terms were read), by reasonable notice given before or at the time of contracting (Olley v Marlborough Court [1949] - notice given after formation is too late), or by a consistent course of dealing. Implied terms come from statute (e.g. satisfactory quality, fitness for purpose, as described), custom, or the courts (business efficacy or the officious-bystander test). Exclusion/exemption clauses must be validly incorporated and, properly construed, must cover the loss in question (construed contra proferentem against the party relying on them), and are subject to the Unfair Contract Terms Act 1977 (business-to-business) or the Consumer Rights Act 2015 (consumer contracts). Variation of terms requires the same formation requirements (offer, acceptance, consideration or a deed) as the original contract.
+
+#### CON.4 Vitiating factors: misrepresentation and mistake
+Misrepresentation is a false statement of fact (not opinion or future intention, generally) made by one party which induces the other to enter the contract; it may be fraudulent, negligent or innocent, with remedies of rescission and/or damages differing by category, and the Misrepresentation Act 1967 s.2(1) reversing the burden of proof for negligent misrepresentation once the claimant shows a false statement was made and relied on. Mistake is applied narrowly: common mistake as to the existence of the subject matter, or mutual/unilateral mistake as to identity in narrow circumstances, can render a contract void. Teach the learner that misrepresentation is far more commonly examined than mistake, which is deliberately kept narrow by the courts.
+
+#### CON.5 Vitiating factors: duress, undue influence, illegality, unfair contract terms
+Duress is illegitimate pressure (economic or otherwise) leaving the victim no real practical choice, rendering the contract voidable. Undue influence is one party abusing a relationship of trust and confidence to procure the contract - actual or presumed (certain relationships raise a rebuttable presumption) - also rendering the contract voidable. Illegality (a contract for an illegal purpose, or illegal as formed) is generally unenforceable. Unfair contract terms in a consumer contract, under the Consumer Rights Act 2015, are not binding on the consumer if they cause a significant imbalance in the parties' rights to the consumer's detriment contrary to good faith. Teach the learner to distinguish these from misrepresentation: they attack how consent was procured or the contract's legality, not the truth of a statement made.
+
+#### CON.6 Termination: breach and frustration
+A repudiatory breach (breach of a condition, or a sufficiently serious breach of an innominate term) entitles the innocent party to elect either to terminate and claim damages, or to affirm the contract and continue, then claim damages for the breach - the innocent party is not automatically discharged, they must choose. Frustration discharges a contract automatically, going forward only, where a supervening event, the fault of neither party, makes performance impossible, illegal, or radically different from what was contemplated (Taylor v Caldwell [1863] - destruction of the subject matter). The Law Reform (Frustrated Contracts) Act 1943 governs recovery of money paid and apportionment of expenses after frustration.
+
+#### CON.7 Restitution and unjust enrichment on termination
+Where a contract is void, or money is paid under a mistake, or a contract fails for total failure of consideration, the law of unjust enrichment may allow recovery of a benefit conferred - a distinct body of law from breach of contract, aimed at reversing an unjust transfer of value between the parties rather than compensating for a broken promise. Teach the learner to recognise when the correct claim is not "breach of contract" at all but a standalone restitutionary claim, particularly where no valid contract in fact exists.
+
+#### CON.8 Remedies: damages, causation, remoteness, mitigation
+Damages are compensatory, aiming to put the claimant in the position as if the contract had been performed (expectation loss), subject to causation (the breach must have caused the loss), remoteness (Hadley v Baxendale [1854] - losses recoverable if they arise naturally from the breach, or were within the reasonable contemplation of both parties at the time of contracting as a likely result of breach), and mitigation (the claimant must take reasonable steps to minimise their own loss and cannot recover for loss that reasonable mitigation would have avoided). Teach the learner to run all three checks in sequence on any damages question, since a fact pattern often fails on only one of them.
+
+#### CON.9 Remedies: specific performance, injunctions, liquidated sums, indemnities, guarantees
+Specific performance is an equitable, discretionary order compelling performance, typically available only where damages are an inadequate remedy (e.g. sale of unique goods or land). Injunctions are equitable orders restraining a breach (e.g. of a restrictive covenant). A liquidated damages clause fixing a genuine pre-estimate of loss is enforceable, but a penalty clause designed to deter breach rather than compensate loss is not. An indemnity is a promise to compensate for a specified loss, operating independently of a breach-of-contract analysis under the indemnity's own wording. A guarantee is a promise to answer for another's debt or default if they fail to pay or perform - itself a contract, and (unlike an indemnity) a secondary obligation dependent on the principal debtor's own liability.
+
+## Explicitly not here
+The procedural route for enforcing a contract claim through the courts (issuing, interim applications, trial) is covered in DR.1-DR.11, not here.

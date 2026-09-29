@@ -1,0 +1,58 @@
+{
+  "schema_version": 4,
+  "name": "A-level French (AQA 7652): No et moi and Au revoir les enfants",
+  "requires_complete": [
+    "gcse_french"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "text": "Delphine de Vigan, No et moi",
+    "film": "Louis Malle, Au revoir les enfants"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA A-level French (7652) specification, Version 1.1 (August 2026), linked from aqa.org.uk/7652 and itemised on 2026-09-27: the four themes and their 36 sub-theme bullets, the AS and A-level grammar lists (3.3.1.1-3.3.2.2), the ten set texts and six set films, and the individual research project. This course studies one text (No et moi) and one film (Au revoir les enfants); the other works are declared out of scope. Assessment: Paper 1 Listening, reading and writing (2 h 30, 100 marks, 50%: listening 30, reading 50, translation into English 10 and into French 10); Paper 2 Writing (2 h, 80 marks, 20%: one essay on the text and one on the film, about 300 words each); Paper 3 Speaking (21-23 minutes including 5 minutes' preparation, 60 marks, 30%: stimulus-card discussion 25 marks; research project presentation and discussion 35 marks). Stage tests and the mock are original materials in AQA's style.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for AQA 7652",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "works",
+      "text": "This course studies No et moi and Au revoir les enfants. You need your own copy of the novel (unabridged) and access to the film; the course discusses them but does not reproduce them. If your school has chosen other works, you will need another source for Paper 2."
+    },
+    {
+      "id": "speaking_listening",
+      "text": "The speaking exam is conducted by a teacher or visiting examiner and marked by AQA; this course prepares you with practice conversations but cannot hold the real test. Listening practice here uses French passages you read aloud or have read to you; add authentic audio (for example RFI's 'Journal en français facile')."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_La_famille",
+    "S02_La_cyber_societe",
+    "S03_Le_benevolat",
+    "S04_Societe_diverse",
+    "S05_Les_marginalises",
+    "S06_Les_criminels",
+    "S07_Le_patrimoine",
+    "S08_La_musique",
+    "S09_Le_cinema",
+    "S10_Ados_et_politique",
+    "S11_Manifestations_et_greves",
+    "S12_Politique_et_immigration",
+    "S13_No_et_moi",
+    "S14_Au_revoir_les_enfants",
+    "S15_Paper1_Skills",
+    "S16_Research_Project_and_Speaking"
+  ]
+}

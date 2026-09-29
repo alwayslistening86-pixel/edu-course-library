@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "name": "Mathematics (BSc Hons) — Open University module-framework structure, QAA MSOR Benchmark graded",
+  "requires_complete": [
+    "alevel_mathematics",
+    "alevel_further_mathematics"
+  ],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "The Open University's real BSc (Hons) Mathematics, qualification Q31 (360 credits: open.ac.uk/courses/maths/degrees/bsc-mathematics-q31, checked live 2026-09-27 and confirmed current, not superseded), and the QAA Subject Benchmark Statement for Mathematics, Statistics and Operational Research (published 2023-03-08, current). The OU's real Q31 structure: Stage 1 (Level 4, 120 credits) MU123 'Discovering mathematics', MST124 'Essential mathematics 1', M140 'Introducing statistics', MST125 'Essential mathematics 2'; Stage 2 (Level 5, 120 credits) M208 'Pure mathematics' (60 credits, compulsory: group theory, linear algebra, analysis) plus 60 credits chosen from MST210, M248 or MST224 'Mathematical methods'; Stage 3 (Level 6, 120 credits) 90-120 credits chosen from options including M303 'Further pure mathematics' (60 credits: number theory, rings and fields, metric spaces), M337 'Complex analysis', M347 'Mathematical statistics' and others (module titles and credits from the OU's own module pages, itemised 2026-09-27). Since this course's prerequisites are A-level Mathematics and A-level Further Mathematics -- well beyond the OU's own Stage-1 entry assumption of GCSE mathematics -- Stage 1's algebra/pre-calculus refresher (MU123, most of MST124, most of MST125) is not re-taught; this course starts from the genuinely new Stage-1 material (MST125's complex numbers and series; MST125/MST124's multivariable calculus; M140's statistical inference) and then covers the compulsory Stage-2 pure-mathematics core (M208: groups, linear algebra, real analysis) in full, plus MST224's applied methods (ODEs, vector calculus) and a representative selection of Stage-3 options: M303 (rings/fields, metric spaces), M337 (complex analysis) and M347 (mathematical statistics, the applied strand). The OU's own detailed unit-by-unit module materials, module handbooks, TMAs and past papers sit behind its student VLE and were not accessible; every stage below itemises its subject using the standard topic breakdown for that area found in any undergraduate pure/applied mathematics textbook or module descriptor -- this is core mathematical knowledge, not institution-specific content -- and every worked example, proof and mark scheme in this course is original and was computed/checked with sympy (and, for statistics, scipy) when the course was built, never a reproduced OU question. Coverage is deliberately a compressed syllabus map, not the OU's full volume of study (Q31 is 360 credits over 3-6 years; this course teaches the syllabus in 15 stages, the same order of magnitude used elsewhere in this library for a compressed degree).",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (Bachelor's degree with Honours), per QAA Framework for Higher Education Qualifications and the QAA Subject Benchmark Statement: Mathematics, Statistics and Operational Research",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires both A-level Mathematics and A-level Further Mathematics, matching how the OU's own Q31 route via MST124/MST125 assumes strong prior algebra, trigonometry, calculus and an introduction to matrices/complex numbers -- exactly what Further Mathematics adds over single Mathematics. Because both A-levels are prerequisites here, this course skips the OU's Stage-1 refresher of GCSE-to-A-level content (MU123, most of MST124/MST125) and starts from genuinely degree-new material."
+    },
+    {
+      "id": "computer_algebra",
+      "text": "A computer algebra system (the tutor uses sympy) is assumed from S01 onwards for checking algebra, series and calculus, exactly as OU mathematics modules assume use of software."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Complex_Numbers_Algebra_and_Series",
+    "S02_Multivariable_Calculus",
+    "S03_Probability_and_Statistical_Inference",
+    "S04_Groups_and_Subgroups",
+    "S05_Homomorphisms_and_Quotient_Groups",
+    "S06_Vector_Spaces_and_Linear_Maps",
+    "S07_Eigenvalues_Diagonalisation_and_Inner_Product_Spaces",
+    "S08_Sequences_and_Limits",
+    "S09_Continuity_Differentiation_and_Integration",
+    "S10_Ordinary_Differential_Equations",
+    "S11_Vector_Calculus",
+    "S12_Rings_and_Fields",
+    "S13_Metric_Spaces_and_Topology",
+    "S14_Complex_Analysis",
+    "S15_Mathematical_Statistics"
+  ]
+}

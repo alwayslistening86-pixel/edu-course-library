@@ -1,0 +1,845 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE English Literature 8702 specification: sections 3.1 (Shakespeare and the 19th-century novel: 3.1.1 Shakespeare, 3.1.2 the 19th-century novel), 3.2 (Modern texts and poetry: 3.2.1 Modern texts, 3.2.2 Poetry, 3.2.3 Unseen poetry), 3.3 (Skills), 4.1-4.3 (Aims, Assessment objectives, Assessment weightings); plus the Paper 1/Paper 2 question format and mark splits from AQA's published mark schemes",
+    "url": "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+    "version": "Version 1.3, 28 September 2022 (numbering follows the spec's own section numbers 3.1-3.3 and 4.1-4.3; within each set text the act/stave-by-act/stave, theme, character, language, structure and exam-question items are course-defined ids, e.g. MAC.1 for Macbeth Act 1, ACC.1 for A Christmas Carol Stave 1, IC.1 for An Inspector Calls Act 1, POE.1-POE.15 for the Power and Conflict poems in the anthology's own running order, and UNS.1-3 for unseen poetry; unselected set-text and cluster options are given ids prefixed with the studied text's id plus .X, e.g. MAC.X.RJ for Romeo and Juliet)",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "2.P1",
+      "title": "Paper 1 Shakespeare and the 19th-century novel: structure",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "2.P2",
+      "title": "Paper 2 Modern texts and poetry: structure",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "AO1",
+      "title": "AO1: read, understand and respond to texts, using textual references including quotation",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO2",
+      "title": "AO2: analyse language, form and structure using relevant subject terminology",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO3",
+      "title": "AO3: show understanding of the relationships between texts and the contexts in which they were written",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO4",
+      "title": "AO4: use a range of vocabulary and sentence structures with accurate spelling and punctuation (5% overall, Shakespeare and modern-text questions only)",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "4.3.1",
+      "title": "AO weightings by paper and overall (AO1 37.5%, AO2 42.5%, AO3 15%, AO4 5%)",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "MS.1",
+      "title": "Levels of response: the six-level ladder used to grade every essay",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "3.3.1",
+      "title": "Skill: selecting and integrating well-chosen quotation and reference",
+      "topic_area": "Skills (AO1)"
+    },
+    {
+      "id": "3.3.2",
+      "title": "Skill: analysing language devices and their effect",
+      "topic_area": "Skills (AO2)"
+    },
+    {
+      "id": "3.3.3",
+      "title": "Skill: analysing form and structure",
+      "topic_area": "Skills (AO2)"
+    },
+    {
+      "id": "3.3.4",
+      "title": "Skill: writing about context purposefully",
+      "topic_area": "Skills (AO3)"
+    },
+    {
+      "id": "3.3.5",
+      "title": "Skill: comparing two texts or two poems",
+      "topic_area": "Skills (comparison)"
+    },
+    {
+      "id": "3.3.6",
+      "title": "Skill: planning and structuring an essay response",
+      "topic_area": "Skills (essay craft)"
+    },
+    {
+      "id": "3.3.7",
+      "title": "Skill: technical accuracy in extended essay writing",
+      "topic_area": "Skills (AO4)"
+    },
+    {
+      "id": "MAC.0",
+      "title": "Macbeth: whole-play overview, plot summary and tragic genre",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.CTX",
+      "title": "Macbeth: Jacobean context (kingship, the Great Chain of Being, witchcraft, the Gunpowder Plot, James I)",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.1",
+      "title": "Macbeth Act 1: the witches' prophecy and the seed of ambition",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.2",
+      "title": "Macbeth Act 2: the murder of Duncan",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.3",
+      "title": "Macbeth Act 3: Banquo's murder and the banquet scene",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.4",
+      "title": "Macbeth Act 4: the witches' second prophecies and Macduff's family",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.5",
+      "title": "Macbeth Act 5: Lady Macbeth's decline and Macbeth's downfall",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.STRUCT",
+      "title": "Macbeth: structure and dramatic form (soliloquy, dramatic irony, the five-act tragic arc)",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.LANG",
+      "title": "Macbeth: language and imagery patterns (blood, darkness, sleep, equivocation)",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.TH1",
+      "title": "Macbeth theme: ambition",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.TH2",
+      "title": "Macbeth theme: kingship and power",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.TH3",
+      "title": "Macbeth theme: guilt and the supernatural",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.CH1",
+      "title": "Macbeth character: Macbeth",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.CH2",
+      "title": "Macbeth character: Lady Macbeth",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.CH3",
+      "title": "Macbeth character: Banquo, Macduff and minor characters",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.EX",
+      "title": "Macbeth: the Paper 1 extract-based exam question and a model paragraph",
+      "topic_area": "Macbeth"
+    },
+    {
+      "id": "MAC.X.RJ",
+      "title": "Shakespeare option not studied: Romeo and Juliet",
+      "topic_area": "Macbeth (declared exclusion)"
+    },
+    {
+      "id": "MAC.X.TMP",
+      "title": "Shakespeare option not studied: The Tempest",
+      "topic_area": "Macbeth (declared exclusion)"
+    },
+    {
+      "id": "MAC.X.MOV",
+      "title": "Shakespeare option not studied: The Merchant of Venice",
+      "topic_area": "Macbeth (declared exclusion)"
+    },
+    {
+      "id": "MAC.X.MADO",
+      "title": "Shakespeare option not studied: Much Ado About Nothing",
+      "topic_area": "Macbeth (declared exclusion)"
+    },
+    {
+      "id": "MAC.X.JC",
+      "title": "Shakespeare option not studied: Julius Caesar",
+      "topic_area": "Macbeth (declared exclusion)"
+    },
+    {
+      "id": "ACC.0",
+      "title": "A Christmas Carol: whole-novella overview, the stave/carol structure",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.CTX",
+      "title": "A Christmas Carol: Victorian context (poverty, the Poor Law, workhouses, Dickens's reformist purpose)",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.1",
+      "title": "A Christmas Carol Stave 1: Marley's ghost and Scrooge introduced",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.2",
+      "title": "A Christmas Carol Stave 2: the Ghost of Christmas Past",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.3",
+      "title": "A Christmas Carol Stave 3: the Ghost of Christmas Present",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.4",
+      "title": "A Christmas Carol Stave 4: the Ghost of Christmas Yet to Come",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.5",
+      "title": "A Christmas Carol Stave 5: Scrooge's transformation",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.STRUCT",
+      "title": "A Christmas Carol: structure (the stave form, cyclical narrative, the supernatural framing device)",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.LANG",
+      "title": "A Christmas Carol: Dickens's narrative voice and language techniques",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.TH1",
+      "title": "A Christmas Carol theme: greed and redemption",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.TH2",
+      "title": "A Christmas Carol theme: poverty and social responsibility",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.TH3",
+      "title": "A Christmas Carol theme: family and the spirit of Christmas",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.CH1",
+      "title": "A Christmas Carol character: Scrooge",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.CH2",
+      "title": "A Christmas Carol character: the Cratchits, especially Bob and Tiny Tim",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.CH3",
+      "title": "A Christmas Carol character: the three spirits and Marley",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.EX",
+      "title": "A Christmas Carol: the Paper 1 extract-based exam question and a model paragraph",
+      "topic_area": "A Christmas Carol"
+    },
+    {
+      "id": "ACC.X.JH",
+      "title": "19th-century novel option not studied: The Strange Case of Dr Jekyll and Mr Hyde",
+      "topic_area": "A Christmas Carol (declared exclusion)"
+    },
+    {
+      "id": "ACC.X.GE",
+      "title": "19th-century novel option not studied: Great Expectations",
+      "topic_area": "A Christmas Carol (declared exclusion)"
+    },
+    {
+      "id": "ACC.X.JE",
+      "title": "19th-century novel option not studied: Jane Eyre",
+      "topic_area": "A Christmas Carol (declared exclusion)"
+    },
+    {
+      "id": "ACC.X.FR",
+      "title": "19th-century novel option not studied: Frankenstein",
+      "topic_area": "A Christmas Carol (declared exclusion)"
+    },
+    {
+      "id": "ACC.X.PP",
+      "title": "19th-century novel option not studied: Pride and Prejudice",
+      "topic_area": "A Christmas Carol (declared exclusion)"
+    },
+    {
+      "id": "ACC.X.SOF",
+      "title": "19th-century novel option not studied: The Sign of Four",
+      "topic_area": "A Christmas Carol (declared exclusion)"
+    },
+    {
+      "id": "IC.0",
+      "title": "An Inspector Calls: whole-play overview and the well-made-play-with-a-twist form",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.CTX",
+      "title": "An Inspector Calls: context (1912 setting versus 1945 first performance, Edwardian class society, Priestley's socialism)",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.1",
+      "title": "An Inspector Calls Act 1: the Birling family and Eva Smith's dismissal",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.2",
+      "title": "An Inspector Calls Act 2: Sheila, Gerald and Mrs Birling's involvement",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.3",
+      "title": "An Inspector Calls Act 3: Eric's confession and the twist ending",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.STRUCT",
+      "title": "An Inspector Calls: structure (cyclical form, the telephone call twist, controlled timing of revelations)",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.LANG",
+      "title": "An Inspector Calls: dramatic devices (dramatic irony, stage directions, lighting)",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.TH1",
+      "title": "An Inspector Calls theme: social responsibility and collective guilt",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.TH2",
+      "title": "An Inspector Calls theme: class and inequality",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.TH3",
+      "title": "An Inspector Calls theme: generational change, old versus young",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.CH1",
+      "title": "An Inspector Calls character: Inspector Goole",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.CH2",
+      "title": "An Inspector Calls character: Mr and Mrs Birling",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.CH3",
+      "title": "An Inspector Calls character: Sheila and Eric",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.CH4",
+      "title": "An Inspector Calls character: Gerald Croft and the absent presence of Eva Smith",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.EX",
+      "title": "An Inspector Calls: the Paper 2 extract-based exam question and a model paragraph",
+      "topic_area": "An Inspector Calls"
+    },
+    {
+      "id": "IC.X.BB",
+      "title": "Modern drama option not studied: Blood Brothers",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.DNA",
+      "title": "Modern drama option not studied: DNA",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.TOH",
+      "title": "Modern drama option not studied: A Taste of Honey",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.PH",
+      "title": "Modern drama option not studied: Princess and The Hustler",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.LT",
+      "title": "Modern drama option not studied: Leave Taking",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.LOF",
+      "title": "Modern prose option not studied: Lord of the Flies",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.TT",
+      "title": "Modern prose option not studied: Telling Tales (AQA anthology)",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.AF",
+      "title": "Modern prose option not studied: Animal Farm",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.AAM",
+      "title": "Modern prose option not studied: Anita and Me",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.PE",
+      "title": "Modern prose option not studied: Pigeon English",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "IC.X.MNL",
+      "title": "Modern prose option not studied: My Name is Leon",
+      "topic_area": "An Inspector Calls (declared exclusion)"
+    },
+    {
+      "id": "POE.0",
+      "title": "Power and Conflict cluster overview: what the cluster explores and how to prepare all 15 poems",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.1",
+      "title": "Poem: Ozymandias (Percy Bysshe Shelley)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.2",
+      "title": "Poem: London (William Blake)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.3",
+      "title": "Poem: extract from The Prelude, stealing the boat (William Wordsworth)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.4",
+      "title": "Poem: My Last Duchess (Robert Browning)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.5",
+      "title": "Poem: The Charge of the Light Brigade (Alfred, Lord Tennyson)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.6",
+      "title": "Poem: Exposure (Wilfred Owen)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.7",
+      "title": "Poem: Storm on the Island (Seamus Heaney)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.8",
+      "title": "Poem: Bayonet Charge (Ted Hughes)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.9",
+      "title": "Poem: Remains (Simon Armitage)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.10",
+      "title": "Poem: Poppies (Jane Weir)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.11",
+      "title": "Poem: War Photographer (Carol Ann Duffy)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.12",
+      "title": "Poem: Tissue (Imtiaz Dharker)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.13",
+      "title": "Poem: The Emigree (Carol Rumens)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.14",
+      "title": "Poem: Checking Out Me History (John Agard)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.15",
+      "title": "Poem: Kamikaze (Beatrice Garland)",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.EX",
+      "title": "Poetry: the Paper 2 comparison exam question and a model paragraph",
+      "topic_area": "Poetry"
+    },
+    {
+      "id": "POE.X.LR",
+      "title": "Poetry cluster not studied: Love and Relationships",
+      "topic_area": "Poetry (declared exclusion)"
+    },
+    {
+      "id": "POE.X.WL",
+      "title": "Poetry cluster not studied: Worlds and Lives",
+      "topic_area": "Poetry (declared exclusion)"
+    },
+    {
+      "id": "UNS.1",
+      "title": "Unseen poetry: approaching a single unseen poem (24 marks, AO1+AO2)",
+      "topic_area": "Unseen poetry"
+    },
+    {
+      "id": "UNS.2",
+      "title": "Unseen poetry: comparing two unseen poems on methods (8 marks, AO2 only)",
+      "topic_area": "Unseen poetry"
+    },
+    {
+      "id": "UNS.3",
+      "title": "Unseen poetry: strategies for unfamiliar vocabulary, form and allusion under time pressure",
+      "topic_area": "Unseen poetry"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "MAC.X.RJ",
+      "reason": "Alternative Shakespeare set text (Romeo and Juliet); Macbeth is this course's selected option."
+    },
+    {
+      "id": "MAC.X.TMP",
+      "reason": "Alternative Shakespeare set text (The Tempest); Macbeth is this course's selected option."
+    },
+    {
+      "id": "MAC.X.MOV",
+      "reason": "Alternative Shakespeare set text (The Merchant of Venice); Macbeth is this course's selected option."
+    },
+    {
+      "id": "MAC.X.MADO",
+      "reason": "Alternative Shakespeare set text (Much Ado About Nothing); Macbeth is this course's selected option."
+    },
+    {
+      "id": "MAC.X.JC",
+      "reason": "Alternative Shakespeare set text (Julius Caesar); Macbeth is this course's selected option."
+    },
+    {
+      "id": "ACC.X.JH",
+      "reason": "Alternative 19th-century novel (The Strange Case of Dr Jekyll and Mr Hyde); A Christmas Carol is this course's selected option."
+    },
+    {
+      "id": "ACC.X.GE",
+      "reason": "Alternative 19th-century novel (Great Expectations); A Christmas Carol is this course's selected option."
+    },
+    {
+      "id": "ACC.X.JE",
+      "reason": "Alternative 19th-century novel (Jane Eyre); A Christmas Carol is this course's selected option."
+    },
+    {
+      "id": "ACC.X.FR",
+      "reason": "Alternative 19th-century novel (Frankenstein); A Christmas Carol is this course's selected option."
+    },
+    {
+      "id": "ACC.X.PP",
+      "reason": "Alternative 19th-century novel (Pride and Prejudice); A Christmas Carol is this course's selected option."
+    },
+    {
+      "id": "ACC.X.SOF",
+      "reason": "Alternative 19th-century novel (The Sign of Four); A Christmas Carol is this course's selected option."
+    },
+    {
+      "id": "IC.X.BB",
+      "reason": "Alternative modern drama text (Blood Brothers); An Inspector Calls (drama route) is this course's selected option."
+    },
+    {
+      "id": "IC.X.DNA",
+      "reason": "Alternative modern drama text (DNA); An Inspector Calls (drama route) is this course's selected option."
+    },
+    {
+      "id": "IC.X.TOH",
+      "reason": "Alternative modern drama text (A Taste of Honey); An Inspector Calls (drama route) is this course's selected option."
+    },
+    {
+      "id": "IC.X.PH",
+      "reason": "Alternative modern drama text (Princess & The Hustler); An Inspector Calls (drama route) is this course's selected option."
+    },
+    {
+      "id": "IC.X.LT",
+      "reason": "Alternative modern drama text (Leave Taking); An Inspector Calls (drama route) is this course's selected option."
+    },
+    {
+      "id": "IC.X.LOF",
+      "reason": "Alternative modern prose text (Lord of the Flies); this course follows the drama route (An Inspector Calls), not the prose route."
+    },
+    {
+      "id": "IC.X.TT",
+      "reason": "Alternative modern prose text (the AQA anthology Telling Tales); this course follows the drama route (An Inspector Calls), not the prose route."
+    },
+    {
+      "id": "IC.X.AF",
+      "reason": "Alternative modern prose text (Animal Farm); this course follows the drama route (An Inspector Calls), not the prose route."
+    },
+    {
+      "id": "IC.X.AAM",
+      "reason": "Alternative modern prose text (Anita and Me); this course follows the drama route (An Inspector Calls), not the prose route."
+    },
+    {
+      "id": "IC.X.PE",
+      "reason": "Alternative modern prose text (Pigeon English); this course follows the drama route (An Inspector Calls), not the prose route."
+    },
+    {
+      "id": "IC.X.MNL",
+      "reason": "Alternative modern prose text (My Name is Leon); this course follows the drama route (An Inspector Calls), not the prose route."
+    },
+    {
+      "id": "POE.X.LR",
+      "reason": "Alternative poetry anthology cluster (Love and Relationships); Power and Conflict is this course's selected option."
+    },
+    {
+      "id": "POE.X.WL",
+      "reason": "Alternative poetry anthology cluster (Worlds and Lives); Power and Conflict is this course's selected option."
+    }
+  ],
+  "S01_Course_Structure_Assessment_Objectives_and_Levels": {
+    "covers_syllabus_refs": [
+      "AQA 8702 4.1-4.3",
+      "Paper 1",
+      "Paper 2"
+    ],
+    "syllabus_topic": "Assessment structure and objectives",
+    "covers_items": [
+      "2.P1",
+      "2.P2",
+      "AO1",
+      "AO2",
+      "AO3",
+      "AO4",
+      "4.3.1",
+      "MS.1"
+    ]
+  },
+  "S02_Core_Literary_Essay_Skills": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.3"
+    ],
+    "syllabus_topic": "Skills (AQA 8702 section 3.3)",
+    "covers_items": [
+      "3.3.1",
+      "3.3.2",
+      "3.3.3",
+      "3.3.4",
+      "3.3.5",
+      "3.3.6",
+      "3.3.7"
+    ]
+  },
+  "S03_Macbeth_Overview_Context_and_Acts_1_to_3": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.1.1"
+    ],
+    "syllabus_topic": "Macbeth",
+    "covers_items": [
+      "MAC.0",
+      "MAC.CTX",
+      "MAC.1",
+      "MAC.2",
+      "MAC.3"
+    ]
+  },
+  "S04_Macbeth_Acts_4_to_5_Structure_and_Language": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.1.1"
+    ],
+    "syllabus_topic": "Macbeth",
+    "covers_items": [
+      "MAC.4",
+      "MAC.5",
+      "MAC.STRUCT",
+      "MAC.LANG"
+    ]
+  },
+  "S05_Macbeth_Themes_Characters_and_the_Exam_Question": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.1.1",
+      "Paper 1 Section A"
+    ],
+    "syllabus_topic": "Macbeth",
+    "covers_items": [
+      "MAC.TH1",
+      "MAC.TH2",
+      "MAC.TH3",
+      "MAC.CH1",
+      "MAC.CH2",
+      "MAC.CH3",
+      "MAC.EX"
+    ]
+  },
+  "S06_A_Christmas_Carol_Overview_Context_and_Staves_1_to_3": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.1.2"
+    ],
+    "syllabus_topic": "A Christmas Carol",
+    "covers_items": [
+      "ACC.0",
+      "ACC.CTX",
+      "ACC.1",
+      "ACC.2",
+      "ACC.3"
+    ]
+  },
+  "S07_A_Christmas_Carol_Staves_4_to_5_Structure_and_Language": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.1.2"
+    ],
+    "syllabus_topic": "A Christmas Carol",
+    "covers_items": [
+      "ACC.4",
+      "ACC.5",
+      "ACC.STRUCT",
+      "ACC.LANG"
+    ]
+  },
+  "S08_A_Christmas_Carol_Themes_Characters_and_the_Exam_Question": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.1.2",
+      "Paper 1 Section B"
+    ],
+    "syllabus_topic": "A Christmas Carol",
+    "covers_items": [
+      "ACC.TH1",
+      "ACC.TH2",
+      "ACC.TH3",
+      "ACC.CH1",
+      "ACC.CH2",
+      "ACC.CH3",
+      "ACC.EX"
+    ]
+  },
+  "S09_An_Inspector_Calls_Overview_Context_Acts_and_Structure": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.2.1"
+    ],
+    "syllabus_topic": "An Inspector Calls",
+    "covers_items": [
+      "IC.0",
+      "IC.CTX",
+      "IC.1",
+      "IC.2",
+      "IC.3",
+      "IC.STRUCT"
+    ]
+  },
+  "S10_An_Inspector_Calls_Themes_Characters_and_the_Exam_Question": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.2.1",
+      "Paper 2 Section A"
+    ],
+    "syllabus_topic": "An Inspector Calls",
+    "covers_items": [
+      "IC.TH1",
+      "IC.TH2",
+      "IC.TH3",
+      "IC.CH1",
+      "IC.CH2",
+      "IC.CH3",
+      "IC.CH4",
+      "IC.LANG",
+      "IC.EX"
+    ]
+  },
+  "S11_Power_and_Conflict_Poetry_I_Overview_and_Four_Founding_Poems": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.2.2"
+    ],
+    "syllabus_topic": "Power and Conflict poetry",
+    "covers_items": [
+      "POE.0",
+      "POE.1",
+      "POE.2",
+      "POE.3",
+      "POE.4"
+    ]
+  },
+  "S12_Power_and_Conflict_Poetry_II_War_and_Nature": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.2.2"
+    ],
+    "syllabus_topic": "Power and Conflict poetry",
+    "covers_items": [
+      "POE.5",
+      "POE.6",
+      "POE.7",
+      "POE.8",
+      "POE.9"
+    ]
+  },
+  "S13_Power_and_Conflict_Poetry_III_Loss_Identity_and_Voice": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.2.2"
+    ],
+    "syllabus_topic": "Power and Conflict poetry",
+    "covers_items": [
+      "POE.10",
+      "POE.11",
+      "POE.12",
+      "POE.13",
+      "POE.14",
+      "POE.15"
+    ]
+  },
+  "S14_Poetry_Comparison_Exam_Question_and_Unseen_Poetry": {
+    "covers_syllabus_refs": [
+      "AQA 8702 3.2.2",
+      "3.2.3",
+      "Paper 2 Section B",
+      "Paper 2 Section C"
+    ],
+    "syllabus_topic": "Poetry exam technique and unseen poetry",
+    "covers_items": [
+      "POE.EX",
+      "UNS.1",
+      "UNS.2",
+      "UNS.3"
+    ]
+  }
+}

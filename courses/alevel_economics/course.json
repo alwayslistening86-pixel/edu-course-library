@@ -1,0 +1,62 @@
+{
+  "schema_version": 4,
+  "name": "A-level Economics (AQA 7136)",
+  "requires_complete": [
+    "gcse_mathematics"
+  ],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA AS and A-level Economics (7135/7136) specification, Version 1.3 (29 June 2022), the current version linked from aqa.org.uk/7136, itemised on 2026-09-27: every A-level content code at its deepest level (4.1.1.1-4.2.6.5) and the nine A-level quantitative skills (QS1-QS9). Assessment: three 2-hour papers of 80 marks each (33.3% each): Paper 1 Markets and market failure (data response, one of two contexts, 40 marks; one essay from three, 40 marks); Paper 2 National and international economy (same structure); Paper 3 Economic principles and issues (30 multiple-choice marks and a 50-mark case study). Stage tests and the mock are original questions in AQA's style; every numerical answer was computed when the course was built.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for AQA 7136",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "current_data",
+      "text": "Economics uses real, changing data (interest rates, inflation, wages, tax rates). Where this course gives a figure, treat it as an illustration; for your exam answers, use recent data you have checked from official sources such as the ONS and the Bank of England."
+    },
+    {
+      "id": "diagrams",
+      "text": "Diagrams (supply and demand, cost curves, AD/AS) are described in words here. Draw each one yourself as you go: accurate, labelled diagrams earn marks in the exam."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Economic_Problem",
+    "S02_Individual_Decisions_Behavioural",
+    "S03_Demand_Supply_Elasticity",
+    "S04_Market_Equilibrium",
+    "S05_Production_and_Costs",
+    "S06_Revenue_Profit_Technology",
+    "S07_Market_Structures_Perfect_Competition",
+    "S08_Monopolistic_Competition_Oligopoly",
+    "S09_Monopoly_Price_Discrimination",
+    "S10_Contestability_and_Efficiency",
+    "S11_Labour_Market",
+    "S12_Income_Wealth_Poverty",
+    "S13_Market_Failure",
+    "S14_Government_Intervention",
+    "S15_Measuring_Macro_Performance",
+    "S16_Circular_Flow_AD_AS",
+    "S17_Growth_and_Unemployment",
+    "S18_Inflation_and_Policy_Conflicts",
+    "S19_Financial_Markets_Monetary_Policy",
+    "S20_Fiscal_and_Supply_Side_Policy",
+    "S21_Globalisation_and_Trade",
+    "S22_Balance_of_Payments_Exchange_Rates_Development",
+    "S23_Exam_Skills"
+  ]
+}

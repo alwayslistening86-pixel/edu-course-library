@@ -1,0 +1,282 @@
+{
+  "stage_rubrics": {
+    "Prelims_Politics": {
+      "criteria": [
+        "Directly answers the specific question asked, addressing both the empirical/practice and political-theory components where the question draws on both",
+        "States a clear answer and defends it with reasoned argument, rather than summarising positions without taking one",
+        "Engages with the actual text or institutional mechanism named (Locke, Rousseau, Tocqueville, Marx/Engels, Mill; or the relevant institution/comparative case), not just a general theme associated with it",
+        "Avoids irrelevant background material and excessive length, per the Handbook's explicit warning against \"short weight\" and irrelevance",
+        "Demonstrates broad preparation across the syllabus rather than narrow, over-rehearsed answers"
+      ],
+      "pass_threshold": "Answers four questions overall, at least one from Section A and two from Section B (the paper's own rule), directly answers the question asked, states and defends a clear position, and connects empirical mechanism to theoretical principle rather than treating them separately.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "PPE Prelims Handbook / Preliminary Examination in PPE regulations - Introduction to the Theory and Practice of Politics",
+        "reference": "Examination Regulations 2025-26, Preliminary Examination in Philosophy, Politics, and Economics",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "Prelims_Philosophy": {
+      "criteria": [
+        "Answers with genuine engagement across all three required sections (Logic, General Philosophy, Moral Philosophy), not superficial coverage of one",
+        "Class I standard: superior command of the facts and arguments relevant to the question, with rigorous, independent reasoning and meticulous organisation",
+        "Class II.1 standard: effective analysis and argumentation with thorough command of evidence, allowing minor imprecision but not shallow treatment",
+        "Class II.2 standard: adequate but basic analysis, acceptable if it grasps the relevant material without serious inaccuracy",
+        "Below Class II.2: significant inaccuracies, muddled logic, or conceptual confusion mark a genuinely weak answer"
+      ],
+      "pass_threshold": "Shows adequate knowledge in each of the three required sections (the paper's own rule - no single strong section compensates for a neglected one); at Class I standard, superior command of facts and arguments with rigorous, independent reasoning.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Faculty of Philosophy Course Descriptions for the First Public Examination (FPE) - Introduction to Logic, General Philosophy, Moral Philosophy",
+        "reference": "Course Descriptions FPE (philosophy.ox.ac.uk/course-descriptions-fpe)",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "Prelims_Economics": {
+      "criteria": [
+        "Answers at least one question from each of the three required areas (Microeconomics, Macroeconomics, Quantitative Methods)",
+        "Shows correct technical method (algebraic, graphical, or statistical as appropriate) rather than only qualitative description where a technical answer is required",
+        "States a clear conclusion and defends it with reasoned argument or correct derivation, not just a list of relevant concepts",
+        "Avoids irrelevant material and manages time so all required areas receive adequate coverage",
+        "Demonstrates broad preparation across the syllabus rather than narrow, over-rehearsed answers"
+      ],
+      "pass_threshold": "Correct technical method (algebraic, graphical or statistical as appropriate) across microeconomics, macroeconomics and quantitative methods, with a clear stated conclusion defended by reasoned argument or correct derivation, not just a list of relevant concepts.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Preliminary Examination in PPE - Introductory Economics (as taught via college syllabus, e.g. St Edmund Hall Economics-PPE 2024)",
+        "reference": "Examination Regulations 2025-26, Preliminary Examination in Philosophy, Politics, and Economics",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "FHS_Political_Thought_Plato_to_Rousseau": {
+      "criteria": [
+        "Demonstrates genuine knowledge of at least three of the paper's primary texts (from Plato, Aristotle, Aquinas, Machiavelli, Hobbes, Locke, Montesquieu, Hume, Rousseau), not just secondary summary",
+        "Engages directly with the primary text's actual argument, not just a general theme associated with the thinker",
+        "States a clear thesis and defends it with reasoned argument, per the Handbook's general exam-technique guidance",
+        "Connects the specific text to the broader thematic questions the paper tests (civic virtue, natural law, utopian thought, personal vs political) where relevant",
+        "Avoids irrelevant background and demonstrates broad preparation across the syllabus, not one over-rehearsed thinker"
+      ],
+      "pass_threshold": "Genuine knowledge of at least three primary texts with direct engagement with the actual argument (not secondary summary), a clear thesis defended with reasoned argument, and connection to the paper's broader thematic questions where relevant.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Course Descriptions for all PPE Papers (24 June 2024) - Paper 215: Political Thought, Plato to Rousseau",
+        "reference": "ppe.ox.ac.uk course descriptions, Paper 215",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "FHS_Political_Thought_Bentham_to_Weber": {
+      "criteria": [
+        "Demonstrates genuine knowledge of at least three of the paper's primary texts (from Bentham, Mill, Hegel, Saint-Simon, Tocqueville, Marx, Weber, Durkheim), not just secondary summary",
+        "Engages directly with the primary text's actual argument, not just a general theme associated with the thinker",
+        "States a clear thesis and defends it with reasoned argument",
+        "Connects the specific text to the broader thematic questions the paper tests (state vs society, individual vs community, historical change, science vs religion) where relevant",
+        "Avoids irrelevant background and demonstrates broad preparation across the syllabus"
+      ],
+      "pass_threshold": "Genuine knowledge of at least three primary texts with direct engagement with the actual argument, a clear thesis defended with reasoned argument, and connection to the paper's broader thematic questions where relevant.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Course Descriptions for all PPE Papers (24 June 2024) - Paper 216: Political Thought, Bentham to Weber",
+        "reference": "ppe.ox.ac.uk course descriptions, Paper 216",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "FHS_International_Relations": {
+      "criteria": [
+        "Correctly identifies and applies the relevant IR theory or approach (classical, critical, postcolonial, etc.) to the question posed",
+        "Illustrates answers using contemporary or historical material, per the paper's own stated requirement",
+        "Shows expected knowledge of major developments in international affairs from 1990 onwards where relevant",
+        "States a clear argument and defends it, rather than surveying theories neutrally",
+        "Avoids irrelevant material and demonstrates broad preparation across the syllabus"
+      ],
+      "pass_threshold": "Correctly identifies and applies the relevant IR theory or approach to the question posed, illustrates using contemporary or historical material per the paper's own stated requirement, and shows expected knowledge of major developments in international affairs from 1990 onwards where relevant.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Course Descriptions for all PPE Papers (24 June 2024) - Paper 214: International Relations",
+        "reference": "ppe.ox.ac.uk course descriptions, Paper 214",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "FHS_Practical_Ethics": {
+      "criteria": [
+        "Class I standard: superior command of the facts and arguments relevant to the question, with rigorous, independent reasoning and meticulous organisation",
+        "Class II.1 standard: effective analysis and argumentation with thorough command of evidence",
+        "Class II.2 standard: adequate but basic analysis, acceptable if it grasps the relevant material without serious inaccuracy",
+        "Connects the specific practical issue to the broader philosophical questions the paper tests (harm vs allowing harm, intentionality, moral significance of death) where relevant, per the real course description",
+        "Demonstrates independent and rigorous critical reasoning about the moral problem, not just a survey of positions"
+      ],
+      "pass_threshold": "Class I standard requires superior command of the facts and arguments relevant to the question, with rigorous, independent reasoning and meticulous organisation; Class II.1 requires effective analysis and argumentation with thorough command of evidence.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Course Descriptions for all PPE Papers (24 June 2024) - Paper 128: Practical Ethics",
+        "reference": "ppe.ox.ac.uk course descriptions, Paper 128; Examination Conventions 2023-24, FHS of Mathematics and Philosophy",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "FHS_Theory_of_Politics": {
+      "criteria": [
+        "Critically engages with the relevant political value or concept (liberty, rights, justice, equality, democracy, etc.) rather than merely describing competing definitions",
+        "Applies the correct analytical framework or distinction the paper tests (e.g. ideal vs realist theory, negative vs positive liberty) accurately",
+        "States a clear position and defends it with reasoned argument",
+        "Demonstrates command of the methods used in political theorising, per the paper's own stated rubric emphasis",
+        "Avoids irrelevant material and demonstrates broad preparation across the syllabus"
+      ],
+      "pass_threshold": "Critically engages with the relevant political value or concept rather than merely describing competing definitions, applies the correct analytical framework or distinction accurately, and states and defends a clear position.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Course Descriptions for all PPE Papers (24 June 2024) - Paper 203: Theory of Politics",
+        "reference": "ppe.ox.ac.uk course descriptions, Paper 203",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    },
+    "FHS_Game_Theory": {
+      "criteria": [
+        "Shows correct technical command of the relevant solution concept (strategic-form, extensive-form, incomplete information as required) rather than only qualitative description",
+        "Answers both parts of the paper with adequate depth, per the paper's own stated two-part structure requirement",
+        "Applies game-theoretic method correctly to the specific application posed (bargaining, auctions, evolutionary models, etc.) where relevant",
+        "Shows correct derivation or proof where the question requires one, not just a stated conclusion",
+        "Demonstrates the Microeconomics prerequisite knowledge the paper assumes"
+      ],
+      "pass_threshold": "Correct technical command of the relevant solution concept, adequate depth on both parts of the paper (its own stated two-part structure requirement), and correct derivation or proof where the question requires one.",
+      "source": {
+        "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+        "document": "Course Descriptions for all PPE Papers (24 June 2024) - Game Theory (Economics optional paper)",
+        "reference": "ppe.ox.ac.uk course descriptions, Game Theory",
+        "urls": [
+          "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+          "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+          "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+          "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+          "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+          "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+          "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+          "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Prelims: at least one strong, question-specific answer from each of Politics, Philosophy and Economics, with the Philosophy answer showing adequate knowledge across Logic, General Philosophy and Moral Philosophy",
+      "Finals: genuine primary-text or technical engagement (not survey/summary) across at least four of the six chosen FHS papers, each with a clear defended thesis",
+      "Calculations and derivations (Game Theory) are shown with correct method, not just a stated conclusion",
+      "Performance holds up under exam conditions across an unfamiliar question on each paper, not just rehearsed material",
+      "Where an official classification-descriptor document exists (Philosophy papers), performance is placed correctly against its Class I-Fail bands; where none exists (Politics/Economics/Game Theory papers), performance is assessed against that paper's own real content requirements and the relevant QAA benchmark"
+    ],
+    "pass_threshold": "Prelims: pass all three subjects (Politics, Philosophy, Economics) - the Moderators' own rule, with failure in one subject resitable, failure in two or three requiring a full resit. Finals: performance consistent with each paper's own classification descriptors or, where none exist, the paper's real content requirements plus the QAA benchmark standard.",
+    "source": {
+      "issuing_body": "University of Oxford (PPE); Faculty of Philosophy; Examination Regulations (University of Oxford)",
+      "document": "Examination Regulations 2025-26, Preliminary Examination in PPE; Honour School of Philosophy, Politics, and Economics regulations; Course Descriptions for all PPE Papers (24 June 2024)",
+      "reference": "examregs.admin.ox.ac.uk, peip-poliandecon and hsop-poliandecon",
+      "urls": [
+        "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+        "https://www.ppe.ox.ac.uk/sitefiles/ppe-handbook-prelims-2023-24-final-1.0.pdf",
+        "https://www.philosophy.ox.ac.uk/course-descriptions-fpe",
+        "https://examregs.admin.ox.ac.uk/Regulation?code=peip-poliandecon",
+        "https://examregs.admin.ox.ac.uk/Regulation?code=hsop-poliandecon",
+        "https://admin.wadham.ox.ac.uk/media/documents/Introduction_to_the_Theory_and_Practice_of_Politics_21-22.pdf",
+        "https://www.seh.ox.ac.uk/wp-content/uploads/Economics-PPE-E-M-2024.pdf",
+        "https://courses.maths.ox.ac.uk/mod/book/view.php?id=65669&chapterid=969",
+        "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+        "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-politics-and-international-relations-23.pdf?sfvrsn=a271a881_6",
+    "https://www.qaa.ac.uk/docs/qaa/sbs/sbs-economics-23.pdf"
+  ],
+  "source_notes": [
+    "QAA benchmarks: Politics and International Relations (March 2023) and Economics (March 2023) - the stages' 'Politics/Social Sciences, general' label resolves to the Politics and International Relations statement. Year drift: rubric cites PPE Prelims Handbook 2023-24 and Course Descriptions 24 June 2024; Oxford now also publishes PPE Prelims Handbook 2025-26 (https://www.ppe.ox.ac.uk/sites/g/files/vzsiac1316/files/ppe_handbook_prelims_2025-26_v01.pdf) - not yet re-compared.",
+    "College reading lists (Wadham for Prelims Politics section structure, St Edmund Hall for Prelims Economics topic list) are not official Oxford PPE Faculty documents but are standard, openly published tutorial-reading-list implementations of the same University-wide Prelims syllabus, used here because the Faculty's own syllabus pages give only summary subject titles."
+  ]
+}

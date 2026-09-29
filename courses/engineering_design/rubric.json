@@ -1,0 +1,224 @@
+{
+  "stage_rubrics": {
+    "S01_Design_Strategies_and_the_Iterative_Design_Process": {
+      "criteria": [
+        "Recommends a design strategy suited to the scenario with genuine, developed justification",
+        "Explains the design-make-evaluate cycle accurately",
+        "Chooses research methods appropriate to the brief with reasons",
+        "Analyses a product against every ACCESS FM factor with specific evidence"
+      ],
+      "pass_threshold": "Level 2 standard on a practice scenario: names a design strategy correctly with a reason, explains the design-make-evaluate cycle, chooses a suitable research method, and analyses a product against every ACCESS FM factor.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R038 Topic Area 1 (1.1-1.2)",
+        "reference": "J822 specification, R038 Topic Area 1 (1.1-1.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S02_Specifications_Ideas_and_the_Make_and_Evaluate_Stage": {
+      "criteria": [
+        "Writes specific, measurable specification points traceable to research or ACCESS FM findings",
+        "Generates a genuine range of different design ideas, not minor variations",
+        "Explains modelling/prototyping's purpose in the make-and-evaluate stage",
+        "Classifies specification criteria accurately as needs/wants and quantitative/qualitative"
+      ],
+      "pass_threshold": "Level 2 standard: writes a specification with correctly classified points, generates a genuine range of ideas, explains why and how designers model/prototype, and classifies specification criteria as needs/wants and quantitative/qualitative accurately.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R038 Topic Area 1 (1.2) and Topic Area 2 (2.1)",
+        "reference": "J822 specification, R038 Topic Area 1 (1.2) and Topic Area 2 (2.1)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S03_Manufacturing_Considerations_and_Communicating_Outcomes": {
+      "criteria": [
+        "Explains a manufacturing consideration's effect on a specific design decision",
+        "Explains a named influence's effect on a specific design decision",
+        "Matches drawing types to communication purpose correctly",
+        "Names the BS 8888 conventions a correct working drawing includes"
+      ],
+      "pass_threshold": "Level 2 standard: explains how a manufacturing consideration or a named influence shapes a design decision with a developed reason, names appropriate drawing types for a purpose, and produces or interprets a correctly conventioned orthographic working drawing.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R038 Topic Area 2 (2.2-2.3) and Topic Area 3 (3.1-3.2)",
+        "reference": "J822 specification, R038 Topic Area 2 (2.2-2.3) and Topic Area 3 (3.1-3.2)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S04_CAD_and_Evaluating_Design_Ideas": {
+      "criteria": [
+        "Gives balanced, genuine CAD advantages and limitations",
+        "Applies an idea-evaluation method (ranking matrix, QFD or qualitative comparison) correctly",
+        "Recommends a modelling method matched to what is being tested",
+        "Evaluates an outcome with specific, quantified findings against the specification"
+      ],
+      "pass_threshold": "Level 2 standard: gives balanced CAD advantages and limitations, applies an evaluation-of-ideas method correctly, recommends a suitable modelling method, and evaluates an outcome against a specification with specific findings.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R038 Topic Area 3 (3.3) and Topic Area 4 (4.1-4.3)",
+        "reference": "J822 specification, R038 Topic Area 3 (3.3) and Topic Area 4 (4.1-4.3)",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S05_R038_Exam_Structure_and_Technique": {
+      "criteria": [
+        "States the exam structure, marks and terminal assessment rule accurately",
+        "Responds to the command word at the level of development it requires",
+        "Develops two or more genuine, discussed points rather than listing undeveloped statements",
+        "Uses correct, consistent technical terminology throughout an extended response"
+      ],
+      "pass_threshold": "Level 2 standard: states the exam structure and terminal rule accurately, responds to command words as OCR intends, and writes an extended response reaching Level 3 (two or more developed points with correct terminology).",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), R038 Assessment overview, Appendix B and R038/01 mark scheme (level-of-response bands)",
+        "reference": "J822 specification, R038 Assessment overview, Appendix B and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S06_R039_Overview_Freehand_Proposals_and_Development": {
+      "criteria": [
+        "States R039's tasks and mark-band structure accurately",
+        "Produces a genuine range of rendered, annotated freehand proposals",
+        "Annotation links design choices to specific specification points",
+        "Develops one proposal further with purposeful, explained changes"
+      ],
+      "pass_threshold": "Level 2 standard: describes R039's structure accurately, produces at least two genuinely different, fully annotated freehand proposals, and develops one further with additional rendering and specification-linked annotation.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R039 section 6.4 task summaries and assessment guidance",
+        "reference": "J822 specification, R039 section 6.4 (Tasks 1-2) and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S07_R039_Drawings_CAD_and_R040_Overview": {
+      "criteria": [
+        "Produces or accurately describes a correctly conventioned orthographic and assembly drawing",
+        "Describes CAD presentation evidence that is accurate and shows genuine 3D modelling",
+        "States R040's six tasks and mark-band structure accurately",
+        "Links R040 tasks back to the relevant R038 Topic Area content"
+      ],
+      "pass_threshold": "Level 2 standard: produces a correctly conventioned orthographic and assembly drawing, produces CAD presentation drawings with genuine 3D modelling evidence, and describes R040's six tasks and mark bands accurately.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R039 section 6.4 (Tasks 3-4) and Unit R040 assessment guidance",
+        "reference": "J822 specification, R039 section 6.4 (Tasks 3-4) and R040 section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S08_R040_Product_Analysis_Disassembly_and_CAD_Modelling": {
+      "criteria": [
+        "Analyses a product against ACCESS FM and compares products in an evidenced matrix",
+        "Documents disassembly accurately, identifying components, materials and processes",
+        "Identifies specific hazards and well-controlled safety measures for disassembly",
+        "Describes a 3D CAD model with multiple views and appropriate simulation evidence"
+      ],
+      "pass_threshold": "Level 2 standard: analyses a product against ACCESS FM and compares products in a matrix, documents a disassembly with hazards/safety controls, and produces a 3D CAD model with multiple views and simulated operation.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R040 section 6.4 (Tasks 1-3) and assessment guidance",
+        "reference": "J822 specification, R040 section 6.4 (Tasks 1-3) and section 5.1",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S09_Production_Planning_Prototyping_and_the_Qualification_Structure": {
+      "criteria": [
+        "Writes a complete, specific production plan with a genuine risk assessment",
+        "Describes photographic-diary evidence that documents the build process, not just the outcome",
+        "States the qualification's unit structure, GLH, weighting and terminal assessment rule accurately",
+        "Matches performance objectives to the parts of the course that assess them"
+      ],
+      "pass_threshold": "Level 2 standard: writes a complete, specific production plan with a risk assessment, describes a photographic-diary standard prototype build, and states J822's unit structure, GLH/weighting and performance objectives accurately.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R040 section 6.4 (Tasks 4-5), section 2 and section 4.1.5",
+        "reference": "J822 specification, R040 section 6.4 (Tasks 4-5), section 2 and section 4.1.5",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    },
+    "S10_Prototype_Evaluation_Grading_NEA_Rules_and_Synoptic_Links": {
+      "criteria": [
+        "Evaluates a prototype against the specification with specific, evidenced findings",
+        "Proposes improvements clearly justified and tied to an evaluation finding",
+        "Calculates UMS totals correctly and reads grade boundaries accurately",
+        "States the core NEA independence/authenticity rules, including acceptable versus unacceptable guidance",
+        "Links an R038 Topic Area to a specific R039 or R040 task"
+      ],
+      "pass_threshold": "Level 2 standard: evaluates a prototype against the specification with specific evidence and justified improvements, calculates an overall grade correctly from unit UMS, states the core NEA independence rules, and links a named R038 Topic Area to a specific R039 or R040 task.",
+      "source": {
+        "issuing_body": "OCR (Cambridge OCR)",
+        "document": "OCR J822 specification (assessment from 2025), Unit R040 section 6.4 (Task 6), section 5 and section 6",
+        "reference": "J822 specification, R040 section 6.4 (Task 6), section 5.4 and section 6",
+        "urls": [
+          "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+          "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+          "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Short answer/recall responses are accurate and concise, matching R038's style",
+      "The extended response reaches Level 3: two or more developed points, genuine discussion or weighing of alternatives, and consistent correct terminology",
+      "R039-style and R040-style task responses reach MB3 standard across tasks: a genuine range of rendered, annotated design work; correctly conventioned technical drawings; a detailed, evidenced product analysis and disassembly; a complete production plan with risk assessment; and a specific, evidenced prototype evaluation with justified improvements",
+      "Responses correctly apply J822's performance objectives, UMS/grading logic and NEA independence rules where the scenario calls for them",
+      "No real OCR set-assignment or past-paper material is reproduced; all scenarios used are original"
+    ],
+    "pass_threshold": "R038 component: performance consistent with the grade descriptors for the boundary being targeted, applying OCR's own grade-boundary approach (set per series, not a fixed table) to the raw-mark performance shown. R039 and R040 components: MB3 (comprehensive/effective) evidence across all tasks of both units, matching real moderation standards.",
+    "source": {
+      "issuing_body": "OCR (Cambridge OCR)",
+      "document": "OCR J822 specification (assessment from 2025), section 5 Assessment overview (R038 external exam) and section 6 (R039/R040 NEA); R038/01 mark scheme (OCR file 716319) for level-of-response bands",
+      "reference": "J822 specification, section 5 (assessment overview and grading) and Appendix B (command words)",
+      "urls": [
+        "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+        "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf",
+        "https://www.ocr.org.uk/qualifications/cambridge-nationals/engineering-design-level-1-2-J822/specification-at-a-glance/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+    "https://www.ocr.org.uk/Images/716319-mark-scheme-principles-of-engineering-design.pdf"
+  ],
+  "source_notes": [
+    "R039/R040 'OCR-set assignments' are released to centres via OCR's Teach Cambridge portal; the only public copies are school-website rehosts, which are not cited. Stage criteria and lesson content for R039/R040 therefore anchor on the J822 specification's own task descriptions (section 6.4 and unit content), not on the set-assignment PDFs themselves.",
+    "Cited R038/01 mark scheme is the January 2024 series (OCR 716319); a newer series may since have been published and was not checked.",
+    "Specification re-read 2026-09-22: the live PDF at OCR file 711493 (assessment from 2025) matches the structure, GLH (48/36/36, 120 total), raw marks (70/60/60, 190 total) and UMS (80/60/60, 200 total) carried over from the original build; no optional units exist in this specification, so all three units are built."
+  ]
+}

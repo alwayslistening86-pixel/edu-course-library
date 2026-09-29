@@ -1,0 +1,227 @@
+{
+  "stage_rubrics": {
+    "S01_Modules_Imports_and_Packages": {
+      "criteria": [
+        "1.1a: Import variants: import, from-import, import-as, from-import-*",
+        "1.1b: Qualifying names in nested modules",
+        "1.1c: The dir() function",
+        "1.1d: The sys.path variable",
+        "1.5a: Why modules exist: the idea and rationale",
+        "1.5b: The __pycache__ directory",
+        "1.5c: The __name__ variable",
+        "1.5d: Public and private module variables",
+        "1.5e: The __init__.py file",
+        "1.5f: How Python searches for modules and packages",
+        "1.5g: Nested packages versus directory trees"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 1.1, 1.5 (Section 1: Modules and Packages (6 items, 12%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S02_Standard_Modules_math_random_platform": {
+      "criteria": [
+        "1.2a: math: ceil(), floor(), trunc()",
+        "1.2b: math: factorial(), hypot(), sqrt()",
+        "1.3a: random: random() and seed()",
+        "1.3b: random: choice() and sample()",
+        "1.4a: platform: platform(), machine(), processor(), system()",
+        "1.4b: platform: version(), python_implementation(), python_version_tuple()"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 1.2, 1.3, 1.4 (Section 1: Modules and Packages (6 items, 12%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S03_Handling_Exceptions_in_Depth": {
+      "criteria": [
+        "2.1a: try/except: ordering branches, except-as, grouped exceptions",
+        "2.1b: The hierarchy of exceptions",
+        "2.1c: raise, re-raising, and assert",
+        "2.1d: Exception objects and the args property",
+        "2.1e: else and finally in exception handling"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 2.1 (Section 2: Exceptions (5 items, 14%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S04_Custom_Exceptions": {
+      "criteria": [
+        "2.2a: Defining custom exceptions",
+        "2.2b: Fitting custom exceptions into the existing hierarchy"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 2.2 (Section 2: Exceptions (5 items, 14%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S05_Characters_and_String_Operations": {
+      "criteria": [
+        "3.1a: Encoding standards: ASCII, Unicode, UTF-8",
+        "3.1b: Code points and escape sequences",
+        "3.2a: ord() and chr()",
+        "3.2b: String indexing, slicing and immutability",
+        "3.2c: String iteration, concatenation, repetition and comparison",
+        "3.2d: Membership: in and not in"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 3.1, 3.2 (Section 3: Strings (8 items, 18%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S06_String_Methods": {
+      "criteria": [
+        "3.3a: The isxxx() methods",
+        "3.3b: join(), split() and strip()",
+        "3.3c: index(), find() and rfind()",
+        "3.3d: Ordering strings with sorted()"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 3.3 (Section 3: Strings (8 items, 18%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S07_Classes_Objects_Methods_Constructors": {
+      "criteria": [
+        "4.1a: Class, object, property and method",
+        "4.1b: Encapsulation, inheritance, superclass and subclass",
+        "4.1c: Identifying a class's components",
+        "4.3a: Declaring and using methods",
+        "4.3b: The self parameter",
+        "4.6a: Declaring and invoking constructors"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 4.1, 4.3, 4.6 (Section 4: Object-Oriented Programming (12 items, 34%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S08_Class_and_Instance_Properties_Introspection": {
+      "criteria": [
+        "4.2a: Instance variables versus class variables",
+        "4.2b: __dict__ on objects and on classes",
+        "4.2c: Private components and name mangling",
+        "4.4a: Introspection and hasattr() on objects and classes",
+        "4.4b: The __name__, __module__ and __bases__ properties"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 4.2, 4.4 (Section 4: Object-Oriented Programming (12 items, 34%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S09_Inheritance_and_Polymorphism": {
+      "criteria": [
+        "4.5a: Single and multiple inheritance",
+        "4.5b: isinstance(), overriding, is and is not",
+        "4.5c: Polymorphism and overriding __str__()",
+        "4.5d: Diamond problems and method resolution order"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 4.5 (Section 4: Object-Oriented Programming (12 items, 34%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S10_Comprehensions_Lambdas_Closures": {
+      "criteria": [
+        "5.1a: List comprehensions with if conditions",
+        "5.1b: Nested list comprehensions",
+        "5.2a: Defining and using lambdas",
+        "5.2b: Functions that take lambdas as arguments",
+        "5.2c: map() and filter()",
+        "5.3a: Closures: meaning, rationale and use"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 5.1, 5.2, 5.3 (Section 5: Miscellaneous (9 items, 22%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    },
+    "S11_File_Input_Output": {
+      "criteria": [
+        "5.4a: I/O modes; text versus binary",
+        "5.4b: Predefined streams; handles versus streams",
+        "5.5a: open() and errno values",
+        "5.5b: close(), read(), write(), readline(), readlines()",
+        "5.5c: bytearray as an input/output buffer"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (PCAP-31-03: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+        "reference": "PCAP-31-03 objectives 5.4, 5.5 (Section 5: Miscellaneous (9 items, 22%))",
+        "urls": [
+          "https://pythoninstitute.org/pcap-exam-syllabus"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 40-item mixed exam in PCAP's own proportions: 6 items on modules and packages, 5 on exceptions, 8 on strings, 12 on OOP and 9 on miscellaneous topics",
+      "Item types as in the real exam: single-select, multiple-select, code-output and short scenario/code items",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 70% overall (28 of 40 items fully correct), the published PCAP-31-03 pass mark. Also report the score per section.",
+    "source": {
+      "issuing_body": "OpenEDG Python Institute",
+      "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+      "reference": "PCAP-31-03 exam format: 40 items, five sections, pass = cumulative 70%",
+      "urls": [
+        "https://pythoninstitute.org/pcap-exam-syllabus"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://pythoninstitute.org/pcap-exam-syllabus"
+  ],
+  "source_notes": "The Python Institute publishes objectives, item types, section weights and the pass mark, but no past papers. Stage tests are original; output answer keys come from running the code."
+}

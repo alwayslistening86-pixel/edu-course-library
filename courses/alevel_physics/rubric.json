@@ -1,0 +1,450 @@
+{
+  "stage_rubrics": {
+    "S01_Measurements_Units_and_Uncertainty": {
+      "criteria": [
+        "3.1.1: Use of SI units and their prefixes",
+        "3.1.2: Limitation of physical measurements",
+        "3.1.3: Estimation of physical quantities",
+        "MS 0.1: Recognise and make use of appropriate units in calculations",
+        "MS 0.2: Recognise and use expressions in decimal and standard form",
+        "MS 0.3: Use ratios, fractions and percentages",
+        "MS 0.4: Estimate results",
+        "MS 0.5: Use calculators to find and use power, exponential and logarithmic functions",
+        "MS 0.6: Use calculators to handle sin x, cos x and tan x in degrees or radians",
+        "MS 1.1: Use an appropriate number of significant figures",
+        "MS 1.2: Find arithmetic means",
+        "MS 1.4: Make order of magnitude calculations",
+        "MS 1.5: Identify uncertainties in measurements and use simple techniques to determine uncertainty when data are combined"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.1.1, 3.1.2, 3.1.3, MS 0.1, MS 0.2, MS 0.3, MS 0.4, MS 0.5, MS 0.6, MS 1.1, MS 1.2, MS 1.4, MS 1.5 (3.1 Measurements and their errors, with mathematical requirements MS 0-1)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S02_Particles": {
+      "criteria": [
+        "3.2.1.1: Constituents of the atom",
+        "3.2.1.2: Stable and unstable nuclei",
+        "3.2.1.3: Particles, antiparticles and photons",
+        "3.2.1.4: Particle interactions",
+        "3.2.1.5: Classification of particles",
+        "3.2.1.6: Quarks and antiquarks",
+        "3.2.1.7: Applications of conservation laws"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.2.1.1, 3.2.1.2, 3.2.1.3, 3.2.1.4, 3.2.1.5, 3.2.1.6, 3.2.1.7 (3.2 Particles and radiation)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S03_Quantum_Phenomena": {
+      "criteria": [
+        "3.2.2.1: The photoelectric effect",
+        "3.2.2.2: Collisions of electrons with atoms",
+        "3.2.2.3: Energy levels and photon emission",
+        "3.2.2.4: Wave-particle duality"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.2.2.1, 3.2.2.2, 3.2.2.3, 3.2.2.4 (3.2 Particles and radiation)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S04_Progressive_and_Stationary_Waves": {
+      "criteria": [
+        "3.3.1.1: Progressive waves",
+        "3.3.1.2: Longitudinal and transverse waves",
+        "3.3.1.3: Principle of superposition of waves and formation of stationary waves",
+        "RP1: Required practical 1: stationary waves on a string (frequency against length, tension and mass per unit length)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.3.1.1, 3.3.1.2, 3.3.1.3, RP1 (3.3 Waves)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S05_Interference_Diffraction_Refraction": {
+      "criteria": [
+        "3.3.2.1: Interference",
+        "3.3.2.2: Diffraction",
+        "3.3.2.3: Refraction at a plane surface",
+        "RP2: Required practical 2: interference, Young's slits and the diffraction grating"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.3.2.1, 3.3.2.2, 3.3.2.3, RP2 (3.3 Waves)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S06_Vectors_Moments_and_Geometry": {
+      "criteria": [
+        "3.4.1.1: Scalars and vectors",
+        "3.4.1.2: Moments",
+        "MS 4.1: Use angles in regular 2D and 3D structures",
+        "MS 4.2: Visualise and represent 2D and 3D forms, including 2D representations of 3D objects",
+        "MS 4.3: Calculate areas of triangles, circumferences and areas of circles, surface areas and volumes of rectangular blocks, cylinders and spheres",
+        "MS 4.4: Use Pythagoras' theorem and the angle sum of a triangle",
+        "MS 4.5: Use sin, cos and tan in physical problems",
+        "MS 4.6: Use small angle approximations sin \u03b8 \u2248 \u03b8, tan \u03b8 \u2248 \u03b8, cos \u03b8 \u2248 1",
+        "MS 4.7: Understand the relationship between degrees and radians and convert between them"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.4.1.1, 3.4.1.2, MS 4.1, MS 4.2, MS 4.3, MS 4.4, MS 4.5, MS 4.6, MS 4.7 (3.4 Mechanics and materials)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S07_Motion_and_Projectiles": {
+      "criteria": [
+        "3.4.1.3: Motion along a straight line",
+        "3.4.1.4: Projectile motion",
+        "RP3: Required practical 3: g by a free-fall method",
+        "MS 3.5: Calculate rate of change from a graph showing a linear relationship",
+        "MS 3.6: Draw and use the slope of a tangent to a curve as a measure of rate of change",
+        "MS 3.7: Distinguish between instantaneous and average rate of change"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.4.1.3, 3.4.1.4, RP3, MS 3.5, MS 3.6, MS 3.7 (3.4 Mechanics and materials)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S08_Newtons_Laws_Momentum_Energy": {
+      "criteria": [
+        "3.4.1.5: Newton's laws of motion",
+        "3.4.1.6: Momentum",
+        "3.4.1.7: Work, energy and power",
+        "3.4.1.8: Conservation of energy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.4.1.5, 3.4.1.6, 3.4.1.7, 3.4.1.8 (3.4 Mechanics and materials)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S09_Materials": {
+      "criteria": [
+        "3.4.2.1: Bulk properties of solids",
+        "3.4.2.2: The Young modulus",
+        "RP4: Required practical 4: the Young modulus by a simple method"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.4.2.1, 3.4.2.2, RP4 (3.4 Mechanics and materials)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S10_Current_Electricity": {
+      "criteria": [
+        "3.5.1.1: Basics of electricity",
+        "3.5.1.2: Current-voltage characteristics",
+        "3.5.1.3: Resistivity",
+        "RP5: Required practical 5: resistivity of a wire using a micrometer, ammeter and voltmeter"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.5.1.1, 3.5.1.2, 3.5.1.3, RP5 (3.5 Electricity)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S11_Circuits_and_EMF": {
+      "criteria": [
+        "3.5.1.4: Circuits",
+        "3.5.1.5: Potential divider",
+        "3.5.1.6: Electromotive force and internal resistance",
+        "RP6: Required practical 6: emf and internal resistance of cells"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.5.1.4, 3.5.1.5, 3.5.1.6, RP6 (3.5 Electricity)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S12_Circular_Motion_and_SHM": {
+      "criteria": [
+        "3.6.1.1: Circular motion",
+        "3.6.1.2: Simple harmonic motion (SHM)",
+        "3.6.1.3: Simple harmonic systems",
+        "3.6.1.4: Forced vibrations and resonance",
+        "RP7: Required practical 7: simple harmonic motion with a mass-spring system and a simple pendulum"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.6.1.1, 3.6.1.2, 3.6.1.3, 3.6.1.4, RP7 (3.6 Further mechanics and thermal physics)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S13_Thermal_Physics": {
+      "criteria": [
+        "3.6.2.1: Thermal energy transfer",
+        "3.6.2.2: Ideal gases",
+        "3.6.2.3: Molecular kinetic theory model",
+        "RP8: Required practical 8: Boyle's law and Charles's law for a gas"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.6.2.1, 3.6.2.2, 3.6.2.3, RP8 (3.6 Further mechanics and thermal physics)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S14_Gravitational_Fields": {
+      "criteria": [
+        "3.7.1: Fields",
+        "3.7.2.1: Newton's law of gravitation",
+        "3.7.2.2: Gravitational field strength",
+        "3.7.2.3: Gravitational potential",
+        "3.7.2.4: Orbits of planets and satellites"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.7.1, 3.7.2.1, 3.7.2.2, 3.7.2.3, 3.7.2.4 (3.7 Fields and their consequences)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S15_Electric_Fields": {
+      "criteria": [
+        "3.7.3.1: Coulomb's law",
+        "3.7.3.2: Electric field strength",
+        "3.7.3.3: Electric potential"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.7.3.1, 3.7.3.2, 3.7.3.3 (3.7 Fields and their consequences)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S16_Capacitance": {
+      "criteria": [
+        "3.7.4.1: Capacitance",
+        "3.7.4.2: Parallel plate capacitor",
+        "3.7.4.3: Energy stored by a capacitor",
+        "3.7.4.4: Capacitor charge and discharge",
+        "RP9: Required practical 9: charge and discharge of capacitors, with a log-linear plot for RC",
+        "MS 2.5: Use logarithms in relation to quantities that range over several orders of magnitude",
+        "MS 3.10: Interpret logarithmic plots",
+        "MS 3.11: Use logarithmic plots to test exponential and power law variations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.7.4.1, 3.7.4.2, 3.7.4.3, 3.7.4.4, RP9, MS 2.5, MS 3.10, MS 3.11 (3.7 Fields and their consequences)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S17_Magnetic_Fields_and_Induction": {
+      "criteria": [
+        "3.7.5.1: Magnetic flux density",
+        "3.7.5.2: Moving charges in a magnetic field",
+        "3.7.5.3: Magnetic flux and flux linkage",
+        "3.7.5.4: Electromagnetic induction",
+        "3.7.5.5: Alternating currents",
+        "3.7.5.6: The operation of a transformer",
+        "RP10: Required practical 10: force on a current-carrying wire with a top pan balance",
+        "RP11: Required practical 11: flux linkage with a search coil and oscilloscope"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.7.5.1, 3.7.5.2, 3.7.5.3, 3.7.5.4, 3.7.5.5, 3.7.5.6, RP10, RP11 (3.7 Fields and their consequences)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S18_Nuclear_Physics": {
+      "criteria": [
+        "3.8.1.1: Rutherford scattering",
+        "3.8.1.2: Alpha, beta and gamma radiation",
+        "3.8.1.3: Radioactive decay",
+        "3.8.1.4: Nuclear instability",
+        "3.8.1.5: Nuclear radius",
+        "3.8.1.6: Mass and energy",
+        "3.8.1.7: Induced fission",
+        "3.8.1.8: Safety aspects",
+        "RP12: Required practical 12: the inverse-square law for gamma radiation",
+        "MS 1.3: Understand simple probability"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.8.1.1, 3.8.1.2, 3.8.1.3, 3.8.1.4, 3.8.1.5, 3.8.1.6, 3.8.1.7, 3.8.1.8, RP12, MS 1.3 (3.8 Nuclear physics)",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S19_Astrophysics_Telescopes": {
+      "criteria": [
+        "3.9.1.1: Astronomical telescope consisting of two converging lenses",
+        "3.9.1.2: Reflecting telescopes",
+        "3.9.1.3: Single dish radio telescopes, I-R, U-V and X-ray telescopes",
+        "3.9.1.4: Advantages of large diameter telescopes"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.9.1.1, 3.9.1.2, 3.9.1.3, 3.9.1.4 (3.9 Astrophysics (option))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S20_Astrophysics_Stars": {
+      "criteria": [
+        "3.9.2.1: Classification by luminosity",
+        "3.9.2.2: Absolute magnitude, M",
+        "3.9.2.3: Classification by temperature, black-body radiation",
+        "3.9.2.4: Principles of the use of stellar spectral classes",
+        "3.9.2.5: The Hertzsprung-Russell (HR) diagram",
+        "3.9.2.6: Supernovae, neutron stars and black holes"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.9.2.1, 3.9.2.2, 3.9.2.3, 3.9.2.4, 3.9.2.5, 3.9.2.6 (3.9 Astrophysics (option))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S21_Astrophysics_Cosmology": {
+      "criteria": [
+        "3.9.3.1: Doppler effect",
+        "3.9.3.2: Hubble's law",
+        "3.9.3.3: Quasars",
+        "3.9.3.4: Detection of exoplanets"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives 3.9.3.1, 3.9.3.2, 3.9.3.3, 3.9.3.4 (3.9 Astrophysics (option))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    },
+    "S22_Practical_Skills_and_Data_Analysis": {
+      "criteria": [
+        "PS1.1: Solve problems set in practical contexts",
+        "PS1.2: Apply scientific knowledge to practical contexts",
+        "PS2.1: Comment on experimental design and evaluate scientific methods",
+        "PS2.2: Present data in appropriate ways",
+        "PS2.3: Evaluate results and draw conclusions with reference to measurement uncertainties and errors",
+        "PS2.4: Identify variables, including those that must be controlled",
+        "PS3.1: Plot and interpret graphs",
+        "PS3.2: Process and analyse data using appropriate mathematical skills",
+        "PS3.3: Consider margins of error, accuracy and precision of data",
+        "PS4.1: Know and understand how to use a wide range of experimental and practical instruments, equipment and techniques",
+        "MS 2.1: Understand and use the symbols =, <, <<, >>, >, \u221d, \u2248, \u2206",
+        "MS 2.2: Change the subject of an equation, including non-linear equations",
+        "MS 2.3: Substitute numerical values into algebraic equations using appropriate units",
+        "MS 2.4: Solve algebraic equations, including quadratic equations",
+        "MS 3.1: Translate information between graphical, numerical and algebraic forms",
+        "MS 3.2: Plot two variables from experimental or other data",
+        "MS 3.3: Understand that y = mx + c represents a linear relationship",
+        "MS 3.4: Determine the slope and intercept of a linear graph",
+        "MS 3.8: Understand the possible physical significance of the area between a curve and the x-axis and calculate or estimate it",
+        "MS 3.9: Apply the concepts underlying calculus (without requiring explicit calculus) to exponential decay",
+        "MS 3.12: Sketch relationships modelled by y = k/x, y = kx^2, y = k/x^2, y = kx, y = sin x, y = cos x, y = e^(\u00b1x) and sin^2 x, cos^2 x"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7408 objectives PS1.1, PS1.2, PS2.1, PS2.2, PS2.3, PS2.4, PS3.1, PS3.2, PS3.3, PS4.1, MS 2.1, MS 2.2, MS 2.3, MS 2.4, MS 3.1, MS 3.2, MS 3.3, MS 3.4, MS 3.8, MS 3.9, MS 3.12 (Practical skills (8.3) and mathematical requirements (6))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of three 2-hour papers in AQA's structure: Paper 1 (85 marks), Paper 2 (85 marks) and Paper 3 (80 marks: Section A practical skills and data analysis, Section B Astrophysics)",
+      "Short and long structured questions plus multiple-choice questions (25 on each of Papers 1 and 2), as AQA's papers have",
+      "Working and units shown, marked against written mark schemes"
+    ],
+    "pass_threshold": "At least 50% of the 250 marks overall and at least 40% on each of the three papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+      "reference": "AQA 7408 scheme of assessment: Papers 1 and 2 (2 h, 85 marks, 34% each), Paper 3 (2 h, 80 marks, 32%)",
+      "urls": [
+        "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf"
+  ],
+  "source_notes": "AQA publishes the 7408 specification, including the content, mathematical requirements, practical skills, apparatus list and required practicals. Stage tests and the mock are original questions in AQA's style. Numerical answers were computed with Python using AQA data-booklet constants."
+}

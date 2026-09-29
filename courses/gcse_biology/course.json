@@ -1,0 +1,52 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Biology (AQA 8461) — separate science, Foundation and Higher tier",
+  "requires_complete": [],
+  "selected_options": {
+    "tiers_built": "Both Foundation and Higher, consistent with Mathematics and Combined Science",
+    "pathway_note": "This is the separate-science route (full Biology GCSE), distinct from the Biology content folded into Combined Science: Trilogy -- same core topic areas but with significantly more depth (e.g. the brain, the eye, plant hormones, monoclonal antibodies, DNA structure detail) and 10 required practicals rather than a shared subset."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Biology (8461) specification (first teaching 2016, current and live). Every subject-content code 4.1.1.1-4.7.5.4, the 10 required practicals (practical assessment section), Working scientifically WS1-WS4 (section 3) and the Mathematical requirements items (section 7) were itemised on 2026-09-19 from AQA's own specification pages and PDF. Stage test scenarios are original questions written in the style of AQA papers, not real past-paper items.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9 / Foundation+Higher tiers covered), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Cells_and_Microscopy",
+    "S02_Cell_Division_and_Transport",
+    "S03_Enzymes_and_Digestion",
+    "S04_Heart_Blood_and_Disease",
+    "S05_Plant_Organisation_and_Photosynthesis",
+    "S06_Respiration_and_Metabolism",
+    "S07_Communicable_Disease",
+    "S08_Defence_Vaccines_and_Drugs",
+    "S09_Nervous_System_and_Homeostasis",
+    "S10_Hormones_and_Reproduction_Control",
+    "S11_Plant_Hormones",
+    "S12_Reproduction_DNA_and_Inheritance",
+    "S13_Variation_Selection_and_Genetic_Technology",
+    "S14_Evolution_Evidence_and_Classification",
+    "S15_Ecosystems_and_Adaptation",
+    "S16_Decay_Biodiversity_and_Global_Warming",
+    "S17_Trophic_Levels_and_Food_Security",
+    "S18_Working_Scientifically_Thinking_and_Experiments",
+    "S19_Working_Scientifically_Analysis_and_Vocabulary",
+    "S20_Mathematical_Skills_for_Biology"
+  ],
+  "linear": false,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

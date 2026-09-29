@@ -1,0 +1,645 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "University of Oxford PPE: Course Descriptions for all PPE Papers (24 June 2024); PPE Prelims Handbook reading lists (college editions, Wadham and St Edmund Hall); Faculty of Philosophy Course Descriptions for the First Public Examination; Examination Regulations for the Preliminary Examination in PPE, 2025-26. Item ids are a stable scheme this build introduces (POLP.*, PHIP.*, ECOP.* for Prelims; P215.*, P216.*, P214.*, P128.*, P203.*, GT.* for the FHS papers, using Oxford's own paper numbers/names), since Oxford's internal syllabus has no official numbered specification of its own.",
+    "url": "https://www.ppe.ox.ac.uk/sitefiles/course-descriptions-for-all-ppe-papers-at-24-june-2024.pdf",
+    "version": "Course Descriptions dated 24 June 2024 (current as published); Prelims Examination Regulations 2025-26",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "POLP.A1",
+      "title": "Nature and grounds of rights (Locke)",
+      "topic_area": "Prelims Politics: Theory (Section A)"
+    },
+    {
+      "id": "POLP.A2",
+      "title": "Nature and grounds of democracy (Rousseau)",
+      "topic_area": "Prelims Politics: Theory (Section A)"
+    },
+    {
+      "id": "POLP.A3",
+      "title": "Role of civil society (Tocqueville)",
+      "topic_area": "Prelims Politics: Theory (Section A)"
+    },
+    {
+      "id": "POLP.A4",
+      "title": "Power in the democratic state (Marx and Engels)",
+      "topic_area": "Prelims Politics: Theory (Section A)"
+    },
+    {
+      "id": "POLP.A5",
+      "title": "Liberty, state paternalism and free speech (Mill)",
+      "topic_area": "Prelims Politics: Theory (Section A)"
+    },
+    {
+      "id": "POLP.B1",
+      "title": "Constitutional variations: presidentialism, parliamentarism, types of democracy",
+      "topic_area": "Prelims Politics: Practice (Section B)"
+    },
+    {
+      "id": "POLP.B2",
+      "title": "Politics outside advanced industrial democracies: authoritarianism, state strength, social movements, revolutions",
+      "topic_area": "Prelims Politics: Practice (Section B)"
+    },
+    {
+      "id": "POLP.B3",
+      "title": "Institutions of the democratic state: legislatures, executives, counter-majoritarian powers, war and peace",
+      "topic_area": "Prelims Politics: Practice (Section B)"
+    },
+    {
+      "id": "POLP.B4",
+      "title": "Parties, party systems, voters, populism and identity politics",
+      "topic_area": "Prelims Politics: Practice (Section B)"
+    },
+    {
+      "id": "PHIP.L1",
+      "title": "Propositional logic: validity, soundness, truth tables",
+      "topic_area": "Prelims Philosophy: Logic"
+    },
+    {
+      "id": "PHIP.L2",
+      "title": "Predicate logic and inference patterns in ordinary language",
+      "topic_area": "Prelims Philosophy: Logic"
+    },
+    {
+      "id": "PHIP.G1",
+      "title": "Knowledge and scepticism",
+      "topic_area": "Prelims Philosophy: General Philosophy"
+    },
+    {
+      "id": "PHIP.G2",
+      "title": "Induction",
+      "topic_area": "Prelims Philosophy: General Philosophy"
+    },
+    {
+      "id": "PHIP.G3",
+      "title": "Mind and body",
+      "topic_area": "Prelims Philosophy: General Philosophy"
+    },
+    {
+      "id": "PHIP.G4",
+      "title": "Personal identity",
+      "topic_area": "Prelims Philosophy: General Philosophy"
+    },
+    {
+      "id": "PHIP.G5",
+      "title": "Free will",
+      "topic_area": "Prelims Philosophy: General Philosophy"
+    },
+    {
+      "id": "PHIP.G6",
+      "title": "God and evil",
+      "topic_area": "Prelims Philosophy: General Philosophy"
+    },
+    {
+      "id": "PHIP.M1",
+      "title": "Happiness, pleasure and the criterion of right action (Mill's Utilitarianism)",
+      "topic_area": "Prelims Philosophy: Moral Philosophy"
+    },
+    {
+      "id": "PHIP.M2",
+      "title": "Foundation of moral principles and justice, and contemporary utilitarianism",
+      "topic_area": "Prelims Philosophy: Moral Philosophy"
+    },
+    {
+      "id": "ECOP.MI1",
+      "title": "Consumer theory and producer theory",
+      "topic_area": "Prelims Economics: Microeconomics"
+    },
+    {
+      "id": "ECOP.MI2",
+      "title": "Market equilibrium: perfect competition and monopoly",
+      "topic_area": "Prelims Economics: Microeconomics"
+    },
+    {
+      "id": "ECOP.MI3",
+      "title": "Welfare, market failure and externalities",
+      "topic_area": "Prelims Economics: Microeconomics"
+    },
+    {
+      "id": "ECOP.MA1",
+      "title": "National income accounting and determination of income and employment",
+      "topic_area": "Prelims Economics: Macroeconomics"
+    },
+    {
+      "id": "ECOP.MA2",
+      "title": "Monetary institutions, money supply and inflation",
+      "topic_area": "Prelims Economics: Macroeconomics"
+    },
+    {
+      "id": "ECOP.MA3",
+      "title": "Balance of payments, exchange rates and long-run growth",
+      "topic_area": "Prelims Economics: Macroeconomics"
+    },
+    {
+      "id": "ECOP.Q1",
+      "title": "Mathematical economics: functions, differentiation, optimisation",
+      "topic_area": "Prelims Economics: Quantitative Methods"
+    },
+    {
+      "id": "ECOP.Q2",
+      "title": "Elementary probability and statistical/causal inference",
+      "topic_area": "Prelims Economics: Quantitative Methods"
+    },
+    {
+      "id": "P215.1",
+      "title": "Plato, Republic",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.2",
+      "title": "Aristotle, Politics",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.3",
+      "title": "Aquinas, Political Writings",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.4",
+      "title": "Machiavelli, The Prince and Discourses",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.5",
+      "title": "Hobbes, Leviathan Parts I-II",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.6",
+      "title": "Locke, Second Treatise of Civil Government",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.7",
+      "title": "Montesquieu, The Spirit of the Laws",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.8",
+      "title": "Hume, Moral and Political Writings",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.9",
+      "title": "Rousseau, Discourse on Inequality and The Social Contract",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P215.10",
+      "title": "Cross-cutting themes: civic virtue, natural law, utopian thought, personal vs political",
+      "topic_area": "FHS Paper 215: Political Thought, Plato to Rousseau"
+    },
+    {
+      "id": "P216.1",
+      "title": "Bentham, Political Thought",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.2",
+      "title": "J.S. Mill, On Liberty and selected essays",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.3",
+      "title": "Hegel, Philosophy of Right and Philosophy of World History",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.4",
+      "title": "Saint-Simon, Selected Writings",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.5",
+      "title": "Tocqueville, Democracy in America",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.6",
+      "title": "Marx, Selected Writings",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.7",
+      "title": "Weber, From Max Weber",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.8",
+      "title": "Durkheim, Division of Labour and Professional Ethics",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P216.9",
+      "title": "Cross-cutting themes: state/society/family, individual/community, history/social change, science/religion",
+      "topic_area": "FHS Paper 216: Political Thought, Bentham to Weber"
+    },
+    {
+      "id": "P214.1",
+      "title": "Classical (realist) approaches to international relations",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.2",
+      "title": "Liberal institutionalism and democratic peace theory",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.3",
+      "title": "Critical approaches to international relations",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.4",
+      "title": "Postcolonialism and empire",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.5",
+      "title": "International law",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.6",
+      "title": "Power and security",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.7",
+      "title": "Globalisation, global governance and international cooperation",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.8",
+      "title": "Theories of war and peace, and domestic determinants of foreign policy",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.9",
+      "title": "Ethnic, national and cultural sources of conflict",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P214.10",
+      "title": "Post-1990 international affairs (illustrative knowledge requirement)",
+      "topic_area": "FHS Paper 214: International Relations"
+    },
+    {
+      "id": "P128.1",
+      "title": "War and self-defence (just war theory)",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.2",
+      "title": "Treatment of animals",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.3",
+      "title": "Obligations to future generations",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.4",
+      "title": "Punishment",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.5",
+      "title": "Abortion",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.6",
+      "title": "Euthanasia",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.7",
+      "title": "Charitable giving",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.8",
+      "title": "Commodification of bodies and bodily organs",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.9",
+      "title": "Disability, racial and gender equality",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P128.10",
+      "title": "Connecting concepts: doing/allowing harm, double effect, badness of death",
+      "topic_area": "FHS Paper 128: Practical Ethics"
+    },
+    {
+      "id": "P203.1",
+      "title": "Ideal theory and political realism",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.2",
+      "title": "Power and authority",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.3",
+      "title": "Liberty: negative and positive",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.4",
+      "title": "Rights",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.5",
+      "title": "Justice and equality",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.6",
+      "title": "Democracy and representation",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.7",
+      "title": "Political obligation and civil disobedience",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.8",
+      "title": "Neutrality and perfectionism",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "P203.9",
+      "title": "Ideological traditions: libertarianism, multiculturalism, socialism, conservatism",
+      "topic_area": "FHS Paper 203: Theory of Politics"
+    },
+    {
+      "id": "GT.1",
+      "title": "Strategic-form games and dominant strategies",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.2",
+      "title": "Nash equilibrium",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.3",
+      "title": "Extensive-form games and subgame perfect equilibrium",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.4",
+      "title": "Repeated games and cooperation",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.5",
+      "title": "Games with incomplete information (Bayesian games)",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.6",
+      "title": "Bargaining theory",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.7",
+      "title": "Auction theory",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.8",
+      "title": "Evolutionary game theory",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.9",
+      "title": "Global games and learning models",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    },
+    {
+      "id": "GT.10",
+      "title": "Applications in political science and exam technique",
+      "topic_area": "FHS Game Theory (Economics optional paper)"
+    }
+  ],
+  "_declared_exclusions": [],
+  "Prelims_Politics": {
+    "covers_syllabus_refs": [
+      "Section A: Theory of Politics",
+      "Section B: Practice of Politics"
+    ],
+    "syllabus_topic": "PPE Prelims - Introduction to the Theory and Practice of Politics",
+    "covers_items": [
+      "POLP.A1",
+      "POLP.A2",
+      "POLP.A3",
+      "POLP.A4",
+      "POLP.A5",
+      "POLP.B1",
+      "POLP.B2",
+      "POLP.B3",
+      "POLP.B4"
+    ]
+  },
+  "Prelims_Philosophy": {
+    "covers_syllabus_refs": [
+      "Logic",
+      "General Philosophy",
+      "Moral Philosophy"
+    ],
+    "syllabus_topic": "PPE Prelims - Introduction to Philosophy",
+    "covers_items": [
+      "PHIP.L1",
+      "PHIP.L2",
+      "PHIP.G1",
+      "PHIP.G2",
+      "PHIP.G3",
+      "PHIP.G4",
+      "PHIP.G5",
+      "PHIP.G6",
+      "PHIP.M1",
+      "PHIP.M2"
+    ]
+  },
+  "Prelims_Economics": {
+    "covers_syllabus_refs": [
+      "Microeconomics",
+      "Macroeconomics",
+      "Quantitative Methods"
+    ],
+    "syllabus_topic": "PPE Prelims - Introductory Economics",
+    "covers_items": [
+      "ECOP.MI1",
+      "ECOP.MI2",
+      "ECOP.MI3",
+      "ECOP.MA1",
+      "ECOP.MA2",
+      "ECOP.MA3",
+      "ECOP.Q1",
+      "ECOP.Q2"
+    ]
+  },
+  "FHS_Political_Thought_Plato_to_Rousseau": {
+    "covers_syllabus_refs": [
+      "Plato",
+      "Aristotle",
+      "Aquinas",
+      "Machiavelli",
+      "Hobbes",
+      "Locke",
+      "Montesquieu",
+      "Hume",
+      "Rousseau"
+    ],
+    "syllabus_topic": "FHS Paper 215 - Political Thought: Plato to Rousseau",
+    "covers_items": [
+      "P215.1",
+      "P215.2",
+      "P215.3",
+      "P215.4",
+      "P215.5",
+      "P215.6",
+      "P215.7",
+      "P215.8",
+      "P215.9",
+      "P215.10"
+    ]
+  },
+  "FHS_Political_Thought_Bentham_to_Weber": {
+    "covers_syllabus_refs": [
+      "Bentham",
+      "Mill",
+      "Hegel",
+      "Saint-Simon",
+      "Tocqueville",
+      "Marx",
+      "Weber",
+      "Durkheim"
+    ],
+    "syllabus_topic": "FHS Paper 216 - Political Thought: Bentham to Weber",
+    "covers_items": [
+      "P216.1",
+      "P216.2",
+      "P216.3",
+      "P216.4",
+      "P216.5",
+      "P216.6",
+      "P216.7",
+      "P216.8",
+      "P216.9"
+    ]
+  },
+  "FHS_International_Relations": {
+    "covers_syllabus_refs": [
+      "Classical and critical approaches",
+      "international law",
+      "power",
+      "postcolonialism and Empire",
+      "globalisation and global governance",
+      "theories of war and peace",
+      "international organisations and security",
+      "conflict"
+    ],
+    "syllabus_topic": "FHS Paper 214 - International Relations",
+    "covers_items": [
+      "P214.1",
+      "P214.2",
+      "P214.3",
+      "P214.4",
+      "P214.5",
+      "P214.6",
+      "P214.7",
+      "P214.8",
+      "P214.9",
+      "P214.10"
+    ]
+  },
+  "FHS_Practical_Ethics": {
+    "covers_syllabus_refs": [
+      "War",
+      "animals",
+      "future generations",
+      "punishment",
+      "abortion",
+      "euthanasia",
+      "charitable giving",
+      "commodification",
+      "disability and equality"
+    ],
+    "syllabus_topic": "FHS Paper 128 - Practical Ethics",
+    "covers_items": [
+      "P128.1",
+      "P128.2",
+      "P128.3",
+      "P128.4",
+      "P128.5",
+      "P128.6",
+      "P128.7",
+      "P128.8",
+      "P128.9",
+      "P128.10"
+    ]
+  },
+  "FHS_Theory_of_Politics": {
+    "covers_syllabus_refs": [
+      "Ideal theory and realism",
+      "power and authority",
+      "liberty",
+      "rights",
+      "justice",
+      "equality",
+      "democracy",
+      "political obligation",
+      "neutrality and perfectionism",
+      "ideological traditions"
+    ],
+    "syllabus_topic": "FHS Paper 203 - Theory of Politics",
+    "covers_items": [
+      "P203.1",
+      "P203.2",
+      "P203.3",
+      "P203.4",
+      "P203.5",
+      "P203.6",
+      "P203.7",
+      "P203.8",
+      "P203.9"
+    ]
+  },
+  "FHS_Game_Theory": {
+    "covers_syllabus_refs": [
+      "Strategic-form and extensive-form games",
+      "solution concepts",
+      "incomplete information",
+      "applications"
+    ],
+    "syllabus_topic": "FHS Game Theory (Economics optional paper)",
+    "covers_items": [
+      "GT.1",
+      "GT.2",
+      "GT.3",
+      "GT.4",
+      "GT.5",
+      "GT.6",
+      "GT.7",
+      "GT.8",
+      "GT.9",
+      "GT.10"
+    ]
+  }
+}

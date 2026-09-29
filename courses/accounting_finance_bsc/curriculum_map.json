@@ -1,0 +1,541 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+    "url": "https://www.open.ac.uk/courses/qualifications/r52",
+    "version": "R52's Stage 3 module list (B350-B353, 30 credits each, 120 total) is stated directly and currently on open.ac.uk/courses/qualifications/r52 (fetched 2026-09-27). Stage 1 and Stage 2 are described there only narratively ('an introduction to business and management, the fundamentals of accounting, data analytics and decision making' for Stage 1; 'financial and management accounting, financial management and business law' for Stage 2), without module codes -- OU's marketing qualification pages do not itemise every stage's codes the way they do for the final stage. Each Stage 1/2 module code used here was independently confirmed live, not merely taken from an older prospectus PDF: B100 'An introduction to business and management' and B124 'Fundamentals of accounting' and B126 'Business data analytics and decision making' each show a live, scheduled future presentation (open.ac.uk/courses/modules/b100, /b124, /b126, all fetched 2026-09-27); B250 'Intermediate financial accounting' and B251 'Business law' were confirmed as the live, current prerequisites explicitly named on the B350 and B353 module pages (css2.open.ac.uk/outis/Descs/Courses/B350.htm and B353.htm, fetched 2026-09-27); B252 'Financial management' and B253 'Intermediate management accounting' were each fetched directly (css2.open.ac.uk/outis/Descs/Courses/B252.htm, B253.htm) with a live scheduled start date and a unit-by-unit syllabus outline. Two older codes that a first search pass surfaced -- B291 'Financial accounting' and B292 'Management accounting' -- were checked and ruled OUT: B291's own module page states it 'is expected to start for the last time in April 2018' (withdrawn), and B292 has no live module page at all (404, present only in the OU's digital archive of withdrawn modules) -- an old B190 stage-1 bookkeeping module was similarly ruled out as withdrawn (last started August 2017). This mirrors the withdrawn-code errors this library has caught before (LLB's F64, a Mathematics BSc guess) and is recorded here so a future audit does not need to re-derive it. B124 itself is worth flagging for a future recheck: its own module page states October 2026 as its last scheduled start -- current and valid for this build (built before that date), but due likely replacement/renumbering after 2026, so this course's grounding should be rechecked against a live open.ac.uk fetch within the next year or two.",
+    "itemised_on": "2026-09-27",
+    "numbering": "This course numbers its own syllabus items per real OU module: BQ1-BQ5 for a bridging quantitative-methods stage (built on B126's own content, since B126 is examined as part of Stage 1 rather than separately reachable as a standalone bridging module); B250-1..B250-10 for Intermediate Financial Accounting; B251-1..B251-4 for Business Law; B252-1..B252-7 for Financial Management; B253-1..B253-7 for Intermediate Management Accounting; B350-1..B350-8 for Advanced Financial Accounting; B351-1..B351-5 for Governance, Audit and Assurance; B352-1..B352-7 for Advanced Financial Management and Management Accounting; TAX-1..TAX-4 for Taxation; and CAP-1..CAP-4 for this course's own integrative capstone. The OU's own internal unit-by-unit numbering within each module sits behind the enrolled-student VLE and was not accessible, so this course keeps its own stable id scheme rather than reproducing gated numbering, exactly as the LLB, Mathematics BSc, Economics BSc and History BA courses in this library already do."
+  },
+  "_syllabus_items": [
+    {
+      "id": "BQ1",
+      "title": "Descriptive statistics and data types for business data",
+      "topic_area": "Quantitative bridge (business statistics/data-analytics tools for degree-level accounting and finance, matching Business Data Analytics and Decision Making, B126)"
+    },
+    {
+      "id": "BQ2",
+      "title": "Probability and sampling distributions for audit/business forecasting",
+      "topic_area": "Quantitative bridge (business statistics/data-analytics tools for degree-level accounting and finance, matching Business Data Analytics and Decision Making, B126)"
+    },
+    {
+      "id": "BQ3",
+      "title": "Confidence intervals and hypothesis testing for business decisions",
+      "topic_area": "Quantitative bridge (business statistics/data-analytics tools for degree-level accounting and finance, matching Business Data Analytics and Decision Making, B126)"
+    },
+    {
+      "id": "BQ4",
+      "title": "Correlation and simple linear regression for forecasting",
+      "topic_area": "Quantitative bridge (business statistics/data-analytics tools for degree-level accounting and finance, matching Business Data Analytics and Decision Making, B126)"
+    },
+    {
+      "id": "BQ5",
+      "title": "Index numbers and time-series forecasting",
+      "topic_area": "Quantitative bridge (business statistics/data-analytics tools for degree-level accounting and finance, matching Business Data Analytics and Decision Making, B126)"
+    },
+    {
+      "id": "B250-1",
+      "title": "The Conceptual Framework and IAS 1 presentation of financial statements",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-2",
+      "title": "IAS 2 Inventories: cost formulas (FIFO/AVCO) and net realisable value",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-3",
+      "title": "IAS 16 Property, Plant and Equipment: measurement, depreciation, revaluation",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-4",
+      "title": "IAS 38 Intangible assets and IAS 36 Impairment of assets",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-5",
+      "title": "IAS 37 Provisions, contingent liabilities and contingent assets",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-6",
+      "title": "IFRS 15 Revenue from Contracts with Customers (five-step model)",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-7",
+      "title": "IFRS 16 Leases (lessee accounting)",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-8",
+      "title": "IAS 7 Statement of cash flows",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-9",
+      "title": "Ratio analysis: profitability, liquidity and gearing",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B250-10",
+      "title": "Limitations of ratio analysis and published-accounts interpretation",
+      "topic_area": "B250 Intermediate financial accounting"
+    },
+    {
+      "id": "B251-1",
+      "title": "Contract law essentials for business",
+      "topic_area": "B251 Business law"
+    },
+    {
+      "id": "B251-2",
+      "title": "Company law: incorporation and share capital",
+      "topic_area": "B251 Business law"
+    },
+    {
+      "id": "B251-3",
+      "title": "Directors' duties (Companies Act 2006, ss.171-177)",
+      "topic_area": "B251 Business law"
+    },
+    {
+      "id": "B251-4",
+      "title": "UK insolvency law: administration, liquidation, CVAs, wrongful/fraudulent trading",
+      "topic_area": "B251 Business law"
+    },
+    {
+      "id": "B252-1",
+      "title": "Sources of finance and gearing",
+      "topic_area": "B252 Financial management"
+    },
+    {
+      "id": "B252-2",
+      "title": "Cost of equity (CAPM, dividend growth model) and cost of debt",
+      "topic_area": "B252 Financial management"
+    },
+    {
+      "id": "B252-3",
+      "title": "WACC",
+      "topic_area": "B252 Financial management"
+    },
+    {
+      "id": "B252-4",
+      "title": "Working capital management and the cash operating cycle",
+      "topic_area": "B252 Financial management"
+    },
+    {
+      "id": "B252-5",
+      "title": "Investment appraisal: payback, ARR, NPV, IRR",
+      "topic_area": "B252 Financial management"
+    },
+    {
+      "id": "B252-6",
+      "title": "Business valuation methods",
+      "topic_area": "B252 Financial management"
+    },
+    {
+      "id": "B252-7",
+      "title": "FX and interest rate risk management",
+      "topic_area": "B252 Financial management"
+    },
+    {
+      "id": "B253-1",
+      "title": "Absorption vs marginal costing",
+      "topic_area": "B253 Intermediate management accounting"
+    },
+    {
+      "id": "B253-2",
+      "title": "Activity-based costing (ABC)",
+      "topic_area": "B253 Intermediate management accounting"
+    },
+    {
+      "id": "B253-3",
+      "title": "Job/batch/process costing; target costing and lifecycle costing",
+      "topic_area": "B253 Intermediate management accounting"
+    },
+    {
+      "id": "B253-4",
+      "title": "Budgeting and behavioural aspects of budgetary control",
+      "topic_area": "B253 Intermediate management accounting"
+    },
+    {
+      "id": "B253-5",
+      "title": "Standard costing: material and labour variances",
+      "topic_area": "B253 Intermediate management accounting"
+    },
+    {
+      "id": "B253-6",
+      "title": "Overhead and sales variances",
+      "topic_area": "B253 Intermediate management accounting"
+    },
+    {
+      "id": "B253-7",
+      "title": "Balanced scorecard, benchmarking and ESG/sustainability reporting",
+      "topic_area": "B253 Intermediate management accounting"
+    },
+    {
+      "id": "B350-1",
+      "title": "Consolidated SFP: goodwill and NCI at acquisition (proportionate method)",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B350-2",
+      "title": "Post-acquisition retained earnings and NCI in the consolidated SFP",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B350-3",
+      "title": "Intra-group trading and unrealised profit (downstream and upstream)",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B350-4",
+      "title": "Consolidated statement of profit or loss",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B350-5",
+      "title": "Associates: the equity method (IAS 28)",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B350-6",
+      "title": "Foreign currency translation (IAS 21)",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B350-7",
+      "title": "Financial instruments (IFRS 9): classification and amortised cost",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B350-8",
+      "title": "Earnings per share, basic and diluted (IAS 33)",
+      "topic_area": "B350 Advanced financial accounting"
+    },
+    {
+      "id": "B351-1",
+      "title": "UK Corporate Governance Code",
+      "topic_area": "B351 Governance, audit and assurance"
+    },
+    {
+      "id": "B351-2",
+      "title": "Audit planning: risk and materiality",
+      "topic_area": "B351 Governance, audit and assurance"
+    },
+    {
+      "id": "B351-3",
+      "title": "Tests of control, substantive procedures and audit sampling",
+      "topic_area": "B351 Governance, audit and assurance"
+    },
+    {
+      "id": "B351-4",
+      "title": "Internal control systems and their limitations",
+      "topic_area": "B351 Governance, audit and assurance"
+    },
+    {
+      "id": "B351-5",
+      "title": "Audit report opinions and auditor independence/ethics",
+      "topic_area": "B351 Governance, audit and assurance"
+    },
+    {
+      "id": "B352-1",
+      "title": "Sensitivity analysis and risk-adjusted discount rates",
+      "topic_area": "B352 Advanced financial management and management accounting"
+    },
+    {
+      "id": "B352-2",
+      "title": "Modigliani-Miller capital structure propositions",
+      "topic_area": "B352 Advanced financial management and management accounting"
+    },
+    {
+      "id": "B352-3",
+      "title": "Dividend policy theory",
+      "topic_area": "B352 Advanced financial management and management accounting"
+    },
+    {
+      "id": "B352-4",
+      "title": "Mergers and acquisitions: synergy and valuation",
+      "topic_area": "B352 Advanced financial management and management accounting"
+    },
+    {
+      "id": "B352-5",
+      "title": "Transfer pricing between divisions",
+      "topic_area": "B352 Advanced financial management and management accounting"
+    },
+    {
+      "id": "B352-6",
+      "title": "Divisional performance: ROI vs residual income",
+      "topic_area": "B352 Advanced financial management and management accounting"
+    },
+    {
+      "id": "B352-7",
+      "title": "Strategic management accounting and the value chain",
+      "topic_area": "B352 Advanced financial management and management accounting"
+    },
+    {
+      "id": "TAX-1",
+      "title": "UK income tax",
+      "topic_area": "TAX Taxation (B353)"
+    },
+    {
+      "id": "TAX-2",
+      "title": "UK corporation tax and marginal relief",
+      "topic_area": "TAX Taxation (B353)"
+    },
+    {
+      "id": "TAX-3",
+      "title": "UK capital gains tax",
+      "topic_area": "TAX Taxation (B353)"
+    },
+    {
+      "id": "TAX-4",
+      "title": "VAT",
+      "topic_area": "TAX Taxation (B353)"
+    },
+    {
+      "id": "CAP-1",
+      "title": "Integrating financial reporting, audit and governance",
+      "topic_area": "This course's own integrative capstone"
+    },
+    {
+      "id": "CAP-2",
+      "title": "Integrating financial management and management accounting",
+      "topic_area": "This course's own integrative capstone"
+    },
+    {
+      "id": "CAP-3",
+      "title": "Tax implications in a business scenario",
+      "topic_area": "This course's own integrative capstone"
+    },
+    {
+      "id": "CAP-4",
+      "title": "Writing an integrated professional-style report",
+      "topic_area": "This course's own integrative capstone"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Quantitative_Bridge_for_Accounting_Finance": {
+    "covers_syllabus_refs": [
+      "R52 BQ1",
+      "R52 BQ2",
+      "R52 BQ3",
+      "R52 BQ4",
+      "R52 BQ5"
+    ],
+    "syllabus_topic": "Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge)",
+    "covers_items": [
+      "BQ1",
+      "BQ2",
+      "BQ3",
+      "BQ4",
+      "BQ5"
+    ]
+  },
+  "S02_Financial_Reporting_Standards_I": {
+    "covers_syllabus_refs": [
+      "R52 B250-1",
+      "R52 B250-2",
+      "R52 B250-3",
+      "R52 B250-4"
+    ],
+    "syllabus_topic": "Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge)",
+    "covers_items": [
+      "B250-1",
+      "B250-2",
+      "B250-3",
+      "B250-4"
+    ]
+  },
+  "S03_Financial_Reporting_Standards_II_and_Analysis": {
+    "covers_syllabus_refs": [
+      "R52 B250-5",
+      "R52 B250-6",
+      "R52 B250-7",
+      "R52 B250-8",
+      "R52 B250-9",
+      "R52 B250-10"
+    ],
+    "syllabus_topic": "Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge)",
+    "covers_items": [
+      "B250-5",
+      "B250-6",
+      "B250-7",
+      "B250-8",
+      "B250-9",
+      "B250-10"
+    ]
+  },
+  "S04_Law_for_Accounting_and_Finance": {
+    "covers_syllabus_refs": [
+      "R52 B251-1",
+      "R52 B251-2",
+      "R52 B251-3",
+      "R52 B251-4"
+    ],
+    "syllabus_topic": "Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge)",
+    "covers_items": [
+      "B251-1",
+      "B251-2",
+      "B251-3",
+      "B251-4"
+    ]
+  },
+  "S05_Financial_Management": {
+    "covers_syllabus_refs": [
+      "R52 B252-1",
+      "R52 B252-2",
+      "R52 B252-3",
+      "R52 B252-4",
+      "R52 B252-5",
+      "R52 B252-6",
+      "R52 B252-7"
+    ],
+    "syllabus_topic": "Financial management and intermediate management accounting (Stage 2: B252, B253)",
+    "covers_items": [
+      "B252-1",
+      "B252-2",
+      "B252-3",
+      "B252-4",
+      "B252-5",
+      "B252-6",
+      "B252-7"
+    ]
+  },
+  "S06_Management_Accounting_I_Costing_and_Budgeting": {
+    "covers_syllabus_refs": [
+      "R52 B253-1",
+      "R52 B253-2",
+      "R52 B253-3",
+      "R52 B253-4"
+    ],
+    "syllabus_topic": "Financial management and intermediate management accounting (Stage 2: B252, B253)",
+    "covers_items": [
+      "B253-1",
+      "B253-2",
+      "B253-3",
+      "B253-4"
+    ]
+  },
+  "S07_Management_Accounting_II_Standard_Costing_and_Performance": {
+    "covers_syllabus_refs": [
+      "R52 B253-5",
+      "R52 B253-6",
+      "R52 B253-7"
+    ],
+    "syllabus_topic": "Financial management and intermediate management accounting (Stage 2: B252, B253)",
+    "covers_items": [
+      "B253-5",
+      "B253-6",
+      "B253-7"
+    ]
+  },
+  "S08_Advanced_Financial_Accounting_I_Group_Accounts": {
+    "covers_syllabus_refs": [
+      "R52 B350-1",
+      "R52 B350-2",
+      "R52 B350-3",
+      "R52 B350-4"
+    ],
+    "syllabus_topic": "Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353)",
+    "covers_items": [
+      "B350-1",
+      "B350-2",
+      "B350-3",
+      "B350-4"
+    ]
+  },
+  "S09_Advanced_Financial_Accounting_II": {
+    "covers_syllabus_refs": [
+      "R52 B350-5",
+      "R52 B350-6",
+      "R52 B350-7",
+      "R52 B350-8"
+    ],
+    "syllabus_topic": "Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353)",
+    "covers_items": [
+      "B350-5",
+      "B350-6",
+      "B350-7",
+      "B350-8"
+    ]
+  },
+  "S10_Governance_Audit_and_Assurance": {
+    "covers_syllabus_refs": [
+      "R52 B351-1",
+      "R52 B351-2",
+      "R52 B351-3",
+      "R52 B351-4",
+      "R52 B351-5"
+    ],
+    "syllabus_topic": "Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353)",
+    "covers_items": [
+      "B351-1",
+      "B351-2",
+      "B351-3",
+      "B351-4",
+      "B351-5"
+    ]
+  },
+  "S11_Advanced_Financial_Management": {
+    "covers_syllabus_refs": [
+      "R52 B352-1",
+      "R52 B352-2",
+      "R52 B352-3",
+      "R52 B352-4"
+    ],
+    "syllabus_topic": "Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353)",
+    "covers_items": [
+      "B352-1",
+      "B352-2",
+      "B352-3",
+      "B352-4"
+    ]
+  },
+  "S12_Advanced_Management_Accounting": {
+    "covers_syllabus_refs": [
+      "R52 B352-5",
+      "R52 B352-6",
+      "R52 B352-7"
+    ],
+    "syllabus_topic": "Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353)",
+    "covers_items": [
+      "B352-5",
+      "B352-6",
+      "B352-7"
+    ]
+  },
+  "S13_Taxation": {
+    "covers_syllabus_refs": [
+      "R52 TAX-1",
+      "R52 TAX-2",
+      "R52 TAX-3",
+      "R52 TAX-4"
+    ],
+    "syllabus_topic": "Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353)",
+    "covers_items": [
+      "TAX-1",
+      "TAX-2",
+      "TAX-3",
+      "TAX-4"
+    ]
+  },
+  "S14_Integrative_Capstone": {
+    "covers_syllabus_refs": [
+      "R52 CAP-1",
+      "R52 CAP-2",
+      "R52 CAP-3",
+      "R52 CAP-4"
+    ],
+    "syllabus_topic": "Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353)",
+    "covers_items": [
+      "CAP-1",
+      "CAP-2",
+      "CAP-3",
+      "CAP-4"
+    ]
+  }
+}

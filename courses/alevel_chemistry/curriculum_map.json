@@ -1,0 +1,1238 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+    "url": "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf",
+    "version": "Version 1.2 (July 2026), linked from aqa.org.uk/7405 and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA's own codes: content at the deepest numbered level (3.1.1.1-3.3.16), mathematical skills MS 0.0-MS 4.3, practical skills PS1.1-PS4.1, apparatus and techniques ATa-ATl, and the twelve required practicals numbered RP1-RP12 in AQA's order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "3.1.1.1",
+      "title": "Fundamental particles",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.1.2",
+      "title": "Mass number and isotopes",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.1.3",
+      "title": "Electron configuration",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.2.1",
+      "title": "Relative atomic mass and relative molecular mass",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.2.2",
+      "title": "The mole and the Avogadro constant",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.2.3",
+      "title": "The ideal gas equation",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.2.4",
+      "title": "Empirical and molecular formula",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.2.5",
+      "title": "Balanced equations and associated calculations",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.3.1",
+      "title": "Ionic bonding",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.3.2",
+      "title": "Nature of covalent and dative covalent bonds",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.3.3",
+      "title": "Metallic bonding",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.3.4",
+      "title": "Bonding and physical properties",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.3.5",
+      "title": "Shapes of simple molecules and ions",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.3.6",
+      "title": "Bond polarity",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.3.7",
+      "title": "Forces between molecules",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.4.1",
+      "title": "Enthalpy change",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.4.2",
+      "title": "Calorimetry",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.4.3",
+      "title": "Applications of Hess\u2019s law",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.4.4",
+      "title": "Bond enthalpies",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.5.1",
+      "title": "Collision theory",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.5.2",
+      "title": "Maxwell\u2013Boltzmann distribution",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.5.3",
+      "title": "Effect of temperature on reaction rate",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.5.4",
+      "title": "Effect of concentration and pressure",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.5.5",
+      "title": "Catalysts",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.6.1",
+      "title": "Chemical equilibria and Le Chatelier's principle",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.6.2",
+      "title": "Equilibrium constant Kc for homogeneous systems",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.7",
+      "title": "Oxidation, reduction and redox equations",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.8.1",
+      "title": "Born\u2013Haber cycles (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.8.2",
+      "title": "Gibbs free-energy change, \u2206G, and entropy change, \u2206S (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.9.1",
+      "title": "Rate equations (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.9.2",
+      "title": "Determination of rate equation (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.10",
+      "title": "Equilibrium constant Kp for homogeneous systems (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.11.1",
+      "title": "Electrode potentials and cells (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.11.2",
+      "title": "Commercial applications of electrochemical cells (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.12.1",
+      "title": "Br\u00f8nsted\u2013Lowry acid\u2013base equilibria in aqueous solution (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.12.2",
+      "title": "Definition and determination of pH (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.12.3",
+      "title": "The ionic product of water, Kw (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.12.4",
+      "title": "Weak acids and bases Ka for weak acids (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.12.5",
+      "title": "pH curves, titrations and indicators (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.1.12.6",
+      "title": "Buffer action (A-level only)",
+      "topic_area": "3.1 Physical chemistry"
+    },
+    {
+      "id": "3.2.1.1",
+      "title": "Classification",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.1.2",
+      "title": "Physical properties of Period 3 elements",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.2",
+      "title": "Group 2, the alkaline earth metals",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.3.1",
+      "title": "Trends in properties",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.3.2",
+      "title": "Uses of chlorine and chlorate(I)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.4",
+      "title": "Properties of Period 3 elements and their oxides (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.5.1",
+      "title": "General properties of transition metals (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.5.2",
+      "title": "Substitution reactions (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.5.3",
+      "title": "Shapes of complex ions (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.5.4",
+      "title": "Formation of coloured ions (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.5.5",
+      "title": "Variable oxidation states (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.5.6",
+      "title": "Catalysts (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.2.6",
+      "title": "Reactions of ions in aqueous solution (A-level only)",
+      "topic_area": "3.2 Inorganic chemistry"
+    },
+    {
+      "id": "3.3.1.1",
+      "title": "Nomenclature",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.1.2",
+      "title": "Reaction mechanisms",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.1.3",
+      "title": "Isomerism",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.2.1",
+      "title": "Fractional distillation of crude oil",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.2.2",
+      "title": "Modification of alkanes by cracking",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.2.3",
+      "title": "Combustion of alkanes",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.2.4",
+      "title": "Chlorination of alkanes",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.3.1",
+      "title": "Nucleophilic substitution",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.3.2",
+      "title": "Elimination",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.3.3",
+      "title": "Ozone depletion",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.4.1",
+      "title": "Structure, bonding and reactivity",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.4.2",
+      "title": "Addition reactions of alkenes",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.4.3",
+      "title": "Addition polymers",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.5.1",
+      "title": "Alcohol production",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.5.2",
+      "title": "Oxidation of alcohols",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.5.3",
+      "title": "Elimination",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.6.1",
+      "title": "Identification of functional groups by test-tube reactions",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.6.2",
+      "title": "Mass spectrometry",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.6.3",
+      "title": "Infrared spectroscopy",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.7",
+      "title": "Optical isomerism (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.8",
+      "title": "Aldehydes and ketones (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.9.1",
+      "title": "Carboxylic acids and esters (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.9.2",
+      "title": "Acylation (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.10.1",
+      "title": "Bonding (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.10.2",
+      "title": "Electrophilic substitution (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.11.1",
+      "title": "Preparation (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.11.2",
+      "title": "Base properties (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.11.3",
+      "title": "Nucleophilic properties (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.12.1",
+      "title": "Condensation polymers (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.12.2",
+      "title": "Biodegradability and disposal of polymers (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.13.1",
+      "title": "Amino acids (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.13.2",
+      "title": "Proteins (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.13.3",
+      "title": "Enzymes (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.13.4",
+      "title": "DNA (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.13.5",
+      "title": "Action of anticancer drugs (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.14",
+      "title": "Organic synthesis (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.15",
+      "title": "Nuclear magnetic resonance spectroscopy (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "3.3.16",
+      "title": "Chromatography (A-level only)",
+      "topic_area": "3.3 Organic chemistry"
+    },
+    {
+      "id": "MS 0.0",
+      "title": "Recognise and make use of appropriate units in calculation",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.1",
+      "title": "Recognise and use expressions in decimal and ordinary form",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.2",
+      "title": "Use ratios, fractions and percentages",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.3",
+      "title": "Estimate results",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.4",
+      "title": "Use calculators to find and use power, exponential and logarithmic functions",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.1",
+      "title": "Use an appropriate number of significant figures",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.2",
+      "title": "Find arithmetic means",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.3",
+      "title": "Identify uncertainties in measurements and use simple techniques to determine uncertainty when data are combined",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.1",
+      "title": "Understand and use the symbols =, <, <<, >>, >, \u221d, ~ and the equilibrium sign",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.2",
+      "title": "Change the subject of an equation",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.3",
+      "title": "Substitute numerical values into algebraic equations using appropriate units for physical quantities",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.4",
+      "title": "Solve algebraic equations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.5",
+      "title": "Use logarithms in relation to quantities that range over several orders of magnitude",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.1",
+      "title": "Translate information between graphical, numerical and algebraic forms",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.2",
+      "title": "Plot two variables from experimental or other data",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.3",
+      "title": "Determine the slope and intercept of a linear graph",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.4",
+      "title": "Calculate rate of change from a graph showing a linear relationship",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.5",
+      "title": "Draw and use the slope of a tangent to a curve as a measure of rate of change",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.1",
+      "title": "Use angles and shapes in regular 2D and 3D structures",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.2",
+      "title": "Visualise and represent 2D and 3D forms, including two-dimensional representations of 3D objects",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.3",
+      "title": "Understand the symmetry of 2D and 3D shapes",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "PS1.1",
+      "title": "Solve problems set in practical contexts",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS1.2",
+      "title": "Apply scientific knowledge to practical contexts",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.1",
+      "title": "Comment on experimental design and evaluate scientific methods",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.2",
+      "title": "Present data in appropriate ways",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.3",
+      "title": "Evaluate results and draw conclusions with reference to measurement uncertainties and errors",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.4",
+      "title": "Identify variables including those that must be controlled",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.1",
+      "title": "Plot and interpret graphs",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.2",
+      "title": "Process and analyse data using appropriate mathematical skills",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.3",
+      "title": "Consider margins of error, accuracy and precision of data",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS4.1",
+      "title": "Know and understand how to use a wide range of experimental and practical instruments, equipment and techniques",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "ATa",
+      "title": "Use appropriate apparatus to record a range of measurements (mass, time, volume of liquids and gases, temperature)",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATb",
+      "title": "Use water bath or electric heater or sand bath for heating",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATc",
+      "title": "Measure pH using pH charts, or pH meter, or pH probe on a data logger",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATd",
+      "title": "Use laboratory apparatus for titration, distillation and heating under reflux, qualitative tests, and filtration",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATe",
+      "title": "Use volumetric flask, including accurate technique for making up a standard solution",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATf",
+      "title": "Use acid-base indicators in titrations of weak/strong acids with weak/strong alkalis",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATg",
+      "title": "Purify a solid product by recrystallisation and a liquid product, including use of separating funnel",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATh",
+      "title": "Use melting point apparatus",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATi",
+      "title": "Use thin-layer or paper chromatography",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATj",
+      "title": "Set up electrochemical cells and measure voltages",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATk",
+      "title": "Safely and carefully handle solids and liquids, including corrosive, irritant, flammable and toxic substances",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATl",
+      "title": "Measure rates of reaction by at least two different methods",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "RP1",
+      "title": "Required practical 1: make up a volumetric solution and carry out a simple acid-base titration",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP2",
+      "title": "Required practical 2: measurement of an enthalpy change",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP3",
+      "title": "Required practical 3: investigation of how the rate of a reaction changes with temperature",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP4",
+      "title": "Required practical 4: test-tube reactions to identify Group 2 cations and NH4+, and halide, OH-, CO3 2- and SO4 2- anions",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP5",
+      "title": "Required practical 5: distillation of a product from a reaction",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP6",
+      "title": "Required practical 6: tests for alcohol, aldehyde, alkene and carboxylic acid",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP7",
+      "title": "Required practical 7: measuring the rate of reaction by an initial rate method and by a continuous monitoring method",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP8",
+      "title": "Required practical 8: measuring the EMF of an electrochemical cell",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP9",
+      "title": "Required practical 9: pH changes when a weak acid reacts with a strong base and a strong acid with a weak base",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP10",
+      "title": "Required practical 10: preparation of a pure organic solid (with a purity test) and a pure organic liquid",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP11",
+      "title": "Required practical 11: test-tube reactions to identify transition metal ions in aqueous solution",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP12",
+      "title": "Required practical 12: separation of species by thin-layer chromatography",
+      "topic_area": "8.2 Required practical activities"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "ATa",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATb",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATc",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATd",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATe",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATf",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATg",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATh",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATi",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATj",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATk",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATl",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    }
+  ],
+  "S01_Atomic_Structure": {
+    "covers_syllabus_refs": [
+      "7405 3.1.1.1",
+      "7405 3.1.1.2",
+      "7405 3.1.1.3"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (first-year content)",
+    "covers_items": [
+      "3.1.1.1",
+      "3.1.1.2",
+      "3.1.1.3"
+    ]
+  },
+  "S02_Amount_of_Substance": {
+    "covers_syllabus_refs": [
+      "7405 3.1.2.1",
+      "7405 3.1.2.2",
+      "7405 3.1.2.3",
+      "7405 3.1.2.4",
+      "7405 3.1.2.5",
+      "7405 RP1",
+      "7405 MS 0.0",
+      "7405 MS 0.1",
+      "7405 MS 0.2",
+      "7405 MS 1.1",
+      "7405 MS 2.2",
+      "7405 MS 2.3"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (first-year content)",
+    "covers_items": [
+      "3.1.2.1",
+      "3.1.2.2",
+      "3.1.2.3",
+      "3.1.2.4",
+      "3.1.2.5",
+      "RP1",
+      "MS 0.0",
+      "MS 0.1",
+      "MS 0.2",
+      "MS 1.1",
+      "MS 2.2",
+      "MS 2.3"
+    ]
+  },
+  "S03_Bonding": {
+    "covers_syllabus_refs": [
+      "7405 3.1.3.1",
+      "7405 3.1.3.2",
+      "7405 3.1.3.3",
+      "7405 3.1.3.4",
+      "7405 3.1.3.5",
+      "7405 3.1.3.6",
+      "7405 3.1.3.7",
+      "7405 MS 4.1",
+      "7405 MS 4.2"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (first-year content)",
+    "covers_items": [
+      "3.1.3.1",
+      "3.1.3.2",
+      "3.1.3.3",
+      "3.1.3.4",
+      "3.1.3.5",
+      "3.1.3.6",
+      "3.1.3.7",
+      "MS 4.1",
+      "MS 4.2"
+    ]
+  },
+  "S04_Energetics": {
+    "covers_syllabus_refs": [
+      "7405 3.1.4.1",
+      "7405 3.1.4.2",
+      "7405 3.1.4.3",
+      "7405 3.1.4.4",
+      "7405 RP2",
+      "7405 MS 0.3",
+      "7405 MS 1.2",
+      "7405 MS 1.3"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (first-year content)",
+    "covers_items": [
+      "3.1.4.1",
+      "3.1.4.2",
+      "3.1.4.3",
+      "3.1.4.4",
+      "RP2",
+      "MS 0.3",
+      "MS 1.2",
+      "MS 1.3"
+    ]
+  },
+  "S05_Kinetics": {
+    "covers_syllabus_refs": [
+      "7405 3.1.5.1",
+      "7405 3.1.5.2",
+      "7405 3.1.5.3",
+      "7405 3.1.5.4",
+      "7405 3.1.5.5",
+      "7405 RP3",
+      "7405 MS 3.5"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (first-year content)",
+    "covers_items": [
+      "3.1.5.1",
+      "3.1.5.2",
+      "3.1.5.3",
+      "3.1.5.4",
+      "3.1.5.5",
+      "RP3",
+      "MS 3.5"
+    ]
+  },
+  "S06_Equilibria_and_Kc": {
+    "covers_syllabus_refs": [
+      "7405 3.1.6.1",
+      "7405 3.1.6.2",
+      "7405 MS 2.1",
+      "7405 MS 2.4"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (first-year content)",
+    "covers_items": [
+      "3.1.6.1",
+      "3.1.6.2",
+      "MS 2.1",
+      "MS 2.4"
+    ]
+  },
+  "S07_Redox": {
+    "covers_syllabus_refs": [
+      "7405 3.1.7"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (first-year content)",
+    "covers_items": [
+      "3.1.7"
+    ]
+  },
+  "S08_Periodicity_Group2_Group7": {
+    "covers_syllabus_refs": [
+      "7405 3.2.1.1",
+      "7405 3.2.1.2",
+      "7405 3.2.2",
+      "7405 3.2.3.1",
+      "7405 3.2.3.2",
+      "7405 RP4"
+    ],
+    "syllabus_topic": "3.2 Inorganic chemistry (first-year content)",
+    "covers_items": [
+      "3.2.1.1",
+      "3.2.1.2",
+      "3.2.2",
+      "3.2.3.1",
+      "3.2.3.2",
+      "RP4"
+    ]
+  },
+  "S09_Organic_Basics_and_Alkanes": {
+    "covers_syllabus_refs": [
+      "7405 3.3.1.1",
+      "7405 3.3.1.2",
+      "7405 3.3.1.3",
+      "7405 3.3.2.1",
+      "7405 3.3.2.2",
+      "7405 3.3.2.3",
+      "7405 3.3.2.4"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (first-year content)",
+    "covers_items": [
+      "3.3.1.1",
+      "3.3.1.2",
+      "3.3.1.3",
+      "3.3.2.1",
+      "3.3.2.2",
+      "3.3.2.3",
+      "3.3.2.4"
+    ]
+  },
+  "S10_Halogenoalkanes_and_Alkenes": {
+    "covers_syllabus_refs": [
+      "7405 3.3.3.1",
+      "7405 3.3.3.2",
+      "7405 3.3.3.3",
+      "7405 3.3.4.1",
+      "7405 3.3.4.2",
+      "7405 3.3.4.3"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (first-year content)",
+    "covers_items": [
+      "3.3.3.1",
+      "3.3.3.2",
+      "3.3.3.3",
+      "3.3.4.1",
+      "3.3.4.2",
+      "3.3.4.3"
+    ]
+  },
+  "S11_Alcohols": {
+    "covers_syllabus_refs": [
+      "7405 3.3.5.1",
+      "7405 3.3.5.2",
+      "7405 3.3.5.3",
+      "7405 RP5",
+      "7405 RP6"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (first-year content)",
+    "covers_items": [
+      "3.3.5.1",
+      "3.3.5.2",
+      "3.3.5.3",
+      "RP5",
+      "RP6"
+    ]
+  },
+  "S12_Organic_Analysis": {
+    "covers_syllabus_refs": [
+      "7405 3.3.6.1",
+      "7405 3.3.6.2",
+      "7405 3.3.6.3"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (first-year content)",
+    "covers_items": [
+      "3.3.6.1",
+      "3.3.6.2",
+      "3.3.6.3"
+    ]
+  },
+  "S13_Thermodynamics": {
+    "covers_syllabus_refs": [
+      "7405 3.1.8.1",
+      "7405 3.1.8.2"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (A-level only)",
+    "covers_items": [
+      "3.1.8.1",
+      "3.1.8.2"
+    ]
+  },
+  "S14_Rate_Equations": {
+    "covers_syllabus_refs": [
+      "7405 3.1.9.1",
+      "7405 3.1.9.2",
+      "7405 RP7",
+      "7405 MS 0.4",
+      "7405 MS 3.3",
+      "7405 MS 3.4"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (A-level only)",
+    "covers_items": [
+      "3.1.9.1",
+      "3.1.9.2",
+      "RP7",
+      "MS 0.4",
+      "MS 3.3",
+      "MS 3.4"
+    ]
+  },
+  "S15_Kp": {
+    "covers_syllabus_refs": [
+      "7405 3.1.10"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (A-level only)",
+    "covers_items": [
+      "3.1.10"
+    ]
+  },
+  "S16_Electrode_Potentials": {
+    "covers_syllabus_refs": [
+      "7405 3.1.11.1",
+      "7405 3.1.11.2",
+      "7405 RP8"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (A-level only)",
+    "covers_items": [
+      "3.1.11.1",
+      "3.1.11.2",
+      "RP8"
+    ]
+  },
+  "S17_Acids_and_Bases": {
+    "covers_syllabus_refs": [
+      "7405 3.1.12.1",
+      "7405 3.1.12.2",
+      "7405 3.1.12.3",
+      "7405 3.1.12.4",
+      "7405 3.1.12.5",
+      "7405 3.1.12.6",
+      "7405 RP9",
+      "7405 MS 2.5"
+    ],
+    "syllabus_topic": "3.1 Physical chemistry (A-level only)",
+    "covers_items": [
+      "3.1.12.1",
+      "3.1.12.2",
+      "3.1.12.3",
+      "3.1.12.4",
+      "3.1.12.5",
+      "3.1.12.6",
+      "RP9",
+      "MS 2.5"
+    ]
+  },
+  "S18_Period3_and_Transition_Metals": {
+    "covers_syllabus_refs": [
+      "7405 3.2.4",
+      "7405 3.2.5.1",
+      "7405 3.2.5.2",
+      "7405 3.2.5.3"
+    ],
+    "syllabus_topic": "3.2 Inorganic chemistry (A-level only)",
+    "covers_items": [
+      "3.2.4",
+      "3.2.5.1",
+      "3.2.5.2",
+      "3.2.5.3"
+    ]
+  },
+  "S19_Transition_Metal_Chemistry": {
+    "covers_syllabus_refs": [
+      "7405 3.2.5.4",
+      "7405 3.2.5.5",
+      "7405 3.2.5.6",
+      "7405 3.2.6",
+      "7405 RP11"
+    ],
+    "syllabus_topic": "3.2 Inorganic chemistry (A-level only)",
+    "covers_items": [
+      "3.2.5.4",
+      "3.2.5.5",
+      "3.2.5.6",
+      "3.2.6",
+      "RP11"
+    ]
+  },
+  "S20_Optical_Isomerism_Carbonyls": {
+    "covers_syllabus_refs": [
+      "7405 3.3.7",
+      "7405 3.3.8",
+      "7405 MS 4.3"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (A-level only)",
+    "covers_items": [
+      "3.3.7",
+      "3.3.8",
+      "MS 4.3"
+    ]
+  },
+  "S21_Carboxylic_Acids_and_Aromatics": {
+    "covers_syllabus_refs": [
+      "7405 3.3.9.1",
+      "7405 3.3.9.2",
+      "7405 3.3.10.1",
+      "7405 3.3.10.2"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (A-level only)",
+    "covers_items": [
+      "3.3.9.1",
+      "3.3.9.2",
+      "3.3.10.1",
+      "3.3.10.2"
+    ]
+  },
+  "S22_Amines_and_Polymers": {
+    "covers_syllabus_refs": [
+      "7405 3.3.11.1",
+      "7405 3.3.11.2",
+      "7405 3.3.11.3",
+      "7405 3.3.12.1",
+      "7405 3.3.12.2"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (A-level only)",
+    "covers_items": [
+      "3.3.11.1",
+      "3.3.11.2",
+      "3.3.11.3",
+      "3.3.12.1",
+      "3.3.12.2"
+    ]
+  },
+  "S23_Amino_Acids_Proteins_DNA": {
+    "covers_syllabus_refs": [
+      "7405 3.3.13.1",
+      "7405 3.3.13.2",
+      "7405 3.3.13.3",
+      "7405 3.3.13.4",
+      "7405 3.3.13.5"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (A-level only)",
+    "covers_items": [
+      "3.3.13.1",
+      "3.3.13.2",
+      "3.3.13.3",
+      "3.3.13.4",
+      "3.3.13.5"
+    ]
+  },
+  "S24_Synthesis_NMR_Chromatography": {
+    "covers_syllabus_refs": [
+      "7405 3.3.14",
+      "7405 3.3.15",
+      "7405 3.3.16",
+      "7405 RP10",
+      "7405 RP12"
+    ],
+    "syllabus_topic": "3.3 Organic chemistry (A-level only)",
+    "covers_items": [
+      "3.3.14",
+      "3.3.15",
+      "3.3.16",
+      "RP10",
+      "RP12"
+    ]
+  },
+  "S25_Practical_Skills_and_Data_Analysis": {
+    "covers_syllabus_refs": [
+      "7405 PS1.1",
+      "7405 PS1.2",
+      "7405 PS2.1",
+      "7405 PS2.2",
+      "7405 PS2.3",
+      "7405 PS2.4",
+      "7405 PS3.1",
+      "7405 PS3.2",
+      "7405 PS3.3",
+      "7405 PS4.1",
+      "7405 MS 3.1",
+      "7405 MS 3.2"
+    ],
+    "syllabus_topic": "Practical skills (8.3) and mathematical requirements (6)",
+    "covers_items": [
+      "PS1.1",
+      "PS1.2",
+      "PS2.1",
+      "PS2.2",
+      "PS2.3",
+      "PS2.4",
+      "PS3.1",
+      "PS3.2",
+      "PS3.3",
+      "PS4.1",
+      "MS 3.1",
+      "MS 3.2"
+    ]
+  }
+}

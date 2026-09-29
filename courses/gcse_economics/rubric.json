@@ -1,0 +1,297 @@
+{
+  "stage_rubrics": {
+    "S01_Economic_Foundations": {
+      "criteria": [
+        "1.1: Economic activity: needs and wants, the central purpose of economic activity, the key economic decisions, the main economic groups",
+        "1.2: The factors of production",
+        "1.3: Making choices: the basic economic problem, costs and benefits of economic choices including opportunity cost"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 1.1, 1.2, 1.3 (Topic 1: Economic foundations)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S02_Resource_Allocation": {
+      "criteria": [
+        "2.1: Markets and the allocation of resources, including factor and product markets",
+        "2.2: Economic sectors: primary, secondary and tertiary; goods and services",
+        "2.3: Specialisation, division of labour and exchange: benefits and costs"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 2.1, 2.2, 2.3 (Topic 2: Resource allocation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S03_Demand_Supply_Equilibrium": {
+      "criteria": [
+        "3.1: Demand for goods and services: factors, causes of changes, and the demand curve",
+        "3.2: Supply of goods and services: factors, causes of changes, and the supply curve",
+        "3.3: Equilibrium price"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 3.1, 3.2, 3.3 (Topic 3: How prices are determined)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S04_Elasticity_and_Intermarket": {
+      "criteria": [
+        "3.4: Intermarket relationships: complements and substitutes",
+        "3.5: Price elasticity of demand: meaning, factors and measurement",
+        "3.6: Price elasticity of supply: meaning, factors and measurement"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 3.4, 3.5, 3.6 (Topic 3: How prices are determined)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S05_Costs_Revenue_Profit": {
+      "criteria": [
+        "4.1: The importance of cost, revenue and profit for producers, including business objectives and moral/ethical considerations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 4.1 (Topic 4: Production, costs, revenue and profit)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S06_Productivity_and_Economies_of_Scale": {
+      "criteria": [
+        "4.2: Production and productivity",
+        "4.3: Economies of scale: meaning, types, and diseconomies of scale"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 4.2, 4.3 (Topic 4: Production, costs, revenue and profit)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S07_Market_Structures": {
+      "criteria": [
+        "5.1: The importance of market structures on producers and consumers",
+        "5.2: Competitive markets: characteristics and economic impact",
+        "5.3: Non-competitive markets: characteristics, monopoly and oligopoly"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 5.1, 5.2, 5.3 (Topic 5: Competitive and concentrated markets)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S08_Labour_Market": {
+      "criteria": [
+        "5.4: The labour market: wage determination, wage differentials, gross and net pay"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 5.4 (Topic 5: Competitive and concentrated markets)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S09_Market_Failure_and_Externalities": {
+      "criteria": [
+        "6.1: Misallocation of resources: market failure and government intervention",
+        "6.2: Externalities: defining externalities, positive and negative"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 6.1, 6.2 (Topic 6: Market failure)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S10_Interest_Rates_and_Government_Finance": {
+      "criteria": [
+        "7.1: Interest rates, saving, borrowing, spending and investment",
+        "7.2: Government income and expenditure, including direct/indirect and progressive taxation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 7.1, 7.2 (Topic 7: Introduction to the national economy)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S11_Growth_and_Government_Objectives": {
+      "criteria": [
+        "8.1: Economic objectives of the government, conflicts between them, and other objectives",
+        "8.2: Economic growth: significance, causes, costs, benefits and policies, GDP and GDP per capita"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 8.1, 8.2 (Topic 8: Government objectives)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S12_Employment_and_Inflation": {
+      "criteria": [
+        "8.3: Employment and unemployment: measurement, types, causes, consequences and policies",
+        "8.4: Inflation and price stability: measurement (CPI), causes, consequences and policies"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 8.3, 8.4 (Topic 8: Government objectives)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S13_Balance_of_Payments_and_Inequality": {
+      "criteria": [
+        "8.5: Balance of payments: balance of trade, the current account, surpluses/deficits, and policies",
+        "8.6: Distribution of income: income and wealth inequality, causes, consequences and policies"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 8.5, 8.6 (Topic 8: Government objectives)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S14_Fiscal_and_Monetary_Policy": {
+      "criteria": [
+        "9.1: Fiscal policy and the government budget",
+        "9.2: Monetary policy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 9.1, 9.2 (Topic 9: How the government manages the economy)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S15_Supply_Side_and_Externality_Policies": {
+      "criteria": [
+        "9.3: Supply-side policies",
+        "9.4: Policies to correct positive and negative externalities"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 9.3, 9.4 (Topic 9: How the government manages the economy)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S16_International_Trade_and_Exchange_Rates": {
+      "criteria": [
+        "10.1: Why countries trade and the importance of international trade to the UK",
+        "10.2: Exchange rates: determination and effects on consumers and producers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 10.1, 10.2 (Topic 10: International trade and the global economy)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S17_Trade_Agreements_and_Globalisation": {
+      "criteria": [
+        "10.3: Free trade and free-trade agreements, including the European Union",
+        "10.4: Globalisation: benefits and drawbacks, including moral/ethical/sustainability considerations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 10.3, 10.4 (Topic 10: International trade and the global economy)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    },
+    "S18_Money_and_Financial_Sector": {
+      "criteria": [
+        "11.1: The role of money: functions and definition",
+        "11.2: The role and importance of the financial sector, including the Bank of England"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for calculation items, method marks are only awarded where the method/working is shown. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+        "reference": "8136 objectives 11.1, 11.2 (Topic 11: The role of money and financial markets)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of both papers in AQA's structure: Paper 1 'How markets work' (1 hour 45 minutes, 80 marks, Topics 1-6) and Paper 2 'How the economy works' (1 hour 45 minutes, 80 marks, Topics 7-11)",
+      "Each paper's Section A (10 multiple-choice questions plus a range of calculation/short/extended-response questions) and Section B (five questions mixing calculations, short and extended responses), matching AQA's published question styles",
+      "Calculation questions marked with method shown; extended-response questions marked by levels; at least 10% of marks overall on quantitative skills"
+    ],
+    "pass_threshold": "At least 50% of the 160 marks overall and at least 40% on each of the two papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE Economics (8136) specification: subject content Topics 1-11 (3.1 How markets work; 3.2 How the economy works)",
+      "reference": "AQA 8136 scheme of assessment: Paper 1 (1h45, 80 marks, 50%) and Paper 2 (1h45, 80 marks, 50%)",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/economics/specifications/AQA-8136-SP-2017.PDF"
+  ],
+  "source_notes": "AQA publishes the 8136 specification, including the subject content across all 11 topics and the assessment structure. Stage tests and the mock are original questions in AQA's style, not real past-paper items. Numerical worked examples (elasticities, costs/revenue/profit, economies of scale, pay, GDP/CPI/unemployment, balance of payments, exchange rates, interest) were computed and checked with Python when this course was built."
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Chemistry (AQA 8462) — separate science, Foundation and Higher tier",
+  "requires_complete": [],
+  "selected_options": {
+    "tiers_built": "Both Foundation and Higher, consistent with the other GCSE sciences and Mathematics",
+    "pathway_note": "This is the separate-science route (full Chemistry GCSE, 8462), distinct from the Chemistry content within Combined Science: Trilogy. It includes Chemistry-only content such as titration calculations, atom economy, gas volumes, organic chemistry, chemical analysis, the atmosphere, using resources and the Haber process."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Chemistry (8462) specification (first teaching 2016, current and live). Every subject-content code 4.1.1.1-4.10.4.2, the 8 required practicals, Working scientifically WS1-WS4 (section 3) and the Mathematical requirements (section 7) were itemised on 2026-09-19 from AQA's own specification pages and PDF. Stage test scenarios are original questions written in the style of AQA papers, not real past-paper items.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9 / Foundation+Higher tiers covered), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Atoms_Elements_and_the_Atomic_Model",
+    "S02_The_Periodic_Table_and_Groups",
+    "S03_Chemical_Bonding",
+    "S04_States_of_Matter_and_Properties",
+    "S05_Carbon_Structures_and_Nanoscience",
+    "S06_Conservation_of_Mass_and_Moles",
+    "S07_Concentration_Yield_and_Gas_Volumes",
+    "S08_Reactivity_and_Extraction_of_Metals",
+    "S09_Acids_Salts_and_pH",
+    "S10_Electrolysis",
+    "S11_Energy_Changes_and_Cells",
+    "S12_Rates_of_Reaction",
+    "S13_Reversible_Reactions_and_Equilibrium",
+    "S14_Crude_Oil_and_Hydrocarbons",
+    "S15_Alkenes_Alcohols_Acids_and_Polymers",
+    "S16_Purity_Chromatography_and_Gas_Tests",
+    "S17_Ion_Tests_and_Instrumental_Analysis",
+    "S18_The_Atmosphere_and_Climate",
+    "S19_Water_Resources_and_Life_Cycle_Assessment",
+    "S20_Corrosion_Materials_and_the_Haber_Process",
+    "S21_Working_Scientifically_Thinking_and_Experiments",
+    "S22_Working_Scientifically_Analysis_and_Vocabulary",
+    "S23_Mathematical_Skills_for_Chemistry"
+  ],
+  "linear": false,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

@@ -1,0 +1,474 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "OpenEDG Python Institute, PCAP-31-03 Exam Syllabus (Certified Associate Python Programmer), status ACTIVE, last updated 7 Mar 2022",
+    "url": "https://pythoninstitute.org/pcap-exam-syllabus",
+    "version": "PCAP-31-03 (ACTIVE; syllabus page last updated 7 Mar 2022), fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "Ids use the Python Institute's own objective numbers (1.1-5.5); the letter suffix groups each objective's listed sub-points in syllabus order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1a",
+      "title": "Import variants: import, from-import, import-as, from-import-*",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.1b",
+      "title": "Qualifying names in nested modules",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.1c",
+      "title": "The dir() function",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.1d",
+      "title": "The sys.path variable",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.2a",
+      "title": "math: ceil(), floor(), trunc()",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.2b",
+      "title": "math: factorial(), hypot(), sqrt()",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.3a",
+      "title": "random: random() and seed()",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.3b",
+      "title": "random: choice() and sample()",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.4a",
+      "title": "platform: platform(), machine(), processor(), system()",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.4b",
+      "title": "platform: version(), python_implementation(), python_version_tuple()",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.5a",
+      "title": "Why modules exist: the idea and rationale",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.5b",
+      "title": "The __pycache__ directory",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.5c",
+      "title": "The __name__ variable",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.5d",
+      "title": "Public and private module variables",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.5e",
+      "title": "The __init__.py file",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.5f",
+      "title": "How Python searches for modules and packages",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "1.5g",
+      "title": "Nested packages versus directory trees",
+      "topic_area": "1 Modules and packages"
+    },
+    {
+      "id": "2.1a",
+      "title": "try/except: ordering branches, except-as, grouped exceptions",
+      "topic_area": "2 Exceptions"
+    },
+    {
+      "id": "2.1b",
+      "title": "The hierarchy of exceptions",
+      "topic_area": "2 Exceptions"
+    },
+    {
+      "id": "2.1c",
+      "title": "raise, re-raising, and assert",
+      "topic_area": "2 Exceptions"
+    },
+    {
+      "id": "2.1d",
+      "title": "Exception objects and the args property",
+      "topic_area": "2 Exceptions"
+    },
+    {
+      "id": "2.1e",
+      "title": "else and finally in exception handling",
+      "topic_area": "2 Exceptions"
+    },
+    {
+      "id": "2.2a",
+      "title": "Defining custom exceptions",
+      "topic_area": "2 Exceptions"
+    },
+    {
+      "id": "2.2b",
+      "title": "Fitting custom exceptions into the existing hierarchy",
+      "topic_area": "2 Exceptions"
+    },
+    {
+      "id": "3.1a",
+      "title": "Encoding standards: ASCII, Unicode, UTF-8",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.1b",
+      "title": "Code points and escape sequences",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.2a",
+      "title": "ord() and chr()",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.2b",
+      "title": "String indexing, slicing and immutability",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.2c",
+      "title": "String iteration, concatenation, repetition and comparison",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.2d",
+      "title": "Membership: in and not in",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.3a",
+      "title": "The isxxx() methods",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.3b",
+      "title": "join(), split() and strip()",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.3c",
+      "title": "index(), find() and rfind()",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "3.3d",
+      "title": "Ordering strings with sorted()",
+      "topic_area": "3 Strings"
+    },
+    {
+      "id": "4.1a",
+      "title": "Class, object, property and method",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.1b",
+      "title": "Encapsulation, inheritance, superclass and subclass",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.1c",
+      "title": "Identifying a class's components",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.2a",
+      "title": "Instance variables versus class variables",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.2b",
+      "title": "__dict__ on objects and on classes",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.2c",
+      "title": "Private components and name mangling",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.3a",
+      "title": "Declaring and using methods",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.3b",
+      "title": "The self parameter",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.4a",
+      "title": "Introspection and hasattr() on objects and classes",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.4b",
+      "title": "The __name__, __module__ and __bases__ properties",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.5a",
+      "title": "Single and multiple inheritance",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.5b",
+      "title": "isinstance(), overriding, is and is not",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.5c",
+      "title": "Polymorphism and overriding __str__()",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.5d",
+      "title": "Diamond problems and method resolution order",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "4.6a",
+      "title": "Declaring and invoking constructors",
+      "topic_area": "4 Object-oriented programming"
+    },
+    {
+      "id": "5.1a",
+      "title": "List comprehensions with if conditions",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.1b",
+      "title": "Nested list comprehensions",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.2a",
+      "title": "Defining and using lambdas",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.2b",
+      "title": "Functions that take lambdas as arguments",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.2c",
+      "title": "map() and filter()",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.3a",
+      "title": "Closures: meaning, rationale and use",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.4a",
+      "title": "I/O modes; text versus binary",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.4b",
+      "title": "Predefined streams; handles versus streams",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.5a",
+      "title": "open() and errno values",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.5b",
+      "title": "close(), read(), write(), readline(), readlines()",
+      "topic_area": "5 Miscellaneous"
+    },
+    {
+      "id": "5.5c",
+      "title": "bytearray as an input/output buffer",
+      "topic_area": "5 Miscellaneous"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Modules_Imports_and_Packages": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 1.1",
+      "PCAP-31-03 1.5"
+    ],
+    "syllabus_topic": "Section 1: Modules and Packages (6 items, 12%)",
+    "covers_items": [
+      "1.1a",
+      "1.1b",
+      "1.1c",
+      "1.1d",
+      "1.5a",
+      "1.5b",
+      "1.5c",
+      "1.5d",
+      "1.5e",
+      "1.5f",
+      "1.5g"
+    ]
+  },
+  "S02_Standard_Modules_math_random_platform": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 1.2",
+      "PCAP-31-03 1.3",
+      "PCAP-31-03 1.4"
+    ],
+    "syllabus_topic": "Section 1: Modules and Packages (6 items, 12%)",
+    "covers_items": [
+      "1.2a",
+      "1.2b",
+      "1.3a",
+      "1.3b",
+      "1.4a",
+      "1.4b"
+    ]
+  },
+  "S03_Handling_Exceptions_in_Depth": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 2.1"
+    ],
+    "syllabus_topic": "Section 2: Exceptions (5 items, 14%)",
+    "covers_items": [
+      "2.1a",
+      "2.1b",
+      "2.1c",
+      "2.1d",
+      "2.1e"
+    ]
+  },
+  "S04_Custom_Exceptions": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 2.2"
+    ],
+    "syllabus_topic": "Section 2: Exceptions (5 items, 14%)",
+    "covers_items": [
+      "2.2a",
+      "2.2b"
+    ]
+  },
+  "S05_Characters_and_String_Operations": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 3.1",
+      "PCAP-31-03 3.2"
+    ],
+    "syllabus_topic": "Section 3: Strings (8 items, 18%)",
+    "covers_items": [
+      "3.1a",
+      "3.1b",
+      "3.2a",
+      "3.2b",
+      "3.2c",
+      "3.2d"
+    ]
+  },
+  "S06_String_Methods": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 3.3"
+    ],
+    "syllabus_topic": "Section 3: Strings (8 items, 18%)",
+    "covers_items": [
+      "3.3a",
+      "3.3b",
+      "3.3c",
+      "3.3d"
+    ]
+  },
+  "S07_Classes_Objects_Methods_Constructors": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 4.1",
+      "PCAP-31-03 4.3",
+      "PCAP-31-03 4.6"
+    ],
+    "syllabus_topic": "Section 4: Object-Oriented Programming (12 items, 34%)",
+    "covers_items": [
+      "4.1a",
+      "4.1b",
+      "4.1c",
+      "4.3a",
+      "4.3b",
+      "4.6a"
+    ]
+  },
+  "S08_Class_and_Instance_Properties_Introspection": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 4.2",
+      "PCAP-31-03 4.4"
+    ],
+    "syllabus_topic": "Section 4: Object-Oriented Programming (12 items, 34%)",
+    "covers_items": [
+      "4.2a",
+      "4.2b",
+      "4.2c",
+      "4.4a",
+      "4.4b"
+    ]
+  },
+  "S09_Inheritance_and_Polymorphism": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 4.5"
+    ],
+    "syllabus_topic": "Section 4: Object-Oriented Programming (12 items, 34%)",
+    "covers_items": [
+      "4.5a",
+      "4.5b",
+      "4.5c",
+      "4.5d"
+    ]
+  },
+  "S10_Comprehensions_Lambdas_Closures": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 5.1",
+      "PCAP-31-03 5.2",
+      "PCAP-31-03 5.3"
+    ],
+    "syllabus_topic": "Section 5: Miscellaneous (9 items, 22%)",
+    "covers_items": [
+      "5.1a",
+      "5.1b",
+      "5.2a",
+      "5.2b",
+      "5.2c",
+      "5.3a"
+    ]
+  },
+  "S11_File_Input_Output": {
+    "covers_syllabus_refs": [
+      "PCAP-31-03 5.4",
+      "PCAP-31-03 5.5"
+    ],
+    "syllabus_topic": "Section 5: Miscellaneous (9 items, 22%)",
+    "covers_items": [
+      "5.4a",
+      "5.4b",
+      "5.5a",
+      "5.5b",
+      "5.5c"
+    ]
+  }
+}

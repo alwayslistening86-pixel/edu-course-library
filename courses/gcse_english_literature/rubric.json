@@ -1,0 +1,344 @@
+{
+  "stage_rubrics": {
+    "S01_Course_Structure_Assessment_Objectives_and_Levels": {
+      "criteria": [
+        "States Paper 1 (64 marks, 40%) and Paper 2 (96 marks, 60%) correctly, with their sections",
+        "States all four AOs accurately in the learner's own words, not copied definitions",
+        "Explains that AO4 applies only to the Shakespeare and modern-text questions",
+        "Explains that a level is chosen for the whole response as a package, then a mark is placed within it",
+        "Is itself written with reasonable technical accuracy (modelling AO4 in the answer)"
+      ],
+      "pass_threshold": "Correctly states both papers' timing, total marks and section structure, all four AOs in the learner's own words, and can explain the six-level ladder without notes.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, sections 4.1-4.3, and the Paper 1/Paper 2 mark schemes (June 2023 series)",
+        "reference": "AQA 8702 specification 4.1-4.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S02_Core_Literary_Essay_Skills": {
+      "criteria": [
+        "Uses at least one language or structural device correctly named, with effect explained (not just spotted)",
+        "Integrates any invented or given evidence briefly and grammatically, not as a dropped-in block quotation",
+        "Shows evidence of a plan (a clear single argument running through the paragraph)",
+        "Is technically accurate: correct spelling, varied sentence openings",
+        "Does not summarise plot in place of analysis"
+      ],
+      "pass_threshold": "Applies all seven skills correctly to a short unfamiliar passage the tutor provides, producing one well-supported, analytical paragraph in under ten minutes.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.3 (Skills)",
+        "reference": "AQA 8702 specification 3.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S03_Macbeth_Overview_Context_and_Acts_1_to_3": {
+      "criteria": [
+        "Gives an accurate, ordered account of Acts 1-3's key events",
+        "Explains the significance of the witches' prophecy to Macbeth's and Banquo's storylines",
+        "Explains why Banquo's ghost appearing at the banquet is a turning point, not just a scary moment",
+        "Uses at least one accurate piece of Jacobean context where relevant",
+        "Uses brief, accurate reference to specific moments rather than vague generalisation"
+      ],
+      "pass_threshold": "Gives an accurate, ordered whole-play summary, states at least two Jacobean beliefs relevant to the play, and narrates the key events and turning points of Acts 1-3 with their significance, not just plot.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.1.1 (Shakespeare), set text Macbeth",
+        "reference": "AQA 8702 specification 3.1.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S04_Macbeth_Acts_4_to_5_Structure_and_Language": {
+      "criteria": [
+        "Narrates Acts 4-5 accurately, including both final prophecies and how they are fulfilled",
+        "Explains the tragic five-act structure and where Macbeth's crisis and downfall sit within it",
+        "Traces a chosen image pattern across at least two specific moments, not just naming it once",
+        "Explains a change or development in the image's meaning, not just its presence",
+        "Uses brief, accurate short quotation or close paraphrase to support each point"
+      ],
+      "pass_threshold": "Narrates Acts 4-5 accurately, explains the tragic five-act arc, and traces one recurring image (blood, darkness or sleep) across at least three separate moments in the play with its changing meaning.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.1.1 (Shakespeare), set text Macbeth",
+        "reference": "AQA 8702 specification 3.1.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S05_Macbeth_Themes_Characters_and_the_Exam_Question": {
+      "criteria": [
+        "Analyses the given extract specifically before moving to wider references",
+        "Discusses at least one theme (ambition, kingship or guilt) with a clear line of argument",
+        "Uses accurate, brief reference to specific moments across the whole play, not just the extract",
+        "Shows awareness of at least one relevant piece of Jacobean context",
+        "Reaches Level 4 (of 6) or above with reasonably accurate technical expression"
+      ],
+      "pass_threshold": "Writes a Level 4 (of 6) or above extract-plus-whole-play response to an original Macbeth question, discussing at least one theme and one character with accurate reference to both the extract and the wider play.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.1.1, and the 8702/1 mark scheme Section A",
+        "reference": "AQA 8702 specification 3.1.1; 8702/1 mark scheme Section A",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S06_A_Christmas_Carol_Overview_Context_and_Staves_1_to_3": {
+      "criteria": [
+        "Gives an accurate, ordered account of Staves 1-3's key events",
+        "Explains why Scrooge's backstory (Stave 2) matters to the book's argument about redemption",
+        "Explains the significance of Ignorance and Want, not just describing them",
+        "Uses at least one accurate piece of Victorian context where relevant",
+        "Uses brief, accurate reference to specific moments rather than vague generalisation"
+      ],
+      "pass_threshold": "Gives an accurate, ordered whole-novella summary, states at least two pieces of relevant Victorian context, and narrates the key events and significance of Staves 1-3.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.1.2 (the 19th-century novel), set text A Christmas Carol",
+        "reference": "AQA 8702 specification 3.1.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S07_A_Christmas_Carol_Staves_4_to_5_Structure_and_Language": {
+      "criteria": [
+        "Narrates Staves 4-5 accurately, including the key contrast within Stave 4",
+        "Explains the effect of the past/present/future structural pattern",
+        "Identifies at least one specific narrative or language technique with brief, accurate support",
+        "Explains an effect of the technique on the reader, not just naming it",
+        "Uses brief, accurate short quotation or close paraphrase (this text is public domain, so short direct quotation is fine)"
+      ],
+      "pass_threshold": "Narrates Staves 4-5 accurately, explains the effect of the five-stave structure, and identifies and explains at least two of Dickens's narrative or language techniques with brief textual support.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.1.2, set text A Christmas Carol",
+        "reference": "AQA 8702 specification 3.1.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S08_A_Christmas_Carol_Themes_Characters_and_the_Exam_Question": {
+      "criteria": [
+        "Analyses the given extract specifically before moving to wider references",
+        "Discusses at least one theme (greed/redemption, poverty, or family) with a clear line of argument",
+        "Uses accurate, brief reference to specific moments across the whole novella, not just the extract",
+        "Shows awareness of at least one relevant piece of Victorian context",
+        "Reaches Level 4 (of 6) or above with reasonably accurate technical expression"
+      ],
+      "pass_threshold": "Writes a Level 4 (of 6) or above extract-plus-whole-novella response to an original A Christmas Carol question, discussing at least one theme and one character with accurate reference to both the extract and the wider novella.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.1.2, and the 8702/1 mark scheme Section B",
+        "reference": "AQA 8702 specification 3.1.2; 8702/1 mark scheme Section B",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S09_An_Inspector_Calls_Overview_Context_Acts_and_Structure": {
+      "criteria": [
+        "Gives an accurate, ordered account of the three acts' key events",
+        "Explains the significance of the 1912/1945 gap to the play's dramatic irony",
+        "Explains why the final phone call matters structurally, not just as a twist",
+        "Uses at least one accurate piece of context where relevant",
+        "Uses only minimal, brief reference (this text is in copyright, so no quotation beyond a few words)"
+      ],
+      "pass_threshold": "Gives an accurate, ordered whole-play summary, explains why the 1912/1945 gap matters, narrates the key events and significance of each act, and explains the effect of the play's cyclical structure.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.2.1 (Modern texts), set text An Inspector Calls",
+        "reference": "AQA 8702 specification 3.2.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S10_An_Inspector_Calls_Themes_Characters_and_the_Exam_Question": {
+      "criteria": [
+        "Analyses the given extract specifically before moving to wider references",
+        "Discusses at least one theme (responsibility, class, or generational change) with a clear line of argument",
+        "Uses accurate reference to specific moments across the whole play, mostly in paraphrase, with no quotation longer than a few words",
+        "Shows awareness of the 1912/1945 context where relevant",
+        "Reaches Level 4 (of 6) or above with reasonably accurate technical expression"
+      ],
+      "pass_threshold": "Writes a Level 4 (of 6) or above response to an original An Inspector Calls essay question, discussing at least one theme and one character with accurate but minimal reference, since this text is in copyright.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.2.1, and the 8702/2 mark scheme Section A",
+        "reference": "AQA 8702 specification 3.2.1; 8702/2 mark scheme Section A",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S11_Power_and_Conflict_Poetry_I_Overview_and_Four_Founding_Poems": {
+      "criteria": [
+        "Accurately summarises both poems' content before analysing",
+        "Compares the two poems on a shared idea (power exposed through the speaker's own words), not sequentially",
+        "Uses brief, accurate direct quotation from both poems (public domain, so quotation is permitted)",
+        "Analyses at least one structural or formal feature (sonnet form, dramatic monologue) with its effect",
+        "Sustains the comparison throughout, not just at the start or end"
+      ],
+      "pass_threshold": "Explains the cluster's shared concerns and analyses each of the four poems' presentation of power, with brief accurate reference (these four poems are public domain, so short direct quotation is acceptable).",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.2.2 (Poetry), Power and Conflict cluster",
+        "reference": "AQA 8702 specification 3.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S12_Power_and_Conflict_Poetry_II_War_and_Nature": {
+      "criteria": [
+        "Accurately summarises both poems' content before analysing",
+        "Compares the two poems on a shared idea (psychological/lasting effect of conflict), not sequentially",
+        "Respects each poem's copyright status in how much is quoted",
+        "Analyses at least one structural or formal feature (rhythm, refrain, tense) with its effect",
+        "Sustains the comparison throughout, not just at the start or end"
+      ],
+      "pass_threshold": "Analyses each of these five poems' key ideas, form and language with accurate reference, quoting freely but briefly from the two public-domain poems and only a handful of words at a time from the three in-copyright poems.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.2.2, Power and Conflict cluster",
+        "reference": "AQA 8702 specification 3.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S13_Power_and_Conflict_Poetry_III_Loss_Identity_and_Voice": {
+      "criteria": [
+        "Accurately summarises both poems' content before analysing",
+        "Compares the two poems on a shared idea (difficulty of readjustment/distance from conflict), not sequentially",
+        "Respects copyright: no quotation longer than a handful of words from either poem",
+        "Analyses at least one structural or formal feature (narrative viewpoint, form) with its effect",
+        "Sustains the comparison throughout, not just at the start or end"
+      ],
+      "pass_threshold": "Analyses each of these six poems' key ideas, form and language with accurate, brief reference, quoting no more than a handful of words at a time since all six are in copyright.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, section 3.2.2, Power and Conflict cluster",
+        "reference": "AQA 8702 specification 3.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    },
+    "S14_Poetry_Comparison_Exam_Question_and_Unseen_Poetry": {
+      "criteria": [
+        "Chooses a genuinely comparable second poem and states the shared focus clearly",
+        "Compares both poems together point by point, not as two separate mini-essays",
+        "Analyses form, structure or language in both poems with effect explained",
+        "Uses quotation appropriately to each poem's copyright status (freely for Ozymandias, minimally for any in-copyright choice)",
+        "Reaches Level 4 (of 6) or above"
+      ],
+      "pass_threshold": "Writes a Level 4 (of 6) or above comparison of a named cluster poem with a self-chosen second poem, and independently produces a competent Level 4 response to a genuinely unseen poem plus a brief, accurate comparison to a second unseen poem.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE English Literature 8702 specification Version 1.3, sections 3.2.2-3.2.3, and the 8702/2 mark scheme Sections B-C",
+        "reference": "AQA 8702 specification 3.2.2, 3.2.3; 8702/2 mark scheme Sections B-C",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+          "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+          "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Paper 1 Section A (Macbeth) and Section B (A Christmas Carol): both reach Level 4 (of 6) or above, discussing the given extract and the whole text with well-selected reference and relevant context",
+      "Paper 2 Section A (An Inspector Calls): reaches Level 4 or above, using accurate but minimal (copyright-respecting) reference across the whole play",
+      "Paper 2 Section B (poetry comparison): genuinely compares the named poem with the chosen second poem throughout, not as two separate mini-essays, reaching Level 4 or above",
+      "Paper 2 Section C (unseen poetry): Question 1 reaches Level 4 of its scale with independent, unaided analysis; Question 2 offers at least two sharp, accurate comparative points on method",
+      "AO4 technical accuracy (spelling, punctuation, varied sentence control) holds up under exam pressure on the Macbeth and An Inspector Calls questions specifically",
+      "Quotation practice throughout matches each text's copyright status: free short quotation for Macbeth, A Christmas Carol and the public-domain poems; minimal, brief reference only for An Inspector Calls and the in-copyright poems"
+    ],
+    "pass_threshold": "Reaches Level 4 (of 6) or above on every essay across a full timed sitting of both papers, with AO4 technical accuracy also secure on the Shakespeare and modern-text questions.",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE English Literature 8702 specification Version 1.3, sections 4.1-4.3, and the 8702/1 and 8702/2 mark schemes (June 2023 series)",
+      "reference": "AQA 8702 specification section 4 (Scheme of assessment)",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF",
+        "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content",
+        "https://www.aqa.org.uk/subjects/english/gcse/english-8702/specification/subject-content/modern-texts-and-poetry",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+        "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87021-MS-JUN23.PDF",
+    "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-87022-MS-JUN23.PDF",
+    "https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF"
+  ],
+  "source_notes": [
+    "Re-pointed from third-party rehosts (mmerevise, theglc-gatewayacademy) of the June 2019 (Paper 1) and June 2017 (Paper 2) mark schemes to AQA's own June 2023 mark schemes, the oldest ones AQA still hosts. Structure confirmed identical: 6-level grids; Paper 1 Section A AO1/2/3/4 (12/12/6/4), Section B AO1/2/3 (12/12/6); Paper 2 Section A AO1/2/3/4 (12/12/6/4), Section B 30 marks, Section C Q1 (24) and Q2 (8). Criteria wording was drafted from the 2019/2017 versions and not re-compared line-by-line against 2023.",
+    "Added on rebuild (2026-09-22): confirmed against AQA's live subject-content pages that the current modern-texts list (checked 2026-09-22) has retired The History Boys, The Curious Incident of the Dog in the Night-Time and Never Let Me Go (each 'last exam 2024') and added Princess & The Hustler, Leave Taking and My Name is Leon (first exam 2025); the declared_exclusions list below reflects the current, non-retired option set, not the historic one. Confirmed the specification has no non-exam assessment or Spoken Language component (that endorsement belongs to English Language 8700, not English Literature 8702)."
+  ]
+}

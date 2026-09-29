@@ -1,0 +1,379 @@
+{
+  "stage_rubrics": {
+    "S01_Accountant_Role_and_Business_Organisations": {
+      "criteria": [
+        "3.1a: Role of the accountant in business",
+        "3.1b: Financial accounting versus management accounting",
+        "3.2a: Sole trader organisation and unlimited liability",
+        "3.2b: Partnership organisation and the Partnership Act 1890",
+        "3.2c: Private/public limited companies; sources of finance compared"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.1a, 3.1b, 3.2a, 3.2b, 3.2c (3.1-3.3 The accountant, business organisations and double entry)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S02_Double_Entry_Recording": {
+      "criteria": [
+        "3.3a: Source documents and books of prime entry",
+        "3.3b: Double entry: the accounting equation and ledger posting",
+        "3.3c: Capital vs revenue expenditure/income; the trial balance"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.3a, 3.3b, 3.3c (3.1-3.3 The accountant, business organisations and double entry)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S03_Double_Entry_Adjustments": {
+      "criteria": [
+        "3.3d: Accruals and prepayments",
+        "3.3e: Irrecoverable debts and the allowance for doubtful debts",
+        "3.3f: Depreciation: straight line, reducing balance and disposal"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.3d, 3.3e, 3.3f (3.1-3.3 The accountant, business organisations and double entry)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S04_Verification_and_Error_Correction": {
+      "criteria": [
+        "3.4a: Bank reconciliation statements",
+        "3.4b: Sales and purchases ledger control accounts",
+        "3.4c: Errors that do and do not affect the trial balance",
+        "3.4d: Correcting errors via the journal and suspense account"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.4a, 3.4b, 3.4c, 3.4d (3.4-3.7 Verification, concepts and financial statements (Paper 1))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S05_Accounting_Concepts": {
+      "criteria": [
+        "3.5a: Accounting concepts I (money measurement, duality, cost, going concern, accruals)",
+        "3.5b: Accounting concepts II (consistency, prudence, materiality, realisation, business entity)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.5a, 3.5b (3.4-3.7 Verification, concepts and financial statements (Paper 1))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S06_Sole_Trader_Financial_Statements": {
+      "criteria": [
+        "3.6a: Sole trader statement of profit or loss",
+        "3.6b: Sole trader statement of financial position"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.6a, 3.6b (3.4-3.7 Verification, concepts and financial statements (Paper 1))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S07_Limited_Company_Accounts": {
+      "criteria": [
+        "3.7a: Company statement of profit or loss",
+        "3.7b: Statement of changes in equity",
+        "3.7c: Company statement of financial position with subheadings"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.7a, 3.7b, 3.7c (3.4-3.7 Verification, concepts and financial statements (Paper 1))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S08a_Ratio_Analysis_Profitability_and_Liquidity": {
+      "criteria": [
+        "QS1: Ratios and fractions",
+        "3.8a: Profitability ratios and ROCE",
+        "QS2: Percentages and percentage changes",
+        "3.8b: Liquidity ratios; cash versus profit"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives QS1, 3.8a, QS2, 3.8b (3.8 Analysis and evaluation of financial information (both papers))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S08b_Ratio_Analysis_Efficiency_and_Limitations": {
+      "criteria": [
+        "3.8c: Efficiency ratios",
+        "3.8d: Limitations of financial statement and ratio analysis"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.8c, 3.8d (3.8 Analysis and evaluation of financial information (both papers))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S09_Budgeting": {
+      "criteria": [
+        "3.9a: Purpose of budgeting",
+        "3.9b: Incremental vs zero-based budgeting; cash budgets",
+        "3.9c: Budget variances (favourable/adverse)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.9a, 3.9b, 3.9c (3.9-3.13 Budgeting and management accounting (Paper 2))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S10_Marginal_Costing_and_BreakEven": {
+      "criteria": [
+        "3.10a: Cost behaviour and contribution",
+        "QS3: Cost, revenue, profit and break-even",
+        "3.10b: Break-even analysis and the break-even chart",
+        "3.10c: Marginal costing in decision-making"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.10a, QS3, 3.10b, 3.10c (3.9-3.13 Budgeting and management accounting (Paper 2))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S11_Standard_Costing_and_Variances": {
+      "criteria": [
+        "3.11a: Purpose, advantages and disadvantages of standard costing",
+        "QS6: Variances",
+        "3.11b: Material price and usage variances",
+        "3.11c: Labour rate and efficiency variances; reconciliation statement"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.11a, QS6, 3.11b, 3.11c (3.9-3.13 Budgeting and management accounting (Paper 2))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S12_Absorption_and_ABC_Costing": {
+      "criteria": [
+        "3.12a: Absorption costing and the overhead absorption rate",
+        "3.12b: Activity based costing and cost drivers",
+        "QS7: Total product cost and selling price (ABC and absorption)",
+        "3.12c: Benefits/limitations of absorption, ABC and marginal costing; pricing from cost"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.12a, 3.12b, QS7, 3.12c (3.9-3.13 Budgeting and management accounting (Paper 2))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S13_Capital_Investment_Appraisal": {
+      "criteria": [
+        "3.13a: Relevant cash flows in investment appraisal",
+        "QS4: Investment appraisal outcomes",
+        "3.13b: Payback period",
+        "QS5: Payback and NPV, including discounting",
+        "3.13c: Net present value and discounting"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.13a, QS4, 3.13b, QS5, 3.13c (3.9-3.13 Budgeting and management accounting (Paper 2))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S14_Incomplete_Records": {
+      "criteria": [
+        "3.14a: Net assets (change-in-capital) method",
+        "3.14b: Reconstructing missing figures from control accounts",
+        "3.14c: Benefits and limitations of incomplete records"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.14a, 3.14b, 3.14c (3.14-3.16 Incomplete records, partnerships and company accounts extended (Paper 1))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S15_Partnership_Accounts": {
+      "criteria": [
+        "3.15a: Partnership appropriation account",
+        "3.15b: Partners' capital and current accounts",
+        "3.15c: Admission/retirement of a partner and goodwill"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.15a, 3.15b, 3.15c (3.14-3.16 Incomplete records, partnerships and company accounts extended (Paper 1))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S16_Limited_Company_Accounts_Extended": {
+      "criteria": [
+        "3.16a: Revaluation of non-current assets",
+        "3.16b: Rights issue of shares",
+        "3.16c: Bonus issue of shares",
+        "3.16d: Published accounts, stakeholders and the IASB framework"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.16a, 3.16b, 3.16c, 3.16d (3.14-3.16 Incomplete records, partnerships and company accounts extended (Paper 1))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S17_Interpretation_and_Evaluation": {
+      "criteria": [
+        "3.17a: Internal evaluation of performance",
+        "3.17b: External evaluation of performance"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.17a, 3.17b (3.17 Interpretation, analysis and communication (both papers))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S18_Communication_and_Recording_Systems": {
+      "criteria": [
+        "3.17c: Stakeholder interests and effective communication",
+        "3.17d: Impact of different systems of recording data"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.17c, 3.17d (3.17 Interpretation, analysis and communication (both papers))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S19_Ethics_Fundamental_Principles": {
+      "criteria": [
+        "3.18a: Fundamental ethical principles",
+        "3.18b: How ethical principles shape professional conduct"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.18a, 3.18b (3.18 Ethics, and quantitative/exam skills (both papers))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S20_Ethics_Regulatory_Frameworks_and_Action": {
+      "criteria": [
+        "3.18c: Legal and regulatory frameworks",
+        "3.18d: Role of professional bodies",
+        "3.18e: Appropriate action on suspected unethical/illegal acts"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives 3.18c, 3.18d, 3.18e (3.18 Ethics, and quantitative/exam skills (both papers))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    },
+    "S21_Quantitative_and_Exam_Skills": {
+      "criteria": [
+        "QS8: Written, graphical and numerical information",
+        "QS9: Quantitative and non-quantitative information for decisions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+        "reference": "7127 objectives QS8, QS9 (3.18 Ethics, and quantitative/exam skills (both papers))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of both 3-hour papers in AQA's structure, 120 marks each: Section A (30: 10 MC + short answer), Section B (40: structured questions), Section C (50: two 25-mark extended-response evaluation questions, 5 AO2 + 20 AO3 marks each, five-level response scheme)",
+      "Calculations shown with full workings (method marks require the method to be visible)",
+      "Section C answers weigh calculated figures against qualitative/contextual evidence to reach a supported judgement, per the five-level scheme"
+    ],
+    "pass_threshold": "At least 50% of the 240 marks overall and at least 40% on each of the two papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA A-level Accounting (7127) specification: subject content sections 3.1-3.18 and the annex quantitative skills in accounting",
+      "reference": "AQA 7127 scheme of assessment: two 3-hour papers, 120 marks each, 50% each (240 marks total); AO1 approx. 24-26%, AO2 approx. 33-35%, AO3 approx. 40-42%",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/accounting/specifications/AQA-7127-SP-2017.PDF"
+  ],
+  "source_notes": "AQA publishes the 7127 specification, including the 18 subject content sections and the quantitative skills annex, plus past papers and mark schemes (including the June 2025 7127/1 mark scheme, used to confirm Section C's five-level response structure and AO2/AO3 split). Stage tests and the mock are original questions in AQA's style. Numerical answers were computed with Python."
+}

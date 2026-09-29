@@ -1,0 +1,299 @@
+{
+  "stage_rubrics": {
+    "S01_Quantitative_Tools_for_Economics": {
+      "criteria": [
+        "MQ1: Marginal functions via differentiation",
+        "MQ2: Constrained optimisation and the Lagrange multiplier",
+        "MQ3: Compound growth and logarithmic growth rates",
+        "MQ4: Point (calculus) elasticity"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives MQ1, MQ2, MQ3, MQ4 (Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S02_Consumer_Theory": {
+      "criteria": [
+        "D217-1: Indifference curves and the marginal rate of substitution",
+        "D217-2: The consumer's optimum: tangency and Cobb-Douglas demand",
+        "D217-3: Substitution and income effects; Giffen goods",
+        "D217-4: The Slutsky equation",
+        "D217-5: Revealed preference theory (WARP)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-1, D217-2, D217-3, D217-4, D217-5 (Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S03_Producer_Theory": {
+      "criteria": [
+        "D217-6: Production functions, marginal product and isoquants",
+        "D217-7: Cost minimisation: MRTS = w/r",
+        "D217-8: Long-run cost curves and returns to scale",
+        "D217-9: Profit maximisation via calculus: MR = MC"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-6, D217-7, D217-8, D217-9 (Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S04_Market_Structures_with_Calculus": {
+      "criteria": [
+        "D217-10: Long-run perfect competition: P = min LRAC",
+        "D217-11: Monopoly markup and the Lerner index",
+        "D217-12: First-, second- and third-degree price discrimination"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-10, D217-11, D217-12 (Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S05_Game_Theory_and_Strategic_Behaviour": {
+      "criteria": [
+        "D217-13: Game theory: normal form, dominant strategies, Nash equilibrium",
+        "D217-14: The prisoner's dilemma and oligopoly collusion",
+        "D217-15: Cournot duopoly and reaction functions",
+        "D217-16: Bertrand competition and Stackelberg leadership"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-13, D217-14, D217-15, D217-16 (Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S06_Welfare_Economics_and_Market_Failure": {
+      "criteria": [
+        "D217-17: Pareto efficiency and the first welfare theorem",
+        "D217-18: Externalities and the Pigouvian tax",
+        "D217-19: The Coase theorem",
+        "D217-20: Public goods, free-riding and the Samuelson condition"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-17, D217-18, D217-19, D217-20 (Intermediate microeconomic theory and quantitative tools (Stage 2: D217 microeconomics, bridging into degree-level calculus))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S07_National_Income_and_IS_LM": {
+      "criteria": [
+        "D217-21: GDP measurement, nominal vs real GDP, the GDP deflator",
+        "D217-22: The Keynesian multiplier",
+        "D217-23: Deriving the IS curve",
+        "D217-24: Deriving the LM curve and IS-LM equilibrium"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-21, D217-22, D217-23, D217-24 (Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S08_Aggregate_Supply_Expectations_Phillips": {
+      "criteria": [
+        "D217-25: Short-run vs long-run aggregate supply",
+        "D217-26: The expectations-augmented Phillips curve and NAIRU",
+        "D217-27: Adaptive vs rational expectations; time inconsistency"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-25, D217-26, D217-27 (Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S09_Economic_Growth_Theory": {
+      "criteria": [
+        "D217-28: The Solow model: production and capital accumulation",
+        "D217-29: The Solow steady state and the golden rule",
+        "D217-30: Convergence and endogenous growth theory"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-28, D217-29, D217-30 (Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S10_Open_Economy_Macroeconomics": {
+      "criteria": [
+        "D217-31: The balance of payments identity",
+        "D217-32: Purchasing power parity and interest rate parity",
+        "D217-33: The Mundell-Fleming model",
+        "D217-34: The impossible trinity"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives D217-31, D217-32, D217-33, D217-34 (Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S11_Probability_and_Statistical_Inference": {
+      "criteria": [
+        "M248-1: Random variables and probability distributions",
+        "M248-2: Sampling distributions and the Central Limit Theorem",
+        "M248-3: Confidence intervals",
+        "M248-4: Hypothesis testing, Type I/II errors and p-values",
+        "M248-5: The two-sample t-test"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives M248-1, M248-2, M248-3, M248-4, M248-5 (Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S12_Regression_Analysis_and_Econometric_Basics": {
+      "criteria": [
+        "M248-6: Simple linear regression by OLS",
+        "M248-7: R-squared and residuals",
+        "M248-8: Hypothesis tests on regression coefficients",
+        "M248-9: Correlation, causation and omitted variable bias"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives M248-6, M248-7, M248-8, M248-9 (Intermediate macroeconomic theory and statistical inference (Stage 2: D217 macroeconomics and M248 Analysing data))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S13_Applied_Statistical_Modelling": {
+      "criteria": [
+        "M348-1: Multiple regression and ceteris paribus interpretation",
+        "M348-2: Multicollinearity and heteroscedasticity",
+        "M348-3: Dummy variables",
+        "M348-4: Logistic regression for binary outcomes",
+        "M348-5: Trend, seasonality and autocorrelation in time series"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives M348-1, M348-2, M348-3, M348-4, M348-5 (Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S14_Inequality_Innovation_and_Environment": {
+      "criteria": [
+        "DD320-1: The Lorenz curve and Gini coefficient",
+        "DD320-2: Absolute vs relative poverty",
+        "DD320-3: Innovation economics and the Arrow replacement effect",
+        "DD320-4: Carbon taxes vs cap-and-trade",
+        "DD320-5: Pluralism: mainstream vs heterodox approaches"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives DD320-1, DD320-2, DD320-3, DD320-4, DD320-5 (Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S15_International_and_Global_Economics": {
+      "criteria": [
+        "DD321-1: Comparative advantage and gains from trade",
+        "DD321-2: The Heckscher-Ohlin model",
+        "DD321-3: Tariffs and deadweight loss",
+        "DD321-4: Globalisation and global value chains",
+        "DD321-5: Growth vs development and the Human Development Index"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives DD321-1, DD321-2, DD321-3, DD321-4, DD321-5 (Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    },
+    "S16_Economic_Policy_Analysis_Capstone": {
+      "criteria": [
+        "DD226-1: The monetary policy transmission mechanism",
+        "DD226-2: Automatic stabilisers, discretionary policy and debt sustainability",
+        "DD226-3: Cost-benefit analysis and discounting",
+        "DD226-4: Behavioural and pluralist critiques of policy design",
+        "DD226-5: Writing an integrative policy briefing"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R30 through continuous TMAs plus module-level EMAs/exams rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+        "reference": "R30 objectives DD226-1, DD226-2, DD226-3, DD226-4, DD226-5 (Applied statistical modelling, applied/policy economics and global economics (Stage 3: M348, DD320, DD321, DD226))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r30"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A comprehensive original problem set spanning every block: intermediate micro (consumer/producer theory, market structures, game theory, welfare economics), intermediate macro (IS-LM, growth, open economy), statistical inference and regression, and at least one applied/policy question drawing on DD320/DD321/DD226",
+      "Calculations with full working shown (method marks require the method, not just the final figure)",
+      "At least one extended evaluative answer synthesising theory and evidence into a reasoned policy judgement, graded by levels"
+    ],
+    "pass_threshold": "At least 60% of the marks overall, with a genuine attempt at every block (the course's own standard; the real R30 sets no single combined pass mark, see the assessment_model learner notice).",
+    "source": {
+      "issuing_body": "The Open University",
+      "document": "The Open University's BA (Honours) Economics, qualification code R30: the real Stage 1-3 module list and credit structure (DB125, DD126, MU123, M140 at Stage 1; D217, M248, DD226 at Stage 2; DD320, DD321, M348 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Economics (5th edition, published 8 March 2023)",
+      "reference": "An original cumulative synthesis assessment covering the full R30-mapped stage ladder (S01-S16); the real OU R30 has no single combined final exam to mirror (see the assessment_model learner notice)",
+      "urls": [
+        "https://www.open.ac.uk/courses/qualifications/r30"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.open.ac.uk/courses/qualifications/r30"
+  ],
+  "source_notes": "The OU publishes R30's module list in its qualification page and Social Sciences Prospectus; individual module pages (open.ac.uk/courses/modules/<code>) confirm each module's code and title. Stage tests and the cumulative exam are original problems in the style of UK intermediate/degree economics assessment. Numerical answers were computed with Python."
+}

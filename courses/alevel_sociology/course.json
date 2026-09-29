@@ -1,0 +1,77 @@
+{
+  "schema_version": 4,
+  "name": "A-level Sociology (AQA 7192): Education, Families and Households, Beliefs in Society, and Crime and Deviance, with Theory and Methods",
+  "requires_complete": [
+    "gcse_sociology"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "paper2_group_1_topic": "Families and Households",
+    "paper2_group_2_topic": "Beliefs in Society"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA A-level Sociology (7192) specification, the current specification (first teaching from September 2015), linked from aqa.org.uk/subjects/sociology/a-level/sociology-7192/specification and itemised on 2026-09-27: 3.1 Education with Theory and Methods (3.1.1 Education -- perspectives on its role, class/gender/ethnicity differences in achievement, relationships and processes within schools, and educational policy; 3.1.2 Methods in Context -- applying research methods specifically to education; 3.1.3 Theory and Methods -- quantitative and qualitative methods, sources of data, factors affecting choice of method, sociological theory including positivism/interpretivism and consensus/conflict/structural/social action theories, modernity/postmodernity, value freedom and social policy); 3.2 Topics in Sociology (one option from each of two groups for Paper 2 -- this course selects Families and Households from Group 1 and Beliefs in Society from Group 2, the other six options -- Culture and Identity, Health, Work Poverty and Welfare, Global Development, The Media, Stratification and Differentiation -- declared out of scope); 3.3 Crime and Deviance with Theory and Methods (3.3.1 Crime and Deviance -- functionalist/strain/subcultural/interactionist/Marxist/realist theories, crime and class/gender/ethnicity, globalisation/green/state crime, crime and the media, crime control/surveillance/punishment, victims, and measuring crime; 3.3.2 Theory and Methods -- the same common content as 3.1.3, examined again at a different tariff). Assessment: three written papers, each 2 hours, 80 marks, 33.3% of the qualification (240 marks total). Paper 1: Section A Education (50 marks: a 4-mark and a 6-mark 'Outline...' item, a 10-mark item applying a given Item, and a 30-mark essay applying a given Item), Section B Methods in Context (one 20-mark item applying a given Item), Section C Theory and Methods (one 10-mark 'Outline and explain...' item, no Item). Paper 2: Section A (the selected Group 1 topic, Families and Households: a 10-mark 'Outline and explain...' item with no Item, a 10-mark item applying a given Item, and a 20-mark essay applying a given Item) and Section B (the same structure for the selected Group 2 topic, Beliefs in Society). Paper 3: Section A Crime and Deviance (50 marks, the same 4/6/10/30 structure as Paper 1 Section A) and Section B Theory and Methods (30 marks: a 10-mark 'Outline and explain...' item, no Item, and a 20-mark item applying a given Item). Assessment objective weightings across all three papers: AO1 (knowledge and understanding) 44%, AO2 (application) 31%, AO3 (analysis and evaluation) 25%. Stage tests and the mock are original questions in AQA's style at the real tariffs, marked against AQA's own point-based short-item scoring and levels-of-response conventions.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for AQA 7192",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "options",
+      "text": "AQA 7192 requires one Topics in Sociology option from each of two groups for Paper 2: Group 1 (Culture and Identity, Families and Households, Health, Work Poverty and Welfare) and Group 2 (Beliefs in Society, Global Development, The Media, Stratification and Differentiation). This course teaches Families and Households and Beliefs in Society -- a common, well-resourced combination that connects naturally to family and religious content already touched on in Education and elsewhere. If your school or exam entry uses different options, the Paper 2 content here will not match what you sit; check your own exam board entry before relying on this course for Paper 2."
+    },
+    {
+      "id": "gcse_overlap",
+      "text": "This course requires GCSE Sociology (AQA 8192) as a prerequisite and assumes that foundation (e.g. basic functionalist/Marxist/interactionist perspectives, and the idea that crime and family structures are socially constructed and studied through sociological research methods). Where the specifications overlap (families, education roles, crime, basic research methods, key perspectives), this course does not simply repeat the GCSE content -- it teaches the substantially deeper A-level treatment (e.g. named theorists and their specific studies rather than just named perspectives, the full theory-and-methods content including positivism/interpretivism and the science debate, labelling theory applied in depth to both education and crime, and the Theory with Education/Crime papers' extended-writing demands). Revisit the GCSE course's content directly if a foundational term or concept needs refreshing."
+    },
+    {
+      "id": "current_statistics",
+      "text": "Some content in this course refers to trends that continue to change over time -- for example the UK's current divorce rate, birth/death rates, migration figures, and the current composition/size of specific religious or ethnic groups in the UK. This course explains the sociological patterns and their established explanations (which do not go stale), but where an exact current figure would help an answer, check the latest release from the Office for National Statistics (ons.gov.uk) rather than relying on a fixed number baked into this course -- AQA generally rewards accurate sociological reasoning over memorising a single statistic, but being able to cite a plausible current figure strengthens an answer."
+    },
+    {
+      "id": "sensitive_content",
+      "text": "This course covers sensitive real-world topics in academic, analytical detail, including domestic violence, mental illness, poverty, racism, state crime and victimisation. This is taught as academic sociological content, not personal advice; a learner who raises their own or someone else's safety or wellbeing should be encouraged to speak to a trusted adult or an appropriate service (e.g. Childline, the National Domestic Abuse Helpline, Samaritans), alongside continuing the academic content."
+    },
+    {
+      "id": "named_studies",
+      "text": "AQA credits specific, correctly attributed sociological theorists and studies (e.g. Durkheim, Bowles and Gintis, Willis, Becker, Oakley, Weber) far more highly than vague, unattributed claims ('some sociologists say...'). Build a genuine bank of named theorists/studies for each topic area, and practise deploying them precisely -- who argued what, using what evidence or method, and what the main criticism of it is -- rather than learning them as isolated facts."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Perspectives_on_the_Role_of_Education",
+    "S02_Class_and_Gender_Differences_in_Achievement",
+    "S03_Ethnicity_Differences_and_School_Processes",
+    "S04_Pupil_Subcultures_Hidden_Curriculum_and_Organisation",
+    "S05_Educational_Policy",
+    "S06_Methods_in_Context",
+    "S07_Research_Design_and_Sources_of_Data",
+    "S08_Observation_Experiments_and_Documentary_Sources",
+    "S09_Choosing_Methods_Theoretical_Practical_and_Ethical",
+    "S10_Positivism_Interpretivism_and_Sociological_Theory",
+    "S11_Modernity_Postmodernity_Value_Freedom_and_Policy",
+    "S12_Family_Perspectives_and_Changing_Patterns",
+    "S13_Gender_Domestic_Labour_and_Childhood",
+    "S14_Demographic_Trends",
+    "S15_Religion_Ideology_and_Social_Change",
+    "S16_Religious_Organisations_and_Social_Groups",
+    "S17_Secularisation_Globalisation_and_Fundamentalism",
+    "S18_Functionalist_Strain_and_Subcultural_Theories",
+    "S19_Labelling_Marxist_Criminology_and_Realism",
+    "S20_Crime_Class_Gender_and_Ethnicity",
+    "S21_Globalisation_Green_State_Crime_and_the_Media",
+    "S22_Crime_Control_Surveillance_and_Punishment",
+    "S23_Victims_and_Measuring_Crime"
+  ]
+}

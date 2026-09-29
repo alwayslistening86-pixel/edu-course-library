@@ -1,0 +1,310 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "Oracle University, Exam 1Z0-830: Java SE 21 Developer Professional (Oracle Certified Professional: Java SE 21 Developer): exam topics on the Oracle MyLearn exam page",
+    "url": "https://mylearn.oracle.com/ou/exam/java-se-21-developer-professional-1z0-830/105037/139080/220555",
+    "version": "1Z0-830 exam topics as published on Oracle MyLearn, fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "Oracle lists the objectives under 10 headed areas plus a closing 'Candidates are also expected to' list, all without numbers; ids number them area.position in the page's order (1.1-10.1), and the closing list is area 11 (11.1-11.3)."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1",
+      "title": "Use primitives and wrapper classes; evaluate arithmetic and boolean expressions using the Math API, precedence rules, type conversions and casting",
+      "topic_area": "1 Handling Date, Time, Text, Numeric and Boolean Values"
+    },
+    {
+      "id": "1.2",
+      "title": "Manipulate text, including text blocks, using the String and StringBuilder classes",
+      "topic_area": "1 Handling Date, Time, Text, Numeric and Boolean Values"
+    },
+    {
+      "id": "1.3",
+      "title": "Manipulate date, time, duration, period, instant and time-zone objects, including daylight saving time, using the Date-Time API",
+      "topic_area": "1 Handling Date, Time, Text, Numeric and Boolean Values"
+    },
+    {
+      "id": "2.1",
+      "title": "Create program flow control constructs, including if/else, switch statements and expressions, loops, and break and continue",
+      "topic_area": "2 Controlling Program Flow"
+    },
+    {
+      "id": "3.1",
+      "title": "Declare and instantiate Java objects, including nested class objects, and explain the object life-cycle: creation, reassigning references and garbage collection",
+      "topic_area": "3 Using Object-Oriented Concepts in Java"
+    },
+    {
+      "id": "3.2",
+      "title": "Create classes and records, and define and use instance and static fields and methods, constructors, and instance and static initializers",
+      "topic_area": "3 Using Object-Oriented Concepts in Java"
+    },
+    {
+      "id": "3.3",
+      "title": "Implement overloaded methods, including var-arg methods",
+      "topic_area": "3 Using Object-Oriented Concepts in Java"
+    },
+    {
+      "id": "3.4",
+      "title": "Understand variable scopes, apply encapsulation, create immutable objects, and use local variable type inference",
+      "topic_area": "3 Using Object-Oriented Concepts in Java"
+    },
+    {
+      "id": "3.5",
+      "title": "Implement inheritance with abstract and sealed types and records; override methods including Object's; polymorphism, object vs reference type, reference casting, instanceof, and pattern matching with instanceof and switch",
+      "topic_area": "3 Using Object-Oriented Concepts in Java"
+    },
+    {
+      "id": "3.6",
+      "title": "Create and use interfaces, identify functional interfaces, and use private, static and default interface methods",
+      "topic_area": "3 Using Object-Oriented Concepts in Java"
+    },
+    {
+      "id": "3.7",
+      "title": "Create and use enum types with fields, methods and constructors",
+      "topic_area": "3 Using Object-Oriented Concepts in Java"
+    },
+    {
+      "id": "4.1",
+      "title": "Handle exceptions using try/catch/finally, try-with-resources and multi-catch blocks, including custom exceptions",
+      "topic_area": "4 Handling Exceptions"
+    },
+    {
+      "id": "5.1",
+      "title": "Create arrays, List, Set, Map and Deque collections, and add, remove, update, retrieve and sort their elements",
+      "topic_area": "5 Working with Arrays and Collections"
+    },
+    {
+      "id": "6.1",
+      "title": "Use object and primitive streams, with lambda expressions implementing functional interfaces, to create, filter, transform, process and sort data",
+      "topic_area": "6 Working with Streams and Lambda Expressions"
+    },
+    {
+      "id": "6.2",
+      "title": "Perform decomposition, concatenation and reduction, and grouping and partitioning, on sequential and parallel streams",
+      "topic_area": "6 Working with Streams and Lambda Expressions"
+    },
+    {
+      "id": "7.1",
+      "title": "Define modules and expose module content, including by reflection; declare module dependencies; define services, providers and consumers",
+      "topic_area": "7 Packaging and Deploying Java Code"
+    },
+    {
+      "id": "7.2",
+      "title": "Compile Java code; create modular and non-modular jars and runtime images; migrate to modules using unnamed and automatic modules",
+      "topic_area": "7 Packaging and Deploying Java Code"
+    },
+    {
+      "id": "8.1",
+      "title": "Create platform and virtual threads; use Runnable and Callable; manage the thread life-cycle; use Executor services and the concurrent API to run tasks",
+      "topic_area": "8 Managing Concurrent Code Execution"
+    },
+    {
+      "id": "8.2",
+      "title": "Develop thread-safe code using locking mechanisms and the concurrent API",
+      "topic_area": "8 Managing Concurrent Code Execution"
+    },
+    {
+      "id": "8.3",
+      "title": "Process Java collections concurrently and use parallel streams",
+      "topic_area": "8 Managing Concurrent Code Execution"
+    },
+    {
+      "id": "9.1",
+      "title": "Read and write console and file data using I/O streams",
+      "topic_area": "9 Using the Java I/O API"
+    },
+    {
+      "id": "9.2",
+      "title": "Serialize and deserialize Java objects",
+      "topic_area": "9 Using the Java I/O API"
+    },
+    {
+      "id": "9.3",
+      "title": "Construct, traverse, create, read and write Path objects and their properties using the java.nio.file API",
+      "topic_area": "9 Using the Java I/O API"
+    },
+    {
+      "id": "10.1",
+      "title": "Implement localization using locales and resource bundles; parse and format messages, dates, times and numbers, including currency and percentage values",
+      "topic_area": "10 Implementing Localization"
+    },
+    {
+      "id": "11.1",
+      "title": "Understand the basics of the Java Logging API",
+      "topic_area": "11 Candidates are also expected to"
+    },
+    {
+      "id": "11.2",
+      "title": "Use annotations such as Override, FunctionalInterface, Deprecated, SuppressWarnings and SafeVarargs",
+      "topic_area": "11 Candidates are also expected to"
+    },
+    {
+      "id": "11.3",
+      "title": "Use generics, including wildcards",
+      "topic_area": "11 Candidates are also expected to"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Primitives_Wrappers_and_Math": {
+    "covers_syllabus_refs": [
+      "1Z0-830 1.1"
+    ],
+    "syllabus_topic": "Area 1 Handling Date, Time, Text, Numeric and Boolean Values",
+    "covers_items": [
+      "1.1"
+    ]
+  },
+  "S02_Strings_StringBuilder_Text_Blocks": {
+    "covers_syllabus_refs": [
+      "1Z0-830 1.2"
+    ],
+    "syllabus_topic": "Area 1 Handling Date, Time, Text, Numeric and Boolean Values",
+    "covers_items": [
+      "1.2"
+    ]
+  },
+  "S03_Date_Time_API": {
+    "covers_syllabus_refs": [
+      "1Z0-830 1.3"
+    ],
+    "syllabus_topic": "Area 1 Handling Date, Time, Text, Numeric and Boolean Values",
+    "covers_items": [
+      "1.3"
+    ]
+  },
+  "S04_Program_Flow": {
+    "covers_syllabus_refs": [
+      "1Z0-830 2.1"
+    ],
+    "syllabus_topic": "Area 2 Controlling Program Flow",
+    "covers_items": [
+      "2.1"
+    ]
+  },
+  "S05_Objects_Classes_and_Records": {
+    "covers_syllabus_refs": [
+      "1Z0-830 3.1",
+      "1Z0-830 3.2"
+    ],
+    "syllabus_topic": "Area 3 Using Object-Oriented Concepts in Java",
+    "covers_items": [
+      "3.1",
+      "3.2"
+    ]
+  },
+  "S06_Overloading_Scope_and_Immutability": {
+    "covers_syllabus_refs": [
+      "1Z0-830 3.3",
+      "1Z0-830 3.4"
+    ],
+    "syllabus_topic": "Area 3 Using Object-Oriented Concepts in Java",
+    "covers_items": [
+      "3.3",
+      "3.4"
+    ]
+  },
+  "S07_Inheritance_Polymorphism_Pattern_Matching": {
+    "covers_syllabus_refs": [
+      "1Z0-830 3.5"
+    ],
+    "syllabus_topic": "Area 3 Using Object-Oriented Concepts in Java",
+    "covers_items": [
+      "3.5"
+    ]
+  },
+  "S08_Interfaces_and_Enums": {
+    "covers_syllabus_refs": [
+      "1Z0-830 3.6",
+      "1Z0-830 3.7"
+    ],
+    "syllabus_topic": "Area 3 Using Object-Oriented Concepts in Java",
+    "covers_items": [
+      "3.6",
+      "3.7"
+    ]
+  },
+  "S09_Exceptions": {
+    "covers_syllabus_refs": [
+      "1Z0-830 4.1"
+    ],
+    "syllabus_topic": "Area 4 Handling Exceptions",
+    "covers_items": [
+      "4.1"
+    ]
+  },
+  "S10_Collections_Generics_Annotations": {
+    "covers_syllabus_refs": [
+      "1Z0-830 5.1",
+      "1Z0-830 11.2",
+      "1Z0-830 11.3"
+    ],
+    "syllabus_topic": "Area 5 Working with Arrays and Collections, with the generics and annotations objectives from 'Candidates are also expected to'",
+    "covers_items": [
+      "5.1",
+      "11.2",
+      "11.3"
+    ]
+  },
+  "S11_Streams_and_Lambdas": {
+    "covers_syllabus_refs": [
+      "1Z0-830 6.1",
+      "1Z0-830 6.2"
+    ],
+    "syllabus_topic": "Area 6 Working with Streams and Lambda Expressions",
+    "covers_items": [
+      "6.1",
+      "6.2"
+    ]
+  },
+  "S12_Concurrency": {
+    "covers_syllabus_refs": [
+      "1Z0-830 8.1",
+      "1Z0-830 8.2",
+      "1Z0-830 8.3"
+    ],
+    "syllabus_topic": "Area 8 Managing Concurrent Code Execution",
+    "covers_items": [
+      "8.1",
+      "8.2",
+      "8.3"
+    ]
+  },
+  "S13_IO_and_NIO2": {
+    "covers_syllabus_refs": [
+      "1Z0-830 9.1",
+      "1Z0-830 9.2",
+      "1Z0-830 9.3"
+    ],
+    "syllabus_topic": "Area 9 Using the Java I/O API",
+    "covers_items": [
+      "9.1",
+      "9.2",
+      "9.3"
+    ]
+  },
+  "S14_Localization_and_Logging": {
+    "covers_syllabus_refs": [
+      "1Z0-830 10.1",
+      "1Z0-830 11.1"
+    ],
+    "syllabus_topic": "Area 10 Implementing Localization, with the Logging API objective from 'Candidates are also expected to'",
+    "covers_items": [
+      "10.1",
+      "11.1"
+    ]
+  },
+  "S15_Modules_and_Deployment": {
+    "covers_syllabus_refs": [
+      "1Z0-830 7.1",
+      "1Z0-830 7.2"
+    ],
+    "syllabus_topic": "Area 7 Packaging and Deploying Java Code",
+    "covers_items": [
+      "7.1",
+      "7.2"
+    ]
+  }
+}

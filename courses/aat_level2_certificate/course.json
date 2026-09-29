@@ -1,0 +1,69 @@
+{
+  "schema_version": 4,
+  "name": "AAT Level 2 Certificate in Accounting",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6 (published 1 September 2026), the current version linked from aat.org.uk/deliver/qualifications/specifications-outlines, itemised on 2026-09-27: every scope-of-content topic area across the qualification's four mandatory units -- Introduction to Bookkeeping, Principles of Bookkeeping Controls, Principles of Costing and The Business Environment (255 guided learning hours, 340 total qualification time in all). Assessment (real AAT structure): three of the four units (Introduction to Bookkeeping, Principles of Bookkeeping Controls, Principles of Costing) each have their own 1h30m computer-based unit assessment; The Business Environment is assessed only as part of a 2-hour, partially human-marked synoptic assessment that also draws on content from the other three units. A student must pass all three unit assessments and the synoptic assessment to achieve the qualification; AAT publishes a pass mark of 70% across every assessment, with Merit at 80-89% and Distinction at 90-100% (weighted 25% Introduction to Bookkeeping, 25% Principles of Bookkeeping Controls, 20% Principles of Costing, 30% The Business Environment synoptic assessment). This course's 24 stages give one checkpoint per learning-outcome group within each unit (collectively covering the three standalone unit assessments' content); the course's own cumulative exam is built to mirror AAT's real synoptic assessment -- integrated, cross-unit questions in a workplace scenario, since that is genuinely how AAT itself assesses The Business Environment. Every numerical example (VAT, discounts, control-account and bank reconciliations, journal entries, trial balances, FIFO/LIFO/AVCO, labour pay, overhead absorption, product costing, budget variances) was computed and verified in Python when this course was built. UK VAT is taken at the standard rate of 20% throughout.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2, per Ofqual's Register of Regulated Qualifications listing for AAT Level 2 Certificate in Accounting (603/6338/1); also regulated by CCEA (Northern Ireland) and Qualifications Wales",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "real_assessment_structure",
+      "text": "AAT itself does not set a single combined final exam for this qualification. It sets three separate 1h30m computer-based unit assessments (Introduction to Bookkeeping, Principles of Bookkeeping Controls, Principles of Costing) plus one 2-hour, partially human-marked synoptic assessment covering The Business Environment and drawing on the other three units. This course's 24 stage tests together cover the content of all four units and the three standalone unit assessments; the course's cumulative exam is built to mirror AAT's real synoptic assessment specifically, since that is genuinely how AAT assesses The Business Environment."
+    },
+    {
+      "id": "pass_mark",
+      "text": "This course uses AAT's own published pass mark of 70% for every stage test and the exam, because AAT states it maintains a 70% pass mark across all its assessments for this qualification -- this is a real, published figure, not the course's own usual 60% standard."
+    },
+    {
+      "id": "vat_rate",
+      "text": "The UK standard VAT rate used throughout this course is 20% (the rate in force since 4 January 2011). Check gov.uk for the current rate if it may have changed since this course was built."
+    },
+    {
+      "id": "digital_systems",
+      "text": "AAT expects familiarity with both manual and digital bookkeeping methods, but does not require any specific accounting software. This course teaches the manual double-entry method throughout (so every step can be worked and checked by hand); where the real assessment references digital systems, this course explains what the software automates rather than requiring a specific package."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_IB_Systems_and_Documents",
+    "S02_IB_Customer_Invoices",
+    "S03_IB_Customer_Receipts",
+    "S04_IB_Supplier_Invoices",
+    "S05_IB_Supplier_Payments",
+    "S06_IB_Cash_Book_and_Petty_Cash",
+    "S07_IB_Ledgers",
+    "S08_PBC_Control_Accounts",
+    "S09_PBC_Bank_Reconciliation",
+    "S10_PBC_Journal_Transactions",
+    "S11_PBC_Journal_Error_Correction",
+    "S12_PBC_Trial_Balances",
+    "S13_PC_Cost_Classification",
+    "S14_PC_Inventory_Valuation",
+    "S15_PC_Labour_and_Overheads",
+    "S16_PC_Cost_Behaviour_and_Product_Cost",
+    "S17_PC_Budgets_Variances_Tools",
+    "S18_BE_Contract_Law",
+    "S19_BE_External_Environment",
+    "S20_BE_CSR_Ethics_Sustainability",
+    "S21_BE_Business_Entities",
+    "S22_BE_Finance_Function",
+    "S23_BE_Communication",
+    "S24_BE_Information_and_Security"
+  ]
+}

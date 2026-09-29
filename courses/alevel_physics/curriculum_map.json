@@ -1,0 +1,1835 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA AS and A-level Physics (7407/7408) specification: subject content 3.1-3.13, mathematical requirements (section 6) and practical assessment (section 8)",
+    "url": "https://cdn.sanity.io/files/p28bar15/green/fa68d54c1a3b8ef17760536c7fb2e3911c29dc73.pdf",
+    "version": "Version 1.4 (July 2026), linked from aqa.org.uk/7408 and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA's own codes: content at the deepest numbered level (3.1.1-3.13.6.4), mathematical skills MS 0.1-MS 4.7, practical skills PS1.1-PS4.1, apparatus and techniques ATa-ATl, and the twelve required practicals numbered RP1-RP12 in AQA's order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "3.1.1",
+      "title": "Use of SI units and their prefixes",
+      "topic_area": "3.1 Measurements and their errors"
+    },
+    {
+      "id": "3.1.2",
+      "title": "Limitation of physical measurements",
+      "topic_area": "3.1 Measurements and their errors"
+    },
+    {
+      "id": "3.1.3",
+      "title": "Estimation of physical quantities",
+      "topic_area": "3.1 Measurements and their errors"
+    },
+    {
+      "id": "3.2.1.1",
+      "title": "Constituents of the atom",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.1.2",
+      "title": "Stable and unstable nuclei",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.1.3",
+      "title": "Particles, antiparticles and photons",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.1.4",
+      "title": "Particle interactions",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.1.5",
+      "title": "Classification of particles",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.1.6",
+      "title": "Quarks and antiquarks",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.1.7",
+      "title": "Applications of conservation laws",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.2.1",
+      "title": "The photoelectric effect",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.2.2",
+      "title": "Collisions of electrons with atoms",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.2.3",
+      "title": "Energy levels and photon emission",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.2.2.4",
+      "title": "Wave-particle duality",
+      "topic_area": "3.2 Particles and radiation"
+    },
+    {
+      "id": "3.3.1.1",
+      "title": "Progressive waves",
+      "topic_area": "3.3 Waves"
+    },
+    {
+      "id": "3.3.1.2",
+      "title": "Longitudinal and transverse waves",
+      "topic_area": "3.3 Waves"
+    },
+    {
+      "id": "3.3.1.3",
+      "title": "Principle of superposition of waves and formation of stationary waves",
+      "topic_area": "3.3 Waves"
+    },
+    {
+      "id": "3.3.2.1",
+      "title": "Interference",
+      "topic_area": "3.3 Waves"
+    },
+    {
+      "id": "3.3.2.2",
+      "title": "Diffraction",
+      "topic_area": "3.3 Waves"
+    },
+    {
+      "id": "3.3.2.3",
+      "title": "Refraction at a plane surface",
+      "topic_area": "3.3 Waves"
+    },
+    {
+      "id": "3.4.1.1",
+      "title": "Scalars and vectors",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.1.2",
+      "title": "Moments",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.1.3",
+      "title": "Motion along a straight line",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.1.4",
+      "title": "Projectile motion",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.1.5",
+      "title": "Newton's laws of motion",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.1.6",
+      "title": "Momentum",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.1.7",
+      "title": "Work, energy and power",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.1.8",
+      "title": "Conservation of energy",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.2.1",
+      "title": "Bulk properties of solids",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.4.2.2",
+      "title": "The Young modulus",
+      "topic_area": "3.4 Mechanics and materials"
+    },
+    {
+      "id": "3.5.1.1",
+      "title": "Basics of electricity",
+      "topic_area": "3.5 Electricity"
+    },
+    {
+      "id": "3.5.1.2",
+      "title": "Current-voltage characteristics",
+      "topic_area": "3.5 Electricity"
+    },
+    {
+      "id": "3.5.1.3",
+      "title": "Resistivity",
+      "topic_area": "3.5 Electricity"
+    },
+    {
+      "id": "3.5.1.4",
+      "title": "Circuits",
+      "topic_area": "3.5 Electricity"
+    },
+    {
+      "id": "3.5.1.5",
+      "title": "Potential divider",
+      "topic_area": "3.5 Electricity"
+    },
+    {
+      "id": "3.5.1.6",
+      "title": "Electromotive force and internal resistance",
+      "topic_area": "3.5 Electricity"
+    },
+    {
+      "id": "3.6.1.1",
+      "title": "Circular motion",
+      "topic_area": "3.6 Further mechanics and thermal physics"
+    },
+    {
+      "id": "3.6.1.2",
+      "title": "Simple harmonic motion (SHM)",
+      "topic_area": "3.6 Further mechanics and thermal physics"
+    },
+    {
+      "id": "3.6.1.3",
+      "title": "Simple harmonic systems",
+      "topic_area": "3.6 Further mechanics and thermal physics"
+    },
+    {
+      "id": "3.6.1.4",
+      "title": "Forced vibrations and resonance",
+      "topic_area": "3.6 Further mechanics and thermal physics"
+    },
+    {
+      "id": "3.6.2.1",
+      "title": "Thermal energy transfer",
+      "topic_area": "3.6 Further mechanics and thermal physics"
+    },
+    {
+      "id": "3.6.2.2",
+      "title": "Ideal gases",
+      "topic_area": "3.6 Further mechanics and thermal physics"
+    },
+    {
+      "id": "3.6.2.3",
+      "title": "Molecular kinetic theory model",
+      "topic_area": "3.6 Further mechanics and thermal physics"
+    },
+    {
+      "id": "3.7.1",
+      "title": "Fields",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.2.1",
+      "title": "Newton's law of gravitation",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.2.2",
+      "title": "Gravitational field strength",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.2.3",
+      "title": "Gravitational potential",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.2.4",
+      "title": "Orbits of planets and satellites",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.3.1",
+      "title": "Coulomb's law",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.3.2",
+      "title": "Electric field strength",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.3.3",
+      "title": "Electric potential",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.4.1",
+      "title": "Capacitance",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.4.2",
+      "title": "Parallel plate capacitor",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.4.3",
+      "title": "Energy stored by a capacitor",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.4.4",
+      "title": "Capacitor charge and discharge",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.5.1",
+      "title": "Magnetic flux density",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.5.2",
+      "title": "Moving charges in a magnetic field",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.5.3",
+      "title": "Magnetic flux and flux linkage",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.5.4",
+      "title": "Electromagnetic induction",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.5.5",
+      "title": "Alternating currents",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.7.5.6",
+      "title": "The operation of a transformer",
+      "topic_area": "3.7 Fields and their consequences"
+    },
+    {
+      "id": "3.8.1.1",
+      "title": "Rutherford scattering",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.8.1.2",
+      "title": "Alpha, beta and gamma radiation",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.8.1.3",
+      "title": "Radioactive decay",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.8.1.4",
+      "title": "Nuclear instability",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.8.1.5",
+      "title": "Nuclear radius",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.8.1.6",
+      "title": "Mass and energy",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.8.1.7",
+      "title": "Induced fission",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.8.1.8",
+      "title": "Safety aspects",
+      "topic_area": "3.8 Nuclear physics"
+    },
+    {
+      "id": "3.9.1.1",
+      "title": "Astronomical telescope consisting of two converging lenses",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.1.2",
+      "title": "Reflecting telescopes",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.1.3",
+      "title": "Single dish radio telescopes, I-R, U-V and X-ray telescopes",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.1.4",
+      "title": "Advantages of large diameter telescopes",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.2.1",
+      "title": "Classification by luminosity",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.2.2",
+      "title": "Absolute magnitude, M",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.2.3",
+      "title": "Classification by temperature, black-body radiation",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.2.4",
+      "title": "Principles of the use of stellar spectral classes",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.2.5",
+      "title": "The Hertzsprung-Russell (HR) diagram",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.2.6",
+      "title": "Supernovae, neutron stars and black holes",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.3.1",
+      "title": "Doppler effect",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.3.2",
+      "title": "Hubble's law",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.3.3",
+      "title": "Quasars",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.9.3.4",
+      "title": "Detection of exoplanets",
+      "topic_area": "3.9 Astrophysics (option)"
+    },
+    {
+      "id": "3.10.1.1",
+      "title": "Physics of vision",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.1.2",
+      "title": "Defects of vision and their correction using lenses",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.2.1",
+      "title": "Ear as a sound detection system",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.2.2",
+      "title": "Sensitivity and frequency response",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.2.3",
+      "title": "Defects of hearing",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.3.1",
+      "title": "Simple ECG machines and the normal ECG waveform",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.4.1",
+      "title": "Ultrasound imaging",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.4.2",
+      "title": "Fibre optics and endoscopy",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.4.3",
+      "title": "Magnetic resonance (MR) scanner",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.5.1",
+      "title": "The physics of diagnostic X-rays",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.5.2",
+      "title": "Image detection and enhancement",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.5.3",
+      "title": "Absorption of X-rays",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.5.4",
+      "title": "CT scanner",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.6.1",
+      "title": "Imaging techniques",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.6.2",
+      "title": "Half-life",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.6.3",
+      "title": "Gamma camera",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.6.4",
+      "title": "Use of high-energy X-rays",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.6.5",
+      "title": "Use of radioactive implants",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.10.6.6",
+      "title": "Imaging comparisons",
+      "topic_area": "3.10 Medical physics (option, not selected)"
+    },
+    {
+      "id": "3.11.1.1",
+      "title": "Concept of moment of inertia",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.1.2",
+      "title": "Rotational kinetic energy",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.1.3",
+      "title": "Rotational motion",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.1.4",
+      "title": "Torque and angular acceleration",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.1.5",
+      "title": "Angular momentum",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.1.6",
+      "title": "Work and power",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.2.1",
+      "title": "First law of thermodynamics",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.2.2",
+      "title": "Non-flow processes",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.2.3",
+      "title": "The p-V diagram",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.2.4",
+      "title": "Engine cycles",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.2.5",
+      "title": "Second Law and engines",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.11.2.6",
+      "title": "Reversed heat engines",
+      "topic_area": "3.11 Engineering physics, rebranded Applied physics (option, not selected)"
+    },
+    {
+      "id": "3.12.1.1",
+      "title": "Cathode rays",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.1.2",
+      "title": "Thermionic emission of electrons",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.1.3",
+      "title": "Specific charge of the electron",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.1.4",
+      "title": "Principle of Millikan's determination of the electronic charge, e",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.2.1",
+      "title": "Newton's corpuscular theory of light",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.2.2",
+      "title": "Significance of Young's double slits experiment",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.2.3",
+      "title": "Electromagnetic waves",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.2.4",
+      "title": "The discovery of photoelectricity",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.2.5",
+      "title": "Wave-particle duality",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.2.6",
+      "title": "Electron microscopes",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.3.1",
+      "title": "The Michelson-Morley experiment",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.3.2",
+      "title": "Einstein's theory of special relativity",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.3.3",
+      "title": "Time dilation",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.3.4",
+      "title": "Length contraction",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.12.3.5",
+      "title": "Mass and energy",
+      "topic_area": "3.12 Turning points in physics (option, not selected)"
+    },
+    {
+      "id": "3.13.1.1",
+      "title": "MOSFET (metal-oxide semiconducting field-effect transistor)",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.1.2",
+      "title": "Zener diode",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.1.3",
+      "title": "Photodiode",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.1.4",
+      "title": "Hall effect sensor",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.2.1",
+      "title": "Difference between analogue and digital signals",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.3.1",
+      "title": "LC resonance filters",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.3.2",
+      "title": "The ideal operational amplifier",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.4.1",
+      "title": "Inverting amplifier configuration",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.4.2",
+      "title": "Non-inverting amplifier configuration",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.4.3",
+      "title": "Summing amplifier configuration",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.4.4",
+      "title": "Real operational amplifiers",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.5.1",
+      "title": "Combinational logic",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.5.2",
+      "title": "Sequential logic",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.5.3",
+      "title": "Astables",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.6.1",
+      "title": "Principles of communication systems",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.6.2",
+      "title": "Transmission media",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.6.3",
+      "title": "Time-division multiplexing",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "3.13.6.4",
+      "title": "Amplitude (AM) and frequency modulation (FM) techniques",
+      "topic_area": "3.13 Electronics (option, not selected)"
+    },
+    {
+      "id": "MS 0.1",
+      "title": "Recognise and make use of appropriate units in calculations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.2",
+      "title": "Recognise and use expressions in decimal and standard form",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.3",
+      "title": "Use ratios, fractions and percentages",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.4",
+      "title": "Estimate results",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.5",
+      "title": "Use calculators to find and use power, exponential and logarithmic functions",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.6",
+      "title": "Use calculators to handle sin x, cos x and tan x in degrees or radians",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.1",
+      "title": "Use an appropriate number of significant figures",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.2",
+      "title": "Find arithmetic means",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.3",
+      "title": "Understand simple probability",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.4",
+      "title": "Make order of magnitude calculations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.5",
+      "title": "Identify uncertainties in measurements and use simple techniques to determine uncertainty when data are combined",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.1",
+      "title": "Understand and use the symbols =, <, <<, >>, >, \u221d, \u2248, \u2206",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.2",
+      "title": "Change the subject of an equation, including non-linear equations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.3",
+      "title": "Substitute numerical values into algebraic equations using appropriate units",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.4",
+      "title": "Solve algebraic equations, including quadratic equations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.5",
+      "title": "Use logarithms in relation to quantities that range over several orders of magnitude",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.1",
+      "title": "Translate information between graphical, numerical and algebraic forms",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.2",
+      "title": "Plot two variables from experimental or other data",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.3",
+      "title": "Understand that y = mx + c represents a linear relationship",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.4",
+      "title": "Determine the slope and intercept of a linear graph",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.5",
+      "title": "Calculate rate of change from a graph showing a linear relationship",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.6",
+      "title": "Draw and use the slope of a tangent to a curve as a measure of rate of change",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.7",
+      "title": "Distinguish between instantaneous and average rate of change",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.8",
+      "title": "Understand the possible physical significance of the area between a curve and the x-axis and calculate or estimate it",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.9",
+      "title": "Apply the concepts underlying calculus (without requiring explicit calculus) to exponential decay",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.10",
+      "title": "Interpret logarithmic plots",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.11",
+      "title": "Use logarithmic plots to test exponential and power law variations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.12",
+      "title": "Sketch relationships modelled by y = k/x, y = kx^2, y = k/x^2, y = kx, y = sin x, y = cos x, y = e^(\u00b1x) and sin^2 x, cos^2 x",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.1",
+      "title": "Use angles in regular 2D and 3D structures",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.2",
+      "title": "Visualise and represent 2D and 3D forms, including 2D representations of 3D objects",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.3",
+      "title": "Calculate areas of triangles, circumferences and areas of circles, surface areas and volumes of rectangular blocks, cylinders and spheres",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.4",
+      "title": "Use Pythagoras' theorem and the angle sum of a triangle",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.5",
+      "title": "Use sin, cos and tan in physical problems",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.6",
+      "title": "Use small angle approximations sin \u03b8 \u2248 \u03b8, tan \u03b8 \u2248 \u03b8, cos \u03b8 \u2248 1",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.7",
+      "title": "Understand the relationship between degrees and radians and convert between them",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "PS1.1",
+      "title": "Solve problems set in practical contexts",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS1.2",
+      "title": "Apply scientific knowledge to practical contexts",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.1",
+      "title": "Comment on experimental design and evaluate scientific methods",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.2",
+      "title": "Present data in appropriate ways",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.3",
+      "title": "Evaluate results and draw conclusions with reference to measurement uncertainties and errors",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.4",
+      "title": "Identify variables, including those that must be controlled",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.1",
+      "title": "Plot and interpret graphs",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.2",
+      "title": "Process and analyse data using appropriate mathematical skills",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.3",
+      "title": "Consider margins of error, accuracy and precision of data",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS4.1",
+      "title": "Know and understand how to use a wide range of experimental and practical instruments, equipment and techniques",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "ATa",
+      "title": "Use analogue apparatus to record measurements and interpolate between scale markings",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATb",
+      "title": "Use digital instruments, including multimeters",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATc",
+      "title": "Use methods to increase accuracy, such as timing multiple oscillations or a fiducial marker",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATd",
+      "title": "Use a stopwatch or light gates for timing",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATe",
+      "title": "Use calipers and micrometers for small distances",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATf",
+      "title": "Construct circuits from circuit diagrams",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATg",
+      "title": "Design, construct and check circuits",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATh",
+      "title": "Use a signal generator and oscilloscope",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATi",
+      "title": "Generate and measure waves (microphone and loudspeaker, ripple tank, vibration transducer, microwaves)",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATj",
+      "title": "Use a laser or light source to investigate interference and diffraction",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATk",
+      "title": "Use ICT: modelling, data loggers and software to process data",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATl",
+      "title": "Use ionising radiation, including detectors",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "RP1",
+      "title": "Required practical 1: stationary waves on a string (frequency against length, tension and mass per unit length)",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP2",
+      "title": "Required practical 2: interference, Young's slits and the diffraction grating",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP3",
+      "title": "Required practical 3: g by a free-fall method",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP4",
+      "title": "Required practical 4: the Young modulus by a simple method",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP5",
+      "title": "Required practical 5: resistivity of a wire using a micrometer, ammeter and voltmeter",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP6",
+      "title": "Required practical 6: emf and internal resistance of cells",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP7",
+      "title": "Required practical 7: simple harmonic motion with a mass-spring system and a simple pendulum",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP8",
+      "title": "Required practical 8: Boyle's law and Charles's law for a gas",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP9",
+      "title": "Required practical 9: charge and discharge of capacitors, with a log-linear plot for RC",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP10",
+      "title": "Required practical 10: force on a current-carrying wire with a top pan balance",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP11",
+      "title": "Required practical 11: flux linkage with a search coil and oscilloscope",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP12",
+      "title": "Required practical 12: the inverse-square law for gamma radiation",
+      "topic_area": "8.2 Required practical activities"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "3.10.1.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.1.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.2.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.2.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.2.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.3.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.4.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.4.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.4.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.5.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.5.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.5.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.5.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.6.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.6.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.6.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.6.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.6.5",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.10.6.6",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.1.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.1.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.1.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.1.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.1.5",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.1.6",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.2.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.2.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.2.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.2.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.2.5",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.11.2.6",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.1.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.1.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.1.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.1.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.2.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.2.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.2.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.2.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.2.5",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.2.6",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.3.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.3.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.3.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.3.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.12.3.5",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.1.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.1.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.1.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.1.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.2.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.3.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.3.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.4.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.4.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.4.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.4.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.5.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.5.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.5.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.6.1",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.6.2",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.6.3",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "3.13.6.4",
+      "reason": "Content of an optional topic this course does not take. AQA 7408 candidates answer one option in Paper 3 Section B; this course takes Astrophysics (3.9), the most widely taught option."
+    },
+    {
+      "id": "ATa",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATb",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATc",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATd",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATe",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATf",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATg",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATh",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATi",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATj",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATk",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATl",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    }
+  ],
+  "S01_Measurements_Units_and_Uncertainty": {
+    "covers_syllabus_refs": [
+      "7408 3.1.1",
+      "7408 3.1.2",
+      "7408 3.1.3",
+      "7408 MS 0.1",
+      "7408 MS 0.2",
+      "7408 MS 0.3",
+      "7408 MS 0.4",
+      "7408 MS 0.5",
+      "7408 MS 0.6",
+      "7408 MS 1.1",
+      "7408 MS 1.2",
+      "7408 MS 1.4",
+      "7408 MS 1.5"
+    ],
+    "syllabus_topic": "3.1 Measurements and their errors, with mathematical requirements MS 0-1",
+    "covers_items": [
+      "3.1.1",
+      "3.1.2",
+      "3.1.3",
+      "MS 0.1",
+      "MS 0.2",
+      "MS 0.3",
+      "MS 0.4",
+      "MS 0.5",
+      "MS 0.6",
+      "MS 1.1",
+      "MS 1.2",
+      "MS 1.4",
+      "MS 1.5"
+    ]
+  },
+  "S02_Particles": {
+    "covers_syllabus_refs": [
+      "7408 3.2.1.1",
+      "7408 3.2.1.2",
+      "7408 3.2.1.3",
+      "7408 3.2.1.4",
+      "7408 3.2.1.5",
+      "7408 3.2.1.6",
+      "7408 3.2.1.7"
+    ],
+    "syllabus_topic": "3.2 Particles and radiation",
+    "covers_items": [
+      "3.2.1.1",
+      "3.2.1.2",
+      "3.2.1.3",
+      "3.2.1.4",
+      "3.2.1.5",
+      "3.2.1.6",
+      "3.2.1.7"
+    ]
+  },
+  "S03_Quantum_Phenomena": {
+    "covers_syllabus_refs": [
+      "7408 3.2.2.1",
+      "7408 3.2.2.2",
+      "7408 3.2.2.3",
+      "7408 3.2.2.4"
+    ],
+    "syllabus_topic": "3.2 Particles and radiation",
+    "covers_items": [
+      "3.2.2.1",
+      "3.2.2.2",
+      "3.2.2.3",
+      "3.2.2.4"
+    ]
+  },
+  "S04_Progressive_and_Stationary_Waves": {
+    "covers_syllabus_refs": [
+      "7408 3.3.1.1",
+      "7408 3.3.1.2",
+      "7408 3.3.1.3",
+      "7408 RP1"
+    ],
+    "syllabus_topic": "3.3 Waves",
+    "covers_items": [
+      "3.3.1.1",
+      "3.3.1.2",
+      "3.3.1.3",
+      "RP1"
+    ]
+  },
+  "S05_Interference_Diffraction_Refraction": {
+    "covers_syllabus_refs": [
+      "7408 3.3.2.1",
+      "7408 3.3.2.2",
+      "7408 3.3.2.3",
+      "7408 RP2"
+    ],
+    "syllabus_topic": "3.3 Waves",
+    "covers_items": [
+      "3.3.2.1",
+      "3.3.2.2",
+      "3.3.2.3",
+      "RP2"
+    ]
+  },
+  "S06_Vectors_Moments_and_Geometry": {
+    "covers_syllabus_refs": [
+      "7408 3.4.1.1",
+      "7408 3.4.1.2",
+      "7408 MS 4.1",
+      "7408 MS 4.2",
+      "7408 MS 4.3",
+      "7408 MS 4.4",
+      "7408 MS 4.5",
+      "7408 MS 4.6",
+      "7408 MS 4.7"
+    ],
+    "syllabus_topic": "3.4 Mechanics and materials",
+    "covers_items": [
+      "3.4.1.1",
+      "3.4.1.2",
+      "MS 4.1",
+      "MS 4.2",
+      "MS 4.3",
+      "MS 4.4",
+      "MS 4.5",
+      "MS 4.6",
+      "MS 4.7"
+    ]
+  },
+  "S07_Motion_and_Projectiles": {
+    "covers_syllabus_refs": [
+      "7408 3.4.1.3",
+      "7408 3.4.1.4",
+      "7408 RP3",
+      "7408 MS 3.5",
+      "7408 MS 3.6",
+      "7408 MS 3.7"
+    ],
+    "syllabus_topic": "3.4 Mechanics and materials",
+    "covers_items": [
+      "3.4.1.3",
+      "3.4.1.4",
+      "RP3",
+      "MS 3.5",
+      "MS 3.6",
+      "MS 3.7"
+    ]
+  },
+  "S08_Newtons_Laws_Momentum_Energy": {
+    "covers_syllabus_refs": [
+      "7408 3.4.1.5",
+      "7408 3.4.1.6",
+      "7408 3.4.1.7",
+      "7408 3.4.1.8"
+    ],
+    "syllabus_topic": "3.4 Mechanics and materials",
+    "covers_items": [
+      "3.4.1.5",
+      "3.4.1.6",
+      "3.4.1.7",
+      "3.4.1.8"
+    ]
+  },
+  "S09_Materials": {
+    "covers_syllabus_refs": [
+      "7408 3.4.2.1",
+      "7408 3.4.2.2",
+      "7408 RP4"
+    ],
+    "syllabus_topic": "3.4 Mechanics and materials",
+    "covers_items": [
+      "3.4.2.1",
+      "3.4.2.2",
+      "RP4"
+    ]
+  },
+  "S10_Current_Electricity": {
+    "covers_syllabus_refs": [
+      "7408 3.5.1.1",
+      "7408 3.5.1.2",
+      "7408 3.5.1.3",
+      "7408 RP5"
+    ],
+    "syllabus_topic": "3.5 Electricity",
+    "covers_items": [
+      "3.5.1.1",
+      "3.5.1.2",
+      "3.5.1.3",
+      "RP5"
+    ]
+  },
+  "S11_Circuits_and_EMF": {
+    "covers_syllabus_refs": [
+      "7408 3.5.1.4",
+      "7408 3.5.1.5",
+      "7408 3.5.1.6",
+      "7408 RP6"
+    ],
+    "syllabus_topic": "3.5 Electricity",
+    "covers_items": [
+      "3.5.1.4",
+      "3.5.1.5",
+      "3.5.1.6",
+      "RP6"
+    ]
+  },
+  "S12_Circular_Motion_and_SHM": {
+    "covers_syllabus_refs": [
+      "7408 3.6.1.1",
+      "7408 3.6.1.2",
+      "7408 3.6.1.3",
+      "7408 3.6.1.4",
+      "7408 RP7"
+    ],
+    "syllabus_topic": "3.6 Further mechanics and thermal physics",
+    "covers_items": [
+      "3.6.1.1",
+      "3.6.1.2",
+      "3.6.1.3",
+      "3.6.1.4",
+      "RP7"
+    ]
+  },
+  "S13_Thermal_Physics": {
+    "covers_syllabus_refs": [
+      "7408 3.6.2.1",
+      "7408 3.6.2.2",
+      "7408 3.6.2.3",
+      "7408 RP8"
+    ],
+    "syllabus_topic": "3.6 Further mechanics and thermal physics",
+    "covers_items": [
+      "3.6.2.1",
+      "3.6.2.2",
+      "3.6.2.3",
+      "RP8"
+    ]
+  },
+  "S14_Gravitational_Fields": {
+    "covers_syllabus_refs": [
+      "7408 3.7.1",
+      "7408 3.7.2.1",
+      "7408 3.7.2.2",
+      "7408 3.7.2.3",
+      "7408 3.7.2.4"
+    ],
+    "syllabus_topic": "3.7 Fields and their consequences",
+    "covers_items": [
+      "3.7.1",
+      "3.7.2.1",
+      "3.7.2.2",
+      "3.7.2.3",
+      "3.7.2.4"
+    ]
+  },
+  "S15_Electric_Fields": {
+    "covers_syllabus_refs": [
+      "7408 3.7.3.1",
+      "7408 3.7.3.2",
+      "7408 3.7.3.3"
+    ],
+    "syllabus_topic": "3.7 Fields and their consequences",
+    "covers_items": [
+      "3.7.3.1",
+      "3.7.3.2",
+      "3.7.3.3"
+    ]
+  },
+  "S16_Capacitance": {
+    "covers_syllabus_refs": [
+      "7408 3.7.4.1",
+      "7408 3.7.4.2",
+      "7408 3.7.4.3",
+      "7408 3.7.4.4",
+      "7408 RP9",
+      "7408 MS 2.5",
+      "7408 MS 3.10",
+      "7408 MS 3.11"
+    ],
+    "syllabus_topic": "3.7 Fields and their consequences",
+    "covers_items": [
+      "3.7.4.1",
+      "3.7.4.2",
+      "3.7.4.3",
+      "3.7.4.4",
+      "RP9",
+      "MS 2.5",
+      "MS 3.10",
+      "MS 3.11"
+    ]
+  },
+  "S17_Magnetic_Fields_and_Induction": {
+    "covers_syllabus_refs": [
+      "7408 3.7.5.1",
+      "7408 3.7.5.2",
+      "7408 3.7.5.3",
+      "7408 3.7.5.4",
+      "7408 3.7.5.5",
+      "7408 3.7.5.6",
+      "7408 RP10",
+      "7408 RP11"
+    ],
+    "syllabus_topic": "3.7 Fields and their consequences",
+    "covers_items": [
+      "3.7.5.1",
+      "3.7.5.2",
+      "3.7.5.3",
+      "3.7.5.4",
+      "3.7.5.5",
+      "3.7.5.6",
+      "RP10",
+      "RP11"
+    ]
+  },
+  "S18_Nuclear_Physics": {
+    "covers_syllabus_refs": [
+      "7408 3.8.1.1",
+      "7408 3.8.1.2",
+      "7408 3.8.1.3",
+      "7408 3.8.1.4",
+      "7408 3.8.1.5",
+      "7408 3.8.1.6",
+      "7408 3.8.1.7",
+      "7408 3.8.1.8",
+      "7408 RP12",
+      "7408 MS 1.3"
+    ],
+    "syllabus_topic": "3.8 Nuclear physics",
+    "covers_items": [
+      "3.8.1.1",
+      "3.8.1.2",
+      "3.8.1.3",
+      "3.8.1.4",
+      "3.8.1.5",
+      "3.8.1.6",
+      "3.8.1.7",
+      "3.8.1.8",
+      "RP12",
+      "MS 1.3"
+    ]
+  },
+  "S19_Astrophysics_Telescopes": {
+    "covers_syllabus_refs": [
+      "7408 3.9.1.1",
+      "7408 3.9.1.2",
+      "7408 3.9.1.3",
+      "7408 3.9.1.4"
+    ],
+    "syllabus_topic": "3.9 Astrophysics (option)",
+    "covers_items": [
+      "3.9.1.1",
+      "3.9.1.2",
+      "3.9.1.3",
+      "3.9.1.4"
+    ]
+  },
+  "S20_Astrophysics_Stars": {
+    "covers_syllabus_refs": [
+      "7408 3.9.2.1",
+      "7408 3.9.2.2",
+      "7408 3.9.2.3",
+      "7408 3.9.2.4",
+      "7408 3.9.2.5",
+      "7408 3.9.2.6"
+    ],
+    "syllabus_topic": "3.9 Astrophysics (option)",
+    "covers_items": [
+      "3.9.2.1",
+      "3.9.2.2",
+      "3.9.2.3",
+      "3.9.2.4",
+      "3.9.2.5",
+      "3.9.2.6"
+    ]
+  },
+  "S21_Astrophysics_Cosmology": {
+    "covers_syllabus_refs": [
+      "7408 3.9.3.1",
+      "7408 3.9.3.2",
+      "7408 3.9.3.3",
+      "7408 3.9.3.4"
+    ],
+    "syllabus_topic": "3.9 Astrophysics (option)",
+    "covers_items": [
+      "3.9.3.1",
+      "3.9.3.2",
+      "3.9.3.3",
+      "3.9.3.4"
+    ]
+  },
+  "S22_Practical_Skills_and_Data_Analysis": {
+    "covers_syllabus_refs": [
+      "7408 PS1.1",
+      "7408 PS1.2",
+      "7408 PS2.1",
+      "7408 PS2.2",
+      "7408 PS2.3",
+      "7408 PS2.4",
+      "7408 PS3.1",
+      "7408 PS3.2",
+      "7408 PS3.3",
+      "7408 PS4.1",
+      "7408 MS 2.1",
+      "7408 MS 2.2",
+      "7408 MS 2.3",
+      "7408 MS 2.4",
+      "7408 MS 3.1",
+      "7408 MS 3.2",
+      "7408 MS 3.3",
+      "7408 MS 3.4",
+      "7408 MS 3.8",
+      "7408 MS 3.9",
+      "7408 MS 3.12"
+    ],
+    "syllabus_topic": "Practical skills (8.3) and mathematical requirements (6)",
+    "covers_items": [
+      "PS1.1",
+      "PS1.2",
+      "PS2.1",
+      "PS2.2",
+      "PS2.3",
+      "PS2.4",
+      "PS3.1",
+      "PS3.2",
+      "PS3.3",
+      "PS4.1",
+      "MS 2.1",
+      "MS 2.2",
+      "MS 2.3",
+      "MS 2.4",
+      "MS 3.1",
+      "MS 3.2",
+      "MS 3.3",
+      "MS 3.4",
+      "MS 3.8",
+      "MS 3.9",
+      "MS 3.12"
+    ]
+  }
+}

@@ -1,0 +1,772 @@
+{
+  "stage_rubrics": {
+    "S01_Conformity_Types_and_Explanations": {
+      "criteria": [
+        "SI1: Types and explanations of conformity (internalisation, identification, compliance; ISI/NSI)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SI1 (Paper 1, Section A: Social Influence (4.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S02_Conformity_Variables_and_Social_Roles": {
+      "criteria": [
+        "SI2: Variables affecting conformity (Asch) and conformity to social roles (Zimbardo)",
+        "SI3: Zimbardo's Stanford Prison Experiment"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SI2, SI3 (Paper 1, Section A: Social Influence (4.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S03_Explanations_for_Obedience": {
+      "criteria": [
+        "SI4: Milgram's research and the situational variables affecting obedience (proximity, location, uniform)",
+        "SI5: Explanations for obedience: legitimacy of authority and the agentic state"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SI4, SI5 (Paper 1, Section A: Social Influence (4.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S04_Dispositional_Explanation_and_Resistance": {
+      "criteria": [
+        "SI6: The dispositional explanation for obedience: the Authoritarian Personality",
+        "SI7: Resistance to social influence: social support and locus of control"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SI6, SI7 (Paper 1, Section A: Social Influence (4.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S05_Minority_Influence_and_Social_Change": {
+      "criteria": [
+        "SI8: Minority influence: consistency, commitment, flexibility (Moscovici)",
+        "SI9: The role of social influence processes in social change"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SI8, SI9 (Paper 1, Section A: Social Influence (4.1.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S06_Multi_Store_and_Working_Memory_Models": {
+      "criteria": [
+        "MEM1: The multi-store model of memory (sensory register, STM, LTM; coding, capacity, duration)",
+        "MEM2: The working memory model (central executive, phonological loop, visuo-spatial sketchpad, episodic buffer)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives MEM1, MEM2 (Paper 1, Section B: Memory (4.1.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S07_Explanations_for_Forgetting": {
+      "criteria": [
+        "MEM3: Explanations for forgetting: interference",
+        "MEM4: Explanations for forgetting: retrieval failure due to absence of cues"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives MEM3, MEM4 (Paper 1, Section B: Memory (4.1.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S08_Eyewitness_Testimony": {
+      "criteria": [
+        "MEM5: Eyewitness testimony: misleading information (leading questions, post-event discussion)",
+        "MEM6: Eyewitness testimony: the effect of anxiety"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives MEM5, MEM6 (Paper 1, Section B: Memory (4.1.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S09_Improving_EWT_Cognitive_Interview": {
+      "criteria": [
+        "MEM7: Improving the accuracy of eyewitness testimony: the cognitive interview"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives MEM7 (Paper 1, Section B: Memory (4.1.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S10_Caregiver_Infant_Interactions_and_Schaffers_Stages": {
+      "criteria": [
+        "ATT1: Caregiver-infant interactions (reciprocity, interactional synchrony) and Schaffer's stages of attachment",
+        "ATT2: Multiple attachments and the role of the father"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives ATT1, ATT2 (Paper 1, Section C: Attachment (4.1.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S11_Animal_Studies_of_Attachment": {
+      "criteria": [
+        "ATT3: Animal studies of attachment: Lorenz (imprinting)",
+        "ATT4: Animal studies of attachment: Harlow (contact comfort)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives ATT3, ATT4 (Paper 1, Section C: Attachment (4.1.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S12_Explanations_of_Attachment": {
+      "criteria": [
+        "ATT5: Learning theory (cupboard love) as an explanation of attachment",
+        "ATT6: Bowlby's monotropic theory of attachment"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives ATT5, ATT6 (Paper 1, Section C: Attachment (4.1.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S13_Strange_Situation_Cultural_Variations_and_Disruption": {
+      "criteria": [
+        "ATT7: Ainsworth's Strange Situation and types of attachment",
+        "ATT8: Cultural variations in attachment (Van Ijzendoorn and Kroonenberg)",
+        "ATT9: Bowlby's theory of maternal deprivation and the Romanian orphan studies (Rutter)",
+        "ATT10: The influence of early attachment on childhood and adult relationships (Hazan and Shaver)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives ATT7, ATT8, ATT9, ATT10 (Paper 1, Section C: Attachment (4.1.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S14_Definitions_of_Abnormality": {
+      "criteria": [
+        "PSY1: Definitions of abnormality: statistical infrequency, deviation from social norms, failure to function adequately, deviation from ideal mental health"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives PSY1 (Paper 1, Section D: Psychopathology (4.1.4))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S15_Phobias": {
+      "criteria": [
+        "PSY2: Phobias: behavioural/emotional/cognitive characteristics, the two-process model, and behavioural treatments (systematic desensitisation, flooding)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives PSY2 (Paper 1, Section D: Psychopathology (4.1.4))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S16_Depression": {
+      "criteria": [
+        "PSY3: Depression: characteristics, Beck's negative triad, Ellis's ABC model, and CBT"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives PSY3 (Paper 1, Section D: Psychopathology (4.1.4))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S17_OCD": {
+      "criteria": [
+        "PSY4: OCD: characteristics, genetic and neural explanations, and drug therapy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives PSY4 (Paper 1, Section D: Psychopathology (4.1.4))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S18_Origins_and_Behaviourist_Approach": {
+      "criteria": [
+        "APP1: The origins of psychology (Wundt, introspection) and the behaviourist approach (classical and operant conditioning)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives APP1 (Paper 2, Section A: Approaches in Psychology (4.2.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S19_Social_Learning_Theory": {
+      "criteria": [
+        "APP2: Social learning theory (imitation, identification, modelling, vicarious reinforcement, mediational processes; Bandura)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives APP2 (Paper 2, Section A: Approaches in Psychology (4.2.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S20_Cognitive_Approach": {
+      "criteria": [
+        "APP3: The cognitive approach (internal mental processes, schemas, theoretical/computer models, cognitive neuroscience)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives APP3 (Paper 2, Section A: Approaches in Psychology (4.2.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S21_Biological_Approach": {
+      "criteria": [
+        "APP4: The biological approach (genes, biological structures, neurochemistry, genotype/phenotype, evolution)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives APP4 (Paper 2, Section A: Approaches in Psychology (4.2.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S22_Psychodynamic_Approach": {
+      "criteria": [
+        "APP5: The psychodynamic approach (the unconscious, id/ego/superego, defence mechanisms, psychosexual stages)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives APP5 (Paper 2, Section A: Approaches in Psychology (4.2.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S23_Humanistic_Approach_and_Comparison": {
+      "criteria": [
+        "APP6: The humanistic approach (free will, self-actualisation, Maslow, congruence) and comparison of approaches"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives APP6 (Paper 2, Section A: Approaches in Psychology (4.2.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S24_Nervous_System": {
+      "criteria": [
+        "BIO1: The nervous system: central and peripheral (somatic and autonomic) divisions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives BIO1 (Paper 2, Section B: Biopsychology (4.2.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S25_Neurons_and_Synaptic_Transmission": {
+      "criteria": [
+        "BIO2: Neurons (sensory, relay, motor) and synaptic transmission"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives BIO2 (Paper 2, Section B: Biopsychology (4.2.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S26_Endocrine_System_and_Fight_or_Flight": {
+      "criteria": [
+        "BIO3: The endocrine system and the fight-or-flight response"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives BIO3 (Paper 2, Section B: Biopsychology (4.2.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S27_Localisation_of_Function": {
+      "criteria": [
+        "BIO4: Localisation of brain function and hemispheric lateralisation (split-brain research)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives BIO4 (Paper 2, Section B: Biopsychology (4.2.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S28_Plasticity_and_Functional_Recovery": {
+      "criteria": [
+        "BIO5: Plasticity and functional recovery of the brain after trauma"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives BIO5 (Paper 2, Section B: Biopsychology (4.2.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S29_Ways_of_Studying_the_Brain": {
+      "criteria": [
+        "BIO6: Ways of studying the brain: fMRI, EEG, ERPs, post-mortem examinations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives BIO6 (Paper 2, Section B: Biopsychology (4.2.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S30_Biological_Rhythms": {
+      "criteria": [
+        "BIO7: Biological rhythms: circadian, infradian, ultradian; endogenous pacemakers and exogenous zeitgebers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives BIO7 (Paper 2, Section B: Biopsychology (4.2.2))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S31_Experimental_Methods_and_Design": {
+      "criteria": [
+        "RM1: Types of experiment: laboratory, field, natural, quasi",
+        "RM2: Experimental design: independent groups, repeated measures, matched pairs"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM1, RM2 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S32_Other_Research_Methods": {
+      "criteria": [
+        "RM3: Other research methods: observation, self-report, case studies, content analysis"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM3 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S33_Correlations_Aims_and_Hypotheses": {
+      "criteria": [
+        "RM4: Correlations; aims and hypotheses (directional/non-directional)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM4 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S34_Sampling_Methods": {
+      "criteria": [
+        "RM5: Sampling methods: random, systematic, stratified, opportunity, volunteer"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM5 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S35_Variables_Control_and_Demand_Characteristics": {
+      "criteria": [
+        "RM6: Variables (IV/DV/EV/confounding, operationalisation), control (randomisation, standardisation, counterbalancing), demand characteristics/investigator effects, and pilot studies"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM6 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S36_Ethics_in_Research": {
+      "criteria": [
+        "RM7: Ethical issues in research and the BPS Code of Ethics and Conduct"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM7 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S37_Reliability_and_Validity": {
+      "criteria": [
+        "RM8: Reliability (test-retest, inter-observer) and validity (face, concurrent, ecological, temporal)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM8 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S38_Features_of_Science": {
+      "criteria": [
+        "RM9: Features of science, scientific report writing, peer review, and economic implications of research"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM9 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S39_Descriptive_Statistics_and_Data_Handling": {
+      "criteria": [
+        "RM10: Data handling: quantitative/qualitative and primary/secondary data, levels of measurement, descriptive statistics, distributions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM10 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S40_Inferential_Testing": {
+      "criteria": [
+        "RM11: Introduction to inferential testing: probability, significance, Type I/II errors, the sign test, and choosing/using statistical tests"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives RM11 (Paper 2, Section C: Research Methods (4.2.3))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S41_Gender_Culture_Free_Will_and_Determinism": {
+      "criteria": [
+        "ID1: Gender bias and cultural bias in psychological research",
+        "ID2: The free will versus determinism debate (hard/soft determinism; biological/environmental/psychic determinism)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives ID1, ID2 (Paper 3, Section A: Issues and Debates in Psychology (4.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S42_Nature_Nurture_Holism_and_Reductionism": {
+      "criteria": [
+        "ID3: The nature-nurture debate and the interactionist approach (diathesis-stress, epigenetics)",
+        "ID4: Holism versus reductionism, including levels of explanation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives ID3, ID4 (Paper 3, Section A: Issues and Debates in Psychology (4.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S43_Idiographic_Nomothetic_and_Ethical_Implications": {
+      "criteria": [
+        "ID5: Idiographic and nomothetic approaches; ethical implications of research studies and theory, including socially sensitive research"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives ID5 (Paper 3, Section A: Issues and Debates in Psychology (4.3.1))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S44_Evolutionary_Explanations_and_Attraction": {
+      "criteria": [
+        "REL1: Evolutionary explanations of partner preferences (sexual selection, anisogamy, inter-/intra-sexual selection)",
+        "REL2: Factors affecting attraction: self-disclosure, physical attractiveness (matching hypothesis), filter theory"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives REL1, REL2 (Paper 3, Section B: Relationships (4.3.2, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S45_Theories_of_Romantic_Relationships": {
+      "criteria": [
+        "REL3: Theories of romantic relationships: social exchange theory, equity theory, Rusbult's investment model"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives REL3 (Paper 3, Section B: Relationships (4.3.2, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S46_Relationship_Breakdown_Virtual_and_Parasocial": {
+      "criteria": [
+        "REL4: Duck's phase model of relationship breakdown",
+        "REL5: Virtual relationships and parasocial relationships"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives REL4, REL5 (Paper 3, Section B: Relationships (4.3.2, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S47_Classification_and_Diagnosis_of_Schizophrenia": {
+      "criteria": [
+        "SCZ1: Classification of schizophrenia; reliability and validity of diagnosis"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SCZ1 (Paper 3, Section C: Schizophrenia (4.3.5, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S48_Biological_and_Psychological_Explanations_of_Schizophrenia": {
+      "criteria": [
+        "SCZ2: Biological explanations of schizophrenia: genetics and neural correlates (dopamine hypothesis)",
+        "SCZ3: Psychological explanations of schizophrenia: family dysfunction and cognitive explanations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SCZ2, SCZ3 (Paper 3, Section C: Schizophrenia (4.3.5, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S49_Treating_Schizophrenia": {
+      "criteria": [
+        "SCZ4: Drug therapy, psychological treatments (CBT, family therapy, token economies) and the interactionist approach"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives SCZ4 (Paper 3, Section C: Schizophrenia (4.3.5, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S50_Neural_Hormonal_and_Evolutionary_Explanations_of_Aggression": {
+      "criteria": [
+        "AGG1: Neural and hormonal mechanisms in aggression, and the ethological/evolutionary explanations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives AGG1 (Paper 3, Section D: Aggression (4.3.8, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S51_Social_Psychological_Explanations_of_Aggression": {
+      "criteria": [
+        "AGG2: Social psychological explanations of aggression: frustration-aggression hypothesis, social learning theory, deindividuation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives AGG2 (Paper 3, Section D: Aggression (4.3.8, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    },
+    "S52_Institutional_Aggression_and_Media_Influences": {
+      "criteria": [
+        "AGG3: Institutional aggression in prisons, and media influences on aggression"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Extended-writing ('Discuss...'/'Evaluate...') items are marked holistically against AQA's levels-of-response scheme (AO1 knowledge + AO3 discussion/evaluation, and AO2 application where the question is scenario-based), not by summed method/working marks. Calculation items (e.g. descriptive/inferential statistics) require the method/working to be shown for full credit. A multiple-choice item is worth 1 mark and needs the single correct option and nothing else. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+        "reference": "7182 objectives AGG3 (Paper 3, Section D: Aggression (4.3.8, selected option))",
+        "urls": [
+          "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of three papers in AQA's structure: Paper 1 'Introductory Topics in Psychology' (2h, 96 marks: Social Influence, Memory, Attachment, Psychopathology, 24 marks each)",
+      "Paper 2 'Psychology in Context' (2h, 96 marks: Approaches 24, Biopsychology 24, Research Methods 48)",
+      "Paper 3 'Issues and Options in Psychology' (2h, 96 marks: Issues and Debates 24, then 24 marks each on Relationships, Schizophrenia and Aggression)",
+      "Extended-writing items marked by AQA's levels-of-response scheme (AO1 knowledge, AO2 application where scenario-based, AO3 discussion/evaluation); calculation items require method shown; multiple-choice items need the single correct option only"
+    ],
+    "pass_threshold": "At least 50% of the 288 marks overall and at least 40% on each of the three papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA A-level Psychology (7182) specification: 4.1 Introductory Topics in Psychology (4.1.1 Social Influence, 4.1.2 Memory, 4.1.3 Attachment, 4.1.4 Psychopathology); 4.2 Psychology in Context (4.2.1 Approaches in Psychology, 4.2.2 Biopsychology, 4.2.3 Research Methods); 4.3 Issues and Options in Psychology (4.3.1 Issues and Debates in Psychology, plus the selected options 4.3.2 Relationships, 4.3.5 Schizophrenia and 4.3.8 Aggression)",
+      "reference": "AQA 7182 scheme of assessment: Paper 1 96 marks/33.3%, Paper 2 96 marks/33.3%, Paper 3 96 marks/33.3%",
+      "urls": [
+        "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7182/specification"
+  ],
+  "source_notes": "AQA publishes the 7182 specification, including the subject content across all three papers and the assessment structure, at aqa.org.uk/subjects/psychology/a-level/psychology-7182, and the original 2015 specification PDF (AQA-7181-7182-SP-2015.PDF). Stage tests and the mock are original questions in AQA's style, not real past-paper items. Every named study, theorist and theory was checked against real, correctly attributed psychological knowledge when this course was built; numerical worked examples (mean, median, mode, range, standard deviation, the sign test's critical-value comparison) were computed and verified with Python."
+}

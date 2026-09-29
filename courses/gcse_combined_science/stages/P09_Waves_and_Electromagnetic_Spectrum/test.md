@@ -1,0 +1,16 @@
+# P09_Waves_and_Electromagnetic_Spectrum - Test: Waves and the electromagnetic spectrum
+
+## How to run this
+Real checkpoint, not more practice. Present the scenario once, let the learner submit a full answer, then grade against this stage's entry in `rubric.json` -- never grade without it.
+
+## Test scenario
+Foundation: 'a) List the parts of the electromagnetic spectrum in order of increasing frequency. b) Calculate the wave speed for frequency 200 Hz and wavelength 1.5 m. c) Give one use and one danger of ultraviolet radiation.' Higher (once Foundation is secure): 'Explain why X-rays are used in medical imaging but their use is limited, and describe how to compare the infrared emitted by different surfaces.'
+
+## Grading
+Apply `rubric.json`'s `stage_rubrics.P09_Waves_and_Electromagnetic_Spectrum` criteria exactly. Record `passed` or `not_passed`, with a short honest note on strengths/weaknesses, into this course's micro-profile.
+
+## If not passed
+Name the specific weak or missing step, offer to revisit practice, then re-test with a new question of the same type.
+
+## On pass
+Record the pass and let the learner know they can move to P10_Magnetism_and_Key_Ideas.

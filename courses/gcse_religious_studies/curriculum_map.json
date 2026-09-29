@@ -1,0 +1,732 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "Pearson Edexcel Level 1/Level 2 GCSE (9-1) in Religious Studies B (1RB0) specification: Area of Study 1 option 1B Christianity, Area of Study 2 option 2C Islam, section 3 Assessment information and Assessment Objectives, Appendix 3 Command Words",
+    "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf",
+    "version": "Issue 2, January 2024",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "H-STRUCT",
+      "title": "Qualification structure: two 1h45 papers, 102 marks each, 204 total",
+      "topic_area": "Assessment",
+      "tier": "Understand the two externally examined papers and their weighting"
+    },
+    {
+      "id": "H-AO1",
+      "title": "AO1: knowledge and understanding of religion and belief",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-AO2",
+      "title": "AO2: analyse and evaluate religion and belief",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-SPAG",
+      "title": "Spelling, punctuation, grammar and specialist terminology (5% of marks, on the 15-mark evaluate questions)",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "H-NRW",
+      "title": "Religion and belief in Great Britain today, including non-religious worldviews",
+      "topic_area": "Study of religion and belief"
+    },
+    {
+      "id": "H-CMD",
+      "title": "Command words and question technique: give/outline, explain two, explain two contrasting (with a source of authority), discuss/evaluate",
+      "topic_area": "Assessment"
+    },
+    {
+      "id": "C-BEL.1",
+      "title": "Christianity: the Trinity",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-BEL.2",
+      "title": "Christianity: creation",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-BEL.3",
+      "title": "Christianity: the incarnation",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-BEL.4",
+      "title": "Christianity: the last days of Jesus' earthly life",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-BEL.5",
+      "title": "Christianity: salvation",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-BEL.6",
+      "title": "Christianity: divergent Christian beliefs about life after death",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-BEL.7",
+      "title": "Christianity: the problem of evil and suffering",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-BEL.8",
+      "title": "Christianity: solutions to the problem of evil and suffering",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs"
+    },
+    {
+      "id": "C-MAF.1",
+      "title": "Christianity: the importance and purpose of marriage",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-MAF.2",
+      "title": "Christianity: sexual relationships",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-MAF.3",
+      "title": "Christianity: the purpose and importance of the family",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-MAF.4",
+      "title": "Christianity: support for families in the local parish",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-MAF.5",
+      "title": "Christianity: family planning and contraception",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-MAF.6",
+      "title": "Christianity: divorce and remarriage",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-MAF.7",
+      "title": "Christianity: equality of men and women in the family",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-MAF.8",
+      "title": "Christianity: opposing gender prejudice and discrimination",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family"
+    },
+    {
+      "id": "C-LIV.1",
+      "title": "Christianity: liturgical, non-liturgical and informal worship",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-LIV.2",
+      "title": "Christianity: sacraments in two denominations",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-LIV.3",
+      "title": "Christianity: prayer",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-LIV.4",
+      "title": "Christianity: pilgrimage",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-LIV.5",
+      "title": "Christianity: Christmas and Easter",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-LIV.6",
+      "title": "Christianity: church growth, mission and evangelism",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-LIV.7",
+      "title": "Christianity: the role of the local church in the local community",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-LIV.8",
+      "title": "Christianity: the role of the Church in the worldwide community",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life"
+    },
+    {
+      "id": "C-MLD.1",
+      "title": "Christianity: the origins and value of the universe",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "C-MLD.2",
+      "title": "Christianity: the sanctity of life",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "C-MLD.3",
+      "title": "Christianity: scientific and non-religious explanations for life",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "C-MLD.4",
+      "title": "Christianity: abortion",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "C-MLD.5",
+      "title": "Christianity: life after death",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "C-MLD.6",
+      "title": "Christianity: responses to non-religious arguments against an afterlife",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "C-MLD.7",
+      "title": "Christianity: euthanasia",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "C-MLD.8",
+      "title": "Christianity: stewardship and the natural world",
+      "topic_area": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death"
+    },
+    {
+      "id": "Q-P1-a",
+      "title": "Paper 1 part (a): 1-mark recognise/identify question",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-b",
+      "title": "Paper 1 part (b): 2-mark 'give two' question",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-c",
+      "title": "Paper 1 part (c): 4-mark 'explain two' question",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-d5",
+      "title": "Paper 1 part (d)(i): 5-mark 'explain two contrasting religious beliefs' question",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "Q-P1-d12",
+      "title": "Paper 1 part (d)(ii): 12(+3 SPaG)-mark 'discuss/evaluate' question",
+      "topic_area": "Paper 1 question types"
+    },
+    {
+      "id": "I-BEL.1",
+      "title": "Islam: the Six Beliefs and Sunni/Shi'a Islam",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs"
+    },
+    {
+      "id": "I-BEL.2",
+      "title": "Islam: the Five Roots of 'Usul ad-Din in Shi'a Islam",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs"
+    },
+    {
+      "id": "I-BEL.3",
+      "title": "Islam: the nature of Allah",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs"
+    },
+    {
+      "id": "I-BEL.4",
+      "title": "Islam: Risalah, prophethood and the holy books",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs"
+    },
+    {
+      "id": "I-BEL.5",
+      "title": "Islam: al-Qadr, predestination",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs"
+    },
+    {
+      "id": "I-BEL.6",
+      "title": "Islam: Akhirah, life after death",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs"
+    },
+    {
+      "id": "I-CP.1",
+      "title": "Islam: Muslim teachings about crime and sin",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Crime and punishment"
+    },
+    {
+      "id": "I-CP.2",
+      "title": "Islam: the aims and purposes of punishment",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Crime and punishment"
+    },
+    {
+      "id": "I-CP.3",
+      "title": "Islam: capital punishment",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Crime and punishment"
+    },
+    {
+      "id": "I-CP.4",
+      "title": "Islam: corporal punishment",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Crime and punishment"
+    },
+    {
+      "id": "I-CP.5",
+      "title": "Islam: forgiveness and reform",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Crime and punishment"
+    },
+    {
+      "id": "I-CP.6",
+      "title": "Islam: treatment of victims and restitution",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Crime and punishment"
+    },
+    {
+      "id": "I-LIV.1",
+      "title": "Islam: Shahadah",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-LIV.2",
+      "title": "Islam: Salah",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-LIV.3",
+      "title": "Islam: Sawm and the Night of Power",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-LIV.4",
+      "title": "Islam: Zakah",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-LIV.5",
+      "title": "Islam: Hajj",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-LIV.6",
+      "title": "Islam: the Ten Obligatory Acts of Shi'a Islam",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-LIV.7",
+      "title": "Islam: the meaning of Jihad",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-LIV.8",
+      "title": "Islam: festivals in Sunni and Shi'a Islam",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life"
+    },
+    {
+      "id": "I-PC.1",
+      "title": "Islam: Muslim teachings about peace",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict"
+    },
+    {
+      "id": "I-PC.2",
+      "title": "Islam: Muslim responses to the causes of conflict",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict"
+    },
+    {
+      "id": "I-PC.3",
+      "title": "Islam: holy war, the conditions for Jihad in war",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict"
+    },
+    {
+      "id": "I-PC.4",
+      "title": "Islam: weapons of mass destruction",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict"
+    },
+    {
+      "id": "I-PC.5",
+      "title": "Islam: victims of war and responses to terrorism",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict"
+    },
+    {
+      "id": "I-PC.6",
+      "title": "Islam: pacifism, reconciliation and forgiveness",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict"
+    },
+    {
+      "id": "I-PC.7",
+      "title": "Islam: resolving conflict with people of other religions",
+      "topic_area": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict"
+    },
+    {
+      "id": "Q-P2-a",
+      "title": "Paper 2 part (a): 1-mark recognise/identify question",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2-b",
+      "title": "Paper 2 part (b): 2-mark 'give two' question",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2-c",
+      "title": "Paper 2 part (c): 4-mark 'explain two' question",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2-d5",
+      "title": "Paper 2 part (d)(i): 5-mark 'explain two contrasting religious beliefs' question",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "Q-P2-d12",
+      "title": "Paper 2 part (d)(ii): 12(+3 SPaG)-mark 'discuss/evaluate' question",
+      "topic_area": "Paper 2 question types"
+    },
+    {
+      "id": "EX-1A",
+      "title": "Area of Study 1 via Catholic Christianity (option 1A)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-1C",
+      "title": "Area of Study 1 via Islam (option 1C)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-1D",
+      "title": "Area of Study 1 via Buddhism (option 1D)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-1E",
+      "title": "Area of Study 1 via Hinduism (option 1E)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-1F",
+      "title": "Area of Study 1 via Judaism (option 1F)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-1G",
+      "title": "Area of Study 1 via Sikhism (option 1G)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-2A",
+      "title": "Area of Study 2 via Catholic Christianity (option 2A)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-2B",
+      "title": "Area of Study 2 via Christianity (option 2B)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-2D",
+      "title": "Area of Study 2 via Buddhism (option 2D)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-2E",
+      "title": "Area of Study 2 via Hinduism (option 2E)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-2F",
+      "title": "Area of Study 2 via Judaism (option 2F)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-2G",
+      "title": "Area of Study 2 via Sikhism (option 2G)",
+      "topic_area": "Not selected"
+    },
+    {
+      "id": "EX-AS3",
+      "title": "Area of Study 3: Religion, Philosophy and Social Justice (all seven religion options, 3A-3G)",
+      "topic_area": "Not selected"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "EX-1A",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-1C",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-1D",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-1E",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-1F",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-1G",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-2A",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-2B",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-2D",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-2E",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-2F",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-2G",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "EX-AS3",
+      "reason": "outside this course's selected options; the qualification requires only two of the three areas of study"
+    }
+  ],
+  "S01_How_the_Qualification_Works": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 specification, section 3 Assessment information and Assessment Objectives",
+      "Appendix 3 Command Words"
+    ],
+    "syllabus_topic": "Qualification structure and assessment",
+    "covers_items": [
+      "H-STRUCT",
+      "H-AO1",
+      "H-AO2",
+      "H-SPAG",
+      "H-NRW",
+      "H-CMD"
+    ]
+  },
+  "S02_Christian_Beliefs_God_Jesus": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Christian Beliefs section, bullets on the Trinity, creation, incarnation and the last days of Jesus"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs",
+    "covers_items": [
+      "C-BEL.1",
+      "C-BEL.2",
+      "C-BEL.3",
+      "C-BEL.4"
+    ]
+  },
+  "S03_Christian_Beliefs_Salvation_Afterlife_Evil": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Christian Beliefs section, bullets on salvation, life after death and the problem of evil"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Christian beliefs",
+    "covers_items": [
+      "C-BEL.5",
+      "C-BEL.6",
+      "C-BEL.7",
+      "C-BEL.8"
+    ]
+  },
+  "S04_Christianity_Marriage_and_Family_Part_1": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Marriage and the Family section, bullets on marriage, sexual relationships, family purpose and parish support"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family",
+    "covers_items": [
+      "C-MAF.1",
+      "C-MAF.2",
+      "C-MAF.3",
+      "C-MAF.4"
+    ]
+  },
+  "S05_Christianity_Marriage_and_Family_Part_2": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Marriage and the Family section, bullets on contraception, divorce, gender equality and gender discrimination"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Marriage and the family",
+    "covers_items": [
+      "C-MAF.5",
+      "C-MAF.6",
+      "C-MAF.7",
+      "C-MAF.8"
+    ]
+  },
+  "S06_Living_the_Christian_Life_Worship_and_Devotion": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Living the Christian Life section, bullets on worship, sacraments, prayer and pilgrimage"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life",
+    "covers_items": [
+      "C-LIV.1",
+      "C-LIV.2",
+      "C-LIV.3",
+      "C-LIV.4"
+    ]
+  },
+  "S07_Living_the_Christian_Life_Church_and_Community": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Living the Christian Life section, bullets on festivals, mission, and the role of the church locally and worldwide"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Living the Christian life",
+    "covers_items": [
+      "C-LIV.5",
+      "C-LIV.6",
+      "C-LIV.7",
+      "C-LIV.8"
+    ]
+  },
+  "S08_Matters_of_Life_and_Death_Part_1": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Matters of Life and Death section, bullets on the origins of the universe, sanctity of life, science, and abortion"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death",
+    "covers_items": [
+      "C-MLD.1",
+      "C-MLD.2",
+      "C-MLD.3",
+      "C-MLD.4"
+    ]
+  },
+  "S09_Matters_of_Life_and_Death_Part_2": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 1B Christianity, Matters of Life and Death section, bullets on life after death and the natural world"
+    ],
+    "syllabus_topic": "Area of Study 1 Religion and Ethics (Christianity): Matters of life and death",
+    "covers_items": [
+      "C-MLD.5",
+      "C-MLD.6",
+      "C-MLD.7",
+      "C-MLD.8"
+    ]
+  },
+  "S10_Paper_1_Question_Types": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Paper 1 assessment overview and sample assessment materials"
+    ],
+    "syllabus_topic": "Paper 1 assessment: question types and technique",
+    "covers_items": [
+      "Q-P1-a",
+      "Q-P1-b",
+      "Q-P1-c",
+      "Q-P1-d5",
+      "Q-P1-d12"
+    ]
+  },
+  "S11_Muslim_Beliefs_Part_1": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 2C Islam, Muslim Beliefs section, bullets on the Six Beliefs, the Five Roots, the nature of Allah, and Risalah"
+    ],
+    "syllabus_topic": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs",
+    "covers_items": [
+      "I-BEL.1",
+      "I-BEL.2",
+      "I-BEL.3",
+      "I-BEL.4"
+    ]
+  },
+  "S12_Muslim_Beliefs_Part_2_and_Crime_and_Sin": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 2C Islam, Muslim Beliefs bullets on al-Qadr and Akhirah",
+      "Crime and Punishment bullets on crime/sin and purposes of punishment"
+    ],
+    "syllabus_topic": "Area of Study 2 Religion, Peace and Conflict (Islam): Muslim beliefs; Crime and punishment",
+    "covers_items": [
+      "I-BEL.5",
+      "I-BEL.6",
+      "I-CP.1",
+      "I-CP.2"
+    ]
+  },
+  "S13_Crime_and_Punishment_in_Islam": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 2C Islam, Crime and Punishment section, bullets on capital punishment, corporal punishment, forgiveness and victims"
+    ],
+    "syllabus_topic": "Area of Study 2 Religion, Peace and Conflict (Islam): Crime and punishment",
+    "covers_items": [
+      "I-CP.3",
+      "I-CP.4",
+      "I-CP.5",
+      "I-CP.6"
+    ]
+  },
+  "S14_Living_the_Muslim_Life_Shahadah_Salah_Sawm_Zakah": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 2C Islam, Living the Muslim Life section, bullets on Shahadah, Salah, Sawm and Zakah"
+    ],
+    "syllabus_topic": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life",
+    "covers_items": [
+      "I-LIV.1",
+      "I-LIV.2",
+      "I-LIV.3",
+      "I-LIV.4"
+    ]
+  },
+  "S15_Living_the_Muslim_Life_Hajj_Obligatory_Acts_Jihad_Festivals": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 2C Islam, Living the Muslim Life section, bullets on Hajj, the Ten Obligatory Acts, Jihad and festivals"
+    ],
+    "syllabus_topic": "Area of Study 2 Religion, Peace and Conflict (Islam): Living the Muslim life",
+    "covers_items": [
+      "I-LIV.5",
+      "I-LIV.6",
+      "I-LIV.7",
+      "I-LIV.8"
+    ]
+  },
+  "S16_Peace_and_Conflict_Teachings_Causes_and_Holy_War": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 2C Islam, Peace and Conflict section, bullets on peace, causes of conflict, holy war and weapons of mass destruction"
+    ],
+    "syllabus_topic": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict",
+    "covers_items": [
+      "I-PC.1",
+      "I-PC.2",
+      "I-PC.3",
+      "I-PC.4"
+    ]
+  },
+  "S17_Peace_and_Conflict_Victims_Pacifism_and_Interfaith": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Area of Study 2C Islam, Peace and Conflict section, bullets on victims of war, pacifism and interfaith relations",
+      "Paper 2 assessment overview"
+    ],
+    "syllabus_topic": "Area of Study 2 Religion, Peace and Conflict (Islam): Peace and conflict; Paper 2 question technique",
+    "covers_items": [
+      "I-PC.5",
+      "I-PC.6",
+      "I-PC.7",
+      "Q-P2-a"
+    ]
+  },
+  "S18_Paper_2_Question_Types": {
+    "covers_syllabus_refs": [
+      "Edexcel 1RB0 Paper 2 assessment overview and sample assessment materials"
+    ],
+    "syllabus_topic": "Paper 2 assessment: question types and technique",
+    "covers_items": [
+      "Q-P2-b",
+      "Q-P2-c",
+      "Q-P2-d5",
+      "Q-P2-d12"
+    ]
+  }
+}

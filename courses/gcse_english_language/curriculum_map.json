@@ -1,0 +1,807 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE English Language 8700 specification: sections 2 (Specification at a glance), 3.1 (Scope of study: 3.1.1 Critical reading and comprehension, 3.1.2 Writing, 3.1.3 Spoken language), 4.1-4.6 (Scheme of assessment, assessment objectives AO1-AO9, weightings) and 5 (Non-exam assessment administration); plus the question types of Papers 1 and 2 from the published question papers and mark schemes",
+    "url": "https://cdn.sanity.io/files/p28bar15/green/eb2b6cd029547c5409a8f2f31af857a159311acd.pdf",
+    "version": "Version 1.6, March 2026 (numbering follows the spec's own section numbers; the spec's bulleted requirements in 3.1.1 and 3.1.2 are unnumbered, so their clauses are numbered 3.1.1.1, 3.1.1.2 ... in order of appearance; question items use the paper and question number, e.g. P1.Q2; grammar/terminology and technique items T., W., X. are course-defined and listed under the spec's requirement for grammatical terminology and linguistic conventions)",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.0.1",
+      "title": "Linear, untiered qualification: all assessments in one series, graded 9 to 1",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "2.P1",
+      "title": "Paper 1 Explorations in creative reading and writing: structure",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "2.P2",
+      "title": "Paper 2 Writers' viewpoints and perspectives: structure",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "2.NEA",
+      "title": "Spoken Language endorsement: what it is",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "4.6.1",
+      "title": "Assessment objective weightings across the papers",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "4.6.2",
+      "title": "Raw marks, scaling and the 160-mark total",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "MS.1",
+      "title": "Levels of response: how a mark is decided",
+      "topic_area": "Assessment structure"
+    },
+    {
+      "id": "3.0.1",
+      "title": "Text types the specification requires: literature, literary non-fiction and other writing",
+      "topic_area": "Scope of study"
+    },
+    {
+      "id": "3.0.2",
+      "title": "Time periods: 19th, 20th and 21st century texts",
+      "topic_area": "Scope of study"
+    },
+    {
+      "id": "3.0.3",
+      "title": "Substantial texts; transient content excluded",
+      "topic_area": "Scope of study"
+    },
+    {
+      "id": "3.1.1.1",
+      "title": "Identifying and interpreting themes, ideas and information",
+      "topic_area": "Critical reading and comprehension"
+    },
+    {
+      "id": "3.1.1.2",
+      "title": "Reading in different ways for different purposes; usefulness, relevance and presentation",
+      "topic_area": "Critical reading and comprehension"
+    },
+    {
+      "id": "3.1.1.3",
+      "title": "Drawing inferences and justifying them with evidence",
+      "topic_area": "Critical reading and comprehension"
+    },
+    {
+      "id": "3.1.1.4",
+      "title": "Supporting a point of view with evidence from the text",
+      "topic_area": "Critical reading and comprehension"
+    },
+    {
+      "id": "3.1.1.5",
+      "title": "Bias, misuse of evidence, and supported versus unsupported statements",
+      "topic_area": "Critical reading and comprehension"
+    },
+    {
+      "id": "3.1.1.6",
+      "title": "Reflecting critically using the text's context and wider reading",
+      "topic_area": "Critical reading and comprehension"
+    },
+    {
+      "id": "3.1.1.7",
+      "title": "Recognising the possibility of different responses to a text",
+      "topic_area": "Critical reading and comprehension"
+    },
+    {
+      "id": "3.1.1.8",
+      "title": "Summary: identifying main themes and summarising a single text",
+      "topic_area": "Summary and synthesis"
+    },
+    {
+      "id": "3.1.1.9",
+      "title": "Synthesis from more than one text",
+      "topic_area": "Summary and synthesis"
+    },
+    {
+      "id": "3.1.1.10",
+      "title": "Evaluating vocabulary and grammar: effectiveness and impact",
+      "topic_area": "Evaluation of writer's choices"
+    },
+    {
+      "id": "3.1.1.11",
+      "title": "Analysing and evaluating form and structure",
+      "topic_area": "Evaluation of writer's choices"
+    },
+    {
+      "id": "3.1.1.12",
+      "title": "Comparing two or more texts critically",
+      "topic_area": "Comparing texts"
+    },
+    {
+      "id": "3.1.2.1.1",
+      "title": "Writing for different purposes and audiences: describe, narrate, explain, instruct, inform, argue",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.1.2",
+      "title": "Selecting vocabulary, grammar, form, structure and organisation to reflect audience, purpose and context",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.1.3",
+      "title": "Using language imaginatively and creatively",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.1.4",
+      "title": "Using information provided by others to write in different forms",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.1.5",
+      "title": "Maintaining a consistent point of view",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.1.6",
+      "title": "Maintaining coherence and consistency across a text",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.2.1",
+      "title": "Writing for impact: selecting, organising and emphasising facts, ideas and key points",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.2.2",
+      "title": "Citing evidence and quotation effectively and pertinently",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.2.3",
+      "title": "Creating emotional impact",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.2.4",
+      "title": "Using language creatively, imaginatively and persuasively",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.2.2.5",
+      "title": "Rhetorical devices: rhetorical questions, antithesis, parenthesis and more",
+      "topic_area": "Writing"
+    },
+    {
+      "id": "3.1.3.1",
+      "title": "Spoken language: presenting information and ideas",
+      "topic_area": "Spoken language"
+    },
+    {
+      "id": "3.1.3.2",
+      "title": "Spoken language: responding to spoken language, questions and feedback",
+      "topic_area": "Spoken language"
+    },
+    {
+      "id": "3.1.3.3",
+      "title": "Spoken language: using spoken Standard English",
+      "topic_area": "Spoken language"
+    },
+    {
+      "id": "4.2.1",
+      "title": "Paper 1 Section A source: 20th/21st-century literature fiction (openings, endings, perspectives, description, character, atmosphere)",
+      "topic_area": "Paper 1"
+    },
+    {
+      "id": "4.2.2",
+      "title": "Paper 1 Section B: descriptive or narrative writing from a prompt, scenario or visual image",
+      "topic_area": "Paper 1"
+    },
+    {
+      "id": "4.3.1",
+      "title": "Paper 2 Section A sources: linked non-fiction and literary non-fiction from the 19th and 20th/21st century",
+      "topic_area": "Paper 2"
+    },
+    {
+      "id": "4.3.2",
+      "title": "Paper 2 Section B: a single viewpoint writing task with specified audience, purpose and form",
+      "topic_area": "Paper 2"
+    },
+    {
+      "id": "4.4.1",
+      "title": "Spoken Language: requirements of the prepared presentation",
+      "topic_area": "Spoken language NEA"
+    },
+    {
+      "id": "4.4.2",
+      "title": "Spoken Language general criteria: audible and spoken Standard English",
+      "topic_area": "Spoken language NEA"
+    },
+    {
+      "id": "4.4.3",
+      "title": "Spoken Language: Pass criteria",
+      "topic_area": "Spoken language NEA"
+    },
+    {
+      "id": "4.4.4",
+      "title": "Spoken Language: Merit criteria",
+      "topic_area": "Spoken language NEA"
+    },
+    {
+      "id": "4.4.5",
+      "title": "Spoken Language: Distinction criteria",
+      "topic_area": "Spoken language NEA"
+    },
+    {
+      "id": "5.0",
+      "title": "Spoken Language reporting: competency-based grade, no marks, Not Classified",
+      "topic_area": "Spoken language NEA"
+    },
+    {
+      "id": "5.5",
+      "title": "NEA administration for centres: malpractice, standardisation, sampling, moderation",
+      "topic_area": "Spoken language NEA"
+    },
+    {
+      "id": "6.0",
+      "title": "General administration: entries, re-sits, shelf life, private candidates, access",
+      "topic_area": "Administration"
+    },
+    {
+      "id": "AO1a",
+      "title": "AO1 (first strand): identify and interpret explicit and implicit information and ideas",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO1b",
+      "title": "AO1 (second strand): select and synthesise evidence from different texts",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO2",
+      "title": "AO2: explain, comment on and analyse how writers use language and structure to achieve effects and influence readers",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO3",
+      "title": "AO3: compare writers' ideas and perspectives, and how these are conveyed, across two or more texts",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO4",
+      "title": "AO4: evaluate texts critically and support this with appropriate textual references",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO5a",
+      "title": "AO5 (first strand): communicate clearly, effectively and imaginatively, adapting tone, style and register",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO5b",
+      "title": "AO5 (second strand): organise information and ideas with structural and grammatical features for coherence and cohesion",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO6",
+      "title": "AO6: range of vocabulary and sentence structures with accurate spelling and punctuation (20% of marks)",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO6.1",
+      "title": "AO6 descriptor: sentence demarcation",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO6.2",
+      "title": "AO6 descriptor: range and accuracy of punctuation",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO6.3",
+      "title": "AO6 descriptor: variety of sentence forms for effect",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO6.4",
+      "title": "AO6 descriptor: Standard English and grammatical control",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO6.5",
+      "title": "AO6 descriptor: spelling accuracy including ambitious vocabulary",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO6.6",
+      "title": "AO6 descriptor: range and ambition of vocabulary",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO7",
+      "title": "AO7: demonstrate presentation skills in a formal setting",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO8",
+      "title": "AO8: listen and respond appropriately to spoken language, including questions and feedback",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "AO9",
+      "title": "AO9: use spoken Standard English effectively in speeches and presentations",
+      "topic_area": "Assessment objectives"
+    },
+    {
+      "id": "P1.Q1",
+      "title": "Paper 1 Question 1: shade the four true statements (4 marks, AO1) -- 2026 format",
+      "topic_area": "Paper 1 questions"
+    },
+    {
+      "id": "P1.Q2",
+      "title": "Paper 1 Question 2: language analysis of an extract (8 marks, AO2)",
+      "topic_area": "Paper 1 questions"
+    },
+    {
+      "id": "P1.Q3",
+      "title": "Paper 1 Question 3: structure of the whole source (8 marks, AO2) -- 2026: names a single effect (e.g. suspense) to track",
+      "topic_area": "Paper 1 questions"
+    },
+    {
+      "id": "P1.Q4",
+      "title": "Paper 1 Question 4: evaluate a statement about part of the source (20 marks, AO4)",
+      "topic_area": "Paper 1 questions"
+    },
+    {
+      "id": "P1.Q5",
+      "title": "Paper 1 Question 5: descriptive or narrative writing (24 + 16 marks, AO5 and AO6)",
+      "topic_area": "Paper 1 questions"
+    },
+    {
+      "id": "P2.Q1",
+      "title": "Paper 2 Question 1: choose four true statements (4 marks, AO1)",
+      "topic_area": "Paper 2 questions"
+    },
+    {
+      "id": "P2.Q2",
+      "title": "Paper 2 Question 2: summary of differences across two sources (8 marks, AO1)",
+      "topic_area": "Paper 2 questions"
+    },
+    {
+      "id": "P2.Q3",
+      "title": "Paper 2 Question 3: language analysis of one source (12 marks, AO2)",
+      "topic_area": "Paper 2 questions"
+    },
+    {
+      "id": "P2.Q4",
+      "title": "Paper 2 Question 4: compare two sources' perspectives and methods (16 marks, AO3)",
+      "topic_area": "Paper 2 questions"
+    },
+    {
+      "id": "P2.Q5",
+      "title": "Paper 2 Question 5: viewpoint writing to a specified form (24 + 16 marks, AO5 and AO6)",
+      "topic_area": "Paper 2 questions"
+    },
+    {
+      "id": "T.1",
+      "title": "Word classes: nouns, verbs, adjectives, adverbs, pronouns, determiners, prepositions, conjunctions",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.2",
+      "title": "Phrases, clauses and subordination",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.3",
+      "title": "Sentence types and forms: simple, compound, complex, minor; statement, question, command, exclamation",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.4",
+      "title": "Verb forms: tense, aspect, voice and mood, modal verbs",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.5",
+      "title": "Punctuation as a tool for effect",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.6",
+      "title": "Figurative and sound language",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.7",
+      "title": "Tone, voice, register and narrative perspective",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.8",
+      "title": "Structural terminology: openings, focus, shifts, pace, flashback, foreshadowing, endings",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.9",
+      "title": "Rhetorical and persuasive devices",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.10",
+      "title": "Non-fiction forms and their conventions",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "T.11",
+      "title": "Reading nineteenth-century prose: vocabulary, syntax and attitudes",
+      "topic_area": "Terminology"
+    },
+    {
+      "id": "W.1",
+      "title": "Planning and timing a writing task",
+      "topic_area": "Writing technique"
+    },
+    {
+      "id": "W.D",
+      "title": "Descriptive writing craft",
+      "topic_area": "Writing technique"
+    },
+    {
+      "id": "W.N",
+      "title": "Narrative writing craft",
+      "topic_area": "Writing technique"
+    },
+    {
+      "id": "W.A",
+      "title": "Argument and viewpoint writing craft",
+      "topic_area": "Writing technique"
+    },
+    {
+      "id": "W.2",
+      "title": "Conventions of Paper 2 forms: article, letter, speech, leaflet, essay, review, guide",
+      "topic_area": "Writing technique"
+    },
+    {
+      "id": "W.3",
+      "title": "Proofreading and editing under time pressure",
+      "topic_area": "Writing technique"
+    },
+    {
+      "id": "X.1",
+      "title": "Paper 1 in the room: timings, order and marks per minute",
+      "topic_area": "Exam technique"
+    },
+    {
+      "id": "X.2",
+      "title": "Paper 2 in the room: timings, order, two sources and marks per minute",
+      "topic_area": "Exam technique"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "5.5",
+      "reason": "Centre-side NEA moderation and sampling arrangements (5.1-5.6: malpractice, standardisation, submission of marks, recording samples) are teacher and school administration, not learner content; outside this course's selected options and not built as teaching."
+    },
+    {
+      "id": "6.0",
+      "reason": "General administration (entries and codes, overlaps, re-sits and shelf life, private candidates, access arrangements) is not learner content; outside this course's selected options and not built as teaching."
+    }
+  ],
+  "S01_Course_Map_Papers_and_Marks": {
+    "covers_syllabus_refs": [
+      "AQA 8700 section 2 Specification at a glance",
+      "4.5-4.6",
+      "Paper 1 and Paper 2 mark schemes (levels of response instructions)"
+    ],
+    "syllabus_topic": "Assessment structure",
+    "covers_items": [
+      "4.0.1",
+      "2.P1",
+      "2.P2",
+      "2.NEA",
+      "4.6.1",
+      "4.6.2",
+      "MS.1"
+    ]
+  },
+  "S02_Texts_Periods_and_What_Sources_Look_Like": {
+    "covers_syllabus_refs": [
+      "AQA 8700 sections 3, 3.1 (scope), 4.2, 4.3"
+    ],
+    "syllabus_topic": "Scope of study",
+    "covers_items": [
+      "3.0.1",
+      "3.0.2",
+      "3.0.3"
+    ]
+  },
+  "S03_Terminology_Word_Classes_Phrases_Clauses": {
+    "covers_syllabus_refs": [
+      "AQA 8700 4.1 (grammatical terminology)",
+      "AO2 (relevant subject terminology)"
+    ],
+    "syllabus_topic": "Grammar and linguistic terminology",
+    "covers_items": [
+      "T.1",
+      "T.2",
+      "T.4"
+    ]
+  },
+  "S04_Terminology_Sentences_and_Punctuation": {
+    "covers_syllabus_refs": [
+      "AQA 8700 4.1",
+      "AO2",
+      "AO6 (sentence forms, punctuation)"
+    ],
+    "syllabus_topic": "Grammar and linguistic terminology",
+    "covers_items": [
+      "T.3",
+      "T.5"
+    ]
+  },
+  "S05_Terminology_Figurative_and_Sound_Language": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.1 evaluation of vocabulary",
+      "AO2"
+    ],
+    "syllabus_topic": "Language terminology",
+    "covers_items": [
+      "T.6"
+    ]
+  },
+  "S06_Reading_Explicit_and_Implicit_Meaning": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.1 critical reading and comprehension",
+      "AO1 first strand"
+    ],
+    "syllabus_topic": "Critical reading and comprehension (AO1)",
+    "covers_items": [
+      "3.1.1.1",
+      "3.1.1.3",
+      "3.1.1.4",
+      "AO1a"
+    ]
+  },
+  "S07_Short_Reading_Questions_P1Q1_and_P2Q1": {
+    "covers_syllabus_refs": [
+      "AQA 8700 Paper 1 Q1",
+      "Paper 2 Q1",
+      "AO1"
+    ],
+    "syllabus_topic": "Paper 1 and Paper 2 short reading questions (AO1)",
+    "covers_items": [
+      "P1.Q1",
+      "P2.Q1"
+    ]
+  },
+  "S08_Purposes_Usefulness_Bias_and_Evidence": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.1 bullet 1 (reading for purposes",
+      "identifying bias and misuse of evidence)"
+    ],
+    "syllabus_topic": "Critical reading and comprehension",
+    "covers_items": [
+      "3.1.1.2",
+      "3.1.1.5"
+    ]
+  },
+  "S09_Summary_and_Synthesis_P2Q2": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.1 bullet 2 summary and synthesis",
+      "AO1 second strand",
+      "Paper 2 Q2"
+    ],
+    "syllabus_topic": "Summary and synthesis (AO1)",
+    "covers_items": [
+      "3.1.1.8",
+      "3.1.1.9",
+      "AO1b",
+      "P2.Q2"
+    ]
+  },
+  "S10_Language_Analysis_Paper_1_Q2": {
+    "covers_syllabus_refs": [
+      "AQA 8700 AO2",
+      "3.1.1 bullet 3",
+      "Paper 1 Q2"
+    ],
+    "syllabus_topic": "Language analysis (AO2)",
+    "covers_items": [
+      "AO2",
+      "3.1.1.10",
+      "P1.Q2"
+    ]
+  },
+  "S11_Language_Analysis_Paper_2_Q3_and_Persuasive_Devices": {
+    "covers_syllabus_refs": [
+      "AQA 8700 AO2",
+      "Paper 2 Q3"
+    ],
+    "syllabus_topic": "Language analysis (AO2), non-fiction",
+    "covers_items": [
+      "P2.Q3",
+      "T.9"
+    ]
+  },
+  "S12_Structure_Analysis_Paper_1_Q3": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.1 bullet 3 (form and structure)",
+      "AO2",
+      "Paper 1 Q3"
+    ],
+    "syllabus_topic": "Structure analysis (AO2)",
+    "covers_items": [
+      "3.1.1.11",
+      "P1.Q3",
+      "T.8"
+    ]
+  },
+  "S13_Reading_Fiction_Openings_Voice_and_Perspective": {
+    "covers_syllabus_refs": [
+      "AQA 8700 4.2 (content of Paper 1 source)",
+      "AO1",
+      "AO2"
+    ],
+    "syllabus_topic": "Paper 1 source and fiction reading",
+    "covers_items": [
+      "4.2.1",
+      "T.7"
+    ]
+  },
+  "S14_Evaluation_Paper_1_Q4": {
+    "covers_syllabus_refs": [
+      "AQA 8700 AO4",
+      "3.1.1 bullet 1 (reflecting critically",
+      "possibility of different responses)",
+      "Paper 1 Q4"
+    ],
+    "syllabus_topic": "Evaluation (AO4)",
+    "covers_items": [
+      "AO4",
+      "P1.Q4",
+      "3.1.1.6",
+      "3.1.1.7"
+    ]
+  },
+  "S15_Comparison_Paper_2_Q4": {
+    "covers_syllabus_refs": [
+      "AQA 8700 AO3",
+      "3.1.1 bullet 4 (comparing texts)",
+      "Paper 2 Q4"
+    ],
+    "syllabus_topic": "Comparison (AO3)",
+    "covers_items": [
+      "AO3",
+      "3.1.1.12",
+      "P2.Q4"
+    ]
+  },
+  "S16_Reading_Nineteenth_Century_and_Non_Fiction_Forms": {
+    "covers_syllabus_refs": [
+      "AQA 8700 4.3 (content of Paper 2 sources)",
+      "3.1.1",
+      "text types"
+    ],
+    "syllabus_topic": "Paper 2 sources and forms",
+    "covers_items": [
+      "4.3.1",
+      "T.10",
+      "T.11"
+    ]
+  },
+  "S17_Writing_for_Purpose_Audience_and_a_Consistent_Voice": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.2 bullets 1-2, 5-6",
+      "AO5"
+    ],
+    "syllabus_topic": "Writing skills and AO5 (content and organisation)",
+    "covers_items": [
+      "3.1.2.1.1",
+      "3.1.2.1.2",
+      "3.1.2.1.5",
+      "3.1.2.1.6",
+      "AO5a",
+      "AO5b"
+    ]
+  },
+  "S18_Descriptive_and_Narrative_Craft_Paper_1_Section_B": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.2 bullets 3-4",
+      "4.2.2",
+      "Paper 1 Q5"
+    ],
+    "syllabus_topic": "Creative writing (Paper 1 Section B)",
+    "covers_items": [
+      "3.1.2.1.3",
+      "3.1.2.1.4",
+      "W.D",
+      "W.N",
+      "W.1",
+      "4.2.2",
+      "P1.Q5"
+    ]
+  },
+  "S19_Writing_for_Impact_Argument_and_Rhetorical_Devices": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.2 bullets 7-11"
+    ],
+    "syllabus_topic": "Persuasive and viewpoint writing (Paper 2 Section B foundations)",
+    "covers_items": [
+      "3.1.2.2.1",
+      "3.1.2.2.2",
+      "3.1.2.2.3",
+      "3.1.2.2.4",
+      "3.1.2.2.5",
+      "W.A"
+    ]
+  },
+  "S20_Paper_2_Section_B_Viewpoint_Task_and_Technical_Accuracy_I": {
+    "covers_syllabus_refs": [
+      "AQA 8700 4.3.2",
+      "Paper 2 Q5",
+      "AO6"
+    ],
+    "syllabus_topic": "Viewpoint writing (Paper 2 Section B) and AO6 (technical accuracy)",
+    "covers_items": [
+      "4.3.2",
+      "P2.Q5",
+      "AO6",
+      "AO6.1",
+      "AO6.2",
+      "AO6.3"
+    ]
+  },
+  "S21_Technical_Accuracy_II_Form_Conventions_and_Proofreading": {
+    "covers_syllabus_refs": [
+      "AQA 8700 4.3.2 (AO6 continued)",
+      "exam timing guidance"
+    ],
+    "syllabus_topic": "Technical accuracy, form conventions and exam technique",
+    "covers_items": [
+      "AO6.4",
+      "AO6.5",
+      "AO6.6",
+      "W.2",
+      "W.3",
+      "X.1",
+      "X.2"
+    ]
+  },
+  "S22_Spoken_Language_Skills_and_the_Speaking_and_Listening_AOs": {
+    "covers_syllabus_refs": [
+      "AQA 8700 3.1.3",
+      "AO7",
+      "AO8",
+      "AO9"
+    ],
+    "syllabus_topic": "Spoken language (3.1.3) and AO7-AO9",
+    "covers_items": [
+      "3.1.3.1",
+      "3.1.3.2",
+      "3.1.3.3",
+      "AO7",
+      "AO8",
+      "AO9"
+    ]
+  },
+  "S23_Spoken_Language_Endorsement_Criteria_and_Reporting": {
+    "covers_syllabus_refs": [
+      "AQA 8700 4.4",
+      "5.0"
+    ],
+    "syllabus_topic": "Spoken language non-exam assessment (endorsement)",
+    "covers_items": [
+      "4.4.1",
+      "4.4.2",
+      "4.4.3",
+      "4.4.4",
+      "4.4.5",
+      "5.0"
+    ]
+  }
+}

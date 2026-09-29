@@ -1,0 +1,318 @@
+{
+  "stage_rubrics": {
+    "S01_INT_Core": {
+      "criteria": [
+        "Uses a complete, correctly ordered interview structure (opening, information-gathering, objectives, advice, closing) within a realistic time budget",
+        "Uses predominantly open questions, narrows appropriately, and reflects back to check understanding",
+        "Distinguishes the client's stated request from their underlying objective and records it explicitly",
+        "Produces an attendance note that is accurate, complete, third-person, and usable by another fee-earner without further questioning the client"
+      ],
+      "pass_threshold": "Meets the SQE2 Threshold Standard (Level 3) for interviewing: a controlled, client-focused structure; effective open and closed questioning; correctly identified objectives; and an attendance note a supervising solicitor could act on without re-interviewing the client.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, client interview and attendance note station",
+        "reference": "sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S02_INT_Worked_Scenarios": {
+      "criteria": [
+        "Applies the fixed interview structure correctly while adapting content and tone to the specific practice-area context",
+        "Uses context-appropriate open questioning and identifies risks/sensitivities specific to that context (e.g. privilege, capacity, urgency)",
+        "Correctly distinguishes the client's stated request from their real objective in that context",
+        "Produces a context-accurate, complete attendance note including any flagged next steps or risks"
+      ],
+      "pass_threshold": "Interview structure and questioning technique transfer correctly to each context; the client's context-specific objective is correctly identified; each attendance note reflects the real content and conventions of that practice area.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, client interview and attendance note station across practice contexts",
+        "reference": "sqe.sra.org.uk SQE2 specification, Annex 1 (Criminal Practice, Dispute Resolution, Property Practice, Wills and Administration, Business Law and Practice)",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S03_ADV_Core": {
+      "criteria": [
+        "Submission has a clear, logical, front-loaded structure with a stated proposition, ordered points, and a precise requested order",
+        "Addresses the opposing party's strongest point rather than ignoring it",
+        "Demonstrates correct question form for the task (open/non-leading in chief, closed/leading in cross)",
+        "Uses correct forms of address, bundle references, and courtroom conduct throughout, within time"
+      ],
+      "pass_threshold": "Meets the SQE2 Threshold Standard (Level 3) for advocacy: a clear, logical, persuasive structure; questioning technique matching examination-in-chief or cross-examination as required; and conduct and etiquette appropriate to the tribunal, under the real 45-minute preparation and 15-minute presentation timing.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, advocacy station",
+        "reference": "sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S04_ADV_Worked_Scenarios": {
+      "criteria": [
+        "Correctly identifies the tribunal, the applicable test/procedure, and uses context-appropriate forms of address",
+        "Structures the submission with a front-loaded proposition and points in descending strength, supported by facts/authority",
+        "Directly addresses the strongest point against the client rather than ignoring it",
+        "Maintains courteous, controlled conduct and finishes within the time allowed"
+      ],
+      "pass_threshold": "Submission structure and questioning technique are applied correctly to the specific hearing type in each context; the tribunal and etiquette for that context are correctly identified; the strongest point against the client is addressed, not avoided.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, advocacy station across practice contexts",
+        "reference": "sqe.sra.org.uk SQE2 specification, Annex 1 (Criminal Practice, Dispute Resolution, Property Practice, Wills and Administration, Business Law and Practice)",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S05_CMA_Core": {
+      "criteria": [
+        "Correctly identifies the central legal issues as questions, without drowning them in side issues",
+        "Builds an accurate chronology and explicitly flags factual conflicts between documents",
+        "Identifies genuine, decisive gaps and states assumptions clearly rather than guessing silently",
+        "Produces a structured, client-focused report ending in an explicit, reasoned recommendation"
+      ],
+      "pass_threshold": "Meets the SQE2 Threshold Standard (Level 3) for case and matter analysis: correctly identifies the legal issues and relevant facts from an unfamiliar bundle within the 60-minute limit, flags genuine gaps, and produces a structured, client-focused report with a supported recommendation.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, case and matter analysis station (60-minute computer-based written task)",
+        "reference": "sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S06_CMA_Worked_Scenarios": {
+      "criteria": [
+        "Spots the issues, facts and gaps that are actually typical/decisive for that specific practice area, not a generic list",
+        "Builds an accurate chronology and flags conflicts or missing evidence specific to the context",
+        "Distinguishes decisive gaps from minor ones and states assumptions where facts are missing",
+        "Recommendation is explicit, realistic, and weighs the client's practical position, not just legal merits"
+      ],
+      "pass_threshold": "The analysis method (issues, facts/conflicts, gaps, options, recommendation) is applied accurately to bundle content typical of each context, with issues and gaps specific to that area of law correctly spotted.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, case and matter analysis station across practice contexts",
+        "reference": "sqe.sra.org.uk SQE2 specification, Annex 1 (Criminal Practice, Dispute Resolution, Property Practice, Wills and Administration, Business Law and Practice)",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S07_RES_Core": {
+      "criteria": [
+        "Frames a precise, answerable research question from a vague or general instruction",
+        "Correctly identifies and prioritises which provided source(s) actually answer the framed question",
+        "Applies the law found to the client's specific facts with reasoning, not just a restatement of the source",
+        "Presents a structured, accurately referenced answer with a clear final conclusion"
+      ],
+      "pass_threshold": "Meets the SQE2 Threshold Standard (Level 3) for legal research: frames a precise, answerable question, identifies and uses relevant sources and information provided, applies the law correctly to the facts, and presents a clearly referenced answer within the 60-minute limit.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, legal research station (60-minute computer-based written task)",
+        "reference": "sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S08_RES_Worked_Scenarios": {
+      "criteria": [
+        "Frames a precise research question specific to the practice-area facts given",
+        "Identifies and correctly uses source material typical of that practice area",
+        "Applies the source accurately to the facts with clear reasoning, addressing genuine counter-arguments",
+        "Presents a properly referenced answer ending in an explicit, usable conclusion"
+      ],
+      "pass_threshold": "The research method is applied accurately to a realistic instruction in each context, using materials typical of that area (guidelines, procedural rules, statutory provisions, case authority) correctly identified, applied and referenced.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, legal research station across practice contexts",
+        "reference": "sqe.sra.org.uk SQE2 specification, Annex 1 (Criminal Practice, Dispute Resolution, Property Practice, Wills and Administration, Business Law and Practice)",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S09_WRI_Core": {
+      "criteria": [
+        "Uses clear, precise, concise language matched correctly to the intended reader",
+        "Selects and correctly structures the right document type for the task (attendance note, file note, letter of advice, or third-party correspondence)",
+        "States the substantive conclusion/advice clearly and early, not buried or left implicit",
+        "Content is accurate to the facts given, with appropriate next steps and no unsupported claims"
+      ],
+      "pass_threshold": "Meets the SQE2 Threshold Standard (Level 3) for legal writing: clear, precise, concise and acceptable language for the intended reader; correct document type and structure; and accurate content, within the 30-minute limit.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, legal writing station (30-minute computer-based written task)",
+        "reference": "sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S10_WRI_Worked_Scenarios": {
+      "criteria": [
+        "Selects the right document type and structure for the reader and purpose in that context",
+        "Leads with a clear conclusion/recommendation appropriate to that practice area's likely client concerns",
+        "Content is accurate to the scenario facts, with technical terms explained where the reader would need it",
+        "Register and tone are appropriately matched to the named reader (anxious individual client vs. formal third party vs. business client)"
+      ],
+      "pass_threshold": "The correct document type is produced with content accurate to the practice-area facts, clear conclusions, and register appropriate to the named reader in each context.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, legal writing station across practice contexts",
+        "reference": "sqe.sra.org.uk SQE2 specification, Annex 1 (Criminal Practice, Dispute Resolution, Property Practice, Wills and Administration, Business Law and Practice)",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S11_DRA_Core": {
+      "criteria": [
+        "Drafts precisely to the instructions given, adding nothing and omitting nothing, with gaps flagged rather than invented",
+        "Uses plain English and avoids unnecessary archaic drafting language",
+        "Defined terms and cross-references are used correctly and consistently throughout",
+        "The document/clause is unambiguous and includes any consequence the instruction implies (what happens if the obligation is not met)"
+      ],
+      "pass_threshold": "Meets the SQE2 Threshold Standard (Level 3) for legal drafting: a document or clause that is legally correct, precise, unambiguous, and follows the instructions given, within the 45-minute limit.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, legal drafting station (45-minute computer-based written task)",
+        "reference": "sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    },
+    "S12_DRA_Worked_Scenarios": {
+      "criteria": [
+        "Uses the document convention/format typical of that practice area correctly (numbered particulars, resolution format, will clause language, notice format)",
+        "Drafts precisely to the instructions given, with any gap flagged rather than invented",
+        "Clause/document is unambiguous, with defined terms and consequences stated where implied by the instruction",
+        "Content is accurate and consistent with the underlying scenario facts from earlier stages"
+      ],
+      "pass_threshold": "The document or clause is drafted precisely to instructions with content and format typical of that practice area, unambiguous, and with any gap in the instructions flagged rather than filled by invention.",
+      "source": {
+        "issuing_body": "Solicitors Regulation Authority (SRA)",
+        "document": "SRA SQE2 Assessment Specification, legal drafting station across practice contexts",
+        "reference": "sqe.sra.org.uk SQE2 specification, Annex 1 (Criminal Practice, Dispute Resolution, Property Practice, Wills and Administration, Business Law and Practice)",
+        "urls": [
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+          "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+          "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Performance across all six skills is consistent with the SQE2 Threshold Standard (Level 3), not just strong on some skills and weak on others",
+      "Oral skills (interviewing, advocacy) show correct structure, technique and courtroom/interview conduct under live or recorded, timed conditions",
+      "Written skills (case analysis, research, writing, drafting) show correct method and produce an accurate, usable, client-focused document or analysis under timed conditions",
+      "Performance holds up when skills are applied to an unfamiliar practice-area context, not only the ones most recently practised",
+      "Every one of the five practice-area contexts has been tested successfully for at least one skill before the exam is recorded as passed"
+    ],
+    "pass_threshold": "A pass requires performance consistent with the SQE2 Threshold Standard (Level 3) across all six skills and, cumulatively, across all five practice-area contexts sampled, marked on the SRA's six-point A-F scale with skill and application of law weighted equally. The SRA does not publish a fixed raw mark boundary; it sets the standard per sitting via its standard-setting process.",
+    "source": {
+      "issuing_body": "Solicitors Regulation Authority (SRA)",
+      "document": "SRA SQE2 Assessment Specification, full assessment structure (oral and written sittings)",
+      "reference": "sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments; SQE2 Annex 2 Threshold Standard",
+      "urls": [
+        "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+        "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+        "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+        "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+        "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+        "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4",
+        "https://www.sra.org.uk/globalassets/documents/sra/sqe2-assessment-specification.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification",
+    "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-assessments",
+    "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-1",
+    "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-2",
+    "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-3",
+    "https://sqe.sra.org.uk/assessments/sqe2-assessments/sqe2-specification/sqe2-annex-4"
+  ],
+  "source_notes": [
+    "The old build had zero itemisation: curriculum_map.json carried only a broad topic index with no _syllabus_items, so no prior source_urls/source_notes existed to carry over.",
+    "This build itemises all six SQE2 skills (client interviewing, advocacy, case and matter analysis, legal research, legal writing, legal drafting) crossed with the five practice-area contexts named in the brief (Criminal Practice, Dispute Resolution, Property Practice, Wills and Intestacy/Probate Administration and Practice, Business Organisations Rules and Procedures), for the first time.",
+    "Timings and formats per skill (e.g. interview 25 minutes oral + 25 minutes attendance note; advocacy 45 minutes prep + 15 minutes presentation; case analysis/legal research 60 minutes each; legal writing 30 minutes; legal drafting 45 minutes) and the oral/written sitting structure (2 half-days oral, 3 half-days written) were confirmed from the live SQE2 specification page.",
+    "The exact skill-to-context pairing on any one candidate's sitting is not fixed by the SRA and varies between administrations, subject to its published principle that each skill is assessed at least twice across the assessment; the EXAM block reflects that published principle rather than inventing a fixed permutation."
+  ]
+}

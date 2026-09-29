@@ -1,0 +1,490 @@
+{
+  "stage_rubrics": {
+    "S01_Atoms_Elements_and_the_Atomic_Model": {
+      "criteria": [
+        "Distinguishes elements, compounds and mixtures and chooses a suitable separation method",
+        "Describes the development of the model of the atom with the evidence for each change",
+        "Gives the relative charge, mass and location of subatomic particles and uses atomic and mass numbers correctly",
+        "Writes electronic structures and calculates relative atomic mass from isotope data"
+      ],
+      "pass_threshold": "Foundation: correct on element, compound and mixture definitions, particle charges and electron shells (grade 4-5). Higher: also calculates relative atomic mass from isotope abundance and explains model changes with evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.1.1 A simple model of the atom, symbols, relative atomic mass, electric charge and isotopes",
+        "reference": "AQA 8462 specification, section 4.1.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S02_The_Periodic_Table_and_Groups": {
+      "criteria": [
+        "Explains how the periodic table is arranged and how it developed, including Mendeleev's predictions",
+        "Distinguishes metals from non-metals by properties and by ion formation",
+        "Describes and explains trends and reactions in Groups 0, 1 and 7 using electronic structure",
+        "Compares transition metals with Group 1 metals and gives typical properties and uses"
+      ],
+      "pass_threshold": "Foundation: correct on periodic table structure, group properties and typical reactions (grade 4-5). Higher: explains trends in reactivity in terms of electronic structure.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.1.2 The periodic table and 4.1.3 Properties of transition metals",
+        "reference": "AQA 8462 specification, sections 4.1.2 and 4.1.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S03_Chemical_Bonding": {
+      "criteria": [
+        "Identifies ionic, covalent and metallic bonding from the elements involved and explains electron transfer or sharing",
+        "Works out ion charges and formulae of ionic compounds correctly",
+        "Draws accurate dot-and-cross diagrams for ionic and simple covalent species",
+        "Describes metallic bonding using delocalised electrons and recognises the limitations of models"
+      ],
+      "pass_threshold": "Foundation: correct on bonding type, ion charges and simple dot-and-cross diagrams (grade 4-5). Higher: draws diagrams for more complex ionic and covalent compounds and works out formulae from charges.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.2.1 Chemical bonds, ionic, covalent and metallic bonding",
+        "reference": "AQA 8462 specification, section 4.2.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S04_States_of_Matter_and_Properties": {
+      "criteria": [
+        "Uses the particle model for changes of state and states its limitations",
+        "Uses state symbols correctly in equations",
+        "Explains properties of ionic, molecular, giant covalent and metallic substances using bonding and forces",
+        "Explains why alloys are harder than pure metals and why metals conduct"
+      ],
+      "pass_threshold": "Foundation: correct on states of matter and property-structure links (grade 4-5). Higher: explains properties fully in terms of forces between particles and delocalised electrons.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.2.2 How bonding and structure are related to the properties of substances",
+        "reference": "AQA 8462 specification, section 4.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S05_Carbon_Structures_and_Nanoscience": {
+      "criteria": [
+        "Describes the structure and bonding of diamond, graphite, graphene and fullerenes",
+        "Links the structure of each to its properties and uses",
+        "Explains the effect of particle size on surface area to volume ratio and properties",
+        "Evaluates uses of nanoparticles with benefits and risks"
+      ],
+      "pass_threshold": "Foundation: correct on properties and uses of diamond, graphite and nanoparticles (grade 4-5). Higher: explains properties in terms of bonding and surface area to volume ratio.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.2.3 Structure and bonding of carbon and 4.2.4 Nanoscience",
+        "reference": "AQA 8462 specification, sections 4.2.3 and 4.2.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S06_Conservation_of_Mass_and_Moles": {
+      "criteria": [
+        "Balances symbol equations and explains conservation of mass",
+        "Calculates Mr and percentage by mass correctly",
+        "Explains apparent mass changes when gases are involved and handles uncertainty in repeats",
+        "At Higher tier: converts between mass and moles and uses equation ratios and limiting reactants correctly"
+      ],
+      "pass_threshold": "Foundation: balances equations, calculates Mr and uses conservation of mass (grade 4-5). Higher: uses moles, balances equations from masses and identifies limiting reactants.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.3.1 Relative masses and moles (4.3.1.1-4.3.1.4) and 4.3.2 (4.3.2.1-4.3.2.4)",
+        "reference": "AQA 8462 specification, sections 4.3.1 and 4.3.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S07_Concentration_Yield_and_Gas_Volumes": {
+      "criteria": [
+        "Calculates concentrations in g/dm3 and mol/dm3 with correct volume unit conversions",
+        "Calculates percentage yield and explains why yield is below 100 per cent",
+        "Calculates atom economy and discusses its importance for sustainability",
+        "At Higher tier: uses the molar gas volume and equation ratios correctly"
+      ],
+      "pass_threshold": "Foundation: calculates concentration in g/dm3, percentage yield and atom economy (grade 4-5). Higher: works in mol/dm3 and with gas volumes.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.3.2.5 Concentration of solutions, 4.3.3 Yield and atom economy, 4.3.4 Using concentrations of solutions in mol/dm3, 4.3.5 Use of amount of substance in relation to volumes of gases",
+        "reference": "AQA 8462 specification, sections 4.3.2-4.3.5",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S08_Reactivity_and_Extraction_of_Metals": {
+      "criteria": [
+        "Explains oxidation and reduction as loss and gain of oxygen and, at Higher, of electrons",
+        "Orders metals by reactivity using experimental evidence",
+        "Predicts displacement reactions and writes equations",
+        "Links extraction method (carbon reduction or electrolysis) to position in the reactivity series"
+      ],
+      "pass_threshold": "Foundation: correct on the reactivity series, displacement and extraction (grade 4-5). Higher: uses half equations and electron transfer to explain oxidation and reduction.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.4.1 Reactivity of metals",
+        "reference": "AQA 8462 specification, section 4.4.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S09_Acids_Salts_and_pH": {
+      "criteria": [
+        "Writes word and symbol equations for reactions of acids with metals and bases",
+        "Describes how to make a pure, dry soluble salt with the reason for each step",
+        "Carries out and evaluates a titration and, at Higher, calculates concentrations from results",
+        "Distinguishes strong from weak acids and concentrated from dilute solutions"
+      ],
+      "pass_threshold": "Foundation: correct on acid reactions, salt preparation and pH (grade 4-5). Higher: performs titration calculations and explains strong versus weak acids.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.4.2 Reactions of acids, and required practicals 1 and 2",
+        "reference": "AQA 8462 specification, section 4.4.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S10_Electrolysis": {
+      "criteria": [
+        "Explains why ions must be free to move for electrolysis and where they are discharged",
+        "Predicts products for molten and aqueous electrolytes using the reactivity series",
+        "Describes the extraction of aluminium including cryolite and the anode reaction",
+        "Writes half equations and identifies oxidation and reduction at each electrode"
+      ],
+      "pass_threshold": "Foundation: correct on electrolysis definition, molten products and aluminium extraction (grade 4-5). Higher: predicts aqueous electrolysis products and writes half equations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.4.3 Electrolysis and required practical 3",
+        "reference": "AQA 8462 specification, section 4.4.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S11_Energy_Changes_and_Cells": {
+      "criteria": [
+        "Classifies reactions as exothermic or endothermic and gives examples with everyday uses",
+        "Draws and labels reaction profiles including activation energy",
+        "Calculates overall energy changes from bond energies at Higher tier",
+        "Describes cells, batteries and fuel cells and evaluates fuel cells; plans a temperature-change practical with control variables"
+      ],
+      "pass_threshold": "Foundation: correct on exothermic and endothermic reactions, reaction profiles and simple cells (grade 4-5). Higher: calculates energy change from bond energies and writes fuel cell half equations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.5.1 Exothermic and endothermic reactions, 4.5.2 Chemical cells and fuel cells, and required practical 4",
+        "reference": "AQA 8462 specification, section 4.5",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S12_Rates_of_Reaction": {
+      "criteria": [
+        "Calculates mean rates and interprets rate graphs, including tangents at Higher tier",
+        "Names the factors affecting rate and explains each using collision theory",
+        "Explains catalysts using activation energy and reaction profiles",
+        "Plans and evaluates a rate investigation with control variables"
+      ],
+      "pass_threshold": "Foundation: correct on factors affecting rate and simple rate calculations (grade 4-5). Higher: uses tangents to find rates and explains using collision theory and activation energy.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.6.1 Rate of reaction and required practical 5",
+        "reference": "AQA 8462 specification, section 4.6.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S13_Reversible_Reactions_and_Equilibrium": {
+      "criteria": [
+        "Describes reversible reactions and their equal and opposite energy changes",
+        "Explains dynamic equilibrium in a closed system",
+        "Applies Le Chatelier's principle to concentration, temperature and pressure changes",
+        "Explains that a catalyst does not change the position of equilibrium"
+      ],
+      "pass_threshold": "Foundation: correct on reversible reactions and their energy changes (grade 4-5). Higher: predicts and explains equilibrium shifts from changes in concentration, temperature and pressure.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.6.2 Reversible reactions and dynamic equilibrium",
+        "reference": "AQA 8462 specification, section 4.6.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S14_Crude_Oil_and_Hydrocarbons": {
+      "criteria": [
+        "Describes crude oil as a mixture of hydrocarbons and how it forms",
+        "Explains fractional distillation using boiling point and the temperature gradient",
+        "Explains trends in boiling point, viscosity and flammability, and writes combustion equations",
+        "Explains why and how cracking is done and balances cracking equations"
+      ],
+      "pass_threshold": "Foundation: correct on crude oil, fractions, properties and combustion (grade 4-5). Higher: explains trends in terms of intermolecular forces and balances cracking equations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.7.1 Carbon compounds as fuels and feedstock",
+        "reference": "AQA 8462 specification, section 4.7.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S15_Alkenes_Alcohols_Acids_and_Polymers": {
+      "criteria": [
+        "Describes the structure of alkenes and alkanes and tests for unsaturation",
+        "Writes equations for reactions of alkenes, alcohols and carboxylic acids",
+        "Explains addition polymerisation and draws repeat units",
+        "At Higher tier: explains condensation polymerisation, amino acids and natural polymers including DNA"
+      ],
+      "pass_threshold": "Foundation: correct on alkene, alcohol and acid properties and polymer formation (grade 4-5). Higher: writes equations, draws repeat units and explains condensation polymerisation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.7.2 Reactions of alkenes and alcohols and 4.7.3 Synthetic and naturally occurring polymers",
+        "reference": "AQA 8462 specification, sections 4.7.2 and 4.7.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S16_Purity_Chromatography_and_Gas_Tests": {
+      "criteria": [
+        "Distinguishes chemical purity from everyday use and uses melting point as a test",
+        "Describes formulations and why components are measured",
+        "Carries out chromatography and calculates and interprets Rf values",
+        "Gives the tests and results for hydrogen, oxygen, carbon dioxide and chlorine"
+      ],
+      "pass_threshold": "Foundation: correct on purity, chromatography and gas tests (grade 4-5). Higher: calculates and interprets Rf values and evaluates formulations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.8.1 Purity, formulations and chromatography, 4.8.2 Identification of common gases and required practical 6",
+        "reference": "AQA 8462 specification, sections 4.8.1 and 4.8.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S17_Ion_Tests_and_Instrumental_Analysis": {
+      "criteria": [
+        "Identifies metal ions using flame tests and sodium hydroxide precipitates",
+        "Identifies carbonates, halides and sulfates using correct reagents and observations",
+        "Explains why acid is added first to the halide and sulfate tests",
+        "Compares instrumental methods with chemical tests and describes flame emission spectroscopy"
+      ],
+      "pass_threshold": "Foundation: correct on flame tests and simple ion tests (grade 4-5). Higher: interprets combined test results and evaluates instrumental methods.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.8.3 Identification of ions by chemical and spectroscopic means and required practical 7",
+        "reference": "AQA 8462 specification, section 4.8.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S18_The_Atmosphere_and_Climate": {
+      "criteria": [
+        "Gives the composition of the present and early atmosphere and explains how oxygen and carbon dioxide levels changed",
+        "Explains the greenhouse effect and human contributions",
+        "Evaluates evidence and models for climate change and ways of reducing carbon footprint",
+        "Describes sources and effects of carbon monoxide, sulfur dioxide, nitrogen oxides and particulates"
+      ],
+      "pass_threshold": "Foundation: correct on the atmosphere, greenhouse effect and pollutants (grade 4-5). Higher: evaluates evidence and mitigation with reasoning.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.9 Chemistry of the atmosphere",
+        "reference": "AQA 8462 specification, section 4.9",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S19_Water_Resources_and_Life_Cycle_Assessment": {
+      "criteria": [
+        "Explains sustainable development and the difference between finite and renewable resources",
+        "Describes potable water production, desalination and sewage treatment",
+        "Describes and evaluates phytomining and bioleaching",
+        "Interprets and criticises life cycle assessments and recycling; carries out and evaluates water analysis and distillation"
+      ],
+      "pass_threshold": "Foundation: correct on potable water, sewage treatment and recycling (grade 4-5). Higher: evaluates alternative extraction methods and interprets life cycle assessments.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.10.1 Using the Earth's resources and obtaining potable water, 4.10.2 Life cycle assessment and recycling, and required practical 8",
+        "reference": "AQA 8462 specification, sections 4.10.1 and 4.10.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S20_Corrosion_Materials_and_the_Haber_Process": {
+      "criteria": [
+        "Explains the conditions for rusting and methods of prevention including sacrificial protection",
+        "Links the composition and properties of alloys, ceramics, polymers and composites to uses",
+        "Describes the Haber process and explains the conditions chosen using rate and equilibrium",
+        "Describes NPK fertilisers and how they are made"
+      ],
+      "pass_threshold": "Foundation: correct on rusting, alloys and fertilisers (grade 4-5). Higher: explains the conditions of the Haber process in terms of rate and equilibrium.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, 4.10.3 Using materials and 4.10.4 The Haber process and the use of NPK fertilisers",
+        "reference": "AQA 8462 specification, sections 4.10.3 and 4.10.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S21_Working_Scientifically_Thinking_and_Experiments": {
+      "criteria": [
+        "Explains how theories, models and evidence develop and the role of peer review",
+        "Evaluates ethical and risk issues in science and society",
+        "Plans a controlled investigation with clearly identified variables, apparatus and sampling",
+        "Evaluates a method, distinguishing random and systematic error and suggesting improvements"
+      ],
+      "pass_threshold": "Foundation: identifies variables, plans a fair test and suggests improvements (grade 4-5). Higher: evaluates a method critically with reasoned suggestions and explains risk and ethical issues.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, section 3 Working scientifically, WS1 Development of scientific thinking and WS2 Experimental skills and strategies",
+        "reference": "AQA 8462 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S22_Working_Scientifically_Analysis_and_Vocabulary": {
+      "criteria": [
+        "Presents data in an appropriate table or graph with labelled axes and units",
+        "Calculates means and ranges and treats anomalies sensibly",
+        "Describes patterns using figures and writes conclusions that match the evidence",
+        "Evaluates accuracy, precision and repeatability and uses units, prefixes and significant figures correctly"
+      ],
+      "pass_threshold": "Foundation: plots and reads graphs, calculates means and draws conclusions (grade 4-5). Higher: evaluates data quality with uncertainty, and links data to hypotheses in reasoned explanations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, section 3 Working scientifically, WS3 Analysis and evaluation and WS4 Scientific vocabulary, quantities, units, symbols and nomenclature",
+        "reference": "AQA 8462 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S23_Mathematical_Skills_for_Chemistry": {
+      "criteria": [
+        "Performs routine calculations with decimals, standard form, ratios and percentages",
+        "Rearranges and substitutes into equations with correct units",
+        "Plots and interprets graphs, finding gradients and (at Higher) tangents",
+        "Uses estimation, significant figures, orders of magnitude and area and volume formulae correctly"
+      ],
+      "pass_threshold": "Foundation: routine calculations, means, graph plotting and simple substitution (grade 4-5). Higher: standard form, rearranging equations, gradients and tangents in multi-step problems.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Chemistry (8462) specification, section 7 Mathematical requirements (1a-1d, 2a-2c, 2h, 3a-3c, 4a-4e, 5b-5c)",
+        "reference": "AQA 8462 specification, section 7",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Two complete, timed 1 hour 45 minute, 100-mark papers at the learner's tier (Paper 1: topics 4.1-4.5; Paper 2: topics 4.6-4.10)",
+      "At least one required-practical-based question answered correctly in each paper",
+      "Performance holds up across topics under mixed order, including Chemistry-only depth content",
+      "Calculations show working and units, and extended answers use precise scientific vocabulary"
+    ],
+    "pass_threshold": "Foundation tier: performance consistent with grade 4-5 across full papers. Higher tier: performance consistent with grade 6-7. AQA sets exact grade boundaries per series rather than a fixed mark table.",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "GCSE Chemistry (8462) specification, Scheme of Assessment (Papers 1 and 2)",
+      "reference": "AQA 8462 specification, Scheme of Assessment",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+        "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+        "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+        "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/chemistry/specifications/AQA-8462-SP-2016.PDF",
+    "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/practical-assessment",
+    "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/working-scientifically",
+    "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462/specification/mathematical-requirements"
+  ]
+}

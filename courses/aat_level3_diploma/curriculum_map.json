@@ -1,0 +1,681 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12, published 1 September 2026, fetched live from aat.org.uk 2026-09-27, itemised in full against AAT's own scope-of-content numbering for each of the four mandatory units. VAT and payroll figures in the Tax Processes for Businesses unit are the 2026/27 UK tax year's rates, thresholds and statutory payment amounts, fetched live from HMRC (gov.uk) and current payroll-rates publishers on 2026-09-27.",
+    "url": "https://www.aat.org.uk/files/AAT-Level-3-Diploma-in-Accounting-qualification-specification.pdf",
+    "version": "Version 5.12 (published 1 September 2026), the current version linked from aat.org.uk/deliver/qualifications/specifications-outlines, itemised 2026-09-27; the Tax Processes for Businesses unit follows AAT's FA2025 (Finance Act 2025) edition, the version current for assessments at the time this course was built, with UK tax/payroll figures for the 2026/27 tax year fetched live on the same date.",
+    "itemised_on": "2026-09-27",
+    "numbering": "AAT's own scope-of-content numbering, which restarts at 1 for each of the four units. This course prefixes each reference with the unit's initials to keep every code unique across the qualification: BA (Business Awareness), FA (Financial Accounting: Preparing Financial Statements), MA (Management Accounting Techniques), TAX (Tax Processes for Businesses) -- e.g. FA5.2 is AAT's own topic 5.2 within Financial Accounting: Preparing Financial Statements's learning outcome 5."
+  },
+  "_syllabus_items": [
+    {
+      "id": "BA1.1",
+      "title": "Types of business: sole trader, partnership, LLP, limited partnership, Ltd, PLC, not-for-profit; ownership/management separation, funding sources, organisational features, manufacturing vs service",
+      "topic_area": "Business Awareness -- LO1 Understand business types, structures and governance, and the legal framework"
+    },
+    {
+      "id": "BA1.2",
+      "title": "The legal framework: company legislation (shareholder rights, director duties, formation/reporting), partnership law (agreement contents, goodwill, changes in partners)",
+      "topic_area": "Business Awareness -- LO1 Understand business types, structures and governance, and the legal framework"
+    },
+    {
+      "id": "BA1.3",
+      "title": "Stakeholders: the eight stakeholder categories, their objectives, their contributions and relative significance",
+      "topic_area": "Business Awareness -- LO1 Understand business types, structures and governance, and the legal framework"
+    },
+    {
+      "id": "BA1.4",
+      "title": "Organisational structure and governance: functional/divisional/matrix structures, span of control, centralised vs decentralised, operational/managerial/strategic levels, the finance function's role, types of risk and how they are managed",
+      "topic_area": "Business Awareness -- LO1 Understand business types, structures and governance, and the legal framework"
+    },
+    {
+      "id": "BA2.1",
+      "title": "PESTLE analysis of the external/macro-economic environment: political, economic, social, technological, legal and environmental factors",
+      "topic_area": "Business Awareness -- LO2 Understand the impact of the external and internal environment on businesses"
+    },
+    {
+      "id": "BA2.2",
+      "title": "The micro-economic environment: supply and demand, the price mechanism, effects of price changes, and factors affecting competition",
+      "topic_area": "Business Awareness -- LO2 Understand the impact of the external and internal environment on businesses"
+    },
+    {
+      "id": "BA2.3",
+      "title": "Sustainability: the triple bottom line (social, ecological, economic/financial), long-term stakeholder perspectives, responsible resource management and the accountant's public interest duty",
+      "topic_area": "Business Awareness -- LO2 Understand the impact of the external and internal environment on businesses"
+    },
+    {
+      "id": "BA3.1",
+      "title": "The fundamental principles of the ethical code: integrity, objectivity, professional behaviour, professional competence and due care, confidentiality, professional scepticism, and safeguards against threats",
+      "topic_area": "Business Awareness -- LO3 Understand how businesses and accountants comply with principles of professional ethics"
+    },
+    {
+      "id": "BA3.2",
+      "title": "Ethical conflicts: how they arise, resolving them, disciplinary and legal consequences, and how to report unethical behaviour",
+      "topic_area": "Business Awareness -- LO3 Understand how businesses and accountants comply with principles of professional ethics"
+    },
+    {
+      "id": "BA3.3",
+      "title": "Money laundering: placement, layering and integration, the offences of tipping off and failure to disclose, and reporting suspicious activity",
+      "topic_area": "Business Awareness -- LO3 Understand how businesses and accountants comply with principles of professional ethics"
+    },
+    {
+      "id": "BA4.1",
+      "title": "New technologies in accounting: automation, AI and machine learning, blockchain, e-filing/e-signing, data analytics, outsourcing/offshoring, and cloud accounting",
+      "topic_area": "Business Awareness -- LO4 Understand the impact of new technologies in accounting and risks associated with data security"
+    },
+    {
+      "id": "BA4.2",
+      "title": "Data protection and security: the UK GDPR principles, the impact of a data breach, information security controls and cybersecurity",
+      "topic_area": "Business Awareness -- LO4 Understand the impact of new technologies in accounting and risks associated with data security"
+    },
+    {
+      "id": "BA5.1",
+      "title": "Information requirements and big data: qualities of good information, the three organisational levels, the five Vs of big data, and its benefits, limitations and sources",
+      "topic_area": "Business Awareness -- LO5 Communicate information to stakeholders"
+    },
+    {
+      "id": "BA5.2",
+      "title": "Visualising information: choosing an appropriate chart/diagram/table/matrix, identifying patterns and anomalies, and communicating dashboards to non-technical stakeholders",
+      "topic_area": "Business Awareness -- LO5 Communicate information to stakeholders"
+    },
+    {
+      "id": "BA5.3",
+      "title": "Choosing an appropriate communication method: matching the medium to the stakeholder, ensuring validity and confidentiality",
+      "topic_area": "Business Awareness -- LO5 Communicate information to stakeholders"
+    },
+    {
+      "id": "FA1.1",
+      "title": "The primary users of final accounts: existing and potential investors, lenders, and other creditors, and how each uses the accounts",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO1 Understand the accounting principles underlying final accounts preparation"
+    },
+    {
+      "id": "FA1.2",
+      "title": "The framework of accounting: the accruals, going concern, business entity, materiality, consistency, prudence and money measurement principles",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO1 Understand the accounting principles underlying final accounts preparation"
+    },
+    {
+      "id": "FA1.3",
+      "title": "Qualities of useful financial information: the fundamental characteristics (relevance, faithful representation) and enhancing characteristics (comparability, verifiability, timeliness, understandability)",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO1 Understand the accounting principles underlying final accounts preparation"
+    },
+    {
+      "id": "FA2.1",
+      "title": "The accounting equation: its importance, the effect of transactions on capital/assets/liabilities, and calculating any element from the other two",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO2 Understand the principles of advanced double-entry bookkeeping"
+    },
+    {
+      "id": "FA2.2",
+      "title": "Classifying ledger accounts: non-current and current assets (tangible/intangible), non-current and current liabilities, equity, income and expenses",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO2 Understand the principles of advanced double-entry bookkeeping"
+    },
+    {
+      "id": "FA2.3",
+      "title": "Books of prime entry and ledger accounting: the daybooks, the general ledger vs memorandum ledgers, and control accounts (receivables, payables, wages and salaries, VAT)",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO2 Understand the principles of advanced double-entry bookkeeping"
+    },
+    {
+      "id": "FA2.4",
+      "title": "Financial period end routines: balancing off accounts by classification, verifying balances, and determining whether transactions are genuine and valid",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO2 Understand the principles of advanced double-entry bookkeeping"
+    },
+    {
+      "id": "FA3.1",
+      "title": "The importance of prior authority for capital expenditure: why it is needed and who should give it",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO3 Implement procedures for the acquisition and disposal of non-current assets"
+    },
+    {
+      "id": "FA3.2",
+      "title": "Capital vs revenue expenditure under IAS 16: cost, useful life, residual value, depreciable amount and carrying amount; what can and cannot be included in cost",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO3 Implement procedures for the acquisition and disposal of non-current assets"
+    },
+    {
+      "id": "FA3.3",
+      "title": "Recording acquisitions and disposals: the non-current asset register, part-exchange, and gains/losses on disposal (including VAT treatment by registration status)",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO3 Implement procedures for the acquisition and disposal of non-current assets"
+    },
+    {
+      "id": "FA4.1",
+      "title": "Calculating depreciation: the straight-line method (with/without residual value, full year or pro-rata) and the diminishing (reducing) balance method",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO4 Prepare and record depreciation calculations"
+    },
+    {
+      "id": "FA4.2",
+      "title": "Recording depreciation: in the non-current asset register and the general ledger (journal entries), and reconciling the two",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO4 Prepare and record depreciation calculations"
+    },
+    {
+      "id": "FA5.1",
+      "title": "Accruals and prepayments of income and expenditure: calculating and recording the adjustment, and reversing the prior period's accrual/prepayment",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO5 Record period end adjustments"
+    },
+    {
+      "id": "FA5.2",
+      "title": "Irrecoverable debts and allowances for doubtful receivables: writing off, recovering a previously written-off debt, and specific vs general allowances",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO5 Record period end adjustments"
+    },
+    {
+      "id": "FA5.3",
+      "title": "Recording inventory under IAS 2: valuing at the lower of cost and net realisable value on an item-by-item basis, and the journal for closing inventory",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO5 Record period end adjustments"
+    },
+    {
+      "id": "FA5.4",
+      "title": "Considerations when recording period end adjustments: their effect on reported results, and responding appropriately to time and reporting pressure",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO5 Record period end adjustments"
+    },
+    {
+      "id": "FA6.1",
+      "title": "The initial trial balance: normal debit/credit balances, its purpose and limitations, and correcting errors with and without a suspense account",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO6 Produce and extend the trial balance"
+    },
+    {
+      "id": "FA6.2",
+      "title": "The adjusted trial balance: placing closing inventory, accruals/prepayments, error corrections, depreciation, irrecoverable debts/allowances and disposals",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO6 Produce and extend the trial balance"
+    },
+    {
+      "id": "FA6.3",
+      "title": "The extended trial balance (ETB): completing the profit-or-loss and financial-position columns and balancing off to find the profit or loss for the period",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO6 Produce and extend the trial balance"
+    },
+    {
+      "id": "FA7.1",
+      "title": "The sole trader's statement of profit or loss and statement of financial position: purpose, terminology and preparation (net assets presentation)",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO7 Produce financial statements for sole traders and partnerships"
+    },
+    {
+      "id": "FA7.2",
+      "title": "The sole trader's capital account: accounting for drawings (cash, goods, services), capital injections and the period's profit or loss",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO7 Produce financial statements for sole traders and partnerships"
+    },
+    {
+      "id": "FA7.3",
+      "title": "The partnership's statement of profit or loss and appropriation account: interest on capital/drawings, salaries and the residual profit share by profit-sharing ratio",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO7 Produce financial statements for sole traders and partnerships"
+    },
+    {
+      "id": "FA7.4",
+      "title": "The partnership's statement of financial position: partners' capital and current accounts, and preparing both",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO7 Produce financial statements for sole traders and partnerships"
+    },
+    {
+      "id": "FA8.1",
+      "title": "Calculating profitability ratios: ROCE, gross profit margin, net profit margin and the expense/sales revenue percentage",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO8 Interpret financial statements using profitability ratios"
+    },
+    {
+      "id": "FA8.2",
+      "title": "Interpreting profitability ratios: why they matter for planning/decisions/control, what causes them to change, and comparing them meaningfully",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO8 Interpret financial statements using profitability ratios"
+    },
+    {
+      "id": "FA9.1",
+      "title": "Identifying missing figures from incomplete records: reconstructing the receivables/payables control accounts, the VAT control account and the bank account",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO9 Prepare accounting records from incomplete information"
+    },
+    {
+      "id": "FA9.2",
+      "title": "Mark-up and margin: the difference between them, and using each to calculate missing figures via cost of sales",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO9 Prepare accounting records from incomplete information"
+    },
+    {
+      "id": "FA9.3",
+      "title": "Assessing the reasonableness of figures when information is incomplete, and why an actual and a calculated balance can differ",
+      "topic_area": "Financial Accounting: Preparing Financial Statements -- LO9 Prepare accounting records from incomplete information"
+    },
+    {
+      "id": "MA1.1",
+      "title": "The purpose of costing, budgeting and internal reporting, and the importance of providing accurate information",
+      "topic_area": "Management Accounting Techniques -- LO1 Understand the purpose and use of management accounting within organisations"
+    },
+    {
+      "id": "MA2.1",
+      "title": "Classifying costs: fixed, variable and semi-variable by behaviour; direct and indirect by element; product and period costs",
+      "topic_area": "Management Accounting Techniques -- LO2 Use techniques required for dealing with costs"
+    },
+    {
+      "id": "MA2.2",
+      "title": "Materials costing: calculating the cost of issues and closing inventory using FIFO, LIFO and AVCO, and their effect on profit and inventory valuation",
+      "topic_area": "Management Accounting Techniques -- LO2 Use techniques required for dealing with costs"
+    },
+    {
+      "id": "MA2.3",
+      "title": "Labour costing: direct vs indirect labour, and calculating labour cost including overtime premium",
+      "topic_area": "Management Accounting Techniques -- LO2 Use techniques required for dealing with costs"
+    },
+    {
+      "id": "MA2.4",
+      "title": "Overhead allocation and absorption: allocation vs apportionment, apportionment bases, calculating absorption rates, and accounting for under/over absorption",
+      "topic_area": "Management Accounting Techniques -- LO2 Use techniques required for dealing with costs"
+    },
+    {
+      "id": "MA3.1",
+      "title": "Marginal vs absorption costing: preparing statements under each method, and reconciling the difference in reported profit",
+      "topic_area": "Management Accounting Techniques -- LO3 Attribute costs according to organisational requirements"
+    },
+    {
+      "id": "MA4.1",
+      "title": "Budgeting: the purpose of budgets, fixed and flexible budgets, and preparing functional budgets",
+      "topic_area": "Management Accounting Techniques -- LO4 Investigate deviations from budgets"
+    },
+    {
+      "id": "MA4.2",
+      "title": "Variance analysis: material price/usage, labour rate/efficiency, variable and fixed overhead, and sales price/volume variances, and interpreting their causes",
+      "topic_area": "Management Accounting Techniques -- LO4 Investigate deviations from budgets"
+    },
+    {
+      "id": "MA5.1",
+      "title": "Spreadsheet techniques for management accounting: formulas and functions, sorting/filtering, pivot tables, charts and validating data",
+      "topic_area": "Management Accounting Techniques -- LO5 Use spreadsheet techniques to provide management accounting information"
+    },
+    {
+      "id": "MA6.1",
+      "title": "Cost-volume-profit analysis: contribution, calculating the breakeven point (units and sales value), margin of safety and target profit",
+      "topic_area": "Management Accounting Techniques -- LO6 Use management accounting techniques to support short-term decision making"
+    },
+    {
+      "id": "MA6.2",
+      "title": "Limiting factor analysis: identifying the scarce resource and ranking products by contribution per unit of limiting factor to find the optimal mix",
+      "topic_area": "Management Accounting Techniques -- LO6 Use management accounting techniques to support short-term decision making"
+    },
+    {
+      "id": "MA6.3",
+      "title": "Relevant costing: distinguishing relevant from irrelevant costs, and applying this to make-or-buy and discontinuation decisions",
+      "topic_area": "Management Accounting Techniques -- LO6 Use management accounting techniques to support short-term decision making"
+    },
+    {
+      "id": "MA7.1",
+      "title": "Cash flow forecasting: the difference between profit and cash, and preparing a cash flow forecast",
+      "topic_area": "Management Accounting Techniques -- LO7 Understand principles of cash management"
+    },
+    {
+      "id": "MA7.2",
+      "title": "Managing cash surpluses and deficits, and working-capital measures (current ratio, quick ratio, receivables/payables/inventory days)",
+      "topic_area": "Management Accounting Techniques -- LO7 Understand principles of cash management"
+    },
+    {
+      "id": "TAX1.1",
+      "title": "The UK tax system: the main taxes and their purposes, HMRC's role, how tax legislation is made and changed, and the impact of avoidance vs evasion",
+      "topic_area": "Tax Processes for Businesses -- LO1 Understand the UK tax system and legislation"
+    },
+    {
+      "id": "TAX2.1",
+      "title": "VAT principles: VAT as a consumption tax, taxable/exempt/zero-rated/outside-the-scope supplies, and the current VAT rates",
+      "topic_area": "Tax Processes for Businesses -- LO2 Understand the principles of VAT and VAT registration/deregistration"
+    },
+    {
+      "id": "TAX2.2",
+      "title": "VAT registration and deregistration: the registration threshold, mandatory vs voluntary registration, the deregistration threshold and its VAT implications",
+      "topic_area": "Tax Processes for Businesses -- LO2 Understand the principles of VAT and VAT registration/deregistration"
+    },
+    {
+      "id": "TAX3.1",
+      "title": "Calculating VAT: output tax and input tax, when input tax cannot be recovered, and adjusting for credit notes/prompt payment discounts",
+      "topic_area": "Tax Processes for Businesses -- LO3 Understand how to prepare accurate VAT returns"
+    },
+    {
+      "id": "TAX3.2",
+      "title": "Preparing and submitting the VAT return: the return's boxes, deadlines, records to keep, and the consequences of non-compliance",
+      "topic_area": "Tax Processes for Businesses -- LO3 Understand how to prepare accurate VAT returns"
+    },
+    {
+      "id": "TAX4.1",
+      "title": "Using tax documentation and legislation: the types of documentation used, accessing current information, and applying it to specific situations",
+      "topic_area": "Tax Processes for Businesses -- LO4 Understand the use of relevant tax documentation and legislation"
+    },
+    {
+      "id": "TAX5.1",
+      "title": "Communicating VAT and tax information: choosing the right method for HMRC vs for clients, and the importance of accuracy and timeliness",
+      "topic_area": "Tax Processes for Businesses -- LO5 Communicate VAT and tax information"
+    },
+    {
+      "id": "TAX6.1",
+      "title": "Payroll: the documents used, the components of gross pay, statutory and voluntary deductions (income tax via PAYE, employee NIC), and calculating net pay",
+      "topic_area": "Tax Processes for Businesses -- LO6 Understand payroll administration"
+    },
+    {
+      "id": "TAX6.2",
+      "title": "Statutory payments (SSP, SMP, SPP), Real Time Information (RTI) submission, and payment deadlines to HMRC",
+      "topic_area": "Tax Processes for Businesses -- LO6 Understand payroll administration"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_BA_Business_Types_Structures_and_Governance": {
+    "covers_syllabus_refs": [
+      "603/6337/X BA1.1",
+      "603/6337/X BA1.2",
+      "603/6337/X BA1.3",
+      "603/6337/X BA1.4"
+    ],
+    "syllabus_topic": "Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked)",
+    "covers_items": [
+      "BA1.1",
+      "BA1.2",
+      "BA1.3",
+      "BA1.4"
+    ]
+  },
+  "S02_BA_External_and_Internal_Environment": {
+    "covers_syllabus_refs": [
+      "603/6337/X BA2.1",
+      "603/6337/X BA2.2",
+      "603/6337/X BA2.3"
+    ],
+    "syllabus_topic": "Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked)",
+    "covers_items": [
+      "BA2.1",
+      "BA2.2",
+      "BA2.3"
+    ]
+  },
+  "S03_BA_Ethics_and_Money_Laundering": {
+    "covers_syllabus_refs": [
+      "603/6337/X BA3.1",
+      "603/6337/X BA3.2",
+      "603/6337/X BA3.3"
+    ],
+    "syllabus_topic": "Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked)",
+    "covers_items": [
+      "BA3.1",
+      "BA3.2",
+      "BA3.3"
+    ]
+  },
+  "S04_BA_Technology_and_Data_Security": {
+    "covers_syllabus_refs": [
+      "603/6337/X BA4.1",
+      "603/6337/X BA4.2"
+    ],
+    "syllabus_topic": "Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked)",
+    "covers_items": [
+      "BA4.1",
+      "BA4.2"
+    ]
+  },
+  "S05_BA_Information_Visualisation_and_Communication": {
+    "covers_syllabus_refs": [
+      "603/6337/X BA5.1",
+      "603/6337/X BA5.2",
+      "603/6337/X BA5.3"
+    ],
+    "syllabus_topic": "Business Awareness (unit ref D/618/3579, 70 GLH, own unit assessment, 2h30m, partially human-marked)",
+    "covers_items": [
+      "BA5.1",
+      "BA5.2",
+      "BA5.3"
+    ]
+  },
+  "S06_FA_Principles_and_Qualities_of_Information": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA1.1",
+      "603/6337/X FA1.2",
+      "603/6337/X FA1.3"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA1.1",
+      "FA1.2",
+      "FA1.3"
+    ]
+  },
+  "S07_FA_Advanced_Double_Entry_and_Ledgers": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA2.1",
+      "603/6337/X FA2.2",
+      "603/6337/X FA2.3",
+      "603/6337/X FA2.4"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA2.1",
+      "FA2.2",
+      "FA2.3",
+      "FA2.4"
+    ]
+  },
+  "S08_FA_Non_Current_Asset_Acquisition_and_Disposal": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA3.1",
+      "603/6337/X FA3.2",
+      "603/6337/X FA3.3"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA3.1",
+      "FA3.2",
+      "FA3.3"
+    ]
+  },
+  "S09_FA_Depreciation": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA4.1",
+      "603/6337/X FA4.2"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA4.1",
+      "FA4.2"
+    ]
+  },
+  "S10_FA_Accruals_Prepayments_and_Receivables": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA5.1",
+      "603/6337/X FA5.2"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA5.1",
+      "FA5.2"
+    ]
+  },
+  "S11_FA_Inventory_and_Period_End_Judgement": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA5.3",
+      "603/6337/X FA5.4"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA5.3",
+      "FA5.4"
+    ]
+  },
+  "S12_FA_Trial_Balance_and_Extended_Trial_Balance": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA6.1",
+      "603/6337/X FA6.2",
+      "603/6337/X FA6.3"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA6.1",
+      "FA6.2",
+      "FA6.3"
+    ]
+  },
+  "S13_FA_Sole_Trader_Financial_Statements": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA7.1",
+      "603/6337/X FA7.2"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA7.1",
+      "FA7.2"
+    ]
+  },
+  "S14_FA_Partnership_Financial_Statements": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA7.3",
+      "603/6337/X FA7.4"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA7.3",
+      "FA7.4"
+    ]
+  },
+  "S15_FA_Profitability_Ratios": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA8.1",
+      "603/6337/X FA8.2"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA8.1",
+      "FA8.2"
+    ]
+  },
+  "S16_FA_Incomplete_Records": {
+    "covers_syllabus_refs": [
+      "603/6337/X FA9.1",
+      "603/6337/X FA9.2",
+      "603/6337/X FA9.3"
+    ],
+    "syllabus_topic": "Financial Accounting: Preparing Financial Statements (unit ref R/618/3580, 150 GLH, own unit assessment, 2h30m, computer-marked)",
+    "covers_items": [
+      "FA9.1",
+      "FA9.2",
+      "FA9.3"
+    ]
+  },
+  "S17_MA_Purpose_and_Cost_Classification": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA1.1",
+      "603/6337/X MA2.1"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA1.1",
+      "MA2.1"
+    ]
+  },
+  "S18_MA_Materials_Costing": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA2.2"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA2.2"
+    ]
+  },
+  "S19_MA_Labour_and_Overhead_Costing": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA2.3",
+      "603/6337/X MA2.4"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA2.3",
+      "MA2.4"
+    ]
+  },
+  "S20_MA_Marginal_and_Absorption_Costing": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA3.1"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA3.1"
+    ]
+  },
+  "S21_MA_Budgeting_and_Variance_Analysis": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA4.1",
+      "603/6337/X MA4.2"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA4.1",
+      "MA4.2"
+    ]
+  },
+  "S22_MA_Spreadsheet_Techniques": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA5.1"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA5.1"
+    ]
+  },
+  "S23_MA_Short_Term_Decision_Making": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA6.1",
+      "603/6337/X MA6.2",
+      "603/6337/X MA6.3"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA6.1",
+      "MA6.2",
+      "MA6.3"
+    ]
+  },
+  "S24_MA_Cash_Management": {
+    "covers_syllabus_refs": [
+      "603/6337/X MA7.1",
+      "603/6337/X MA7.2"
+    ],
+    "syllabus_topic": "Management Accounting Techniques (unit ref D/618/3582, 120 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "MA7.1",
+      "MA7.2"
+    ]
+  },
+  "S25_TAX_UK_Tax_System_and_VAT_Principles": {
+    "covers_syllabus_refs": [
+      "603/6337/X TAX1.1",
+      "603/6337/X TAX2.1"
+    ],
+    "syllabus_topic": "Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "TAX1.1",
+      "TAX2.1"
+    ]
+  },
+  "S26_TAX_VAT_Registration_and_Deregistration": {
+    "covers_syllabus_refs": [
+      "603/6337/X TAX2.2"
+    ],
+    "syllabus_topic": "Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "TAX2.2"
+    ]
+  },
+  "S27_TAX_VAT_Calculations_and_Returns": {
+    "covers_syllabus_refs": [
+      "603/6337/X TAX3.1",
+      "603/6337/X TAX3.2"
+    ],
+    "syllabus_topic": "Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "TAX3.1",
+      "TAX3.2"
+    ]
+  },
+  "S28_TAX_Documentation_and_Communication": {
+    "covers_syllabus_refs": [
+      "603/6337/X TAX4.1",
+      "603/6337/X TAX5.1"
+    ],
+    "syllabus_topic": "Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "TAX4.1",
+      "TAX5.1"
+    ]
+  },
+  "S29_TAX_Payroll_and_Statutory_Payments": {
+    "covers_syllabus_refs": [
+      "603/6337/X TAX6.1",
+      "603/6337/X TAX6.2"
+    ],
+    "syllabus_topic": "Tax Processes for Businesses (unit ref D/618/3581, 60 GLH, own unit assessment, 2h, computer-marked)",
+    "covers_items": [
+      "TAX6.1",
+      "TAX6.2"
+    ]
+  }
+}

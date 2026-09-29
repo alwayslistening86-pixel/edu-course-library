@@ -1,0 +1,209 @@
+{
+  "stage_rubrics": {
+    "S01_JavaScript_and_Its_Environment": {
+      "criteria": [
+        "1.1a: Interpreting versus compilation; interpreter versus compiler",
+        "1.1b: Client-side versus server-side JavaScript",
+        "1.2a: Development tools: editor, console, debugger",
+        "1.2b: Online versus local development environments",
+        "1.3a: HTML basics and ways to embed scripts",
+        "1.3b: Running code in the browser console"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 1.1, 1.2, 1.3 (Block 1: Basics of JavaScript and Computer Programming (3 items, 8%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S02_Variables_Scope_and_Hoisting": {
+      "criteria": [
+        "2.1a: Naming, declaring and initialising variables; updating values; constants",
+        "2.1b: Block scope, shadowing and hoisting"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 2.1 (Block 2: Variables, Data Types and Type Casting (6 items, 20%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S03_Primitive_Types_and_Strings": {
+      "criteria": [
+        "2.2a: Numbers and BigInt: ranges and formats",
+        "2.2b: Boolean, null and undefined",
+        "2.3a: String literals, escapes and template interpolation",
+        "2.3b: String basics: length, charAt, slice, split"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 2.2, 2.3 (Block 2: Variables, Data Types and Type Casting (6 items, 20%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S04_Type_Conversion": {
+      "criteria": [
+        "2.4a: Converting with String, Number, BigInt and Boolean",
+        "2.4b: Primitive conversion and implicit (automatic) conversion"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 2.4 (Block 2: Variables, Data Types and Type Casting (6 items, 20%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S05_Objects_and_Arrays": {
+      "criteria": [
+        "2.5a: Objects as records: literals, getting and setting properties",
+        "2.6a: Arrays: length, indexOf, push, unshift, pop, shift",
+        "2.6b: Arrays: reverse, slice, concat"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 2.5, 2.6 (Block 2: Variables, Data Types and Type Casting (6 items, 20%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S06_Operators_and_User_Interaction": {
+      "criteria": [
+        "3.1a: Assignment and compound assignment operators",
+        "3.1b: Arithmetic operators and string concatenation",
+        "3.2a: Logical operators",
+        "3.2b: Equality and relational comparisons",
+        "3.3a: The conditional (ternary) operator",
+        "3.3b: typeof, instanceof and delete",
+        "3.4a: Precedence, associativity and parentheses",
+        "3.5a: Dialog boxes alert, confirm and prompt; acting on input"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 3.1, 3.2, 3.3, 3.4, 3.5 (Block 3: Operators and User Interaction (5 items, 18%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S07_Conditional_Execution": {
+      "criteria": [
+        "4.1a: if and if...else; multiple and nested conditions",
+        "4.2a: switch and case"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 4.1, 4.2 (Block 4: Control Flow (6 items, 21%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S08_Loops": {
+      "criteria": [
+        "4.3a: while and do...while loops",
+        "4.3b: break and continue",
+        "4.4a: for loops over ranges and collections",
+        "4.5a: for...in over enumerable properties, and its caveats",
+        "4.6a: for...of over arrays and other iterables"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 4.3, 4.4, 4.5, 4.6 (Block 4: Control Flow (6 items, 21%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S09_Functions_Scope_and_Recursion": {
+      "criteria": [
+        "5.1a: Declaring and calling functions; arguments and return",
+        "5.2a: Parameters, local variables and shadowing",
+        "5.3a: Function expressions and functions as values",
+        "5.4a: Recursion"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 5.1, 5.2, 5.3, 5.4 (Block 5: Functions (6 items, 21%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S10_Callbacks_Timers_and_Arrow_Functions": {
+      "criteria": [
+        "5.5a: Synchronous and asynchronous callbacks; setTimeout and setInterval",
+        "5.6a: Arrow functions"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 5.5, 5.6 (Block 5: Functions (6 items, 21%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    },
+    "S11_Errors_Exceptions_and_Debugging": {
+      "criteria": [
+        "6.1a: Syntax, semantic, logic and runtime errors",
+        "6.2a: SyntaxError, ReferenceError, TypeError, RangeError",
+        "6.3a: try...catch...finally and throw",
+        "6.4a: Debugging: stepping, inspecting variables, timing code"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring the published pass mark (JSE-40-01: a cumulative average of at least 70%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "OpenEDG JS Institute",
+        "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+        "reference": "JSE-40-01 objectives 6.1, 6.2, 6.3, 6.4 (Block 6: Errors, Exceptions, Debugging and Troubleshooting (4 items, 12%))",
+        "urls": [
+          "https://jsinstitute.org/jse-exam-syllabus"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 30-item mixed exam in JSE's own proportions: 3, 6, 5, 6, 6 and 4 items from Blocks 1 to 6",
+      "Single-select, multiple-select and code-output items, as in the real exam",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 70% overall (21 of 30 items fully correct), the published JSE-40-01 pass mark. Also report the score per block.",
+    "source": {
+      "issuing_body": "OpenEDG JS Institute",
+      "document": "OpenEDG JS Institute, JSE-40-01 Exam Syllabus (Certified Entry-Level JavaScript Programmer), status ACTIVE",
+      "reference": "JSE-40-01 exam format: 30 items, six blocks, pass = cumulative 70%",
+      "urls": [
+        "https://jsinstitute.org/jse-exam-syllabus"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://jsinstitute.org/jse-exam-syllabus"
+  ],
+  "source_notes": "The JS Institute publishes objectives, block weights and the pass mark, but no past papers. Stage tests are original; output answer keys come from running the code in Node.js."
+}

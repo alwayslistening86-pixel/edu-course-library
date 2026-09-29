@@ -1,0 +1,400 @@
+{
+  "stage_rubrics": {
+    "S01_Structure_and_Classification_of_Law": {
+      "criteria": [
+        "LS.1: The structure and classification of law: civil/criminal, common law/equity, the Judicature Acts 1873-75"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives LS.1 (F1 Legal Systems)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S02_The_English_Legal_System": {
+      "criteria": [
+        "LS.2: The English legal system: criminal and civil courts, appeal routes, legal personality, ADR/ODR, out-of-court criminal disposals"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives LS.2 (F1 Legal Systems)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S03_Legal_Services_and_Regulation": {
+      "criteria": [
+        "LS.3: The provision and regulation of legal services: the professions, the judiciary, regulators, professional ethics obligations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives LS.3 (F1 Legal Systems)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S04_UK_Constitution_and_Legislative_Power": {
+      "criteria": [
+        "LS.4: The nature of the UK constitution: sovereignty, rule of law, separation of powers, sources, devolution",
+        "LS.5: Legislative power: the UK legislature, primary legislation, secondary legislation and its control"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives LS.4, LS.5 (F1 Legal Systems)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S05_Executive_Judicial_Power_and_Rights": {
+      "criteria": [
+        "LS.6: Executive power: the Crown, the executive branch, ministerial accountability",
+        "LS.7: Judicial power: judicial independence, common law method, precedent, the status of decisions by court",
+        "LS.8: Judicial review: purpose, grounds, remedies, the Upper Tribunal",
+        "LS.9: The protection of civil liberties, human rights and equality: ECHR, HRA 1998, the Equality Act 2010"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives LS.6, LS.7, LS.8, LS.9 (F1 Legal Systems)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S06_Tort_Outline_and_Negligence": {
+      "criteria": [
+        "TORT.1: Tort law in outline: its function, and interests it protects including under the Human Rights Act 1998",
+        "TORT.2: Negligence: duty of care, breach, causation, remoteness, res ipsa loquitur"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives TORT.1, TORT.2 (F2 The Law of Tort)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S07_Employers_and_Occupiers_Liability": {
+      "criteria": [
+        "TORT.3: Employers' liability: statutory and common law duties, vicarious liability",
+        "TORT.4: Occupiers' liability: Occupiers' Liability Acts 1957 and 1984"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives TORT.3, TORT.4 (F2 The Law of Tort)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S08_Highways_Trespass_and_Nuisance": {
+      "criteria": [
+        "TORT.5: Outline of the law relating to highways: Highways Act 1980, public rights of way",
+        "TORT.6: Trespass and nuisance: trespass to land, public/private nuisance, the rule in Rylands v Fletcher"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives TORT.5, TORT.6 (F2 The Law of Tort)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S09_Tort_Defences_Causation_and_Remedies": {
+      "criteria": [
+        "TORT.7: Defences: volenti non fit injuria, ex turpi causa, contributory negligence, rescuers",
+        "TORT.8: Causation and remedies in tort: remoteness, types of damages, injunctions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives TORT.7, TORT.8 (F2 The Law of Tort)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S10_Contract_Outline": {
+      "criteria": [
+        "CON.1: Contract law in outline: privity and third-party rights, professional/business/consumer contracts, illegality"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives CON.1 (F3 Contract Law)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S11_Offer_and_Acceptance": {
+      "criteria": [
+        "CON.2: Formation: offer and acceptance, including new methods of contract formation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives CON.2 (F3 Contract Law)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S12_Consideration_Intention_and_Capacity": {
+      "criteria": [
+        "CON.3: Formation: consideration, including promissory estoppel",
+        "CON.4: Formation: intention to create legal relations and capacity"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives CON.3, CON.4 (F3 Contract Law)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S13_Content_of_a_Contract": {
+      "criteria": [
+        "CON.5: The content of a contract: express and implied terms, exemption clauses and unfair terms"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives CON.5 (F3 Contract Law)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S14_Vitiating_Factors": {
+      "criteria": [
+        "CON.6: Vitiating factors: mistake, misrepresentation, duress and undue influence"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives CON.6 (F3 Contract Law)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S15_Performance_Breach_and_Remedies": {
+      "criteria": [
+        "CON.7: Performance, termination and breach of contract, including discharge by frustration",
+        "CON.8: Causation and remedies for breach of contract: common law, equitable and statutory remedies"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives CON.7, CON.8 (F3 Contract Law)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S16_Property_Foundations": {
+      "criteria": [
+        "PPC.1: Organisations relevant to conveyancing and probate practice",
+        "PPC.2: Underpinning land law: estates, interests, registered/unregistered title, third-party rights",
+        "PPC.3: Technical basics: documents -- contracts, deeds, wills and codicils, statutory declarations",
+        "PPC.4: Co-ownership: joint tenancy, tenancy in common, overreaching, conflicts of interest",
+        "PPC.5: Regulatory matters: client care, undertakings, money laundering, taxation awareness"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PPC.1, PPC.2, PPC.3, PPC.4, PPC.5 (F4 Introduction to Property and Private Client)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S17_Probate_and_Intestacy": {
+      "criteria": [
+        "PPC.6: Technical basics: probate and intestacy, including the intestacy rules",
+        "PPC.7: Entitlement to act and personnel: executors, administrators, grants, LPAs"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PPC.6, PPC.7 (F4 Introduction to Property and Private Client)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S18_Conveyancing_Start_and_Title": {
+      "criteria": [
+        "PPC.8: Overview of the conveyancing transaction: stages from instruction to post-completion",
+        "PPC.9: Taking instructions and initial steps: seller and buyer advice, checklists",
+        "PPC.10: Deducing and investigating title: registered title, classes of title, requisitions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PPC.8, PPC.9, PPC.10 (F4 Introduction to Property and Private Client)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S19_Contract_Searches_and_Finance": {
+      "criteria": [
+        "PPC.11: Sale: drafting the contract and pre-contract package, Standard Conditions of Sale",
+        "PPC.12: Purchase: pre-contract searches and enquiries",
+        "PPC.13: Financing a purchase: cash, mortgage, government-backed schemes"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PPC.11, PPC.12, PPC.13 (F4 Introduction to Property and Private Client)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S20_Exchange_and_Completion": {
+      "criteria": [
+        "PPC.14: Reporting to client and exchange of contracts",
+        "PPC.15: Preparing for completion: redemption, TR1, completion statements, pre-completion searches",
+        "PPC.16: Completion: timing, methods, the Law Society's Code for Completion by Post"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PPC.14, PPC.15, PPC.16 (F4 Introduction to Property and Private Client)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S21_Post_Completion": {
+      "criteria": [
+        "PPC.17: Post-completion: sale-side and purchase-side steps, SDLT/LTT, HM Land Registry applications"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PPC.17 (F4 Introduction to Property and Private Client)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S22_Personal_Impact_and_Teamwork": {
+      "criteria": [
+        "PLS.1: Personal impact: interpersonal relationships, equality/diversity/respect, time management, networking",
+        "PLS.2: Working in a team: role in the team, managing workload, impact of technology on teams",
+        "PLS.3: Setting standards: CILEX professional standards, appraisal and CPD"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PLS.1, PLS.2, PLS.3 (F5 Professional and Legal Skills: Succeeding in the Legal Environment)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S23_Client_Focus_Commercial_Awareness_Technology": {
+      "criteria": [
+        "PLS.4: Client first approach: external and internal client service, ethical/professional considerations",
+        "PLS.5: Commercial focus: opportunities to practise law, how a legal practice generates income",
+        "PLS.6: The impact of technology: workplace software, CRM/case management/cloud systems, technology risks"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PLS.4, PLS.5, PLS.6 (F5 Professional and Legal Skills: Succeeding in the Legal Environment)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S24_Client_Communication": {
+      "criteria": [
+        "PLS.7: Communication with internal and external clients: verbal, non-verbal, written, and precedent correspondence"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PLS.7 (F5 Professional and Legal Skills: Succeeding in the Legal Environment)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    },
+    "S25_Legal_Research": {
+      "criteria": [
+        "PLS.8: Conducting legal research: scope and sources, citing primary sources, applying and reporting research ethically"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure Foundation-stage work; CILEX sets its own pass mark for the real online assessment, which this course does not claim to reproduce exactly. Short knowledge items award a mark per accurate, specific point the answer key allows (a vague or generic point earns nothing); a multiple-select item needs every correct option and no incorrect option. Scenario items are marked on an issue-rule-application-conclusion (IRAC) basis: identify every legal issue the facts raise; state the applicable rule precisely, naming the statute section or case authority; apply the rule to the specific facts given (not a restatement of the rule in the abstract); and reach a supported conclusion or piece of client advice. Marks are lost for a correct rule with no application to the facts, and for a conclusion unsupported by the reasoning above it.",
+      "source": {
+        "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+        "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+        "reference": "CPQ Foundation objectives PLS.8 (F6 Professional and Legal Skills: Legal Research)",
+        "urls": [
+          "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock covering all six Foundation modules: F1 Legal Systems, F2 Law of Tort, F3 Contract Law, F4 Property and Private Client, F5 Professional and Legal Skills, F6 Legal Research",
+      "Knowledge items (including multiple-select) testing precise, exam-ready recall of rules, statutes and cases",
+      "IRAC-style scenario/problem questions testing identification and application of the law to client facts, reaching a supported conclusion or piece of advice",
+      "At least one practical skills task in the style of F5 (a short client communication/drafting task) and one in the style of F6 (a short legal-research task with proper citation)"
+    ],
+    "pass_threshold": "At least 50% of the marks overall and at least 40% on each of the six modules (the course's own standard; CILEX does not publish a single fixed percentage pass mark for CPQ Foundation).",
+    "source": {
+      "issuing_body": "CILEX (The Chartered Institute of Legal Executives)",
+      "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+      "reference": "CPQ Foundation assessment overview: F1-F4 each 80 marks; F5 40 marks; F6 60 marks (440 marks across the six modules)",
+      "urls": [
+        "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/"
+  ],
+  "source_notes": "CILEX publishes the CPQ Foundation module specifications (F1-F6) and an assessment overview directly at cilex.org.uk. The content taught here follows those module specifications' own numbered content areas. Stage tests and the mock are original questions in CILEX's assessment style (multiple-choice/short knowledge items plus IRAC-style scenario questions), cross-checked against the relevant statutes and leading cases as understood to be current in September 2026, not CILEX's own live exam questions."
+}

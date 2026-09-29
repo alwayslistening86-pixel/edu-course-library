@@ -1,0 +1,548 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "WJEC Eduqas GCSE Latin (C990) specification: Appendix B (Accidence and Syntax lists), scheme of assessment (Components 1, 3A, 3B), Component 3A prescribed literature list, Component 3B topics list",
+    "url": "https://www.eduqas.co.uk/media/1onbd1yb/eduqas-gcse-latin-spec-from-2016-e-170925.pdf",
+    "version": "WJEC Eduqas GCSE (9-1) Latin C990 specification, Version 6 (December 2024), teaching from 2016 / award from 2018; re-verified live 2026-09-26 by /audit",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "LAT-GR-decl1",
+      "title": "First declension nouns",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-decl2",
+      "title": "Second declension nouns",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-decl3",
+      "title": "Third declension nouns",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-decl4-5",
+      "title": "Fourth and fifth declension nouns",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-adj",
+      "title": "Adjectives, agreement, comparative and superlative",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-pron",
+      "title": "Pronouns and pronominal adjectives",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-pres-ind",
+      "title": "Present indicative active, four conjugations",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-impf-ind",
+      "title": "Imperfect indicative active",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-fut-ind",
+      "title": "Future indicative active",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-perf-ind",
+      "title": "Perfect indicative active",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-plup-ind",
+      "title": "Pluperfect indicative active",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-passive",
+      "title": "Passive voice, all required tenses",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-deponent",
+      "title": "Deponent verbs",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-subjunctive",
+      "title": "Imperfect and pluperfect subjunctive active",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-infin-part-imper",
+      "title": "Present infinitive, participles and imperatives",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-irregular-verbs",
+      "title": "Irregular verbs: sum, possum, eo, fero, volo, nolo",
+      "topic_area": "Component 1: Language - Accidence"
+    },
+    {
+      "id": "LAT-GR-case-usage",
+      "title": "Case usage and time expressions",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-prepositions",
+      "title": "Prepositions and the cases they govern",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-indirect-statement",
+      "title": "Indirect statement",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-indirect-question",
+      "title": "Indirect question",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-indirect-command",
+      "title": "Indirect command",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-participial-constr",
+      "title": "Participial constructions (excluding ablative absolute)",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-conditionals",
+      "title": "Conditional sentences (present and past open)",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-purpose-result-clauses",
+      "title": "Purpose and result clauses",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-temporal-causal-concessive-clauses",
+      "title": "Temporal, causal and concessive clauses",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-relative-clauses",
+      "title": "Relative clauses with the indicative",
+      "topic_area": "Component 1: Language - Syntax"
+    },
+    {
+      "id": "LAT-GR-translation-method",
+      "title": "Reading strategy for unseen passages",
+      "topic_area": "Component 1: Language - Translation technique"
+    },
+    {
+      "id": "LAT-GR-derivation",
+      "title": "Derivation: English words from Latin roots",
+      "topic_area": "Component 1: Language - Translation technique"
+    },
+    {
+      "id": "LAT-GR-comprehension-technique",
+      "title": "How comprehension and translation are marked",
+      "topic_area": "Component 1: Language - Translation technique"
+    },
+    {
+      "id": "LAT-C1-comprehension",
+      "title": "Component 1 Section A: comprehension",
+      "topic_area": "Component 1: Language - Assessment"
+    },
+    {
+      "id": "LAT-C1-translation-le",
+      "title": "Component 1 Section A: Latin-to-English translation",
+      "topic_area": "Component 1: Language - Assessment"
+    },
+    {
+      "id": "LAT-C1-section-b",
+      "title": "Component 1 Section B: English-to-Latin translation or grammar analysis",
+      "topic_area": "Component 1: Language - Assessment"
+    },
+    {
+      "id": "LAT-C3A-LIVY-CONTEXT",
+      "title": "Historical context: the Second Punic War",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-A",
+      "title": "Passage A: Hannibal's early career and oath",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-B",
+      "title": "Passage B: character sketch of Hannibal",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-C",
+      "title": "Passage C: the prophetic dream",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-D",
+      "title": "Passage D: crossing the Rhone with the elephants",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-E",
+      "title": "Passage E: arrival at the Alpine foothills",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-F",
+      "title": "Passage F: the nine-day ascent",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-G",
+      "title": "Passage G: the landslide on the descent",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-H",
+      "title": "Passage H: fire, vinegar and arrival in Italy",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-LIVY-STYLE",
+      "title": "Livy's stylistic fingerprints",
+      "topic_area": "Component 3A: Livy, Hannibal Crosses the Alps"
+    },
+    {
+      "id": "LAT-C3A-VIRG-CONTEXT",
+      "title": "Context: the Aeneid and Aeneas's visit to Pallanteum",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-A",
+      "title": "Passage A: Aeneas seeks alliance",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-B",
+      "title": "Passage B: banquet in Hercules' honour",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-C",
+      "title": "Passage C: the monster's lair",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-D",
+      "title": "Passage D: the cattle theft",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-E",
+      "title": "Passage E: Hercules exposes the cave",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-F",
+      "title": "Passage F: combat and the death of Cacus",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-G",
+      "title": "Passage G: establishing worship of Hercules",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-H",
+      "title": "Passage H: the Salii's hymn",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-I",
+      "title": "Passage I: touring future Rome",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3A-VIRG-STYLE",
+      "title": "Virgil's verse techniques",
+      "topic_area": "Component 3A: Virgil, Hercules and Cacus"
+    },
+    {
+      "id": "LAT-C3B-T8-nature",
+      "title": "The nature of Roman religious practice",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-lupercalia",
+      "title": "Lupercalia",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-bona-dea",
+      "title": "Bona Dea",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-saturnalia",
+      "title": "Saturnalia",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-vestalia",
+      "title": "Vestalia",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-parentalia-lemuria",
+      "title": "Parentalia and Lemuria",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-temples",
+      "title": "Temples and religious buildings",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-deities",
+      "title": "Deities and divine figures",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-priesthoods",
+      "title": "Priests and religious officials",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-household-religion",
+      "title": "Private religion and household worship",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-life-cycle",
+      "title": "Life-cycle rituals",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-sacrifice",
+      "title": "Sacrifice and offerings",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-death-afterlife",
+      "title": "Death and afterlife beliefs",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-divination",
+      "title": "Divination and the religious calendar",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    },
+    {
+      "id": "LAT-C3B-T8-sources",
+      "title": "Working with ancient sources on Roman religion",
+      "topic_area": "Component 3B Topic 8: Roman Festivals and Worship"
+    }
+  ],
+  "_declared_exclusions": [],
+  "L01_Nouns_Adjectives_Pronouns": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Appendix B Accidence"
+    ],
+    "syllabus_topic": "Component 1: Language — Accidence (Appendix B)",
+    "covers_items": [
+      "LAT-GR-decl1",
+      "LAT-GR-decl2",
+      "LAT-GR-decl3",
+      "LAT-GR-decl4-5",
+      "LAT-GR-adj",
+      "LAT-GR-pron"
+    ]
+  },
+  "L02_Verbs_Present_System": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Appendix B Accidence"
+    ],
+    "syllabus_topic": "Component 1: Language — Accidence (Appendix B)",
+    "covers_items": [
+      "LAT-GR-pres-ind",
+      "LAT-GR-impf-ind",
+      "LAT-GR-fut-ind",
+      "LAT-GR-irregular-verbs"
+    ]
+  },
+  "L03_Verbs_Perfect_System_Passive_Deponent": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Appendix B Accidence"
+    ],
+    "syllabus_topic": "Component 1: Language — Accidence (Appendix B)",
+    "covers_items": [
+      "LAT-GR-perf-ind",
+      "LAT-GR-plup-ind",
+      "LAT-GR-passive",
+      "LAT-GR-deponent"
+    ]
+  },
+  "L04_Nonfinite_Forms_and_Subjunctive": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Appendix B Accidence"
+    ],
+    "syllabus_topic": "Component 1: Language — Accidence (Appendix B)",
+    "covers_items": [
+      "LAT-GR-infin-part-imper",
+      "LAT-GR-subjunctive"
+    ]
+  },
+  "L05_Syntax_Cases_Prepositions_Clauses": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Appendix B Syntax"
+    ],
+    "syllabus_topic": "Component 1: Language — Syntax (Appendix B)",
+    "covers_items": [
+      "LAT-GR-case-usage",
+      "LAT-GR-prepositions",
+      "LAT-GR-relative-clauses",
+      "LAT-GR-temporal-causal-concessive-clauses"
+    ]
+  },
+  "L06_Syntax_Indirect_Speech_Constructions": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Appendix B Syntax"
+    ],
+    "syllabus_topic": "Component 1: Language — Syntax (Appendix B)",
+    "covers_items": [
+      "LAT-GR-indirect-statement",
+      "LAT-GR-indirect-question",
+      "LAT-GR-indirect-command",
+      "LAT-GR-participial-constr",
+      "LAT-GR-conditionals",
+      "LAT-GR-purpose-result-clauses"
+    ]
+  },
+  "L07_Translation_Technique_and_Component1_Assessment": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 1 (Language)"
+    ],
+    "syllabus_topic": "Component 1: Language — Translation technique and Assessment",
+    "covers_items": [
+      "LAT-GR-translation-method",
+      "LAT-GR-derivation",
+      "LAT-GR-comprehension-technique",
+      "LAT-C1-comprehension",
+      "LAT-C1-translation-le",
+      "LAT-C1-section-b"
+    ]
+  },
+  "M01_Livy_Hannibals_Career_and_Omens": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 3A prescribed literature (Livy)",
+      "Livy, Ab Urbe Condita, Book 21"
+    ],
+    "syllabus_topic": "Component 3A: Livy, Hannibal Crosses the Alps",
+    "covers_items": [
+      "LAT-C3A-LIVY-CONTEXT",
+      "LAT-C3A-LIVY-A",
+      "LAT-C3A-LIVY-B",
+      "LAT-C3A-LIVY-C",
+      "LAT-C3A-LIVY-D"
+    ]
+  },
+  "M02_Livy_Alps_Ascent_Descent_and_Style": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 3A prescribed literature (Livy)",
+      "Livy, Ab Urbe Condita, Book 21"
+    ],
+    "syllabus_topic": "Component 3A: Livy, Hannibal Crosses the Alps",
+    "covers_items": [
+      "LAT-C3A-LIVY-E",
+      "LAT-C3A-LIVY-F",
+      "LAT-C3A-LIVY-G",
+      "LAT-C3A-LIVY-H",
+      "LAT-C3A-LIVY-STYLE"
+    ]
+  },
+  "N01_Virgil_Alliance_Banquet_and_Cacus_Lair": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 3A prescribed literature (Virgil)",
+      "Virgil, Aeneid, Book 8, lines 184-279"
+    ],
+    "syllabus_topic": "Component 3A: Virgil, Hercules and Cacus (Aeneid Book 8)",
+    "covers_items": [
+      "LAT-C3A-VIRG-CONTEXT",
+      "LAT-C3A-VIRG-A",
+      "LAT-C3A-VIRG-B",
+      "LAT-C3A-VIRG-C",
+      "LAT-C3A-VIRG-D"
+    ]
+  },
+  "N02_Virgil_Combat_Cult_and_Future_Rome": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 3A prescribed literature (Virgil)",
+      "Virgil, Aeneid, Book 8, lines 219-305"
+    ],
+    "syllabus_topic": "Component 3A: Virgil, Hercules and Cacus (Aeneid Book 8)",
+    "covers_items": [
+      "LAT-C3A-VIRG-E",
+      "LAT-C3A-VIRG-F",
+      "LAT-C3A-VIRG-G",
+      "LAT-C3A-VIRG-H",
+      "LAT-C3A-VIRG-I",
+      "LAT-C3A-VIRG-STYLE"
+    ]
+  },
+  "O01_Roman_Religion_Nature_and_Major_Festivals": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 3B, Topic 8",
+      "Ovid, Fasti",
+      "standard classical scholarship on the Roman religious calendar"
+    ],
+    "syllabus_topic": "Component 3B Topic 8: Roman Festivals and Worship",
+    "covers_items": [
+      "LAT-C3B-T8-nature",
+      "LAT-C3B-T8-lupercalia",
+      "LAT-C3B-T8-bona-dea",
+      "LAT-C3B-T8-saturnalia",
+      "LAT-C3B-T8-vestalia"
+    ]
+  },
+  "O02_Death_Rites_Lifecycle_and_Divination": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 3B, Topic 8",
+      "Ovid, Fasti",
+      "the Twelve Tables",
+      "standard classical scholarship on Roman religion"
+    ],
+    "syllabus_topic": "Component 3B Topic 8: Roman Festivals and Worship",
+    "covers_items": [
+      "LAT-C3B-T8-parentalia-lemuria",
+      "LAT-C3B-T8-life-cycle",
+      "LAT-C3B-T8-sacrifice",
+      "LAT-C3B-T8-death-afterlife",
+      "LAT-C3B-T8-divination"
+    ]
+  },
+  "O03_Temples_Deities_Priesthoods_Household_and_Sources": {
+    "covers_syllabus_refs": [
+      "Eduqas GCSE Latin C990 specification, Component 3B, Topic 8",
+      "Ovid, Fasti",
+      "Varro",
+      "standard classical scholarship and archaeological evidence"
+    ],
+    "syllabus_topic": "Component 3B Topic 8: Roman Festivals and Worship",
+    "covers_items": [
+      "LAT-C3B-T8-temples",
+      "LAT-C3B-T8-deities",
+      "LAT-C3B-T8-priesthoods",
+      "LAT-C3B-T8-household-religion",
+      "LAT-C3B-T8-sources"
+    ]
+  }
+}

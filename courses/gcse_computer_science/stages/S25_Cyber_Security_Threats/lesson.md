@@ -1,0 +1,28 @@
+# S25_Cyber_Security_Threats - Lesson: Cyber security threats: social engineering and malware
+
+## Goal
+The learner defines cyber security and describes its main purposes, explains common threats (social engineering, malicious code, pharming, weak passwords, misconfigured access rights, removable media, unpatched software), explains penetration testing, and describes forms of social engineering and malware.
+
+## Syllabus items taught here
+- 3.6.1 - Fundamentals of cyber security
+- 3.6.2 - Cyber security threats and penetration testing
+- 3.6.2.1 - Social engineering: blagging, phishing, shouldering
+- 3.6.2.2 - Malicious code (malware): virus, trojan, spyware
+
+## How to teach this
+Ask the learner: if someone rings up pretending to be from 'IT support' and asks for a password over the phone, is that a technical attack, or something else? Have the learner predict the output of every Python example before running it, and run code for real whenever they can. AQA's own exams are set in AQA's pseudo-code, not any specific language; Python (AQA's widely-used reference teaching language) is used here so examples can be run for real and their output verified, but the learner should also be shown the equivalent pseudo-code form for exam-style tracing questions, since Paper 1 code-reading/writing questions are set in pseudo-code with only the constructs taught in 3.2. Binary/hex conversions, storage and sound/image size calculations, Huffman/RLE compression and logic-gate truth tables were computed/verified when this course was built.
+
+#### 3.6.1 Fundamentals of cyber security
+**Cyber security** is the practices, processes and technologies used to protect networks, devices, programs and data from attack, damage or unauthorised access. Its main purposes are to protect the **confidentiality** of data (keeping it private, readable only by those authorised), its **integrity** (ensuring it is accurate and cannot be altered without authorisation), and its **availability** (ensuring systems and data remain accessible to legitimate users when needed).
+
+#### 3.6.2 Cyber security threats and penetration testing
+Common cyber security threats: **social engineering** manipulates people, rather than technology, into breaking normal security procedures or revealing confidential information; **malicious code (malware)** is software specifically designed to damage, disrupt or gain unauthorised access to a system; **pharming** redirects a user from a legitimate website to a fraudulent look-alike one, often by corrupting how a website's address is looked up, without the user having to click anything (unlike phishing, which relies on tricking the user into clicking a link); **weak or default passwords** are easily guessed or found, letting an attacker log in as a legitimate user; **misconfigured access rights** occur when users are given more access/permissions than their role actually needs, increasing the damage possible if that account is compromised; **removable media** (e.g. USB drives) can carry malware between systems, bypassing network-level defences, or be used to steal data; **unpatched (out-of-date) software** has known vulnerabilities that a supplier has already fixed in a later update, so a system that has not applied that update remains open to exploitation using a known, published weakness. **Penetration testing** is an authorised, simulated cyberattack against a system, carried out deliberately to find security weaknesses before real attackers do; **internal** penetration testing simulates an attack from within the organisation's own network (e.g. by a malicious insider, or someone who has already gained some internal access), while **external** penetration testing simulates an attack from outside, e.g. over the internet, with no prior access.
+
+#### 3.6.2.1 Social engineering: blagging, phishing, shouldering
+**Social engineering** specifically: **blagging (pretexting)** invents a false scenario or pretext to trick someone into handing over information or access (e.g. impersonating IT support and asking for a password); **phishing** sends fraudulent messages, usually emails, that appear to come from a legitimate, trusted source, to trick the recipient into revealing information (e.g. login details) or clicking a malicious link/attachment; **shouldering (shoulder surfing)** is directly observing someone entering sensitive information, e.g. watching over their shoulder as they type a PIN or password. Protection against social engineering includes staff training and awareness, verifying a requester's identity independently before releasing information, being suspicious of unsolicited contact, and being aware of who can see a screen or keypad in public.
+
+#### 3.6.2.2 Malicious code (malware): virus, trojan, spyware
+**Malicious code (malware)** specifically: a **computer virus** attaches itself to a legitimate file or program and can replicate itself, spreading to other files or systems when the infected file is run, often carrying a damaging payload; a **trojan** disguises itself as legitimate or desirable software so a user is tricked into installing it voluntarily, but (unlike a virus) does not replicate itself; **spyware** secretly monitors a user's activity (e.g. logging every keystroke) and sends that information back to an attacker without the user's knowledge. Protection against malware includes anti-malware/antivirus software, firewalls, only downloading software from trusted sources, and keeping software up to date.
+
+## Explicitly not here
+The specific technical measures used to detect and prevent these threats are S26.

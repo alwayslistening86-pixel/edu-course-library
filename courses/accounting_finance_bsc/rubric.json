@@ -1,0 +1,267 @@
+{
+  "stage_rubrics": {
+    "S01_Quantitative_Bridge_for_Accounting_Finance": {
+      "criteria": [
+        "BQ1: Descriptive statistics and data types for business data",
+        "BQ2: Probability and sampling distributions for audit/business forecasting",
+        "BQ3: Confidence intervals and hypothesis testing for business decisions",
+        "BQ4: Correlation and simple linear regression for forecasting",
+        "BQ5: Index numbers and time-series forecasting"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives BQ1, BQ2, BQ3, BQ4, BQ5 (Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S02_Financial_Reporting_Standards_I": {
+      "criteria": [
+        "B250-1: The Conceptual Framework and IAS 1 presentation of financial statements",
+        "B250-2: IAS 2 Inventories: cost formulas (FIFO/AVCO) and net realisable value",
+        "B250-3: IAS 16 Property, Plant and Equipment: measurement, depreciation, revaluation",
+        "B250-4: IAS 38 Intangible assets and IAS 36 Impairment of assets"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B250-1, B250-2, B250-3, B250-4 (Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S03_Financial_Reporting_Standards_II_and_Analysis": {
+      "criteria": [
+        "B250-5: IAS 37 Provisions, contingent liabilities and contingent assets",
+        "B250-6: IFRS 15 Revenue from Contracts with Customers (five-step model)",
+        "B250-7: IFRS 16 Leases (lessee accounting)",
+        "B250-8: IAS 7 Statement of cash flows",
+        "B250-9: Ratio analysis: profitability, liquidity and gearing",
+        "B250-10: Limitations of ratio analysis and published-accounts interpretation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B250-5, B250-6, B250-7, B250-8, B250-9, B250-10 (Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S04_Law_for_Accounting_and_Finance": {
+      "criteria": [
+        "B251-1: Contract law essentials for business",
+        "B251-2: Company law: incorporation and share capital",
+        "B251-3: Directors' duties (Companies Act 2006, ss.171-177)",
+        "B251-4: UK insolvency law: administration, liquidation, CVAs, wrongful/fraudulent trading"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B251-1, B251-2, B251-3, B251-4 (Intermediate financial accounting foundations and law (Stage 2: B250, B251, plus a B126-based quantitative bridge))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S05_Financial_Management": {
+      "criteria": [
+        "B252-1: Sources of finance and gearing",
+        "B252-2: Cost of equity (CAPM, dividend growth model) and cost of debt",
+        "B252-3: WACC",
+        "B252-4: Working capital management and the cash operating cycle",
+        "B252-5: Investment appraisal: payback, ARR, NPV, IRR",
+        "B252-6: Business valuation methods",
+        "B252-7: FX and interest rate risk management"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B252-1, B252-2, B252-3, B252-4, B252-5, B252-6, B252-7 (Financial management and intermediate management accounting (Stage 2: B252, B253))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S06_Management_Accounting_I_Costing_and_Budgeting": {
+      "criteria": [
+        "B253-1: Absorption vs marginal costing",
+        "B253-2: Activity-based costing (ABC)",
+        "B253-3: Job/batch/process costing; target costing and lifecycle costing",
+        "B253-4: Budgeting and behavioural aspects of budgetary control"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B253-1, B253-2, B253-3, B253-4 (Financial management and intermediate management accounting (Stage 2: B252, B253))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S07_Management_Accounting_II_Standard_Costing_and_Performance": {
+      "criteria": [
+        "B253-5: Standard costing: material and labour variances",
+        "B253-6: Overhead and sales variances",
+        "B253-7: Balanced scorecard, benchmarking and ESG/sustainability reporting"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B253-5, B253-6, B253-7 (Financial management and intermediate management accounting (Stage 2: B252, B253))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S08_Advanced_Financial_Accounting_I_Group_Accounts": {
+      "criteria": [
+        "B350-1: Consolidated SFP: goodwill and NCI at acquisition (proportionate method)",
+        "B350-2: Post-acquisition retained earnings and NCI in the consolidated SFP",
+        "B350-3: Intra-group trading and unrealised profit (downstream and upstream)",
+        "B350-4: Consolidated statement of profit or loss"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B350-1, B350-2, B350-3, B350-4 (Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S09_Advanced_Financial_Accounting_II": {
+      "criteria": [
+        "B350-5: Associates: the equity method (IAS 28)",
+        "B350-6: Foreign currency translation (IAS 21)",
+        "B350-7: Financial instruments (IFRS 9): classification and amortised cost",
+        "B350-8: Earnings per share, basic and diluted (IAS 33)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B350-5, B350-6, B350-7, B350-8 (Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S10_Governance_Audit_and_Assurance": {
+      "criteria": [
+        "B351-1: UK Corporate Governance Code",
+        "B351-2: Audit planning: risk and materiality",
+        "B351-3: Tests of control, substantive procedures and audit sampling",
+        "B351-4: Internal control systems and their limitations",
+        "B351-5: Audit report opinions and auditor independence/ethics"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B351-1, B351-2, B351-3, B351-4, B351-5 (Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S11_Advanced_Financial_Management": {
+      "criteria": [
+        "B352-1: Sensitivity analysis and risk-adjusted discount rates",
+        "B352-2: Modigliani-Miller capital structure propositions",
+        "B352-3: Dividend policy theory",
+        "B352-4: Mergers and acquisitions: synergy and valuation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B352-1, B352-2, B352-3, B352-4 (Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S12_Advanced_Management_Accounting": {
+      "criteria": [
+        "B352-5: Transfer pricing between divisions",
+        "B352-6: Divisional performance: ROI vs residual income",
+        "B352-7: Strategic management accounting and the value chain"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives B352-5, B352-6, B352-7 (Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S13_Taxation": {
+      "criteria": [
+        "TAX-1: UK income tax",
+        "TAX-2: UK corporation tax and marginal relief",
+        "TAX-3: UK capital gains tax",
+        "TAX-4: VAT"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives TAX-1, TAX-2, TAX-3, TAX-4 (Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    },
+    "S14_Integrative_Capstone": {
+      "criteria": [
+        "CAP-1: Integrating financial reporting, audit and governance",
+        "CAP-2: Integrating financial management and management accounting",
+        "CAP-3: Tax implications in a business scenario",
+        "CAP-4: Writing an integrated professional-style report"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure undergraduate work; the OU assesses R52 through continuous TMAs plus module-level EMAs/exams per module rather than a single fixed pass mark comparable across modules, so no single external mark is mirrored here. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "The Open University",
+        "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+        "reference": "R52 objectives CAP-1, CAP-2, CAP-3, CAP-4 (Advanced financial accounting, governance/audit, advanced financial management/management accounting, taxation and the integrative capstone (Stage 3: B350, B351, B352, B353))",
+        "urls": [
+          "https://www.open.ac.uk/courses/qualifications/r52"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A comprehensive original problem set spanning every block: intermediate financial reporting standards and law, financial management and management accounting, advanced financial accounting (group accounts, associates, FX, financial instruments, EPS), governance/audit, advanced financial management/management accounting, and taxation",
+      "Calculations with full working shown (method marks require the method, not just the final figure)",
+      "At least one extended integrative professional-report answer synthesising more than one technical area into a reasoned recommendation, graded by levels"
+    ],
+    "pass_threshold": "At least 60% of the marks overall, with a genuine attempt at every block (the course's own standard; the real R52 sets no single combined pass mark, see the assessment_model learner notice).",
+    "source": {
+      "issuing_body": "The Open University",
+      "document": "The Open University's BSc (Honours) Accounting and Finance, qualification code R52: the real Stage 1-3 module list and credit structure (B100, B124, B126 at Stage 1; B250, B251, B252, B253 at Stage 2; B350, B351, B352, B353 at Stage 3), cross-checked against the QAA Subject Benchmark Statement for Accounting (2025 edition)",
+      "reference": "An original cumulative synthesis assessment covering the full R52-mapped stage ladder (S01-S14); the real OU R52 has no single combined final exam to mirror (see the assessment_model learner notice)",
+      "urls": [
+        "https://www.open.ac.uk/courses/qualifications/r52"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.open.ac.uk/courses/qualifications/r52"
+  ],
+  "source_notes": "The OU publishes R52's Stage 3 module list directly on its qualification page (open.ac.uk/courses/qualifications/r52); Stage 1/2 module codes were independently confirmed live via each module's own page (open.ac.uk/courses/modules/<code>) or its live description page (css2.open.ac.uk/outis/Descs/Courses/<code>.htm), which also states each module's current scheduled presentation date. Two plausible older codes (B291, B292) were checked and confirmed withdrawn, not used. Stage tests and the cumulative exam are original problems in the style of UK intermediate/degree accounting and finance assessment. Numerical answers were computed with Python and checked for internal consistency."
+}

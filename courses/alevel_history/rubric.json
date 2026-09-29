@@ -1,0 +1,273 @@
+{
+  "stage_rubrics": {
+    "S01_Monarchy_and_Government": {
+      "criteria": [
+        "1B.1.1: The Tudor monarchs, succession and gender, 1509-88",
+        "1B.1.2: The changing role of Parliament, 1509-88",
+        "1B.1.3: The principal servants of the Crown: Wolsey, Cromwell, Burghley"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 1B.1.1, 1B.1.2, 1B.1.3 (Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S02_Religious_Change_Henry_to_Mary": {
+      "criteria": [
+        "1B.2.1: Henry VIII and the end of papal power in England",
+        "1B.2.2: Religious changes under Edward VI and Mary I",
+        "1B.2.3: Protestant influence, Anne Boleyn's significance, and the growth of puritanism"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 1B.2.1, 1B.2.2, 1B.2.3 (Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S03_Catholicism_Elizabethan_Settlement": {
+      "criteria": [
+        "1B.2.4: The Elizabethan religious compromise, 1558-63",
+        "1B.2.5: The survival of Catholicism: popular attitudes, recusancy, Jesuit missions, the Catholic nobility"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 1B.2.4, 1B.2.5 (Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S04_State_Control_and_Resistance": {
+      "criteria": [
+        "1B.3.1: Tudor control of the country: regional councils, the nobility, JPs, lords lieutenant",
+        "1B.3.2: The growth of poverty and provision for the poor",
+        "1B.3.3: Resistance to Tudor rule, 1536-88, and reasons for its decline"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 1B.3.1, 1B.3.2, 1B.3.3 (Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S05_Economy_Society_Culture_and_Interpretations": {
+      "criteria": [
+        "1B.4.1: Patterns of domestic and foreign trade",
+        "1B.4.2: The changing structure of society, 1509-88",
+        "1B.4.3: Cultural change: education, printing, religion, patronage, the 'cult of Gloriana'",
+        "1B.INT: Historical interpretations: was there a general crisis of government, 1589-1603?"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 1B.4.1, 1B.4.2, 1B.4.3, 1B.INT (Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S06_Germany_in_1515": {
+      "criteria": [
+        "2B1.KT1.1: The Holy Roman Empire: structure, Electors, Emperor and princes",
+        "2B1.KT1.2: The German economy c1515",
+        "2B1.KT1.3: The German Catholic Church: bishops, parish clergy, anticlericalism, humanism",
+        "2B1.KT1.4: The Papacy and Germany: corruption, financial demands, the indulgences controversy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 2B1.KT1.1, 2B1.KT1.2, 2B1.KT1.3, 2B1.KT1.4 (Paper 2 (2B.1): Luther and the German Reformation, c1515-55)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S07_Luthers_Early_Challenge": {
+      "criteria": [
+        "2B1.KT2.1: The Ninety-Five Theses, 1517, and the role of the printing press",
+        "2B1.KT2.2: Shaping of Luther's beliefs, 1518-19: Albrecht, Cajetan, Eck, justification by faith",
+        "2B1.KT2.3: Luther's excommunication, 1519-21: the 1520 pamphlets and the papal bulls"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 2B1.KT2.1, 2B1.KT2.2, 2B1.KT2.3 (Paper 2 (2B.1): Luther and the German Reformation, c1515-55)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S08_Development_and_Leadership": {
+      "criteria": [
+        "2B1.KT3.1: The Diet of Worms, 1521, and Luther's protection at the Wartburg",
+        "2B1.KT3.2: Luther's attitude to religious and political radicalism, including the Peasants' War, 1525",
+        "2B1.KT3.3: The development of Lutheran belief and practice: the German Mass, the Real Presence, the Bible, the Catechisms",
+        "2B1.KT3.4: Melanchthon's influence and the Augsburg Confession, 1530"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 2B1.KT3.1, 2B1.KT3.2, 2B1.KT3.3, 2B1.KT3.4 (Paper 2 (2B.1): Luther and the German Reformation, c1515-55)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S09_Spread_Survival_and_Exam_Technique": {
+      "criteria": [
+        "2B1.KT4.1: Failure of Lutheran-Catholic negotiations: Speyer 1526/1529, Regensburg 1541",
+        "2B1.KT4.2: The role of the German princes and the Schmalkaldic League, 1531",
+        "2B1.KT4.3: Charles V's competing priorities, the Schmalkaldic War, and the Peace of Augsburg, 1555",
+        "2B1.KT4.4: The Papacy's response: Paul III and the summoning of the Council of Trent"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 2B1.KT4.1, 2B1.KT4.2, 2B1.KT4.3, 2B1.KT4.4 (Paper 2 (2B.1): Luther and the German Reformation, c1515-55)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S10_Breadth_Government_and_Resistance": {
+      "criteria": [
+        "31.BREADTH.1: Breadth: Tudor government methods of control, 1485-1603",
+        "31.BREADTH.2: Breadth: the typology of grievance behind Tudor rebellion, 1485-1603"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 31.BREADTH.1, 31.BREADTH.2 (Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S11_Simnel_and_Warbeck": {
+      "criteria": [
+        "31.CASE.SIMNEL: Case study: the Lambert Simnel conspiracy, 1486-87",
+        "31.CASE.WARBECK: Case study: the Perkin Warbeck conspiracy, 1491-99"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 31.CASE.SIMNEL, 31.CASE.WARBECK (Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S12_Pilgrimage_of_Grace": {
+      "criteria": [
+        "31.DEPTH.PILGRIMAGE: In-depth study: the Pilgrimage of Grace, 1536-37"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 31.DEPTH.PILGRIMAGE (Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S13_Western_Rebellion_and_Ketts_Rebellion": {
+      "criteria": [
+        "31.CASE.WESTERN: Case study: the Western (Prayer Book) Rebellion, 1549",
+        "31.DEPTH.KETT: In-depth study: Kett's Rebellion, 1549"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 31.CASE.WESTERN, 31.DEPTH.KETT (Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S14_Wyatt_and_Northern_Earls": {
+      "criteria": [
+        "31.CASE.WYATT: Case study: Wyatt's Rebellion, 1554",
+        "31.CASE.NORTHERN_EARLS: Case study: the Northern Earls' Revolt, 1569-70"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 31.CASE.WYATT, 31.CASE.NORTHERN_EARLS (Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S15_Tyrones_Rebellion_and_Source_Skills": {
+      "criteria": [
+        "31.CASE.TYRONE: Case study: Tyrone's Rebellion (the Nine Years' War), 1594-1603"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 31.CASE.TYRONE (Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    },
+    "S16_Synthesis_and_Exam_Technique": {
+      "criteria": [
+        "31.SYNTHESIS: Synoptic comparison of government responses to rebellion, 1485-1603"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; Edexcel sets grade boundaries afresh each series, so no fixed Edexcel pass mark exists to mirror. Levels-marked essay and source-utility items are marked holistically against the level descriptors shown in the answer key, not by method/accuracy marks; short-answer items award one mark per valid, developed point the answer key allows. A multiple-choice item is worth 1 mark and needs the correct option and nothing else.",
+      "source": {
+        "issuing_body": "Edexcel (Pearson)",
+        "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+        "reference": "9HI0 objectives 31.SYNTHESIS (Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603)",
+        "urls": [
+          "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of three papers in Edexcel's structure: Paper 1 (2h15, 60 marks: interpretations 20 + two essays 20 each), Paper 2 (1h30, 40 marks: two essays 20 each), Paper 3 (2h15, 60 marks: source utility 20 + two essays 20 each)",
+      "Extended writing assessed by Edexcel's generic levels: explained, weighed argument with precise supporting evidence, reaching a substantiated judgement",
+      "Source and interpretation questions assessed on evaluation of content, provenance and own knowledge, not description alone"
+    ],
+    "pass_threshold": "At least 50% of the 160 marks overall and at least 40% on each of the three papers (the course's own standard; Edexcel boundaries vary by series).",
+    "source": {
+      "issuing_body": "Edexcel (Pearson)",
+      "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+      "reference": "Edexcel 9HI0 scheme of assessment: Paper 1 60 marks/30%, Paper 2 40 marks/20%, Paper 3 60 marks/30% (coursework 40 marks/20% out of scope)",
+      "urls": [
+        "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf"
+  ],
+  "source_notes": "Edexcel publishes the 9HI0 specification, including the assessment structure, objectives, and the route/topic titles. The detailed key-topic content taught here follows the specification's published content for Option 1B, Option 2B.1 and Topic 31. Stage tests and the mock are original questions in Edexcel's style, cross-checked against established historical scholarship on the Tudor period and the German Reformation."
+}

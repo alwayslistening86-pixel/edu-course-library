@@ -1,0 +1,541 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "CILEX Professional Qualification (CPQ) Foundation Stage module specifications F1-F6 (published at cilex.org.uk/wp-content/uploads/: cpq_f1_legal_systems_module.pdf, cpq_f2_law_of_tort_module.pdf, cpq_f3_contract_law_module.pdf, cpq_f4_property_and_private_client.pdf, cpq_f5_f6_professional_and_legal_skills_module.pdf) and the CPQ Foundation assessment overview (cpq_assessment_overview.pdf), read directly from cilex.org.uk",
+    "url": "https://www.cilex.org.uk/study/cpq_current_trainees/assessed_modules/",
+    "version": "CPQ Foundation Stage module specifications, version 2 (updated July 2022, the version live on cilex.org.uk), linked from cilex.org.uk/study/cpq_current_trainees/assessed_modules/ and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "CILEX numbers each F-module's content areas as a table of numbered rows (1, 2, 3...) with lettered sub-points (a, b, c...) but leaves the bullet detail under each sub-point unnumbered. This course codes F1 Legal Systems as LS.1-LS.9 (its 9 numbered rows), F2 The Law of Tort as TORT.1-TORT.8, F3 Contract Law as CON.1-CON.8, F4 Introduction to Property and Private Client as PPC.1-PPC.17, and the F5/F6 Professional and Legal Skills module (which numbers its content continuously across both linked assessments) as PLS.1-PLS.8, with PLS.1-PLS.7 examined under F5 (Succeeding in the Legal Environment) and PLS.8 under F6 (Legal Research), matching the module document's own row numbers."
+  },
+  "_syllabus_items": [
+    {
+      "id": "LS.1",
+      "title": "The structure and classification of law: civil/criminal, common law/equity, the Judicature Acts 1873-75",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.2",
+      "title": "The English legal system: criminal and civil courts, appeal routes, legal personality, ADR/ODR, out-of-court criminal disposals",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.3",
+      "title": "The provision and regulation of legal services: the professions, the judiciary, regulators, professional ethics obligations",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.4",
+      "title": "The nature of the UK constitution: sovereignty, rule of law, separation of powers, sources, devolution",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.5",
+      "title": "Legislative power: the UK legislature, primary legislation, secondary legislation and its control",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.6",
+      "title": "Executive power: the Crown, the executive branch, ministerial accountability",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.7",
+      "title": "Judicial power: judicial independence, common law method, precedent, the status of decisions by court",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.8",
+      "title": "Judicial review: purpose, grounds, remedies, the Upper Tribunal",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "LS.9",
+      "title": "The protection of civil liberties, human rights and equality: ECHR, HRA 1998, the Equality Act 2010",
+      "topic_area": "F1 Legal Systems"
+    },
+    {
+      "id": "TORT.1",
+      "title": "Tort law in outline: its function, and interests it protects including under the Human Rights Act 1998",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "TORT.2",
+      "title": "Negligence: duty of care, breach, causation, remoteness, res ipsa loquitur",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "TORT.3",
+      "title": "Employers' liability: statutory and common law duties, vicarious liability",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "TORT.4",
+      "title": "Occupiers' liability: Occupiers' Liability Acts 1957 and 1984",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "TORT.5",
+      "title": "Outline of the law relating to highways: Highways Act 1980, public rights of way",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "TORT.6",
+      "title": "Trespass and nuisance: trespass to land, public/private nuisance, the rule in Rylands v Fletcher",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "TORT.7",
+      "title": "Defences: volenti non fit injuria, ex turpi causa, contributory negligence, rescuers",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "TORT.8",
+      "title": "Causation and remedies in tort: remoteness, types of damages, injunctions",
+      "topic_area": "F2 The Law of Tort"
+    },
+    {
+      "id": "CON.1",
+      "title": "Contract law in outline: privity and third-party rights, professional/business/consumer contracts, illegality",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "CON.2",
+      "title": "Formation: offer and acceptance, including new methods of contract formation",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "CON.3",
+      "title": "Formation: consideration, including promissory estoppel",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "CON.4",
+      "title": "Formation: intention to create legal relations and capacity",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "CON.5",
+      "title": "The content of a contract: express and implied terms, exemption clauses and unfair terms",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "CON.6",
+      "title": "Vitiating factors: mistake, misrepresentation, duress and undue influence",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "CON.7",
+      "title": "Performance, termination and breach of contract, including discharge by frustration",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "CON.8",
+      "title": "Causation and remedies for breach of contract: common law, equitable and statutory remedies",
+      "topic_area": "F3 Contract Law"
+    },
+    {
+      "id": "PPC.1",
+      "title": "Organisations relevant to conveyancing and probate practice",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.2",
+      "title": "Underpinning land law: estates, interests, registered/unregistered title, third-party rights",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.3",
+      "title": "Technical basics: documents -- contracts, deeds, wills and codicils, statutory declarations",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.4",
+      "title": "Co-ownership: joint tenancy, tenancy in common, overreaching, conflicts of interest",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.5",
+      "title": "Regulatory matters: client care, undertakings, money laundering, taxation awareness",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.6",
+      "title": "Technical basics: probate and intestacy, including the intestacy rules",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.7",
+      "title": "Entitlement to act and personnel: executors, administrators, grants, LPAs",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.8",
+      "title": "Overview of the conveyancing transaction: stages from instruction to post-completion",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.9",
+      "title": "Taking instructions and initial steps: seller and buyer advice, checklists",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.10",
+      "title": "Deducing and investigating title: registered title, classes of title, requisitions",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.11",
+      "title": "Sale: drafting the contract and pre-contract package, Standard Conditions of Sale",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.12",
+      "title": "Purchase: pre-contract searches and enquiries",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.13",
+      "title": "Financing a purchase: cash, mortgage, government-backed schemes",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.14",
+      "title": "Reporting to client and exchange of contracts",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.15",
+      "title": "Preparing for completion: redemption, TR1, completion statements, pre-completion searches",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.16",
+      "title": "Completion: timing, methods, the Law Society's Code for Completion by Post",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PPC.17",
+      "title": "Post-completion: sale-side and purchase-side steps, SDLT/LTT, HM Land Registry applications",
+      "topic_area": "F4 Introduction to Property and Private Client"
+    },
+    {
+      "id": "PLS.1",
+      "title": "Personal impact: interpersonal relationships, equality/diversity/respect, time management, networking",
+      "topic_area": "F5 Professional and Legal Skills: Succeeding in the Legal Environment"
+    },
+    {
+      "id": "PLS.2",
+      "title": "Working in a team: role in the team, managing workload, impact of technology on teams",
+      "topic_area": "F5 Professional and Legal Skills: Succeeding in the Legal Environment"
+    },
+    {
+      "id": "PLS.3",
+      "title": "Setting standards: CILEX professional standards, appraisal and CPD",
+      "topic_area": "F5 Professional and Legal Skills: Succeeding in the Legal Environment"
+    },
+    {
+      "id": "PLS.4",
+      "title": "Client first approach: external and internal client service, ethical/professional considerations",
+      "topic_area": "F5 Professional and Legal Skills: Succeeding in the Legal Environment"
+    },
+    {
+      "id": "PLS.5",
+      "title": "Commercial focus: opportunities to practise law, how a legal practice generates income",
+      "topic_area": "F5 Professional and Legal Skills: Succeeding in the Legal Environment"
+    },
+    {
+      "id": "PLS.6",
+      "title": "The impact of technology: workplace software, CRM/case management/cloud systems, technology risks",
+      "topic_area": "F5 Professional and Legal Skills: Succeeding in the Legal Environment"
+    },
+    {
+      "id": "PLS.7",
+      "title": "Communication with internal and external clients: verbal, non-verbal, written, and precedent correspondence",
+      "topic_area": "F5 Professional and Legal Skills: Succeeding in the Legal Environment"
+    },
+    {
+      "id": "PLS.8",
+      "title": "Conducting legal research: scope and sources, citing primary sources, applying and reporting research ethically",
+      "topic_area": "F6 Professional and Legal Skills: Legal Research"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Structure_and_Classification_of_Law": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation LS.1"
+    ],
+    "syllabus_topic": "F1 Legal Systems",
+    "covers_items": [
+      "LS.1"
+    ]
+  },
+  "S02_The_English_Legal_System": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation LS.2"
+    ],
+    "syllabus_topic": "F1 Legal Systems",
+    "covers_items": [
+      "LS.2"
+    ]
+  },
+  "S03_Legal_Services_and_Regulation": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation LS.3"
+    ],
+    "syllabus_topic": "F1 Legal Systems",
+    "covers_items": [
+      "LS.3"
+    ]
+  },
+  "S04_UK_Constitution_and_Legislative_Power": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation LS.4",
+      "CPQ Foundation LS.5"
+    ],
+    "syllabus_topic": "F1 Legal Systems",
+    "covers_items": [
+      "LS.4",
+      "LS.5"
+    ]
+  },
+  "S05_Executive_Judicial_Power_and_Rights": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation LS.6",
+      "CPQ Foundation LS.7",
+      "CPQ Foundation LS.8",
+      "CPQ Foundation LS.9"
+    ],
+    "syllabus_topic": "F1 Legal Systems",
+    "covers_items": [
+      "LS.6",
+      "LS.7",
+      "LS.8",
+      "LS.9"
+    ]
+  },
+  "S06_Tort_Outline_and_Negligence": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation TORT.1",
+      "CPQ Foundation TORT.2"
+    ],
+    "syllabus_topic": "F2 The Law of Tort",
+    "covers_items": [
+      "TORT.1",
+      "TORT.2"
+    ]
+  },
+  "S07_Employers_and_Occupiers_Liability": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation TORT.3",
+      "CPQ Foundation TORT.4"
+    ],
+    "syllabus_topic": "F2 The Law of Tort",
+    "covers_items": [
+      "TORT.3",
+      "TORT.4"
+    ]
+  },
+  "S08_Highways_Trespass_and_Nuisance": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation TORT.5",
+      "CPQ Foundation TORT.6"
+    ],
+    "syllabus_topic": "F2 The Law of Tort",
+    "covers_items": [
+      "TORT.5",
+      "TORT.6"
+    ]
+  },
+  "S09_Tort_Defences_Causation_and_Remedies": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation TORT.7",
+      "CPQ Foundation TORT.8"
+    ],
+    "syllabus_topic": "F2 The Law of Tort",
+    "covers_items": [
+      "TORT.7",
+      "TORT.8"
+    ]
+  },
+  "S10_Contract_Outline": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation CON.1"
+    ],
+    "syllabus_topic": "F3 Contract Law",
+    "covers_items": [
+      "CON.1"
+    ]
+  },
+  "S11_Offer_and_Acceptance": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation CON.2"
+    ],
+    "syllabus_topic": "F3 Contract Law",
+    "covers_items": [
+      "CON.2"
+    ]
+  },
+  "S12_Consideration_Intention_and_Capacity": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation CON.3",
+      "CPQ Foundation CON.4"
+    ],
+    "syllabus_topic": "F3 Contract Law",
+    "covers_items": [
+      "CON.3",
+      "CON.4"
+    ]
+  },
+  "S13_Content_of_a_Contract": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation CON.5"
+    ],
+    "syllabus_topic": "F3 Contract Law",
+    "covers_items": [
+      "CON.5"
+    ]
+  },
+  "S14_Vitiating_Factors": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation CON.6"
+    ],
+    "syllabus_topic": "F3 Contract Law",
+    "covers_items": [
+      "CON.6"
+    ]
+  },
+  "S15_Performance_Breach_and_Remedies": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation CON.7",
+      "CPQ Foundation CON.8"
+    ],
+    "syllabus_topic": "F3 Contract Law",
+    "covers_items": [
+      "CON.7",
+      "CON.8"
+    ]
+  },
+  "S16_Property_Foundations": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PPC.1",
+      "CPQ Foundation PPC.2",
+      "CPQ Foundation PPC.3",
+      "CPQ Foundation PPC.4",
+      "CPQ Foundation PPC.5"
+    ],
+    "syllabus_topic": "F4 Introduction to Property and Private Client",
+    "covers_items": [
+      "PPC.1",
+      "PPC.2",
+      "PPC.3",
+      "PPC.4",
+      "PPC.5"
+    ]
+  },
+  "S17_Probate_and_Intestacy": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PPC.6",
+      "CPQ Foundation PPC.7"
+    ],
+    "syllabus_topic": "F4 Introduction to Property and Private Client",
+    "covers_items": [
+      "PPC.6",
+      "PPC.7"
+    ]
+  },
+  "S18_Conveyancing_Start_and_Title": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PPC.8",
+      "CPQ Foundation PPC.9",
+      "CPQ Foundation PPC.10"
+    ],
+    "syllabus_topic": "F4 Introduction to Property and Private Client",
+    "covers_items": [
+      "PPC.8",
+      "PPC.9",
+      "PPC.10"
+    ]
+  },
+  "S19_Contract_Searches_and_Finance": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PPC.11",
+      "CPQ Foundation PPC.12",
+      "CPQ Foundation PPC.13"
+    ],
+    "syllabus_topic": "F4 Introduction to Property and Private Client",
+    "covers_items": [
+      "PPC.11",
+      "PPC.12",
+      "PPC.13"
+    ]
+  },
+  "S20_Exchange_and_Completion": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PPC.14",
+      "CPQ Foundation PPC.15",
+      "CPQ Foundation PPC.16"
+    ],
+    "syllabus_topic": "F4 Introduction to Property and Private Client",
+    "covers_items": [
+      "PPC.14",
+      "PPC.15",
+      "PPC.16"
+    ]
+  },
+  "S21_Post_Completion": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PPC.17"
+    ],
+    "syllabus_topic": "F4 Introduction to Property and Private Client",
+    "covers_items": [
+      "PPC.17"
+    ]
+  },
+  "S22_Personal_Impact_and_Teamwork": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PLS.1",
+      "CPQ Foundation PLS.2",
+      "CPQ Foundation PLS.3"
+    ],
+    "syllabus_topic": "F5 Professional and Legal Skills: Succeeding in the Legal Environment",
+    "covers_items": [
+      "PLS.1",
+      "PLS.2",
+      "PLS.3"
+    ]
+  },
+  "S23_Client_Focus_Commercial_Awareness_Technology": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PLS.4",
+      "CPQ Foundation PLS.5",
+      "CPQ Foundation PLS.6"
+    ],
+    "syllabus_topic": "F5 Professional and Legal Skills: Succeeding in the Legal Environment",
+    "covers_items": [
+      "PLS.4",
+      "PLS.5",
+      "PLS.6"
+    ]
+  },
+  "S24_Client_Communication": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PLS.7"
+    ],
+    "syllabus_topic": "F5 Professional and Legal Skills: Succeeding in the Legal Environment",
+    "covers_items": [
+      "PLS.7"
+    ]
+  },
+  "S25_Legal_Research": {
+    "covers_syllabus_refs": [
+      "CPQ Foundation PLS.8"
+    ],
+    "syllabus_topic": "F6 Professional and Legal Skills: Legal Research",
+    "covers_items": [
+      "PLS.8"
+    ]
+  }
+}

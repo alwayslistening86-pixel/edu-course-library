@@ -1,0 +1,67 @@
+{
+  "schema_version": 4,
+  "name": "A-level Politics (Edexcel 9PL0): UK Politics and Government, Feminism, and the USA",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": {
+    "paper2_non_core_idea": "Feminism",
+    "paper3_option": "3A: Government and Politics of the USA"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "Pearson Edexcel Level 3 Advanced GCE in Politics (9PL0) specification, Issue 4 (May 2026), linked from qualifications.pearson.com and itemised on 2026-09-27: Component 1 UK Politics and Core Political Ideas (democracy and participation, political parties, electoral systems, voting behaviour and the media; conservatism, liberalism, socialism); Component 2 UK Government and Non-core Political Ideas (the constitution, Parliament, Prime Minister and executive, relations between branches; one non-core idea from a choice of five - this course takes Feminism, the others declared out of scope); and Component 3A Comparative Politics, the Government and Politics of the USA option (US Constitution and federalism, Congress, presidency, Supreme Court and civil rights, democracy and participation, comparative theories) - the Global Politics alternative (Component 3B) is declared out of scope. Assessment: three written papers, each 2 hours, 84 marks, 33.3% of the qualification. Paper 1: Section A (60 marks: one 30-mark source question from a choice of two, plus one 30-mark non-source question from a choice of two) and Section B (one 24-mark essay from a choice of two). Paper 2: the same structure (Section A UK Government 60 marks, Section B Feminism 24 marks). Paper 3A: Section A (one 12-mark question from a choice of two), Section B (one compulsory 12-mark comparative-theories question) and Section C (two 30-mark questions from a choice of three). Stage tests and the mock are original questions in Edexcel's style at the real tariffs, marked against Edexcel's generic levels for extended political writing.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for Edexcel 9PL0",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "no_gcse_prereq",
+      "text": "Politics is not offered as a GCSE in England, so unlike this library's other A-levels this course has no GCSE prerequisite. It assumes confident GCSE-level English (reading and writing developed argument) and an interest in current affairs, but no prior study of politics."
+    },
+    {
+      "id": "options",
+      "text": "Edexcel 9PL0 offers a choice of one non-core political idea (from five) for Component 2 and a choice between the USA and Global Politics for Component 3. This course teaches Feminism and the USA option. If your school or exam entry uses different options, the Paper 2 Section B and Paper 3 content here will not match what you sit; check your own exam board entry."
+    },
+    {
+      "id": "current_politics",
+      "text": "Politics is current affairs: the Prime Minister, Cabinet, party leaders, the US President, Congress and Supreme Court all change. This course names the office-holders and cases current when it was built; before an exam, check who currently holds each office and what has happened most recently via a reliable source (parliament.uk, gov.uk, congress.gov, supremecourt.gov, or a serious news outlet), and use your own up-to-date examples in your answers - examiners reward current, specific knowledge."
+    },
+    {
+      "id": "thinkers",
+      "text": "Edexcel expects the key ideas of the named thinkers for each ideology, not biographical detail. Learn what each thinker argued and how it exemplifies the ideology's core ideas or its internal tensions, and be ready to use thinkers' ideas within an essay rather than write about them in isolation."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Democracy_and_Participation",
+    "S02_Political_Parties",
+    "S03_Electoral_Systems",
+    "S04_Voting_Behaviour_and_Media",
+    "S05_Conservatism",
+    "S06_Liberalism",
+    "S07_Socialism",
+    "S08_The_Constitution",
+    "S09_Parliament",
+    "S10_PM_and_Executive",
+    "S11_Relations_Between_Branches",
+    "S12_Feminism",
+    "S13_US_Constitution_and_Federalism",
+    "S14_US_Congress",
+    "S15_US_Presidency",
+    "S16_US_Supreme_Court_and_Civil_Rights",
+    "S17_US_Democracy_and_Participation",
+    "S18_Comparative_Theories_Constitutions_and_Legislatures",
+    "S19_Comparing_Executives_Judiciaries_and_Democracy"
+  ]
+}

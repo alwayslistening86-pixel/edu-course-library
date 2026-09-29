@@ -1,0 +1,661 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA A-level French (7652) specification: themes 3.1-3.2, grammar 3.3, works 3.4 and the individual research project 3.5",
+    "url": "https://cdn.sanity.io/files/p28bar15/green/3878aa8e0add736eacb76a8f1530b3af7cff44a4.pdf",
+    "version": "Version 1.1 (August 2026), linked from aqa.org.uk/7652 and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers the themes (3.1.1-3.2.2) and grammar sections (3.3.1.1-3.3.2.2); the 36 sub-theme bullets are unnumbered, so this course codes them by sub-theme (FAM, CYB, BEN, DIV, MAR, CRI, PAT, MUS, CIN, ADO, GRE, IMM) with .1-.3 in AQA's order. Set works are coded TXT-01 to TXT-10 and FLM-01 to FLM-06 in AQA's list order; the research project is 3.5."
+  },
+  "_syllabus_items": [
+    {
+      "id": "FAM.1",
+      "title": "La famille en voie de changement: Grands-parents, parents et enfants \u2013 soucis et probl\u00e8mes",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "FAM.2",
+      "title": "La famille en voie de changement: Monoparentalit\u00e9, homoparentalit\u00e9, familles recompos\u00e9es",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "FAM.3",
+      "title": "La famille en voie de changement: La vie de couple \u2013 nouvelles tendances",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "CYB.1",
+      "title": "La \u00ab cyber-soci\u00e9t\u00e9 \u00bb: Qui sont les cybernautes ?",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "CYB.2",
+      "title": "La \u00ab cyber-soci\u00e9t\u00e9 \u00bb: Comment la technologie facilite la vie quotidienne",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "CYB.3",
+      "title": "La \u00ab cyber-soci\u00e9t\u00e9 \u00bb: Quels dangers la \u00ab cyber-soci\u00e9t\u00e9 \u00bb pose-t-elle ?",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "BEN.1",
+      "title": "Le r\u00f4le du b\u00e9n\u00e9volat: Qui sont et que font les b\u00e9n\u00e9voles ?",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "BEN.2",
+      "title": "Le r\u00f4le du b\u00e9n\u00e9volat: Le b\u00e9n\u00e9volat \u2013 quelle valeur pour ceux qui sont aid\u00e9s ?",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "BEN.3",
+      "title": "Le r\u00f4le du b\u00e9n\u00e9volat: Le b\u00e9n\u00e9volat \u2013 quelle valeur pour ceux qui aident ?",
+      "topic_area": "3.1.1 Aspects of French-speaking society: current trends"
+    },
+    {
+      "id": "DIV.1",
+      "title": "Les aspects positifs d'une soci\u00e9t\u00e9 diverse: L'enrichissement d\u00fb \u00e0 la mixit\u00e9 ethnique",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "DIV.2",
+      "title": "Les aspects positifs d'une soci\u00e9t\u00e9 diverse: Diversit\u00e9, tol\u00e9rance et respect",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "DIV.3",
+      "title": "Les aspects positifs d'une soci\u00e9t\u00e9 diverse: Diversit\u00e9 \u2013 un apprentissage pour la vie",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "MAR.1",
+      "title": "Quelle vie pour les marginalis\u00e9s ?: Qui sont les marginalis\u00e9s ?",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "MAR.2",
+      "title": "Quelle vie pour les marginalis\u00e9s ?: Quelle aide pour les marginalis\u00e9s ?",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "MAR.3",
+      "title": "Quelle vie pour les marginalis\u00e9s ?: Quelles attitudes envers les marginalis\u00e9s ?",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "CRI.1",
+      "title": "Comment on traite les criminels: Quelles attitudes envers la criminalit\u00e9 ?",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "CRI.2",
+      "title": "Comment on traite les criminels: La prison \u2013 \u00e9chec ou succ\u00e8s ?",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "CRI.3",
+      "title": "Comment on traite les criminels: D'autres sanctions",
+      "topic_area": "3.1.2 Aspects of French-speaking society: current issues"
+    },
+    {
+      "id": "PAT.1",
+      "title": "Une culture fi\u00e8re de son patrimoine: Le patrimoine sur le plan national, r\u00e9gional et local",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "PAT.2",
+      "title": "Une culture fi\u00e8re de son patrimoine: Comment le patrimoine refl\u00e8te la culture",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "PAT.3",
+      "title": "Une culture fi\u00e8re de son patrimoine: Le patrimoine et le tourisme",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "MUS.1",
+      "title": "La musique francophone contemporaine: La diversit\u00e9 de la musique francophone contemporaine",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "MUS.2",
+      "title": "La musique francophone contemporaine: Qui \u00e9coute et appr\u00e9cie cette musique ?",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "MUS.3",
+      "title": "La musique francophone contemporaine: Comment sauvegarder cette musique ?",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "CIN.1",
+      "title": "Cin\u00e9ma : le septi\u00e8me art: Pourquoi le septi\u00e8me art ?",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "CIN.2",
+      "title": "Cin\u00e9ma : le septi\u00e8me art: Le cin\u00e9ma \u2013 une passion nationale ?",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "CIN.3",
+      "title": "Cin\u00e9ma : le septi\u00e8me art: \u00c9volution du cin\u00e9ma \u2013 les grandes lignes",
+      "topic_area": "3.2.1 Artistic culture in the French-speaking world"
+    },
+    {
+      "id": "ADO.1",
+      "title": "Les ados, le droit de vote et l'engagement politique: Pour ou contre le droit de vote ?",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "ADO.2",
+      "title": "Les ados, le droit de vote et l'engagement politique: Les ados et l'engagement politique \u2013 motiv\u00e9s ou d\u00e9motiv\u00e9s ?",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "ADO.3",
+      "title": "Les ados, le droit de vote et l'engagement politique: Quel avenir pour la politique ?",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "GRE.1",
+      "title": "Manifestations, gr\u00e8ves \u2013 \u00e0 qui le pouvoir ?: Le pouvoir des syndicats",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "GRE.2",
+      "title": "Manifestations, gr\u00e8ves \u2013 \u00e0 qui le pouvoir ?: Manifestations et gr\u00e8ves \u2013 sont-elles efficaces ?",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "GRE.3",
+      "title": "Manifestations, gr\u00e8ves \u2013 \u00e0 qui le pouvoir ?: Attitudes diff\u00e9rentes envers ces tensions politiques",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "IMM.1",
+      "title": "La politique et l'immigration: Solutions politiques \u00e0 la question de l'immigration",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "IMM.2",
+      "title": "La politique et l'immigration: L'immigration et les partis politiques",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "IMM.3",
+      "title": "La politique et l'immigration: L'engagement politique chez les immigr\u00e9s",
+      "topic_area": "3.2.2 Aspects of political life in the French-speaking world"
+    },
+    {
+      "id": "3.3.1.1",
+      "title": "Nouns",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.2",
+      "title": "Articles",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.3",
+      "title": "Adjectives",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.4",
+      "title": "Numerals",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.5",
+      "title": "Adverbs",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.6",
+      "title": "Quantifiers/intensifiers",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.7",
+      "title": "Pronouns",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.8",
+      "title": "Verbs",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.9",
+      "title": "Prepositions",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.10",
+      "title": "Conjunctions",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.11",
+      "title": "Negation",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.12",
+      "title": "Questions",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.13",
+      "title": "Commands",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.14",
+      "title": "Word order",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.15",
+      "title": "Other constructions",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.16",
+      "title": "Discourse markers",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.1.17",
+      "title": "Fillers",
+      "topic_area": "3.3.1 AS grammar"
+    },
+    {
+      "id": "3.3.2.1",
+      "title": "Verbs (A-level: dependent infinitives, passive in all tenses, perfect and imperfect subjunctive)",
+      "topic_area": "3.3.2 A-level grammar"
+    },
+    {
+      "id": "3.3.2.2",
+      "title": "Word order (A-level: inversion after adverbs)",
+      "topic_area": "3.3.2 A-level grammar"
+    },
+    {
+      "id": "TXT-01",
+      "title": "Moli\u00e8re, Le Tartuffe",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-02",
+      "title": "Voltaire, Candide",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-03",
+      "title": "Guy de Maupassant, Boule de Suif et autres contes de la guerre",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-04",
+      "title": "Albert Camus, L'\u00e9tranger",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-05",
+      "title": "Fran\u00e7oise Sagan, Bonjour tristesse",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-06",
+      "title": "Claire Etcherelli, \u00c9lise ou la vraie vie",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-07",
+      "title": "Joseph Joffo, Un sac de billes",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-08",
+      "title": "Fa\u00efza Gu\u00e8ne, Kiffe kiffe demain",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-09",
+      "title": "Philippe Grimbert, Un secret",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "TXT-10",
+      "title": "Delphine de Vigan, No et moi",
+      "topic_area": "3.4.1.1 Set texts"
+    },
+    {
+      "id": "FLM-01",
+      "title": "Les 400 coups, Fran\u00e7ois Truffaut (1959)",
+      "topic_area": "3.4.1.2 Set films"
+    },
+    {
+      "id": "FLM-02",
+      "title": "Au revoir les enfants, Louis Malle (1987)",
+      "topic_area": "3.4.1.2 Set films"
+    },
+    {
+      "id": "FLM-03",
+      "title": "La Haine, Mathieu Kassovitz (1995)",
+      "topic_area": "3.4.1.2 Set films"
+    },
+    {
+      "id": "FLM-04",
+      "title": "L'auberge espagnole, C\u00e9dric Klapisch (2002)",
+      "topic_area": "3.4.1.2 Set films"
+    },
+    {
+      "id": "FLM-05",
+      "title": "Un long dimanche de fian\u00e7ailles, Jean-Pierre Jeunet (2004)",
+      "topic_area": "3.4.1.2 Set films"
+    },
+    {
+      "id": "FLM-06",
+      "title": "Entre les murs, Laurent Cantet (2008)",
+      "topic_area": "3.4.1.2 Set films"
+    },
+    {
+      "id": "3.5",
+      "title": "Individual research project",
+      "topic_area": "3.5 Individual research project"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "TXT-01",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-02",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-03",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-04",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-05",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-06",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-07",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-08",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "TXT-09",
+      "reason": "Set text not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "FLM-01",
+      "reason": "Set film not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "FLM-03",
+      "reason": "Set film not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "FLM-04",
+      "reason": "Set film not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "FLM-05",
+      "reason": "Set film not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    },
+    {
+      "id": "FLM-06",
+      "reason": "Set film not selected. AQA 7652 candidates study one text and one film (or two texts); this course takes Delphine de Vigan's No et moi (TXT-10) and Louis Malle's Au revoir les enfants (FLM-02)."
+    }
+  ],
+  "S01_La_famille": {
+    "covers_syllabus_refs": [
+      "7652 FAM.1",
+      "7652 FAM.2",
+      "7652 FAM.3",
+      "7652 3.3.1.1",
+      "7652 3.3.1.2",
+      "7652 3.3.1.3"
+    ],
+    "syllabus_topic": "3.1.1 Aspects of French-speaking society: current trends",
+    "covers_items": [
+      "FAM.1",
+      "FAM.2",
+      "FAM.3",
+      "3.3.1.1",
+      "3.3.1.2",
+      "3.3.1.3"
+    ]
+  },
+  "S02_La_cyber_societe": {
+    "covers_syllabus_refs": [
+      "7652 CYB.1",
+      "7652 CYB.2",
+      "7652 CYB.3",
+      "7652 3.3.1.7"
+    ],
+    "syllabus_topic": "3.1.1 Aspects of French-speaking society: current trends",
+    "covers_items": [
+      "CYB.1",
+      "CYB.2",
+      "CYB.3",
+      "3.3.1.7"
+    ]
+  },
+  "S03_Le_benevolat": {
+    "covers_syllabus_refs": [
+      "7652 BEN.1",
+      "7652 BEN.2",
+      "7652 BEN.3",
+      "7652 3.3.1.8"
+    ],
+    "syllabus_topic": "3.1.1 Aspects of French-speaking society: current trends",
+    "covers_items": [
+      "BEN.1",
+      "BEN.2",
+      "BEN.3",
+      "3.3.1.8"
+    ]
+  },
+  "S04_Societe_diverse": {
+    "covers_syllabus_refs": [
+      "7652 DIV.1",
+      "7652 DIV.2",
+      "7652 DIV.3",
+      "7652 3.3.1.11",
+      "7652 3.3.1.12",
+      "7652 3.3.1.13"
+    ],
+    "syllabus_topic": "3.1.2 Aspects of French-speaking society: current issues",
+    "covers_items": [
+      "DIV.1",
+      "DIV.2",
+      "DIV.3",
+      "3.3.1.11",
+      "3.3.1.12",
+      "3.3.1.13"
+    ]
+  },
+  "S05_Les_marginalises": {
+    "covers_syllabus_refs": [
+      "7652 MAR.1",
+      "7652 MAR.2",
+      "7652 MAR.3",
+      "7652 3.3.1.9",
+      "7652 3.3.1.10"
+    ],
+    "syllabus_topic": "3.1.2 Aspects of French-speaking society: current issues",
+    "covers_items": [
+      "MAR.1",
+      "MAR.2",
+      "MAR.3",
+      "3.3.1.9",
+      "3.3.1.10"
+    ]
+  },
+  "S06_Les_criminels": {
+    "covers_syllabus_refs": [
+      "7652 CRI.1",
+      "7652 CRI.2",
+      "7652 CRI.3",
+      "7652 3.3.1.4",
+      "7652 3.3.1.5",
+      "7652 3.3.1.6"
+    ],
+    "syllabus_topic": "3.1.2 Aspects of French-speaking society: current issues",
+    "covers_items": [
+      "CRI.1",
+      "CRI.2",
+      "CRI.3",
+      "3.3.1.4",
+      "3.3.1.5",
+      "3.3.1.6"
+    ]
+  },
+  "S07_Le_patrimoine": {
+    "covers_syllabus_refs": [
+      "7652 PAT.1",
+      "7652 PAT.2",
+      "7652 PAT.3",
+      "7652 3.3.1.16",
+      "7652 3.3.1.17"
+    ],
+    "syllabus_topic": "3.2.1 Artistic culture in the French-speaking world",
+    "covers_items": [
+      "PAT.1",
+      "PAT.2",
+      "PAT.3",
+      "3.3.1.16",
+      "3.3.1.17"
+    ]
+  },
+  "S08_La_musique": {
+    "covers_syllabus_refs": [
+      "7652 MUS.1",
+      "7652 MUS.2",
+      "7652 MUS.3"
+    ],
+    "syllabus_topic": "3.2.1 Artistic culture in the French-speaking world",
+    "covers_items": [
+      "MUS.1",
+      "MUS.2",
+      "MUS.3"
+    ]
+  },
+  "S09_Le_cinema": {
+    "covers_syllabus_refs": [
+      "7652 CIN.1",
+      "7652 CIN.2",
+      "7652 CIN.3"
+    ],
+    "syllabus_topic": "3.2.1 Artistic culture in the French-speaking world",
+    "covers_items": [
+      "CIN.1",
+      "CIN.2",
+      "CIN.3"
+    ]
+  },
+  "S10_Ados_et_politique": {
+    "covers_syllabus_refs": [
+      "7652 ADO.1",
+      "7652 ADO.2",
+      "7652 ADO.3",
+      "7652 3.3.2.1"
+    ],
+    "syllabus_topic": "3.2.2 Aspects of political life in the French-speaking world",
+    "covers_items": [
+      "ADO.1",
+      "ADO.2",
+      "ADO.3",
+      "3.3.2.1"
+    ]
+  },
+  "S11_Manifestations_et_greves": {
+    "covers_syllabus_refs": [
+      "7652 GRE.1",
+      "7652 GRE.2",
+      "7652 GRE.3",
+      "7652 3.3.2.2"
+    ],
+    "syllabus_topic": "3.2.2 Aspects of political life in the French-speaking world",
+    "covers_items": [
+      "GRE.1",
+      "GRE.2",
+      "GRE.3",
+      "3.3.2.2"
+    ]
+  },
+  "S12_Politique_et_immigration": {
+    "covers_syllabus_refs": [
+      "7652 IMM.1",
+      "7652 IMM.2",
+      "7652 IMM.3"
+    ],
+    "syllabus_topic": "3.2.2 Aspects of political life in the French-speaking world",
+    "covers_items": [
+      "IMM.1",
+      "IMM.2",
+      "IMM.3"
+    ]
+  },
+  "S13_No_et_moi": {
+    "covers_syllabus_refs": [
+      "7652 TXT-10"
+    ],
+    "syllabus_topic": "3.4 Works: one text and one film",
+    "covers_items": [
+      "TXT-10"
+    ]
+  },
+  "S14_Au_revoir_les_enfants": {
+    "covers_syllabus_refs": [
+      "7652 FLM-02"
+    ],
+    "syllabus_topic": "3.4 Works: one text and one film",
+    "covers_items": [
+      "FLM-02"
+    ]
+  },
+  "S15_Paper1_Skills": {
+    "covers_syllabus_refs": [
+      "7652 3.3.1.14",
+      "7652 3.3.1.15"
+    ],
+    "syllabus_topic": "Paper 1 skills, the individual research project and speaking",
+    "covers_items": [
+      "3.3.1.14",
+      "3.3.1.15"
+    ]
+  },
+  "S16_Research_Project_and_Speaking": {
+    "covers_syllabus_refs": [
+      "7652 3.5"
+    ],
+    "syllabus_topic": "Paper 1 skills, the individual research project and speaking",
+    "covers_items": [
+      "3.5"
+    ]
+  }
+}

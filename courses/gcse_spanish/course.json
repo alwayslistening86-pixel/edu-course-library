@@ -1,0 +1,57 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Spanish (AQA 8692), Higher tier",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Spanish (8692) specification, first teaching from September 2024, linked from aqa.org.uk/8692 and itemised on 2026-09-27: all three themes (People and lifestyle; Popular culture; Communication and the world around us) and their nine topics, the full grammar list in 3.2 (Foundation content plus the Higher-tier additions), and the exam-skill content of all four papers. This course is built to Higher-tier demand throughout (see the tiering notice). Assessment: four linear papers, each 25% of the GCSE, all sat at the same tier in the same series -- Paper 1 Listening (Higher: 45 minutes, 50 marks, Section A in English/Section B in Spanish, plus a dictation of at least 30 words); Paper 2 Speaking, teacher-conducted (Higher: 10-12 minutes plus 15 minutes' supervised preparation, 50 marks: role-play 10, reading aloud with follow-up conversation 15, photo-card discussion and general conversation 25); Paper 3 Reading (Higher: 60 minutes, 50 marks, including translation from Spanish into English of at least 50 words); Paper 4 Writing (Higher: 1 hour 15 minutes, 50 marks: translation into Spanish of at least 50 words 10, structured writing of about 90 words 15, open-ended writing of about 150 words 25). Stage tests and the mock are original materials in AQA's style.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, grades 1-9), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "tiering",
+      "text": "AQA GCSE Spanish is tiered: Foundation (grades 1-5) and Higher (grades 4-9); all four papers must be taken at the same tier in the same series. This course is built to Higher-tier demand throughout, as the more complete option -- it therefore also covers everything examined at Foundation tier. If you are entered for Foundation tier, your teacher can tell you which structures (marked 'Higher tier' in the grammar stages, e.g. the subjunctive, the passive voice, and translation into Spanish) go beyond what you will be examined on, though they will not harm your Foundation preparation."
+    },
+    {
+      "id": "spec_currency",
+      "text": "AQA replaced the previous GCSE Spanish specification (8698) with this one (8692) for first teaching in September 2024; 8698 is now a legacy specification. Check with your teacher or aqa.org.uk which specification and exam series you are actually entered for."
+    },
+    {
+      "id": "speaking_listening",
+      "text": "The speaking exam is conducted by a teacher and marked by AQA; this course prepares you with practice conversations but cannot hold the real test. Listening practice here uses Spanish passages you read aloud or have read to you; add authentic audio from Spanish and Latin American sources where you can."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Identidad_y_relaciones",
+    "S02_Vida_sana",
+    "S03_Estudios_y_trabajo",
+    "S04_Tiempo_libre",
+    "S05_Costumbres_y_festivales",
+    "S06_Cultura_de_famosos",
+    "S07_Viajes_y_turismo",
+    "S08_Medios_y_tecnologia",
+    "S09_Medio_ambiente_y_vivienda",
+    "S10_Futuro_condicional_imperativo",
+    "S11_Subjuntivo_y_estructuras_avanzadas",
+    "S12_Escucha_Paper1",
+    "S13_Habla_juego_de_rol",
+    "S14_Habla_tarjeta_y_conversacion",
+    "S15_Lectura_Paper3",
+    "S16_Escritura_Paper4"
+  ]
+}

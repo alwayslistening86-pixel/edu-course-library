@@ -1,0 +1,6 @@
+# Already-installed course zips duplicate what's under courses/ — keep the repo text-focused
+_staging/*.zip
+_staging/installed/*.zip
+*.pyc
+__pycache__/
+.DS_Store

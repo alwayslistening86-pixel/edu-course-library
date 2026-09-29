@@ -1,0 +1,830 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "OCR Level 1/Level 2 Cambridge National in Health and Social Care (J835) specification: sections 2, 4.2 (R032), 4.3 (R033), 4.4 (R034, excluded), 4.5 (R035), 5, 6 and Appendix B; itemised by the spec's own unit, topic area and teaching-content numbering (for example R032-2.1a is Unit R032 teaching content 2.1, first bullet group)",
+    "url": "https://www.ocr.org.uk/Images/711831-specification-cambridge-nationals-health-and-social-care-j835-assessment-from-2025.pdf",
+    "version": "Version 6 (June 2026)",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "J835-STRUCT",
+      "title": "Qualification structure, units, weightings and terminal rule",
+      "topic_area": "Qualification overview"
+    },
+    {
+      "id": "J835-PO",
+      "title": "Performance Objectives PO1 to PO4 and their weightings",
+      "topic_area": "Qualification overview"
+    },
+    {
+      "id": "J835-GRADE",
+      "title": "Grading: raw marks, UMS, unit and qualification grade boundaries",
+      "topic_area": "Assessment and grading"
+    },
+    {
+      "id": "J835-DESC",
+      "title": "NEA descriptor words and performance descriptors",
+      "topic_area": "Assessment and grading"
+    },
+    {
+      "id": "J835-SYN",
+      "title": "Synoptic links between R032 and the NEA units",
+      "topic_area": "Qualification overview"
+    },
+    {
+      "id": "R032-1.1",
+      "title": "Types of care settings",
+      "topic_area": "R032 TA1 Rights of service users"
+    },
+    {
+      "id": "R032-1.2",
+      "title": "The rights of service users",
+      "topic_area": "R032 TA1 Rights of service users"
+    },
+    {
+      "id": "R032-1.3",
+      "title": "Benefits to health and wellbeing when rights are maintained",
+      "topic_area": "R032 TA1 Rights of service users"
+    },
+    {
+      "id": "R032-2.1a",
+      "title": "Person-centred values and how providers apply them",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-2.1b",
+      "title": "The 6Cs: qualities of a service practitioner",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-2.2a",
+      "title": "Benefits for service providers of applying person-centred values",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-2.2b",
+      "title": "Benefits for service users of having person-centred values applied",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-2.3a",
+      "title": "Physical effects when person-centred values are not applied",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-2.3b",
+      "title": "Intellectual effects when person-centred values are not applied",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-2.3c",
+      "title": "Emotional effects when person-centred values are not applied",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-2.3d",
+      "title": "Social effects when person-centred values are not applied",
+      "topic_area": "R032 TA2 Person-centred values"
+    },
+    {
+      "id": "R032-3.1",
+      "title": "Verbal communication skills",
+      "topic_area": "R032 TA3 Effective communication"
+    },
+    {
+      "id": "R032-3.2",
+      "title": "Non-verbal communication skills",
+      "topic_area": "R032 TA3 Effective communication"
+    },
+    {
+      "id": "R032-3.3",
+      "title": "Active listening",
+      "topic_area": "R032 TA3 Effective communication"
+    },
+    {
+      "id": "R032-3.4",
+      "title": "Special methods of communication",
+      "topic_area": "R032 TA3 Effective communication"
+    },
+    {
+      "id": "R032-3.5",
+      "title": "Importance of effective communication, and impact of poor communication",
+      "topic_area": "R032 TA3 Effective communication"
+    },
+    {
+      "id": "R032-4.1a",
+      "title": "Service users who need safeguarding",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.1b",
+      "title": "Impacts of a lack of safeguarding",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.1c",
+      "title": "Safeguarding procedures: policy and Designated Safeguarding Lead",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.1d",
+      "title": "Safeguarding training for all staff",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.1e",
+      "title": "Disclosure and Barring Service checks",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.2a",
+      "title": "Infection prevention: general cleanliness",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.2b",
+      "title": "Infection prevention: personal hygiene measures",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.2c",
+      "title": "Infection prevention: PPE",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.3a",
+      "title": "Safety procedures for reducing risk and promoting good practice",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.3b",
+      "title": "Safety measures and the difference between a procedure and a measure",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-4.4",
+      "title": "Security measures that protect service users and staff",
+      "topic_area": "R032 TA4 Protecting service users and providers"
+    },
+    {
+      "id": "R032-X1",
+      "title": "R032 exam paper structure and marks",
+      "topic_area": "R032 exam technique"
+    },
+    {
+      "id": "R032-X2",
+      "title": "Command words in short and medium answers",
+      "topic_area": "R032 exam technique"
+    },
+    {
+      "id": "R032-X3",
+      "title": "6-mark extended response: level-of-response answers",
+      "topic_area": "R032 exam technique"
+    },
+    {
+      "id": "R032-X4",
+      "title": "8-mark extended response: discuss and evaluate (PO3)",
+      "topic_area": "R032 exam technique"
+    },
+    {
+      "id": "R032-X5",
+      "title": "Answering scenario-based questions",
+      "topic_area": "R032 exam technique"
+    },
+    {
+      "id": "R033-1.1a",
+      "title": "Life stages and key milestones",
+      "topic_area": "R033 TA1 Life stages"
+    },
+    {
+      "id": "R033-1.1b",
+      "title": "PIES development across the life stages",
+      "topic_area": "R033 TA1 Life stages"
+    },
+    {
+      "id": "R033-1.1c",
+      "title": "Factors affecting growth and development: the six types",
+      "topic_area": "R033 TA1 Life stages"
+    },
+    {
+      "id": "R033-1.1d",
+      "title": "How the factors affect an individual's growth and development",
+      "topic_area": "R033 TA1 Life stages"
+    },
+    {
+      "id": "R033-2.1a",
+      "title": "Expected and unexpected life events",
+      "topic_area": "R033 TA2 Impacts of life events"
+    },
+    {
+      "id": "R033-2.1b",
+      "title": "Impacts of life events: physical, intellectual, emotional, social, financial",
+      "topic_area": "R033 TA2 Impacts of life events"
+    },
+    {
+      "id": "R033-2.1c",
+      "title": "Identifying an individual's needs from the impacts",
+      "topic_area": "R033 TA2 Impacts of life events"
+    },
+    {
+      "id": "R033-3.1a",
+      "title": "Sources of support: formal, informal and charities",
+      "topic_area": "R033 TA3 Sources of support"
+    },
+    {
+      "id": "R033-3.1b",
+      "title": "The roles of practitioners in providing support",
+      "topic_area": "R033 TA3 Sources of support"
+    },
+    {
+      "id": "R033-3.1c",
+      "title": "The roles of informal care givers",
+      "topic_area": "R033 TA3 Sources of support"
+    },
+    {
+      "id": "R033-3.1d",
+      "title": "How practitioners meet individual needs",
+      "topic_area": "R033 TA3 Sources of support"
+    },
+    {
+      "id": "R033-3.1e",
+      "title": "Researching and recommending personalised support",
+      "topic_area": "R033 TA3 Sources of support"
+    },
+    {
+      "id": "R033-T1a",
+      "title": "Task 1 evidence: describing growth and development through a life stage using PIES",
+      "topic_area": "R033 NEA assessment"
+    },
+    {
+      "id": "R033-T1b",
+      "title": "Task 1 evidence: explaining how two factors of each type affected development",
+      "topic_area": "R033 NEA assessment"
+    },
+    {
+      "id": "R033-T2a1",
+      "title": "Task 2a evidence: describing two life events and the life stage they occurred in",
+      "topic_area": "R033 NEA assessment"
+    },
+    {
+      "id": "R033-T2a2",
+      "title": "Task 2a evidence: explaining the impacts of the life event on five areas",
+      "topic_area": "R033 NEA assessment"
+    },
+    {
+      "id": "R033-T2a3",
+      "title": "Task 2a evidence: explaining the individual's needs based on the impacts",
+      "topic_area": "R033 NEA assessment"
+    },
+    {
+      "id": "R033-T2b1",
+      "title": "Task 2b evidence: researched information on formal, informal and charity support",
+      "topic_area": "R033 NEA assessment"
+    },
+    {
+      "id": "R033-T2b2",
+      "title": "Task 2b evidence: justifying support and applying person-centred values",
+      "topic_area": "R033 NEA assessment"
+    },
+    {
+      "id": "R033-SKRES",
+      "title": "NEA skill: research as an investigation, and referencing",
+      "topic_area": "R033 NEA skills"
+    },
+    {
+      "id": "R033-SKINT",
+      "title": "NEA skill: interviewing an individual with consent",
+      "topic_area": "R033 NEA skills"
+    },
+    {
+      "id": "R033-SKAUTH",
+      "title": "NEA rules: authenticity, anonymity, data protection, AI and feedback",
+      "topic_area": "R033 NEA skills"
+    },
+    {
+      "id": "R035-1.1",
+      "title": "The importance of a healthy society",
+      "topic_area": "R035 TA1 Public health issues"
+    },
+    {
+      "id": "R035-1.2a",
+      "title": "Current public health challenges",
+      "topic_area": "R035 TA1 Public health issues"
+    },
+    {
+      "id": "R035-1.2b",
+      "title": "Organisations promoting public health",
+      "topic_area": "R035 TA1 Public health issues"
+    },
+    {
+      "id": "R035-1.3a",
+      "title": "Current health promotion campaigns",
+      "topic_area": "R035 TA1 Public health issues"
+    },
+    {
+      "id": "R035-1.3b",
+      "title": "Benefits of a health promotion campaign to individuals and society",
+      "topic_area": "R035 TA1 Public health issues"
+    },
+    {
+      "id": "R035-1.3c",
+      "title": "Target audience of a campaign",
+      "topic_area": "R035 TA1 Public health issues"
+    },
+    {
+      "id": "R035-2.1a",
+      "title": "Factors influencing health: lifestyle choices",
+      "topic_area": "R035 TA2 Factors influencing health"
+    },
+    {
+      "id": "R035-2.1b",
+      "title": "Factors influencing health: physical and mental health",
+      "topic_area": "R035 TA2 Factors influencing health"
+    },
+    {
+      "id": "R035-2.1c",
+      "title": "Factors influencing health: education and socio-economic",
+      "topic_area": "R035 TA2 Factors influencing health"
+    },
+    {
+      "id": "R035-2.1d",
+      "title": "Factors influencing health: access to health services",
+      "topic_area": "R035 TA2 Factors influencing health"
+    },
+    {
+      "id": "R035-2.2a",
+      "title": "What individuals can do to lead a healthy lifestyle",
+      "topic_area": "R035 TA2 Factors influencing health"
+    },
+    {
+      "id": "R035-2.2b",
+      "title": "Benefits of a healthy lifestyle in PIES terms",
+      "topic_area": "R035 TA2 Factors influencing health"
+    },
+    {
+      "id": "R035-2.3",
+      "title": "Barriers to leading a healthy lifestyle",
+      "topic_area": "R035 TA2 Factors influencing health"
+    },
+    {
+      "id": "R035-3.1a",
+      "title": "Planning a campaign: aims related to PIES",
+      "topic_area": "R035 TA3 Plan a campaign"
+    },
+    {
+      "id": "R035-3.1b",
+      "title": "Planning a campaign: timescales, resources, safety, communication and appropriateness",
+      "topic_area": "R035 TA3 Plan a campaign"
+    },
+    {
+      "id": "R035-3.1c",
+      "title": "Planning a campaign: methods to engage the target audience",
+      "topic_area": "R035 TA3 Plan a campaign"
+    },
+    {
+      "id": "R035-3.1d",
+      "title": "Planning a campaign: feedback methods",
+      "topic_area": "R035 TA3 Plan a campaign"
+    },
+    {
+      "id": "R035-4.1a",
+      "title": "Delivering a campaign: introducing it",
+      "topic_area": "R035 TA4 Deliver and evaluate"
+    },
+    {
+      "id": "R035-4.1b",
+      "title": "Delivering a campaign: delivering the content",
+      "topic_area": "R035 TA4 Deliver and evaluate"
+    },
+    {
+      "id": "R035-4.1c",
+      "title": "Delivering a campaign: collecting feedback",
+      "topic_area": "R035 TA4 Deliver and evaluate"
+    },
+    {
+      "id": "R035-4.2a",
+      "title": "Evaluating own performance: feedback, self-reflection, strengths and weaknesses",
+      "topic_area": "R035 TA4 Deliver and evaluate"
+    },
+    {
+      "id": "R035-4.2b",
+      "title": "Evaluating own performance: suggesting improvements",
+      "topic_area": "R035 TA4 Deliver and evaluate"
+    },
+    {
+      "id": "R035-T1a",
+      "title": "Task 1 evidence: reasons for choosing the public health challenge",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T1b",
+      "title": "Task 1 evidence: why addressing the challenge matters to a healthy society",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T1c",
+      "title": "Task 1 evidence: factors influencing the target audience's health and wellbeing",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T1d",
+      "title": "Task 1 evidence: barriers to a healthy lifestyle for the target audience",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T1e",
+      "title": "Task 1 evidence: benefits of following the campaign advice in PIES terms",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T2",
+      "title": "Task 2 evidence: a comprehensive campaign plan",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T3a",
+      "title": "Task 3 evidence: introduction and communication skills",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T3b",
+      "title": "Task 3 evidence: delivering a simple, sound or complex campaign",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T4a",
+      "title": "Task 4 evidence: evaluating planning, communication and engagement",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-T4b",
+      "title": "Task 4 evidence: suggestions for improvement and use of feedback",
+      "topic_area": "R035 NEA assessment"
+    },
+    {
+      "id": "R035-SKRES",
+      "title": "NEA skill: research for a campaign, and referencing",
+      "topic_area": "R035 NEA skills"
+    },
+    {
+      "id": "R035-SKOWN",
+      "title": "NEA rules: independence, templates, observation and feedback",
+      "topic_area": "R035 NEA skills"
+    },
+    {
+      "id": "R034-1.1",
+      "title": "Types of therapies used in health and social care (Unit R034 TA1)",
+      "topic_area": "R034 (not selected)"
+    },
+    {
+      "id": "R034-2.1",
+      "title": "Types of creative activities and their benefits (Unit R034 TA2)",
+      "topic_area": "R034 (not selected)"
+    },
+    {
+      "id": "R034-3.1",
+      "title": "Factors that affect the selection of a creative activity (Unit R034 TA3)",
+      "topic_area": "R034 (not selected)"
+    },
+    {
+      "id": "R034-3.2",
+      "title": "How to plan a creative activity to meet individual abilities (Unit R034 TA3)",
+      "topic_area": "R034 (not selected)"
+    },
+    {
+      "id": "R034-4.1",
+      "title": "Skills and personal qualities to encourage participation (Unit R034 TA4)",
+      "topic_area": "R034 (not selected)"
+    },
+    {
+      "id": "R034-4.2",
+      "title": "Deliver a creative activity with a group or individual (Unit R034 TA4)",
+      "topic_area": "R034 (not selected)"
+    },
+    {
+      "id": "R034-4.3",
+      "title": "Evaluation of a creative activity (Unit R034 TA4)",
+      "topic_area": "R034 (not selected)"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "R034-1.1",
+      "reason": "outside this course's selected options (optional Unit R034 Creative and therapeutic activities; this course covers R035)"
+    },
+    {
+      "id": "R034-2.1",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "R034-3.1",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "R034-3.2",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "R034-4.1",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "R034-4.2",
+      "reason": "outside this course's selected options"
+    },
+    {
+      "id": "R034-4.3",
+      "reason": "outside this course's selected options"
+    }
+  ],
+  "S01_How_The_Qualification_Works": {
+    "covers_syllabus_refs": [
+      "J835 sections 2.1, 2.2, 4.1.5, 5.1, 5.2, 5.4, 5.5, Appendix B"
+    ],
+    "syllabus_topic": "Qualification overview and assessment",
+    "covers_items": [
+      "J835-STRUCT",
+      "J835-PO",
+      "J835-GRADE",
+      "J835-DESC",
+      "J835-SYN"
+    ]
+  },
+  "S02_Care_Settings_and_Service_User_Rights": {
+    "covers_syllabus_refs": [
+      "R032 1.1, 1.2, 1.3"
+    ],
+    "syllabus_topic": "R032 Topic Area 1 - The rights of service users in health and social care settings",
+    "covers_items": [
+      "R032-1.1",
+      "R032-1.2",
+      "R032-1.3"
+    ]
+  },
+  "S03_Person_Centred_Values_and_the_6Cs": {
+    "covers_syllabus_refs": [
+      "R032 2.1"
+    ],
+    "syllabus_topic": "R032 Topic Area 2 - Person-centred values",
+    "covers_items": [
+      "R032-2.1a",
+      "R032-2.1b"
+    ]
+  },
+  "S04_Benefits_and_Effects_of_Person_Centred_Values": {
+    "covers_syllabus_refs": [
+      "R032 2.2, 2.3"
+    ],
+    "syllabus_topic": "R032 Topic Area 2 - Person-centred values",
+    "covers_items": [
+      "R032-2.2a",
+      "R032-2.2b",
+      "R032-2.3a",
+      "R032-2.3b",
+      "R032-2.3c",
+      "R032-2.3d"
+    ]
+  },
+  "S05_Verbal_and_Non_Verbal_Communication": {
+    "covers_syllabus_refs": [
+      "R032 3.1, 3.2"
+    ],
+    "syllabus_topic": "R032 Topic Area 3 - Effective communication in health and social care settings",
+    "covers_items": [
+      "R032-3.1",
+      "R032-3.2"
+    ]
+  },
+  "S06_Active_Listening_Special_Methods_and_Why_Communication_Matters": {
+    "covers_syllabus_refs": [
+      "R032 3.3, 3.4, 3.5"
+    ],
+    "syllabus_topic": "R032 Topic Area 3 - Effective communication in health and social care settings",
+    "covers_items": [
+      "R032-3.3",
+      "R032-3.4",
+      "R032-3.5"
+    ]
+  },
+  "S07_Safeguarding": {
+    "covers_syllabus_refs": [
+      "R032 4.1"
+    ],
+    "syllabus_topic": "R032 Topic Area 4 - Protecting service users and service providers",
+    "covers_items": [
+      "R032-4.1a",
+      "R032-4.1b",
+      "R032-4.1c",
+      "R032-4.1d",
+      "R032-4.1e"
+    ]
+  },
+  "S08_Infection_Prevention": {
+    "covers_syllabus_refs": [
+      "R032 4.2"
+    ],
+    "syllabus_topic": "R032 Topic Area 4 - Protecting service users and service providers",
+    "covers_items": [
+      "R032-4.2a",
+      "R032-4.2b",
+      "R032-4.2c"
+    ]
+  },
+  "S09_Safety_Procedures_Measures_and_Security": {
+    "covers_syllabus_refs": [
+      "R032 4.3, 4.4"
+    ],
+    "syllabus_topic": "R032 Topic Area 4 - Protecting service users and service providers",
+    "covers_items": [
+      "R032-4.3a",
+      "R032-4.3b",
+      "R032-4.4"
+    ]
+  },
+  "S10_R032_Exam_Technique": {
+    "covers_syllabus_refs": [
+      "R032 assessment guidance",
+      "Appendix B",
+      "R032/01 mark scheme"
+    ],
+    "syllabus_topic": "R032 exam technique",
+    "covers_items": [
+      "R032-X1",
+      "R032-X2",
+      "R032-X3",
+      "R032-X4",
+      "R032-X5"
+    ]
+  },
+  "S11_Life_Stages_and_PIES_Development": {
+    "covers_syllabus_refs": [
+      "R033 1.1 (life stages, PIES)",
+      "marking criteria TA1 row 1"
+    ],
+    "syllabus_topic": "R033 Topic Area 1 - Life stages",
+    "covers_items": [
+      "R033-1.1a",
+      "R033-1.1b",
+      "R033-T1a"
+    ]
+  },
+  "S12_Factors_Affecting_Growth_and_Development": {
+    "covers_syllabus_refs": [
+      "R033 1.1 (factors)",
+      "marking criteria TA1 row 2"
+    ],
+    "syllabus_topic": "R033 Topic Area 1 - Life stages",
+    "covers_items": [
+      "R033-1.1c",
+      "R033-1.1d",
+      "R033-T1b"
+    ]
+  },
+  "S13_Life_Events_Impacts_and_Needs": {
+    "covers_syllabus_refs": [
+      "R033 2.1"
+    ],
+    "syllabus_topic": "R033 Topic Area 2 - Impacts of life events",
+    "covers_items": [
+      "R033-2.1a",
+      "R033-2.1b",
+      "R033-2.1c"
+    ]
+  },
+  "S14_R033_NEA_Task_2a_Skills_and_Evidence": {
+    "covers_syllabus_refs": [
+      "R033 assessment guidance Task 2a",
+      "marking criteria TA2",
+      "J835 section 6.2 and 6.3"
+    ],
+    "syllabus_topic": "R033 Topic Area 2 NEA (Task 2a) and NEA rules",
+    "covers_items": [
+      "R033-SKAUTH",
+      "R033-SKINT",
+      "R033-T2a1",
+      "R033-T2a2",
+      "R033-T2a3"
+    ]
+  },
+  "S15_Sources_of_Support": {
+    "covers_syllabus_refs": [
+      "R033 3.1"
+    ],
+    "syllabus_topic": "R033 Topic Area 3 - Sources of support",
+    "covers_items": [
+      "R033-3.1a",
+      "R033-3.1b",
+      "R033-3.1c",
+      "R033-3.1d"
+    ]
+  },
+  "S16_R033_NEA_Task_2b_Recommending_Support": {
+    "covers_syllabus_refs": [
+      "R033 3.1 (research and recommend)",
+      "marking criteria TA3",
+      "assessment guidance Task 2b"
+    ],
+    "syllabus_topic": "R033 Topic Area 3 NEA (Task 2b)",
+    "covers_items": [
+      "R033-3.1e",
+      "R033-SKRES",
+      "R033-T2b1",
+      "R033-T2b2"
+    ]
+  },
+  "S17_R035_Public_Health_Issues": {
+    "covers_syllabus_refs": [
+      "R035 TA1 1.1 Importance of a healthy society",
+      "1.2 Public health challenges",
+      "1.3 Health promotion campaigns"
+    ],
+    "syllabus_topic": "R035 Topic Area 1 Current public health issues",
+    "covers_items": [
+      "R035-1.1",
+      "R035-1.2a",
+      "R035-1.2b",
+      "R035-1.3a",
+      "R035-1.3b",
+      "R035-1.3c"
+    ]
+  },
+  "S18_R035_Factors_Influencing_Health": {
+    "covers_syllabus_refs": [
+      "R035 TA2 2.1 Factors influencing health and wellbeing",
+      "2.2 Leading a healthy lifestyle",
+      "2.3 Barriers"
+    ],
+    "syllabus_topic": "R035 Topic Area 2 Factors influencing health",
+    "covers_items": [
+      "R035-2.1a",
+      "R035-2.1b",
+      "R035-2.1c",
+      "R035-2.1d",
+      "R035-2.2a",
+      "R035-2.2b",
+      "R035-2.3"
+    ]
+  },
+  "S19_R035_Planning_a_Campaign": {
+    "covers_syllabus_refs": [
+      "R035 TA3 3.1 Planning a health promotion campaign"
+    ],
+    "syllabus_topic": "R035 Topic Area 3 Plan a campaign",
+    "covers_items": [
+      "R035-3.1a",
+      "R035-3.1b",
+      "R035-3.1c",
+      "R035-3.1d"
+    ]
+  },
+  "S20_R035_Delivering_and_Evaluating_a_Campaign": {
+    "covers_syllabus_refs": [
+      "R035 TA4 4.1 Deliver a campaign",
+      "4.2 Evaluate own performance"
+    ],
+    "syllabus_topic": "R035 Topic Area 4 Deliver and evaluate a campaign",
+    "covers_items": [
+      "R035-4.1a",
+      "R035-4.1b",
+      "R035-4.1c",
+      "R035-4.2a",
+      "R035-4.2b"
+    ]
+  },
+  "S21_R035_NEA_Skills_and_Task1_Evidence": {
+    "covers_syllabus_refs": [
+      "R035 assessment guidance Task 1",
+      "NEA rules section 6",
+      "research and referencing guidance"
+    ],
+    "syllabus_topic": "R035 NEA skills and Task 1 evidence",
+    "covers_items": [
+      "R035-SKRES",
+      "R035-SKOWN",
+      "R035-T1a",
+      "R035-T1b",
+      "R035-T1c",
+      "R035-T1d",
+      "R035-T1e"
+    ]
+  },
+  "S22_R035_NEA_Tasks_2_to_4_Evidence": {
+    "covers_syllabus_refs": [
+      "R035 assessment guidance Tasks 2 to 4",
+      "marking criteria"
+    ],
+    "syllabus_topic": "R035 NEA Task 2, 3 and 4 evidence",
+    "covers_items": [
+      "R035-T2",
+      "R035-T3a",
+      "R035-T3b",
+      "R035-T4a",
+      "R035-T4b"
+    ]
+  }
+}

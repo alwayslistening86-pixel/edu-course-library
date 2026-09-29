@@ -1,0 +1,835 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA A-level Computer Science (7517) specification: subject content sections 4.1-4.13 (A-level only content; the NEA, 4.14, is declared out of scope)",
+    "url": "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF",
+    "version": "Version 1.6 (31 July 2023), the current version linked from aqa.org.uk/7517, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA's own numbered content references, at a teaching-sized grain. AQA's specification numbers this content to four levels in places (e.g. 4.1.1.1-4.1.1.16, 4.2.2.1.1-4.2.2.1.4, 4.9.4.1-4.9.4.11); where several of AQA's own adjacent sub-bullets form one natural lesson (e.g. 4.1.1.10-4.1.1.12 on subroutines/parameters/return values, or 4.5.6.1-4.5.6.3 on analogue/digital conversion), this course codes that lesson under the first sub-bullet's reference and teaches the rest of the range alongside it; the item's own title names everything it covers. 4.2's third-party-queue/stack operation lists (4.2.2.1.1-4.2.2.1.4, 4.2.3.1.1-4.2.3.1.5) are similarly taught as one item each (4.2.2.1 Queues, 4.2.3.1 Stacks). 4.10 (Databases) and 4.11 (Big Data) are numbered by AQA as unnumbered content/additional-information tables rather than sub-bulleted lists; this course assigns them working reference numbers 4.10.1-4.10.5 and 4.11.1 in the specification's own topic order. Section 4.14 (the NEA) is out of scope; see the notice below."
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.1.1.1",
+      "title": "Data types: integer, real, Boolean, character, string, date/time, pointer/reference, record, array; user-defined types",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.2",
+      "title": "Programming concepts: declaration, assignment, definite and indefinite iteration, nested selection/iteration, meaningful identifiers",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.3",
+      "title": "Arithmetic operations: +, -, *, real and integer division (with remainder), exponentiation, rounding, truncation",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.4",
+      "title": "Relational operations",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.5",
+      "title": "Boolean operations: NOT, AND, OR, XOR",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.6",
+      "title": "Constants and variables",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.7",
+      "title": "String-handling operations: length, position, substring, concatenation, character/string conversion",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.8",
+      "title": "Random number generation",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.9",
+      "title": "Exception handling",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.10",
+      "title": "Subroutines (procedures and functions): parameters and returning values",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.13",
+      "title": "Local and global variables; the role of stack frames",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.1.16",
+      "title": "Recursive techniques",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.2.1",
+      "title": "Programming paradigms, and procedural-oriented programming",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.1.2.3",
+      "title": "Object-oriented programming",
+      "topic_area": "4.1 Fundamentals of programming"
+    },
+    {
+      "id": "4.2.1.1",
+      "title": "Data structures, arrays (single- and multi-dimensional) and records/files",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.1.4",
+      "title": "Abstract data types",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.2.1",
+      "title": "Queues",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.3.1",
+      "title": "Stacks",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.4.1",
+      "title": "Graphs",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.5.1",
+      "title": "Trees",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.6.1",
+      "title": "Hash tables",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.7.1",
+      "title": "Dictionaries",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.2.8.1",
+      "title": "Vectors",
+      "topic_area": "4.2 Fundamentals of data structures"
+    },
+    {
+      "id": "4.3.1.1",
+      "title": "Graph-traversal algorithms: breadth-first and depth-first search",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.2.1",
+      "title": "Tree-traversal algorithms: pre-order, in-order, post-order",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.3.1",
+      "title": "Reverse Polish notation",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.4.1",
+      "title": "Linear search",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.4.2",
+      "title": "Binary search",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.4.3",
+      "title": "Binary tree search",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.5.1",
+      "title": "Bubble sort",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.5.2",
+      "title": "Merge sort",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.3.6.1",
+      "title": "Dijkstra's shortest path algorithm",
+      "topic_area": "4.3 Fundamentals of algorithms"
+    },
+    {
+      "id": "4.4.1.1",
+      "title": "Problem-solving and algorithms",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.1.3",
+      "title": "Abstraction: representational, procedural, functional and data abstraction; decomposition and composition",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.1.11",
+      "title": "Automation",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.2.1",
+      "title": "Finite state machines",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.2.2",
+      "title": "Set notation for regular expressions",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.2.3",
+      "title": "Regular expressions and regular languages",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.3.1",
+      "title": "Backus-Naur Form and syntax diagrams",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.4.1",
+      "title": "Comparing algorithms; the maths behind Big-O notation",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.4.3",
+      "title": "Order of complexity: Big-O notation",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.4.4",
+      "title": "Limits of computation: tractability, computability and the halting problem",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.4.5.1",
+      "title": "The Turing machine",
+      "topic_area": "4.4 Theory of computation"
+    },
+    {
+      "id": "4.13.1.1",
+      "title": "Analysis",
+      "topic_area": "4.13 Systematic approach to problem solving"
+    },
+    {
+      "id": "4.13.1.2",
+      "title": "Design",
+      "topic_area": "4.13 Systematic approach to problem solving"
+    },
+    {
+      "id": "4.13.1.3",
+      "title": "Implementation",
+      "topic_area": "4.13 Systematic approach to problem solving"
+    },
+    {
+      "id": "4.13.1.4",
+      "title": "Testing",
+      "topic_area": "4.13 Systematic approach to problem solving"
+    },
+    {
+      "id": "4.13.1.5",
+      "title": "Evaluation",
+      "topic_area": "4.13 Systematic approach to problem solving"
+    },
+    {
+      "id": "4.5.1.1",
+      "title": "Number systems: natural, integer, rational, irrational, real and ordinal numbers",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.2.1",
+      "title": "Number bases",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.3.1",
+      "title": "Units of information",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.4.1",
+      "title": "Unsigned binary and binary arithmetic",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.4.3",
+      "title": "Signed binary using two's complement",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.4.4",
+      "title": "Floating point: normalisation, range, precision, rounding, underflow and overflow",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.5.1",
+      "title": "Character encoding: ASCII and Unicode",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.5.3",
+      "title": "Error checking and correction",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.6.1",
+      "title": "Analogue and digital data; analogue-to-digital conversion",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.6.4",
+      "title": "Bitmapped and vector graphics",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.6.7",
+      "title": "Digital representation of sound, and MIDI",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.5.6.9",
+      "title": "Data compression and encryption",
+      "topic_area": "4.5 Fundamentals of data representation"
+    },
+    {
+      "id": "4.6.1.1",
+      "title": "Hardware, software and the operating system",
+      "topic_area": "4.6 Fundamentals of computer systems"
+    },
+    {
+      "id": "4.6.2.1",
+      "title": "Classification of programming languages and translators",
+      "topic_area": "4.6 Fundamentals of computer systems"
+    },
+    {
+      "id": "4.6.4.1",
+      "title": "Logic gates and Boolean algebra",
+      "topic_area": "4.6 Fundamentals of computer systems"
+    },
+    {
+      "id": "4.7.1.1",
+      "title": "Internal hardware components and the stored program concept",
+      "topic_area": "4.7 Fundamentals of computer organisation and architecture"
+    },
+    {
+      "id": "4.7.3.1",
+      "title": "Processor structure: ALU, control unit, clock and registers",
+      "topic_area": "4.7 Fundamentals of computer organisation and architecture"
+    },
+    {
+      "id": "4.7.3.2",
+      "title": "The fetch-execute cycle, instruction sets and addressing modes",
+      "topic_area": "4.7 Fundamentals of computer organisation and architecture"
+    },
+    {
+      "id": "4.7.3.6",
+      "title": "Interrupts and factors affecting processor performance",
+      "topic_area": "4.7 Fundamentals of computer organisation and architecture"
+    },
+    {
+      "id": "4.7.4.1",
+      "title": "External hardware devices and secondary storage",
+      "topic_area": "4.7 Fundamentals of computer organisation and architecture"
+    },
+    {
+      "id": "4.8.1.1",
+      "title": "Individual, social, legal and cultural issues and opportunities",
+      "topic_area": "4.8 Consequences of uses of computing"
+    },
+    {
+      "id": "4.9.1.1",
+      "title": "Communication methods and data-transmission basics",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.2.1",
+      "title": "Network topologies: star and bus",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.2.2",
+      "title": "Peer-to-peer and client-server networking",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.2.3",
+      "title": "Wireless networking",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.3.1",
+      "title": "The Internet: packet switching, routers, DNS and URLs",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.3.2",
+      "title": "Internet security",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.4.1",
+      "title": "The TCP/IP stack, sockets and MAC addresses",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.4.2",
+      "title": "Standard application-layer protocols",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.4.3",
+      "title": "IP addressing, subnetting, DHCP, NAT and port forwarding",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.9.4.10",
+      "title": "The client-server model, WebSockets, REST, and thin- vs thick-client computing",
+      "topic_area": "4.9 Fundamentals of communication and networking"
+    },
+    {
+      "id": "4.10.1.1",
+      "title": "Conceptual data models and entity-relationship modelling",
+      "topic_area": "4.10 Fundamentals of databases, and 4.11 Big Data"
+    },
+    {
+      "id": "4.10.2.1",
+      "title": "Relational databases",
+      "topic_area": "4.10 Fundamentals of databases, and 4.11 Big Data"
+    },
+    {
+      "id": "4.10.3.1",
+      "title": "Database design and normalisation",
+      "topic_area": "4.10 Fundamentals of databases, and 4.11 Big Data"
+    },
+    {
+      "id": "4.10.4.1",
+      "title": "Structured Query Language (SQL)",
+      "topic_area": "4.10 Fundamentals of databases, and 4.11 Big Data"
+    },
+    {
+      "id": "4.10.5.1",
+      "title": "Client-server databases",
+      "topic_area": "4.10 Fundamentals of databases, and 4.11 Big Data"
+    },
+    {
+      "id": "4.11.1.1",
+      "title": "Big Data: volume, velocity and variety; distributed processing",
+      "topic_area": "4.10 Fundamentals of databases, and 4.11 Big Data"
+    },
+    {
+      "id": "4.12.1.1",
+      "title": "Functional programming concepts",
+      "topic_area": "4.12 Fundamentals of functional programming"
+    },
+    {
+      "id": "4.12.2.1",
+      "title": "Writing functional programs: higher-order functions",
+      "topic_area": "4.12 Fundamentals of functional programming"
+    },
+    {
+      "id": "4.12.3.1",
+      "title": "Lists in functional programming",
+      "topic_area": "4.12 Fundamentals of functional programming"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Data_Types_and_Programming_Concepts": {
+    "covers_syllabus_refs": [
+      "7517 4.1.1.1",
+      "7517 4.1.1.2"
+    ],
+    "syllabus_topic": "4.1 Fundamentals of programming",
+    "covers_items": [
+      "4.1.1.1",
+      "4.1.1.2"
+    ]
+  },
+  "S02_Operators": {
+    "covers_syllabus_refs": [
+      "7517 4.1.1.3",
+      "7517 4.1.1.4",
+      "7517 4.1.1.5"
+    ],
+    "syllabus_topic": "4.1 Fundamentals of programming",
+    "covers_items": [
+      "4.1.1.3",
+      "4.1.1.4",
+      "4.1.1.5"
+    ]
+  },
+  "S03_Constants_Strings_Random_Exceptions": {
+    "covers_syllabus_refs": [
+      "7517 4.1.1.6",
+      "7517 4.1.1.7",
+      "7517 4.1.1.8",
+      "7517 4.1.1.9"
+    ],
+    "syllabus_topic": "4.1 Fundamentals of programming",
+    "covers_items": [
+      "4.1.1.6",
+      "4.1.1.7",
+      "4.1.1.8",
+      "4.1.1.9"
+    ]
+  },
+  "S04_Subroutines_Scope_Recursion": {
+    "covers_syllabus_refs": [
+      "7517 4.1.1.10",
+      "7517 4.1.1.13",
+      "7517 4.1.1.16"
+    ],
+    "syllabus_topic": "4.1 Fundamentals of programming",
+    "covers_items": [
+      "4.1.1.10",
+      "4.1.1.13",
+      "4.1.1.16"
+    ]
+  },
+  "S05_Programming_Paradigms": {
+    "covers_syllabus_refs": [
+      "7517 4.1.2.1",
+      "7517 4.1.2.3"
+    ],
+    "syllabus_topic": "4.1 Fundamentals of programming",
+    "covers_items": [
+      "4.1.2.1",
+      "4.1.2.3"
+    ]
+  },
+  "S06_Arrays_Records_ADTs": {
+    "covers_syllabus_refs": [
+      "7517 4.2.1.1",
+      "7517 4.2.1.4"
+    ],
+    "syllabus_topic": "4.2 Fundamentals of data structures",
+    "covers_items": [
+      "4.2.1.1",
+      "4.2.1.4"
+    ]
+  },
+  "S07_Queues_and_Stacks": {
+    "covers_syllabus_refs": [
+      "7517 4.2.2.1",
+      "7517 4.2.3.1"
+    ],
+    "syllabus_topic": "4.2 Fundamentals of data structures",
+    "covers_items": [
+      "4.2.2.1",
+      "4.2.3.1"
+    ]
+  },
+  "S08_Graphs_Trees_Hash_Dict_Vectors": {
+    "covers_syllabus_refs": [
+      "7517 4.2.4.1",
+      "7517 4.2.5.1",
+      "7517 4.2.6.1",
+      "7517 4.2.7.1",
+      "7517 4.2.8.1"
+    ],
+    "syllabus_topic": "4.2 Fundamentals of data structures",
+    "covers_items": [
+      "4.2.4.1",
+      "4.2.5.1",
+      "4.2.6.1",
+      "4.2.7.1",
+      "4.2.8.1"
+    ]
+  },
+  "S09_Graph_Tree_Traversal_and_RPN": {
+    "covers_syllabus_refs": [
+      "7517 4.3.1.1",
+      "7517 4.3.2.1",
+      "7517 4.3.3.1"
+    ],
+    "syllabus_topic": "4.3 Fundamentals of algorithms",
+    "covers_items": [
+      "4.3.1.1",
+      "4.3.2.1",
+      "4.3.3.1"
+    ]
+  },
+  "S10_Searching_Algorithms": {
+    "covers_syllabus_refs": [
+      "7517 4.3.4.1",
+      "7517 4.3.4.2",
+      "7517 4.3.4.3"
+    ],
+    "syllabus_topic": "4.3 Fundamentals of algorithms",
+    "covers_items": [
+      "4.3.4.1",
+      "4.3.4.2",
+      "4.3.4.3"
+    ]
+  },
+  "S11_Sorting_and_Dijkstra": {
+    "covers_syllabus_refs": [
+      "7517 4.3.5.1",
+      "7517 4.3.5.2",
+      "7517 4.3.6.1"
+    ],
+    "syllabus_topic": "4.3 Fundamentals of algorithms",
+    "covers_items": [
+      "4.3.5.1",
+      "4.3.5.2",
+      "4.3.6.1"
+    ]
+  },
+  "S12_Abstraction_and_Automation": {
+    "covers_syllabus_refs": [
+      "7517 4.4.1.1",
+      "7517 4.4.1.3",
+      "7517 4.4.1.11"
+    ],
+    "syllabus_topic": "4.4 Theory of computation",
+    "covers_items": [
+      "4.4.1.1",
+      "4.4.1.3",
+      "4.4.1.11"
+    ]
+  },
+  "S13_FSM_Regex_and_BNF": {
+    "covers_syllabus_refs": [
+      "7517 4.4.2.1",
+      "7517 4.4.2.2",
+      "7517 4.4.2.3",
+      "7517 4.4.3.1"
+    ],
+    "syllabus_topic": "4.4 Theory of computation",
+    "covers_items": [
+      "4.4.2.1",
+      "4.4.2.2",
+      "4.4.2.3",
+      "4.4.3.1"
+    ]
+  },
+  "S14_Complexity_and_Turing_Machines": {
+    "covers_syllabus_refs": [
+      "7517 4.4.4.1",
+      "7517 4.4.4.3",
+      "7517 4.4.4.4",
+      "7517 4.4.5.1"
+    ],
+    "syllabus_topic": "4.4 Theory of computation",
+    "covers_items": [
+      "4.4.4.1",
+      "4.4.4.3",
+      "4.4.4.4",
+      "4.4.5.1"
+    ]
+  },
+  "S15_Software_Development_Lifecycle": {
+    "covers_syllabus_refs": [
+      "7517 4.13.1.1",
+      "7517 4.13.1.2",
+      "7517 4.13.1.3",
+      "7517 4.13.1.4",
+      "7517 4.13.1.5"
+    ],
+    "syllabus_topic": "4.13 Systematic approach to problem solving",
+    "covers_items": [
+      "4.13.1.1",
+      "4.13.1.2",
+      "4.13.1.3",
+      "4.13.1.4",
+      "4.13.1.5"
+    ]
+  },
+  "S16_Number_Systems_Bases_Units": {
+    "covers_syllabus_refs": [
+      "7517 4.5.1.1",
+      "7517 4.5.2.1",
+      "7517 4.5.3.1"
+    ],
+    "syllabus_topic": "4.5 Fundamentals of data representation",
+    "covers_items": [
+      "4.5.1.1",
+      "4.5.2.1",
+      "4.5.3.1"
+    ]
+  },
+  "S17_Binary_Integers_and_Floating_Point": {
+    "covers_syllabus_refs": [
+      "7517 4.5.4.1",
+      "7517 4.5.4.3",
+      "7517 4.5.4.4"
+    ],
+    "syllabus_topic": "4.5 Fundamentals of data representation",
+    "covers_items": [
+      "4.5.4.1",
+      "4.5.4.3",
+      "4.5.4.4"
+    ]
+  },
+  "S18_Character_Coding_and_Error_Checking": {
+    "covers_syllabus_refs": [
+      "7517 4.5.5.1",
+      "7517 4.5.5.3"
+    ],
+    "syllabus_topic": "4.5 Fundamentals of data representation",
+    "covers_items": [
+      "4.5.5.1",
+      "4.5.5.3"
+    ]
+  },
+  "S19_Analogue_Digital_and_Multimedia": {
+    "covers_syllabus_refs": [
+      "7517 4.5.6.1",
+      "7517 4.5.6.4",
+      "7517 4.5.6.7",
+      "7517 4.5.6.9"
+    ],
+    "syllabus_topic": "4.5 Fundamentals of data representation",
+    "covers_items": [
+      "4.5.6.1",
+      "4.5.6.4",
+      "4.5.6.7",
+      "4.5.6.9"
+    ]
+  },
+  "S20_Hardware_Software_Languages_Logic": {
+    "covers_syllabus_refs": [
+      "7517 4.6.1.1",
+      "7517 4.6.2.1",
+      "7517 4.6.4.1"
+    ],
+    "syllabus_topic": "4.6 Fundamentals of computer systems",
+    "covers_items": [
+      "4.6.1.1",
+      "4.6.2.1",
+      "4.6.4.1"
+    ]
+  },
+  "S21_Components_Stored_Program_Processor": {
+    "covers_syllabus_refs": [
+      "7517 4.7.1.1",
+      "7517 4.7.3.1"
+    ],
+    "syllabus_topic": "4.7 Fundamentals of computer organisation and architecture",
+    "covers_items": [
+      "4.7.1.1",
+      "4.7.3.1"
+    ]
+  },
+  "S22_Fetch_Execute_Interrupts_External_Devices": {
+    "covers_syllabus_refs": [
+      "7517 4.7.3.2",
+      "7517 4.7.3.6",
+      "7517 4.7.4.1"
+    ],
+    "syllabus_topic": "4.7 Fundamentals of computer organisation and architecture",
+    "covers_items": [
+      "4.7.3.2",
+      "4.7.3.6",
+      "4.7.4.1"
+    ]
+  },
+  "S23_Consequences_of_Computing": {
+    "covers_syllabus_refs": [
+      "7517 4.8.1.1"
+    ],
+    "syllabus_topic": "4.8 Consequences of uses of computing",
+    "covers_items": [
+      "4.8.1.1"
+    ]
+  },
+  "S24_Transmission_Topology_and_Network_Models": {
+    "covers_syllabus_refs": [
+      "7517 4.9.1.1",
+      "7517 4.9.2.1",
+      "7517 4.9.2.2"
+    ],
+    "syllabus_topic": "4.9 Fundamentals of communication and networking",
+    "covers_items": [
+      "4.9.1.1",
+      "4.9.2.1",
+      "4.9.2.2"
+    ]
+  },
+  "S25_Wireless_Internet_and_Security": {
+    "covers_syllabus_refs": [
+      "7517 4.9.2.3",
+      "7517 4.9.3.1",
+      "7517 4.9.3.2"
+    ],
+    "syllabus_topic": "4.9 Fundamentals of communication and networking",
+    "covers_items": [
+      "4.9.2.3",
+      "4.9.3.1",
+      "4.9.3.2"
+    ]
+  },
+  "S26_TCPIP_Protocols_and_Addressing": {
+    "covers_syllabus_refs": [
+      "7517 4.9.4.1",
+      "7517 4.9.4.2",
+      "7517 4.9.4.3",
+      "7517 4.9.4.10"
+    ],
+    "syllabus_topic": "4.9 Fundamentals of communication and networking",
+    "covers_items": [
+      "4.9.4.1",
+      "4.9.4.2",
+      "4.9.4.3",
+      "4.9.4.10"
+    ]
+  },
+  "S27_Data_Modelling_and_Normalisation": {
+    "covers_syllabus_refs": [
+      "7517 4.10.1.1",
+      "7517 4.10.2.1",
+      "7517 4.10.3.1"
+    ],
+    "syllabus_topic": "4.10 Fundamentals of databases, and 4.11 Big Data",
+    "covers_items": [
+      "4.10.1.1",
+      "4.10.2.1",
+      "4.10.3.1"
+    ]
+  },
+  "S28_SQL_ClientServer_and_BigData": {
+    "covers_syllabus_refs": [
+      "7517 4.10.4.1",
+      "7517 4.10.5.1",
+      "7517 4.11.1.1"
+    ],
+    "syllabus_topic": "4.10 Fundamentals of databases, and 4.11 Big Data",
+    "covers_items": [
+      "4.10.4.1",
+      "4.10.5.1",
+      "4.11.1.1"
+    ]
+  },
+  "S29_Functional_Programming": {
+    "covers_syllabus_refs": [
+      "7517 4.12.1.1",
+      "7517 4.12.2.1",
+      "7517 4.12.3.1"
+    ],
+    "syllabus_topic": "4.12 Fundamentals of functional programming",
+    "covers_items": [
+      "4.12.1.1",
+      "4.12.2.1",
+      "4.12.3.1"
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "C++ Institute, CPE - C++ Certified Entry-Level Programmer, exam CPE-20-01 (active version of CPE-20-0x): exam syllabus on the certification page",
+    "url": "https://cppinstitute.org/cpe-c-certified-entry-level-programmer-certification",
+    "version": "CPE-20-01 (active), fetched live 2026-09-26",
+    "itemised_on": "2026-09-26",
+    "numbering": "Ids are the C++ Institute's own objective numbers (1.1-4.5); each numbered objective is one item."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1",
+      "title": "Valid C++ syntax elements, keywords and code structure",
+      "topic_area": "1 Syntax, literals and operators"
+    },
+    {
+      "id": "1.2",
+      "title": "Built-in data types and their literals",
+      "topic_area": "1 Syntax, literals and operators"
+    },
+    {
+      "id": "1.3",
+      "title": "Structure and declaration of main() and its parameters",
+      "topic_area": "1 Syntax, literals and operators"
+    },
+    {
+      "id": "1.4",
+      "title": "Arithmetic, relational, logical, bitwise and assignment operators",
+      "topic_area": "1 Syntax, literals and operators"
+    },
+    {
+      "id": "1.5",
+      "title": "Operator precedence and associativity, and their effect on expressions",
+      "topic_area": "1 Syntax, literals and operators"
+    },
+    {
+      "id": "1.6",
+      "title": "Short-circuit evaluation in control expressions",
+      "topic_area": "1 Syntax, literals and operators"
+    },
+    {
+      "id": "1.7",
+      "title": "Basic I/O streams cin, cout, cerr and manipulators endl, setw",
+      "topic_area": "1 Syntax, literals and operators"
+    },
+    {
+      "id": "2.1",
+      "title": "Conditional statements if and else",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "2.2",
+      "title": "Loops while, do and for; break and continue",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "2.3",
+      "title": "The goto statement and labelled statements",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "2.4",
+      "title": "Multiple selection with switch, case and default",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "2.5",
+      "title": "Defining, declaring and calling functions",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "2.6",
+      "title": "return in typed and void functions",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "2.7",
+      "title": "Passing arguments by value, by reference and by pointer",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "2.8",
+      "title": "Basic recursion",
+      "topic_area": "2 Flow control and functions"
+    },
+    {
+      "id": "3.1",
+      "title": "Vectors and arrays, including multidimensional arrays",
+      "topic_area": "3 Vectors and pointers"
+    },
+    {
+      "id": "3.2",
+      "title": "Accessing vector data through data()",
+      "topic_area": "3 Vectors and pointers"
+    },
+    {
+      "id": "3.3",
+      "title": "Declaring and initialising pointers, including nullptr",
+      "topic_area": "3 Vectors and pointers"
+    },
+    {
+      "id": "3.4",
+      "title": "Dereferencing and the address-of operator &",
+      "topic_area": "3 Vectors and pointers"
+    },
+    {
+      "id": "3.5",
+      "title": "Pointer conversions with static_cast and dynamic_cast",
+      "topic_area": "3 Vectors and pointers"
+    },
+    {
+      "id": "3.6",
+      "title": "Dynamic memory with new, delete and delete[]",
+      "topic_area": "3 Vectors and pointers"
+    },
+    {
+      "id": "4.1",
+      "title": "Declaring and defining structures",
+      "topic_area": "4 Structures and strings"
+    },
+    {
+      "id": "4.2",
+      "title": "Accessing structure members with the dot operator",
+      "topic_area": "4 Structures and strings"
+    },
+    {
+      "id": "4.3",
+      "title": "Vectors of structures and their fields",
+      "topic_area": "4 Structures and strings"
+    },
+    {
+      "id": "4.4",
+      "title": "Declaring, initialising and changing std::string objects",
+      "topic_area": "4 Structures and strings"
+    },
+    {
+      "id": "4.5",
+      "title": "Basic string operations and comparisons",
+      "topic_area": "4 Structures and strings"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Program_Structure_Types_and_Literals": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 1.1",
+      "CPE-20-01 1.2",
+      "CPE-20-01 1.3"
+    ],
+    "syllabus_topic": "Block 1: Syntax, Literals and Operators (9 items, 28%)",
+    "covers_items": [
+      "1.1",
+      "1.2",
+      "1.3"
+    ]
+  },
+  "S02_Operators_and_Precedence": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 1.4",
+      "CPE-20-01 1.5",
+      "CPE-20-01 1.6"
+    ],
+    "syllabus_topic": "Block 1: Syntax, Literals and Operators (9 items, 28%)",
+    "covers_items": [
+      "1.4",
+      "1.5",
+      "1.6"
+    ]
+  },
+  "S03_Console_Input_and_Output": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 1.7"
+    ],
+    "syllabus_topic": "Block 1: Syntax, Literals and Operators (9 items, 28%)",
+    "covers_items": [
+      "1.7"
+    ]
+  },
+  "S04_Decisions_switch_and_goto": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 2.1",
+      "CPE-20-01 2.3",
+      "CPE-20-01 2.4"
+    ],
+    "syllabus_topic": "Block 2: Flow Control and Functions (8 items, 28%)",
+    "covers_items": [
+      "2.1",
+      "2.3",
+      "2.4"
+    ]
+  },
+  "S05_Loops": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 2.2"
+    ],
+    "syllabus_topic": "Block 2: Flow Control and Functions (8 items, 28%)",
+    "covers_items": [
+      "2.2"
+    ]
+  },
+  "S06_Functions_and_Return": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 2.5",
+      "CPE-20-01 2.6"
+    ],
+    "syllabus_topic": "Block 2: Flow Control and Functions (8 items, 28%)",
+    "covers_items": [
+      "2.5",
+      "2.6"
+    ]
+  },
+  "S07_Parameter_Passing_and_Recursion": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 2.7",
+      "CPE-20-01 2.8"
+    ],
+    "syllabus_topic": "Block 2: Flow Control and Functions (8 items, 28%)",
+    "covers_items": [
+      "2.7",
+      "2.8"
+    ]
+  },
+  "S08_Arrays_and_Vectors": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 3.1",
+      "CPE-20-01 3.2"
+    ],
+    "syllabus_topic": "Block 3: Vectors and Pointers (7 items, 24%)",
+    "covers_items": [
+      "3.1",
+      "3.2"
+    ]
+  },
+  "S09_Pointers_Casts_and_Dynamic_Memory": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 3.3",
+      "CPE-20-01 3.4",
+      "CPE-20-01 3.5",
+      "CPE-20-01 3.6"
+    ],
+    "syllabus_topic": "Block 3: Vectors and Pointers (7 items, 24%)",
+    "covers_items": [
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6"
+    ]
+  },
+  "S10_Structures": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 4.1",
+      "CPE-20-01 4.2",
+      "CPE-20-01 4.3"
+    ],
+    "syllabus_topic": "Block 4: Structures and Strings (6 items, 20%)",
+    "covers_items": [
+      "4.1",
+      "4.2",
+      "4.3"
+    ]
+  },
+  "S11_Strings": {
+    "covers_syllabus_refs": [
+      "CPE-20-01 4.4",
+      "CPE-20-01 4.5"
+    ],
+    "syllabus_topic": "Block 4: Structures and Strings (6 items, 20%)",
+    "covers_items": [
+      "4.4",
+      "4.5"
+    ]
+  }
+}

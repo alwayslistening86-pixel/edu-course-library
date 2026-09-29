@@ -1,0 +1,23 @@
+# LPC (Legal Practice Course) — BPP, historical (personal interest, no longer required for qualification) - Cumulative Exam
+
+## Unlock condition
+Only available once every stage in `stage_ladder` shows a passed test in the micro-profile.
+## Format
+The real LPC has no single combined final exam: each of the thirteen modules built into this course (Business Law and Practice; Property Law and Practice; Litigation, Civil and Criminal; Professional Conduct and Regulation; Wills and Administration of Estates; the five Course Skills modules; and the three vocational electives, Commercial Law and Intellectual Property, Employment Law, and Family Law) is separately assessed in its own real format, mirrored here as a cumulative check run stage-group by stage-group in one sitting:
+
+- Business Law and Practice (stages S01-S02): one unseen written problem question covering vehicle choice, governance, finance, insolvency and taxation, in the style of BPP's real 4-hour unseen supervised written assessment, condensed to a single scenario here.
+- Property Law and Practice (stages S03-S04): one unseen written problem question running a conveyancing transaction end-to-end, mirroring the real 3-hour unseen supervised written assessment.
+- Litigation, Civil and Criminal (stages S05-S08): two linked unseen written problem questions, one civil and one criminal, weighted 65% civil / 35% criminal to mirror the real split paper; a genuine module fail requires the learner to retry BOTH halves, not just the weaker one, exactly as in the real course.
+- Professional Conduct and Regulation (stage S09): a short set of original multiple-choice-style questions, mirroring the real 2-hour MCQ assessment.
+- Wills and Administration of Estates (stage S10): a short set of original multiple-choice-style questions, mirroring the real 1.5-hour online MCQ test.
+- The five Course Skills modules (stages S11-S15): each assessed by its own practical task -- a short live-style interview role-play, a short oral advocacy submission, a research-method walkthrough, a short written attendance note and client letter, and a short drafting task -- mirroring the real oral and written skills assessments.
+- Commercial Law and Intellectual Property (stages S16-S17): one unseen written problem question covering commercial contracts and intellectual property, mirroring the real 3-hour unseen supervised written assessment.
+- Employment Law (stages S18-S19): one unseen written problem question covering status, dismissal, redundancy, discrimination and tribunal procedure, mirroring the real 3-hour unseen supervised written assessment.
+- Family Law (stages S20-S21): one unseen written problem question covering divorce/dissolution, financial remedies and children proceedings, mirroring the real 3-hour unseen supervised written assessment.
+
+Run each module's check as a single original scenario or short question set (never a real past paper), drawing only on items taught in that module's stages, and grade it against that module's own criteria below before moving to the next module.
+## Grading
+Apply `rubric.json`'s `exam_rubric` exactly. Each module-level check within the exam is graded against the pass mark or competence threshold that module's own stage rubrics already state (50% for the percentage-marked modules: Business Law and Practice, Property Law and Practice, Litigation, Commercial Law and IP, Employment Law and Family Law; and a 50%-threshold award of "competent" for the pass/fail modules: Professional Conduct and Regulation, Wills and Administration of Estates, and the five Course Skills modules). Record, honestly, which of the thirteen modules pass and which do not, since a genuine LPC classification was never a single undifferentiated mark.
+## Outcome
+- **Pass** -- once every one of the thirteen modules has an individually recorded pass or award of competent, record `exam_status: "passed"` in the micro-profile. Course complete. Optionally note, for interest only and not as a real transcript, roughly where the learner's percentage-marked modules would sit against the historical BPP classification bands (50-59% Pass, 60-69% Commendation, 70%+ Distinction), while being clear this is illustrative rather than an actual awarded classification.
+- **Not yet** -- leave `exam_status: "available"`, name the specific module(s) that did not reach a pass or competent award, and for Litigation specifically confirm whether it is the Civil half, the Criminal half, or both that need retrying (a genuine module fail requires retrying BOTH halves, mirroring the real course), then offer targeted review of the relevant stage(s) or a fresh retry with new original scenarios.

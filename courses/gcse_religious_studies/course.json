@@ -1,0 +1,51 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Religious Studies (Pearson Edexcel Specification B, 1RB0)",
+  "requires_complete": [],
+  "selected_options": {
+    "paper_1_area_of_study": "Religion and Ethics, studied through Christianity",
+    "paper_2_area_of_study": "Religion, Peace and Conflict, studied through Islam",
+    "note": "This combination ('Religion and Ethics through Christianity and Religion, Peace and Conflict through Islam') is a standard published Edexcel Spec B textbook/revision-guide pairing, cross-confirming it as a genuine, commonly-taught combination."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "Pearson Edexcel GCSE (9-1) Religious Studies B (1RB0) specification, Issue 2 (January 2024), first teaching September 2016, first certification 2018. Itemised on 2026-09-22 from the published specification PDF: the content of Area of Study 1 option 1B (Christianity, paired with the Religion and Ethics theme: Christian beliefs, Marriage and the family, Living the Christian life, Matters of life and death) and Area of Study 2 option 2C (Islam, paired with the Religion, Peace and Conflict theme: Muslim beliefs, Crime and punishment, Living the Muslim life, Peace and conflict) is itemised bullet by bullet from the specification's own section structure, and the assessment overview (two 1h45 papers, 102 marks each, four questions per paper each subdivided (a)-(d), 5% SPaG on the extended evaluate parts) was read from the same document. Verified against the specification PDF: the four-section structure and content bullets for both chosen options, the non-religious (atheist and Humanist) viewpoints named within specific topics (marriage, contraception, divorce, abortion, euthanasia for Christianity; capital and corporal punishment, weapons of mass destruction for Islam), the paper timing and total marks, the SPaG allocation, and the specification's Issue 2 January 2024 publication line. Written from well-established knowledge of this specification's typical published mark-scheme format and flagged for re-verification: the exact mark split of each question part -- 1/2/4/5/12(+3 SPaG) marks per (a)-(d) part, which reconciles arithmetically to the specification's stated 102 marks per paper (2 of the 4 questions per paper carrying the 3 SPaG marks) but was not read verbatim from a mark-scheme table in this pass -- and the precise wording of the AO1/AO2 percentage split, which is stated here as the standard 50%/50% required of GCSE Religious Studies specifications by Ofqual's subject-level conditions rather than quoted from a located weighting table. Factual teaching content (Christian and Muslim beliefs, practices, ethical teachings, named sources of authority) is written from secondary knowledge of these two widely taught world religions and standard textbook accounts, cross-checked against the specification's own topic bullets, not copied from the specification (which lists topics and short teaching phrases only, not full explanations). Command words and question stems are paraphrased from the specification's known style ('explain two...', 'explain two contrasting religious beliefs, referring to a source of wisdom and authority', 'discuss two contrasting views... reach a justified conclusion'), not quoted from a real mark scheme or past paper. Stage test scenarios are original questions in the style of the board, not real past-paper items.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9, single tier, no Foundation/Higher split), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_How_the_Qualification_Works",
+    "S02_Christian_Beliefs_God_Jesus",
+    "S03_Christian_Beliefs_Salvation_Afterlife_Evil",
+    "S04_Christianity_Marriage_and_Family_Part_1",
+    "S05_Christianity_Marriage_and_Family_Part_2",
+    "S06_Living_the_Christian_Life_Worship_and_Devotion",
+    "S07_Living_the_Christian_Life_Church_and_Community",
+    "S08_Matters_of_Life_and_Death_Part_1",
+    "S09_Matters_of_Life_and_Death_Part_2",
+    "S10_Paper_1_Question_Types",
+    "S11_Muslim_Beliefs_Part_1",
+    "S12_Muslim_Beliefs_Part_2_and_Crime_and_Sin",
+    "S13_Crime_and_Punishment_in_Islam",
+    "S14_Living_the_Muslim_Life_Shahadah_Salah_Sawm_Zakah",
+    "S15_Living_the_Muslim_Life_Hajj_Obligatory_Acts_Jihad_Festivals",
+    "S16_Peace_and_Conflict_Teachings_Causes_and_Holy_War",
+    "S17_Peace_and_Conflict_Victims_Pacifism_and_Interfaith",
+    "S18_Paper_2_Question_Types"
+  ],
+  "linear": true,
+  "framework": "Edexcel's own AO1 (demonstrate knowledge and understanding of religions and beliefs, including practices, sources of wisdom and authority, their influence on individuals/communities/societies, and similarities/differences within and between religions and beliefs) and AO2 (analyse and evaluate aspects of religion and belief, including their significance and influence, using evidence and reasoned argument), each carrying 50% of the qualification. Two papers, Paper 1 (Area of Study 1, 1h45, 102 marks) and Paper 2 (Area of Study 2, 1h45, 102 marks), 204 marks in total. Each paper has four questions, one per content section, each subdivided (a) 1 mark, (b) 2 marks, (c) 4 marks, (d)(i) 5 marks (explain two contrasting religious beliefs, referring to a source of wisdom and authority) and (d)(ii) 12 marks (discuss/evaluate, using religious and non-religious arguments to reach a justified conclusion); 3 of the 12 marks on the (d)(ii) evaluate part are for spelling, punctuation, grammar and specialist terminology on two of the four questions per paper (5% of marks overall). Extended evaluate answers are marked by four levels of response (Level 1 1-3 marks to Level 4 10-12 marks, plus SPaG).",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

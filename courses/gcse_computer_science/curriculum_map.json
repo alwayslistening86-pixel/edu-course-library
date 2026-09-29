@@ -1,0 +1,506 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+    "url": "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF",
+    "version": "Version 1.2 (29 November 2022), the current version linked from aqa.org.uk/8525, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA's own numbered content references at the deepest level given in the specification (3.1.1-3.8). Section 3.5 (Fundamentals of computer networks) and 3.8 (Ethical, legal and environmental impacts) are presented as unnumbered bullet lists under a single heading in the source document; this course numbers 3.5's content 3.5.1-3.5.5 and keeps 3.8 as a single item, both in the specification's own bullet order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "3.1.1",
+      "title": "Representing algorithms: pseudo-code, program code and flowcharts; decomposition and abstraction",
+      "topic_area": "3.1 Fundamentals of algorithms"
+    },
+    {
+      "id": "3.1.2",
+      "title": "Efficiency of algorithms",
+      "topic_area": "3.1 Fundamentals of algorithms"
+    },
+    {
+      "id": "3.1.3",
+      "title": "Searching algorithms: linear search and binary search",
+      "topic_area": "3.1 Fundamentals of algorithms"
+    },
+    {
+      "id": "3.1.4",
+      "title": "Sorting algorithms: bubble sort and merge sort",
+      "topic_area": "3.1 Fundamentals of algorithms"
+    },
+    {
+      "id": "3.2.1",
+      "title": "Data types",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.2",
+      "title": "Programming concepts: variables, constants, selection, iteration, subroutines, identifiers",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.3",
+      "title": "Arithmetic operations",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.4",
+      "title": "Relational operations",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.5",
+      "title": "Boolean operations",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.6",
+      "title": "Data structures: arrays and records",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.7",
+      "title": "Input/output",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.8",
+      "title": "String handling operations",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.9",
+      "title": "Random number generation",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.10",
+      "title": "Structured programming and subroutines",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.2.11",
+      "title": "Robust and secure programming: validation, authentication, testing, errors",
+      "topic_area": "3.2 Programming"
+    },
+    {
+      "id": "3.3.1",
+      "title": "Number bases: decimal, binary and hexadecimal",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.3.2",
+      "title": "Converting between number bases",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.3.3",
+      "title": "Units of information",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.3.4",
+      "title": "Binary arithmetic and binary shifts",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.3.5",
+      "title": "Character encoding: ASCII and Unicode",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.3.6",
+      "title": "Representing images",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.3.7",
+      "title": "Representing sound",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.3.8",
+      "title": "Data compression: Huffman coding and run-length encoding",
+      "topic_area": "3.3 Fundamentals of data representation"
+    },
+    {
+      "id": "3.4.1",
+      "title": "Hardware and software",
+      "topic_area": "3.4 Computer systems"
+    },
+    {
+      "id": "3.4.2",
+      "title": "Boolean logic: truth tables, logic gates and circuits",
+      "topic_area": "3.4 Computer systems"
+    },
+    {
+      "id": "3.4.3",
+      "title": "Software classification: system and application software",
+      "topic_area": "3.4 Computer systems"
+    },
+    {
+      "id": "3.4.4",
+      "title": "Classification of programming languages and translators",
+      "topic_area": "3.4 Computer systems"
+    },
+    {
+      "id": "3.4.5",
+      "title": "Systems architecture: CPU, memory, secondary storage, embedded systems",
+      "topic_area": "3.4 Computer systems"
+    },
+    {
+      "id": "3.5.1",
+      "title": "Network fundamentals: definition, advantages/disadvantages, PAN/LAN/WAN, wired vs wireless",
+      "topic_area": "3.5 Fundamentals of computer networks"
+    },
+    {
+      "id": "3.5.2",
+      "title": "Network topologies: star and bus",
+      "topic_area": "3.5 Fundamentals of computer networks"
+    },
+    {
+      "id": "3.5.3",
+      "title": "Network protocols: Ethernet, Wi-Fi, TCP, UDP, IP, HTTP, HTTPS, FTP, SMTP, IMAP",
+      "topic_area": "3.5 Fundamentals of computer networks"
+    },
+    {
+      "id": "3.5.4",
+      "title": "Network security: authentication, encryption, firewalls, MAC address filtering",
+      "topic_area": "3.5 Fundamentals of computer networks"
+    },
+    {
+      "id": "3.5.5",
+      "title": "The 4-layer TCP/IP model",
+      "topic_area": "3.5 Fundamentals of computer networks"
+    },
+    {
+      "id": "3.6.1",
+      "title": "Fundamentals of cyber security",
+      "topic_area": "3.6 Cyber security"
+    },
+    {
+      "id": "3.6.2",
+      "title": "Cyber security threats and penetration testing",
+      "topic_area": "3.6 Cyber security"
+    },
+    {
+      "id": "3.6.2.1",
+      "title": "Social engineering: blagging, phishing, shouldering",
+      "topic_area": "3.6 Cyber security"
+    },
+    {
+      "id": "3.6.2.2",
+      "title": "Malicious code (malware): virus, trojan, spyware",
+      "topic_area": "3.6 Cyber security"
+    },
+    {
+      "id": "3.6.3",
+      "title": "Methods to detect and prevent threats",
+      "topic_area": "3.6 Cyber security"
+    },
+    {
+      "id": "3.7.1",
+      "title": "Relational databases: tables, records, fields, primary and foreign keys",
+      "topic_area": "3.7 Relational databases and SQL"
+    },
+    {
+      "id": "3.7.2",
+      "title": "Structured query language (SQL): SELECT/FROM/WHERE/ORDER BY, INSERT, UPDATE, DELETE",
+      "topic_area": "3.7 Relational databases and SQL"
+    },
+    {
+      "id": "3.8",
+      "title": "Ethical, legal and environmental impacts of digital technology, including privacy",
+      "topic_area": "3.8 Ethical, legal and environmental impacts"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Algorithm_Representation": {
+    "covers_syllabus_refs": [
+      "8525 3.1.1"
+    ],
+    "syllabus_topic": "3.1 Fundamentals of algorithms",
+    "covers_items": [
+      "3.1.1"
+    ]
+  },
+  "S02_Algorithm_Efficiency": {
+    "covers_syllabus_refs": [
+      "8525 3.1.2"
+    ],
+    "syllabus_topic": "3.1 Fundamentals of algorithms",
+    "covers_items": [
+      "3.1.2"
+    ]
+  },
+  "S03_Searching_Algorithms": {
+    "covers_syllabus_refs": [
+      "8525 3.1.3"
+    ],
+    "syllabus_topic": "3.1 Fundamentals of algorithms",
+    "covers_items": [
+      "3.1.3"
+    ]
+  },
+  "S04_Sorting_Algorithms": {
+    "covers_syllabus_refs": [
+      "8525 3.1.4"
+    ],
+    "syllabus_topic": "3.1 Fundamentals of algorithms",
+    "covers_items": [
+      "3.1.4"
+    ]
+  },
+  "S05_Data_Types_and_Programming_Concepts": {
+    "covers_syllabus_refs": [
+      "8525 3.2.1",
+      "8525 3.2.2"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.1",
+      "3.2.2"
+    ]
+  },
+  "S06_Operators": {
+    "covers_syllabus_refs": [
+      "8525 3.2.3",
+      "8525 3.2.4",
+      "8525 3.2.5"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.3",
+      "3.2.4",
+      "3.2.5"
+    ]
+  },
+  "S07_Data_Structures": {
+    "covers_syllabus_refs": [
+      "8525 3.2.6"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.6"
+    ]
+  },
+  "S08_Input_Output": {
+    "covers_syllabus_refs": [
+      "8525 3.2.7"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.7"
+    ]
+  },
+  "S09_String_Handling": {
+    "covers_syllabus_refs": [
+      "8525 3.2.8"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.8"
+    ]
+  },
+  "S10_Random_Numbers": {
+    "covers_syllabus_refs": [
+      "8525 3.2.9"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.9"
+    ]
+  },
+  "S11_Subroutines_Structured_Programming": {
+    "covers_syllabus_refs": [
+      "8525 3.2.10"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.10"
+    ]
+  },
+  "S12_Robust_Secure_Programming": {
+    "covers_syllabus_refs": [
+      "8525 3.2.11"
+    ],
+    "syllabus_topic": "3.2 Programming",
+    "covers_items": [
+      "3.2.11"
+    ]
+  },
+  "S13_Number_Bases_and_Conversion": {
+    "covers_syllabus_refs": [
+      "8525 3.3.1",
+      "8525 3.3.2"
+    ],
+    "syllabus_topic": "3.3 Fundamentals of data representation",
+    "covers_items": [
+      "3.3.1",
+      "3.3.2"
+    ]
+  },
+  "S14_Units_and_Binary_Arithmetic": {
+    "covers_syllabus_refs": [
+      "8525 3.3.3",
+      "8525 3.3.4"
+    ],
+    "syllabus_topic": "3.3 Fundamentals of data representation",
+    "covers_items": [
+      "3.3.3",
+      "3.3.4"
+    ]
+  },
+  "S15_Character_Encoding": {
+    "covers_syllabus_refs": [
+      "8525 3.3.5"
+    ],
+    "syllabus_topic": "3.3 Fundamentals of data representation",
+    "covers_items": [
+      "3.3.5"
+    ]
+  },
+  "S16_Representing_Images": {
+    "covers_syllabus_refs": [
+      "8525 3.3.6"
+    ],
+    "syllabus_topic": "3.3 Fundamentals of data representation",
+    "covers_items": [
+      "3.3.6"
+    ]
+  },
+  "S17_Representing_Sound": {
+    "covers_syllabus_refs": [
+      "8525 3.3.7"
+    ],
+    "syllabus_topic": "3.3 Fundamentals of data representation",
+    "covers_items": [
+      "3.3.7"
+    ]
+  },
+  "S18_Data_Compression": {
+    "covers_syllabus_refs": [
+      "8525 3.3.8"
+    ],
+    "syllabus_topic": "3.3 Fundamentals of data representation",
+    "covers_items": [
+      "3.3.8"
+    ]
+  },
+  "S19_Hardware_Software_Classification": {
+    "covers_syllabus_refs": [
+      "8525 3.4.1",
+      "8525 3.4.3"
+    ],
+    "syllabus_topic": "3.4 Computer systems",
+    "covers_items": [
+      "3.4.1",
+      "3.4.3"
+    ]
+  },
+  "S20_Boolean_Logic": {
+    "covers_syllabus_refs": [
+      "8525 3.4.2"
+    ],
+    "syllabus_topic": "3.4 Computer systems",
+    "covers_items": [
+      "3.4.2"
+    ]
+  },
+  "S21_Programming_Languages_and_Translators": {
+    "covers_syllabus_refs": [
+      "8525 3.4.4"
+    ],
+    "syllabus_topic": "3.4 Computer systems",
+    "covers_items": [
+      "3.4.4"
+    ]
+  },
+  "S22_Systems_Architecture": {
+    "covers_syllabus_refs": [
+      "8525 3.4.5"
+    ],
+    "syllabus_topic": "3.4 Computer systems",
+    "covers_items": [
+      "3.4.5"
+    ]
+  },
+  "S23_Network_Fundamentals_and_Topologies": {
+    "covers_syllabus_refs": [
+      "8525 3.5.1",
+      "8525 3.5.2"
+    ],
+    "syllabus_topic": "3.5 Fundamentals of computer networks",
+    "covers_items": [
+      "3.5.1",
+      "3.5.2"
+    ]
+  },
+  "S24_Protocols_and_Network_Security": {
+    "covers_syllabus_refs": [
+      "8525 3.5.3",
+      "8525 3.5.4",
+      "8525 3.5.5"
+    ],
+    "syllabus_topic": "3.5 Fundamentals of computer networks",
+    "covers_items": [
+      "3.5.3",
+      "3.5.4",
+      "3.5.5"
+    ]
+  },
+  "S25_Cyber_Security_Threats": {
+    "covers_syllabus_refs": [
+      "8525 3.6.1",
+      "8525 3.6.2",
+      "8525 3.6.2.1",
+      "8525 3.6.2.2"
+    ],
+    "syllabus_topic": "3.6 Cyber security",
+    "covers_items": [
+      "3.6.1",
+      "3.6.2",
+      "3.6.2.1",
+      "3.6.2.2"
+    ]
+  },
+  "S26_Detecting_and_Preventing_Threats": {
+    "covers_syllabus_refs": [
+      "8525 3.6.3"
+    ],
+    "syllabus_topic": "3.6 Cyber security",
+    "covers_items": [
+      "3.6.3"
+    ]
+  },
+  "S27_Relational_Databases": {
+    "covers_syllabus_refs": [
+      "8525 3.7.1"
+    ],
+    "syllabus_topic": "3.7 Relational databases and structured query language (SQL)",
+    "covers_items": [
+      "3.7.1"
+    ]
+  },
+  "S28_SQL": {
+    "covers_syllabus_refs": [
+      "8525 3.7.2"
+    ],
+    "syllabus_topic": "3.7 Relational databases and structured query language (SQL)",
+    "covers_items": [
+      "3.7.2"
+    ]
+  },
+  "S29_Ethical_Legal_Environmental_Impacts": {
+    "covers_syllabus_refs": [
+      "8525 3.8"
+    ],
+    "syllabus_topic": "3.8 Ethical, legal and environmental impacts of digital technology on wider society, including issues of privacy",
+    "covers_items": [
+      "3.8"
+    ]
+  }
+}

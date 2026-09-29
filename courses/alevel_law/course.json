@@ -1,0 +1,79 @@
+{
+  "schema_version": 4,
+  "name": "A-level Law (AQA 7162): The Nature of Law and the English Legal System, Criminal Law, Tort, and Contract",
+  "requires_complete": [],
+  "standalone": false,
+  "selected_options": {
+    "paper3_option": "3A: Law of Contract"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA A-level Law (7162) specification, for first teaching from September 2017 (unchanged in structure since; current PDF update-stamped 10 Jul 2026), linked from aqa.org.uk and itemised on 2026-09-27: 3.1 The nature of law and the English legal system (examined, with different sub-topic emphasis, across all three papers); 3.2 Criminal law (Paper 1); 3.3 Tort (Paper 2); and 3.4 Law of contract, the Paper 3A option this course takes (Paper 3B, Human Rights, is declared out of scope). Assessment: three written papers, each 2 hours, 100 marks, 33.3% of the qualification, all sat in the same series (a linear qualification). Each paper mixes multiple-choice questions (1 mark each), short knowledge/structured questions (typically 5 marks), application-to-scenario questions (5-10 marks), a discursive essay (15 marks) and one or two extended scenario/essay questions (up to 30 marks each), following the real June 2023 Paper 1, 2 and 3A published mark schemes for style and tariff. AO1 (accurate legal knowledge) is 40% overall, AO2 (application to given scenarios) 27%, AO3 (analysis and evaluation, including of non-substantive law) 33%. Stage tests and the mock are original questions in AQA's style at the real tariffs, using AQA's own command words (explain, suggest, advise, consider, examine, discuss, assess) and marked by short-answer M/A/B points or AQA's generic levels of response for extended writing.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for AQA 7162",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "no_gcse_prereq",
+      "text": "Law is not offered as a GCSE in England (there is no equivalent qualification at Key Stage 4), so unlike this library's other A-levels this course has no GCSE prerequisite. It assumes confident GCSE-level English (reading and constructing developed, evidenced argument) and careful, precise use of technical vocabulary, but no prior study of law."
+    },
+    {
+      "id": "options",
+      "text": "AQA 7162 offers a choice between two Paper 3 options -- Law of Contract (3A) or Human Rights (3B). This course teaches Contract. If your school or exam entry uses Human Rights instead, the Paper 3 content here will not match what you sit; check your own exam board entry. Contract was chosen as the more widely taught option, and because it lets this course use citation and terminology consistent with this library's other law courses (CILEX, SQE) where contract topics overlap."
+    },
+    {
+      "id": "els_distribution",
+      "text": "AQA's Appendix 2 (Distribution of non-substantive law topics) gives each paper a slightly different emphasis within 3.1 The nature of law and the English legal system -- for example Paper 1 focuses on statutory interpretation, judicial precedent and the criminal courts, Paper 2 on parliamentary law making, law reform and the civil courts, and Paper 3 on the rule of law, delegated legislation and the EU. This course teaches all of 3.1 once, in full, rather than splitting it by paper, so the learner is prepared for any sub-topic on any paper; when revising for a specific paper, prioritise using AQA's own Appendix 2 as a checklist."
+    },
+    {
+      "id": "law_changes",
+      "text": "This course states the law of England and Wales as understood to be current in September 2026. Case law and statute cited here (e.g. the Coroners and Justice Act 2009, the Consumer Rights Act 2015, the Criminal Justice and Immigration Act 2008 s76) is the law as it stood when this course was built; retained EU law's post-Brexit status, any further reform to the Human Rights Act 1998, and sentencing guideline changes should be checked against a live source (legislation.gov.uk, aqa.org.uk) before relying on them in a real exam sitting."
+    },
+    {
+      "id": "precise_authority",
+      "text": "AQA's marking rewards named, precise legal authority -- an exact case name and the specific point of law it establishes, or an exact statute and section number -- not a vague reference to 'case law' or 'the Act'. Push for this precision throughout, especially in application and extended-writing answers, where AO1 marks are earned for the accuracy of the authority cited as much as for stating the rule itself."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Nature_of_Law_and_Society",
+    "S02_Rule_of_Law_and_Parliamentary_Law_Making",
+    "S03_Delegated_Legislation_and_Statutory_Interpretation",
+    "S04_Precedent_Law_Reform_and_the_EU",
+    "S05_Civil_and_Criminal_Courts",
+    "S06_Legal_Personnel_Judiciary_and_Access_to_Justice",
+    "S07_General_Elements_of_Criminal_Liability",
+    "S08_Murder_and_Loss_of_Control",
+    "S09_Diminished_Responsibility_and_Involuntary_Manslaughter",
+    "S10_Common_Assault_and_ABH",
+    "S11_GBH_and_Wounding",
+    "S12_Theft_and_Robbery",
+    "S13_Attempt_and_Capacity_Defences",
+    "S14_Intoxication_and_Self_Defence",
+    "S15_Duress",
+    "S16_Duty_and_Breach_in_Negligence",
+    "S17_Causation_Remoteness_and_Economic_Loss",
+    "S18_Psychiatric_Injury_and_Occupiers_Liability_Visitors",
+    "S19_Occupiers_Liability_Trespassers_and_Private_Nuisance",
+    "S20_Rylands_v_Fletcher_and_Vicarious_Liability",
+    "S21_Tort_Defences_and_Remedies",
+    "S22_Offer_and_Acceptance",
+    "S23_Consideration_Privity_and_Intention",
+    "S24_Contract_Terms_and_Exclusion_Clauses",
+    "S25_Consumer_Rights_Act_Implied_Terms",
+    "S26_Vitiating_Factors",
+    "S27_Discharge_of_Contract",
+    "S28_Contract_Remedies"
+  ]
+}

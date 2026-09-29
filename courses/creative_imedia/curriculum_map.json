@@ -1,0 +1,899 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "OCR Level 1/Level 2 Cambridge National in Creative iMedia J834 specification: Units R093, R094, R097 (Topic Areas, teaching content and breadth/depth or exemplification), section 5 Assessment and grading, section 6 NEA rules, Appendix B; optional units R095, R096, R098, R099 listed as topic areas",
+    "url": "https://www.ocr.org.uk/Images/610942-specification-cambridge-nationals-creative-imedia-j834.pdf",
+    "version": "Version 6 (June 2026)",
+    "itemised_on": "2026-09-19"
+  },
+  "_syllabus_items": [
+    {
+      "id": "R093-1.1",
+      "title": "Media industry sectors and products",
+      "topic_area": "R093 TA1 The media industry",
+      "tier": "F/H"
+    },
+    {
+      "id": "R093-1.2",
+      "title": "Job roles in the media industry",
+      "topic_area": "R093 TA1 The media industry"
+    },
+    {
+      "id": "R093-2.1",
+      "title": "How style, content and layout link to purpose",
+      "topic_area": "R093 TA2 Factors influencing product design"
+    },
+    {
+      "id": "R093-2.2",
+      "title": "Client requirements and client brief formats",
+      "topic_area": "R093 TA2 Factors influencing product design"
+    },
+    {
+      "id": "R093-2.3",
+      "title": "Audience demographics and segmentation",
+      "topic_area": "R093 TA2 Factors influencing product design"
+    },
+    {
+      "id": "R093-2.4",
+      "title": "Research methods, sources and types of data",
+      "topic_area": "R093 TA2 Factors influencing product design"
+    },
+    {
+      "id": "R093-2.5a",
+      "title": "Technical, symbolic and written media codes",
+      "topic_area": "R093 TA2 Factors influencing product design"
+    },
+    {
+      "id": "R093-2.5b",
+      "title": "How media codes convey meaning, create impact and engage audiences",
+      "topic_area": "R093 TA2 Factors influencing product design"
+    },
+    {
+      "id": "R093-3.1",
+      "title": "Work planning and workplans",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-3.2",
+      "title": "Mind maps and mood boards for ideas generation",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-3.3a",
+      "title": "Storyboards, wireframe layouts and visualisation diagrams",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-3.3b",
+      "title": "Asset logs, flow charts and scripts",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-3.4.1",
+      "title": "Legal considerations that protect individuals",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-3.4.2",
+      "title": "Intellectual property rights and using copyrighted material",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-3.4.3",
+      "title": "Regulation, certification and classification",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-3.4.4",
+      "title": "Health and safety, risk assessments and location recces",
+      "topic_area": "R093 TA3 Pre-production planning"
+    },
+    {
+      "id": "R093-4.1",
+      "title": "Distribution platforms and media",
+      "topic_area": "R093 TA4 Distribution considerations"
+    },
+    {
+      "id": "R093-4.2.1",
+      "title": "Image file properties and formats",
+      "topic_area": "R093 TA4 Distribution considerations"
+    },
+    {
+      "id": "R093-4.2.2",
+      "title": "Audio file properties and formats",
+      "topic_area": "R093 TA4 Distribution considerations"
+    },
+    {
+      "id": "R093-4.2.3",
+      "title": "Moving image file properties and formats",
+      "topic_area": "R093 TA4 Distribution considerations"
+    },
+    {
+      "id": "R093-4.2.4",
+      "title": "Lossy and lossless file compression",
+      "topic_area": "R093 TA4 Distribution considerations"
+    },
+    {
+      "id": "R093-EX1",
+      "title": "R093 exam structure, marks and Section A technique",
+      "topic_area": "R093 Assessment"
+    },
+    {
+      "id": "R093-EX2",
+      "title": "Command words used in the exam",
+      "topic_area": "R093 Assessment (Appendix B)"
+    },
+    {
+      "id": "R093-EX3",
+      "title": "Section B scenario and extended response technique",
+      "topic_area": "R093 Assessment"
+    },
+    {
+      "id": "R094-A",
+      "title": "R094 assessment overview: two tasks, strands and mark bands",
+      "topic_area": "R094 Assessment"
+    },
+    {
+      "id": "R094-1.1a",
+      "title": "Purpose of visual identity and its component features",
+      "topic_area": "R094 TA1 Develop visual identity"
+    },
+    {
+      "id": "R094-1.1b",
+      "title": "Elements of visual identity and design style",
+      "topic_area": "R094 TA1 Develop visual identity"
+    },
+    {
+      "id": "R094-2.1a",
+      "title": "Concepts of graphic design",
+      "topic_area": "R094 TA2 Plan digital graphics for products"
+    },
+    {
+      "id": "R094-2.1b",
+      "title": "Layout conventions for graphic products",
+      "topic_area": "R094 TA2 Plan digital graphics for products"
+    },
+    {
+      "id": "R094-2.2a",
+      "title": "Technical properties of bitmap and vector graphics",
+      "topic_area": "R094 TA2 Plan digital graphics for products"
+    },
+    {
+      "id": "R094-2.2b",
+      "title": "Licences and permissions for assets",
+      "topic_area": "R094 TA2 Plan digital graphics for products"
+    },
+    {
+      "id": "R094-2.3",
+      "title": "Techniques to plan visual identity and digital graphics",
+      "topic_area": "R094 TA2 Plan digital graphics for products"
+    },
+    {
+      "id": "R094-T1a",
+      "title": "Task 1 strand 1a: producing a suitable design concept",
+      "topic_area": "R094 TA1 evidence"
+    },
+    {
+      "id": "R094-T1b",
+      "title": "Task 1 strand 1b: justifying the visual identity",
+      "topic_area": "R094 TA1 evidence"
+    },
+    {
+      "id": "R094-T1c",
+      "title": "Task 1 strand 1c: planning documentation and asset table",
+      "topic_area": "R094 TA2 evidence"
+    },
+    {
+      "id": "R094-3.1",
+      "title": "Image editing tools and techniques",
+      "topic_area": "R094 TA3 Create visual identity and digital graphics"
+    },
+    {
+      "id": "R094-3.2a",
+      "title": "Sourcing assets for digital graphics",
+      "topic_area": "R094 TA3 Create visual identity and digital graphics"
+    },
+    {
+      "id": "R094-3.2b",
+      "title": "Creating and editing assets for digital graphics",
+      "topic_area": "R094 TA3 Create visual identity and digital graphics"
+    },
+    {
+      "id": "R094-3.2c",
+      "title": "Modifying assets for technical compatibility with print",
+      "topic_area": "R094 TA3 Create visual identity and digital graphics"
+    },
+    {
+      "id": "R094-3.2d",
+      "title": "Storing assets: folders and file formats",
+      "topic_area": "R094 TA3 Create visual identity and digital graphics"
+    },
+    {
+      "id": "R094-3.3",
+      "title": "Saving and exporting visual identity and digital graphics",
+      "topic_area": "R094 TA3 Create visual identity and digital graphics"
+    },
+    {
+      "id": "R094-T2a",
+      "title": "Task 2 strand 2a: creating and saving the visual identity",
+      "topic_area": "R094 TA3 evidence"
+    },
+    {
+      "id": "R094-T2b",
+      "title": "Task 2 strand 2b: preparing assets",
+      "topic_area": "R094 TA3 evidence"
+    },
+    {
+      "id": "R094-T2c",
+      "title": "Task 2 strand 2c: creating the digital graphic",
+      "topic_area": "R094 TA3 evidence"
+    },
+    {
+      "id": "R094-T2d",
+      "title": "Task 2 strand 2d: saving and exporting the finished graphics",
+      "topic_area": "R094 TA3 evidence"
+    },
+    {
+      "id": "R097-A",
+      "title": "R097 assessment overview: three tasks, strands and mark bands",
+      "topic_area": "R097 Assessment"
+    },
+    {
+      "id": "R097-1.1a",
+      "title": "Format types of interactive digital media",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.1b",
+      "title": "Content used in interactive digital media",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.1c",
+      "title": "Hardware devices used to access interactive media",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.1d",
+      "title": "Methods of user interaction",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.2a",
+      "title": "Graphical user interface (GUI) design",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.2b",
+      "title": "Interface and interaction styles",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.2c",
+      "title": "Accessibility features",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.2d",
+      "title": "Conventions of interactive digital media",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.2e",
+      "title": "Creativity in interactive digital media",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.3a",
+      "title": "Hardware used to create interactive digital media",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.3b",
+      "title": "Software used to create interactive digital media",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.4a",
+      "title": "Wireframes and storyboards for interface planning",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.4b",
+      "title": "Master pages, asset tables and planning assets",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-1.4c",
+      "title": "Navigation and hierarchy diagrams, interactive features and controls",
+      "topic_area": "R097 TA1 Plan interactive digital media"
+    },
+    {
+      "id": "R097-T1a",
+      "title": "Task 1 strand 1a: interpreting the brief and explaining audience appeal",
+      "topic_area": "R097 TA1 evidence"
+    },
+    {
+      "id": "R097-T1b",
+      "title": "Task 1 strand 1b: pre-production and planning documentation",
+      "topic_area": "R097 TA1 evidence"
+    },
+    {
+      "id": "R097-T1c",
+      "title": "Task 1 strand 1c: understanding how assets contribute",
+      "topic_area": "R097 TA1 evidence"
+    },
+    {
+      "id": "R097-2.1a",
+      "title": "Techniques for sourcing suitable assets",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.1b",
+      "title": "Static image assets: types and repurposing",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.1c",
+      "title": "Audio assets: types and repurposing",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.1d",
+      "title": "Moving image assets: types and repurposing",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.1e",
+      "title": "Interactive assets: buttons, banners, navigation bars, maps, diagrams and forms",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.2a",
+      "title": "Product folder management and file naming",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.2b",
+      "title": "Creating the product: templates, navigation, content, playback controls, triggers and behaviours",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.3a",
+      "title": "Saving during creation: native formats and version control",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-2.3b",
+      "title": "Exporting and publishing finished products",
+      "topic_area": "R097 TA2 Create interactive digital media"
+    },
+    {
+      "id": "R097-T2a",
+      "title": "Task 2 strand 2a: creating and preparing the component parts",
+      "topic_area": "R097 TA2 evidence"
+    },
+    {
+      "id": "R097-T2b",
+      "title": "Task 2 strand 2b: creating the final product",
+      "topic_area": "R097 TA2 evidence"
+    },
+    {
+      "id": "R097-T2c",
+      "title": "Task 2 strand 2c: appropriate formats and properties",
+      "topic_area": "R097 TA2 evidence"
+    },
+    {
+      "id": "R097-3.1a",
+      "title": "Testing and checking technical properties",
+      "topic_area": "R097 TA3 Review interactive digital media"
+    },
+    {
+      "id": "R097-3.1b",
+      "title": "Reviewing fitness for purpose",
+      "topic_area": "R097 TA3 Review interactive digital media"
+    },
+    {
+      "id": "R097-3.2a",
+      "title": "Constraints and improvements",
+      "topic_area": "R097 TA3 Review interactive digital media"
+    },
+    {
+      "id": "R097-3.2b",
+      "title": "Further development opportunities",
+      "topic_area": "R097 TA3 Review interactive digital media"
+    },
+    {
+      "id": "R097-T3a",
+      "title": "Task 3 strand 3a: test plan and review of effectiveness",
+      "topic_area": "R097 TA3 evidence"
+    },
+    {
+      "id": "R097-T3b",
+      "title": "Task 3 strand 3b: recommendations for improvement and further development",
+      "topic_area": "R097 TA3 evidence"
+    },
+    {
+      "id": "J834-STRUCT",
+      "title": "Qualification structure, units, GLH and the terminal assessment rule",
+      "topic_area": "J834 Qualification overview and assessment"
+    },
+    {
+      "id": "J834-PO",
+      "title": "Performance objectives PO1 to PO4 and their weightings",
+      "topic_area": "J834 4.1.5"
+    },
+    {
+      "id": "J834-GRADE",
+      "title": "Grading: UMS, unit grades and overall grades Level 1 Pass to Level 2 Distinction*",
+      "topic_area": "J834 5.4-5.5"
+    },
+    {
+      "id": "J834-NEA",
+      "title": "NEA rules: independence, authenticity, feedback, referencing and AI use",
+      "topic_area": "J834 Section 6"
+    },
+    {
+      "id": "J834-SYN",
+      "title": "Synoptic links between R093 and the NEA units",
+      "topic_area": "J834 5.2"
+    },
+    {
+      "id": "R095-TA1",
+      "title": "Optional unit R095 Topic Area 1: Plan characters and comics",
+      "topic_area": "R095 Characters and comics (not selected)"
+    },
+    {
+      "id": "R095-TA2",
+      "title": "Optional unit R095 Topic Area 2: Create characters and comics",
+      "topic_area": "R095 Characters and comics (not selected)"
+    },
+    {
+      "id": "R095-TA3",
+      "title": "Optional unit R095 Topic Area 3: Review characters and comics",
+      "topic_area": "R095 Characters and comics (not selected)"
+    },
+    {
+      "id": "R096-TA1",
+      "title": "Optional unit R096 Topic Area 1: Plan animation with audio",
+      "topic_area": "R096 Animation with audio (not selected)"
+    },
+    {
+      "id": "R096-TA2",
+      "title": "Optional unit R096 Topic Area 2: Create animation with audio",
+      "topic_area": "R096 Animation with audio (not selected)"
+    },
+    {
+      "id": "R096-TA3",
+      "title": "Optional unit R096 Topic Area 3: Review animation with audio",
+      "topic_area": "R096 Animation with audio (not selected)"
+    },
+    {
+      "id": "R098-TA1",
+      "title": "Optional unit R098 Topic Area 1: Plan visual imaging portfolios",
+      "topic_area": "R098 Visual imaging (not selected)"
+    },
+    {
+      "id": "R098-TA2",
+      "title": "Optional unit R098 Topic Area 2: Create visual imaging portfolios",
+      "topic_area": "R098 Visual imaging (not selected)"
+    },
+    {
+      "id": "R098-TA3",
+      "title": "Optional unit R098 Topic Area 3: Review visual imaging portfolios",
+      "topic_area": "R098 Visual imaging (not selected)"
+    },
+    {
+      "id": "R099-TA1",
+      "title": "Optional unit R099 Topic Area 1: Plan digital games",
+      "topic_area": "R099 Digital games (not selected)"
+    },
+    {
+      "id": "R099-TA2",
+      "title": "Optional unit R099 Topic Area 2: Create digital games",
+      "topic_area": "R099 Digital games (not selected)"
+    },
+    {
+      "id": "R099-TA3",
+      "title": "Optional unit R099 Topic Area 3: Review digital games",
+      "topic_area": "R099 Digital games (not selected)"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "R095-TA1",
+      "reason": "outside this course's selected options (optional unit R095 Characters and comics; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R095-TA2",
+      "reason": "outside this course's selected options (optional unit R095 Characters and comics; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R095-TA3",
+      "reason": "outside this course's selected options (optional unit R095 Characters and comics; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R096-TA1",
+      "reason": "outside this course's selected options (optional unit R096 Animation with audio; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R096-TA2",
+      "reason": "outside this course's selected options (optional unit R096 Animation with audio; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R096-TA3",
+      "reason": "outside this course's selected options (optional unit R096 Animation with audio; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R098-TA1",
+      "reason": "outside this course's selected options (optional unit R098 Visual imaging; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R098-TA2",
+      "reason": "outside this course's selected options (optional unit R098 Visual imaging; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R098-TA3",
+      "reason": "outside this course's selected options (optional unit R098 Visual imaging; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R099-TA1",
+      "reason": "outside this course's selected options (optional unit R099 Digital games; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R099-TA2",
+      "reason": "outside this course's selected options (optional unit R099 Digital games; this course covers R097 Interactive digital media)"
+    },
+    {
+      "id": "R099-TA3",
+      "reason": "outside this course's selected options (optional unit R099 Digital games; this course covers R097 Interactive digital media)"
+    }
+  ],
+  "S01_Media_Industry_Sectors_Products_and_Job_Roles": {
+    "covers_syllabus_refs": [
+      "R093 TA1 1.1 Media industry sectors and products",
+      "R093 TA1 1.2 Job roles in the media industry"
+    ],
+    "syllabus_topic": "R093 Topic Area 1: The media industry",
+    "covers_items": [
+      "R093-1.1",
+      "R093-1.2"
+    ]
+  },
+  "S02_Purpose_Style_and_Client_Briefs": {
+    "covers_syllabus_refs": [
+      "R093 TA2 2.1 How style, content and layout are linked to the purpose",
+      "R093 TA2 2.2 Client requirements and how they are defined"
+    ],
+    "syllabus_topic": "R093 Topic Area 2: Factors influencing product design",
+    "covers_items": [
+      "R093-2.1",
+      "R093-2.2"
+    ]
+  },
+  "S03_Audience_Segmentation_and_Research": {
+    "covers_syllabus_refs": [
+      "R093 TA2 2.3 Audience demographics and segmentation",
+      "R093 TA2 2.4 Research methods, sources and types of data"
+    ],
+    "syllabus_topic": "R093 Topic Area 2: Factors influencing product design",
+    "covers_items": [
+      "R093-2.3",
+      "R093-2.4"
+    ]
+  },
+  "S04_Media_Codes": {
+    "covers_syllabus_refs": [
+      "R093 TA2 2.5 Media codes used to convey meaning, create impact and/or engage audiences"
+    ],
+    "syllabus_topic": "R093 Topic Area 2: Factors influencing product design",
+    "covers_items": [
+      "R093-2.5a",
+      "R093-2.5b"
+    ]
+  },
+  "S05_Work_Planning_Mind_Maps_and_Mood_Boards": {
+    "covers_syllabus_refs": [
+      "R093 TA3 3.1 Work planning",
+      "R093 TA3 3.2 Documents used to support ideas generation"
+    ],
+    "syllabus_topic": "R093 Topic Area 3: Pre-production planning",
+    "covers_items": [
+      "R093-3.1",
+      "R093-3.2"
+    ]
+  },
+  "S06_Design_and_Planning_Documents": {
+    "covers_syllabus_refs": [
+      "R093 TA3 3.3 Documents used to design and plan media products"
+    ],
+    "syllabus_topic": "R093 Topic Area 3: Pre-production planning",
+    "covers_items": [
+      "R093-3.3a",
+      "R093-3.3b"
+    ]
+  },
+  "S07_Legal_Issues_Protecting_Individuals_and_IP": {
+    "covers_syllabus_refs": [
+      "R093 TA3 3.4.1 Legal considerations to protect individuals",
+      "R093 TA3 3.4.2 Intellectual property rights"
+    ],
+    "syllabus_topic": "R093 Topic Area 3: Pre-production planning (legal issues)",
+    "covers_items": [
+      "R093-3.4.1",
+      "R093-3.4.2"
+    ]
+  },
+  "S08_Regulation_Classification_and_Health_and_Safety": {
+    "covers_syllabus_refs": [
+      "R093 TA3 3.4.3 Regulation, certification, and classification",
+      "R093 TA3 3.4.4 Health and safety"
+    ],
+    "syllabus_topic": "R093 Topic Area 3: Pre-production planning (regulation and health and safety)",
+    "covers_items": [
+      "R093-3.4.3",
+      "R093-3.4.4"
+    ]
+  },
+  "S09_Distribution_Platforms_and_Media": {
+    "covers_syllabus_refs": [
+      "R093 TA4 4.1 Distribution platforms and media to reach audiences"
+    ],
+    "syllabus_topic": "R093 Topic Area 4: Distribution considerations",
+    "covers_items": [
+      "R093-4.1"
+    ]
+  },
+  "S10_Image_and_Audio_File_Properties_and_Formats": {
+    "covers_syllabus_refs": [
+      "R093 TA4 4.2.1 Image Files",
+      "R093 TA4 4.2.2 Audio Files"
+    ],
+    "syllabus_topic": "R093 Topic Area 4: Distribution considerations",
+    "covers_items": [
+      "R093-4.2.1",
+      "R093-4.2.2"
+    ]
+  },
+  "S11_Moving_Image_Files_and_File_Compression": {
+    "covers_syllabus_refs": [
+      "R093 TA4 4.2.3 Moving Image Files",
+      "R093 TA4 4.2.4 File compression"
+    ],
+    "syllabus_topic": "R093 Topic Area 4: Distribution considerations",
+    "covers_items": [
+      "R093-4.2.3",
+      "R093-4.2.4"
+    ]
+  },
+  "S12_R093_Exam_Structure_and_Technique": {
+    "covers_syllabus_refs": [
+      "R093 Assessment guidance",
+      "Appendix B Command and descriptor words"
+    ],
+    "syllabus_topic": "R093 assessment and exam technique",
+    "covers_items": [
+      "R093-EX1",
+      "R093-EX2",
+      "R093-EX3"
+    ]
+  },
+  "S13_R094_Overview_and_Visual_Identity": {
+    "covers_syllabus_refs": [
+      "R094 Assessment overview",
+      "R094 TA1 1.1 Purpose, elements and design of visual identity"
+    ],
+    "syllabus_topic": "R094 Topic Area 1: Develop visual identity",
+    "covers_items": [
+      "R094-A",
+      "R094-1.1a",
+      "R094-1.1b"
+    ]
+  },
+  "S14_Graphic_Design_Concepts_and_Layout_Conventions": {
+    "covers_syllabus_refs": [
+      "R094 TA2 2.1 Graphic design and conventions"
+    ],
+    "syllabus_topic": "R094 Topic Area 2: Plan digital graphics for products",
+    "covers_items": [
+      "R094-2.1a",
+      "R094-2.1b"
+    ]
+  },
+  "S15_Graphic_Properties_Licences_and_Permissions": {
+    "covers_syllabus_refs": [
+      "R094 TA2 2.2 Properties of digital graphics and use of assets"
+    ],
+    "syllabus_topic": "R094 Topic Area 2: Plan digital graphics for products",
+    "covers_items": [
+      "R094-2.2a",
+      "R094-2.2b"
+    ]
+  },
+  "S16_Planning_Techniques_and_Task_1_Evidence": {
+    "covers_syllabus_refs": [
+      "R094 TA2 2.3 Techniques to plan visual identity and digital graphics",
+      "R094 Task 1 assessment guidance (strands 1a, 1b, 1c)"
+    ],
+    "syllabus_topic": "R094 Topic Area 2 and Task 1 evidence",
+    "covers_items": [
+      "R094-2.3",
+      "R094-T1a",
+      "R094-T1b",
+      "R094-T1c"
+    ]
+  },
+  "S17_Image_Editing_Tools_and_Techniques": {
+    "covers_syllabus_refs": [
+      "R094 TA3 3.1 Tools and techniques of image editing software used to create digital graphics"
+    ],
+    "syllabus_topic": "R094 Topic Area 3: Create visual identity and digital graphics",
+    "covers_items": [
+      "R094-3.1"
+    ]
+  },
+  "S18_Sourcing_Creating_and_Preparing_Assets": {
+    "covers_syllabus_refs": [
+      "R094 TA3 3.2 Technical skills to source, create and prepare assets for use within digital graphics"
+    ],
+    "syllabus_topic": "R094 Topic Area 3: Create visual identity and digital graphics",
+    "covers_items": [
+      "R094-3.2a",
+      "R094-3.2b",
+      "R094-3.2c",
+      "R094-3.2d"
+    ]
+  },
+  "S19_Saving_Exporting_and_Task_2_Evidence": {
+    "covers_syllabus_refs": [
+      "R094 TA3 3.3 Techniques to save and export visual identity and digital graphics",
+      "R094 Task 2 assessment guidance (strands 2a-2d)"
+    ],
+    "syllabus_topic": "R094 Topic Area 3 and Task 2 evidence",
+    "covers_items": [
+      "R094-3.3",
+      "R094-T2a",
+      "R094-T2b",
+      "R094-T2c",
+      "R094-T2d"
+    ]
+  },
+  "S20_R097_Overview_Formats_and_Content": {
+    "covers_syllabus_refs": [
+      "R097 Assessment overview",
+      "R097 TA1 1.1 Format types and content"
+    ],
+    "syllabus_topic": "R097 Topic Area 1: Plan interactive digital media",
+    "covers_items": [
+      "R097-A",
+      "R097-1.1a",
+      "R097-1.1b",
+      "R097-1.1c"
+    ]
+  },
+  "S21_R097_Interaction_GUI_and_Accessibility": {
+    "covers_syllabus_refs": [
+      "R097 TA1 1.1 Methods of interaction",
+      "R097 TA1 1.2 GUI design, interface styles and accessibility"
+    ],
+    "syllabus_topic": "R097 Topic Area 1: Plan interactive digital media",
+    "covers_items": [
+      "R097-1.1d",
+      "R097-1.2a",
+      "R097-1.2b",
+      "R097-1.2c"
+    ]
+  },
+  "S22_R097_Conventions_Creativity_and_Creation_Hardware": {
+    "covers_syllabus_refs": [
+      "R097 TA1 1.2 Conventions and creativity",
+      "R097 TA1 1.3 Hardware and software"
+    ],
+    "syllabus_topic": "R097 Topic Area 1: Plan interactive digital media",
+    "covers_items": [
+      "R097-1.2d",
+      "R097-1.2e",
+      "R097-1.3a",
+      "R097-1.3b"
+    ]
+  },
+  "S23_R097_Planning_Documents_and_Task1_Interpretation": {
+    "covers_syllabus_refs": [
+      "R097 TA1 1.4 Planning techniques",
+      "R097 TA1 evidence, strand 1a"
+    ],
+    "syllabus_topic": "R097 Topic Area 1: Plan interactive digital media",
+    "covers_items": [
+      "R097-1.4a",
+      "R097-1.4b",
+      "R097-1.4c",
+      "R097-T1a"
+    ]
+  },
+  "S24_R097_Task1_Evidence_and_Sourcing_Assets": {
+    "covers_syllabus_refs": [
+      "R097 TA1 evidence, strands 1b-1c",
+      "R097 TA2 2.1 Sourcing and static image assets"
+    ],
+    "syllabus_topic": "R097 Topic Area 1 evidence; R097 Topic Area 2: Create interactive digital media",
+    "covers_items": [
+      "R097-T1b",
+      "R097-T1c",
+      "R097-2.1a",
+      "R097-2.1b"
+    ]
+  },
+  "S25_R097_Repurposing_Audio_Moving_Image_and_Interactive_Assets": {
+    "covers_syllabus_refs": [
+      "R097 TA2 2.1 Audio, moving image and interactive assets",
+      "R097 TA2 2.2 Product folder management"
+    ],
+    "syllabus_topic": "R097 Topic Area 2: Create interactive digital media",
+    "covers_items": [
+      "R097-2.1c",
+      "R097-2.1d",
+      "R097-2.1e",
+      "R097-2.2a"
+    ]
+  },
+  "S26_R097_Building_Saving_and_Exporting_the_Product": {
+    "covers_syllabus_refs": [
+      "R097 TA2 2.2 Creating the product",
+      "R097 TA2 2.3 Saving, exporting and publishing",
+      "R097 TA2 evidence, strand 2a"
+    ],
+    "syllabus_topic": "R097 Topic Area 2: Create interactive digital media",
+    "covers_items": [
+      "R097-2.2b",
+      "R097-2.3a",
+      "R097-2.3b",
+      "R097-T2a"
+    ]
+  },
+  "S27_R097_Task2_Formats_Evidence_and_Testing": {
+    "covers_syllabus_refs": [
+      "R097 TA2 evidence, strands 2b-2c",
+      "R097 TA3 3.1 Testing and technical properties"
+    ],
+    "syllabus_topic": "R097 Topic Area 2 evidence; R097 Topic Area 3: Review interactive digital media",
+    "covers_items": [
+      "R097-T2b",
+      "R097-T2c",
+      "R097-3.1a"
+    ]
+  },
+  "S28_R097_Review_Improvement_and_Task3_Evidence": {
+    "covers_syllabus_refs": [
+      "R097 TA3 3.1 Reviewing fitness for purpose",
+      "R097 TA3 3.2 Constraints and further development",
+      "R097 TA3 evidence"
+    ],
+    "syllabus_topic": "R097 Topic Area 3: Review interactive digital media",
+    "covers_items": [
+      "R097-3.1b",
+      "R097-3.2a",
+      "R097-3.2b",
+      "R097-T3a",
+      "R097-T3b"
+    ]
+  },
+  "S29_J834_Qualification_Structure_Grading_and_NEA_Rules": {
+    "covers_syllabus_refs": [
+      "J834 section 4 (assessment objectives)",
+      "J834 section 5 (assessment and grading)",
+      "J834 section 6 (NEA)"
+    ],
+    "syllabus_topic": "J834 Qualification overview and assessment",
+    "covers_items": [
+      "J834-STRUCT",
+      "J834-PO",
+      "J834-GRADE",
+      "J834-NEA",
+      "J834-SYN"
+    ]
+  }
+}

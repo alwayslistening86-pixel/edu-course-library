@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "name": "PPE (Philosophy, Politics and Economics) — Oxford syllabus structure and examination conventions",
+  "requires_complete": [
+    "alevel_economics",
+    "alevel_politics"
+  ],
+  "selected_options": {
+    "finals_papers": [
+      "Political Thought: Plato to Rousseau (215)",
+      "Political Thought: Bentham to Weber (216)",
+      "International Relations (214)",
+      "Practical Ethics (128)",
+      "Theory of Politics (203)",
+      "Game Theory (Economics)"
+    ]
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "University of Oxford PPE: Course Descriptions for all PPE Papers (dated 24 June 2024, openly hosted, explicitly indicative and subject to change) fetched live and itemised on 2026-09-22 for Papers 215, 216, 214, 128, 203 and the Game Theory optional paper -- required texts, topic lists and assessment notes taken directly from that document. Prelims syllabus itemised from a college first-year PPE reading list (St Edmund Hall, Economics-PPE 2024) for Introductory Economics and from a college politics reading list (Wadham, Introduction to the Theory and Practice of Politics) for the Prelims Politics Section A/B structure, both fetched live. Prelims Philosophy topic lists (Logic, General Philosophy, Moral Philosophy) fetched live from the Faculty of Philosophy's own Course Descriptions for the First Public Examination (FPE) page. Examination structure (three Preliminary papers, pass-all-three rule, Politics paper's four-question/two-section rule) fetched live from the University's own Examination Regulations for the Preliminary Examination in PPE (examregs.admin.ox.ac.uk, 2025-26). The Honour School examination regulations page for PPE did not state paper duration or the number of questions per FHS paper; the exam block's '3 hours, 3 questions' figure for FHS papers is the standard, well-established Oxford Final Honour School essay-paper format (as used across Oxford's humanities and social science Honour Schools) rather than a figure read off the fetched FHS regulations page, and is flagged here for re-verification against a published FHS timetable/rubric. Classification descriptors for Philosophy stages (Prelims Philosophy, Practical Ethics) are carried over from the Examination Conventions 2023-24 for the Final Honour School of Mathematics and Philosophy (a joint document whose 'qualitative description of examination performance in Philosophy' section applies faculty-wide to any Oxford Philosophy paper); Politics/Economics/Game Theory stages have no openly published classification-descriptor document (confirmed by search) and are instead graded against each paper's own real content requirements plus the QAA Subject Benchmark Statements for Politics and International Relations, and for Economics, exactly as the prior build recorded.",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (undergraduate Honours BA), per QAA Framework for Higher Education Qualifications — Oxford's PPE is a Bachelor's Honours degree",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "Prelims_Politics",
+    "Prelims_Philosophy",
+    "Prelims_Economics",
+    "FHS_Political_Thought_Plato_to_Rousseau",
+    "FHS_Political_Thought_Bentham_to_Weber",
+    "FHS_International_Relations",
+    "FHS_Practical_Ethics",
+    "FHS_Theory_of_Politics",
+    "FHS_Game_Theory"
+  ],
+  "linear": true,
+  "framework": null,
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires A-level Economics and A-level Politics, matching the roadmap's rule that a degree requires the specific A-levels it depends on. Oxford's real PPE requires neither by name, but does assume the mathematical fluency A-level Economics teaches and the conceptual vocabulary A-level Politics or Philosophy teaches. A-level Philosophy is not yet in this library; once it is built, it will become an accepted alternative to A-level Politics for this prerequisite, as the roadmap intends."
+    }
+  ],
+  "level_basis": "framework"
+}

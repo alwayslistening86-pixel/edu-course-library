@@ -1,0 +1,352 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "The Open University's BA (Honours) History (Q01) qualification structure -- its three 120-credit stages and the compulsory/optional modules that make them up -- cross-checked against the QAA Subject Benchmark Statement: History (March 2022)",
+    "url": "https://www.open.ac.uk/courses/qualifications/q01",
+    "version": "Q01 qualification page and module list (open.ac.uk/courses/qualifications/q01 and the individual module pages for A111, A113, A223, A225, A327/A328/A329/A340/A344), and QAA's Subject Benchmark Statement for History (published 2022-03, current at qaa.ac.uk), itemised 2026-09-27. The OU's B01/Q01 register listing on msds.open.ac.uk was checked but returned only a login-gated student-services shell, not the public qualification description; the public qualification page (open.ac.uk/courses/qualifications/q01) and the Faculty of Arts and Social Sciences history pages (fass.open.ac.uk/history/qualifications) were used instead.",
+    "itemised_on": "2026-09-27",
+    "numbering": "The OU publishes Q01 as a stage/module structure (Stage 1: A111 + A113; Stage 2: A223 + A225; Stage 3: one or two of A328/A327/A329/A344/A340/DA332/CDDR301/CDDR321), not a numbered syllabus of sub-topics the way an exam board does -- the unit-by-unit content of each module sits behind the OU's student VLE and was not accessible. This course therefore codes its own topic breakdown, in the standard, well-established form found in any history-degree reading list or textbook for each period: L4.* for the Stage-1 (Level 4) block (HM = historical method/historiography, ER = the English Revolution, AR = the Atlantic Revolutions, CR = comparing revolutions), L5.* for the Stage-2 (Level 5) block (RE = Reformation/confessional Europe, SF = state formation/Enlightenment, IB = industrialising Britain, EI = empire/Ireland/suffrage), and L6.* for the Stage-3 (Level 6) specialist block (WW = WW1/Russian Revolution, IF = interwar crisis/fascism/Stalinism, WH = WW2/the Holocaust, CW = Cold War Europe and 1989), numbered .1-.3 within each topic in this course's own teaching order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "L4.HM.1",
+      "title": "What is history? Ranke, E.H. Carr and the postmodern challenge to historical objectivity",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.HM.2",
+      "title": "Degree-level source criticism: genre, provenance, purpose, silence and the limits of the archive",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.HM.3",
+      "title": "Historiographical schools: Whig history, Marxist history, the Annales school/social history, the cultural and gender turns",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.ER.1",
+      "title": "Causes of the English Civil War: constitutional, religious and financial conflict between Charles I and Parliament, 1625-42",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.ER.2",
+      "title": "Regicide and republic: the trial and execution of Charles I (1649) and the Cromwellian Commonwealth/Protectorate",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.ER.3",
+      "title": "Restoration (1660) and the Glorious Revolution (1688-89): the Bill of Rights and constitutional monarchy",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.AR.1",
+      "title": "The American Revolution: causes (taxation, representation, Enlightenment ideas) and the Declaration of Independence, 1765-83",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.AR.2",
+      "title": "The French Revolution: causes, the fall of the monarchy, and the Terror, 1789-94",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.AR.3",
+      "title": "The Haitian Revolution: Toussaint Louverture, the only successful large-scale slave revolt, and its marginalisation in older historiography, 1791-1804",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.CR.1",
+      "title": "Comparing revolutions: structural/social-scientific theories (Skocpol) versus political/contingent explanations, and the Marxist-revisionist debate on 1789",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.CR.2",
+      "title": "The Russian Revolution of 1917 as a comparative case and a bridge to Stage 3: February and October, causes and immediate consequences",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L4.CR.3",
+      "title": "Synthesis: what, if anything, makes a revolution 'revolutionary'? Writing a comparative essay across periods",
+      "topic_area": "Stage 1 (Level 4): Historical Method and the Age of Revolutions"
+    },
+    {
+      "id": "L5.RE.1",
+      "title": "The Catholic (Counter-)Reformation: the Council of Trent (1545-63), the Jesuits, and Teresa of Avila",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.RE.2",
+      "title": "Confessional conflict and the Thirty Years' War, 1618-48, and the Peace of Westphalia",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.RE.3",
+      "title": "Print culture and the witch trials of early modern Europe: the Malleus Maleficarum and the gendering of persecution",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.SF.1",
+      "title": "Absolutism and state formation: Louis XIV's France and the theory of divine-right monarchy",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.SF.2",
+      "title": "The Scientific Revolution: Copernicus, Galileo and Newton, and its intellectual consequences for early Enlightenment thought",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.SF.3",
+      "title": "The early modern Atlantic slave trade and Europe's expanding global connections",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.IB.1",
+      "title": "The origins and effects of Britain's Industrial Revolution, c.1780-1850",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.IB.2",
+      "title": "Chartism and working-class political movements in industrialising Britain",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.IB.3",
+      "title": "The Reform Acts of 1832, 1867 and 1884-85 and the gradual extension of the franchise",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.EI.1",
+      "title": "The Victorian British Empire: expansion, imperial ideology and its critics",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.EI.2",
+      "title": "The Great Irish Famine, 1845-52, and the growth of Irish nationalism",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L5.EI.3",
+      "title": "The women's suffrage movement to 1914: suffragists (NUWSS) and suffragettes (WSPU)",
+      "topic_area": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain"
+    },
+    {
+      "id": "L6.WW.1",
+      "title": "The causes and course of the First World War, 1914-18",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.WW.2",
+      "title": "The Russian Revolutions of 1917 in depth and the Civil War, 1917-21",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.WW.3",
+      "title": "The Paris Peace Settlement (1919) and its consequences for interwar Europe",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.IF.1",
+      "title": "The instability of the Weimar Republic and the rise of Nazism, 1919-33",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.IF.2",
+      "title": "Italian Fascism under Mussolini: ideology, consolidation of power and historiographical debate",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.IF.3",
+      "title": "Stalinism in the 1930s: collectivisation, the Five-Year Plans and the Great Terror",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.WH.1",
+      "title": "The causes and course of the Second World War in Europe, 1939-45",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.WH.2",
+      "title": "The Holocaust: intentionalist versus functionalist historiography (Browning, Goldhagen, Kershaw)",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.WH.3",
+      "title": "Total war and civilian experience: the Blitz, occupation and resistance in Europe",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.CW.1",
+      "title": "The origins of the Cold War and the division of Europe, 1945-49",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.CW.2",
+      "title": "Crises within the Soviet bloc: Hungary 1956 and the Prague Spring 1968",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    },
+    {
+      "id": "L6.CW.3",
+      "title": "The collapse of Communism, 1989, and German reunification: synoptic essay across the specialist period",
+      "topic_area": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Historical_Method_and_Historiography": {
+    "covers_syllabus_refs": [
+      "Q01 L4.HM.1",
+      "Q01 L4.HM.2",
+      "Q01 L4.HM.3"
+    ],
+    "syllabus_topic": "Stage 1 (Level 4): Historical Method and the Age of Revolutions",
+    "covers_items": [
+      "L4.HM.1",
+      "L4.HM.2",
+      "L4.HM.3"
+    ]
+  },
+  "S02_The_English_Revolution": {
+    "covers_syllabus_refs": [
+      "Q01 L4.ER.1",
+      "Q01 L4.ER.2",
+      "Q01 L4.ER.3"
+    ],
+    "syllabus_topic": "Stage 1 (Level 4): Historical Method and the Age of Revolutions",
+    "covers_items": [
+      "L4.ER.1",
+      "L4.ER.2",
+      "L4.ER.3"
+    ]
+  },
+  "S03_Atlantic_Revolutions": {
+    "covers_syllabus_refs": [
+      "Q01 L4.AR.1",
+      "Q01 L4.AR.2",
+      "Q01 L4.AR.3"
+    ],
+    "syllabus_topic": "Stage 1 (Level 4): Historical Method and the Age of Revolutions",
+    "covers_items": [
+      "L4.AR.1",
+      "L4.AR.2",
+      "L4.AR.3"
+    ]
+  },
+  "S04_Comparing_Revolutions": {
+    "covers_syllabus_refs": [
+      "Q01 L4.CR.1",
+      "Q01 L4.CR.2",
+      "Q01 L4.CR.3"
+    ],
+    "syllabus_topic": "Stage 1 (Level 4): Historical Method and the Age of Revolutions",
+    "covers_items": [
+      "L4.CR.1",
+      "L4.CR.2",
+      "L4.CR.3"
+    ]
+  },
+  "S05_Reformation_and_Confessional_Europe": {
+    "covers_syllabus_refs": [
+      "Q01 L5.RE.1",
+      "Q01 L5.RE.2",
+      "Q01 L5.RE.3"
+    ],
+    "syllabus_topic": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain",
+    "covers_items": [
+      "L5.RE.1",
+      "L5.RE.2",
+      "L5.RE.3"
+    ]
+  },
+  "S06_State_Formation_Science_and_Enlightenment": {
+    "covers_syllabus_refs": [
+      "Q01 L5.SF.1",
+      "Q01 L5.SF.2",
+      "Q01 L5.SF.3"
+    ],
+    "syllabus_topic": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain",
+    "covers_items": [
+      "L5.SF.1",
+      "L5.SF.2",
+      "L5.SF.3"
+    ]
+  },
+  "S07_Industrialising_Britain": {
+    "covers_syllabus_refs": [
+      "Q01 L5.IB.1",
+      "Q01 L5.IB.2",
+      "Q01 L5.IB.3"
+    ],
+    "syllabus_topic": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain",
+    "covers_items": [
+      "L5.IB.1",
+      "L5.IB.2",
+      "L5.IB.3"
+    ]
+  },
+  "S08_Empire_Ireland_and_Suffrage": {
+    "covers_syllabus_refs": [
+      "Q01 L5.EI.1",
+      "Q01 L5.EI.2",
+      "Q01 L5.EI.3"
+    ],
+    "syllabus_topic": "Stage 2 (Level 5): Early Modern Europe and the Making of Modern Britain",
+    "covers_items": [
+      "L5.EI.1",
+      "L5.EI.2",
+      "L5.EI.3"
+    ]
+  },
+  "S09_WW1_and_the_Russian_Revolution": {
+    "covers_syllabus_refs": [
+      "Q01 L6.WW.1",
+      "Q01 L6.WW.2",
+      "Q01 L6.WW.3"
+    ],
+    "syllabus_topic": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)",
+    "covers_items": [
+      "L6.WW.1",
+      "L6.WW.2",
+      "L6.WW.3"
+    ]
+  },
+  "S10_Interwar_Crisis_Fascism_and_Stalinism": {
+    "covers_syllabus_refs": [
+      "Q01 L6.IF.1",
+      "Q01 L6.IF.2",
+      "Q01 L6.IF.3"
+    ],
+    "syllabus_topic": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)",
+    "covers_items": [
+      "L6.IF.1",
+      "L6.IF.2",
+      "L6.IF.3"
+    ]
+  },
+  "S11_WW2_and_the_Holocaust": {
+    "covers_syllabus_refs": [
+      "Q01 L6.WH.1",
+      "Q01 L6.WH.2",
+      "Q01 L6.WH.3"
+    ],
+    "syllabus_topic": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)",
+    "covers_items": [
+      "L6.WH.1",
+      "L6.WH.2",
+      "L6.WH.3"
+    ]
+  },
+  "S12_Cold_War_Europe_and_1989": {
+    "covers_syllabus_refs": [
+      "Q01 L6.CW.1",
+      "Q01 L6.CW.2",
+      "Q01 L6.CW.3"
+    ],
+    "syllabus_topic": "Stage 3 (Level 6): Europe in the Age of Catastrophe, 1914-1989 (specialist)",
+    "covers_items": [
+      "L6.CW.1",
+      "L6.CW.2",
+      "L6.CW.3"
+    ]
+  }
+}

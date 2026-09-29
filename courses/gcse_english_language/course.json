@@ -1,0 +1,57 @@
+{
+  "schema_version": 4,
+  "name": "GCSE English Language (AQA 8700)",
+  "requires_complete": [],
+  "selected_options": {},
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE English Language (8700), specification Version 1.6 (March 2026; first teaching 2015, first exams 2017), itemised on 2026-09-19. Verified against the AQA specification PDF (sections 2, 3.1, 4.1-4.6, 5) read in full, the AQA Paper 1 mark scheme (June 2021, filed under Nov 2021) and the AQA Paper 2 question paper and mark scheme (June 2022): question numbers, marks, assessment objectives, levels-of-response headings and the Spoken Language criteria were checked against these. The Version 1.5 (Oct 2021) and Version 1.6 texts of section 3.1 and 4 were compared and are identical. Not verified line by line: the grammar and literary terminology lists (T items) and the figures for suggested timings are written from the published question-paper advice and standard AQA practice, and are flagged for re-verification. Lesson explanations, examples, model answers and every practice or test scenario are original and written for this course; no past-paper question or mark-scheme wording is reproduced. Updated 2026-09-28 for AQA's 2026 exam-series format changes to Paper 1 Q1/Q3/Q4/Q5 and Paper 2 Q2/Q4 wording (see learner_notices for detail and sourcing); the underlying specification content, AOs and marks are unchanged, so this update is confined to question format and wording, not syllabus coverage.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9 / Foundation+Higher tiers covered), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-23",
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Course_Map_Papers_and_Marks",
+    "S02_Texts_Periods_and_What_Sources_Look_Like",
+    "S03_Terminology_Word_Classes_Phrases_Clauses",
+    "S04_Terminology_Sentences_and_Punctuation",
+    "S05_Terminology_Figurative_and_Sound_Language",
+    "S06_Reading_Explicit_and_Implicit_Meaning",
+    "S07_Short_Reading_Questions_P1Q1_and_P2Q1",
+    "S08_Purposes_Usefulness_Bias_and_Evidence",
+    "S09_Summary_and_Synthesis_P2Q2",
+    "S10_Language_Analysis_Paper_1_Q2",
+    "S11_Language_Analysis_Paper_2_Q3_and_Persuasive_Devices",
+    "S12_Structure_Analysis_Paper_1_Q3",
+    "S13_Reading_Fiction_Openings_Voice_and_Perspective",
+    "S14_Evaluation_Paper_1_Q4",
+    "S15_Comparison_Paper_2_Q4",
+    "S16_Reading_Nineteenth_Century_and_Non_Fiction_Forms",
+    "S17_Writing_for_Purpose_Audience_and_a_Consistent_Voice",
+    "S18_Descriptive_and_Narrative_Craft_Paper_1_Section_B",
+    "S19_Writing_for_Impact_Argument_and_Rhetorical_Devices",
+    "S20_Paper_2_Section_B_Viewpoint_Task_and_Technical_Accuracy_I",
+    "S21_Technical_Accuracy_II_Form_Conventions_and_Proofreading",
+    "S22_Spoken_Language_Skills_and_the_Speaking_and_Listening_AOs",
+    "S23_Spoken_Language_Endorsement_Criteria_and_Reporting"
+  ],
+  "linear": true,
+  "framework": "AQA's levels-of-response ladder is used to grade every extended reading answer: Level 1 (simple, limited) -> Level 2 (some understanding, attempts) -> Level 3 (clear, relevant) -> Level 4 (perceptive, detailed). Writing is graded on two grids out of 24 (AO5 content and organisation, four levels each split into upper and lower marks: Level 1 1-6, Level 2 7-12, Level 3 13-18, Level 4 19-24) and 16 (AO6 technical accuracy: Level 1 1-4, Level 2 5-8, Level 3 9-12, Level 4 13-16). The qualification is untiered and graded 9 to 1; the Spoken Language endorsement is reported separately as Pass, Merit or Distinction.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "aqa_2026_format_update",
+      "text": "From the 2026 exam series, AQA made several question-format changes to GCSE English Language 8700 Paper 1, and smaller wording changes to Paper 2: none change the marks, timing, AOs or overall paper structure (still 80 marks and 1h45 per paper). Paper 1 Q1 changed from a free-response 'list four things' question to the same shade-the-boxes multiple-choice format Paper 2 Q1 has always used; Paper 1 Q3 now names a single structural effect to track (e.g. suspense, tension) rather than asking generally how structure is 'interesting'; Paper 1 Q4 drops the earlier 'a student said...' framing and gives the statement to evaluate directly; Paper 1 Q5's descriptive option now explicitly invites going beyond the literal picture, and its narrative option now explicitly accepts writing just the opening of a story rather than a complete one; Paper 2 Q2 and Q4 had smaller wording clarifications (making 'inference' explicit in Q2, and pointing more directly at supporting quotations in Q4) with no change to the skill tested. This course teaches the 2026 format throughout (S01, S07, S09, S12, S14, S15, S18 and the cumulative exam). Confirmed directly from AQA's own published change page (aqa.org.uk/english-language-changes), cross-checked against several independent GCSE revision publishers (Save My Exams, Think Smart Academy, Uplevel Academy, Satchel Learning) who independently agree on the same substance."
+    }
+  ],
+  "level_basis": "framework"
+}

@@ -1,0 +1,36 @@
+# LWM20_Industrial_and_Intellectual_Property_1 - Lesson: Industrial and Intellectual Property A-B — Patents, trade secrets and copyright
+
+## Goal
+The learner applies patentability, trade secret protection and copyright doctrine at Master's depth, engaging critically with the UK/EPO divergence and the post-Brexit originality question.
+
+## Syllabus items taught here
+- LWM20-A1 - Patentability and the patent bargain: Apply the novelty, inventive step, industrial application and excluded-matter requirements under the Patents Act 1977
+- LWM20-A2 - Computer-implemented inventions: the as such problem: Apply the Aerotel/Macrossan test and evaluate its divergence from the EPO's approach
+- LWM20-A3 - Trade secrets and breach of confidence: Apply Coco v Clark and the Trade Secrets Regulations 2018 and evaluate the patent/trade-secret strategic choice
+- LWM20-B1 - Copyright subject matter and originality: Evaluate the post-Brexit status of the Infopaq originality standard in UK copyright law
+- LWM20-B2 - Copyright ownership, duration and moral rights: Apply the CDPA 1988 ownership default, duration and moral rights including waiver
+- LWM20-B3 - Copyright infringement and fair dealing defences: Apply the substantial-part test and the closed-list fair dealing defences and evaluate them against US fair use
+
+## How to teach this
+Each topic follows a fixed structure: the rule, why it matters at Master's level, the leading authority, and a worked critical angle. Nothing later depends on strict order except sub-module D (taught in LWM20_2), which deliberately revisits A-C at a theoretical level.
+
+#### LWM20-A1 Patentability and the patent bargain
+A patent grants a time-limited monopoly (20 years from filing, Patents Act 1977 s.25) in exchange for full public disclosure of the invention — the "patent bargain." To be patentable (s.1 PA 1977), an invention must be **new** (novel, not anticipated by prior art anywhere in the world, s.2), involve an **inventive step** (not obvious to a person skilled in the art, s.3), be **capable of industrial application** (s.4), and not fall within **excluded subject matter** (s.1(2): discoveries, scientific theories, mathematical methods, aesthetic creations, schemes/rules/methods for performing mental acts, playing games or doing business, and programs for computers "as such").
+
+#### LWM20-A2 Computer-implemented inventions: the as such problem
+The words "as such" in s.1(2) have generated three decades of difficult case law on when software is patentable. The UK approach — the **Aerotel/Macrossan four-step test** from *Aerotel Ltd v Telco Holdings Ltd; Macrossan's Application* [2006] EWCA Civ 1371 — asks: properly construe the claim; identify the actual contribution; ask whether it falls solely within excluded subject matter; and check whether the contribution is technical in nature. Critical angle: the UK IPO and courts have historically applied a stricter test than the European Patent Office's "any hardware"/"technical effect" approach, creating real divergence in outcomes for the same invention depending on which office is asked — explain why this divergence persists (the EPO is not bound by UK Court of Appeal precedent and vice versa, as separate legal systems applying textually similar but institutionally distinct provisions) and evaluate whether AI-related patent applications, a genuinely live controversy, are well served by either test.
+
+#### LWM20-A3 Trade secrets and breach of confidence
+Unlike patents, trade secret protection requires no registration and can in principle last forever, but only while secrecy is maintained. English law protects confidential information via the equitable action for **breach of confidence** (*Coco v A N Clark (Engineers) Ltd* [1969] RPC 41 — three elements: information with the necessary quality of confidence, imparted in circumstances importing an obligation of confidence, and unauthorised use to the confider's detriment), now overlaid by the **Trade Secrets (Enforcement, etc.) Regulations 2018** (implementing EU Directive 2016/943), which introduced a statutory definition requiring the information to be secret, have commercial value because it is secret, and be subject to reasonable steps to keep it secret. Critical angle: evaluate the patent/trade-secret choice as a strategic decision — patents require disclosure and expire; trade secrets require no disclosure but offer no protection against independent discovery or reverse engineering — and ask which regime better serves fast-moving technology sectors where an innovation's useful life may be shorter than patent prosecution itself takes.
+
+#### LWM20-B1 Copyright subject matter and originality
+The **Copyright, Designs and Patents Act 1988** protects original literary, dramatic, musical and artistic works, plus sound recordings, films, broadcasts, and typographical arrangements (s.1). "Originality" historically meant only that the work originated with the author and was not copied — a low threshold (*University of London Press Ltd v University Tutorial Press Ltd* [1916] 2 Ch 601). EU harmonisation shifted this: *Infopaq International A/S v Danske Dagblades Forening* (C-5/08) held that copyright protects only the "author's own intellectual creation," a higher, EU-derived originality threshold. Critical angle, a live post-Brexit question: is the *Infopaq* standard still binding on UK courts? Retained EU case law pre-dating the end of the transition period generally still binds lower courts, but the Supreme Court and Court of Appeal have greater freedom to depart from it under the European Union (Withdrawal) Act 2018 as amended — trace how UK courts have actually treated *Infopaq* since 2021 for a strong essay.
+
+#### LWM20-B2 Copyright ownership, duration and moral rights
+The default rule is that the author is first owner (s.11), subject to the employer-owns-it-if-created-in-the-course-of-employment exception (s.11(2)). Duration is generally life of the author plus 70 years (s.12, as amended to match the EU Term Directive, retained post-Brexit). **Moral rights** (ss.77-89) — the right of attribution and the right to object to derogatory treatment (right of integrity) — are distinct from economic rights and, notably, capable of being waived (s.87), in a way many civil law "droit moral" systems do not permit, reflecting English law's more economically-oriented conception of authorship.
+
+#### LWM20-B3 Copyright infringement and fair dealing defences
+Primary infringement requires copying a "substantial part," assessed qualitatively, not quantitatively (*Designers Guild Ltd v Russell Williams (Textiles) Ltd* [2000] 1 WLR 2416). Defences include the "fair dealing" exceptions — research, criticism/review, quotation, parody (the last introduced in 2014, implementing flexibility under the EU InfoSoc Directive) — under ss.29-30A CDPA 1988. Critical angle: UK fair dealing is a **closed list** of specific permitted purposes, unlike the US's open-ended "fair use" doctrine; evaluate whether this makes UK copyright law less adaptable to genuinely novel uses, such as text-and-data mining for AI training, than the flexible US model.
+
+## Explicitly not here
+Trade marks, passing off and integrated theoretical topics follow in LWM20_2.

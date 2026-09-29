@@ -1,0 +1,525 @@
+{
+  "stage_rubrics": {
+    "S01_A1_Grammar_Basics": {
+      "criteria": [
+        "Pronounces ă, â/î, ș, ț and the ce/ci/che/chi family correctly in a short reading",
+        "Correctly conjugates a fi and a avea in at least four persons each",
+        "States the gender of at least 8 out of 10 common nouns and forms a correct plural",
+        "Produces both the indefinite article and the suffixed definite article correctly for at least 6 nouns"
+      ],
+      "pass_threshold": "The learner reads a short Romanian text aloud with correct stress and diacritic sounds, states the gender of 10 common nouns, and produces both the definite and indefinite forms of at least 8 nouns without prompting.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale (Council of Europe) and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A1; ILR level A1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S02_A1_Grammar_Numbers_Pronouns": {
+      "criteria": [
+        "Correctly conjugates verbs from all four present-tense classes",
+        "Forms and answers questions with at least four different question words",
+        "Counts and tells the time accurately",
+        "Builds grammatically correct negative sentences",
+        "Uses demonstrative and possessive adjectives with correct gender agreement"
+      ],
+      "pass_threshold": "The learner conjugates at least one regular verb from each of the four classes, asks and answers five question types, counts fluently 0-100 and tells the time, and forms at least 4 correct negative sentences with a demonstrative or possessive.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A1; ILR level A1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S03_A1_Vocab_People_Food": {
+      "criteria": [
+        "Uses the correct greeting for time of day and formality level",
+        "Introduces self and asks/answers \"what's your name\" correctly",
+        "Names at least 8 family members with correct gender",
+        "Orders food and drink and asks for the bill using natural restaurant phrases",
+        "Asks and understands prices using numbers correctly"
+      ],
+      "pass_threshold": "The learner performs a short greeting-and-introduction exchange, names at least 8 family members, and orders a meal and asks for the bill using correct polite forms.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A1; ILR level A1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S04_A1_Vocab_World_Around": {
+      "criteria": [
+        "Gives at least three clear, grammatically correct directions",
+        "Describes a full daily routine with appropriate time expressions",
+        "Uses at least 4 colour-clothing pairs with correct gender agreement",
+        "Describes current weather and all four seasons accurately"
+      ],
+      "pass_threshold": "The learner asks for and follows simple directions, describes a full daily routine with times, names at least 8 colours/clothing items, and describes today's weather and the four seasons.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A1; ILR level A1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S05_A1_CanDo_Skills": {
+      "criteria": [
+        "Understands the gist of slow, clear speech on familiar personal topics",
+        "Extracts key facts from very simple written notices and short texts",
+        "Sustains a simple two-turn spoken exchange with help from the other speaker",
+        "Gives a short, connected spoken description of home and family",
+        "Writes a short simple postcard and completes a personal-details form accurately"
+      ],
+      "pass_threshold": "The learner demonstrates each of the five CEFR A1 can-do descriptors using material from S01-S04: understanding slow, clear familiar speech and simple written notices; interacting with help; describing home and people; writing a short simple message.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Table 2 Self-assessment Grid (Council of Europe / Europass)",
+        "reference": "CEFR A1, all five skills",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S06_A2_Grammar_Past_Tenses": {
+      "criteria": [
+        "Correctly forms perfect compus with a avea for regular and common irregular participles",
+        "Understands and correctly avoids the a fi over-generalisation error for motion verbs",
+        "Conjugates reflexive verbs accurately in present and past",
+        "Forms near-future sentences correctly with o să"
+      ],
+      "pass_threshold": "The learner narrates a short past event using perfect compus with both auxiliaries, conjugates two reflexive verbs in past and present, and states three near-future plans correctly.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A2; ILR level A2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S07_A2_Grammar_Adjectives_Prepositions": {
+      "criteria": [
+        "Conjugates at least four of the five key irregular verbs correctly",
+        "Places and agrees descriptive adjectives correctly in gender and number",
+        "Forms comparative and superlative correctly, including at least one irregular form",
+        "Uses at least five different prepositions of place/time accurately"
+      ],
+      "pass_threshold": "The learner conjugates five common irregular verbs, correctly agrees and places at least six adjectives, forms comparative and superlative correctly, and uses six prepositions of place/time accurately.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A2; ILR level A2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S08_A2_Grammar_Pronouns_Travel_Shopping": {
+      "criteria": [
+        "Uses accusative clitic pronouns correctly, including the hyphenated past-tense form",
+        "Uses dative clitic pronouns correctly, especially with a plăcea",
+        "Books travel and understands basic travel-related exchanges",
+        "Shops for clothes, asking about and negotiating size"
+      ],
+      "pass_threshold": "The learner correctly uses at least four accusative and four dative clitic pronouns, books simple travel, and buys clothes stating size and preference.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A2; ILR level A2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S09_A2_Vocab_Life_Topics": {
+      "criteria": [
+        "Describes a health complaint and understands basic doctor's questions",
+        "Talks about a hobby using appropriate leisure vocabulary",
+        "Describes a home room by room with furniture and location",
+        "Describes a person's appearance and character with correct adjective agreement",
+        "Gives basic, accurate information about school or work"
+      ],
+      "pass_threshold": "The learner describes a minor ailment, talks about a hobby, describes their home, describes a person's character/appearance, and gives basic school/work information.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR A2; ILR level A2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S10_A2_CanDo_Skills": {
+      "criteria": [
+        "Extracts specific relevant information from clear, everyday-topic speech",
+        "Finds predictable specific information in simple everyday written texts",
+        "Sustains a routine transactional exchange with direct, simple turns",
+        "Gives a connected (not just listed) spoken description across several personal topics",
+        "Writes a short functional note and a simple personal letter correctly"
+      ],
+      "pass_threshold": "The learner demonstrates each CEFR A2 can-do descriptor using material from S06-S09: understanding everyday-relevance speech and short texts; simple routine exchanges; describing family/background in connected phrases; writing short notes and a simple personal letter.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Table 2 Self-assessment Grid (Council of Europe / Europass)",
+        "reference": "CEFR A2, all five skills",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S11_B1_Grammar_Imperfect_Subjunctive": {
+      "criteria": [
+        "Correctly forms the imperfect for regular and irregular verbs, including a fi",
+        "Correctly chooses between imperfect and perfect compus based on meaning",
+        "Forms the să-subjunctive correctly, including the changed 3rd-person form",
+        "Uses subjunctive correctly and obligatorily after common trigger verbs"
+      ],
+      "pass_threshold": "The learner correctly chooses between imperfect and perfect compus in a narrative, and forms the subjunctive correctly after at least four common trigger verbs.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR B1; ILR level B1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S12_B1_Grammar_Reported_Conditional": {
+      "criteria": [
+        "Reports statements and questions correctly with appropriate tense/mood shifts",
+        "Uses the conditional-optative correctly for wishes and polite requests",
+        "Builds correct relative clauses with care/cine/ce",
+        "Uses a range of connectors accurately to link ideas across sentences"
+      ],
+      "pass_threshold": "The learner reports statements and questions correctly, uses the conditional for wishes/requests, builds at least three relative clauses, and uses at least five different connectors accurately.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR B1; ILR level B1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S13_B1_Grammar_Case_Work_Travel": {
+      "criteria": [
+        "Correctly uses al/a/ai/ale possessive pronouns with gender agreement",
+        "Correctly uses genitive-marked possession with a noun",
+        "Forms grammatically correct impersonal/passive-like se statements",
+        "Describes professions accurately and handles a travel/accommodation booking"
+      ],
+      "pass_threshold": "The learner correctly uses al/a/ai/ale with possessive pronouns, forms at least four impersonal se statements, names five professions with descriptions, and arranges travel and accommodation.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR B1; ILR level B1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S14_B1_Vocab_Opinions_World": {
+      "criteria": [
+        "States and supports an opinion clearly using appropriate phrases",
+        "Discusses media/technology topics with correct vocabulary",
+        "Discusses an environmental issue with relevant vocabulary",
+        "Describes at least two Romanian festivals/traditions accurately"
+      ],
+      "pass_threshold": "The learner expresses and defends an opinion, discusses a media/technology topic, discusses an environmental issue, and describes at least two Romanian festivals or traditions.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR B1; ILR level B1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S15_B1_CanDo_Skills": {
+      "criteria": [
+        "Identifies the main points of standard-speed speech on familiar matters",
+        "Follows the sequence of events and feelings in a personal letter",
+        "Handles unscripted, familiar-topic conversation and common travel situations",
+        "Gives connected spoken description of experience with reasons for opinions/plans",
+        "Writes connected, coherent personal text describing experience and impressions"
+      ],
+      "pass_threshold": "The learner demonstrates each CEFR B1 can-do descriptor using material from S11-S14: understanding standard speech on familiar matters; entering unprepared into familiar conversation; connecting phrases to describe experience and give reasons; writing connected personal text.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Table 2 Self-assessment Grid (Council of Europe / Europass)",
+        "reference": "CEFR B1, all five skills",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S16_B2_Grammar_Subjunctive_Passive": {
+      "criteria": [
+        "Forms present and past subjunctive correctly, including doubt/regret usage",
+        "Forms conditional perfect and correctly matches hypothetical clause structures",
+        "Builds grammatically correct passive sentences with correct participle agreement",
+        "Uses the gerund correctly for simultaneous action or manner"
+      ],
+      "pass_threshold": "The learner uses present and past subjunctive correctly, forms conditional perfect hypotheticals correctly, builds a correct passive sentence, and uses the gerund appropriately.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR B2; ILR level B2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S17_B2_Grammar_Clauses_Register": {
+      "criteria": [
+        "Builds grammatically correct concessive and purpose clauses",
+        "Uses the vocative case correctly across formal and informal address",
+        "Applies full tense-shift rules correctly when reporting past statements",
+        "Uses formal genitive-dative noun case endings correctly"
+      ],
+      "pass_threshold": "The learner builds correct concessive/purpose clauses, uses the vocative correctly in at least four forms, fully tense-shifts reported speech, and uses formal genitive-dative forms correctly.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR B2; ILR level B2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S18_B2_Vocab_Abstract_Topics": {
+      "criteria": [
+        "Discusses education/society/politics topics with appropriate vocabulary",
+        "Writes a correctly structured, appropriately formal letter or email",
+        "Discusses a cultural or artistic topic accurately and without improper quotation",
+        "Builds a structured debate with clear advantages, disadvantages and a conclusion"
+      ],
+      "pass_threshold": "The learner discusses an education/society/politics topic, writes a short formal letter or email, discusses a cultural topic, and debates an issue giving advantages and disadvantages.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR B2; ILR level B2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S19_B2_CanDo_Skills": {
+      "criteria": [
+        "Follows extended, complex argument in speech on a reasonably familiar topic",
+        "Identifies viewpoint and tone in an article or literary extract",
+        "Debates spontaneously and fluently, responding to counterarguments",
+        "Gives a clear, detailed structured spoken presentation",
+        "Writes a clear, well-organised essay presenting and supporting a point of view"
+      ],
+      "pass_threshold": "The learner demonstrates each CEFR B2 can-do descriptor using material from S16-S18: following extended speech/lectures; reading articles with viewpoints; discussing fluently and spontaneously; giving detailed presentations; writing essays/reports with reasoned arguments.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Table 2 Self-assessment Grid (Council of Europe / Europass)",
+        "reference": "CEFR B2, all five skills",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S20_C1_Grammar_Discourse_Idiom": {
+      "criteria": [
+        "Shifts register appropriately and deliberately between formal and colloquial",
+        "Uses idioms naturally and correctly in original sentences",
+        "Sustains cohesive, signposted multi-paragraph argumentation",
+        "Uses hedged subjunctive/conditional constructions naturally",
+        "Analyses and produces new words using productive Romanian prefixes and suffixes"
+      ],
+      "pass_threshold": "The learner shifts register appropriately for context, uses at least five idioms correctly, sustains cohesive multi-paragraph argumentation, uses hedged subjunctive/conditional naturally, and analyses word formation in at least five words.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR C1; ILR level C1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S21_C1_Vocab_Register_Nuance": {
+      "criteria": [
+        "Uses specialised professional vocabulary accurately and appropriately",
+        "Distinguishes and produces journalistic versus literary style correctly",
+        "Chooses precisely among near-synonyms based on connotation and collocation"
+      ],
+      "pass_threshold": "The learner uses specialised vocabulary accurately in one professional field, distinguishes and imitates literary versus journalistic style, and correctly chooses among near-synonyms by connotation/collocation in at least six cases.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR C1; ILR level C1",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S22_C1_CanDo_Skills": {
+      "criteria": [
+        "Understands implicit relationships in loosely structured extended speech",
+        "Appreciates and identifies distinctions of style in long, complex texts",
+        "Expresses fluently and spontaneously, adapting register for context",
+        "Presents complex subjects with integrated sub-themes and a genuine conclusion",
+        "Writes clear, well-structured extended text identifying the salient issues"
+      ],
+      "pass_threshold": "The learner demonstrates each CEFR C1 can-do descriptor using material from S20-S21: understanding implicit meaning in unstructured speech; reading long complex texts with style awareness; expressing fluently with flexible register; presenting complex integrated subjects; writing well-structured, extended text on complex subjects.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Table 2 Self-assessment Grid (Council of Europe / Europass)",
+        "reference": "CEFR C1, all five skills",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S23_C2_Grammar_Mastery_Vocab": {
+      "criteria": [
+        "Recognises and correctly glosses rare or archaic Romanian constructions",
+        "Produces a convincing literary-register passage with appropriate stylistic features",
+        "Combines accusative and dative clitic pronouns correctly, including reflexive-dative fusion",
+        "Uses idioms and proverbs naturally and appropriately, not forced",
+        "Correctly identifies and deliberately switches between formal, academic and informal/slang register"
+      ],
+      "pass_threshold": "The learner recognises and correctly glosses rare/archaic constructions, produces a passage in convincing literary register, combines multiple clitic pronouns correctly, uses at least four idioms with native-like precision, and identifies register (formal/dialectal/academic/slang) correctly in six examples.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Global Scale and standard Romanian-as-foreign-language sequence",
+        "reference": "CEFR C2; ILR level C2",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    },
+    "S24_C2_CanDo_Skills": {
+      "criteria": [
+        "Understands fast, native-speed spoken language including regional/colloquial features with ease",
+        "Reads complex abstract and literary texts fluently and with full comprehension",
+        "Converses effortlessly, using idiom and colloquialism with precise nuance",
+        "Gives a smoothly-flowing, audience-appropriate spoken presentation with clear structure",
+        "Writes smoothly-flowing, appropriately styled complex text with effective logical structure"
+      ],
+      "pass_threshold": "The learner demonstrates each CEFR C2 can-do descriptor using material from S23: near-effortless comprehension of fast native speech and complex written forms; effortless idiomatic conversation with precise nuance; smoothly-flowing style-appropriate spoken and written production on complex subjects.",
+      "source": {
+        "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+        "document": "CEFR Table 2 Self-assessment Grid (Council of Europe / Europass)",
+        "reference": "CEFR C2, all five skills",
+        "urls": [
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+          "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+          "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+          "https://ilr.ro/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Listening and reading comprehension consistent with the target CEFR level's can-do descriptors, using material from that level's stages",
+      "Spoken interaction and spoken production consistent with the target level's can-do descriptors, with grammar from that level's stages used accurately enough not to obstruct communication",
+      "Writing consistent with the target level's can-do descriptor and task type (from a postcard at A1 up to a structured report/essay at C1-C2)",
+      "Grammar and vocabulary specific to Romanian (gender and the suffixed definite article at A1-A2, subjunctive and imperfect at B1, full subjunctive/conditional/passive/vocative at B2, register and idiom at C1-C2, as relevant to the level being tested) applied accurately enough for the target level's expected standard",
+      "No level is certified as passed until every stage belonging to that CEFR level shows a passed test in the micro-profile"
+    ],
+    "pass_threshold": "Consistent, unprompted performance against the CEFR can-do descriptors for the learner's current target CEFR level, across all four skill areas (listening, reading, a combined spoken interaction/production section, and writing), graded holistically rather than by a fixed mark total, in the style of ILR's own level tests rather than a single cumulative pass/fail exam covering every level at once.",
+    "source": {
+      "issuing_body": "Council of Europe (CEFR framework and can-do descriptors); Institutul Limbii Române / ACLro (Romanian-specific level certification and sample tests)",
+      "document": "CEFR Table 1 (Global Scale) and Table 2 (Self-assessment Grid), Council of Europe / Europass; ILR (Institutul Limbii Romane) level-test structure",
+      "reference": "CEFR self-assessment descriptors, learner's current target level; ILR A1-C2 level tests",
+      "urls": [
+        "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+        "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+        "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+        "https://ilr.ro/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid",
+    "https://europass.europa.eu/system/files/2020-05/CEFR%20self-assessment%20grid%20EN.pdf",
+    "https://ilr.ro/"
+  ],
+  "source_notes": [
+    "Official ILR (Institutul Limbii Române) self-assessment sample tests, openly hosted on ilr.ro with no gating, were the original source used to confirm that Romanian language certification for foreign/heritage learners maps directly onto the six standard CEFR levels A1-C2.",
+    "Council of Europe CEFR Global Scale and Self-assessment Grid descriptor text was fetched directly and paraphrased into the 30 RO-<level>-CD-* items so that no single item is a verbatim long quotation."
+  ]
+}

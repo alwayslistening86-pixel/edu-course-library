@@ -1,0 +1,28 @@
+# LWM36_International_Trade_Law_1 - Lesson: International Trade Law A-B — Export sale terms and carriage of goods by sea
+
+## Goal
+The learner applies FOB and CIF trade terms and the Hague-Visby carriage regime at Master's depth, engaging critically with the documents-versus-goods characterisation.
+
+## Syllabus items taught here
+- LWM36-A1 - FOB and CIF trade terms: Apply FOB and CIF risk/property rules and evaluate the CIF documents-not-goods characterisation
+- LWM36-A2 - Seller's obligations and interaction with the SGA 1979: Apply trade-term-specific delivery rules alongside SGA 1979 default rules
+- LWM36-B1 - The Hague-Visby Rules: Apply carrier duties, the package limitation and the time bar under the Hague-Visby Rules
+- LWM36-B2 - The bill of lading: three functions and the COGSA 1992: Apply the receipt, contract-evidence and document-of-title functions and the transfer rules under COGSA 1992
+
+## How to teach this
+Scope note: as UoL actually defines this module, it is a **private law** module about the network of contracts (sale, carriage, finance) needed to move goods across borders — not a public international trade law/WTO module (GATT, trade remedies, dispute panels), which is a different UoL module. Follow the four sub-modules in order, since they describe one connected commercial transaction from four angles: the sale, the shipping, the payment, and an alternative international sales-law regime met in LWM36_2.
+
+#### LWM36-A1 FOB and CIF trade terms
+International sale contracts commonly use standard trade terms allocating cost, risk and responsibility for arranging carriage and insurance. Under **FOB (Free On Board)**, the seller's core obligation is to deliver goods over the ship's rail, or under modern container practice onto the vessel or into the carrier's custody, at the named port of shipment; the **buyer** arranges and pays for carriage and typically insurance, and risk passes to the buyer on shipment. Under **CIF (Cost, Insurance, Freight)**, the **seller** arranges and pays for carriage and insurance to the named destination, with the price including those costs — but CIF is crucially a "sale of documents": the seller performs by tendering the correct shipping documents (bill of lading, insurance policy, invoice), not by physically delivering goods at destination, and risk still passes to the buyer on shipment. Critical angle: the CIF "documents not goods" characterisation, established in *Arnhold Karberg & Co v Blythe, Green, Jourdain & Co* [1916] 1 KB 495, means that even if goods are lost at sea before arrival, a seller who has tendered conforming documents has performed the contract and the buyer bears the loss, recoverable only through the tendered insurance policy — evaluate whether this document-centric approach appropriately allocates risk in modern supply chains, or is a historical artefact of 19th-century sailing-ship trade that container shipping and electronic documentation have outgrown.
+
+#### LWM36-A2 Seller's obligations and interaction with the SGA 1979
+FOB and CIF terms operate against, and can displace, the Sale of Goods Act 1979 default rules met at LWM83-C1/C2 — a genuine cross-module synthesis point. The seller's duty to ship goods complying with the contract, arrange the correct documents, and give notice of shipment (SGA s.32) sits alongside trade-term-specific case law on precisely when and how "delivery" occurs for FOB and CIF sales, since the ordinary SGA delivery concept must be adapted to a transaction where the goods themselves are never physically handed to the buyer by the seller.
+
+#### LWM36-B1 The Hague-Visby Rules
+Carriage of goods by sea is governed by a mixture of common law (the contract of carriage itself, evidenced by the bill of lading) and a mandatory international regime protecting cargo owners against overreaching exclusion clauses by carriers. The **Hague-Visby Rules**, given force in the UK by the Carriage of Goods by Sea Act 1971, set minimum, non-excludable standards for carriers: the duty to exercise due diligence to make the ship seaworthy, properly man, equip and supply it, and make cargo holds fit for carriage (Article III); duties relating to loading, handling, stowage, carriage, custody, care and discharge of the goods; a package/unit or weight-based limitation of the carrier's liability; and a one-year time bar on cargo claims. Critical angle: the package limitation figures, calculated per package/unit or per kilo, whichever is higher, were fixed decades ago — evaluate whether they remain a meaningful protection for cargo interests given modern container values, or now systematically under-compensate, effectively subsidising carriers.
+
+#### LWM36-B2 The bill of lading: three functions and the COGSA 1992
+The bill of lading performs three distinct legal functions a Master's-level answer must keep separate: **receipt** for the goods shipped (evidence of quantity and condition on shipment); **evidence of** (and, as between shipper and carrier, sometimes containing) the contract of carriage; and **document of title** — a genuinely unusual feature allowing constructive possession of the goods to be transferred by transferring the paper document, which is what makes CIF sales of documents (LWM36-A1) and letters of credit (LWM36-C1) work at all. Transfer of rights and liabilities under the bill of lading to a subsequent holder, such as the buyer under a CIF contract who was not the original shipper, is now governed by the **Carriage of Goods by Sea Act 1992**, which replaced the older, more restrictive Bills of Lading Act 1855.
+
+## Explicitly not here
+Documentary credits and the CISG follow in LWM36_2.

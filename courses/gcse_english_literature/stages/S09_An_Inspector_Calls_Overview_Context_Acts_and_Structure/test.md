@@ -1,0 +1,16 @@
+# S09_An_Inspector_Calls_Overview_Context_Acts_and_Structure - Test: An Inspector Calls: whole-play overview, context, the plot of Acts 1-3, and its cyclical structure
+
+## How to run this
+Real checkpoint, not more practice. Present the scenario once, let the learner submit a full answer, then grade against this stage's entry in `rubric.json` -- never grade without it.
+
+## Test scenario
+In 100-150 words, explain what happens across the three acts and why the play's cyclical, repeating structure supports Priestley's message about social responsibility.
+
+## Grading
+Apply `rubric.json`'s `stage_rubrics.S09_An_Inspector_Calls_Overview_Context_Acts_and_Structure` criteria exactly. Record `passed` or `not_passed`, with a short honest note on strengths/weaknesses, into this course's micro-profile.
+
+## If not passed
+Name the specific weak or missing step, offer to revisit practice, then re-test with a new question of the same type.
+
+## On pass
+Record the pass and let the learner know they can move to S10_An_Inspector_Calls_Themes_Characters_and_the_Exam_Question.

@@ -1,0 +1,275 @@
+{
+  "stage_rubrics": {
+    "S01_Human_Anatomy_and_Physiology_for_Engineers": {
+      "criteria": [
+        "AP-1: Levels of biological organisation, tissue types and anatomical terminology",
+        "AP-2: The skeletal system: bone types, bone composite structure and joint classification",
+        "AP-3: Synovial joint types, degrees of freedom, and ligament/tendon function",
+        "AP-4: Skeletal muscle structure, motor units and force generation",
+        "AP-5: The cardiovascular system: cardiac output and blood pressure",
+        "AP-6: Excitable tissue and the action potential",
+        "AP-7: The respiratory system and gas exchange",
+        "AP-8: Homeostasis and negative-feedback control"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives AP-1, AP-2, AP-3, AP-4, AP-5, AP-6, AP-7, AP-8 (Year 1: Anatomy and Physiology)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S02_Mathematical_and_Statistical_Methods_for_Bioengineering": {
+      "criteria": [
+        "MM-1: First-order exponential models (clearance, decay, diffusion)",
+        "MM-2: Descriptive statistics: mean, standard deviation, standard error",
+        "MM-3: The normal distribution and confidence intervals",
+        "MM-4: Linear regression, curve fitting and linearising exponential data",
+        "MM-5: Propagation of uncertainty",
+        "MM-6: Hypothesis testing basics and the meaning of a p-value",
+        "MM-7: Vectors, forces and moments"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives MM-1, MM-2, MM-3, MM-4, MM-5, MM-6, MM-7 (Year 1: Mathematical Methods in Bioengineering)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S03_Introductory_Materials_Science_for_Engineers": {
+      "criteria": [
+        "MS-1: Atomic bonding and its link to material class",
+        "MS-2: Stress, strain and Hooke's law",
+        "MS-3: The stress-strain curve: yield, UTS, ductile vs brittle behaviour",
+        "MS-4: Resilience and toughness from the stress-strain curve",
+        "MS-5: Fatigue and fracture under cyclic loading",
+        "MS-6: Comparing metal, ceramic, polymer and composite material classes",
+        "MS-7: Viscoelasticity introduced: creep and stress relaxation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives MS-1, MS-2, MS-3, MS-4, MS-5, MS-6, MS-7 (Year 1: Introductory Materials Science)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S04_Engineering_Design_Process_for_Healthcare": {
+      "criteria": [
+        "DP-1: The engineering design process",
+        "DP-2: User needs and writing a testable design specification",
+        "DP-3: Concept generation techniques",
+        "DP-4: Concept evaluation with a weighted decision (Pugh) matrix",
+        "DP-5: Design for manufacture/assembly and human factors/ergonomics",
+        "DP-6: Communicating a design: CAD and technical drawing conventions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives DP-1, DP-2, DP-3, DP-4, DP-5, DP-6 (Year 1: Integrated Product Design (and Design and Make Project, theory/design-only))",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S05_Biomechanics_I_Statics_and_Musculoskeletal_Mechanics": {
+      "criteria": [
+        "BM1-1: Rigid-body static equilibrium and free body diagrams",
+        "BM1-2: Lever classes in the musculoskeletal system",
+        "BM1-3: Worked elbow-flexion lever model",
+        "BM1-4: Joint reaction force",
+        "BM1-5: Centre of mass and anthropometric segment models",
+        "BM1-6: Gait cycle and ground reaction force basics"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives BM1-1, BM1-2, BM1-3, BM1-4, BM1-5, BM1-6 (Year 2: Biomechanics I - statics and musculoskeletal mechanics)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S06_Biomechanics_II_Mechanics_of_Biological_Tissue": {
+      "criteria": [
+        "BM2-1: Anisotropic and rate-dependent mechanical behaviour of bone",
+        "BM2-2: Tendon and ligament as viscoelastic materials",
+        "BM2-3: Cartilage as a biphasic (fluid + solid) material",
+        "BM2-4: Stress shielding at the implant-bone interface",
+        "BM2-5: Implant fatigue design",
+        "BM2-6: Quantified stress relaxation of soft tissue"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives BM2-1, BM2-2, BM2-3, BM2-4, BM2-5, BM2-6 (Year 2: Biomechanics II - mechanics of biological tissue and implants)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S07_Biomaterials_I_Tissue_Engineering_and_Implants": {
+      "criteria": [
+        "BIO1-1: Bioinert, bioactive and bioresorbable material response",
+        "BIO1-2: Metallic implant materials",
+        "BIO1-3: Ceramic and polymeric implant materials",
+        "BIO1-4: Scaffold design for tissue engineering",
+        "BIO1-5: Implant surface modification",
+        "BIO1-6: Sterilisation methods and their material constraints"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives BIO1-1, BIO1-2, BIO1-3, BIO1-4, BIO1-5, BIO1-6 (Year 2: Biomaterials 1 (biomaterials for tissue engineering))",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S08_Data_Analysis_and_Modelling_for_Bioengineers": {
+      "criteria": [
+        "DA-1: One-compartment pharmacokinetic modelling",
+        "DA-2: Fitting a compartmental model to data by linearisation",
+        "DA-3: Paired vs two-sample experimental comparisons",
+        "DA-4: Dimensional analysis and allometric scaling",
+        "DA-5: Applied uncertainty propagation through a model",
+        "DA-6: Model validation with residual plots"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives DA-1, DA-2, DA-3, DA-4, DA-5, DA-6 (Year 2: Data Analysis and Modelling)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S09_Biochemistry_and_Cell_Biology_for_Engineers": {
+      "criteria": [
+        "CB-1: Cell structure relevant to engineering",
+        "CB-2: Membrane transport mechanisms",
+        "CB-3: Proteins and enzymes",
+        "CB-4: Michaelis-Menten enzyme kinetics",
+        "CB-5: DNA and the central dogma, briefly",
+        "CB-6: Extracellular matrix and mechanotransduction"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives CB-1, CB-2, CB-3, CB-4, CB-5, CB-6 (Year 2: Biochemistry and Cell Biology)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S10_Bioelectricity_and_Medical_Instrumentation": {
+      "criteria": [
+        "MI-1: From cellular action potential to the surface ECG",
+        "MI-2: Biopotential electrodes",
+        "MI-3: Instrumentation amplifiers and common-mode rejection",
+        "MI-4: Frequency content of ECG, EMG and EEG",
+        "MI-5: The Nyquist-Shannon sampling theorem applied to biosignals",
+        "MI-6: Basic filtering and signal-to-noise ratio"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives MI-1, MI-2, MI-3, MI-4, MI-5, MI-6 (Year 3: Bioelectricity and Biophotonics Engineering - bioelectric instrumentation)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S11_Biophotonics_Signal_Processing_and_Biomedical_Component_Design": {
+      "criteria": [
+        "BP-1: Light-tissue interaction: absorption and scattering",
+        "BP-2: The Beer-Lambert law",
+        "BP-3: Pulse oximetry as a worked biophotonics application",
+        "BP-4: Sampling and filtering extended to the photoplethysmogram",
+        "BP-5: Medical imaging modalities overview: X-ray/CT, ultrasound, MRI",
+        "BP-6: Radiation dose concepts and the ALARA principle"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives BP-1, BP-2, BP-3, BP-4, BP-5, BP-6 (Year 3: Bioelectricity and Biophotonics Engineering - biophotonics and imaging)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S12_Biomaterials_II_Drug_Delivery_and_Regenerative_Medicine": {
+      "criteria": [
+        "BIO2-1: Diffusion-controlled (Higuchi) drug release",
+        "BIO2-2: Degradation-controlled drug release from biodegradable polymers",
+        "BIO2-3: First-order drug-release approximation",
+        "BIO2-4: Biodegradable polymer selection for regenerative medicine",
+        "BIO2-5: Regenerative medicine design goals",
+        "BIO2-6: Comparing zero-order, first-order and square-root release profiles"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives BIO2-1, BIO2-2, BIO2-3, BIO2-4, BIO2-5, BIO2-6 (Year 3: Biomaterials 2 and Regenerative Medicine (drug delivery))",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    },
+    "S13_Healthcare_Engineering_Systems_Regulation_and_Professional_Practice": {
+      "criteria": [
+        "HC-1: UK medical device regulatory classification",
+        "HC-2: Engineering consequences of regulatory classification",
+        "HC-3: Risk management in medical device design (ISO 14971)",
+        "HC-4: Clinical/healthcare engineering as a discipline",
+        "HC-5: Product innovation management",
+        "HC-6: Professional and ethical practice (QAA Engineering benchmark)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This course's own 60% pass standard (mirroring this library's other framework-levelled courses), since Loughborough itself sets module pass marks and classification boundaries internally rather than publishing a single fixed percentage. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "Loughborough University",
+        "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+        "reference": "H160/H161 objectives HC-1, HC-2, HC-3, HC-4, HC-5, HC-6 (Year 3: Healthcare Engineering and Product Innovation Management)",
+        "urls": [
+          "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock spanning all three years' content, in the format of a UK engineering degree's structured written papers",
+      "Short-answer and calculation questions with marks shown (M/A/B tagged), plus multiple-select items",
+      "Working and units shown throughout, marked against written mark schemes"
+    ],
+    "pass_threshold": "At least 60% of the marks overall and at least 50% on each of the three year-sections (the course's own standard).",
+    "source": {
+      "issuing_body": "Loughborough University",
+      "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+      "reference": "Cumulative examination drawing on all 13 stages (Years 1-3) of this course's own structure",
+      "urls": [
+        "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/"
+  ],
+  "source_notes": "Loughborough University's Biomedical Engineering BEng (Hons) programme page (course overview, real entry requirements and the real year-by-year compulsory/optional module titles) was read live at lboro.ac.uk on 2026-09-27. Loughborough's own internal module-by-module syllabus content (detailed learning outcomes, week-by-week content, reading lists) sits behind its module catalogue/student portal and was not accessible; everywhere this course itemises a topic under a real Loughborough module title (e.g. Anatomy and Physiology, Biomaterials 1, Healthcare Engineering), the content taught is the standard, well-established topic breakdown for that biomedical-engineering subject area found in any BEng-level biomedical/bioengineering textbook or module descriptor (e.g. Enderle & Bronzino 'Introduction to Biomedical Engineering'; Ratner et al. 'Biomaterials Science'; Nordin & Frankel 'Basic Biomechanics of the Musculoskeletal System'; Webster 'Medical Instrumentation') -- this is core biomedical-engineering knowledge, not institution-specific content -- cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023, which sets generic threshold learning outcomes across science/mathematics/engineering principles, engineering analysis, design/creativity/innovation, professional practice and values, and teamwork/communication, and does not itemise biomedical engineering as a named sub-discipline, leaving specialist content to individual institutions). Every numerical worked example and mark-scheme value was computed with Python when the course was built; short-answer test items are original, in the style of a UK engineering degree's structured written papers, marked M/A/B as in this library's other STEM courses, never real Loughborough assessment questions (which were not accessible)."
+}

@@ -1,0 +1,681 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "Loughborough University Biomedical Engineering BEng (Hons) programme page (course overview, entry requirements and year-by-year compulsory/optional module lists), cross-checked against the QAA Subject Benchmark Statement for Engineering (5th edition, March 2023)",
+    "url": "https://www.lboro.ac.uk/study/undergraduate/courses/biomedical-engineering-beng/",
+    "version": "Programme page and module lists as published live at lboro.ac.uk, read 2026-09-27 (2026-27 entry cycle).",
+    "itemised_on": "2026-09-27",
+    "numbering": "Loughborough's own module-code numbering (e.g. specific module codes within its Department of Mechanical, Electrical and Manufacturing Engineering / Wolfson School catalogue) sits behind the institution's internal module catalogue and student portal and was not accessible from the open web; this course keeps its own stable id scheme per topic area (e.g. AP-1, BM1-1) rather than inventing Loughborough-style codes, and records that fact honestly here. Real Loughborough module titles are used throughout material_vintage and the stage-to-module mapping below."
+  },
+  "_syllabus_items": [
+    {
+      "id": "AP-1",
+      "title": "Levels of biological organisation, tissue types and anatomical terminology",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "AP-2",
+      "title": "The skeletal system: bone types, bone composite structure and joint classification",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "AP-3",
+      "title": "Synovial joint types, degrees of freedom, and ligament/tendon function",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "AP-4",
+      "title": "Skeletal muscle structure, motor units and force generation",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "AP-5",
+      "title": "The cardiovascular system: cardiac output and blood pressure",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "AP-6",
+      "title": "Excitable tissue and the action potential",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "AP-7",
+      "title": "The respiratory system and gas exchange",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "AP-8",
+      "title": "Homeostasis and negative-feedback control",
+      "topic_area": "Anatomy and Physiology"
+    },
+    {
+      "id": "MM-1",
+      "title": "First-order exponential models (clearance, decay, diffusion)",
+      "topic_area": "Mathematical Methods in Bioengineering"
+    },
+    {
+      "id": "MM-2",
+      "title": "Descriptive statistics: mean, standard deviation, standard error",
+      "topic_area": "Mathematical Methods in Bioengineering"
+    },
+    {
+      "id": "MM-3",
+      "title": "The normal distribution and confidence intervals",
+      "topic_area": "Mathematical Methods in Bioengineering"
+    },
+    {
+      "id": "MM-4",
+      "title": "Linear regression, curve fitting and linearising exponential data",
+      "topic_area": "Mathematical Methods in Bioengineering"
+    },
+    {
+      "id": "MM-5",
+      "title": "Propagation of uncertainty",
+      "topic_area": "Mathematical Methods in Bioengineering"
+    },
+    {
+      "id": "MM-6",
+      "title": "Hypothesis testing basics and the meaning of a p-value",
+      "topic_area": "Mathematical Methods in Bioengineering"
+    },
+    {
+      "id": "MM-7",
+      "title": "Vectors, forces and moments",
+      "topic_area": "Mathematical Methods in Bioengineering"
+    },
+    {
+      "id": "MS-1",
+      "title": "Atomic bonding and its link to material class",
+      "topic_area": "Introductory Materials Science"
+    },
+    {
+      "id": "MS-2",
+      "title": "Stress, strain and Hooke's law",
+      "topic_area": "Introductory Materials Science"
+    },
+    {
+      "id": "MS-3",
+      "title": "The stress-strain curve: yield, UTS, ductile vs brittle behaviour",
+      "topic_area": "Introductory Materials Science"
+    },
+    {
+      "id": "MS-4",
+      "title": "Resilience and toughness from the stress-strain curve",
+      "topic_area": "Introductory Materials Science"
+    },
+    {
+      "id": "MS-5",
+      "title": "Fatigue and fracture under cyclic loading",
+      "topic_area": "Introductory Materials Science"
+    },
+    {
+      "id": "MS-6",
+      "title": "Comparing metal, ceramic, polymer and composite material classes",
+      "topic_area": "Introductory Materials Science"
+    },
+    {
+      "id": "MS-7",
+      "title": "Viscoelasticity introduced: creep and stress relaxation",
+      "topic_area": "Introductory Materials Science"
+    },
+    {
+      "id": "DP-1",
+      "title": "The engineering design process",
+      "topic_area": "Integrated Product Design"
+    },
+    {
+      "id": "DP-2",
+      "title": "User needs and writing a testable design specification",
+      "topic_area": "Integrated Product Design"
+    },
+    {
+      "id": "DP-3",
+      "title": "Concept generation techniques",
+      "topic_area": "Integrated Product Design"
+    },
+    {
+      "id": "DP-4",
+      "title": "Concept evaluation with a weighted decision (Pugh) matrix",
+      "topic_area": "Integrated Product Design"
+    },
+    {
+      "id": "DP-5",
+      "title": "Design for manufacture/assembly and human factors/ergonomics",
+      "topic_area": "Integrated Product Design"
+    },
+    {
+      "id": "DP-6",
+      "title": "Communicating a design: CAD and technical drawing conventions",
+      "topic_area": "Integrated Product Design"
+    },
+    {
+      "id": "BM1-1",
+      "title": "Rigid-body static equilibrium and free body diagrams",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM1-2",
+      "title": "Lever classes in the musculoskeletal system",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM1-3",
+      "title": "Worked elbow-flexion lever model",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM1-4",
+      "title": "Joint reaction force",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM1-5",
+      "title": "Centre of mass and anthropometric segment models",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM1-6",
+      "title": "Gait cycle and ground reaction force basics",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM2-1",
+      "title": "Anisotropic and rate-dependent mechanical behaviour of bone",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM2-2",
+      "title": "Tendon and ligament as viscoelastic materials",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM2-3",
+      "title": "Cartilage as a biphasic (fluid + solid) material",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM2-4",
+      "title": "Stress shielding at the implant-bone interface",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM2-5",
+      "title": "Implant fatigue design",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BM2-6",
+      "title": "Quantified stress relaxation of soft tissue",
+      "topic_area": "Biomechanics"
+    },
+    {
+      "id": "BIO1-1",
+      "title": "Bioinert, bioactive and bioresorbable material response",
+      "topic_area": "Biomaterials 1"
+    },
+    {
+      "id": "BIO1-2",
+      "title": "Metallic implant materials",
+      "topic_area": "Biomaterials 1"
+    },
+    {
+      "id": "BIO1-3",
+      "title": "Ceramic and polymeric implant materials",
+      "topic_area": "Biomaterials 1"
+    },
+    {
+      "id": "BIO1-4",
+      "title": "Scaffold design for tissue engineering",
+      "topic_area": "Biomaterials 1"
+    },
+    {
+      "id": "BIO1-5",
+      "title": "Implant surface modification",
+      "topic_area": "Biomaterials 1"
+    },
+    {
+      "id": "BIO1-6",
+      "title": "Sterilisation methods and their material constraints",
+      "topic_area": "Biomaterials 1"
+    },
+    {
+      "id": "DA-1",
+      "title": "One-compartment pharmacokinetic modelling",
+      "topic_area": "Data Analysis and Modelling"
+    },
+    {
+      "id": "DA-2",
+      "title": "Fitting a compartmental model to data by linearisation",
+      "topic_area": "Data Analysis and Modelling"
+    },
+    {
+      "id": "DA-3",
+      "title": "Paired vs two-sample experimental comparisons",
+      "topic_area": "Data Analysis and Modelling"
+    },
+    {
+      "id": "DA-4",
+      "title": "Dimensional analysis and allometric scaling",
+      "topic_area": "Data Analysis and Modelling"
+    },
+    {
+      "id": "DA-5",
+      "title": "Applied uncertainty propagation through a model",
+      "topic_area": "Data Analysis and Modelling"
+    },
+    {
+      "id": "DA-6",
+      "title": "Model validation with residual plots",
+      "topic_area": "Data Analysis and Modelling"
+    },
+    {
+      "id": "CB-1",
+      "title": "Cell structure relevant to engineering",
+      "topic_area": "Biochemistry and Cell Biology"
+    },
+    {
+      "id": "CB-2",
+      "title": "Membrane transport mechanisms",
+      "topic_area": "Biochemistry and Cell Biology"
+    },
+    {
+      "id": "CB-3",
+      "title": "Proteins and enzymes",
+      "topic_area": "Biochemistry and Cell Biology"
+    },
+    {
+      "id": "CB-4",
+      "title": "Michaelis-Menten enzyme kinetics",
+      "topic_area": "Biochemistry and Cell Biology"
+    },
+    {
+      "id": "CB-5",
+      "title": "DNA and the central dogma, briefly",
+      "topic_area": "Biochemistry and Cell Biology"
+    },
+    {
+      "id": "CB-6",
+      "title": "Extracellular matrix and mechanotransduction",
+      "topic_area": "Biochemistry and Cell Biology"
+    },
+    {
+      "id": "MI-1",
+      "title": "From cellular action potential to the surface ECG",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "MI-2",
+      "title": "Biopotential electrodes",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "MI-3",
+      "title": "Instrumentation amplifiers and common-mode rejection",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "MI-4",
+      "title": "Frequency content of ECG, EMG and EEG",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "MI-5",
+      "title": "The Nyquist-Shannon sampling theorem applied to biosignals",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "MI-6",
+      "title": "Basic filtering and signal-to-noise ratio",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "BP-1",
+      "title": "Light-tissue interaction: absorption and scattering",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "BP-2",
+      "title": "The Beer-Lambert law",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "BP-3",
+      "title": "Pulse oximetry as a worked biophotonics application",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "BP-4",
+      "title": "Sampling and filtering extended to the photoplethysmogram",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "BP-5",
+      "title": "Medical imaging modalities overview: X-ray/CT, ultrasound, MRI",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "BP-6",
+      "title": "Radiation dose concepts and the ALARA principle",
+      "topic_area": "Bioelectricity and Biophotonics Engineering"
+    },
+    {
+      "id": "BIO2-1",
+      "title": "Diffusion-controlled (Higuchi) drug release",
+      "topic_area": "Biomaterials 2"
+    },
+    {
+      "id": "BIO2-2",
+      "title": "Degradation-controlled drug release from biodegradable polymers",
+      "topic_area": "Biomaterials 2"
+    },
+    {
+      "id": "BIO2-3",
+      "title": "First-order drug-release approximation",
+      "topic_area": "Biomaterials 2"
+    },
+    {
+      "id": "BIO2-4",
+      "title": "Biodegradable polymer selection for regenerative medicine",
+      "topic_area": "Biomaterials 2"
+    },
+    {
+      "id": "BIO2-5",
+      "title": "Regenerative medicine design goals",
+      "topic_area": "Biomaterials 2"
+    },
+    {
+      "id": "BIO2-6",
+      "title": "Comparing zero-order, first-order and square-root release profiles",
+      "topic_area": "Biomaterials 2"
+    },
+    {
+      "id": "HC-1",
+      "title": "UK medical device regulatory classification",
+      "topic_area": "Healthcare Engineering"
+    },
+    {
+      "id": "HC-2",
+      "title": "Engineering consequences of regulatory classification",
+      "topic_area": "Healthcare Engineering"
+    },
+    {
+      "id": "HC-3",
+      "title": "Risk management in medical device design (ISO 14971)",
+      "topic_area": "Healthcare Engineering"
+    },
+    {
+      "id": "HC-4",
+      "title": "Clinical/healthcare engineering as a discipline",
+      "topic_area": "Healthcare Engineering"
+    },
+    {
+      "id": "HC-5",
+      "title": "Product innovation management",
+      "topic_area": "Healthcare Engineering"
+    },
+    {
+      "id": "HC-6",
+      "title": "Professional and ethical practice (QAA Engineering benchmark)",
+      "topic_area": "Healthcare Engineering"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Human_Anatomy_and_Physiology_for_Engineers": {
+    "covers_syllabus_refs": [
+      "H160/H161 AP-1",
+      "H160/H161 AP-2",
+      "H160/H161 AP-3",
+      "H160/H161 AP-4",
+      "H160/H161 AP-5",
+      "H160/H161 AP-6",
+      "H160/H161 AP-7",
+      "H160/H161 AP-8"
+    ],
+    "syllabus_topic": "Year 1: Anatomy and Physiology",
+    "covers_items": [
+      "AP-1",
+      "AP-2",
+      "AP-3",
+      "AP-4",
+      "AP-5",
+      "AP-6",
+      "AP-7",
+      "AP-8"
+    ]
+  },
+  "S02_Mathematical_and_Statistical_Methods_for_Bioengineering": {
+    "covers_syllabus_refs": [
+      "H160/H161 MM-1",
+      "H160/H161 MM-2",
+      "H160/H161 MM-3",
+      "H160/H161 MM-4",
+      "H160/H161 MM-5",
+      "H160/H161 MM-6",
+      "H160/H161 MM-7"
+    ],
+    "syllabus_topic": "Year 1: Mathematical Methods in Bioengineering",
+    "covers_items": [
+      "MM-1",
+      "MM-2",
+      "MM-3",
+      "MM-4",
+      "MM-5",
+      "MM-6",
+      "MM-7"
+    ]
+  },
+  "S03_Introductory_Materials_Science_for_Engineers": {
+    "covers_syllabus_refs": [
+      "H160/H161 MS-1",
+      "H160/H161 MS-2",
+      "H160/H161 MS-3",
+      "H160/H161 MS-4",
+      "H160/H161 MS-5",
+      "H160/H161 MS-6",
+      "H160/H161 MS-7"
+    ],
+    "syllabus_topic": "Year 1: Introductory Materials Science",
+    "covers_items": [
+      "MS-1",
+      "MS-2",
+      "MS-3",
+      "MS-4",
+      "MS-5",
+      "MS-6",
+      "MS-7"
+    ]
+  },
+  "S04_Engineering_Design_Process_for_Healthcare": {
+    "covers_syllabus_refs": [
+      "H160/H161 DP-1",
+      "H160/H161 DP-2",
+      "H160/H161 DP-3",
+      "H160/H161 DP-4",
+      "H160/H161 DP-5",
+      "H160/H161 DP-6"
+    ],
+    "syllabus_topic": "Year 1: Integrated Product Design (and Design and Make Project, theory/design-only)",
+    "covers_items": [
+      "DP-1",
+      "DP-2",
+      "DP-3",
+      "DP-4",
+      "DP-5",
+      "DP-6"
+    ]
+  },
+  "S05_Biomechanics_I_Statics_and_Musculoskeletal_Mechanics": {
+    "covers_syllabus_refs": [
+      "H160/H161 BM1-1",
+      "H160/H161 BM1-2",
+      "H160/H161 BM1-3",
+      "H160/H161 BM1-4",
+      "H160/H161 BM1-5",
+      "H160/H161 BM1-6"
+    ],
+    "syllabus_topic": "Year 2: Biomechanics I - statics and musculoskeletal mechanics",
+    "covers_items": [
+      "BM1-1",
+      "BM1-2",
+      "BM1-3",
+      "BM1-4",
+      "BM1-5",
+      "BM1-6"
+    ]
+  },
+  "S06_Biomechanics_II_Mechanics_of_Biological_Tissue": {
+    "covers_syllabus_refs": [
+      "H160/H161 BM2-1",
+      "H160/H161 BM2-2",
+      "H160/H161 BM2-3",
+      "H160/H161 BM2-4",
+      "H160/H161 BM2-5",
+      "H160/H161 BM2-6"
+    ],
+    "syllabus_topic": "Year 2: Biomechanics II - mechanics of biological tissue and implants",
+    "covers_items": [
+      "BM2-1",
+      "BM2-2",
+      "BM2-3",
+      "BM2-4",
+      "BM2-5",
+      "BM2-6"
+    ]
+  },
+  "S07_Biomaterials_I_Tissue_Engineering_and_Implants": {
+    "covers_syllabus_refs": [
+      "H160/H161 BIO1-1",
+      "H160/H161 BIO1-2",
+      "H160/H161 BIO1-3",
+      "H160/H161 BIO1-4",
+      "H160/H161 BIO1-5",
+      "H160/H161 BIO1-6"
+    ],
+    "syllabus_topic": "Year 2: Biomaterials 1 (biomaterials for tissue engineering)",
+    "covers_items": [
+      "BIO1-1",
+      "BIO1-2",
+      "BIO1-3",
+      "BIO1-4",
+      "BIO1-5",
+      "BIO1-6"
+    ]
+  },
+  "S08_Data_Analysis_and_Modelling_for_Bioengineers": {
+    "covers_syllabus_refs": [
+      "H160/H161 DA-1",
+      "H160/H161 DA-2",
+      "H160/H161 DA-3",
+      "H160/H161 DA-4",
+      "H160/H161 DA-5",
+      "H160/H161 DA-6"
+    ],
+    "syllabus_topic": "Year 2: Data Analysis and Modelling",
+    "covers_items": [
+      "DA-1",
+      "DA-2",
+      "DA-3",
+      "DA-4",
+      "DA-5",
+      "DA-6"
+    ]
+  },
+  "S09_Biochemistry_and_Cell_Biology_for_Engineers": {
+    "covers_syllabus_refs": [
+      "H160/H161 CB-1",
+      "H160/H161 CB-2",
+      "H160/H161 CB-3",
+      "H160/H161 CB-4",
+      "H160/H161 CB-5",
+      "H160/H161 CB-6"
+    ],
+    "syllabus_topic": "Year 2: Biochemistry and Cell Biology",
+    "covers_items": [
+      "CB-1",
+      "CB-2",
+      "CB-3",
+      "CB-4",
+      "CB-5",
+      "CB-6"
+    ]
+  },
+  "S10_Bioelectricity_and_Medical_Instrumentation": {
+    "covers_syllabus_refs": [
+      "H160/H161 MI-1",
+      "H160/H161 MI-2",
+      "H160/H161 MI-3",
+      "H160/H161 MI-4",
+      "H160/H161 MI-5",
+      "H160/H161 MI-6"
+    ],
+    "syllabus_topic": "Year 3: Bioelectricity and Biophotonics Engineering - bioelectric instrumentation",
+    "covers_items": [
+      "MI-1",
+      "MI-2",
+      "MI-3",
+      "MI-4",
+      "MI-5",
+      "MI-6"
+    ]
+  },
+  "S11_Biophotonics_Signal_Processing_and_Biomedical_Component_Design": {
+    "covers_syllabus_refs": [
+      "H160/H161 BP-1",
+      "H160/H161 BP-2",
+      "H160/H161 BP-3",
+      "H160/H161 BP-4",
+      "H160/H161 BP-5",
+      "H160/H161 BP-6"
+    ],
+    "syllabus_topic": "Year 3: Bioelectricity and Biophotonics Engineering - biophotonics and imaging",
+    "covers_items": [
+      "BP-1",
+      "BP-2",
+      "BP-3",
+      "BP-4",
+      "BP-5",
+      "BP-6"
+    ]
+  },
+  "S12_Biomaterials_II_Drug_Delivery_and_Regenerative_Medicine": {
+    "covers_syllabus_refs": [
+      "H160/H161 BIO2-1",
+      "H160/H161 BIO2-2",
+      "H160/H161 BIO2-3",
+      "H160/H161 BIO2-4",
+      "H160/H161 BIO2-5",
+      "H160/H161 BIO2-6"
+    ],
+    "syllabus_topic": "Year 3: Biomaterials 2 and Regenerative Medicine (drug delivery)",
+    "covers_items": [
+      "BIO2-1",
+      "BIO2-2",
+      "BIO2-3",
+      "BIO2-4",
+      "BIO2-5",
+      "BIO2-6"
+    ]
+  },
+  "S13_Healthcare_Engineering_Systems_Regulation_and_Professional_Practice": {
+    "covers_syllabus_refs": [
+      "H160/H161 HC-1",
+      "H160/H161 HC-2",
+      "H160/H161 HC-3",
+      "H160/H161 HC-4",
+      "H160/H161 HC-5",
+      "H160/H161 HC-6"
+    ],
+    "syllabus_topic": "Year 3: Healthcare Engineering and Product Innovation Management",
+    "covers_items": [
+      "HC-1",
+      "HC-2",
+      "HC-3",
+      "HC-4",
+      "HC-5",
+      "HC-6"
+    ]
+  }
+}

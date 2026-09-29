@@ -1,0 +1,541 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "The Open University BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88 and open.ac.uk/courses/artificial-intelligence/degrees/bsc-computer-science-with-artificial-intelligence-r88, checked live 2026-09-27 and confirmed current, not superseded), cross-checked against the QAA Subject Benchmark Statement for Computing (published 2022-03, covering Computer Science)",
+    "url": "https://www.open.ac.uk/courses/qualifications/r88",
+    "version": "R88 module list and module pages as published on open.ac.uk, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "This course's own stable ids (block.letter, e.g. 7a), grouped into 15 stages: 12 stages map one-to-one onto R88's 12 named 30/60-credit modules' principal topic strand, and 3 stages (9 Computer Systems and Architecture, 10 Computer Networks and Cybersecurity, 12 Human-Computer Interaction and Professional/Legal/Ethical/Social Issues) cover QAA-benchmark-mandated core Computing topic areas that sit inside R88's introductory modules' broader themes rather than forming a standalone R88 module of their own -- see material_vintage for exactly which is which. The OU's own internal unit-by-unit numbering within each module sits behind the student VLE and is not reproduced."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1a",
+      "title": "Python control flow beyond A-level: list/dict/set comprehensions, generators and iterators",
+      "topic_area": "1 Computing Fundamentals 1: Programming Foundations (TM110)"
+    },
+    {
+      "id": "1b",
+      "title": "Recursion: recursive function design, base and recursive cases, tracing recursive calls and call-stack depth",
+      "topic_area": "1 Computing Fundamentals 1: Programming Foundations (TM110)"
+    },
+    {
+      "id": "1c",
+      "title": "Object-oriented programming in Python: classes, encapsulation, inheritance, polymorphism, dunder methods",
+      "topic_area": "1 Computing Fundamentals 1: Programming Foundations (TM110)"
+    },
+    {
+      "id": "1d",
+      "title": "Functional programming: higher-order functions, closures, lambda, map/filter/reduce, first-class functions",
+      "topic_area": "1 Computing Fundamentals 1: Programming Foundations (TM110)"
+    },
+    {
+      "id": "2a",
+      "title": "Data representation in depth: IEEE 754 floating point, character encoding (ASCII/Unicode/UTF-8)",
+      "topic_area": "2 Technologies in Practice: Systems, Networks and Cybersecurity Foundations (TM129)"
+    },
+    {
+      "id": "2b",
+      "title": "Cloud and distributed computing: IaaS/PaaS/SaaS, virtualisation, client-server vs peer-to-peer models",
+      "topic_area": "2 Technologies in Practice: Systems, Networks and Cybersecurity Foundations (TM129)"
+    },
+    {
+      "id": "2c",
+      "title": "Mobile computing architectures: mobile OS stack, sensors, app sandboxing",
+      "topic_area": "2 Technologies in Practice: Systems, Networks and Cybersecurity Foundations (TM129)"
+    },
+    {
+      "id": "2d",
+      "title": "Cybersecurity fundamentals: threat types, the CIA triad, authentication vs authorisation",
+      "topic_area": "2 Technologies in Practice: Systems, Networks and Cybersecurity Foundations (TM129)"
+    },
+    {
+      "id": "3a",
+      "title": "Propositional logic: truth tables, logical equivalence, De Morgan's laws and Boolean circuit simplification",
+      "topic_area": "3 Essential and Discrete Mathematics for Computing (MST124)"
+    },
+    {
+      "id": "3b",
+      "title": "Sets, relations and functions: set operations, relations (reflexive/symmetric/transitive), injective/surjective/bijective functions",
+      "topic_area": "3 Essential and Discrete Mathematics for Computing (MST124)"
+    },
+    {
+      "id": "3c",
+      "title": "Graph theory fundamentals: graphs, trees, adjacency matrix/list representations",
+      "topic_area": "3 Essential and Discrete Mathematics for Computing (MST124)"
+    },
+    {
+      "id": "3d",
+      "title": "Proof techniques: proof by induction and proof by contradiction, applied to a computing result",
+      "topic_area": "3 Essential and Discrete Mathematics for Computing (MST124)"
+    },
+    {
+      "id": "4a",
+      "title": "Relational database design: ER modelling, primary/foreign keys, 1:1, 1:M and M:N relationships",
+      "topic_area": "4 Computing Fundamentals 2: Databases and Software Engineering Foundations (TM113)"
+    },
+    {
+      "id": "4b",
+      "title": "Normalisation: functional dependencies, 1NF, 2NF, 3NF, redundancy and update/insert/delete anomalies",
+      "topic_area": "4 Computing Fundamentals 2: Databases and Software Engineering Foundations (TM113)"
+    },
+    {
+      "id": "4c",
+      "title": "Transactions and the ACID properties; basic concurrency control (locking)",
+      "topic_area": "4 Computing Fundamentals 2: Databases and Software Engineering Foundations (TM113)"
+    },
+    {
+      "id": "4d",
+      "title": "Software development lifecycle models: waterfall, iterative, Agile/Scrum, requirements engineering",
+      "topic_area": "4 Computing Fundamentals 2: Databases and Software Engineering Foundations (TM113)"
+    },
+    {
+      "id": "5a",
+      "title": "Object-oriented design principles: the SOLID principles, coupling and cohesion",
+      "topic_area": "5 Programming and Software Engineering (TM253)"
+    },
+    {
+      "id": "5b",
+      "title": "Design patterns: Singleton, Factory Method, Observer and Strategy -- purpose and structure",
+      "topic_area": "5 Programming and Software Engineering (TM253)"
+    },
+    {
+      "id": "5c",
+      "title": "Software testing: unit testing, black-box vs white-box testing, test coverage, test-driven development",
+      "topic_area": "5 Programming and Software Engineering (TM253)"
+    },
+    {
+      "id": "5d",
+      "title": "Version control and collaborative engineering practice: Git branching model, pull requests, code review",
+      "topic_area": "5 Programming and Software Engineering (TM253)"
+    },
+    {
+      "id": "6a",
+      "title": "Probability distributions for data analysis: binomial, Poisson and normal, applied to real data problems",
+      "topic_area": "6 Practical Modern Statistics (M249)"
+    },
+    {
+      "id": "6b",
+      "title": "Statistical inference: confidence intervals, hypothesis testing and p-values at degree depth",
+      "topic_area": "6 Practical Modern Statistics (M249)"
+    },
+    {
+      "id": "6c",
+      "title": "Correlation and simple linear regression: least squares, the correlation coefficient, R-squared, residuals",
+      "topic_area": "6 Practical Modern Statistics (M249)"
+    },
+    {
+      "id": "6d",
+      "title": "Data analysis in practice: descriptive statistics, choosing an appropriate summary/visualisation for a dataset",
+      "topic_area": "6 Practical Modern Statistics (M249)"
+    },
+    {
+      "id": "7a",
+      "title": "Asymptotic analysis: Big-O, Big-Omega and Big-Theta; analysing the time and space complexity of code",
+      "topic_area": "7 Algorithms and Data Structures (M269)"
+    },
+    {
+      "id": "7b",
+      "title": "Sorting algorithms: bubble/insertion sort (O(n^2)) versus merge sort/quicksort (O(n log n))",
+      "topic_area": "7 Algorithms and Data Structures (M269)"
+    },
+    {
+      "id": "7c",
+      "title": "Data structures: linked lists, hash tables and collision handling, beyond A-level stacks/queues",
+      "topic_area": "7 Algorithms and Data Structures (M269)"
+    },
+    {
+      "id": "7d",
+      "title": "Trees: binary search trees, tree traversal (in-order/pre-order/post-order), the case for self-balancing trees",
+      "topic_area": "7 Algorithms and Data Structures (M269)"
+    },
+    {
+      "id": "8a",
+      "title": "Formal languages and automata: finite state machines, regular expressions, an outline of the Chomsky hierarchy",
+      "topic_area": "8 Computability and Complexity Theory (M269)"
+    },
+    {
+      "id": "8b",
+      "title": "Turing machines: definition, the Church-Turing thesis, the universal Turing machine",
+      "topic_area": "8 Computability and Complexity Theory (M269)"
+    },
+    {
+      "id": "8c",
+      "title": "Decidability: the halting problem and a proof sketch of its undecidability",
+      "topic_area": "8 Computability and Complexity Theory (M269)"
+    },
+    {
+      "id": "8d",
+      "title": "Complexity classes: P, NP, NP-complete and NP-hard; the significance of the P vs NP question",
+      "topic_area": "8 Computability and Complexity Theory (M269)"
+    },
+    {
+      "id": "9a",
+      "title": "The von Neumann architecture and the fetch-decode-execute cycle at degree depth: pipelining and hazards",
+      "topic_area": "9 Computer Systems and Architecture (QAA benchmark core area)"
+    },
+    {
+      "id": "9b",
+      "title": "Memory hierarchy: registers, cache levels and hit/miss behaviour, RAM, virtual memory and paging",
+      "topic_area": "9 Computer Systems and Architecture (QAA benchmark core area)"
+    },
+    {
+      "id": "9c",
+      "title": "Operating systems: process states, CPU scheduling algorithms (FCFS, round robin, priority), deadlock",
+      "topic_area": "9 Computer Systems and Architecture (QAA benchmark core area)"
+    },
+    {
+      "id": "9d",
+      "title": "Parallel and multicore architectures: concurrency versus parallelism, race conditions and mutual exclusion",
+      "topic_area": "9 Computer Systems and Architecture (QAA benchmark core area)"
+    },
+    {
+      "id": "10a",
+      "title": "The OSI and TCP/IP reference models: layers and their responsibilities",
+      "topic_area": "10 Computer Networks and Cybersecurity (QAA benchmark core area)"
+    },
+    {
+      "id": "10b",
+      "title": "IP addressing and subnetting: CIDR notation, subnet masks, calculating network/broadcast addresses and usable hosts",
+      "topic_area": "10 Computer Networks and Cybersecurity (QAA benchmark core area)"
+    },
+    {
+      "id": "10c",
+      "title": "Transport and routing: TCP versus UDP, the TCP three-way handshake, routing fundamentals",
+      "topic_area": "10 Computer Networks and Cybersecurity (QAA benchmark core area)"
+    },
+    {
+      "id": "10d",
+      "title": "Network and application security: symmetric/asymmetric encryption, hashing, digital signatures, common web attacks",
+      "topic_area": "10 Computer Networks and Cybersecurity (QAA benchmark core area)"
+    },
+    {
+      "id": "11a",
+      "title": "Supervised learning: classification versus regression, the train/test split, overfitting and underfitting",
+      "topic_area": "11 Introduction to Machine Learning and Artificial Intelligence (TM258)"
+    },
+    {
+      "id": "11b",
+      "title": "Key supervised algorithms: k-nearest neighbours, decision trees, linear regression as a learned model",
+      "topic_area": "11 Introduction to Machine Learning and Artificial Intelligence (TM258)"
+    },
+    {
+      "id": "11c",
+      "title": "Unsupervised learning: clustering with k-means, the idea of dimensionality reduction",
+      "topic_area": "11 Introduction to Machine Learning and Artificial Intelligence (TM258)"
+    },
+    {
+      "id": "11d",
+      "title": "Evaluating classifiers: accuracy, precision, recall, F1 score and the confusion matrix",
+      "topic_area": "11 Introduction to Machine Learning and Artificial Intelligence (TM258)"
+    },
+    {
+      "id": "12a",
+      "title": "HCI principles: Nielsen's usability heuristics, the user-centred design process",
+      "topic_area": "12 Human-Computer Interaction and Professional, Legal, Ethical and Social Issues (QAA benchmark core area)"
+    },
+    {
+      "id": "12b",
+      "title": "Accessibility and inclusive design: the WCAG principles, assistive technology",
+      "topic_area": "12 Human-Computer Interaction and Professional, Legal, Ethical and Social Issues (QAA benchmark core area)"
+    },
+    {
+      "id": "12c",
+      "title": "Professional and legal frameworks: the BCS Code of Conduct, the Computer Misuse Act 1990, UK GDPR/Data Protection Act 2018",
+      "topic_area": "12 Human-Computer Interaction and Professional, Legal, Ethical and Social Issues (QAA benchmark core area)"
+    },
+    {
+      "id": "12d",
+      "title": "Ethics of computing: consequentialist and deontological frameworks applied to a professional computing dilemma",
+      "topic_area": "12 Human-Computer Interaction and Professional, Legal, Ethical and Social Issues (QAA benchmark core area)"
+    },
+    {
+      "id": "13a",
+      "title": "Neural networks: the perceptron, activation functions, computing a forward pass by hand",
+      "topic_area": "13 Advanced Machine Learning and Artificial Intelligence (TM358)"
+    },
+    {
+      "id": "13b",
+      "title": "Backpropagation and gradient descent: the intuition and a simple worked weight update",
+      "topic_area": "13 Advanced Machine Learning and Artificial Intelligence (TM358)"
+    },
+    {
+      "id": "13c",
+      "title": "Deep learning architectures: the convolution operation (CNNs), the idea of a recurrent/sequence model (RNNs)",
+      "topic_area": "13 Advanced Machine Learning and Artificial Intelligence (TM358)"
+    },
+    {
+      "id": "13d",
+      "title": "Practical machine learning: bias in training data, fairness metrics, model interpretability",
+      "topic_area": "13 Advanced Machine Learning and Artificial Intelligence (TM358)"
+    },
+    {
+      "id": "14a",
+      "title": "Symbolic AI versus connectionist AI: expert systems and knowledge representation versus neural approaches",
+      "topic_area": "14 AI in Practice, Cognitive Science and Ethics of AI (TM343/TM342)"
+    },
+    {
+      "id": "14b",
+      "title": "The Turing Test and philosophy of mind: strong versus weak AI, Searle's Chinese Room argument",
+      "topic_area": "14 AI in Practice, Cognitive Science and Ethics of AI (TM343/TM342)"
+    },
+    {
+      "id": "14c",
+      "title": "Deploying AI in practice: monitoring, data drift, the deployment-pipeline idea (MLOps basics)",
+      "topic_area": "14 AI in Practice, Cognitive Science and Ethics of AI (TM343/TM342)"
+    },
+    {
+      "id": "14d",
+      "title": "Ethics and risk of AI: bias and fairness, explainability, safety concerns, an outline of AI-specific regulation",
+      "topic_area": "14 AI in Practice, Cognitive Science and Ethics of AI (TM343/TM342)"
+    },
+    {
+      "id": "15a",
+      "title": "Project planning for a computing project: requirements gathering, scoping, milestone/Gantt planning",
+      "topic_area": "15 The Computing and IT Project: Methodology and Practice (TM470)"
+    },
+    {
+      "id": "15b",
+      "title": "Literature review and research methods appropriate to a computing project",
+      "topic_area": "15 The Computing and IT Project: Methodology and Practice (TM470)"
+    },
+    {
+      "id": "15c",
+      "title": "Software project risk management and quality assurance",
+      "topic_area": "15 The Computing and IT Project: Methodology and Practice (TM470)"
+    },
+    {
+      "id": "15d",
+      "title": "Writing and presenting a computing project report: structure, evaluation and critical reflection",
+      "topic_area": "15 The Computing and IT Project: Methodology and Practice (TM470)"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Programming_Foundations": {
+    "covers_syllabus_refs": [
+      "R88 1a",
+      "R88 1b",
+      "R88 1c",
+      "R88 1d"
+    ],
+    "syllabus_topic": "1 Computing Fundamentals 1: Programming Foundations (TM110)",
+    "covers_items": [
+      "1a",
+      "1b",
+      "1c",
+      "1d"
+    ]
+  },
+  "S02_Systems_Networks_and_Cybersecurity_Foundations": {
+    "covers_syllabus_refs": [
+      "R88 2a",
+      "R88 2b",
+      "R88 2c",
+      "R88 2d"
+    ],
+    "syllabus_topic": "2 Technologies in Practice: Systems, Networks and Cybersecurity Foundations (TM129)",
+    "covers_items": [
+      "2a",
+      "2b",
+      "2c",
+      "2d"
+    ]
+  },
+  "S03_Discrete_Mathematics_for_Computing": {
+    "covers_syllabus_refs": [
+      "R88 3a",
+      "R88 3b",
+      "R88 3c",
+      "R88 3d"
+    ],
+    "syllabus_topic": "3 Essential and Discrete Mathematics for Computing (MST124)",
+    "covers_items": [
+      "3a",
+      "3b",
+      "3c",
+      "3d"
+    ]
+  },
+  "S04_Databases_and_Software_Engineering_Foundations": {
+    "covers_syllabus_refs": [
+      "R88 4a",
+      "R88 4b",
+      "R88 4c",
+      "R88 4d"
+    ],
+    "syllabus_topic": "4 Computing Fundamentals 2: Databases and Software Engineering Foundations (TM113)",
+    "covers_items": [
+      "4a",
+      "4b",
+      "4c",
+      "4d"
+    ]
+  },
+  "S05_Programming_and_Software_Engineering": {
+    "covers_syllabus_refs": [
+      "R88 5a",
+      "R88 5b",
+      "R88 5c",
+      "R88 5d"
+    ],
+    "syllabus_topic": "5 Programming and Software Engineering (TM253)",
+    "covers_items": [
+      "5a",
+      "5b",
+      "5c",
+      "5d"
+    ]
+  },
+  "S06_Practical_Modern_Statistics": {
+    "covers_syllabus_refs": [
+      "R88 6a",
+      "R88 6b",
+      "R88 6c",
+      "R88 6d"
+    ],
+    "syllabus_topic": "6 Practical Modern Statistics (M249)",
+    "covers_items": [
+      "6a",
+      "6b",
+      "6c",
+      "6d"
+    ]
+  },
+  "S07_Algorithms_and_Data_Structures": {
+    "covers_syllabus_refs": [
+      "R88 7a",
+      "R88 7b",
+      "R88 7c",
+      "R88 7d"
+    ],
+    "syllabus_topic": "7 Algorithms and Data Structures (M269)",
+    "covers_items": [
+      "7a",
+      "7b",
+      "7c",
+      "7d"
+    ]
+  },
+  "S08_Computability_and_Complexity_Theory": {
+    "covers_syllabus_refs": [
+      "R88 8a",
+      "R88 8b",
+      "R88 8c",
+      "R88 8d"
+    ],
+    "syllabus_topic": "8 Computability and Complexity Theory (M269)",
+    "covers_items": [
+      "8a",
+      "8b",
+      "8c",
+      "8d"
+    ]
+  },
+  "S09_Computer_Systems_and_Architecture": {
+    "covers_syllabus_refs": [
+      "R88 9a",
+      "R88 9b",
+      "R88 9c",
+      "R88 9d"
+    ],
+    "syllabus_topic": "9 Computer Systems and Architecture (QAA benchmark core area)",
+    "covers_items": [
+      "9a",
+      "9b",
+      "9c",
+      "9d"
+    ]
+  },
+  "S10_Computer_Networks_and_Cybersecurity": {
+    "covers_syllabus_refs": [
+      "R88 10a",
+      "R88 10b",
+      "R88 10c",
+      "R88 10d"
+    ],
+    "syllabus_topic": "10 Computer Networks and Cybersecurity (QAA benchmark core area)",
+    "covers_items": [
+      "10a",
+      "10b",
+      "10c",
+      "10d"
+    ]
+  },
+  "S11_Introduction_to_Machine_Learning_and_AI": {
+    "covers_syllabus_refs": [
+      "R88 11a",
+      "R88 11b",
+      "R88 11c",
+      "R88 11d"
+    ],
+    "syllabus_topic": "11 Introduction to Machine Learning and Artificial Intelligence (TM258)",
+    "covers_items": [
+      "11a",
+      "11b",
+      "11c",
+      "11d"
+    ]
+  },
+  "S12_HCI_and_Professional_Ethical_Issues": {
+    "covers_syllabus_refs": [
+      "R88 12a",
+      "R88 12b",
+      "R88 12c",
+      "R88 12d"
+    ],
+    "syllabus_topic": "12 Human-Computer Interaction and Professional, Legal, Ethical and Social Issues (QAA benchmark core area)",
+    "covers_items": [
+      "12a",
+      "12b",
+      "12c",
+      "12d"
+    ]
+  },
+  "S13_Advanced_Machine_Learning_and_AI": {
+    "covers_syllabus_refs": [
+      "R88 13a",
+      "R88 13b",
+      "R88 13c",
+      "R88 13d"
+    ],
+    "syllabus_topic": "13 Advanced Machine Learning and Artificial Intelligence (TM358)",
+    "covers_items": [
+      "13a",
+      "13b",
+      "13c",
+      "13d"
+    ]
+  },
+  "S14_AI_in_Practice_Cognitive_Science_and_Ethics": {
+    "covers_syllabus_refs": [
+      "R88 14a",
+      "R88 14b",
+      "R88 14c",
+      "R88 14d"
+    ],
+    "syllabus_topic": "14 AI in Practice, Cognitive Science and Ethics of AI (TM343/TM342)",
+    "covers_items": [
+      "14a",
+      "14b",
+      "14c",
+      "14d"
+    ]
+  },
+  "S15_The_Computing_and_IT_Project": {
+    "covers_syllabus_refs": [
+      "R88 15a",
+      "R88 15b",
+      "R88 15c",
+      "R88 15d"
+    ],
+    "syllabus_topic": "15 The Computing and IT Project: Methodology and Practice (TM470)",
+    "covers_items": [
+      "15a",
+      "15b",
+      "15c",
+      "15d"
+    ]
+  }
+}

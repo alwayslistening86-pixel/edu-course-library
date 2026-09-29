@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "name": "Computer Science (BSc Hons) -- Open University R88 module-framework structure, QAA Computing Benchmark graded",
+  "requires_complete": [
+    "alevel_mathematics",
+    "alevel_computer_science"
+  ],
+  "standalone": false,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "The Open University's real BSc (Honours) Computer Science with Artificial Intelligence, qualification R88 (360 credits: open.ac.uk/courses/qualifications/r88, checked live 2026-09-27 and confirmed current), and the QAA Subject Benchmark Statement for Computing (published 2022-03, current, covering Computer Science). Researched 2026-09-27: the OU does not currently badge any award simply 'BSc Computer Science' -- its two live computing honours degrees are Q62 'Computing and IT' (a multi-pathway generalist degree: broad-based, software, communications-and-networking, communications-and-software) and R88 'Computer Science with Artificial Intelligence', which is the OU's only award with 'Computer Science' in its title. R88 was chosen as the anchor, per this library's 'prefer the OU' convention, since it is the OU's real, current, live-recruiting Computer Science honours degree; this is disclosed honestly rather than silently treated as a plain, non-AI Computer Science degree. R88's real Stage 1 (Level 4, 120 credits): TM129 'Technologies in practice', TM110 'Computing fundamentals 1: concepts and Python programming', MST124 'Essential mathematics 1', TM113 'Computing fundamentals 2: programming, databases, software engineering'. Stage 2 (Level 5, 120 credits): TM253 'Programming and software engineering', M249 'Practical modern statistics', TM258 'Introduction to machine learning and artificial intelligence', M269 'Algorithms, data structures and computability'. Stage 3 (Level 6, 120 credits): TM358 'Machine learning and artificial intelligence', TM343 'Artificial intelligence in practice', TM342 'Investigating intelligence and ethics', TM470 'The computing and IT project' (module codes and titles confirmed current from two independent live sources, the OU's own R88 qualification page and the OU's staff blog announcing R88, both accessed 2026-09-27). Of R88's 12 modules, 4 (TM258, TM358, TM343, TM342 -- one-third of the degree) are explicitly AI/ML-focused, reflecting that R88 is a genuinely AI-integrated Computer Science degree, not core-CS-plus-AI-badging; this course reflects that real weighting rather than diluting it. Because R88's own module descriptions (beyond their public summary sentences) sit behind the OU's student VLE and were not accessible, and because R88's 12 modules do not include a standalone module for computer systems/architecture, computer networks/security or HCI/professional-ethical-legal-social issues -- all mandatory areas of the QAA Computing benchmark, and present in R88's own introductory modules only as sub-themes (e.g. TM110/TM129 include cloud, mobile and cybersecurity sub-topics) -- this course itemises every stage's subject matter, including these three supplementary stages, using the standard, institution-agnostic topic breakdown for that area of computer science found in any undergraduate computing textbook or module descriptor (e.g. Cormen et al. 'Introduction to Algorithms'; Sipser 'Introduction to the Theory of Computation'; Stallings 'Computer Organization and Architecture'; Kurose and Ross 'Computer Networking: A Top-Down Approach'; Sommerville 'Software Engineering'; Silberschatz et al. 'Database System Concepts'; Preece, Rogers and Sharp 'Interaction Design') -- this is core computing knowledge, not institution-specific content -- rather than reproducing any OU question, TMA or exam paper. Every algorithm trace, calculation and program output in this course was produced by actually running Python when the course was built. Coverage is deliberately a compressed syllabus map, not the OU's full volume of study (R88 is 360 credits over 3-6 years; this course teaches the syllabus in 15 stages, the same order of magnitude used elsewhere in this library for a compressed degree).",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (Bachelor's degree with Honours), per QAA Framework for Higher Education Qualifications and the QAA Subject Benchmark Statement for Computing",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires both A-level Mathematics and A-level Computer Science. A-level Mathematics is the standard hard quantitative prerequisite for a Computer Science degree (needed for the discrete-maths, statistics, algorithm-complexity and machine-learning content here, and matching how R88 itself opens with MST124 'Essential mathematics 1'); A-level Computer Science is the obvious subject match and covers exactly the foundational material (data representation, algorithms basics, programming, databases, networks basics, ethics of algorithms) this course builds on and deliberately does not re-teach -- see the 'no A-level repetition' notice below for what is skipped and why."
+    },
+    {
+      "id": "no_alevel_repetition",
+      "text": "Because alevel_computer_science (AQA 7517) is a prerequisite, this course starts from genuinely degree-new material rather than re-teaching binary search, basic stacks/queues, the fetch-execute cycle's basic outline, two's complement, basic SQL SELECT/JOIN or introductory algorithmic-ethics discussion -- all already covered at A-level. Where a topic (e.g. sorting, the fetch-execute cycle, networks, ethics) recurs here, it is deliberately taken to degree depth: complexity comparison rather than a single algorithm, pipelining and cache rather than the bare cycle, subnetting and the transport layer rather than a single-paragraph overview, and named ethical frameworks applied rigorously rather than a general discussion."
+    },
+    {
+      "id": "python_toolchain",
+      "text": "A Python interpreter is assumed throughout for tracing programs, verifying algorithm behaviour and running short machine-learning-adjacent calculations by hand, exactly as the OU's own TM110/M269/TM258 modules assume Python use."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Programming_Foundations",
+    "S02_Systems_Networks_and_Cybersecurity_Foundations",
+    "S03_Discrete_Mathematics_for_Computing",
+    "S04_Databases_and_Software_Engineering_Foundations",
+    "S05_Programming_and_Software_Engineering",
+    "S06_Practical_Modern_Statistics",
+    "S07_Algorithms_and_Data_Structures",
+    "S08_Computability_and_Complexity_Theory",
+    "S09_Computer_Systems_and_Architecture",
+    "S10_Computer_Networks_and_Cybersecurity",
+    "S11_Introduction_to_Machine_Learning_and_AI",
+    "S12_HCI_and_Professional_Ethical_Issues",
+    "S13_Advanced_Machine_Learning_and_AI",
+    "S14_AI_in_Practice_Cognitive_Science_and_Ethics",
+    "S15_The_Computing_and_IT_Project"
+  ]
+}

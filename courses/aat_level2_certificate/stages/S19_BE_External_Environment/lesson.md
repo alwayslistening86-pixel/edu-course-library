@@ -1,0 +1,24 @@
+# S19_BE_External_Environment - Lesson: The external business environment
+
+## Goal
+The learner explains the economic, governmental and competitive external environment within which a business operates, including taxation, interest rates, exchange rates and international trade.
+
+## Syllabus items taught here
+- BE2.1 - The economic environment: the micro-economic environment, the profit motive, uncertainty and risk, the global business environment
+- BE2.2 - Government control of the economy: taxation, the principles of an effective tax system, government impact on interest rates, employment and spending
+- BE2.3 - The competitive environment: the global market, exchange rates, risk, the benefits and disadvantages of international trade
+
+## How to teach this
+Ask the learner: if the Bank of England raises interest rates, how might that affect a small business that has a loan? Have the learner attempt every calculation (VAT, discounts, control-account reconciliations, bank reconciliations, FIFO/LIFO/AVCO, labour pay, overhead absorption, product costs, budget variances) with full workings before checking the model answer -- these are computer-marked numeric-entry items in the real AAT assessment, so exact figures matter. Every numeric example in this course was computed and verified in Python when the course was built. UK VAT is taken at the standard rate of 20% throughout unless an item states otherwise; check the current rate at gov.uk if it may have changed. AAT's assessments use a mix of multiple-choice, numeric gap-fill and journal/ledger-entry question tools; this course's items mirror the same calculation-and-entry style using clearly marked short-answer and multiple-choice items.
+
+#### BE2.1 The economic environment: the micro-economic environment, the profit motive, uncertainty and risk, the global business environment
+The **micro-economic environment** covers the factors specific to a business's own market: demand, supply, competitors and customers. Every business operates under the **profit motive** (most businesses aim to maximise profit, i.e. revenue less costs, for their owners), but must also manage **uncertainty and risk** -- the possibility that actual outcomes (sales, costs, exchange rates) differ from what was planned, which affects decision-making. The **global business environment** means UK businesses are affected by events far beyond their own market: a change in a foreign supplier's costs, a global shortage of a key material, or shifts in international demand can all affect a purely domestic business through its supply chain or competitors.
+
+#### BE2.2 Government control of the economy: taxation, the principles of an effective tax system, government impact on interest rates, employment and spending
+Government affects the economy chiefly through **taxation** (raising revenue to fund public spending, and influencing behaviour, e.g. taxes on tobacco to discourage consumption). The **principles of an effective tax system** (from economist Adam Smith): it should be **equitable** (fair, related to ability to pay), **certain** (the taxpayer should know how much, when and how to pay), **convenient** (easy to pay) and **efficient** (cheap to collect relative to revenue raised). Government also affects business through **interest rates** (set by the Bank of England's Monetary Policy Committee; higher rates raise the cost of business borrowing and can reduce consumer spending, since saving becomes more attractive and mortgages/loans cost more), **employment** (minimum wage, employment law, unemployment levels affecting the labour market businesses draw on) and **government spending** (direct purchases from businesses, and its wider effect on overall demand in the economy).
+
+#### BE2.3 The competitive environment: the global market, exchange rates, risk, the benefits and disadvantages of international trade
+The **competitive environment** includes the **global market**: UK businesses increasingly compete with, sell to and buy from businesses in other countries. **Exchange rates** (the price of one currency in terms of another) affect the cost of imports and the competitiveness of exports: a weaker pound makes UK exports cheaper for foreign buyers (helping exporters) but makes imports more expensive for UK businesses (hurting importers), and a stronger pound has the opposite effect. This exposes businesses trading internationally to **exchange rate risk** -- uncertainty over what a foreign-currency transaction will actually be worth once converted. **International trade** brings benefits (access to larger markets, cheaper or better-quality inputs, increased competition driving efficiency) but also disadvantages (exposure to foreign competition, exchange rate risk, exposure to events and policy changes in other countries).
+
+## Explicitly not here
+Corporate social responsibility, ethics and sustainability are S20.

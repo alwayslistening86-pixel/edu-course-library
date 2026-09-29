@@ -1,0 +1,53 @@
+{
+  "schema_version": 4,
+  "name": "Romanian (ACLro) — Institutul Limbii Române, CEFR A1 through C2",
+  "requires_complete": [],
+  "selected_options": {},
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "Itemised 2026-09-19 (course rebuilt 2026-09-22). The 30 can-do items (RO-<level>-CD-*) reproduce, in paraphrase, the wording of the Council of Europe's CEFR Table 2 Self-assessment Grid (Listening, Reading, Spoken Interaction, Spoken Production, Writing for A1-C2), fetched from the official Europass PDF mirror of the Council of Europe document and cross-checked against the CEFR Table 1 Global Scale page on coe.int. The grammar (G) and vocabulary/topic (V) items per level itemise the standard teaching sequence used for Romanian as a foreign language (as taught by Institutul Limbii Române / ACLro-style courses and comparable RFL textbooks: a fi/a avea and the four verb conjugations at A1; perfect compus, reflexives and near future at A2; imperfect, subjunctive and reported speech at B1; full subjunctive/conditional, passive and the vocative at B2; register and idiom at C1-C2) and were completed from general, well-established knowledge of Romanian grammar and pedagogy rather than from a single numbered official curriculum document, since ACLro/ILR publish sample tests and level descriptions but not a single itemised numbered syllabus equivalent to a UK exam-board spec. This is flagged for re-verification against ILR's published sample-test pages if a more granular official item list becomes available. Facts about Romanian grammar (three genders including neuter, the noun-suffixed definite article, the vocative case, periphrastic future/subjunctive constructions, clitic pronoun forms) are accurate standard Romanian-linguistics content.",
+  "academic_level": 2,
+  "level_source": "learner-declared, no external framework available (as a single RQF level): placed at level 2. The course itself spans CEFR A1-C2, and each stage records its own CEFR level.",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_A1_Grammar_Basics",
+    "S02_A1_Grammar_Numbers_Pronouns",
+    "S03_A1_Vocab_People_Food",
+    "S04_A1_Vocab_World_Around",
+    "S05_A1_CanDo_Skills",
+    "S06_A2_Grammar_Past_Tenses",
+    "S07_A2_Grammar_Adjectives_Prepositions",
+    "S08_A2_Grammar_Pronouns_Travel_Shopping",
+    "S09_A2_Vocab_Life_Topics",
+    "S10_A2_CanDo_Skills",
+    "S11_B1_Grammar_Imperfect_Subjunctive",
+    "S12_B1_Grammar_Reported_Conditional",
+    "S13_B1_Grammar_Case_Work_Travel",
+    "S14_B1_Vocab_Opinions_World",
+    "S15_B1_CanDo_Skills",
+    "S16_B2_Grammar_Subjunctive_Passive",
+    "S17_B2_Grammar_Clauses_Register",
+    "S18_B2_Vocab_Abstract_Topics",
+    "S19_B2_CanDo_Skills",
+    "S20_C1_Grammar_Discourse_Idiom",
+    "S21_C1_Vocab_Register_Nuance",
+    "S22_C1_CanDo_Skills",
+    "S23_C2_Grammar_Mastery_Vocab",
+    "S24_C2_CanDo_Skills"
+  ],
+  "linear": true,
+  "framework": "Council of Europe Common European Framework of Reference for Languages (CEFR), six levels A1, A2, B1, B2, C1, C2, each defined by a Global Scale descriptor and, per skill, by the Table 2 Self-assessment Grid descriptors for Listening, Reading, Spoken Interaction, Spoken Production and Writing. Romanian-specific instruction follows the Institutul Limbii Române (ILR) / ACLro framework for Romanian as a foreign/heritage language, which certifies learners against these same CEFR levels through its own placement and level tests.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "declared"
+}

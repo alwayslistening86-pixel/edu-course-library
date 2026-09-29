@@ -1,0 +1,484 @@
+{
+  "stage_rubrics": {
+    "BT_S01_Business_Purpose_Stakeholders_and_Political_Legal_Macro_Factors": {
+      "criteria": [
+        "BT.A1: Purpose and types of business organisation",
+        "BT.A2: Stakeholders in business organisations",
+        "BT.A3: Political and legal factors affecting business",
+        "BT.A4: Macroeconomic factors"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.A1, BT.A2, BT.A3, BT.A4 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "BT_S02_Micro_Social_Technological_Environmental_and_Competitive_Factors": {
+      "criteria": [
+        "BT.A5: Microeconomic factors",
+        "BT.A6: Social and demographic factors",
+        "BT.A7: Technological factors",
+        "BT.A8: Environmental and sustainability factors",
+        "BT.A9: Competitive factors"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.A5, BT.A6, BT.A7, BT.A8, BT.A9 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "BT_S03_Organisational_Structure_Culture_and_Governance": {
+      "criteria": [
+        "BT.B1: Formal and informal business organisation",
+        "BT.B2: Business organisational structure",
+        "BT.B3: Organisational culture",
+        "BT.B4: Governance in business organisations",
+        "BT.B5: Sustainable business practices"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.B1, BT.B2, BT.B3, BT.B4, BT.B5 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "BT_S04_Accounting_and_Finance_Functions_Regulation_and_Financial_Information": {
+      "criteria": [
+        "BT.C1: Relationship between accounting and other business functions",
+        "BT.C2: Accounting and finance functions within business organisations",
+        "BT.C3: Regulation and financial crime",
+        "BT.C4: Financial information provided by business"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.C1, BT.C2, BT.C3, BT.C4 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "BT_S05_Financial_Systems_Internal_Controls_and_Technology": {
+      "criteria": [
+        "BT.C5: Financial systems and technology",
+        "BT.C6: Internal controls",
+        "BT.C7: Impact of advances in technology"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.C5, BT.C6, BT.C7 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "BT_S06_Leadership_Management_and_Teams": {
+      "criteria": [
+        "BT.D1: Leadership, management and supervision",
+        "BT.D2: Individual and group behaviour in business organisations",
+        "BT.D3: Team formation, development and management",
+        "BT.D4: Motivating individuals and teams",
+        "BT.D5: Learning and training at work",
+        "BT.D6: Review and appraisal of individual performance"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.D1, BT.D2, BT.D3, BT.D4, BT.D5, BT.D6 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "BT_S07_Personal_Effectiveness_and_Communication": {
+      "criteria": [
+        "BT.E1: Personal effectiveness",
+        "BT.E2: Consequences of ineffectiveness at work",
+        "BT.E3: Competence frameworks and personal development",
+        "BT.E4: Sources of conflict and techniques for conflict resolution",
+        "BT.E5: Communicating in business"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.E1, BT.E2, BT.E3, BT.E4, BT.E5 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "BT_S08_Professional_Ethics": {
+      "criteria": [
+        "BT.F1: Fundamental principles of ethical behaviour",
+        "BT.F2: Role of regulatory and professional bodies",
+        "BT.F3: Corporate codes of ethics",
+        "BT.F4: Ethical conflicts and dilemmas"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives BT.F1, BT.F2, BT.F3, BT.F4 (Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S01_Management_Information_and_Cost_Classification": {
+      "criteria": [
+        "MA.A1: Accounting for management",
+        "MA.A2: Sources of data",
+        "MA.A3: Cost classification",
+        "MA.A4: Presenting information"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.A1, MA.A2, MA.A3, MA.A4 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S02_Data_Analysis_and_Statistical_Techniques": {
+      "criteria": [
+        "MA.B1: Sampling methods",
+        "MA.B2: Forecasting techniques",
+        "MA.B3: Summarising and analysing data",
+        "MA.B4: Spreadsheets"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.B1, MA.B2, MA.B3, MA.B4 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S03_Materials_Labour_and_Overheads": {
+      "criteria": [
+        "MA.C1: Accounting for material, labour and overheads"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.C1 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S04_Costing_Methods_and_Alternative_Principles": {
+      "criteria": [
+        "MA.C2: Absorption and marginal costing",
+        "MA.C3: Cost accounting methods",
+        "MA.C4: Alternative cost accounting principles"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.C2, MA.C3, MA.C4 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S05_Budgeting_Fundamentals_and_Preparation": {
+      "criteria": [
+        "MA.D1: Nature and purpose of budgeting",
+        "MA.D2: Statistical techniques in budgeting",
+        "MA.D3: Functional budgets"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.D1, MA.D2, MA.D3 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S06_Investment_Appraisal_and_Budgetary_Control": {
+      "criteria": [
+        "MA.D4: Investment appraisal",
+        "MA.D5: Budgetary control and reporting",
+        "MA.D6: Behavioural aspects of budgeting"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.D4, MA.D5, MA.D6 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S07_Standard_Costing_and_Variance_Analysis": {
+      "criteria": [
+        "MA.E1: Standard costing system",
+        "MA.E2: Variance calculations and analysis",
+        "MA.E3: Reconciliation of budgeted and actual profit"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.E1, MA.E2, MA.E3 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "MA_S08_Performance_Measurement": {
+      "criteria": [
+        "MA.F1: Performance measurement overview",
+        "MA.F2: Performance measurement - application",
+        "MA.F3: Cost reductions and value enhancement",
+        "MA.F4: Monitoring performance and reporting"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives MA.F1, MA.F2, MA.F3, MA.F4 (Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S01_Context_and_Purpose_of_Financial_Reporting": {
+      "criteria": [
+        "FA.A1: Scope and purpose of financial statements for external reporting",
+        "FA.A2: Stakeholders' needs",
+        "FA.A3: Main elements of financial reports",
+        "FA.A4: Regulatory framework",
+        "FA.A5: Duties and responsibilities of those charged with governance"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.A1, FA.A2, FA.A3, FA.A4, FA.A5 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S02_Accounting_Principles_and_Double_Entry_Systems": {
+      "criteria": [
+        "FA.B1: Key principles and concepts of accounting",
+        "FA.B2: Qualitative characteristics of useful financial information",
+        "FA.C1: Double-entry bookkeeping principles and maintenance of records",
+        "FA.C2: General ledger accounts and journal entries"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.B1, FA.B2, FA.C1, FA.C2 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S03_Sales_Purchases_and_Cash": {
+      "criteria": [
+        "FA.D1: Sales and purchases",
+        "FA.D2: Cash"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.D1, FA.D2 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S04_Inventories": {
+      "criteria": [
+        "FA.D3: Inventories"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.D3 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S05_Non_Current_Assets_Depreciation_and_Intangibles": {
+      "criteria": [
+        "FA.D4: Tangible non-current assets",
+        "FA.D5: Depreciation",
+        "FA.D6: Intangible non-current assets and amortisation"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.D4, FA.D5, FA.D6 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S06_Accruals_Receivables_Payables_Provisions_and_Capital_Structure": {
+      "criteria": [
+        "FA.D7: Accruals, prepayments, accrued income and deferred income",
+        "FA.D8: Receivables and payables",
+        "FA.D9: Provisions and contingencies",
+        "FA.D10: Capital structure and finance costs"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.D7, FA.D8, FA.D9, FA.D10 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S07_Bank_and_Payables_Reconciliations": {
+      "criteria": [
+        "FA.E1: Bank reconciliations",
+        "FA.E2: Payables account reconciliations"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.E1, FA.E2 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S08_Trial_Balance_Errors_and_Suspense_Accounts": {
+      "criteria": [
+        "FA.F1: Trial balance",
+        "FA.F2: Correction of errors",
+        "FA.F3: Suspense accounts"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.F1, FA.F2, FA.F3 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S09_Statement_of_Financial_Position_and_Profit_or_Loss": {
+      "criteria": [
+        "FA.G1: Statement of financial position",
+        "FA.G2: Statement of profit or loss and other comprehensive income",
+        "FA.G3: Disclosure notes",
+        "FA.G4: Events after the reporting period"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.G1, FA.G2, FA.G3, FA.G4 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S10_Statement_of_Cash_Flows_and_Incomplete_Records": {
+      "criteria": [
+        "FA.G5: Statement of cash flows (excluding partnerships)",
+        "FA.G6: Incomplete records"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.G5, FA.G6 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S11_Introduction_to_Consolidated_Financial_Statements": {
+      "criteria": [
+        "FA.H1: Subsidiaries",
+        "FA.H2: Associates"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.H1, FA.H2 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    },
+    "FA_S12_Interpretation_of_Financial_Statements": {
+      "criteria": [
+        "FA.I1: Importance and purpose of financial statement analysis",
+        "FA.I2: Ratios",
+        "FA.I3: Analysis of financial statements"
+      ],
+      "pass_threshold": "At least 50% of this test's items/marks fully correct AND, on the full mock exam, at least 50% on each of the three papers individually (ACCA's own published pass mark of 50%, which applies uniformly to every ACCA exam, including per paper). A multiple-choice item is worth 1 mark and needs every correct option and nothing else; a marked question needs method shown for method marks (an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer).",
+      "source": {
+        "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+        "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+        "reference": "BT/FBT, MA/FMA, FA/FFA objectives FA.I1, FA.I2, FA.I3 (Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation)",
+        "urls": [
+          "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock covering all three papers in ACCA's CBE objective-test format: BT (46 objective + 6 multi-task, 100 marks), MA (the same CBE objective-test structure, 100 marks), FA (35 objective + 2 multi-task, 100 marks)",
+      "Item types as in the real exams: single-select and multiple-response objective questions, and multi-task/number-entry style questions reflecting Section B of each paper",
+      "Every numerical answer computed with Python; questions drawn from every stage of every paper"
+    ],
+    "pass_threshold": "At least 50% overall AND at least 50% on each of the three papers (BT, MA, FA) individually - ACCA's own published, uniform pass mark.",
+    "source": {
+      "issuing_body": "ACCA (Association of Chartered Certified Accountants)",
+      "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+      "reference": "ACCA BT/FBT, MA/FMA and FA/FFA exam format: 2-hour CBE, objective-test only, 100 marks per paper, 50% pass mark",
+      "urls": [
+        "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/"
+  ],
+  "source_notes": "ACCA publishes the syllabus, study guide, exam format and pass mark for each paper, but not full past papers for FIA/FBT-FFA-equivalent Applied Knowledge exams beyond specimen material. Stage tests and the mock are original questions in ACCA's style and objective-test format; every numeric answer was computed with Python."
+}

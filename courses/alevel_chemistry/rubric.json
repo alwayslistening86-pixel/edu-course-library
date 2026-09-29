@@ -1,0 +1,483 @@
+{
+  "stage_rubrics": {
+    "S01_Atomic_Structure": {
+      "criteria": [
+        "3.1.1.1: Fundamental particles",
+        "3.1.1.2: Mass number and isotopes",
+        "3.1.1.3: Electron configuration"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.1.1, 3.1.1.2, 3.1.1.3 (3.1 Physical chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S02_Amount_of_Substance": {
+      "criteria": [
+        "3.1.2.1: Relative atomic mass and relative molecular mass",
+        "3.1.2.2: The mole and the Avogadro constant",
+        "3.1.2.3: The ideal gas equation",
+        "3.1.2.4: Empirical and molecular formula",
+        "3.1.2.5: Balanced equations and associated calculations",
+        "RP1: Required practical 1: make up a volumetric solution and carry out a simple acid-base titration",
+        "MS 0.0: Recognise and make use of appropriate units in calculation",
+        "MS 0.1: Recognise and use expressions in decimal and ordinary form",
+        "MS 0.2: Use ratios, fractions and percentages",
+        "MS 1.1: Use an appropriate number of significant figures",
+        "MS 2.2: Change the subject of an equation",
+        "MS 2.3: Substitute numerical values into algebraic equations using appropriate units for physical quantities"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.2.1, 3.1.2.2, 3.1.2.3, 3.1.2.4, 3.1.2.5, RP1, MS 0.0, MS 0.1, MS 0.2, MS 1.1, MS 2.2, MS 2.3 (3.1 Physical chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S03_Bonding": {
+      "criteria": [
+        "3.1.3.1: Ionic bonding",
+        "3.1.3.2: Nature of covalent and dative covalent bonds",
+        "3.1.3.3: Metallic bonding",
+        "3.1.3.4: Bonding and physical properties",
+        "3.1.3.5: Shapes of simple molecules and ions",
+        "3.1.3.6: Bond polarity",
+        "3.1.3.7: Forces between molecules",
+        "MS 4.1: Use angles and shapes in regular 2D and 3D structures",
+        "MS 4.2: Visualise and represent 2D and 3D forms, including two-dimensional representations of 3D objects"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.3.1, 3.1.3.2, 3.1.3.3, 3.1.3.4, 3.1.3.5, 3.1.3.6, 3.1.3.7, MS 4.1, MS 4.2 (3.1 Physical chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S04_Energetics": {
+      "criteria": [
+        "3.1.4.1: Enthalpy change",
+        "3.1.4.2: Calorimetry",
+        "3.1.4.3: Applications of Hess\u2019s law",
+        "3.1.4.4: Bond enthalpies",
+        "RP2: Required practical 2: measurement of an enthalpy change",
+        "MS 0.3: Estimate results",
+        "MS 1.2: Find arithmetic means",
+        "MS 1.3: Identify uncertainties in measurements and use simple techniques to determine uncertainty when data are combined"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.4.1, 3.1.4.2, 3.1.4.3, 3.1.4.4, RP2, MS 0.3, MS 1.2, MS 1.3 (3.1 Physical chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S05_Kinetics": {
+      "criteria": [
+        "3.1.5.1: Collision theory",
+        "3.1.5.2: Maxwell\u2013Boltzmann distribution",
+        "3.1.5.3: Effect of temperature on reaction rate",
+        "3.1.5.4: Effect of concentration and pressure",
+        "3.1.5.5: Catalysts",
+        "RP3: Required practical 3: investigation of how the rate of a reaction changes with temperature",
+        "MS 3.5: Draw and use the slope of a tangent to a curve as a measure of rate of change"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.5.1, 3.1.5.2, 3.1.5.3, 3.1.5.4, 3.1.5.5, RP3, MS 3.5 (3.1 Physical chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S06_Equilibria_and_Kc": {
+      "criteria": [
+        "3.1.6.1: Chemical equilibria and Le Chatelier's principle",
+        "3.1.6.2: Equilibrium constant Kc for homogeneous systems",
+        "MS 2.1: Understand and use the symbols =, <, <<, >>, >, \u221d, ~ and the equilibrium sign",
+        "MS 2.4: Solve algebraic equations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.6.1, 3.1.6.2, MS 2.1, MS 2.4 (3.1 Physical chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S07_Redox": {
+      "criteria": [
+        "3.1.7: Oxidation, reduction and redox equations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.7 (3.1 Physical chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S08_Periodicity_Group2_Group7": {
+      "criteria": [
+        "3.2.1.1: Classification",
+        "3.2.1.2: Physical properties of Period 3 elements",
+        "3.2.2: Group 2, the alkaline earth metals",
+        "3.2.3.1: Trends in properties",
+        "3.2.3.2: Uses of chlorine and chlorate(I)",
+        "RP4: Required practical 4: test-tube reactions to identify Group 2 cations and NH4+, and halide, OH-, CO3 2- and SO4 2- anions"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.2.1.1, 3.2.1.2, 3.2.2, 3.2.3.1, 3.2.3.2, RP4 (3.2 Inorganic chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S09_Organic_Basics_and_Alkanes": {
+      "criteria": [
+        "3.3.1.1: Nomenclature",
+        "3.3.1.2: Reaction mechanisms",
+        "3.3.1.3: Isomerism",
+        "3.3.2.1: Fractional distillation of crude oil",
+        "3.3.2.2: Modification of alkanes by cracking",
+        "3.3.2.3: Combustion of alkanes",
+        "3.3.2.4: Chlorination of alkanes"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.1.1, 3.3.1.2, 3.3.1.3, 3.3.2.1, 3.3.2.2, 3.3.2.3, 3.3.2.4 (3.3 Organic chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S10_Halogenoalkanes_and_Alkenes": {
+      "criteria": [
+        "3.3.3.1: Nucleophilic substitution",
+        "3.3.3.2: Elimination",
+        "3.3.3.3: Ozone depletion",
+        "3.3.4.1: Structure, bonding and reactivity",
+        "3.3.4.2: Addition reactions of alkenes",
+        "3.3.4.3: Addition polymers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.3.1, 3.3.3.2, 3.3.3.3, 3.3.4.1, 3.3.4.2, 3.3.4.3 (3.3 Organic chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S11_Alcohols": {
+      "criteria": [
+        "3.3.5.1: Alcohol production",
+        "3.3.5.2: Oxidation of alcohols",
+        "3.3.5.3: Elimination",
+        "RP5: Required practical 5: distillation of a product from a reaction",
+        "RP6: Required practical 6: tests for alcohol, aldehyde, alkene and carboxylic acid"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.5.1, 3.3.5.2, 3.3.5.3, RP5, RP6 (3.3 Organic chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S12_Organic_Analysis": {
+      "criteria": [
+        "3.3.6.1: Identification of functional groups by test-tube reactions",
+        "3.3.6.2: Mass spectrometry",
+        "3.3.6.3: Infrared spectroscopy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.6.1, 3.3.6.2, 3.3.6.3 (3.3 Organic chemistry (first-year content))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S13_Thermodynamics": {
+      "criteria": [
+        "3.1.8.1: Born\u2013Haber cycles (A-level only)",
+        "3.1.8.2: Gibbs free-energy change, \u2206G, and entropy change, \u2206S (A-level only)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.8.1, 3.1.8.2 (3.1 Physical chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S14_Rate_Equations": {
+      "criteria": [
+        "3.1.9.1: Rate equations (A-level only)",
+        "3.1.9.2: Determination of rate equation (A-level only)",
+        "RP7: Required practical 7: measuring the rate of reaction by an initial rate method and by a continuous monitoring method",
+        "MS 0.4: Use calculators to find and use power, exponential and logarithmic functions",
+        "MS 3.3: Determine the slope and intercept of a linear graph",
+        "MS 3.4: Calculate rate of change from a graph showing a linear relationship"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.9.1, 3.1.9.2, RP7, MS 0.4, MS 3.3, MS 3.4 (3.1 Physical chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S15_Kp": {
+      "criteria": [
+        "3.1.10: Equilibrium constant Kp for homogeneous systems (A-level only)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.10 (3.1 Physical chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S16_Electrode_Potentials": {
+      "criteria": [
+        "3.1.11.1: Electrode potentials and cells (A-level only)",
+        "3.1.11.2: Commercial applications of electrochemical cells (A-level only)",
+        "RP8: Required practical 8: measuring the EMF of an electrochemical cell"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.11.1, 3.1.11.2, RP8 (3.1 Physical chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S17_Acids_and_Bases": {
+      "criteria": [
+        "3.1.12.1: Br\u00f8nsted\u2013Lowry acid\u2013base equilibria in aqueous solution (A-level only)",
+        "3.1.12.2: Definition and determination of pH (A-level only)",
+        "3.1.12.3: The ionic product of water, Kw (A-level only)",
+        "3.1.12.4: Weak acids and bases Ka for weak acids (A-level only)",
+        "3.1.12.5: pH curves, titrations and indicators (A-level only)",
+        "3.1.12.6: Buffer action (A-level only)",
+        "RP9: Required practical 9: pH changes when a weak acid reacts with a strong base and a strong acid with a weak base",
+        "MS 2.5: Use logarithms in relation to quantities that range over several orders of magnitude"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.1.12.1, 3.1.12.2, 3.1.12.3, 3.1.12.4, 3.1.12.5, 3.1.12.6, RP9, MS 2.5 (3.1 Physical chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S18_Period3_and_Transition_Metals": {
+      "criteria": [
+        "3.2.4: Properties of Period 3 elements and their oxides (A-level only)",
+        "3.2.5.1: General properties of transition metals (A-level only)",
+        "3.2.5.2: Substitution reactions (A-level only)",
+        "3.2.5.3: Shapes of complex ions (A-level only)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.2.4, 3.2.5.1, 3.2.5.2, 3.2.5.3 (3.2 Inorganic chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S19_Transition_Metal_Chemistry": {
+      "criteria": [
+        "3.2.5.4: Formation of coloured ions (A-level only)",
+        "3.2.5.5: Variable oxidation states (A-level only)",
+        "3.2.5.6: Catalysts (A-level only)",
+        "3.2.6: Reactions of ions in aqueous solution (A-level only)",
+        "RP11: Required practical 11: test-tube reactions to identify transition metal ions in aqueous solution"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.2.5.4, 3.2.5.5, 3.2.5.6, 3.2.6, RP11 (3.2 Inorganic chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S20_Optical_Isomerism_Carbonyls": {
+      "criteria": [
+        "3.3.7: Optical isomerism (A-level only)",
+        "3.3.8: Aldehydes and ketones (A-level only)",
+        "MS 4.3: Understand the symmetry of 2D and 3D shapes"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.7, 3.3.8, MS 4.3 (3.3 Organic chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S21_Carboxylic_Acids_and_Aromatics": {
+      "criteria": [
+        "3.3.9.1: Carboxylic acids and esters (A-level only)",
+        "3.3.9.2: Acylation (A-level only)",
+        "3.3.10.1: Bonding (A-level only)",
+        "3.3.10.2: Electrophilic substitution (A-level only)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.9.1, 3.3.9.2, 3.3.10.1, 3.3.10.2 (3.3 Organic chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S22_Amines_and_Polymers": {
+      "criteria": [
+        "3.3.11.1: Preparation (A-level only)",
+        "3.3.11.2: Base properties (A-level only)",
+        "3.3.11.3: Nucleophilic properties (A-level only)",
+        "3.3.12.1: Condensation polymers (A-level only)",
+        "3.3.12.2: Biodegradability and disposal of polymers (A-level only)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.11.1, 3.3.11.2, 3.3.11.3, 3.3.12.1, 3.3.12.2 (3.3 Organic chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S23_Amino_Acids_Proteins_DNA": {
+      "criteria": [
+        "3.3.13.1: Amino acids (A-level only)",
+        "3.3.13.2: Proteins (A-level only)",
+        "3.3.13.3: Enzymes (A-level only)",
+        "3.3.13.4: DNA (A-level only)",
+        "3.3.13.5: Action of anticancer drugs (A-level only)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.13.1, 3.3.13.2, 3.3.13.3, 3.3.13.4, 3.3.13.5 (3.3 Organic chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S24_Synthesis_NMR_Chromatography": {
+      "criteria": [
+        "3.3.14: Organic synthesis (A-level only)",
+        "3.3.15: Nuclear magnetic resonance spectroscopy (A-level only)",
+        "3.3.16: Chromatography (A-level only)",
+        "RP10: Required practical 10: preparation of a pure organic solid (with a purity test) and a pure organic liquid",
+        "RP12: Required practical 12: separation of species by thin-layer chromatography"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives 3.3.14, 3.3.15, 3.3.16, RP10, RP12 (3.3 Organic chemistry (A-level only))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    },
+    "S25_Practical_Skills_and_Data_Analysis": {
+      "criteria": [
+        "PS1.1: Solve problems set in practical contexts",
+        "PS1.2: Apply scientific knowledge to practical contexts",
+        "PS2.1: Comment on experimental design and evaluate scientific methods",
+        "PS2.2: Present data in appropriate ways",
+        "PS2.3: Evaluate results and draw conclusions with reference to measurement uncertainties and errors",
+        "PS2.4: Identify variables including those that must be controlled",
+        "PS3.1: Plot and interpret graphs",
+        "PS3.2: Process and analyse data using appropriate mathematical skills",
+        "PS3.3: Consider margins of error, accuracy and precision of data",
+        "PS4.1: Know and understand how to use a wide range of experimental and practical instruments, equipment and techniques",
+        "MS 3.1: Translate information between graphical, numerical and algebraic forms",
+        "MS 3.2: Plot two variables from experimental or other data"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at A-level; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+        "reference": "7405 objectives PS1.1, PS1.2, PS2.1, PS2.2, PS2.3, PS2.4, PS3.1, PS3.2, PS3.3, PS4.1, MS 3.1, MS 3.2 (Practical skills (8.3) and mathematical requirements (6))",
+        "urls": [
+          "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of three 2-hour papers in AQA's structure: Paper 1 (105 marks), Paper 2 (105 marks) and Paper 3 (90 marks: 40 on practical techniques and data analysis, 20 across the specification, 30 multiple-choice)",
+      "Short and long structured questions, including extended responses on mechanisms and practical methods",
+      "Working and units shown, marked against written mark schemes"
+    ],
+    "pass_threshold": "At least 50% of the 300 marks overall and at least 40% on each of the three papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA AS and A-level Chemistry (7404/7405) specification: subject content 3.1-3.3, mathematical requirements (section 6) and practical assessment (section 8)",
+      "reference": "AQA 7405 scheme of assessment: Papers 1 and 2 (2 h, 105 marks, 35% each), Paper 3 (2 h, 90 marks, 30%)",
+      "urls": [
+        "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://cdn.sanity.io/files/p28bar15/green/92d54bf5af45ea6fcdf91affd67c9cd8f3420f24.pdf"
+  ],
+  "source_notes": "AQA publishes the 7405 specification, including the content, mathematical requirements, practical skills, apparatus list and required practicals. Stage tests and the mock are original questions in AQA's style. Numerical answers were computed with Python using AQA Periodic Table and data sheet values."
+}

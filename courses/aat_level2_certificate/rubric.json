@@ -1,0 +1,399 @@
+{
+  "stage_rubrics": {
+    "S01_IB_Systems_and_Documents": {
+      "criteria": [
+        "IB1.1: The purpose of business documents: petty cash voucher, invoice, credit note (including for PPD), remittance advice, statement of account, bank statement",
+        "IB1.2: The process of recording bookkeeping transactions: books of prime entry, the cash book and petty cash book, the ledgers, the trial balance, financial statements, accuracy and digital systems",
+        "IB1.3: Create and use coding systems: types of code and where to use them",
+        "IB1.4: Set bookkeeping systems: the dual effect (debits and credits) and the accounting equation"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives IB1.1, IB1.2, IB1.3, IB1.4 (Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S02_IB_Customer_Invoices": {
+      "criteria": [
+        "IB2.1: Calculate invoice and credit note amounts: item price, net, VAT, total, trade discount, bulk discount",
+        "IB2.2: Enter customer invoices and credit notes into books of prime entry: sales daybook, sales returns daybook, discounts allowed daybook"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives IB2.1, IB2.2 (Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S03_IB_Customer_Receipts": {
+      "criteria": [
+        "IB2.3: Process receipts from customers: discrepancies, calculating amounts due including PPD, allocating receipts"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives IB2.3 (Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S04_IB_Supplier_Invoices": {
+      "criteria": [
+        "IB3.1: Check the accuracy of supplier invoices and credit notes: documents used, discounts, discrepancies",
+        "IB3.2: Enter purchase supplier invoices and credit notes into books of prime entry: purchases daybook, purchases returns daybook, discounts received daybook"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives IB3.1, IB3.2 (Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S05_IB_Supplier_Payments": {
+      "criteria": [
+        "IB3.3: Process payments to suppliers: discrepancies, calculating payments due including PPD, allocating payments"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives IB3.3 (Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S06_IB_Cash_Book_and_Petty_Cash": {
+      "criteria": [
+        "IB4.1: Enter receipts and payments into an analysed cash book",
+        "IB4.2: Enter receipts and payments into an analysed petty cash book, including the imprest and non-imprest systems",
+        "IB4.3: Total and balance the cash book and petty cash book",
+        "IB4.4: Process recurring receipts and payments"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives IB4.1, IB4.2, IB4.3, IB4.4 (Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S07_IB_Ledgers": {
+      "criteria": [
+        "IB5.1: Transfer data from the books of prime entry to the ledgers: receivables, payables and general ledgers",
+        "IB5.2: Total and balance ledger accounts: balance carried/brought down, debit and credit balances"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives IB5.1, IB5.2 (Introduction to Bookkeeping (unit ref H/618/3583, 65 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S08_PBC_Control_Accounts": {
+      "criteria": [
+        "PBC1.1: Produce control accounts: receivables, payables and VAT control accounts",
+        "PBC1.2: Reconcile control accounts with the receivables and payables ledgers, and identify reasons for discrepancies"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PBC1.1, PBC1.2 (Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S09_PBC_Bank_Reconciliation": {
+      "criteria": [
+        "PBC2.1: Payment methods and how they affect the bank balance",
+        "PBC2.2: Use the bank statement to update the cash book: unrecorded and duplicated items",
+        "PBC2.3: Complete bank reconciliation statements: unpresented cheques and outstanding lodgements"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PBC2.1, PBC2.2, PBC2.3 (Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S10_PBC_Journal_Transactions": {
+      "criteria": [
+        "PBC3.1: Produce journal entries to record bookkeeping transactions: opening entries, irrecoverable debts written off, payroll transactions"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PBC3.1 (Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S11_PBC_Journal_Error_Correction": {
+      "criteria": [
+        "PBC3.2: Produce journal entries to correct errors not disclosed by the trial balance",
+        "PBC3.3: Produce journal entries to correct errors disclosed by the trial balance, using a suspense account"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PBC3.2, PBC3.3 (Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S12_PBC_Trial_Balances": {
+      "criteria": [
+        "PBC4.1: Extract an initial trial balance",
+        "PBC4.2: Redraft the trial balance following adjustments"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PBC4.1, PBC4.2 (Principles of Bookkeeping Controls (unit ref K/618/3584, 50 GLH, unit + synoptic assessment))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S13_PC_Cost_Classification": {
+      "criteria": [
+        "PC1.1: Collection and classification of costs: element (labour/materials/overheads), nature (direct/indirect), behaviour (fixed/variable/semi-variable/stepped), product vs period costs",
+        "PC1.3: Relationships between costing and financial accounting systems within organisations",
+        "PC1.4: Sources of information on income and expenditure: historic, actual and budgeted costs, planning and control",
+        "PC1.5: Differences between cost, profit and investment centres, and their use in different organisations",
+        "PC1.6: Classification and recording of labour and overheads: coding systems and the manufacturing account"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PC1.1, PC1.3, PC1.4, PC1.5, PC1.6 (Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S14_PC_Inventory_Valuation": {
+      "criteria": [
+        "PC1.2: Costing techniques used in organisations: how product cost is determined, inventory valuation methods, labour costing methods, overhead absorption methods",
+        "PC2.1: Calculate cost of inventory issues and inventory valuations using FIFO, LIFO and AVCO"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PC1.2, PC2.1 (Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S15_PC_Labour_and_Overheads": {
+      "criteria": [
+        "PC2.2: Calculate labour payments: time-rate, overtime, piecework, bonuses, guaranteed minimum payments",
+        "PC2.3: Calculate overhead absorption rates: per unit, per labour hour, per machine hour"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PC2.2, PC2.3 (Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S16_PC_Cost_Behaviour_and_Product_Cost": {
+      "criteria": [
+        "PC2.4: Use cost behaviour to calculate total and unit costs at different levels of output",
+        "PC2.5: Calculate the costs of a product: direct cost, manufacturing cost, cost of goods manufactured and sold, in manufacturing and service organisations"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PC2.4, PC2.5 (Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S17_PC_Budgets_Variances_Tools": {
+      "criteria": [
+        "PC3.1: Actual and budgeted costs and income: fixed and flexible budgets, adverse/favourable variances",
+        "PC3.2: Exception reporting to identify, analyse and report on significant variances",
+        "PC4.1: Enter and format data in a spreadsheet: cells, formatting numbers and text",
+        "PC4.2: Use formulas to support cost calculations: addition, subtraction, multiplication, division"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives PC3.1, PC3.2, PC4.1, PC4.2 (Principles of Costing (unit ref M/618/3585, 50 GLH, unit assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S18_BE_Contract_Law": {
+      "criteria": [
+        "BE1.1: The different classifications of law: common law and equity, public and private law, criminal and civil law",
+        "BE1.2: The main sources of law: development of law by the courts, tribunals and parliament",
+        "BE1.3: Key features of contracts: offer, acceptance, consideration, capacity and legality, discharge by performance or breach",
+        "BE1.4: Remedies available for breach of contract: damages and equitable remedies"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives BE1.1, BE1.2, BE1.3, BE1.4 (The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S19_BE_External_Environment": {
+      "criteria": [
+        "BE2.1: The economic environment: the micro-economic environment, the profit motive, uncertainty and risk, the global business environment",
+        "BE2.2: Government control of the economy: taxation, the principles of an effective tax system, government impact on interest rates, employment and spending",
+        "BE2.3: The competitive environment: the global market, exchange rates, risk, the benefits and disadvantages of international trade"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives BE2.1, BE2.2, BE2.3 (The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S20_BE_CSR_Ethics_Sustainability": {
+      "criteria": [
+        "BE3.1: Corporate social responsibilities of a business: objectives, stakeholders, how CSR responsibilities change over time",
+        "BE3.2: Sustainability and the environment: triple bottom line reporting, the trade-off between sustainability and profit",
+        "BE3.3: The fundamental principles of ethics for accounting technicians: confidentiality, professional behaviour, professional competence and due care, integrity, objectivity",
+        "BE3.4: The need to act ethically: AAT's Code of Professional Ethics, the public interest duty, consequences of unethical behaviour"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives BE3.1, BE3.2, BE3.3, BE3.4 (The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S21_BE_Business_Entities": {
+      "criteria": [
+        "BE4.1: Models of business ownership: sole trader, partnership (including LLP), company, not-for-profit; limited liability; taxes applicable to each",
+        "BE4.2: The legal administration of a business: statutory books, accounting records, tax records, annual filing requirements",
+        "BE4.3: Business formation: how entities are formed, off-the-shelf companies, pre-incorporation contracts, business names"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives BE4.1, BE4.2, BE4.3 (The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S22_BE_Finance_Function": {
+      "criteria": [
+        "BE5.1: The different functions of a business: operations, sales and marketing, finance, HR, IT, distribution and logistics",
+        "BE5.2: The role of the finance function: statutory financial statements, service to internal and external stakeholders, outsourcing",
+        "BE5.3: How the finance team contributes to the success of an organisation: effective communication, solvency, policies and procedures"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives BE5.1, BE5.2, BE5.3 (The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S23_BE_Communication": {
+      "criteria": [
+        "BE6.1: Sources of information: valid vs invalid, primary vs secondary, choosing information for a purpose",
+        "BE6.2: Communicate information: business letters and emails, features of business communications, risks of social media and inappropriate sharing",
+        "BE6.3: Plan workload to meet the needs of the organisation: prioritising, monitoring and reviewing"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives BE6.1, BE6.2, BE6.3 (The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    },
+    "S24_BE_Information_and_Security": {
+      "criteria": [
+        "BE7.1: The role of information in the work of the finance function: characteristics of useful information, digital technologies, documents received and produced",
+        "BE7.2: The importance of data and information security: privacy, confidentiality, passwords, archiving, backups, cybersecurity"
+      ],
+      "pass_threshold": "At least 70% of this test's marks. This mirrors AAT's own published pass mark: AAT states it 'maintains a pass mark of 70% across all assessments' for this qualification (unit assessments and the synoptic assessment alike), unlike the course's usual 60% standard used where a real board-set pass mark is not published. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AAT (Association of Accounting Technicians)",
+        "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+        "reference": "603/6338/1 objectives BE7.1, BE7.2 (The Business Environment (unit ref M/618/3586, 90 GLH, synoptic assessment only))",
+        "urls": [
+          "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A synoptic-style scenario paper mirroring AAT's own synoptic assessment for this qualification: integrated, workplace-context questions drawing on Introduction to Bookkeeping, Principles of Bookkeeping Controls, Principles of Costing and The Business Environment together",
+      "A mix of multiple-choice, numeric gap-fill calculation and short written/journal-entry questions, matching AAT's published assessment objectives for the synoptic assessment",
+      "Calculations marked with method shown; journal/ledger entries marked on correct account names, correct side (debit/credit) and correct amount"
+    ],
+    "pass_threshold": "At least 70% of the exam's marks (AAT's own real, published pass mark for this qualification's assessments).",
+    "source": {
+      "issuing_body": "AAT (Association of Accounting Technicians)",
+      "document": "AAT Level 2 Certificate in Accounting qualification specification (Qualification Number 603/6338/1), Version 5.6, published September 2026",
+      "reference": "AAT 603/6338/1 synoptic assessment specification: 2 hours, partially computer/partially human marked, 8 weighted assessment objectives spanning all four units",
+      "urls": [
+        "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.aat.org.uk/files/AAT-Level-2-Certificate-in-Accounting-Q2022-qualification-specification.pdf"
+  ],
+  "source_notes": "AAT publishes the Level 2 Certificate in Accounting qualification specification, including the scope of content, learning outcomes and test specification for each unit. Stage tests, practice items and the cumulative exam are original questions in AAT's assessment style (numeric gap-fill, multiple-choice, journal/ledger-entry style short answers), not real past-assessment items. Every numerical answer was computed and checked with Python when this course was built."
+}

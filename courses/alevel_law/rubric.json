@@ -1,0 +1,448 @@
+{
+  "stage_rubrics": {
+    "S01_Nature_of_Law_and_Society": {
+      "criteria": [
+        "NL.1: The nature of law: enforceable legal rules distinguished from other social/moral rules; the distinction between civil and criminal law; the main sources of law (custom, case law, legislation)",
+        "NL.2: Law and society: the role of law in regulating society and balancing competing interests; enforceable legal rights and obligations; the meaning and importance of fault",
+        "NL.3: Law and morality: the distinction between law and morality in a pluralist society; the relationship between the two; the extent to which law enforces moral values",
+        "NL.4: Law and justice: the meaning of justice, and theories of justice (formal, procedural, distributive, corrective/commutative); the extent to which law achieves justice in civil and criminal contexts"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives NL.1, NL.2, NL.3, NL.4 (The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S02_Rule_of_Law_and_Parliamentary_Law_Making": {
+      "criteria": [
+        "RL.1: The rule of law: the constitutional doctrine and its application to law-making, the legal system and substantive law -- no punishment without breach of a known law, equality before the law, and access to fair, clear legal process",
+        "PLM.1: Parliamentary law making: Green and White Papers; the formal legislative process and the stages a Bill goes through; influences on Parliament (pressure groups, the media, the Law Commission); parliamentary supremacy and its limits; advantages and disadvantages of the process and its influences"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives RL.1, PLM.1 (The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S03_Delegated_Legislation_and_Statutory_Interpretation": {
+      "criteria": [
+        "DL.1: Delegated legislation: types (Orders in Council, statutory instruments, by-laws); reasons for its use; parliamentary and judicial controls (including substantive and procedural ultra vires); advantages and disadvantages",
+        "SI.1: Statutory interpretation: the literal, golden, mischief and purposive approaches; intrinsic and extrinsic aids; the impact of the Human Rights Act 1998 and retained EU law principles on interpretation; advantages and disadvantages of each approach"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives DL.1, SI.1 (The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S04_Precedent_Law_Reform_and_the_EU": {
+      "criteria": [
+        "JP.1: Judicial precedent: the doctrine of stare decisis; the court hierarchy including the Supreme Court; ratio decidendi and obiter dicta; law reporting; original, binding and persuasive precedent; distinguishing, overruling and reversing; advantages and disadvantages",
+        "LR.1: Law reform: the role of the Law Commission in reform, codification, consolidation and repeal, and the process by which it works; advantages and disadvantages of Law Commission-led reform",
+        "EU.1: The European Union: the institutions of the EU and their functions; sources of EU law (treaties, regulations, directives); the impact of EU law and its retained status on the law of England and Wales after Brexit"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives JP.1, LR.1, EU.1 (The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S05_Civil_and_Criminal_Courts": {
+      "criteria": [
+        "CC.1: The civil legal system: the civil courts and the track system (small claims, fast track, multi-track); the civil appeal system; tribunals; the role of mediation and negotiation as dispute resolution methods",
+        "CR.1: The criminal legal system and lay people: classification of offences (summary/either-way/indictable); the criminal courts and the appeal system; the powers of the criminal courts and adult offender sentencing; the role and powers of magistrates; the role, selection and advantages/disadvantages of juries"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives CC.1, CR.1 (The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S06_Legal_Personnel_Judiciary_and_Access_to_Justice": {
+      "criteria": [
+        "LP.1: Legal personnel and the judiciary: the roles of barristers, solicitors and legal executives and how they are regulated; types of judge; the role of judges in civil and criminal courts; judicial independence -- security of tenure, immunity from suit, independence from the executive -- why it matters and how it is secured",
+        "AJ.1: Access to justice and funding: alternative sources of legal advice (helplines, Citizens Advice, law centres, trade unions); private funding (own resources, insurance, conditional fee agreements); public funding for criminal and civil matters"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives LP.1, AJ.1 (The nature of law and the English legal system (examined across Papers 1, 2 and 3, 25 marks per paper))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S07_General_Elements_of_Criminal_Liability": {
+      "criteria": [
+        "GE.1: General elements of criminal liability: actus reus -- conduct, acts and omissions (and when a duty to act arises), state-of-affairs offences, voluntariness, causation (factual and legal, including intervening acts) and consequences",
+        "GE.2: General elements of criminal liability: mens rea -- direct and oblique intention, subjective (Cunningham) recklessness, negligence, transferred malice, the coincidence of actus reus and mens rea (continuing act/single transaction), and strict liability offences"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives GE.1, GE.2 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S08_Murder_and_Loss_of_Control": {
+      "criteria": [
+        "FO.1: Fatal offences: murder -- the actus reus (unlawful killing of a person under the King's Peace) and mens rea (intention to kill or cause grievous bodily harm)",
+        "FO.2: Fatal offences: voluntary manslaughter -- loss of control under s54 Coroners and Justice Act 2009 (qualifying triggers, the objective standard of self-restraint expected)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives FO.1, FO.2 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S09_Diminished_Responsibility_and_Involuntary_Manslaughter": {
+      "criteria": [
+        "FO.3: Fatal offences: voluntary manslaughter -- diminished responsibility under s2 Homicide Act 1957 as amended by the Coroners and Justice Act 2009 (abnormality of mental functioning from a recognised medical condition, substantially impairing responsibility)",
+        "FO.4: Fatal offences: involuntary manslaughter -- unlawful act (constructive) manslaughter and gross negligence manslaughter"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives FO.3, FO.4 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S10_Common_Assault_and_ABH": {
+      "criteria": [
+        "NFO.1: Non-fatal offences: common assault -- assault and battery at common law",
+        "NFO.2: Non-fatal offences: assault occasioning actual bodily harm, s47 Offences Against the Person Act 1861"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives NFO.1, NFO.2 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S11_GBH_and_Wounding": {
+      "criteria": [
+        "NFO.3: Non-fatal offences: malicious wounding or inflicting grievous bodily harm, s20 Offences Against the Person Act 1861",
+        "NFO.4: Non-fatal offences: wounding or causing grievous bodily harm with intent, s18 Offences Against the Person Act 1861"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives NFO.3, NFO.4 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S12_Theft_and_Robbery": {
+      "criteria": [
+        "PO.1: Property offences: theft, s1 Theft Act 1968 (appropriation, property, belonging to another, dishonesty, intention permanently to deprive)",
+        "PO.2: Property offences: robbery, s8 Theft Act 1968 (theft plus force or the threat of force, immediately before or at the time of stealing, in order to steal)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives PO.1, PO.2 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S13_Attempt_and_Capacity_Defences": {
+      "criteria": [
+        "PREL.1: Preliminary offence: attempt, s1 Criminal Attempts Act 1981 (an act more than merely preparatory, done with intent to commit the full offence)",
+        "DEF.1: Defences: capacity -- insanity (the M'Naghten Rules) and automatism (including self-induced automatism)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives PREL.1, DEF.1 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S14_Intoxication_and_Self_Defence": {
+      "criteria": [
+        "DEF.2: Defences: capacity -- voluntary and involuntary intoxication and its effect on liability for specific and basic intent offences",
+        "DEF.3: Defences: necessity -- self-defence and the prevention of crime, s76 Criminal Justice and Immigration Act 2008 (the need to act, the degree of force reasonable in the circumstances as the defendant believed them to be)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives DEF.2, DEF.3 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S15_Duress": {
+      "criteria": [
+        "DEF.4: Defences: necessity -- duress by threats and duress of circumstances"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives DEF.4 (Paper 1: Criminal law (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S16_Duty_and_Breach_in_Negligence": {
+      "criteria": [
+        "NEG.1: Liability in negligence: duty of care -- the neighbour principle and the modern Caparo three-stage test (foreseeability, proximity, fair/just/reasonable to impose a duty)",
+        "NEG.2: Liability in negligence: breach of duty -- the objective standard of the reasonable person, and the factors courts weigh (risk, cost/practicability of precautions, special characteristics, benefit to society)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives NEG.1, NEG.2 (Paper 2: Tort (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S17_Causation_Remoteness_and_Economic_Loss": {
+      "criteria": [
+        "NEG.3: Liability in negligence: damage -- factual causation (the 'but for' test), legal causation (intervening acts) and remoteness of damage (the type of harm must be a reasonably foreseeable kind)",
+        "ECO.1: Liability in negligence for pure economic loss: loss from negligent acts (generally not recoverable) and loss from negligent misstatement (recoverable where a special relationship of proximity/reliance exists)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives NEG.3, ECO.1 (Paper 2: Tort (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S18_Psychiatric_Injury_and_Occupiers_Liability_Visitors": {
+      "criteria": [
+        "ECO.2: Liability in negligence for psychiatric injury: the primary/secondary victim distinction and the additional control mechanisms secondary victims must satisfy (proximity of relationship, time/space, and perception through own unaided senses)",
+        "OL.1: Occupiers' liability to visitors under the Occupiers' Liability Act 1957: the common duty of care, who is an occupier, who is a visitor, and defences (warnings, independent contractors, volenti, contributory negligence)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives ECO.2, OL.1 (Paper 2: Tort (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S19_Occupiers_Liability_Trespassers_and_Private_Nuisance": {
+      "criteria": [
+        "OL.2: Occupiers' liability to trespassers under the Occupiers' Liability Act 1984: the conditions for a duty to arise (awareness of the danger, knowledge/reasonable grounds to believe someone is in the vicinity, the risk is one the occupier can reasonably be expected to protect against) and its more limited content",
+        "NUI.1: Private nuisance: an unlawful, indirect interference with a person's use or enjoyment of land, the factors courts weigh (locality, duration, sensitivity, malice), and defences (prescription, statutory authority)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives OL.2, NUI.1 (Paper 2: Tort (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S20_Rylands_v_Fletcher_and_Vicarious_Liability": {
+      "criteria": [
+        "NUI.2: The rule in Rylands v Fletcher (1868): strict liability for the escape of a dangerous thing accumulated on land in the course of a non-natural use, and its relationship with private nuisance",
+        "VL.1: Vicarious liability: the nature and public-policy purpose of the doctrine; the tests for employment status (the relationship 'akin to employment'); the 'close connection' test for whether a tort is committed in the course of employment"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives NUI.2, VL.1 (Paper 2: Tort (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S21_Tort_Defences_and_Remedies": {
+      "criteria": [
+        "TDEF.1: Tort defences: contributory negligence (Law Reform (Contributory Negligence) Act 1945, apportionment) and consent/volenti non fit injuria (full defence, requiring genuine free and informed agreement to the risk)",
+        "REM.1: Tort remedies: compensatory damages (special/general damages for physical injury, property and economic loss, and the duty to mitigate loss) and injunctions (to restrain a continuing tort such as nuisance)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives TDEF.1, REM.1 (Paper 2: Tort (75 marks))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S22_Offer_and_Acceptance": {
+      "criteria": [
+        "FORM.1: Essential requirements of a valid contract: offer -- distinguished from an invitation to treat (goods on display, advertisements, auctions), how an offer may be terminated (revocation, rejection, lapse of time, counter-offer)",
+        "FORM.2: Essential requirements of a valid contract: acceptance -- a mirror-image, unconditional agreement to the offer's terms, communication of acceptance, the postal rule, and acceptance by electronic/instantaneous communication"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives FORM.1, FORM.2 (Paper 3A: Law of contract (75 marks) -- the option this course takes)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S23_Consideration_Privity_and_Intention": {
+      "criteria": [
+        "FORM.3: Essential requirements of a valid contract: consideration -- must have some value but need not be adequate, must move from the promisee, and cannot be past; promissory estoppel as a limited exception where a promise is relied on; privity of contract and the Contracts (Rights of Third Parties) Act 1999",
+        "FORM.4: Essential requirements of a valid contract: intention to create legal relations -- the rebuttable presumptions in social/domestic and commercial agreements, and how each presumption can be displaced on the facts"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives FORM.3, FORM.4 (Paper 3A: Law of contract (75 marks) -- the option this course takes)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S24_Contract_Terms_and_Exclusion_Clauses": {
+      "criteria": [
+        "TERMS.1: Contract terms: express terms; implied terms (by statute, custom, courts and, for commercial contracts, by trade custom); the distinction between conditions, warranties and innominate terms, and the remedy each attracts on breach",
+        "TERMS.2: Exclusion and limitation clauses: incorporation (signature, notice, course of dealing) and construction (the contra proferentem rule) at common law; statutory control under the Unfair Contract Terms Act 1977 (s2, s3) for business-to-business contracts and the Consumer Rights Act 2015 (s31, s57, s65) for consumer contracts"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives TERMS.1, TERMS.2 (Paper 3A: Law of contract (75 marks) -- the option this course takes)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S25_Consumer_Rights_Act_Implied_Terms": {
+      "criteria": [
+        "STAT.1: Statutory implied terms in consumer contracts for the supply of goods, Consumer Rights Act 2015: s9 satisfactory quality, s10 fitness for a particular purpose, s11 as described; the tiered consumer remedies -- s20 short-term right to reject, s23 repair or replacement, s24 price reduction or final right to reject",
+        "STAT.2: Statutory implied terms in consumer contracts for the supply of services, Consumer Rights Act 2015: s49 reasonable care and skill, s52 performance within a reasonable time; the consumer remedies of s55 repeat performance and s56 price reduction"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives STAT.1, STAT.2 (Paper 3A: Law of contract (75 marks) -- the option this course takes)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S26_Vitiating_Factors": {
+      "criteria": [
+        "VIT.1: Vitiating factors: misrepresentation -- a false statement of fact inducing the contract; the categories (fraudulent, negligent under Misrepresentation Act 1967 s2(1), and innocent) and the remedies (rescission, damages) each attracts",
+        "VIT.2: Vitiating factors: economic duress -- illegitimate pressure that is a significant cause of entering the contract, leaving the victim no reasonable alternative, and the remedy of rescission"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives VIT.1, VIT.2 (Paper 3A: Law of contract (75 marks) -- the option this course takes)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S27_Discharge_of_Contract": {
+      "criteria": [
+        "DIS.1: Discharge of a contract: by performance (the general rule of complete and exact performance, and its exceptions) and by breach (actual and anticipatory breach, and when a breach entitles the innocent party to treat the contract as discharged)",
+        "DIS.2: Discharge of a contract: by frustration -- events making performance impossible, illegal or radically different from what was contracted for, and the effect of the Law Reform (Frustrated Contracts) Act 1943"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives DIS.1, DIS.2 (Paper 3A: Law of contract (75 marks) -- the option this course takes)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    },
+    "S28_Contract_Remedies": {
+      "criteria": [
+        "CREM.1: Contract remedies: compensatory damages -- the categories of recoverable loss, causation, remoteness (the rule in Hadley v Baxendale) and the claimant's duty to mitigate loss",
+        "CREM.2: Contract remedies: equitable remedies -- specific performance and rescission, and why they are discretionary and subject to equitable bars (delay, a claimant not coming 'with clean hands', third-party rights)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure A-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Short knowledge items award a mark per accurate, specific point (a vague or generic point earns nothing) with named statutory authority or case law where the answer key requires it. Structured application/advice items are marked issue-rule-application-conclusion (IRAC): identify the legal issue(s) the facts raise, state the applicable rule precisely with its authority (statute section or case, named exactly), apply it to the specific facts given (not a restatement of the rule in the abstract), and reach a supported conclusion or piece of advice. A correct rule with no application to the facts earns AO1 credit only, not the AO2 application marks. Extended writing (a discursive 15-mark essay or a 30-mark extended scenario/essay) is marked holistically against AQA's generic levels of response, not by a checklist of points.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+        "reference": "7162 objectives CREM.1, CREM.2 (Paper 3A: Law of contract (75 marks) -- the option this course takes)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of three papers in AQA's structure: Paper 1 (2h, 100 marks: ELS 25, Criminal law 75)",
+      "Paper 2 (2h, 100 marks: ELS 25, Tort 75)",
+      "Paper 3A (2h, 100 marks: ELS 25, Contract 75)",
+      "Each paper mixes MCQ (1 mark), short knowledge (5 marks), application-to-scenario (5-10 marks), a 15-mark discursive essay and 30-mark extended scenario/essay questions, matching AQA's real tariffs",
+      "Extended writing assessed by AQA's generic levels of response: accurate knowledge (AO1), application to the facts given (AO2), and analysis/evaluation reaching a substantiated conclusion (AO3)"
+    ],
+    "pass_threshold": "At least 50% of the 300 marks overall and at least 40% on each of the three papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA A-level Law (7162) specification, for first teaching from September 2017, current PDF as published at filestore.aqa.org.uk (update-stamped 10 Jul 2026): 3.1 The nature of law and the English legal system, 3.2 Criminal law, 3.3 Tort, and 3.4 Law of contract (the Paper 3A option this course takes; 3.5 Human rights, the Paper 3B alternative, is not selected); plus the scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics across the three papers)",
+      "reference": "AQA 7162 scheme of assessment: Paper 1 100 marks/33.3%, Paper 2 100 marks/33.3%, Paper 3A 100 marks/33.3%",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/law/specifications/AQA-7162-SP-2017.PDF"
+  ],
+  "source_notes": "AQA publishes the 7162 specification, its scheme of assessment, Appendix 1 (command words) and Appendix 2 (distribution of non-substantive law topics) directly at aqa.org.uk. The detailed content taught here follows the specification's own published content for 3.1, 3.2, 3.3 and 3.4 (the Contract option). Question style, tariffs and AO weightings were additionally cross-checked against AQA's own June 2023 published mark schemes for Papers 1, 2 and 3A, which is also where this course's case citations for illustrative scenarios were checked against real AQA answer keys where they overlap. Every case name, year and principle in the lessons below was independently checked against the case's actual reported facts and holding, not assumed from the topic area alone."
+}

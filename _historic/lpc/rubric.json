@@ -1,0 +1,502 @@
+{
+  "stage_rubrics": {
+    "S01_BLP_Vehicles_and_Governance": {
+      "criteria": [
+        "Correctly identifies the business vehicle and its legal personality/liability consequences",
+        "Names the correct CA 2006 formation documents and the purpose of the PSC register",
+        "Distinguishes board-level from shareholder-level decisions and states the correct majority for each",
+        "Applies at least four of the seven CA 2006 ss.171-177 directors' duties accurately to the facts"
+      ],
+      "pass_threshold": "Competent: correctly identifies the vehicle, cites the right decision-making procedure and majority, and correctly applies at least four of the seven CA 2006 directors' duties to a fact pattern (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Business Law and Practice module",
+        "reference": "Business Law and Practice - vehicles, formation and governance",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S02_BLP_Finance_Insolvency_and_Tax": {
+      "criteria": [
+        "Correctly compares equity and debt finance, including pre-emption rights and the effect of dilution",
+        "Distinguishes fixed and floating charges correctly, including the 21-day registration requirement",
+        "States and applies the statutory order of priority on liquidation accurately",
+        "Applies the correct tax treatment (income tax/CGT vs corporation tax/VAT) to the vehicle in the facts"
+      ],
+      "pass_threshold": "Competent: compares equity and debt finance correctly, identifies fixed vs floating charges and the registration requirement, states the statutory priority order accurately, and applies the correct tax (income tax/CGT vs corporation tax/VAT) to the right vehicle (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Business Law and Practice module",
+        "reference": "Business Law and Practice - finance, insolvency and taxation",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S03_PLP_PreContract_to_Exchange": {
+      "criteria": [
+        "Correctly identifies the contents of the property, proprietorship and charges registers",
+        "Selects an appropriate and complete search and enquiry bundle for the fact pattern",
+        "Identifies the correct contract terms, including leasehold-specific additions where relevant",
+        "Explains accurately the legal effect of exchange, including passing of risk"
+      ],
+      "pass_threshold": "Competent: correctly names all three registers and their contents, selects the right searches and enquiries for a given transaction, drafts contract terms accurately, and explains the legal effect of exchange (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Property Law and Practice module",
+        "reference": "Property Law and Practice - pre-contract stage and exchange",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S04_PLP_Completion_SDLT_and_Leasehold": {
+      "criteria": [
+        "Correctly explains completion mechanics and the completion/registration gap for legal title",
+        "Calculates SDLT correctly and states the correct filing deadline for the period in the facts",
+        "Sequences post-completion steps correctly, including the purpose of the priority period search",
+        "Identifies all relevant leasehold-specific requirements accurately"
+      ],
+      "pass_threshold": "Competent: explains completion accurately, calculates SDLT and states the correct filing deadline (flagging historical vs current periods), completes post-completion steps in the right order, and identifies leasehold-specific requirements (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Property Law and Practice module",
+        "reference": "Property Law and Practice - completion and post-completion",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S05_LIT_Civil_PreAction_and_Starting_a_Claim": {
+      "criteria": [
+        "Correctly applies pre-action protocol requirements and the costs-sanction consequence of ignoring them",
+        "Correctly sequences statements of case and explains the statement of truth requirement",
+        "States and applies the correct limitation period accurately",
+        "Allocates the claim to the correct track with sound reasoning on value/complexity"
+      ],
+      "pass_threshold": "Competent: correctly applies pre-action protocol requirements, sequences statements of case with a statement of truth, states the correct limitation period, and allocates the claim to the right track (percentage-marked module, 50% threshold; a module fail requires resitting BOTH the Civil and Criminal papers).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Litigation (Civil and Criminal) module",
+        "reference": "Litigation - Civil, pre-action and commencement (65% weight of the combined paper)",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S06_LIT_Civil_Interim_Trial_and_Costs": {
+      "criteria": [
+        "Correctly states the scope and continuing nature of the disclosure duty",
+        "Applies the summary judgment and/or interim injunction tests accurately",
+        "Correctly explains Part 36 costs consequences on the given facts",
+        "Identifies appropriate, realistic enforcement methods and the general costs-follow-the-event rule"
+      ],
+      "pass_threshold": "Competent: correctly states the disclosure duty, applies the summary judgment and interim injunction tests, advises accurately on Part 36 costs consequences, and identifies appropriate enforcement methods (percentage-marked module, 50% threshold; a module fail requires resitting BOTH the Civil and Criminal papers).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Litigation (Civil and Criminal) module",
+        "reference": "Litigation - Civil, interim steps to enforcement (65% weight of the combined paper)",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S07_LIT_Criminal_PoliceStation_to_Bail": {
+      "criteria": [
+        "Correctly explains the right to legal advice and the PACE detention clock",
+        "Advises accurately and specifically on the s.34 adverse inference risk",
+        "Correctly states the Bail Act 1976 presumption and identifies relevant grounds to displace it",
+        "Advice is realistic, balanced and appropriately cautious given the evidential stakes"
+      ],
+      "pass_threshold": "Competent: correctly explains the right to legal advice and detention clock, advises accurately on the s.34 adverse inference risk, and applies the Bail Act 1976 presumption and grounds to displace it (percentage-marked module, 50% threshold; a module fail requires resitting BOTH the Civil and Criminal papers).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Litigation (Civil and Criminal) module",
+        "reference": "Litigation - Criminal, police station to charge (35% weight of the combined paper)",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S08_LIT_Criminal_Trial_and_Sentencing": {
+      "criteria": [
+        "Correctly classifies the offence and explains the mode of trial/allocation procedure",
+        "Accurately distinguishes Magistrates' and Crown Court trial process",
+        "Correctly states the burden and standard of proof",
+        "Applies the sentencing framework (culpability, harm, aggravating/mitigating factors, disposal range) appropriately"
+      ],
+      "pass_threshold": "Competent: correctly classifies the offence and identifies venue, explains the trial process and burden/standard of proof accurately, and applies the sentencing framework appropriately (percentage-marked module, 50% threshold; a module fail requires resitting BOTH the Civil and Criminal papers).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Litigation (Civil and Criminal) module",
+        "reference": "Litigation - Criminal, classification to sentencing (35% weight of the combined paper)",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S09_PCR_Conduct_and_Regulation": {
+      "criteria": [
+        "Correctly applies the Principles-over-Code hierarchy where they appear to conflict",
+        "Accurately classifies own-interest conflict versus client conflict",
+        "Correctly resolves the confidentiality/disclosure clash in favour of the right client",
+        "Applies client care, AML and solicitors' accounts rules accurately and completely"
+      ],
+      "pass_threshold": "Competent: correctly applies the Principles-over-Code hierarchy, classifies conflicts accurately, resolves confidentiality/disclosure clashes correctly, and applies client care, AML and accounts rules accurately (MCQ assessment, 50% threshold, graded competent/not yet competent).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Professional Conduct and Regulation module (bundles Solicitors' Accounts)",
+        "reference": "Professional Conduct and Regulation - full module",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S10_WAE_Wills_Intestacy_and_Estate_Administration": {
+      "criteria": [
+        "Correctly applies the Wills Act 1837 s.9 formalities and the capacity/knowledge and approval/undue influence tests",
+        "Correctly explains revocation, including the marriage trap",
+        "Applies the intestacy hierarchy accurately, including the cohabitant trap",
+        "Identifies the correct type of grant and sequences estate administration and IHT reliefs correctly"
+      ],
+      "pass_threshold": "Competent: correctly tests will validity and revocation, applies intestacy rules and the cohabitant trap, identifies the correct grant, calculates basic IHT reliefs, and sequences estate administration (MCQ assessment, at least 50% required for an award of competent).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Wills and Administration of Estates module",
+        "reference": "Wills and Administration of Estates - full module",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S11_Skills_Interviewing_and_Advising": {
+      "criteria": [
+        "Opens the interview with a clear, well-structured introduction and agreed meeting structure",
+        "Gathers information effectively using open-to-closed questioning and active listening",
+        "Correctly identifies the client's real underlying objective, not just their opening statement",
+        "Advises in plain English with genuine, balanced options and closes with clear agreed next steps"
+      ],
+      "pass_threshold": "Competent: runs all four stages of the structure fluently on an unseen scenario, gathers facts without leading or interrupting, identifies the client's real objective, and gives balanced advice with genuine options (oral assessment, 50% threshold, graded competent/not yet competent).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Course Skills - Interviewing and Advising",
+        "reference": "Course Skills - Interviewing and Advising, assessed as a live oral skill",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S12_Skills_Advocacy": {
+      "criteria": [
+        "States who they appear for, the order sought, and a clear one-sentence case theory up front",
+        "Structures supporting points in strength order, each properly supported",
+        "Responds directly and appropriately to a judicial intervention rather than ignoring it",
+        "Observes correct courtroom manner, forms of address, and a measured pace throughout"
+      ],
+      "pass_threshold": "Competent: delivers a structured submission with the order and case theory stated up front, handles at least one judicial intervention correctly, and observes correct courtroom manner (oral assessment, 50% threshold, graded competent/not yet competent).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Course Skills - Advocacy",
+        "reference": "Course Skills - Advocacy, assessed as a live oral skill",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S13_Skills_Practical_Legal_Research": {
+      "criteria": [
+        "Frames a precise, answerable research question from a vague instruction",
+        "Selects an appropriate starting source type with sound reasoning",
+        "Demonstrates efficient, iterative search technique using correct legal vocabulary",
+        "Verifies currency of the law and presents a clear, honestly caveated final answer with a usable trail"
+      ],
+      "pass_threshold": "Competent: frames a precise research question, chooses an appropriate source type, verifies currency of the law found, and produces a clear, honestly caveated answer with a usable trail (takeaway assessment, 50% threshold, graded competent/not yet competent).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Course Skills - Practical Legal Research and Writing",
+        "reference": "Course Skills - Practical Legal Research (module examined jointly with Legal Writing; this stage isolates the research method)",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S14_Skills_Legal_Writing": {
+      "criteria": [
+        "Attendance note follows correct heading/body/action-points structure with a neutral, factual style",
+        "Client letter follows the five-part scaffold with the headline answer given up front",
+        "Plain-English conventions (jargon defined, short sentences, active voice) applied consistently",
+        "Register correctly matched to the document's intended reader"
+      ],
+      "pass_threshold": "Competent: produces a correctly structured attendance note and client letter, applies plain-English conventions consistently, and matches register correctly to the intended reader (takeaway assessment, 50% threshold, graded competent/not yet competent).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Course Skills - Practical Legal Research and Writing",
+        "reference": "Course Skills - Legal Writing (module examined jointly with Practical Legal Research; this stage isolates the writing conventions)",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S15_Skills_Drafting": {
+      "criteria": [
+        "Cuts redundant wording and uses defined terms consistently",
+        "Structures clauses with numbered sub-clauses and accurate cross-references",
+        "Builds a clear who/what/by-when/consequence structure into operative clauses",
+        "Produces at least two of the four practical document types correctly and precisely"
+      ],
+      "pass_threshold": "Competent: applies core drafting principles consistently, and produces at least two of the four document types correctly structured, precise and internally consistent (unseen written assessment, 50% threshold, graded competent/not yet competent).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Course Skills - Drafting",
+        "reference": "Course Skills - Drafting, assessed by unseen supervised written assessment",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S16_CLIP_Commercial_Contracts_and_Trade_Marks": {
+      "criteria": [
+        "Correctly applies sale of goods implied terms and explains the effect of retention of title",
+        "Correctly distinguishes agency, distribution and franchising and identifies competition law issues where relevant",
+        "Accurately applies the registered trade mark infringement test where relevant",
+        "Accurately applies all three elements of the passing-off test"
+      ],
+      "pass_threshold": "Competent: correctly applies implied terms and retention of title, distinguishes agency/distribution/franchising, and applies both the trade mark infringement test and the passing-off elements accurately (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Commercial Law and Intellectual Property elective",
+        "reference": "Commercial Law and Intellectual Property - commercial contracts and trade marks",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S17_CLIP_Copyright_Patents_Confidentiality_and_Exploitation": {
+      "criteria": [
+        "Correctly applies the copyright subsistence and substantial-part infringement test",
+        "Correctly applies the patentability requirements, including the disclose-before-filing trap",
+        "Accurately applies the three-part confidential information test",
+        "Correctly distinguishes licence types and identifies appropriate IP due diligence points"
+      ],
+      "pass_threshold": "Competent: correctly applies the copyright and patent tests, the confidential information test, and advises accurately on licensing structures and IP due diligence (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Commercial Law and Intellectual Property elective",
+        "reference": "Commercial Law and Intellectual Property - copyright, patents, confidentiality and exploitation",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S18_EMP_Status_Contract_and_Dismissal": {
+      "criteria": [
+        "Correctly applies the three-factor test to classify employment status",
+        "Correctly identifies the source(s) of the disputed contract term",
+        "Accurately distinguishes wrongful dismissal from unfair dismissal and applies each correctly",
+        "Applies the potentially-fair-reason and reasonableness/procedure tests accurately to the facts"
+      ],
+      "pass_threshold": "Competent: correctly classifies employment status, identifies contract term sources, and correctly distinguishes and applies wrongful and unfair dismissal tests (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Employment Law elective",
+        "reference": "Employment Law - status, contract and dismissal",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S19_EMP_Redundancy_Discrimination_and_Tribunal_Procedure": {
+      "criteria": [
+        "Correctly applies the fair redundancy process (pool, criteria, consultation, alternative employment)",
+        "Correctly identifies the relevant type(s) of discrimination and applies the test accurately",
+        "Correctly explains the reasonable adjustments duty and its proactive nature",
+        "Correctly states ACAS Early Conciliation and tribunal time limit requirements"
+      ],
+      "pass_threshold": "Competent: correctly applies the fair redundancy process, identifies discrimination types and the reasonable adjustments duty accurately, and correctly states tribunal procedure and time limits (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Employment Law elective",
+        "reference": "Employment Law - redundancy, discrimination and tribunal procedure",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S20_FAM_Divorce_and_Financial_Remedies": {
+      "criteria": [
+        "Correctly identifies the applicable divorce/dissolution regime and explains the procedural stages",
+        "Applies the statutory checklist factors accurately and specifically to the facts",
+        "Correctly identifies and applies the relevant needs/sharing/compensation approach(es)",
+        "Explains the clean break principle accurately, including when it may not be appropriate"
+      ],
+      "pass_threshold": "Competent: correctly explains divorce/dissolution procedure for the relevant era, applies the financial remedies checklist and approaches accurately, and correctly explains the clean break principle (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Family Law elective",
+        "reference": "Family Law - divorce procedure and financial remedies",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    },
+    "S21_FAM_Children_Proceedings_and_Practice": {
+      "criteria": [
+        "Correctly applies the welfare principle as the paramount consideration",
+        "Applies the welfare checklist accurately and specifically to the facts",
+        "Correctly identifies parental responsibility status and how it could be acquired",
+        "Gives appropriate, safeguarding-aware practice advice, including on non-court dispute resolution"
+      ],
+      "pass_threshold": "Competent: correctly applies the welfare principle and checklist, correctly identifies who has parental responsibility, and gives appropriate, safeguarding-aware practice advice (percentage-marked module, 50% threshold).",
+      "source": {
+        "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+        "document": "BPP LPC Programme Handbook 2017-18, Family Law elective",
+        "reference": "Family Law - children proceedings and practice points",
+        "urls": [
+          "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+          "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+          "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+          "https://www.legislation.gov.uk"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Every percentage-marked module (Business Law and Practice, Property Law and Practice, Litigation, and all three vocational electives) is checked against a 50% pass mark using an original, unseen scenario",
+      "Every pass/fail module (Professional Conduct and Regulation, Wills and Administration of Estates, and all five Course Skills modules) is checked against a 50%-threshold award of competent using an original, unseen task in its real assessment format (written MCQ-style, oral, or written skills task as appropriate)",
+      "The Litigation check honestly applies the real 65%/35% Civil/Criminal weighting and the both-halves-on-resit rule",
+      "The learner is told plainly, module by module, which parts passed and which need further work, rather than being given one undifferentiated overall mark"
+    ],
+    "pass_threshold": "Overall course completion requires an individually assessed pass or award of competent in every one of the thirteen modules below, applying each module's own pass mark or competence threshold; there is no single combined \"final exam\" script in the real LPC, and this cumulative exam is built to mirror that reality honestly rather than inventing one.",
+    "source": {
+      "issuing_body": "BPP University Law School and the Solicitors Regulation Authority (SRA)",
+      "document": "BPP LPC Programme Handbook 2017-18; SRA LPC Information Pack (competent/not yet competent standard)",
+      "reference": "Cumulative exam modelled on the LPC's real, mixed module-by-module assessment structure",
+      "urls": [
+        "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+        "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+        "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+        "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+        "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+        "https://www.legislation.gov.uk"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://s3-eu-west-1.amazonaws.com/bppassets/public/assets/pdf/handbooks/LPC-Handbook-2017-18.pdf",
+    "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/lpc/#outcomes",
+    "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/",
+    "https://www.sra.org.uk/become-solicitor/legal-practice-course-route/resources/legal-practice-course-information-pack/lpc-requirements/",
+    "https://www.bpp.com/courses/law/postgraduate/lpc-legal-practice-course",
+    "https://www.legislation.gov.uk"
+  ],
+  "source_notes": [
+    "Primary source for module list, credit values, assessment formats and the Distinction/Commendation/Pass classification scheme: BPP LPC Programme Handbook 2017-18. Source for the two-stage (Core Practice Areas + Vocational Electives) outcomes-based structure and the 'competent/not yet competent' assessment standard for Wills and Administration of Estates, Professional Conduct and Regulation, and the Course Skills modules: the SRA's own published LPC route overview and Information Pack.",
+    "BPP's real handbook lists sixteen available vocational electives in total; this course, inherited from the prior build's course.json stage ladder, uses only three selected electives (Commercial Law and Intellectual Property, Employment Law, Family Law). Other real BPP electives (e.g. Commercial Property, Corporate Finance, Immigration) exist but are out of scope for this course's ladder.",
+    "The BPP course page confirming the LPC no longer runs live (superseded by the SQE) is the basis for this course's 'historical' currency marker; the substantive law and procedure taught, current as of the 2017-18 snapshot, has since changed in places (for example the SDLT filing deadline moved from 30 to 14 days in 2019, and no-fault divorce commenced in 2022) -- each stage flags where a rule's era matters rather than silently presenting a superseded rule as current.",
+    "Case law, statutes, SRA rules and procedural rules cited throughout (Companies Act 2006, Insolvency Act 1986, CPR, PACE 1984, Equality Act 2010, Wills Act 1837, SRA Principles/Code of Conduct) are real, checkable, well-known English authority and regulation, not exam-board-specific invention."
+  ]
+}

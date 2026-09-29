@@ -1,0 +1,36 @@
+# S07_Crime_and_Punishment_since_1900 - Lesson: Crime and punishment in modern Britain, c1900-present
+
+## Goal
+The learner can describe continuity and change in modern crime, explain new legal definitions (driving, race, drugs), describe modern policing and prevention, and explain the abolition of the death penalty and rise of non-custodial punishment, including Conscientious Objectors and the Derek Bentley case.
+
+## Syllabus items taught here
+- 10.4.1a - Continuity and change in crimes since 1900, including new forms of theft and smuggling: Describe modern crime and its continuities
+- 10.4.1b - Changing definitions of crime: driving offences, race crimes and drug crimes: Explain how new crimes were defined
+- 10.4.2a - Law enforcement: Neighbourhood Watch; specialisation, science and technology, prevention: Describe modern policing and its shift to prevention
+- 10.4.2b - Abolition of the death penalty; open prisons; young offenders; non-custodial punishments: Explain modern punishment change
+- 10.4.3a - Case study: Conscientious Objectors in the First and Second World Wars: Compare treatment of COs in the two wars
+- 10.4.3b - Case study: the Derek Bentley case and the abolition of the death penalty: Explain the case and its significance
+
+## How to teach this
+Open with: 'Name a crime that did not exist in 1900. Now name a punishment used in 1900 that no longer exists.' Use the answers (drug offences, speeding; public hanging) to launch the stage.
+
+#### 10.4.1a Continuity and change in crimes since 1900, including new forms of theft and smuggling
+Theft, murder, assault and fraud remain the bulk of crime, showing strong continuity with earlier centuries, but their methods changed: cars enabled new theft (joyriding, car theft) and cybercrime (hacking, online fraud, identity theft) emerged from the 1980s as computers and the internet spread, requiring new laws such as the Computer Misuse Act 1990. Smuggling continued but its goods changed: from spirits and tea to, from the later twentieth century, illegal drugs and, more recently, people-smuggling. Terrorism became a major and organised concern from the later twentieth century, driven by political and religious causes (for example, Irish republican and, later, Islamist terrorism), leading to specific anti-terrorism legislation. The pattern is continuity of core crime types alongside constant new opportunities from technology and social change.
+
+#### 10.4.1b Changing definitions of crime: driving offences, race crimes and drug crimes
+Motoring created wholly new crimes as cars spread: the Motor Car Act 1903 introduced registration and a speed limit, and dangerous or drunk driving, driving without a licence or insurance became offences, driven by rising casualties and by technology (the car itself). Race relations law responded to postwar immigration and prejudice: the Race Relations Acts of 1965, 1968 and 1976 progressively made racial discrimination and incitement to racial hatred crimes, reflecting changed attitudes after events such as the 1958 Notting Hill disturbances. Drug crime followed international and medical concern about addiction: the Dangerous Drugs Act 1920 and later the Misuse of Drugs Act 1971 classified drugs and criminalised possession and supply, as recreational drug use grew, especially from the 1960s. Each shows attitudes and technology together creating law.
+
+#### 10.4.2a Law enforcement: Neighbourhood Watch; specialisation, science and technology, prevention
+Policing became far more specialised: separate units cover fraud, drugs, firearms, cybercrime and counter-terrorism, and forensic science (fingerprinting from 1901, and DNA profiling, pioneered by Alec Jeffreys in 1984 and first used to convict in 1988) transformed detection. Technology such as police radios, computers (the Police National Computer, 1974), CCTV and, more recently, automatic number-plate recognition extended reach. From the 1980s, policy shifted towards crime prevention rather than only detection and punishment: Neighbourhood Watch (started in Britain in 1982) encourages communities to look out for suspicious activity and report it, echoing medieval community responsibility in a new form. Cooperation between police and public, and a focus on preventing crime before it happens, mark a significant change in policing philosophy.
+
+#### 10.4.2b Abolition of the death penalty; open prisons; young offenders; non-custodial punishments
+Capital punishment for murder was suspended by the Murder (Abolition of Death Penalty) Act 1965 and permanently abolished in 1969, reflecting changed attitudes (doubts after miscarriages of justice, humanitarian campaigning, and Europe-wide abolition trends); it had already been ended for most other offences earlier in the century. Prisons diversified: open prisons, with minimal security for low-risk offenders, aim at rehabilitation and resettlement. Youth justice developed separately: borstals (from 1902) and later young offender institutions kept under-18s apart from adults, reflecting a belief that young offenders should be reformed, not simply punished. Non-custodial punishments expanded hugely: fines, probation (from 1907), community service (from 1973) and electronic tagging (from the 1990s) reflect a shift towards rehabilitation and cost-effective alternatives to prison for less serious offences.
+
+#### 10.4.3a Case study: Conscientious Objectors in the First and Second World Wars
+Conscientious Objectors (COs) refused, on moral, religious or political grounds, to fight when conscription was introduced (Military Service Act 1916 in the First World War; National Service Act 1939 in the Second). In the First World War, tribunals judged claims harshly and inconsistently; many COs who refused all service ('absolutists') were imprisoned, sometimes brutally treated, and about 70 died from harsh treatment; the public often viewed them as cowards and some received white feathers. In the Second World War, tribunals were more sympathetic and consistent, and more COs undertook alternative non-combatant work such as the Non-Combatant Corps, ambulance driving or farming, or contributed to civil defence; public hostility was generally lower. The comparison shows changing attitudes towards conscience and dissent within a generation.
+
+#### 10.4.3b Case study: the Derek Bentley case and the abolition of the death penalty
+In November 1952, 19-year-old Derek Bentley, who had learning difficulties and was in police custody, allegedly shouted 'Let him have it' to his younger accomplice Christopher Craig during a break-in in Croydon; Craig shot and killed a police officer. Craig, being under 18, could not be executed, but Bentley, already under arrest and unarmed, was hanged in January 1953 despite public petitions for mercy and doubt over what his words meant. The case became a byword for a possible miscarriage of justice and fuelled the campaign against capital punishment; Bentley's conviction was quashed by the Court of Appeal in 1998, decades after his death. It is used on the specification as key evidence of doubts about capital punishment leading towards its abolition in 1965.
+
+## Explicitly not here
+The Whitechapel historic environment, which is a separate, more detailed period study within Option 10.

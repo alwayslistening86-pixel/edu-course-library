@@ -1,0 +1,329 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "OCR Level 1/Level 2 Cambridge National in Engineering Design J822 specification (assessment from 2025): Unit R038 Topic Areas 1-4 (teaching content), Unit R039 tasks 1-4, Unit R040 tasks 1-6, section 4.1.5 Performance objectives, section 5 Assessment and grading, section 6 NEA rules, Appendix B command words",
+    "url": "https://www.ocr.org.uk/Images/711493-specification-cambridge-nationals-engineering-design-j822-assessment-from-2025-.pdf",
+    "version": "Specification (assessment from 2025), first teaching September 2022",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "R038-1.1",
+      "title": "Design strategies",
+      "topic_area": "R038 TA1 Designing processes"
+    },
+    {
+      "id": "R038-1.2a",
+      "title": "The iterative design process: design then make-and-evaluate",
+      "topic_area": "R038 TA1 Designing processes"
+    },
+    {
+      "id": "R038-1.2b",
+      "title": "Research methods: primary and secondary",
+      "topic_area": "R038 TA1 Designing processes"
+    },
+    {
+      "id": "R038-1.2c",
+      "title": "Product analysis using ACCESS FM",
+      "topic_area": "R038 TA1 Designing processes"
+    },
+    {
+      "id": "R038-1.2d",
+      "title": "Writing a design specification",
+      "topic_area": "R038 TA1 Designing processes"
+    },
+    {
+      "id": "R038-1.2e",
+      "title": "Generating design ideas",
+      "topic_area": "R038 TA1 Designing processes"
+    },
+    {
+      "id": "R038-1.2f",
+      "title": "Modelling, prototyping and comparing against requirements in the make-and-evaluate stage",
+      "topic_area": "R038 TA1 Designing processes"
+    },
+    {
+      "id": "R038-2.1",
+      "title": "Types of specification criteria",
+      "topic_area": "R038 TA2 Design requirements"
+    },
+    {
+      "id": "R038-2.2",
+      "title": "Manufacturing considerations",
+      "topic_area": "R038 TA2 Design requirements"
+    },
+    {
+      "id": "R038-2.3",
+      "title": "Influences on engineering product design",
+      "topic_area": "R038 TA2 Design requirements"
+    },
+    {
+      "id": "R038-3.1",
+      "title": "Types of engineering drawing",
+      "topic_area": "R038 TA3 Communicating design outcomes"
+    },
+    {
+      "id": "R038-3.2",
+      "title": "Working drawings: third-angle orthographic projection and BS 8888 conventions",
+      "topic_area": "R038 TA3 Communicating design outcomes"
+    },
+    {
+      "id": "R038-3.3",
+      "title": "Using CAD drawing software",
+      "topic_area": "R038 TA3 Communicating design outcomes"
+    },
+    {
+      "id": "R038-4.1",
+      "title": "Methods of evaluating design ideas",
+      "topic_area": "R038 TA4 Evaluating design ideas"
+    },
+    {
+      "id": "R038-4.2",
+      "title": "Modelling methods",
+      "topic_area": "R038 TA4 Evaluating design ideas"
+    },
+    {
+      "id": "R038-4.3",
+      "title": "Methods of evaluating the design outcome",
+      "topic_area": "R038 TA4 Evaluating design ideas"
+    },
+    {
+      "id": "R038-EX1",
+      "title": "R038 exam structure and the terminal assessment rule",
+      "topic_area": "R038 Assessment"
+    },
+    {
+      "id": "R038-EX2",
+      "title": "Command and descriptor words (Appendix B)",
+      "topic_area": "R038 Assessment (Appendix B)"
+    },
+    {
+      "id": "R038-EX3",
+      "title": "Level-of-response technique for extended questions",
+      "topic_area": "R038 Assessment"
+    },
+    {
+      "id": "R039-A",
+      "title": "R039 assessment overview: four tasks and mark bands",
+      "topic_area": "R039 Assessment"
+    },
+    {
+      "id": "R039-T1",
+      "title": "Task 1: freehand design proposals",
+      "topic_area": "R039 TA (set assignment)"
+    },
+    {
+      "id": "R039-T2",
+      "title": "Task 2: developing one design proposal",
+      "topic_area": "R039 TA (set assignment)"
+    },
+    {
+      "id": "R039-T3",
+      "title": "Task 3: orthographic and assembly drawings",
+      "topic_area": "R039 TA (set assignment)"
+    },
+    {
+      "id": "R039-T4",
+      "title": "Task 4: CAD formal presentation drawings",
+      "topic_area": "R039 TA (set assignment)"
+    },
+    {
+      "id": "R040-A",
+      "title": "R040 assessment overview: six tasks and mark bands",
+      "topic_area": "R040 Assessment"
+    },
+    {
+      "id": "R040-T1",
+      "title": "Task 1: product analysis using ACCESS FM and an engineering comparison matrix",
+      "topic_area": "R040 TA (set assignment)"
+    },
+    {
+      "id": "R040-T2",
+      "title": "Task 2: product disassembly and analysis",
+      "topic_area": "R040 TA (set assignment)"
+    },
+    {
+      "id": "R040-T3",
+      "title": "Task 3: virtual 3D CAD modelling",
+      "topic_area": "R040 TA (set assignment)"
+    },
+    {
+      "id": "R040-T4",
+      "title": "Task 4: production planning and risk assessment",
+      "topic_area": "R040 TA (set assignment)"
+    },
+    {
+      "id": "R040-T5",
+      "title": "Task 5: prototype production and photographic diary",
+      "topic_area": "R040 TA (set assignment)"
+    },
+    {
+      "id": "R040-T6",
+      "title": "Task 6: prototype evaluation and improvement",
+      "topic_area": "R040 TA (set assignment)"
+    },
+    {
+      "id": "J822-STRUCT",
+      "title": "Qualification structure, units, GLH and the terminal assessment rule",
+      "topic_area": "J822 Qualification overview and assessment"
+    },
+    {
+      "id": "J822-PO",
+      "title": "Performance objectives PO1 to PO4 and their weightings",
+      "topic_area": "J822 4.1.5"
+    },
+    {
+      "id": "J822-GRADE",
+      "title": "Grading: UMS, unit grades and overall grades Level 1 Pass to Level 2 Distinction*",
+      "topic_area": "J822 5.4"
+    },
+    {
+      "id": "J822-NEA",
+      "title": "NEA rules: OCR-set and OCR-moderated assignments, independence and authenticity",
+      "topic_area": "J822 Section 6"
+    },
+    {
+      "id": "J822-SYN",
+      "title": "Synoptic links between R038 and the NEA units",
+      "topic_area": "J822"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Design_Strategies_and_the_Iterative_Design_Process": {
+    "covers_syllabus_refs": [
+      "R038 TA1 1.1 Design strategies",
+      "R038 TA1 1.2 Iterative design process, research methods and ACCESS FM"
+    ],
+    "syllabus_topic": "R038 Topic Area 1: Designing processes",
+    "covers_items": [
+      "R038-1.1",
+      "R038-1.2a",
+      "R038-1.2b",
+      "R038-1.2c"
+    ]
+  },
+  "S02_Specifications_Ideas_and_the_Make_and_Evaluate_Stage": {
+    "covers_syllabus_refs": [
+      "R038 TA1 1.2 Specification, ideas and make-and-evaluate",
+      "R038 TA2 2.1 Types of specification criteria"
+    ],
+    "syllabus_topic": "R038 Topic Area 1: Designing processes; R038 Topic Area 2: Design requirements",
+    "covers_items": [
+      "R038-1.2d",
+      "R038-1.2e",
+      "R038-1.2f",
+      "R038-2.1"
+    ]
+  },
+  "S03_Manufacturing_Considerations_and_Communicating_Outcomes": {
+    "covers_syllabus_refs": [
+      "R038 TA2 2.2-2.3 Manufacturing considerations and design influences",
+      "R038 TA3 3.1-3.2 Drawing types and working drawings"
+    ],
+    "syllabus_topic": "R038 Topic Area 2: Design requirements; R038 Topic Area 3: Communicating design outcomes",
+    "covers_items": [
+      "R038-2.2",
+      "R038-2.3",
+      "R038-3.1",
+      "R038-3.2"
+    ]
+  },
+  "S04_CAD_and_Evaluating_Design_Ideas": {
+    "covers_syllabus_refs": [
+      "R038 TA3 3.3 CAD",
+      "R038 TA4 4.1-4.3 Evaluating ideas, modelling methods and evaluating outcomes"
+    ],
+    "syllabus_topic": "R038 Topic Area 3: Communicating design outcomes; R038 Topic Area 4: Evaluating design ideas",
+    "covers_items": [
+      "R038-3.3",
+      "R038-4.1",
+      "R038-4.2",
+      "R038-4.3"
+    ]
+  },
+  "S05_R038_Exam_Structure_and_Technique": {
+    "covers_syllabus_refs": [
+      "R038 Assessment overview",
+      "R038 Appendix B command words",
+      "R038 level-of-response technique"
+    ],
+    "syllabus_topic": "R038 Assessment",
+    "covers_items": [
+      "R038-EX1",
+      "R038-EX2",
+      "R038-EX3"
+    ]
+  },
+  "S06_R039_Overview_Freehand_Proposals_and_Development": {
+    "covers_syllabus_refs": [
+      "R039 Assessment overview",
+      "R039 Task 1 freehand proposals",
+      "R039 Task 2 developing a proposal"
+    ],
+    "syllabus_topic": "R039 Communicating designs",
+    "covers_items": [
+      "R039-A",
+      "R039-T1",
+      "R039-T2"
+    ]
+  },
+  "S07_R039_Drawings_CAD_and_R040_Overview": {
+    "covers_syllabus_refs": [
+      "R039 Task 3 orthographic/assembly drawings",
+      "R039 Task 4 CAD presentation",
+      "R040 Assessment overview"
+    ],
+    "syllabus_topic": "R039 Communicating designs; R040 Design, evaluation and modelling",
+    "covers_items": [
+      "R039-T3",
+      "R039-T4",
+      "R040-A"
+    ]
+  },
+  "S08_R040_Product_Analysis_Disassembly_and_CAD_Modelling": {
+    "covers_syllabus_refs": [
+      "R040 Task 1 product analysis",
+      "R040 Task 2 disassembly",
+      "R040 Task 3 3D CAD modelling"
+    ],
+    "syllabus_topic": "R040 Design, evaluation and modelling",
+    "covers_items": [
+      "R040-T1",
+      "R040-T2",
+      "R040-T3"
+    ]
+  },
+  "S09_Production_Planning_Prototyping_and_the_Qualification_Structure": {
+    "covers_syllabus_refs": [
+      "R040 Task 4 production planning",
+      "R040 Task 5 prototype production",
+      "J822 section 2 qualification structure",
+      "J822 section 4.1.5 performance objectives"
+    ],
+    "syllabus_topic": "R040 Design, evaluation and modelling; J822 Qualification overview",
+    "covers_items": [
+      "R040-T4",
+      "R040-T5",
+      "J822-STRUCT",
+      "J822-PO"
+    ]
+  },
+  "S10_Prototype_Evaluation_Grading_NEA_Rules_and_Synoptic_Links": {
+    "covers_syllabus_refs": [
+      "R040 Task 6 prototype evaluation",
+      "J822 section 5 grading",
+      "J822 section 6 NEA rules"
+    ],
+    "syllabus_topic": "R040 Design, evaluation and modelling; J822 Qualification overview",
+    "covers_items": [
+      "R040-T6",
+      "J822-GRADE",
+      "J822-NEA",
+      "J822-SYN"
+    ]
+  }
+}

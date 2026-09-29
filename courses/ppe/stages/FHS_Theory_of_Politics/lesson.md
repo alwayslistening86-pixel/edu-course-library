@@ -1,0 +1,48 @@
+# FHS_Theory_of_Politics - Lesson: Theory of Politics (Paper 203)
+
+## Goal
+The learner critically engages with the paper's political values and concepts, applies the correct analytical framework accurately, and defends a clear position rather than describing competing definitions.
+
+## Syllabus items taught here
+- P203.1 - Ideal theory and political realism: learn and apply: ideal theory and political realism
+- P203.2 - Power and authority: learn and apply: power and authority
+- P203.3 - Liberty: negative and positive: learn and apply: liberty
+- P203.4 - Rights: learn and apply: rights
+- P203.5 - Justice and equality: learn and apply: justice and equality
+- P203.6 - Democracy and representation: learn and apply: democracy and representation
+- P203.7 - Political obligation and civil disobedience: learn and apply: political obligation and civil disobedience
+- P203.8 - Neutrality and perfectionism: learn and apply: neutrality and perfectionism
+- P203.9 - Ideological traditions: libertarianism, multiculturalism, socialism, conservatism: learn and apply: ideological traditions
+
+## How to teach this
+Open with: "A government bans a form of political speech it considers hateful, arguing this protects vulnerable groups' equal standing in public life. Civil libertarians say this violates a core liberal commitment to free expression, regardless of the speech's content. Both sides claim to be defending 'liberty' and 'equality' - so how can the same values point in opposite directions?" Keep returning to this scenario as each concept is introduced, since the paper's central skill is showing which specific conception of a contested value each side is actually using.
+
+#### P203.1 Ideal theory and political realism
+Ideal theory asks what a perfectly just society would look like, reasoning from first principles about what justice fundamentally requires (Rawls's original position - choosing principles of justice behind a "veil of ignorance" about one's own position in society - being the paradigm approach). Political realism (a distinct movement from realism in IR, P214.1) objects that this puts the cart before the horse: politics is fundamentally about managing disagreement and the exercise of power under non-ideal conditions, and theories built for an idealised world may give little real guidance, or worse, may be actively misleading, for actual political practice and institutional design. Teach the learner this is a debate about method, not just a first-order disagreement about what justice requires.
+
+#### P203.2 Power and authority
+Power is the capacity to get others to do what they otherwise would not, through any means (force, incentive, persuasion); authority is a narrower, normatively loaded notion - the right to be obeyed, such that those subject to it have some independent reason to comply beyond fear of sanction. A central question is what converts mere power into legitimate authority: consent (Locke), rational-legal procedure (Weber, see P216.7), or substantive justice of the outcome. Teach the learner to distinguish descriptive claims about power (who actually controls outcomes) from normative claims about authority (who has the right to), since conflating them is a common source of confused answers.
+
+#### P203.3 Liberty: negative and positive
+Isaiah Berlin's classic distinction: negative liberty is freedom from interference by others (the fewer constraints on your action, the freer you are); positive liberty is freedom to actually achieve self-mastery or genuine autonomy (being the author of your own life, not merely unobstructed). This reframes the opening scenario directly: a negative-liberty view treats the speech ban as a straightforward liberty violation regardless of content, since it is an interference; a more positive-liberty-inflected view might argue that unchecked hateful speech itself undermines some people's genuine capacity to participate as equals in public life, making the ban a liberty-protecting measure on a different understanding of what liberty actually requires. Teach the learner that Berlin himself worried positive liberty could be used to justify paternalism or coercion "in the name of a person's real self" - a genuine risk to weigh, not just a neutral alternative to negative liberty.
+
+#### P203.4 Rights
+Political theory asks what grounds rights (natural/moral rights existing independently of law, as in Locke, P215.6; versus rights as legal constructs created by the state) and how rights should be weighed against other values when they conflict - for example, a right to free expression against a competing claim to protection from harm or discrimination. Teach the learner to distinguish rights as "trumps" (near-absolute side-constraints that cannot simply be outweighed by aggregate welfare gains, a view associated with Ronald Dworkin) from views that treat rights as simply one weighty consideration among others to be balanced.
+
+#### P203.5 Justice and equality
+Theories of distributive justice ask how benefits and burdens should be allocated across society: by desert (what people have earned), by equality of outcome, or by equality of opportunity (a fair starting competition, even if outcomes differ). Rawls's difference principle - inequalities are justified only if they benefit the worst-off - is a major theoretical position combining elements of these. Teach the learner to apply these competing distributive principles to a concrete policy case (inheritance tax, university admissions) and show how each principle generates a different, specific verdict, not just a general commitment to "fairness."
+
+#### P203.6 Democracy and representation
+Aggregative views see democracy as essentially counting preferences - the outcome that wins majority support is thereby democratically legitimate. Deliberative views see democracy as reasoned collective decision-making, where legitimacy comes from the quality of public reasoning and mutual justification, not simply the vote count - connecting back to Rousseau's general will (P215.9), which demands more than mere preference-aggregation. Representation theory asks what representatives owe constituents: a delegate model (faithfully transmitting constituents' expressed preferences) versus a trustee model (exercising independent judgement about constituents' genuine interests). Teach the learner to apply both distinctions to the opening scenario: would an aggregative, delegate-style democracy handle a hate-speech ban differently from a deliberative, trustee-style one?
+
+#### P203.7 Political obligation and civil disobedience
+Political obligation asks why citizens are bound to obey the law of their own state in particular (as opposed to a general moral duty to obey just laws anywhere) - theories include consent (Locke, though Hume's critique at P215.8 challenges its realism), fair play (obligation arising from benefiting from a cooperative scheme others sustain), and associative obligations (arising simply from membership in a political community, like family obligations). Civil disobedience theory then asks when, if ever, citizens are justified in openly, non-violently breaking a law they consider unjust, and what distinguishes principled civil disobedience from ordinary law-breaking (publicity, non-violence, willingness to accept punishment). Teach the learner to connect this directly to the opening scenario: how might either side of the speech-ban debate respond if they lost the political argument through ordinary democratic channels?
+
+#### P203.8 Neutrality and perfectionism
+Neutralist liberalism holds the state should not take an official position on contested conceptions of the good life, remaining neutral between different visions of what makes a life go well, and confining itself to fair procedures and basic rights. Perfectionism holds the state legitimately can, and perhaps should, promote certain values or ways of life it judges genuinely better - which could include either promoting free expression as intrinsically valuable, or promoting equal social standing as intrinsically valuable, giving a further, structural way to frame the opening scenario's speech-ban dispute. Teach the learner that most real political positions are not purely neutralist or purely perfectionist, and a strong answer identifies exactly where a given policy sits on this spectrum.
+
+#### P203.9 Ideological traditions: libertarianism, multiculturalism, socialism, conservatism
+Libertarianism favours a minimal state and strong negative liberty (P203.3), treating most taxation and regulation beyond protecting basic rights as illegitimate coercion. Multiculturalism argues for group-differentiated rights or accommodations to protect minority cultures within a broader liberal state, in some tension with strict formal equality. Socialism holds structural economic equality is a precondition for genuine freedom, not merely one value to trade off against liberty (challenging the liberal framing of P203.3-P203.5 directly). Conservatism is sceptical of abstract, rationalist reform, valuing inherited institutions, gradual change and the accumulated wisdom embedded in existing practice over first-principles redesign. Teach the learner to locate each of the earlier concepts (liberty, equality, neutrality) differently within each tradition, since that is what makes a comparative-ideology answer genuinely analytical rather than merely descriptive.
+
+## Explicitly not here
+Applied practical-ethical dilemmas (abortion, euthanasia, punishment) belong to Practical Ethics (P128); this paper works at the level of political concepts and values themselves.

@@ -1,0 +1,66 @@
+{
+  "schema_version": 4,
+  "name": "History (BA Hons) - Open University qualification structure (Q01)",
+  "requires_complete": [
+    "gcse_history",
+    "alevel_history"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "stage_1_modules": [
+      "A111 Discovering the arts and humanities",
+      "A113 Revolutions"
+    ],
+    "stage_2_modules": [
+      "A223 Early modern Europe: society and culture c.1500-1780",
+      "A225 The British Isles and the modern world, 1789-1914"
+    ],
+    "stage_3_specialist_module": "A327 Europe 1914-1989: war, peace, modernity"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "The Open University's BA (Honours) History, qualification code Q01, checked live against open.ac.uk/courses/qualifications/q01 and fass.open.ac.uk/history/qualifications on 2026-09-27. Q01 is a real, currently-recruiting 360-credit honours degree (not superseded, unlike the LLB's Q79 to R81 change): three 120-credit stages -- Stage 1 (Level 4): A111 'Discovering the arts and humanities' and A113 'Revolutions' (both interdisciplinary, not history-only modules); Stage 2 (Level 5): A223 'Early modern Europe: society and culture c.1500-1780' and A225 'The British Isles and the modern world, 1789-1914'; Stage 3 (Level 6): two specialist modules chosen from A328 'Empires: power, resistance, legacies', A327 'Europe 1914-1989: war, peace, modernity', A329 'The making of Welsh history', A344 'Art and its global histories', A340 'The Roman empire', DA332 'Religion and global challenges', or two Open University in Scotland modules. The OU also offers a related joint qualification, BA (Honours) Arts and Humanities (History), R14-HIS, a more flexible interdisciplinary pathway requiring at least two specialist history modules rather than the full single-honours module set; Q01 (single-honours History) was used here as the closer, still-current equivalent to how this library builds other single-subject degrees, matching the earlier LLB build's approach of using the real, currently-recruiting single-subject qualification. The OU's own unit-by-unit module materials, module guides and assessment criteria sit behind its student VLE and were not accessible; this course keeps the OU's real three-stage/two-module-per-stage credit structure and each module's real published title, and compresses it to 12 teachable stages built around each module's real historical scope: Stage 1's A113 'Revolutions' into this course's historical-method stage plus three revolutions stages (the English Revolution; the Atlantic Revolutions of America, France and Haiti; and a comparative-theory stage bridging to the Russian Revolution); Stage 2's A223 into a Reformation/confessional-Europe stage and a state-formation/Enlightenment stage, and A225 into an industrialising-Britain stage and an empire/Ireland/suffrage stage; Stage 3's A327 'Europe 1914-1989' (chosen as the specialist module, over A328 Empires or A340 Rome, specifically because its period, 1914-89, does not overlap the Tudor/German-Reformation focus of this library's alevel_history) into four stages: the First World War and the Russian Revolution in depth, interwar fascism and Stalinism, the Second World War and the Holocaust, and Cold War Europe to 1989. Everywhere this course itemises a topic's content, it uses the standard, well-established narrative and debates found in any history-degree textbook, module descriptor or reading list for that period -- this is core historical knowledge, not institution-specific content -- cross-checked against the QAA Subject Benchmark Statement for History (published 2022-03, current), whose description of graduate historical skill (critical, empathetic analysis of primary sources; awareness of historiographical debate; synthesis of complex, conflicting evidence; sustained, reasoned argument) shapes this course's essay mark schemes. Stage tests are original questions in undergraduate-history style, never real OU assessment (TMA/EMA) questions, which the OU does not publish.",
+  "academic_level": 6,
+  "level_source": "RQF/FHEQ Level 6 (Bachelor's degree with Honours), per the QAA Framework for Higher Education Qualifications and the QAA Subject Benchmark Statement: History",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "prereq_rationale",
+      "text": "This course requires both GCSE History and A-level History (Edexcel 9HI0, Tudor England/German Reformation/Tudor rebellion), matching the roadmap's rule that a degree builds on the specific prior history study it depends on. It deliberately does not re-teach the Tudor period or the German Reformation, which the A-level already covers in depth; where this degree's Stage 2 touches the same broad era (early modern Europe, c.1500-1780), it stays on the Continental Catholic Reformation, confessional war and witch trials, not the English Reformation the A-level already taught."
+    },
+    {
+      "id": "joint_pathway",
+      "text": "The OU also offers BA (Hons) Arts and Humanities (History), R14-HIS, a more flexible interdisciplinary route requiring only two specialist history modules alongside modules from other arts/humanities subjects. This course follows the single-honours History qualification, Q01, instead, since it maps onto a dedicated, coherent history syllabus the way this library builds other single-subject degrees."
+    },
+    {
+      "id": "module_choice",
+      "text": "Stage 3 of Q01 requires two modules chosen from a list of six (plus two Scotland-only options); this course teaches only A327 'Europe 1914-1989: war, peace, modernity' as its specialist strand, not a second Stage 3 module (e.g. A328 Empires, A340 The Roman empire, A344 Art and its global histories), to keep the course a manageable single-specialism build. A real OU student would need a second Stage 3 module to complete the 360 credits."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Historical_Method_and_Historiography",
+    "S02_The_English_Revolution",
+    "S03_Atlantic_Revolutions",
+    "S04_Comparing_Revolutions",
+    "S05_Reformation_and_Confessional_Europe",
+    "S06_State_Formation_Science_and_Enlightenment",
+    "S07_Industrialising_Britain",
+    "S08_Empire_Ireland_and_Suffrage",
+    "S09_WW1_and_the_Russian_Revolution",
+    "S10_Interwar_Crisis_Fascism_and_Stalinism",
+    "S11_WW2_and_the_Holocaust",
+    "S12_Cold_War_Europe_and_1989"
+  ]
+}

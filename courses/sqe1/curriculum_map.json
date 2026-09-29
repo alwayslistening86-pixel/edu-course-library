@@ -1,0 +1,787 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "SRA SQE1 Assessment Specification, FLK1 and FLK2 content statements",
+    "url": "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification/flk1",
+    "version": "Live SRA content-statement pages as fetched 2026-09-22 (flk1 and flk2); SQE1 assessed 'from 1 September 2026' per the SRA's own specification page",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "BLP.1",
+      "title": "Business vehicles, legal personality and limited liability",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.2",
+      "title": "Company formation: constitutional documents and Companies House requirements",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.3",
+      "title": "Financing a business: debt and equity finance, types of security",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.4",
+      "title": "Corporate governance: directors' and shareholders' rights, decision-making, minority protection",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.5",
+      "title": "Partnership decision-making and authority (Partnership Act 1890, partnership agreements)",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.6",
+      "title": "Insolvency procedures: CVA, IVA, bankruptcy, administration, liquidation",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.7",
+      "title": "Insolvency claw-back and priority of distribution to creditors",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.8",
+      "title": "Income Tax and Capital Gains Tax for business",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.9",
+      "title": "Corporation Tax and tax treatment of distributions",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "BLP.10",
+      "title": "VAT and Inheritance Tax business property relief",
+      "topic_area": "FLK1 Business Law and Practice"
+    },
+    {
+      "id": "DR.1",
+      "title": "Choosing a dispute resolution mechanism: negotiation, mediation, arbitration, litigation",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.2",
+      "title": "Limitation periods and pre-action protocols",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.3",
+      "title": "Court jurisdiction, allocation and issuing/serving proceedings",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.4",
+      "title": "Responding to a claim and statements of case",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.5",
+      "title": "Interim applications: summary judgment, interim payments, interim injunctions",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.6",
+      "title": "Case management and track allocation",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.7",
+      "title": "Evidence: hearsay, expert evidence, witness evidence, burden and standard of proof",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.8",
+      "title": "Disclosure and privilege",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.9",
+      "title": "Trial procedure and judgment",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.10",
+      "title": "Costs, Part 36 offers, and appeals",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "DR.11",
+      "title": "Enforcement of money judgments",
+      "topic_area": "FLK1 Dispute Resolution"
+    },
+    {
+      "id": "CON.1",
+      "title": "Formation: offer, acceptance, consideration, intention, certainty, capacity",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.2",
+      "title": "Privity of contract and rights of third parties",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.3",
+      "title": "Contract terms: express, implied, exclusion clauses, interpretation, classification, variation",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.4",
+      "title": "Vitiating factors: misrepresentation and mistake",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.5",
+      "title": "Vitiating factors: duress, undue influence, illegality, unfair contract terms",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.6",
+      "title": "Termination: breach and frustration",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.7",
+      "title": "Restitution and unjust enrichment on termination",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.8",
+      "title": "Remedies: damages, causation, remoteness, mitigation",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "CON.9",
+      "title": "Remedies: specific performance, injunctions, liquidated sums, indemnities, guarantees",
+      "topic_area": "FLK1 Contract Law"
+    },
+    {
+      "id": "TORT.1",
+      "title": "Negligence: duty of care and breach",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "TORT.2",
+      "title": "Negligence: causation, remoteness and loss",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "TORT.3",
+      "title": "Pure economic loss and psychiatric harm",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "TORT.4",
+      "title": "Employers' primary liability and vicarious liability",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "TORT.5",
+      "title": "Defences: volenti, contributory negligence, illegality",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "TORT.6",
+      "title": "Occupiers' liability (1957 and 1984 Acts)",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "TORT.7",
+      "title": "Product liability: negligence and Consumer Protection Act 1987",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "TORT.8",
+      "title": "Nuisance and the rule in Rylands v Fletcher",
+      "topic_area": "FLK1 Tort"
+    },
+    {
+      "id": "LS.1",
+      "title": "Courts: judicial function, hierarchy, jurisdiction, rights of audience",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LS.2",
+      "title": "The doctrine of precedent",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LS.3",
+      "title": "Primary legislation structure and statutory interpretation",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LS.4",
+      "title": "Core constitutional institutions: parliamentary sovereignty, devolution, the Crown, conventions, prerogative",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LS.5",
+      "title": "Separation of powers, rule of law and public order law",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LS.6",
+      "title": "Judicial review: grounds, process, remedies, standing, time limits",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LS.7",
+      "title": "Human Rights Act 1998 and ECHR Convention rights",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LS.8",
+      "title": "The place of EU law in the UK constitution",
+      "topic_area": "FLK1 Legal System, Constitutional, Administrative and EU Law"
+    },
+    {
+      "id": "LGS.1",
+      "title": "SRA regulatory principles, reserved legal activities, professional indemnity insurance",
+      "topic_area": "FLK1 Legal Services"
+    },
+    {
+      "id": "LGS.2",
+      "title": "Equality Act 2010 obligations",
+      "topic_area": "FLK1 Legal Services"
+    },
+    {
+      "id": "LGS.3",
+      "title": "Anti-money laundering: scope, reporting, POCA 2002 offences, due diligence",
+      "topic_area": "FLK1 Legal Services"
+    },
+    {
+      "id": "LGS.4",
+      "title": "Financial services regulation and FSMA 2000",
+      "topic_area": "FLK1 Legal Services"
+    },
+    {
+      "id": "LGS.5",
+      "title": "Funding options: retainer, CFAs, DBAs, legal aid, third-party funding, ATE insurance",
+      "topic_area": "FLK1 Legal Services"
+    },
+    {
+      "id": "PROP.1",
+      "title": "Freehold title investigation (registered and unregistered)",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.2",
+      "title": "Pre-contract searches, enquiries and the Conveyancing Protocol",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.3",
+      "title": "Mortgage finance and lender requirements",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.4",
+      "title": "Contract, exchange and completion (freehold)",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.5",
+      "title": "Remedies for delayed completion",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.6",
+      "title": "Lease grant, assignment and key lease covenants",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.7",
+      "title": "Business lease security of tenure (Landlord and Tenant Act 1954 Part II)",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.8",
+      "title": "Planning law basics",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "PROP.9",
+      "title": "Property taxation: SDLT/LTT, VAT, CGT",
+      "topic_area": "FLK2 Property Law and Practice"
+    },
+    {
+      "id": "WILLS.1",
+      "title": "Will validity: capacity, knowledge and approval, formalities, undue influence",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "WILLS.2",
+      "title": "Revocation, alteration and interpretation of wills",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "WILLS.3",
+      "title": "Intestacy rules and statutory trusts",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "WILLS.4",
+      "title": "Grant of representation: priority, application, types",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "WILLS.5",
+      "title": "Personal representatives' duties in estate administration",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "WILLS.6",
+      "title": "Inheritance (Provision for Family and Dependants) Act 1975 claims",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "WILLS.7",
+      "title": "Inheritance Tax on lifetime and death transfers",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "WILLS.8",
+      "title": "Income Tax and CGT liability during administration",
+      "topic_area": "FLK2 Wills and the Administration of Estates"
+    },
+    {
+      "id": "ACC.1",
+      "title": "Client money: definition and requirement to pay into client account",
+      "topic_area": "FLK2 Solicitors Accounts"
+    },
+    {
+      "id": "ACC.2",
+      "title": "Client account operation and withdrawals",
+      "topic_area": "FLK2 Solicitors Accounts"
+    },
+    {
+      "id": "ACC.3",
+      "title": "Separation of client and business money",
+      "topic_area": "FLK2 Solicitors Accounts"
+    },
+    {
+      "id": "ACC.4",
+      "title": "Interest on client money",
+      "topic_area": "FLK2 Solicitors Accounts"
+    },
+    {
+      "id": "ACC.5",
+      "title": "Correcting breaches of the SRA Accounts Rules",
+      "topic_area": "FLK2 Solicitors Accounts"
+    },
+    {
+      "id": "ACC.6",
+      "title": "Ledger records, reconciliation and billing (agency/principal disbursements)",
+      "topic_area": "FLK2 Solicitors Accounts"
+    },
+    {
+      "id": "ACC.7",
+      "title": "Accountants' reports and record retention",
+      "topic_area": "FLK2 Solicitors Accounts"
+    },
+    {
+      "id": "LAND.1",
+      "title": "Registered and unregistered title, interests overriding registration",
+      "topic_area": "FLK2 Land Law"
+    },
+    {
+      "id": "LAND.2",
+      "title": "Co-ownership: joint tenancy, tenancy in common, severance, TOLATA disputes",
+      "topic_area": "FLK2 Land Law"
+    },
+    {
+      "id": "LAND.3",
+      "title": "Easements: creation and passing of benefit and burden",
+      "topic_area": "FLK2 Land Law"
+    },
+    {
+      "id": "LAND.4",
+      "title": "Freehold covenants",
+      "topic_area": "FLK2 Land Law"
+    },
+    {
+      "id": "LAND.5",
+      "title": "Mortgages: enforceability, priority, powers and duties",
+      "topic_area": "FLK2 Land Law"
+    },
+    {
+      "id": "LAND.6",
+      "title": "Leases: essential characteristics, lease/licence distinction",
+      "topic_area": "FLK2 Land Law"
+    },
+    {
+      "id": "LAND.7",
+      "title": "Leasehold covenants: privity, enforceability, alienation, remedies",
+      "topic_area": "FLK2 Land Law"
+    },
+    {
+      "id": "TRUSTS.1",
+      "title": "The three certainties and express trust creation",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.2",
+      "title": "Constitution of trusts and exceptions",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.3",
+      "title": "Beneficial interests and the rule in Saunders v Vautier",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.4",
+      "title": "Charitable and non-charitable purpose trusts",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.5",
+      "title": "Resulting trusts",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.6",
+      "title": "Common intention constructive trusts and proprietary estoppel",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.7",
+      "title": "Stranger liability: knowing receipt and dishonest assistance",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.8",
+      "title": "Trustees' fiduciary duties, powers and duty of care",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "TRUSTS.9",
+      "title": "Breach of trust, liability and tracing",
+      "topic_area": "FLK2 Trusts Law"
+    },
+    {
+      "id": "CRIMLIAB.1",
+      "title": "Actus reus and mens rea",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.2",
+      "title": "General defences: intoxication, self-defence",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.3",
+      "title": "Partial defences: loss of control, diminished responsibility",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.4",
+      "title": "Secondary liability and attempt",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.5",
+      "title": "Offences against the person: assault/battery, s.47/20/18 OAPA 1861",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.6",
+      "title": "Theft, robbery and burglary (Theft Act 1968)",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.7",
+      "title": "Criminal damage and arson",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.8",
+      "title": "Homicide: murder and manslaughter",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMLIAB.9",
+      "title": "Fraud offences",
+      "topic_area": "FLK2 Criminal Liability"
+    },
+    {
+      "id": "CRIMPRAC.1",
+      "title": "Police station rights and PACE Code C/D procedures",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.2",
+      "title": "Bail",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.3",
+      "title": "First hearings, plea before venue and allocation",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.4",
+      "title": "Case management and disclosure",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.5",
+      "title": "Identification evidence and inferences from silence",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.6",
+      "title": "Hearsay and confession evidence",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.7",
+      "title": "Bad character evidence and exclusion under s.78 PACE",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.8",
+      "title": "Trial procedure (magistrates' and Crown Court)",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.9",
+      "title": "Sentencing",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.10",
+      "title": "Appeals",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    },
+    {
+      "id": "CRIMPRAC.11",
+      "title": "Youth court process",
+      "topic_area": "FLK2 Criminal Law and Practice"
+    }
+  ],
+  "_declared_exclusions": [],
+  "FLK1_Business_Law_and_Practice": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK1, Business Law and Practice"
+    ],
+    "syllabus_topic": "FLK1 Business Law and Practice",
+    "covers_items": [
+      "BLP.1",
+      "BLP.2",
+      "BLP.3",
+      "BLP.4",
+      "BLP.5",
+      "BLP.6",
+      "BLP.7",
+      "BLP.8",
+      "BLP.9",
+      "BLP.10"
+    ]
+  },
+  "FLK1_Dispute_Resolution": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK1, Dispute Resolution"
+    ],
+    "syllabus_topic": "FLK1 Dispute Resolution",
+    "covers_items": [
+      "DR.1",
+      "DR.2",
+      "DR.3",
+      "DR.4",
+      "DR.5",
+      "DR.6",
+      "DR.7",
+      "DR.8",
+      "DR.9",
+      "DR.10",
+      "DR.11"
+    ]
+  },
+  "FLK1_Contract_Law": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK1, Contract Law"
+    ],
+    "syllabus_topic": "FLK1 Contract Law",
+    "covers_items": [
+      "CON.1",
+      "CON.2",
+      "CON.3",
+      "CON.4",
+      "CON.5",
+      "CON.6",
+      "CON.7",
+      "CON.8",
+      "CON.9"
+    ]
+  },
+  "FLK1_Tort": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK1, Tort"
+    ],
+    "syllabus_topic": "FLK1 Tort",
+    "covers_items": [
+      "TORT.1",
+      "TORT.2",
+      "TORT.3",
+      "TORT.4",
+      "TORT.5",
+      "TORT.6",
+      "TORT.7",
+      "TORT.8"
+    ]
+  },
+  "FLK1_Legal_System_Constitutional_Administrative_EU_Law": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK1, Legal System of England and Wales",
+      "Constitutional and Administrative Law and EU Law"
+    ],
+    "syllabus_topic": "FLK1 Legal System, Constitutional, Administrative and EU Law",
+    "covers_items": [
+      "LS.1",
+      "LS.2",
+      "LS.3",
+      "LS.4",
+      "LS.5",
+      "LS.6",
+      "LS.7",
+      "LS.8"
+    ]
+  },
+  "FLK1_Legal_Services": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK1, Legal Services"
+    ],
+    "syllabus_topic": "FLK1 Legal Services",
+    "covers_items": [
+      "LGS.1",
+      "LGS.2",
+      "LGS.3",
+      "LGS.4",
+      "LGS.5"
+    ]
+  },
+  "FLK2_Property_Law_and_Practice": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK2, Property Law and Practice"
+    ],
+    "syllabus_topic": "FLK2 Property Law and Practice",
+    "covers_items": [
+      "PROP.1",
+      "PROP.2",
+      "PROP.3",
+      "PROP.4",
+      "PROP.5",
+      "PROP.6",
+      "PROP.7",
+      "PROP.8",
+      "PROP.9"
+    ]
+  },
+  "FLK2_Wills_and_Administration_of_Estates": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK2, Wills and the Administration of Estates"
+    ],
+    "syllabus_topic": "FLK2 Wills and the Administration of Estates",
+    "covers_items": [
+      "WILLS.1",
+      "WILLS.2",
+      "WILLS.3",
+      "WILLS.4",
+      "WILLS.5",
+      "WILLS.6",
+      "WILLS.7",
+      "WILLS.8"
+    ]
+  },
+  "FLK2_Solicitors_Accounts": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK2, Solicitors Accounts"
+    ],
+    "syllabus_topic": "FLK2 Solicitors Accounts",
+    "covers_items": [
+      "ACC.1",
+      "ACC.2",
+      "ACC.3",
+      "ACC.4",
+      "ACC.5",
+      "ACC.6",
+      "ACC.7"
+    ]
+  },
+  "FLK2_Land_Law": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK2, Land Law"
+    ],
+    "syllabus_topic": "FLK2 Land Law",
+    "covers_items": [
+      "LAND.1",
+      "LAND.2",
+      "LAND.3",
+      "LAND.4",
+      "LAND.5",
+      "LAND.6",
+      "LAND.7"
+    ]
+  },
+  "FLK2_Trusts_Law": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK2, Trusts Law"
+    ],
+    "syllabus_topic": "FLK2 Trusts Law",
+    "covers_items": [
+      "TRUSTS.1",
+      "TRUSTS.2",
+      "TRUSTS.3",
+      "TRUSTS.4",
+      "TRUSTS.5",
+      "TRUSTS.6",
+      "TRUSTS.7",
+      "TRUSTS.8",
+      "TRUSTS.9"
+    ]
+  },
+  "FLK2_Criminal_Liability": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK2, Criminal Liability"
+    ],
+    "syllabus_topic": "FLK2 Criminal Liability",
+    "covers_items": [
+      "CRIMLIAB.1",
+      "CRIMLIAB.2",
+      "CRIMLIAB.3",
+      "CRIMLIAB.4",
+      "CRIMLIAB.5",
+      "CRIMLIAB.6",
+      "CRIMLIAB.7",
+      "CRIMLIAB.8",
+      "CRIMLIAB.9"
+    ]
+  },
+  "FLK2_Criminal_Law_and_Practice": {
+    "covers_syllabus_refs": [
+      "SRA SQE1 specification, FLK2, Criminal Law and Practice"
+    ],
+    "syllabus_topic": "FLK2 Criminal Law and Practice",
+    "covers_items": [
+      "CRIMPRAC.1",
+      "CRIMPRAC.2",
+      "CRIMPRAC.3",
+      "CRIMPRAC.4",
+      "CRIMPRAC.5",
+      "CRIMPRAC.6",
+      "CRIMPRAC.7",
+      "CRIMPRAC.8",
+      "CRIMPRAC.9",
+      "CRIMPRAC.10",
+      "CRIMPRAC.11"
+    ]
+  }
+}

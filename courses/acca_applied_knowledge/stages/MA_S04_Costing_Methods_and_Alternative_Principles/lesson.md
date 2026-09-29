@@ -1,0 +1,24 @@
+# MA_S04_Costing_Methods_and_Alternative_Principles - Lesson: Costing methods and alternative principles
+
+## Goal
+The learner prepares profit statements under absorption and marginal costing and reconciles the difference, applies job/batch/process (with normal/abnormal loss and equivalent units) and service costing, and explains ABC, target costing, life cycle costing and throughput accounting.
+
+## Syllabus items taught here
+- MA.C2 - Absorption and marginal costing
+- MA.C3 - Cost accounting methods
+- MA.C4 - Alternative cost accounting principles
+
+## How to teach this
+Ask why two firms with identical sales and costs could report different profits if one makes more than it sells and the other sells more than it makes. Have the learner predict the result of every example before running it, and run code for real whenever they can.
+
+#### MA.C2 Absorption and marginal costing
+**Absorption and marginal costing**. Absorption costing charges each unit with a share of fixed production overhead (via the OAR), so it is carried in inventory until the unit is sold. Marginal costing treats fixed production overhead as a period cost, written off in full each period; only variable production cost is carried in inventory, and contribution (sales - variable cost) is the key measure. When production = sales, both give the same profit. When **production > sales** (inventory rises), absorption costing shows the **higher** profit (fixed overhead is deferred in closing inventory); when **production < sales** (inventory falls), marginal costing shows the higher profit. Reconciliation: absorption profit - marginal profit = (change in inventory units) x (fixed OAR per unit). *Worked example*: fixed OAR = £4/unit; production 1,000 units, sales 850 units (inventory rises by 150 units). Absorption profit exceeds marginal profit by 150 x £4 = £{150 * 4:,}.
+
+#### MA.C3 Cost accounting methods
+**Cost accounting methods**. **Job costing**: each job is a distinct, identifiable unit of work (e.g. a bespoke order), costed individually (direct materials + direct labour + absorbed overhead); **batch costing** is job costing applied to a batch of identical items, the batch cost then divided by the number of units to get a cost per unit. **Process costing** applies where output is homogeneous and passes through continuous processes (e.g. chemicals, food); costs are averaged over all units. **Normal loss** is the expected, unavoidable loss, valued at nil or scrap value and spread over remaining good output; **abnormal loss** (actual loss exceeds normal loss) and **abnormal gain** (actual loss is less than normal loss) are costed at the same rate as good output and taken to the income statement separately. **Equivalent units** convert partly-finished work in progress into an equivalent number of fully complete units (e.g. 100 units 60% complete for materials = 60 equivalent units), so cost per equivalent unit can value both completed output and closing WIP. *Worked example*: input 1,000 litres, normal loss 10% (100 litres) valued at nil, actual output 880 litres (an abnormal loss of 1,000 - 100 - 880 = {1000 - 100 - 880} litres). Total process cost £4,950 is spread over the expected good output of 900 litres, cost/litre = £{4950 / 900:.2f}; the abnormal loss is valued at 20 x £{4950 / 900:.2f} = £{20 * 4950 / 900:.2f} and charged to the income statement, not to the 880 good litres. **Service costing** (e.g. a hospital bed-day, a haulage tonne-mile) uses a **composite cost unit** combining two measures, since a single simple unit doesn't capture the service; cost per unit = total cost / total composite units.
+
+#### MA.C4 Alternative cost accounting principles
+**Alternative cost accounting principles**. **Activity-based costing (ABC)** charges overhead using multiple **cost drivers** (the activity that causes the cost, e.g. number of machine set-ups, number of purchase orders) rather than a single volume-based OAR, giving more accurate unit costs when overheads are not driven mainly by volume and products differ greatly in complexity. **Target costing** starts from a market-determined selling price, deducts the required profit margin to find the target cost, then works to close any 'cost gap' through design and process changes, before production begins (the reverse of traditional cost-plus pricing). **Life cycle costing** accumulates a product's costs (including R&D, design and decommissioning) over its whole life, not just the production phase, so pricing and appraisal reflect the true total cost. **Throughput accounting** treats only direct material as a truly variable cost (labour and overheads are treated as largely fixed in the short run) and focuses on maximising throughput (sales revenue less material cost) per unit of the scarcest resource (the bottleneck).
+
+## Explicitly not here
+Allocation, apportionment and absorption rates themselves are MA_S03.

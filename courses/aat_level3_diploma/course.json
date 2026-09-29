@@ -1,0 +1,76 @@
+{
+  "schema_version": 4,
+  "name": "AAT Level 3 Diploma in Accounting",
+  "requires_complete": [
+    "aat_level2_certificate"
+  ],
+  "standalone": true,
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AAT Level 3 Diploma in Accounting qualification specification (Qualification Number 603/6337/X), Version 5.12 (published 1 September 2026), the current version linked from aat.org.uk/deliver/qualifications/specifications-outlines, itemised on 2026-09-27: every scope-of-content topic area across the qualification's four mandatory units -- Business Awareness, Financial Accounting: Preparing Financial Statements, Management Accounting Techniques and Tax Processes for Businesses (400 guided learning hours, 620 total qualification time in all). Assessment (real AAT structure): each of the four units has its own independent computer-based unit assessment -- Business Awareness 2h30m (partially human-marked), Financial Accounting: Preparing Financial Statements 2h30m (computer-marked), Management Accounting Techniques 2h (computer-marked), Tax Processes for Businesses 2h (computer-marked, split roughly 65% VAT / 35% payroll). A student must pass all four unit assessments to achieve the qualification; AAT publishes a pass mark of 70% across every assessment, with no synoptic assessment at this level (100% of the qualification is assessed by these four externally marked unit assessments). This course's 29 stages give one or more checkpoints per learning-outcome group within each unit; the course's own cumulative exam is a representative mock across all four units, applying the real 70% pass mark per unit as well as overall. Every numerical example (accruals/prepayments, irrecoverable debts, depreciation, inventory valuation, trial balance/ETB adjustments, sole trader and partnership financial statements, profitability ratios, incomplete records, FIFO/LIFO/AVCO, overhead absorption, marginal/absorption costing, budgets, variances, breakeven, limiting factors, cash flow forecasts, VAT calculations and returns, PAYE/NIC and statutory payments) was computed and verified in Python when this course was built. UK VAT is taken at the standard rate of 20% (reduced 5%, zero 0%) and the registration threshold at £90,000 (deregistration £88,000); payroll figures use the 2026/27 UK tax year.",
+  "academic_level": null,
+  "level_source": "standalone: a professional accounting body (AAT) qualification. AAT Level 3 Diploma in Accounting is itself Ofqual RQF Level 3 regulated (603/6337/X), also regulated by CCEA (Northern Ireland) and Qualifications Wales, but this course follows the library's course() convention already used for other professional-body qualifications with a real, fixed, published pass mark (matching icaew_cfab and acca_applied_knowledge), rather than course_leveled()'s framework-levelled convention.",
+  "level_basis": "standalone",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "real_assessment_structure",
+      "text": "AAT itself does not set a single combined final exam for this qualification. It sets four wholly independent computer-based unit assessments -- Business Awareness, Financial Accounting: Preparing Financial Statements, Management Accounting Techniques, and Tax Processes for Businesses -- each separately pass/fail at 70%, with no synoptic assessment at this level (unlike aat_level2_certificate, where The Business Environment is assessed only via a synoptic paper). This course's 29 stage tests together cover the content of all four units; the course's own cumulative exam is a representative mock combining all four units in one sitting, for tutoring convenience, applying AAT's real 70% pass mark to each unit's mini-paper as well as to the mock overall."
+    },
+    {
+      "id": "pass_mark",
+      "text": "This course uses AAT's own published pass mark of 70% for every stage test and the exam, because AAT states it maintains a 70% pass mark across all its assessments for this qualification -- this is a real, published figure, not the course's own usual 60% standard."
+    },
+    {
+      "id": "vat_and_payroll_currency",
+      "text": "The Tax Processes for Businesses unit teaches the 2026/27 UK tax year's figures: VAT standard rate 20% (reduced 5%, zero 0%), VAT registration threshold £90,000 (deregistration £88,000), the income tax personal allowance (£12,570) and basic-rate band used for PAYE calculations, employee Class 1 NIC (8% between £12,570 and £50,270, 2% above), and statutory payment weekly rates for SSP (£123.25 or 80% of average weekly earnings if lower) and SMP/SPP (£194.32 or 90% of average weekly earnings if lower). UK tax and payroll figures change at least annually (usually from 6 April following a Budget/Autumn Statement) -- check gov.uk for the current figures if relying on this course beyond the 2026/27 tax year."
+    },
+    {
+      "id": "digital_systems",
+      "text": "AAT expects familiarity with accounting and payroll software and with spreadsheets, but does not require any specific package. This course teaches the underlying manual method throughout (so every step can be worked and checked by hand), and explains what accounting software automates where the real specification references it."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_BA_Business_Types_Structures_and_Governance",
+    "S02_BA_External_and_Internal_Environment",
+    "S03_BA_Ethics_and_Money_Laundering",
+    "S04_BA_Technology_and_Data_Security",
+    "S05_BA_Information_Visualisation_and_Communication",
+    "S06_FA_Principles_and_Qualities_of_Information",
+    "S07_FA_Advanced_Double_Entry_and_Ledgers",
+    "S08_FA_Non_Current_Asset_Acquisition_and_Disposal",
+    "S09_FA_Depreciation",
+    "S10_FA_Accruals_Prepayments_and_Receivables",
+    "S11_FA_Inventory_and_Period_End_Judgement",
+    "S12_FA_Trial_Balance_and_Extended_Trial_Balance",
+    "S13_FA_Sole_Trader_Financial_Statements",
+    "S14_FA_Partnership_Financial_Statements",
+    "S15_FA_Profitability_Ratios",
+    "S16_FA_Incomplete_Records",
+    "S17_MA_Purpose_and_Cost_Classification",
+    "S18_MA_Materials_Costing",
+    "S19_MA_Labour_and_Overhead_Costing",
+    "S20_MA_Marginal_and_Absorption_Costing",
+    "S21_MA_Budgeting_and_Variance_Analysis",
+    "S22_MA_Spreadsheet_Techniques",
+    "S23_MA_Short_Term_Decision_Making",
+    "S24_MA_Cash_Management",
+    "S25_TAX_UK_Tax_System_and_VAT_Principles",
+    "S26_TAX_VAT_Registration_and_Deregistration",
+    "S27_TAX_VAT_Calculations_and_Returns",
+    "S28_TAX_Documentation_and_Communication",
+    "S29_TAX_Payroll_and_Statutory_Payments"
+  ]
+}

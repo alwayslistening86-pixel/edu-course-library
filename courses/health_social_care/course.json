@@ -1,0 +1,54 @@
+{
+  "schema_version": 4,
+  "name": "Health and Social Care (OCR Cambridge National Level 1/2, J835)",
+  "requires_complete": [],
+  "selected_options": {
+    "optional_unit": "R035: Health promotion campaigns - this course's selected optional unit (over the alternative, R034: Creative and therapeutic activities).",
+    "note": "This is a Level 1/2 vocational award, not a GCSE, but included in this build per the user's confirmed 20-course plan."
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "OCR Level 1/Level 2 Cambridge National in Health and Social Care (J835), qualification number 603/7116/X, first teaching September 2022. Itemised on 2026-09-19 from OCR's published specification PDF, Version 6 (June 2026), downloaded and read in full for sections 2 (qualification overview and structure), 4.1 (guidance on unit content), 4.2 (Unit R032 all four topic areas), 4.3 (Unit R033 topic areas, marking criteria, assessment guidance), 4.5 (Unit R035 topic areas, marking criteria, assessment guidance), 5 (assessment, grading, UMS boundaries, performance descriptors), 6 (NEA rules, feedback and plagiarism) and Appendix B (command and descriptor words); Unit R034 was read for its topic-area headings only because it is not selected. The R032/01 mark scheme (January 2024 series) was read for the level-of-response wording and example creditworthy answers. All lesson text, worked examples and test scenarios were written for this course and are original; example content beyond the spec's own lists is standard sector knowledge written from general knowledge and not individually verified against OCR resources. The OCR-set assignments for R033 and R035 are on the secure Teach Cambridge site and were not seen; the course therefore teaches the skills and evidence requirements from the spec's marking criteria and assignment guidance, and does not use or reproduce any live assignment.",
+  "academic_level": 2,
+  "level_source": "RQF Level 1/2 (OCR Cambridge National / WJEC-Eduqas Vocational Award), per Ofqual's Register of Regulated Qualifications; recorded at the qualification's upper band since this build is not tier-restricted",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_How_The_Qualification_Works",
+    "S02_Care_Settings_and_Service_User_Rights",
+    "S03_Person_Centred_Values_and_the_6Cs",
+    "S04_Benefits_and_Effects_of_Person_Centred_Values",
+    "S05_Verbal_and_Non_Verbal_Communication",
+    "S06_Active_Listening_Special_Methods_and_Why_Communication_Matters",
+    "S07_Safeguarding",
+    "S08_Infection_Prevention",
+    "S09_Safety_Procedures_Measures_and_Security",
+    "S10_R032_Exam_Technique",
+    "S11_Life_Stages_and_PIES_Development",
+    "S12_Factors_Affecting_Growth_and_Development",
+    "S13_Life_Events_Impacts_and_Needs",
+    "S14_R033_NEA_Task_2a_Skills_and_Evidence",
+    "S15_Sources_of_Support",
+    "S16_R033_NEA_Task_2b_Recommending_Support",
+    "S17_R035_Public_Health_Issues",
+    "S18_R035_Factors_Influencing_Health",
+    "S19_R035_Planning_a_Campaign",
+    "S20_R035_Delivering_and_Evaluating_a_Campaign",
+    "S21_R035_NEA_Skills_and_Task1_Evidence",
+    "S22_R035_NEA_Tasks_2_to_4_Evidence"
+  ],
+  "linear": true,
+  "framework": "Two genuine, sourced marking frameworks used side by side: (1) OCR's three-level-of-response bands for R032's extended exam questions (Level 1 brief/limited, Level 2 adequate/sound, Level 3 thorough/detailed, with question-specific mark ranges, paraphrased from OCR's own published R032 mark scheme); (2) OCR's generic three-mark-band structure (MB1 basic/limited, MB2 sound/adequate, MB3 comprehensive/effective) used per task within R033 and R035's NEA set assignments, paraphrased from OCR's own published specification and unit guidance. Work that fails to meet MB1 criteria for a task scores zero for that task. The specification's own grading (section 5.4): Unit R032 is 70 raw marks (80 UMS) and each NEA unit is 60 raw marks (60 UMS); the qualification totals 200 UMS with minimum totals of 180 (Distinction* L2), 160 (D2), 140 (M2), 120 (P2), 100 (D1), 80 (M1) and 60 (P1).",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

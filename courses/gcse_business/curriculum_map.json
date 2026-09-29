@@ -1,0 +1,324 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Business (8132) specification: subject content 3.1 Business in the real world - 3.6 Finance",
+    "url": "https://filestore.aqa.org.uk/resources/business/specifications/AQA-8132-SP-2017.PDF",
+    "version": "Specification for first teaching from September 2017, the current version linked from aqa.org.uk/8132, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers this specification's subject content with a three-part code -- topic.subtopic (e.g. 3.1.1, 3.1.2 within Topic 3.1) -- across six topics, 3.1-3.6. This course keeps AQA's own codes exactly as AQA presents them (3.1.1-3.1.7, 3.2.1-3.2.6, 3.3.1-3.3.4, 3.4.1-3.4.4, 3.5.1-3.5.4, 3.6.1-3.6.4), itemised from AQA's published subject-content pages and specification PDF."
+  },
+  "_syllabus_items": [
+    {
+      "id": "3.1.1",
+      "title": "The purpose and nature of businesses: why businesses exist, reasons for starting a business, enterprise and entrepreneurship, the dynamic (constantly changing) nature of business",
+      "topic_area": "Topic 3.1: Business in the real world"
+    },
+    {
+      "id": "3.1.2",
+      "title": "Business ownership: sole traders, partnerships, private limited companies (ltd), public limited companies (plc), not-for-profit organisations/social enterprises",
+      "topic_area": "Topic 3.1: Business in the real world"
+    },
+    {
+      "id": "3.1.3",
+      "title": "Setting business aims and objectives: what aims and objectives are, why businesses set them, how they can change, and using them to judge success",
+      "topic_area": "Topic 3.1: Business in the real world"
+    },
+    {
+      "id": "3.1.4",
+      "title": "Stakeholders: owners, employees, customers, local community and suppliers -- their objectives and how they influence and are affected by a business",
+      "topic_area": "Topic 3.1: Business in the real world"
+    },
+    {
+      "id": "3.1.5",
+      "title": "Business location: factors influencing where a business locates (proximity to market, raw materials, labour, competitors, costs)",
+      "topic_area": "Topic 3.1: Business in the real world"
+    },
+    {
+      "id": "3.1.6",
+      "title": "Business planning: the purpose of a business plan, its main sections, and basic financial terms and calculations used in it",
+      "topic_area": "Topic 3.1: Business in the real world"
+    },
+    {
+      "id": "3.1.7",
+      "title": "Expanding a business: methods of expansion, benefits and drawbacks, and economies and diseconomies of scale",
+      "topic_area": "Topic 3.1: Business in the real world"
+    },
+    {
+      "id": "3.2.1",
+      "title": "Technology: the impact of e-commerce and digital communication on business",
+      "topic_area": "Topic 3.2: Influences on business"
+    },
+    {
+      "id": "3.2.2",
+      "title": "Ethical and environmental considerations: ethical trade-offs, environmental impacts (congestion, recycling, waste, pollution) and sustainability",
+      "topic_area": "Topic 3.2: Influences on business"
+    },
+    {
+      "id": "3.2.3",
+      "title": "The economic climate on businesses: interest rates, the level of employment and consumer spending",
+      "topic_area": "Topic 3.2: Influences on business"
+    },
+    {
+      "id": "3.2.4",
+      "title": "Globalisation: how UK businesses compete internationally (design, quality, pricing) and the effect of exchange rates",
+      "topic_area": "Topic 3.2: Influences on business"
+    },
+    {
+      "id": "3.2.5",
+      "title": "Legislation: employment law, health and safety law, and consumer law",
+      "topic_area": "Topic 3.2: Influences on business"
+    },
+    {
+      "id": "3.2.6",
+      "title": "Competitive environment: the impact of operating in competitive markets, and the uncertainty and risks businesses face",
+      "topic_area": "Topic 3.2: Influences on business"
+    },
+    {
+      "id": "3.3.1",
+      "title": "Production processes: job and flow production, lean production and just in time (JIT)",
+      "topic_area": "Topic 3.3: Business operations"
+    },
+    {
+      "id": "3.3.2",
+      "title": "The role of procurement: JIT and just in case (JIC) stock management, supplier selection, and supply-chain management",
+      "topic_area": "Topic 3.3: Business operations"
+    },
+    {
+      "id": "3.3.3",
+      "title": "The concept of quality: consequences of poor quality, total quality management (TQM), and the costs and benefits of quality",
+      "topic_area": "Topic 3.3: Business operations"
+    },
+    {
+      "id": "3.3.4",
+      "title": "Good customer service: product knowledge, after-sales service, customer satisfaction/loyalty, reputation risk, and the impact of ICT",
+      "topic_area": "Topic 3.3: Business operations"
+    },
+    {
+      "id": "3.4.1",
+      "title": "Organisational structures: span of control, chain of command, delayering and delegation, tall vs. flat structures and their effect on communication",
+      "topic_area": "Topic 3.4: Human resources"
+    },
+    {
+      "id": "3.4.2",
+      "title": "Recruitment and selection: internal and external recruitment, job analysis/description/person specification, selection methods, and full-time/part-time/job-share/zero-hours contracts",
+      "topic_area": "Topic 3.4: Human resources"
+    },
+    {
+      "id": "3.4.3",
+      "title": "Motivating employees: financial methods (salary, wage, commission, profit sharing) and non-financial methods (management style, training, responsibility, fringe benefits)",
+      "topic_area": "Topic 3.4: Human resources"
+    },
+    {
+      "id": "3.4.4",
+      "title": "Training: induction, on-the-job and off-the-job training, and their effect on productivity, quality, technology adoption and retention",
+      "topic_area": "Topic 3.4: Human resources"
+    },
+    {
+      "id": "3.5.1",
+      "title": "Identifying and understanding customers: why businesses need to know their customers (product fit, sales, marketing mix, avoiding costly mistakes, competitiveness)",
+      "topic_area": "Topic 3.5: Marketing"
+    },
+    {
+      "id": "3.5.2",
+      "title": "Segmentation: dividing a market by gender, age, location and income",
+      "topic_area": "Topic 3.5: Marketing"
+    },
+    {
+      "id": "3.5.3",
+      "title": "The purpose and methods of market research: primary research (questionnaires, surveys, interviews, focus groups) and secondary research (internet, printed press), qualitative vs. quantitative data, market size and market share",
+      "topic_area": "Topic 3.5: Marketing"
+    },
+    {
+      "id": "3.5.4",
+      "title": "The marketing mix (4Ps): price (skimming, penetration, competitive, loss leader, cost-plus), product (USP, brand image, product life cycle, extension strategies, product portfolio), promotion (advertising, PR, sales promotion, sponsorship, social media) and place (retailers, wholesalers, telesales, e-commerce/m-commerce)",
+      "topic_area": "Topic 3.5: Marketing"
+    },
+    {
+      "id": "3.6.1",
+      "title": "Sources of finance: internal (retained profit, sale of assets) and external (family/friends, share issue, loans/mortgages, overdraft, trade credit, hire purchase, government grants), and their suitability",
+      "topic_area": "Topic 3.6: Finance"
+    },
+    {
+      "id": "3.6.2",
+      "title": "Cash flow: why cash matters, the consequences of cash-flow problems, how and why cash-flow forecasts are built, net cash flow and opening/closing balances, and solutions to cash-flow problems",
+      "topic_area": "Topic 3.6: Finance"
+    },
+    {
+      "id": "3.6.3",
+      "title": "Financial terms and calculations: fixed/variable/total costs, revenue, costs, profit and loss, break-even output and margin of safety (read from a chart), and average rate of return",
+      "topic_area": "Topic 3.6: Finance"
+    },
+    {
+      "id": "3.6.4",
+      "title": "Analysing the financial performance of a business: the income statement and statement of financial position, assets vs. liabilities, and gross/net profit margin",
+      "topic_area": "Topic 3.6: Finance"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Purpose_and_Ownership": {
+    "covers_syllabus_refs": [
+      "8132 3.1.1",
+      "8132 3.1.2"
+    ],
+    "syllabus_topic": "Topic 3.1: Business in the real world",
+    "covers_items": [
+      "3.1.1",
+      "3.1.2"
+    ]
+  },
+  "S02_Aims_Objectives_Stakeholders": {
+    "covers_syllabus_refs": [
+      "8132 3.1.3",
+      "8132 3.1.4"
+    ],
+    "syllabus_topic": "Topic 3.1: Business in the real world",
+    "covers_items": [
+      "3.1.3",
+      "3.1.4"
+    ]
+  },
+  "S03_Location_and_Planning": {
+    "covers_syllabus_refs": [
+      "8132 3.1.5",
+      "8132 3.1.6"
+    ],
+    "syllabus_topic": "Topic 3.1: Business in the real world",
+    "covers_items": [
+      "3.1.5",
+      "3.1.6"
+    ]
+  },
+  "S04_Expansion_and_Scale": {
+    "covers_syllabus_refs": [
+      "8132 3.1.7"
+    ],
+    "syllabus_topic": "Topic 3.1: Business in the real world",
+    "covers_items": [
+      "3.1.7"
+    ]
+  },
+  "S05_Technology_and_Ethics": {
+    "covers_syllabus_refs": [
+      "8132 3.2.1",
+      "8132 3.2.2"
+    ],
+    "syllabus_topic": "Topic 3.2: Influences on business",
+    "covers_items": [
+      "3.2.1",
+      "3.2.2"
+    ]
+  },
+  "S06_Economy_and_Globalisation": {
+    "covers_syllabus_refs": [
+      "8132 3.2.3",
+      "8132 3.2.4"
+    ],
+    "syllabus_topic": "Topic 3.2: Influences on business",
+    "covers_items": [
+      "3.2.3",
+      "3.2.4"
+    ]
+  },
+  "S07_Legislation_and_Competition": {
+    "covers_syllabus_refs": [
+      "8132 3.2.5",
+      "8132 3.2.6"
+    ],
+    "syllabus_topic": "Topic 3.2: Influences on business",
+    "covers_items": [
+      "3.2.5",
+      "3.2.6"
+    ]
+  },
+  "S08_Production_and_Procurement": {
+    "covers_syllabus_refs": [
+      "8132 3.3.1",
+      "8132 3.3.2"
+    ],
+    "syllabus_topic": "Topic 3.3: Business operations",
+    "covers_items": [
+      "3.3.1",
+      "3.3.2"
+    ]
+  },
+  "S09_Quality_and_Customer_Service": {
+    "covers_syllabus_refs": [
+      "8132 3.3.3",
+      "8132 3.3.4"
+    ],
+    "syllabus_topic": "Topic 3.3: Business operations",
+    "covers_items": [
+      "3.3.3",
+      "3.3.4"
+    ]
+  },
+  "S10_Organisational_Structure_and_Recruitment": {
+    "covers_syllabus_refs": [
+      "8132 3.4.1",
+      "8132 3.4.2"
+    ],
+    "syllabus_topic": "Topic 3.4: Human resources",
+    "covers_items": [
+      "3.4.1",
+      "3.4.2"
+    ]
+  },
+  "S11_Motivation_and_Training": {
+    "covers_syllabus_refs": [
+      "8132 3.4.3",
+      "8132 3.4.4"
+    ],
+    "syllabus_topic": "Topic 3.4: Human resources",
+    "covers_items": [
+      "3.4.3",
+      "3.4.4"
+    ]
+  },
+  "S12_Customers_and_Segmentation": {
+    "covers_syllabus_refs": [
+      "8132 3.5.1",
+      "8132 3.5.2"
+    ],
+    "syllabus_topic": "Topic 3.5: Marketing",
+    "covers_items": [
+      "3.5.1",
+      "3.5.2"
+    ]
+  },
+  "S13_Market_Research_and_Marketing_Mix": {
+    "covers_syllabus_refs": [
+      "8132 3.5.3",
+      "8132 3.5.4"
+    ],
+    "syllabus_topic": "Topic 3.5: Marketing",
+    "covers_items": [
+      "3.5.3",
+      "3.5.4"
+    ]
+  },
+  "S14_Sources_of_Finance_and_Cash_Flow": {
+    "covers_syllabus_refs": [
+      "8132 3.6.1",
+      "8132 3.6.2"
+    ],
+    "syllabus_topic": "Topic 3.6: Finance",
+    "covers_items": [
+      "3.6.1",
+      "3.6.2"
+    ]
+  },
+  "S15_Financial_Calculations_and_Performance": {
+    "covers_syllabus_refs": [
+      "8132 3.6.3",
+      "8132 3.6.4"
+    ],
+    "syllabus_topic": "Topic 3.6: Finance",
+    "covers_items": [
+      "3.6.3",
+      "3.6.4"
+    ]
+  }
+}

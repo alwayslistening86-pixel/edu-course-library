@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA GCSE Psychology (8182) specification: subject content 3.1 Cognition and Behaviour (3.1.1 Memory, 3.1.2 Perception, 3.1.3 Development, 3.1.4 Research methods incl. 3.1.4.1 Data handling) and 3.2 Social Context and Behaviour (3.2.1 Social influence, 3.2.2 Language, thought and communication, 3.2.3 Brain and neuropsychology, 3.2.4 Psychological problems)",
+    "url": "https://filestore.aqa.org.uk/resources/psychology/specifications/AQA-8182-SP-2017.PDF",
+    "version": "Specification for first teaching from September 2017, the current version linked from aqa.org.uk/8182, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA numbers this specification's subject content in three levels (e.g. 3.1.1 Memory, 3.1.4.1 Data handling), not with the flat topic.subtopic scheme some other AQA GCSEs use. This course keeps its own short sequential topic.subtopic codes (1.1-1.3 for Memory, 2.1-2.4 for Perception, 3.1-3.3 for Development, 4.1-4.6 for Research methods, 5.1-5.4 for Social influence, 6.1-6.4 for Language, thought and communication, 7.1-7.4 for Brain and neuropsychology, 8.1-8.3 for Psychological problems), cross-referenced in each stage's `topic_area` to AQA's own 3.1.1-3.2.4 section numbers, itemised from AQA's published subject-content pages and specification PDF."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1",
+      "title": "Processes of memory: encoding, storage and retrieval; episodic, semantic and procedural memory",
+      "topic_area": "3.1.1 Memory"
+    },
+    {
+      "id": "1.2",
+      "title": "Structures of memory: the multi-store model (sensory register, STM, LTM), coding/capacity/duration, primacy and recency (Murdock)",
+      "topic_area": "3.1.1 Memory"
+    },
+    {
+      "id": "1.3",
+      "title": "Memory as an active process: the theory of reconstructive memory, effort after meaning (Bartlett), factors affecting accuracy",
+      "topic_area": "3.1.1 Memory"
+    },
+    {
+      "id": "2.1",
+      "title": "Sensation and perception distinguished; monocular and binocular depth cues; visual constancies",
+      "topic_area": "3.1.2 Perception"
+    },
+    {
+      "id": "2.2",
+      "title": "Theories of perception: Gibson's direct theory and Gregory's constructivist (indirect) theory",
+      "topic_area": "3.1.2 Perception"
+    },
+    {
+      "id": "2.3",
+      "title": "Visual illusions: explanations (ambiguity, misinterpreted depth cues, fiction, size constancy) and named examples",
+      "topic_area": "3.1.2 Perception"
+    },
+    {
+      "id": "2.4",
+      "title": "Factors affecting perception: perceptual set, culture, motivation and emotion (Gilchrist and Nesberg; Bruner and Minturn)",
+      "topic_area": "3.1.2 Perception"
+    },
+    {
+      "id": "3.1",
+      "title": "Early brain development: neural structures (brain stem, thalamus, cerebellum, cortex) and the nature-nurture debate",
+      "topic_area": "3.1.3 Development"
+    },
+    {
+      "id": "3.2",
+      "title": "Piaget's stage theory of cognitive development: assimilation/accommodation, the four stages, conservation and egocentrism (McGarrigle and Donaldson; Hughes)",
+      "topic_area": "3.1.3 Development"
+    },
+    {
+      "id": "3.3",
+      "title": "Effects of learning on development: Dweck's mindset theory, praise and self-efficacy; learning styles and Willingham's critique",
+      "topic_area": "3.1.3 Development"
+    },
+    {
+      "id": "4.1",
+      "title": "Formulating hypotheses (null and alternative) and types of variable (independent, dependent, extraneous)",
+      "topic_area": "3.1.4 Research methods"
+    },
+    {
+      "id": "4.2",
+      "title": "Sampling methods: random, opportunity, systematic and stratified, with strengths and weaknesses",
+      "topic_area": "3.1.4 Research methods"
+    },
+    {
+      "id": "4.3",
+      "title": "Experimental design and types of experiment: independent groups, repeated measures, matched pairs; laboratory, field and natural experiments",
+      "topic_area": "3.1.4 Research methods"
+    },
+    {
+      "id": "4.4",
+      "title": "Non-experimental methods: questionnaires, interviews, case studies and observation (behaviour categories, interobserver reliability), and correlation",
+      "topic_area": "3.1.4 Research methods"
+    },
+    {
+      "id": "4.5",
+      "title": "Research procedures and quality: standardisation, control of extraneous variables, reliability, validity, and BPS ethical guidelines",
+      "topic_area": "3.1.4 Research methods"
+    },
+    {
+      "id": "4.6",
+      "title": "Data handling: quantitative/qualitative and primary/secondary data; computation; descriptive statistics (mean, median, mode, range); tables, charts and the normal distribution",
+      "topic_area": "3.1.4.1 Data handling"
+    },
+    {
+      "id": "5.1",
+      "title": "Conformity: social factors (group size, anonymity, task difficulty) and dispositional factors (Asch's study)",
+      "topic_area": "3.2.1 Social influence"
+    },
+    {
+      "id": "5.2",
+      "title": "Obedience: Milgram's agency theory (agency, authority, culture, proximity) and Adorno's authoritarian personality theory",
+      "topic_area": "3.2.1 Social influence"
+    },
+    {
+      "id": "5.3",
+      "title": "Prosocial behaviour: bystander intervention, social and dispositional factors (Piliavin's subway study)",
+      "topic_area": "3.2.1 Social influence"
+    },
+    {
+      "id": "5.4",
+      "title": "Crowd and collective behaviour: prosocial and antisocial crowd behaviour, social loafing, deindividuation, and dispositional factors",
+      "topic_area": "3.2.1 Social influence"
+    },
+    {
+      "id": "6.1",
+      "title": "The relationship between language and thought: Piaget's and the Sapir-Whorf (linguistic relativity) views, with cross-cultural evidence",
+      "topic_area": "3.2.2 Language, thought and communication"
+    },
+    {
+      "id": "6.2",
+      "title": "Human and animal communication compared, including Von Frisch's honeybee dance study",
+      "topic_area": "3.2.2 Language, thought and communication"
+    },
+    {
+      "id": "6.3",
+      "title": "Non-verbal communication: eye contact, body language (posture, postural echo, touch) and personal space",
+      "topic_area": "3.2.2 Language, thought and communication"
+    },
+    {
+      "id": "6.4",
+      "title": "Explanations of non-verbal behaviour: Darwin's evolutionary account, innate and learned evidence (Yuki's emoticon study)",
+      "topic_area": "3.2.2 Language, thought and communication"
+    },
+    {
+      "id": "7.1",
+      "title": "The nervous system: central and peripheral (somatic and autonomic) divisions; the fight-or-flight response; James-Lange theory of emotion",
+      "topic_area": "3.2.3 Brain and neuropsychology"
+    },
+    {
+      "id": "7.2",
+      "title": "Neuron structure and function: sensory, relay and motor neurons; synaptic transmission; Hebb's theory of learning",
+      "topic_area": "3.2.3 Brain and neuropsychology"
+    },
+    {
+      "id": "7.3",
+      "title": "Brain structure and function: the lobes and cerebellum, and localisation of function (Penfield's interpretive cortex study)",
+      "topic_area": "3.2.3 Brain and neuropsychology"
+    },
+    {
+      "id": "7.4",
+      "title": "Neuropsychology: cognitive neuroscience, brain-scanning techniques (CT, PET, fMRI), Tulving's memory study, and effects of neurological damage",
+      "topic_area": "3.2.3 Brain and neuropsychology"
+    },
+    {
+      "id": "8.1",
+      "title": "Introduction to mental health: characteristics of mental health, cultural variation, and the effects of poor mental health on the individual and society",
+      "topic_area": "3.2.4 Psychological problems"
+    },
+    {
+      "id": "8.2",
+      "title": "Clinical depression: unipolar/bipolar distinction and ICD criteria; biological and psychological explanations; treatments including antidepressants and CBT (Wiles' study)",
+      "topic_area": "3.2.4 Psychological problems"
+    },
+    {
+      "id": "8.3",
+      "title": "Addiction: characteristics and ICD dependence syndrome criteria; biological (Kaij's twin study) and psychological explanations; treatments",
+      "topic_area": "3.2.4 Psychological problems"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Memory_Processes_and_Models": {
+    "covers_syllabus_refs": [
+      "8182 1.1",
+      "8182 1.2"
+    ],
+    "syllabus_topic": "3.1.1 Memory",
+    "covers_items": [
+      "1.1",
+      "1.2"
+    ]
+  },
+  "S02_Reconstructive_Memory": {
+    "covers_syllabus_refs": [
+      "8182 1.3"
+    ],
+    "syllabus_topic": "3.1.1 Memory",
+    "covers_items": [
+      "1.3"
+    ]
+  },
+  "S03_Perception_Cues_and_Theories": {
+    "covers_syllabus_refs": [
+      "8182 2.1",
+      "8182 2.2"
+    ],
+    "syllabus_topic": "3.1.2 Perception",
+    "covers_items": [
+      "2.1",
+      "2.2"
+    ]
+  },
+  "S04_Illusions_and_Perceptual_Set": {
+    "covers_syllabus_refs": [
+      "8182 2.3",
+      "8182 2.4"
+    ],
+    "syllabus_topic": "3.1.2 Perception",
+    "covers_items": [
+      "2.3",
+      "2.4"
+    ]
+  },
+  "S05_Brain_Development_and_Piaget": {
+    "covers_syllabus_refs": [
+      "8182 3.1",
+      "8182 3.2"
+    ],
+    "syllabus_topic": "3.1.3 Development",
+    "covers_items": [
+      "3.1",
+      "3.2"
+    ]
+  },
+  "S06_Learning_Mindset_and_Style": {
+    "covers_syllabus_refs": [
+      "8182 3.3"
+    ],
+    "syllabus_topic": "3.1.3 Development",
+    "covers_items": [
+      "3.3"
+    ]
+  },
+  "S07_Hypotheses_Variables_and_Sampling": {
+    "covers_syllabus_refs": [
+      "8182 4.1",
+      "8182 4.2"
+    ],
+    "syllabus_topic": "3.1.4 Research methods",
+    "covers_items": [
+      "4.1",
+      "4.2"
+    ]
+  },
+  "S08_Experimental_and_Other_Methods": {
+    "covers_syllabus_refs": [
+      "8182 4.3",
+      "8182 4.4"
+    ],
+    "syllabus_topic": "3.1.4 Research methods",
+    "covers_items": [
+      "4.3",
+      "4.4"
+    ]
+  },
+  "S09_Procedures_Reliability_and_Ethics": {
+    "covers_syllabus_refs": [
+      "8182 4.5"
+    ],
+    "syllabus_topic": "3.1.4 Research methods",
+    "covers_items": [
+      "4.5"
+    ]
+  },
+  "S10_Data_Handling_and_Statistics": {
+    "covers_syllabus_refs": [
+      "8182 4.6"
+    ],
+    "syllabus_topic": "3.1.4 Research methods",
+    "covers_items": [
+      "4.6"
+    ]
+  },
+  "S11_Conformity": {
+    "covers_syllabus_refs": [
+      "8182 5.1"
+    ],
+    "syllabus_topic": "3.2.1 Social influence",
+    "covers_items": [
+      "5.1"
+    ]
+  },
+  "S12_Obedience": {
+    "covers_syllabus_refs": [
+      "8182 5.2"
+    ],
+    "syllabus_topic": "3.2.1 Social influence",
+    "covers_items": [
+      "5.2"
+    ]
+  },
+  "S13_Prosocial_and_Crowd_Behaviour": {
+    "covers_syllabus_refs": [
+      "8182 5.3",
+      "8182 5.4"
+    ],
+    "syllabus_topic": "3.2.1 Social influence",
+    "covers_items": [
+      "5.3",
+      "5.4"
+    ]
+  },
+  "S14_Language_and_Thought": {
+    "covers_syllabus_refs": [
+      "8182 6.1",
+      "8182 6.2"
+    ],
+    "syllabus_topic": "3.2.2 Language, thought and communication",
+    "covers_items": [
+      "6.1",
+      "6.2"
+    ]
+  },
+  "S15_Non_Verbal_Communication": {
+    "covers_syllabus_refs": [
+      "8182 6.3",
+      "8182 6.4"
+    ],
+    "syllabus_topic": "3.2.2 Language, thought and communication",
+    "covers_items": [
+      "6.3",
+      "6.4"
+    ]
+  },
+  "S16_Nervous_System_and_Neurons": {
+    "covers_syllabus_refs": [
+      "8182 7.1",
+      "8182 7.2"
+    ],
+    "syllabus_topic": "3.2.3 Brain and neuropsychology",
+    "covers_items": [
+      "7.1",
+      "7.2"
+    ]
+  },
+  "S17_Brain_Structure_and_Neuropsychology": {
+    "covers_syllabus_refs": [
+      "8182 7.3",
+      "8182 7.4"
+    ],
+    "syllabus_topic": "3.2.3 Brain and neuropsychology",
+    "covers_items": [
+      "7.3",
+      "7.4"
+    ]
+  },
+  "S18_Mental_Health_and_Depression": {
+    "covers_syllabus_refs": [
+      "8182 8.1",
+      "8182 8.2"
+    ],
+    "syllabus_topic": "3.2.4 Psychological problems",
+    "covers_items": [
+      "8.1",
+      "8.2"
+    ]
+  },
+  "S19_Addiction": {
+    "covers_syllabus_refs": [
+      "8182 8.3"
+    ],
+    "syllabus_topic": "3.2.4 Psychological problems",
+    "covers_items": [
+      "8.3"
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "stage_rubrics": {
+    "S01_Identitaet_und_Beziehungen": {
+      "criteria": [
+        "T1.1a: Identity and relationships with family and friends",
+        "T1.1b: Personality, physical description, marriage and partnership",
+        "G1: Nouns: gender, compound-noun formation, plural formation, nominalised infinitives",
+        "G2: Definite/indefinite articles and the nominative, accusative and dative cases; negation with kein"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T1.1a, T1.1b, G1, G2 (3.1 Theme 1: People and lifestyle)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S02_Gesundes_Leben": {
+      "criteria": [
+        "T1.2a: Diet, exercise and keeping fit",
+        "T1.2b: Illness, unhealthy habits and addiction",
+        "G3: Other determiners (dieser/jeder/welcher, possessive adjectives, quantifiers) across the three cases",
+        "G4: Personal pronouns (subject, accusative, dative) and the interrogative pronoun wer/wen/wem"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T1.2a, T1.2b, G3, G4 (3.1 Theme 1: People and lifestyle)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S03_Schule_und_Arbeit": {
+      "criteria": [
+        "T1.3a: School life, subjects and pressures of school",
+        "T1.3b: Jobs, careers, part-time work and future plans",
+        "G5: Reflexive pronouns and reflexive verbs; relative pronouns in subject relative clauses"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T1.3a, T1.3b, G5 (3.1 Theme 1: People and lifestyle)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S04_Freizeit": {
+      "criteria": [
+        "T2.1a: Sport and hobbies",
+        "T2.1b: Music, cinema, television and reading",
+        "G6: Present tense (weak and strong verbs, haben/sein/werden/wissen) and question formation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T2.1a, T2.1b, G6 (3.1 Theme 2: Popular culture)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S05_Braeuche_und_Feste": {
+      "criteria": [
+        "T2.2a: Customs and festivals in Germany",
+        "T2.2b: Customs and festivals in Austria and Switzerland",
+        "G7: Perfect tense, including past-participle formation patterns and haben/sein as auxiliary"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T2.2a, T2.2b, G7 (3.1 Theme 2: Popular culture)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S06_Promikultur": {
+      "criteria": [
+        "T2.3a: Celebrities in sport, music and film",
+        "T2.3b: The impact of celebrity culture and social media",
+        "G8: Future tense (werden + infinitive) and modal verbs, including m\u00f6chte"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T2.3a, T2.3b, G8 (3.1 Theme 2: Popular culture)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S07_Reisen_und_Tourismus": {
+      "criteria": [
+        "T3.1a: Holidays, transport and types of travel",
+        "T3.1b: Tourist attractions in German-speaking countries",
+        "G9: Word order: verb-second in main clauses, verb-final in subordinate clauses, separable verbs, negation with nicht/kein/nie"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T3.1a, T3.1b, G9 (3.1 Theme 3: Communication and the world around us)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S08_Medien_und_Technologie": {
+      "criteria": [
+        "T3.2a: The internet and social media",
+        "T3.2b: The benefits and dangers of technology",
+        "G10: Adjective endings after definite/indefinite articles and with no article, in the nominative, accusative and dative"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T3.2a, T3.2b, G10 (3.1 Theme 3: Communication and the world around us)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S09_Umwelt_und_Wohnen": {
+      "criteria": [
+        "T3.3a: Home, town and region",
+        "T3.3b: Environmental problems and solutions",
+        "G11: Comparative and superlative adjectives/adverbs, and adverb position",
+        "G12: Accusative, dative and two-way prepositions, their contractions, and da-/wo- compounds"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives T3.3a, T3.3b, G11, G12 (3.1 Theme 3: Communication and the world around us)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S10_Vergangenheit_und_Imperativ": {
+      "criteria": [
+        "G13: Higher tier: the genitive case, dative plural nouns, plural object pronouns, and word order in two-verb subordinate clauses",
+        "G14: Higher tier: the imperfect/simple past for narrative, and the imperative"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives G13, G14 (3.2 Grammar)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S11_Hoehere_Strukturen": {
+      "criteria": [
+        "G15: Higher tier: um/ohne/statt...zu infinitive constructions, the man-passive-avoidance structure, and the conditional (w\u00fcrde/h\u00e4tte/w\u00e4re)",
+        "G16: Higher tier: derivational morphology for reading (un-, -heit/-keit, -los, -chen/-lein, -ung, agent nouns in -er, Lieblings-/Haupt-)"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives G15, G16 (3.2 Grammar)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S12_Hoeren_Paper1": {
+      "criteria": [
+        "LIS.1: Listening strategies and dictation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives LIS.1 (Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S13_Sprechen_Rollenspiel": {
+      "criteria": [
+        "SPK.1: Speaking: role-play and reading aloud"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives SPK.1 (Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S14_Sprechen_Fotokarte": {
+      "criteria": [
+        "SPK.2: Speaking: photo card discussion and unprepared conversation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives SPK.2 (Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S15_Lesen_Paper3": {
+      "criteria": [
+        "RDG.1: Reading strategies and translation into English"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives RDG.1 (Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    },
+    "S16_Schreiben_Paper4": {
+      "criteria": [
+        "WRT.1: Writing tasks, translation into German and extended writing"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure work at GCSE Higher tier; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+        "reference": "8662 objectives WRT.1 (Scheme of assessment: Papers 1-4 (Listening, Speaking, Reading, Writing))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock in AQA's four-paper structure: Paper 1 (a new listening-style passage read aloud by the tutor, plus a dictation), Paper 2 (a role-play, a reading-aloud text with follow-up questions, and a photo-card discussion), Paper 3 (a new reading passage with a translation into English), Paper 4 (a translation into German and two pieces of extended writing)",
+      "All questions and answers in German except the translation into English and the English-language questions in Paper 1 Section A and Paper 3 Section A",
+      "Marked against AQA's real Higher-tier assessment objectives: AO1 listening comprehension, AO2 communication of content in speech/writing, and AO3 accurate application of grammar and vocabulary (including range of language)"
+    ],
+    "pass_threshold": "At least 50% of the 200 marks overall and at least 40% on each of the four papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE German (8662) specification, first teaching September 2024: themes 3.1, grammar 3.2, vocabulary 3.3",
+      "reference": "AQA 8662 scheme of assessment: four linear papers, each 25% of the GCSE (Higher tier: Paper 1 45 min/50 marks, Paper 2 10-12 min/50 marks, Paper 3 60 min/50 marks, Paper 4 1h15/50 marks)",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/german/specifications/AQA-8662-SP-2024.PDF"
+  ],
+  "source_notes": "AQA publishes the 8662 specification, including the themes, grammar list and scheme of assessment. Reading passages, translations, listening scripts and questions are original materials written for this course."
+}

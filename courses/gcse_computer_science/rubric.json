@@ -1,0 +1,442 @@
+{
+  "stage_rubrics": {
+    "S01_Algorithm_Representation": {
+      "criteria": [
+        "3.1.1: Representing algorithms: pseudo-code, program code and flowcharts; decomposition and abstraction"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.1.1 (3.1 Fundamentals of algorithms)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S02_Algorithm_Efficiency": {
+      "criteria": [
+        "3.1.2: Efficiency of algorithms"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.1.2 (3.1 Fundamentals of algorithms)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S03_Searching_Algorithms": {
+      "criteria": [
+        "3.1.3: Searching algorithms: linear search and binary search"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.1.3 (3.1 Fundamentals of algorithms)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S04_Sorting_Algorithms": {
+      "criteria": [
+        "3.1.4: Sorting algorithms: bubble sort and merge sort"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.1.4 (3.1 Fundamentals of algorithms)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S05_Data_Types_and_Programming_Concepts": {
+      "criteria": [
+        "3.2.1: Data types",
+        "3.2.2: Programming concepts: variables, constants, selection, iteration, subroutines, identifiers"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.1, 3.2.2 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S06_Operators": {
+      "criteria": [
+        "3.2.3: Arithmetic operations",
+        "3.2.4: Relational operations",
+        "3.2.5: Boolean operations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.3, 3.2.4, 3.2.5 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S07_Data_Structures": {
+      "criteria": [
+        "3.2.6: Data structures: arrays and records"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.6 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S08_Input_Output": {
+      "criteria": [
+        "3.2.7: Input/output"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.7 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S09_String_Handling": {
+      "criteria": [
+        "3.2.8: String handling operations"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.8 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S10_Random_Numbers": {
+      "criteria": [
+        "3.2.9: Random number generation"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.9 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S11_Subroutines_Structured_Programming": {
+      "criteria": [
+        "3.2.10: Structured programming and subroutines"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.10 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S12_Robust_Secure_Programming": {
+      "criteria": [
+        "3.2.11: Robust and secure programming: validation, authentication, testing, errors"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.2.11 (3.2 Programming)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S13_Number_Bases_and_Conversion": {
+      "criteria": [
+        "3.3.1: Number bases: decimal, binary and hexadecimal",
+        "3.3.2: Converting between number bases"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.3.1, 3.3.2 (3.3 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S14_Units_and_Binary_Arithmetic": {
+      "criteria": [
+        "3.3.3: Units of information",
+        "3.3.4: Binary arithmetic and binary shifts"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.3.3, 3.3.4 (3.3 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S15_Character_Encoding": {
+      "criteria": [
+        "3.3.5: Character encoding: ASCII and Unicode"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.3.5 (3.3 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S16_Representing_Images": {
+      "criteria": [
+        "3.3.6: Representing images"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.3.6 (3.3 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S17_Representing_Sound": {
+      "criteria": [
+        "3.3.7: Representing sound"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.3.7 (3.3 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S18_Data_Compression": {
+      "criteria": [
+        "3.3.8: Data compression: Huffman coding and run-length encoding"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.3.8 (3.3 Fundamentals of data representation)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S19_Hardware_Software_Classification": {
+      "criteria": [
+        "3.4.1: Hardware and software",
+        "3.4.3: Software classification: system and application software"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.4.1, 3.4.3 (3.4 Computer systems)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S20_Boolean_Logic": {
+      "criteria": [
+        "3.4.2: Boolean logic: truth tables, logic gates and circuits"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.4.2 (3.4 Computer systems)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S21_Programming_Languages_and_Translators": {
+      "criteria": [
+        "3.4.4: Classification of programming languages and translators"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.4.4 (3.4 Computer systems)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S22_Systems_Architecture": {
+      "criteria": [
+        "3.4.5: Systems architecture: CPU, memory, secondary storage, embedded systems"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.4.5 (3.4 Computer systems)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S23_Network_Fundamentals_and_Topologies": {
+      "criteria": [
+        "3.5.1: Network fundamentals: definition, advantages/disadvantages, PAN/LAN/WAN, wired vs wireless",
+        "3.5.2: Network topologies: star and bus"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.5.1, 3.5.2 (3.5 Fundamentals of computer networks)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S24_Protocols_and_Network_Security": {
+      "criteria": [
+        "3.5.3: Network protocols: Ethernet, Wi-Fi, TCP, UDP, IP, HTTP, HTTPS, FTP, SMTP, IMAP",
+        "3.5.4: Network security: authentication, encryption, firewalls, MAC address filtering",
+        "3.5.5: The 4-layer TCP/IP model"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.5.3, 3.5.4, 3.5.5 (3.5 Fundamentals of computer networks)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S25_Cyber_Security_Threats": {
+      "criteria": [
+        "3.6.1: Fundamentals of cyber security",
+        "3.6.2: Cyber security threats and penetration testing",
+        "3.6.2.1: Social engineering: blagging, phishing, shouldering",
+        "3.6.2.2: Malicious code (malware): virus, trojan, spyware"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.6.1, 3.6.2, 3.6.2.1, 3.6.2.2 (3.6 Cyber security)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S26_Detecting_and_Preventing_Threats": {
+      "criteria": [
+        "3.6.3: Methods to detect and prevent threats"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.6.3 (3.6 Cyber security)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S27_Relational_Databases": {
+      "criteria": [
+        "3.7.1: Relational databases: tables, records, fields, primary and foreign keys"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.7.1 (3.7 Relational databases and structured query language (SQL))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S28_SQL": {
+      "criteria": [
+        "3.7.2: Structured query language (SQL): SELECT/FROM/WHERE/ORDER BY, INSERT, UPDATE, DELETE"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.7.2 (3.7 Relational databases and structured query language (SQL))",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    },
+    "S29_Ethical_Legal_Environmental_Impacts": {
+      "criteria": [
+        "3.8: Ethical, legal and environmental impacts of digital technology, including privacy"
+      ],
+      "pass_threshold": "At least 60% of this test's marks. This is the course's own standard for secure GCSE-level work; AQA sets grade boundaries afresh each series, so no fixed AQA pass mark exists to mirror. A multiple-choice item is worth 1 mark and needs every correct option and nothing else; for code-tracing/output items, the exact output (or the exact error/failure named) is required for the mark. Method marks are only awarded where the method is shown; an answer with no working earns only the accuracy marks the mark scheme allows for a bare answer. A multiple-choice item is worth 1 mark and needs every correct option and nothing else.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+        "reference": "8525 objectives 3.8 (3.8 Ethical, legal and environmental impacts of digital technology on wider society, including issues of privacy)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A full mock of both papers in AQA's structure: Paper 1 Computational thinking and problem-solving (2 hours, 90 marks, 3.1-3.2) and Paper 2 Computing concepts (1 hour 45 minutes, 90 marks, 3.3-3.8)",
+      "A mix of multiple-choice, short-answer, longer-answer and extended-response questions, plus SQL questions on Paper 2, matching AQA's published question styles",
+      "Code-tracing/output questions marked on exact output (or the exact error named); calculations and conversions marked with method shown"
+    ],
+    "pass_threshold": "At least 50% of the 180 marks overall and at least 40% on each of the two papers (the course's own standard; AQA boundaries vary by series).",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE Computer Science (8525) specification: subject content sections 3.1-3.8",
+      "reference": "AQA 8525 scheme of assessment: Paper 1 (2 h, 90 marks, 50%) and Paper 2 (1 h 45, 90 marks, 50%)",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/computing/specifications/AQA-8525-SP-2020.PDF"
+  ],
+  "source_notes": "AQA publishes the 8525 specification, including the subject content and the assessment structure. Stage tests and the mock are original questions in AQA's style, not real past-paper items. Numerical answers (conversions, calculations, truth tables) were computed and checked with Python when this course was built."
+}

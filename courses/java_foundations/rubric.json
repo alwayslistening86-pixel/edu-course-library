@@ -1,0 +1,220 @@
+{
+  "stage_rubrics": {
+    "S01_What_Is_Java_and_Java_Basics": {
+      "criteria": [
+        "1.1: Describe the features of Java",
+        "1.2: Describe the real-world applications of Java",
+        "2.1: Describe the Java Development Kit (JDK) and the Java Runtime Environment (JRE)",
+        "2.2: Describe the components of object-oriented programming",
+        "2.3: Describe the components of a basic Java program",
+        "2.4: Compile and execute a Java program"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 1.1, 1.2, 2.1, 2.2, 2.3, 2.4 (Areas 1 What Is Java? and 2 Java Basics)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S02_Basic_Java_Elements": {
+      "criteria": [
+        "3.1: Identify the conventions to be followed in a Java program",
+        "3.2: Use Java reserved words",
+        "3.3: Use single-line and multi-line comments in Java programs",
+        "3.4: Import other Java packages to make them accessible in your code",
+        "3.5: Describe the java.lang package"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 3.1, 3.2, 3.3, 3.4, 3.5 (Area 3 Basic Java Elements)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S03_Data_Types_and_Casting": {
+      "criteria": [
+        "4.1: Declare and initialize variables, including a variable using final",
+        "4.2: Cast a value from one data type to another, including automatic and manual promotion",
+        "4.3: Declare and initialize a String variable"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 4.1, 4.2, 4.3 (Area 4 Working with Java Data Types)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S04_Operators": {
+      "criteria": [
+        "5.1: Use basic arithmetic operators to manipulate data, including +, -, *, / and %",
+        "5.2: Use the increment and decrement operators",
+        "5.3: Use relational operators, including ==, !=, >, >=, < and <=",
+        "5.4: Use arithmetic assignment operators",
+        "5.5: Use conditional operators, including &&, || and ?",
+        "5.6: Describe operator precedence and the use of parentheses"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 5.1, 5.2, 5.3, 5.4, 5.5, 5.6 (Area 5 Working with Java Operators)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S05_String_Random_and_Math": {
+      "criteria": [
+        "6.1: Develop code that uses methods from the String class",
+        "6.2: Format Strings using escape sequences, including %d, %n and %s",
+        "7.1: Use the Random class",
+        "7.2: Use the Math class"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 6.1, 6.2, 7.1, 7.2 (Areas 6 Working with the String Class and 7 Working with the Random and Math Classes)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S06_Decision_Statements": {
+      "criteria": [
+        "8.1: Use the decision-making statements if-then and if-then-else",
+        "8.2: Use the switch statement",
+        "8.3: Compare how == differs between primitives and objects",
+        "8.4: Compare two String objects using the compareTo and equals methods"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 8.1, 8.2, 8.3, 8.4 (Area 8 Using Decision Statements)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S07_Loops": {
+      "criteria": [
+        "9.1: Describe looping statements",
+        "9.2: Use a for loop, including an enhanced for loop",
+        "9.3: Use a while loop",
+        "9.4: Use a do-while loop",
+        "9.5: Compare and contrast the for, while and do-while loops",
+        "9.6: Develop code that uses break and continue statements"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 9.1, 9.2, 9.3, 9.4, 9.5, 9.6 (Area 9 Using Looping Statements)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S08_Debugging_and_Exceptions": {
+      "criteria": [
+        "10.1: Identify syntax and logic errors",
+        "10.2: Use exception handling",
+        "10.3: Handle common exceptions thrown",
+        "10.4: Use try and catch blocks"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 10.1, 10.2, 10.3, 10.4 (Area 10 Debugging and Exception Handling)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S09_Arrays_and_ArrayLists": {
+      "criteria": [
+        "11.1: Use a one-dimensional array",
+        "11.2: Create and manipulate an ArrayList",
+        "11.3: Traverse the elements of an ArrayList using iterators and loops, including the enhanced for loop",
+        "11.4: Compare an array and an ArrayList"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 11.1, 11.2, 11.3, 11.4 (Area 11 Arrays and ArrayLists)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S10_Classes_and_Constructors": {
+      "criteria": [
+        "12.1: Create a new class, including a main method",
+        "12.2: Use the private modifier",
+        "12.3: Describe the relationship between an object and its members",
+        "12.4: Describe the difference between a class variable, an instance variable and a local variable",
+        "12.5: Develop code that creates an object's default constructor and modifies the object's fields",
+        "12.6: Use constructors with and without parameters",
+        "12.7: Develop code that overloads constructors"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7 (Area 12 Classes and Constructors)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    },
+    "S11_Methods": {
+      "criteria": [
+        "13.1: Describe and create a method",
+        "13.2: Create and use accessor and mutator methods",
+        "13.3: Create overloaded methods",
+        "13.4: Describe a static method and demonstrate its use within a program"
+      ],
+      "pass_threshold": "At least 65% of this test's items fully correct, mirroring the published pass mark (1Z0-811: 65%). A code-output item counts only if the exact output is given, or the exact failure (does not compile / the exception thrown / the error raised) is named; a multiple-select item counts only if every correct option and no incorrect option is chosen, as in the real exam.",
+      "source": {
+        "issuing_body": "Oracle University",
+        "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+        "reference": "1Z0-811 objectives 13.1, 13.2, 13.3, 13.4 (Area 13 Java Methods)",
+        "urls": [
+          "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 60-item multiple-choice-style exam covering all 13 areas, roughly in proportion to the number of objectives in each",
+      "Code-output, single-answer and multiple-select items, as on the real exam",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 65% overall (39 of 60 items fully correct), the published 1Z0-811 passing score. Also report the score per area.",
+    "source": {
+      "issuing_body": "Oracle University",
+      "document": "Oracle University, Exam 1Z0-811: Java Foundations (Java Certified Foundations Associate): exam topics on the Oracle MyLearn exam page",
+      "reference": "1Z0-811 exam format: multiple choice, 60 questions, 120 minutes, passing score 65%",
+      "urls": [
+        "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389"
+  ],
+  "source_notes": "Oracle MyLearn publishes the 1Z0-811 objectives, format and pass mark, but no weights or past papers. Stage tests are original; output answer keys come from compiling and running the code. Objective 6.2 names %d, %n and %s as 'escape sequences'; they are format specifiers, so the lesson teaches both format specifiers and true escape sequences."
+}

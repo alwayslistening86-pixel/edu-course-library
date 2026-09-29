@@ -1,0 +1,430 @@
+{
+  "stage_rubrics": {
+    "S01_Cells_and_Microscopy": {
+      "criteria": [
+        "Identifies eukaryotic and prokaryotic features and links structures to functions correctly",
+        "Explains how specialised cells are adapted to their function using structure-function reasoning",
+        "Carries out magnification and unit-conversion calculations with correct units and standard form where needed",
+        "Describes aseptic technique and interprets zones of inhibition or colony growth data"
+      ],
+      "pass_threshold": "Foundation: correct on standard recall-and-apply questions on cell structures, specialisation and magnification (grade 4-5). Higher: also correctly carries out a magnification or colony-growth calculation using standard form.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.1.1 Cell structure and required practicals 1-2",
+        "reference": "AQA 8461 specification, section 4.1.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S02_Cell_Division_and_Transport": {
+      "criteria": [
+        "Describes the cell cycle and mitosis accurately and explains why daughter cells are identical",
+        "Describes the uses, risks and ethics of stem cell use with balanced reasoning",
+        "Distinguishes diffusion, osmosis and active transport and explains rate factors using concentration gradients",
+        "Calculates percentage change in mass and interprets osmosis practical data correctly"
+      ],
+      "pass_threshold": "Foundation: correct on standard questions on mitosis, stem cells and transport (grade 4-5). Higher: also calculates percentage change in mass and explains transport in terms of concentration gradients and energy.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.1.2 Cell division, 4.1.3 Transport in cells and required practical 3",
+        "reference": "AQA 8461 specification, sections 4.1.2 and 4.1.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S03_Enzymes_and_Digestion": {
+      "criteria": [
+        "Describes the levels of organisation and explains enzyme action with the lock and key model and denaturation",
+        "Identifies enzyme sites and products in digestion and explains the roles of acid and bile",
+        "Carries out and interprets the food tests correctly",
+        "Plans, evaluates and analyses an enzyme rate investigation with controlled variables"
+      ],
+      "pass_threshold": "Foundation: correct on organisation, enzyme and digestion questions (grade 4-5). Higher: explains rate graphs including denaturation and the role of bile in terms of surface area.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.2.1 Principles of organisation, 4.2.2.1 The human digestive system and required practicals 4-5",
+        "reference": "AQA 8461 specification, section 4.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S04_Heart_Blood_and_Disease": {
+      "criteria": [
+        "Describes the double circulatory system and links vessel and blood structures to function",
+        "Explains coronary heart disease and evaluates treatments with benefits and risks",
+        "Explains interactions between diseases and how risk factors relate to non-communicable disease",
+        "Distinguishes correlation from causation and benign from malignant tumours accurately"
+      ],
+      "pass_threshold": "Foundation: correct recall and application on heart, blood and non-communicable disease questions (grade 4-5). Higher: evaluates treatments and interprets correlation and causation in risk-factor data.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.2.2 Animal tissues, organs and organ systems (4.2.2.2-4.2.2.7)",
+        "reference": "AQA 8461 specification, section 4.2.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S05_Plant_Organisation_and_Photosynthesis": {
+      "criteria": [
+        "Relates plant tissues and organs to function and distinguishes xylem from phloem transport",
+        "Explains transpiration and its rate factors with correct reasoning",
+        "Writes and interprets the equations for photosynthesis and its uses of glucose",
+        "Interprets limiting-factor data and controls variables in the light-intensity practical"
+      ],
+      "pass_threshold": "Foundation: correct on plant tissue, transport and photosynthesis questions (grade 4-5). Higher: interprets limiting-factor graphs and applies the inverse square law to light intensity.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.2.3 Plant tissues, organs and systems, 4.4.1 Photosynthesis and required practical 6",
+        "reference": "AQA 8461 specification, sections 4.2.3 and 4.4.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S06_Respiration_and_Metabolism": {
+      "criteria": [
+        "Writes correct word and symbol equations for aerobic and anaerobic respiration",
+        "Explains how the body responds to exercise and why fatigue and oxygen debt occur",
+        "Defines metabolism and gives examples of metabolic reactions",
+        "Distinguishes respiration in muscle, yeast and plants accurately"
+      ],
+      "pass_threshold": "Foundation: correct on respiration equations and the body's response to exercise (grade 4-5). Higher: explains oxygen debt and metabolism in detail.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.4.2 Respiration",
+        "reference": "AQA 8461 specification, section 4.4.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S07_Communicable_Disease": {
+      "criteria": [
+        "Classifies pathogens correctly and names how each disease spreads",
+        "Describes symptoms of the named diseases accurately",
+        "Suggests reasoned control measures matched to the way each disease spreads",
+        "Explains effects on plants and animals by linking symptom to damage"
+      ],
+      "pass_threshold": "Foundation: correct on named diseases, their symptoms, transmission and control (grade 4-5). Higher: explains how pathogens damage the body and evaluates control measures.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.3.1 Communicable diseases (4.3.1.1-4.3.1.5)",
+        "reference": "AQA 8461 specification, section 4.3.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S08_Defence_Vaccines_and_Drugs": {
+      "criteria": [
+        "Explains how the immune system responds and how vaccination gives protection and herd immunity",
+        "Explains action of antibiotics and painkillers and the development of resistance",
+        "Describes drug testing and clinical trial design with reasons for each feature",
+        "Describes production and uses of monoclonal antibodies and plant defences and disease detection"
+      ],
+      "pass_threshold": "Foundation: correct on defences, vaccination and antibiotics (grade 4-5). Higher: explains monoclonal antibody production and use and evaluates drug trials.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.3.1.6-4.3.1.9, 4.3.2 Monoclonal antibodies and 4.3.3 Plant disease",
+        "reference": "AQA 8461 specification, sections 4.3.1-4.3.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S09_Nervous_System_and_Homeostasis": {
+      "criteria": [
+        "Defines homeostasis and describes receptor, coordination centre and effector in control systems",
+        "Describes the reflex arc and synapse accurately",
+        "Describes brain regions and investigation methods, and eye structure, accommodation and defects",
+        "Explains thermoregulation and plans and evaluates the reaction-time investigation"
+      ],
+      "pass_threshold": "Foundation: correct on homeostasis, reflex arc, the eye and temperature control (grade 4-5). Higher: explains accommodation, eye defects and brain investigation methods.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.5.1 Homeostasis, 4.5.2 The human nervous system and required practical 7",
+        "reference": "AQA 8461 specification, sections 4.5.1 and 4.5.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S10_Hormones_and_Reproduction_Control": {
+      "criteria": [
+        "Names glands and hormones and describes endocrine action compared with nervous action",
+        "Explains blood glucose control and differences between type 1 and type 2 diabetes",
+        "Explains kidney function, ADH and dialysis with correct use of diffusion and feedback",
+        "Describes reproductive hormones, contraception, infertility treatment and negative feedback"
+      ],
+      "pass_threshold": "Foundation: correct on endocrine glands, insulin, the menstrual cycle and contraception (grade 4-5). Higher: explains negative feedback loops, ADH and kidney dialysis in detail.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.5.3 Hormonal coordination in humans",
+        "reference": "AQA 8461 specification, section 4.5.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S11_Plant_Hormones": {
+      "criteria": [
+        "Explains how auxin controls phototropism and gravitropism, including unequal distribution",
+        "Describes named uses of auxins, ethene and gibberellins in agriculture",
+        "Plans a controlled investigation of plant responses and evaluates it",
+        "Uses hormone and tropism terminology correctly"
+      ],
+      "pass_threshold": "Foundation: correct on tropisms and named uses of plant hormones (grade 4-5). Higher: explains unequal auxin distribution and its effect on cell elongation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.5.4 Plant hormones and required practical 8",
+        "reference": "AQA 8461 specification, section 4.5.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S12_Reproduction_DNA_and_Inheritance": {
+      "criteria": [
+        "Compares sexual and asexual reproduction and describes meiosis and fertilisation",
+        "Describes DNA structure, the genome and protein synthesis accurately",
+        "Completes monohybrid crosses correctly using genetic terms",
+        "Explains inherited disorders, embryo screening and sex determination with ethical reasoning"
+      ],
+      "pass_threshold": "Foundation: correct on reproduction, monohybrid crosses and sex determination (grade 4-5). Higher: explains base pairing, protein synthesis and evaluates reproductive strategies.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.6.1 Reproduction (4.6.1.1-4.6.1.8)",
+        "reference": "AQA 8461 specification, section 4.6.1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S13_Variation_Selection_and_Genetic_Technology": {
+      "criteria": [
+        "Distinguishes genetic and environmental variation",
+        "Explains natural selection as a sequence of steps using correct language",
+        "Describes and evaluates selective breeding, genetic engineering and cloning",
+        "Presents balanced ethical arguments about genetic technologies"
+      ],
+      "pass_threshold": "Foundation: correct on variation, natural selection and the named techniques (grade 4-5). Higher: evaluates the benefits, risks and ethics of genetic technologies with reasoning.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.6.2 Variation and evolution (4.6.2.1-4.6.2.5)",
+        "reference": "AQA 8461 specification, section 4.6.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S14_Evolution_Evidence_and_Classification": {
+      "criteria": [
+        "Compares Darwin's and Lamarck's theories and explains why Darwin's was accepted over time",
+        "Explains speciation and the roles of isolation and natural selection",
+        "Uses fossil and resistance evidence appropriately, including limitations",
+        "Describes Linnaean and three-domain classification and uses binomial names correctly"
+      ],
+      "pass_threshold": "Foundation: correct on Darwin's theory, fossils, extinction and classification (grade 4-5). Higher: explains speciation and the development of ideas about evolution and genetics with evidence.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.6.3 Theory of evolution and 4.6.4 Classification of living organisms",
+        "reference": "AQA 8461 specification, sections 4.6.3 and 4.6.4",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S15_Ecosystems_and_Adaptation": {
+      "criteria": [
+        "Uses ecosystem terms (population, community, abiotic, biotic) precisely",
+        "Interprets food webs and predator-prey graphs with correct reasoning",
+        "Plans and analyses a quadrat or transect investigation and calculates population estimates",
+        "Describes the carbon and water cycles and links them to organisms"
+      ],
+      "pass_threshold": "Foundation: correct on food chains, adaptations and abiotic/biotic factors (grade 4-5). Higher: interprets predator-prey graphs and quantitative sampling data.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.7.1 Adaptations, interdependence and competition, 4.7.2 Organisation of an ecosystem and required practical 9",
+        "reference": "AQA 8461 specification, sections 4.7.1 and 4.7.2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S16_Decay_Biodiversity_and_Global_Warming": {
+      "criteria": [
+        "Explains decay and its conditions with uses in compost and biogas",
+        "Explains how land use, pollution, deforestation and global warming reduce biodiversity",
+        "Evaluates conservation measures and trade-offs with balanced reasoning",
+        "Plans and interprets the milk decay investigation"
+      ],
+      "pass_threshold": "Foundation: correct on decay, pollution, deforestation and global warming (grade 4-5). Higher: evaluates conservation trade-offs with reasoned arguments.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.7.2 (decomposition, environmental change), 4.7.3 Biodiversity and the effect of human interaction on ecosystems, and required practical 10",
+        "reference": "AQA 8461 specification, sections 4.7.2-4.7.3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S17_Trophic_Levels_and_Food_Security": {
+      "criteria": [
+        "Identifies trophic levels and constructs and interprets pyramids of biomass",
+        "Calculates efficiency of biomass transfer and explains losses",
+        "Explains factors that affect food security",
+        "Evaluates farming, fishing and biotechnology with balanced reasoning"
+      ],
+      "pass_threshold": "Foundation: correct on trophic levels, pyramids and food security (grade 4-5). Higher: calculates biomass transfer efficiency and evaluates farming methods with reasoning.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, 4.7.4 Trophic levels in an ecosystem and 4.7.5 Food production",
+        "reference": "AQA 8461 specification, sections 4.7.4 and 4.7.5",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S18_Working_Scientifically_Thinking_and_Experiments": {
+      "criteria": [
+        "Explains how theories, models and evidence develop and the role of peer review",
+        "Evaluates ethical and risk issues in science and society",
+        "Plans a controlled investigation with clearly identified variables, apparatus and sampling",
+        "Evaluates a method, distinguishing random and systematic error and suggesting improvements"
+      ],
+      "pass_threshold": "Foundation: identifies variables, plans a fair test and suggests improvements (grade 4-5). Higher: evaluates a method critically with reasoned suggestions and explains risk and ethical issues.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, section 3 Working scientifically, WS1 Development of scientific thinking and WS2 Experimental skills and strategies",
+        "reference": "AQA 8461 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S19_Working_Scientifically_Analysis_and_Vocabulary": {
+      "criteria": [
+        "Presents data in an appropriate table or graph with labelled axes and units",
+        "Calculates means and ranges and treats anomalies sensibly",
+        "Describes patterns using figures and writes conclusions that match the evidence",
+        "Evaluates accuracy, precision and repeatability and uses units and prefixes correctly"
+      ],
+      "pass_threshold": "Foundation: plots and reads graphs, calculates means and draws conclusions (grade 4-5). Higher: evaluates data quality with uncertainty, and links data to hypotheses in reasoned explanations.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, section 3 Working scientifically, WS3 Analysis and evaluation and WS4 Scientific vocabulary, quantities, units, symbols and nomenclature",
+        "reference": "AQA 8461 specification, section 3 (Working scientifically)",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    },
+    "S20_Mathematical_Skills_for_Biology": {
+      "criteria": [
+        "Performs routine calculations with decimals, standard form, ratios and percentages",
+        "Calculates mean, median, mode and probability correctly and states them with units",
+        "Substitutes into and rearranges simple equations, including for magnification",
+        "Plots and interprets graphs, including gradient, and calculates areas and volumes of simple shapes"
+      ],
+      "pass_threshold": "Foundation: correct on routine calculations, means, graph plotting and simple substitution (grade 4-5). Higher: works with standard form, order of magnitude, gradients and multi-step problems.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "GCSE Biology (8461) specification, section 7 Mathematical requirements (1a-1d, 2a-2h, 3a, 3d, 4a-4d, 5c)",
+        "reference": "AQA 8461 specification, section 7",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+          "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Two complete, timed 1 hour 45 minute, 100-mark papers at the learner's tier (Paper 1: topics 4.1-4.4; Paper 2: topics 4.5-4.7)",
+      "At least one required-practical-based question answered correctly in each paper",
+      "Performance holds up across topics under mixed order, including Biology-only depth content",
+      "Extended answers use precise scientific vocabulary, and calculations show working and units"
+    ],
+    "pass_threshold": "Foundation tier: performance consistent with grade 4-5 across full papers. Higher tier: performance consistent with grade 6-7. AQA sets exact grade boundaries per series rather than a fixed mark table.",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "GCSE Biology (8461) specification, Scheme of Assessment (Papers 1 and 2)",
+      "reference": "AQA 8461 specification, Scheme of Assessment",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+        "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+        "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+        "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/biology/specifications/AQA-8461-SP-2016.PDF",
+    "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/practical-assessment",
+    "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/working-scientifically",
+    "https://www.aqa.org.uk/subjects/biology/gcse/biology-8461/specification/mathematical-requirements"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Sociology (AQA 8192)",
+  "requires_complete": [],
+  "selected_options": {},
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE Sociology (8192) specification, first teaching 2017, current and live; itemised on 2026-09-22 from the AQA specification page and PDF (subject content sections 3.1-3.7, scheme of assessment, assessment objectives), fetched directly on this date, which confirmed: the seven-section content structure (3.1 The sociological approach, 3.2 Social structures/processes/issues, 3.3 Families, 3.4 Education, 3.5 Crime and deviance, 3.6 Social stratification, 3.7 Sociological research methods), the two-paper scheme (Paper 1 Families and Education, Paper 2 Crime and Deviance and Social Stratification, each 1 hour 45 minutes/100 marks/50%, each with two sections opening with two multiple-choice questions then short and extended responses), and the AO weightings (AO1 40% overall/20% per paper, AO2 40% overall/20% per paper, AO3 20% overall/10% per paper). This specification has no Foundation/Higher tiers and no non-exam assessment. Named theorists and studies (Durkheim, Marx, Weber, Parsons, the Rapoports, Oakley, Willmott and Young, Zaretsky, Delphy and Leonard, Halsey, Ball, Bowles and Gintis, Willis, Merton, Becker, Heidensohn, Albert Cohen, Carlen, Davis and Moore, Devine, Townsend, Murray, Walby) are exactly the named theorists/studies the AQA specification page itself lists against each subsection, not invented. The levels-of-response band wording for 12-mark extended questions is carried over unchanged from the original build (AQA-published June 2023 Paper 2 (8192/2) mark scheme, paraphrased not quoted), as is the four-level AO1/AO2/AO3 generic band framework. Exact current grade-boundary figures are not fixed by the board year to year and are not claimed here.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Scheme_of_Assessment_and_Assessment_Objectives",
+    "S02_The_Sociological_Approach_Concepts_and_Classical_Theorists",
+    "S03_Core_Perspectives_Key_Concepts_and_Sociological_Skills",
+    "S04_Functions_of_Families",
+    "S05_Family_Forms",
+    "S06_Conjugal_Role_Relationships",
+    "S07_Changing_Relationships_Within_Families",
+    "S08_Criticisms_of_Families_and_Divorce",
+    "S09_Roles_and_Functions_of_Education",
+    "S10_Education_Capitalism_and_Achievement",
+    "S11_Processes_Within_Schools",
+    "S12_Social_Construction_of_Crime_and_Social_Control",
+    "S13_Criminal_and_Deviant_Behaviour",
+    "S14_Data_on_Crime",
+    "S15_Functionalist_Theory_and_Socio_Economic_Class",
+    "S16_Life_Chances",
+    "S17_Poverty_as_a_Social_Issue",
+    "S18_Power_Authority_and_Power_Relationships",
+    "S19_Research_Design_Sampling_and_Data_Collection_Methods",
+    "S20_Data_Types_Sources_Interpretation_and_Practical_Ethical_Issues"
+  ],
+  "linear": true,
+  "framework": "AQA four-level generic bands per assessment objective (AO1 knowledge and understanding, AO2 application, AO3 analysis and evaluation) for extended (typically 12-mark) questions, scaled to the question's total marks: Level 4 (10-12 marks) detailed, precise, well-developed knowledge and terminology, sustained accurate application, developed critical analysis with supported judgements and evidence-based conclusions; Level 3 (7-9 marks) good relevant knowledge and a good range of terms, good application with some inaccuracies, good analysis and logical argument but judgements/conclusions may be underdeveloped; Level 2 (4-6 marks) limited knowledge and limited terms, limited application with significant inaccuracies, a limited attempt at analysis/evaluation lacking development; Level 1 (1-3 marks) fragments of basic knowledge, terms rarely used appropriately, little or no application, little or no analysis (assertion rather than evaluation). Paraphrased from AQA's published June 2023 Paper 2 (8192/2) mark scheme's generic levels-of-response bands, carried over from the original build.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 4,
+  "name": "GCSE Latin (Eduqas/WJEC C990) — Language, Literature (Livy and Virgil) and Roman Festivals and Worship",
+  "requires_complete": [],
+  "selected_options": {
+    "component_3b_topic": "Topic 8: Roman Festivals and Worship (2027-2029 cycle)",
+    "component_3a_prescribed_literature": "Livy (Hannibal Crosses the Alps) and Virgil (Hercules and Cacus) — both prescribed together for the 2026-27 exam cycle per the course's own material_vintage note (\"the set-text author rotates by exam cycle: Livy/Virgil for 2026-27\"); resolved and wired into stage_ladder by course-auditor on 2026-09-18 — both texts' lesson/practice/test content already existed on disk"
+  },
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "WJEC Eduqas GCSE Latin (C990) specification, Version 6, December 2024 (teaching from 2016, award from 2018; re-verified live 2026-09-26 at a new URL after the old PDF link 404'd); Eduqas GCSE Latin January 2026 and September 2025 subject newsletters (current); Component 1 Marking Scheme, Summer 2023 (a genuinely real, publicly rehosted mark scheme — current-year mark schemes sit behind the teacher-only Eduqas Portal). Itemised on 2026-09-19/2026-09-22. Appendix B accidence/syntax list (items 2026-09-19) and the Component 1 assessment weightings were checked against the specification PDF and the rehosted mark scheme. Component 3A content (Livy, Hannibal Crosses the Alps, Books 21.1-21.37 excerpted; Virgil, Aeneid 8.184-305, the Hercules and Cacus episode) is itemised from the standard scholarly narrative content of these well-known, publicly summarised prescribed passages and the published Eduqas set-text list naming these two authors for 2026-27; the exact letter-by-letter passage boundaries (A-H for Livy, A-I for Virgil) follow Eduqas's own notes-and-commentary booklet structure and are flagged for re-verification against that booklet, which is not openly hosted. Component 3B Topic 8 (Roman Festivals and Worship) content is itemised from the published Eduqas Component 3B topic list and standard, well-attested classical scholarship on Roman religious practice (Ovid's Fasti, Varro, and standard secondary accounts of the Roman festival calendar), flagged for re-verification against Eduqas's own topic-content grid, which likewise sits behind the teacher Portal. No real past-paper or mark-scheme text is reproduced anywhere; all test scenarios and set-text passage retellings are original paraphrase, never verbatim quotation over 8 words.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9), per Ofqual's Register of Regulated Qualifications listing for this specification",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "L01_Nouns_Adjectives_Pronouns",
+    "L02_Verbs_Present_System",
+    "L03_Verbs_Perfect_System_Passive_Deponent",
+    "L04_Nonfinite_Forms_and_Subjunctive",
+    "L05_Syntax_Cases_Prepositions_Clauses",
+    "L06_Syntax_Indirect_Speech_Constructions",
+    "L07_Translation_Technique_and_Component1_Assessment",
+    "M01_Livy_Hannibals_Career_and_Omens",
+    "M02_Livy_Alps_Ascent_Descent_and_Style",
+    "N01_Virgil_Alliance_Banquet_and_Cacus_Lair",
+    "N02_Virgil_Combat_Cult_and_Future_Rome",
+    "O01_Roman_Religion_Nature_and_Major_Festivals",
+    "O02_Death_Rites_Lifecycle_and_Divination",
+    "O03_Temples_Deities_Priesthoods_Household_and_Sources"
+  ],
+  "linear": true,
+  "framework": "Eduqas GCSE Latin (C990) is linear and untiered, assessed by three components: Component 1 Language (1hr 30, 100 marks, 50% of qualification: Section A comprehension ~55%, Section A unseen Latin-to-English translation ~35%, Section B English-to-Latin translation or grammar analysis choice ~10%); Component 2 Roman Civilisation (not selected in this build) OR Component 3 (selected route): Component 3A Latin Literature and Sources (1hr, 50 marks, 25%: prescribed-text passages requiring translation/comprehension/literary appreciation, drawn for 2026-27 from Livy's Hannibal Crosses the Alps and Virgil's Hercules and Cacus episode) and Component 3B Latin Sources for Topics (45 min, 50 marks, 25%: source-based questions on one chosen topic, here Topic 8 Roman Festivals and Worship, using English translations of ancient sources, inscriptions and images). Grades are reported 9-1. Levels of response in the extended/discursive questions reward accurate factual content, explicit use of source evidence, and developed explanation over unsupported assertion.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "learner_notices": [
+    {
+      "id": "settext-3a-2026-27",
+      "text": "Livy (Hannibal crosses the Alps) and Virgil (Hercules and Cacus) are Eduqas's prescribed Component 3A texts for the 2026 and 2027 exams only. From 2028 Eduqas will prescribe different authors and these stages will be replaced; anyone sitting the real exam in 2028 or later will study the new texts instead and may be asked to re-sit the replacement stages, even if they have already passed these.",
+      "stages": [
+        "M01_Livy_Hannibals_Career_and_Omens",
+        "M02_Livy_Alps_Ascent_Descent_and_Style",
+        "N01_Virgil_Alliance_Banquet_and_Cacus_Lair",
+        "N02_Virgil_Combat_Cult_and_Future_Rome"
+      ],
+      "since": "2026-09-26"
+    }
+  ],
+  "standalone": false,
+  "practical_stages": {},
+  "level_basis": "framework"
+}

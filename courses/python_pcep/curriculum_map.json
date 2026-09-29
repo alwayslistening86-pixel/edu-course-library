@@ -1,0 +1,606 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the PCEP objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+    "url": "https://pythoninstitute.org/pcep-exam-syllabus",
+    "version": "PCEP-30-02 (ACTIVE; syllabus page last updated 23 Feb 2022; routine refresh announced for Q3 2026, not yet published on 2026-09-26)",
+    "itemised_on": "2026-09-26",
+    "numbering": "Ids use the Python Institute's own objective numbers (1.1-4.4); the letter suffix numbers each objective's sub-points in the order the syllabus lists them (len() is listed twice under 3.1 and is itemised once, in 3.1c)."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1.1a",
+      "title": "Interpreting versus compiling, and what an interpreter does",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.1b",
+      "title": "Lexis, syntax and semantics of a language",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.2a",
+      "title": "Python keywords",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.2b",
+      "title": "Instructions (statements) and how Python reads them",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.2c",
+      "title": "Indentation as structure",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.2d",
+      "title": "Comments",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.3a",
+      "title": "Boolean, integer and floating-point literals",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.3b",
+      "title": "Scientific (exponent) notation for floats",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.3c",
+      "title": "String literals",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.3d",
+      "title": "Binary, octal, decimal and hexadecimal literals",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.3e",
+      "title": "Variables and assignment",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.3f",
+      "title": "Variable naming rules and conventions",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.3g",
+      "title": "PEP 8 style recommendations",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4a",
+      "title": "Arithmetic operators ** * / % // + -",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4b",
+      "title": "String operators * and +",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4c",
+      "title": "Assignment and shortcut (augmented) operators",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4d",
+      "title": "Unary and binary operators",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4e",
+      "title": "Operator priority and binding (associativity)",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4f",
+      "title": "Bitwise operators ~ & ^ | << >>",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4g",
+      "title": "Boolean operators not, and, or",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4h",
+      "title": "Boolean expressions",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4i",
+      "title": "Relational (comparison) operators",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4j",
+      "title": "Floating-point accuracy",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.4k",
+      "title": "Type casting between int, float, str and bool",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.5a",
+      "title": "print() and input()",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.5b",
+      "title": "The sep= and end= keyword arguments of print()",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "1.5c",
+      "title": "Converting input with int() and float()",
+      "topic_area": "1 Fundamentals"
+    },
+    {
+      "id": "2.1a",
+      "title": "if, if-else, if-elif and if-elif-else",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.1b",
+      "title": "Several independent conditional statements in sequence",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.1c",
+      "title": "Nested conditional statements",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.2a",
+      "title": "The pass instruction",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.2b",
+      "title": "Loops with while, for, range() and in",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.2c",
+      "title": "Iterating through sequences",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.2d",
+      "title": "Loop else clauses: while-else and for-else",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.2e",
+      "title": "Nesting loops and conditionals",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "2.2f",
+      "title": "Controlling loops with break and continue",
+      "topic_area": "2 Control flow"
+    },
+    {
+      "id": "3.1a",
+      "title": "Building lists (vectors)",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1b",
+      "title": "List indexing and slicing",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1c",
+      "title": "len() and sorted() on lists",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1d",
+      "title": "List methods: append, insert, index and others",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1e",
+      "title": "The del instruction",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1f",
+      "title": "Iterating through a list with for",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1g",
+      "title": "Initialising and building lists in loops",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1h",
+      "title": "Membership: in and not in",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1i",
+      "title": "List comprehensions",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1j",
+      "title": "Copying versus aliasing (cloning) lists",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.1k",
+      "title": "Nested lists: matrices and cubes",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.2a",
+      "title": "Tuples: building, indexing, slicing, immutability",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.2b",
+      "title": "Tuples compared with lists",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.2c",
+      "title": "Lists inside tuples and tuples inside lists",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.3a",
+      "title": "Dictionaries: building, indexing, adding and removing keys",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.3b",
+      "title": "Iterating through a dictionary's keys and values",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.3c",
+      "title": "Checking whether a key exists",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.3d",
+      "title": "Dictionary methods keys(), items() and values()",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.4a",
+      "title": "Constructing strings",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.4b",
+      "title": "String indexing, slicing and immutability",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.4c",
+      "title": "Escaping with the backslash",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.4d",
+      "title": "Quotes and apostrophes inside strings",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.4e",
+      "title": "Multi-line strings",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "3.4f",
+      "title": "Basic string functions and methods",
+      "topic_area": "3 Data collections"
+    },
+    {
+      "id": "4.1a",
+      "title": "Defining and calling functions, and simple generators",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.1b",
+      "title": "The return keyword and returning results",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.1c",
+      "title": "The None value",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.1d",
+      "title": "Recursion",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.2a",
+      "title": "Parameters versus arguments",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.2b",
+      "title": "Positional, keyword and mixed argument passing",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.2c",
+      "title": "Default parameter values",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.2d",
+      "title": "Name scopes, shadowing and the global keyword",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3a",
+      "title": "BaseException at the root of the hierarchy",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3b",
+      "title": "Exception",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3c",
+      "title": "SystemExit",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3d",
+      "title": "KeyboardInterrupt",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3e",
+      "title": "Abstract (grouping) exceptions",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3f",
+      "title": "ArithmeticError and its children",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3g",
+      "title": "LookupError and its children",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3h",
+      "title": "IndexError",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3i",
+      "title": "KeyError",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3j",
+      "title": "TypeError",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.3k",
+      "title": "ValueError",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.4a",
+      "title": "try-except, and catching Exception",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.4b",
+      "title": "Ordering except branches",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.4c",
+      "title": "Exceptions propagating through function calls",
+      "topic_area": "4 Functions and exceptions"
+    },
+    {
+      "id": "4.4d",
+      "title": "Deciding where an exception should be handled",
+      "topic_area": "4 Functions and exceptions"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_How_Python_Runs_Code": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 1.1",
+      "PCEP-30-02 1.2"
+    ],
+    "syllabus_topic": "Block 1: Computer Programming and Python Fundamentals (7 items, 18%)",
+    "covers_items": [
+      "1.1a",
+      "1.1b",
+      "1.2a",
+      "1.2b",
+      "1.2c",
+      "1.2d"
+    ]
+  },
+  "S02_Literals_Variables_and_Number_Systems": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 1.3"
+    ],
+    "syllabus_topic": "Block 1: Computer Programming and Python Fundamentals (7 items, 18%)",
+    "covers_items": [
+      "1.3a",
+      "1.3b",
+      "1.3c",
+      "1.3d",
+      "1.3e",
+      "1.3f",
+      "1.3g"
+    ]
+  },
+  "S03_Operators_and_Types": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 1.4"
+    ],
+    "syllabus_topic": "Block 1: Computer Programming and Python Fundamentals (7 items, 18%)",
+    "covers_items": [
+      "1.4a",
+      "1.4b",
+      "1.4c",
+      "1.4d",
+      "1.4e",
+      "1.4f",
+      "1.4g",
+      "1.4h",
+      "1.4i",
+      "1.4j",
+      "1.4k"
+    ]
+  },
+  "S04_Console_Input_and_Output": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 1.5"
+    ],
+    "syllabus_topic": "Block 1: Computer Programming and Python Fundamentals (7 items, 18%)",
+    "covers_items": [
+      "1.5a",
+      "1.5b",
+      "1.5c"
+    ]
+  },
+  "S05_Conditional_Statements": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 2.1"
+    ],
+    "syllabus_topic": "Block 2: Control Flow - Conditional Blocks and Loops (8 items, 29%)",
+    "covers_items": [
+      "2.1a",
+      "2.1b",
+      "2.1c"
+    ]
+  },
+  "S06_Loops": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 2.2"
+    ],
+    "syllabus_topic": "Block 2: Control Flow - Conditional Blocks and Loops (8 items, 29%)",
+    "covers_items": [
+      "2.2a",
+      "2.2b",
+      "2.2c",
+      "2.2d",
+      "2.2e",
+      "2.2f"
+    ]
+  },
+  "S07_Lists": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 3.1"
+    ],
+    "syllabus_topic": "Block 3: Data Collections - Tuples, Dictionaries, Lists and Strings (7 items, 25%)",
+    "covers_items": [
+      "3.1a",
+      "3.1b",
+      "3.1c",
+      "3.1d",
+      "3.1e",
+      "3.1f",
+      "3.1g",
+      "3.1h",
+      "3.1i",
+      "3.1j",
+      "3.1k"
+    ]
+  },
+  "S08_Tuples_and_Dictionaries": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 3.2",
+      "PCEP-30-02 3.3"
+    ],
+    "syllabus_topic": "Block 3: Data Collections - Tuples, Dictionaries, Lists and Strings (7 items, 25%)",
+    "covers_items": [
+      "3.2a",
+      "3.2b",
+      "3.2c",
+      "3.3a",
+      "3.3b",
+      "3.3c",
+      "3.3d"
+    ]
+  },
+  "S09_Strings": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 3.4"
+    ],
+    "syllabus_topic": "Block 3: Data Collections - Tuples, Dictionaries, Lists and Strings (7 items, 25%)",
+    "covers_items": [
+      "3.4a",
+      "3.4b",
+      "3.4c",
+      "3.4d",
+      "3.4e",
+      "3.4f"
+    ]
+  },
+  "S10_Functions": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 4.1",
+      "PCEP-30-02 4.2"
+    ],
+    "syllabus_topic": "Block 4: Functions and Exceptions (8 items, 28%)",
+    "covers_items": [
+      "4.1a",
+      "4.1b",
+      "4.1c",
+      "4.1d",
+      "4.2a",
+      "4.2b",
+      "4.2c",
+      "4.2d"
+    ]
+  },
+  "S11_Exceptions": {
+    "covers_syllabus_refs": [
+      "PCEP-30-02 4.3",
+      "PCEP-30-02 4.4"
+    ],
+    "syllabus_topic": "Block 4: Functions and Exceptions (8 items, 28%)",
+    "covers_items": [
+      "4.3a",
+      "4.3b",
+      "4.3c",
+      "4.3d",
+      "4.3e",
+      "4.3f",
+      "4.3g",
+      "4.3h",
+      "4.3i",
+      "4.3j",
+      "4.3k",
+      "4.4a",
+      "4.4b",
+      "4.4c",
+      "4.4d"
+    ]
+  }
+}

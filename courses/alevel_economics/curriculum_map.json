@@ -1,0 +1,793 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA AS and A-level Economics (7135/7136) specification: A-level subject content 4.1-4.2 and the quantitative skills annex (section 7.2)",
+    "url": "https://cdn.sanity.io/files/p28bar15/green/69c95a7fa0c7e68538e8d8f2c6a584f305a9b633.pdf",
+    "version": "Version 1.3 (29 June 2022), the current version linked from aqa.org.uk/7136, itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA's own codes for the A-level content at the deepest numbered level (4.1.1.1-4.2.6.5). The nine A-level quantitative skills in annex 7.2 are unnumbered bullets; this course numbers them QS1-QS9 in AQA's order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "4.1.1.1",
+      "title": "Economic methodology",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.1.2",
+      "title": "The nature and purpose of economic activity",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.1.3",
+      "title": "Economic resources",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.1.4",
+      "title": "Scarcity, choice and the allocation of resources",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.1.5",
+      "title": "Production possibility diagrams",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.2.1",
+      "title": "Consumer behaviour",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.2.2",
+      "title": "Imperfect information",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.2.3",
+      "title": "Aspects of behavioural economic theory",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.2.4",
+      "title": "Behavioural economics and economic policy",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.3.1",
+      "title": "The determinants of the demand for goods and services",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.3.2",
+      "title": "Price, income and cross elasticities of demand",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.3.3",
+      "title": "The determinants of the supply of goods and services",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.3.4",
+      "title": "Price elasticity of supply",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.3.5",
+      "title": "The determination of equilibrium market prices",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.3.6",
+      "title": "The interrelationship between markets",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.1",
+      "title": "Production and productivity",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.2",
+      "title": "Specialisation, division of labour and exchange",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.3",
+      "title": "The law of diminishing returns and returns to scale",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.4",
+      "title": "Costs of production",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.5",
+      "title": "Economies and diseconomies of scale",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.6",
+      "title": "Marginal, average and total revenue",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.7",
+      "title": "Profit",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.4.8",
+      "title": "Technological change",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.1",
+      "title": "Market structures",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.2",
+      "title": "The objectives of firms",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.3",
+      "title": "Perfect competition",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.4",
+      "title": "Monopolistic competition",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.5",
+      "title": "Oligopoly",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.6",
+      "title": "Monopoly and monopoly power",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.7",
+      "title": "Price discrimination",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.8",
+      "title": "The dynamics of competition and competitive market processes",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.9",
+      "title": "Contestable and non-contestable markets",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.10",
+      "title": "Market structure, static efficiency, dynamic efficiency and resource allocation",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.5.11",
+      "title": "Consumer and producer surplus",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.6.1",
+      "title": "The demand for labour, marginal productivity theory",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.6.2",
+      "title": "Influences upon the supply of labour to different markets",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.6.3",
+      "title": "The determination of relative wage rates and levels of employment in perfectly competitive labour markets",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.6.4",
+      "title": "The determination of relative wage rates and levels of employment in imperfectly competitive labour markets",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.6.5",
+      "title": "The Influence of trade unions in determining wages and levels of employment",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.6.6",
+      "title": "The National Minimum Wage",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.6.7",
+      "title": "Discrimination in the labour market",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.7.1",
+      "title": "The distribution of income and wealth",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.7.2",
+      "title": "The problem of poverty",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.7.3",
+      "title": "Government policies to alleviate poverty and to influence the distribution of income and wealth",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.1",
+      "title": "How markets and prices allocate resources",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.2",
+      "title": "The meaning of market failure",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.3",
+      "title": "Public goods, private goods and quasi-public goods",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.4",
+      "title": "Positive and negative externalities in consumption and production",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.5",
+      "title": "Merit and demerit goods",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.6",
+      "title": "Market imperfections",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.7",
+      "title": "Competition policy",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.8",
+      "title": "Public ownership, privatisation, regulation and deregulation of markets",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.9",
+      "title": "Government intervention in markets",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.1.8.10",
+      "title": "Government failure",
+      "topic_area": "4.1 Individuals, firms, markets and market failure"
+    },
+    {
+      "id": "4.2.1.1",
+      "title": "The objectives of government economic policy",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.1.2",
+      "title": "Macroeconomic indicators",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.1.3",
+      "title": "Uses of index numbers",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.1.4",
+      "title": "Uses of national income data",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.2.1",
+      "title": "The circular flow of income",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.2.2",
+      "title": "Aggregate demand and aggregate supply analysis",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.2.3",
+      "title": "The determinants of aggregate demand",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.2.4",
+      "title": "Aggregate demand and the level of economic activity",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.2.5",
+      "title": "Determinants of short-run aggregate supply",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.2.6",
+      "title": "Determinants of long-run aggregate supply",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.3.1",
+      "title": "Economic growth and the economic cycle",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.3.2",
+      "title": "Employment and unemployment",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.3.3",
+      "title": "Inflation and deflation",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.3.4",
+      "title": "Possible conflicts between macroeconomic policy objectives",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.4.1",
+      "title": "The structure of financial markets and financial assets",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.4.2",
+      "title": "Commercial banks and investment banks",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.4.3",
+      "title": "Central banks and monetary policy",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.4.4",
+      "title": "The regulation of the financial system",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.5.1",
+      "title": "Fiscal policy",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.5.2",
+      "title": "Supply-side policies",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.6.1",
+      "title": "Globalisation",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.6.2",
+      "title": "Trade",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.6.3",
+      "title": "The balance of payments",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.6.4",
+      "title": "Exchange rate systems",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "4.2.6.5",
+      "title": "Economic growth and development",
+      "topic_area": "4.2 The national and international economy"
+    },
+    {
+      "id": "QS1",
+      "title": "Calculate, use and understand ratios and fractions",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS2",
+      "title": "Calculate, use and understand percentages and percentage changes",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS3",
+      "title": "Understand and use the terms mean, median and relevant quantiles",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS4",
+      "title": "Construct and interpret a range of standard graphical forms",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS5",
+      "title": "Calculate and interpret index numbers",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS6",
+      "title": "Calculate cost, revenue and profit (marginal, average, totals)",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS7",
+      "title": "Make calculations to convert from money to real terms",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS8",
+      "title": "Make calculations of elasticity and interpret the result",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    },
+    {
+      "id": "QS9",
+      "title": "Interpret, apply and analyse information in written, graphical and numerical forms",
+      "topic_area": "7.2 Quantitative skills (A-level)"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Economic_Problem": {
+    "covers_syllabus_refs": [
+      "7136 4.1.1.1",
+      "7136 4.1.1.2",
+      "7136 4.1.1.3",
+      "7136 4.1.1.4",
+      "7136 4.1.1.5"
+    ],
+    "syllabus_topic": "4.1.1-4.1.3 The economic problem, decision making and competitive markets",
+    "covers_items": [
+      "4.1.1.1",
+      "4.1.1.2",
+      "4.1.1.3",
+      "4.1.1.4",
+      "4.1.1.5"
+    ]
+  },
+  "S02_Individual_Decisions_Behavioural": {
+    "covers_syllabus_refs": [
+      "7136 4.1.2.1",
+      "7136 4.1.2.2",
+      "7136 4.1.2.3",
+      "7136 4.1.2.4"
+    ],
+    "syllabus_topic": "4.1.1-4.1.3 The economic problem, decision making and competitive markets",
+    "covers_items": [
+      "4.1.2.1",
+      "4.1.2.2",
+      "4.1.2.3",
+      "4.1.2.4"
+    ]
+  },
+  "S03_Demand_Supply_Elasticity": {
+    "covers_syllabus_refs": [
+      "7136 4.1.3.1",
+      "7136 4.1.3.2",
+      "7136 4.1.3.3",
+      "7136 4.1.3.4",
+      "7136 QS2",
+      "7136 QS8"
+    ],
+    "syllabus_topic": "4.1.1-4.1.3 The economic problem, decision making and competitive markets",
+    "covers_items": [
+      "4.1.3.1",
+      "4.1.3.2",
+      "4.1.3.3",
+      "4.1.3.4",
+      "QS2",
+      "QS8"
+    ]
+  },
+  "S04_Market_Equilibrium": {
+    "covers_syllabus_refs": [
+      "7136 4.1.3.5",
+      "7136 4.1.3.6"
+    ],
+    "syllabus_topic": "4.1.1-4.1.3 The economic problem, decision making and competitive markets",
+    "covers_items": [
+      "4.1.3.5",
+      "4.1.3.6"
+    ]
+  },
+  "S05_Production_and_Costs": {
+    "covers_syllabus_refs": [
+      "7136 4.1.4.1",
+      "7136 4.1.4.2",
+      "7136 4.1.4.3",
+      "7136 4.1.4.4",
+      "7136 4.1.4.5",
+      "7136 QS6"
+    ],
+    "syllabus_topic": "4.1.4-4.1.5 Production, costs, revenue and market structures",
+    "covers_items": [
+      "4.1.4.1",
+      "4.1.4.2",
+      "4.1.4.3",
+      "4.1.4.4",
+      "4.1.4.5",
+      "QS6"
+    ]
+  },
+  "S06_Revenue_Profit_Technology": {
+    "covers_syllabus_refs": [
+      "7136 4.1.4.6",
+      "7136 4.1.4.7",
+      "7136 4.1.4.8"
+    ],
+    "syllabus_topic": "4.1.4-4.1.5 Production, costs, revenue and market structures",
+    "covers_items": [
+      "4.1.4.6",
+      "4.1.4.7",
+      "4.1.4.8"
+    ]
+  },
+  "S07_Market_Structures_Perfect_Competition": {
+    "covers_syllabus_refs": [
+      "7136 4.1.5.1",
+      "7136 4.1.5.2",
+      "7136 4.1.5.3"
+    ],
+    "syllabus_topic": "4.1.4-4.1.5 Production, costs, revenue and market structures",
+    "covers_items": [
+      "4.1.5.1",
+      "4.1.5.2",
+      "4.1.5.3"
+    ]
+  },
+  "S08_Monopolistic_Competition_Oligopoly": {
+    "covers_syllabus_refs": [
+      "7136 4.1.5.4",
+      "7136 4.1.5.5"
+    ],
+    "syllabus_topic": "4.1.4-4.1.5 Production, costs, revenue and market structures",
+    "covers_items": [
+      "4.1.5.4",
+      "4.1.5.5"
+    ]
+  },
+  "S09_Monopoly_Price_Discrimination": {
+    "covers_syllabus_refs": [
+      "7136 4.1.5.6",
+      "7136 4.1.5.7",
+      "7136 4.1.5.11"
+    ],
+    "syllabus_topic": "4.1.4-4.1.5 Production, costs, revenue and market structures",
+    "covers_items": [
+      "4.1.5.6",
+      "4.1.5.7",
+      "4.1.5.11"
+    ]
+  },
+  "S10_Contestability_and_Efficiency": {
+    "covers_syllabus_refs": [
+      "7136 4.1.5.8",
+      "7136 4.1.5.9",
+      "7136 4.1.5.10"
+    ],
+    "syllabus_topic": "4.1.4-4.1.5 Production, costs, revenue and market structures",
+    "covers_items": [
+      "4.1.5.8",
+      "4.1.5.9",
+      "4.1.5.10"
+    ]
+  },
+  "S11_Labour_Market": {
+    "covers_syllabus_refs": [
+      "7136 4.1.6.1",
+      "7136 4.1.6.2",
+      "7136 4.1.6.3",
+      "7136 4.1.6.4",
+      "7136 4.1.6.5",
+      "7136 4.1.6.6",
+      "7136 4.1.6.7"
+    ],
+    "syllabus_topic": "4.1.6-4.1.8 Labour markets, distribution and market failure",
+    "covers_items": [
+      "4.1.6.1",
+      "4.1.6.2",
+      "4.1.6.3",
+      "4.1.6.4",
+      "4.1.6.5",
+      "4.1.6.6",
+      "4.1.6.7"
+    ]
+  },
+  "S12_Income_Wealth_Poverty": {
+    "covers_syllabus_refs": [
+      "7136 4.1.7.1",
+      "7136 4.1.7.2",
+      "7136 4.1.7.3",
+      "7136 QS3"
+    ],
+    "syllabus_topic": "4.1.6-4.1.8 Labour markets, distribution and market failure",
+    "covers_items": [
+      "4.1.7.1",
+      "4.1.7.2",
+      "4.1.7.3",
+      "QS3"
+    ]
+  },
+  "S13_Market_Failure": {
+    "covers_syllabus_refs": [
+      "7136 4.1.8.1",
+      "7136 4.1.8.2",
+      "7136 4.1.8.3",
+      "7136 4.1.8.4",
+      "7136 4.1.8.5",
+      "7136 4.1.8.6"
+    ],
+    "syllabus_topic": "4.1.6-4.1.8 Labour markets, distribution and market failure",
+    "covers_items": [
+      "4.1.8.1",
+      "4.1.8.2",
+      "4.1.8.3",
+      "4.1.8.4",
+      "4.1.8.5",
+      "4.1.8.6"
+    ]
+  },
+  "S14_Government_Intervention": {
+    "covers_syllabus_refs": [
+      "7136 4.1.8.7",
+      "7136 4.1.8.8",
+      "7136 4.1.8.9",
+      "7136 4.1.8.10"
+    ],
+    "syllabus_topic": "4.1.6-4.1.8 Labour markets, distribution and market failure",
+    "covers_items": [
+      "4.1.8.7",
+      "4.1.8.8",
+      "4.1.8.9",
+      "4.1.8.10"
+    ]
+  },
+  "S15_Measuring_Macro_Performance": {
+    "covers_syllabus_refs": [
+      "7136 4.2.1.1",
+      "7136 4.2.1.2",
+      "7136 4.2.1.3",
+      "7136 4.2.1.4",
+      "7136 QS5",
+      "7136 QS7"
+    ],
+    "syllabus_topic": "4.2.1-4.2.3 Macroeconomic performance and AD/AS",
+    "covers_items": [
+      "4.2.1.1",
+      "4.2.1.2",
+      "4.2.1.3",
+      "4.2.1.4",
+      "QS5",
+      "QS7"
+    ]
+  },
+  "S16_Circular_Flow_AD_AS": {
+    "covers_syllabus_refs": [
+      "7136 4.2.2.1",
+      "7136 4.2.2.2",
+      "7136 4.2.2.3",
+      "7136 4.2.2.4",
+      "7136 4.2.2.5",
+      "7136 4.2.2.6"
+    ],
+    "syllabus_topic": "4.2.1-4.2.3 Macroeconomic performance and AD/AS",
+    "covers_items": [
+      "4.2.2.1",
+      "4.2.2.2",
+      "4.2.2.3",
+      "4.2.2.4",
+      "4.2.2.5",
+      "4.2.2.6"
+    ]
+  },
+  "S17_Growth_and_Unemployment": {
+    "covers_syllabus_refs": [
+      "7136 4.2.3.1",
+      "7136 4.2.3.2"
+    ],
+    "syllabus_topic": "4.2.1-4.2.3 Macroeconomic performance and AD/AS",
+    "covers_items": [
+      "4.2.3.1",
+      "4.2.3.2"
+    ]
+  },
+  "S18_Inflation_and_Policy_Conflicts": {
+    "covers_syllabus_refs": [
+      "7136 4.2.3.3",
+      "7136 4.2.3.4"
+    ],
+    "syllabus_topic": "4.2.1-4.2.3 Macroeconomic performance and AD/AS",
+    "covers_items": [
+      "4.2.3.3",
+      "4.2.3.4"
+    ]
+  },
+  "S19_Financial_Markets_Monetary_Policy": {
+    "covers_syllabus_refs": [
+      "7136 4.2.4.1",
+      "7136 4.2.4.2",
+      "7136 4.2.4.3",
+      "7136 4.2.4.4"
+    ],
+    "syllabus_topic": "4.2.4-4.2.5 Financial markets and macroeconomic policy",
+    "covers_items": [
+      "4.2.4.1",
+      "4.2.4.2",
+      "4.2.4.3",
+      "4.2.4.4"
+    ]
+  },
+  "S20_Fiscal_and_Supply_Side_Policy": {
+    "covers_syllabus_refs": [
+      "7136 4.2.5.1",
+      "7136 4.2.5.2"
+    ],
+    "syllabus_topic": "4.2.4-4.2.5 Financial markets and macroeconomic policy",
+    "covers_items": [
+      "4.2.5.1",
+      "4.2.5.2"
+    ]
+  },
+  "S21_Globalisation_and_Trade": {
+    "covers_syllabus_refs": [
+      "7136 4.2.6.1",
+      "7136 4.2.6.2"
+    ],
+    "syllabus_topic": "4.2.6 The international economy",
+    "covers_items": [
+      "4.2.6.1",
+      "4.2.6.2"
+    ]
+  },
+  "S22_Balance_of_Payments_Exchange_Rates_Development": {
+    "covers_syllabus_refs": [
+      "7136 4.2.6.3",
+      "7136 4.2.6.4",
+      "7136 4.2.6.5"
+    ],
+    "syllabus_topic": "4.2.6 The international economy",
+    "covers_items": [
+      "4.2.6.3",
+      "4.2.6.4",
+      "4.2.6.5"
+    ]
+  },
+  "S23_Exam_Skills": {
+    "covers_syllabus_refs": [
+      "7136 QS1",
+      "7136 QS4",
+      "7136 QS9"
+    ],
+    "syllabus_topic": "Exam skills and quantitative skills (annex 7.2)",
+    "covers_items": [
+      "QS1",
+      "QS4",
+      "QS9"
+    ]
+  }
+}

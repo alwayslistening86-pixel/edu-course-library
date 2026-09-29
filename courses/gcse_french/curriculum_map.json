@@ -1,0 +1,859 @@
+{
+  "_note": "Two layers. (1) Index: each stage lists the broad syllabus area(s) it sits in (covers_syllabus_refs / syllabus_topic, as the source spec names them). (2) Coverage: _syllabus_items is the specification broken into its own atomic items, and each stage lists the item ids it teaches in covers_items, so coverage_check.py can say whether the WHOLE specification is taught. Top-level keys starting with _ are metadata, never stages.",
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the areas a stage is principally associated with; it does not claim exhaustive coverage of those areas, exam weighting, or official stage boundaries. Coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms (declared coverage, not verified teaching)."
+  },
+  "_items_source": {
+    "document": "AQA GCSE French (8652) specification: subject content (themes/topics), Section 3.2 grammar, Appendix 2 vocabulary (referenced, not separately numbered), and scheme of assessment",
+    "url": "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+    "version": "AQA 8652 (first teaching September 2024), current version as published on aqa.org.uk, itemised 2026-09-22",
+    "itemised_on": "2026-09-22"
+  },
+  "_syllabus_items": [
+    {
+      "id": "AQA-FR-T1.1-vocab",
+      "title": "Identity and relationships: vocabulary",
+      "topic_area": "T1.1 Identity and relationships with others"
+    },
+    {
+      "id": "AQA-FR-T1.1-avoir-etre-F",
+      "title": "Present tense of avoir and être, and regular -er verbs",
+      "topic_area": "T1.1 Identity and relationships with others",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.1-poss-adj-F",
+      "title": "Possessive adjectives",
+      "topic_area": "T1.1 Identity and relationships with others",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.1-adj-agree-F",
+      "title": "Adjective agreement",
+      "topic_area": "T1.1 Identity and relationships with others",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.1-reflexive-F",
+      "title": "Singular reflexive verbs",
+      "topic_area": "T1.1 Identity and relationships with others",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.1-negation-F",
+      "title": "Negation: ne...pas / ne...jamais / ne...rien",
+      "topic_area": "T1.1 Identity and relationships with others",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.1-plural-reflexive-H",
+      "title": "Plural reflexive verbs (Higher)",
+      "topic_area": "T1.1 Identity and relationships with others",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.1-rel-que-H",
+      "title": "Relative pronoun que (Higher)",
+      "topic_area": "T1.1 Identity and relationships with others",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.2-vocab",
+      "title": "Healthy living and lifestyle: vocabulary",
+      "topic_area": "T1.2 Healthy living and lifestyle"
+    },
+    {
+      "id": "AQA-FR-T1.2-partitive-F",
+      "title": "Partitive articles",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.2-il-faut-F",
+      "title": "il faut + infinitive",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.2-modal-F",
+      "title": "Modal verbs devoir, pouvoir, vouloir, savoir (present)",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.2-imperative-F",
+      "title": "The imperative",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.2-reflexive-couche-F",
+      "title": "Reflexive verbs of routine (se coucher etc.)",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.2-ne-plus-que-H",
+      "title": "ne...plus and ne...que (Higher)",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.2-en-H",
+      "title": "The pronoun en (Higher)",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.2-depuis-H",
+      "title": "depuis + present tense (Higher)",
+      "topic_area": "T1.2 Healthy living and lifestyle",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.3-vocab",
+      "title": "Education and work: vocabulary",
+      "topic_area": "T1.3 Education and work"
+    },
+    {
+      "id": "AQA-FR-T1.3-perfect-avoir-F",
+      "title": "Perfect tense with avoir",
+      "topic_area": "T1.3 Education and work",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.3-perfect-etre-F",
+      "title": "Perfect tense with être and agreement",
+      "topic_area": "T1.3 Education and work",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.3-imperfect-desc-F",
+      "title": "Imperfect tense for description",
+      "topic_area": "T1.3 Education and work",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.3-near-future-F",
+      "title": "Near future (aller + infinitive)",
+      "topic_area": "T1.3 Education and work",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.3-comparatives-F",
+      "title": "Comparatives",
+      "topic_area": "T1.3 Education and work",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.3-vouloir-pouvoir-F",
+      "title": "vouloir / pouvoir + infinitive",
+      "topic_area": "T1.3 Education and work",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T1.3-simple-future-H",
+      "title": "Simple future, regular verbs (Higher)",
+      "topic_area": "T1.3 Education and work",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.3-conditional-H",
+      "title": "Regular conditional (Higher)",
+      "topic_area": "T1.3 Education and work",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.3-superlatives-H",
+      "title": "Superlatives (Higher)",
+      "topic_area": "T1.3 Education and work",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T1.3-depuis-H",
+      "title": "depuis + present, education context (Higher)",
+      "topic_area": "T1.3 Education and work",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.1-vocab",
+      "title": "Free-time activities: vocabulary",
+      "topic_area": "T2.1 Free-time activities"
+    },
+    {
+      "id": "AQA-FR-T2.1-perfect-imperfect-F",
+      "title": "Perfect vs imperfect for habits and events",
+      "topic_area": "T2.1 Free-time activities",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.1-jouer-faire-F",
+      "title": "jouer à / jouer de / faire de",
+      "topic_area": "T2.1 Free-time activities",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.1-freq-adverbs-F",
+      "title": "Frequency adverbs",
+      "topic_area": "T2.1 Free-time activities",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.1-aimer-infin-F",
+      "title": "aimer / adorer / détester + infinitive",
+      "topic_area": "T2.1 Free-time activities",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.1-etre-train-H",
+      "title": "être en train de (Higher)",
+      "topic_area": "T2.1 Free-time activities",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.1-venir-de-H",
+      "title": "venir de + infinitive (Higher)",
+      "topic_area": "T2.1 Free-time activities",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.1-depuis-H",
+      "title": "depuis + present, hobbies (Higher)",
+      "topic_area": "T2.1 Free-time activities",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.2-vocab",
+      "title": "Customs, festivals and celebrations: vocabulary",
+      "topic_area": "T2.2 Customs, festivals and celebrations"
+    },
+    {
+      "id": "AQA-FR-T2.2-perfect-imperfect-narr-F",
+      "title": "Perfect and imperfect together in narrative",
+      "topic_area": "T2.2 Customs, festivals and celebrations",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.2-on-present-F",
+      "title": "on + present for customs",
+      "topic_area": "T2.2 Customs, festivals and celebrations",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.2-near-future-F",
+      "title": "Near future for festival plans",
+      "topic_area": "T2.2 Customs, festivals and celebrations",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.2-passive-H",
+      "title": "Present passive (Higher)",
+      "topic_area": "T2.2 Customs, festivals and celebrations",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.2-rel-ou-que-H",
+      "title": "Relative pronouns où and que (Higher)",
+      "topic_area": "T2.2 Customs, festivals and celebrations",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.2-en-H",
+      "title": "Pronoun en, festivals (Higher)",
+      "topic_area": "T2.2 Customs, festivals and celebrations",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.2-simple-future-H",
+      "title": "Simple future, festivals (Higher)",
+      "topic_area": "T2.2 Customs, festivals and celebrations",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.3-vocab",
+      "title": "Celebrity culture: vocabulary",
+      "topic_area": "T2.3 Celebrity culture"
+    },
+    {
+      "id": "AQA-FR-T2.3-opinion-F",
+      "title": "Opinion structures",
+      "topic_area": "T2.3 Celebrity culture",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.3-comparatives-F",
+      "title": "Comparatives about people",
+      "topic_area": "T2.3 Celebrity culture",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.3-rel-qui-F",
+      "title": "Relative pronoun qui",
+      "topic_area": "T2.3 Celebrity culture",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.3-obj-pron-sing-F",
+      "title": "Singular preverbal object pronouns le/la/l'",
+      "topic_area": "T2.3 Celebrity culture",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T2.3-superlatives-H",
+      "title": "Superlatives about celebrities (Higher)",
+      "topic_area": "T2.3 Celebrity culture",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.3-obj-pron-pl-H",
+      "title": "Plural object pronouns les (Higher)",
+      "topic_area": "T2.3 Celebrity culture",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T2.3-conditional-H",
+      "title": "Regular conditional, wishes (Higher)",
+      "topic_area": "T2.3 Celebrity culture",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.1-vocab",
+      "title": "Travel and tourism: vocabulary",
+      "topic_area": "T3.1 Travel and tourism, including places of interest"
+    },
+    {
+      "id": "AQA-FR-T3.1-perfect-avoir-etre-F",
+      "title": "Perfect tense (avoir and être) for past trips",
+      "topic_area": "T3.1 Travel and tourism, including places of interest",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.1-imperfect-weather-F",
+      "title": "Imperfect for weather and description",
+      "topic_area": "T3.1 Travel and tourism, including places of interest",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.1-place-prep-F",
+      "title": "Prepositions with place names",
+      "topic_area": "T3.1 Travel and tourism, including places of interest",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.1-obj-pron-F",
+      "title": "Preverbal object pronouns, travel context",
+      "topic_area": "T3.1 Travel and tourism, including places of interest",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.1-simple-future-H",
+      "title": "Simple future for travel plans (Higher)",
+      "topic_area": "T3.1 Travel and tourism, including places of interest",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.1-pronoun-y-H",
+      "title": "Pronoun y (Higher)",
+      "topic_area": "T3.1 Travel and tourism, including places of interest",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.1-apres-avoir-H",
+      "title": "après avoir + infinitive (Higher)",
+      "topic_area": "T3.1 Travel and tourism, including places of interest",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.2-vocab",
+      "title": "Media and technology: vocabulary",
+      "topic_area": "T3.2 Media and technology"
+    },
+    {
+      "id": "AQA-FR-T3.2-pres-perfect-F",
+      "title": "Present and perfect tenses, technology use",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.2-comparatives-F",
+      "title": "Comparatives, technology",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.2-opinion-F",
+      "title": "Balanced opinions on technology",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.2-obj-pron-F",
+      "title": "Preverbal object pronouns, media",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.2-connectives-F",
+      "title": "Connectives",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.2-avant-de-H",
+      "title": "avant de + infinitive (Higher)",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.2-present-participle-H",
+      "title": "Present participle en + -ant (Higher)",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.2-depuis-H",
+      "title": "depuis + present, technology (Higher)",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.2-passive-H",
+      "title": "Present passive, media (Higher)",
+      "topic_area": "T3.2 Media and technology",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.3-vocab",
+      "title": "The environment and where people live: vocabulary",
+      "topic_area": "T3.3 The environment and where people live"
+    },
+    {
+      "id": "AQA-FR-T3.3-il-faut-devoir-F",
+      "title": "il faut / on doit + infinitive",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.3-il-y-a-avait-F",
+      "title": "il y a / il y avait",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.3-place-prep-F",
+      "title": "Prepositions of place",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.3-comparatives-F",
+      "title": "Comparatives, town and country",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.3-rel-qui-F",
+      "title": "Relative pronoun qui, environment",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-T3.3-rel-ou-que-H",
+      "title": "Relative pronouns où/que, environment (Higher)",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.3-ne-plus-que-H",
+      "title": "ne...plus / ne...que, environment (Higher)",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.3-conditional-H",
+      "title": "Regular conditional, environment (Higher)",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.3-passive-H",
+      "title": "Present passive, environment (Higher)",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-T3.3-simple-future-H",
+      "title": "Simple future, consequences (Higher)",
+      "topic_area": "T3.3 The environment and where people live",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-P1-comprehension",
+      "title": "Listening Paper: Section A comprehension",
+      "topic_area": "Paper 1 Listening"
+    },
+    {
+      "id": "AQA-FR-P1-dictation",
+      "title": "Listening Paper: Section B dictation",
+      "topic_area": "Paper 1 Listening"
+    },
+    {
+      "id": "AQA-FR-P2-role-play",
+      "title": "Speaking Paper: role-play",
+      "topic_area": "Paper 2 Speaking"
+    },
+    {
+      "id": "AQA-FR-P2-reading-aloud",
+      "title": "Speaking Paper: reading aloud and questions",
+      "topic_area": "Paper 2 Speaking"
+    },
+    {
+      "id": "AQA-FR-P2-photo-card",
+      "title": "Speaking Paper: photo card and conversation",
+      "topic_area": "Paper 2 Speaking"
+    },
+    {
+      "id": "AQA-FR-P3-comprehension",
+      "title": "Reading Paper: Section A comprehension",
+      "topic_area": "Paper 3 Reading"
+    },
+    {
+      "id": "AQA-FR-P3-translation",
+      "title": "Reading Paper: French-to-English translation",
+      "topic_area": "Paper 3 Reading"
+    },
+    {
+      "id": "AQA-FR-P4-photo-desc-F",
+      "title": "Writing Paper: photo description (Foundation)",
+      "topic_area": "Paper 4 Writing",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-P4-5-bullet-F",
+      "title": "Writing Paper: five-bullet structured task (Foundation)",
+      "topic_area": "Paper 4 Writing",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-P4-gap-fill-F",
+      "title": "Writing Paper: grammar gap-fill (Foundation)",
+      "topic_area": "Paper 4 Writing",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-P4-translation-en-fr",
+      "title": "Writing Paper: English-to-French translation",
+      "topic_area": "Paper 4 Writing"
+    },
+    {
+      "id": "AQA-FR-P4-extended-structured-F",
+      "title": "Writing Paper: extended structured task (Foundation)",
+      "topic_area": "Paper 4 Writing",
+      "tier": "F"
+    },
+    {
+      "id": "AQA-FR-P4-3-bullet-H",
+      "title": "Writing Paper: three-bullet structured task (Higher)",
+      "topic_area": "Paper 4 Writing",
+      "tier": "H"
+    },
+    {
+      "id": "AQA-FR-P4-150-open-H",
+      "title": "Writing Paper: 150-word open-ended task (Higher)",
+      "topic_area": "Paper 4 Writing",
+      "tier": "H"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Identity_Relationships_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 1 Topic 1",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 1, Topic 1: Identity and relationships with others",
+    "covers_items": [
+      "AQA-FR-T1.1-vocab",
+      "AQA-FR-T1.1-avoir-etre-F",
+      "AQA-FR-T1.1-poss-adj-F",
+      "AQA-FR-T1.1-adj-agree-F"
+    ]
+  },
+  "S02_Identity_Relationships_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 1 Topic 1",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 1, Topic 1: Identity and relationships with others",
+    "covers_items": [
+      "AQA-FR-T1.1-reflexive-F",
+      "AQA-FR-T1.1-negation-F",
+      "AQA-FR-T1.1-plural-reflexive-H",
+      "AQA-FR-T1.1-rel-que-H"
+    ]
+  },
+  "S03_Healthy_Living_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 1 Topic 2",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 1, Topic 2: Healthy living and lifestyle",
+    "covers_items": [
+      "AQA-FR-T1.2-vocab",
+      "AQA-FR-T1.2-partitive-F",
+      "AQA-FR-T1.2-il-faut-F",
+      "AQA-FR-T1.2-modal-F"
+    ]
+  },
+  "S04_Healthy_Living_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 1 Topic 2",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 1, Topic 2: Healthy living and lifestyle",
+    "covers_items": [
+      "AQA-FR-T1.2-imperative-F",
+      "AQA-FR-T1.2-reflexive-couche-F",
+      "AQA-FR-T1.2-ne-plus-que-H",
+      "AQA-FR-T1.2-en-H",
+      "AQA-FR-T1.2-depuis-H"
+    ]
+  },
+  "S05_Education_Work_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 1 Topic 3",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 1, Topic 3: Education and work",
+    "covers_items": [
+      "AQA-FR-T1.3-vocab",
+      "AQA-FR-T1.3-perfect-avoir-F",
+      "AQA-FR-T1.3-perfect-etre-F",
+      "AQA-FR-T1.3-imperfect-desc-F",
+      "AQA-FR-T1.3-near-future-F"
+    ]
+  },
+  "S06_Education_Work_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 1 Topic 3",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 1, Topic 3: Education and work",
+    "covers_items": [
+      "AQA-FR-T1.3-comparatives-F",
+      "AQA-FR-T1.3-vouloir-pouvoir-F",
+      "AQA-FR-T1.3-simple-future-H",
+      "AQA-FR-T1.3-conditional-H",
+      "AQA-FR-T1.3-superlatives-H",
+      "AQA-FR-T1.3-depuis-H"
+    ]
+  },
+  "S07_Free_Time_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 2 Topic 1",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 2, Topic 1: Free-time activities",
+    "covers_items": [
+      "AQA-FR-T2.1-vocab",
+      "AQA-FR-T2.1-perfect-imperfect-F",
+      "AQA-FR-T2.1-jouer-faire-F",
+      "AQA-FR-T2.1-freq-adverbs-F"
+    ]
+  },
+  "S08_Free_Time_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 2 Topic 1",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 2, Topic 1: Free-time activities",
+    "covers_items": [
+      "AQA-FR-T2.1-aimer-infin-F",
+      "AQA-FR-T2.1-etre-train-H",
+      "AQA-FR-T2.1-venir-de-H",
+      "AQA-FR-T2.1-depuis-H"
+    ]
+  },
+  "S09_Customs_Festivals_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 2 Topic 2",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 2, Topic 2: Customs, festivals and celebrations",
+    "covers_items": [
+      "AQA-FR-T2.2-vocab",
+      "AQA-FR-T2.2-perfect-imperfect-narr-F",
+      "AQA-FR-T2.2-on-present-F",
+      "AQA-FR-T2.2-near-future-F"
+    ]
+  },
+  "S10_Customs_Festivals_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 2 Topic 2",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 2, Topic 2: Customs, festivals and celebrations",
+    "covers_items": [
+      "AQA-FR-T2.2-passive-H",
+      "AQA-FR-T2.2-rel-ou-que-H",
+      "AQA-FR-T2.2-en-H",
+      "AQA-FR-T2.2-simple-future-H"
+    ]
+  },
+  "S11_Celebrity_Culture_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 2 Topic 3",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 2, Topic 3: Celebrity culture",
+    "covers_items": [
+      "AQA-FR-T2.3-vocab",
+      "AQA-FR-T2.3-opinion-F",
+      "AQA-FR-T2.3-comparatives-F",
+      "AQA-FR-T2.3-rel-qui-F",
+      "AQA-FR-T2.3-obj-pron-sing-F"
+    ]
+  },
+  "S12_Celebrity_Culture_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 2 Topic 3",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 2, Topic 3: Celebrity culture",
+    "covers_items": [
+      "AQA-FR-T2.3-superlatives-H",
+      "AQA-FR-T2.3-obj-pron-pl-H",
+      "AQA-FR-T2.3-conditional-H"
+    ]
+  },
+  "S13_Travel_Tourism_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 3 Topic 1",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 3, Topic 1: Travel and tourism, including places of interest",
+    "covers_items": [
+      "AQA-FR-T3.1-vocab",
+      "AQA-FR-T3.1-perfect-avoir-etre-F",
+      "AQA-FR-T3.1-imperfect-weather-F",
+      "AQA-FR-T3.1-place-prep-F",
+      "AQA-FR-T3.1-obj-pron-F"
+    ]
+  },
+  "S14_Travel_Tourism_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 3 Topic 1",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 3, Topic 1: Travel and tourism, including places of interest",
+    "covers_items": [
+      "AQA-FR-T3.1-simple-future-H",
+      "AQA-FR-T3.1-pronoun-y-H",
+      "AQA-FR-T3.1-apres-avoir-H"
+    ]
+  },
+  "S15_Media_Technology_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 3 Topic 2",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 3, Topic 2: Media and technology",
+    "covers_items": [
+      "AQA-FR-T3.2-vocab",
+      "AQA-FR-T3.2-pres-perfect-F",
+      "AQA-FR-T3.2-comparatives-F",
+      "AQA-FR-T3.2-opinion-F",
+      "AQA-FR-T3.2-obj-pron-F",
+      "AQA-FR-T3.2-connectives-F"
+    ]
+  },
+  "S16_Media_Technology_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 3 Topic 2",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 3, Topic 2: Media and technology",
+    "covers_items": [
+      "AQA-FR-T3.2-avant-de-H",
+      "AQA-FR-T3.2-present-participle-H",
+      "AQA-FR-T3.2-depuis-H",
+      "AQA-FR-T3.2-passive-H"
+    ]
+  },
+  "S17_Environment_Core": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 3 Topic 3",
+      "Appendix 2 vocabulary",
+      "Section 3.2 grammar"
+    ],
+    "syllabus_topic": "Theme 3, Topic 3: The environment and where people live",
+    "covers_items": [
+      "AQA-FR-T3.3-vocab",
+      "AQA-FR-T3.3-il-faut-devoir-F",
+      "AQA-FR-T3.3-il-y-a-avait-F",
+      "AQA-FR-T3.3-place-prep-F",
+      "AQA-FR-T3.3-comparatives-F"
+    ]
+  },
+  "S18_Environment_Extended": {
+    "covers_syllabus_refs": [
+      "AQA 8652 Theme 3 Topic 3",
+      "Section 3.2 grammar (Higher tier extension)"
+    ],
+    "syllabus_topic": "Theme 3, Topic 3: The environment and where people live",
+    "covers_items": [
+      "AQA-FR-T3.3-rel-qui-F",
+      "AQA-FR-T3.3-rel-ou-que-H",
+      "AQA-FR-T3.3-ne-plus-que-H",
+      "AQA-FR-T3.3-conditional-H",
+      "AQA-FR-T3.3-passive-H",
+      "AQA-FR-T3.3-simple-future-H"
+    ]
+  },
+  "S19_Listening_and_Reading_Papers": {
+    "covers_syllabus_refs": [
+      "AQA 8652 scheme of assessment, Paper 1 and Paper 3"
+    ],
+    "syllabus_topic": "Scheme of assessment: Paper 1 Listening and Paper 3 Reading",
+    "covers_items": [
+      "AQA-FR-P1-comprehension",
+      "AQA-FR-P1-dictation",
+      "AQA-FR-P3-comprehension",
+      "AQA-FR-P3-translation"
+    ]
+  },
+  "S20_Speaking_Paper": {
+    "covers_syllabus_refs": [
+      "AQA 8652 scheme of assessment, Paper 2"
+    ],
+    "syllabus_topic": "Scheme of assessment: Paper 2 Speaking",
+    "covers_items": [
+      "AQA-FR-P2-role-play",
+      "AQA-FR-P2-reading-aloud",
+      "AQA-FR-P2-photo-card"
+    ]
+  },
+  "S21_Writing_Paper": {
+    "covers_syllabus_refs": [
+      "AQA 8652 scheme of assessment, Paper 4"
+    ],
+    "syllabus_topic": "Scheme of assessment: Paper 4 Writing",
+    "covers_items": [
+      "AQA-FR-P4-photo-desc-F",
+      "AQA-FR-P4-5-bullet-F",
+      "AQA-FR-P4-gap-fill-F",
+      "AQA-FR-P4-translation-en-fr",
+      "AQA-FR-P4-extended-structured-F",
+      "AQA-FR-P4-3-bullet-H",
+      "AQA-FR-P4-150-open-H"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "stage_rubrics": {
+    "S01_How_Python_Runs_Code": {
+      "criteria": [
+        "1.1a: Interpreting versus compiling, and what an interpreter does",
+        "1.1b: Lexis, syntax and semantics of a language",
+        "1.2a: Python keywords",
+        "1.2b: Instructions (statements) and how Python reads them",
+        "1.2c: Indentation as structure",
+        "1.2d: Comments"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 1.1, 1.2 (Block 1: Computer Programming and Python Fundamentals (7 items, 18%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S02_Literals_Variables_and_Number_Systems": {
+      "criteria": [
+        "1.3a: Boolean, integer and floating-point literals",
+        "1.3b: Scientific (exponent) notation for floats",
+        "1.3c: String literals",
+        "1.3d: Binary, octal, decimal and hexadecimal literals",
+        "1.3e: Variables and assignment",
+        "1.3f: Variable naming rules and conventions",
+        "1.3g: PEP 8 style recommendations"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 1.3 (Block 1: Computer Programming and Python Fundamentals (7 items, 18%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S03_Operators_and_Types": {
+      "criteria": [
+        "1.4a: Arithmetic operators ** * / % // + -",
+        "1.4b: String operators * and +",
+        "1.4c: Assignment and shortcut (augmented) operators",
+        "1.4d: Unary and binary operators",
+        "1.4e: Operator priority and binding (associativity)",
+        "1.4f: Bitwise operators ~ & ^ | << >>",
+        "1.4g: Boolean operators not, and, or",
+        "1.4h: Boolean expressions",
+        "1.4i: Relational (comparison) operators",
+        "1.4j: Floating-point accuracy",
+        "1.4k: Type casting between int, float, str and bool"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 1.4 (Block 1: Computer Programming and Python Fundamentals (7 items, 18%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S04_Console_Input_and_Output": {
+      "criteria": [
+        "1.5a: print() and input()",
+        "1.5b: The sep= and end= keyword arguments of print()",
+        "1.5c: Converting input with int() and float()"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 1.5 (Block 1: Computer Programming and Python Fundamentals (7 items, 18%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S05_Conditional_Statements": {
+      "criteria": [
+        "2.1a: if, if-else, if-elif and if-elif-else",
+        "2.1b: Several independent conditional statements in sequence",
+        "2.1c: Nested conditional statements"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 2.1 (Block 2: Control Flow - Conditional Blocks and Loops (8 items, 29%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S06_Loops": {
+      "criteria": [
+        "2.2a: The pass instruction",
+        "2.2b: Loops with while, for, range() and in",
+        "2.2c: Iterating through sequences",
+        "2.2d: Loop else clauses: while-else and for-else",
+        "2.2e: Nesting loops and conditionals",
+        "2.2f: Controlling loops with break and continue"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 2.2 (Block 2: Control Flow - Conditional Blocks and Loops (8 items, 29%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S07_Lists": {
+      "criteria": [
+        "3.1a: Building lists (vectors)",
+        "3.1b: List indexing and slicing",
+        "3.1c: len() and sorted() on lists",
+        "3.1d: List methods: append, insert, index and others",
+        "3.1e: The del instruction",
+        "3.1f: Iterating through a list with for",
+        "3.1g: Initialising and building lists in loops",
+        "3.1h: Membership: in and not in",
+        "3.1i: List comprehensions",
+        "3.1j: Copying versus aliasing (cloning) lists",
+        "3.1k: Nested lists: matrices and cubes"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 3.1 (Block 3: Data Collections - Tuples, Dictionaries, Lists and Strings (7 items, 25%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S08_Tuples_and_Dictionaries": {
+      "criteria": [
+        "3.2a: Tuples: building, indexing, slicing, immutability",
+        "3.2b: Tuples compared with lists",
+        "3.2c: Lists inside tuples and tuples inside lists",
+        "3.3a: Dictionaries: building, indexing, adding and removing keys",
+        "3.3b: Iterating through a dictionary's keys and values",
+        "3.3c: Checking whether a key exists",
+        "3.3d: Dictionary methods keys(), items() and values()"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 3.2, 3.3 (Block 3: Data Collections - Tuples, Dictionaries, Lists and Strings (7 items, 25%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S09_Strings": {
+      "criteria": [
+        "3.4a: Constructing strings",
+        "3.4b: String indexing, slicing and immutability",
+        "3.4c: Escaping with the backslash",
+        "3.4d: Quotes and apostrophes inside strings",
+        "3.4e: Multi-line strings",
+        "3.4f: Basic string functions and methods"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 3.4 (Block 3: Data Collections - Tuples, Dictionaries, Lists and Strings (7 items, 25%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S10_Functions": {
+      "criteria": [
+        "4.1a: Defining and calling functions, and simple generators",
+        "4.1b: The return keyword and returning results",
+        "4.1c: The None value",
+        "4.1d: Recursion",
+        "4.2a: Parameters versus arguments",
+        "4.2b: Positional, keyword and mixed argument passing",
+        "4.2c: Default parameter values",
+        "4.2d: Name scopes, shadowing and the global keyword"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 4.1, 4.2 (Block 4: Functions and Exceptions (8 items, 28%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    },
+    "S11_Exceptions": {
+      "criteria": [
+        "4.3a: BaseException at the root of the hierarchy",
+        "4.3b: Exception",
+        "4.3c: SystemExit",
+        "4.3d: KeyboardInterrupt",
+        "4.3e: Abstract (grouping) exceptions",
+        "4.3f: ArithmeticError and its children",
+        "4.3g: LookupError and its children",
+        "4.3h: IndexError",
+        "4.3i: KeyError",
+        "4.3j: TypeError",
+        "4.3k: ValueError",
+        "4.4a: try-except, and catching Exception",
+        "4.4b: Ordering except branches",
+        "4.4c: Exceptions propagating through function calls",
+        "4.4d: Deciding where an exception should be handled"
+      ],
+      "pass_threshold": "At least 70% of this test's items fully correct, mirroring PCEP-30-02's published pass mark (a cumulative average of at least 70%). A code-output item counts only if the exact output (or the exact exception raised) is given; a 'which of these are true' item counts only if every correct option and no incorrect option is chosen, as in the real multiple-select items.",
+      "source": {
+        "issuing_body": "OpenEDG Python Institute",
+        "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+        "reference": "PCEP-30-02 objectives 4.3, 4.4 (Block 4: Functions and Exceptions (8 items, 28%))",
+        "urls": [
+          "https://pythoninstitute.org/pcep-exam-syllabus"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "A 30-item mixed exam in PCEP's own proportions: 7 items from Block 1, 8 from Block 2, 7 from Block 3 and 8 from Block 4 (18/29/25/28%)",
+      "Item types as in the real exam: single-select, multiple-select, code-output and short scenario/code items",
+      "Items drawn from every stage, in mixed order, none reused from stage tests"
+    ],
+    "pass_threshold": "At least 70% overall (21 of 30 items fully correct), the published PCEP-30-02 pass mark. Also report the score per block, so a weak block is visible even on a pass.",
+    "source": {
+      "issuing_body": "OpenEDG Python Institute",
+      "document": "OpenEDG Python Institute, PCEP-30-02 Exam Syllabus (Certified Entry-Level Python Programmer), status ACTIVE, last updated 23 Feb 2022",
+      "reference": "PCEP-30-02 exam format: 30 items, four blocks, pass = cumulative 70%",
+      "urls": [
+        "https://pythoninstitute.org/pcep-exam-syllabus"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://pythoninstitute.org/pcep-exam-syllabus"
+  ],
+  "source_notes": "The Python Institute publishes objectives, item types, block weights and the pass mark, but no past papers or mark schemes. Every stage test is original and graded against the published pass mark; output answer keys were produced by running the code."
+}

@@ -1,0 +1,475 @@
+{
+  "stage_rubrics": {
+    "S01_Identity_Relationships_Core": {
+      "criteria": [
+        "Uses avoir and être accurately, including j'ai [age] ans",
+        "Chooses possessive adjectives by the gender of the noun owned",
+        "Agrees adjectives correctly in gender and number",
+        "Uses topic vocabulary for family, friendship and relationships accurately"
+      ],
+      "pass_threshold": "Foundation: names family/friends and describes them with correct avoir/être, possessives and basic agreement (grade 3-5). Higher: extends description with a wider adjective range and no agreement slips.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 1 Topic 1 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 1 Topic 1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S02_Identity_Relationships_Extended": {
+      "criteria": [
+        "Uses singular reflexive verbs correctly, especially s'entendre avec",
+        "Forms ne...pas / ne...jamais / ne...rien accurately in full written form",
+        "(Higher) Uses plural reflexive verbs correctly for reciprocal relationships",
+        "(Higher) Links clauses with que correctly, distinguishing it from qui"
+      ],
+      "pass_threshold": "Foundation: uses singular reflexives and one negative form correctly (grade 4-5). Higher: adds plural reflexives and que confidently in extended sentences.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 1 Topic 1 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 1 Topic 1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S03_Healthy_Living_Core": {
+      "criteria": [
+        "Uses du/de la/des/de l' correctly, including the switch to de after a negative",
+        "Uses il faut + infinitive correctly for advice",
+        "Conjugates and uses devoir, pouvoir, vouloir and savoir accurately",
+        "Uses topic vocabulary for food, exercise, sleep and risk behaviours accurately"
+      ],
+      "pass_threshold": "Foundation: gives basic health advice using il faut and a partitive article correctly (grade 3-5). Higher: uses modal verbs fluently across several health contexts.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 1 Topic 2 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 1 Topic 2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S04_Healthy_Living_Extended": {
+      "criteria": [
+        "Forms positive and negative imperatives correctly, including reflexive commands",
+        "Uses routine reflexive verbs (se coucher, se réveiller, se sentir) accurately",
+        "(Higher) Uses ne...plus and ne...que accurately",
+        "(Higher) Uses en and depuis + present tense correctly"
+      ],
+      "pass_threshold": "Foundation: forms basic commands and routine reflexives correctly (grade 4-5). Higher: uses all three Higher structures accurately in a connected paragraph about lifestyle change.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 1 Topic 2 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 1 Topic 2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S05_Education_Work_Core": {
+      "criteria": [
+        "Uses the perfect tense with avoir accurately, including common irregular participles",
+        "Uses the perfect tense with être and agrees the past participle correctly",
+        "Uses the imperfect for description/opinion, contrasted correctly with the perfect",
+        "Uses aller + infinitive accurately for near-future plans"
+      ],
+      "pass_threshold": "Foundation: reports a past school event and a future plan with correct perfect/near future (grade 4-5). Higher tier begins here with a solid three-tense base for the next stage.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 1 Topic 3 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 1 Topic 3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S06_Education_Work_Extended": {
+      "criteria": [
+        "Forms and uses comparatives accurately, including the irregular meilleur",
+        "Uses vouloir and pouvoir + infinitive accurately for ambition and possibility",
+        "(Higher) Forms the simple future of regular verbs accurately",
+        "(Higher) Uses the conditional and a superlative accurately, and depuis + present correctly"
+      ],
+      "pass_threshold": "Foundation: compares two subjects and states an ambition (grade 4-5). Higher: uses the simple future, conditional and superlatives fluently to discuss ambitions and preferences.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 1 Topic 3 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 1 Topic 3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S07_Free_Time_Core": {
+      "criteria": [
+        "Chooses correctly between the perfect and the imperfect for events versus habits",
+        "Uses jouer à, jouer de and faire de accurately with the correct contraction",
+        "Uses frequency adverbs accurately and in a natural position",
+        "Uses topic vocabulary for hobbies and leisure accurately"
+      ],
+      "pass_threshold": "Foundation: describes hobbies with correct jouer/faire and one accurate past-tense choice (grade 4-5). Higher: contrasts habitual and one-off events confidently.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 2 Topic 1 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 2 Topic 1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S08_Free_Time_Extended": {
+      "criteria": [
+        "Uses aimer/adorer/détester + infinitive accurately with a justified reason",
+        "(Higher) Uses être en train de + infinitive accurately",
+        "(Higher) Uses venir de + infinitive accurately",
+        "(Higher) Uses depuis + present tense accurately, not the perfect"
+      ],
+      "pass_threshold": "Foundation: gives a justified like/dislike with aimer + infinitive (grade 4-5). Higher: uses all three Higher structures accurately to describe present, just-finished and ongoing actions.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 2 Topic 1 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 2 Topic 1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S09_Customs_Festivals_Core": {
+      "criteria": [
+        "Names and describes at least one real French or francophone festival accurately",
+        "Combines the perfect and imperfect correctly in a short narrative, with correct être agreement",
+        "Uses on + present correctly for general customs",
+        "Uses aller + infinitive accurately for celebration plans"
+      ],
+      "pass_threshold": "Foundation: describes a festival custom and a past celebration with correct tense choice (grade 4-5). Higher tier extensions follow in the next stage.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 2 Topic 2 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 2 Topic 2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S10_Customs_Festivals_Extended": {
+      "criteria": [
+        "Forms the present passive correctly, with agreement",
+        "Uses où and que accurately to build complex sentences",
+        "Uses en accurately to avoid repeating a quantity",
+        "Uses the simple future of regular verbs accurately for festival plans"
+      ],
+      "pass_threshold": "Higher: uses the passive, relative clauses, en and the simple future accurately in an extended description of a festival.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 2 Topic 2 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 2 Topic 2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S11_Celebrity_Culture_Core": {
+      "criteria": [
+        "Uses topic vocabulary for fame and role models accurately",
+        "Gives justified opinions using an opinion frame and parce que/car",
+        "Uses comparatives accurately, with correct adjective agreement",
+        "Uses qui correctly as a subject relative pronoun, and le/la/l' correctly as preverbal object pronouns"
+      ],
+      "pass_threshold": "Foundation: gives a justified opinion on a celebrity using qui and an object pronoun (grade 4-5). Higher-tier structures follow in the next stage.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 2 Topic 3 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 2 Topic 3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S12_Celebrity_Culture_Extended": {
+      "criteria": [
+        "Forms superlatives correctly, including the irregular le/la meilleur(e)",
+        "Uses les correctly as a preverbal plural object pronoun",
+        "Uses the regular conditional accurately to express a wish, ideally in a balanced contrast"
+      ],
+      "pass_threshold": "Higher: uses a superlative, a plural object pronoun and the conditional accurately in a developed answer on fame.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 2 Topic 3 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 2 Topic 3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S13_Travel_Tourism_Core": {
+      "criteria": [
+        "Uses the perfect tense with both avoir and être accurately, including correct agreement",
+        "Uses the imperfect accurately for weather and description",
+        "Uses à/en/au/aux correctly with place names, and distinguishes visiter from rendre visite à",
+        "Uses a preverbal object pronoun correctly to avoid repetition"
+      ],
+      "pass_threshold": "Foundation: narrates a past holiday with correct tense choice, place prepositions and one object pronoun (grade 4-5). Higher-tier extensions follow next.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 3 Topic 1 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 3 Topic 1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S14_Travel_Tourism_Extended": {
+      "criteria": [
+        "Forms the simple future of regular verbs accurately for travel plans",
+        "Uses y accurately to replace a place already mentioned",
+        "Uses après avoir/être + past participle accurately to sequence two past actions"
+      ],
+      "pass_threshold": "Higher: uses the simple future, y and après avoir + infinitive accurately to plan and sequence a trip.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 3 Topic 1 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 3 Topic 1",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S15_Media_Technology_Core": {
+      "criteria": [
+        "Uses topic vocabulary for phones, social media and technology accurately",
+        "Contrasts present habitual use and a specific past use correctly",
+        "Gives a balanced, connected opinion using comparatives and connectives",
+        "Uses a preverbal object pronoun correctly to avoid repetition"
+      ],
+      "pass_threshold": "Foundation: gives a balanced view on technology with correct tense choice and at least one connective (grade 4-5). Higher-tier extensions follow next.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 3 Topic 2 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 3 Topic 2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S16_Media_Technology_Extended": {
+      "criteria": [
+        "Uses avant de + infinitive accurately, correctly using the infinitive not a conjugated verb",
+        "Uses the present participle (en + -ant) accurately for simultaneous actions",
+        "Uses depuis + present accurately",
+        "Forms the present passive accurately"
+      ],
+      "pass_threshold": "Higher: uses avant de, a present participle, depuis + present and the passive accurately in a developed technology answer.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 3 Topic 2 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 3 Topic 2",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S17_Environment_Core": {
+      "criteria": [
+        "Uses topic vocabulary for housing, local area and environmental issues accurately",
+        "Uses il faut and on doit + infinitive accurately for advice",
+        "Uses il y a and il y avait accurately to contrast present and past",
+        "Uses prepositions of place and comparatives accurately"
+      ],
+      "pass_threshold": "Foundation: describes a local area and gives one piece of environmental advice (grade 4-5). Higher-tier extensions follow next.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 3 Topic 3 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 3 Topic 3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S18_Environment_Extended": {
+      "criteria": [
+        "Uses qui, où and que accurately to build complex sentences about place",
+        "Uses ne...plus and/or ne...que accurately",
+        "Uses the conditional accurately to express an environmental wish",
+        "Uses the passive and the \"si + present, + future\" pattern accurately"
+      ],
+      "pass_threshold": "Higher: writes a connected paragraph on the environment combining relative clauses, negatives, the conditional, the passive and the future accurately.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Theme 3 Topic 3 and Section 3.2 grammar",
+        "reference": "AQA 8652 specification, subject content, Theme 3 Topic 3",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S19_Listening_and_Reading_Papers": {
+      "criteria": [
+        "Answers comprehension questions with the specific detail required, not a vague generalisation",
+        "Produces a dictation that is both meaningful and accurately spelled, including endings and accents",
+        "Translates French into natural, accurate English, keeping every tense and detail",
+        "Avoids common false friends and literal mistranslation"
+      ],
+      "pass_threshold": "Foundation: answers most comprehension questions correctly and produces a recognisable dictation/translation with some errors (grade 4-5). Higher: near-complete accuracy on comprehension, dictation and translation, including detail and nuance.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Scheme of assessment (Paper 1 Listening, Paper 3 Reading) and sample assessment material mark schemes",
+        "reference": "AQA 8652 specification, scheme of assessment",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S20_Speaking_Paper": {
+      "criteria": [
+        "Gives a clear, comprehensible message for every role-play task",
+        "Reads aloud with recognisable pronunciation and answers the follow-up questions accurately",
+        "Develops photo description with detail, opinion and personal link, not just description",
+        "Sustains the unprepared conversation with genuine, spontaneous responses"
+      ],
+      "pass_threshold": "Foundation: completes all three tasks with a clear message and adequate pronunciation (grade 4-5). Higher: sustains a longer, more spontaneous conversation with developed answers and secure pronunciation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Scheme of assessment (Paper 2 Speaking) and sample assessment material mark schemes",
+        "reference": "AQA 8652 specification, scheme of assessment",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    },
+    "S21_Writing_Paper": {
+      "criteria": [
+        "Covers every bullet point in structured tasks before worrying about extra accuracy",
+        "Produces an accurate gap-fill, including correct accents and word forms",
+        "Translates in both directions keeping tense and meaning, element by element",
+        "(Higher) Uses at least two to three time frames and justified, nuanced opinions in the extended/open tasks"
+      ],
+      "pass_threshold": "Foundation: covers every bullet point across all Foundation tasks with recognisable structures and few gap-fill errors (grade 4-5). Higher: covers every bullet with two to three time frames, justified opinions and accurate translation.",
+      "source": {
+        "issuing_body": "AQA",
+        "document": "AQA GCSE French (8652) specification, Scheme of assessment (Paper 4 Writing) and sample assessment material mark schemes",
+        "reference": "AQA 8652 specification, scheme of assessment",
+        "urls": [
+          "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+          "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Listening and Reading: answers capture the specific detail asked, and the dictation/translation are both meaningful and accurate",
+      "Speaking: every task gives a clear, comprehensible message; the photo task is developed with detail, opinion and personal link",
+      "Writing: every bullet point is covered before extra accuracy is credited; gap-fill and translation are precise, element by element",
+      "Grammar: tense choice (present/perfect/imperfect/near future, and at Higher, future/conditional/passive/relative clauses) is consistently correct, not just occasionally correct",
+      "Range: vocabulary and structures are drawn from at least two different themes, showing the course's coverage rather than one memorised topic"
+    ],
+    "pass_threshold": "All four simulated papers show secure, consistent performance at the learner's tier, with every bullet/task covered and no persistent tense or agreement errors.",
+    "source": {
+      "issuing_body": "AQA",
+      "document": "AQA GCSE French (8652) specification, Scheme of assessment",
+      "reference": "AQA 8652 specification, scheme of assessment (all four papers)",
+      "urls": [
+        "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+        "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+        "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+        "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment",
+        "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/specification-at-a-glance"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf",
+    "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/themes",
+    "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/subject-content/grammar",
+    "https://www.aqa.org.uk/subjects/french/gcse/french-8652/specification/scheme-of-assessment"
+  ],
+  "source_notes": [
+    "AQA's own subject-content pages list themes and topics but do not itemise vocabulary or grammar points with individual reference codes below topic level, unlike AQA's science specifications (which use numbered subject-content codes such as 4.1.1.1); this course's item ids are therefore an invented, stable scheme (AQA-FR-T<theme>.<topic>-<slug>[-F|-H], AQA-FR-P<paper>-<taskslug>), stated here and in each item's own context.",
+    "AQA's 8652 sample assessment material mark schemes (Version 1.0, Listening/Speaking/Reading/Writing) were used in the prior build for task-type detail; the live 2026 series papers and mark schemes sit behind AQA's secure site and were not resolved in this rebuild."
+  ]
+}

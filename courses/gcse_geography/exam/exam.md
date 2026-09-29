@@ -1,0 +1,17 @@
+# GCSE Geography (AQA 8035) - Cumulative Exam
+
+## Unlock condition
+Only available once every stage in `stage_ladder` shows a passed test in the micro-profile.
+
+## Format
+Three timed written papers, each 1 hour 30 minutes, together worth 100 per cent of the GCSE (there is no non-exam assessment/coursework component in AQA Geography 8035, though the two fieldwork enquiries at Cleveleys and Salford Quays underpin Paper 3 questions). Paper 1, 'Living with the physical environment' (88 marks, 35%), covers natural hazards (3.1.1), the living world/ecosystems (3.1.2) and UK physical landscapes (3.1.3), drawing on S02-S14. Paper 2, 'Challenges in the human environment' (88 marks, 35%), covers urban issues and challenges (3.2.1), the changing economic world (3.2.2) and the challenge of resource management (3.2.3), drawing on S15-S23. Paper 3, 'Geographical applications' (76 marks, 30%), has two sections: Section A is issue evaluation (3.3.1), using a pre-release resource booklet issued in advance and answered with the booklet available in the exam, worth 37 marks; Section B is fieldwork (3.3.2), testing both the two named enquiries and unfamiliar fieldwork scenarios, worth 39 marks; both sections draw on the geographical skills in 3.4 (S29-S34) throughout, and marks across Paper 3 assess these skills directly. All three papers use a mix of multiple-choice, short-answer, levels-of-response extended-writing and resource-based (map, graph, photograph, data) questions, and SPaG is assessed on one extended question per paper (3 marks on Papers 1 and 2, 6 marks on Paper 3).
+
+## Example structure
+Paper 1: Section A natural hazards (S02-S06), Section B the living world (S07-S09), Section C UK physical landscapes — rivers, and either coasts or glacial (as selected in `selected_options`) (S10-S14), each section with a mix of short-answer, map/resource-based and one extended (6-9 mark) question, plus an 8-mark SPaG-assessed extended question. Paper 2: Section A urban issues and challenges (S15-S18), Section B the changing economic world (S19-S21), Section C the challenge of resource management plus the selected option (S22-S23), in the same style, plus an 8-mark SPaG-assessed extended question. Paper 3: Section A issue evaluation (S24, drawing on the pre-release booklet and S29-S34 skills) ending in a 9-mark decision-making question assessed for SPaG; Section B fieldwork (S25-S28), including at least one question requiring knowledge of the Cleveleys and Salford Quays enquiries specifically and at least one unfamiliar fieldwork scenario, plus resource-based questions drawing on cartographic, graphical, numerical and statistical skills (S29-S33).
+
+## Grading
+Apply `rubric.json`'s `exam_rubric` exactly. A pass requires consistent performance across all three papers, correct use of named case studies and locations (including Cleveleys and Salford Quays where relevant), accurate application of geographical skills to unfamiliar resources, a reasoned decision on the Paper 3 issue-evaluation question that weighs evidence from the resource booklet, and accurate spelling, punctuation, grammar and specialist terminology on the assessed extended questions.
+
+## Outcome
+- **Pass** -- record `exam_status: "passed"` in the micro-profile. Course complete.
+- **Not yet** -- leave `exam_status: "available"`, name the stage(s) that broke down, offer targeted review or a fresh retry paper.

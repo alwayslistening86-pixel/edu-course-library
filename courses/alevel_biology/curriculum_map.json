@@ -1,0 +1,1028 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "AQA AS and A-level Biology (7401/7402) specification: subject content 3.1-3.8, mathematical requirements (section 6) and practical assessment (section 8)",
+    "url": "https://cdn.sanity.io/files/p28bar15/green/912f1f616159ee1ae4911d7179c566b98604ca3f.pdf",
+    "version": "Version 1.6 (July 2026), linked from aqa.org.uk/7402 and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "AQA's own codes: content at the deepest numbered level (3.1.1-3.8.4.3), mathematical skills MS 0.1-MS 4.1, practical skills PS1.1-PS4.1, apparatus and techniques ATa-ATl, and the twelve required practicals numbered RP1-RP12 in AQA's order."
+  },
+  "_syllabus_items": [
+    {
+      "id": "3.1.1",
+      "title": "Monomers and polymers",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.2",
+      "title": "Carbohydrates",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.3",
+      "title": "Lipids",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.4.1",
+      "title": "General properties of proteins",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.4.2",
+      "title": "Many proteins are enzymes",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.5.1",
+      "title": "Structure of DNA and RNA",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.5.2",
+      "title": "DNA replication",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.6",
+      "title": "ATP",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.7",
+      "title": "Water",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.1.8",
+      "title": "Inorganic ions",
+      "topic_area": "3.1 Biological molecules"
+    },
+    {
+      "id": "3.2.1.1",
+      "title": "Structure of eukaryotic cells",
+      "topic_area": "3.2 Cells"
+    },
+    {
+      "id": "3.2.1.2",
+      "title": "Structure of prokaryotic cells and of viruses",
+      "topic_area": "3.2 Cells"
+    },
+    {
+      "id": "3.2.1.3",
+      "title": "Methods of studying cells",
+      "topic_area": "3.2 Cells"
+    },
+    {
+      "id": "3.2.2",
+      "title": "All cells arise from other cells",
+      "topic_area": "3.2 Cells"
+    },
+    {
+      "id": "3.2.3",
+      "title": "Transport across cell membranes",
+      "topic_area": "3.2 Cells"
+    },
+    {
+      "id": "3.2.4",
+      "title": "Cell recognition and the immune system",
+      "topic_area": "3.2 Cells"
+    },
+    {
+      "id": "3.3.1",
+      "title": "Surface area to volume ratio",
+      "topic_area": "3.3 Organisms exchange substances with their environment"
+    },
+    {
+      "id": "3.3.2",
+      "title": "Gas exchange",
+      "topic_area": "3.3 Organisms exchange substances with their environment"
+    },
+    {
+      "id": "3.3.3",
+      "title": "Digestion and absorption",
+      "topic_area": "3.3 Organisms exchange substances with their environment"
+    },
+    {
+      "id": "3.3.4.1",
+      "title": "Mass transport in animals",
+      "topic_area": "3.3 Organisms exchange substances with their environment"
+    },
+    {
+      "id": "3.3.4.2",
+      "title": "Mass transport in plants",
+      "topic_area": "3.3 Organisms exchange substances with their environment"
+    },
+    {
+      "id": "3.4.1",
+      "title": "DNA, genes and chromosomes",
+      "topic_area": "3.4 Genetic information, variation and relationships between organisms"
+    },
+    {
+      "id": "3.4.2",
+      "title": "DNA and protein synthesis",
+      "topic_area": "3.4 Genetic information, variation and relationships between organisms"
+    },
+    {
+      "id": "3.4.3",
+      "title": "Genetic diversity can arise as a result of mutation or during meiosis",
+      "topic_area": "3.4 Genetic information, variation and relationships between organisms"
+    },
+    {
+      "id": "3.4.4",
+      "title": "Genetic diversity and adaptation",
+      "topic_area": "3.4 Genetic information, variation and relationships between organisms"
+    },
+    {
+      "id": "3.4.5",
+      "title": "Species and taxonomy",
+      "topic_area": "3.4 Genetic information, variation and relationships between organisms"
+    },
+    {
+      "id": "3.4.6",
+      "title": "Biodiversity within a community",
+      "topic_area": "3.4 Genetic information, variation and relationships between organisms"
+    },
+    {
+      "id": "3.4.7",
+      "title": "Investigating diversity",
+      "topic_area": "3.4 Genetic information, variation and relationships between organisms"
+    },
+    {
+      "id": "3.5.1",
+      "title": "Photosynthesis (A-level only)",
+      "topic_area": "3.5 Energy transfers in and between organisms"
+    },
+    {
+      "id": "3.5.2",
+      "title": "Respiration (A-level only)",
+      "topic_area": "3.5 Energy transfers in and between organisms"
+    },
+    {
+      "id": "3.5.3",
+      "title": "Energy and ecosystems (A-level only)",
+      "topic_area": "3.5 Energy transfers in and between organisms"
+    },
+    {
+      "id": "3.5.4",
+      "title": "Nutrient cycles (A-level only)",
+      "topic_area": "3.5 Energy transfers in and between organisms"
+    },
+    {
+      "id": "3.6.1.1",
+      "title": "Survival and response (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.1.2",
+      "title": "Receptors (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.1.3",
+      "title": "Control of heart rate (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.2.1",
+      "title": "Nerve impulses (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.2.2",
+      "title": "Synaptic transmission (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.3",
+      "title": "Skeletal muscles are stimulated to contract by nerves and act as effectors (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.4.1",
+      "title": "Principles of homeostasis and negative feedback (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.4.2",
+      "title": "Control of blood glucose concentration (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.6.4.3",
+      "title": "Control of blood water potential (A-level only)",
+      "topic_area": "3.6 Organisms respond to changes in their internal and external environments"
+    },
+    {
+      "id": "3.7.1",
+      "title": "Inheritance (A-level only)",
+      "topic_area": "3.7 Genetics, populations, evolution and ecosystems"
+    },
+    {
+      "id": "3.7.2",
+      "title": "Populations (A-level only)",
+      "topic_area": "3.7 Genetics, populations, evolution and ecosystems"
+    },
+    {
+      "id": "3.7.3",
+      "title": "Evolution may lead to speciation (A-level only)",
+      "topic_area": "3.7 Genetics, populations, evolution and ecosystems"
+    },
+    {
+      "id": "3.7.4",
+      "title": "Populations in ecosystems (A-level only)",
+      "topic_area": "3.7 Genetics, populations, evolution and ecosystems"
+    },
+    {
+      "id": "3.8.1",
+      "title": "Alteration of the sequence of bases in DNA can alter the structure of proteins (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "3.8.2.1",
+      "title": "Most of a cell\u2019s DNA is not translated (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "3.8.2.2",
+      "title": "Regulation of transcription and translation (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "3.8.2.3",
+      "title": "Gene expression and cancer (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "3.8.3",
+      "title": "Using genome projects (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "3.8.4.1",
+      "title": "Recombinant DNA technology (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "3.8.4.2",
+      "title": "Differences in DNA between individuals of the same species can be exploited for identification and diagnosis of heritable conditions (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "3.8.4.3",
+      "title": "Genetic fingerprinting (A-level only)",
+      "topic_area": "3.8 The control of gene expression"
+    },
+    {
+      "id": "MS 0.1",
+      "title": "Recognise and make use of appropriate units in calculations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.2",
+      "title": "Recognise and use expressions in decimal and standard form",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.3",
+      "title": "Use ratios, fractions and percentages",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.4",
+      "title": "Estimate results",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 0.5",
+      "title": "Use calculators to find and use power, exponential and logarithmic functions",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.1",
+      "title": "Use an appropriate number of significant figures",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.2",
+      "title": "Find arithmetic means",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.3",
+      "title": "Construct and interpret frequency tables and diagrams, bar charts and histograms",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.4",
+      "title": "Understand simple probability",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.5",
+      "title": "Understand the principles of sampling as applied to scientific data",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.6",
+      "title": "Understand the terms mean, median and mode",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.7",
+      "title": "Use a scatter diagram to identify a correlation between two variables",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.8",
+      "title": "Make order of magnitude calculations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.9",
+      "title": "Select and use a statistical test",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.10",
+      "title": "Understand measures of dispersion, including standard deviation and range",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 1.11",
+      "title": "Identify uncertainties in measurements and use simple techniques to determine uncertainty when data are combined",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.1",
+      "title": "Understand and use the symbols =, <, <<, >>, >, \u221d, ~",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.2",
+      "title": "Change the subject of an equation",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.3",
+      "title": "Substitute numerical values into algebraic equations using appropriate units for physical quantities",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.4",
+      "title": "Solve algebraic equations",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 2.5",
+      "title": "Use logarithms in relation to quantities that range over several orders of magnitude",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.1",
+      "title": "Translate information between graphical, numerical and algebraic forms",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.2",
+      "title": "Plot two variables from experimental or other data",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.3",
+      "title": "Understand that y = mx + c represents a linear relationship",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.4",
+      "title": "Determine the intercept of a graph",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.5",
+      "title": "Calculate rate of change from a graph showing a linear relationship",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 3.6",
+      "title": "Draw and use the slope of a tangent to a curve as a measure of rate of change",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "MS 4.1",
+      "title": "Calculate the circumferences, surface areas and volumes of regular shapes",
+      "topic_area": "6 Mathematical requirements"
+    },
+    {
+      "id": "PS1.1",
+      "title": "Solve problems set in practical contexts",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS1.2",
+      "title": "Apply scientific knowledge to practical contexts",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.1",
+      "title": "Comment on experimental design and evaluate scientific methods",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.2",
+      "title": "Present data in appropriate ways",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.3",
+      "title": "Evaluate results and draw conclusions with reference to measurement uncertainties and errors",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS2.4",
+      "title": "Identify variables including those that must be controlled",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.1",
+      "title": "Plot and interpret graphs",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.2",
+      "title": "Process and analyse data using appropriate mathematical skills",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS3.3",
+      "title": "Consider margins of error, accuracy and precision of data",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "PS4.1",
+      "title": "Know and understand how to use a wide range of experimental and practical instruments, equipment and techniques",
+      "topic_area": "8.3 Practical skills assessed in written papers"
+    },
+    {
+      "id": "ATa",
+      "title": "Use appropriate apparatus to record a range of quantitative measurements (mass, time, volume, temperature, length and pH)",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATb",
+      "title": "Use appropriate instrumentation to record quantitative measurements, such as a colorimeter or potometer",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATc",
+      "title": "Use laboratory glassware apparatus for a variety of experimental techniques, including serial dilutions",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATd",
+      "title": "Use a light microscope at high and low power, including use of a graticule",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATe",
+      "title": "Produce scientific drawings from observation with annotations",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATf",
+      "title": "Use qualitative reagents to identify biological molecules",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATg",
+      "title": "Separate biological compounds using thin layer/paper chromatography or electrophoresis",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATh",
+      "title": "Safely and ethically use organisms to measure plant or animal responses and physiological functions",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATi",
+      "title": "Use microbiological aseptic techniques, including agar plates and broth",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATj",
+      "title": "Safely use instruments for dissection of an animal or plant organ",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATk",
+      "title": "Use sampling techniques in fieldwork",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "ATl",
+      "title": "Use ICT such as computer modelling, or a data logger to collect data, or software to process data",
+      "topic_area": "8.1 Use of apparatus and techniques (practical endorsement)"
+    },
+    {
+      "id": "RP1",
+      "title": "Required practical 1: the effect of a named variable on the rate of an enzyme-controlled reaction",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP2",
+      "title": "Required practical 2: stained root-tip squashes, identifying the stages of mitosis with an optical microscope and calculating a mitotic index",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP3",
+      "title": "Required practical 3: a dilution series and calibration curve to find the water potential of plant tissue",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP4",
+      "title": "Required practical 4: the effect of a named variable on the permeability of cell-surface membranes",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP5",
+      "title": "Required practical 5: dissection of an animal or plant gas exchange or mass transport system, or of an organ within one",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP6",
+      "title": "Required practical 6: aseptic techniques to investigate the effect of antimicrobial substances on microbial growth",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP7",
+      "title": "Required practical 7: chromatography of photosynthetic pigments from the leaves of different plants",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP8",
+      "title": "Required practical 8: the effect of a named factor on the rate of dehydrogenase activity in extracts of chloroplasts",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP9",
+      "title": "Required practical 9: the effect of a named variable on the rate of respiration of cultures of single-celled organisms",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP10",
+      "title": "Required practical 10: the effect of an environmental variable on the movement of an animal using a choice chamber or maze",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP11",
+      "title": "Required practical 11: a glucose dilution series and colorimetric calibration curve to find the glucose concentration of an unknown 'urine' sample",
+      "topic_area": "8.2 Required practical activities"
+    },
+    {
+      "id": "RP12",
+      "title": "Required practical 12: the effect of a named environmental factor on the distribution of a given species",
+      "topic_area": "8.2 Required practical activities"
+    }
+  ],
+  "_declared_exclusions": [
+    {
+      "id": "ATa",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATb",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATc",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATd",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATe",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATf",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATg",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATh",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATi",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATj",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATk",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    },
+    {
+      "id": "ATl",
+      "reason": "Hands-on use of apparatus, assessed only through the teacher-observed practical endorsement, which is reported separately and does not count towards the A-level grade. The written-paper knowledge of these techniques is taught under PS4.1 and the required practicals (RP1-RP12)."
+    }
+  ],
+  "S01_Carbohydrates_and_Lipids": {
+    "covers_syllabus_refs": [
+      "7402 3.1.1",
+      "7402 3.1.2",
+      "7402 3.1.3"
+    ],
+    "syllabus_topic": "3.1 Biological molecules",
+    "covers_items": [
+      "3.1.1",
+      "3.1.2",
+      "3.1.3"
+    ]
+  },
+  "S02_Proteins_and_Enzymes": {
+    "covers_syllabus_refs": [
+      "7402 3.1.4.1",
+      "7402 3.1.4.2",
+      "7402 RP1",
+      "7402 MS 3.5",
+      "7402 MS 3.6"
+    ],
+    "syllabus_topic": "3.1 Biological molecules",
+    "covers_items": [
+      "3.1.4.1",
+      "3.1.4.2",
+      "RP1",
+      "MS 3.5",
+      "MS 3.6"
+    ]
+  },
+  "S03_Nucleic_Acids_ATP_Water_Ions": {
+    "covers_syllabus_refs": [
+      "7402 3.1.5.1",
+      "7402 3.1.5.2",
+      "7402 3.1.6",
+      "7402 3.1.7",
+      "7402 3.1.8"
+    ],
+    "syllabus_topic": "3.1 Biological molecules",
+    "covers_items": [
+      "3.1.5.1",
+      "3.1.5.2",
+      "3.1.6",
+      "3.1.7",
+      "3.1.8"
+    ]
+  },
+  "S04_Cell_Structure_and_Microscopy": {
+    "covers_syllabus_refs": [
+      "7402 3.2.1.1",
+      "7402 3.2.1.2",
+      "7402 3.2.1.3",
+      "7402 MS 0.1",
+      "7402 MS 0.2",
+      "7402 MS 1.8"
+    ],
+    "syllabus_topic": "3.2 Cells",
+    "covers_items": [
+      "3.2.1.1",
+      "3.2.1.2",
+      "3.2.1.3",
+      "MS 0.1",
+      "MS 0.2",
+      "MS 1.8"
+    ]
+  },
+  "S05_Cell_Division": {
+    "covers_syllabus_refs": [
+      "7402 3.2.2",
+      "7402 RP2",
+      "7402 MS 0.3"
+    ],
+    "syllabus_topic": "3.2 Cells",
+    "covers_items": [
+      "3.2.2",
+      "RP2",
+      "MS 0.3"
+    ]
+  },
+  "S06_Membrane_Transport": {
+    "covers_syllabus_refs": [
+      "7402 3.2.3",
+      "7402 RP3",
+      "7402 RP4",
+      "7402 MS 3.4"
+    ],
+    "syllabus_topic": "3.2 Cells",
+    "covers_items": [
+      "3.2.3",
+      "RP3",
+      "RP4",
+      "MS 3.4"
+    ]
+  },
+  "S07_Immune_System": {
+    "covers_syllabus_refs": [
+      "7402 3.2.4"
+    ],
+    "syllabus_topic": "3.2 Cells",
+    "covers_items": [
+      "3.2.4"
+    ]
+  },
+  "S08_Gas_Exchange": {
+    "covers_syllabus_refs": [
+      "7402 3.3.1",
+      "7402 3.3.2",
+      "7402 MS 0.4",
+      "7402 MS 4.1"
+    ],
+    "syllabus_topic": "3.3 Organisms exchange substances with their environment",
+    "covers_items": [
+      "3.3.1",
+      "3.3.2",
+      "MS 0.4",
+      "MS 4.1"
+    ]
+  },
+  "S09_Digestion_and_Transport_in_Animals": {
+    "covers_syllabus_refs": [
+      "7402 3.3.3",
+      "7402 3.3.4.1",
+      "7402 RP5"
+    ],
+    "syllabus_topic": "3.3 Organisms exchange substances with their environment",
+    "covers_items": [
+      "3.3.3",
+      "3.3.4.1",
+      "RP5"
+    ]
+  },
+  "S10_Transport_in_Plants": {
+    "covers_syllabus_refs": [
+      "7402 3.3.4.2"
+    ],
+    "syllabus_topic": "3.3 Organisms exchange substances with their environment",
+    "covers_items": [
+      "3.3.4.2"
+    ]
+  },
+  "S11_Genes_and_Protein_Synthesis": {
+    "covers_syllabus_refs": [
+      "7402 3.4.1",
+      "7402 3.4.2"
+    ],
+    "syllabus_topic": "3.4 Genetic information, variation and relationships between organisms",
+    "covers_items": [
+      "3.4.1",
+      "3.4.2"
+    ]
+  },
+  "S12_Genetic_Diversity_and_Adaptation": {
+    "covers_syllabus_refs": [
+      "7402 3.4.3",
+      "7402 3.4.4",
+      "7402 RP6"
+    ],
+    "syllabus_topic": "3.4 Genetic information, variation and relationships between organisms",
+    "covers_items": [
+      "3.4.3",
+      "3.4.4",
+      "RP6"
+    ]
+  },
+  "S13_Species_Taxonomy_Biodiversity": {
+    "covers_syllabus_refs": [
+      "7402 3.4.5",
+      "7402 3.4.6",
+      "7402 3.4.7",
+      "7402 MS 1.6",
+      "7402 MS 1.10"
+    ],
+    "syllabus_topic": "3.4 Genetic information, variation and relationships between organisms",
+    "covers_items": [
+      "3.4.5",
+      "3.4.6",
+      "3.4.7",
+      "MS 1.6",
+      "MS 1.10"
+    ]
+  },
+  "S14_Photosynthesis": {
+    "covers_syllabus_refs": [
+      "7402 3.5.1",
+      "7402 RP7",
+      "7402 RP8"
+    ],
+    "syllabus_topic": "3.5 Energy transfers in and between organisms (A-level only)",
+    "covers_items": [
+      "3.5.1",
+      "RP7",
+      "RP8"
+    ]
+  },
+  "S15_Respiration": {
+    "covers_syllabus_refs": [
+      "7402 3.5.2",
+      "7402 RP9"
+    ],
+    "syllabus_topic": "3.5 Energy transfers in and between organisms (A-level only)",
+    "covers_items": [
+      "3.5.2",
+      "RP9"
+    ]
+  },
+  "S16_Ecosystems_and_Nutrient_Cycles": {
+    "covers_syllabus_refs": [
+      "7402 3.5.3",
+      "7402 3.5.4"
+    ],
+    "syllabus_topic": "3.5 Energy transfers in and between organisms (A-level only)",
+    "covers_items": [
+      "3.5.3",
+      "3.5.4"
+    ]
+  },
+  "S17_Stimuli_Receptors_Heart_Rate": {
+    "covers_syllabus_refs": [
+      "7402 3.6.1.1",
+      "7402 3.6.1.2",
+      "7402 3.6.1.3",
+      "7402 RP10"
+    ],
+    "syllabus_topic": "3.6 Organisms respond to changes in their environments (A-level only)",
+    "covers_items": [
+      "3.6.1.1",
+      "3.6.1.2",
+      "3.6.1.3",
+      "RP10"
+    ]
+  },
+  "S18_Nerve_Impulses_and_Synapses": {
+    "covers_syllabus_refs": [
+      "7402 3.6.2.1",
+      "7402 3.6.2.2"
+    ],
+    "syllabus_topic": "3.6 Organisms respond to changes in their environments (A-level only)",
+    "covers_items": [
+      "3.6.2.1",
+      "3.6.2.2"
+    ]
+  },
+  "S19_Muscle_Contraction": {
+    "covers_syllabus_refs": [
+      "7402 3.6.3"
+    ],
+    "syllabus_topic": "3.6 Organisms respond to changes in their environments (A-level only)",
+    "covers_items": [
+      "3.6.3"
+    ]
+  },
+  "S20_Homeostasis": {
+    "covers_syllabus_refs": [
+      "7402 3.6.4.1",
+      "7402 3.6.4.2",
+      "7402 3.6.4.3",
+      "7402 RP11"
+    ],
+    "syllabus_topic": "3.6 Organisms respond to changes in their environments (A-level only)",
+    "covers_items": [
+      "3.6.4.1",
+      "3.6.4.2",
+      "3.6.4.3",
+      "RP11"
+    ]
+  },
+  "S21_Inheritance": {
+    "covers_syllabus_refs": [
+      "7402 3.7.1",
+      "7402 MS 1.4",
+      "7402 MS 1.9"
+    ],
+    "syllabus_topic": "3.7 Genetics, populations, evolution and ecosystems (A-level only)",
+    "covers_items": [
+      "3.7.1",
+      "MS 1.4",
+      "MS 1.9"
+    ]
+  },
+  "S22_Populations_Evolution_Speciation": {
+    "covers_syllabus_refs": [
+      "7402 3.7.2",
+      "7402 3.7.3",
+      "7402 MS 2.3",
+      "7402 MS 2.4"
+    ],
+    "syllabus_topic": "3.7 Genetics, populations, evolution and ecosystems (A-level only)",
+    "covers_items": [
+      "3.7.2",
+      "3.7.3",
+      "MS 2.3",
+      "MS 2.4"
+    ]
+  },
+  "S23_Populations_in_Ecosystems": {
+    "covers_syllabus_refs": [
+      "7402 3.7.4",
+      "7402 RP12",
+      "7402 MS 1.5",
+      "7402 MS 0.5",
+      "7402 MS 2.5"
+    ],
+    "syllabus_topic": "3.7 Genetics, populations, evolution and ecosystems (A-level only)",
+    "covers_items": [
+      "3.7.4",
+      "RP12",
+      "MS 1.5",
+      "MS 0.5",
+      "MS 2.5"
+    ]
+  },
+  "S24_Mutation_and_Gene_Expression": {
+    "covers_syllabus_refs": [
+      "7402 3.8.1",
+      "7402 3.8.2.1",
+      "7402 3.8.2.2",
+      "7402 3.8.2.3"
+    ],
+    "syllabus_topic": "3.8 The control of gene expression (A-level only)",
+    "covers_items": [
+      "3.8.1",
+      "3.8.2.1",
+      "3.8.2.2",
+      "3.8.2.3"
+    ]
+  },
+  "S25_Genome_Projects_and_Gene_Technology": {
+    "covers_syllabus_refs": [
+      "7402 3.8.3",
+      "7402 3.8.4.1",
+      "7402 3.8.4.2",
+      "7402 3.8.4.3"
+    ],
+    "syllabus_topic": "3.8 The control of gene expression (A-level only)",
+    "covers_items": [
+      "3.8.3",
+      "3.8.4.1",
+      "3.8.4.2",
+      "3.8.4.3"
+    ]
+  },
+  "S26_Practical_Skills_Data_and_Essay": {
+    "covers_syllabus_refs": [
+      "7402 PS1.1",
+      "7402 PS1.2",
+      "7402 PS2.1",
+      "7402 PS2.2",
+      "7402 PS2.3",
+      "7402 PS2.4",
+      "7402 PS3.1",
+      "7402 PS3.2",
+      "7402 PS3.3",
+      "7402 PS4.1",
+      "7402 MS 1.1",
+      "7402 MS 1.2",
+      "7402 MS 1.3",
+      "7402 MS 1.7",
+      "7402 MS 1.11",
+      "7402 MS 2.1",
+      "7402 MS 2.2",
+      "7402 MS 3.1",
+      "7402 MS 3.2",
+      "7402 MS 3.3"
+    ],
+    "syllabus_topic": "Practical skills (8.3), mathematical requirements (6) and the essay",
+    "covers_items": [
+      "PS1.1",
+      "PS1.2",
+      "PS2.1",
+      "PS2.2",
+      "PS2.3",
+      "PS2.4",
+      "PS3.1",
+      "PS3.2",
+      "PS3.3",
+      "PS4.1",
+      "MS 1.1",
+      "MS 1.2",
+      "MS 1.3",
+      "MS 1.7",
+      "MS 1.11",
+      "MS 2.1",
+      "MS 2.2",
+      "MS 3.1",
+      "MS 3.2",
+      "MS 3.3"
+    ]
+  }
+}

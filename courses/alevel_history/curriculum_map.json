@@ -1,0 +1,415 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "Pearson Edexcel Level 3 Advanced GCE in History (9HI0) specification, Issue 3: the assessment structure and objectives, the Route B pairing (Paper 1 Option 1B and Paper 2 Option 2B.1) and Paper 3 Topic 31 content",
+    "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf",
+    "version": "Issue 3 (the current specification, first teaching September 2015, unchanged for the papers taught here), linked from qualifications.pearson.com and itemised 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "Edexcel does not number the sub-bullets within each key topic, so this course codes them in the specification's own order: Paper 1 Option 1B by theme (1B.1-1B.4, with an unnumbered historical-interpretations topic coded 1B.INT); Paper 2 Option 2B.1 by key topic (2B1.KT1-2B1.KT4, each with its own sub-bullets .1, .2, ...); and Paper 3 Topic 31 by breadth theme and named case study (31.BREADTH.*, 31.CASE.*, with the two required in-depth studies coded 31.DEPTH.PILGRIMAGE and 31.DEPTH.KETT, and a final synoptic item 31.SYNTHESIS)."
+  },
+  "_syllabus_items": [
+    {
+      "id": "1B.1.1",
+      "title": "The Tudor monarchs, succession and gender, 1509-88",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.1.2",
+      "title": "The changing role of Parliament, 1509-88",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.1.3",
+      "title": "The principal servants of the Crown: Wolsey, Cromwell, Burghley",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.2.1",
+      "title": "Henry VIII and the end of papal power in England",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.2.2",
+      "title": "Religious changes under Edward VI and Mary I",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.2.3",
+      "title": "Protestant influence, Anne Boleyn's significance, and the growth of puritanism",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.2.4",
+      "title": "The Elizabethan religious compromise, 1558-63",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.2.5",
+      "title": "The survival of Catholicism: popular attitudes, recusancy, Jesuit missions, the Catholic nobility",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.3.1",
+      "title": "Tudor control of the country: regional councils, the nobility, JPs, lords lieutenant",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.3.2",
+      "title": "The growth of poverty and provision for the poor",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.3.3",
+      "title": "Resistance to Tudor rule, 1536-88, and reasons for its decline",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.4.1",
+      "title": "Patterns of domestic and foreign trade",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.4.2",
+      "title": "The changing structure of society, 1509-88",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.4.3",
+      "title": "Cultural change: education, printing, religion, patronage, the 'cult of Gloriana'",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "1B.INT",
+      "title": "Historical interpretations: was there a general crisis of government, 1589-1603?",
+      "topic_area": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion"
+    },
+    {
+      "id": "2B1.KT1.1",
+      "title": "The Holy Roman Empire: structure, Electors, Emperor and princes",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT1.2",
+      "title": "The German economy c1515",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT1.3",
+      "title": "The German Catholic Church: bishops, parish clergy, anticlericalism, humanism",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT1.4",
+      "title": "The Papacy and Germany: corruption, financial demands, the indulgences controversy",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT2.1",
+      "title": "The Ninety-Five Theses, 1517, and the role of the printing press",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT2.2",
+      "title": "Shaping of Luther's beliefs, 1518-19: Albrecht, Cajetan, Eck, justification by faith",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT2.3",
+      "title": "Luther's excommunication, 1519-21: the 1520 pamphlets and the papal bulls",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT3.1",
+      "title": "The Diet of Worms, 1521, and Luther's protection at the Wartburg",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT3.2",
+      "title": "Luther's attitude to religious and political radicalism, including the Peasants' War, 1525",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT3.3",
+      "title": "The development of Lutheran belief and practice: the German Mass, the Real Presence, the Bible, the Catechisms",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT3.4",
+      "title": "Melanchthon's influence and the Augsburg Confession, 1530",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT4.1",
+      "title": "Failure of Lutheran-Catholic negotiations: Speyer 1526/1529, Regensburg 1541",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT4.2",
+      "title": "The role of the German princes and the Schmalkaldic League, 1531",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT4.3",
+      "title": "Charles V's competing priorities, the Schmalkaldic War, and the Peace of Augsburg, 1555",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "2B1.KT4.4",
+      "title": "The Papacy's response: Paul III and the summoning of the Council of Trent",
+      "topic_area": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55"
+    },
+    {
+      "id": "31.BREADTH.1",
+      "title": "Breadth: Tudor government methods of control, 1485-1603",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.BREADTH.2",
+      "title": "Breadth: the typology of grievance behind Tudor rebellion, 1485-1603",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.CASE.SIMNEL",
+      "title": "Case study: the Lambert Simnel conspiracy, 1486-87",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.CASE.WARBECK",
+      "title": "Case study: the Perkin Warbeck conspiracy, 1491-99",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.DEPTH.PILGRIMAGE",
+      "title": "In-depth study: the Pilgrimage of Grace, 1536-37",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.CASE.WESTERN",
+      "title": "Case study: the Western (Prayer Book) Rebellion, 1549",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.DEPTH.KETT",
+      "title": "In-depth study: Kett's Rebellion, 1549",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.CASE.WYATT",
+      "title": "Case study: Wyatt's Rebellion, 1554",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.CASE.NORTHERN_EARLS",
+      "title": "Case study: the Northern Earls' Revolt, 1569-70",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.CASE.TYRONE",
+      "title": "Case study: Tyrone's Rebellion (the Nine Years' War), 1594-1603",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    },
+    {
+      "id": "31.SYNTHESIS",
+      "title": "Synoptic comparison of government responses to rebellion, 1485-1603",
+      "topic_area": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S01_Monarchy_and_Government": {
+    "covers_syllabus_refs": [
+      "9HI0 1B.1.1",
+      "9HI0 1B.1.2",
+      "9HI0 1B.1.3"
+    ],
+    "syllabus_topic": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion",
+    "covers_items": [
+      "1B.1.1",
+      "1B.1.2",
+      "1B.1.3"
+    ]
+  },
+  "S02_Religious_Change_Henry_to_Mary": {
+    "covers_syllabus_refs": [
+      "9HI0 1B.2.1",
+      "9HI0 1B.2.2",
+      "9HI0 1B.2.3"
+    ],
+    "syllabus_topic": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion",
+    "covers_items": [
+      "1B.2.1",
+      "1B.2.2",
+      "1B.2.3"
+    ]
+  },
+  "S03_Catholicism_Elizabethan_Settlement": {
+    "covers_syllabus_refs": [
+      "9HI0 1B.2.4",
+      "9HI0 1B.2.5"
+    ],
+    "syllabus_topic": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion",
+    "covers_items": [
+      "1B.2.4",
+      "1B.2.5"
+    ]
+  },
+  "S04_State_Control_and_Resistance": {
+    "covers_syllabus_refs": [
+      "9HI0 1B.3.1",
+      "9HI0 1B.3.2",
+      "9HI0 1B.3.3"
+    ],
+    "syllabus_topic": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion",
+    "covers_items": [
+      "1B.3.1",
+      "1B.3.2",
+      "1B.3.3"
+    ]
+  },
+  "S05_Economy_Society_Culture_and_Interpretations": {
+    "covers_syllabus_refs": [
+      "9HI0 1B.4.1",
+      "9HI0 1B.4.2",
+      "9HI0 1B.4.3",
+      "9HI0 1B.INT"
+    ],
+    "syllabus_topic": "Paper 1 (1B): England, 1509-1603: Authority, Nation and Religion",
+    "covers_items": [
+      "1B.4.1",
+      "1B.4.2",
+      "1B.4.3",
+      "1B.INT"
+    ]
+  },
+  "S06_Germany_in_1515": {
+    "covers_syllabus_refs": [
+      "9HI0 2B1.KT1.1",
+      "9HI0 2B1.KT1.2",
+      "9HI0 2B1.KT1.3",
+      "9HI0 2B1.KT1.4"
+    ],
+    "syllabus_topic": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55",
+    "covers_items": [
+      "2B1.KT1.1",
+      "2B1.KT1.2",
+      "2B1.KT1.3",
+      "2B1.KT1.4"
+    ]
+  },
+  "S07_Luthers_Early_Challenge": {
+    "covers_syllabus_refs": [
+      "9HI0 2B1.KT2.1",
+      "9HI0 2B1.KT2.2",
+      "9HI0 2B1.KT2.3"
+    ],
+    "syllabus_topic": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55",
+    "covers_items": [
+      "2B1.KT2.1",
+      "2B1.KT2.2",
+      "2B1.KT2.3"
+    ]
+  },
+  "S08_Development_and_Leadership": {
+    "covers_syllabus_refs": [
+      "9HI0 2B1.KT3.1",
+      "9HI0 2B1.KT3.2",
+      "9HI0 2B1.KT3.3",
+      "9HI0 2B1.KT3.4"
+    ],
+    "syllabus_topic": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55",
+    "covers_items": [
+      "2B1.KT3.1",
+      "2B1.KT3.2",
+      "2B1.KT3.3",
+      "2B1.KT3.4"
+    ]
+  },
+  "S09_Spread_Survival_and_Exam_Technique": {
+    "covers_syllabus_refs": [
+      "9HI0 2B1.KT4.1",
+      "9HI0 2B1.KT4.2",
+      "9HI0 2B1.KT4.3",
+      "9HI0 2B1.KT4.4"
+    ],
+    "syllabus_topic": "Paper 2 (2B.1): Luther and the German Reformation, c1515-55",
+    "covers_items": [
+      "2B1.KT4.1",
+      "2B1.KT4.2",
+      "2B1.KT4.3",
+      "2B1.KT4.4"
+    ]
+  },
+  "S10_Breadth_Government_and_Resistance": {
+    "covers_syllabus_refs": [
+      "9HI0 31.BREADTH.1",
+      "9HI0 31.BREADTH.2"
+    ],
+    "syllabus_topic": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603",
+    "covers_items": [
+      "31.BREADTH.1",
+      "31.BREADTH.2"
+    ]
+  },
+  "S11_Simnel_and_Warbeck": {
+    "covers_syllabus_refs": [
+      "9HI0 31.CASE.SIMNEL",
+      "9HI0 31.CASE.WARBECK"
+    ],
+    "syllabus_topic": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603",
+    "covers_items": [
+      "31.CASE.SIMNEL",
+      "31.CASE.WARBECK"
+    ]
+  },
+  "S12_Pilgrimage_of_Grace": {
+    "covers_syllabus_refs": [
+      "9HI0 31.DEPTH.PILGRIMAGE"
+    ],
+    "syllabus_topic": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603",
+    "covers_items": [
+      "31.DEPTH.PILGRIMAGE"
+    ]
+  },
+  "S13_Western_Rebellion_and_Ketts_Rebellion": {
+    "covers_syllabus_refs": [
+      "9HI0 31.CASE.WESTERN",
+      "9HI0 31.DEPTH.KETT"
+    ],
+    "syllabus_topic": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603",
+    "covers_items": [
+      "31.CASE.WESTERN",
+      "31.DEPTH.KETT"
+    ]
+  },
+  "S14_Wyatt_and_Northern_Earls": {
+    "covers_syllabus_refs": [
+      "9HI0 31.CASE.WYATT",
+      "9HI0 31.CASE.NORTHERN_EARLS"
+    ],
+    "syllabus_topic": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603",
+    "covers_items": [
+      "31.CASE.WYATT",
+      "31.CASE.NORTHERN_EARLS"
+    ]
+  },
+  "S15_Tyrones_Rebellion_and_Source_Skills": {
+    "covers_syllabus_refs": [
+      "9HI0 31.CASE.TYRONE"
+    ],
+    "syllabus_topic": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603",
+    "covers_items": [
+      "31.CASE.TYRONE"
+    ]
+  },
+  "S16_Synthesis_and_Exam_Technique": {
+    "covers_syllabus_refs": [
+      "9HI0 31.SYNTHESIS"
+    ],
+    "syllabus_topic": "Paper 3 (31): Rebellion and Disorder under the Tudors, 1485-1603",
+    "covers_items": [
+      "31.SYNTHESIS"
+    ]
+  }
+}

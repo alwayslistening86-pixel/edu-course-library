@@ -1,0 +1,884 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage",
+    "semantics": "covers_syllabus_refs is an index of the objectives a stage is principally associated with; coverage is claimed only through _syllabus_items + covers_items, and only as far as coverage_check.py confirms."
+  },
+  "_items_source": {
+    "document": "ACCA syllabus and study guides for the three Applied Knowledge papers: Business and Technology (BT/FBT), Management Accounting (MA/FMA) and Financial Accounting (FA/FFA), Session 2025-2026 (S25-A26) editions, accaglobal.com",
+    "url": "https://www.accaglobal.com/content/dam/acca/global/PDF-students/fia/studyguides/",
+    "version": "Session 2025-2026 (S25-A26) syllabus and study guide editions, the current versions linked from accaglobal.com, fetched live 2026-09-27",
+    "itemised_on": "2026-09-27",
+    "numbering": "Ids use ACCA's own syllabus heading letters and numbers for each paper (BT.A1-BT.F4; MA.A1-MA.F4; FA.A1-FA.I3), prefixed with the paper code so ids are unique across the combined course."
+  },
+  "_syllabus_items": [
+    {
+      "id": "BT.A1",
+      "title": "Purpose and types of business organisation",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A2",
+      "title": "Stakeholders in business organisations",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A3",
+      "title": "Political and legal factors affecting business",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A4",
+      "title": "Macroeconomic factors",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A5",
+      "title": "Microeconomic factors",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A6",
+      "title": "Social and demographic factors",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A7",
+      "title": "Technological factors",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A8",
+      "title": "Environmental and sustainability factors",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.A9",
+      "title": "Competitive factors",
+      "topic_area": "A The Business Organisation and Its External Environment"
+    },
+    {
+      "id": "BT.B1",
+      "title": "Formal and informal business organisation",
+      "topic_area": "B Organisational Structure, Culture, Governance and Sustainability"
+    },
+    {
+      "id": "BT.B2",
+      "title": "Business organisational structure",
+      "topic_area": "B Organisational Structure, Culture, Governance and Sustainability"
+    },
+    {
+      "id": "BT.B3",
+      "title": "Organisational culture",
+      "topic_area": "B Organisational Structure, Culture, Governance and Sustainability"
+    },
+    {
+      "id": "BT.B4",
+      "title": "Governance in business organisations",
+      "topic_area": "B Organisational Structure, Culture, Governance and Sustainability"
+    },
+    {
+      "id": "BT.B5",
+      "title": "Sustainable business practices",
+      "topic_area": "B Organisational Structure, Culture, Governance and Sustainability"
+    },
+    {
+      "id": "BT.C1",
+      "title": "Relationship between accounting and other business functions",
+      "topic_area": "C Business Functions, Regulation and Technology"
+    },
+    {
+      "id": "BT.C2",
+      "title": "Accounting and finance functions within business organisations",
+      "topic_area": "C Business Functions, Regulation and Technology"
+    },
+    {
+      "id": "BT.C3",
+      "title": "Regulation and financial crime",
+      "topic_area": "C Business Functions, Regulation and Technology"
+    },
+    {
+      "id": "BT.C4",
+      "title": "Financial information provided by business",
+      "topic_area": "C Business Functions, Regulation and Technology"
+    },
+    {
+      "id": "BT.C5",
+      "title": "Financial systems and technology",
+      "topic_area": "C Business Functions, Regulation and Technology"
+    },
+    {
+      "id": "BT.C6",
+      "title": "Internal controls",
+      "topic_area": "C Business Functions, Regulation and Technology"
+    },
+    {
+      "id": "BT.C7",
+      "title": "Impact of advances in technology",
+      "topic_area": "C Business Functions, Regulation and Technology"
+    },
+    {
+      "id": "BT.D1",
+      "title": "Leadership, management and supervision",
+      "topic_area": "D Leadership and Management"
+    },
+    {
+      "id": "BT.D2",
+      "title": "Individual and group behaviour in business organisations",
+      "topic_area": "D Leadership and Management"
+    },
+    {
+      "id": "BT.D3",
+      "title": "Team formation, development and management",
+      "topic_area": "D Leadership and Management"
+    },
+    {
+      "id": "BT.D4",
+      "title": "Motivating individuals and teams",
+      "topic_area": "D Leadership and Management"
+    },
+    {
+      "id": "BT.D5",
+      "title": "Learning and training at work",
+      "topic_area": "D Leadership and Management"
+    },
+    {
+      "id": "BT.D6",
+      "title": "Review and appraisal of individual performance",
+      "topic_area": "D Leadership and Management"
+    },
+    {
+      "id": "BT.E1",
+      "title": "Personal effectiveness",
+      "topic_area": "E Personal Effectiveness and Communication in Business"
+    },
+    {
+      "id": "BT.E2",
+      "title": "Consequences of ineffectiveness at work",
+      "topic_area": "E Personal Effectiveness and Communication in Business"
+    },
+    {
+      "id": "BT.E3",
+      "title": "Competence frameworks and personal development",
+      "topic_area": "E Personal Effectiveness and Communication in Business"
+    },
+    {
+      "id": "BT.E4",
+      "title": "Sources of conflict and techniques for conflict resolution",
+      "topic_area": "E Personal Effectiveness and Communication in Business"
+    },
+    {
+      "id": "BT.E5",
+      "title": "Communicating in business",
+      "topic_area": "E Personal Effectiveness and Communication in Business"
+    },
+    {
+      "id": "BT.F1",
+      "title": "Fundamental principles of ethical behaviour",
+      "topic_area": "F Professional Ethics"
+    },
+    {
+      "id": "BT.F2",
+      "title": "Role of regulatory and professional bodies",
+      "topic_area": "F Professional Ethics"
+    },
+    {
+      "id": "BT.F3",
+      "title": "Corporate codes of ethics",
+      "topic_area": "F Professional Ethics"
+    },
+    {
+      "id": "BT.F4",
+      "title": "Ethical conflicts and dilemmas",
+      "topic_area": "F Professional Ethics"
+    },
+    {
+      "id": "MA.A1",
+      "title": "Accounting for management",
+      "topic_area": "A The nature, source and purpose of management information"
+    },
+    {
+      "id": "MA.A2",
+      "title": "Sources of data",
+      "topic_area": "A The nature, source and purpose of management information"
+    },
+    {
+      "id": "MA.A3",
+      "title": "Cost classification",
+      "topic_area": "A The nature, source and purpose of management information"
+    },
+    {
+      "id": "MA.A4",
+      "title": "Presenting information",
+      "topic_area": "A The nature, source and purpose of management information"
+    },
+    {
+      "id": "MA.B1",
+      "title": "Sampling methods",
+      "topic_area": "B Data analysis and statistical techniques"
+    },
+    {
+      "id": "MA.B2",
+      "title": "Forecasting techniques",
+      "topic_area": "B Data analysis and statistical techniques"
+    },
+    {
+      "id": "MA.B3",
+      "title": "Summarising and analysing data",
+      "topic_area": "B Data analysis and statistical techniques"
+    },
+    {
+      "id": "MA.B4",
+      "title": "Spreadsheets",
+      "topic_area": "B Data analysis and statistical techniques"
+    },
+    {
+      "id": "MA.C1",
+      "title": "Accounting for material, labour and overheads",
+      "topic_area": "C Cost accounting techniques"
+    },
+    {
+      "id": "MA.C2",
+      "title": "Absorption and marginal costing",
+      "topic_area": "C Cost accounting techniques"
+    },
+    {
+      "id": "MA.C3",
+      "title": "Cost accounting methods",
+      "topic_area": "C Cost accounting techniques"
+    },
+    {
+      "id": "MA.C4",
+      "title": "Alternative cost accounting principles",
+      "topic_area": "C Cost accounting techniques"
+    },
+    {
+      "id": "MA.D1",
+      "title": "Nature and purpose of budgeting",
+      "topic_area": "D Budgeting"
+    },
+    {
+      "id": "MA.D2",
+      "title": "Statistical techniques in budgeting",
+      "topic_area": "D Budgeting"
+    },
+    {
+      "id": "MA.D3",
+      "title": "Functional budgets",
+      "topic_area": "D Budgeting"
+    },
+    {
+      "id": "MA.D4",
+      "title": "Investment appraisal",
+      "topic_area": "D Budgeting"
+    },
+    {
+      "id": "MA.D5",
+      "title": "Budgetary control and reporting",
+      "topic_area": "D Budgeting"
+    },
+    {
+      "id": "MA.D6",
+      "title": "Behavioural aspects of budgeting",
+      "topic_area": "D Budgeting"
+    },
+    {
+      "id": "MA.E1",
+      "title": "Standard costing system",
+      "topic_area": "E Standard costing"
+    },
+    {
+      "id": "MA.E2",
+      "title": "Variance calculations and analysis",
+      "topic_area": "E Standard costing"
+    },
+    {
+      "id": "MA.E3",
+      "title": "Reconciliation of budgeted and actual profit",
+      "topic_area": "E Standard costing"
+    },
+    {
+      "id": "MA.F1",
+      "title": "Performance measurement overview",
+      "topic_area": "F Performance measurement"
+    },
+    {
+      "id": "MA.F2",
+      "title": "Performance measurement - application",
+      "topic_area": "F Performance measurement"
+    },
+    {
+      "id": "MA.F3",
+      "title": "Cost reductions and value enhancement",
+      "topic_area": "F Performance measurement"
+    },
+    {
+      "id": "MA.F4",
+      "title": "Monitoring performance and reporting",
+      "topic_area": "F Performance measurement"
+    },
+    {
+      "id": "FA.A1",
+      "title": "Scope and purpose of financial statements for external reporting",
+      "topic_area": "A The Context and Purpose of Financial Reporting"
+    },
+    {
+      "id": "FA.A2",
+      "title": "Stakeholders' needs",
+      "topic_area": "A The Context and Purpose of Financial Reporting"
+    },
+    {
+      "id": "FA.A3",
+      "title": "Main elements of financial reports",
+      "topic_area": "A The Context and Purpose of Financial Reporting"
+    },
+    {
+      "id": "FA.A4",
+      "title": "Regulatory framework",
+      "topic_area": "A The Context and Purpose of Financial Reporting"
+    },
+    {
+      "id": "FA.A5",
+      "title": "Duties and responsibilities of those charged with governance",
+      "topic_area": "A The Context and Purpose of Financial Reporting"
+    },
+    {
+      "id": "FA.B1",
+      "title": "Key principles and concepts of accounting",
+      "topic_area": "B Accounting Principles, Concepts and Qualitative Characteristics"
+    },
+    {
+      "id": "FA.B2",
+      "title": "Qualitative characteristics of useful financial information",
+      "topic_area": "B Accounting Principles, Concepts and Qualitative Characteristics"
+    },
+    {
+      "id": "FA.C1",
+      "title": "Double-entry bookkeeping principles and maintenance of records",
+      "topic_area": "C The Use of Double-Entry Bookkeeping and Accounting Systems"
+    },
+    {
+      "id": "FA.C2",
+      "title": "General ledger accounts and journal entries",
+      "topic_area": "C The Use of Double-Entry Bookkeeping and Accounting Systems"
+    },
+    {
+      "id": "FA.D1",
+      "title": "Sales and purchases",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D2",
+      "title": "Cash",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D3",
+      "title": "Inventories",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D4",
+      "title": "Tangible non-current assets",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D5",
+      "title": "Depreciation",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D6",
+      "title": "Intangible non-current assets and amortisation",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D7",
+      "title": "Accruals, prepayments, accrued income and deferred income",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D8",
+      "title": "Receivables and payables",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D9",
+      "title": "Provisions and contingencies",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.D10",
+      "title": "Capital structure and finance costs",
+      "topic_area": "D Recording Transactions and Events"
+    },
+    {
+      "id": "FA.E1",
+      "title": "Bank reconciliations",
+      "topic_area": "E Reconciliations"
+    },
+    {
+      "id": "FA.E2",
+      "title": "Payables account reconciliations",
+      "topic_area": "E Reconciliations"
+    },
+    {
+      "id": "FA.F1",
+      "title": "Trial balance",
+      "topic_area": "F Preparing a Trial Balance"
+    },
+    {
+      "id": "FA.F2",
+      "title": "Correction of errors",
+      "topic_area": "F Preparing a Trial Balance"
+    },
+    {
+      "id": "FA.F3",
+      "title": "Suspense accounts",
+      "topic_area": "F Preparing a Trial Balance"
+    },
+    {
+      "id": "FA.G1",
+      "title": "Statement of financial position",
+      "topic_area": "G Preparing Financial Statements"
+    },
+    {
+      "id": "FA.G2",
+      "title": "Statement of profit or loss and other comprehensive income",
+      "topic_area": "G Preparing Financial Statements"
+    },
+    {
+      "id": "FA.G3",
+      "title": "Disclosure notes",
+      "topic_area": "G Preparing Financial Statements"
+    },
+    {
+      "id": "FA.G4",
+      "title": "Events after the reporting period",
+      "topic_area": "G Preparing Financial Statements"
+    },
+    {
+      "id": "FA.G5",
+      "title": "Statement of cash flows (excluding partnerships)",
+      "topic_area": "G Preparing Financial Statements"
+    },
+    {
+      "id": "FA.G6",
+      "title": "Incomplete records",
+      "topic_area": "G Preparing Financial Statements"
+    },
+    {
+      "id": "FA.H1",
+      "title": "Subsidiaries",
+      "topic_area": "H Preparing Basic Consolidated Financial Statements"
+    },
+    {
+      "id": "FA.H2",
+      "title": "Associates",
+      "topic_area": "H Preparing Basic Consolidated Financial Statements"
+    },
+    {
+      "id": "FA.I1",
+      "title": "Importance and purpose of financial statement analysis",
+      "topic_area": "I Interpretation of Financial Statements"
+    },
+    {
+      "id": "FA.I2",
+      "title": "Ratios",
+      "topic_area": "I Interpretation of Financial Statements"
+    },
+    {
+      "id": "FA.I3",
+      "title": "Analysis of financial statements",
+      "topic_area": "I Interpretation of Financial Statements"
+    }
+  ],
+  "_declared_exclusions": [],
+  "BT_S01_Business_Purpose_Stakeholders_and_Political_Legal_Macro_Factors": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.A1",
+      "BT/FBT, MA/FMA, FA/FFA BT.A2",
+      "BT/FBT, MA/FMA, FA/FFA BT.A3",
+      "BT/FBT, MA/FMA, FA/FFA BT.A4"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.A1",
+      "BT.A2",
+      "BT.A3",
+      "BT.A4"
+    ]
+  },
+  "BT_S02_Micro_Social_Technological_Environmental_and_Competitive_Factors": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.A5",
+      "BT/FBT, MA/FMA, FA/FFA BT.A6",
+      "BT/FBT, MA/FMA, FA/FFA BT.A7",
+      "BT/FBT, MA/FMA, FA/FFA BT.A8",
+      "BT/FBT, MA/FMA, FA/FFA BT.A9"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.A5",
+      "BT.A6",
+      "BT.A7",
+      "BT.A8",
+      "BT.A9"
+    ]
+  },
+  "BT_S03_Organisational_Structure_Culture_and_Governance": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.B1",
+      "BT/FBT, MA/FMA, FA/FFA BT.B2",
+      "BT/FBT, MA/FMA, FA/FFA BT.B3",
+      "BT/FBT, MA/FMA, FA/FFA BT.B4",
+      "BT/FBT, MA/FMA, FA/FFA BT.B5"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.B1",
+      "BT.B2",
+      "BT.B3",
+      "BT.B4",
+      "BT.B5"
+    ]
+  },
+  "BT_S04_Accounting_and_Finance_Functions_Regulation_and_Financial_Information": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.C1",
+      "BT/FBT, MA/FMA, FA/FFA BT.C2",
+      "BT/FBT, MA/FMA, FA/FFA BT.C3",
+      "BT/FBT, MA/FMA, FA/FFA BT.C4"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.C1",
+      "BT.C2",
+      "BT.C3",
+      "BT.C4"
+    ]
+  },
+  "BT_S05_Financial_Systems_Internal_Controls_and_Technology": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.C5",
+      "BT/FBT, MA/FMA, FA/FFA BT.C6",
+      "BT/FBT, MA/FMA, FA/FFA BT.C7"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.C5",
+      "BT.C6",
+      "BT.C7"
+    ]
+  },
+  "BT_S06_Leadership_Management_and_Teams": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.D1",
+      "BT/FBT, MA/FMA, FA/FFA BT.D2",
+      "BT/FBT, MA/FMA, FA/FFA BT.D3",
+      "BT/FBT, MA/FMA, FA/FFA BT.D4",
+      "BT/FBT, MA/FMA, FA/FFA BT.D5",
+      "BT/FBT, MA/FMA, FA/FFA BT.D6"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.D1",
+      "BT.D2",
+      "BT.D3",
+      "BT.D4",
+      "BT.D5",
+      "BT.D6"
+    ]
+  },
+  "BT_S07_Personal_Effectiveness_and_Communication": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.E1",
+      "BT/FBT, MA/FMA, FA/FFA BT.E2",
+      "BT/FBT, MA/FMA, FA/FFA BT.E3",
+      "BT/FBT, MA/FMA, FA/FFA BT.E4",
+      "BT/FBT, MA/FMA, FA/FFA BT.E5"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.E1",
+      "BT.E2",
+      "BT.E3",
+      "BT.E4",
+      "BT.E5"
+    ]
+  },
+  "BT_S08_Professional_Ethics": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA BT.F1",
+      "BT/FBT, MA/FMA, FA/FFA BT.F2",
+      "BT/FBT, MA/FMA, FA/FFA BT.F3",
+      "BT/FBT, MA/FMA, FA/FFA BT.F4"
+    ],
+    "syllabus_topic": "Paper 1: Business and Technology (BT/FBT) - the business organisation, its external environment, structure, culture, governance, accounting/finance functions, technology, leadership, personal effectiveness and professional ethics",
+    "covers_items": [
+      "BT.F1",
+      "BT.F2",
+      "BT.F3",
+      "BT.F4"
+    ]
+  },
+  "MA_S01_Management_Information_and_Cost_Classification": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.A1",
+      "BT/FBT, MA/FMA, FA/FFA MA.A2",
+      "BT/FBT, MA/FMA, FA/FFA MA.A3",
+      "BT/FBT, MA/FMA, FA/FFA MA.A4"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.A1",
+      "MA.A2",
+      "MA.A3",
+      "MA.A4"
+    ]
+  },
+  "MA_S02_Data_Analysis_and_Statistical_Techniques": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.B1",
+      "BT/FBT, MA/FMA, FA/FFA MA.B2",
+      "BT/FBT, MA/FMA, FA/FFA MA.B3",
+      "BT/FBT, MA/FMA, FA/FFA MA.B4"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.B1",
+      "MA.B2",
+      "MA.B3",
+      "MA.B4"
+    ]
+  },
+  "MA_S03_Materials_Labour_and_Overheads": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.C1"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.C1"
+    ]
+  },
+  "MA_S04_Costing_Methods_and_Alternative_Principles": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.C2",
+      "BT/FBT, MA/FMA, FA/FFA MA.C3",
+      "BT/FBT, MA/FMA, FA/FFA MA.C4"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.C2",
+      "MA.C3",
+      "MA.C4"
+    ]
+  },
+  "MA_S05_Budgeting_Fundamentals_and_Preparation": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.D1",
+      "BT/FBT, MA/FMA, FA/FFA MA.D2",
+      "BT/FBT, MA/FMA, FA/FFA MA.D3"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.D1",
+      "MA.D2",
+      "MA.D3"
+    ]
+  },
+  "MA_S06_Investment_Appraisal_and_Budgetary_Control": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.D4",
+      "BT/FBT, MA/FMA, FA/FFA MA.D5",
+      "BT/FBT, MA/FMA, FA/FFA MA.D6"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.D4",
+      "MA.D5",
+      "MA.D6"
+    ]
+  },
+  "MA_S07_Standard_Costing_and_Variance_Analysis": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.E1",
+      "BT/FBT, MA/FMA, FA/FFA MA.E2",
+      "BT/FBT, MA/FMA, FA/FFA MA.E3"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.E1",
+      "MA.E2",
+      "MA.E3"
+    ]
+  },
+  "MA_S08_Performance_Measurement": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA MA.F1",
+      "BT/FBT, MA/FMA, FA/FFA MA.F2",
+      "BT/FBT, MA/FMA, FA/FFA MA.F3",
+      "BT/FBT, MA/FMA, FA/FFA MA.F4"
+    ],
+    "syllabus_topic": "Paper 2: Management Accounting (MA/FMA) - management information, cost accounting techniques, budgeting, standard costing and performance measurement",
+    "covers_items": [
+      "MA.F1",
+      "MA.F2",
+      "MA.F3",
+      "MA.F4"
+    ]
+  },
+  "FA_S01_Context_and_Purpose_of_Financial_Reporting": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.A1",
+      "BT/FBT, MA/FMA, FA/FFA FA.A2",
+      "BT/FBT, MA/FMA, FA/FFA FA.A3",
+      "BT/FBT, MA/FMA, FA/FFA FA.A4",
+      "BT/FBT, MA/FMA, FA/FFA FA.A5"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.A1",
+      "FA.A2",
+      "FA.A3",
+      "FA.A4",
+      "FA.A5"
+    ]
+  },
+  "FA_S02_Accounting_Principles_and_Double_Entry_Systems": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.B1",
+      "BT/FBT, MA/FMA, FA/FFA FA.B2",
+      "BT/FBT, MA/FMA, FA/FFA FA.C1",
+      "BT/FBT, MA/FMA, FA/FFA FA.C2"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.B1",
+      "FA.B2",
+      "FA.C1",
+      "FA.C2"
+    ]
+  },
+  "FA_S03_Sales_Purchases_and_Cash": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.D1",
+      "BT/FBT, MA/FMA, FA/FFA FA.D2"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.D1",
+      "FA.D2"
+    ]
+  },
+  "FA_S04_Inventories": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.D3"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.D3"
+    ]
+  },
+  "FA_S05_Non_Current_Assets_Depreciation_and_Intangibles": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.D4",
+      "BT/FBT, MA/FMA, FA/FFA FA.D5",
+      "BT/FBT, MA/FMA, FA/FFA FA.D6"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.D4",
+      "FA.D5",
+      "FA.D6"
+    ]
+  },
+  "FA_S06_Accruals_Receivables_Payables_Provisions_and_Capital_Structure": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.D7",
+      "BT/FBT, MA/FMA, FA/FFA FA.D8",
+      "BT/FBT, MA/FMA, FA/FFA FA.D9",
+      "BT/FBT, MA/FMA, FA/FFA FA.D10"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.D7",
+      "FA.D8",
+      "FA.D9",
+      "FA.D10"
+    ]
+  },
+  "FA_S07_Bank_and_Payables_Reconciliations": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.E1",
+      "BT/FBT, MA/FMA, FA/FFA FA.E2"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.E1",
+      "FA.E2"
+    ]
+  },
+  "FA_S08_Trial_Balance_Errors_and_Suspense_Accounts": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.F1",
+      "BT/FBT, MA/FMA, FA/FFA FA.F2",
+      "BT/FBT, MA/FMA, FA/FFA FA.F3"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.F1",
+      "FA.F2",
+      "FA.F3"
+    ]
+  },
+  "FA_S09_Statement_of_Financial_Position_and_Profit_or_Loss": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.G1",
+      "BT/FBT, MA/FMA, FA/FFA FA.G2",
+      "BT/FBT, MA/FMA, FA/FFA FA.G3",
+      "BT/FBT, MA/FMA, FA/FFA FA.G4"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.G1",
+      "FA.G2",
+      "FA.G3",
+      "FA.G4"
+    ]
+  },
+  "FA_S10_Statement_of_Cash_Flows_and_Incomplete_Records": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.G5",
+      "BT/FBT, MA/FMA, FA/FFA FA.G6"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.G5",
+      "FA.G6"
+    ]
+  },
+  "FA_S11_Introduction_to_Consolidated_Financial_Statements": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.H1",
+      "BT/FBT, MA/FMA, FA/FFA FA.H2"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.H1",
+      "FA.H2"
+    ]
+  },
+  "FA_S12_Interpretation_of_Financial_Statements": {
+    "covers_syllabus_refs": [
+      "BT/FBT, MA/FMA, FA/FFA FA.I1",
+      "BT/FBT, MA/FMA, FA/FFA FA.I2",
+      "BT/FBT, MA/FMA, FA/FFA FA.I3"
+    ],
+    "syllabus_topic": "Paper 3: Financial Accounting (FA/FFA) - the context of financial reporting, double-entry bookkeeping, recording transactions, the trial balance, preparing financial statements, an introduction to consolidation, and interpretation",
+    "covers_items": [
+      "FA.I1",
+      "FA.I2",
+      "FA.I3"
+    ]
+  }
+}

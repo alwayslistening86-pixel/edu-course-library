@@ -1,0 +1,68 @@
+{
+  "schema_version": 4,
+  "name": "A-level Physics (AQA 7408): Astrophysics option",
+  "requires_complete": [
+    [
+      "gcse_physics",
+      "gcse_combined_science"
+    ],
+    "gcse_mathematics"
+  ],
+  "standalone": false,
+  "selected_options": {
+    "option": "3.9 Astrophysics",
+    "practical_endorsement": "not covered (teacher-assessed, separate from the grade)"
+  },
+  "folder_access": {
+    "status": "pending_confirmation"
+  },
+  "currency": "live",
+  "material_vintage": "AQA AS and A-level Physics (7407/7408) specification, Version 1.4 (July 2026), linked from aqa.org.uk/7408 and itemised on 2026-09-27: every content code at its deepest level (3.1.1-3.13.6.4), the mathematical requirements MS 0.1-4.7, the practical skills PS1.1-4.1, the apparatus and techniques ATa-l and the twelve required practicals. This course takes the Astrophysics option (3.9); the other four options and the hands-on apparatus list (practical endorsement only) are declared out of scope. Assessment: Paper 1 (2 h, 85 marks, 34%: sections 3.1-3.5 and 3.6.1), Paper 2 (2 h, 85 marks, 34%: 3.6.2, 3.7, 3.8, assuming 3.1-3.6.1), Paper 3 (2 h, 80 marks, 32%: practical skills and data analysis 45 marks, option 35 marks). Stage tests and the mock are original questions in AQA's style; every numerical answer was computed when the course was built.",
+  "academic_level": 3,
+  "level_source": "RQF Level 3 (GCE A-level), per Ofqual's register listing for AQA 7408",
+  "level_basis": "framework",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-09-27",
+  "coverage_status": "full",
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [
+    {
+      "id": "practical_endorsement",
+      "text": "The A-level grade comes only from the written papers. AQA also reports a separate practical endorsement, assessed by a teacher watching you work in a lab. This course teaches the required practicals' methods, analysis and evaluation for the written papers, but it cannot award or replace the endorsement."
+    },
+    {
+      "id": "option",
+      "text": "This course follows the Astrophysics option in Paper 3 Section B. If you are entered for Medical, Applied (Engineering), Turning points or Electronics instead, you will need another source for that option."
+    }
+  ],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "stage_ladder": [
+    "S01_Measurements_Units_and_Uncertainty",
+    "S02_Particles",
+    "S03_Quantum_Phenomena",
+    "S04_Progressive_and_Stationary_Waves",
+    "S05_Interference_Diffraction_Refraction",
+    "S06_Vectors_Moments_and_Geometry",
+    "S07_Motion_and_Projectiles",
+    "S08_Newtons_Laws_Momentum_Energy",
+    "S09_Materials",
+    "S10_Current_Electricity",
+    "S11_Circuits_and_EMF",
+    "S12_Circular_Motion_and_SHM",
+    "S13_Thermal_Physics",
+    "S14_Gravitational_Fields",
+    "S15_Electric_Fields",
+    "S16_Capacitance",
+    "S17_Magnetic_Fields_and_Induction",
+    "S18_Nuclear_Physics",
+    "S19_Astrophysics_Telescopes",
+    "S20_Astrophysics_Stars",
+    "S21_Astrophysics_Cosmology",
+    "S22_Practical_Skills_and_Data_Analysis"
+  ]
+}

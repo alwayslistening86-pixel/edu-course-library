@@ -1,0 +1,53 @@
+{
+  "schema_version": 4,
+  "name": "GCSE French (AQA 8652)",
+  "requires_complete": [],
+  "selected_options": {
+    "tiers_built": "Both Foundation (grades 1-5) and Higher (grades 4-9), consistent with the tiering approach used for GCSE Mathematics and the separate sciences in this course set",
+    "rebuilt_from": "Previous build used the legacy AQA 8658 specification, which AQA now labels 'legacy' and points to 8652 (first teaching September 2024). Rebuilt on 2026-09-19 against 8652 at the user's instruction after a course-auditor drift finding. The 8658 build (stages, rubric, map, exam) is archived outside courses/ in _archive/. This 2026-09-22 rebuild fully itemises the specification (95 items across 21 stages) where the prior 8652 build had only a broad per-topic index with no _syllabus_items."
+  },
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "AQA GCSE French (9-1) 8652 specification, first teaching September 2024 (PDF at filestore.aqa.org.uk/resources/french/specifications/AQA-8652-SP-2024.pdf). Itemised on 2026-09-22 against the live AQA pages: subject-content/themes (confirmed all three theme titles and nine topic titles exactly as previously built), subject-content/grammar (Section 3.2 grammar checklist) and scheme-of-assessment (confirmed paper durations, marks, tiers and the AO1/AO2/AO3 weightings: AO1 35% overall, AO2 45%, AO3 20%). AQA's Appendix 2 vocabulary list and Section 3.2 grammar list are not separately numbered by topic, so all grammar-point and vocabulary-area item ids use an invented, stable AQA-FR-T<theme>.<topic>-<slug>[-F|-H] / AQA-FR-P<paper>-<taskslug> scheme (see items_source and declared in every item). Per-topic grammar allocation (which structure is Foundation vs Higher) is carried over from the prior 8652 build, which the user's own curriculum_map.json stated was already accurate; it was not independently re-verified word-for-word against Section 3.2 in this pass and is flagged for spot-checking. Stage test and exam scenarios are original questions written in the style of AQA papers, never real past-paper items. First live 8652 exams were sat summer 2026; live-series past papers/mark schemes were not available for this rebuild, so task-type detail is drawn from the specification's scheme-of-assessment pages and the specimen assessment material structure referenced in the prior build.",
+  "academic_level": 2,
+  "level_source": "RQF Level 2 (GCSE, full grade range 1-9 / Foundation+Higher tiers covered); level carried over from the previous 8658/8652 builds of this course and not independently re-confirmed against the Ofqual register entry for 8652 in this pass",
+  "grounding_status": "verified",
+  "last_live_recheck": null,
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S01_Identity_Relationships_Core",
+    "S02_Identity_Relationships_Extended",
+    "S03_Healthy_Living_Core",
+    "S04_Healthy_Living_Extended",
+    "S05_Education_Work_Core",
+    "S06_Education_Work_Extended",
+    "S07_Free_Time_Core",
+    "S08_Free_Time_Extended",
+    "S09_Customs_Festivals_Core",
+    "S10_Customs_Festivals_Extended",
+    "S11_Celebrity_Culture_Core",
+    "S12_Celebrity_Culture_Extended",
+    "S13_Travel_Tourism_Core",
+    "S14_Travel_Tourism_Extended",
+    "S15_Media_Technology_Core",
+    "S16_Media_Technology_Extended",
+    "S17_Environment_Core",
+    "S18_Environment_Extended",
+    "S19_Listening_and_Reading_Papers",
+    "S20_Speaking_Paper",
+    "S21_Writing_Paper"
+  ],
+  "linear": true,
+  "framework": "AQA level-of-response grids: AO2 communication levels 0-5 and AO3 range/accuracy levels for Writing and Speaking; ticks-to-marks grids for translation; objective marking for Listening and Reading comprehension. AO weightings confirmed on the live AQA scheme-of-assessment page (2026-09-22): AO1 (listening/reading/understanding) 35% overall, AO2 (communicating in speech and writing) 45%, AO3 (accuracy) 20%.",
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  },
+  "last_audited_plugin_version": "1.2.0",
+  "standalone": false,
+  "practical_stages": {},
+  "learner_notices": [],
+  "level_basis": "framework"
+}

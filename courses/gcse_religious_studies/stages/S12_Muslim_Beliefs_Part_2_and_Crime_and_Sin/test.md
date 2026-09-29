@@ -1,0 +1,16 @@
+# S12_Muslim_Beliefs_Part_2_and_Crime_and_Sin - Test: Muslim beliefs: predestination and the afterlife; Islamic teaching on crime and punishment's purpose
+
+## How to run this
+Real checkpoint, not more practice. Present the scenario once, let the learner submit a full answer, then grade against this stage's entry in `rubric.json` -- never grade without it.
+
+## Test scenario
+Answer in the board's style. (a) Give one Muslim belief about the afterlife (1 mark). (b) Give two purposes of punishment in Islam (2 marks). (c) Explain two Muslim teachings about crime and sin. In your answer you must refer to a source of wisdom and authority (5 marks).
+
+## Grading
+Apply `rubric.json`'s `stage_rubrics.S12_Muslim_Beliefs_Part_2_and_Crime_and_Sin` criteria exactly. Record `passed` or `not_passed`, with a short honest note on strengths/weaknesses, into this course's micro-profile.
+
+## If not passed
+Name the specific weak or missing step, offer to revisit practice, then re-test with a new question of the same type.
+
+## On pass
+Record the pass and let the learner know they can move to S13_Crime_and_Punishment_in_Islam.
