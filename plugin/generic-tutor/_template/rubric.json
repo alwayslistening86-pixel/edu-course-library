@@ -1,0 +1,29 @@
+{
+  "_note": "Every criteria/pass_threshold value here must be traceable to source — never authored by the compiler. A stage with no valid source entry must not have a test.md relying on this file.",
+  "stage_rubrics": {
+    "S1": {
+      "criteria": ["{{CRITERION_1_FROM_SOURCE}}", "{{CRITERION_2_FROM_SOURCE}}"],
+      "pass_threshold": "{{PASS_THRESHOLD_FROM_SOURCE}}",
+      "source": {
+        "issuing_body": "{{e.g. AQA, OU, Ofqual, IB}}",
+        "document": "{{exact document title, spec code, or year/series}}",
+        "reference": "{{page, item number, or URL if available}}"
+      }
+    },
+    "S2": {
+      "criteria": ["{{CRITERION_1_FROM_SOURCE}}", "{{CRITERION_2_FROM_SOURCE}}"],
+      "pass_threshold": "{{PASS_THRESHOLD_FROM_SOURCE}}",
+      "source": { "issuing_body": "", "document": "", "reference": "" }
+    },
+    "S3": {
+      "criteria": ["{{CRITERION_1_FROM_SOURCE}}", "{{CRITERION_2_FROM_SOURCE}}"],
+      "pass_threshold": "{{PASS_THRESHOLD_FROM_SOURCE}}",
+      "source": { "issuing_body": "", "document": "", "reference": "" }
+    }
+  },
+  "exam_rubric": {
+    "criteria": ["{{CUMULATIVE_CRITERION_1_FROM_SOURCE}}", "{{CUMULATIVE_CRITERION_2_FROM_SOURCE}}"],
+    "pass_threshold": "{{PASS_THRESHOLD_FROM_SOURCE}}",
+    "source": { "issuing_body": "", "document": "", "reference": "" }
+  }
+}
