@@ -298,7 +298,7 @@ class TestSubjectMigrationV140(unittest.TestCase):
         self.assertEqual(d["error_patterns"], [])
         self.assertEqual(d["confidence"], 0.5)
         self.assertEqual(d["remediation"], {})
-        self.assertEqual(d["schema_version"], 4)
+        self.assertEqual(d["schema_version"], migrate_schema.SUBJECT_SCHEMA_VERSION)
 
     def test_idempotent_second_run_writes_nothing(self):
         subj = os.path.join(self.d, "subjects.json")
