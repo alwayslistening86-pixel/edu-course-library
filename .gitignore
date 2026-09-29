@@ -4,3 +4,7 @@ _staging/installed/*.zip
 *.pyc
 __pycache__/
 .DS_Store
+
+# Personal per-learner progress, once real learners exist here - never committed.
+# (access.json above this directory is a folder-access flag, not learner data, and stays tracked.)
+profile/*/
