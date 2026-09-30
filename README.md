@@ -6,7 +6,9 @@ spanning GCSE through degree level and several standalone qualifications),
 taught interactively by Claude against sourced rubrics and specifications,
 with per-learner progress tracking, spaced-repetition review, and an
 adaptive layer that diagnoses *why* an answer was wrong rather than just
-whether it was right.
+whether it was right. It also ships an optional read-only desktop
+toolkit — a small GUI/CLI for backup, health and progress checks from
+your own machine, without opening a session.
 
 This is a working personal project, not a published product. If you've
 ended up here by accident: welcome, feel free to look around, but see
@@ -36,10 +38,8 @@ _archive/            Retired/superseded material
    `/continue <course_id>` to teach, `/add-course` to compile a new one,
    `/list-courses`, `/review`, `/audit`, and so on — see the plugin's own
    `commands/` and `skills/*/SKILL.md` for the full command surface.
-4. Optional: an installed plugin also deploys a small read-only toolkit to
-   `.tutor-scripts/toolkit/` (backup, health, progress and review-due checks
-   from your own machine, without opening a session) — see that folder's own
-   README for how to use it.
+4. Optional: once installed, the toolkit lands at `.tutor-scripts/toolkit/`
+   — see that folder's own README for how to use it.
 
 Course content is compiled from real, cited sources (exam board
 specifications, mark schemes, examiner reports) — every rubric entry and,
