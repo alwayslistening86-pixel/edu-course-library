@@ -60,6 +60,57 @@ it indefinitely or discard it with no trace at all.
 - **A calendar/reminder integration** — would need real dates, which the slot-based
   model deliberately avoids everywhere.
 
+## 30 Sep 2026 — ts-fsrs and the SQLite schema, checked against LearnOS
+
+No version bump, no code shipped — this closes out the "review LearnOS" thread from the
+infra backlog with an actual decision on its two concrete questions, rather than leaving
+them open indefinitely.
+
+**`ts-fsrs` (a maintained open-source FSRS spaced-repetition library, used by LearnOS)
+— considered, declined for `review_math.py`.** Three real mismatches, not one:
+1. FSRS's forgetting-curve math is built on real elapsed *time* since last review — the
+   whole model is "how much have you forgotten over these actual days." This system's
+   scheduling is deliberately slot-based, never date-based, everywhere else (see
+   profile-kernel's `session_slot`, journey-planner's whole design) specifically so
+   nothing here has to reason about calendar time. Feeding "elapsed slots" into FSRS in
+   place of "elapsed days" breaks the model's own premise: five sessions in one
+   afternoon and five sessions over five weeks would be treated identically, when
+   FSRS's entire value is telling those two apart.
+2. FSRS schedules from a graded recall (Again/Hard/Good/Easy), not a binary
+   correct/incorrect. Adopting it would mean asking the model for a finer-grained
+   judgment on every review, not just swapping the arithmetic underneath
+   `review_math.py` — a real change to `review-scheduler.md`'s own grading contract,
+   not a drop-in.
+3. FSRS's real advantage over SM-2-family formulas is parameter fitting across large
+   populations of real review logs (that's how Anki's own default parameters were
+   derived). This is a single-learner (or a handful of learners) system generating at
+   most a few hundred graded events a year per course — the same "not enough data to
+   fit a heavier model" reasoning `item_mastery.py`'s own docstring already gives for
+   choosing BKT over a neural tracker applies here just as directly. There's no
+   population to fit against, and no per-learner series long enough to make FSRS's own
+   per-user optimization pay for itself either.
+
+`review_math.py`'s existing SM-2-lite formula stays as-is: simple, deterministic,
+already tested, and it was built slot-based on purpose rather than by omission. No
+action taken.
+
+**SQLite schema — revised, still not wired in.** `schema_design.sql` (drafted 29 Sep,
+before error_log.py/item_mastery.py/confidence_update.py existed) was stale against
+what those scripts actually ship today. Revised to match their real field shapes
+exactly, and to add two tables borrowed directly from reviewing LearnOS's own
+`db/schema.sql`: `item_mastery_log` and `review_log`, both append-only observation
+histories sitting alongside the existing current-state tables (`item_mastery`,
+`review_cards`) — the same current-state/history split LearnOS uses for its own
+flashcards/flashcard_reviews pair. Both are genuine new capability, not a straight port
+of existing JSON: today's JSON only ever holds the latest belief or the latest card
+state, so "has this item's mastery actually been trending up" or "how has this card's
+ease moved over a term" aren't answerable at all right now. Everything else in
+LearnOS's schema — users/auth, XP/streaks/badges, a social course-sharing registry — is
+either already handled elsewhere in this system's own design or deliberately out of
+scope, and none of it made it into the revised design. Still just a design reference:
+`profile/` holds close to no real usage data yet, so there is no urgency and no
+migration has been scheduled.
+
 ## Version history
 - **v0.3.0** — original upload: profile-kernel, course-compiler, course-runner,
   tutor-core. Per-learner course copies, no roster/level gating, no convergence,
