@@ -14,6 +14,7 @@ COMMANDS = {
     "progress": "progress",
     "review-due": "review_due",
     "errors": "errors",
+    "export-anki": "export_anki",
 }
 
 
