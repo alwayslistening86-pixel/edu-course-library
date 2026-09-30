@@ -31,6 +31,7 @@ import health  # noqa: E402
 import progress  # noqa: E402
 import review_due  # noqa: E402
 import errors  # noqa: E402
+import export_anki  # noqa: E402
 
 STATUS_LINE = "This is a status view only — study happens in your Claude session via /continue."
 
@@ -73,7 +74,7 @@ class ToolkitApp:
         self.learners = core.list_learners(self.edu_root)
 
         root_window.title("generic-tutor toolkit")
-        root_window.geometry("320x300")
+        root_window.geometry("320x330")
         root_window.resizable(False, False)
 
         frame = ttk.Frame(root_window, padding=12)
@@ -94,6 +95,7 @@ class ToolkitApp:
             ("Errors", self.show_errors),
             ("Health", self.show_health),
             ("Backup now", self.run_backup),
+            ("Export to Anki", self.run_export_anki),
         ]
         for label, command in buttons:
             ttk.Button(frame, text=label, command=command).pack(fill="x", pady=3)
@@ -149,6 +151,28 @@ class ToolkitApp:
             "Backup complete",
             f"Saved {result['files_written']} files "
             f"({result['size_bytes'] // 1024} KB) to:\n\n{result['zip_path']}",
+        )
+
+    def run_export_anki(self):
+        lid = self._learner()
+        if not lid:
+            return
+        result = export_anki.export_decks(lid, root=self.edu_root)
+        if "error" in result:
+            if not export_anki.GENANKI_AVAILABLE:
+                messagebox.showerror(
+                    "Anki export unavailable",
+                    "genanki isn't installed, so Anki export can't run.\n\n"
+                    "Install it once from a terminal:\n\npip install genanki",
+                )
+            else:
+                messagebox.showerror("Export failed", result["error"])
+            return
+        messagebox.showinfo(
+            "Export complete",
+            f"Exported {result['card_count']} cards across "
+            f"{result['deck_count']} course deck(s) to:\n\n{result['apkg_path']}\n\n"
+            "Import this .apkg file into Anki (File > Import) on any device.",
         )
 
 

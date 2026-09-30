@@ -38,6 +38,13 @@ a new toolkit module):
   6. LOCAL ONLY. No network. No accounts. EDU_ROOT is resolved from where
      this package is actually deployed (see below), or overridden via the
      EDU_TOOLKIT_ROOT environment variable for a non-standard layout.
+  7. ZERO-DEPENDENCY, WITH ONE NAMED EXCEPTION. Every module here is stdlib
+     Python only, except export_anki.py, which needs the third-party
+     `genanki` package to write a real, correct .apkg file (see that
+     module's own docstring for why this one case is worth the exception).
+     Every other module stays dependency-free; a missing genanki install
+     only disables that one feature, cleanly, with a plain instruction
+     rather than an exception.
 
 WHERE THIS PACKAGE LIVES, AND WHY EDU_ROOT NEEDS NO CONFIG FILE
 bootstrap_scripts.py deploys this whole package to

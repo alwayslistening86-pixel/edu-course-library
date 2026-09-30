@@ -636,3 +636,32 @@ Separately: cross-checked item_mastery.py's update equations against CAHLR/pyBKT
     a deployed package untouched). `gui.pyw` itself was smoke-tested manually (constructed under Xvfb with a
     real `tkinter`, every window opened against fake data) since this test environment has no display and no
     `tkinter`-dependent test belongs in a suite that must run headless in CI. Full suite 254 tests, OK.
+- **v1.7.0** — one new toolkit module, `export_anki.py`, no other functional change:
+  - **Anki export.** Writes a real `.apkg` file from a learner's review deck(s), one Anki
+    sub-deck per course, tagged with course_id/stage_id/item_id/criterion. Importable
+    straight into the real Anki app on any device. This is content portability, not a
+    scheduling sync: Anki schedules its own copy from scratch with its own algorithm;
+    this system's own SM-2-lite state (`interval_sessions`/`ease`/`lapses`/`due_at_slot`)
+    is read, never written, and never touched by anything that happens in Anki afterward.
+  - **The one deliberate, documented exception to "zero third-party dependency."** Every
+    other toolkit module is stdlib-only (core.py design rule 7, added this version).
+    `export_anki.py` needs `genanki` (MIT, pure Python, no C++/compiled requirement) to
+    write the `.apkg` binary format correctly. Hand-rolling Anki's SQLite-based collection
+    format was considered and rejected: it's a real, easy-to-get-subtly-wrong format
+    (field separators, per-model JSON, checksums, card queue/type enums), with no way to
+    verify a hand-rolled writer round-trips through real Anki without a live Anki install
+    to test against — whereas genanki already is exactly that, at 2,700+ stars and
+    actively maintained. A missing genanki install disables only this one feature, with a
+    plain `pip install genanki` instruction, and never affects any other toolkit module.
+  - **Prompted by reviewing LearnOS a second time** (see the 30 Sep entry above): their
+    review deck ships `ts-fsrs` for scheduling, which this system declined for its own
+    reasons, but the adjacent idea of genuine flashcard-app interoperability (a learner
+    reviewing on their phone in the actual app millions of people already use) stood on
+    its own merits regardless of which scheduler either system uses internally.
+  - **Tests.** `tests/test_export_anki.py` (11): deterministic ID generation, the
+    genanki-missing error path (forced, not dependent on the test environment actually
+    lacking it), a real `.apkg` file written and reopened as an actual zip containing a
+    real `collection.anki2`, multi-course export producing multiple decks, the
+    `--courses` filter, a missing review deck skipped rather than fatal, the one
+    toolkit-log line written, and cards with and without `item_id`/`criterion` both
+    exporting cleanly. Full suite 265 tests, OK.
