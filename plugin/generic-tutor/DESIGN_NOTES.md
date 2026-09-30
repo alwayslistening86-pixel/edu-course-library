@@ -665,3 +665,51 @@ Separately: cross-checked item_mastery.py's update equations against CAHLR/pyBKT
     `--courses` filter, a missing review deck skipped rather than fatal, the one
     toolkit-log line written, and cards with and without `item_id`/`criterion` both
     exporting cleanly. Full suite 265 tests, OK.
+
+## 30 Sep 2026 — Safety idea taken from uk-agents/uk-legal-plugins (Apache-2.0), tutor-core updated
+
+Following the BAILII MCP review, its author's broader work was checked: `paulieb89/uk-legal-mcp`
+(the flagship UK legal research MCP — case law, legislation, Hansard, HMRC) and
+`uk-agents/uk-legal-plugins`, an 11-plugin Apache-2.0 Claude marketplace for UK legal
+practice. Both read for safety before starring (clean — see the roadmap doc for the
+detail) and starred, but the marketplace itself was not installed: per the explicit
+decision this session, we take ideas piecemeal from its source under its Apache-2.0
+licence rather than adding the whole plugin, keeping the other 10 practice-area plugins
+bookmarked in case a future reason (CILEX's practical-practice side was raised as one
+candidate) makes installing more of it worthwhile.
+
+One idea from its `law-student-uk` plugin was genuinely missing from this system and got
+adopted: **`irac-practice`'s "real-matter check."** That skill stops and redirects to a
+real solicitor/clinic/Citizens Advice if a student's practice question describes an
+actual situation (a real name, address, pound amount, deadline, "my landlord/employer")
+rather than a hypothetical — because an AI grading a "hypo" that's actually someone's
+real legal problem is answering with advice, not teaching. Checked this system's own
+`tutor-core/SKILL.md`: the existing `## Safety` section only covered physical-risk
+supervision (labs, tools, food safety, exercise) — nothing caught a real-situation
+question sliding into being treated as advice. Since this system already has multiple
+courses in regulated professions beyond just law (`aat_*`, `acca_applied_knowledge`,
+`icaew_cfab` for accountancy, alongside `sqe1`/`sqe2`/`cilex_level3_diploma`/`llb`), the
+rule was generalised rather than written law-specific: added a "Real situations, not
+hypotheticals" subsection to `## Safety` covering any of these courses, with the same
+trigger list (real name/address/amount/deadline/letter) and the same redirect (keep
+teaching the concept, decline to answer as if the situation were real).
+
+This is a pedagogy-layer change (`tutor-core`, shared by every course), not a script
+change — no version bump on its own logic, but it ships with the next release since it's
+a real behavioural addition every learner in a regulated-profession course benefits from.
+
+**Not adopted from the same review, left open:**
+- The "verify before formatting" citation discipline (`oscola-build-citation`,
+  `find-case-by-party-verify` — never report a case/statute citation without resolving it
+  against a live source first) is a genuinely good idea for `sqe1`/`sqe2`/
+  `cilex_level3_diploma`/`llb`, but implementing it properly means actually connecting
+  `uk-legal-mcp` (or `bailii-mcp`) as a live grounding source for those courses' content
+  and rubrics — a bigger step than a text change, and still an open decision (see
+  roadmap doc).
+- The IRAC/CILAC grading rubric structure (issue-spotting / rule-accuracy /
+  application-mapping / organisation, pass–borderline–not-yet banding, max one labelled
+  example phrasing, session-over-session pattern tracking) is well-designed and close to
+  what `item_mastery`/`error_log`'s rubric-criterion tagging already does in spirit, but
+  checking whether `sqe1`/`sqe2`/`llb`/`cilex_level3_diploma`'s actual rubrics already
+  reach this granularity (and improving them if not) is real course-content work, not a
+  pedagogy-layer text change — left as a flagged idea, not actioned.
