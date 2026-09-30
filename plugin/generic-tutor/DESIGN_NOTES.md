@@ -1032,3 +1032,31 @@ names a real item and gives a non-empty reason, never that the reason is true or
 item is genuinely out of the learner's selected scope. That's a `course-auditor` Tier 3
 question (matching declared exclusions against the live specification), not something a
 structural check can catch.
+
+## 30 Sep 2026 — courses/ split to a private repo; Tier 1+2 audit run (no code changes)
+
+Two follow-ups after the reviews' remaining open items were put to the repo owner directly rather
+than decided unilaterally, per the earlier `DESIGN_NOTES.md` entries this same day.
+
+**Repo split, agreed and done.** `courses/`/`_staging/`/`_historic/` moved out of the public
+`edu-course-library` repo into a new private `edu-courses-private` repo, via `git filter-repo`:
+extracted with history for the 7 commits that touched those paths, then stripped entirely from
+`edu-course-library`'s history (not just its current HEAD) and force-pushed. Nothing on disk
+changed -- the plugin still reads `courses/` etc. from the same local paths; only which repo
+tracks them changed. This repo's own CI (`.github/workflows/plugin-tests.yml`) lost its
+`validate-courses` job, since there's no `courses/` here to check anymore; the equivalent check now
+runs in `edu-courses-private`'s CI, which checks this repo out read-only for the validators. Both
+repos' CI verified green after the split. Full writeup: see the project roadmap doc's "Repos"
+section.
+
+**Audit, Tier 1+2 only, run and clean.** The second review's `/audit` recommendation (40 courses
+missing `last_audited_plugin_version`, 22 stale, 21 never live-rechecked) was discussed rather than
+run wholesale -- Tier 3 (live grounding re-verification, live syllabus diff) is a real per-course
+cost and correctly stays parked until either synthetic users exist or a specific course's staleness
+actually matters. What's cheap and mechanical (`validate_structure.py` structural checks, the two
+Tier-1 checks CI doesn't cover -- orphaned enrollments, true duplicates -- and `migrate_schema.py`
+across all 62 `course.json` files) was run for real: 0 problems, 0 duplicates, 0 orphans, 0 courses
+needed migration. **`last_audited_plugin_version` was deliberately left untouched** -- writing
+1.12.0 into it off a Tier-1+2-only pass would overclaim exactly the way this session's write-back
+fixes have been about *not* doing; that field means "a full audit ran," and Tier 3 didn't. No code
+changed, so no version bump and no test count change (still 296).
