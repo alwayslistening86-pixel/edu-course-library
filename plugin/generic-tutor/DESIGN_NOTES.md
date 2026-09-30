@@ -523,3 +523,63 @@ it indefinitely or discard it with no trace at all.
     for every field it reads plus the override path. One `test_v140.py` assertion that had pinned the old
     subject schema version literal now asserts the current constant instead (same pattern as the 1.2.0→1.3.0 and
     1.3.0→1.4.0 transitions). Full suite 222 tests, OK.
+- **v1.6.0** — an optional, read-only client-side toolkit (`scripts/toolkit/`), scoped down from a much larger
+  proposal (a third party's — again Grok's — 13-tool CLI catalogue) after two rounds of "what's actually
+  value-add here" with the library owner. Runs entirely outside a Claude session, on the owner's own machine.
+  - **What survived the scoping, and why the rest didn't.** Kept: `backup` (elevated to the highest priority of
+    anything here — `.gitignore` deliberately excludes `profile/*/` from version control, so this is currently
+    the *only* backup path for a learner's irreplaceable history/mastery/errors; courses can be recompiled, this
+    can't), `health`, `progress` (with a gate-visibility note folded in rather than a separate tool), `review_due`,
+    `errors`. Cut entirely, not just deferred: `session` (a thin wrapper over `progress`+`review_due` that risked
+    becoming a second front door around the real gating/teaching logic, which only lives in a live session),
+    `export_cornell` (extractive-only note-taking without an LM produces something worse than reading `lesson.md`
+    directly — a content-generation tool, categorically different from every other read-only module here, not a
+    fit for this package's own rules), `diff` and `log` (solving a problem nobody's had yet — same
+    provisioning-for-a-scale-that-doesn't-exist instinct the original infra review already named), `focus`
+    (zero connection to any tutor data). `coverage`'s content folded into `health`'s course section rather than
+    a standalone tool.
+  - **Design rules, stricter than the plugin's own scripts.** One-way data flow: the tutor (the LM + the
+    plugin's own `.tutor-scripts/*.py`, run only from inside a live session) is the sole writer of tutoring
+    state; this package only reads it, with one narrow exception — its own `toolkit_log/` side-log (currently
+    just a record of backups taken), which the tutor never reads for any gate, mastery, or grading decision.
+    No pedagogy, no re-diagnosis, no "what to study next" that overrides the runner.
+  - **Import the plugin's scripts, never reimplement their reads.** `core.py` calls `item_mastery.status()`,
+    `error_log.query()`, and reads `migrate_schema`'s schema-version constants directly rather than re-parsing
+    `subjects.json` by hand — the subjects schema has already moved twice (4→5 this same release cycle) while
+    this toolkit was being scoped, which is exactly the drift risk a hand-rolled parser would have walked into.
+    `schema_status()` reports (never guesses) when a file is older or newer than what this toolkit understands.
+  - **GUI over CLI, by explicit request, with one hard rule.** The owner asked for something closer to a
+    lightweight desktop app than more terminal scripts — `gui.pyw` (stdlib `tkinter` only, no new dependency,
+    no web server) opens one small control-panel window; nothing else opens until a button is clicked, and no
+    window auto-refreshes in the background (a Refresh button re-reads on demand instead). This is deliberate:
+    the point is a status check beside the Claude window, not a second place to actually study, and every window
+    says as much in its own footer text so it can't be mistaken for one. `gui.pyw` is wiring only — every button
+    calls straight into the same tested functions the CLI (`__main__.py`, `python -m toolkit <command>`) uses.
+  - **A real compiled `.exe` was considered and deliberately deferred, not ruled out.** PyInstaller can't
+    cross-build a Windows binary from this plugin's Linux build environment, so packaging one would be a step
+    the owner runs once, themselves, in a real Windows terminal (`pyinstaller --onefile --windowed gui.pyw`).
+    Writing `gui.pyw` stdlib-only keeps that option open with zero rework if it's ever wanted; the `.pyw`
+    double-click experience already delivers the actual ask (click, small native windows, no browser tab) without
+    needing it.
+  - **Deployment needed a real change to `bootstrap_scripts.py`, not just new files.** The existing bootstrap
+    only flat-copies `.py` files directly inside `scripts/` into `.tutor-scripts/` on every `/run` — it doesn't
+    walk subdirectories, so a Python *package* (`toolkit/__init__.py`, `toolkit/core.py`, ...) would have
+    silently never been deployed. `bootstrap()` now also detects any immediate subdirectory of the source that
+    contains an `__init__.py` and deploys it wholesale via `shutil.copytree`, replacing whatever's at the target
+    on a genuine version-gated update (never a partial merge of old and new package files) — same
+    fresh/updated/up-to-date/newer-than-bundle logic as every flat script, just extended to packages. The
+    manifest now also records `packages`.
+  - **Deliberately not done.** No network, no accounts, no new third-party dependency of any kind. No tool here
+    computes or overrides a mastery, confidence, or gate value. No retrofitting `export_cornell`/`session`/`diff`
+    — they were cut on their merits, not deferred as a backlog.
+  - **Tests.** `tests/test_toolkit.py` (32): `core.py`'s path resolution and schema-version classification
+    (current/older/newer/unreadable) against a fake, real-shaped `EDU_ROOT`; `backup`'s zip contents, its
+    own-exports exclusion, its side-log write, and clean failure on a missing learner; `health`'s schema-drift
+    and suspended-course flagging plus reading the deployed-scripts manifest; `progress`'s mastery summary and
+    open-error counting; `review_due`'s due/upcoming split and its guarantee of never writing to the deck;
+    `errors`' cause aggregation and open-only filtering; and five tests against `bootstrap_scripts.py`'s new
+    package-deployment path (fresh deploy, a non-package directory correctly ignored, a stale package file
+    correctly replaced wholesale on update, the manifest recording `packages`, and an up-to-date check leaving
+    a deployed package untouched). `gui.pyw` itself was smoke-tested manually (constructed under Xvfb with a
+    real `tkinter`, every window opened against fake data) since this test environment has no display and no
+    `tkinter`-dependent test belongs in a suite that must run headless in CI. Full suite 254 tests, OK.
