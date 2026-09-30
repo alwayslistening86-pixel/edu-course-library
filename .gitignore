@@ -1,7 +1,10 @@
-# Already-installed course zips, and built plugin release zips, duplicate what's under
-# courses/ and what's attached to each GitHub release — keep the repo text-focused
-_staging/*.zip
-_staging/installed/*.zip
+# 30 Sep 2026: courses/, _staging/, and _historic/ moved to the private
+# edu-courses-private repo (copyrighted exam-board-derived content has no
+# business in a public repo). Kept here on disk -- this is what the running
+# system actually reads from -- just no longer tracked by this repo's git.
+courses/
+_staging/
+_historic/
 *.plugin
 *.pyc
 __pycache__/

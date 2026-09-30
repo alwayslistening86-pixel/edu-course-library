@@ -14,11 +14,16 @@ This is a working personal project, not a published product. If you've
 ended up here by accident: welcome, feel free to look around, but see
 **License** below before reusing anything.
 
-## What's in this repo
+## What's in this repo (and what isn't, anymore)
+
+As of 30 Sep 2026, the actual course content — `courses/`, `_staging/`,
+`_historic/` — lives in a **private** companion repo, `edu-courses-private`,
+not here. It paraphrases copyrighted exam-board specifications and mark
+schemes, which has no good reason to sit in a public repo. This repo is now
+just the tutor engine: genuinely reusable code, MIT-licensed, with nothing
+copyright-sensitive in it.
 
 ```
-courses/            62 compiled courses — course.json, rubric.json, curriculum_map.json,
-                     stage-by-stage lesson/practice/test content, exam material
 plugin/generic-tutor/  Source for the generic-tutor Cowork plugin: the tutor engine itself
                      (skills, scripts, tests) — see its own README/DESIGN_NOTES.md
 .tutor-scripts/      Deployed runtime copy of plugin/generic-tutor/scripts/, kept in sync
@@ -26,9 +31,13 @@ plugin/generic-tutor/  Source for the generic-tutor Cowork plugin: the tutor eng
 .github/             CI: runs the plugin's test suite and validates every course's
                      structure/coverage on every push and pull request
 profile/             Per-learner progress (empty in this repo — see Privacy below)
-_staging/            Course zips awaiting install, and an archive of already-installed ones
-_historic/           Courses kept for reference, not offered for active study
 ```
+
+`courses/`, `_staging/`, and `_historic/` still exist locally on a real
+install (the plugin reads them straight off disk) — they're just no longer
+tracked by *this* repo's git, and their prior history has been removed from
+it too. See `edu-courses-private` (private; access on request) if you're
+me and need them.
 
 ## How it works
 
@@ -36,7 +45,8 @@ _historic/           Courses kept for reference, not offered for active study
    package it with `zip -r generic-tutor.plugin .` from inside that folder,
    or grab a packaged release from this repo's Releases page) into Claude
    Cowork.
-2. Connect this folder to a Cowork session ("Work in a folder").
+2. Connect a real course-library folder (containing `courses/` — from the
+   private repo, or your own) to a Cowork session ("Work in a folder").
 3. `/run <learner_id>` to start or resume a learner profile, then
    `/continue <course_id>` to teach, `/add-course` to compile a new one,
    `/list-courses`, `/review`, `/audit`, and so on — see the plugin's own
@@ -44,12 +54,12 @@ _historic/           Courses kept for reference, not offered for active study
 4. Optional: once installed, the toolkit lands at `.tutor-scripts/toolkit/`
    — see that folder's own README for how to use it.
 
-Course content is compiled from real, cited sources (exam board
-specifications, mark schemes, examiner reports) — every rubric entry
-carries a source. A per-item misconceptions layer (schema defined since
-v1.4.0, for common wrong-answer patterns with their own sourced
-corrections) exists but isn't seeded for any course yet — an open
-backlog item, not a claim made about current content.
+Course content (wherever it lives) is compiled from real, cited sources
+(exam board specifications, mark schemes, examiner reports) — every rubric
+entry carries a source. A per-item misconceptions layer (schema defined
+since v1.4.0, for common wrong-answer patterns with their own sourced
+corrections) exists but isn't seeded for any course yet — an open backlog
+item, not a claim made about current content.
 
 ## Privacy
 
@@ -61,12 +71,13 @@ in it at all.
 
 ## License
 
-Split, deliberately:
-- **Course content** (`courses/`, and anything under `profile/`) is
-  **all rights reserved** — see [`LICENSE`](LICENSE). It paraphrases
-  copyrighted exam-board material for personal study use and isn't offered
-  for reuse or redistribution.
-- **The plugin itself** (`plugin/generic-tutor/` — the tutor engine's code)
-  is **MIT-licensed** — see [`plugin/generic-tutor/LICENSE`](plugin/generic-tutor/LICENSE).
-  Genuinely reusable if you want to build your own course library on top of
-  the same engine.
+- **The plugin** (`plugin/generic-tutor/` — the tutor engine's code, the
+  only content-bearing thing left in this repo) is **MIT-licensed** — see
+  [`plugin/generic-tutor/LICENSE`](plugin/generic-tutor/LICENSE). Genuinely
+  reusable if you want to build your own course library on top of the same
+  engine.
+- **Course content** (`courses/`, and anything under `profile/`) was **all
+  rights reserved** here and now lives, under the same terms, in the
+  private `edu-courses-private` repo — it paraphrases copyrighted
+  exam-board material for personal study use and isn't offered for reuse or
+  redistribution.
