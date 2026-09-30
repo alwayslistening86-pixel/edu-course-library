@@ -713,3 +713,31 @@ a real behavioural addition every learner in a regulated-profession course benef
   checking whether `sqe1`/`sqe2`/`llb`/`cilex_level3_diploma`'s actual rubrics already
   reach this granularity (and improving them if not) is real course-content work, not a
   pedagogy-layer text change — left as a flagged idea, not actioned.
+
+## 30 Sep 2026 — uk-legal-mcp / govuk-mcp wired in as suggested connectors (v1.9.0)
+
+Following the round-4 review (uk-legal-mcp/govuk-mcp read and starred, both clean --
+see the earlier entry this same day), this makes them real, discoverable suggestions
+rather than just a roadmap note. Two changes:
+
+- **`connectors.md` rewritten** for the four legal courses (`sqe1`, `sqe2`,
+  `cilex_level3_diploma`, `llb`) -- each previously said "no relevant connector was
+  found in the searched registry," true at the time those courses were built, before
+  either server existed. Now each lists both, with status `suggested, not yet
+  connected` -- per `course-compiler`'s own connector rule ("never connect anything
+  without explicit permission"), this file records the suggestion; it does not flip a
+  course to actually using the connector. That flip is the learner's call, made when
+  they're actually running the course, the same as it would be for a connector
+  suggested at original build time.
+- **New `plugin/generic-tutor/.mcp.json`** at the plugin root, declaring both servers
+  (following the same `mcpServers` manifest shape `uk-agents/uk-legal-plugins` uses for
+  its own `law-student-uk` plugin) so they're actually offerable through whatever MCP
+  client the plugin is running in, rather than existing only as a paragraph in
+  `connectors.md` that nothing surfaces. This does not auto-connect anything --
+  approval still happens in the client, same as any MCP server.
+
+No script changes, no schema change. `sqe1`'s `connectors.md` previously noted "the
+SRA's own specification pages were fetched directly instead" -- that's still true for
+sourcing the syllabus itself; this addition is about grounding *citations used during
+teaching* (a case name, a neutral citation, a statute section), not resourcing the
+course build.
