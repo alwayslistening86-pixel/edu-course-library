@@ -1,18 +1,26 @@
 {
-  "plugin_version": "1.3.0",
+  "plugin_version": "1.6.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
     "cohort_status.py",
+    "confidence_update.py",
     "coverage_check.py",
+    "diagnostic_gate.py",
+    "error_log.py",
     "gate_check.py",
-    "mark_scheme_check.py",
+    "item_mastery.py",
     "migrate_schema.py",
+    "postcompile_gate.py",
     "prereq_check.py",
+    "remediation_state.py",
     "resume_enrollment.py",
     "review_math.py",
     "roster_check.py",
     "slot_advance.py",
     "validate_structure.py"
+  ],
+  "packages": [
+    "toolkit"
   ]
 }

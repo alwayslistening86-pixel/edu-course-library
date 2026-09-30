@@ -134,6 +134,7 @@ def validate(course_dir):
                 empty_source_entries.append(stage)
 
     v13 = _v13_problems(course, ladder, os.path.dirname(os.path.abspath(course_dir)))
+    misconceptions = _misconceptions_status(course_dir, ladder)
 
     clean = not (missing_files or orphaned_stage_dirs or missing_rubric_entries or empty_source_entries or rubric_issue or v13)
 
@@ -147,6 +148,7 @@ def validate(course_dir):
         "missing_rubric_entries": missing_rubric_entries,
         "empty_source_entries": empty_source_entries,
         "v13_problems": v13,
+        "misconceptions_status": misconceptions,
     }
 
 
@@ -216,6 +218,42 @@ def _v13_problems(course, ladder, courses_dir):
         if missing:
             problems["missing_prerequisite_courses"] = missing
     return problems
+
+
+def _misconceptions_status(course_dir, ladder):
+    """v1.4.0, non-blocking (never affects `clean`): misconceptions.json is new, optional content — a course
+    predating it, or one whose stages just haven't been backfilled yet, is not a validation failure. This
+    only reports what exists and whether what exists is well-formed, so course-auditor's coverage-style pass
+    has a starting point without re-deriving the shape check itself. Per-stage file: stages/<id>/misconceptions.json,
+    a list of 2-4 entries, each {"pattern", "correction", "source"} where source is a real citation or the
+    literal string "plausible, not board-documented" (see tutor-core adaptive-teaching-gap scoping note)."""
+    per_stage = {}
+    for stage in ladder:
+        p = os.path.join(course_dir, "stages", stage, "misconceptions.json")
+        if not os.path.isfile(p):
+            per_stage[stage] = {"present": False}
+            continue
+        data = _load_json(p)
+        if "__error__" in data:
+            per_stage[stage] = {"present": True, "well_formed": False, "problem": data["__error__"]}
+            continue
+        if not isinstance(data, list):
+            per_stage[stage] = {"present": True, "well_formed": False, "problem": "not a JSON list"}
+            continue
+        bad = [i for i, e in enumerate(data)
+               if not (isinstance(e, dict) and e.get("pattern") and e.get("correction") and e.get("source"))]
+        per_stage[stage] = {
+            "present": True,
+            "well_formed": not bad,
+            "entry_count": len(data),
+            "malformed_entry_indices": bad,
+        }
+    stages_with_file = sum(1 for v in per_stage.values() if v.get("present"))
+    return {
+        "stages_covered": stages_with_file,
+        "stages_total": len(ladder),
+        "per_stage": per_stage,
+    }
 
 
 def main():

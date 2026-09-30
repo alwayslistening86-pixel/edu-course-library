@@ -8,3 +8,6 @@ __pycache__/
 # Personal per-learner progress, once real learners exist here - never committed.
 # (access.json above this directory is a folder-access flag, not learner data, and stays tracked.)
 profile/*/
+
+# Local download landing spot for files Claude sends into the chat - not repo content.
+Claude outputs/

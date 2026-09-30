@@ -38,6 +38,17 @@ caller resolves wherever this install's real EDU folder lives (the
 existing connected-folder convention every other path in this plugin
 already relies on) and passes that resolved path in as target_dir.
 
+**(v1.6.0) Script PACKAGES, not just flat files.** The toolkit (a separate,
+optional, read-only client-side tool — see scripts/toolkit/README.md) ships
+as a real Python package (toolkit/__init__.py, toolkit/core.py, ...) rather
+than flat top-level scripts, so it needs its own directory tree deployed as
+a unit, not individual .py files. Any immediate subdirectory of source_dir
+that contains an __init__.py is treated as a package and deployed wholesale
+(shutil.copytree, replacing whatever's at the target on a genuine update -
+same version-gating as everything else here, never a partial/stale merge of
+old and new package files). A subdirectory without __init__.py is not a
+package and is ignored, same as any other non-.py entry in source_dir.
+
 Usage:
     python3 bootstrap_scripts.py <source scripts dir> <plugin.json path> <target .tutor-scripts dir>
 
@@ -82,8 +93,12 @@ def bootstrap(source_dir, plugin_json_path, target_dir):
     if not os.path.isdir(source_dir):
         return {"error": f"bundled scripts dir not found: {source_dir}"}
     shipped_files = sorted(f for f in os.listdir(source_dir) if f.endswith(".py"))
-    if not shipped_files:
-        return {"error": f"no .py files found in bundled scripts dir: {source_dir}"}
+    shipped_packages = sorted(
+        d for d in os.listdir(source_dir)
+        if os.path.isdir(os.path.join(source_dir, d)) and os.path.isfile(os.path.join(source_dir, d, "__init__.py"))
+    )
+    if not shipped_files and not shipped_packages:
+        return {"error": f"no .py files or packages found in bundled scripts dir: {source_dir}"}
 
     os.makedirs(target_dir, exist_ok=True)
     target_manifest_path = os.path.join(target_dir, MANIFEST_NAME)
@@ -96,8 +111,14 @@ def bootstrap(source_dir, plugin_json_path, target_dir):
         for fn in shipped_files:
             shutil.copy2(os.path.join(source_dir, fn), os.path.join(target_dir, fn))
             written.append(fn)
+        for pkg in shipped_packages:
+            dest = os.path.join(target_dir, pkg)
+            if os.path.isdir(dest):
+                shutil.rmtree(dest)
+            shutil.copytree(os.path.join(source_dir, pkg), dest, ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
+            written.append(pkg + "/")
         with open(target_manifest_path, "w", encoding="utf-8") as f:
-            json.dump({"plugin_version": running_version_str, "files": shipped_files}, f, indent=2)
+            json.dump({"plugin_version": running_version_str, "files": shipped_files, "packages": shipped_packages}, f, indent=2)
             f.write("\n")
         return written
 
