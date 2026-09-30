@@ -839,3 +839,80 @@ touched (`alevel_physics`, `alevel_chemistry`, `alevel_biology`, `alevel_mathema
 Biology and further Corbettmaths/ExamSolutions-style channels for A-level maths were not
 researched this pass; any course outside the eleven now touched across both passes
 (PhET/GeoGebra + video links) has neither.
+
+## 30 Sep 2026 — v1.10.0: SQLite history wired in for real, and a write-back trust gap closed
+
+Two things shipped together, deliberately, in response to a direct question: "we still
+technically live on a single assumption -- that the LM will always write back and not
+just say it did."
+
+**1. `schema_design.sql` finally wired in, and found to have been orphaned.** The
+five-table per-learner history schema (`error_events`, `item_mastery` +
+`item_mastery_log`, `review_cards` + `review_log`, `confidence_events`) existed only as a
+deployed file at `.tutor-scripts/schema_design.sql` on the runtime target -- it was never
+actually committed to this repo, despite the roadmap backlog calling it "designed,
+revised." New `scripts/sqlite_store.py` (~420 lines) creates and writes it for real, one
+`tutor.sqlite3` per learner, sitting alongside `subjects/`. JSON stays the live source of
+truth for *current* state, exactly as designed -- nothing here is ever read back into a
+teaching decision. It's purely additive history a human or a future `course-auditor` pass
+can query later ("is this item actually trending up", "how has this card's ease moved
+over a term") that a snapshot-only JSON file can't answer. Every write function is
+wrapped in a `_safe` decorator: a SQLite failure (disk full, lock, corruption) returns
+`{"ok": false, "error": ...}` and never raises, never blocks, never rolls back the JSON
+write, which stays authoritative. `error_log.py`'s `append`/`resolve` and
+`item_mastery.py`'s `observe` now call the matching `sqlite_store` function right after
+their existing `_save`, and surface the result under a new `"sqlite"` key in their
+returned JSON. `bootstrap_scripts.py` needed no change -- it already deploys any flat
+`.py` file in `scripts/`, version-gated, so `sqlite_store.py` is picked up automatically.
+A one-time `sqlite_store.py backfill <learner_dir>` migrates an existing learner folder,
+current-state tables only (`item_mastery`, `review_cards`) plus the full `error_events`
+list (already a durable list, not a snapshot) -- it deliberately does *not* fabricate
+synthetic rows into the three log/history tables, since that history was never actually
+recorded and inventing it would be dishonest.
+
+**2. The write-back trust gap, found by reading the actual source, not assumed.**
+Investigating where to hook `sqlite_store` in surfaced a real asymmetry: `error_log.py`
+and `item_mastery.py` have always owned their JSON writes outright (load, mutate, save,
+all in the same script). But `confidence_update.py` and `review_math.py` were pure
+calculators -- verified by reading both in full -- that never touched a file. Per their
+own docstrings and per `course-runner.md`/`review-scheduler.md`'s prose, persisting
+`confidence` and a review card's `interval_sessions`/`ease`/`lapses`/`due_at_slot` was
+**100% prose-trust**: the calling skill was merely instructed in markdown to "write the
+returned value back," with no code anywhere that performed or verified it. This is the
+literal, concrete instance of the question that prompted this work -- and it directly
+parallels this session's own earlier failures (an unpersisted roadmap edit, an unexecuted
+unstarring) that were claimed done but weren't.
+
+**The fix:** both scripts gained a new `apply` subcommand that performs the full
+read-modify-write itself, the same way `error_log.py`/`item_mastery.py` always have --
+`confidence_update.py apply <subjects.json> <event> <current_slot> [--misconception]` and
+`review_math.py apply <deck.json> <card_id> <current_slot> <correct>`. Each also logs to
+the matching `sqlite_store` table and returns `"written": true` plus the sqlite result.
+The old pure-calculator forms (`confidence_update.py compute <old_confidence> <event>`
+and `review_math.py`'s positional-args form) are unchanged and still exist, for testing
+and for any caller that genuinely wants the arithmetic only. `course-runner.md` and
+`review-scheduler.md` were updated to call `apply` instead of "write the returned value
+back" -- the field-ownership claim in `course-runner.md` ("`confidence` by
+`confidence_update.py` -- write only through those scripts") is now literally true rather
+than aspirational.
+
+**Honest limit of this fix, worth naming plainly rather than overclaiming:** this closes
+the gap for the two fields that were pure prose-trust -- once `apply` is called, the write
+happens in code, not by hand-copying a returned value. It does **not**, and structurally
+cannot, guarantee the model always *calls* `apply` in the first place during a live
+session instead of skipping the step or improvising. That residual risk -- an omitted
+tool call, not an unenforced one -- is a different, harder problem (closer to a runtime
+audit/verification layer than a script change) and is explicitly not solved here.
+
+**Tests.** New `tests/test_v1100.py`, 21 tests: `sqlite_store.py`'s db creation, every
+logging/upsert function, backfill's current-state-only guarantee, and that a forced
+failure returns `{"ok": false}` rather than raising; `error_log.py`/`item_mastery.py`'s
+new sqlite side effects; and `confidence_update.py apply`/`review_math.py apply`'s full
+read-modify-write-plus-log behaviour, including that `apply` and `compute` agree on the
+arithmetic for identical inputs. Full suite: 286 tests, 0 failures (265 pre-existing + 21
+new), run via `python3 -m unittest discover tests -v`.
+
+**Not done, deliberately held per instruction:** the PhET/GeoGebra/video-link course
+coverage from the two entries above this one is explicitly *not* being expanded further
+right now -- that's deferred to a future `course-auditor` pass rather than pursued
+alongside infra work.

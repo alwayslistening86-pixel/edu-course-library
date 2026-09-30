@@ -41,16 +41,16 @@ Lives alongside the course's own micro-profile, under the same learner-isolation
 - New card: `interval_sessions = 1`, `ease = 2.3`, `lapses = 0`, `due_at_slot` = the current slot + 1 (no script call needed for a brand-new card — there's nothing to compute yet).
 - Every subsequent update (correct or incorrect recall), for a card that already has a recorded `interval_sessions`/`ease`/`lapses`:
   ```
-  python3 /EDU/.tutor-scripts/review_math.py <old_interval_sessions> <old_ease> <old_lapses> <current_slot> <correct:true|false>
+  python3 /EDU/.tutor-scripts/review_math.py apply <deck.json> <card_id> <current_slot> <correct:true|false>
   ```
-  Write its output straight back into the card's `interval_sessions`, `ease`, `lapses`, and `due_at_slot` — don't hand-compute the growth factor, the ease floor, or the reset-to-1-on-miss rule; this is exactly the kind of small recurring arithmetic that's easy to quietly reimplement inconsistently across sessions, and the script is the one place it's decided.
+  **`apply` writes the four fields (`interval_sessions`, `ease`, `lapses`, `due_at_slot`) straight onto the card in the deck file itself** — this script owns the write, the same way `error_log.py`/`item_mastery.py` always have, so there's nothing left to hand-copy back. Don't hand-compute the growth factor, the ease floor, or the reset-to-1-on-miss rule; this is exactly the kind of small recurring arithmetic that's easy to quietly reimplement inconsistently across sessions, and the script is the one place it's decided. (The old positional `<old_interval> <old_ease> <old_lapses> <current_slot> <correct>` form still exists, pure arithmetic only, no file touched — for testing, not for live sessions.)
 - A card is "due" whenever `session_slot` has reached or passed `due_at_slot`.
 - The script guarantees a correct recall always lengthens the interval by at least one slot (a card can no longer get stuck at interval 1 after repeated lapses), and ease recovers slightly on each correct recall so a lapse is a setback, not a permanent penalty. Intervals are capped (30 sessions, `MAX_INTERVAL_SESSIONS` in the script) so a well-known card is still revisited within a term rather than drifting a year out.
 
 ## Running a review pass
 1. Gather every due card, across every deck belonging to courses currently eligible for slots (per `journey-planner`).
 2. Present them plainly, one at a time — right/wrong, brief explanation why, move on. This is retrieval practice, not a new teaching moment; don't re-lecture on a miss, just correct it and reschedule.
-3. For each card just reviewed, call `review_math.py` (above) with its prior state and the recall outcome, and write the four returned fields back onto the card.
+3. For each card just reviewed, call `review_math.py apply` (above) with its card_id and the recall outcome — it writes the four updated fields onto the card itself.
 4. A review pass never writes to `syllabus_status` or `confidence` — it's a different kind of signal from a graded stage test, and conflating the two would undermine the honesty of what a "pass" actually means elsewhere in this system. A recurring miss on the same card is exactly what `error_patterns` (owned by `course-runner`) is for; surface a genuinely recurring one there instead.
 
 ## What this skill does not do

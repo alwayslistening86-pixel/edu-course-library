@@ -32,16 +32,31 @@ This is the same shape of guarantee review_math.py's ease floor/ceiling
 gives that field — a lapse is a setback, not a cliff, and a strong streak
 approaches but never reaches certainty.
 
-Usage:
-    python3 confidence_update.py <old_confidence> <event: pass_clean|pass_remediated|fail> [--misconception]
+Usage (pure calculation, unchanged, still never touches a file):
+    python3 confidence_update.py compute <old_confidence> <event: pass_clean|pass_remediated|fail> [--misconception]
 
-Output: JSON to stdout with the new confidence value. This script never
-reads or writes a file — same as review_math.py, the caller (course-runner,
-at the point syllabus_status is written) reads the old value from
-subjects/<course_id>.json, calls this, and writes the returned value back.
+Usage (read-modify-write, added in v1.10.0 — closes the write-back trust
+gap named directly by the library owner: previously this script computed a
+value and *trusted* the calling skill's prose instruction to write it back,
+with no code ever checking that happened, unlike error_log.py/item_mastery.py
+which have always owned their own writes):
+    python3 confidence_update.py apply <subjects.json> <event: pass_clean|pass_remediated|fail> <current_slot> [--misconception]
+
+`apply` loads subjects.json, reads the current `confidence` field (default
+0.5 if absent — a fresh course with no graded events yet), calls the same
+`compute()` below, writes `confidence` back into the file itself, logs the
+event to sqlite_store's confidence_events history table, and returns the
+same shape as `compute()` plus `"written": true`. `course-runner.md` calls
+`apply`, not `compute` + a hand-written-back value, from this version on.
+The `compute` subcommand stays exactly as it was, for testing and for any
+caller that genuinely wants the arithmetic only.
 """
 import json
+import os
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sqlite_store  # noqa: E402
 
 BASE_DELTA = {
     "pass_clean": 0.15,
@@ -87,19 +102,76 @@ def compute(old_confidence, event, misconception=False):
     }
 
 
+def _load(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _save(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+def apply(subjects_path, event, current_slot, misconception=False):
+    """Read-modify-write: loads the current confidence, computes the new
+    value with compute(), writes it back into subjects.json, and logs the
+    event to sqlite_store. This is the script actually owning the write —
+    see the module docstring for why that matters."""
+    d = _load(subjects_path)
+    old_confidence = d.get("confidence", DEFAULT_CONFIDENCE)
+    result = compute(old_confidence, event, misconception)
+    d["confidence"] = result["new_confidence"]
+    _save(subjects_path, d)
+
+    total_delta = round(result["new_confidence"] - result["old_confidence"], 4)
+    sqlite_result = sqlite_store.log_confidence_event(
+        subjects_path, event, misconception, total_delta, result["new_confidence"], current_slot
+    )
+
+    result["written"] = True
+    result["sqlite"] = sqlite_result
+    return result
+
+
 def main():
     args = sys.argv[1:]
     misconception = "--misconception" in args
     args = [a for a in args if a != "--misconception"]
-    if len(args) != 2:
-        print(json.dumps({"error": "usage: confidence_update.py <old_confidence> <event: pass_clean|pass_remediated|fail> [--misconception]"}))
+
+    # Back-compat: no recognized subcommand as args[0] means the old
+    # positional form (<old_confidence> <event>), still supported as an
+    # implicit "compute".
+    if args and args[0] not in ("compute", "apply"):
+        args = ["compute"] + args
+
+    if not args:
+        print(json.dumps({"error": "usage: confidence_update.py compute <old_confidence> <event> [--misconception] | apply <subjects.json> <event> <current_slot> [--misconception]"}))
         sys.exit(2)
-    old_confidence, event = args
+
+    cmd = args[0]
     try:
-        result = compute(old_confidence, event, misconception)
+        if cmd == "compute":
+            if len(args) != 3:
+                print(json.dumps({"error": "usage: confidence_update.py compute <old_confidence> <event: pass_clean|pass_remediated|fail> [--misconception]"}))
+                sys.exit(2)
+            old_confidence, event = args[1], args[2]
+            result = compute(old_confidence, event, misconception)
+        elif cmd == "apply":
+            if len(args) != 4:
+                print(json.dumps({"error": "usage: confidence_update.py apply <subjects.json> <event: pass_clean|pass_remediated|fail> <current_slot> [--misconception]"}))
+                sys.exit(2)
+            subjects_path, event, current_slot = args[1], args[2], args[3]
+            result = apply(subjects_path, event, current_slot, misconception)
+        else:
+            print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected compute|apply"}))
+            sys.exit(2)
     except ValueError as e:
         print(json.dumps({"error": str(e)}))
         sys.exit(2)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
+        sys.exit(1)
     print(json.dumps(result, indent=2))
 
 
