@@ -26,3 +26,8 @@ Refractive index n = c/c_s. Snell's law n1 sin θ1 = n2 sin θ2. The critical an
 
 ## Explicitly not here
 Telescopes and resolving power are S19.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Wave Interference** (https://phet.colorado.edu/en/simulations/wave-interference) -- PhET sim -- vary two sources (water/sound/light) and see the interference pattern build up live; good for visualising path difference and coherent sources before the maths.

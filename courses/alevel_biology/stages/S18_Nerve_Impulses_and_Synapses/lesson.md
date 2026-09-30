@@ -18,3 +18,8 @@ A synapse: the presynaptic knob (with many mitochondria for ATP, synaptic vesicl
 
 ## Explicitly not here
 Muscle contraction is S19.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Neuron** (https://phet.colorado.edu/en/simulations/neuron) -- PhET sim -- stimulate a neuron and pause/rewind to watch ions cross the membrane during an action potential; direct visual for depolarisation/repolarisation and the refractory period.

@@ -42,3 +42,8 @@ Testing relationships: if y = Ae^(kx), then ln y = ln A + kx: plot ln y against 
 
 ## Explicitly not here
 Radioactive exponential decay is S18.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Capacitor Lab: Basics** (https://phet.colorado.edu/en/simulations/capacitor-lab-basics) -- PhET sim -- change plate area/separation/voltage and watch charge and field respond live, plus a discharging RC circuit; useful for the C = Q/V relationship and time-constant behaviour.

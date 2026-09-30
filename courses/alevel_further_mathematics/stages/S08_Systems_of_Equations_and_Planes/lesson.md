@@ -18,3 +18,8 @@ Three planes: unique solution: meet at a single point (det ≠ 0). det = 0 and c
 
 ## Explicitly not here
 Lines and planes in vector form are S09.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra 3D Calculator** (https://www.geogebra.org/3d) -- Plot two or three planes directly and see whether/where they intersect -- useful for the geometric picture behind a system's algebraic solution.

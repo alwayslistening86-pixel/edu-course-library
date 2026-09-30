@@ -19,3 +19,8 @@ Cube: 6 faces, 12 edges, 8 vertices. Cuboid: same counts, with opposite faces id
 
 #### 8.06b Plans and elevations
 The plan is the view from above; the front elevation is the view from the front; the side elevation is the view from the side. Draw what you see: hidden edges are not shown, and edges between faces of different depth are drawn as lines. A triangular prism lying on a rectangular face has a plan that is a rectangle, a front elevation that is a triangle and a side elevation that is a rectangle. Higher: given three views, build the solid from cubes and check each view.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra 3D Calculator** (https://www.geogebra.org/3d) -- Build and rotate 3D solids directly, useful for visualising cross-sections and nets before computing surface area/volume.

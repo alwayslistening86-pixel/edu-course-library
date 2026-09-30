@@ -42,3 +42,9 @@ Logarithms handle concentrations spanning orders of magnitude: pH = -log10[H+] a
 
 ## Explicitly not here
 Metal-aqua ions as acids are S19.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **pH Scale** (https://phet.colorado.edu/en/simulations/ph-scale) -- PhET sim -- test the pH of everyday substances and see concentration/dilution change pH directly.
+- **Acid-Base Solutions** (https://phet.colorado.edu/en/simulations/acid-base-solutions) -- PhET sim -- compare a strong and a weak acid of the same concentration side by side (pH, conductivity, % dissociation); direct visual for why a weak acid can share a pH with a more dilute strong acid.

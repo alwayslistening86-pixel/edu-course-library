@@ -47,3 +47,8 @@ Square: four equal sides and angles, diagonals equal and bisecting at 90 degrees
 
 #### 8.04c Symmetry of polygons
 A line of symmetry is a mirror line; the order of rotational symmetry is the number of times a shape looks the same in one full turn. A regular n-gon has n lines and rotational order n. A rectangle has 2 lines and order 2. A parallelogram has no lines and order 2. A kite has 1 line and order 1. A rhombus has 2 lines and order 2.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Geometry** (https://www.geogebra.org/geometry) -- Construct polygons and measure angles directly -- useful for checking an angle-sum or exterior-angle argument against an actual constructed shape.

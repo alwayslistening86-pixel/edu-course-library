@@ -42,3 +42,8 @@ A transformer: an alternating current in the primary coil creates a changing flu
 
 ## Explicitly not here
 Nuclear radiation is S18.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Faraday's Law** (https://phet.colorado.edu/en/simulations/faradays-law) -- PhET sim -- move a magnet through a coil at different speeds and see induced current and bulb brightness respond; direct visual for Faraday's and Lenz's laws.

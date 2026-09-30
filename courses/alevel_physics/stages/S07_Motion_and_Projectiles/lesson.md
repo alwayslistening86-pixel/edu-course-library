@@ -34,3 +34,8 @@ Average rate of change = total change / total time (the gradient of the chord); 
 
 ## Explicitly not here
 Newton's laws are S08.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Projectile Motion** (https://phet.colorado.edu/en/simulations/projectile-motion) -- PhET sim -- fire a projectile at a chosen angle/speed and see the trajectory, range and time of flight update live; useful for checking a worked answer against the actual motion.

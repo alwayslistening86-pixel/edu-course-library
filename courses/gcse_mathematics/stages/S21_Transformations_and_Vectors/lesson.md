@@ -31,3 +31,8 @@ A vector has magnitude and direction. On a grid, a vector from A to B is written
 
 #### 9.03a Vector arithmetic and proofs
 Higher only. Add vectors by adding components, subtract by subtracting, and multiply by a scalar by scaling each component. In a diagram, AB = -a + b if OA = a and OB = b (go from A back to O, then to B). The midpoint M of AB has OM = a + 1/2 (b - a) = 1/2 (a + b). Two vectors are parallel if one is a scalar multiple of the other, so if OP = 3a + 6b and OQ = a + 2b then OP = 3 OQ, so O, P and Q are on a straight line. Write vector paths carefully, going from one point to another by known vectors.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Geometry** (https://www.geogebra.org/geometry) -- Apply a reflection/rotation/translation/enlargement to a shape directly and see the image update live, as a check against a hand-drawn transformation.

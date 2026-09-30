@@ -42,3 +42,8 @@ Position r, velocity v and acceleration a are vectors. For constant velocity, r 
 
 ## Explicitly not here
 Vector kinematics with acceleration is S28.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra 3D Calculator** (https://www.geogebra.org/3d) -- Plot 3D vectors, lines and their sums/differences directly and rotate the view, useful for building spatial intuition before working purely algebraically.

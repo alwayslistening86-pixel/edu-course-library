@@ -27,3 +27,8 @@ Higher only. Parallel lines have equal gradients. Perpendicular lines have gradi
 
 #### 6.03d Approximate solutions from graphs
 To solve an equation using a graph, draw the graph of one side and read where it meets the other. Solving x^2 - 2x - 1 = 0 means reading where y = x^2 - 2x - 1 crosses y = 0 (the x-axis); solving x^2 - 2x - 1 = 2 needs the line y = 2. Two graphs' intersection points solve the corresponding simultaneous equations. Read values to a sensible accuracy, usually 1 decimal place, and give x-values only when the question asks for solutions of an equation in x.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Graphing Calculator** (https://www.geogebra.org/graphing) -- Plot a line from its equation and drag points on it to see gradient and intercept directly.

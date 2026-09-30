@@ -26,3 +26,8 @@ Solve equations: if 36% of a population shows the dominant phenotype, q^2 = 0.64
 
 ## Explicitly not here
 Populations in ecosystems are S23.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Natural Selection** (https://phet.colorado.edu/en/simulations/natural-selection) -- PhET sim -- run a population through generations under a chosen selection pressure and watch allele frequencies shift; useful for seeing selection act on a population over time rather than as a one-line definition.

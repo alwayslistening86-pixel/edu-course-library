@@ -30,3 +30,8 @@ For a circular orbit, gravity provides the centripetal force: GMm/r^2 = mv^2/r, 
 
 ## Explicitly not here
 Electric fields are S15; black holes and escape speed at c are S20.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Gravity and Orbits** (https://phet.colorado.edu/en/simulations/gravity-and-orbits) -- PhET sim -- vary mass and starting velocity for the Sun/Earth/Moon/space station system and watch the resulting orbit; useful for the qualitative feel of an inverse-square field before the equations.

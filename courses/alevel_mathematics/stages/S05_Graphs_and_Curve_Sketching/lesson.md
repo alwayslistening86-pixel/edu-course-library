@@ -34,3 +34,8 @@ y ∝ x means y = kx (a straight line through the origin); y ∝ x^2 means y = k
 
 ## Explicitly not here
 Transformations of graphs are S06.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Graphing Calculator** (https://www.geogebra.org/graphing) -- Type in any function and see it plotted instantly, with sliders for parameters -- useful for checking a hand-sketched curve (intercepts, turning points, asymptotes) against the real graph.

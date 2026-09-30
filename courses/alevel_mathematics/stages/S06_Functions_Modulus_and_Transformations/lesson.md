@@ -42,3 +42,8 @@ A function can model a real situation: state the variables and units, choose the
 
 ## Explicitly not here
 Trigonometric and exponential functions are S11-S14.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Graphing Calculator** (https://www.geogebra.org/graphing) -- Plot f(x) alongside a transformed version (a slider for the transformation constant) to see the effect on the graph directly, rather than only reasoning about it algebraically.

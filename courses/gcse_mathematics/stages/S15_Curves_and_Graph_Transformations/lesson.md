@@ -27,3 +27,8 @@ x^2 + y^2 = r^2 is a circle with centre (0, 0) and radius r. x^2 + y^2 = 25 has 
 
 #### 7.03a Translations and reflections of graphs
 Starting from y = f(x): y = f(x) + a translates the graph up by a; y = f(x + a) translates it left by a (opposite to the sign); y = -f(x) reflects it in the x-axis; y = f(-x) reflects it in the y-axis. From y = x^2, the graph y = (x - 2)^2 + 1 has its turning point at (2, 1). Describe a transformation by naming the type and giving the vector or the mirror line.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Graphing Calculator** (https://www.geogebra.org/graphing) -- Plot a curve alongside a transformed version with a slider on the transformation constant, to see the effect directly rather than only reasoning about it.

@@ -30,3 +30,8 @@ Choose the distribution from the context and justify it: binomial for a count of
 
 ## Explicitly not here
 Hypothesis tests are S26.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Classic (Probability Calculator)** (https://www.geogebra.org/classic) -- Its built-in Probability Calculator tool lets you set a normal distribution's mean/SD and shade/read off a probability directly -- a live check against a hand-calculated or table-based answer.

@@ -18,3 +18,8 @@ mRNA: a single strand, codons, made in transcription; tRNA: a single strand fold
 
 ## Explicitly not here
 Mutations are S12 and S24.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Gene Expression Essentials** (https://phet.colorado.edu/en/simulations/gene-expression-essentials) -- PhET sim -- run transcription and translation inside a simplified cell and watch protein being built; useful for the process as a sequence of steps rather than a static diagram.

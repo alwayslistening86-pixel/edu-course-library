@@ -34,3 +34,8 @@ Substitute the line's parametric coordinates into the plane's equation and solve
 
 ## Explicitly not here
 The vector product and distances are S10.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra 3D Calculator** (https://www.geogebra.org/3d) -- Plot a line and a plane together and see the angle or intersection point directly, as a spatial check against a hand-calculated vector answer.

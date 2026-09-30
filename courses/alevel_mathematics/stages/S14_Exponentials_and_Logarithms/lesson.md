@@ -46,3 +46,8 @@ Growth: N = N0 e^(kt), k > 0; decay: k < 0. *Example:* a culture of 500 bacteria
 
 ## Explicitly not here
 Differentiating and integrating exponentials are S16 and S18.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Graphing Calculator** (https://www.geogebra.org/graphing) -- Plot exponential and log functions together with sliders on the base/rate to see the relationship between a function and its inverse graphically.

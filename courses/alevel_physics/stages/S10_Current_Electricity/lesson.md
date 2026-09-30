@@ -26,3 +26,8 @@ R = ρL/A, where ρ is the resistivity (Ω m). *Example:* 2.5 m of constantan (�
 
 ## Explicitly not here
 Circuits are S11.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Circuit Construction Kit: DC** (https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc) -- PhET sim -- build a real circuit (battery, resistors, bulbs, ammeter/voltmeter) and read current/voltage directly; good for series vs parallel intuition before Kirchhoff's laws.

@@ -46,3 +46,8 @@ Represent 3D molecules in 2D: wedge (towards you), dashed (away) and plain (in t
 
 ## Explicitly not here
 Shapes of complex ions are S18.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Molecule Shapes** (https://phet.colorado.edu/en/simulations/molecule-shapes) -- PhET sim -- build real and model molecules in 3D and see how electron-pair repulsion (VSEPR) determines shape; good for the step from 2D dot-and-cross diagrams to actual 3D geometry.

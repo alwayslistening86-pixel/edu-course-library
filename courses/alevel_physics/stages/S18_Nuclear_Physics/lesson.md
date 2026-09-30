@@ -50,3 +50,8 @@ Probability: each nucleus has the same chance of decaying in a given time, indep
 
 ## Explicitly not here
 Stellar fusion and supernovae are S20.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Alpha Decay** (https://phet.colorado.edu/en/simulations/alpha-decay) -- PhET sim -- watch random alpha decay events from a nucleus and the resulting half-life curve build up; useful for the genuinely random, not deterministic, nature of individual decay events.

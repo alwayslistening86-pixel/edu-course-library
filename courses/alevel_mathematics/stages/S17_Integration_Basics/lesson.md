@@ -26,3 +26,8 @@ The area between y = f(x), the x-axis and x = a, x = b is ∫ (a to b) f(x) dx w
 
 ## Explicitly not here
 Areas between two curves and harder integration are S18.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Graphing Calculator** (https://www.geogebra.org/graphing) -- Use the built-in integral tool to shade the area under a curve between two limits and see the numerical value computed directly, as a check against a hand-calculated definite integral.

@@ -22,3 +22,8 @@ Electric potential V at a point is the work done per unit positive charge in bri
 
 ## Explicitly not here
 Capacitors are S16; magnetic forces on moving charges are S17.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Charges and Fields** (https://phet.colorado.edu/en/simulations/charges-and-fields) -- PhET sim -- place charges and plot the resulting field lines and equipotentials directly; a natural visual companion to the gravitational-field analogy already drawn in this stage.

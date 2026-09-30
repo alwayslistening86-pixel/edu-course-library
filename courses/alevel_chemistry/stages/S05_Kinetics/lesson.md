@@ -38,3 +38,8 @@ For a curve of concentration (or volume of gas) against time, the rate at a mome
 
 ## Explicitly not here
 Rate equations and orders are S14.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Reactions & Rates** (https://phet.colorado.edu/en/simulations/reactions-and-rates) -- PhET sim -- collide molecules and vary concentration/temperature to see how collision frequency and successful-collision proportion change; direct visual for collision theory and why raising temperature increases rate.

@@ -26,3 +26,8 @@ Solve equations for unknown equilibrium amounts, including quadratics. *Example:
 
 ## Explicitly not here
 Kp for gases is S15.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Reversible Reactions** (https://phet.colorado.edu/en/simulations/reversible-reactions) -- PhET sim -- watch forward and reverse reaction rates equalise over time as a system reaches dynamic equilibrium; useful for the idea that equilibrium is dynamic, not static.

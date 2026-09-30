@@ -741,3 +741,52 @@ SRA's own specification pages were fetched directly instead" -- that's still tru
 sourcing the syllabus itself; this addition is about grounding *citations used during
 teaching* (a case name, a neutral citation, a statute section), not resourcing the
 course build.
+
+## 30 Sep 2026 — PhET/GeoGebra links added to 29 stages across 6 courses (course content, no version bump)
+
+The other flagged "Open next steps" item: `alevel_physics`/`alevel_chemistry`/`alevel_biology`
+each declared practical/apparatus work "out of scope," and `alevel_mathematics`/
+`alevel_further_mathematics`/`gcse_mathematics` had no visual/interactive component at all.
+PhET (MIT, explicitly free for educational use) and GeoGebra (GPL, UK-curriculum-standard)
+were starred earlier this session as the fix; this makes it real.
+
+**What was done.** Every PhET sim and GeoGebra app referenced was individually verified with
+`WebFetch` against its real, canonical URL before being added anywhere -- not assumed from a
+sim's name or a search result. 8 PhET sims for physics (Wave Interference, Projectile Motion,
+Circuit Construction Kit: DC, Gravity and Orbits, Charges and Fields, Capacitor Lab: Basics,
+Faraday's Law, Alpha Decay), 5 for chemistry (Molecule Shapes, Reactions & Rates, Reversible
+Reactions, pH Scale, Acid-Base Solutions), 3 for biology (Gene Expression Essentials, Neuron,
+Natural Selection), and GeoGebra's own stable apps (Graphing Calculator, Geometry, 3D
+Calculator, Classic's Probability Calculator) for maths -- each matched to a specific stage
+whose actual content it visualises (e.g. Wave Interference on S05's interference/diffraction
+content specifically, not stationary waves in S04; Faraday's Law on the induction stage, not
+static fields). 29 stage `lesson.md` files across `alevel_physics`, `alevel_chemistry`,
+`alevel_biology`, `alevel_mathematics`, `alevel_further_mathematics`, and `gcse_mathematics`
+each got one new `## Further resources (optional)` section appended, listing the matched
+resource(s) with a one-line note on what it actually lets a learner do differently (drag a
+point, run a collision, rotate a solid) -- not a generic "here's a sim" link.
+
+**Link, not embed.** These are markdown lesson files read by the tutor during a live session,
+not rendered web pages -- there is no embedding mechanism to decide between. A link is the
+same mechanism already used for citations and sources elsewhere in this library.
+
+**Deliberately optional, deliberately not graded.** Every section says plainly that nothing in
+it is required to pass the stage and that it isn't part of the syllabus content itself --
+consistent with `tutor-core`'s coverage-honesty rule (a lesson's real content is what's taught
+and testable; supplementary visualisation is exactly that, supplementary). No `coverage_check.py`
+item is claimed to be taught by a resource link; `covers_items` on these stages is unchanged.
+
+**Not a course-content build in the "new course" sense** -- no new stages, no schema change, no
+version bump (this is existing stages gaining an optional pointer, the same class of change as
+a `connectors.md` edit, not new taught material) -- so it ships as a plain commit against
+`courses/`, not a plugin release.
+
+`validate_structure.py` run against all six touched courses after the edit: 0 problems.
+
+**Not done, left for a future pass if it's ever wanted:** the remaining stages in these six
+courses that don't have as clean a sim/applet match (e.g. `alevel_physics`'s S12 circular
+motion/SHM, S19-21 astrophysics -- PhET has relevant sims but none were verified this pass);
+any course outside these six; GeoGebra's own curated per-topic "Materials" library (only the
+four generic, always-available apps were used, since verifying individual community-submitted
+Materials pages one by one for correctness is a much bigger and lower-confidence task than
+verifying PhET's own maintained sims).

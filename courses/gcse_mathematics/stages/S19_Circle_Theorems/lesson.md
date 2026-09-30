@@ -39,3 +39,8 @@ The angle between a tangent and a chord at the point of contact is equal to the 
 
 #### 8.05h Opposite angles of a cyclic quadrilateral
 The opposite angles of a quadrilateral with all four vertices on a circle sum to 180 degrees. If one angle is 105 degrees, the opposite angle is 75 degrees. An exterior angle of a cyclic quadrilateral equals the interior opposite angle. Use it in multi-step problems with other angle facts and always name the theorem.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted tools -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GeoGebra Geometry** (https://www.geogebra.org/geometry) -- Construct a circle with chords/tangents and drag points around it while a theorem visibly holds for every position -- a strong way to see why a circle theorem is always true, not just true for one diagram.
