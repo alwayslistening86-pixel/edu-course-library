@@ -1,4 +1,4 @@
-# generic-tutor toolkit (v1.6.0)
+# generic-tutor toolkit (v1.7.0)
 
 A small, optional, read-only companion to the tutor, meant to run on your
 own machine without opening a Claude session at all. It never teaches,
@@ -27,8 +27,8 @@ second place to actually study.
 
 **Command line:** from inside `.tutor-scripts/`, run
 `python -m toolkit <command> <learner_id> [options]`. Commands: `backup`,
-`health`, `progress`, `review-due`, `errors`. Add `--help`-style usage by
-running a command with no arguments.
+`health`, `progress`, `review-due`, `errors`, `export-anki`. Add
+`--help`-style usage by running a command with no arguments.
 
 ## What it can do
 
@@ -48,6 +48,16 @@ running a command with no arguments.
   session.
 - **Errors** — the error log, grouped by cause and by course. Never
   re-diagnoses anything; only aggregates what's already been classified.
+- **Export to Anki** — writes a real `.apkg` file from your review deck(s),
+  one Anki sub-deck per course, importable straight into the actual Anki
+  app (desktop or mobile), so you can review on your phone with Anki's own
+  scheduler if you want to. This is content portability, not a scheduling
+  sync: Anki gets its own copy of the cards and schedules them itself from
+  scratch, independent of this system's own spaced-repetition state, which
+  is untouched either way. Needs `genanki` installed once
+  (`pip install genanki`) — every other tool on this page works with no
+  install at all; this is the one exception, and it fails with a plain
+  install instruction rather than breaking anything else if it's missing.
 
 ## What it will never do
 

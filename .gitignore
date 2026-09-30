@@ -1,6 +1,8 @@
-# Already-installed course zips duplicate what's under courses/ — keep the repo text-focused
+# Already-installed course zips, and built plugin release zips, duplicate what's under
+# courses/ and what's attached to each GitHub release — keep the repo text-focused
 _staging/*.zip
 _staging/installed/*.zip
+*.plugin
 *.pyc
 __pycache__/
 .DS_Store

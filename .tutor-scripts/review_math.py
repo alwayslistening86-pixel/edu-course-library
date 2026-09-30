@@ -36,15 +36,36 @@ grading judgment (free-text recall vs. a card's back), left entirely to the
 model per review-scheduler.md. It only takes the correct/incorrect verdict
 already reached and applies the arithmetic that follows from it.
 
-Usage:
+Usage (pure calculation, unchanged, still never touches a file):
     python3 review_math.py <old_interval_sessions> <old_ease> <old_lapses> \
         <current_slot> <correct: true|false>
+
+Usage (read-modify-write, added in v1.10.0 — closes the write-back trust
+gap named directly by the library owner: previously this script computed
+new card fields and *trusted* the calling skill's prose instruction to
+write them back onto the card, with no code ever checking that happened):
+    python3 review_math.py apply <deck.json> <card_id> <current_slot> <correct: true|false>
+
+`apply` loads the `*_review_deck.json` file, finds the card by `id` in its
+`cards` list, calls the same `compute()` below using that card's current
+interval_sessions/ease/lapses, writes the four returned fields back onto
+the card object in place, saves the file, logs the pass and the card's new
+state to sqlite_store's review_log/review_cards tables, and returns the
+same shape as `compute()` plus `"written": true`. `review-scheduler.md`
+calls `apply`, not "write its output straight back onto the card," from
+this version on. The positional-args `compute`/`main()` form stays exactly
+as it was, for testing and for any caller that genuinely wants the
+arithmetic only.
 
 Output: JSON to stdout with the new card fields.
 """
 import json
 import math
+import os
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sqlite_store  # noqa: E402
 
 
 EASE_DEFAULT = 2.3
@@ -85,11 +106,72 @@ def compute(old_interval, old_ease, old_lapses, current_slot, correct):
     }
 
 
+def _load(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _save(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+def apply(deck_path, card_id, current_slot, correct):
+    """Read-modify-write: loads the deck, finds the card, computes the new
+    fields with compute(), writes them back onto the card, saves the file,
+    and logs both the pass and the card's new state to sqlite_store. This
+    is the script actually owning the write — see the module docstring."""
+    d = _load(deck_path)
+    cards = d.get("cards", [])
+    card = next((c for c in cards if isinstance(c, dict) and c.get("id") == card_id), None)
+    if card is None:
+        return {"error": f"card_id {card_id!r} not found in {deck_path}"}
+
+    old_interval = card.get("interval_sessions", 1)
+    old_ease = card.get("ease", EASE_DEFAULT)
+    old_lapses = card.get("lapses", 0)
+
+    result = compute(old_interval, old_ease, old_lapses, current_slot, correct)
+
+    card["interval_sessions"] = result["interval_sessions"]
+    card["ease"] = result["ease"]
+    card["lapses"] = result["lapses"]
+    card["due_at_slot"] = result["due_at_slot"]
+    _save(deck_path, d)
+
+    log_result = sqlite_store.log_review_pass(
+        deck_path, card_id, correct, int(old_interval), result["interval_sessions"],
+        float(old_ease), result["ease"], current_slot,
+    )
+    upsert_result = sqlite_store.upsert_review_card(deck_path, card)
+
+    result["card_id"] = card_id
+    result["written"] = True
+    result["sqlite"] = {"log_review_pass": log_result, "upsert_review_card": upsert_result}
+    return result
+
+
 def main():
-    if len(sys.argv) != 6:
-        print(json.dumps({"error": "usage: review_math.py <old_interval> <old_ease> <old_lapses> <current_slot> <correct:true|false>"}))
+    args = sys.argv[1:]
+    if args and args[0] == "apply":
+        if len(args) != 5:
+            print(json.dumps({"error": "usage: review_math.py apply <deck.json> <card_id> <current_slot> <correct:true|false>"}))
+            sys.exit(2)
+        deck_path, card_id, current_slot, correct_s = args[1:5]
+        correct = correct_s.strip().lower() == "true"
+        try:
+            result = apply(deck_path, card_id, current_slot, correct)
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
+            sys.exit(1)
+        print(json.dumps(result, indent=2))
+        return
+
+    if len(args) != 5:
+        print(json.dumps({"error": "usage: review_math.py <old_interval> <old_ease> <old_lapses> <current_slot> <correct:true|false> | apply <deck.json> <card_id> <current_slot> <correct:true|false>"}))
         sys.exit(2)
-    old_interval, old_ease, old_lapses, current_slot, correct_s = sys.argv[1:6]
+    old_interval, old_ease, old_lapses, current_slot, correct_s = args
     correct = correct_s.strip().lower() == "true"
     result = compute(old_interval, old_ease, old_lapses, current_slot, correct)
     print(json.dumps(result, indent=2))

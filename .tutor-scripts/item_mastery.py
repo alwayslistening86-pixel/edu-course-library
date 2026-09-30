@@ -74,7 +74,11 @@ Output: JSON to stdout. `observe` writes the subjects file back in place;
 `status` is read-only.
 """
 import json
+import os
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sqlite_store  # noqa: E402
 
 P_INIT = 0.3
 P_TRANSIT = 0.15
@@ -123,6 +127,9 @@ def observe(subjects_path, item_id, correct, current_slot):
         "last_correct": bool(correct),
     }
     _save(subjects_path, d)
+    sqlite_result = sqlite_store.log_item_mastery_observation(
+        subjects_path, item_id, correct, prior, posterior, new_p, current_slot
+    )
 
     return {
         "item_id": item_id,
@@ -131,6 +138,7 @@ def observe(subjects_path, item_id, correct, current_slot):
         "new_p_mastery": round(new_p, 4),
         "observations": observations,
         "params": {"p_init": P_INIT, "p_transit": P_TRANSIT, "p_slip": P_SLIP, "p_guess": P_GUESS},
+        "sqlite": sqlite_result,
     }
 
 
