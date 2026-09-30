@@ -23,3 +23,8 @@ Mutually exclusive events cannot happen together, so P(A or B) = P(A) + P(B). Th
 
 #### 11.02f Independent and dependent events; conditional probability
 Independent events do not affect each other, so P(A and B) = P(A) x P(B) (successive coin flips). Dependent events change the probabilities on later branches: a bag of 3 red and 2 blue counters, taking two without replacement, has P(red, red) = 3/5 x 2/4 = 3/10, and on the second pick the denominator has reduced. Conditional probability is a probability given that something has happened: P(B given A) = P(A and B) / P(A). In a Venn diagram, the probability of being in S given that you are in F is 5/18 (5 of the 18 in F). Higher only.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Tree Diagrams - Corbettmaths** (https://www.youtube.com/watch?v=kNOrDWm15bY) -- Builds a probability tree diagram step by step, including the with/without-replacement distinction this stage covers.

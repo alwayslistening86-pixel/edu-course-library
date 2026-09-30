@@ -30,3 +30,8 @@ Metals consist of giant structures of atoms arranged in layers. The outer electr
 
 ## Explicitly not here
 Properties of substances follow in the next stage.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Chemistry Revision "Ionic Bonding 1: Ionic Bonding between Group 1 and Group 7" (Freesciencelessons)** (https://www.youtube.com/watch?v=XbDtmORzKO8) -- Walks through electron transfer between a Group 1 and Group 7 atom step by step -- useful alongside the dot-and-cross diagrams above.

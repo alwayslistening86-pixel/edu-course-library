@@ -18,3 +18,8 @@ returns, in order: Diya (90), Amara (82), Chen (67) -- Ben and Ewan are excluded
 
 ## Explicitly not here
 This is the last databases stage; S29 covers the wider ethical, legal and environmental impacts of digital technology.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **AQA GCSE (8525) SLR14 - 3.7 Use of SQL to search (Craig'n'Dave)** (https://www.youtube.com/watch?v=woK70tWDybw) -- Board-matched to AQA 8525. Builds up SELECT/WHERE queries step by step against a worked table.

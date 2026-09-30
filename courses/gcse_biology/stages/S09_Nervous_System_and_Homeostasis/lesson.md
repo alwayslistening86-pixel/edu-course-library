@@ -34,3 +34,9 @@ Plan and carry out an investigation into the effect of a factor on human reactio
 
 ## Explicitly not here
 Hormonal control and plant hormones are in the next two stages.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Biology Revision "The Nervous System" (Freesciencelessons)** (https://www.youtube.com/watch?v=oDS1hAqWp2M) -- Covers the reflex arc and nervous system structure with diagrams, step by step.
+- **GCSE Biology Revision "Homeostasis" (Freesciencelessons)** (https://www.youtube.com/watch?v=S45_3wWL-Xk) -- Covers negative feedback and homeostasis generally, as a companion to the nervous-system-specific video above.

@@ -30,3 +30,8 @@ In equations, the total mass number and total atomic number must balance. Alpha 
 
 ## Explicitly not here
 Half-life, contamination, uses of radiation and fission follow next.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Physics Revision "Half Life" (Freesciencelessons)** (https://www.youtube.com/watch?v=wj9BzGFao8k) -- A clear worked-example walkthrough of half-life calculations and decay curves -- useful alongside the worked examples above, in video form.

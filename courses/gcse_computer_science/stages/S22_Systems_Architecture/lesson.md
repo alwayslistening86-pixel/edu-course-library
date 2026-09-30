@@ -14,3 +14,8 @@ The **CPU (Central Processing Unit)** carries out (executes) a program's instruc
 
 ## Explicitly not here
 This is the last computer-systems stage; S23 begins computer networks.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **AQA GCSE (8525) SLR1 - 3.4 Von Neumann architecture (Craig'n'Dave)** (https://www.youtube.com/watch?v=ak8QIifsiho) -- Board-matched to AQA 8525. Walks through the CPU/memory/bus model with diagrams, in the same terms the AQA spec uses.

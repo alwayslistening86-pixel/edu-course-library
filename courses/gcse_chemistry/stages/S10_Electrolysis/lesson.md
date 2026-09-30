@@ -34,3 +34,8 @@ Investigate what happens when aqueous solutions are electrolysed with inert (gra
 
 ## Explicitly not here
 Energy changes in reactions and cells follow next.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Chemistry Revision "Introducing Electrolysis" (Freesciencelessons)** (https://www.youtube.com/watch?v=AhTRiL6xjBA) -- Introduces electrolysis of molten ionic compounds with diagrams of the electrode processes -- a good first pass before the aqueous-solution complications.

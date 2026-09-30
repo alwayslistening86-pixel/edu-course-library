@@ -42,3 +42,8 @@ Linnaeus classified organisms into kingdom, phylum, class, order, family, genus 
 
 ## Explicitly not here
 Genetic technologies were in the previous stage and ecology follows.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Biology Revision "Evolution by Natural Selection" (Freesciencelessons)** (https://www.youtube.com/watch?v=7RraYCKvTXc) -- Walks through the logic of natural selection with worked examples -- useful for seeing the argument laid out step by step, spoken aloud.

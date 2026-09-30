@@ -14,3 +14,8 @@ A **logic gate** is a circuit that takes one or more binary (0/1, i.e. False/Tru
 
 ## Explicitly not here
 Software classification is S19; how instructions like these are actually written and translated for a real computer is S21.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **AQA GCSE (8525) SLR11 - 3.4 Truth tables (Craig'n'Dave)** (https://www.youtube.com/watch?v=ElCMxOKNJUw) -- Board-matched to AQA 8525. Builds truth tables for AND/OR/NOT step by step -- useful for checking a hand-built truth table against a worked one.

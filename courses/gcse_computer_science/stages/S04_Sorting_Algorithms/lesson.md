@@ -14,3 +14,8 @@ Ask the learner to sort five playing cards into order by repeatedly swapping nei
 
 ## Explicitly not here
 This is the last algorithms stage; S05 begins programming.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **AQA GCSE (8525) SLR7 - 3.1 Bubble sort (Craig'n'Dave)** (https://www.youtube.com/watch?v=vy_domkFPxw) -- Board-matched to this course's AQA 8525 specification. Traces bubble sort through a worked array step by step, mirroring how it should be traced on paper for the exam.

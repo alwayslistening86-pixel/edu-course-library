@@ -34,3 +34,8 @@ An alternating current in the coil of a loudspeaker interacts with the field of 
 
 ## Explicitly not here
 Induction and transformers follow next.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Physics Revision "Permanent and Induced Magnets" (Freesciencelessons)** (https://www.youtube.com/watch?v=sRyy7-jEu3Q) -- Explains the permanent-vs-induced magnet distinction and field-line diagrams with worked descriptions.

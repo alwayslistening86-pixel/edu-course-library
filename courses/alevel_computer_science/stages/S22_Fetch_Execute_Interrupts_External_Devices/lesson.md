@@ -22,3 +22,9 @@ An **interrupt** is a signal (from hardware, e.g. a keypress, or software, e.g. 
 
 ## Explicitly not here
 This is the last computer-organisation-and-architecture stage; S23 covers the social/ethical/legal consequences of computing.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **AQA A-Level Fetch decode execute cycle (Craig'n'Dave)** (https://www.youtube.com/watch?v=yyHFI5juppA) -- Board-matched to this course's AQA 7517 specification. Walks the fetch-decode-execute cycle through register transfers step by step.
+- **AQA A-Level Interrupts (Craig'n'Dave)** (https://www.youtube.com/watch?v=PCYI1o592dQ) -- Board-matched to AQA 7517. Covers how an interrupt is serviced within the fetch-execute cycle, as a direct follow-on from the video above.

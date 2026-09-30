@@ -790,3 +790,52 @@ any course outside these six; GeoGebra's own curated per-topic "Materials" libra
 four generic, always-available apps were used, since verifying individual community-submitted
 Materials pages one by one for correctness is a much bigger and lower-confidence task than
 verifying PhET's own maintained sims).
+
+## 30 Sep 2026 — curated UK-channel video links added to 17 stages across 6 courses (course content, no version bump)
+
+Closes the third and last of this session's three flagged build ideas. Follows directly
+from the `Curriculum-Engine` review earlier in the session: that repo's live-YouTube-
+search-and-rank mechanism was declined as the wrong shape for this library, but the
+underlying need (a spoken/visual explanation for topics that benefit from one) and the
+right mechanism (named, reputable channels, hand-picked per stage, exactly like every
+other source in this library) were kept as an open item. This does that.
+
+**Verification method.** Every candidate video was found via `WebSearch` restricted to
+`youtube.com`, then verified with YouTube's `oembed` endpoint
+(`https://www.youtube.com/oembed?url=...&format=json`), which returns the real title and
+`author_name` for a given video id without needing to scrape the full watch page (which
+rate-limited/blocked `WebFetch` directly with 429s). A video was only used once its
+`author_name` matched the intended channel (Freesciencelessons, Craig'n'Dave, or
+corbettmaths) -- this is the same discipline applied to the PhET/GeoGebra links two
+entries above: never assume a URL or title, verify against the source itself.
+
+**Board-matching mattered for computer science.** `gcse_computer_science` is AQA 8525
+and `alevel_computer_science` is AQA 7517 (checked against each course's own
+`course.json`, not assumed) -- Craig'n'Dave publishes separate video series per exam
+board with different terminology and spec numbering, so the AQA-specific videos were
+used throughout, not the OCR J277 ones that surface just as readily in search (both were
+found and verified; the OCR ones were discarded once the board mismatch was caught).
+
+**What was added.** 17 stage `lesson.md` files across `gcse_physics` (Half Life,
+Properties of Waves, Permanent and Induced Magnets), `gcse_chemistry` (Ionic Bonding,
+Introducing Electrolysis, Reversible Reactions), `gcse_biology` (Digestive Enzymes, The
+Nervous System + Homeostasis, Evolution by Natural Selection), `gcse_computer_science`
+(AQA Bubble sort, Truth tables, Von Neumann architecture, SQL), `alevel_computer_science`
+(AQA Fetch-decode-execute cycle + Interrupts, Functional programming list operations),
+and `gcse_mathematics` (Surds, Tree Diagrams) -- all Freesciencelessons/Craig'n'Dave/
+Corbettmaths, all board-matched where a board applies. Two stages (`gcse_mathematics`'s
+S05 and S27) had no PhET/GeoGebra link from the earlier pass, so this is their first
+`## Further resources (optional)` section; the others are new sections on stages the
+earlier pass didn't touch (no course/stage overlaps between the two passes).
+
+**Same rules as the PhET/GeoGebra pass:** linked, not embedded; explicitly optional and
+ungraded; no `coverage_check.py` claim changed; plain commit against `courses/`, no
+schema change, no plugin version bump. `validate_structure.py`: 0 problems across all six
+touched courses.
+
+**Not done, left open if ever wanted:** the other three courses PhET/GeoGebra already
+touched (`alevel_physics`, `alevel_chemistry`, `alevel_biology`, `alevel_mathematics`,
+`alevel_further_mathematics`) have no video links yet -- Cognito Chemistry/Cognito
+Biology and further Corbettmaths/ExamSolutions-style channels for A-level maths were not
+researched this pass; any course outside the eleven now touched across both passes
+(PhET/GeoGebra + video links) has neither.

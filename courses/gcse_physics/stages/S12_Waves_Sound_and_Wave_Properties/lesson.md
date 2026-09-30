@@ -34,3 +34,8 @@ Make observations to identify suitable apparatus to measure the frequency, wavel
 
 ## Explicitly not here
 Electromagnetic waves and radiation follow next.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Physics Revision "Properties of Waves" (Freesciencelessons)** (https://www.youtube.com/watch?v=ITe6snlZBp8) -- Covers amplitude, wavelength, frequency and the wave equation with diagrams -- a good visual companion to the definitions above.

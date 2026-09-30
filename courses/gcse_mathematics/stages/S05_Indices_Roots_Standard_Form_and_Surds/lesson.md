@@ -35,3 +35,8 @@ When a question asks for an exact answer, leave results as fractions, in terms o
 
 #### 3.03b Simplifying surds and rationalising denominators
 Simplify by pulling out square factors: sqrt(72) = sqrt(36 x 2) = 6 sqrt(2). Multiply: sqrt(a) x sqrt(b) = sqrt(ab); sqrt(a) x sqrt(a) = a. Expand brackets: (2 + sqrt(3))(2 - sqrt(3)) = 4 - 3 = 1 (a difference of two squares, so the surds vanish). To rationalise a denominator, multiply top and bottom by the surd: 6 / sqrt(3) = 6 sqrt(3) / 3 = 2 sqrt(3). For a denominator like 1 / (3 + sqrt(2)), multiply top and bottom by the conjugate (3 - sqrt(2)) to give (3 - sqrt(2)) / 7.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **Surds - Corbettmaths** (https://www.youtube.com/watch?v=ndU_cCbPAm4) -- Works through simplifying and manipulating surds with several worked examples, step by step.

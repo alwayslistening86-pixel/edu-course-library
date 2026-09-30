@@ -26,3 +26,8 @@ Investigate the effect of pH on the rate of reaction of amylase. Mix amylase, st
 
 ## Explicitly not here
 Cell transport (previous stage) and circulation (next stage).
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Biology Revision "Digestive Enzymes" (Freesciencelessons)** (https://www.youtube.com/watch?v=ypHpbHfDJsA) -- Covers the three main digestive enzymes, what they break down, and where they act -- a clear spoken walkthrough alongside the diagrams above.

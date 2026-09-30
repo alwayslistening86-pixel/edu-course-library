@@ -38,3 +38,8 @@ Pressure changes affect only reactions involving gases. Increasing pressure shif
 
 ## Explicitly not here
 The Haber process application is later in using resources.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **GCSE Chemistry Revision "Reversible Reactions" (Freesciencelessons)** (https://www.youtube.com/watch?v=66qcNNJFy6E) -- Explains reversible reactions and dynamic equilibrium with worked examples -- pairs well with the Reversible Reactions PhET sim already linked in this course where relevant.

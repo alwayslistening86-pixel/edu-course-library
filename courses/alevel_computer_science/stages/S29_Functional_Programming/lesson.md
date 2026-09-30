@@ -22,3 +22,8 @@ In functional programming, a **list** is often represented as the combination of
 
 ## Explicitly not here
 This is the last stage; the cumulative exam covers every stage from S01 onward.
+
+## Further resources (optional)
+
+These are optional, hand-picked, externally hosted resources -- not part of the syllabus content above, not graded, and not embedded in this file. Nothing here is required to pass the stage.
+- **AQA A-Level List operations in functional programming (Craig'n'Dave)** (https://www.youtube.com/watch?v=Qs2IhjO1pkM) -- Board-matched to AQA 7517. Walks through map/filter/fold-style list operations with worked examples, in the functional style AQA's spec expects.
