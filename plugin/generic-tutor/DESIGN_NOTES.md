@@ -111,6 +111,8 @@ scope, and none of it made it into the revised design. Still just a design refer
 `profile/` holds close to no real usage data yet, so there is no urgency and no
 migration has been scheduled.
 
+Separately: cross-checked item_mastery.py's update equations against CAHLR/pyBKT (github.com/CAHLR/pyBKT), the standard peer-reviewed Python BKT reference implementation. They match the standard Corbett & Anderson formulation exactly. No change made; this is an external correctness check, not a new finding.
+
 ## Version history
 - **v0.3.0** — original upload: profile-kernel, course-compiler, course-runner,
   tutor-core. Per-learner course copies, no roster/level gating, no convergence,
