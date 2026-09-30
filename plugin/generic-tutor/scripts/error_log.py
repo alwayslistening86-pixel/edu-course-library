@@ -79,6 +79,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
+import sqlite_store  # noqa: E402
 
 CAUSES = ("slip", "missing_prerequisite", "misconception", "misapplied_procedure", "comprehension")
 
@@ -130,6 +131,7 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
     }
     entries.append(entry)
     _save(subjects_path, d)
+    sqlite_result = sqlite_store.log_error_event(subjects_path, entry)
 
     unresolved_same_pair = sum(
         1 for e in entries
@@ -147,6 +149,7 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         "unresolved_same_item_and_cause": unresolved_same_pair,
         "unresolved_same_cause_in_stage": cause_count_in_stage,
         "item_mastery": mastery_result,
+        "sqlite": sqlite_result,
     }
 
 
@@ -169,15 +172,18 @@ def resolve(subjects_path, item_id, current_slot, cause_filter="ANY"):
         resolved_ids.append(e["id"])
 
     mastery_result = None
+    sqlite_result = None
     if resolved_ids:
         _save(subjects_path, d)
         mastery_result = item_mastery.observe(subjects_path, item_id, True, current_slot)
+        sqlite_result = sqlite_store.resolve_error_events(subjects_path, resolved_ids, current_slot)
     return {
         "action": "resolved",
         "item_id": item_id,
         "entries_resolved": resolved_ids,
         "count": len(resolved_ids),
         "item_mastery": mastery_result,
+        "sqlite": sqlite_result,
     }
 
 
