@@ -21,10 +21,13 @@ courses/            62 compiled courses — course.json, rubric.json, curriculum
                      stage-by-stage lesson/practice/test content, exam material
 plugin/generic-tutor/  Source for the generic-tutor Cowork plugin: the tutor engine itself
                      (skills, scripts, tests) — see its own README/DESIGN_NOTES.md
+.tutor-scripts/      Deployed runtime copy of plugin/generic-tutor/scripts/, kept in sync
+                     by bootstrap_scripts.py — what actually runs against a real install
+.github/             CI: runs the plugin's test suite and validates every course's
+                     structure/coverage on every push and pull request
 profile/             Per-learner progress (empty in this repo — see Privacy below)
 _staging/            Course zips awaiting install, and an archive of already-installed ones
 _historic/           Courses kept for reference, not offered for active study
-_archive/            Retired/superseded material
 ```
 
 ## How it works
@@ -42,9 +45,11 @@ _archive/            Retired/superseded material
    — see that folder's own README for how to use it.
 
 Course content is compiled from real, cited sources (exam board
-specifications, mark schemes, examiner reports) — every rubric entry and,
-from v1.4.0, every documented misconception carries a source, or is
-explicitly marked as unsourced rather than presented as if it were.
+specifications, mark schemes, examiner reports) — every rubric entry
+carries a source. A per-item misconceptions layer (schema defined since
+v1.4.0, for common wrong-answer patterns with their own sourced
+corrections) exists but isn't seeded for any course yet — an open
+backlog item, not a claim made about current content.
 
 ## Privacy
 

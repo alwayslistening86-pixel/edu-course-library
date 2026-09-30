@@ -55,8 +55,12 @@ the course, at no cost to the learner's roster capacity, with the learner free t
 it indefinitely or discard it with no trace at all.
 
 ## Deliberately not included
-- **Guardian-oversight** — this is a private, non-distributed plugin; that concern
-  doesn't apply here and was cut rather than built speculatively.
+- **Guardian-oversight** — this is a single-user, self-hosted tool: nobody else's
+  account, roster, or child is using this instance. The engine's code is public and
+  MIT-licensed (as of the CI work in this repo), but that's not the same as a
+  multi-tenant deployment with unknown users, which is the scenario guardian-oversight
+  controls exist for; that concern doesn't apply here and was cut rather than built
+  speculatively.
 - **A calendar/reminder integration** — would need real dates, which the slot-based
   model deliberately avoids everywhere.
 
