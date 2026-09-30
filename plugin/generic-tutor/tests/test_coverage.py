@@ -239,7 +239,24 @@ class GateCheckCoverageBlockTests(CourseCase):
         g = self.gate()
         self.assertTrue(g["can_proceed"])
         self.assertEqual(g["coverage"]["effective_status"], "full")
+        self.assertEqual(g["coverage"]["items_excluded"], 0)
         self.assertFalse(g["coverage"]["disclose_to_learner"])
+
+    def test_full_with_declared_exclusions_still_discloses(self):
+        # v1.11.0 fix: 'full' only because some items were declared out of scope (e.g. an
+        # unselected exam-board option) must still tell the learner something was left out --
+        # this was the exact gap a real course (174/298 items taught, 124 excluded, computed
+        # 'full') fell into before this fix, with disclose_to_learner silently False.
+        cm = self.cmap()
+        cm["S1"]["covers_items"] = ["1.01a"]
+        cm["_declared_exclusions"] = [{"id": "1.01b", "reason": "higher tier only; course is foundation"}]
+        self.build(cmap=cm)
+        c = self.gate()["coverage"]
+        self.assertEqual(c["effective_status"], "full")
+        self.assertEqual(c["items_excluded"], 1)
+        self.assertTrue(c["disclose_to_learner"])
+        self.assertIn("out of scope", c["detail"])
+        self.assertEqual(c["excluded_items"], {"1.01b": "higher tier only; course is foundation"})
 
     def test_unitemised_v2_course_must_be_disclosed_but_stays_teachable(self):
         _w(self.cpath, {"schema_version": 2, "stage_ladder": ["S1", "S2"], "folder_access": {"status": "isolated_confirmed"},

@@ -987,3 +987,48 @@ residual as v1.10.0's own write-back fix -- nothing forces the model to actually
 passed. The write, once triggered, is now guaranteed correct; whether it gets triggered
 at all stays a trust question, same as it does for every other `apply` script in this
 plugin.
+
+## 30 Sep 2026 — v1.12.0: disclose coverage exclusions even when status is "full"
+
+A second review finding, independently re-verified: `gate_check.py`'s coverage block set
+`disclose_to_learner = (effective_status != "full")`, so a course whose `computed_status`
+was `"full"` never disclosed anything to the learner -- but `coverage_check.py` can mark a
+course `"full"` purely because every uncovered item was declared out of scope with a
+reason (e.g. an exam-board option the learner didn't select), not because every item is
+actually taught. Checked against the real course library: `alevel_further_mathematics`
+(174/298 items taught, 124 declared-excluded), `alevel_physics` (140/216), and
+`alevel_sociology` (41/71) all show `coverage_status: "full"` for exactly this reason, and
+under the old logic the learner was never told anything had been left out of scope at all.
+
+Declared, reasoned exclusions are legitimate -- that's what makes "full" a meaningful
+status for a course deliberately scoped to selected options, and `coverage_check.py`'s own
+logic for counting them as "handled" isn't wrong. The bug was entirely in what
+`disclose_to_learner` did with that information: it conflated "coverage_check.py found no
+problem" with "the learner needs no disclosure," when those are different questions.
+
+**Fix, in `gate_check.py._coverage_block`:** `disclose_to_learner` is now
+`effective_status != "full" or items_excluded > 0`. When `effective_status` is `full` and
+`items_excluded` is nonzero, `detail` is rewritten to say so explicitly ("declared coverage
+of the SELECTED scope, not automatically the whole specification"), and the block now
+always carries `items_excluded` and `excluded_items` (id -> reason) alongside the existing
+`items_total`/`items_taught`/`uncovered_items`, so the caller can name exactly what and why
+without a second lookup.
+
+`course-runner.md`'s disclosure paragraph updated to a third line variant for this case
+("this course covers the full specification for the selected scope -- N of M items are
+taught; K items are explicitly out of scope"), and its "never say the whole specification
+is covered" rule now requires `effective_status == "full"` **and** `items_excluded == 0`,
+not `effective_status == "full"` alone.
+
+**Tests.** `test_coverage.py` gained `test_full_with_declared_exclusions_still_discloses`
+(full + exclusions still sets `disclose_to_learner`, `detail` mentions the exclusion, and
+`excluded_items` carries the reason); the existing `test_full_and_full_means_no_disclosure`
+now also asserts `items_excluded == 0` for that zero-exclusion case, so the two tests
+together pin both sides of the fix. Full suite: 296 tests, 0 failures.
+
+**What this doesn't fix:** whether `_declared_exclusions` themselves are honest is still
+entirely a content-authoring question -- `coverage_check.py` only checks that an exclusion
+names a real item and gives a non-empty reason, never that the reason is true or that the
+item is genuinely out of the learner's selected scope. That's a `course-auditor` Tier 3
+question (matching declared exclusions against the live specification), not something a
+structural check can catch.

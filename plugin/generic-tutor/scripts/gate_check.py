@@ -229,25 +229,47 @@ COVERAGE_DETAIL = {
 
 
 def _coverage_block(course_json_path):
-    """Non-blocking disclosure (v1.2.0). Computed from the files, not trusted from the stored field: the stored
-    coverage_status is only what the last audit wrote, and a stale 'full' must not silence the disclosure."""
+    """Non-blocking disclosure (v1.2.0; exclusion disclosure added v1.11.0). Computed from the files, not trusted
+    from the stored field: the stored coverage_status is only what the last audit wrote, and a stale 'full' must
+    not silence the disclosure.
+
+    v1.11.0 fix: 'full' used to suppress disclosure outright, even when that 'full' only holds because some items
+    were declared out of scope (e.g. exam-board options the learner didn't select) - a real course could show
+    174/298 items taught, 124 excluded, computed_status 'full', and disclose_to_learner False, so the learner was
+    never told anything was left out. Declared-and-reasoned exclusions are legitimate (that's what makes 'full'
+    meaningful for a course scoped to selected options), but the learner still needs to be told the scope was
+    narrowed and what was narrowed out - disclosure is about whether something is being withheld from them, not
+    only about whether coverage_check.py found a problem."""
     course = _load_json(course_json_path)
     declared = course.get("coverage_status") if isinstance(course, dict) else None
     cc = coverage_check.check(os.path.dirname(os.path.abspath(course_json_path)))
     computed = cc.get("computed_status", "unverified")
     effective = "full" if (declared == "full" and computed == "full") else (
         "partial" if "partial" in (declared, computed) else "unverified")
+    items_excluded = cc.get("items_excluded") or 0 if cc.get("items_declared") else 0
+
+    detail = COVERAGE_DETAIL[effective]
+    if effective == "full" and items_excluded:
+        detail = (
+            f"every itemised specification item is taught, or is one of {items_excluded} item"
+            f"{'s' if items_excluded != 1 else ''} explicitly declared out of scope with a reason (e.g. an "
+            "unselected option) - this is declared coverage of the SELECTED scope, not automatically the whole "
+            "specification; see excluded_items for what and why"
+        )
+
     block = {
         "declared_status": declared,
         "computed_status": computed,
         "effective_status": effective,
-        "disclose_to_learner": effective != "full",
-        "detail": COVERAGE_DETAIL[effective],
+        "disclose_to_learner": effective != "full" or bool(items_excluded),
+        "detail": detail,
     }
     if cc.get("items_declared"):
         block["items_total"] = cc.get("items_total")
         block["items_taught"] = cc.get("items_taught")
+        block["items_excluded"] = items_excluded
         block["uncovered_items"] = cc.get("uncovered_items")
+        block["excluded_items"] = cc.get("declared_exclusions")
     return block
 
 
