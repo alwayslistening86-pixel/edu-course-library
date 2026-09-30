@@ -916,3 +916,70 @@ new), run via `python3 -m unittest discover tests -v`.
 coverage from the two entries above this one is explicitly *not* being expanded further
 right now -- that's deferred to a future `course-auditor` pass rather than pursued
 alongside infra work.
+
+## 30 Sep 2026 — v1.11.0: fixed the passed/not_passed bug, and closed the syllabus_status/current_stage write-back gap
+
+Prompted by an independent code review (external Copilot-based review, then independently
+re-verified line-by-line rather than trusted): every one of 1253 `stages/<id>/test.md` files
+told the model how to record a stage's result, and 445 of them said "Record `passed` or
+`not_passed`... into this course's micro-profile" -- but `syllabus_status` has only ever
+meant `"pass"`/`"fail"`/`"unsat"`/`"withheld"`. Every script that reads it
+(`cohort_status.py`, `gate_check.py`, `apply_capabilities.py`, `coverage_check.py`,
+`resume_enrollment.py`) checks the literal string `"pass"`, and `course-runner.md` itself
+has always said `"pass"`/`"fail"`. A model that followed the content file literally and
+wrote `"passed"` would silently strand the stage forever -- never counted as passed, the
+course never completes, its cohort never converges, and any level gated behind it never
+unlocks, with no error anywhere to surface it.
+
+Verified the finding myself before acting on it rather than trusting the review's own
+count: grepped the actual sentence patterns across all 1253 files. Confirmed exactly 3
+patterns (445 broken, 696 + 112 already correct vocabulary) -- the review's own "445"
+figure was exactly right.
+
+**The deeper finding, which the review also named and which matters more than the typo
+itself: no script had ever owned this write at all**, correct vocabulary or not. All
+1253 files -- including the 808 that already said `pass`/`fail` correctly -- only ever
+told the model to "record the pass" or similar prose, with zero code enforcing it. This
+is the exact write-back-trust gap v1.10.0 closed for `confidence` and review-card fields,
+except here it's the field that actually gates cohort convergence and the level ledger --
+arguably the single most consequential unenforced write in the whole system.
+
+**The fix, in the same shape as v1.10.0's `apply` subcommands:** new
+`scripts/record_stage_result.py`, with one job: `apply(subjects_path, course_path,
+stage_id, result)` sets `syllabus_status[stage_id]`, and on a genuine pass walks
+`course.json`'s `stage_ladder` to find the next stage that isn't `withheld`, sets
+`current_stage` to it, and resets `current_phase` to `"lesson"`. On fail, it only
+records the result -- `current_stage` is untouched, since remediation happens within
+the same stage. It never grades anything and never decides *whether* a test passed --
+that judgment stays entirely with the model, same division of labour as every other
+`apply` script.
+
+**Migrated all 1253 `test.md` files mechanically**, not by hand: a one-time script
+(`_staging/migrate_test_md.py`, not part of the shipped plugin) replaced each of the 3
+known "record the result" sentences with a plain instruction to give a note, and
+inserted a new `## Recording the result` block (calling `record_stage_result.py apply`
+with that stage's own id) immediately before the `## If not passed` heading -- renamed
+`## If fail` for vocabulary consistency -- which existed verbatim in all 1253 files, so
+the insertion point needed no per-file judgment. Verified: 1253 changed, 0 unmatched,
+0 missing the heading. `_template/stages/S1/test.md` updated the same way so every
+future `/add-course` compile gets this by default. `validate_structure.py`: 0 problems
+across all 62 courses after the migration.
+
+`course-runner.md` updated to call `record_stage_result.py apply` instead of "record the
+result into syllabus_status" left as an unenforced instruction, and the field-ownership
+sentence now lists `syllabus_status`/`current_stage` alongside `confidence` and the other
+script-owned fields.
+
+**Tests.** New `tests/test_v1110.py`, 9 tests: pass advances to the next non-withheld
+stage and resets phase; fail records the result without touching stage/phase; withheld
+stages are correctly skipped, including when every remaining stage is withheld; an
+unknown stage_id or an invalid result value (including the literal old bug value,
+`"passed"`) is rejected rather than silently no-op'd; a re-pass after an earlier fail
+still advances. Full suite: 295 tests, 0 failures (286 pre-existing + 9 new).
+
+**What this doesn't fix, named plainly rather than left implicit:** exactly the same
+residual as v1.10.0's own write-back fix -- nothing forces the model to actually call
+`record_stage_result.py apply` instead of skipping it and just telling the learner they
+passed. The write, once triggered, is now guaranteed correct; whether it gets triggered
+at all stays a trust question, same as it does for every other `apply` script in this
+plugin.

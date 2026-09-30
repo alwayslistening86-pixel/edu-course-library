@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.10.0",
+  "plugin_version": "1.11.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
@@ -13,6 +13,7 @@
     "migrate_schema.py",
     "postcompile_gate.py",
     "prereq_check.py",
+    "record_stage_result.py",
     "remediation_state.py",
     "resume_enrollment.py",
     "review_math.py",
