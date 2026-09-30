@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "uk-legal": {
+      "type": "http",
+      "url": "https://uk-legal-mcp.fly.dev/mcp",
+      "title": "UK Legal",
+      "description": "UK case law (TNA Find Case Law), legislation (legislation.gov.uk), Hansard, Bills, Parliamentary Votes, Committees, HMRC guidance, and OSCOLA citation parsing. Suggested for sqe1, sqe2, cilex_level3_diploma, and llb -- see each course's connectors.md. Not auto-connected; approve it in your own MCP client to use it."
+    },
+    "govuk": {
+      "type": "http",
+      "url": "https://govuk-mcp.fly.dev/mcp",
+      "title": "GOV.UK",
+      "description": "GOV.UK content, guidance, organisations, and SRA/BSB regulatory material. Companion to uk-legal above. Suggested for sqe1, sqe2, cilex_level3_diploma, and llb -- see each course's connectors.md. Not auto-connected; approve it in your own MCP client to use it."
+    }
+  }
+}
