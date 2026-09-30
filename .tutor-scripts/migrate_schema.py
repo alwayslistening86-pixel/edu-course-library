@@ -53,6 +53,21 @@ subjects/<course_id>.json migration (schema_version 1 -> 2 -> 3):
     valid syllabus_status value (no data change). A standalone course's enrolment gets
     cohort_id "standalone:<course_id>" (a mechanical fact, not a level).
 
+subjects/<course_id>.json 3 -> 4 (1.4.0, the tutor-core adaptive layer), mechanical only:
+  - error_patterns -> added as [] if absent. Owned from here on by error_log.py; this migration only
+    guarantees the field exists in the shape that script expects, never invents an entry.
+  - confidence -> added as 0.5 (confidence_update.py's DEFAULT_CONFIDENCE) if absent. 0.5 states
+    "genuinely unknown, no graded event yet" — never a guess at how the learner is actually doing;
+    the first real pass or fail moves it from there.
+  - remediation -> added as {} if absent. Owned by remediation_state.py; an empty object means no
+    stage has ever needed remediation, not that remediation is unavailable.
+
+subjects/<course_id>.json 4 -> 5 (1.5.0, per-item BKT mastery), mechanical only:
+  - item_mastery -> added as {} if absent. Owned from here on by item_mastery.py; an empty object
+    means no item has an observation yet (every `status` lookup already treats a missing key as
+    "prior only", so this is purely making the field's presence match what that script expects on
+    an older file, the same reasoning as error_patterns above).
+
 Usage:
     python3 migrate_schema.py course <course.json path>
     python3 migrate_schema.py subject <subjects.json path> <matching course.json path>
@@ -65,7 +80,8 @@ import os
 import sys
 
 COURSE_SCHEMA_VERSION = 4
-SUBJECT_SCHEMA_VERSION = 3
+SUBJECT_SCHEMA_VERSION = 5
+SUBJECT_DEFAULT_CONFIDENCE = 0.5
 
 
 def _load(path):
@@ -198,6 +214,22 @@ def migrate_subject(subj_path, course_path):
     if "notices_acknowledged" not in d:
         d["notices_acknowledged"] = []
         changed_fields.append("notices_acknowledged: added as []")
+
+    if "error_patterns" not in d:
+        d["error_patterns"] = []
+        changed_fields.append("error_patterns: added as []")
+
+    if "confidence" not in d:
+        d["confidence"] = SUBJECT_DEFAULT_CONFIDENCE
+        changed_fields.append(f"confidence: added as {SUBJECT_DEFAULT_CONFIDENCE} (unknown, not a guess)")
+
+    if "remediation" not in d:
+        d["remediation"] = {}
+        changed_fields.append("remediation: added as {}")
+
+    if "item_mastery" not in d:
+        d["item_mastery"] = {}
+        changed_fields.append("item_mastery: added as {}")
 
     if "cohort_id" not in d or d.get("cohort_id") is None:
         academic_level = course.get("academic_level")
