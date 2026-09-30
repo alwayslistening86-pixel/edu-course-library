@@ -5,11 +5,15 @@ on:
     branches: [main]
     paths:
       - "plugin/generic-tutor/**"
+      - "courses/**"
       - ".github/workflows/plugin-tests.yml"
+      - ".github/scripts/validate_courses.py"
   pull_request:
     paths:
       - "plugin/generic-tutor/**"
+      - "courses/**"
       - ".github/workflows/plugin-tests.yml"
+      - ".github/scripts/validate_courses.py"
   workflow_dispatch: {}
 
 jobs:
@@ -32,3 +36,22 @@ jobs:
       # `python3 -m unittest discover tests -v` does on the actual device.
       - name: Run full test suite
         run: python3 -m unittest discover tests -v
+
+  validate-courses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Structural validation of the real courses/ content, not just the
+      # plugin's own tempdir-based unit tests. Runs validate_structure.py and
+      # coverage_check.py (both stdlib-only, no deps) against every course
+      # under courses/*/ and fails if any course reports a problem -- catches
+      # exactly the class of gap that let a courses/-only content change (a
+      # 1253-file migration across all 62 courses) ship with zero CI signal
+      # before this job existed.
+      - name: Validate every course's structure and coverage
+        run: python3 .github/scripts/validate_courses.py .
