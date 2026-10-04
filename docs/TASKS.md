@@ -355,6 +355,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | V-05 | ✅ done | 8 injected faults all detected; clean sessions produce no findings |
 | V-06 | ✅ done | profile-kernel `/run` audits the previous session and reports without back-filling |
 | V-08 | ✅ done | `invariants.py` (not yet wired into a `/doctor` command — P-13) |
+| P-13 | ✅ done | `doctor.py` + `/doctor` (v1.20.0) |
+| C-06 | ✅ done | `status.py` + `/status` |
+| C-07 | ✅ done | `/help`; docs-lint enforces that every command is listed |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

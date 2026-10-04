@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.19.0",
+  "plugin_version": "1.20.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
@@ -7,6 +7,7 @@
     "confidence_update.py",
     "coverage_check.py",
     "diagnostic_gate.py",
+    "doctor.py",
     "erase_profile.py",
     "error_log.py",
     "export_profile.py",
@@ -24,6 +25,7 @@
     "roster_check.py",
     "slot_advance.py",
     "sqlite_store.py",
+    "status.py",
     "validate_schema.py",
     "validate_structure.py",
     "verify_session.py"

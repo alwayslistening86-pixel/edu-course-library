@@ -1,0 +1,103 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "status.py",
+        "{L}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "consent": "granted",
+        "courses": [
+          {
+            "complete": false,
+            "confidence": 0.5,
+            "course_id": "design",
+            "coverage_status": "full",
+            "current_phase": "practice",
+            "current_stage": "S2",
+            "due_reviews": 0,
+            "grounding_status": "verified",
+            "level": 2,
+            "name": "Course design",
+            "roster_state": "dropped",
+            "stages_passed": 1,
+            "stages_total": 2,
+            "standalone": false,
+            "theory_only": false,
+            "unresolved_errors": 0
+          },
+          {
+            "complete": false,
+            "confidence": 0.5,
+            "course_id": "mathA",
+            "coverage_status": "full",
+            "current_phase": "practice",
+            "current_stage": "S2",
+            "due_reviews": 1,
+            "grounding_status": "verified",
+            "level": 2,
+            "name": "Course mathA",
+            "roster_state": "active",
+            "stages_passed": 1,
+            "stages_total": 3,
+            "standalone": false,
+            "theory_only": false,
+            "unresolved_errors": 0
+          },
+          {
+            "complete": false,
+            "confidence": 0.5,
+            "course_id": "mathB",
+            "coverage_status": "full",
+            "current_phase": "practice",
+            "current_stage": "S1",
+            "due_reviews": 0,
+            "grounding_status": "verified",
+            "level": 3,
+            "name": "Course mathB",
+            "roster_state": "dormant",
+            "stages_passed": 0,
+            "stages_total": 3,
+            "standalone": false,
+            "theory_only": false,
+            "unresolved_errors": 0
+          },
+          {
+            "complete": false,
+            "confidence": 0.5,
+            "course_id": "solo",
+            "coverage_status": "full",
+            "current_phase": "practice",
+            "current_stage": "S1",
+            "due_reviews": 0,
+            "grounding_status": "verified",
+            "level": null,
+            "name": "Course solo",
+            "roster_state": "active",
+            "stages_passed": 0,
+            "stages_total": 2,
+            "standalone": true,
+            "theory_only": false,
+            "unresolved_errors": 0
+          }
+        ],
+        "due_reviews_total": 1,
+        "learner": "amy",
+        "next_action": {
+          "command": "/review",
+          "reason": "1 review card(s) due"
+        },
+        "roster": {
+          "can_add": false,
+          "max": 3,
+          "occupancy": 3
+        },
+        "session_slot": 5
+      }
+    }
+  ]
+}

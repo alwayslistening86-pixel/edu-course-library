@@ -1163,3 +1163,13 @@ cannot detect a session where the model did nothing at all (no ledger lines), no
 incomplete or repeated bookkeeping. `invariants.py` complements it by checking state without a ledger. A test bug
 worth recording: a first version of the linear-order check used `ladder[:last_pass]` with `last_pass = -1`, which
 slices off only the last element and flagged every course with no passes; the fixture-is-clean test caught it.
+
+## 4 Oct 2026 — v1.20.0: /doctor, /status, /help (tasks P-13, C-06, C-07, V-08 wiring)
+
+The checks added in v1.13-1.19 (root layout, deployed-script repair, schemas, invariants, DB health, ledger
+verification, consent) were each reachable only by running a script by hand. `doctor.py` composes them and speaks in
+{status, detail, fix}; `status.py` gives the learner a one-screen answer to "where am I / what next". Both are
+read-only; the skill forbids acting on a fix without the learner's say-so. `doctor.py` is exempt from the golden CLI
+suite because its output embeds the interpreter version (covered by `tests/test_doctor_status.py` instead). The
+next-action rule in `status.py` is deliberately simple (due reviews, then the live course with most stages left);
+smarter selection waits for item-level mastery use (L-07).

@@ -48,6 +48,12 @@ class SeededFaults(unittest.TestCase):
         errors, _ = lint_docs.lint(self.d)
         self.assertTrue(any("orphan" in e and "not included" in e for e in errors))
 
+    def test_command_missing_from_help(self):
+        with open(os.path.join(self.d, "plugin", "generic-tutor", "commands", "newcmd.md"), "w") as f:
+            f.write("---\ndescription: x\n---\n@${CLAUDE_PLUGIN_ROOT}/skills/tutor-core/SKILL.md\n")
+        errors, _ = lint_docs.lint(self.d)
+        self.assertTrue(any("newcmd.md" in e and "help.md" in e for e in errors))
+
     def test_version_mismatch(self):
         p = os.path.join(self.d, ".tutor-scripts", ".manifest.json")
         with open(p, encoding="utf-8") as f:

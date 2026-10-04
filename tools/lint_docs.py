@@ -7,6 +7,7 @@ Errors (exit 1):
   - a command that includes a skill file that doesn't exist, or a skill no command includes
   - a skill whose frontmatter `name` differs from its folder
   - disagreeing versions between plugin.json, .tutor-scripts/.manifest.json and pyproject.toml
+  - a command missing from commands/help.md's table
   - a relative markdown link (in repo docs) whose target doesn't exist
 Warnings (printed, exit 0 unless --strict):
   - a skill heading carrying a private "vN" version (K-35)
@@ -52,6 +53,14 @@ def lint(root):
     for s in skills:
         if s not in included:
             errors.append(f"skill {s}: not included by any command")
+
+    # help.md must list every command
+    help_path = os.path.join(cmds_dir, "help.md")
+    if os.path.isfile(help_path):
+        help_text = _read(help_path)
+        for c in cmds:
+            if c != "help.md" and f"`/{c[:-3]}" not in help_text:
+                errors.append(f"command {c}: not listed in commands/help.md")
 
     # frontmatter name + heading versions
     for s in skills:

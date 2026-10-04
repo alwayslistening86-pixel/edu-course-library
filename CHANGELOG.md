@@ -16,6 +16,13 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.20.0] — 2026-10-04
+### Added
+- **`/doctor`** (`doctor.py`): read-only health check — Python version, data-root layout, deployed scripts, course structure, and per learner: schema + cross-file invariants, history DB, last-session completeness, stale locks, folder writability, consent in force. Each check carries a plain fix.
+- **`/status`** (`status.py`): one-screen summary of a learner — session number, roster, per-course progress, reviews due, unresolved errors, and a suggested next command.
+- **`/help`**: command list and usual flow; the docs lint now fails if a command is missing from it.
+- New `health-status` skill (with contract block) for the two commands.
+
 ## [1.19.0] — 2026-10-04
 ### Added
 - **Session ledger and verifier — closes the "model never called the script" gap.** Every state-changing script appends a line to `<learner>/.session_ledger.jsonl` (slot, script, action, course, stage, outcome; written under `granted`/`limited`, never `revoked`). `verify_session.py` checks a session's lines against "A implies B" rules (a stage pass needs a confidence update and review cards; a fail needs a confidence update and a remediation attempt; no duplicates; the slot was advanced). `/run` now audits the previous session and tells the learner about any gap — it reports and offers a repair, never back-fills a grade.
