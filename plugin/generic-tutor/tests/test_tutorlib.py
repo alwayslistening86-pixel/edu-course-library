@@ -112,7 +112,7 @@ class ConcurrentScriptCalls(TmpCase):
             [sys.executable, script, "append", subj, "S1", f"I{i}", "practice", "slip", "NONE", f"note {i}", str(i)],
             stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) for i in range(n)]
         outs = [p.communicate() for p in procs]
-        for (out, err), p in zip(outs, procs):
+        for (out, err), p in zip(outs, procs, strict=True):
             self.assertEqual(p.returncode, 0, out + err)
         with open(subj) as f:
             d = json.load(f)
