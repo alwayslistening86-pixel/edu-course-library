@@ -1114,3 +1114,13 @@ inconsistency: three scripts reported failure as `{"error": ...}` with exit 0. `
 result and returns 1 when it carries an `error`; all script mains now `sys.exit(cli.emit(result))`. The only golden
 diffs were those three `exit: 0 -> 1` lines. Deliberately not done yet: an argparse rewrite of the hand-parsed mains
 (low value relative to risk while the goldens only just exist) and the full envelope; both remain open under E-09/E-10.
+
+## 4 Oct 2026 — v1.16.1: single eligibility definition (task E-17)
+
+Audit expectation was four divergent copies of the eligible/complete/suspended logic. Reading the code found
+`is_complete` already shared (gate_check, prereq_check, roster_check, resume_enrollment import it from
+`cohort_status`); what remained duplicated was the state tuples and the suspension literal, in three scripts
+(the class of drift behind the v1.0.1 bug). They are now `cohort_status.LIVE_STATES`, `SLOT_STATES`,
+`is_suspended()`. Behaviour-neutral: the 27 golden CLI snapshots and the full suite are unchanged.
+`tests/test_eligibility.py` also scans the scripts so a re-derivation fails CI. `_load_json` helpers duplicated
+across scripts are left for the `tutorlib` IO consolidation.

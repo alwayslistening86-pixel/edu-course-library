@@ -91,6 +91,17 @@ def _remaining_stage_count(course_json, subject_json):
     return max(0, len(ladder) - done)
 
 
+# Single definition of "who may hold or draw a slot" (E-17); every script that asks goes through these.
+SUSPENDED = "suspended_ungrounded"
+LIVE_STATES = ("active", "test_pending_convergence")          # may be taught / draw slots
+SLOT_STATES = LIVE_STATES + ("dormant",)                       # hold a roster slot while unfinished
+
+
+def is_suspended(grounding_status):
+    """A grounding-suspended course is frozen, draws no slots and is free of roster cost."""
+    return grounding_status == SUSPENDED
+
+
 def is_complete(course_json, subject_json):
     """A course is complete when every stage_ladder entry is `pass` in syllabus_status (or, v1.3.0,
     `withheld` on a stage the course marks practical - a theory-only completion) and, if
@@ -158,11 +169,7 @@ def compute_cohorts(subjects_dir, courses_dir):
         # A finished course has nothing left to test-gate on: it must not sit in the cohort as a
         # permanent "not ready" bottleneck (it stays in `members` so highest_level_cleared can
         # still see the whole cohort).
-        eligible = (
-            roster_state in ("active", "test_pending_convergence")
-            and grounding_status != "suspended_ungrounded"
-            and not complete
-        )
+        eligible = roster_state in LIVE_STATES and not is_suspended(grounding_status) and not complete
         remaining = _remaining_stage_count(course, subj) if "__error__" not in course else None
 
         cohorts[cohort_key]["members"].append({
@@ -197,7 +204,7 @@ def compute_cohorts(subjects_dir, courses_dir):
                 continue
             if m["roster_state"] == "dropped":
                 excluded.append({"course_id": m["course_id"], "reason": "dropped, unfinished"})
-            elif m["grounding_status"] == "suspended_ungrounded":
+            elif is_suspended(m["grounding_status"]):
                 excluded.append({"course_id": m["course_id"], "reason": "suspended (ungrounded), unfinished"})
             else:
                 blocking.append(m["course_id"])

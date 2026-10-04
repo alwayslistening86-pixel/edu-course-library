@@ -339,6 +339,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-01 | ✅ done | 27 golden CLI cases (all scripts but `bootstrap_scripts.py`, covered by deploy tests) in `tests/test_golden_cli.py` + `tests/golden/`; deterministic across runs and Python 3.10/3.12; a meta-test fails when a new script has no golden case. Finding: three scripts return errors as JSON with exit 0 (`docs/CLI_BASELINE.md`) → input to E-10/E-11 |
 | E-11 | 🟡 partial | exit-code convention (0/1/2) implemented via `tutorlib/cli.py` and pinned by goldens (v1.16.0); stable error-code enum still open |
 | E-10 | 🟡 partial | `cli.emit` shared emitter; `{ok,data,error{code,message}}` envelope still open |
+| E-17 | ✅ done | `LIVE_STATES` / `SLOT_STATES` / `is_suspended` single-sourced in `cohort_status.py`; guard test; goldens unchanged (v1.16.1). `is_complete` was already shared; JSON-load helpers still duplicated (→ tutorlib IO) |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

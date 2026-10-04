@@ -16,6 +16,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.16.1] — 2026-10-04
+### Changed
+- Eligibility rules ("which roster states may be taught", "which hold a slot", "is a course grounding-suspended") now have one definition in `cohort_status.py` (`LIVE_STATES`, `SLOT_STATES`, `is_suspended`) used by `gate_check`, `roster_check` and `cohort_status`. No behaviour change; golden CLI snapshots unchanged. A test fails if a script re-derives the rule with its own literals.
+
 ## [1.16.0] — 2026-10-04
 ### Fixed
 - Scripts disagreed about failure: `coverage_check.py`, `review_math.py apply` and `validate_structure.py` returned `{"error": …}` but exited 0, so a caller checking the exit status saw success. Convention is now uniform (0 success/decision, 1 failed with `error`, 2 usage), via `tutorlib/cli.py`.

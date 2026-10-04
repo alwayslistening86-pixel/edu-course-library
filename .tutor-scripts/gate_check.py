@@ -34,7 +34,10 @@ import sys
 from tutorlib import cli
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from cohort_status import compute_cohorts, is_complete, is_standalone, prerequisites_status, withheld_stages, practical_stages, standalone_cohort_id  # noqa: E402
+from cohort_status import (  # noqa: E402
+    LIVE_STATES, compute_cohorts, is_complete, is_standalone, is_suspended, practical_stages,
+    prerequisites_status, standalone_cohort_id, withheld_stages,
+)
 import coverage_check  # noqa: E402
 
 
@@ -89,7 +92,7 @@ def _evaluate_gates(course_json_path, subjects_json_path, profile_subjects_dir, 
 
     # Gate 2: grounding
     grounding_status = course.get("grounding_status")
-    g2_pass = grounding_status != "suspended_ungrounded"
+    g2_pass = not is_suspended(grounding_status)
     gates["2_grounding"] = {
         "status": "pass" if g2_pass else "blocked",
         "value": grounding_status,
@@ -109,7 +112,7 @@ def _evaluate_gates(course_json_path, subjects_json_path, profile_subjects_dir, 
         g3 = ("blocked", "course is complete - every stage passed (and exam passed, if enabled)")
     elif roster_state == "dropped":
         g3 = ("blocked", "course is dropped - progress is preserved; resume it via /add-course (re-enters the roster cap)")
-    elif roster_state not in (None, "active", "test_pending_convergence"):
+    elif roster_state is not None and roster_state not in LIVE_STATES:
         g3 = ("blocked", f"unrecognised roster_state {roster_state!r} - refusing to teach")
     else:
         g3 = ("pass", "eligible to teach")
