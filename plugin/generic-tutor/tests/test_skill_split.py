@@ -48,5 +48,13 @@ class Split(unittest.TestCase):
         self.assertEqual(includes("audit"), {"course-auditor/SKILL.md", "course-auditor/suspension.md"})
 
 
+class GeneratedDocs(unittest.TestCase):
+    def test_commands_reference_is_up_to_date(self):
+        import sys
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(ROOT)), "tools"))
+        import gen_commands_doc
+        self.assertEqual(gen_commands_doc.main(["--check"]), 0, "run: python3 tools/gen_commands_doc.py")
+
+
 if __name__ == "__main__":
     unittest.main()

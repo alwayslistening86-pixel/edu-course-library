@@ -214,10 +214,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 |---|---|---|---|---|---|
 | A-01 🟢 | Eval harness skeleton `evals/`: case format (YAML/JSON), runner, scoring, report; model-in-the-loop optional, deterministic checks always | `python -m evals run --offline` works | — | L | 3 |
 | A-02 🟢 | Fixture sets: 3 public-domain/self-authored sample courses (maths, humanities, one law-style) for evals so no private content is needed | Fixtures committed | A-01 | M | 3 |
-| A-03 🟢 | **Grading calibration set**: learner answers (strong/borderline/wrong, method-correct-answer-wrong, right-answer-wrong-method) with reference marks from the mark scheme; target agreement set after baseline | Baseline measured; thresholds recorded | A-01,A-02 | L | 3 |
+| A-03 🟢 | **Grading calibration set**: learner answers (strong/borderline/wrong, method-correct-answer-wrong, right-answer-wrong-method) with reference marks that need no human marker — computable answers, or openly licensed published mark schemes with provenance recorded; target agreement set after baseline | Baseline measured; thresholds recorded | A-01,A-02 | L | 3 |
 | A-04 🟢 | Diagnostic classification set: transcripts labelled with ground-truth `cause` (slip, prerequisite, misconception, procedure, comprehension); measure accuracy and over-triggering | Confusion matrix baseline | A-01 | L | 3 |
 | A-05 🟢 | Pacing/selection ablation evals (confidence/mastery usage) on simulated learners | Simulated-learner generator + metrics | L-07 | L | 4 |
-| A-06 🟡 | Human spot-check protocol: monthly sample of real graded tests re-marked by the owner; log disagreement rate | Procedure + spreadsheet/JSON log | A-03 | S | 3 |
+| A-06 🟡 | **Automated consistency protocol (replaces human spot-checks — the owner will not mark)**: for every eval item, N-sample self-agreement, an independent second grader, and a deterministic oracle where the answer is computable; items that fail agreement are listed as "ambiguous" and excluded from accuracy claims | Report lists agreement rate and the ambiguous set; no human step | A-03 | S | 3 |
 | A-07 🟢 | Test-integrity evals: worksheet/recap must not leak test items; hints must not reveal answers | Cases + detectors | A-01 | M | 3 |
 | A-08 🟢 | Safety evals: real-situation guard (legal/accounting), physical-risk practicals, honesty about uncertainty | ≥ N cases, pass-all required | A-01 | M | 3 |
 | A-09 🟢 | Gate-conformance evals: given a state fixture, does the agent stop at the correct gate and explain it plainly (dormant, suspended, prerequisite) | Cases for each gate | A-01 | M | 3 |
@@ -372,6 +372,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-15 | ✅ done | `tools/context_budget.py` + ratchet + CI check; `/list-courses` −95%, `/drop` −87%, `/run` −45% (v1.24.0) |
 | K-05 | 🟡 partial | command-specific parts split out of course-runner (list-courses.md); teaching-path sections deliberately kept whole until evals exist |
 | K-09 | ⏸ deferred | course-compiler internal split waits for evals (same reason) |
+| K-00 | ✅ done | contract template enforced by docs lint (all 12 skills carry a Contract block) |
+| K-33 | ✅ done | descriptions ≤400 chars and must name a /command or say none (lint) |
+| C-01 | ✅ done | `docs/COMMANDS.md` generated from front-matter + staleness test |
+| C-02 | ✅ done | missing/invalid-argument handling written into the 8 commands that take arguments |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

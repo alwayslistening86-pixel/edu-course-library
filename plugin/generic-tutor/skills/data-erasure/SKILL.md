@@ -7,7 +7,9 @@ description: Permanently deletes the active learner's data on request via /erase
 
 **Contract**
 - **Owns:** deletion of `/EDU/profile/<user_id>/` (nothing else).
+- **Reads:** the dry-run report (`erase_profile.py --dry-run`).
 - **Calls:** `erase_profile.py`.
+- **Emits:** what will be removed, the exact phrase to type, then the result.
 - **Never:** deletes on an inferred or one-word request; touches `/EDU/courses/`; touches another learner; deletes by any means other than the script.
 
 ## Invocation

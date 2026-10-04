@@ -16,6 +16,15 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.25.0] — 2026-10-04
+### Changed
+- **Every skill now opens with a Contract block** (Owns / Reads / Calls / Emits / Never / Failure modes) — the eight older skills gained one, written from what the scripts actually own. The docs lint fails if a skill lacks one, lacks a field, or names a script that doesn't exist.
+- **Skill descriptions are checked**: at most 400 characters and they must name a `/command` (or say there is none); `course-auditor`'s (483 characters) was rewritten.
+- **Commands validate their arguments in the prompt**: a missing id lists the valid choices instead of guessing (`/run`, `/add-profile`, `/continue`, `/drop`, `/restore`, `/add-course`, `/doctor`); ids must follow the identifier rule; `/erase` no longer advertises an unused argument.
+### Added
+- `docs/COMMANDS.md`, generated from the commands' front-matter by `tools/gen_commands_doc.py`; a test fails if it is stale.
+- Context budget raised deliberately for the added contract/argument text (≈ +0.6–1.1 K chars per command).
+
 ## [1.24.0] — 2026-10-04
 ### Changed
 - **Commands load far less context.** Command-specific sections of four big skills moved (verbatim — a line-by-line check found nothing lost) into reference files that only the commands needing them include: `course-runner/list-courses.md`, `journey-planner/drop.md`, `course-auditor/suspension.md`, `profile-kernel/intake.md` and `profile-kernel/profile-schema.md`. Approximate size of text loaded per command: `/list-courses` 30,496 → 1,672 chars (−95%), `/drop` 39,073 → 4,957 (−87%), `/run` 23,196 → 12,826 (−45%), `/profile` 23,294 → 22,632, `/audit`/`/add-profile` unchanged in substance. `/continue` (48,895) and `/add-course` (39,736) are untouched on purpose — see below.

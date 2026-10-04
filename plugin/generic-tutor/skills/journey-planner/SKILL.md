@@ -5,6 +5,14 @@ description: Computes and recomputes how a learner's weekly session capacity is 
 
 # Journey Planner — slot-based allocation, no calendar
 
+**Contract**
+- **Owns:** the slot plan (advice only, nothing persisted), `/drop` (see `drop.md`), and raising `highest_level_cleared` when a whole level completes.
+- **Reads:** `cohort_status.py` output (eligibility, bottleneck, `all_complete`, `level_ledger`), `roster_check.py`.
+- **Calls:** `cohort_status.py`, `roster_check.py`.
+- **Emits:** a sequence ("next N sessions: mostly X, review folded in") — never a calendar; approximate remaining time stated as an estimate.
+- **Never:** stores or reasons about dates or weekdays; promises completion by a date; re-decides level-lock or convergence; sums eligibility by hand.
+- **Failure modes:** no eligible courses → say what is blocking (dormant, suspended, nothing enrolled).
+
 ## Invocation
 `/plan` runs once automatically as the final step of first-ever onboarding (after every initial course has been added), and again any time the learner explicitly re-runs it — after adding or dropping a course, or after a change to `availability.sessions_per_week`. It does not run silently mid-session; a re-plan is always visible and explicit, the same way every other state change in this system is.
 

@@ -6,6 +6,8 @@ Errors (exit 1):
   - a `.tutor-scripts/<x>.py` / `scripts/<x>.py` reference in a skill or command that doesn't exist
   - a command that includes a skill file that doesn't exist, or a skill no command includes
   - a skill whose frontmatter `name` differs from its folder
+  - a skill whose description is missing, over 400 characters, or names no /command (and doesn't say it has none)
+  - a skill without a **Contract** block (Owns/Reads/Calls/Emits/Never), or one naming a script that doesn't exist
   - disagreeing versions between plugin.json, .tutor-scripts/.manifest.json and pyproject.toml
   - a command missing from commands/help.md's table
   - a relative markdown link (in repo docs) whose target doesn't exist
@@ -81,6 +83,21 @@ def lint(root):
         m = re.search(r"^name:\s*(.+)$", text, re.M)
         if not m or m.group(1).strip() != s:
             errors.append(f"skill {s}: frontmatter name {m.group(1).strip() if m else None!r} != folder")
+        desc = re.search(r"^description:\s*(.+)$", text, re.M)
+        if not desc or len(desc.group(1)) > 400:
+            errors.append(f"skill {s}: description missing or longer than 400 characters (it is what routes the skill)")
+        elif "/" not in desc.group(1) and "no command" not in desc.group(1).lower():
+            errors.append(f"skill {s}: description names no /command and does not say it has none")
+        if "**Contract**" not in text:
+            errors.append(f"skill {s}: missing the **Contract** block (see docs/SKILL_CONTRACT.md)")
+        else:
+            block = text.split("**Contract**", 1)[1].split("\n## ", 1)[0]
+            for field in ("Owns", "Reads", "Calls", "Emits", "Never"):
+                if f"**{field}" not in block:
+                    errors.append(f"skill {s}: Contract block lacks a '{field}' line")
+            for ref in re.findall(r"`([A-Za-z_]+\.py)`", block):
+                if not os.path.isfile(os.path.join(scripts_dir, ref)):
+                    errors.append(f"skill {s}: Contract names missing script {ref}")
         h = re.search(r"^# .*\bv\d+\b", text, re.M)
         if h:
             warnings.append(f"skill {s}: private version in heading ({h.group(0)[:60]!r})")

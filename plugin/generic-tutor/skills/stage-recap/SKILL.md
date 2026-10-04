@@ -5,6 +5,14 @@ description: Fires automatically the moment a stage test genuinely passes — ne
 
 # Stage Recap — fires on pass, produces one tracked output and one untracked one
 
+**Contract**
+- **Owns:** seeding review cards for a just-passed stage (appended to the course's deck) and handing over an untracked take-home worksheet.
+- **Reads:** the stage's `rubric.json` criteria, the learner's `error_patterns` for that stage, `misconceptions.json`.
+- **Calls:** no scripts; new cards use the deck's scheduling defaults (interval 1, ease 2.3, due next slot) and `review-scheduler` takes over.
+- **Emits:** flashcards in the deck and a worksheet file with a full answer key.
+- **Never:** fires on a failed test; tracks or grades the worksheet; reproduces test items in the worksheet; writes outside the deck.
+- **Failure modes:** deck file missing → create it with the standard shape; card tags it cannot derive → `null`, never forced.
+
 ## Invocation
 No command of its own. `course-runner` invokes this skill at exactly one moment: immediately after a stage's `test.md` is graded and the result recorded as `syllabus_status: "pass"` for that stage. A fail routes to remediation instead (see `course-runner`) — recap and remediation are a clean split by outcome, and neither should try to do the other's job.
 

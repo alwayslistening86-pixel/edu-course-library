@@ -7,6 +7,7 @@ description: Makes a full backup of the active learner (/backup) or puts a learn
 
 **Contract**
 - **Owns:** creating backup zips; replacing a learner folder from a verified backup.
+- **Reads:** the backup zip's manifest (through `restore_profile.py --dry-run`).
 - **Calls:** `backup_profile.py`, `restore_profile.py`.
 - **Emits:** the backup's path and size; for restore, exactly what was (or would be) replaced.
 - **Never:** restores over an existing learner without `--replace` and the learner's explicit yes; restores without `--dry-run` first; tells the learner a backup is "safe" without saying where it is and that it holds personal data; stores a backup inside the learner's folder.

@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.24.0",
+  "plugin_version": "1.25.0",
   "files": [
     "apply_capabilities.py",
     "backup_profile.py",

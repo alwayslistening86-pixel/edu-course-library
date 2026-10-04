@@ -192,7 +192,7 @@ The owner delegated these; the recommended option was adopted in each case.
 |---|---|---|---|
 | 1 | Python floor | **3.10+**; CI matrix 3.10–3.13 | `pyproject.toml` declares `requires-python >=3.10`; no 3.11+-only syntax in scripts |
 | 2 | Hooks for enforcement | **Optional layer only** — P-04 found hooks are Claude Code-only, not Cowork (ADR 0001) | Enforcement moves into scripts (E-05/06/08); the session ledger + write verifier (V-01/V-03) is the primary safety net; hooks are extra hardening for Claude Code |
-| 3 | Eval spend | **Yes, manual/nightly only**, small budget; never in PR CI | Reference marks start from self-authored sample courses (A-02) drafted by Claude; owner only spot-checks (A-06) |
+| 3 | Eval spend and reference marks | **Yes to manual/nightly evals, small budget, never in PR CI.** The owner will **not** mark anything. Reference marks come from (a) self-authored items with deterministic, checkable answers, and (b) digitally sourced openly licensed material (public-domain, OGL or Creative Commons mark schemes / OER) with provenance and licence recorded per item. | Spot-checking by the owner is replaced by automated checks: repeated-sample agreement, a second independent grader, deterministic oracles where answers are computable, and a "needs human" flag that is reported, never blocking (A-06 redefined) |
 | 4 | Deadline-aware planning | **Yes, opt-in** | One optional `exam_date` field with expiry; planner converts it to slots-needed vs slots-available; no calendar scheduling inside the plugin |
 | 5 | Repo layout | **Yes**: `docs/`, `tools/`, `plugin/` stays | R-16 proceeds; docs-lint (D-07) guards links |
 

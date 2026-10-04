@@ -5,6 +5,14 @@ description: Runs due spaced-repetition flashcards, on demand via /review or aut
 
 # Review Scheduler — slot-scheduled spaced repetition
 
+**Contract**
+- **Owns:** presenting due cards and rescheduling them (`review_math.py apply` writes the scheduling fields).
+- **Reads:** `<course>_review_deck.json`, `student_profile.json.session_slot`.
+- **Calls:** `review_math.py`.
+- **Emits:** one card at a time, a brief correction on a miss, nothing else.
+- **Never:** authors cards (`stage-recap` does); touches `syllabus_status` or `confidence`; schedules by date; re-teaches on a miss.
+- **Failure modes:** no deck yet → nothing to review, not an error; `written: false` → the review still happened, it just will not be remembered.
+
 ## Invocation
 `/review` runs a due-card session on demand for the active learner, across all their active courses. It also runs automatically, without a separate command, whenever `course-runner` needs to fill a course's slots while that course sits in `roster_state: test_pending_convergence` — see the phase-convergence section of `course-runner`.
 

@@ -5,6 +5,14 @@ description: Multi-learner profile system for the tutor — handles /run, /add-p
 
 # Profile Kernel (roster-capped, level-ledger, capability declarations, isolated by folder)
 
+**Contract**
+- **Owns:** `student_profile.json` (intake, `/profile` edits, consent, capabilities), `access.json`, the session-slot advance (`slot_advance.py`), deployment of scripts (`bootstrap_scripts.py`); `highest_level_cleared` is raised only by `journey-planner` and lowered only by `resume_enrollment.py`.
+- **Reads:** `resolve_root.py` (data root), `verify_session.py` (last session's completeness).
+- **Calls:** `bootstrap_scripts.py`, `resolve_root.py`, `slot_advance.py`, `verify_session.py`, `apply_capabilities.py`.
+- **Emits:** "Running profile: …", plain statements of what consent means and what will not be remembered, the last-session audit when something is missing.
+- **Never:** reads or writes another learner's folder; guesses a close user id; creates a profile on `/run`; sets a capability or credit on the learner's behalf; back-fills a grade the audit found missing.
+- **Failure modes:** data-root problems reported by `resolve_root.py` → tell the learner exactly and stop; unknown user id → offer `/add-profile`.
+
 ## Invocation
 `/run <user_id>` activates a learner's profile for the session. `/profile` shows or updates the *currently active* learner's aggregated profile. `/add-profile <user_id>` creates a new learner alongside existing ones. None of this runs on inferred intent — see the landing logic below for the one deliberate exception.
 

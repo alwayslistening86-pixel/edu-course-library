@@ -1224,3 +1224,15 @@ instructions are read in the middle of teaching, and on-demand reads of situatio
 the model skipped the read; there are no evals yet to measure that risk (Phase 3). They stay whole until a before/after
 eval exists, which is why `/continue` (48.9 K chars, ~12 K tokens) remains the budget's biggest line. The ratchet means
 the number can only go down on purpose. Character counts are an estimate (chars/4), good for comparison, not billing.
+
+## 4 Oct 2026 — v1.25.0: skill contracts, description checks, argument validation (tasks K-00..K-04 rollout, K-33, C-01, C-02, C-15 part)
+
+The Contract blocks were written from the scripts each skill actually calls and the fields each script owns (the
+ownership table in `docs/ARCHITECTURE.md`), not from the skills' own prose, and the lint resolves every script named in
+a Contract against `scripts/` so the block cannot drift into fiction. They cost context (every command that includes a
+skill grows by about 0.6-1.1 K chars); the budget ratchet was raised once, on purpose, rather than weakening the check.
+Descriptions matter because they are what routes a skill: capped at 400 characters, required to name a command or say
+there is none. Argument handling used to be implicit in each command's last line; it is now explicit: missing id -> offer
+the valid choices (never guess a "close match", which `profile-kernel` already forbade), invalid id -> state the rule.
+Decision recorded in PLAN section 10 (item 3): the owner will not mark anything; evaluation references must come from
+computable answers or openly licensed published schemes, and spot-checking is replaced by automated agreement checks.

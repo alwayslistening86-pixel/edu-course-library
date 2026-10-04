@@ -7,7 +7,9 @@ description: Bundles the active learner's profile, every course's progress, revi
 
 **Contract**
 - **Owns:** producing one export zip (nothing in `/EDU/` is modified).
+- **Reads:** the active learner's folder, only through `export_profile.py`.
 - **Calls:** `export_profile.py`.
+- **Emits:** one zip file and a plain list of what it contains.
 - **Never:** runs on inferred intent; includes another learner's data; writes the zip inside `/EDU/profile/`.
 
 ## Invocation
