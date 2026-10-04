@@ -13,7 +13,7 @@ Every skill should begin, directly after its frontmatter and title, with this bl
 ```
 
 Rules:
-1. Procedures call scripts for anything deterministic; never restate arithmetic or schemas — link to `docs/DATA_MODEL.md` / `schemas/`.
+1. Procedures call scripts for anything deterministic; never restate arithmetic or schemas — link to `plugin/generic-tutor/docs/DATA_MODEL.md` / `schemas/`.
 2. Describe *current* behaviour only; release history belongs in `CHANGELOG.md`.
 3. No private version numbers in headings.
 4. Frontmatter `name` equals the folder; `description` is trigger-precise (what it does, when it fires, what it never does).

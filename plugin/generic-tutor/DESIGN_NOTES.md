@@ -1201,3 +1201,14 @@ before the rename, so a failure mid-swap would have left nothing in place. `expo
 logical export for the learner; backup/restore is for putting the system back exactly as it was. Not done: scheduled or
 automatic backups (the plugin has no scheduler; the skill suggests backing up before `/audit` repairs and upgrades),
 encryption (X-08), and copying a backup off the machine (left to the learner, and the skill says so).
+
+## 4 Oct 2026 — v1.23.0: marketplace, build and release (tasks P-01, P-02, P-03, P-19, R-11, R-12)
+
+Verified rather than assumed: `claude plugin validate --strict` (CLI 2.1.289) found one gap in the plugin manifest
+(missing author) and none in 15 commands or 12 skills; marketplace add + install + uninstall + remove round-tripped
+against this checkout. A packaging-time finding: skills and script docstrings cited `docs/*.md` paths that existed only
+at the repo root, so an installed copy (source = `plugin/generic-tutor`) would have had dangling references; the three
+referenced docs now live inside the plugin and skills use `${CLAUDE_PLUGIN_ROOT}`. The zip is built deterministically
+so a release asset can be reproduced from the tag. The release workflow cannot be exercised before a tag exists; its
+moving parts (version check, notes extraction, build) are covered by tests and run in the PR checks. Not done: running
+the plugin inside Cowork itself, and a `/doctor` check that an installed copy matches the marketplace version.

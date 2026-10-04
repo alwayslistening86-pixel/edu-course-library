@@ -1,0 +1,15 @@
+{
+  "name": "edu-course-library",
+  "owner": { "name": "Ian", "url": "https://github.com/alwayslistening86-pixel" },
+  "description": "The generic-tutor plugin: a self-hosted, source-grounded academic tutor for Claude.",
+  "plugins": [
+    {
+      "name": "generic-tutor",
+      "description": "Source-grounded academic tutor: course library, per-learner progress, spaced review, diagnostic teaching, backup/restore and health checks.",
+      "version": "1.23.0",
+      "source": "./plugin/generic-tutor",
+      "category": "education",
+      "keywords": ["education", "tutor", "spaced-repetition"]
+    }
+  ]
+}

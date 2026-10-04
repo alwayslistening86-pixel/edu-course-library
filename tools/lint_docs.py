@@ -82,6 +82,11 @@ def lint(root):
         m = re.search(r'^version\s*=\s*"([^"]+)"', _read(pp), re.M)
         if m:
             versions["pyproject.toml"] = m.group(1)
+    mkt = os.path.join(root, ".claude-plugin", "marketplace.json")
+    if os.path.isfile(mkt):
+        for entry in json.loads(_read(mkt)).get("plugins", []):
+            if entry.get("name") == "generic-tutor" and entry.get("version"):
+                versions["marketplace.json"] = entry["version"]
     if len(set(versions.values())) > 1:
         errors.append(f"version mismatch: {versions}")
 

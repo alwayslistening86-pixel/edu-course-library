@@ -6,7 +6,9 @@ Public repo holding the **generic-tutor** engine only. Course content lives in t
 - `plugin/generic-tutor/` — source of truth: `skills/`, `commands/`, `scripts/` (stdlib-only Python), `tests/`, `_template/`, `DESIGN_NOTES.md`.
 - `.tutor-scripts/` — deployed runtime copy of `plugin/generic-tutor/scripts/`. **Never hand-edit.** Regenerate with `bootstrap_scripts.py` (CI diffs the two and fails on drift).
 - `.github/` — CI and `scripts/validate_courses.py` (run from the private repo's CI).
-- `docs/` — `PLAN.md` (redesign plan, decisions) and `TASKS.md` (numbered task list; one task = one PR).
+- `docs/` — repo-level: `PLAN.md` (redesign plan, decisions), `TASKS.md` (numbered task list; one task = one PR), architecture, ADRs, glossary, pedagogy.
+- `plugin/generic-tutor/docs/` — docs the *shipped plugin* refers to (`DATA_MODEL.md`, `PRIVACY.md`, `UNTRUSTED_CONTENT.md`); they live inside the plugin so references from skills resolve after install.
+- `.claude-plugin/marketplace.json` — makes the repo installable: `claude plugin marketplace add alwayslistening86-pixel/edu-course-library`.
 
 ## Commands
 ```

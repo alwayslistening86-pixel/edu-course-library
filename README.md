@@ -41,6 +41,14 @@ tracked by *this* repo's git, and their prior history has been removed from
 it too. See `edu-courses-private` (private; access on request) if you're
 me and need them.
 
+## Install
+
+```
+claude plugin marketplace add alwayslistening86-pixel/edu-course-library
+claude plugin install generic-tutor@edu-course-library
+```
+(In Claude Cowork use the plugin UI: add the same GitHub repository as a marketplace, then install `generic-tutor`.) Alternatively build the zip yourself with `python3 tools/build_plugin.py` (output in `dist/`) and install that. The plugin needs Python 3.10+ on the machine so its scripts can run, and a folder you connect that contains `courses/` (your course content) — then `/doctor` tells you if anything is missing, `/help` lists the commands.
+
 ## How it works
 
 1. Install the `generic-tutor` plugin (built from `plugin/generic-tutor/` —

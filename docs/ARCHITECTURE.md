@@ -38,7 +38,7 @@ learner ──► Claude (Cowork/Code) ── reads ──► commands/ skills/ 
 | History DB | `sqlite_store.py` |
 | Grading, teaching, discovery, compiling, audit judgment | the model, guided by skills |
 
-Field-level owners: [`DATA_MODEL.md`](DATA_MODEL.md). Terms: [`GLOSSARY.md`](GLOSSARY.md).
+Field-level owners: [`DATA_MODEL.md`](../plugin/generic-tutor/docs/DATA_MODEL.md). Terms: [`GLOSSARY.md`](GLOSSARY.md).
 
 ## Trust boundaries
 - **Learner folder isolation** is structural (one folder per learner); enforcement in code is task E-08.

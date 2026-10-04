@@ -363,6 +363,12 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | X-03 | ✅ done | stdin note passing, erase phrase from script output, hostile-id tests |
 | E-24 | ✅ done | `backup_profile.py` + `restore_profile.py` (v1.22.0); toolkit-backup default location fixed |
 | C-08 | ✅ done | `/backup`, `/restore`, `backup-restore` skill |
+| P-01 | ✅ done | `plugin.json` fields completed; `claude plugin validate --strict` passes |
+| P-02 | ✅ done | `.claude-plugin/marketplace.json`; add/install/uninstall verified locally |
+| P-03 | ✅ done | `build_plugin.py` excludes tests/caches; shipped docs moved inside the plugin |
+| P-19 | ✅ done | `plugin-validate` CI job (plugin, skills, commands, marketplace) |
+| R-11 | ✅ done | `tools/build_plugin.py` deterministic |
+| R-12 | ✅ done | `release.yml` (untested until the first tag) + `tools/release_notes.py` |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

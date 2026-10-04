@@ -1,0 +1,39 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tag matches plugin.json, marketplace.json and CHANGELOG
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          plugin=$(python3 -c "import json;print(json.load(open('plugin/generic-tutor/.claude-plugin/plugin.json'))['version'])")
+          [ "$tag" = "$plugin" ] || { echo "tag $tag != plugin.json $plugin"; exit 1; }
+          python3 tools/lint_docs.py --strict
+          python3 tools/release_notes.py "$tag" > release-notes.md
+
+      - name: Run the test suite
+        working-directory: plugin/generic-tutor
+        run: python3 -m unittest discover tests
+
+      - name: Build the plugin zip
+        run: python3 tools/build_plugin.py --out "dist/generic-tutor-${GITHUB_REF_NAME#v}.plugin"
+
+      - name: Create the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" "dist/generic-tutor-${GITHUB_REF_NAME#v}.plugin" \
+            --title "generic-tutor ${GITHUB_REF_NAME#v}" --notes-file release-notes.md

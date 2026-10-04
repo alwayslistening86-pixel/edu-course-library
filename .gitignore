@@ -16,3 +16,6 @@ profile/*/
 
 # Local download landing spot for files Claude sends into the chat - not repo content.
 Claude outputs/
+
+# Built plugin zips (tools/build_plugin.py)
+dist/

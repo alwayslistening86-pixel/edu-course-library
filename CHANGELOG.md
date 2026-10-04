@@ -16,6 +16,16 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.23.0] — 2026-10-04
+### Added
+- **One-step install**: `.claude-plugin/marketplace.json` makes the repository a plugin marketplace (`claude plugin marketplace add alwayslistening86-pixel/edu-course-library`, then `claude plugin install generic-tutor@edu-course-library` — both run successfully against this repo).
+- `tools/build_plugin.py`: deterministic `generic-tutor-<version>.plugin` zip (sorted entries, fixed timestamps; excludes tests, caches); `tools/release_notes.py`; tag-driven `release.yml` workflow that checks tag = `plugin.json` version, requires a CHANGELOG section, runs the tests and attaches the zip to the GitHub release.
+- CI job running `claude plugin validate --strict` on the plugin, its skills, its commands and the marketplace, plus a build-determinism check.
+### Changed
+- `plugin.json` now carries author, homepage, repository, license and keywords (the validator warned about missing author).
+- The three docs that shipped skills and scripts refer to (`DATA_MODEL.md`, `PRIVACY.md`, `UNTRUSTED_CONTENT.md`) moved inside the plugin (`plugin/generic-tutor/docs/`) so references from skills resolve after install; skills now cite `${CLAUDE_PLUGIN_ROOT}/docs/…`.
+- The docs lint also checks the marketplace entry's version.
+
 ## [1.22.0] — 2026-10-04
 ### Added
 - **`/backup`** (`backup_profile.py`): full physical backup of a learner — profile, progress, decks, session ledger and a consistent copy of the history database (SQLite online-backup API) — with a manifest of sha256 checksums. Default location `<root>/backups/`, outside the learner folder; never overwrites an earlier backup.

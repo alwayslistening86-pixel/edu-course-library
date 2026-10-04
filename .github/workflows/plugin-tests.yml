@@ -8,6 +8,7 @@ on:
       - ".tutor-scripts/**"
       - "pyproject.toml"
       - "tools/**"
+      - ".claude-plugin/**"
       - "docs/**"
       - "*.md"
       - ".github/workflows/plugin-tests.yml"
@@ -17,6 +18,7 @@ on:
       - ".tutor-scripts/**"
       - "pyproject.toml"
       - "tools/**"
+      - ".claude-plugin/**"
       - "docs/**"
       - "*.md"
       - ".github/workflows/plugin-tests.yml"
@@ -59,6 +61,26 @@ jobs:
         run: |
           v=$(python3 -c "import json;print(json.load(open('plugin/generic-tutor/.claude-plugin/plugin.json'))['version'])")
           grep -q "^## \[$v\]" CHANGELOG.md || { echo "CHANGELOG.md has no '## [$v]' entry"; exit 1; }
+
+  plugin-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install -g @anthropic-ai/claude-code
+      - name: Validate plugin, skills, commands and marketplace manifests
+        run: |
+          claude plugin validate plugin/generic-tutor --strict
+          claude plugin validate plugin/generic-tutor/skills --strict
+          claude plugin validate plugin/generic-tutor/commands --strict
+          claude plugin validate . --strict
+      - name: Plugin zip builds deterministically
+        run: |
+          python3 tools/build_plugin.py --out /tmp/a.plugin
+          python3 tools/build_plugin.py --out /tmp/b.plugin
+          cmp /tmp/a.plugin /tmp/b.plugin
 
   lint:
     runs-on: ubuntu-latest
