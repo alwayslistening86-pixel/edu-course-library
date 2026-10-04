@@ -60,6 +60,7 @@ Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
 import sys
+from tutorlib import atomic_io, filelock
 
 RESULTS = ("pass", "fail")
 
@@ -70,11 +71,10 @@ def _load(path):
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, data)
 
 
+@filelock.locked("subjects_path")
 def apply(subjects_path, course_path, stage_id, result):
     if result not in RESULTS:
         return {"error": f"result must be one of {RESULTS}, got {result!r}"}

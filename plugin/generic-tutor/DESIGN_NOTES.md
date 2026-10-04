@@ -1060,3 +1060,22 @@ needed migration. **`last_audited_plugin_version` was deliberately left untouche
 1.12.0 into it off a Tier-1+2-only pass would overclaim exactly the way this session's write-back
 fixes have been about *not* doing; that field means "a full audit ran," and Tier 3 didn't. No code
 changed, so no version bump and no test count change (still 296).
+
+## 4 Oct 2026 — v1.13.0: atomic writes and per-file locking (tasks E-02, E-03, E-04)
+
+First engine-hardening step of the redesign (`docs/PLAN.md`). Every script that persisted JSON did so with
+`open(path, "w")`, which truncates before writing, and every read-modify-write was unguarded. Two concrete
+failure modes followed: a crash mid-write left a partial file, and two overlapping calls on the same file lost
+one update. The second was reproduced, not assumed: with locking removed, 12 parallel `error_log.py append`
+calls retained 6-9 entries on every run.
+
+New `scripts/tutorlib/` package (stdlib only; the bootstrap already deploys any subfolder containing
+`__init__.py`): `atomic_io.write_json` (temp file in the same directory, fsync, `os.replace`; byte-identical
+output to the writers it replaced; optional `.bak`) and `filelock` (sidecar `.lock` via `O_CREAT|O_EXCL`,
+re-entrant in-process because scripts call each other on the same file, stale-lock breaking after 60 s, 10 s
+timeout that raises rather than writing unlocked). All ten writers now use `atomic_io`; the eight
+read-modify-write entry points (`confidence_update.apply`, `error_log.append/resolve`, `item_mastery.observe`,
+`record_stage_result.apply`, `remediation_state.record/reset`, `resume_enrollment.resume`, `review_math.apply`,
+`slot_advance.advance`) are wrapped with `@filelock.locked`. No CLI or output change. Not yet done:
+`sqlite_store.py` (SQLite has its own locking), `apply_capabilities.py` CLI path (atomic but unlocked),
+`bootstrap_scripts.py` manifest write, and the consent gate (E-05/E-06).

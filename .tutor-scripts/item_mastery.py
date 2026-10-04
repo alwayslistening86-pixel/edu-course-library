@@ -76,6 +76,7 @@ Output: JSON to stdout. `observe` writes the subjects file back in place;
 import json
 import os
 import sys
+from tutorlib import atomic_io, filelock
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
@@ -92,9 +93,7 @@ def _load(path):
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, data)
 
 
 def _update(p_l, correct, p_slip=P_SLIP, p_guess=P_GUESS, p_transit=P_TRANSIT):
@@ -109,6 +108,7 @@ def _update(p_l, correct, p_slip=P_SLIP, p_guess=P_GUESS, p_transit=P_TRANSIT):
     return max(0.0, min(1.0, new_p)), max(0.0, min(1.0, posterior))
 
 
+@filelock.locked("subjects_path")
 def observe(subjects_path, item_id, correct, current_slot):
     d = _load(subjects_path)
     mastery = d.setdefault("item_mastery", {})

@@ -325,6 +325,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | D-09 | ✅ done | ADRs 0002–0008 retrospectively recorded; index in `docs/adr/README.md` |
 | D-01 | 🟡 partial | changelog + ADRs created; `DESIGN_NOTES.md` deliberately left in place as long-form history (links depend on it) |
 | K-00 | 🟡 partial | `docs/SKILL_CONTRACT.md` template; lint rule to be added once skills adopt it |
+| E-02 | 🟡 partial | `tutorlib` package created with `atomic_io`, `filelock`; `paths`, `consent`, `envelope`, `cli` modules still to come |
+| E-03 | ✅ done | all 10 JSON writers atomic; format byte-identical; tests (v1.13.0) |
+| E-04 | ✅ done | per-file re-entrant lock on 8 RMW entry points; parallel test fails (6–9 of 12 survive) without it, passes with it (v1.13.0) |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

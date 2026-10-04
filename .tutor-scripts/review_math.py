@@ -66,6 +66,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
+from tutorlib import atomic_io, filelock
 
 
 EASE_DEFAULT = 2.3
@@ -112,11 +113,10 @@ def _load(path):
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, data)
 
 
+@filelock.locked("deck_path")
 def apply(deck_path, card_id, current_slot, correct):
     """Read-modify-write: loads the deck, finds the card, computes the new
     fields with compute(), writes them back onto the card, saves the file,

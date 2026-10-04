@@ -30,6 +30,7 @@ double-/run window; either way "current_slot" is still reported.
 import argparse
 import datetime
 import json
+from tutorlib import atomic_io, filelock
 
 DEFAULT_MIN_GAP_MINUTES = 180
 
@@ -38,6 +39,7 @@ def _now():
     return datetime.datetime.now(datetime.timezone.utc)
 
 
+@filelock.locked("path")
 def advance(path, min_gap_minutes=DEFAULT_MIN_GAP_MINUTES, now=None):
     now = now or _now()
     with open(path, "r", encoding="utf-8") as f:
@@ -64,9 +66,7 @@ def advance(path, min_gap_minutes=DEFAULT_MIN_GAP_MINUTES, now=None):
 
     profile["session_slot"] = previous + 1
     profile["session_slot_advanced_at"] = now.replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(profile, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, profile)
     return {"previous_slot": previous, "current_slot": previous + 1}
 
 

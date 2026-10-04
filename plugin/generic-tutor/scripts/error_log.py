@@ -76,6 +76,7 @@ resolve only); query is read-only.
 import json
 import os
 import sys
+from tutorlib import atomic_io, filelock
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
@@ -90,9 +91,7 @@ def _load(path):
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, data)
 
 
 def _next_id(entries, stage_id, today_iso):
@@ -100,6 +99,7 @@ def _next_id(entries, stage_id, today_iso):
     return f"err_{today_iso}_{stage_id}_{seq:03d}"
 
 
+@filelock.locked("subjects_path")
 def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE"):
     if cause not in CAUSES:
         return {"error": f"cause must be one of {CAUSES}, got {cause!r}"}
@@ -153,6 +153,7 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
     }
 
 
+@filelock.locked("subjects_path")
 def resolve(subjects_path, item_id, current_slot, cause_filter="ANY"):
     d = _load(subjects_path)
     entries = d.get("error_patterns", [])

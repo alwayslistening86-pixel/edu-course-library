@@ -78,6 +78,7 @@ prints a JSON report of what changed and what's still open.
 import json
 import os
 import sys
+from tutorlib import atomic_io
 
 COURSE_SCHEMA_VERSION = 4
 SUBJECT_SCHEMA_VERSION = 5
@@ -90,9 +91,7 @@ def _load(path):
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, data)
 
 
 def migrate_course(path):

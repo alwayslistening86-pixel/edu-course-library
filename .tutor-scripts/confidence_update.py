@@ -57,6 +57,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
+from tutorlib import atomic_io, filelock
 
 BASE_DELTA = {
     "pass_clean": 0.15,
@@ -108,11 +109,10 @@ def _load(path):
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, data)
 
 
+@filelock.locked("subjects_path")
 def apply(subjects_path, event, current_slot, misconception=False):
     """Read-modify-write: loads the current confidence, computes the new
     value with compute(), writes it back into subjects.json, and logs the

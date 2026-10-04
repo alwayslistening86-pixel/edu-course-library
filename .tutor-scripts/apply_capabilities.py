@@ -35,6 +35,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete, practical_stages  # noqa: E402
+from tutorlib import atomic_io
 
 
 def _load(path):
@@ -98,9 +99,7 @@ def main():
     new, report = apply(profile, course, subj)
     wrote = False
     if report["changed"] and not dry:
-        with open(subj_path, "w", encoding="utf-8") as f:
-            json.dump(new, f, indent=2, ensure_ascii=False)
-            f.write("\n")
+        atomic_io.write_json(subj_path, new)
         wrote = True
     report["wrote"] = wrote
     report["dry_run"] = dry

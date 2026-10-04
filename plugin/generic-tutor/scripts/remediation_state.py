@@ -66,6 +66,7 @@ Output: JSON to stdout.
 """
 import json
 import sys
+from tutorlib import atomic_io, filelock
 
 CAP = 2  # attempts before escalation — attempt 1 and attempt 2 are system-driven; attempt 3 never fires
 
@@ -76,11 +77,10 @@ def _load(path):
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(path, data)
 
 
+@filelock.locked("subjects_path")
 def record(subjects_path, stage_id, cause, current_slot):
     d = _load(subjects_path)
     rem = d.setdefault("remediation", {})
@@ -135,6 +135,7 @@ def record(subjects_path, stage_id, cause, current_slot):
     }
 
 
+@filelock.locked("subjects_path")
 def reset(subjects_path, stage_id):
     d = _load(subjects_path)
     rem = d.setdefault("remediation", {})

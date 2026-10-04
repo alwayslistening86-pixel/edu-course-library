@@ -49,8 +49,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete  # noqa: E402
+from tutorlib import atomic_io, filelock
 
 
+@filelock.locked("subjects_path")
 def resume(subjects_path, course_path, target_state, today_iso, reopen_profile=None, reopen_to=None):
     if target_state not in ("active", "dormant"):
         return {"resumed": False, "error": f"target_state must be active or dormant, got {target_state!r}"}
@@ -88,14 +90,10 @@ def resume(subjects_path, course_path, target_state, today_iso, reopen_profile=N
 
     subj["roster_state"] = target_state
     subj["last_updated"] = today_iso
-    with open(subjects_path, "w", encoding="utf-8") as f:
-        json.dump(subj, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    atomic_io.write_json(subjects_path, subj)
     if profile is not None:
         profile["highest_level_cleared"] = reopened["to"]
-        with open(reopen_profile, "w", encoding="utf-8") as f:
-            json.dump(profile, f, indent=2, ensure_ascii=False)
-            f.write("\n")
+        atomic_io.write_json(reopen_profile, profile)
     return {"resumed": True, "already_complete": already_complete, "reopened_level": reopened, "roster_state": target_state, "preserved_current_stage": subj.get("current_stage"),
             "preserved_pass_count": sum(1 for v in subj["syllabus_status"].values() if v == "pass")}
 

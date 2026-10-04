@@ -16,6 +16,13 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.13.0] — 2026-10-04
+### Fixed
+- **Lost updates under concurrency.** Overlapping calls to the state-writing scripts could each read the same file and overwrite one another's change (12 parallel `error_log.py append` calls kept only 6–9 entries). Writers now hold a per-file lock for the whole read-modify-write.
+- **Torn writes.** State files were written in place, so a crash mid-write could leave an unparseable file. All JSON state writes are now atomic (temp file + fsync + rename).
+### Added
+- `tutorlib` package (`atomic_io`, `filelock`) deployed alongside `toolkit` by the bootstrap; tests in `tests/test_tutorlib.py`.
+
 ## [1.12.0] — 2026-09-30
 - Coverage exclusions are disclosed to the learner even when `coverage_status` is `full`.
 
