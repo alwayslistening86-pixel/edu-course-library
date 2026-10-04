@@ -316,11 +316,15 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | X-09 | ✅ done | minors section in `docs/PRIVACY.md` |
 | X-10 | ✅ done | `NOTICE` |
 | D-04 | ✅ done | `docs/GLOSSARY.md` |
-| D-05 | 🟡 partial | `CHANGELOG.md` created (Keep-a-Changelog); CI enforcement of an entry per release still to do |
+| D-05 | ✅ done | `CHANGELOG.md` + CI check that the current `plugin.json` version has an entry |
 | S-03 | ✅ done | key sets of skill schema, `_template/course.json` and `migrate_schema.py` verified identical; `grounding_status: null` (unmigrated) documented |
 | S-04 | ✅ done | deck and `curriculum_map` shapes reconciled in `docs/DATA_MODEL.md` |
 | L-01 | ✅ done | `docs/PEDAGOGY.md` |
 | P-04 | ✅ done | `docs/adr/0001-hooks-and-platform-support.md` — hooks are Claude Code-only; verifier is primary (provisional, items to verify listed) |
+| D-02 | ✅ done | `docs/ARCHITECTURE.md` |
+| D-09 | ✅ done | ADRs 0002–0008 retrospectively recorded; index in `docs/adr/README.md` |
+| D-01 | 🟡 partial | changelog + ADRs created; `DESIGN_NOTES.md` deliberately left in place as long-form history (links depend on it) |
+| K-00 | 🟡 partial | `docs/SKILL_CONTRACT.md` template; lint rule to be added once skills adopt it |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

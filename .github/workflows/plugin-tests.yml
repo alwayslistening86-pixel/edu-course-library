@@ -55,6 +55,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 tools/lint_docs.py --strict
+      - name: CHANGELOG has an entry for the current plugin version
+        run: |
+          v=$(python3 -c "import json;print(json.load(open('plugin/generic-tutor/.claude-plugin/plugin.json'))['version'])")
+          grep -q "^## \[$v\]" CHANGELOG.md || { echo "CHANGELOG.md has no '## [$v]' entry"; exit 1; }
 
   lint:
     runs-on: ubuntu-latest
