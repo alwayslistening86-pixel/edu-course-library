@@ -57,7 +57,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
-from tutorlib import atomic_io, cli, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock, state
 
 BASE_DELTA = {
     "pass_clean": 0.15,
@@ -104,8 +104,7 @@ def compute(old_confidence, event, misconception=False):
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
@@ -170,12 +169,12 @@ def main():
         else:
             print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected compute|apply"}))
             sys.exit(2)
+    except cli.EXPECTED_ERRORS as e:
+        print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
+        sys.exit(1)
     except ValueError as e:
         print(json.dumps({"error": str(e)}))
         sys.exit(2)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
-        sys.exit(1)
     sys.exit(cli.emit(result))
 
 

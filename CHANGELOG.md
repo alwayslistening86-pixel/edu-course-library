@@ -16,6 +16,16 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.17.0] — 2026-10-04
+### Added
+- JSON Schemas for `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric` (`tutorlib/schemas/`), a stdlib validator (`tutorlib/schema.py`) and `validate_schema.py <kind> <file>`.
+- `tests/test_schemas.py`: every fixture and every file the scripts write validates; known-bad shapes (string confidence, `passed` vs `pass`, unknown roster state) are rejected.
+### Fixed
+- State-writing scripts no longer rewrite a file written by a **newer** plugin version (`schema_version` above what they understand) — they stop with a clear "update the plugin" error and leave the file untouched.
+- Malformed JSON, a non-object document or a lock timeout now produce `{"error": …}` with exit 1 instead of a Python traceback.
+### Changed
+- Six duplicated `_load` helpers replaced by `tutorlib/state.py`.
+
 ## [1.16.1] — 2026-10-04
 ### Changed
 - Eligibility rules ("which roster states may be taught", "which hold a slot", "is a course grounding-suspended") now have one definition in `cohort_status.py` (`LIVE_STATES`, `SLOT_STATES`, `is_suspended`) used by `gate_check`, `roster_check` and `cohort_status`. No behaviour change; golden CLI snapshots unchanged. A test fails if a script re-derives the rule with its own literals.

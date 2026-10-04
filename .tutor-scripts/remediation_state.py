@@ -66,14 +66,13 @@ Output: JSON to stdout.
 """
 import json
 import sys
-from tutorlib import atomic_io, cli, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock, state
 
 CAP = 2  # attempts before escalation — attempt 1 and attempt 2 are system-driven; attempt 3 never fires
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
@@ -185,7 +184,7 @@ def main():
         else:
             print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected record|reset|status"}))
             sys.exit(2)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
+    except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
     sys.exit(cli.emit(result))

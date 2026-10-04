@@ -60,14 +60,13 @@ Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
 import sys
-from tutorlib import atomic_io, cli, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock, state
 
 RESULTS = ("pass", "fail")
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
@@ -123,7 +122,7 @@ def main():
     _, _, subjects_path, course_path, stage_id, result = sys.argv
     try:
         out = apply(subjects_path, course_path, stage_id, result)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
+    except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
     sys.exit(cli.emit(out))

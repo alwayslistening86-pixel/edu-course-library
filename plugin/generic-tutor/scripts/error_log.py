@@ -76,7 +76,7 @@ resolve only); query is read-only.
 import json
 import os
 import sys
-from tutorlib import atomic_io, cli, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
@@ -86,8 +86,7 @@ CAUSES = ("slip", "missing_prerequisite", "misconception", "misapplied_procedure
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
@@ -258,7 +257,7 @@ def main():
         else:
             print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected append|resolve|query"}))
             sys.exit(2)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
+    except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
     sys.exit(cli.emit(result))

@@ -340,6 +340,11 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-11 | 🟡 partial | exit-code convention (0/1/2) implemented via `tutorlib/cli.py` and pinned by goldens (v1.16.0); stable error-code enum still open |
 | E-10 | 🟡 partial | `cli.emit` shared emitter; `{ok,data,error{code,message}}` envelope still open |
 | E-17 | ✅ done | `LIVE_STATES` / `SLOT_STATES` / `is_suspended` single-sourced in `cohort_status.py`; guard test; goldens unchanged (v1.16.1). `is_complete` was already shared; JSON-load helpers still duplicated (→ tutorlib IO) |
+| S-05 | 🟡 mostly | 6 schemas (profile, subjects, deck, course, curriculum_map, rubric) in `tutorlib/schemas/`; misconceptions/change.md/access/manifest/sqlite not yet |
+| S-06 | ✅ done | `tutorlib/schema.py` stdlib validator + `validate_schema.py` |
+| S-07 | ✅ done | `tests/test_schemas.py`: all fixtures and script-written files conform; bad shapes rejected |
+| S-09 | 🟡 partial | six writers refuse newer `schema_version` (`tutorlib/state.py`); migration framework (ordered named migrations) still open |
+| E-20 | 🟡 partial | safe loading + clear errors in the six writers; validate-before-write and readers still open |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

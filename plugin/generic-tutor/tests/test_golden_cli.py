@@ -66,6 +66,8 @@ CASES = {
                             ("validate_structure.py", ["{C}/nope"])], []),
     "erase_dry_run": ([("erase_profile.py", ["{R}", "amy", "--dry-run"])], []),
     "export_profile": ([("export_profile.py", ["{R}", "amy", "{T}/out.zip"])], []),
+    "validate_schema": ([("validate_schema.py", ["subjects", SUBJ]), ("validate_schema.py", ["course", SUBJ]),
+                         ("validate_schema.py", ["--kinds"]), ("validate_schema.py", ["nope", SUBJ])], []),
     "sqlite_backfill": ([("sqlite_store.py", ["backfill", "{L}"])], []),
 }
 

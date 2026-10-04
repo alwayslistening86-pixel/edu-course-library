@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.16.1",
+  "plugin_version": "1.17.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
@@ -22,6 +22,7 @@
     "roster_check.py",
     "slot_advance.py",
     "sqlite_store.py",
+    "validate_schema.py",
     "validate_structure.py"
   ],
   "packages": [

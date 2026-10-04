@@ -1124,3 +1124,18 @@ Audit expectation was four divergent copies of the eligible/complete/suspended l
 `is_suspended()`. Behaviour-neutral: the 27 golden CLI snapshots and the full suite are unchanged.
 `tests/test_eligibility.py` also scans the scripts so a re-derivation fails CI. `_load_json` helpers duplicated
 across scripts are left for the `tutorlib` IO consolidation.
+
+## 4 Oct 2026 — v1.17.0: schemas, validator, safe state loading (tasks S-05, S-06, S-07, S-09 part, E-20 part)
+
+Schemas are authored from what the scripts actually write and what the skills define, then proven against both: they
+accept every fixture and every file produced by running the real script flows, and reject the known historical
+shapes (string `confidence`, `passed`, unknown roster state). They live in `tutorlib/schemas/` so the bootstrap
+deploys them with the scripts; the validator (`tutorlib/schema.py`) implements only the JSON Schema subset used, with
+no dependency. Schemas are deliberately permissive on additional properties (forward compatibility) and strict on
+types, enums and ranges. `tutorlib/state.py` centralises JSON loading and adds the `schema_version`-newer-than-
+supported refusal; `SUPPORTED` is asserted equal to `migrate_schema.py`'s constants in a test so the two cannot drift.
+`cli.EXPECTED_ERRORS` gives the six writers one list of failures reported as JSON. Observation: the older
+`tests/test_scripts.py` fixtures use `confidence: "medium"` and `error_patterns: ["x"]` — shapes the schema now
+rejects; those tests exercise gating logic that ignores the fields, so they are left alone for now (cleanup under E-26).
+Runtime enforcement of schemas at script boundaries (validate-before-write) is not enabled yet; it will follow once
+real learner data has been run through `validate_schema.py` (E-20 remainder).

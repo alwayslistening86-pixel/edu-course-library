@@ -2,7 +2,7 @@
 
 Inventory of every persisted file, derived from the **scripts** (the executable truth), cross-checked against the skills. `/EDU/` below is the install's data root. When a skill and a script disagree, the script wins and the skill is a bug (tracked as S-xx).
 
-Machine-readable JSON Schemas will live in `plugin/generic-tutor/schemas/` (task S-05); until then this file is the reference.
+Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scripts/tutorlib/schemas/` (deployed with the scripts): `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric`. Check any file with `validate_schema.py <kind> <file>`. `tests/test_schemas.py` validates every file the scripts write. This file explains ownership and intent; the schemas are the executable definition. Not yet schematised: `misconceptions.json` (S-12), `change.md` (S-11), `access.json`, the manifest, SQLite tables.
 
 ## Layout and ownership
 
@@ -104,4 +104,4 @@ Append-only history, never read back into teaching decisions (JSON is authoritat
 | 3 | `consent` was enforced in code by one script out of nine writers | fixed in v1.14.0 (E-05, E-06) |
 | 4 | `tutor.sqlite3` absent from `/export` and from every skill | open (K-28) |
 | 5 | Template `course.json` has the same key set as the skill schema and `migrate_schema.py` (checked), but placeholder prose in value positions makes it a skeleton, not a valid instance | key sets reconciled (S-03); validity open (N-13) |
-| 6 | No script refuses a newer `schema_version` than it understands (confirmed: only `migrate_schema.py` touches the field) | open (S-09) |
+| 6 | No script refused a newer `schema_version` than it understands | fixed for the six state-writing scripts in v1.17.0 (`tutorlib/state.py`); readers such as `gate_check` still open (S-09/E-20) |

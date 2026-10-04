@@ -14,6 +14,11 @@ exited 0, so a caller checking only the exit status could not tell success from 
 """
 import json
 
+from tutorlib import filelock, state
+
+# Failures a script reports as {"error": ...} with exit 1 instead of a traceback.
+EXPECTED_ERRORS = (FileNotFoundError, json.JSONDecodeError, state.StateError, filelock.LockTimeout)
+
 
 def emit(result):
     """Print `result` as JSON and return the process exit code (1 if it carries an error)."""

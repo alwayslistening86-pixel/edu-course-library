@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "courses/<id>/rubric.json",
+  "type": "object",
+  "required": ["stage_rubrics"],
+  "properties": {
+    "stage_rubrics": {"type": "object", "additionalProperties": {"$ref": "#/definitions/entry"}},
+    "exam_rubric": {"$ref": "#/definitions/entry"}
+  },
+  "definitions": {
+    "entry": {"type": "object", "required": ["criteria", "pass_threshold", "source"], "properties": {
+      "criteria": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+      "pass_threshold": {"type": "string", "minLength": 1},
+      "source": {"type": "object", "required": ["issuing_body", "document", "reference"], "properties": {
+        "issuing_body": {"type": "string", "minLength": 1}, "document": {"type": "string", "minLength": 1}, "reference": {"type": "string", "minLength": 1}}}}}
+  }
+}

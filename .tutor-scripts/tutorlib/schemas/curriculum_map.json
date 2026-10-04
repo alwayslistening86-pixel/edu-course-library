@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "courses/<id>/curriculum_map.json",
+  "type": "object",
+  "properties": {
+    "_meta": {"type": "object"},
+    "_items_source": {"type": "object", "properties": {"document": {"type": "string"}, "url": {"type": "string"}, "version": {"type": "string"}, "itemised_on": {"type": "string"}}},
+    "_syllabus_items": {"type": "array", "items": {"type": "object", "required": ["id", "title"], "properties": {
+      "id": {"type": "string", "minLength": 1}, "title": {"type": "string"}, "topic_area": {"type": "string"}, "tier": {"type": "string"}}}},
+    "_declared_exclusions": {"type": "array", "items": {"type": "object", "required": ["id", "reason"], "properties": {"id": {"type": "string"}, "reason": {"type": "string", "minLength": 1}}}}
+  },
+  "patternProperties": {
+    "^[^_]": {"type": "object", "properties": {
+      "covers_syllabus_refs": {"type": "array", "items": {"type": "string"}},
+      "syllabus_topic": {"type": "string"},
+      "covers_items": {"type": "array", "items": {"type": "string"}}}}
+  }
+}

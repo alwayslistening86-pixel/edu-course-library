@@ -66,7 +66,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
-from tutorlib import atomic_io, cli, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock, state
 
 
 EASE_DEFAULT = 2.3
@@ -108,8 +108,7 @@ def compute(old_interval, old_ease, old_lapses, current_slot, correct):
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "review_deck")
 
 
 def _save(path, data):
@@ -167,7 +166,7 @@ def main():
         correct = correct_s.strip().lower() == "true"
         try:
             result = apply(deck_path, card_id, current_slot, correct)
-        except (FileNotFoundError, json.JSONDecodeError) as e:
+        except cli.EXPECTED_ERRORS as e:
             print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
             sys.exit(1)
         sys.exit(cli.emit(result))
