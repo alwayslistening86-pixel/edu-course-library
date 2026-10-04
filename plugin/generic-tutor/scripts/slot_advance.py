@@ -30,7 +30,6 @@ double-/run window; either way "current_slot" is still reported.
 import argparse
 import datetime
 import json
-import sys
 
 DEFAULT_MIN_GAP_MINUTES = 180
 

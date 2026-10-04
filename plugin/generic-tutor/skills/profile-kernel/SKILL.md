@@ -3,7 +3,7 @@ name: profile-kernel
 description: Multi-learner profile system for the tutor — handles /run, /add-profile, /profile, and the first-ever-load intake landing flow when /EDU/profile/ is completely empty. Owns the one cumulative unlock ledger (highest_level_cleared) and the roster capacity a learner has committed to.
 ---
 
-# Profile Kernel — v6 (roster-capped, level-ledger, capability declarations, isolated by folder)
+# Profile Kernel (roster-capped, level-ledger, capability declarations, isolated by folder)
 
 ## Invocation
 `/run <user_id>` activates a learner's profile for the session. `/profile` shows or updates the *currently active* learner's aggregated profile. `/add-profile <user_id>` creates a new learner alongside existing ones. None of this runs on inferred intent — see the landing logic below for the one deliberate exception.
@@ -94,6 +94,7 @@ Fill in what you get; leave the rest unset rather than guessing.
   "highest_level_cleared": 0,
   "capabilities": { "share_images": { "declared": true, "on": "ISO date" } },
   "session_slot": 0,
+  "session_slot_advanced_at": "ISO UTC timestamp (slot_advance.py's double-/run guard)",
   "last_updated": "ISO date"
 }
 ```

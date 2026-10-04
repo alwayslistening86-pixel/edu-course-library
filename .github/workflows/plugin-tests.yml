@@ -7,12 +7,18 @@ on:
       - "plugin/generic-tutor/**"
       - ".tutor-scripts/**"
       - "pyproject.toml"
+      - "tools/**"
+      - "docs/**"
+      - "*.md"
       - ".github/workflows/plugin-tests.yml"
   pull_request:
     paths:
       - "plugin/generic-tutor/**"
       - ".tutor-scripts/**"
       - "pyproject.toml"
+      - "tools/**"
+      - "docs/**"
+      - "*.md"
       - ".github/workflows/plugin-tests.yml"
   workflow_dispatch: {}
 
@@ -40,6 +46,28 @@ jobs:
       # `python3 -m unittest discover tests -v` does on the actual device.
       - name: Run full test suite
         run: python3 -m unittest discover tests -v
+
+  docs-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 tools/lint_docs.py --strict
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install ruff==0.15.20 mypy==1.20.2
+      - name: ruff (lint only; formatting is not enforced, see pyproject.toml)
+        run: ruff check plugin .github
+      - name: mypy
+        run: mypy plugin/generic-tutor/scripts
 
   # The deployed runtime copy must match the plugin source exactly (only the
   # generated .manifest.json is allowed to exist on one side), and its recorded

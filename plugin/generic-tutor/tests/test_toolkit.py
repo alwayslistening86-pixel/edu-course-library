@@ -288,7 +288,7 @@ class TestBootstrapPackages(unittest.TestCase):
         os.makedirs(os.path.join(self.src, "not_a_package"))
         with open(os.path.join(self.src, "not_a_package", "stray.py"), "w") as f:
             f.write("")
-        result = bootstrap_scripts.bootstrap(self.src, self.plugin_json, self.target)
+        bootstrap_scripts.bootstrap(self.src, self.plugin_json, self.target)
         self.assertFalse(os.path.isdir(os.path.join(self.target, "not_a_package")))
 
     def test_update_replaces_stale_package_wholesale(self):

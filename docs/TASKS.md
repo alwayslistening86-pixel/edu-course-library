@@ -299,6 +299,16 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | R-02 | ✅ done | `CONTRIBUTING.md`, PR template, 3 issue templates |
 | R-03 | ✅ done | `pyproject.toml` (Python ≥3.10, ruff/mypy config; tools not yet enforced — R-04/R-05) |
 | R-06 | ✅ done | CI matrix 3.10 / 3.12 / 3.13; suite verified locally on 3.10 and 3.13 |
+| R-04 | ✅ done | `ruff check` clean (lint only; style rules E701/E702/E741/E402 deliberately ignored; `ruff format` not adopted — would rewrite 41 files for no behavioural gain). Real findings fixed (dead vars, unused imports, lambda) |
+| R-05 | ✅ done | `mypy plugin/generic-tutor/scripts` already clean at lenient settings; now a CI job |
+| R-07 | ✅ done | CI split into `test` (matrix), `lint`, `docs-lint`, `deployed-sync` |
+| R-09 | ✅ done | `.pre-commit-config.yaml` (ruff, json/yaml checks, scripts-sync) |
+| R-10 | ✅ done | verified: no generated files tracked |
+| S-01 | ✅ done | `docs/DATA_MODEL.md` (inventory from code; owners per field; 6 discrepancies logged) |
+| S-10 | ✅ done | versioning policy in `docs/DATA_MODEL.md` |
+| D-07 | ✅ done | `tools/lint_docs.py` + tests; checks script refs, command↔skill wiring, names, versions, links |
+| K-35 | 🟡 partial | private `vN` removed from 4 skill headings; release-history prose inside skills remains |
+| E-14 | ℹ️ note | `slot_advance.py` already has a time-window double-`/run` guard; E-14 narrows to a session-token guard |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

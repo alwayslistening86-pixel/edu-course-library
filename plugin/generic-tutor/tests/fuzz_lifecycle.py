@@ -18,7 +18,12 @@ Env: TUTOR_SCRIPTS=<dir> to point at another scripts/ folder; NO_WAKE_ON_DROP=1 
 Covers: one stage ladder, no exams, no suspension, no consent modes, no convergence testing, one learner.
 It exercises the scripts as I read the prose; it cannot show that Claude follows the prose.
 """
-import sys, json, os, tempfile, random, shutil
+import sys
+import json
+import os
+import tempfile
+import random
+import shutil
 S = os.environ.get("TUTOR_SCRIPTS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts"))
 sys.path.insert(0, S)
 from roster_check import compute as roster

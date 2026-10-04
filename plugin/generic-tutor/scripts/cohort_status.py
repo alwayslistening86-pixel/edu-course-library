@@ -176,7 +176,7 @@ def compute_cohorts(subjects_dir, courses_dir):
         })
 
     # finalize each cohort: convergence + bottleneck
-    for cohort_key, data in cohorts.items():
+    for data in cohorts.values():
         eligible_members = [m for m in data["members"] if m["eligible"]]
         not_ready = [m for m in eligible_members if not m["test_ready"]]
 
@@ -286,7 +286,7 @@ def level_walk(cohorts, current_ledger):
             return None
 
     by_level = {}
-    for key, data in cohorts.items():
+    for data in cohorts.values():
         n = _num(data.get("cohort_id"))
         if n is not None:
             by_level[n] = data

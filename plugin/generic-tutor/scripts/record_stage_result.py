@@ -59,7 +59,6 @@ Usage:
 Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
-import os
 import sys
 
 RESULTS = ("pass", "fail")

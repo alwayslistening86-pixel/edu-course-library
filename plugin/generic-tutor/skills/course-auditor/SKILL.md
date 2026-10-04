@@ -3,7 +3,7 @@ name: course-auditor
 description: Full-suite maintenance sweep across every course under /EDU/courses/, active or not — structural fixes, schema migration so plugin upgrades never strand existing courses, grounding re-verification with suspend/revive rather than silent patching, and a syllabus-coverage pass that itemises each specification and reports exactly what no stage teaches. A version-check stub can surface that an audit is recommended; actually applying fixes always requires explicit /audit confirmation.
 ---
 
-# Course Auditor — v3 (structural, schema, grounding, coverage and adaptive-layer integrity, global scope)
+# Course Auditor (structural, schema, grounding, coverage and adaptive-layer integrity, global scope)
 
 ## Invocation and scope
 `/audit` is explicitly global — it walks every course under `/EDU/courses/`, and every learner's `subjects/` folder that references one, regardless of whether anyone is currently enrolled or active in it. This is deliberately a different kind of skill from every other one in this plugin: those operate on one active learner or one course being taught; this one is a maintenance/admin operation and should never be confused with a teaching action.

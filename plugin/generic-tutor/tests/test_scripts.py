@@ -250,7 +250,8 @@ class SlotCounterTests(TmpCase):
 
     def test_guard_boundaries(self):
         now = datetime.datetime(2026, 9, 18, 10, 0, tzinfo=datetime.timezone.utc)
-        stamp = lambda d: (now - d).isoformat().replace("+00:00", "Z")
+        def stamp(d):
+            return (now - d).isoformat().replace("+00:00", "Z")
         # same instant and just inside the window skip; exactly at the window advances
         self.assertIn("skipped", slot_advance.advance(self._profile(session_slot_advanced_at=stamp(datetime.timedelta(0))), now=now))
         self.assertIn("skipped", slot_advance.advance(self._profile(session_slot_advanced_at=stamp(datetime.timedelta(minutes=179))), now=now))
@@ -437,7 +438,7 @@ class ReopenEdgeCaseTests(TmpCase):
 
     def test_completed_dropped_course_reopens_nothing(self):
         L = self.L
-        pp = self._profile(2)
+        self._profile(2)
         L.course("X", level=2); L.enrol("X", "dropped", 3, cohort=2)     # fully passed
         L.course("Z", level=3); L.enrol("Z", "active", 0, cohort=3)
         r = roster_check.compute(L.profile, L.courses, 2, resume=True, resume_course_id="X")

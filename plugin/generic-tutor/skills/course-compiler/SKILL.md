@@ -3,7 +3,7 @@ name: course-compiler
 description: Discovers real, sourceable curricula and compiles a new course folder via /add-course, transcribing a rubric from the real source rather than inventing one. Checks roster capacity and level-lock consequences before building, and reuses an existing canonical course instead of rebuilding a duplicate.
 ---
 
-# Course Compiler — v7 (dedup-aware, roster- and level-gated, prerequisite-gated, standalone-aware, sourced rubric required, whole-syllabus itemised)
+# Course Compiler (dedup-aware, roster- and level-gated, prerequisite-gated, standalone-aware, sourced rubric required, whole-syllabus itemised)
 
 ## Invocation
 This skill runs **only** when the learner uses `/add-course`, or has just been shown that command and confirms they want to proceed. A natural-language request that sounds like "add a course" but doesn't use the command should get a one-line pointer to `/add-course` rather than triggering this skill directly.

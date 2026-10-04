@@ -104,7 +104,6 @@ def record(subjects_path, stage_id, cause, current_slot):
 
     entry["attempts"] += 1
     entry["last_cause"] = cause
-    same_cause_as_last = None  # only meaningful from attempt 2 on; harmless to omit on attempt 1
 
     if entry["attempts"] == 1:
         action = "same_framework_reexplain"
@@ -159,7 +158,7 @@ def main():
     if len(sys.argv) < 3:
         print(json.dumps({"error": "usage: remediation_state.py record|reset|status <subjects.json> <stage_id> [cause] [current_slot]"}))
         sys.exit(2)
-    cmd, subjects_path, stage_id = sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None
+    cmd, subjects_path = sys.argv[1], sys.argv[2]
     try:
         if cmd == "record":
             if len(sys.argv) != 6:
