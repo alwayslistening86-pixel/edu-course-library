@@ -5,10 +5,12 @@ on:
     branches: [main]
     paths:
       - "plugin/generic-tutor/**"
+      - ".tutor-scripts/**"
       - ".github/workflows/plugin-tests.yml"
   pull_request:
     paths:
       - "plugin/generic-tutor/**"
+      - ".tutor-scripts/**"
       - ".github/workflows/plugin-tests.yml"
   workflow_dispatch: {}
 
@@ -32,6 +34,24 @@ jobs:
       # `python3 -m unittest discover tests -v` does on the actual device.
       - name: Run full test suite
         run: python3 -m unittest discover tests -v
+
+  # The deployed runtime copy must match the plugin source exactly (only the
+  # generated .manifest.json is allowed to exist on one side), and its recorded
+  # version must match plugin.json.
+  deployed-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: .tutor-scripts matches plugin/generic-tutor/scripts
+        run: diff -r -x .manifest.json -x __pycache__ plugin/generic-tutor/scripts .tutor-scripts
+      - name: Manifest version matches plugin.json
+        run: |
+          python3 - <<'EOF'
+          import json
+          m = json.load(open(".tutor-scripts/.manifest.json"))["plugin_version"]
+          p = json.load(open("plugin/generic-tutor/.claude-plugin/plugin.json"))["version"]
+          assert m == p, f"manifest {m} != plugin.json {p}"
+          EOF
 
   # validate-courses moved to edu-courses-private's own CI (30 Sep 2026) --
   # courses/ no longer lives in this repo, see README. .github/scripts/

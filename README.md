@@ -1,8 +1,9 @@
 # EDU course library
 
 A personal, self-hosted tutoring system built on the **generic-tutor** plugin
-for Claude/Cowork: a real academic course library (currently 62 courses,
-spanning GCSE through degree level and several standalone qualifications),
+for Claude/Cowork: a real academic course library (62 courses at last count, kept in a
+private companion repo — GCSE through degree level plus several standalone
+qualifications),
 taught interactively by Claude against sourced rubrics and specifications,
 with per-learner progress tracking, spaced-repetition review, and an
 adaptive layer that diagnoses *why* an answer was wrong rather than just
@@ -28,8 +29,9 @@ plugin/generic-tutor/  Source for the generic-tutor Cowork plugin: the tutor eng
                      (skills, scripts, tests) — see its own README/DESIGN_NOTES.md
 .tutor-scripts/      Deployed runtime copy of plugin/generic-tutor/scripts/, kept in sync
                      by bootstrap_scripts.py — what actually runs against a real install
-.github/             CI: runs the plugin's test suite and validates every course's
-                     structure/coverage on every push and pull request
+.github/             CI: runs the plugin's test suite and checks .tutor-scripts/ hasn't
+                     drifted from the plugin source. scripts/validate_courses.py is
+                     run from the private repo's CI against its own courses/
 profile/             Per-learner progress (empty in this repo — see Privacy below)
 ```
 
@@ -42,8 +44,7 @@ me and need them.
 ## How it works
 
 1. Install the `generic-tutor` plugin (built from `plugin/generic-tutor/` —
-   package it with `zip -r generic-tutor.plugin .` from inside that folder,
-   or grab a packaged release from this repo's Releases page) into Claude
+   package it with `zip -r generic-tutor.plugin .` from inside that folder) into Claude
    Cowork.
 2. Connect a real course-library folder (containing `courses/` — from the
    private repo, or your own) to a Cowork session ("Work in a folder").
