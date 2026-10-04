@@ -6,6 +6,8 @@ import os
 
 from tutorlib import ids
 
+DEPLOY_DIR_NAME = ".tutor-scripts"
+
 
 class OutsideRoot(ValueError):
     pass
@@ -27,3 +29,38 @@ def learner_dir(profile_root, user_id):
         raise OutsideRoot(f"{d!r} is a symlink")
     ensure_within(profile_root, d)
     return d
+
+
+def resolve_root(explicit=None, env=None, here=None):
+    """Find the tutor data root ("/EDU/" in the skills) in code instead of in prose (E-07).
+
+    Order: explicit argument -> $EDU_ROOT -> the folder that contains the deployed
+    `.tutor-scripts/` this module is running from. Returns an absolute path or None.
+    """
+    env = os.environ if env is None else env
+    if explicit:
+        return os.path.abspath(explicit)
+    if env.get("EDU_ROOT"):
+        return os.path.abspath(env["EDU_ROOT"])
+    here = os.path.dirname(os.path.dirname(os.path.abspath(here or __file__)))  # .../.tutor-scripts
+    if os.path.basename(here) == DEPLOY_DIR_NAME:
+        return os.path.dirname(here)
+    return None
+
+
+def layout(root):
+    """Standard locations under a root, plus anything wrong with them."""
+    problems = []
+    out = {"root": root}
+    if not root or not os.path.isdir(root):
+        return {**out, "courses": None, "profile": None, "tutor_scripts": None, "valid": False,
+                "problems": [f"data root not found: {root!r}"]}
+    out.update({"courses": os.path.join(root, "courses"), "profile": os.path.join(root, "profile"),
+                "tutor_scripts": os.path.join(root, DEPLOY_DIR_NAME)})
+    if not os.path.isdir(out["courses"]):
+        problems.append("no courses/ folder - connect the folder that contains your courses (or the private courses repo)")
+    if not os.path.isdir(out["profile"]):
+        problems.append("no profile/ folder yet - first run: /add-profile creates it")
+    if not os.path.isdir(out["tutor_scripts"]):
+        problems.append("scripts not deployed (.tutor-scripts/ missing) - run /run so the plugin can deploy them")
+    return {**out, "valid": not problems, "problems": problems}

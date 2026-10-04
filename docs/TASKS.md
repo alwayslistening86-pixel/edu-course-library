@@ -345,6 +345,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | S-07 | ✅ done | `tests/test_schemas.py`: all fixtures and script-written files conform; bad shapes rejected |
 | S-09 | 🟡 partial | six writers refuse newer `schema_version` (`tutorlib/state.py`); migration framework (ordered named migrations) still open |
 | E-20 | 🟡 partial | safe loading + clear errors in the six writers; validate-before-write and readers still open |
+| E-07 | ✅ done | `tutorlib.paths.resolve_root/layout` + `resolve_root.py`; profile-kernel uses it (v1.18.0). Individual scripts still take explicit paths from the caller by design |
+| E-15 | ✅ done | `PRAGMA user_version`, newer-DB refusal, `sqlite_store.py check`; WAL deliberately not enabled |
+| E-22 | ✅ done | bootstrap sha256 drift repair + recorded-orphan removal; tests in `test_bootstrap_repair.py` |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

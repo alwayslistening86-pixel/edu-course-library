@@ -1,0 +1,17 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "sqlite_store.py",
+        "check",
+        "{L}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "exists": false
+      }
+    }
+  ]
+}

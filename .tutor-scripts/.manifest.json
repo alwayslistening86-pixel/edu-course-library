@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.17.0",
+  "plugin_version": "1.18.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
@@ -17,6 +17,7 @@
     "prereq_check.py",
     "record_stage_result.py",
     "remediation_state.py",
+    "resolve_root.py",
     "resume_enrollment.py",
     "review_math.py",
     "roster_check.py",

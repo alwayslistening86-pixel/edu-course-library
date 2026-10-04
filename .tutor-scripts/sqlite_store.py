@@ -172,11 +172,45 @@ def _course_id_from_path(subjects_or_deck_path):
     return name
 
 
+# PRAGMA user_version of the history DB (E-15). 0 = created before versioning (same tables; stamped on first use).
+DB_SCHEMA_VERSION = 1
+
+
+class NewerDatabase(RuntimeError):
+    pass
+
+
 def _connect(any_profile_path):
     db_path = learner_db_path(any_profile_path)
     con = sqlite3.connect(db_path, timeout=5)
+    version = con.execute("PRAGMA user_version").fetchone()[0]
+    if version > DB_SCHEMA_VERSION:
+        con.close()
+        raise NewerDatabase(
+            f"{db_path} is history schema v{version}, newer than this plugin understands (v{DB_SCHEMA_VERSION}); "
+            "update the generic-tutor plugin")
     con.executescript(SCHEMA)
+    if version < DB_SCHEMA_VERSION:
+        con.execute(f"PRAGMA user_version = {DB_SCHEMA_VERSION}")
     return con
+
+
+def check(learner_dir):
+    """Read-only health report for a learner's history DB: version, integrity, row counts."""
+    db_path = os.path.join(learner_dir, "tutor.sqlite3")
+    if not os.path.isfile(db_path):
+        return {"exists": False}
+    con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+    try:
+        version = con.execute("PRAGMA user_version").fetchone()[0]
+        integrity = [r[0] for r in con.execute("PRAGMA integrity_check")]
+        tables = [r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name")]
+        counts = {t: con.execute(f'SELECT COUNT(*) FROM "{t}"').fetchone()[0] for t in tables}
+    finally:
+        con.close()
+    ok = integrity == ["ok"] and version <= DB_SCHEMA_VERSION
+    return {"exists": True, "user_version": version, "supported_version": DB_SCHEMA_VERSION,
+            "integrity": integrity, "row_counts": counts, "healthy": ok}
 
 
 def _safe(kind=consent.SIGNAL):
@@ -424,6 +458,10 @@ def backfill(learner_dir):
 if __name__ == "__main__":
     if len(sys.argv) == 3 and sys.argv[1] == "backfill":
         print(json.dumps(backfill(sys.argv[2]), indent=2))
+    elif len(sys.argv) == 3 and sys.argv[1] == "check":
+        _r = check(sys.argv[2])
+        print(json.dumps(_r, indent=2))
+        sys.exit(0 if _r.get("healthy", True) else 1)
     else:
-        print(json.dumps({"error": "usage: sqlite_store.py backfill <learner_dir>  (this module is otherwise imported, not run directly)"}))
+        print(json.dumps({"error": "usage: sqlite_store.py backfill|check <learner_dir>  (this module is otherwise imported, not run directly)"}))
         sys.exit(2)

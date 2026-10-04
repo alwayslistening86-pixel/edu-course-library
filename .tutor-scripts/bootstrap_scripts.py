@@ -57,6 +57,7 @@ Usage:
 "version" field. <target .tutor-scripts dir> is created if it doesn't
 exist. Output: JSON to stdout.
 """
+import hashlib
 import json
 import os
 import shutil
@@ -81,6 +82,52 @@ def _load_json(path):
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return None
+
+
+def _sha(path):
+    with open(path, "rb") as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+
+def _tree_digest(base, files, packages):
+    """{relative path: sha256} for the shipped top-level .py files and every file in the shipped packages."""
+    out = {}
+    for fn in files:
+        out[fn] = _sha(os.path.join(base, fn)) if os.path.isfile(os.path.join(base, fn)) else None
+    for pkg in packages:
+        root = os.path.join(base, pkg)
+        for dp, dn, fns in os.walk(root):
+            dn[:] = [d for d in dn if d != "__pycache__"]
+            for f in fns:
+                if f.endswith(".pyc"):
+                    continue
+                full = os.path.join(dp, f)
+                out[os.path.relpath(full, base).replace(os.sep, "/")] = _sha(full)
+    return out
+
+
+def _drift(source_dir, target_dir, files, packages):
+    """Shipped files that are missing or modified in the target, and extra files inside shipped packages."""
+    want = _tree_digest(source_dir, files, packages)
+    have = _tree_digest(target_dir, files, packages)
+    missing = sorted(k for k in want if k not in have or have[k] is None)
+    modified = sorted(k for k in want if k in have and have[k] is not None and have[k] != want[k])
+    extra = sorted(k for k in have if k not in want)
+    return {"missing": missing, "modified": modified, "extra": extra}
+
+
+def _remove_orphans(target_dir, deployed, files, packages):
+    """Remove only what an earlier deploy recorded and this bundle no longer ships (never unknown files)."""
+    removed = []
+    for fn in (deployed or {}).get("files", []):
+        if fn not in files and os.path.isfile(os.path.join(target_dir, fn)):
+            os.unlink(os.path.join(target_dir, fn))
+            removed.append(fn)
+    for pkg in (deployed or {}).get("packages", []):
+        if pkg not in packages and os.path.isdir(os.path.join(target_dir, pkg)):
+            shutil.rmtree(os.path.join(target_dir, pkg))
+            removed.append(pkg + "/")
+    return removed
 
 
 def bootstrap(source_dir, plugin_json_path, target_dir):
@@ -132,17 +179,29 @@ def bootstrap(source_dir, plugin_json_path, target_dir):
             "to_version": running_version_str,
             "files_written": written,
         }
+    orphans_to_check = deployed
 
     if deployed_version < running_version:
         written = _write_all()
+        removed = _remove_orphans(target_dir, orphans_to_check, shipped_files, shipped_packages)
         return {
             "action": "updated",
             "from_version": deployed_version_str,
             "to_version": running_version_str,
             "files_written": written,
+            "orphans_removed": removed,
         }
 
     if deployed_version == running_version:
+        drift = _drift(source_dir, target_dir, shipped_files, shipped_packages)
+        if drift["missing"] or drift["modified"]:  # extra files inside a package are harmless and left alone
+            written = _write_all()
+            return {
+                "action": "repaired",
+                "version": running_version_str,
+                "drift": drift,
+                "files_written": written,
+            }
         return {
             "action": "up_to_date",
             "version": running_version_str,

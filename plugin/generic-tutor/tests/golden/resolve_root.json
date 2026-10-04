@@ -1,0 +1,43 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "resolve_root.py",
+        "--root",
+        "{T}"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "courses": "<TMP>/courses",
+        "problems": [
+          "scripts not deployed (.tutor-scripts/ missing) - run /run so the plugin can deploy them"
+        ],
+        "profile": "<TMP>/profile",
+        "root": "<TMP>",
+        "tutor_scripts": "<TMP>/.tutor-scripts",
+        "valid": false
+      }
+    },
+    {
+      "cmd": [
+        "resolve_root.py",
+        "--root",
+        "{T}/missing"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "courses": null,
+        "problems": [
+          "data root not found: '<TMP>/missing'"
+        ],
+        "profile": null,
+        "root": "<TMP>/missing",
+        "tutor_scripts": null,
+        "valid": false
+      }
+    }
+  ]
+}

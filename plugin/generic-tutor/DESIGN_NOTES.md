@@ -1139,3 +1139,14 @@ supported refusal; `SUPPORTED` is asserted equal to `migrate_schema.py`'s consta
 rejects; those tests exercise gating logic that ignores the fields, so they are left alone for now (cleanup under E-26).
 Runtime enforcement of schemas at script boundaries (validate-before-write) is not enabled yet; it will follow once
 real learner data has been run through `validate_schema.py` (E-20 remainder).
+
+## 4 Oct 2026 — v1.18.0: root resolution, history-DB versioning, bootstrap repair (tasks E-07, E-15, E-22)
+
+Three small robustness items. (1) `/EDU/` had always been a placeholder the model had to resolve per install; the
+resolver is now code with an explicit precedence and a layout report that `/doctor` (P-13) will reuse. (2) The
+history DB carries `PRAGMA user_version`; databases created before versioning (0) are stamped on first use with no
+data change; a newer one is left byte-for-byte alone. WAL mode was considered and rejected for now: it adds sidecar
+files that complicate backup/erase/export for no measured benefit at this write volume. (3) The bootstrap trusted the
+version number alone, so a hand-edited or partially-deleted `.tutor-scripts/` stayed broken until the next release.
+Same-version runs now diff the target against the bundle (sha256) and repair missing/modified files; extra files
+inside a shipped package are tolerated; orphan removal is limited to what an earlier manifest recorded.

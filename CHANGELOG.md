@@ -16,6 +16,14 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.18.0] — 2026-10-04
+### Added
+- **Data root resolved in code** (`tutorlib.paths.resolve_root`, `resolve_root.py`): `--root`, `$EDU_ROOT`, or the folder containing the deployed `.tutor-scripts/`; reports missing `courses/`, `profile/` or undeployed scripts with actionable messages. `profile-kernel` now calls it instead of resolving `/EDU/` by prose.
+- **History DB versioning**: `tutor.sqlite3` is stamped with `PRAGMA user_version`; a DB from a newer plugin is refused (not modified); `sqlite_store.py check <learner_dir>` reports version, integrity and row counts.
+### Fixed
+- **Deployed scripts could silently drift**: at an unchanged plugin version a modified or missing deployed file was never restored. The bootstrap now compares against the bundle and repairs (`action: "repaired"`, with the drift listed).
+- Upgrades now remove files and packages a previous deploy recorded but the new bundle no longer ships (never unknown files).
+
 ## [1.17.0] — 2026-10-04
 ### Added
 - JSON Schemas for `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric` (`tutorlib/schemas/`), a stdlib validator (`tutorlib/schema.py`) and `validate_schema.py <kind> <file>`.

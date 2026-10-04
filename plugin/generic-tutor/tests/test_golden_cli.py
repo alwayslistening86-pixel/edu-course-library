@@ -68,6 +68,8 @@ CASES = {
     "export_profile": ([("export_profile.py", ["{R}", "amy", "{T}/out.zip"])], []),
     "validate_schema": ([("validate_schema.py", ["subjects", SUBJ]), ("validate_schema.py", ["course", SUBJ]),
                          ("validate_schema.py", ["--kinds"]), ("validate_schema.py", ["nope", SUBJ])], []),
+    "resolve_root": ([("resolve_root.py", ["--root", "{T}"]), ("resolve_root.py", ["--root", "{T}/missing"])], []),
+    "sqlite_check": ([("sqlite_store.py", ["check", "{L}"])], []),
     "sqlite_backfill": ([("sqlite_store.py", ["backfill", "{L}"])], []),
 }
 
