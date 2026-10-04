@@ -16,6 +16,13 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.19.0] — 2026-10-04
+### Added
+- **Session ledger and verifier — closes the "model never called the script" gap.** Every state-changing script appends a line to `<learner>/.session_ledger.jsonl` (slot, script, action, course, stage, outcome; written under `granted`/`limited`, never `revoked`). `verify_session.py` checks a session's lines against "A implies B" rules (a stage pass needs a confidence update and review cards; a fail needs a confidence update and a remediation attempt; no duplicates; the slot was advanced). `/run` now audits the previous session and tells the learner about any gap — it reports and offers a repair, never back-fills a grade.
+- `invariants.py`: cross-file consistency checks (schemas, ladder vs progress, linear order, deck stages, duplicate ids, slot regression).
+- Fault-injection tests: 8 injected omissions/repeats, all detected (target ≥95%), and complete sessions produce no findings.
+- `/export` includes the ledger.
+
 ## [1.18.0] — 2026-10-04
 ### Added
 - **Data root resolved in code** (`tutorlib.paths.resolve_root`, `resolve_root.py`): `--root`, `$EDU_ROOT`, or the folder containing the deployed `.tutor-scripts/`; reports missing `courses/`, `profile/` or undeployed scripts with actionable messages. `profile-kernel` now calls it instead of resolving `/EDU/` by prose.

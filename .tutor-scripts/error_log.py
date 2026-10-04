@@ -76,7 +76,7 @@ resolve only); query is read-only.
 import json
 import os
 import sys
-from tutorlib import atomic_io, cli, consent, filelock, state
+from tutorlib import atomic_io, cli, consent, filelock, ledger, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
@@ -98,6 +98,7 @@ def _next_id(entries, stage_id, today_iso):
     return f"err_{today_iso}_{stage_id}_{seq:03d}"
 
 
+@ledger.logged("error_log.py", "subjects_path")
 @filelock.locked("subjects_path")
 def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE"):
     if cause not in CAUSES:
@@ -155,6 +156,7 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
     }
 
 
+@ledger.logged("error_log.py", "subjects_path")
 @filelock.locked("subjects_path")
 def resolve(subjects_path, item_id, current_slot, cause_filter="ANY"):
     d = _load(subjects_path)

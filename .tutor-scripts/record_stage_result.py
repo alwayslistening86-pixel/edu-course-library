@@ -60,7 +60,7 @@ Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
 import sys
-from tutorlib import atomic_io, cli, consent, filelock, state
+from tutorlib import atomic_io, cli, consent, filelock, ledger, state
 
 RESULTS = ("pass", "fail")
 
@@ -73,6 +73,7 @@ def _save(path, data):
     atomic_io.write_json(path, data)
 
 
+@ledger.logged("record_stage_result.py", "subjects_path")
 @filelock.locked("subjects_path")
 def apply(subjects_path, course_path, stage_id, result):
     if result not in RESULTS:

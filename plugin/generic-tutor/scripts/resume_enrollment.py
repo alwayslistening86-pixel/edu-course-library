@@ -49,9 +49,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete  # noqa: E402
-from tutorlib import atomic_io, cli, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock, ledger
 
 
+@ledger.logged("resume_enrollment.py", "subjects_path")
 @filelock.locked("subjects_path")
 def resume(subjects_path, course_path, target_state, today_iso, reopen_profile=None, reopen_to=None):
     if target_state not in ("active", "dormant"):

@@ -348,6 +348,13 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-07 | ✅ done | `tutorlib.paths.resolve_root/layout` + `resolve_root.py`; profile-kernel uses it (v1.18.0). Individual scripts still take explicit paths from the caller by design |
 | E-15 | ✅ done | `PRAGMA user_version`, newer-DB refusal, `sqlite_store.py check`; WAL deliberately not enabled |
 | E-22 | ✅ done | bootstrap sha256 drift repair + recorded-orphan removal; tests in `test_bootstrap_repair.py` |
+| V-01 | ✅ done | `tutorlib/ledger.py`; 8 writers log; consent-aware (v1.19.0) |
+| V-02 | ✅ done (as code) | expected-writes model is the rule set in `verify_session.py` (documented in its docstring), derived from the ledger rather than a separate JSON |
+| V-03 | ✅ done | `verify_session.py` |
+| V-04 | ➖ dropped | model-emitted event lines are unnecessary: scripts leave the trace; see DESIGN_NOTES v1.19.0 |
+| V-05 | ✅ done | 8 injected faults all detected; clean sessions produce no findings |
+| V-06 | ✅ done | profile-kernel `/run` audits the previous session and reports without back-filling |
+| V-08 | ✅ done | `invariants.py` (not yet wired into a `/doctor` command — P-13) |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

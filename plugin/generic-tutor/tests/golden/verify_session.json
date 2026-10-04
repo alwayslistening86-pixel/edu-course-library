@@ -1,0 +1,99 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "slot_advance.py",
+        "{P}/student_profile.json",
+        "--min-gap-minutes",
+        "0"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "current_slot": 6,
+        "previous_slot": 5
+      }
+    },
+    {
+      "cmd": [
+        "record_stage_result.py",
+        "apply",
+        "{S}/mathA.json",
+        "{C}/mathA/course.json",
+        "S2",
+        "pass"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advanced_to": "S3",
+        "current_stage": "S3",
+        "previous_status": "unsat",
+        "result": "pass",
+        "stage_id": "S2",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "verify_session.py",
+        "{L}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "findings": [
+          {
+            "course_id": "mathA",
+            "message": "S2 was recorded as passed but confidence was not updated (confidence_update.py apply … pass_clean|pass_remediated)",
+            "rule": "stage-pass-confidence",
+            "severity": "missing",
+            "stage_id": "S2"
+          },
+          {
+            "course_id": "mathA",
+            "message": "S2 was recorded as passed but the review deck has no cards for it (stage-recap did not seed the deck)",
+            "rule": "stage-pass-cards",
+            "severity": "missing",
+            "stage_id": "S2"
+          }
+        ],
+        "ledger_entries": 2,
+        "ok": false,
+        "slot": 6
+      }
+    },
+    {
+      "cmd": [
+        "verify_session.py",
+        "{L}",
+        "--previous"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "findings": [],
+        "ledger_entries": 0,
+        "ok": true,
+        "slot": 5
+      }
+    },
+    {
+      "cmd": [
+        "verify_session.py",
+        "{L}",
+        "--slot",
+        "999"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "findings": [],
+        "ledger_entries": 0,
+        "ok": true,
+        "slot": 999
+      }
+    }
+  ]
+}

@@ -66,7 +66,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
-from tutorlib import atomic_io, cli, consent, filelock, state
+from tutorlib import atomic_io, cli, consent, filelock, ledger, state
 
 
 EASE_DEFAULT = 2.3
@@ -115,6 +115,7 @@ def _save(path, data):
     atomic_io.write_json(path, data)
 
 
+@ledger.logged("review_math.py", "deck_path")
 @filelock.locked("deck_path")
 def apply(deck_path, card_id, current_slot, correct):
     """Read-modify-write: loads the deck, finds the card, computes the new

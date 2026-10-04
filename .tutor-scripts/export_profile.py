@@ -10,6 +10,7 @@ Contents (format_version 1):
   subjects/<course>.json     progress, incl. dropped courses
   subjects/<course>_review_deck.json
   history/<table>.json       every row of every table in tutor.sqlite3 (if present)
+  session_ledger.jsonl       the write ledger (if present)
 
 Read-only with respect to /EDU/: the output zip must NOT be inside the learner's
 folder or profile root (refused), so an export can never be swept up by /erase or
@@ -69,6 +70,10 @@ def export(profile_root, user_id, out_zip, plugin_version=None):
             if name.endswith(".json") and os.path.isfile(full) and not os.path.islink(full):
                 with open(full, "rb") as f:
                     entries[f"subjects/{name}"] = f.read()
+    lg = os.path.join(d, ".session_ledger.jsonl")
+    if os.path.isfile(lg) and not os.path.islink(lg):
+        with open(lg, "rb") as f:
+            entries["session_ledger.jsonl"] = f.read()
     db = os.path.join(d, "tutor.sqlite3")
     history_tables = []
     if os.path.isfile(db):

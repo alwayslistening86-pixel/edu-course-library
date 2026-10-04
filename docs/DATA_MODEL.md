@@ -23,6 +23,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
       subjects/<course_id>.json  v5    see below; field-level owners listed
       subjects/<course_id>_review_deck.json  v1   written by: review_math.py apply, stage-recap (new cards)
       tutor.sqlite3                    append-only history; written only by sqlite_store.py
+      .session_ledger.jsonl            one JSON line per state-changing script call (tutorlib/ledger.py); read by verify_session.py; written under granted/limited consent only
   .tutor-scripts/                      deployed copy of plugin scripts; written only by bootstrap_scripts.py
 ```
 

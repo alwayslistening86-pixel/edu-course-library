@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.18.0",
+  "plugin_version": "1.19.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
@@ -11,6 +11,7 @@
     "error_log.py",
     "export_profile.py",
     "gate_check.py",
+    "invariants.py",
     "item_mastery.py",
     "migrate_schema.py",
     "postcompile_gate.py",
@@ -24,7 +25,8 @@
     "slot_advance.py",
     "sqlite_store.py",
     "validate_schema.py",
-    "validate_structure.py"
+    "validate_structure.py",
+    "verify_session.py"
   ],
   "packages": [
     "toolkit",

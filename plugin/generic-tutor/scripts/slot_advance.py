@@ -31,7 +31,7 @@ import argparse
 import sys
 import datetime
 import json
-from tutorlib import atomic_io, cli, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock, ledger
 
 DEFAULT_MIN_GAP_MINUTES = 180
 
@@ -40,6 +40,7 @@ def _now():
     return datetime.datetime.now(datetime.timezone.utc)
 
 
+@ledger.logged("slot_advance.py", "path")
 @filelock.locked("path")
 def advance(path, min_gap_minutes=DEFAULT_MIN_GAP_MINUTES, now=None):
     now = now or _now()

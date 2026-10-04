@@ -1150,3 +1150,16 @@ files that complicate backup/erase/export for no measured benefit at this write 
 version number alone, so a hand-edited or partially-deleted `.tutor-scripts/` stayed broken until the next release.
 Same-version runs now diff the target against the bundle (sha256) and repair missing/modified files; extra files
 inside a shipped package are tolerated; orphan removal is limited to what an earlier manifest recorded.
+
+## 4 Oct 2026 — v1.19.0: session ledger and verifier (tasks V-01, V-02, V-03, V-05, V-06, V-08)
+
+The v1.10.0 entry named the residual risk: scripts can own writes but cannot make the model call them. ADR 0001
+established Cowork has no hooks, so detection lives in the scripts. Design choice: no transcript parsing and no
+extra model-emitted "event lines" (V-04 dropped): the scripts themselves leave the trace. Each writer logs a ledger
+line; the verifier derives what ELSE must have happened from what did (stage pass/fail -> confidence, cards,
+remediation) instead of trusting the model to declare intent. A session is one `session_slot`; consent-skipped
+writes are logged but not counted as writes. The verifier reports and never repairs. Limits, stated plainly: it
+cannot detect a session where the model did nothing at all (no ledger lines), nor a wrong grade; it catches
+incomplete or repeated bookkeeping. `invariants.py` complements it by checking state without a ledger. A test bug
+worth recording: a first version of the linear-order check used `ladder[:last_pass]` with `last_pass = -1`, which
+slices off only the last element and flagged every course with no passes; the fixture-is-clean test caught it.

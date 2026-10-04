@@ -66,7 +66,7 @@ Output: JSON to stdout.
 """
 import json
 import sys
-from tutorlib import atomic_io, cli, consent, filelock, state
+from tutorlib import atomic_io, cli, consent, filelock, ledger, state
 
 CAP = 2  # attempts before escalation — attempt 1 and attempt 2 are system-driven; attempt 3 never fires
 
@@ -79,6 +79,7 @@ def _save(path, data):
     atomic_io.write_json(path, data)
 
 
+@ledger.logged("remediation_state.py", "subjects_path")
 @filelock.locked("subjects_path")
 def record(subjects_path, stage_id, cause, current_slot):
     d = _load(subjects_path)
@@ -137,6 +138,7 @@ def record(subjects_path, stage_id, cause, current_slot):
     }
 
 
+@ledger.logged("remediation_state.py", "subjects_path")
 @filelock.locked("subjects_path")
 def reset(subjects_path, stage_id):
     d = _load(subjects_path)
