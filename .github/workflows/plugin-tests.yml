@@ -6,11 +6,13 @@ on:
     paths:
       - "plugin/generic-tutor/**"
       - ".tutor-scripts/**"
+      - "pyproject.toml"
       - ".github/workflows/plugin-tests.yml"
   pull_request:
     paths:
       - "plugin/generic-tutor/**"
       - ".tutor-scripts/**"
+      - "pyproject.toml"
       - ".github/workflows/plugin-tests.yml"
   workflow_dispatch: {}
 
@@ -20,12 +22,16 @@ jobs:
     defaults:
       run:
         working-directory: plugin/generic-tutor
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python-version }}
 
       # The plugin's test suite is deliberately stdlib-only (unittest, tempfile,
       # sqlite3) -- no requirements.txt, nothing to install. It never touches a

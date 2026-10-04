@@ -2,7 +2,7 @@
 
 Companion to [`PLAN.md`](PLAN.md). One task = one PR. **Size:** S ≤ ½ day · M ≈ 1–2 days · L ≈ 3–5 days (split further if it grows). **Ph** = phase (0–5). **Dep** = must land first. Each task has an acceptance check ("Done when").
 
-Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capability · ❓ needs a decision from PLAN §10.
+Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capability.
 
 ---
 
@@ -12,7 +12,7 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 |---|---|---|---|---|---|
 | R-01 🟡 | Add `CLAUDE.md` at repo root: layout, how to run tests, deploy-copy rule, "update `.tutor-scripts/` via bootstrap", docs rules | File exists; a fresh session can run tests from it alone | — | S | 0 |
 | R-02 🟡 | Add `CONTRIBUTING.md` + PR template + issue templates (bug, skill-change, schema-change) | Templates render on GitHub; PR template has schema/migration/version checklist | — | S | 0 |
-| R-03 🟡 | Introduce `pyproject.toml` (project metadata, ruff + mypy config, python floor ❓) | `pip install -e plugin/generic-tutor` not required; config only; CI reads it | PLAN §10.1 | S | 0 |
+| R-03 🟡 | Introduce `pyproject.toml` (project metadata, ruff + mypy config, python floor) | `pip install -e plugin/generic-tutor` not required; config only; CI reads it | — | S | 0 |
 | R-04 🟡 | Add ruff (lint + format) config and fix the initial findings in a mechanical-only PR | `ruff check` and `ruff format --check` green | R-03 | M | 0 |
 | R-05 🟡 | Add mypy (or pyright) at lenient settings; type the public functions of each script | Type check green in CI; `# type: ignore` count recorded | R-03 | M | 0 |
 | R-06 🟡 | CI: test matrix across supported Python versions (floor … 3.13) | Matrix job green | R-03 | S | 0 |
@@ -25,7 +25,7 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 | R-13 🟡 | Version single-sourcing: `plugin.json` is the only hand-edited version; script/skill/manifest versions derived or linted | Docs-lint fails if any other version string disagrees | D-07 | M | 0 |
 | R-14 🟡 | Dependabot/Actions pinning (pin actions by SHA, weekly update PRs) | Workflows use pinned SHAs | — | S | 0 |
 | R-15 🟡 | Decide and document branch strategy (main protected, short-lived feature branches, squash merge) | Documented in CONTRIBUTING; branch protection configured by owner | R-02 | S | 0 |
-| R-16 🟡 | Repo layout move (docs → `docs/`, helper scripts → `tools/`) ❓ | Links updated; docs-lint green | PLAN §10.5, D-07 | M | 0 |
+| R-16 🟡 | Repo layout move (docs → `docs/`, helper scripts → `tools/`) | Links updated; docs-lint green | D-07 | M | 0 |
 | R-17 🟡 | Move `validate_courses.py` into a reusable composite action / documented cross-repo entry point; keep its smoke test | Private repo can `uses:` it by tag | N-03 | S | 5 |
 | R-18 🟡 | Security hygiene: enable secret scanning/Dependabot alerts config files; add `SECURITY.md` (private data is out-of-repo; report path) | Files present | — | S | 0 |
 
@@ -69,7 +69,7 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 | S-03 🔴 | Reconcile `course.json` schema between `course-compiler`, `_template/course.json` and `migrate_schema.py` (template contains unquoted-placeholder prose; `grounding_status`, `coverage_status` enums) | One enum list; template validates after placeholders filled | S-01 | S | 0 |
 | S-04 🔴 | Reconcile review-deck and `curriculum_map` schemas between skills and scripts | Same as S-03 for those files | S-01 | S | 0 |
 | S-05 🟢 | Author JSON Schemas under `schemas/` for each file in S-01 (draft 2020-12) | Every real fixture in tests validates | S-01 | L | 0 |
-| S-06 🟢 | `tutorlib.schema.validate()` – minimal stdlib validator (or vendored `jsonschema` decision ❓) | Validates fixtures; documented limits | S-05 | M | 1 |
+| S-06 🟢 | `tutorlib.schema.validate()` – minimal stdlib validator (or vendored `jsonschema` decision) | Validates fixtures; documented limits | S-05 | M | 1 |
 | S-07 🟡 | Schema-conformance tests: every JSON a script writes in any test is validated | CI fails on any off-schema write | S-06 | M | 1 |
 | S-08 🟡 | `course-auditor` uses `schemas/` (Tier 1) rather than prose checks; one source of truth | Auditor skill references schema files | S-05 | S | 2 |
 | S-09 🟡 | Migration framework: ordered, named migrations with up/verify; `migrate_schema.py` becomes a driver | Every historic version hop has a fixture test | S-05,E-12 | L | 1 |
@@ -92,7 +92,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-04 🟡 | tutor-core: add accessibility behaviours as concrete output rules (dyslexia mode, plain-language mode) instead of profile hints | Rules testable via eval prompts | L-18 | M | 4 |
 | K-05 🟡 | **course-runner**: split the 148-line skill into runner (gates/session lifecycle), `grading` (test procedure), `remediation`, `diagnostics` sections/files to cut context load | Each file < 80 lines; behaviour unchanged (eval parity) | A-01 | L | 2 |
 | K-06 🟡 | course-runner: write the session lifecycle as an explicit numbered checklist (start → gates → notices → recheck → teach → record → recap → end) with the exact script call at each step | Checklist is the first section | K-00 | M | 2 |
-| K-07 🟡 | course-runner: define what happens on interruption (session ends mid-test, mid-diagnostic) and on resume | Recovery section + state field `in_progress` ❓ | V-02 | M | 2 |
+| K-07 🟡 | course-runner: define what happens on interruption (session ends mid-test, mid-diagnostic) and on resume | Recovery section + state field `in_progress` | V-02 | M | 2 |
 | K-08 🟡 | course-runner: tighten live-recheck — define "material change" criteria, max pages fetched, and prompt-injection rules (X-01) | Procedure rewritten; tests/evals | X-01 | M | 2 |
 | K-09 🟡 | **course-compiler**: factor the 227-line skill into discovery / build / schema reference; remove embedded schemas (link to `schemas/`) | Files < 100 lines each | S-05 | L | 2 |
 | K-10 🟡 | course-compiler: define quality gates for "sourced rubric" (min fields, citation format, URL reachability check, snapshot date) | `postcompile_gate.py` enforces; skill describes | N-04 | M | 5 |
@@ -161,7 +161,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-13 🟢 | `doctor` command/script: validates install (versions, deployed scripts, folder layout, python version, writable dirs, hooks active) | `/doctor` output with fixes | P-12,E-22 | M | 2 |
 | P-14 🟡 | Python availability: detect missing `python3` and explain; document Windows (`py -3`) differences; ensure all skill invocations use a resolved interpreter variable | Skills use one placeholder for the interpreter | E-07 | M | 2 |
 | P-15 🟡 | Context-budget audit: measure tokens loaded by each command (it `@`-includes up to 4 skills for `/continue`); set a budget and trim | Budget table; `/continue` ≤ agreed tokens | K-05 | M | 2 |
-| P-16 🟢 | Optional scheduled-task integration: reminder to study based on `sessions_per_week` (no dates stored in plugin; scheduling lives in Cowork) ❓ | Documented opt-in recipe only | PLAN §10.4 | S | 4 |
+| P-16 🟢 | Optional scheduled-task integration: reminder to study based on `sessions_per_week` (no dates stored in plugin; scheduling lives in Cowork) | Documented opt-in recipe only | — | S | 4 |
 | P-17 🟡 | Compatibility matrix: Claude Code CLI / desktop / Cowork — what works where | `docs/COMPATIBILITY.md` | P-04 | S | 2 |
 | P-18 🟡 | Uninstall/upgrade path docs: what remains in the data folder; rollback to prior plugin version | Documented + tested via bootstrap downgrade refusal | E-22 | S | 2 |
 
@@ -175,7 +175,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | V-04 🟢 | Skills emit a compact machine-readable "event line" at each gradeable moment (e.g. `EVENT test_graded stage=S2 result=pass`) that the verifier parses | Format spec; skill edits; verifier consumes | V-02 | M | 2 |
 | V-05 🟢 | Fault-injection suite: simulated sessions with omitted/duplicated/misordered calls; measure detection rate | ≥ 95 % detection (PLAN §9) | V-03 | M | 2 |
 | V-06 🟢 | Remediation path: verifier output → next `/run` shows "last session may be missing: …" and offers to reconcile (never auto-writes grades) | UX wording + test | V-03 | M | 2 |
-| V-07 🟡 | Tamper-evidence light: ledger hash chain *only if* V-05 shows a need (design notes previously rejected hash chains) ❓ | Decision recorded | V-05 | S | 2 |
+| V-07 🟡 | Tamper-evidence light: ledger hash chain *only if* V-05 shows a need (design notes previously rejected hash chains) | Decision recorded | V-05 | S | 2 |
 | V-08 🟡 | State invariants checker (`invariants.py`): e.g. `current_stage` consistent with `syllabus_status`, cohort ids match course level, deck due slots ≥ 1 | Runs in `/doctor` and `/audit`; fuzz-tested | S-05 | M | 2 |
 | V-09 🟡 | Grading provenance: store rubric criteria evidence per test result (what answer text was scored against which criterion) in the sqlite history | Table + writer; privacy-reviewed | E-15,X-04 | M | 3 |
 | V-10 🟢 | Learner-visible audit: `/status --audit` shows last N writes in plain language | Command option | V-01 | S | 2 |
@@ -195,7 +195,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-09 🟢 | Exam technique content: command-word handling, mark-allocation heuristics, time per mark — as a per-course optional file `exam_technique.md` | Template + compiler step | N-05 | M | 4 |
 | L-10 🟢 | Readiness estimate: per-course, from item mastery + coverage + recent test results, presented with a confidence band and caveats | `readiness.py`; wording rules | L-07 | M | 4 |
 | L-11 🟡 | Worked-example fading policy: define when to give full/partial/no worked example by mastery band | Policy in tutor-core + eval | K-01 | S | 4 |
-| L-12 🟢 ❓ | Opt-in **deadline-aware planning**: learner may state an exam date; planner computes slots-needed vs slots-available and triage priorities without storing a calendar (date stored only as a single optional field with expiry) | ADR approving or rejecting; if approved, script + tests | PLAN §10.4 | L | 4 |
+| L-12 🟢 | Opt-in **deadline-aware planning**: learner may state an exam date; planner computes slots-needed vs slots-available and triage priorities without storing a calendar (date stored only as a single optional field with expiry) | ADR approving or rejecting; if approved, script + tests | — | L | 4 |
 | L-13 🟡 | Practice variety: guard against repeated identical items (`practice.md` item bank with rotation tracking) | Rotation state in subjects file; tests | S-09 | M | 4 |
 | L-14 🟡 | Revisit review algorithm with real data: after N months of `review_log`, evaluate SM-2-lite vs alternatives offline; decide binary vs graded recall | Report in docs; ADR | E-16 | M | 5 |
 | L-15 🟡 | Confidence model: separate *calibration* (does learner's self-rated confidence match results?) from the system's `confidence` number; optionally ask for self-rating pre-answer | Design note + opt-in | A-05 | M | 4 |
@@ -268,7 +268,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | X-05 🟡 | Retention controls: `/erase` full, plus selective purge (history DB only, a single course, last N days) | `purge.py` with dry-run | K-27 | M | 5 |
 | X-06 🟡 | Third-party endpoint review for suggested MCP servers (ownership, data sent, auth, uptime); add disclosure text to compiler's connector step | Review recorded in CONNECTORS.md | P-10 | S | 2 |
 | X-07 🟡 | Secrets/PII scan in CI for committed fixtures (no real learner IDs, emails) | Gitleaks-style check green | R-18 | S | 0 |
-| X-08 🟡 | Backups security: backup zips may contain personal data — default location outside synced folders warning; optional passphrase encryption ❓ | Documented; optional flag | E-24 | M | 5 |
+| X-08 🟡 | Backups security: backup zips may contain personal data — default location outside synced folders warning; optional passphrase encryption | Documented; optional flag | E-24 | M | 5 |
 | X-09 🟡 | Minor-learner considerations: age-appropriate defaults and a note that parents control data (guardian-oversight remains out of scope per notes, but document the boundary) | `docs/PRIVACY.md` section | X-04 | S | 0 |
 | X-10 🟡 | Licence audit: confirm all vendored/borrowed material (e.g. ideas from Apache-2.0 plugins) has attribution; NOTICE file | `NOTICE` present | — | S | 0 |
 
@@ -291,13 +291,23 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 ---
 
+## Progress
+
+| Task | Status | Notes |
+|---|---|---|
+| R-01 | ✅ done | `CLAUDE.md` |
+| R-02 | ✅ done | `CONTRIBUTING.md`, PR template, 3 issue templates |
+| R-03 | ✅ done | `pyproject.toml` (Python ≥3.10, ruff/mypy config; tools not yet enforced — R-04/R-05) |
+| R-06 | ✅ done | CI matrix 3.10 / 3.12 / 3.13; suite verified locally on 3.10 and 3.13 |
+| S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
+
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
 1. **Foundations:** R-01, R-02, R-03, R-04, R-06, R-07, R-10, R-14, R-18, X-07, X-10
 2. **Truth about the data:** S-01 → S-02, S-03, S-04, S-10 (fixes the verified drift), D-04
 3. **Docs that can't rot:** D-07 (docs lint), K-00, D-01 + D-09, D-02, X-04, X-09
 4. **Risk spikes:** P-04 (hooks), L-01 (pedagogy rationale)
-5. Resolve the five decisions in PLAN §10 so Phase 1 can start unblocked.
+5. Decisions in PLAN §10 are resolved; Phase 1 is unblocked once Phase 0 lands.
 
 ## Task counts
 

@@ -184,10 +184,16 @@ Content-repo contract + validation as a reusable action, currency monitoring, co
 - CI wall-clock < 2 min for PR checks; release = one tag.
 - Fresh-machine install to first `/run` ≤ 5 minutes following the user guide (D-03).
 
-## 10. Decisions needed from you (before Phase 1)
+## 10. Decisions (resolved)
 
-1. **Python floor** — target 3.10+ (recommended) or stay "whatever 3.12 does"?
-2. **Hooks** — OK to depend on plugin hooks for enforcement, accepting Cowork/Code differences?
-3. **Evals** — is spending model budget on a nightly/manual eval run acceptable, and who marks the reference set (you, from real mark schemes)?
-4. **Deadline-aware planning (L-12)** — worth reopening the no-dates rule as an *opt-in* feature, or keep it permanently out?
-5. **Repo layout** — move docs to `docs/` and tools to `tools/` as proposed, or keep everything under `plugin/`?
+The owner delegated these; the recommended option was adopted in each case.
+
+| # | Decision | Outcome | Consequence |
+|---|---|---|---|
+| 1 | Python floor | **3.10+**; CI matrix 3.10–3.13 | `pyproject.toml` declares `requires-python >=3.10`; no 3.11+-only syntax in scripts |
+| 2 | Hooks for enforcement | **Yes**, with a detect-and-report fallback | P-04 spike first; if a hook event is unavailable on a surface, the write verifier (V-03) reports at the next `/run` instead of blocking |
+| 3 | Eval spend | **Yes, manual/nightly only**, small budget; never in PR CI | Reference marks start from self-authored sample courses (A-02) drafted by Claude; owner only spot-checks (A-06) |
+| 4 | Deadline-aware planning | **Yes, opt-in** | One optional `exam_date` field with expiry; planner converts it to slots-needed vs slots-available; no calendar scheduling inside the plugin |
+| 5 | Repo layout | **Yes**: `docs/`, `tools/`, `plugin/` stays | R-16 proceeds; docs-lint (D-07) guards links |
+
+Other defaults taken without asking: vendoring a tiny stdlib JSON-Schema validator rather than adding a dependency (S-06); no hash-chained ledger unless V-05 shows a need (V-07); backup encryption is optional and off by default (X-08); the `/erase` token is the exact phrase `ERASE <user_id>` (K-27).

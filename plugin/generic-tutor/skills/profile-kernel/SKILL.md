@@ -125,7 +125,7 @@ Set once at intake, adjustable later via `/profile`. This is the hard cap `cours
 ## Micro-profile schema (`<active_user_id>/subjects/<course_id>.json`)
 ```json
 {
-  "schema_version": 3,
+  "schema_version": 5,
   "course_id": "aqa_gcse_maths_8300",
   "roster_state": "active | dormant | test_pending_convergence | dropped",
   "cohort_id": "integer — a cached copy of this course's own academic_level, written once by course-compiler at enrollment and never changed afterward; course-runner's phase-convergence gate groups by this field, not globally, so courses at different levels never block each other's testing. For a standalone course (v1.3.0) it is the string \"standalone:<course_id>\": each standalone enrolment is its own cohort",
@@ -136,12 +136,21 @@ Set once at intake, adjustable later via `/profile`. This is the hard cap `cours
   "current_stage": "S1",
   "current_phase": "lesson | practice | test",
   "exam_status": "locked | available | passed",
-  "confidence": "low|medium|high",
-  "error_patterns": ["string — recurring mistakes worth remembering; union-only, never overwritten"],
+  "confidence": 0.5,
+  "error_patterns": [
+    { "id": "err_…", "stage_id": "S1", "item_id": "…", "source_phase": "practice|test",
+      "cause": "slip|missing_prerequisite|misconception|misapplied_procedure|comprehension",
+      "misconception_id": "string|null", "rubric_criterion": "string|null", "note": "string",
+      "slot": 0, "resolved": false, "resolved_at_slot": null }
+  ],
+  "item_mastery": { "<item_id>": { "p_mastery": 0.0, "observations": 0 } },
+  "remediation": { "<stage_id>": { "attempts": 0, "last_cause": "string|null", "escalated": false, "escalated_at_slot": null } },
   "last_session_summary": "one or two sentences",
   "last_updated": "ISO date"
 }
 ```
+Field ownership (code, not prose, owns these; never hand-edit): `confidence` (a number in [0, 1], default 0.5 = unknown) by `confidence_update.py`; `error_patterns` by `error_log.py`; `item_mastery` by `item_mastery.py`; `remediation` by `remediation_state.py`; `syllabus_status`/`current_stage` by `record_stage_result.py`. Authoritative field shapes are defined by those scripts and `migrate_schema.py` (`SUBJECT_SCHEMA_VERSION`).
+
 Two things moved deliberately since the original single-file design:
 - **`last_live_recheck` now lives on the shared `course.json`**, not here — currency is a fact about the content, true for every learner enrolled, and checking it once benefits everyone rather than being duplicated per learner for no reason.
 - **`stage_progress` is replaced by the flatter `syllabus_status` tri-state map** (`pass | fail | unsat`, defaulting to `unsat`), which is what the roster, convergence, and journey-planner logic actually reads to decide readiness.
@@ -150,8 +159,8 @@ Two things moved deliberately since the original single-file design:
 ## Write rules
 - A course-facing skill may only write to the currently active learner's own `subjects/<course_id>.json` — never another course's file, never another learner's folder, never `student_profile.json` directly except through `/profile` (including capability declarations), intake, `slot_advance.py` (which touches only `session_slot` and its timestamp), or `resume_enrollment.py` when reopening a level (which touches only `highest_level_cleared`, and only lowers it).
 - If something a course observes seems to generalize across subjects, surface it to the learner and ask before writing it to the global profile — don't write cross-subject signals silently.
-- Union, don't overwrite, for `error_patterns`.
-- Don't downgrade `confidence` or a `syllabus_status` entry on a single weak moment — only on a genuine pattern or a real test result.
+- Append-only for `error_patterns` (entries are resolved, never deleted).
+- Don't downgrade a `syllabus_status` entry on a single weak moment — only on a genuine test result. `confidence` moves only through `confidence_update.py`.
 - `roster_state` transitions (`dormant`, `test_pending_convergence`, `dropped`) are owned by `journey-planner` and `course-runner` respectively; `profile-kernel` only ever reads them for display. `cohort_id` is owned by `course-compiler` alone, written once at enrollment and never touched again by any skill, including this one.
 
 ## Dropping a course
