@@ -30,7 +30,7 @@ double-/run window; either way "current_slot" is still reported.
 import argparse
 import datetime
 import json
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 DEFAULT_MIN_GAP_MINUTES = 180
 
@@ -45,8 +45,9 @@ def advance(path, min_gap_minutes=DEFAULT_MIN_GAP_MINUTES, now=None):
     with open(path, "r", encoding="utf-8") as f:
         profile = json.load(f)
     previous = int(profile.get("session_slot", 0))
-    if (profile.get("consent") or {}).get("status") == "revoked":
-        return {"skipped": "consent revoked", "current_slot": previous}
+    allowed, cstatus = consent.check(path, consent.SCHEDULING)
+    if not allowed:
+        return {"skipped": f"consent {cstatus}", "current_slot": previous}
 
     last = profile.get("session_slot_advanced_at")
     if min_gap_minutes > 0 and last:

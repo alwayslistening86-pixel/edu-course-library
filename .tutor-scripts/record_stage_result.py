@@ -60,7 +60,7 @@ Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
 import sys
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 RESULTS = ("pass", "fail")
 
@@ -101,6 +101,9 @@ def apply(subjects_path, course_path, stage_id, result):
             d["current_stage"] = advanced_to
             d["current_phase"] = "lesson"
 
+    allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
+    if not allowed:
+        return {"action": "not_persisted", "stage_id": stage_id, "result": result, **consent.skipped(cstatus, consent.PROGRESS)}
     _save(subjects_path, d)
 
     return {

@@ -32,7 +32,7 @@ Machine-readable JSON Schemas will live in `plugin/generic-tutor/schemas/` (task
 |---|---|---|---|
 | `schema_version` | int | profile-kernel | 2 |
 | `learner_id` | string | profile-kernel | = folder name |
-| `consent.status` | `granted\|limited\|revoked` | profile-kernel | **enforced in prose, and in code only by `slot_advance.py`** (E-05/E-06) |
+| `consent.status` | `granted\|limited\|revoked` | profile-kernel | enforced in code by every writer via `tutorlib/consent.py` (v1.14.0) |
 | `identity.{display_name,education_level,locale}` | string | intake | |
 | `preferences.{style,tone,accessibility{dyslexia_mode,plain_language_mode}}` | enums/bools | intake, `/profile` | |
 | `learning_signals.{pace,working_memory_support_needed,verbal_load_sensitivity,spatial_support_needed,notes}` | enums/string | intake; cross-subject writes need learner OK | |
@@ -101,7 +101,7 @@ Append-only history, never read back into teaching decisions (JSON is authoritat
 |---|---|---|
 | 1 | `profile-kernel` documented `confidence` as `low|medium|high` and `error_patterns` as strings; scripts use numeric / structured | fixed (S-02) |
 | 2 | `profile-kernel` omitted `item_mastery`, `remediation` and `session_slot_advanced_at` | fixed in skill (first two) / this file |
-| 3 | `consent` is enforced in code by one script out of nine writers | open (E-05, E-06) |
+| 3 | `consent` was enforced in code by one script out of nine writers | fixed in v1.14.0 (E-05, E-06) |
 | 4 | `tutor.sqlite3` absent from `/export` and from every skill | open (K-28) |
 | 5 | Template `course.json` has the same key set as the skill schema and `migrate_schema.py` (checked), but placeholder prose in value positions makes it a skeleton, not a valid instance | key sets reconciled (S-03); validity open (N-13) |
 | 6 | No script refuses a newer `schema_version` than it understands (confirmed: only `migrate_schema.py` touches the field) | open (S-09) |

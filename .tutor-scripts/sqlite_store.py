@@ -63,6 +63,8 @@ import os
 import sqlite3
 import sys
 
+from tutorlib import consent
+
 SCHEMA = """
 PRAGMA foreign_keys = ON;
 
@@ -177,16 +179,24 @@ def _connect(any_profile_path):
     return con
 
 
-def _safe(fn):
-    def wrapped(*args, **kwargs):
-        try:
-            return fn(*args, **kwargs)
-        except Exception as e:  # noqa: BLE001 - deliberately broad: this must never propagate
-            return {"ok": False, "error": f"{type(e).__name__}: {e}"}
-    return wrapped
+def _safe(kind=consent.SIGNAL):
+    """Never raises; also enforces learner consent (first argument is a path under the learner folder)."""
+    def deco(fn):
+        def wrapped(*args, **kwargs):
+            try:
+                allowed, cstatus = consent.check(args[0], kind)
+                if not allowed:
+                    return {"ok": True, "written": False, "skipped": f"consent {cstatus}: {kind} writes are not persisted"}
+                return fn(*args, **kwargs)
+            except Exception as e:  # noqa: BLE001 - deliberately broad: this must never propagate
+                return {"ok": False, "error": f"{type(e).__name__}: {e}"}
+        wrapped.__name__ = fn.__name__
+        wrapped.__doc__ = fn.__doc__
+        return wrapped
+    return deco
 
 
-@_safe
+@_safe()
 def log_error_event(subjects_path, entry):
     course_id = _course_id_from_path(subjects_path)
     con = _connect(subjects_path)
@@ -209,7 +219,7 @@ def log_error_event(subjects_path, entry):
     return {"ok": True}
 
 
-@_safe
+@_safe()
 def resolve_error_events(subjects_path, entry_ids, resolved_at_slot):
     if not entry_ids:
         return {"ok": True, "updated": 0}
@@ -225,7 +235,7 @@ def resolve_error_events(subjects_path, entry_ids, resolved_at_slot):
     return {"ok": True, "updated": len(entry_ids)}
 
 
-@_safe
+@_safe()
 def log_item_mastery_observation(subjects_path, item_id, correct, prior, posterior, new_p_mastery, slot):
     course_id = _course_id_from_path(subjects_path)
     con = _connect(subjects_path)
@@ -252,7 +262,7 @@ def log_item_mastery_observation(subjects_path, item_id, correct, prior, posteri
     return {"ok": True}
 
 
-@_safe
+@_safe(consent.SCHEDULING)
 def upsert_review_card(subjects_path, card):
     course_id = _course_id_from_path(subjects_path)
     con = _connect(subjects_path)
@@ -279,7 +289,7 @@ def upsert_review_card(subjects_path, card):
     return {"ok": True}
 
 
-@_safe
+@_safe()
 def log_review_pass(subjects_path, card_id, correct, old_interval, new_interval, old_ease, new_ease, slot):
     con = _connect(subjects_path)
     try:
@@ -295,7 +305,7 @@ def log_review_pass(subjects_path, card_id, correct, old_interval, new_interval,
     return {"ok": True}
 
 
-@_safe
+@_safe()
 def log_confidence_event(subjects_path, event_type, misconception, delta, confidence_after, slot):
     course_id = _course_id_from_path(subjects_path)
     con = _connect(subjects_path)
@@ -312,7 +322,7 @@ def log_confidence_event(subjects_path, event_type, misconception, delta, confid
     return {"ok": True}
 
 
-@_safe
+@_safe()
 def _upsert_item_mastery_current_only(subjects_path, item_id, p_mastery, observations, last_slot, last_correct):
     """Current-state-only upsert, no log row — used by backfill() so a
     synthetic 'first observation' never gets fabricated into

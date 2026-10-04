@@ -76,7 +76,7 @@ Output: JSON to stdout. `observe` writes the subjects file back in place;
 import json
 import os
 import sys
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
@@ -126,6 +126,11 @@ def observe(subjects_path, item_id, correct, current_slot):
         "last_slot": int(current_slot),
         "last_correct": bool(correct),
     }
+    allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+    if not allowed:
+        return {"item_id": item_id, "prior": round(prior, 4), "posterior_this_observation": round(posterior, 4),
+                "new_p_mastery": round(new_p, 4), "observations": observations,
+                **consent.skipped(cstatus, consent.SIGNAL)}
     _save(subjects_path, d)
     sqlite_result = sqlite_store.log_item_mastery_observation(
         subjects_path, item_id, correct, prior, posterior, new_p, current_slot

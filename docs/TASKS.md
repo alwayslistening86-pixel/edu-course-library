@@ -328,6 +328,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-02 | 🟡 partial | `tutorlib` package created with `atomic_io`, `filelock`; `paths`, `consent`, `envelope`, `cli` modules still to come |
 | E-03 | ✅ done | all 10 JSON writers atomic; format byte-identical; tests (v1.13.0) |
 | E-04 | ✅ done | per-file re-entrant lock on 8 RMW entry points; parallel test fails (6–9 of 12 survive) without it, passes with it (v1.13.0) |
+| E-05 | ✅ done | `tutorlib/consent.py` (3 write classes, fail-closed) (v1.14.0) |
+| E-06 | ✅ done | wired into 9 writers + `sqlite_store`; matrix test verified to fail when gate disabled. `migrate_schema.py` exempt by design |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

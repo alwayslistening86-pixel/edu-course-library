@@ -49,7 +49,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete  # noqa: E402
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 
 @filelock.locked("subjects_path")
@@ -90,6 +90,9 @@ def resume(subjects_path, course_path, target_state, today_iso, reopen_profile=N
 
     subj["roster_state"] = target_state
     subj["last_updated"] = today_iso
+    allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
+    if not allowed:
+        return {"resumed": False, **consent.skipped(cstatus, consent.PROGRESS)}
     atomic_io.write_json(subjects_path, subj)
     if profile is not None:
         profile["highest_level_cleared"] = reopened["to"]

@@ -13,7 +13,7 @@ Nothing in this repo is personal data; `profile/*/` is git-ignored. Course conte
 
 ## Controls
 - **Isolation:** each learner has their own folder; a session reads and writes only the active learner's folder (guard in code: task E-08; hook: P-06).
-- **Consent:** `granted` (everything persists), `limited` (only progress and scheduling persist), `revoked` (nothing persists). Currently enforced in prose with one script gate; full enforcement is E-05/E-06.
+- **Consent:** `granted` (everything persists), `limited` (only progress and scheduling persist), `revoked` (nothing persists). Enforced in code by every state-writing script (`tutorlib/consent.py`, v1.14.0); an unreadable consent block fails closed.
 - **Export:** `/export` bundles the learner's data (history DB currently missing — K-28).
 - **Erasure:** `/erase` deletes the whole learner folder after an explicit confirmation phrase (K-27, C-05). Backups and exports the learner saved elsewhere are theirs to delete.
 - **No telemetry:** the plugin sends nothing anywhere. Web access happens only inside the live source recheck and course compiler, to fetch public specifications.

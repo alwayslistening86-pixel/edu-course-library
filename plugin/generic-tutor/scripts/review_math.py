@@ -66,7 +66,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 
 EASE_DEFAULT = 2.3
@@ -138,6 +138,11 @@ def apply(deck_path, card_id, current_slot, correct):
     card["ease"] = result["ease"]
     card["lapses"] = result["lapses"]
     card["due_at_slot"] = result["due_at_slot"]
+    allowed, cstatus = consent.check(deck_path, consent.SCHEDULING)
+    if not allowed:
+        result.update(consent.skipped(cstatus, consent.SCHEDULING))
+        result["card_id"] = card_id
+        return result
     _save(deck_path, d)
 
     log_result = sqlite_store.log_review_pass(

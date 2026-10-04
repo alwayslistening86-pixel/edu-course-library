@@ -16,6 +16,12 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.14.0] — 2026-10-04
+### Fixed
+- **Consent was only honoured by prose and one script.** `limited`/`revoked` consent is now enforced inside every state-writing script and the history database (progress and scheduling persist under `limited`; learner signals persist only under `granted`; nothing under `revoked`). Unreadable or unknown consent fails closed. Skipped writes return `written: false` with the computed values.
+### Added
+- `tutorlib/consent.py`; `tests/test_consent.py` (writer × consent-state matrix).
+
 ## [1.13.0] — 2026-10-04
 ### Fixed
 - **Lost updates under concurrency.** Overlapping calls to the state-writing scripts could each read the same file and overwrite one another's change (12 parallel `error_log.py append` calls kept only 6–9 entries). Writers now hold a per-file lock for the whole read-modify-write.

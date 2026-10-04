@@ -76,7 +76,7 @@ resolve only); query is read-only.
 import json
 import os
 import sys
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
@@ -130,6 +130,9 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         "resolved_at_slot": None,
     }
     entries.append(entry)
+    allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+    if not allowed:
+        return {"action": "not_persisted", "entry": entry, **consent.skipped(cstatus, consent.SIGNAL)}
     _save(subjects_path, d)
     sqlite_result = sqlite_store.log_error_event(subjects_path, entry)
 
@@ -175,6 +178,10 @@ def resolve(subjects_path, item_id, current_slot, cause_filter="ANY"):
     mastery_result = None
     sqlite_result = None
     if resolved_ids:
+        allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+        if not allowed:
+            return {"action": "not_persisted", "item_id": item_id, "entries_resolved": resolved_ids,
+                    "count": len(resolved_ids), **consent.skipped(cstatus, consent.SIGNAL)}
         _save(subjects_path, d)
         mastery_result = item_mastery.observe(subjects_path, item_id, True, current_slot)
         sqlite_result = sqlite_store.resolve_error_events(subjects_path, resolved_ids, current_slot)

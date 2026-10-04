@@ -66,7 +66,7 @@ Output: JSON to stdout.
 """
 import json
 import sys
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 CAP = 2  # attempts before escalation — attempt 1 and attempt 2 are system-driven; attempt 3 never fires
 
@@ -122,9 +122,12 @@ def record(subjects_path, stage_id, cause, current_slot):
                   "expected. Logged for course-auditor's cohort-wide rollup.")
 
     rem[stage_id] = entry
-    _save(subjects_path, d)
+    allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
+    if allowed:
+        _save(subjects_path, d)
 
     return {
+        **({} if allowed else consent.skipped(cstatus, consent.PROGRESS)),
         "action": action,
         "stage_id": stage_id,
         "attempts": entry["attempts"],
@@ -142,6 +145,9 @@ def reset(subjects_path, stage_id):
     had_entry = stage_id in rem
     if had_entry:
         rem.pop(stage_id, None)
+        allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
+        if not allowed:
+            return {"action": "reset", "stage_id": stage_id, "had_entry": had_entry, **consent.skipped(cstatus, consent.PROGRESS)}
         _save(subjects_path, d)
     return {"action": "reset", "stage_id": stage_id, "had_entry": had_entry}
 

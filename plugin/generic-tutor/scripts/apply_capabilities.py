@@ -35,7 +35,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete, practical_stages  # noqa: E402
-from tutorlib import atomic_io
+from tutorlib import atomic_io, consent
 
 
 def _load(path):
@@ -99,8 +99,12 @@ def main():
     new, report = apply(profile, course, subj)
     wrote = False
     if report["changed"] and not dry:
-        atomic_io.write_json(subj_path, new)
-        wrote = True
+        allowed, cstatus = consent.check(subj_path, consent.PROGRESS)
+        if allowed:
+            atomic_io.write_json(subj_path, new)
+            wrote = True
+        else:
+            report["skipped"] = f"consent {cstatus}: progress writes are not persisted"
     report["wrote"] = wrote
     report["dry_run"] = dry
     print(json.dumps(report, indent=2))

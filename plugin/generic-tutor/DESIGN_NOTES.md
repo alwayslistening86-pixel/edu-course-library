@@ -1079,3 +1079,17 @@ read-modify-write entry points (`confidence_update.apply`, `error_log.append/res
 `slot_advance.advance`) are wrapped with `@filelock.locked`. No CLI or output change. Not yet done:
 `sqlite_store.py` (SQLite has its own locking), `apply_capabilities.py` CLI path (atomic but unlocked),
 `bootstrap_scripts.py` manifest write, and the consent gate (E-05/E-06).
+
+## 4 Oct 2026 — v1.14.0: consent enforced in code (tasks E-05, E-06)
+
+`profile-kernel` defined `granted` / `limited` / `revoked`, but only `slot_advance.py` ever checked it; the other
+eight writers and the SQLite history wrote regardless, so `revoked` depended entirely on the model remembering.
+New `tutorlib/consent.py` classifies each write as **progress**, **scheduling** or **signal** and every writer
+asks before writing. Decisions worth recording: remediation attempt counters count as *progress* (discarding them
+would let a failed stage loop forever each session); `item_mastery` and all history rows are *signals* (derived
+from graded work, and the history DB is the most complete record of a learner); review-card scheduling state is
+*scheduling* even in the DB. Absent profile ⇒ granted (bare fixtures, course folders); unreadable profile or
+unknown status ⇒ treated as `revoked` (fail closed). `migrate_schema.py` is deliberately exempt: it is the
+explicit `/audit` maintenance path and changes shape, not content. A skipped write returns the computed result
+plus `written: false` so in-session use ("used now, discarded") still works. `tests/test_consent.py` runs every
+writer under every status and was checked to fail when the gate is disabled.

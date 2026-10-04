@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.13.0",
+  "plugin_version": "1.14.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",

@@ -57,7 +57,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
-from tutorlib import atomic_io, filelock
+from tutorlib import atomic_io, consent, filelock
 
 BASE_DELTA = {
     "pass_clean": 0.15,
@@ -122,6 +122,10 @@ def apply(subjects_path, event, current_slot, misconception=False):
     old_confidence = d.get("confidence", DEFAULT_CONFIDENCE)
     result = compute(old_confidence, event, misconception)
     d["confidence"] = result["new_confidence"]
+    allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+    if not allowed:
+        result.update(consent.skipped(cstatus, consent.SIGNAL))
+        return result
     _save(subjects_path, d)
 
     total_delta = round(result["new_confidence"] - result["old_confidence"], 4)
