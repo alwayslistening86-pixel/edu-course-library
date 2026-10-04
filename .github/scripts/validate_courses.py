@@ -19,6 +19,11 @@ validate_structure.py and coverage_check.py already catch structurally:
 missing stage files, orphaned stage dirs, missing/empty rubric entries,
 uncovered spec items without a declared reason, coverage-status mismatches.
 
+NOTE (30 Sep 2026): courses/ no longer lives in this repo, so nothing here
+calls this script. It is kept here and checked out cross-repo by
+edu-courses-private's CI, which passes its own checkout as <repo_root>. The
+"1253-file migration" above refers to that content's earlier history.
+
 Usage:
     python3 validate_courses.py <repo_root>
 
