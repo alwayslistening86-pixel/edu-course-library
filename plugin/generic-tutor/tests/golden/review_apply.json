@@ -57,7 +57,7 @@
         "6",
         "true"
       ],
-      "exit": 0,
+      "exit": 1,
       "stderr_tail": [],
       "stdout": {
         "error": "card_id 'nope' not found in <TMP>/profile/amy/subjects/mathA_review_deck.json"

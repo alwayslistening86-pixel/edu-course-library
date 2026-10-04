@@ -36,6 +36,8 @@ import os
 import re
 import sys
 
+from tutorlib import cli
+
 STATUS_FULL, STATUS_PARTIAL, STATUS_UNVERIFIED = "full", "partial", "unverified"
 
 
@@ -191,7 +193,7 @@ def main():
     if len(sys.argv) != 2:
         print(json.dumps({"error": "usage: coverage_check.py <course_dir>"}))
         sys.exit(2)
-    print(json.dumps(check(sys.argv[1]), indent=2))
+    sys.exit(cli.emit(check(sys.argv[1])))
 
 
 if __name__ == "__main__":

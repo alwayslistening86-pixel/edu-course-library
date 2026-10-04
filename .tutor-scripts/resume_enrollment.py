@@ -49,7 +49,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete  # noqa: E402
-from tutorlib import atomic_io, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock
 
 
 @filelock.locked("subjects_path")
@@ -110,8 +110,8 @@ def main():
     ap.add_argument("--reopen-profile")
     ap.add_argument("--reopen-to", type=int)
     a = ap.parse_args()
-    print(json.dumps(resume(a.subjects_json, a.course_json, a.target_state, a.today_iso_date,
-                            a.reopen_profile, a.reopen_to), indent=2))
+    sys.exit(cli.emit(resume(a.subjects_json, a.course_json, a.target_state, a.today_iso_date,
+                             a.reopen_profile, a.reopen_to)))
 
 
 if __name__ == "__main__":

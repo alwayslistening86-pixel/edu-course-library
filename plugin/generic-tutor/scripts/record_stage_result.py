@@ -60,7 +60,7 @@ Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
 import sys
-from tutorlib import atomic_io, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock
 
 RESULTS = ("pass", "fail")
 
@@ -126,7 +126,7 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(out, indent=2))
+    sys.exit(cli.emit(out))
 
 
 if __name__ == "__main__":

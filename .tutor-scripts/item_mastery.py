@@ -76,7 +76,7 @@ Output: JSON to stdout. `observe` writes the subjects file back in place;
 import json
 import os
 import sys
-from tutorlib import atomic_io, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
@@ -182,7 +182,7 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":

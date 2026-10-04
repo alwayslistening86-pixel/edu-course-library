@@ -66,7 +66,7 @@ Output: JSON to stdout.
 """
 import json
 import sys
-from tutorlib import atomic_io, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock
 
 CAP = 2  # attempts before escalation — attempt 1 and attempt 2 are system-driven; attempt 3 never fires
 
@@ -188,7 +188,7 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":

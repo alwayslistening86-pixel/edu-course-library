@@ -62,6 +62,8 @@ import os
 import shutil
 import sys
 
+from tutorlib import cli
+
 MANIFEST_NAME = ".manifest.json"
 
 
@@ -163,7 +165,7 @@ def main():
     if len(sys.argv) != 4:
         print(json.dumps({"error": "usage: bootstrap_scripts.py <source scripts dir> <plugin.json path> <target .tutor-scripts dir>"}))
         sys.exit(2)
-    print(json.dumps(bootstrap(sys.argv[1], sys.argv[2], sys.argv[3]), indent=2))
+    sys.exit(cli.emit(bootstrap(sys.argv[1], sys.argv[2], sys.argv[3])))
 
 
 if __name__ == "__main__":

@@ -31,6 +31,8 @@ import json
 import os
 import sys
 
+from tutorlib import cli
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import compute_cohorts, is_complete, is_standalone, prerequisites_status, withheld_stages, practical_stages, standalone_cohort_id  # noqa: E402
 import coverage_check  # noqa: E402
@@ -287,7 +289,7 @@ def main():
         print(json.dumps({"error": "usage: gate_check.py <course.json> <subjects.json|NONE> <profile_subjects_dir> <courses_dir> <today_iso_date>"}))
         sys.exit(2)
     result = evaluate(*sys.argv[1:6])
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":

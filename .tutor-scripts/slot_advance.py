@@ -28,9 +28,10 @@ consent.status is "revoked" (nothing may be written) or when inside the
 double-/run window; either way "current_slot" is still reported.
 """
 import argparse
+import sys
 import datetime
 import json
-from tutorlib import atomic_io, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock
 
 DEFAULT_MIN_GAP_MINUTES = 180
 
@@ -76,7 +77,7 @@ def main():
     ap.add_argument("profile_path")
     ap.add_argument("--min-gap-minutes", type=int, default=DEFAULT_MIN_GAP_MINUTES)
     args = ap.parse_args()
-    print(json.dumps(advance(args.profile_path, args.min_gap_minutes), indent=2))
+    sys.exit(cli.emit(advance(args.profile_path, args.min_gap_minutes)))
 
 
 if __name__ == "__main__":

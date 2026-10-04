@@ -5,7 +5,6 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ## [Unreleased] — redesign programme (see `docs/PLAN.md`)
 ### Added
 - `docs/adr/0001` (hooks are Claude Code-only), `docs/PEDAGOGY.md`, `CHANGELOG.md`.
-- Golden-output tests for every script CLI (`tests/test_golden_cli.py`, `tests/golden/`); `docs/CLI_BASELINE.md`.
 - Planning docs: `docs/PLAN.md`, `docs/TASKS.md`, `docs/DATA_MODEL.md`, `docs/GLOSSARY.md`, `docs/PRIVACY.md`.
 - `tools/lint_docs.py` (script references, command↔skill wiring, versions, links) with tests.
 - CI: lint (ruff, mypy), docs-lint, Python 3.10/3.12/3.13 test matrix, deployed-copy drift check, `validate_courses.py` smoke test.
@@ -16,6 +15,12 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 - Dead variables / unused imports found by ruff.
 ### Changed
 - Private `vN` removed from four skill headings.
+
+## [1.16.0] — 2026-10-04
+### Fixed
+- Scripts disagreed about failure: `coverage_check.py`, `review_math.py apply` and `validate_structure.py` returned `{"error": …}` but exited 0, so a caller checking the exit status saw success. Convention is now uniform (0 success/decision, 1 failed with `error`, 2 usage), via `tutorlib/cli.py`.
+### Added
+- Golden-output tests for every script CLI (`tests/test_golden_cli.py`, `tests/golden/`); `docs/CLI_BASELINE.md`.
 
 ## [1.15.0] — 2026-10-04
 ### Fixed

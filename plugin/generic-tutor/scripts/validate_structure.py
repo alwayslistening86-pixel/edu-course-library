@@ -48,6 +48,8 @@ import json
 import os
 import sys
 
+from tutorlib import cli
+
 
 def _load_json(path):
     try:
@@ -260,7 +262,7 @@ def main():
     if len(sys.argv) != 2:
         print(json.dumps({"error": "usage: validate_structure.py <course_dir>"}))
         sys.exit(2)
-    print(json.dumps(validate(sys.argv[1]), indent=2))
+    sys.exit(cli.emit(validate(sys.argv[1])))
 
 
 if __name__ == "__main__":

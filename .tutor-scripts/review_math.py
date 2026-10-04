@@ -66,7 +66,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
-from tutorlib import atomic_io, consent, filelock
+from tutorlib import atomic_io, cli, consent, filelock
 
 
 EASE_DEFAULT = 2.3
@@ -170,7 +170,7 @@ def main():
         except (FileNotFoundError, json.JSONDecodeError) as e:
             print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
             sys.exit(1)
-        print(json.dumps(result, indent=2))
+        sys.exit(cli.emit(result))
         return
 
     if len(args) != 5:
@@ -179,7 +179,7 @@ def main():
     old_interval, old_ease, old_lapses, current_slot, correct_s = args
     correct = correct_s.strip().lower() == "true"
     result = compute(old_interval, old_ease, old_lapses, current_slot, correct)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":

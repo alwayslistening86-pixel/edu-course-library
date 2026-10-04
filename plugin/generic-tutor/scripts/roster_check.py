@@ -44,6 +44,8 @@ import json
 import os
 import sys
 
+from tutorlib import cli
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete, is_standalone  # noqa: E402
 
@@ -256,7 +258,7 @@ def main():
         sys.exit(2)
     profile_dir, courses_dir = args[0], args[1]
     candidate = args[2] if len(args) == 3 else None
-    print(json.dumps(compute(profile_dir, courses_dir, candidate, resume, course_id), indent=2))
+    sys.exit(cli.emit(compute(profile_dir, courses_dir, candidate, resume, course_id)))
 
 
 if __name__ == "__main__":

@@ -76,7 +76,7 @@
         "validate_structure.py",
         "{C}/nope"
       ],
-      "exit": 0,
+      "exit": 1,
       "stderr_tail": [],
       "stdout": {
         "course_dir": "<TMP>/courses/nope",

@@ -35,7 +35,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete, practical_stages  # noqa: E402
-from tutorlib import atomic_io, consent
+from tutorlib import atomic_io, cli, consent
 
 
 def _load(path):
@@ -107,7 +107,7 @@ def main():
             report["skipped"] = f"consent {cstatus}: progress writes are not persisted"
     report["wrote"] = wrote
     report["dry_run"] = dry
-    print(json.dumps(report, indent=2))
+    sys.exit(cli.emit(report))
 
 
 if __name__ == "__main__":

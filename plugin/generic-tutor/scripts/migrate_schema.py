@@ -78,7 +78,7 @@ prints a JSON report of what changed and what's still open.
 import json
 import os
 import sys
-from tutorlib import atomic_io
+from tutorlib import atomic_io, cli
 
 COURSE_SCHEMA_VERSION = 4
 SUBJECT_SCHEMA_VERSION = 5
@@ -277,7 +277,7 @@ def main():
         print(json.dumps({"error": f"unknown kind {kind!r}, expected 'course' or 'subject'"}))
         sys.exit(2)
 
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":

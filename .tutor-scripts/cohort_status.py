@@ -41,6 +41,8 @@ import json
 import os
 import sys
 
+from tutorlib import cli
+
 
 def _load_json(path):
     try:
@@ -325,7 +327,7 @@ def main():
         stored = profile.get("highest_level_cleared", 0)
         walk = level_walk(cohorts, stored)
         out["level_ledger"] = dict(walk, stored=stored, suggested_highest_level_cleared=max(int(stored or 0), walk["to"]))
-    print(json.dumps(out, indent=2))
+    sys.exit(cli.emit(out))
 
 
 if __name__ == "__main__":

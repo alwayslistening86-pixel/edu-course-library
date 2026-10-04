@@ -1105,3 +1105,12 @@ no `..`, no Windows device names) and refuse symlinked learner folders / paths r
 (`tutorlib.paths`). Exports are not consent-gated (read-only copy of the learner's own data); erase is
 deliberately usable under any consent status. Id validation is wired into these two scripts only; applying it at
 every script boundary is part of E-20.
+
+## 4 Oct 2026 — v1.16.0: uniform CLI exit codes (tasks E-01, E-10 part, E-11)
+
+Before touching any script's argument handling, `tests/test_golden_cli.py` snapshots every script's real CLI output
+against a deterministic fixture (27 cases; a meta-test fails when a new script has no case). That baseline exposed an
+inconsistency: three scripts reported failure as `{"error": ...}` with exit 0. `tutorlib/cli.py` `emit()` prints the
+result and returns 1 when it carries an `error`; all script mains now `sys.exit(cli.emit(result))`. The only golden
+diffs were those three `exit: 0 -> 1` lines. Deliberately not done yet: an argparse rewrite of the hand-parsed mains
+(low value relative to risk while the goldens only just exist) and the full envelope; both remain open under E-09/E-10.
