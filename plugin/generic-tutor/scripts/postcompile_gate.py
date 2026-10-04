@@ -86,7 +86,7 @@ import json
 import os
 import sys
 
-from tutorlib import cli
+from tutorlib import cli, untrusted
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import validate_structure  # noqa: E402
@@ -119,7 +119,20 @@ def _gate(course_dir):
     if structure.get("v13_problems"):
         blocking_reasons.append(f"1.3.0 field inconsistencies: {structure['v13_problems']}")
 
+    # X-01/X-02: a web-derived course file that carries instruction-like text must not ship unseen.
+    scan = untrusted.scan_path(course_dir)
+    injected = {f: [x for x in fs if x["severity"] == untrusted.BLOCKING] for f, fs in scan.items()}
+    injected = {f: fs for f, fs in injected.items() if fs}
+    if injected:
+        blocking_reasons.append(
+            "possible embedded instructions in course files (web content must never carry instructions): "
+            + "; ".join(f"{f} line {x['line']} [{x['rule']}]" for f, fs in injected.items() for x in fs[:3]))
+
     advisory_notes = []
+    for f, fs in scan.items():
+        for x in fs:
+            if x["severity"] == untrusted.ADVISORY:
+                advisory_notes.append(f"{f} line {x['line']}: {x['rule']} - {x['excerpt']}")
     if structure.get("orphaned_stage_dirs"):
         advisory_notes.append(f"orphaned stage dirs not in stage_ladder: {structure['orphaned_stage_dirs']}")
     misc_status = structure.get("misconceptions_status")

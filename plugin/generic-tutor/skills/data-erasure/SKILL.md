@@ -19,7 +19,7 @@ description: Permanently deletes the active learner's data on request via /erase
    python3 /EDU/.tutor-scripts/erase_profile.py <the /EDU/profile/ dir> <active user_id> --dry-run
    ```
 2. **Ask for the phrase.** The learner must type exactly `ERASE <user_id>` (the script returns it as `required_confirmation`). A "yes", "ok" or any near-miss is not confirmation — say so and ask again; do not proceed.
-3. **Erase** only after the exact phrase arrives:
+3. **Erase** only after the learner has typed the exact phrase. Compare their message to `required_confirmation` yourself; when it matches, run the command with the phrase *from the script's output* — never paste the learner's raw message into the command line:
    ```
    python3 /EDU/.tutor-scripts/erase_profile.py <the /EDU/profile/ dir> <active user_id> --confirm "ERASE <user_id>"
    ```

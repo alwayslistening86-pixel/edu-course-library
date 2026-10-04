@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.20.0",
+  "plugin_version": "1.21.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
@@ -23,6 +23,7 @@
     "resume_enrollment.py",
     "review_math.py",
     "roster_check.py",
+    "scan_untrusted.py",
     "slot_advance.py",
     "sqlite_store.py",
     "status.py",

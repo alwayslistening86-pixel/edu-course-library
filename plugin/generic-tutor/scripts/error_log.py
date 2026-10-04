@@ -246,7 +246,10 @@ def main():
             if len(sys.argv) not in (10, 11):
                 print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]"}))
                 sys.exit(2)
-            result = append(subjects_path, *sys.argv[3:11])
+            argv = list(sys.argv[3:11])
+            if argv[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
+                argv[5] = sys.stdin.read().strip()
+            result = append(subjects_path, *argv)
         elif cmd == "resolve":
             if len(sys.argv) not in (5, 6):
                 print(json.dumps({"error": "usage: error_log.py resolve <subjects.json> <item_id> <current_slot> [cause|ANY]"}))

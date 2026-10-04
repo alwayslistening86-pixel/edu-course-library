@@ -72,6 +72,7 @@ CASES = {
                         ("record_stage_result.py", ["apply", SUBJ, "{C}/mathA/course.json", "S2", "pass"]),
                         ("verify_session.py", ["{L}"]), ("verify_session.py", ["{L}", "--previous"]),
                         ("verify_session.py", ["{L}", "--slot", "999"])], []),
+    "scan_untrusted": ([("scan_untrusted.py", ["{C}/mathA"]), ("scan_untrusted.py", ["{C}/nope"])], []),
     "status": ([("status.py", ["{L}", "{C}"])], []),
     "invariants": ([("invariants.py", ["{L}", "{C}"])], []),
     "resolve_root": ([("resolve_root.py", ["--root", "{T}"]), ("resolve_root.py", ["--root", "{T}/missing"])], []),

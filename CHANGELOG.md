@@ -16,6 +16,14 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.21.0] — 2026-10-04
+### Security
+- **Prompt-injection defence for web-derived content.** Specification pages, mark schemes and connector output are treated as data, never instructions: the compiler, the live recheck, the auditor and `tutor-core` now say so explicitly, `change.md` entries record facts and sources only, and a course file that appears to instruct the model is ignored and flagged for `/audit`. Policy: `docs/UNTRUSTED_CONTENT.md`.
+- `scan_untrusted.py` / `tutorlib/untrusted.py` detect instruction-like text (override attempts, impersonation, system-prompt references, exfiltration requests, invisible characters = blocking; tool commands, hidden HTML comments, encoded blobs, role hijacks = advisory). `postcompile_gate.py` now **blocks shipping** a course with a blocking hit (documented override for reviewed false positives).
+- **Learner text never reaches a shell argument**: `error_log.py append … @stdin` reads the note from stdin (quoted heredoc), and `course-runner` and `data-erasure` were rewritten accordingly (a quote or `$(…)` in a note could previously have run as a command).
+### Added
+- Tests: every attack class flagged, legitimate teaching text ("disregard unlawfully obtained evidence") not flagged, gate behaviour, hostile note/ids.
+
 ## [1.20.0] — 2026-10-04
 ### Added
 - **`/doctor`** (`doctor.py`): read-only health check — Python version, data-root layout, deployed scripts, course structure, and per learner: schema + cross-file invariants, history DB, last-session completeness, stale locks, folder writability, consent in force. Each check carries a plain fix.

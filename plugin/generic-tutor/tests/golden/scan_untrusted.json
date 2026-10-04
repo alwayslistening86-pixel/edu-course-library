@@ -1,0 +1,31 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "scan_untrusted.py",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advisory_count": 0,
+        "blocking_count": 0,
+        "clean": true,
+        "files": {},
+        "path": "<TMP>/courses/mathA"
+      }
+    },
+    {
+      "cmd": [
+        "scan_untrusted.py",
+        "{C}/nope"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: scan_untrusted.py <existing file or directory>"
+      }
+    }
+  ]
+}
