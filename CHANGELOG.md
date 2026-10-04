@@ -16,6 +16,14 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.22.0] — 2026-10-04
+### Added
+- **`/backup`** (`backup_profile.py`): full physical backup of a learner — profile, progress, decks, session ledger and a consistent copy of the history database (SQLite online-backup API) — with a manifest of sha256 checksums. Default location `<root>/backups/`, outside the learner folder; never overwrites an earlier backup.
+- **`/restore`** (`restore_profile.py`): verifies the whole zip first (manifest, every checksum, no unlisted members, no `..`/absolute paths, format not newer than the plugin); refuses to touch an existing learner without `--replace`; with `--replace` takes a safety backup first and swaps the restored copy in atomically (the live folder is moved aside, so a failed swap is undone). `--dry-run` and `--user-id` (restore beside the original) supported.
+- `backup-restore` skill (with contract block) and the two commands; `/help` updated.
+### Fixed
+- The desktop toolkit's `backup` defaulted to `<learner>/exports/` — inside the data it protects, so `/erase` (or losing the folder) destroyed the backups. It now defaults to `<root>/backups/`.
+
 ## [1.21.0] — 2026-10-04
 ### Security
 - **Prompt-injection defence for web-derived content.** Specification pages, mark schemes and connector output are treated as data, never instructions: the compiler, the live recheck, the auditor and `tutor-core` now say so explicitly, `change.md` entries record facts and sources only, and a course file that appears to instruct the model is ignored and flagged for `/audit`. Policy: `docs/UNTRUSTED_CONTENT.md`.

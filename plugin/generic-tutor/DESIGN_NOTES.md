@@ -1187,3 +1187,17 @@ disguised injections need the skill rules and the planned injection evals (A-xx)
 learner words reach commands: the `error_log.py append` example put the free-text note inside shell double quotes, so
 a quote or `$(...)` in it could execute. Notes now travel on stdin via a quoted heredoc; erasure pastes the script's
 own phrase rather than the learner's message.
+
+## 4 Oct 2026 — v1.22.0: backup and restore (tasks E-24, C-08)
+
+`.gitignore` keeps learner data out of version control, so before this the only copy of a learner's history was the
+live folder (the toolkit backup existed but defaulted to a path inside that folder). Design points: a backup is a
+physical copy with a manifest of checksums; the history DB goes through SQLite's online-backup API so a concurrent
+script write cannot produce a torn copy; restore verifies everything before touching disk, builds the result in a
+sibling temp folder, and swaps by renaming the live folder aside rather than deleting it. Two bugs surfaced by the
+tests, both fixed: a safety backup taken in the same second as the backup being restored got the same file name and
+overwrote it (backups now never overwrite; a `-2`, `-3` suffix is added), and an early swap deleted the live folder
+before the rename, so a failure mid-swap would have left nothing in place. `export_profile.py` remains the readable
+logical export for the learner; backup/restore is for putting the system back exactly as it was. Not done: scheduled or
+automatic backups (the plugin has no scheduler; the skill suggests backing up before `/audit` repairs and upgrades),
+encryption (X-08), and copying a backup off the machine (left to the learner, and the skill says so).

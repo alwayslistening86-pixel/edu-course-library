@@ -147,6 +147,11 @@ class TestBackup(FakeEduCase):
         result = backup.create_backup("alex", root=self.root, include_courses=["gcse_maths"])
         self.assertEqual(result["included_courses"], ["gcse_maths"])
 
+    def test_backup_default_location_is_outside_the_learner_folder(self):
+        self.make_learner("alex")
+        result = backup.create_backup("alex", root=self.root)
+        self.assertEqual(os.path.dirname(result["zip_path"]), os.path.join(self.root, "backups"))
+
     def test_backup_does_not_rezip_its_own_exports(self):
         self.make_learner("alex")
         backup.create_backup("alex", root=self.root)

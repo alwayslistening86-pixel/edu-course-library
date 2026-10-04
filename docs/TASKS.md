@@ -361,6 +361,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | X-01 | ✅ done | policy + skill rules + blocking scan in `postcompile_gate` (v1.21.0); model-in-the-loop injection evals still under A-xx |
 | X-02 | ✅ done | course-file-as-data rule in tutor-core/runner/auditor; scan after writing `change.md` |
 | X-03 | ✅ done | stdin note passing, erase phrase from script output, hostile-id tests |
+| E-24 | ✅ done | `backup_profile.py` + `restore_profile.py` (v1.22.0); toolkit-backup default location fixed |
+| C-08 | ✅ done | `/backup`, `/restore`, `backup-restore` skill |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

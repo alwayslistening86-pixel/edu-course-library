@@ -28,7 +28,7 @@ description: Permanently deletes the active learner's data on request via /erase
 ## What is removed / kept
 Removed: the learner's entire folder — `student_profile.json`, every `subjects/<course_id>.json`, every review deck, `tutor.sqlite3` (the history database) and any lock/backup files in it. This is stronger than `consent.status: "revoked"`, which only stops future writes (enforced in code by every script).
 
-Kept: shared course content under `/EDU/courses/` (it belongs to no single learner; a course with no remaining enrolments is surfaced by `course-auditor`, not deleted). Backups or exports the learner saved elsewhere are theirs to delete — mention this.
+Kept: shared course content under `/EDU/courses/` (it belongs to no single learner; a course with no remaining enrolments is surfaced by `course-auditor`, not deleted). Backups (`/backup` writes to `<root>/backups/`, outside the learner folder) and exports the learner saved are **not** deleted — say so plainly and tell them where they are, because they still contain the learner's data.
 
 ## After erasure
 There is no active profile; the learner starts again with `/add-profile`. Nothing treats an erased profile as recoverable, by design.

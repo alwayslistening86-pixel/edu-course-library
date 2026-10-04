@@ -113,7 +113,8 @@ class GoldenCoverage(unittest.TestCase):
         scripts = sorted(f for f in os.listdir(gs.SCRIPTS) if f.endswith(".py"))
         covered = {s for steps, _ in CASES.values() for s, _a in steps}
         # bootstrap: covered by deploy tests; doctor: output embeds the interpreter version, covered by test_doctor_status
-        exempt = {"bootstrap_scripts.py", "doctor.py"}
+        # backup/restore: output embeds a wall-clock file name, covered by test_backup_restore
+        exempt = {"bootstrap_scripts.py", "doctor.py", "backup_profile.py", "restore_profile.py"}
         self.assertEqual([s for s in scripts if s not in covered and s not in exempt], [])
 
 

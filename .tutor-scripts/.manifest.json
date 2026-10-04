@@ -1,7 +1,8 @@
 {
-  "plugin_version": "1.21.0",
+  "plugin_version": "1.22.0",
   "files": [
     "apply_capabilities.py",
+    "backup_profile.py",
     "bootstrap_scripts.py",
     "cohort_status.py",
     "confidence_update.py",
@@ -20,6 +21,7 @@
     "record_stage_result.py",
     "remediation_state.py",
     "resolve_root.py",
+    "restore_profile.py",
     "resume_enrollment.py",
     "review_math.py",
     "roster_check.py",

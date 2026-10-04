@@ -32,7 +32,9 @@ def create_backup(learner_id, root=None, out_dir=None, include_courses=None):
     if not os.path.isdir(pdir):
         return {"error": f"no such learner profile: {pdir}"}
 
-    out_dir = out_dir or os.path.join(pdir, "exports")
+    # Default OUTSIDE the learner folder: a backup stored inside the data it protects is deleted by /erase
+    # and lost with the folder it was meant to save.
+    out_dir = out_dir or os.path.join(root, "backups")
     os.makedirs(out_dir, exist_ok=True)
     stamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     zip_path = os.path.join(out_dir, f"{learner_id}_backup_{stamp}.zip")

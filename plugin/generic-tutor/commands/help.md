@@ -20,6 +20,8 @@ Explain the tutor's commands briefly, adapting to where the learner is (no profi
 | `/drop <course>` | pause a course and free its roster slot |
 | `/audit` | maintenance check of every course |
 | `/doctor` | health check of the install and your data |
+| `/backup` | full checksummed backup of your progress, kept outside your learner folder |
+| `/restore <zip>` | put a learner back from a backup (verified first; asks before replacing) |
 | `/export` | save all your data to one zip |
 | `/erase` | permanently delete your data (asks you to type a confirmation phrase) |
 | `/help` | this list |
