@@ -309,6 +309,13 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | D-07 | ✅ done | `tools/lint_docs.py` + tests; checks script refs, command↔skill wiring, names, versions, links |
 | K-35 | 🟡 partial | private `vN` removed from 4 skill headings; release-history prose inside skills remains |
 | E-14 | ℹ️ note | `slot_advance.py` already has a time-window double-`/run` guard; E-14 narrows to a session-token guard |
+| R-14 | 🟡 partial | `dependabot.yml` for Actions added; SHA-pinning deferred (needs verified SHAs, not guessed) |
+| R-18 | ✅ done | `SECURITY.md` |
+| X-04 | ✅ done | `docs/PRIVACY.md` |
+| X-09 | ✅ done | minors section in `docs/PRIVACY.md` |
+| X-10 | ✅ done | `NOTICE` |
+| D-04 | ✅ done | `docs/GLOSSARY.md` |
+| D-05 | 🟡 partial | `CHANGELOG.md` created (Keep-a-Changelog); CI enforcement of an entry per release still to do |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
