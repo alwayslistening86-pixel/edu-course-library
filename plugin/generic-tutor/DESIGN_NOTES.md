@@ -1093,3 +1093,15 @@ unknown status ⇒ treated as `revoked` (fail closed). `migrate_schema.py` is de
 explicit `/audit` maintenance path and changes shape, not content. A skipped write returns the computed result
 plus `written: false` so in-session use ("used now, discarded") still works. `tests/test_consent.py` runs every
 writer under every status and was checked to fail when the gate is disabled.
+
+## 4 Oct 2026 — v1.15.0: /erase and /export become scripts; identifier and path guards (K-27, K-28, K-29, C-05, S-13, E-08)
+
+Audit findings closed: `/export` omitted `tutor.sqlite3` (the fullest record of a learner) and `/erase` demanded a
+"confirmation token" it never defined. Both were also model-executed file handling. `erase_profile.py` lists what
+will be removed (`--dry-run`), then deletes only on the exact phrase `ERASE <user_id>`; `export_profile.py` writes
+one zip (progress, decks, every history table as JSON, `manifest.json` with sha256) and refuses an output path
+inside the profile root. Both validate the user id (`tutorlib.ids`: 1-64 chars, alphanumeric start, no separators,
+no `..`, no Windows device names) and refuse symlinked learner folders / paths resolving outside the profile root
+(`tutorlib.paths`). Exports are not consent-gated (read-only copy of the learner's own data); erase is
+deliberately usable under any consent status. Id validation is wired into these two scripts only; applying it at
+every script boundary is part of E-20.

@@ -330,6 +330,12 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-04 | ✅ done | per-file re-entrant lock on 8 RMW entry points; parallel test fails (6–9 of 12 survive) without it, passes with it (v1.13.0) |
 | E-05 | ✅ done | `tutorlib/consent.py` (3 write classes, fail-closed) (v1.14.0) |
 | E-06 | ✅ done | wired into 9 writers + `sqlite_store`; matrix test verified to fail when gate disabled. `migrate_schema.py` exempt by design |
+| K-27 | ✅ done | `erase_profile.py` + skill rewrite; phrase `ERASE <user_id>`, dry-run, history DB included (v1.15.0) |
+| K-28 | ✅ done | export includes all history tables |
+| K-29 | ✅ done | `export_profile.py` zip with manifest + sha256 |
+| C-05 | ✅ done | `/erase` command updated |
+| S-13 | 🟡 partial | `tutorlib.ids` rules + tests; wired into erase/export only (rest under E-20) |
+| E-08 | 🟡 partial | `tutorlib.paths` symlink/outside-root guard; used by erase/export; other scripts take explicit paths from the caller |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

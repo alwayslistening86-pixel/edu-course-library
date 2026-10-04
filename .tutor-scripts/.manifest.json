@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.14.0",
+  "plugin_version": "1.15.0",
   "files": [
     "apply_capabilities.py",
     "bootstrap_scripts.py",
@@ -7,7 +7,9 @@
     "confidence_update.py",
     "coverage_check.py",
     "diagnostic_gate.py",
+    "erase_profile.py",
     "error_log.py",
+    "export_profile.py",
     "gate_check.py",
     "item_mastery.py",
     "migrate_schema.py",

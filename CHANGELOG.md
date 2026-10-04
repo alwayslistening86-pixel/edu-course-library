@@ -16,6 +16,14 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.15.0] — 2026-10-04
+### Fixed
+- `/export` omitted the history database (`tutor.sqlite3`); it now includes every table. `/export` and `/erase` are performed by scripts (`export_profile.py`, `erase_profile.py`) instead of model-driven file handling.
+- `/erase` referred to an undefined "confirmation token". The learner must now type exactly `ERASE <user_id>`; a dry run lists what will be deleted first.
+### Added
+- `tutorlib.ids` (identifier rules) and `tutorlib.paths` (symlink-safe path guards); `tests/test_erase_export.py`.
+- Export bundle with `manifest.json` (format version, sha256 per file).
+
 ## [1.14.0] — 2026-10-04
 ### Fixed
 - **Consent was only honoured by prose and one script.** `limited`/`revoked` consent is now enforced inside every state-writing script and the history database (progress and scheduling persist under `limited`; learner signals persist only under `granted`; nothing under `revoked`). Unreadable or unknown consent fails closed. Skipped writes return `written: false` with the computed values.
