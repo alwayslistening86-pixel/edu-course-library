@@ -86,3 +86,23 @@ class Marketplace(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ContextBudget(unittest.TestCase):
+    """P-15: a command may not load more skill text than its committed budget (ratchet)."""
+
+    def test_no_command_exceeds_its_budget(self):
+        import context_budget
+        with open(context_budget.BUDGET_FILE) as f:
+            budget = json.load(f)
+        measured = context_budget.measure()
+        self.assertEqual(sorted(measured), sorted(budget), "every command needs a budget entry (python3 tools/context_budget.py --json)")
+        over = {c: (v["chars"], budget[c]) for c, v in measured.items() if v["chars"] > budget[c]}
+        self.assertEqual(over, {}, "context grew: trim the skills, or raise tools/context_budget.json deliberately")
+
+    def test_largest_commands_stay_far_below_pre_split_sizes(self):
+        import context_budget
+        m = context_budget.measure()
+        self.assertLess(m["list-courses"]["chars"], 5000)   # was 30,496 when it loaded the whole course-runner skill
+        self.assertLess(m["drop"]["chars"], 8000)           # was 39,073 (journey-planner + course-auditor)
+        self.assertLess(m["run"]["chars"], 15000)           # was 23,196

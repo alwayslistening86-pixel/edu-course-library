@@ -1212,3 +1212,15 @@ referenced docs now live inside the plugin and skills use `${CLAUDE_PLUGIN_ROOT}
 so a release asset can be reproduced from the tag. The release workflow cannot be exercised before a tag exists; its
 moving parts (version check, notes extraction, build) are covered by tests and run in the PR checks. Not done: running
 the plugin inside Cowork itself, and a `/doctor` check that an installed copy matches the marketplace version.
+
+## 4 Oct 2026 — v1.24.0: command context budget and command-specific skill splits (tasks P-15, K-05/K-09 first step)
+
+Measured before changing anything: `/list-courses` loaded the entire 30 KB `course-runner` skill to print a status
+table, and `/drop` loaded `journey-planner` plus `course-auditor` (39 KB) to flip one field. Those were the clear wins
+because the moved text is needed by exactly one command; nothing on a teaching path was touched. Sections were moved
+verbatim and checked line-for-line (0 lines lost; only pointer/heading lines added). Deliberately NOT done: splitting
+`course-runner` and `course-compiler` internally (live recheck, convergence, remediation, diagnostics). Those
+instructions are read in the middle of teaching, and on-demand reads of situational files would silently drop them if
+the model skipped the read; there are no evals yet to measure that risk (Phase 3). They stay whole until a before/after
+eval exists, which is why `/continue` (48.9 K chars, ~12 K tokens) remains the budget's biggest line. The ratchet means
+the number can only go down on purpose. Character counts are an estimate (chars/4), good for comparison, not billing.

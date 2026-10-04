@@ -54,6 +54,19 @@ def lint(root):
         if s not in included:
             errors.append(f"skill {s}: not included by any command")
 
+    # reference files inside skill folders: includes must exist, and none may be orphaned
+    included_files = set()
+    for c in cmds:
+        for sk, fn in re.findall(r"skills/([\w-]+)/([\w.-]+\.md)", _read(os.path.join(cmds_dir, c))):
+            included_files.add((sk, fn))
+            if not os.path.isfile(os.path.join(skills_dir, sk, fn)):
+                errors.append(f"command {c}: includes missing file skills/{sk}/{fn}")
+    for sk in skills:
+        skill_text = _read(os.path.join(skills_dir, sk, "SKILL.md"))
+        for fn in sorted(os.listdir(os.path.join(skills_dir, sk))):
+            if fn.endswith(".md") and fn != "SKILL.md" and (sk, fn) not in included_files and fn not in skill_text:
+                errors.append(f"skill {sk}: reference file {fn} is neither included by a command nor mentioned in SKILL.md")
+
     # help.md must list every command
     help_path = os.path.join(cmds_dir, "help.md")
     if os.path.isfile(help_path):

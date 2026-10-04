@@ -1,0 +1,19 @@
+{
+  "add-course": 39736,
+  "add-profile": 24488,
+  "audit": 26241,
+  "backup": 2892,
+  "continue": 48895,
+  "doctor": 2884,
+  "drop": 4957,
+  "erase": 2995,
+  "export": 1860,
+  "help": 1521,
+  "list-courses": 1672,
+  "plan": 11496,
+  "profile": 22632,
+  "restore": 2922,
+  "review": 5973,
+  "run": 12826,
+  "status": 2847
+}

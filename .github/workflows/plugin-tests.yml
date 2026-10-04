@@ -57,6 +57,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 tools/lint_docs.py --strict
+      - name: Command context budget (ratchet)
+        run: python3 tools/context_budget.py --check
       - name: CHANGELOG has an entry for the current plugin version
         run: |
           v=$(python3 -c "import json;print(json.load(open('plugin/generic-tutor/.claude-plugin/plugin.json'))['version'])")

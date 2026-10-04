@@ -16,6 +16,13 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.24.0] — 2026-10-04
+### Changed
+- **Commands load far less context.** Command-specific sections of four big skills moved (verbatim — a line-by-line check found nothing lost) into reference files that only the commands needing them include: `course-runner/list-courses.md`, `journey-planner/drop.md`, `course-auditor/suspension.md`, `profile-kernel/intake.md` and `profile-kernel/profile-schema.md`. Approximate size of text loaded per command: `/list-courses` 30,496 → 1,672 chars (−95%), `/drop` 39,073 → 4,957 (−87%), `/run` 23,196 → 12,826 (−45%), `/profile` 23,294 → 22,632, `/audit`/`/add-profile` unchanged in substance. `/continue` (48,895) and `/add-course` (39,736) are untouched on purpose — see below.
+### Added
+- `tools/context_budget.py` measures each command's loaded text; `tools/context_budget.json` is a ratchet (CI fails if a command's context grows without a deliberate edit), with a test that pins the big reductions.
+- Docs lint: reference files in skill folders must be included by a command or named in their `SKILL.md`; command includes of non-`SKILL.md` files must exist.
+
 ## [1.23.0] — 2026-10-04
 ### Added
 - **One-step install**: `.claude-plugin/marketplace.json` makes the repository a plugin marketplace (`claude plugin marketplace add alwayslistening86-pixel/edu-course-library`, then `claude plugin install generic-tutor@edu-course-library` — both run successfully against this repo).

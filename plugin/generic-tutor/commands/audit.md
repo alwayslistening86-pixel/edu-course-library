@@ -3,5 +3,6 @@ description: Full-suite check across every course, active or not — structural 
 ---
 
 @${CLAUDE_PLUGIN_ROOT}/skills/course-auditor/SKILL.md
+@${CLAUDE_PLUGIN_ROOT}/skills/course-auditor/suspension.md
 
 Run the `/audit` flow described above.

@@ -369,6 +369,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-19 | ✅ done | `plugin-validate` CI job (plugin, skills, commands, marketplace) |
 | R-11 | ✅ done | `tools/build_plugin.py` deterministic |
 | R-12 | ✅ done | `release.yml` (untested until the first tag) + `tools/release_notes.py` |
+| P-15 | ✅ done | `tools/context_budget.py` + ratchet + CI check; `/list-courses` −95%, `/drop` −87%, `/run` −45% (v1.24.0) |
+| K-05 | 🟡 partial | command-specific parts split out of course-runner (list-courses.md); teaching-path sections deliberately kept whole until evals exist |
+| K-09 | ⏸ deferred | course-compiler internal split waits for evals (same reason) |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
