@@ -1,0 +1,50 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "gate_check.py",
+        "{C}/mathB/course.json",
+        "{S}/mathB.json",
+        "{S}",
+        "{C}",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "can_proceed": false,
+        "coverage": {
+          "computed_status": "full",
+          "declared_status": "full",
+          "detail": "every itemised specification item is mapped to a stage whose lesson names it (declared coverage; see coverage_check.py)",
+          "disclose_to_learner": false,
+          "effective_status": "full",
+          "excluded_items": {},
+          "items_excluded": 0,
+          "items_taught": 3,
+          "items_total": 3,
+          "uncovered_items": []
+        },
+        "first_blocking_gate": "3_level_lock",
+        "gates": {
+          "1_folder_access": {
+            "detail": "confirmed",
+            "status": "pass",
+            "value": "isolated_confirmed"
+          },
+          "2_grounding": {
+            "detail": "grounded",
+            "status": "pass",
+            "value": "verified"
+          },
+          "3_level_lock": {
+            "detail": "course is dormant, locked behind a lower-level course still incomplete",
+            "status": "blocked",
+            "value": "dormant"
+          }
+        }
+      }
+    }
+  ]
+}

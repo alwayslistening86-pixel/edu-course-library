@@ -1,0 +1,139 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "postcompile_gate.py",
+        "check",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advisory_notes": [
+          "misconceptions status: {'stages_covered': 0, 'stages_total': 3, 'per_stage': {'S1': {'present': False}, 'S2': {'present': False}, 'S3': {'present': False}}}"
+        ],
+        "blocking_reasons": [],
+        "can_ship": true,
+        "course_dir": "<TMP>/courses/mathA",
+        "coverage": {
+          "clean": true,
+          "computed_status": "full",
+          "course_dir": "<TMP>/courses/mathA",
+          "declared_exclusions": {},
+          "declared_status": "full",
+          "items_declared": true,
+          "items_excluded": 0,
+          "items_in_multiple_stages": {},
+          "items_taught": 3,
+          "items_total": 3,
+          "lesson_words_per_stage": {
+            "S1": 7,
+            "S2": 7,
+            "S3": 7
+          },
+          "note": "computed_status 'full' means every itemised item is mapped to a stage whose lesson.md names it, or is declared out of scope with a reason. It does not verify that the items match the live specification (course-auditor Tier 3) or how well any lesson teaches an item.",
+          "problems": {},
+          "stage_ladder_length": 3,
+          "status_mismatch": false,
+          "uncovered_items": []
+        },
+        "structure": {
+          "clean": true,
+          "course_dir": "<TMP>/courses/mathA",
+          "empty_source_entries": [],
+          "misconceptions_status": {
+            "per_stage": {
+              "S1": {
+                "present": false
+              },
+              "S2": {
+                "present": false
+              },
+              "S3": {
+                "present": false
+              }
+            },
+            "stages_covered": 0,
+            "stages_total": 3
+          },
+          "missing_rubric_entries": [],
+          "missing_stage_files": [],
+          "orphaned_stage_dirs": [],
+          "rubric_issue": null,
+          "stage_ladder_length": 3,
+          "v13_problems": {}
+        }
+      }
+    },
+    {
+      "cmd": [
+        "postcompile_gate.py",
+        "check",
+        "{C}/broken"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advisory_notes": [
+          "misconceptions status: {'stages_covered': 0, 'stages_total': 3, 'per_stage': {'S1': {'present': False}, 'S2': {'present': False}, 'S3': {'present': False}}}"
+        ],
+        "blocking_reasons": [
+          "missing stage files: ['S2/test.md']"
+        ],
+        "can_ship": false,
+        "course_dir": "<TMP>/courses/broken",
+        "coverage": {
+          "clean": true,
+          "computed_status": "full",
+          "course_dir": "<TMP>/courses/broken",
+          "declared_exclusions": {},
+          "declared_status": "full",
+          "items_declared": true,
+          "items_excluded": 0,
+          "items_in_multiple_stages": {},
+          "items_taught": 3,
+          "items_total": 3,
+          "lesson_words_per_stage": {
+            "S1": 7,
+            "S2": 7,
+            "S3": 7
+          },
+          "note": "computed_status 'full' means every itemised item is mapped to a stage whose lesson.md names it, or is declared out of scope with a reason. It does not verify that the items match the live specification (course-auditor Tier 3) or how well any lesson teaches an item.",
+          "problems": {},
+          "stage_ladder_length": 3,
+          "status_mismatch": false,
+          "uncovered_items": []
+        },
+        "structure": {
+          "clean": false,
+          "course_dir": "<TMP>/courses/broken",
+          "empty_source_entries": [],
+          "misconceptions_status": {
+            "per_stage": {
+              "S1": {
+                "present": false
+              },
+              "S2": {
+                "present": false
+              },
+              "S3": {
+                "present": false
+              }
+            },
+            "stages_covered": 0,
+            "stages_total": 3
+          },
+          "missing_rubric_entries": [],
+          "missing_stage_files": [
+            "S2/test.md"
+          ],
+          "orphaned_stage_dirs": [],
+          "rubric_issue": null,
+          "stage_ladder_length": 3,
+          "v13_problems": {}
+        }
+      }
+    }
+  ]
+}

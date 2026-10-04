@@ -1,0 +1,31 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "apply_capabilities.py",
+        "{P}/student_profile.json",
+        "{C}/design/course.json",
+        "{S}/design.json",
+        "--dry-run"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "changed": {
+          "S2": [
+            "unsat",
+            "withheld"
+          ]
+        },
+        "dry_run": true,
+        "reopens_completed_course": false,
+        "theory_only": true,
+        "withheld_now": [
+          "S2"
+        ],
+        "wrote": false
+      }
+    }
+  ]
+}

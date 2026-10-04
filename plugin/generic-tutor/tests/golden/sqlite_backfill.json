@@ -1,0 +1,49 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "sqlite_store.py",
+        "backfill",
+        "{L}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "errors": [],
+        "files": [
+          {
+            "error_events_backfilled": 0,
+            "file": "design.json",
+            "item_mastery_backfilled": 0,
+            "kind": "subjects"
+          },
+          {
+            "error_events_backfilled": 0,
+            "file": "mathA.json",
+            "item_mastery_backfilled": 0,
+            "kind": "subjects"
+          },
+          {
+            "cards_backfilled": 1,
+            "file": "mathA_review_deck.json",
+            "kind": "review_deck"
+          },
+          {
+            "error_events_backfilled": 0,
+            "file": "mathB.json",
+            "item_mastery_backfilled": 0,
+            "kind": "subjects"
+          },
+          {
+            "error_events_backfilled": 0,
+            "file": "solo.json",
+            "item_mastery_backfilled": 0,
+            "kind": "subjects"
+          }
+        ],
+        "learner_dir": "<TMP>/profile/amy"
+      }
+    }
+  ]
+}

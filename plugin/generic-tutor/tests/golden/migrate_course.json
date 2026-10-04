@@ -1,0 +1,59 @@
+{
+  "files_after": {
+    "courses/old/course.json": {
+      "academic_level": 2,
+      "coverage_status": "unverified",
+      "currency": "live",
+      "grounding_status": null,
+      "last_live_recheck": null,
+      "learner_notices": [],
+      "level_basis": null,
+      "level_source": null,
+      "name": "Old shape",
+      "practical_stages": {},
+      "requires_complete": [],
+      "schema_version": 4,
+      "stage_ladder": [
+        "S1"
+      ],
+      "stages": {
+        "S1": {}
+      },
+      "standalone": false
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "migrate_schema.py",
+        "course",
+        "{C}/old/course.json"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "changed_fields": [
+          "schema_version: None -> 4",
+          "standalone: added as false",
+          "level_source: added as null",
+          "requires_complete: None -> [] (list form)",
+          "practical_stages: added as {}",
+          "learner_notices: added as []",
+          "level_basis: added as null",
+          "grounding_status: added as null",
+          "last_live_recheck: added as null",
+          "coverage_status: added as \"unverified\""
+        ],
+        "kind": "course",
+        "needs_sourcing": [
+          "level_source",
+          "level_basis (framework / declared / standalone - could not be inferred)",
+          "grounding_status (run Tier 3 grounding verification)",
+          "coverage_status (run course-auditor's Tier 3 coverage pass: itemise the spec, map stages, run coverage_check.py)"
+        ],
+        "path": "<TMP>/courses/old/course.json",
+        "wrote": true
+      }
+    }
+  ]
+}

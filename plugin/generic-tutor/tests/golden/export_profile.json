@@ -1,0 +1,21 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "export_profile.py",
+        "{R}",
+        "amy",
+        "{T}/out.zip"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "exported": true,
+        "file_count": 6,
+        "history_tables": [],
+        "output": "<TMP>/out.zip"
+      }
+    }
+  ]
+}

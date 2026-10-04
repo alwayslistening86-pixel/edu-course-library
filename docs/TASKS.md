@@ -336,6 +336,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | C-05 | ✅ done | `/erase` command updated |
 | S-13 | 🟡 partial | `tutorlib.ids` rules + tests; wired into erase/export only (rest under E-20) |
 | E-08 | 🟡 partial | `tutorlib.paths` symlink/outside-root guard; used by erase/export; other scripts take explicit paths from the caller |
+| E-01 | ✅ done | 27 golden CLI cases (all scripts but `bootstrap_scripts.py`, covered by deploy tests) in `tests/test_golden_cli.py` + `tests/golden/`; deterministic across runs and Python 3.10/3.12; a meta-test fails when a new script has no golden case. Finding: three scripts return errors as JSON with exit 0 (`docs/CLI_BASELINE.md`) → input to E-10/E-11 |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

@@ -1,0 +1,21 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "prereq_check.py",
+        "{C}/mathA/course.json",
+        "{S}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "met": true,
+        "missing_courses": [],
+        "required": [],
+        "unmet": []
+      }
+    }
+  ]
+}

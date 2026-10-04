@@ -1,0 +1,156 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "diagnostic_gate.py",
+        "{S}/mathA.json",
+        "S1",
+        "S1.1",
+        "true",
+        "false"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "fire": true,
+        "item_mastery": null,
+        "reasons": [
+          "learner explicitly said they're confused"
+        ],
+        "response_style": "elicit before explaining — ask what they did, don't just tell them what's wrong",
+        "taxonomy": {
+          "comprehension": {
+            "meaning": "didn't parse what the question actually asked",
+            "right_response": "practice decoding question wording",
+            "wrong_response": "any subject re-teaching at all"
+          },
+          "misapplied_procedure": {
+            "meaning": "right idea, wrong steps or formula",
+            "right_response": "a fresh worked example of the correct procedure, set beside theirs",
+            "wrong_response": "re-explaining the underlying concept, which was never the problem"
+          },
+          "misconception": {
+            "meaning": "a specific wrong mental model, applied consistently",
+            "right_response": "directly confronting the wrong model with a case that breaks it, ideally matched to misconceptions.json",
+            "wrong_response": "a generic 'let's go over this again' that never names the actual wrong belief"
+          },
+          "missing_prerequisite": {
+            "meaning": "a gap from an earlier stage or an earlier course",
+            "right_response": "routing back to where it was first taught",
+            "wrong_response": "repeating the current stage's lesson, which assumes the missing piece"
+          },
+          "slip": {
+            "meaning": "knew it, executed wrong (careless, not conceptual)",
+            "right_response": "a prompt to recheck their own work",
+            "wrong_response": "re-explaining a concept they already have"
+          }
+        },
+        "trigger_a_repeated_item": false,
+        "trigger_b_recurring_cause": null,
+        "trigger_c_explicit_confusion": true,
+        "trigger_d_reasoning_mismatch": false
+      }
+    },
+    {
+      "cmd": [
+        "diagnostic_gate.py",
+        "{S}/mathA.json",
+        "S1",
+        "S1.1",
+        "false",
+        "false"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "fire": false,
+        "item_mastery": null,
+        "reasons": [],
+        "response_style": null,
+        "taxonomy": {
+          "comprehension": {
+            "meaning": "didn't parse what the question actually asked",
+            "right_response": "practice decoding question wording",
+            "wrong_response": "any subject re-teaching at all"
+          },
+          "misapplied_procedure": {
+            "meaning": "right idea, wrong steps or formula",
+            "right_response": "a fresh worked example of the correct procedure, set beside theirs",
+            "wrong_response": "re-explaining the underlying concept, which was never the problem"
+          },
+          "misconception": {
+            "meaning": "a specific wrong mental model, applied consistently",
+            "right_response": "directly confronting the wrong model with a case that breaks it, ideally matched to misconceptions.json",
+            "wrong_response": "a generic 'let's go over this again' that never names the actual wrong belief"
+          },
+          "missing_prerequisite": {
+            "meaning": "a gap from an earlier stage or an earlier course",
+            "right_response": "routing back to where it was first taught",
+            "wrong_response": "repeating the current stage's lesson, which assumes the missing piece"
+          },
+          "slip": {
+            "meaning": "knew it, executed wrong (careless, not conceptual)",
+            "right_response": "a prompt to recheck their own work",
+            "wrong_response": "re-explaining a concept they already have"
+          }
+        },
+        "trigger_a_repeated_item": false,
+        "trigger_b_recurring_cause": null,
+        "trigger_c_explicit_confusion": false,
+        "trigger_d_reasoning_mismatch": false
+      }
+    },
+    {
+      "cmd": [
+        "diagnostic_gate.py",
+        "{S}/mathA.json",
+        "S1",
+        "S1.1",
+        "false",
+        "true"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "fire": true,
+        "item_mastery": null,
+        "reasons": [
+          "right answer, wrong or absent reasoning (false-positive-mastery catch)"
+        ],
+        "response_style": "elicit before explaining — ask what they did, don't just tell them what's wrong",
+        "taxonomy": {
+          "comprehension": {
+            "meaning": "didn't parse what the question actually asked",
+            "right_response": "practice decoding question wording",
+            "wrong_response": "any subject re-teaching at all"
+          },
+          "misapplied_procedure": {
+            "meaning": "right idea, wrong steps or formula",
+            "right_response": "a fresh worked example of the correct procedure, set beside theirs",
+            "wrong_response": "re-explaining the underlying concept, which was never the problem"
+          },
+          "misconception": {
+            "meaning": "a specific wrong mental model, applied consistently",
+            "right_response": "directly confronting the wrong model with a case that breaks it, ideally matched to misconceptions.json",
+            "wrong_response": "a generic 'let's go over this again' that never names the actual wrong belief"
+          },
+          "missing_prerequisite": {
+            "meaning": "a gap from an earlier stage or an earlier course",
+            "right_response": "routing back to where it was first taught",
+            "wrong_response": "repeating the current stage's lesson, which assumes the missing piece"
+          },
+          "slip": {
+            "meaning": "knew it, executed wrong (careless, not conceptual)",
+            "right_response": "a prompt to recheck their own work",
+            "wrong_response": "re-explaining a concept they already have"
+          }
+        },
+        "trigger_a_repeated_item": false,
+        "trigger_b_recurring_cause": null,
+        "trigger_c_explicit_confusion": false,
+        "trigger_d_reasoning_mismatch": true
+      }
+    }
+  ]
+}

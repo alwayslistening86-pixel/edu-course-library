@@ -1,0 +1,289 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [
+        {
+          "cause": "misconception",
+          "id": "err_<DATE>_S2_001",
+          "item_id": "S2.1",
+          "misconception_id": "MC-1",
+          "note": "thinks x",
+          "resolved": true,
+          "resolved_at_slot": 8,
+          "rubric_criterion": null,
+          "slot": 6,
+          "source_phase": "practice",
+          "stage_id": "S2"
+        },
+        {
+          "cause": "misconception",
+          "id": "err_<DATE>_S2_002",
+          "item_id": "S2.1",
+          "misconception_id": null,
+          "note": "again",
+          "resolved": true,
+          "resolved_at_slot": 8,
+          "rubric_criterion": null,
+          "slot": 7,
+          "source_phase": "practice",
+          "stage_id": "S2"
+        }
+      ],
+      "exam_status": "locked",
+      "item_mastery": {
+        "S2.1": {
+          "last_correct": true,
+          "last_slot": 8,
+          "observations": 3,
+          "p_mastery": 0.5647
+        }
+      },
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S2",
+        "S2.1",
+        "practice",
+        "misconception",
+        "MC-1",
+        "thinks x",
+        "6"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "appended",
+        "entry": {
+          "cause": "misconception",
+          "id": "err_<DATE>_S2_001",
+          "item_id": "S2.1",
+          "misconception_id": "MC-1",
+          "note": "thinks x",
+          "resolved": false,
+          "resolved_at_slot": null,
+          "rubric_criterion": null,
+          "slot": 6,
+          "source_phase": "practice",
+          "stage_id": "S2"
+        },
+        "item_mastery": {
+          "item_id": "S2.1",
+          "new_p_mastery": 0.1932,
+          "observations": 1,
+          "params": {
+            "p_guess": 0.2,
+            "p_init": 0.3,
+            "p_slip": 0.1,
+            "p_transit": 0.15
+          },
+          "posterior_this_observation": 0.0508,
+          "prior": 0.3,
+          "sqlite": {
+            "ok": true
+          }
+        },
+        "recurring": false,
+        "sqlite": {
+          "ok": true
+        },
+        "unresolved_same_cause_in_stage": 1,
+        "unresolved_same_item_and_cause": 1
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S2",
+        "S2.1",
+        "practice",
+        "misconception",
+        "NONE",
+        "again",
+        "7"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "appended",
+        "entry": {
+          "cause": "misconception",
+          "id": "err_<DATE>_S2_002",
+          "item_id": "S2.1",
+          "misconception_id": null,
+          "note": "again",
+          "resolved": false,
+          "resolved_at_slot": null,
+          "rubric_criterion": null,
+          "slot": 7,
+          "source_phase": "practice",
+          "stage_id": "S2"
+        },
+        "item_mastery": {
+          "item_id": "S2.1",
+          "new_p_mastery": 0.1747,
+          "observations": 2,
+          "params": {
+            "p_guess": 0.2,
+            "p_init": 0.3,
+            "p_slip": 0.1,
+            "p_transit": 0.15
+          },
+          "posterior_this_observation": 0.0291,
+          "prior": 0.1932,
+          "sqlite": {
+            "ok": true
+          }
+        },
+        "recurring": true,
+        "sqlite": {
+          "ok": true
+        },
+        "unresolved_same_cause_in_stage": 2,
+        "unresolved_same_item_and_cause": 2
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "query",
+        "{S}/mathA.json"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "entries": [
+          {
+            "cause": "misconception",
+            "id": "err_<DATE>_S2_001",
+            "item_id": "S2.1",
+            "misconception_id": "MC-1",
+            "note": "thinks x",
+            "resolved": false,
+            "resolved_at_slot": null,
+            "rubric_criterion": null,
+            "slot": 6,
+            "source_phase": "practice",
+            "stage_id": "S2"
+          },
+          {
+            "cause": "misconception",
+            "id": "err_<DATE>_S2_002",
+            "item_id": "S2.1",
+            "misconception_id": null,
+            "note": "again",
+            "resolved": false,
+            "resolved_at_slot": null,
+            "rubric_criterion": null,
+            "slot": 7,
+            "source_phase": "practice",
+            "stage_id": "S2"
+          }
+        ],
+        "recurring_pairs": [
+          {
+            "cause": "misconception",
+            "count": 2,
+            "item_id": "S2.1"
+          }
+        ],
+        "stage_filter": "ALL",
+        "total_entries": 2,
+        "unresolved_by_cause": {
+          "misconception": 2
+        },
+        "unresolved_count": 2
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "resolve",
+        "{S}/mathA.json",
+        "S2.1",
+        "8"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "resolved",
+        "count": 2,
+        "entries_resolved": [
+          "err_<DATE>_S2_001",
+          "err_<DATE>_S2_002"
+        ],
+        "item_id": "S2.1",
+        "item_mastery": {
+          "item_id": "S2.1",
+          "new_p_mastery": 0.5647,
+          "observations": 3,
+          "params": {
+            "p_guess": 0.2,
+            "p_init": 0.3,
+            "p_slip": 0.1,
+            "p_transit": 0.15
+          },
+          "posterior_this_observation": 0.4879,
+          "prior": 0.1747,
+          "sqlite": {
+            "ok": true
+          }
+        },
+        "sqlite": {
+          "ok": true,
+          "updated": 2
+        }
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S2",
+        "S2.1",
+        "bogus",
+        "NONE",
+        "x",
+        "9"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]"
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: error_log.py append|resolve|query <subjects.json> ..."
+      }
+    }
+  ]
+}

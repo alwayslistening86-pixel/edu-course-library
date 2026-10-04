@@ -14,6 +14,8 @@ cd plugin/generic-tutor && python3 -m unittest discover tests      # full suite,
 python3 plugin/generic-tutor/scripts/bootstrap_scripts.py plugin/generic-tutor/scripts plugin/generic-tutor/.claude-plugin/plugin.json .tutor-scripts   # refresh deployed copy
 ```
 
+Golden CLI snapshots: `tests/golden/*.json` pin every script's output. If a change to script output is intended, regenerate with `cd plugin/generic-tutor && UPDATE_GOLDEN=1 python3 -m unittest tests.test_golden_cli`, then review the diff.
+
 ## Rules
 - Python floor is 3.10; no third-party runtime dependencies.
 - Deterministic logic belongs in scripts, not skill prose. Skills say *when* to call a script; scripts own state writes.

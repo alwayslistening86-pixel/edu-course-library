@@ -1,0 +1,67 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "lesson",
+      "current_stage": "S3",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "pass",
+        "S3": "fail"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "record_stage_result.py",
+        "apply",
+        "{S}/mathA.json",
+        "{C}/mathA/course.json",
+        "S2",
+        "pass"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advanced_to": "S3",
+        "current_stage": "S3",
+        "previous_status": "unsat",
+        "result": "pass",
+        "stage_id": "S2",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "record_stage_result.py",
+        "apply",
+        "{S}/mathA.json",
+        "{C}/mathA/course.json",
+        "S3",
+        "fail"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advanced_to": null,
+        "current_stage": "S3",
+        "previous_status": "unsat",
+        "result": "fail",
+        "stage_id": "S3",
+        "written": true
+      }
+    }
+  ]
+}

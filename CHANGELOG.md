@@ -5,6 +5,7 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ## [Unreleased] — redesign programme (see `docs/PLAN.md`)
 ### Added
 - `docs/adr/0001` (hooks are Claude Code-only), `docs/PEDAGOGY.md`, `CHANGELOG.md`.
+- Golden-output tests for every script CLI (`tests/test_golden_cli.py`, `tests/golden/`); `docs/CLI_BASELINE.md`.
 - Planning docs: `docs/PLAN.md`, `docs/TASKS.md`, `docs/DATA_MODEL.md`, `docs/GLOSSARY.md`, `docs/PRIVACY.md`.
 - `tools/lint_docs.py` (script references, command↔skill wiring, versions, links) with tests.
 - CI: lint (ruff, mypy), docs-lint, Python 3.10/3.12/3.13 test matrix, deployed-copy drift check, `validate_courses.py` smoke test.

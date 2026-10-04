@@ -1,0 +1,45 @@
+{
+  "files_after": {
+    "profile/amy/subjects/design.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "design",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "resume_enrollment.py",
+        "{S}/design.json",
+        "{C}/design/course.json",
+        "active",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "already_complete": false,
+        "preserved_current_stage": "S2",
+        "preserved_pass_count": 1,
+        "reopened_level": null,
+        "resumed": true,
+        "roster_state": "active"
+      }
+    }
+  ]
+}

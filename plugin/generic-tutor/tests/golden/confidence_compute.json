@@ -1,0 +1,76 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "confidence_update.py",
+        "compute",
+        "0.5",
+        "pass_clean"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "deltas_applied": [
+          {
+            "actual_delta": 0.075,
+            "base_delta": 0.15,
+            "reason": "pass_clean"
+          }
+        ],
+        "new_confidence": 0.575,
+        "old_confidence": 0.5
+      }
+    },
+    {
+      "cmd": [
+        "confidence_update.py",
+        "compute",
+        "0.5",
+        "fail",
+        "--misconception"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "deltas_applied": [
+          {
+            "actual_delta": -0.05,
+            "base_delta": -0.1,
+            "reason": "fail"
+          },
+          {
+            "actual_delta": -0.0225,
+            "base_delta": -0.05,
+            "reason": "misconception_extra"
+          }
+        ],
+        "new_confidence": 0.4275,
+        "old_confidence": 0.5
+      }
+    },
+    {
+      "cmd": [
+        "confidence_update.py",
+        "compute",
+        "0.5",
+        "bogus"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "event must be one of ('pass_clean', 'pass_remediated', 'fail'), got 'bogus'"
+      }
+    },
+    {
+      "cmd": [
+        "confidence_update.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: confidence_update.py compute <old_confidence> <event> [--misconception] | apply <subjects.json> <event> <current_slot> [--misconception]"
+      }
+    }
+  ]
+}

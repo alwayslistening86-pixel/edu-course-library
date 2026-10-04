@@ -1,0 +1,49 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "erase_profile.py",
+        "{R}",
+        "amy",
+        "--dry-run"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "dry_run": true,
+        "erased": false,
+        "file_count": 6,
+        "files": [
+          {
+            "bytes": 270,
+            "path": "student_profile.json"
+          },
+          {
+            "bytes": 424,
+            "path": "subjects/design.json"
+          },
+          {
+            "bytes": 441,
+            "path": "subjects/mathA.json"
+          },
+          {
+            "bytes": 301,
+            "path": "subjects/mathA_review_deck.json"
+          },
+          {
+            "bytes": 443,
+            "path": "subjects/mathB.json"
+          },
+          {
+            "bytes": 438,
+            "path": "subjects/solo.json"
+          }
+        ],
+        "has_history_db": false,
+        "required_confirmation": "ERASE amy",
+        "user_id": "amy"
+      }
+    }
+  ]
+}
