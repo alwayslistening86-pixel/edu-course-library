@@ -72,7 +72,7 @@ Machine-readable JSON Schemas will live in `plugin/generic-tutor/schemas/` (task
 
 ## `course.json` (v4)
 
-Fields: `schema_version, name, requires_complete[(id | [any-of ids])], standalone, selected_options?, folder_access{status}, currency (live|historical), material_vintage, academic_level (int|null), level_source, level_basis (framework|declared|standalone), grounding_status (verified|suspended_ungrounded), last_live_recheck, coverage_status (full|partial|unverified; **derived** by `coverage_check.py`), stage_ladder[], linear, framework, practical_stages{stage_id: [capability]}, learner_notices[{id,text,stages,since}], exam{enabled, requires_all_stage_tests_passed}`; optional `suspension{…}` when suspended.
+Fields: `schema_version, name, requires_complete[(id | [any-of ids])], standalone, selected_options?, folder_access{status}, currency (live|historical), material_vintage, academic_level (int|null), level_source, level_basis (framework|declared|standalone), grounding_status (verified|suspended_ungrounded; `null` = unmigrated, set by `migrate_schema.py`, resolved by auditor Tier 3), last_live_recheck, coverage_status (full|partial|unverified; **derived** by `coverage_check.py`), stage_ladder[], linear, framework, practical_stages{stage_id: [capability]}, learner_notices[{id,text,stages,since}], exam{enabled, requires_all_stage_tests_passed}`; optional `suspension{…}` when suspended.
 
 Known issue: `_template/course.json` embeds prose in value positions (`"currency": "live | historical — …"`), so it is a skeleton, not a valid instance until filled (S-03).
 
@@ -103,5 +103,5 @@ Append-only history, never read back into teaching decisions (JSON is authoritat
 | 2 | `profile-kernel` omitted `item_mastery`, `remediation` and `session_slot_advanced_at` | fixed in skill (first two) / this file |
 | 3 | `consent` is enforced in code by one script out of nine writers | open (E-05, E-06) |
 | 4 | `tutor.sqlite3` absent from `/export` and from every skill | open (K-28) |
-| 5 | Template `course.json` not a valid instance | open (S-03, N-13) |
+| 5 | Template `course.json` has the same key set as the skill schema and `migrate_schema.py` (checked), but placeholder prose in value positions makes it a skeleton, not a valid instance | key sets reconciled (S-03); validity open (N-13) |
 | 6 | No script refuses a newer `schema_version` than it understands (confirmed: only `migrate_schema.py` touches the field) | open (S-09) |

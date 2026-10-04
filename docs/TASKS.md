@@ -316,6 +316,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | X-10 | ✅ done | `NOTICE` |
 | D-04 | ✅ done | `docs/GLOSSARY.md` |
 | D-05 | 🟡 partial | `CHANGELOG.md` created (Keep-a-Changelog); CI enforcement of an entry per release still to do |
+| S-03 | ✅ done | key sets of skill schema, `_template/course.json` and `migrate_schema.py` verified identical; `grounding_status: null` (unmigrated) documented |
+| S-04 | ✅ done | deck and `curriculum_map` shapes reconciled in `docs/DATA_MODEL.md` |
+| L-01 | ✅ done | `docs/PEDAGOGY.md` |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
