@@ -170,7 +170,7 @@ Content-repo contract + validation as a reusable action, currency monitoring, co
 |---|---|
 | Refactor onto `tutorlib` regresses behaviour | Characterisation tests first (E-01), then migrate one script at a time; keep CLI output byte-compatible until Phase 2 envelope switch |
 | Schema extraction exposes more drift than expected | Treat every mismatch as a finding in `S-xx`; fix code *or* docs deliberately, never silently |
-| Hooks unavailable/behave differently in Cowork vs. Claude Code | P-04 spike first; verifier degrades to "report at next `/run`" if hooks absent |
+| Hooks unavailable in Cowork (confirmed by P-04, ADR 0001) | Script-level enforcement + ledger/verifier are the primary mechanism; hooks optional |
 | Evals are expensive / non-deterministic | Keep out of PR CI; fixed seeds + recorded baselines; human spot-check protocol (A-06) |
 | Private content repo drift | Contract tests + reusable validation workflow (N-03) |
 | Scope explosion | Phase gates; anything not in `TASKS.md` needs a new ID and a phase assignment |
@@ -191,7 +191,7 @@ The owner delegated these; the recommended option was adopted in each case.
 | # | Decision | Outcome | Consequence |
 |---|---|---|---|
 | 1 | Python floor | **3.10+**; CI matrix 3.10–3.13 | `pyproject.toml` declares `requires-python >=3.10`; no 3.11+-only syntax in scripts |
-| 2 | Hooks for enforcement | **Yes**, with a detect-and-report fallback | P-04 spike first; if a hook event is unavailable on a surface, the write verifier (V-03) reports at the next `/run` instead of blocking |
+| 2 | Hooks for enforcement | **Optional layer only** — P-04 found hooks are Claude Code-only, not Cowork (ADR 0001) | Enforcement moves into scripts (E-05/06/08); the session ledger + write verifier (V-01/V-03) is the primary safety net; hooks are extra hardening for Claude Code |
 | 3 | Eval spend | **Yes, manual/nightly only**, small budget; never in PR CI | Reference marks start from self-authored sample courses (A-02) drafted by Claude; owner only spot-checks (A-06) |
 | 4 | Deadline-aware planning | **Yes, opt-in** | One optional `exam_date` field with expiry; planner converts it to slots-needed vs slots-available; no calendar scheduling inside the plugin |
 | 5 | Repo layout | **Yes**: `docs/`, `tools/`, `plugin/` stays | R-16 proceeds; docs-lint (D-07) guards links |

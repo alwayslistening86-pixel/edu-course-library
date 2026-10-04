@@ -149,11 +149,11 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-01 🟡 | Audit `plugin.json` against the current plugin manifest spec (fields: author, homepage, license, keywords, repository, components paths); fill all | Manifest validates with the official validator/CLI if available | — | S | 0 |
 | P-02 🟢 | Add repo-root `marketplace.json` so the plugin installs from the repo without manual zip | Install-from-GitHub flow documented and tested | P-01 | M | 2 |
 | P-03 🟡 | Shrink plugin payload: exclude `tests/`, `evals/`, `DESIGN_NOTES.md` from the shipped build | Built zip < agreed size; excludes verified | R-11 | S | 2 |
-| P-04 🟢 | **Spike**: which hook events exist in Cowork vs Claude Code (SessionStart, PreToolUse, PostToolUse, Stop)? What can they block/inject? Record findings | ADR with capability matrix and fallback plan | — | M | 0 |
-| P-05 🟢 | `SessionStart` hook: run `bootstrap_scripts.py` automatically; inject active-learner and "run /run first" reminder | Fresh install deploys scripts without `/run` | P-04,E-22 | M | 2 |
-| P-06 🟢 | `PreToolUse` hook: deny Write/Edit/Bash touching another learner's folder or `courses/` during teaching; deny direct edits of script-owned fields | Test harness simulates blocked/allowed calls | P-04,E-08 | L | 2 |
-| P-07 🟢 | `PreToolUse` consent hook: when consent is `revoked`, block all writes under `profile/<id>/` | Matrix test with hook simulator | P-06,E-05 | M | 2 |
-| P-08 🟢 | `PostToolUse`/`Stop` hook feeding the write verifier (V-03) | Events recorded to session ledger | V-01 | M | 2 |
+| P-04 🟢 ✅ | **Spike (done — ADR 0001)**: which hook events exist in Cowork vs Claude Code (SessionStart, PreToolUse, PostToolUse, Stop)? What can they block/inject? Record findings | ADR with capability matrix and fallback plan | — | M | 0 |
+| P-05 🟢 | (Claude Code only, optional) `SessionStart` hook: run `bootstrap_scripts.py` automatically; inject active-learner and "run /run first" reminder | Fresh install deploys scripts without `/run` | P-04,E-22 | M | 2 |
+| P-06 🟢 | (Claude Code only, optional) `PreToolUse` hook: deny Write/Edit/Bash touching another learner's folder or `courses/` during teaching; deny direct edits of script-owned fields | Test harness simulates blocked/allowed calls | P-04,E-08 | L | 2 |
+| P-07 🟢 | (Claude Code only, optional) `PreToolUse` consent hook: when consent is `revoked`, block all writes under `profile/<id>/` | Matrix test with hook simulator | P-06,E-05 | M | 2 |
+| P-08 🟢 | (Claude Code only, optional) `PostToolUse`/`Stop` hook feeding the write verifier (V-03) | Events recorded to session ledger | V-01 | M | 2 |
 | P-09 🟡 | Permissions guidance: recommended allowlist for the scripts (`python3 …/.tutor-scripts/*.py`) so teaching isn't interrupted by prompts; shipped as documented settings snippet | Snippet in user guide | D-03 | S | 2 |
 | P-10 🟡 | `.mcp.json`: add per-server rationale, trust level, "disable if not needed", and consider pinning/URL ownership evidence; keep opt-in | `docs/CONNECTORS.md`; no auto-enable | X-06 | S | 2 |
 | P-11 🟡 | Connector handling in skills: define behaviour when a suggested connector is not connected (graceful fallback to web search) | Tested via eval prompt | A-01 | S | 3 |
@@ -163,6 +163,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-15 🟡 | Context-budget audit: measure tokens loaded by each command (it `@`-includes up to 4 skills for `/continue`); set a budget and trim | Budget table; `/continue` ≤ agreed tokens | K-05 | M | 2 |
 | P-16 🟢 | Optional scheduled-task integration: reminder to study based on `sessions_per_week` (no dates stored in plugin; scheduling lives in Cowork) | Documented opt-in recipe only | — | S | 4 |
 | P-17 🟡 | Compatibility matrix: Claude Code CLI / desktop / Cowork — what works where | `docs/COMPATIBILITY.md` | P-04 | S | 2 |
+| P-19 🟢 | CI: run `claude plugin validate --strict` on the plugin and marketplace when the CLI is available; add `marketplace.json` fields per ADR 0001 | Validation job green | P-02 | S | 2 |
 | P-18 🟡 | Uninstall/upgrade path docs: what remains in the data folder; rollback to prior plugin version | Documented + tested via bootstrap downgrade refusal | E-22 | S | 2 |
 
 ## V — Trust & verification (the "did it actually write?" problem)
@@ -319,6 +320,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | S-03 | ✅ done | key sets of skill schema, `_template/course.json` and `migrate_schema.py` verified identical; `grounding_status: null` (unmigrated) documented |
 | S-04 | ✅ done | deck and `curriculum_map` shapes reconciled in `docs/DATA_MODEL.md` |
 | L-01 | ✅ done | `docs/PEDAGOGY.md` |
+| P-04 | ✅ done | `docs/adr/0001-hooks-and-platform-support.md` — hooks are Claude Code-only; verifier is primary (provisional, items to verify listed) |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
@@ -346,4 +348,4 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | N Content pipeline | 14 |
 | X Security & privacy | 10 |
 | D Documentation | 12 |
-| **Total** | **216** |
+| **Total** | **217** |
