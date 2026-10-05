@@ -420,6 +420,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 | K-32 | ✅ done | `session_state.py` (phase/roster/exam/notice/note) owns the last hand-written progress fields; course-runner calls it (v1.30.0) |
 | E-18 | ✅ done (bug) | `record_stage_result.apply` returns a passed course from `test_pending_convergence` to `active` (latent convergence bug) |
+| P-09 | ✅ done | allowlist guidance for the scripts directory, with what not to allow (`docs/INSTALL.md`) |
+| P-14 | 🟡 partial | Python requirement, Windows `py -3` and the failure mode documented; no in-plugin detection when `python3` is absent (nothing can run to detect it) |
+| P-17 | ✅ done | compatibility table states what was exercised and what was not (Cowork untested) |
+| P-18 | ✅ done | upgrade, roll-back and uninstall paths, including what stays in the data folder |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
@@ -440,7 +444,7 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | S Schemas | 14 | 8 | 3 | 0 | 3 |
 | K Skills | 36 | 12 | 4 | 1 | 19 |
 | C Commands | 15 | 10 | 0 | 0 | 5 |
-| P Plugin surface | 19 | 7 | 0 | 0 | 12 |
+| P Plugin surface | 19 | 10 | 1 | 0 | 8 |
 | V Trust & verification | 10 | 6 | 0 | 1 | 3 |
 | L Learning design | 22 | 9 | 3 | 0 | 10 |
 | A Assessment & evals | 14 | 6 | 2 | 0 | 6 |
@@ -448,4 +452,4 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 6 | 0 | 0 | 4 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **109** | **22** | **2** | **84** |
+| **Total** | **217** | **112** | **23** | **2** | **80** |
