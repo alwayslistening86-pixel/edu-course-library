@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.39.1] — 2026-10-05
+### Changed
+- `postcompile_gate` reports misconceptions coverage as one line ("0 of 29 stages …") instead of dumping a per-stage structure, which made the output of the real 29-stage courses unreadable.
+
 ## [1.39.0] — 2026-10-05
 ### Added
 - Test-integrity checks (`tutorlib/overlap.py`): `postcompile_gate` blocks shipping a course whose stage test items appear word for word in that stage's practice or lesson, and notes shared 20-word runs; `worksheet_check.py` lets `stage-recap` verify a take-home worksheet does not reproduce the test. Verified clean on all 1,253 real stages. (A-07, K-26)

@@ -11,7 +11,7 @@
       "stderr_tail": [],
       "stdout": {
         "advisory_notes": [
-          "misconceptions status: {'stages_covered': 1, 'stages_total': 3, 'per_stage': {'S1': {'present': True, 'well_formed': True, 'entry_count': 1, 'malformed_entry_indices': []}, 'S2': {'present': False}, 'S3': {'present': False}}}"
+          "misconceptions: 1 of 3 stages have a sourced misconceptions.json"
         ],
         "blocking_reasons": [],
         "can_ship": true,
@@ -79,7 +79,7 @@
       "stderr_tail": [],
       "stdout": {
         "advisory_notes": [
-          "misconceptions status: {'stages_covered': 0, 'stages_total': 3, 'per_stage': {'S1': {'present': False}, 'S2': {'present': False}, 'S3': {'present': False}}}"
+          "misconceptions: 0 of 3 stages have a sourced misconceptions.json"
         ],
         "blocking_reasons": [
           "missing stage files: ['S2/test.md']"

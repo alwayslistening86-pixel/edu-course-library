@@ -170,7 +170,9 @@ def _gate(course_dir):
         advisory_notes.append(f"orphaned stage dirs not in stage_ladder: {structure['orphaned_stage_dirs']}")
     misc_status = structure.get("misconceptions_status")
     if misc_status:
-        advisory_notes.append(f"misconceptions status: {misc_status}")
+        covered, total = misc_status.get("stages_covered"), misc_status.get("stages_total")
+        advisory_notes.append(f"misconceptions: {covered} of {total} stages have a sourced misconceptions.json"
+                              if isinstance(misc_status, dict) and covered is not None else f"misconceptions status: {misc_status}")
     computed_coverage = coverage.get("computed_status")
     if "error" in coverage:
         advisory_notes.append(f"coverage_check.py could not run: {coverage['error']}")

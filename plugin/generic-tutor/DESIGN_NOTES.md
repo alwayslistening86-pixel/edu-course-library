@@ -1409,3 +1409,7 @@ First attempt measured n-gram overlap and found hundreds of hits, nearly all tem
 Oracle? (If it fails, give the error and why.)") or shared tables. Whole-item containment instead finds zero on the real library,
 so it can block without crying wolf, while the long-run count stays advisory. Limits: it catches copying, not paraphrase; a worksheet
 question that reuses a test's structure with new numbers passes, which is the intended boundary.
+
+## 5 Oct 2026 - v1.39.1: readable misconceptions advisory
+
+Found reading the gate output for the real library: the advisory serialised a per-stage dict (hundreds of characters per stage). The detail is still in validate_structure.py's output; the gate prints the count.
