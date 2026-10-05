@@ -38,7 +38,7 @@ def write_json(path, data, *, backup=False):
         _copy_atomic(path, path + ".bak")
     fd, tmp = tempfile.mkstemp(prefix=os.path.basename(path) + ".", suffix=".tmp", dir=directory)
     try:
-        with os.fdopen(fd, "w", encoding="utf-8") as f:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as f:         # LF on every platform: same bytes, same checksums
             json.dump(data, f, indent=2, ensure_ascii=False)
             f.write("\n")
             f.flush()

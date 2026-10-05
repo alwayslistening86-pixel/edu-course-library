@@ -23,7 +23,7 @@ _DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 
 def _w(path, obj):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
         if isinstance(obj, str):
             f.write(obj)
         else:
@@ -120,7 +120,11 @@ def normalise(value, tmp):
     if isinstance(value, list):
         return [normalise(v, tmp) for v in value]
     if isinstance(value, str):
-        s = value.replace(os.path.realpath(tmp), "<TMP>").replace(tmp, "<TMP>")
+        if os.sep == "\\":
+            s = value.replace("\\\\", "\\")                   # an OS error message quotes the path with doubled backslashes
+        else:
+            s = value
+        s = s.replace(os.path.realpath(tmp), "<TMP>").replace(tmp, "<TMP>")
         if "<TMP>" in s:
             s = s.replace("\\", "/")                  # Windows separators: one snapshot for every platform
         s = _TS.sub("<TS>", s)

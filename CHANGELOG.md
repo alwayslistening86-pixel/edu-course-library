@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.45.2] — 2026-10-05
+### Fixed
+- JSON state files are now always written with LF line endings. On Windows they were written with CRLF, so the same data had different bytes (and checksums) on different machines. Windows CI went from 30 failing tests to 6 and the remaining ones were path quoting and these line endings.
+
 ## [1.45.1] — 2026-10-05
 ### Fixed
 - Found by the first CI runs (Linux 3.10/3.12/3.13 green; a mypy error in `purge_history.py`; 30 failures on Windows). Reported file paths in script output (injection-scan findings, erase inventory, purge plan) now always use `/`, so messages and snapshots are identical on every platform. Windows-only test assumptions (POSIX root paths, golden snapshots, symlink creation) corrected. CI now also runs on every branch push and has an informational Windows job.
