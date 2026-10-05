@@ -99,6 +99,9 @@ def apply(subjects_path, course_path, stage_id, result):
             if syllabus_status.get(candidate) != "withheld":
                 advanced_to = candidate
                 break
+        current = d.get("current_stage")
+        if advanced_to is not None and current in ladder and ladder.index(current) >= ladder.index(advanced_to):
+            advanced_to = None      # replayed pass for an earlier stage: never move the learner backwards
         if advanced_to is not None:
             d["current_stage"] = advanced_to
             d["current_phase"] = "lesson"

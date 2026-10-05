@@ -107,3 +107,17 @@ Append-only history, never read back into teaching decisions (JSON is authoritat
 | 4 | `tutor.sqlite3` absent from `/export` and from every skill | open (K-28) |
 | 5 | Template `course.json` has the same key set as the skill schema and `migrate_schema.py` (checked), but placeholder prose in value positions makes it a skeleton, not a valid instance | key sets reconciled (S-03); validity open (N-13) |
 | 6 | No script refused a newer `schema_version` than it understands | fixed for the six state-writing scripts in v1.17.0 (`tutorlib/state.py`); readers such as `gate_check` still open (S-09/E-20) |
+
+## Repeat-call behaviour (E-13)
+
+What a second identical call does. Pinned by `tests/test_idempotency.py`.
+
+| Script / subcommand | Second call | Why |
+|---|---|---|
+| `session_state.py notice` | no-op (`written: false`) | acknowledgements are a set |
+| `session_state.py phase\|roster\|exam`, `plan_target.py set` | same value, rewritten | assignments |
+| `slot_advance.py` | skipped inside the sitting window | one session = one slot |
+| `record_stage_result.py apply … pass` | same state; a replay for an *earlier* stage never moves `current_stage` backwards (v1.30.1) | a pass is a fact, not an event |
+| `error_log.py resolve` | resolves nothing (`count: 0`) | only open entries resolve |
+| `error_log.py append` | a second entry (new id) | each error is an event |
+| `confidence_update.py apply`, `item_mastery.py observe`, `remediation_state.py record`, `review_math.py apply`, `record_mock.py` | counts again | each call is one real observation; callers must call once per event |

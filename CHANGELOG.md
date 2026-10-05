@@ -17,6 +17,12 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.30.1] — 2026-10-05
+### Fixed
+- Replaying a pass for an earlier stage (a repeated or re-ordered call) moved `current_stage` backwards; it now never does.
+### Added
+- Repeat-call behaviour of every state writer documented (`DATA_MODEL.md`) and pinned by `tests/test_idempotency.py` (E-13).
+
 ## [1.30.0] — 2026-10-05
 ### Added
 - `session_state.py` (`phase|roster|exam|notice|note`): the last hand-written progress fields (`current_phase`, live `roster_state`, `exam_status`, `notices_acknowledged`, `last_session_summary`) now have a script owner; `course-runner` calls it.

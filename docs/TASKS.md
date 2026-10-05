@@ -45,8 +45,8 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 | E-10 🟡 | Uniform result envelope `{ok, data, warnings, error{code,message}}`, emitted alongside legacy keys behind `--envelope` first, default in next minor | Schema `schemas/cli/envelope.json`; all scripts conform | E-09,S-06 | M | 1 |
 | E-11 🟡 | Stable error codes enum (e.g. `E_SCHEMA`, `E_CONSENT`, `E_LOCKED`, `E_NOT_FOUND`) and documented exit codes | Table in docs; tests assert codes | E-10 | S | 1 |
 | E-12 🟡 | Backup-before-write for migrations (`migrate_schema.py` copies original to `*.pre-migrate.bak`) and `--dry-run` everywhere state changes | Migration test restores identical bytes | E-03 | S | 1 |
-| E-13 🟡 | Idempotency audit: every `apply`/`append` documents and tests behaviour on repeat call (duplicate error events, double slot advance) | Table of idempotency guarantees; tests | E-01 | M | 1 |
-| E-14 🟡 | `slot_advance.py`: guard against double-advance in one session (session token) | Second call same session is a no-op with explanation | E-13 | S | 1 |
+| E-13 ✅ | Idempotency audit: every `apply`/`append` documents and tests behaviour on repeat call (duplicate error events, double slot advance) | Table of idempotency guarantees; tests | E-01 | M | 1 |
+| E-14 ✅ | `slot_advance.py`: guard against double-advance in one session (session token) | Second call same session is a no-op with explanation | E-13 | S | 1 |
 | E-15 🟡 | `sqlite_store`: schema versioning table, `PRAGMA user_version`, WAL mode, integrity check command | Upgrade test v1→v2 | E-02 | M | 1 |
 | E-16 🟡 | `sqlite_store`: decide role — keep as append-only history, add `sqlite_store.py query` canned reports (mastery trend, ease drift, error recurrence) | Three reports documented and tested | E-15 | M | 4 |
 | E-17 🟡 | Remove duplicate logic: single implementation of "is course eligible/complete/suspended" used by `cohort_status`, `roster_check`, `gate_check`, `resume_enrollment` | One function, four callers; grep shows no copies | E-01 | L | 1 |
@@ -418,6 +418,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | C-11 | ✅ done | `profile_set.py` / `profile_init.py` (validated settings path; `/profile` uses it) |
 | E-12 | ✅ done | `migrate_schema.py` backups + `--dry-run` |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
+| K-32 | ✅ done | `session_state.py` (phase/roster/exam/notice/note) owns the last hand-written progress fields; course-runner calls it (v1.30.0) |
+| E-18 | ✅ done (bug) | `record_stage_result.apply` returns a passed course from `test_pending_convergence` to `active` (latent convergence bug) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 

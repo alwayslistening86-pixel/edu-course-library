@@ -1329,3 +1329,10 @@ convergence check would have treated the course as already waiting. The reset no
 place that knows a pass happened), guarded by a shared TEST_PENDING constant because test_eligibility forbids state literals
 outside cohort_status. The first version of the regression test used a standalone course as the "peer" and passed vacuously;
 standalone courses are their own cohort, so the test now uses the dropped same-cohort fixture course made active.
+
+## 5 Oct 2026 - v1.30.1: idempotency audit (E-13)
+
+Calling every writer twice found one defect and several intentional non-idempotent events. The defect: apply(S2, pass) after
+the learner had already moved on re-set current_stage to the stage after S2. The advance now only moves forward along the
+ladder. The event-style writers (errors, confidence, mastery, remediation, review, mocks) stay non-idempotent on purpose; the
+guarantee there is that the model calls them once per event, which verify_session already checks from the ledger.
