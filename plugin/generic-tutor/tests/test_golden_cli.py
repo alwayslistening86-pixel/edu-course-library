@@ -103,6 +103,8 @@ CASES = {
     "roster_apply": ([("roster_apply.py", ["lock", "{P}", "mathA"]), ("roster_apply.py", ["lock", "{P}", "design"]), ("roster_apply.py", ["advance", "{P}", "{C}"]),
                       ("roster_apply.py", ["drop", "{P}", "{C}", "solo"]), ("roster_apply.py", ["drop", "{P}", "{C}", "solo"]), ("roster_apply.py", ["drop", "{P}", "{C}", "ghost"])],
                      ["{S}/mathA.json", "{S}/solo.json", "{P}/student_profile.json"]),
+    "enrol": ([("enrol.py", ["{P}", "{C}", "mathA", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "ghost", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "mathB", "maybe", "2026-10-05"]),
+               ("enrol.py", ["{P}"])], []),
     "status": ([("status.py", ["{L}", "{C}"])], []),
     "invariants": ([("invariants.py", ["{L}", "{C}"])], []),
     "resolve_root": ([("resolve_root.py", ["--root", "{T}"]), ("resolve_root.py", ["--root", "{T}/missing"])], []),

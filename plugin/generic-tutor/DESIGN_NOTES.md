@@ -1440,3 +1440,10 @@ per operation. The lifecycle fuzz had been simulating that model in test code. T
 roster_apply, so what is fuzzed is what ships. The decision functions are unchanged (roster_check, cohort_status.level_walk), so
 the behaviour the fuzz already validated is preserved; what moved is who performs the writes. The remaining hand edit of roster_state
 is creating an enrollment (compiler step 8), which still writes a whole new file.
+
+## 5 Oct 2026 - v1.42.0: enrol.py
+
+Two skills (compiler step 8 and the dedupe branch) plus the runner's defensive create each described the same ~12-field file in
+prose; the runner's copy had already drifted (no current_phase, exam_status, item_mastery). One script now builds it, validates it
+against the schema before writing, and applies the capability check, so there is a single definition. After this, no skill hand-writes
+a whole progress file; the only remaining model-written JSON is course content itself (course.json fields the compiler and auditor own).

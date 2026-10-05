@@ -29,6 +29,7 @@ sys.path.insert(0, S)
 from roster_check import compute as roster
 from resume_enrollment import resume as resume_enr
 from cohort_status import is_complete
+import enrol
 import roster_apply
 
 def _rj(path):
@@ -75,8 +76,8 @@ class World:
         os.makedirs(f"{self.C}/{cid}")
         _wj(self.course_path(cid), {"schema_version": 2, "folder_access": {"status": "isolated_confirmed"}, "currency": "historical",
                    "academic_level": level, "stage_ladder": ["S1", "S2"], "grounding_status": "verified", "exam": {"enabled": False}})
-        _wj(self.subj_path(cid), {"course_id": cid, "roster_state": r["candidate_state"], "cohort_id": level,
-                   "syllabus_status": {"S1": "unsat", "S2": "unsat"}, "current_stage": "S1"})
+        res = enrol.enrol(self.P, self.C, cid, r["candidate_state"], "2026-09-18")
+        assert res.get("written"), res
         if r["courses_that_would_lock"]: roster_apply.lock(self.P, r["courses_that_would_lock"])
         return f"add {cid}@L{level} -> {r['candidate_state']}, locks {r['courses_that_would_lock']}"
 

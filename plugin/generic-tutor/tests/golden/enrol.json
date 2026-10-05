@@ -1,0 +1,61 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "enrol.py",
+        "{P}",
+        "{C}",
+        "mathA",
+        "active",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "mathA is already enrolled (a dropped course is resumed, not re-enrolled)"
+      }
+    },
+    {
+      "cmd": [
+        "enrol.py",
+        "{P}",
+        "{C}",
+        "ghost",
+        "active",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: cannot read <TMP>/courses/ghost/course.json or <TMP>/profile/amy/student_profile.json: [Errno 2] No such file or directory: '<TMP>/courses/ghost/course.json'"
+      }
+    },
+    {
+      "cmd": [
+        "enrol.py",
+        "{P}",
+        "{C}",
+        "mathB",
+        "maybe",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "state must be 'active' or 'dormant' (candidate_state from roster_check.py), got 'maybe'"
+      }
+    },
+    {
+      "cmd": [
+        "enrol.py",
+        "{P}"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: enrol.py <profile_dir> <courses_dir> <course_id> <active|dormant> <today YYYY-MM-DD>"
+      }
+    }
+  ]
+}

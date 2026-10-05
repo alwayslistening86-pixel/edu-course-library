@@ -17,10 +17,10 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
     stages/<stage_id>/{lesson,practice,test}.md, misconceptions.json (optional)
     exam/exam.md                       only if course.json.exam.enabled
   profile/
-    access.json            {"status": "pending_confirmation|isolated_confirmed|shared_confirmed"}
+    access.json            {"status": "isolated_confirmed|shared_confirmed", "confirmed_on"}   written by: confirm_access.py (profile/ and courses/ each)
     <user_id>/
-      student_profile.json schema v2   written by: profile-kernel (intake, /profile), slot_advance.py, resume_enrollment.py
-      subjects/<course_id>.json  v5    see below; field-level owners listed
+      student_profile.json schema v2   written by: profile_init.py / profile_set.py (intake, /profile), slot_advance.py, resume_enrollment.py, roster_apply.py (highest_level_cleared)
+      subjects/<course_id>.json  v5    created by enrol.py; field-level owners below
       subjects/<course_id>_review_deck.json  v1   written by: review_math.py apply (reschedule), deck_add.py (new cards)
       tutor.sqlite3                    append-only history; written only by sqlite_store.py
       .session_ledger.jsonl            one JSON line per state-changing script call (tutorlib/ledger.py); read by verify_session.py; written under granted/limited consent only
@@ -51,9 +51,9 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | Field | Type | Owner (never hand-edit) |
 |---|---|---|
 | `schema_version` | int (5) | `migrate_schema.py` |
-| `course_id` | string | course-compiler |
-| `roster_state` | `active\|dormant\|test_pending_convergence\|dropped` | journey-planner (`dropped`, wake), `session_state.py roster` (`active`↔`test_pending_convergence`; `record_stage_result.py` resets to `active` on a pass), course-compiler (initial) |
-| `cohort_id` | int \| `"standalone:<course_id>"` | course-compiler, once |
+| `course_id` | string | `enrol.py`, once |
+| `roster_state` | `active\|dormant\|test_pending_convergence\|dropped` | `roster_apply.py` (`dropped`, wake, lock), `enrol.py` (initial), `session_state.py roster` (`active`↔`test_pending_convergence`; `record_stage_result.py` resets to `active` on a pass), course-compiler (initial) |
+| `cohort_id` | int \| `"standalone:<course_id>"` | `enrol.py`, once |
 | `syllabus_status` | `{stage_id: pass\|fail\|unsat\|withheld}` | `record_stage_result.py` (`withheld`: `apply_capabilities.py`) |
 | `current_stage` / `current_phase` | string / `lesson\|practice\|test` | `record_stage_result.py` (stage, and `lesson` on advance); `session_state.py phase` |
 | `exam_status` | `locked\|available\|passed` | `session_state.py exam` (refuses `available` until every stage is satisfied) |

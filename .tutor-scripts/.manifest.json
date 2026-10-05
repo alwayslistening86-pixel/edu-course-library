@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.41.0",
+  "plugin_version": "1.42.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -14,6 +14,7 @@
     "deck_add.py",
     "diagnostic_gate.py",
     "doctor.py",
+    "enrol.py",
     "erase_profile.py",
     "error_log.py",
     "export_profile.py",
