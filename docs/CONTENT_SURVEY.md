@@ -20,6 +20,9 @@ Aggregate facts only — no course text. Produced by running this repo's own too
 ## What a brand-new learner can start (gate_check over all 62, fresh profile)
 After the library-level folder confirmation, 35 courses can start immediately (all level-2 and standalone ones); 27 are held at gate 3 by `requires_complete` prerequisites (A-levels need their GCSEs, degrees need A-levels). That is the designed no-prior-credit policy (`course-compiler` Step 0.6): a learner who already holds a GCSE still has to complete it here first. 17 courses carry a due learner notice and 16 require a coverage disclosure at session start.
 
+## Rubric wording (`rubric_lint.py`, 5 Oct 2026)
+Real rubrics are descriptive criteria plus a prose `pass_threshold` and a sourced locator, not M/A mark tags. Across 4,648 criteria in 1,253 stages: 717 (15 %) are under six words and read as spec-point labels (for example "3.1.1: Monomers and polymers"); **50 stages in 14 courses have only such labels** (worst: `acca_applied_knowledge` 10, `gcse_computer_science` 8, `alevel_economics` 6), so a test there is graded against a topic name rather than an observable. 40 criteria lean on "understands"/"is aware of". These are advisory findings in `postcompile_gate`; rewriting them needs the sourced mark schemes, which this repo does not hold.
+
 ## Test integrity (checked 5 Oct 2026, v1.39.0)
 Across all 1,253 stages no graded test item (806 stages with several, 447 with one scenario) appears word for word in that stage's `practice.md` or `lesson.md`. 15 stages in 4 courses share a 20-word run between test and practice (templated question stems and shared data tables, not copied items). The gate now blocks a verbatim item and notes shared runs.
 

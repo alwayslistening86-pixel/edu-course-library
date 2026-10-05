@@ -11,6 +11,7 @@
       "stderr_tail": [],
       "stdout": {
         "advisory_notes": [
+          "rubric: 3 stage(s) have only topic-label criteria, nothing observable to grade against (first: S1); run rubric_lint.py for detail",
           "misconceptions: 1 of 3 stages have a sourced misconceptions.json"
         ],
         "blocking_reasons": [],
@@ -79,6 +80,7 @@
       "stderr_tail": [],
       "stdout": {
         "advisory_notes": [
+          "rubric: 3 stage(s) have only topic-label criteria, nothing observable to grade against (first: S1); run rubric_lint.py for detail",
           "misconceptions: 0 of 3 stages have a sourced misconceptions.json"
         ],
         "blocking_reasons": [

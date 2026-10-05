@@ -1447,3 +1447,10 @@ Two skills (compiler step 8 and the dedupe branch) plus the runner's defensive c
 prose; the runner's copy had already drifted (no current_phase, exam_status, item_mastery). One script now builds it, validates it
 against the schema before writing, and applies the capability check, so there is a single definition. After this, no skill hand-writes
 a whole progress file; the only remaining model-written JSON is course content itself (course.json fields the compiler and auditor own).
+
+## 5 Oct 2026 - v1.43.0: rubric lint (A-11)
+
+The task asked for "mark allocation per criterion", which the real data does not have: its criteria are sentences, and the M/A/B tags
+the runner's grading advice mentions are absent from every real rubric. The lint therefore checks what is true of the real files
+(wording, count, threshold, locator). It is advisory because the repair needs sourced material the engine cannot invent. The
+runner's "wherever rubric.json gives you M/A/B tags" remains conditional and harmless, but it describes data that does not exist today.

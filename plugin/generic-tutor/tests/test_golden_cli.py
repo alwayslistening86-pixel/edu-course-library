@@ -105,6 +105,7 @@ CASES = {
                      ["{S}/mathA.json", "{S}/solo.json", "{P}/student_profile.json"]),
     "enrol": ([("enrol.py", ["{P}", "{C}", "mathA", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "ghost", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "mathB", "maybe", "2026-10-05"]),
                ("enrol.py", ["{P}"])], []),
+    "rubric_lint": ([("rubric_lint.py", ["{C}/mathA"]), ("rubric_lint.py", ["{C}/nope"])], []),
     "status": ([("status.py", ["{L}", "{C}"])], []),
     "invariants": ([("invariants.py", ["{L}", "{C}"])], []),
     "resolve_root": ([("resolve_root.py", ["--root", "{T}"]), ("resolve_root.py", ["--root", "{T}/missing"])], []),

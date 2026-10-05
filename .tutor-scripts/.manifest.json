@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.42.0",
+  "plugin_version": "1.43.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -43,6 +43,7 @@
     "review_select.py",
     "roster_apply.py",
     "roster_check.py",
+    "rubric_lint.py",
     "scan_untrusted.py",
     "session_state.py",
     "slot_advance.py",

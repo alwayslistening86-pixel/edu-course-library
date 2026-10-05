@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.43.0] — 2026-10-05
+### Added
+- `rubric_lint.py` (A-11): advisory wording lint for rubric criteria (too few/many, too short, vague "understands" wording, duplicates, missing pass threshold or source locator, stages whose criteria are all topic labels). `postcompile_gate` notes label-only stages. On the real library: 50 of 1,253 stages have only label-like criteria.
+
 ## [1.42.0] — 2026-10-05
 ### Added
 - `enrol.py`: the one way a progress file is created. Both `/add-course` paths and `course-runner`'s defensive create call it (cohort from the course, all stages `unsat`, practical stages `withheld` without the capability, schema-validated, refuses a duplicate or a full roster). The lifecycle fuzz enrols through it.

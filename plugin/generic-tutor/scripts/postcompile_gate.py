@@ -93,6 +93,7 @@ import sys
 from tutorlib import cli, overlap, untrusted
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import rubric_lint  # noqa: E402
 import validate_structure  # noqa: E402
 import coverage_check  # noqa: E402
 
@@ -158,7 +159,12 @@ def _gate(course_dir):
             "possible embedded instructions in course files (web content must never carry instructions): "
             + "; ".join(f"{f} line {x['line']} [{x['rule']}]" for f, fs in injected.items() for x in fs[:3]))
 
+    rub = rubric_lint.lint(course_dir)
+    label_only = [f["stage_id"] for f in rub.get("findings", []) if f["rule"] == "label_only_stage"]
     leak_block, leak_note = _integrity(course_dir)
+    if label_only:
+        leak_note.append(f"rubric: {len(label_only)} stage(s) have only topic-label criteria, nothing observable to grade against "
+                         f"(first: {label_only[0]}); run rubric_lint.py for detail")
     blocking_reasons.extend(leak_block)
 
     advisory_notes = list(leak_note)

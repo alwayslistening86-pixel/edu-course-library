@@ -439,6 +439,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-16 | ✅ done | profile-kernel SKILL is 83 lines; schema blocks live in `profile-schema.md`; `confirm_access.py` replaces the hand-written access file |
 | K-18 | ✅ done | `/erase` needs the typed phrase `ERASE <user_id>`; `/restore` and `/backup` read back which learner; no destructive command infers the learner |
 
+| A-11 | ✅ done (adapted) | `rubric_lint.py` checks wording/threshold/locator; mark allocation not applicable to the real rubric shape |
+
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
 1. **Foundations:** R-01, R-02, R-03, R-04, R-06, R-07, R-10, R-14, R-18, X-07, X-10
@@ -461,9 +463,9 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | P Plugin surface | 19 | 10 | 2 | 0 | 7 |
 | V Trust & verification | 10 | 7 | 0 | 1 | 2 |
 | L Learning design | 22 | 9 | 3 | 0 | 10 |
-| A Assessment & evals | 14 | 7 | 2 | 0 | 5 |
+| A Assessment & evals | 14 | 8 | 2 | 0 | 4 |
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 7 | 0 | 0 | 3 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **120** | **25** | **2** | **70** |
+| **Total** | **217** | **121** | **25** | **2** | **69** |
