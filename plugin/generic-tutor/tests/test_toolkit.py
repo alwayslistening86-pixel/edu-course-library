@@ -325,3 +325,44 @@ class TestBootstrapPackages(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RootResolution(unittest.TestCase):
+    def setUp(self):
+        from toolkit import core
+        self.core = core
+        self.saved = (core._root_override, os.environ.get("EDU_TOOLKIT_ROOT"), os.environ.get("EDU_ROOT"))
+        self.addCleanup(self.restore)
+        core.set_root(None)
+        os.environ.pop("EDU_TOOLKIT_ROOT", None)
+        os.environ.pop("EDU_ROOT", None)
+
+    def restore(self):
+        self.core.set_root(self.saved[0])
+        for key, val in zip(("EDU_TOOLKIT_ROOT", "EDU_ROOT"), self.saved[1:], strict=True):
+            if val is None:
+                os.environ.pop(key, None)
+            else:
+                os.environ[key] = val
+
+    def test_precedence_flag_then_toolkit_env_then_plain_env_then_location(self):
+        self.assertEqual(self.core.edu_root(), self.core._DEFAULT_EDU_ROOT)
+        os.environ["EDU_ROOT"] = "/from/env"
+        self.assertEqual(self.core.edu_root(), os.path.abspath("/from/env"))
+        os.environ["EDU_TOOLKIT_ROOT"] = "/from/toolkit/env"
+        self.assertEqual(self.core.edu_root(), os.path.abspath("/from/toolkit/env"))
+        self.core.set_root("/from/flag")
+        self.assertEqual(self.core.edu_root(), os.path.abspath("/from/flag"))
+
+    def test_cli_root_flag_is_accepted_anywhere_and_used(self):
+        import subprocess
+        import tempfile
+        root = tempfile.mkdtemp()
+        self.addCleanup(__import__("shutil").rmtree, root, True)
+        os.makedirs(os.path.join(root, "profile"))
+        for argv in (["--root", root, "health"], ["health", "--root", root]):
+            p = subprocess.run([sys.executable, "-m", "toolkit"] + argv, capture_output=True, text=True, cwd=SCRIPTS, timeout=60)
+            self.assertNotIn("Traceback", p.stderr, argv)
+            self.assertEqual(json.loads(p.stdout)["edu_root"], root, argv)
+        p = subprocess.run([sys.executable, "-m", "toolkit", "--root"], capture_output=True, text=True, cwd=SCRIPTS)
+        self.assertEqual(p.returncode, 2)

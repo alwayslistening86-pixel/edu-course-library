@@ -73,11 +73,21 @@ if _TUTOR_SCRIPTS_DIR not in sys.path:
     sys.path.insert(0, _TUTOR_SCRIPTS_DIR)
 
 
+_root_override = None
+
+
+def set_root(path):
+    """`--root <path>` for this process (takes precedence over every other source)."""
+    global _root_override
+    _root_override = path
+
+
 def edu_root():
-    """Resolve EDU_ROOT: EDU_TOOLKIT_ROOT env var if set, else the folder
-    three levels above this file (see module docstring)."""
-    override = os.environ.get("EDU_TOOLKIT_ROOT")
-    return override if override else _DEFAULT_EDU_ROOT
+    """Resolve EDU_ROOT with the plugin's own resolver (tutorlib.paths.resolve_root): `--root` (set_root), then EDU_TOOLKIT_ROOT, then
+    EDU_ROOT, then the folder three levels above this file (see module docstring)."""
+    from tutorlib import paths
+    env = {"EDU_ROOT": os.environ.get("EDU_TOOLKIT_ROOT") or os.environ.get("EDU_ROOT") or ""}
+    return paths.resolve_root(_root_override, env=env) or _DEFAULT_EDU_ROOT
 
 
 def profile_dir(learner_id, root=None):

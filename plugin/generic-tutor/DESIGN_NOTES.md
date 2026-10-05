@@ -1516,3 +1516,10 @@ function, exercised on real old shapes and covered by golden and backup tests. S
 tested code to make the file longer, with real risk to old learner files and no new capability, so the structure stays. The part of
 the request that matters is verification: after migrating, the result is checked against the shared schema and reported. The old-shape fixture course
 honestly reports valid_after: false, because exam, folder_access and level fields need sourcing that a script must not invent.
+
+## 5 Oct 2026 - v1.50.0: toolkit root resolution (E-23, partial)
+
+The toolkit had its own walk-up for the data folder; it now asks tutorlib.paths.resolve_root, so there is one precedence order
+(flag, EDU_TOOLKIT_ROOT, EDU_ROOT, deployed location). The flag is carried as an environment variable because the toolkit modules import
+`core` under a different module name from `toolkit.core`, so setting state on one object does not reach the others (found by running
+the command, not by the first unit test). Not done: making the tkinter GUI show errors instead of silently doing nothing; no display here to check it.

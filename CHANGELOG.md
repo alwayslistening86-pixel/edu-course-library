@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.50.0] — 2026-10-05
+### Changed
+- toolkit uses the plugin's root resolver and accepts `--root <folder>` (E-23, partial: the GUI's error surfacing is untested here)
+
 ## [1.49.0] — 2026-10-05
 ### Changed
 - `migrate_schema.py` reports `valid_after` (and the first schema errors) for the file it migrated, so a migration that leaves a file structurally wrong says so (S-09)

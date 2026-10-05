@@ -26,7 +26,7 @@ deliberate: it's a status check that sits beside your Claude window, not a
 second place to actually study.
 
 **Command line:** from inside `.tutor-scripts/`, run
-`python -m toolkit <command> <learner_id> [options]`. Commands: `backup`,
+`python -m toolkit [--root <edu folder>] <command> <learner_id> [options]`. The folder is found from where the toolkit is deployed; `--root`, then the `EDU_TOOLKIT_ROOT` / `EDU_ROOT` environment variables, override that (same resolver as the plugin's scripts). Commands: `backup`,
 `health`, `progress`, `review-due`, `errors`, `export-anki`. Add
 `--help`-style usage by running a command with no arguments.
 
