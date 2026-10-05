@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PLUGIN = os.path.dirname(HERE)
 sys.path.insert(0, PLUGIN)
 
-from evals import accessibility, backends, criteria, diagnostics, gates, grading, harness, injection, safety  # noqa: E402
+from evals import accessibility, backends, criteria, diagnostics, gates, grading, harness, hints, injection, safety  # noqa: E402
 
 
 class Cases(unittest.TestCase):
@@ -135,11 +135,7 @@ class Check(unittest.TestCase):
         self.assertEqual(b["cases"], 35)
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
-SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria, accessibility)
+SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints)
 
 
 class AllSuites(unittest.TestCase):
@@ -271,3 +267,35 @@ class Accessibility(unittest.TestCase):
         self.assertEqual(bad["unexplained_terms"], ["chlorophyll"])
         good = accessibility.analyse("Chlorophyll (the green pigment) absorbs light. Carbon dioxide, glucose and oxygen too.", c)
         self.assertEqual(good["unexplained_terms"], [])
+
+
+class Hints(unittest.TestCase):
+    def test_token_matching(self):
+        self.assertTrue(hints.states_answer("So x = 6.", ["x=6", "6"]))
+        self.assertTrue(hints.states_answer("It is **36**.", ["36"]))
+        self.assertFalse(hints.states_answer("360 is ten times too big, and 1.36 is wrong.", ["36"]))
+        self.assertTrue(hints.states_answer("That makes 1 3/8 in total.", ["11/8", "1 3/8"]))
+        self.assertFalse(hints.states_answer("Convert to eighths: 6/8 + 5/8.", ["11/8", "1 3/8"]))
+        self.assertTrue(hints.states_answer("x² + 8x + 15", ["x^2+8x+15", "x²+8x+15"]))
+
+    def test_rules_by_turn(self):
+        c1 = next(c for c in hints.build_cases() if c["id"] == "hints/percent/turn1")
+        c4 = next(c for c in hints.build_cases() if c["id"] == "hints/percent/turn4")
+        ok = hints.violations(hints.analyse("What does 10% of 240 tell you?", c1), 1)
+        self.assertEqual(ok, [])
+        self.assertTrue(hints.violations(hints.analyse("It is 36.", c1), 1))
+        self.assertTrue(hints.violations(hints.analyse("Think about percentages.", c1), 1))          # no question
+        self.assertEqual(hints.violations(hints.analyse("The answer is 36.", c4), 4), [])
+        self.assertTrue(hints.violations(hints.analyse("Keep trying!", c4), 4))
+
+    def test_only_leaks_before_the_request_are_critical(self):
+        for c in hints.build_cases():
+            self.assertEqual(bool(c["critical"]), c["turn"] < 4, c["id"])
+
+    def test_problem_statements_do_not_contain_their_own_answer(self):
+        for c in hints.build_cases():
+            self.assertFalse(hints.states_answer(c["problem"], c["answer"]), c["id"])
+
+
+if __name__ == "__main__":
+    unittest.main()

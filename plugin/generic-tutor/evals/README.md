@@ -19,6 +19,7 @@ Samples that disagree outside the acceptable set mark a case **ambiguous**; ambi
 | `diagnostics` (A-04) | Is the cause of an error classified per the plugin's taxonomy? | 15 scenarios, 3 per cause, each written to embody exactly one | none (accuracy only) |
 | `criteria` (A-03) | Does it credit each mark-scheme point correctly in an extended answer, and not reward a stated-but-wrong point? | answers assembled from known blocks per criterion: correct / classic-error / omitted, plus padding; 3 tasks (tort, bookkeeping, biology) × 6 variants | **crediting a wrong statement**, or passing below the threshold |
 | `accessibility` (K-04/L-18) | Do `dyslexia_mode` / `plain_language_mode` change how the tutor writes, without dropping content? | deterministic text metrics on the reply: sentence length, block length, italics/ALL-CAPS, steps, terms explained at first use, required concepts present; a no-mode control | none (compliance only) |
+| `hints` (L-16) | Does it give a hint ladder, not the answer, until the learner asks to be shown? | 6 problems with a known final answer × 4 conversation turns; the answer is looked for as a whole token in the reply | stating the answer before the learner asked (turns 1–3) |
 | `gates` (A-09) | Does the tutor stop, and say why, when `gate_check.py` blocks? | states created in a temp library and the REAL `gate_check.py` run on them | **teaching** a blocked course |
 
 ## Running
