@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.35.1] — 2026-10-05
+### Fixed
+- Found by running the engine over the real course library (`docs/CONTENT_SURVEY.md`): the injection scanner blocked a legitimate GCSE English lesson (*post* used as a noun), reported the shipped stage-test script call 1,262 times, and `course.json` rejected a course-wide notice with `stages: null`. All 62 real courses now validate.
+
 ## [1.35.0] — 2026-10-05
 ### Added
 - `audit_status.py`: the "audit recommended" check as a read-only script (old schema, never audited, audited under an earlier major.minor, never live-rechecked); `course-auditor` calls it. (K-15)

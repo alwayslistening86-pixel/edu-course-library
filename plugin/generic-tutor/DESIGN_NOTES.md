@@ -1371,3 +1371,11 @@ The auditor's "version-check stub" was a sentence describing a comparison nobody
 last_audited_plugin_version yet, so every course reports never_audited until the first /audit stamps it (that write remains the
 audit's job: passive detection, active fixes). Patch releases are ignored on purpose: a patch never changes what an audit checks.
 Golden snapshots now mask engine_version so a release bump does not churn them.
+
+## 5 Oct 2026 - v1.35.1: first run over the real library
+
+Until now the validator ran only on fixtures. The first run over the 62 real courses failed two (one scanner false positive that
+blocks shipping, one schema too strict for a documented value) and produced 1,262 advisories from the engine's own template line.
+Lesson: a blocking rule needs a precision check against real prose, not only a recall check against attack strings; the injection
+tests now include teaching sentences that contain the trigger verbs as nouns. The scanner is still regex-based and will have
+other false positives; it blocks only on four high-confidence rules and everything else stays advisory.

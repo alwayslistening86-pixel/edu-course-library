@@ -33,7 +33,8 @@ _RULES = [
     ("system-prompt", BLOCKING,
      re.compile(r"\b(system\s+prompt|developer\s+message|new\s+instructions?\s*:|updated\s+instructions?\s*:)", re.I)),
     ("exfiltration", BLOCKING,
-     re.compile(r"\b(send|post|upload|forward|email|exfiltrate|transmit)\b[^\n]{0,60}\b(profile|learner|student|conversation|chat|files?|credentials?|api[_ ]?keys?|tokens?)\b[^\n]{0,60}\b(to|at)\b", re.I)),
+     re.compile(r"(?:^|[.!?;:]\s+|\b(?:must|should|need to|have to|will|now|then|and|please|also|just|immediately|first)\s+)"
+                r"(send|post|upload|forward|email|exfiltrate|transmit)\b[^\n]{0,60}\b(profile|learner|student|conversation|chat|files?|credentials?|api[_ ]?keys?|tokens?)\b[^\n]{0,60}\b(to|at)\b", re.I)),
     ("tool-directive", ADVISORY,
      re.compile(r"(\bcurl\s+-|\bwget\s+http|\brm\s+-rf\b|\bsudo\s|\bbash\s+-c\b|\bpython3?\s+\S+\.py|\.tutor-scripts/|\bchmod\s+\+x\b)", re.I)),
     ("html-comment", ADVISORY,
@@ -41,6 +42,9 @@ _RULES = [
     ("encoded-blob", ADVISORY, re.compile(r"[A-Za-z0-9+/]{80,}={0,2}")),
     ("role-hijack", ADVISORY, re.compile(r"\byou\s+are\s+now\s+(an?\s+|the\s+)?(ai|assistant|claude|chatbot|system)\b", re.I)),
 ]
+# The engine's own stage-test template tells the tutor to record the result with this exact call; it is the one shipped
+# directive, so it is not reported (any other script call, or the same call with other arguments, still is).
+_TEMPLATE_CALL = re.compile(r"python3 /EDU/\.tutor-scripts/record_stage_result\.py apply <subjects\.json> <course\.json> \S+")
 _HIDDEN = re.compile("[​-‏‪-‮⁠-⁤﻿]")
 SCAN_EXTENSIONS = (".md", ".json", ".txt")
 
@@ -51,7 +55,7 @@ def scan_text(text):
         if _HIDDEN.search(line):
             findings.append({"rule": "hidden-characters", "severity": BLOCKING, "line": n, "excerpt": "<line contains invisible/bidi control characters>"})
         for rule, severity, pat in _RULES:
-            m = pat.search(line)
+            m = pat.search(_TEMPLATE_CALL.sub("", line) if rule == "tool-directive" else line)
             if m:
                 s = max(0, m.start() - 20)
                 findings.append({"rule": rule, "severity": severity, "line": n, "excerpt": line[s:m.end() + 40].strip()[:140]})
