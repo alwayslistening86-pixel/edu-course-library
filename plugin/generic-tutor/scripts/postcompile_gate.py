@@ -93,6 +93,7 @@ import sys
 from tutorlib import cli, overlap, untrusted
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import change_log  # noqa: E402
 import rubric_lint  # noqa: E402
 import validate_structure  # noqa: E402
 import coverage_check  # noqa: E402
@@ -161,7 +162,10 @@ def _gate(course_dir):
 
     rub = rubric_lint.lint(course_dir)
     label_only = [f["stage_id"] for f in rub.get("findings", []) if f["rule"] == "label_only_stage"]
+    chg = change_log.read(course_dir)
     leak_block, leak_note = _integrity(course_dir)
+    for prob in chg.get("problems", []):
+        leak_note.append(f"change.md: {prob['rule']} ({prob.get('detail', '')[:60]})")
     if label_only:
         leak_note.append(f"rubric: {len(label_only)} stage(s) have only topic-label criteria, nothing observable to grade against "
                          f"(first: {label_only[0]}); run rubric_lint.py for detail")

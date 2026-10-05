@@ -1486,3 +1486,10 @@ Three iterations on windows-latest took the suite from 30 failures to 0. The las
 quoted with doubled backslashes inside OS error text, and file sizes that differed because Windows wrote CRLF. The second is a real
 (minor) product difference, fixed by writing state files with LF everywhere. The Windows job is now a required-style job, not informational.
 Still not covered by any automated check: a OneDrive/Dropbox-synced data folder, and paths beyond the legacy 260-character limit.
+
+## 5 Oct 2026 - v1.46.0: change.md as data (S-11)
+
+The task proposed front-matter or a JSONL sidecar. The 45 real change.md files already share one shape (a title line, then dated
+`## YYYY-MM-DD - title` entries, some with bold labels), so a parser for that shape needs no migration of private content and no
+second file to keep in step. Of 69 entries all parse; 5 courses lack a "built" entry and 4 lack the title line, now reported as
+advisory notes. Not done: surfacing last-change dates in /list-courses (N-11) and making the live recheck append entries by script.

@@ -13,7 +13,7 @@ What the engine expects of a course library, and what it promises back. The libr
   exam/exam.md             required only when course.json.exam.enabled
   question_bank.json       optional   schema: question_bank.json - questions with marks, items, mark scheme and model answer; enables /mock
   connectors.md            optional   records which suggested connectors are connected
-  change.md                optional   dated records of detected source changes (facts and sources only)
+  change.md                optional   dated records of detected source changes (facts and sources only); format below
 ```
 `<course_id>` is 1-64 letters, digits, `_`, `.`, `-`, starting with a letter or digit. Anything else in a course folder is ignored by the engine. `_staging/` and `_historic/` next to `courses/` are **not** courses: the engine never lists, teaches or counts them (staging = being compiled, historic = retired).
 
@@ -37,3 +37,11 @@ or run it yourself: `python3 .github/scripts/validate_courses.py --courses <dir>
 
 ## What the engine promises
 It never writes into `courses/` during teaching; only the compiler (at build time), the live recheck (`last_live_recheck`, `grounding_status`, `change.md`) and `/audit` modify a course. Learner data lives under `profile/`, never in a course folder.
+
+## `change.md` format
+```
+# Change log - <course_id>
+## YYYY-MM-DD - <title>          (the dash may be -, – or —; entries run oldest first; the first is "built")
+Free text. Optional bold labels: **Found by:** · **Fixed:** · **Revalidated:** · **Source:**
+```
+`change_log.py <course_dir>` reads it as data (entries, dates, labels, `built_on`) and `postcompile_gate` notes any deviation (advisory only). On the 62 real courses 45 have a file with 69 entries; 5 lack a "built" entry and 4 lack the title line.

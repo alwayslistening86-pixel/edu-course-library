@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.46.0] — 2026-10-05
+### Changed
+- `change_log.py` reads a course's change.md as data (entries, dates, labels) and the compile gate notes malformed ones; format written into CONTENT_CONTRACT (S-11)
+
 ## [1.45.2] — 2026-10-05
 ### Fixed
 - JSON state files are now always written with LF line endings. On Windows they were written with CRLF, so the same data had different bytes (and checksums) on different machines. Windows CI went from 30 failing tests to 6 and the remaining ones were path quoting and these line endings.
