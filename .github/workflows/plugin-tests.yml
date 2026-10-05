@@ -63,7 +63,14 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run full test suite
-        run: python -m unittest discover tests
+        shell: pwsh
+        run: |
+          python -m unittest discover tests 2>&1 | Tee-Object -FilePath ../../win-test.log | Out-Null
+          $code = $LASTEXITCODE
+          Write-Output "---- failing tests ----"
+          Select-String -Path ../../win-test.log -Pattern '^(FAIL|ERROR): ' | ForEach-Object { $_.Line }
+          Select-String -Path ../../win-test.log -Pattern '^(Ran |FAILED|OK)' | ForEach-Object { $_.Line }
+          exit $code
 
   docs-lint:
     runs-on: ubuntu-latest
