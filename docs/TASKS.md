@@ -53,7 +53,7 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 | E-18 🟡 | Normalise date/time handling: injectable `today` everywhere (already partly), UTC ISO, no `datetime.now()` in logic | Grep clean; tests use fixed dates | E-01 | S | 1 |
 | E-19 🟡 | Deterministic IDs and ordering in outputs (sorted keys/lists) so goldens are stable | No flaky golden diffs over 100 runs | E-01 | S | 1 |
 | E-20 🟡 | Input validation layer using schemas (S-xx) at every script boundary; clear error on malformed learner files rather than traceback | Malformed-file fuzz never raises uncaught exception | S-06,E-02 | M | 1 |
-| E-21 🟡 | Fuzz expansion: property tests (hypothesis optional, stdlib fallback) for review math monotonicity, BKT bounds [0,1], confidence bounds, cohort convergence invariants | Properties encoded; run in CI | R-08 | M | 1 |
+| E-21 ✅ (properties in tests/test_properties.py; cohort invariants by the lifecycle fuzz) | Fuzz expansion: property tests (hypothesis optional, stdlib fallback) for review math monotonicity, BKT bounds [0,1], confidence bounds, cohort convergence invariants | Properties encoded; run in CI | R-08 | M | 1 |
 | E-22 🟡 | `bootstrap_scripts.py`: add checksum verification of deployed files, repair mode, and removal of orphaned deployed files | Tampered/old file detected and repaired in test | E-03 | M | 1 |
 | E-23 🟡 | `toolkit`: switch to `tutorlib` paths/IO; add `--root`; GUI error surfaces instead of silent failure | Toolkit tests green on Windows-style paths | E-07 | M | 1 |
 | E-24 🟢 | `toolkit restore`: restore a backup zip (dry-run default, never overwrites without `--yes`) | Round-trip backup→restore test | E-12 | M | 2 |
