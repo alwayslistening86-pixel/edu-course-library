@@ -9,3 +9,8 @@ Personal project, but changes follow the same rules so the history stays trustwo
 5. Plugin behaviour change: bump the version in `plugin.json` and record it in `DESIGN_NOTES.md`.
 6. Schema change: add a migration and a test; note the rollback path in the PR.
 7. No learner data, no copyrighted exam-board text.
+
+## Releasing
+1. Bump the version in `plugin/generic-tutor/.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json` and `pyproject.toml` (the docs lint fails if they disagree), refresh `.tutor-scripts/` (see `CLAUDE.md`) and add a `## [x.y.z]` section to `CHANGELOG.md`.
+2. All checks green on `main`: tests (3.10/3.12/3.13), lint, docs-lint, plugin-validate.
+3. `claude plugin tag plugin/generic-tutor --push` — validates that `plugin.json` and the marketplace entry agree and pushes `generic-tutor--v<version>`. The `release` workflow then re-checks the version, runs the tests, builds the zip and attaches it to a GitHub release with the changelog section as notes.
