@@ -1386,3 +1386,12 @@ Measured before and after, same cases and sample count: leaks of the final answe
 six cases the model split on became unanimous. The suite checks only what code can decide (answer token present, a question
 handed back, nudge length, answer given when explicitly asked); whether a hint is *good* is not measured. The rungs are
 guidance, not a counter: no script tracks which rung a learner is on, because the conversation already carries it.
+
+## 5 Oct 2026 - v1.37.0: practice variety (L-13)
+
+Designed against the real files, not an imagined item bank: all 1,253 practice.md files parse to 1-6 numbered items under
+"Practice items" (808 stages, with answers) or "Practice scenarios" (445). Tracking is by item number, not text, so it survives
+edits to wording but not renumbering; a renumbered file would show some items as unused, which errs toward repeating once rather than
+never. Generated items are only counted, not stored: storing their text would put course-derived prose in learner data. The state is an
+optional field with a schema entry and no version bump, the same way session_slot was added. Context cost: /continue was already at its ratchet,
+so equivalent prose was cut from course-runner (the ownership list that duplicated the Contract, and wordier coverage text).

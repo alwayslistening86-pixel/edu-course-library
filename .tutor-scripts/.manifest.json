@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.36.0",
+  "plugin_version": "1.37.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -25,6 +25,7 @@
     "plan_estimate.py",
     "plan_target.py",
     "postcompile_gate.py",
+    "practice_pick.py",
     "prereq_check.py",
     "profile_init.py",
     "profile_set.py",

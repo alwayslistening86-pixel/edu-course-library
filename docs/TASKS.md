@@ -197,7 +197,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-10 🟢 | Readiness estimate: per-course, from item mastery + coverage + recent test results, presented with a confidence band and caveats | `readiness.py`; wording rules | L-07 | M | 4 |
 | L-11 🟡 | Worked-example fading policy: define when to give full/partial/no worked example by mastery band | Policy in tutor-core + eval | K-01 | S | 4 |
 | L-12 🟢 | Opt-in **deadline-aware planning**: learner may state an exam date; planner computes slots-needed vs slots-available and triage priorities without storing a calendar (date stored only as a single optional field with expiry) | ADR approving or rejecting; if approved, script + tests | — | L | 4 |
-| L-13 🟡 | Practice variety: guard against repeated identical items (`practice.md` item bank with rotation tracking) | Rotation state in subjects file; tests | S-09 | M | 4 |
+| L-13 ✅ | Practice variety: guard against repeated identical items (`practice.md` item bank with rotation tracking) | Rotation state in subjects file; tests | S-09 | M | 4 |
 | L-14 🟡 | Revisit review algorithm with real data: after N months of `review_log`, evaluate SM-2-lite vs alternatives offline; decide binary vs graded recall | Report in docs; ADR | E-16 | M | 5 |
 | L-15 🟡 | Confidence model: separate *calibration* (does learner's self-rated confidence match results?) from the system's `confidence` number; optionally ask for self-rating pre-answer | Design note + opt-in | A-05 | M | 4 |
 | L-16 ✅ | Feedback style rules: specific, criterion-referenced, next-action oriented; no answer-leaking in hints; hint ladder (nudge → cue → partial → full) | Rules + eval cases | K-01 | M | 3 |

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.37.0] — 2026-10-05
+### Added
+- `practice_pick.py next|used`: tracks which written practice items a learner has met (`practice_used` in the progress file, optional, no migration) and says `use_fixed:<n>` or `generate_new`, so a repeated stage or a retry after a failed test no longer replays the same prompts. Real stages hold only 1–5 written items (`docs/CONTENT_SURVEY.md`). `course-runner` calls it. (L-13)
+
 ## [1.36.0] — 2026-10-05
 ### Added
 - `tutor-core`: hint ladder (nudge → cue → one worked step → full solution only on request; none in a test) and criterion-referenced, next-action feedback. New `hints` eval suite measures it by code: before the rules 6 of 54 early-turn replies stated the final answer (91.7 % of samples acceptable, 6 of 24 cases ambiguous); after, 0 of 54 (100 %, none ambiguous). 72 samples per run, sonnet, six problems: an easy set, so read it as "no longer leaks", not "teaches well". (L-16)

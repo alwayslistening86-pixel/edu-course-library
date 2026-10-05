@@ -148,6 +148,16 @@
         }
       }
     },
+    "practice_used": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "fixed": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+          "generated": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
     "mock_results": {
       "type": "array",
       "items": {

@@ -62,6 +62,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | `item_mastery{item_id}` | `{p_mastery, observations, …}` | `item_mastery.py` |
 | `remediation{stage_id}` | `{attempts, last_cause, escalated, escalated_at_slot}` | `remediation_state.py` |
 | `target` | `{date: YYYY-MM-DD, set_on}` — optional learner-stated deadline | `plan_target.py` (progress class); the only calendar date stored; read by `plan_estimate.py` |
+| `practice_used{stage_id}` | `{fixed: [item numbers], generated: n}` — optional | `practice_pick.py used` |
 | `notices_acknowledged[]` | `{id, on}` | `session_state.py notice` |
 | `last_session_summary` | string, ≤400 chars | `session_state.py note` (signal class) |
 | `last_updated` | ISO date | writers |
