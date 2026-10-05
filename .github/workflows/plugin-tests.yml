@@ -49,6 +49,22 @@ jobs:
       - name: Run full test suite
         run: python3 -m unittest discover tests -v
 
+  # The real deployment is Windows. Informational until it has been seen green once (the suite has only ever run on Linux);
+  # then remove continue-on-error so a Windows regression blocks like any other.
+  test-windows:
+    runs-on: windows-latest
+    continue-on-error: true
+    defaults:
+      run:
+        working-directory: plugin/generic-tutor
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run full test suite
+        run: python -m unittest discover tests
+
   docs-lint:
     runs-on: ubuntu-latest
     steps:
