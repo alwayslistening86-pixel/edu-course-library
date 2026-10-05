@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.33.0] — 2026-10-05
+### Added
+- `history_report.py mastery|ease|errors`: read-only canned reports over the learner's history database (mastery trend per item, ease drift per card, recurring errors by stage/item/cause); `course-auditor` points to it. (E-16)
+
 ## [1.32.0] — 2026-10-05
 ### Added
 - `--envelope` on every script: `{ok, data, warnings, error{code,message}}` with a closed set of error codes (`docs/CLI_BASELINE.md`). Default output unchanged. (E-10, E-11)

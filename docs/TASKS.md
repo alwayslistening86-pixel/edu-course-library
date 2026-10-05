@@ -48,7 +48,7 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 | E-13 ✅ | Idempotency audit: every `apply`/`append` documents and tests behaviour on repeat call (duplicate error events, double slot advance) | Table of idempotency guarantees; tests | E-01 | M | 1 |
 | E-14 ✅ | `slot_advance.py`: guard against double-advance in one session (session token) | Second call same session is a no-op with explanation | E-13 | S | 1 |
 | E-15 🟡 | `sqlite_store`: schema versioning table, `PRAGMA user_version`, WAL mode, integrity check command | Upgrade test v1→v2 | E-02 | M | 1 |
-| E-16 🟡 | `sqlite_store`: decide role — keep as append-only history, add `sqlite_store.py query` canned reports (mastery trend, ease drift, error recurrence) | Three reports documented and tested | E-15 | M | 4 |
+| E-16 ✅ | `sqlite_store`: decide role — keep as append-only history, add `sqlite_store.py query` canned reports (mastery trend, ease drift, error recurrence) | Three reports documented and tested | E-15 | M | 4 |
 | E-17 🟡 | Remove duplicate logic: single implementation of "is course eligible/complete/suspended" used by `cohort_status`, `roster_check`, `gate_check`, `resume_enrollment` | One function, four callers; grep shows no copies | E-01 | L | 1 |
 | E-18 🟡 | Normalise date/time handling: injectable `today` everywhere (already partly), UTC ISO, no `datetime.now()` in logic | Grep clean; tests use fixed dates | E-01 | S | 1 |
 | E-19 🟡 | Deterministic IDs and ordering in outputs (sorted keys/lists) so goldens are stable | No flaky golden diffs over 100 runs | E-01 | S | 1 |

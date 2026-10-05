@@ -6,7 +6,7 @@
     {
       "name": "generic-tutor",
       "description": "Source-grounded academic tutor: course library, per-learner progress, spaced review, diagnostic teaching, backup/restore and health checks.",
-      "version": "1.32.0",
+      "version": "1.33.0",
       "source": "./plugin/generic-tutor",
       "category": "education",
       "keywords": ["education", "tutor", "spaced-repetition"]

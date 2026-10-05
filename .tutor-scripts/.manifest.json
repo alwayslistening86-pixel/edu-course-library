@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.32.0",
+  "plugin_version": "1.33.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -15,6 +15,7 @@
     "error_log.py",
     "export_profile.py",
     "gate_check.py",
+    "history_report.py",
     "invariants.py",
     "item_mastery.py",
     "migrate_schema.py",

@@ -1350,3 +1350,10 @@ Scripts print through many paths (emit, direct prints, sys.exit), so the envelop
 site: --envelope swaps stdout for a buffer and writes the wrapped document at exit with the original status. This made every
 script conform at once with no golden churn. Codes are inferred from message text, which is crude but covers the closed set
 and is tested; scripts naming their own code, and making the envelope the default, wait until skills stop parsing legacy keys.
+
+## 5 Oct 2026 - v1.33.0: history reports (E-16)
+
+The SQLite history was written but never read. Role decided: append-only history for the auditor and for humans, never an input
+to a teaching decision (JSON stays authoritative, so a corrupt or missing DB cannot change what a learner is taught). The three
+reports are plain GROUP BY queries, opened read-only so a report can never create or alter the file; a missing DB is an error
+that says when it appears. The auditor's cohort rollup still walks the JSON files; this is the per-learner view.
