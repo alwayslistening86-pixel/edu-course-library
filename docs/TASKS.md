@@ -424,6 +424,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-14 | 🟡 partial | Python requirement, Windows `py -3` and the failure mode documented; no in-plugin detection when `python3` is absent (nothing can run to detect it) |
 | P-17 | ✅ done | compatibility table states what was exercised and what was not (Cowork untested) |
 | P-18 | ✅ done | upgrade, roll-back and uninstall paths, including what stays in the data folder |
+| X-07 | ✅ done | `tools/scan_repo.py` (credentials, non-reserved e-mail addresses, private-content paths in tracked files) with tests; CI step |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
@@ -450,6 +451,6 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | A Assessment & evals | 14 | 6 | 2 | 0 | 6 |
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
-| X Security & privacy | 10 | 6 | 0 | 0 | 4 |
+| X Security & privacy | 10 | 7 | 0 | 0 | 3 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **112** | **23** | **2** | **80** |
+| **Total** | **217** | **113** | **23** | **2** | **79** |

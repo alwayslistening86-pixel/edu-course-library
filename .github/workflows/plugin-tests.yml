@@ -58,6 +58,7 @@ jobs:
           python-version: "3.12"
       - run: python3 tools/lint_docs.py --strict
       - run: python3 tools/tasks_status.py --check
+      - run: python3 tools/scan_repo.py
       - name: Command context budget (ratchet)
         run: python3 tools/context_budget.py --check
       - name: CHANGELOG has an entry for the current plugin version
