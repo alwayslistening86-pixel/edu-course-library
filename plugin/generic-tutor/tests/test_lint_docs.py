@@ -23,7 +23,18 @@ class TaskCounts(unittest.TestCase):
     def test_counts_in_tasks_md_are_current(self):
         with open(os.path.join(REPO, "docs", "TASKS.md"), encoding="utf-8") as f:
             keep, current = tasks_status.split(f.read())
-        self.assertEqual(current, tasks_status.render(tasks_status.counts(keep)), "run: python3 tools/tasks_status.py --write")
+        self.assertEqual(current, tasks_status.render(tasks_status.counts(keep), keep), "run: python3 tools/tasks_status.py --write")
+
+    def test_every_unfinished_task_is_in_a_wave(self):
+        with open(os.path.join(REPO, "docs", "TASKS.md"), encoding="utf-8") as f:
+            keep, _ = tasks_status.split(f.read())
+        self.assertEqual(tasks_status.wave_problems(keep), [])
+
+    def test_wave_check_catches_a_dropped_task(self):
+        text = "| R-01 🟡 | t | d | - | S | 0 |\n| R-02 🟡 | t | d | - | S | 0 |\n## Progress\n| R-01 | ✅ done | y |\n## Suggested first sprint\n\n## Remaining waves\n\n| Wave | Theme | Tasks | Why |\n|---|---|---|---|\n| 1 | x | R-09 | y |\n\n## Task counts\n"
+        problems = tasks_status.wave_problems(text)
+        self.assertIn("R-02 is not done but is in no wave", problems)
+        self.assertIn("wave names unknown task R-09", problems)
 
     def test_parser_reads_the_log_last_row_wins(self):
         text = "| R-01 🟡 | t | d |\n| R-02 🟡 | t | d |\n## Progress\n| R-01 | 🟡 partial | x |\n| R-01 | ✅ done | y |\n\n## Suggested first sprint\n"
