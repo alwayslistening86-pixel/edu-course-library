@@ -53,7 +53,10 @@ class Paths(Base):
     def test_symlink_learner_dir_refused(self):
         outside = os.path.join(self.tmp, "outside")
         os.makedirs(outside)
-        os.symlink(outside, os.path.join(self.root, "evil"))
+        try:
+            os.symlink(outside, os.path.join(self.root, "evil"))
+        except OSError as e:                                      # Windows without the symlink privilege
+            self.skipTest(f"cannot create symlinks here: {e}")
         with self.assertRaises(paths.OutsideRoot):
             paths.learner_dir(self.root, "evil")
 
