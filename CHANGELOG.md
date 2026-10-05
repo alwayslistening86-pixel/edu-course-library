@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.47.0] — 2026-10-05
+### Changed
+- `validate_schema.py --course-dir` checks every schema-covered file of a course in one call (all 186 files of the 62 real courses pass); `course-auditor` uses it and `invariants.py` instead of prose checks (S-08)
+
 ## [1.46.0] — 2026-10-05
 ### Changed
 - `change_log.py` reads a course's change.md as data (entries, dates, labels) and the compile gate notes malformed ones; format written into CONTENT_CONTRACT (S-11)

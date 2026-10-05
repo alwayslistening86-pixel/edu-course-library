@@ -128,3 +128,33 @@ class RealSchemas(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CourseDirCheck(unittest.TestCase):
+    def setUp(self):
+        import shutil
+        import tempfile
+        import golden_support as gs
+        self.tmp = os.path.realpath(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, True)
+        self.fx = gs.build_fixture(self.tmp)
+        self.d = f"{self.fx['C']}/mathA"
+
+    def test_fixture_course_is_valid_and_counts_files(self):
+        import validate_schema
+        r = validate_schema.check_course_dir(self.d)
+        self.assertEqual((r["valid"], r["invalid"]), (True, []))
+        self.assertGreaterEqual(r["files_checked"], 4)                  # course, map, rubric, S1 misconceptions (+ question bank)
+
+    def test_broken_and_missing_files_are_listed(self):
+        import json
+        import validate_schema
+        with open(f"{self.d}/rubric.json", "w") as f:
+            json.dump({"stage_rubrics": "nope"}, f)
+        os.remove(f"{self.d}/curriculum_map.json")
+        r = validate_schema.check_course_dir(self.d)
+        by = {i["file"]: i for i in r["invalid"]}
+        self.assertFalse(r["valid"])
+        self.assertEqual(by["curriculum_map.json"]["errors"], ["file is missing"])
+        self.assertIn("rubric.json", by)
+        self.assertIn("error", validate_schema.check_course_dir(self.tmp + "/nope"))

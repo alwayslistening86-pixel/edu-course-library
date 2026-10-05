@@ -1493,3 +1493,10 @@ The task proposed front-matter or a JSONL sidecar. The 45 real change.md files a
 `## YYYY-MM-DD - title` entries, some with bold labels), so a parser for that shape needs no migration of private content and no
 second file to keep in step. Of 69 entries all parse; 5 courses lack a "built" entry and 4 lack the title line, now reported as
 advisory notes. Not done: surfacing last-change dates in /list-courses (N-11) and making the live recheck append entries by script.
+
+## 5 Oct 2026 - v1.47.0: the auditor checks schemas by script (S-08)
+
+Tier 1 of the auditor described field checks in prose while the schemas existed. One call per course (`--course-dir`) now covers course,
+curriculum map, rubric, per-stage misconceptions and any question bank; the 62 real courses (186 files) all pass. The orphaned-enrolment
+check the prose said "walk directly" was already `invariants.py`'s `unknown-course`, so the prose now points there. The prose that was
+replaced paid for the new lines, keeping the /audit context budget unchanged.

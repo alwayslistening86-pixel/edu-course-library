@@ -67,7 +67,75 @@
       "exit": 2,
       "stderr_tail": [],
       "stdout": {
-        "error": "usage: validate_schema.py <course|curriculum_map|misconceptions|question_bank|review_deck|rubric|student_profile|subjects> <file> | --kinds"
+        "error": "usage: validate_schema.py <course|curriculum_map|misconceptions|question_bank|review_deck|rubric|student_profile|subjects> <file> | --kinds | --course-dir <course_dir>"
+      }
+    },
+    {
+      "cmd": [
+        "validate_schema.py",
+        "--course-dir",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/mathA",
+        "files_checked": 5,
+        "invalid": [],
+        "valid": true
+      }
+    },
+    {
+      "cmd": [
+        "validate_schema.py",
+        "--course-dir",
+        "{C}/old"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/old",
+        "files_checked": 1,
+        "invalid": [
+          {
+            "errors": [
+              "$: missing required 'schema_version'",
+              "$: missing required 'grounding_status'",
+              "$: missing required 'coverage_status'",
+              "$: missing required 'exam'",
+              "$: missing required 'folder_access'"
+            ],
+            "file": "course.json",
+            "kind": "course"
+          },
+          {
+            "errors": [
+              "file is missing"
+            ],
+            "file": "curriculum_map.json",
+            "kind": "curriculum_map"
+          },
+          {
+            "errors": [
+              "file is missing"
+            ],
+            "file": "rubric.json",
+            "kind": "rubric"
+          }
+        ],
+        "valid": false
+      }
+    },
+    {
+      "cmd": [
+        "validate_schema.py",
+        "--course-dir",
+        "{T}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: no such course folder <TMP>/nope"
       }
     }
   ]
