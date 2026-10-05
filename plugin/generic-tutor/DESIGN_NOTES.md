@@ -1543,3 +1543,11 @@ sections and the confidence preamble were shortened, so /continue stays at its b
 task proposed `in_progress`): `current_phase` already persists through session_state.py, so the rule is only that a test left open is
 re-presented, not replaced, and that the phase is set when a test starts. Not measured by an eval: nothing exercises a resumed session
 yet; the gates suite (unchanged at 1.0) only checks the stop behaviour.
+
+## 5 Oct 2026 - v1.53.0: live recheck rules (K-08)
+
+The recheck procedure had no definition of "material" and no fetch bound, so a restyled website and a changed pass threshold could both
+produce a change.md entry, and the number of pages read was open-ended. Now: three criteria, four pages, domains already named in the rubric's
+sources. The change.md entry follows the format change_log.py parses. The new recheck eval has seven material and seven non-material pairs
+built one change at a time; the model got all 14 right in 3 samples each, so it shows the rule is understood, not that real pages will
+be judged correctly (real pages are messier than one-line pairs). The injection rules were already in place and are unchanged.

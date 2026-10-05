@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.53.0] — 2026-10-05
+### Changed
+- live recheck is bounded (4 pages, issuing-body domains only) and defines 'material change' (version/issue, graded criteria or threshold, items added/removed/moved); new `recheck` eval, 14 constructed cases, 14/14 on sonnet — an easy set (K-08)
+
 ## [1.52.0] — 2026-10-05
 ### Changed
 - `course-runner` opens with a numbered session lifecycle (the script call at each step) and says how to resume a session cut off mid-test or mid-diagnostic; the gates eval is unchanged at 1.0 (K-06, K-07)
