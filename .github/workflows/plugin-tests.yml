@@ -97,6 +97,19 @@ jobs:
       - name: mypy
         run: mypy plugin/generic-tutor/scripts
 
+  # Longer composition fuzz than the fixed-seed subset in the unit tests. Seeds are the sequence
+  # numbers 0..N-1, so any failure is reproduced by `python3 tests/fuzz_lifecycle.py N`.
+  fuzz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lifecycle fuzz (1000 sequences x 25 steps)
+        working-directory: plugin/generic-tutor
+        run: python3 tests/fuzz_lifecycle.py 1000 25
+
   # The deployed runtime copy must match the plugin source exactly (only the
   # generated .manifest.json is allowed to exist on one side), and its recorded
   # version must match plugin.json.

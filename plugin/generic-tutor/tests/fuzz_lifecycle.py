@@ -174,3 +174,4 @@ if __name__ == "__main__":
         print(f"\n== {k}: {len(lst)} sequences; shortest ({len(tr)} steps, seed {seed}):")
         for i, t in enumerate(tr, 1): print(f"   {i:>2}. {t}")
         print("   VIOLATION:", errs)
+    sys.exit(1 if fails else 0)

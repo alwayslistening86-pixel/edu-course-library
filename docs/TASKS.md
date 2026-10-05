@@ -17,7 +17,7 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 | R-05 🟡 | Add mypy (or pyright) at lenient settings; type the public functions of each script | Type check green in CI; `# type: ignore` count recorded | R-03 | M | 0 |
 | R-06 🟡 | CI: test matrix across supported Python versions (floor … 3.13) | Matrix job green | R-03 | S | 0 |
 | R-07 🟡 | CI: split into jobs — lint, type, test, deployed-sync, docs-lint — with required-status names | Branch protection can require each | R-04,R-05 | S | 0 |
-| R-08 🟡 | CI: run `tests/fuzz_lifecycle.py` (bounded iterations, fixed seed) as a separate job | Job green; seed logged for repro | — | S | 0 |
+| R-08 ✅ | CI: run `tests/fuzz_lifecycle.py` (bounded iterations, fixed seed) as a separate job | Job green; seed logged for repro | — | S | 0 |
 | R-09 🟡 | Add pre-commit config (ruff, end-of-file, json validity, no `__pycache__`) | `pre-commit run -a` clean | R-04 | S | 0 |
 | R-10 🟡 | `.gitignore`/hygiene pass: remove committed `__pycache__` if any, ignore `.manifest.json` rule clarified | `git ls-files` has no generated files except intended manifest | — | S | 0 |
 | R-11 🟢 | `tools/build_plugin.py`: deterministic `.plugin` zip (sorted entries, fixed mtimes, excludes tests/evals) | Two builds are byte-identical; zip installs | — | M | 2 |
@@ -57,7 +57,7 @@ Legend: 🔴 fixes a verified defect · 🟡 hardening/quality · 🟢 new capab
 | E-22 🟡 | `bootstrap_scripts.py`: add checksum verification of deployed files, repair mode, and removal of orphaned deployed files | Tampered/old file detected and repaired in test | E-03 | M | 1 |
 | E-23 🟡 | `toolkit`: switch to `tutorlib` paths/IO; add `--root`; GUI error surfaces instead of silent failure | Toolkit tests green on Windows-style paths | E-07 | M | 1 |
 | E-24 🟢 | `toolkit restore`: restore a backup zip (dry-run default, never overwrites without `--yes`) | Round-trip backup→restore test | E-12 | M | 2 |
-| E-25 🟡 | Performance sanity: scripts complete < 200 ms on a 100-course/5-learner fixture | Benchmark test with generous ceiling | E-01 | S | 1 |
+| E-25 ✅ (tests/test_performance.py; real timings 30–50 ms) | Performance sanity: scripts complete < 200 ms on a 100-course/5-learner fixture | Benchmark test with generous ceiling | E-01 | S | 1 |
 | E-26 🟡 | Test layout reorganised **by module** (`tests/unit/test_<script>.py`, `tests/integration/`, `tests/golden/`); retire release-named files after moving cases | Old names gone; test count not reduced | E-01 | M | 1 |
 
 ## S — Schemas & migrations
