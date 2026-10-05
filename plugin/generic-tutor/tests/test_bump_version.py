@@ -27,14 +27,14 @@ class Bump(unittest.TestCase):
                         (bump_version.PYPROJECT, '[project]\nname = "x"\nversion = "1.2.3"\nrequires-python = ">=3.10"\n'),
                         (bump_version.CHANGELOG, "# Changelog\n\n## [Unreleased]\n\n## [1.2.3] — 2026-01-01\n- old\n")):
             os.makedirs(os.path.dirname(p), exist_ok=True)
-            with open(p, "w") as f:
+            with open(p, "w", encoding="utf-8", newline="\n") as f:
                 f.write(text)
 
     def restore(self):
         (bump_version.ROOT, bump_version.PLUGIN_JSON, bump_version.MARKETPLACE, bump_version.PYPROJECT, bump_version.CHANGELOG) = self.saved
 
     def read(self, p):
-        with open(p) as f:
+        with open(p, encoding="utf-8") as f:
             return f.read()
 
     def test_all_three_files_change_and_the_changelog_gets_its_heading(self):
@@ -60,7 +60,7 @@ class Bump(unittest.TestCase):
         self.assertEqual(self.read(bump_version.PLUGIN_JSON), before)
 
     def test_a_carrier_without_exactly_one_version_is_an_error(self):
-        with open(bump_version.PYPROJECT, "w") as f:
+        with open(bump_version.PYPROJECT, "w", encoding="utf-8") as f:
             f.write("[project]\nname = 'x'\n")
         self.assertIn("exactly one version", bump_version.bump("1.3.0", root_scripts=False)["error"])
 
