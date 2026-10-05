@@ -57,7 +57,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 BASE_DELTA = {
     "pass_clean": 0.15,
@@ -108,7 +108,7 @@ def _load(path):
 
 
 def _save(path, data):
-    atomic_io.write_json(path, data)
+    state.save(path, data, "subjects")
 
 
 @ledger.logged("confidence_update.py", "subjects_path")

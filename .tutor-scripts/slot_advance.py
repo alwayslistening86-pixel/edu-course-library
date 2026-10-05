@@ -31,7 +31,7 @@ import argparse
 import sys
 import datetime
 import json
-from tutorlib import atomic_io, cli, consent, filelock, ledger
+from tutorlib import cli, consent, filelock, ledger, state
 
 DEFAULT_MIN_GAP_MINUTES = 180
 
@@ -69,7 +69,7 @@ def advance(path, min_gap_minutes=DEFAULT_MIN_GAP_MINUTES, now=None):
 
     profile["session_slot"] = previous + 1
     profile["session_slot_advanced_at"] = now.replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    atomic_io.write_json(path, profile)
+    state.save(path, profile, "student_profile")
     return {"previous_slot": previous, "current_slot": previous + 1}
 
 

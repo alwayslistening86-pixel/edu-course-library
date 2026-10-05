@@ -24,7 +24,7 @@ import sys
 
 import roster_check
 from cohort_status import LIVE_STATES, compute_cohorts, is_complete, is_suspended, level_walk
-from tutorlib import atomic_io, cli, consent, filelock, ids, ledger, state
+from tutorlib import cli, consent, filelock, ids, ledger, state
 
 
 def _valid(course_id):
@@ -45,7 +45,7 @@ def _set_state(subjects_dir, course_id, new_state):
         d = state.load(path, "subjects")
         old = d.get("roster_state")
         d["roster_state"] = new_state
-        atomic_io.write_json(path, d)
+        state.save(path, d, "subjects")
     ledger.record(path, "roster_apply.py", "set_roster_state", course_id, True, None, {"old": old, "new": new_state})
     return old
 
@@ -117,7 +117,7 @@ def advance(profile_dir, courses_dir):
         if walk["to"] <= stored:
             return {**out, "woke": [], "written": False}
         profile["highest_level_cleared"] = walk["to"]
-        atomic_io.write_json(pp, profile)
+        state.save(pp, profile, "student_profile")
         ledger.record(pp, "roster_apply.py", "advance_ledger", None, True, None, {"old": stored, "new": walk["to"]})
         out["woke"] = _wake(profile_dir, courses_dir)
         out["written"] = True

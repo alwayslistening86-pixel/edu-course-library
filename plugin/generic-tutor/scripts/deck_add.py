@@ -23,7 +23,7 @@ import os
 import re
 import sys
 
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 import sqlite_store
 
 MAX_FRONT = 200
@@ -111,7 +111,7 @@ def add(deck_path, course_id, stage_id, cards, max_per_stage=DEFAULT_MAX_PER_STA
     result = {"added": [c["id"] for c in added], "rejected": rejected, "deck_size": len(existing) + len(added)}
     if added:
         existing.extend(added)
-        atomic_io.write_json(deck_path, deck)
+        state.save(deck_path, deck, "review_deck")
         result["written"] = True
         for c in added:
             sqlite_store.upsert_review_card(deck_path, c)

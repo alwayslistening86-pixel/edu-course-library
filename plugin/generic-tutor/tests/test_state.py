@@ -77,3 +77,49 @@ class State(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SaveValidates(unittest.TestCase):
+    """E-20: a write may not make a file worse than it was when loaded."""
+
+    def setUp(self):
+        import shutil
+        import tempfile
+        import golden_support as gs
+        self.tmp = os.path.realpath(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, True)
+        self.fx = gs.build_fixture(self.tmp)
+        self.path = f"{self.fx['S']}/mathA.json"
+
+    def test_valid_change_is_written(self):
+        d = state.load(self.path, "subjects")
+        d["confidence"] = 0.7
+        state.save(self.path, d, "subjects")
+        self.assertEqual(state.load(self.path)["confidence"], 0.7)
+
+    def test_a_change_that_introduces_a_schema_error_is_refused_and_nothing_is_written(self):
+        d = state.load(self.path, "subjects")
+        d["confidence"] = "very high"
+        with self.assertRaises(state.StateError) as cm:
+            state.save(self.path, d, "subjects")
+        self.assertIn("refusing to write", str(cm.exception))
+        self.assertEqual(state.load(self.path)["confidence"], 0.5)
+
+    def test_a_legacy_quirk_present_at_load_does_not_block_unrelated_writes(self):
+        import json
+        raw = state.load(self.path)
+        raw["confidence"] = "medium"                               # old-shape value that predates the numeric confidence
+        with open(self.path, "w") as f:
+            json.dump(raw, f)
+        d = state.load(self.path, "subjects")
+        d["current_phase"] = "test"
+        state.save(self.path, d, "subjects")                       # the quirk was already there; this change adds nothing
+        self.assertEqual(state.load(self.path)["current_phase"], "test")
+        d["error_patterns"] = "not a list"                         # a NEW error is still refused
+        with self.assertRaises(state.StateError):
+            state.save(self.path, d, "subjects")
+
+    def test_unknown_kind_and_new_files_are_not_blocked(self):
+        target = os.path.join(self.tmp, "fresh.json")
+        state.save(target, {"anything": 1}, "something-else")
+        self.assertEqual(state.load(target), {"anything": 1})

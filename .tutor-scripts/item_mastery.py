@@ -76,7 +76,7 @@ Output: JSON to stdout. `observe` writes the subjects file back in place;
 import json
 import os
 import sys
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
@@ -92,7 +92,7 @@ def _load(path):
 
 
 def _save(path, data):
-    atomic_io.write_json(path, data)
+    state.save(path, data, "subjects")
 
 
 def _update(p_l, correct, p_slip=P_SLIP, p_guess=P_GUESS, p_transit=P_TRANSIT):

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.48.0] — 2026-10-05
+### Changed
+- every state writer validates before it writes: a change that would add a schema error the file did not already have is refused (legacy quirks present at load never block a session) (E-20)
+
 ## [1.47.0] — 2026-10-05
 ### Changed
 - `validate_schema.py --course-dir` checks every schema-covered file of a course in one call (all 186 files of the 62 real courses pass); `course-auditor` uses it and `invariants.py` instead of prose checks (S-08)

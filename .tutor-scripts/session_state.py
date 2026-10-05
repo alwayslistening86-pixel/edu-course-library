@@ -24,7 +24,7 @@ import json
 import sys
 
 from cohort_status import LIVE_STATES, stage_satisfied
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 PHASES = ("lesson", "practice", "test")
 EXAM_ORDER = ("locked", "available", "passed")
@@ -35,7 +35,7 @@ def _persist(path, data, kind, result):
     allowed, status = consent.check(path, kind)
     if not allowed:
         return {**result, **consent.skipped(status, kind)}
-    atomic_io.write_json(path, data)
+    state.save(path, data, "subjects")
     return {**result, "written": True}
 
 

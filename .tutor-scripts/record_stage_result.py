@@ -61,7 +61,7 @@ Output: JSON to stdout. Writes subjects.json in place on success.
 import json
 import sys
 from cohort_status import TEST_PENDING
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 RESULTS = ("pass", "fail")
 
@@ -71,7 +71,7 @@ def _load(path):
 
 
 def _save(path, data):
-    atomic_io.write_json(path, data)
+    state.save(path, data, "subjects")
 
 
 @ledger.logged("record_stage_result.py", "subjects_path")

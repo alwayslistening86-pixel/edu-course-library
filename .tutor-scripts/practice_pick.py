@@ -19,7 +19,7 @@ import json
 import re
 import sys
 
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 _SECTION = re.compile(r"^##\s+Practice (?:items|scenarios)[^\n]*\n(.*?)(?=^##\s|\Z)", re.M | re.S)
 _ITEM = re.compile(r"^(\d+)[.)]\s", re.M)
@@ -67,7 +67,7 @@ def mark_used(subjects_path, stage_id, kind, number=None):
         return {"action": "used", "stage_id": stage_id, **consent.skipped(cstatus, consent.PROGRESS)}
     if kind == "fixed" and already:
         return {"action": "used", "stage_id": stage_id, "kind": kind, "already_recorded": True, "written": False}
-    atomic_io.write_json(subjects_path, data)
+    state.save(subjects_path, data, "subjects")
     return {"action": "used", "stage_id": stage_id, "kind": kind, "fixed": rec["fixed"], "generated": rec["generated"], "written": True}
 
 

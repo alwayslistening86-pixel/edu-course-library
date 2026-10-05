@@ -16,7 +16,7 @@ import datetime
 import json
 import sys
 
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 
 def _date(s):
@@ -39,7 +39,7 @@ def set_target(subjects_path, date_iso, today_iso):
     allowed, status = consent.check(subjects_path, consent.PROGRESS)
     if not allowed:
         return {"action": "set", "target": data["target"], **consent.skipped(status, consent.PROGRESS)}
-    atomic_io.write_json(subjects_path, data)
+    state.save(subjects_path, data, "subjects")
     return {"action": "set", "target": data["target"], "written": True}
 
 
@@ -53,7 +53,7 @@ def clear_target(subjects_path):
         allowed, status = consent.check(subjects_path, consent.PROGRESS)
         if not allowed:
             return {"action": "clear", "had_target": True, **consent.skipped(status, consent.PROGRESS)}
-        atomic_io.write_json(subjects_path, data)
+        state.save(subjects_path, data, "subjects")
     return {"action": "clear", "had_target": had, "written": had}
 
 

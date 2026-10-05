@@ -76,7 +76,7 @@ resolve only); query is read-only.
 import json
 import os
 import sys
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
@@ -90,7 +90,7 @@ def _load(path):
 
 
 def _save(path, data):
-    atomic_io.write_json(path, data)
+    state.save(path, data, "subjects")
 
 
 def _next_id(entries, stage_id, today_iso):

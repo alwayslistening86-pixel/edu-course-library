@@ -49,7 +49,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete  # noqa: E402
-from tutorlib import atomic_io, cli, consent, filelock, ledger
+from tutorlib import cli, consent, filelock, ledger, state
 
 
 @ledger.logged("resume_enrollment.py", "subjects_path")
@@ -62,9 +62,9 @@ def resume(subjects_path, course_path, target_state, today_iso, reopen_profile=N
     with open(course_path, "r", encoding="utf-8") as f:
         course = json.load(f)
 
-    state = subj.get("roster_state")
-    if state != "dropped":
-        return {"resumed": False, "error": f"enrollment is {state!r}, not dropped - nothing to resume, nothing written"}
+    current_state = subj.get("roster_state")
+    if current_state != "dropped":
+        return {"resumed": False, "error": f"enrollment is {current_state!r}, not dropped - nothing to resume, nothing written"}
 
     ladder = set(course.get("stage_ladder", []))
     tracked = set((subj.get("syllabus_status") or {}).keys())
@@ -94,10 +94,10 @@ def resume(subjects_path, course_path, target_state, today_iso, reopen_profile=N
     allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
     if not allowed:
         return {"resumed": False, **consent.skipped(cstatus, consent.PROGRESS)}
-    atomic_io.write_json(subjects_path, subj)
+    state.save(subjects_path, subj, "subjects")
     if profile is not None:
         profile["highest_level_cleared"] = reopened["to"]
-        atomic_io.write_json(reopen_profile, profile)
+        state.save(reopen_profile, profile, "student_profile")
     return {"resumed": True, "already_complete": already_complete, "reopened_level": reopened, "roster_state": target_state, "preserved_current_stage": subj.get("current_stage"),
             "preserved_pass_count": sum(1 for v in subj["syllabus_status"].values() if v == "pass")}
 

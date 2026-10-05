@@ -21,7 +21,7 @@ import sys
 import roster_check
 from apply_capabilities import apply as apply_capabilities
 from cohort_status import is_standalone, standalone_cohort_id
-from tutorlib import atomic_io, cli, consent, filelock, ids, ledger, schema
+from tutorlib import cli, consent, filelock, ids, ledger, schema, state
 
 
 def build(course_id, course, today_iso, state):
@@ -69,7 +69,7 @@ def enrol(profile_dir, courses_dir, course_id, roster_state, today_iso):
         if problems:
             return {"error": "the new file would not match the subjects schema: " + "; ".join(problems[:3])}
         with filelock.file_lock(subj_path):
-            atomic_io.write_json(subj_path, subj)
+            state.save(subj_path, subj, "subjects")
     ledger.record(subj_path, "enrol.py", "enrol", course_id, True, None, {"state": roster_state})
     return {"action": "enrol", "course_id": course_id, "roster_state": roster_state, "cohort_id": subj["cohort_id"],
             "current_stage": subj["current_stage"], "theory_only": report["theory_only"], "withheld_stages": report["withheld_now"], "written": True}

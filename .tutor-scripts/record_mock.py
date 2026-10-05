@@ -13,7 +13,7 @@ import datetime
 import json
 import sys
 
-from tutorlib import atomic_io, cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, filelock, ledger, state
 
 KEEP = 20
 
@@ -37,7 +37,7 @@ def record(subjects_path, total_marks, awarded, minutes, today_iso, question_ids
     allowed, status = consent.check(subjects_path, consent.SIGNAL)
     if not allowed:
         return {"action": "record", "mock": entry, **consent.skipped(status, consent.SIGNAL)}
-    atomic_io.write_json(subjects_path, data)
+    state.save(subjects_path, data, "subjects")
     return {"action": "record", "mock": entry, "written": True, "mocks_on_file": len(data["mock_results"])}
 
 

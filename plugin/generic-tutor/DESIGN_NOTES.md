@@ -1500,3 +1500,11 @@ Tier 1 of the auditor described field checks in prose while the schemas existed.
 curriculum map, rubric, per-stage misconceptions and any question bank; the 62 real courses (186 files) all pass. The orphaned-enrolment
 check the prose said "walk directly" was already `invariants.py`'s `unknown-course`, so the prose now points there. The prose that was
 replaced paid for the new lines, keeping the /audit context budget unchanged.
+
+## 5 Oct 2026 - v1.48.0: validate before write (E-20)
+
+All 19 call sites that persist progress, profile or deck JSON now go through state.save, which compares the schema errors of the new
+content with those the file had when it was loaded and refuses only the difference. A blanket "must be valid" rule would have turned
+every old-shape quirk (confidence stored as a word, say) into a hard stop for a learner mid-session; a baseline rule blocks the thing we
+are actually afraid of, a script bug or a model-supplied value corrupting a file, without that. Not covered: course content written by
+the compiler (it has no script writer) and the migration script, which changes shapes on purpose.

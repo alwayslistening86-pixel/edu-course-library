@@ -29,7 +29,7 @@ import datetime
 import json
 import sys
 
-from tutorlib import atomic_io, cli, consent, filelock, ledger, schema, state
+from tutorlib import cli, consent, filelock, ledger, schema, state
 
 ENUMS = {
     "preferences.style": ("brief", "detailed"),
@@ -122,7 +122,7 @@ def set_value(profile_path, field, raw_value, today_iso, dry_run=False):
         allowed, status = consent.check(profile_path, kind)
         if not allowed:
             return {**result, **consent.skipped(status, kind)}
-    atomic_io.write_json(profile_path, data)
+    state.save(profile_path, data, "student_profile")
     return {**result, "written": True}
 
 
