@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.32.0] — 2026-10-05
+### Added
+- `--envelope` on every script: `{ok, data, warnings, error{code,message}}` with a closed set of error codes (`docs/CLI_BASELINE.md`). Default output unchanged. (E-10, E-11)
+
 ## [1.31.0] — 2026-10-05
 ### Added
 - Every script answers `--help` / `-h` with plain-text usage and exit 0 (E-09, `tutorlib.cli.handle_help`); a test covers all scripts.

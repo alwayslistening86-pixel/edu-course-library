@@ -116,4 +116,5 @@ def main():
 
 
 if __name__ == "__main__":
+    cli.strip_envelope()                      # --help is argparse's own
     main()

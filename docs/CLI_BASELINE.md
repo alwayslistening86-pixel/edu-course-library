@@ -35,3 +35,21 @@ Before v1.16.0, `coverage_check.py`, `review_math.py apply` and `validate_struct
 | `validate_structure.py` | [(0, False), (1, True)] |
 
 Not yet done (E-09/E-10 remainder): argparse `--help` on every script; the optional `{ok,data,error{code,message}}` envelope; stable error-code enum.
+
+## Envelope and error codes (E-10, E-11; v1.32.0)
+
+Default output is unchanged. Add `--envelope` to any script (any position) to get
+`{"ok": bool, "data": <legacy document or null>, "warnings": [..], "error": null | {"code", "message"}}`; the exit status is unchanged.
+`data` is null only when the legacy output was an `{"error": ...}`; a non-zero exit with a normal result (e.g. `resolve_root.py` reporting `valid: false`) keeps its `data`.
+
+| Code | Meaning | Typical exit |
+|---|---|---|
+| `E_USAGE` | wrong arguments / unknown subcommand | 2 |
+| `E_CONSENT` | refused by the consent gate | 1 |
+| `E_LOCKED` | another process holds the file lock | 1 |
+| `E_NOT_FOUND` | file, stage, course or item missing | 1 |
+| `E_SCHEMA` | file unreadable, wrong shape or newer `schema_version` | 1 |
+| `E_INVALID_INPUT` | any other rejected value | 1 |
+| `E_INTERNAL` | non-JSON output with a failing exit (a crash) | non-zero |
+
+Codes are derived from the message by `tutorlib.cli.error_code` (first match wins, in the table's order of precedence: usage, consent, locked, not found, schema). Making each script name its own code is deferred; the legacy message text is pinned by the golden files.

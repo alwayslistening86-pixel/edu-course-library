@@ -1343,3 +1343,10 @@ The done-when of E-09 is "--help works on every script, legacy invocations still
 argparse would have changed error text pinned by the golden snapshots for no learner-visible gain, so --help is a shared
 two-line hook that prints the docstring's Usage section. Argument parsing itself stays as it is; the full argparse migration
 is deferred until E-10 (envelope) forces a touch of every script anyway.
+
+## 5 Oct 2026 - v1.32.0: opt-in envelope and error codes (E-10, E-11)
+
+Scripts print through many paths (emit, direct prints, sys.exit), so the envelope wraps the process rather than each call
+site: --envelope swaps stdout for a buffer and writes the wrapped document at exit with the original status. This made every
+script conform at once with no golden churn. Codes are inferred from message text, which is crude but covers the closed set
+and is tested; scripts naming their own code, and making the envelope the default, wait until skills stop parsing legacy keys.

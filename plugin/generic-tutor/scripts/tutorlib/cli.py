@@ -26,13 +26,86 @@ def emit(result):
     return 1 if isinstance(result, dict) and "error" in result else 0
 
 
+ERROR_CODES = ("E_USAGE", "E_CONSENT", "E_SCHEMA", "E_LOCKED", "E_NOT_FOUND", "E_INVALID_INPUT", "E_INTERNAL")
+
+
+def error_code(message, exit_code=1):
+    """Stable machine-readable code for an {"error": ...} message (E-11). Order matters: first match wins."""
+    m = str(message).lower()
+    if exit_code == 2 or m.startswith("usage"):
+        return "E_USAGE"
+    if "consent" in m:
+        return "E_CONSENT"
+    if "locktimeout" in m or "lock " in m or "locked" in m:
+        return "E_LOCKED"
+    if "filenotfounderror" in m or "not found" in m or "does not exist" in m or "no such" in m:
+        return "E_NOT_FOUND"
+    if "schema_version" in m or "stateerror" in m or "schema" in m:
+        return "E_SCHEMA"
+    return "E_INVALID_INPUT"
+
+
+def envelope(stdout_text, exit_code):
+    """Wrap a script's legacy stdout and exit status as {ok, data, warnings, error{code,message}} (E-10)."""
+    try:
+        doc = json.loads(stdout_text)
+    except ValueError:
+        doc = None
+    if doc is None and exit_code == 0:
+        doc = {"output": stdout_text}
+    err = None
+    if exit_code != 0 or (isinstance(doc, dict) and "error" in doc):
+        has_error = isinstance(doc, dict) and "error" in doc
+        message = doc["error"] if has_error else f"exit status {exit_code}" if doc is not None else (stdout_text.strip()[-300:] or f"exit status {exit_code}")
+        code = error_code(message, exit_code) if doc is not None else "E_INTERNAL"
+        err = {"code": code, "message": str(message)}
+    warnings = []
+    if isinstance(doc, dict) and isinstance(doc.get("warnings"), list):
+        warnings = [str(w) for w in doc["warnings"]]
+    return {"ok": err is None, "data": None if err and isinstance(doc, dict) and "error" in doc else doc, "warnings": warnings, "error": err}
+
+
+def _install_envelope():
+    import atexit
+    import io
+    import sys
+    real, buf = sys.stdout, io.StringIO()
+    sys.stdout = buf
+    state_ = {"code": 0}
+    orig_exit = sys.exit
+
+    def _exit(code=0):
+        state_["code"] = code if isinstance(code, int) else (0 if code is None else 1)
+        orig_exit(code)
+
+    sys.exit = _exit
+
+    def _flush():
+        sys.stdout = real
+        real.write(json.dumps(envelope(buf.getvalue(), state_["code"]), indent=2) + "\n")
+
+    atexit.register(_flush)
+
+
+def strip_envelope():
+    """Remove `--envelope` from sys.argv and, if it was there, wrap this process's output (E-10)."""
+    import sys
+    if "--envelope" in sys.argv[1:]:
+        sys.argv.remove("--envelope")
+        _install_envelope()
+
+
 def handle_help(doc, argv=None):
-    """`--help` / `-h` as the sole first argument prints the script's usage as plain text and exits 0 (E-09).
+    """Called first thing in every script's __main__ block. Also strips `--envelope` (wraps the output, see `envelope`).
+
+    `--help` / `-h` as the sole first argument prints the script's usage as plain text and exits 0 (E-09).
 
     Shows the docstring's "Usage:" section when it has one, else the whole docstring (capped at 40 lines).
     """
     import sys
     argv = sys.argv if argv is None else argv
+    if argv is sys.argv:
+        strip_envelope()
     if len(argv) < 2 or argv[1] not in ("-h", "--help"):
         return
     text = (doc or "").strip("\n")
