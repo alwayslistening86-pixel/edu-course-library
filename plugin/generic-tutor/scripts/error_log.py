@@ -269,4 +269,5 @@ def main():
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

@@ -22,7 +22,7 @@ import os
 import shutil
 import sys
 
-from tutorlib import paths
+from tutorlib import cli, paths
 
 
 def _inventory(d):
@@ -73,4 +73,5 @@ def main(argv):
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     sys.exit(main(sys.argv[1:]))

@@ -11,7 +11,7 @@ Exit 0 when a root was found and is valid, 1 otherwise (problems explain what to
 import json
 import sys
 
-from tutorlib import paths
+from tutorlib import cli, paths
 
 
 def main(argv):
@@ -33,4 +33,5 @@ def main(argv):
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     sys.exit(main(sys.argv[1:]))

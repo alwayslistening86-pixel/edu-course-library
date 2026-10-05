@@ -25,7 +25,7 @@ import sqlite3
 import sys
 import zipfile
 
-from tutorlib import paths
+from tutorlib import cli, paths
 
 FORMAT_VERSION = 1
 
@@ -113,4 +113,5 @@ def main(argv):
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     sys.exit(main(sys.argv[1:]))

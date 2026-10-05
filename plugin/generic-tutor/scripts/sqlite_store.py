@@ -63,7 +63,7 @@ import os
 import sqlite3
 import sys
 
-from tutorlib import consent
+from tutorlib import cli, consent
 
 SCHEMA = """
 PRAGMA foreign_keys = ON;
@@ -456,6 +456,7 @@ def backfill(learner_dir):
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     if len(sys.argv) == 3 and sys.argv[1] == "backfill":
         print(json.dumps(backfill(sys.argv[2]), indent=2))
     elif len(sys.argv) == 3 and sys.argv[1] == "check":

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.31.0] — 2026-10-05
+### Added
+- Every script answers `--help` / `-h` with plain-text usage and exit 0 (E-09, `tutorlib.cli.handle_help`); a test covers all scripts.
+
 ## [1.30.1] — 2026-10-05
 ### Fixed
 - Replaying a pass for an earlier stage (a repeated or re-ordered call) moved `current_stage` backwards; it now never does.

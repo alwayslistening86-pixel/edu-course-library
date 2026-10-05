@@ -1336,3 +1336,10 @@ Calling every writer twice found one defect and several intentional non-idempote
 the learner had already moved on re-set current_stage to the stage after S2. The advance now only moves forward along the
 ladder. The event-style writers (errors, confidence, mastery, remediation, review, mocks) stay non-idempotent on purpose; the
 guarantee there is that the model calls them once per event, which verify_session already checks from the ledger.
+
+## 5 Oct 2026 - v1.31.0: --help everywhere (E-09, partial)
+
+The done-when of E-09 is "--help works on every script, legacy invocations still pass". Rewriting 45 hand-parsed CLIs onto
+argparse would have changed error text pinned by the golden snapshots for no learner-visible gain, so --help is a shared
+two-line hook that prints the docstring's Usage section. Argument parsing itself stays as it is; the full argparse migration
+is deferred until E-10 (envelope) forces a touch of every script anyway.
