@@ -21,7 +21,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
     <user_id>/
       student_profile.json schema v2   written by: profile-kernel (intake, /profile), slot_advance.py, resume_enrollment.py
       subjects/<course_id>.json  v5    see below; field-level owners listed
-      subjects/<course_id>_review_deck.json  v1   written by: review_math.py apply, stage-recap (new cards)
+      subjects/<course_id>_review_deck.json  v1   written by: review_math.py apply (reschedule), deck_add.py (new cards)
       tutor.sqlite3                    append-only history; written only by sqlite_store.py
       .session_ledger.jsonl            one JSON line per state-changing script call (tutorlib/ledger.py); read by verify_session.py; written under granted/limited consent only
   .tutor-scripts/                      deployed copy of plugin scripts; written only by bootstrap_scripts.py
@@ -70,7 +70,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 
 ## `*_review_deck.json` (v1)
 
-`{schema_version, course_id, cards[{id, stage_id, item_id|null, criterion|null, front, back, interval_sessions, due_at_slot, ease, lapses}]}`. Scheduling fields owned by `review_math.py apply`; cards created by stage-recap (new card: interval 1, ease 2.3, lapses 0, due = current slot + 1).
+`{schema_version, course_id, cards[{id, stage_id, item_id|null, criterion|null, front, back, interval_sessions, due_at_slot, ease, lapses}]}`. New cards are written only by `deck_add.py` (front ≤200 / back ≤400 characters, one question per front, duplicate fronts skipped, ≤12 per stage and ≤300 per deck). Scheduling fields owned by `review_math.py apply`; cards created by stage-recap (new card: interval 1, ease 2.3, lapses 0, due = current slot + 1).
 
 ## `course.json` (v4)
 

@@ -1357,3 +1357,10 @@ The SQLite history was written but never read. Role decided: append-only history
 to a teaching decision (JSON stays authoritative, so a corrupt or missing DB cannot change what a learner is taught). The three
 reports are plain GROUP BY queries, opened read-only so a report can never create or alter the file; a missing DB is an error
 that says when it appears. The auditor's cohort rollup still walks the JSON files; this is the per-learner view.
+
+## 5 Oct 2026 - v1.34.0: deck_add.py (K-22, K-23, K-25)
+
+stage-recap appended cards by editing the deck JSON, the last unowned write on scheduling data and the only place card quality
+could not be checked. The limits are mechanical heuristics (length, one "?" per front, no "a) b)" lists, normalised-front
+dedupe) chosen because they are decidable in code; whether a card is *good* stays with the model. Rejected cards are reported with a
+reason so the model can rewrite once. Retiring cards and a cloze type (L-06) are not done: both need a schema change.

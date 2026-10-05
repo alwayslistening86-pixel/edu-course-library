@@ -107,10 +107,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-19 🟡 | **journey-planner**: separate allocation (read-only advice) from state changes (`/drop`, ledger update); `/drop` moves into its own skill | `drop` skill created; planner has no writes | C-04 | M | 2 |
 | K-20 🟡 | journey-planner: replace hand-summed step 2 with a script (`plan_estimate.py`) so no arithmetic lives in prose | Script + tests; skill calls it | E-17 | M | 2 |
 | K-21 🟡 | journey-planner: define the plan output format (sequence, bottleneck, review share) as a schema; planner never invents numbers | Output example in tests | K-20 | S | 2 |
-| K-22 🟡 | **review-scheduler**: document deck lifecycle (create deck, card dedupe, retire card, max deck size), and what a "session" of review is (cap per session) | Section + `review_math.py` support for cap | L-05 | M | 4 |
-| K-23 🟡 | review-scheduler: define card quality rules (front/back limits, no multi-answer fronts, cloze option) | Lint script for deck cards | — | S | 4 |
+| K-22 🟡 partial (caps + dedupe in deck_add.py; retire-card and session cap exist elsewhere) | **review-scheduler**: document deck lifecycle (create deck, card dedupe, retire card, max deck size), and what a "session" of review is (cap per session) | Section + `review_math.py` support for cap | L-05 | M | 4 |
+| K-23 ✅ | review-scheduler: define card quality rules (front/back limits, no multi-answer fronts, cloze option) | Lint script for deck cards | — | S | 4 |
 | K-24 🟡 | review-scheduler: grading contract – binary vs 4-grade (decide with data; see L-14) | ADR recorded | L-14 | S | 4 |
-| K-25 🟡 | **stage-recap**: specify card count and caps per stage; dedupe against existing deck; define worksheet size, format and filename | Numbers + tests of dedupe | L-05 | S | 2 |
+| K-25 ✅ | **stage-recap**: specify card count and caps per stage; dedupe against existing deck; define worksheet size, format and filename | Numbers + tests of dedupe | L-05 | S | 2 |
 | K-26 🟡 | stage-recap: generated worksheet content guard — must not reproduce test items (test integrity) | Check procedure + eval | A-07 | S | 3 |
 | K-27 🔴 | **data-erasure**: define the confirmation token (e.g. learner types the exact phrase `ERASE <user_id>`), list every artefact removed incl. `tutor.sqlite3`, `.bak` files, exports/backups the plugin created | Wording + script `erase_profile.py` doing the deletion deterministically | E-02 | M | 1 |
 | K-28 🔴 | **data-export**: include `tutor.sqlite3` history (as JSON/CSV), `error_events`, item-mastery logs; document format version | Export script + schema; included in skill | S-05,E-15 | M | 1 |

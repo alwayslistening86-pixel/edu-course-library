@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.33.0",
+  "plugin_version": "1.34.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -9,6 +9,7 @@
     "confidence_update.py",
     "coverage_check.py",
     "dashboard_html.py",
+    "deck_add.py",
     "diagnostic_gate.py",
     "doctor.py",
     "erase_profile.py",
