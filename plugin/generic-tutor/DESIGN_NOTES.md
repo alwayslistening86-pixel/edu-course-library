@@ -1320,3 +1320,12 @@ per series and not held here), time cannot be enforced and the skill says so, an
 has a question bank yet (the compiler does not write one), so /mock is infrastructure until content exists; drafting banks is
 deliberately not automated because marks and schemes must come from sourced material. profile_init/profile_set close the last
 free-hand JSON write on learner data (profile edits were model-written); the whitelist excludes ids, ledgers and counters.
+
+## 5 Oct 2026 - v1.30.0: session_state.py and the roster-reset bug (tasks K-32, V-09)
+
+Writing the script owner for the remaining hand-written fields exposed a latent defect: nothing ever moved a course out of
+test_pending_convergence after its stage passed. cohort_status derives test_ready from that state alone, so the next stage's
+convergence check would have treated the course as already waiting. The reset now lives in record_stage_result.apply (the one
+place that knows a pass happened), guarded by a shared TEST_PENDING constant because test_eligibility forbids state literals
+outside cohort_status. The first version of the regression test used a standalone course as the "peer" and passed vacuously;
+standalone courses are their own cohort, so the test now uses the dropped same-cohort fixture course made active.

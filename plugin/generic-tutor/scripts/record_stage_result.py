@@ -60,6 +60,7 @@ Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
 import sys
+from cohort_status import TEST_PENDING
 from tutorlib import atomic_io, cli, consent, filelock, ledger, state
 
 RESULTS = ("pass", "fail")
@@ -91,6 +92,7 @@ def apply(subjects_path, course_path, stage_id, result):
     syllabus_status[stage_id] = result
 
     advanced_to = None
+    roster_reset = None
     if result == "pass":
         idx = ladder.index(stage_id)
         for candidate in ladder[idx + 1:]:
@@ -100,6 +102,11 @@ def apply(subjects_path, course_path, stage_id, result):
         if advanced_to is not None:
             d["current_stage"] = advanced_to
             d["current_phase"] = "lesson"
+        # A pass ends this course's wait: it starts its next stage's lesson. Left as test_pending_convergence it would count
+        # as already "ready to test" for that next stage and defeat the cohort convergence rule (cohort_status test_ready).
+        if d.get("roster_state") == TEST_PENDING:
+            d["roster_state"] = "active"
+            roster_reset = "active"
 
     allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
     if not allowed:
@@ -112,6 +119,7 @@ def apply(subjects_path, course_path, stage_id, result):
         "result": result,
         "advanced_to": advanced_to,
         "current_stage": d.get("current_stage"),
+        **({"roster_state_reset": roster_reset} if roster_reset else {}),
         "written": True,
     }
 

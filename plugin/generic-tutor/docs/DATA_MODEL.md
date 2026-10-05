@@ -52,18 +52,18 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 |---|---|---|
 | `schema_version` | int (5) | `migrate_schema.py` |
 | `course_id` | string | course-compiler |
-| `roster_state` | `active\|dormant\|test_pending_convergence\|dropped` | journey-planner (`dropped`, wake), course-runner (`test_pending_convergence`), course-compiler (initial) |
+| `roster_state` | `active\|dormant\|test_pending_convergence\|dropped` | journey-planner (`dropped`, wake), `session_state.py roster` (`active`↔`test_pending_convergence`; `record_stage_result.py` resets to `active` on a pass), course-compiler (initial) |
 | `cohort_id` | int \| `"standalone:<course_id>"` | course-compiler, once |
 | `syllabus_status` | `{stage_id: pass\|fail\|unsat\|withheld}` | `record_stage_result.py` (`withheld`: `apply_capabilities.py`) |
-| `current_stage` / `current_phase` | string / `lesson\|practice\|test` | `record_stage_result.py` (stage); course-runner (phase) |
-| `exam_status` | `locked\|available\|passed` | course-runner |
+| `current_stage` / `current_phase` | string / `lesson\|practice\|test` | `record_stage_result.py` (stage, and `lesson` on advance); `session_state.py phase` |
+| `exam_status` | `locked\|available\|passed` | `session_state.py exam` (refuses `available` until every stage is satisfied) |
 | `confidence` | float in [0,1], default 0.5 | `confidence_update.py apply` |
 | `error_patterns[]` | `{id, stage_id, item_id, source_phase, cause, misconception_id, rubric_criterion, note, slot, resolved, resolved_at_slot}` | `error_log.py` |
 | `item_mastery{item_id}` | `{p_mastery, observations, …}` | `item_mastery.py` |
 | `remediation{stage_id}` | `{attempts, last_cause, escalated, escalated_at_slot}` | `remediation_state.py` |
 | `target` | `{date: YYYY-MM-DD, set_on}` — optional learner-stated deadline | `plan_target.py` (progress class); the only calendar date stored; read by `plan_estimate.py` |
-| `notices_acknowledged[]` | `{id, on}` | course-runner |
-| `last_session_summary` | string | course-runner |
+| `notices_acknowledged[]` | `{id, on}` | `session_state.py notice` |
+| `last_session_summary` | string, ≤400 chars | `session_state.py note` (signal class) |
 | `last_updated` | ISO date | writers |
 
 `cause` enum (shared by JSON, SQLite CHECK, skills): `slip`, `missing_prerequisite`, `misconception`, `misapplied_procedure`, `comprehension`.

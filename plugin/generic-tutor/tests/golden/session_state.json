@@ -1,0 +1,138 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "test",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [
+        {
+          "id": "n1",
+          "on": "<DATE>"
+        }
+      ],
+      "remediation": {},
+      "roster_state": "test_pending_convergence",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "session_state.py",
+        "phase",
+        "{S}/mathA.json",
+        "test"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "phase",
+        "new": "test",
+        "old": "practice",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "session_state.py",
+        "phase",
+        "{S}/mathA.json",
+        "exam"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "phase must be one of ['lesson', 'practice', 'test']"
+      }
+    },
+    {
+      "cmd": [
+        "session_state.py",
+        "roster",
+        "{S}/mathA.json",
+        "test_pending_convergence"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "roster",
+        "new": "test_pending_convergence",
+        "old": "active",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "session_state.py",
+        "roster",
+        "{S}/mathA.json",
+        "dormant"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "roster state must be one of ['active', 'test_pending_convergence'] here; dormant / dropped are owned by journey-planner and resume_enrollment.py"
+      }
+    },
+    {
+      "cmd": [
+        "session_state.py",
+        "notice",
+        "{S}/mathA.json",
+        "n1",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "notice",
+        "already_acknowledged": false,
+        "id": "n1",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "session_state.py",
+        "notice",
+        "{S}/mathA.json",
+        "n1",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "notice",
+        "already_acknowledged": true,
+        "id": "n1",
+        "written": false
+      }
+    },
+    {
+      "cmd": [
+        "session_state.py",
+        "exam",
+        "{S}/mathA.json",
+        "{C}/mathA/course.json",
+        "available"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "this course has no exam (course.json exam.enabled is false)"
+      }
+    }
+  ]
+}

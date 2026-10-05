@@ -93,7 +93,8 @@ def _remaining_stage_count(course_json, subject_json):
 
 # Single definition of "who may hold or draw a slot" (E-17); every script that asks goes through these.
 SUSPENDED = "suspended_ungrounded"
-LIVE_STATES = ("active", "test_pending_convergence")          # may be taught / draw slots
+TEST_PENDING = "test_pending_convergence"                    # live course waiting for its cohort to converge
+LIVE_STATES = ("active", TEST_PENDING)          # may be taught / draw slots
 SLOT_STATES = LIVE_STATES + ("dormant",)                       # hold a roster slot while unfinished
 
 
@@ -180,7 +181,7 @@ def compute_cohorts(subjects_dir, courses_dir):
             "theory_only": complete and bool(withheld_stages(course, subj)),
             "standalone": "__error__" not in course and is_standalone(course),
             "eligible": eligible,
-            "test_ready": roster_state == "test_pending_convergence",
+            "test_ready": roster_state == TEST_PENDING,
             "remaining_stage_count": remaining,
         })
 

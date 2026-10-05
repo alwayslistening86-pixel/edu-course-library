@@ -17,6 +17,12 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.30.0] — 2026-10-05
+### Added
+- `session_state.py` (`phase|roster|exam|notice|note`): the last hand-written progress fields (`current_phase`, live `roster_state`, `exam_status`, `notices_acknowledged`, `last_session_summary`) now have a script owner; `course-runner` calls it.
+### Fixed
+- A passed stage never returned a course from `test_pending_convergence` to `active`, so the course counted as already "ready to test" for its next stage and cohort convergence could be satisfied without it. `record_stage_result.py apply` now resets it on a pass (a fail keeps the wait).
+
 ## [1.29.0] — 2026-10-05
 ### Added
 - **Accessibility modes with concrete rules** (`tutor-core`): `dyslexia_mode` (short sentences, at most three sentences per block incl. list items and examples, numbered steps, bold only for the key term, no italics/ALL CAPS, chunking) and `plain_language_mode` (everyday words, every technical term explained at first use, concrete example first). They change wording only, never content or marking standard. Measured with a new deterministic `accessibility` eval (replies are scored by code, no marker): on mode cases, compliant replies rose 18 → 25 of 36 samples; italics, missing steps and unexplained terms mostly disappeared; over-long blocks did not change.
