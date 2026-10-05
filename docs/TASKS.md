@@ -473,6 +473,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-06 | ✅ done | numbered session lifecycle first in `course-runner`, one call per step (v1.52.0) |
 | K-07 | ✅ done (adapted) | resume rules for a cut-off test or diagnostic; `current_phase` carries the state, no new field (v1.52.0) |
 | K-08 | ✅ done | material-change criteria, 4-page bound, entry format; `recheck` eval 14/14 (easy set) (v1.53.0) |
+| K-13 | ✅ done (adapted) | Tier 1 is a table (check · source · auto-fix · report); size target not met (124 lines) because the judgment tiers are real content (v1.54.0) |
+| K-14 | ✅ done | `audit_run.py` JSON report + diff against the last report; human summary led by the diff (v1.54.0) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
@@ -489,7 +491,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | Wave | Theme | Tasks | Why this order |
 |---|---|---|---|
 | 1 | Finish the engine | E-09 E-23 E-26 S-05 S-09 R-15 K-21 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
-| 2 | Skill clarity | K-03 K-05 K-09 K-11 K-12 K-13 K-14 K-17 K-34 K-35 C-04 C-12 C-14 C-15 D-01 D-08 D-11 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
+| 2 | Skill clarity | K-03 K-05 K-09 K-11 K-12 K-17 K-34 K-35 C-04 C-12 C-14 C-15 D-01 D-08 D-11 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-05 P-06 P-07 P-08 P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-03 L-06 L-08 L-09 L-11 L-15 L-17 L-18 L-20 L-21 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-02 A-03 A-05 A-12 A-13 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
@@ -506,7 +508,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 |---|---|---|---|---|
 | 0 Foundations | 36 | 33 | 3 | 0 |
 | 1 Engine hardening | 35 | 30 | 4 | 1 |
-| 2 Plugin surface & trust | 76 | 53 | 8 | 15 |
+| 2 Plugin surface & trust | 76 | 55 | 8 | 13 |
 | 3 Assessment & evals | 17 | 12 | 2 | 3 |
 | 4 Learning design | 34 | 15 | 5 | 14 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
@@ -516,7 +518,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | Wave | Theme | Not yet done | Of which started |
 |---|---|---|---|
 | 1 | Finish the engine | 7 | 7 |
-| 2 | Skill clarity | 17 | 5 |
+| 2 | Skill clarity | 15 | 5 |
 | 3 | Optional Claude Code hooks | 7 | 2 |
 | 4 | Learning design | 17 | 5 |
 | 5 | Measurement | 8 | 2 |
@@ -529,7 +531,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | R Repo | 18 | 17 | 1 | 0 | 0 |
 | E Engine | 26 | 23 | 3 | 0 | 0 |
 | S Schemas | 14 | 12 | 2 | 0 | 0 |
-| K Skills | 36 | 21 | 4 | 1 | 10 |
+| K Skills | 36 | 23 | 4 | 1 | 8 |
 | C Commands | 15 | 11 | 1 | 0 | 3 |
 | P Plugin surface | 19 | 12 | 2 | 0 | 5 |
 | V Trust & verification | 10 | 7 | 0 | 2 | 1 |
@@ -539,4 +541,4 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 9 | 2 | 0 | 1 |
-| **Total** | **217** | **144** | **23** | **3** | **47** |
+| **Total** | **217** | **146** | **23** | **3** | **45** |

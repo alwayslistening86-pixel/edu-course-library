@@ -1551,3 +1551,13 @@ produce a change.md entry, and the number of pages read was open-ended. Now: thr
 sources. The change.md entry follows the format change_log.py parses. The new recheck eval has seven material and seven non-material pairs
 built one change at a time; the model got all 14 right in 3 samples each, so it shows the rule is understood, not that real pages will
 be judged correctly (real pages are messier than one-line pairs). The injection rules were already in place and are unchanged.
+
+## 5 Oct 2026 - v1.54.0: one audit report (K-13, K-14)
+
+The auditor's mechanical tiers were prose asking the model to run seven scripts and assemble the answer. audit_run.py does the
+assembly: per course, the gate verdict, schema errors, rubric and change.md findings and audit reasons, plus totals, and a diff against the
+last saved report (new and resolved problems per course). On the real library it takes a few seconds: 62 courses, 0 blocked, 0 schema
+failures, 109 advisory notes, every course "audit recommended" (never_audited or an earlier major.minor). The report is saved outside courses/
+so the content repo never carries audit output; the script refuses an --out inside it. K-13 asked for a skill under 90 lines; the table is in
+but the file is still 124 lines because the judgment tiers (grounding, coverage, adaptive layer, duplicate merge) are real content, not
+duplicates, and cutting them would remove behaviour. K-14's "human summary" is the existing Report shape section, now led by the diff.

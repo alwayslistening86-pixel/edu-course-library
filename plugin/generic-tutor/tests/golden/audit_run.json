@@ -1,0 +1,155 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "audit_run.py",
+        "{C}",
+        "--today",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "courses": {
+          "broken": {
+            "advisory_count": 2,
+            "audit_reasons": [
+              "never_audited"
+            ],
+            "blocking": [
+              "missing stage files: ['S2/test.md']"
+            ],
+            "can_ship": false,
+            "change_log": {
+              "entries": 0,
+              "problems": []
+            },
+            "rubric": {
+              "findings": 12,
+              "label_only_stages": 3
+            },
+            "schema_invalid": []
+          },
+          "design": {
+            "advisory_count": 2,
+            "audit_reasons": [
+              "never_audited"
+            ],
+            "blocking": [],
+            "can_ship": true,
+            "change_log": {
+              "entries": 0,
+              "problems": []
+            },
+            "rubric": {
+              "findings": 8,
+              "label_only_stages": 2
+            },
+            "schema_invalid": []
+          },
+          "mathA": {
+            "advisory_count": 2,
+            "audit_reasons": [
+              "never_audited"
+            ],
+            "blocking": [],
+            "can_ship": true,
+            "change_log": {
+              "entries": 0,
+              "problems": []
+            },
+            "rubric": {
+              "findings": 12,
+              "label_only_stages": 3
+            },
+            "schema_invalid": []
+          },
+          "mathB": {
+            "advisory_count": 2,
+            "audit_reasons": [
+              "never_audited"
+            ],
+            "blocking": [],
+            "can_ship": true,
+            "change_log": {
+              "entries": 0,
+              "problems": []
+            },
+            "rubric": {
+              "findings": 12,
+              "label_only_stages": 3
+            },
+            "schema_invalid": []
+          },
+          "old": {
+            "advisory_count": 2,
+            "audit_reasons": [
+              "old_schema",
+              "never_audited",
+              "never_rechecked"
+            ],
+            "blocking": [
+              "missing stage files: ['S1/lesson.md', 'S1/practice.md', 'S1/test.md']",
+              "rubric.json unreadable: rubric.json unreadable: FileNotFoundError: [Errno 2] No such file or directory: '<TMP>/courses/old/rubric.json'"
+            ],
+            "can_ship": false,
+            "change_log": {
+              "entries": 0,
+              "problems": []
+            },
+            "rubric": {
+              "findings": 0,
+              "label_only_stages": 0
+            },
+            "schema_invalid": [
+              "course.json: $: missing required 'schema_version'",
+              "curriculum_map.json: file is missing",
+              "rubric.json: file is missing"
+            ]
+          },
+          "solo": {
+            "advisory_count": 2,
+            "audit_reasons": [
+              "never_audited"
+            ],
+            "blocking": [],
+            "can_ship": true,
+            "change_log": {
+              "entries": 0,
+              "problems": []
+            },
+            "rubric": {
+              "findings": 8,
+              "label_only_stages": 2
+            },
+            "schema_invalid": []
+          }
+        },
+        "courses_checked": 6,
+        "engine_version": "<VERSION>",
+        "report_version": 1,
+        "today": "<DATE>",
+        "totals": {
+          "advisory_findings": 12,
+          "audit_recommended": 6,
+          "blocked": 2,
+          "blocking_findings": 3,
+          "can_ship": 4,
+          "schema_invalid": 1
+        }
+      }
+    },
+    {
+      "cmd": [
+        "audit_run.py",
+        "{T}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: courses_dir does not exist: <TMP>/nope"
+      }
+    }
+  ]
+}
