@@ -457,6 +457,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | D-12 | ✅ done | `evals/README.md` covers running, adding cases, reading reports |
 | D-08 | 🟡 partial | `CONTRIBUTING.md` has the release checklist; per-artefact checklists (script, schema, skill, eval case) not written |
 | X-08 | 🟡 partial | backups default to outside the learner folder; `INSTALL.md` warns about synced folders and personal data; no encryption |
+| R-13 | ✅ done | `tools/bump_version.py` edits all three version carriers and the deployed copy together; the lint still catches a hand edit that drifts |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
@@ -472,7 +473,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 
 | Wave | Theme | Tasks | Why this order |
 |---|---|---|---|
-| 1 | Finish the engine | E-02 E-08 E-09 E-20 E-23 E-26 S-05 S-08 S-09 S-11 S-13 V-07 R-13 R-14 R-15 K-21 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
+| 1 | Finish the engine | E-02 E-08 E-09 E-20 E-23 E-26 S-05 S-08 S-09 S-11 S-13 V-07 R-14 R-15 K-21 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
 | 2 | Skill clarity | K-01 K-02 K-03 K-05 K-06 K-07 K-08 K-09 K-11 K-12 K-13 K-14 K-17 K-34 K-35 C-04 C-12 C-14 C-15 D-01 D-08 D-11 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-05 P-06 P-07 P-08 P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-03 L-06 L-08 L-09 L-11 L-15 L-17 L-18 L-20 L-21 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
@@ -488,7 +489,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 
 | Phase | Tasks | Done | Partial | Open or deferred |
 |---|---|---|---|---|
-| 0 Foundations | 36 | 31 | 5 | 0 |
+| 0 Foundations | 36 | 32 | 4 | 0 |
 | 1 Engine hardening | 35 | 26 | 7 | 2 |
 | 2 Plugin surface & trust | 76 | 45 | 8 | 23 |
 | 3 Assessment & evals | 17 | 12 | 2 | 3 |
@@ -499,7 +500,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 
 | Wave | Theme | Not yet done | Of which started |
 |---|---|---|---|
-| 1 | Finish the engine | 16 | 12 |
+| 1 | Finish the engine | 15 | 11 |
 | 2 | Skill clarity | 22 | 5 |
 | 3 | Optional Claude Code hooks | 7 | 2 |
 | 4 | Learning design | 17 | 5 |
@@ -510,7 +511,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 
 | Workstream | Tasks | Done | Partial | Deferred / dropped | Open |
 |---|---|---|---|---|---|
-| R Repo | 18 | 15 | 3 | 0 | 0 |
+| R Repo | 18 | 16 | 2 | 0 | 0 |
 | E Engine | 26 | 20 | 5 | 0 | 1 |
 | S Schemas | 14 | 9 | 3 | 0 | 2 |
 | K Skills | 36 | 16 | 4 | 1 | 15 |
@@ -523,4 +524,4 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 9 | 2 | 0 | 1 |
-| **Total** | **217** | **131** | **28** | **2** | **56** |
+| **Total** | **217** | **132** | **27** | **2** | **56** |

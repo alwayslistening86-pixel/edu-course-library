@@ -23,7 +23,7 @@ Evals (dev-only, manual): `cd plugin/generic-tutor && python3 -m evals run --sui
 ## Rules
 - Python floor is 3.10; no third-party runtime dependencies.
 - Deterministic logic belongs in scripts, not skill prose. Skills say *when* to call a script; scripts own state writes.
-- Behaviour change ⇒ bump `plugin.json` version, refresh `.tutor-scripts/`, add a `DESIGN_NOTES.md` entry (until the changelog split, D-01).
+- Behaviour change ⇒ `python3 tools/bump_version.py X.Y.Z --changelog "summary"` (edits every version carrier, refreshes `.tutor-scripts/`, adds the CHANGELOG heading), then add a `DESIGN_NOTES.md` entry (until the changelog split, D-01).
 - Schema change ⇒ migration in `migrate_schema.py` plus a test.
 - Reference tasks by ID from `docs/TASKS.md` in branch names, commits and PR titles (e.g. `E-03: atomic JSON writes`).
 - Never put learner data or real exam-board material in this repo.
