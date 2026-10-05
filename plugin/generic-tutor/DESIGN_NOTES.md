@@ -1479,3 +1479,10 @@ push trigger gave the first real results. Linux was green on three Python versio
 day, and 30 Windows failures, of which 28 were golden snapshots (backslashes in reported paths), one a POSIX-path assumption in a test, and
 one a path in an injection-scan message. None was a data-integrity bug; two changed script output (forward slashes) and are the
 only behaviour change here.
+
+## 5 Oct 2026 - v1.45.2: Windows CI green
+
+Three iterations on windows-latest took the suite from 30 failures to 0. The last six were golden snapshots whose paths came back
+quoted with doubled backslashes inside OS error text, and file sizes that differed because Windows wrote CRLF. The second is a real
+(minor) product difference, fixed by writing state files with LF everywhere. The Windows job is now a required-style job, not informational.
+Still not covered by any automated check: a OneDrive/Dropbox-synced data folder, and paths beyond the legacy 260-character limit.
