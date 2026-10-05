@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.49.0] — 2026-10-05
+### Changed
+- `migrate_schema.py` reports `valid_after` (and the first schema errors) for the file it migrated, so a migration that leaves a file structurally wrong says so (S-09)
+
 ## [1.48.0] — 2026-10-05
 ### Changed
 - every state writer validates before it writes: a change that would add a schema error the file did not already have is refused (legacy quirks present at load never block a session) (E-20)

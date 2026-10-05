@@ -1,6 +1,6 @@
 [project]
 name = "generic-tutor"
-version = "1.48.0"  # mirrors plugin/generic-tutor/.claude-plugin/plugin.json (single source: plugin.json)
+version = "1.49.0"  # mirrors plugin/generic-tutor/.claude-plugin/plugin.json (single source: plugin.json)
 description = "Engine scripts for the generic-tutor Claude Cowork plugin"
 requires-python = ">=3.10"
 license = { text = "MIT" }

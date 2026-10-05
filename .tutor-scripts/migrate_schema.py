@@ -79,7 +79,7 @@ import json
 import os
 import shutil
 import sys
-from tutorlib import atomic_io, cli
+from tutorlib import atomic_io, cli, schema
 
 COURSE_SCHEMA_VERSION = 4
 SUBJECT_SCHEMA_VERSION = 5
@@ -93,6 +93,13 @@ def _load(path):
 
 def _save(path, data):
     atomic_io.write_json(path, data)
+
+
+def _verify(data, kind):
+    """Post-condition of a migration: what the file would look like is checked against the shared schema (S-09). `needs_sourcing`
+    fields legitimately stay null, so only structural errors count; they are reported, never used to refuse the migration."""
+    errors = schema.validate(data, kind)
+    return {"valid_after": not errors, **({"schema_errors_after": errors[:5]} if errors else {})}
 
 
 def _migrate_write(path, data, old_version, dry_run):
@@ -198,6 +205,7 @@ def migrate_course(path, dry_run=False):
     return {
         "path": path,
         "kind": "course",
+        **_verify(d, "course"),
         "wrote": wrote,
         **({"backup": backup} if backup else {}),
         **({"dry_run": True, "would_change": before != after} if dry_run else {}),
@@ -267,6 +275,7 @@ def migrate_subject(subj_path, course_path, dry_run=False):
     return {
         "path": subj_path,
         "kind": "subject",
+        **_verify(d, "subjects"),
         "wrote": wrote,
         **({"backup": backup} if backup else {}),
         **({"dry_run": True, "would_change": before != after} if dry_run else {}),

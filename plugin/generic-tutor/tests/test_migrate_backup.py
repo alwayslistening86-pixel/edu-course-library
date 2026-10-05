@@ -25,6 +25,16 @@ class Backup(unittest.TestCase):
         with open(p, "rb") as f:
             return f.read()
 
+    def test_migration_reports_whether_the_result_matches_the_schema(self):
+        r = migrate_schema.migrate_course(self.old, dry_run=True)
+        self.assertFalse(r["valid_after"])                                   # fields that need sourcing stay null: reported, not hidden
+        self.assertIn("missing required 'exam'", " ".join(r["schema_errors_after"]))
+        good = migrate_schema.migrate_course(f"{self.fx['C']}/mathA/course.json", dry_run=True)
+        self.assertTrue(good["valid_after"])
+        self.assertNotIn("schema_errors_after", good)
+        subj = migrate_schema.migrate_subject(f"{self.fx['S']}/mathA.json", f"{self.fx['C']}/mathA/course.json", dry_run=True)
+        self.assertTrue(subj["valid_after"])
+
     def test_backup_holds_the_exact_original_bytes(self):
         original = self.raw(self.old)
         r = migrate_schema.migrate_course(self.old)

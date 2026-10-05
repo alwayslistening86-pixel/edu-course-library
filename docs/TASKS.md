@@ -463,6 +463,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-20 | ✅ done | `state.save` validates before write at 19 call sites, blocking only introduced errors (v1.48.0); readers already use `state.load` |
 | R-14 | ✅ done | third-party actions pinned by commit SHA with the version in a comment; Dependabot (weekly) keeps them current. The Claude CLI installed in the validate job is still unpinned |
 | V-07 | ➖ dropped | a hash chain would only detect tampering by the machine's owner, who can already edit every file; the ledger exists to catch a model skipping a script call, which `verify_session.py` does without it |
+| S-09 | 🟡 partial (by decision) | migration stays one idempotent normaliser, now with a schema post-check (`valid_after`); per-version steps deliberately not built (DESIGN_NOTES v1.49.0) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 

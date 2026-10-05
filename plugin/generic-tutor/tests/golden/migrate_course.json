@@ -53,6 +53,13 @@
           "coverage_status (run course-auditor's Tier 3 coverage pass: itemise the spec, map stages, run coverage_check.py)"
         ],
         "path": "<TMP>/courses/old/course.json",
+        "schema_errors_after": [
+          "$: missing required 'exam'",
+          "$: missing required 'folder_access'",
+          "level_source: expected string, got NoneType",
+          "level_basis: None not in ['framework', 'declared', 'standalone']"
+        ],
+        "valid_after": false,
         "wrote": true
       }
     }
