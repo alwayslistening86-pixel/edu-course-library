@@ -1534,3 +1534,12 @@ Measured against the committed baselines at 3 samples, hints showed one leaked a
 run of the old and new text at 6 samples settled it: hints sample accuracy 0.986 (old) vs 0.972 (new) is one sample, accessibility
 0.722 vs 0.764 (new is not worse). The other six suites showed no change. Lesson reinforced: a 3-sample check against an old baseline flags noise;
 decide with an A/B at the same sample count.
+
+## 5 Oct 2026 - v1.52.0: runner lifecycle and interruption (K-06, K-07)
+
+The lifecycle checklist is eight lines placed before the gate detail; it names the call at each step and leaves the mechanics where they were.
+It was paid for in the same file: the folder tree (now a pointer to CONTENT_CONTRACT.md), a duplicated prerequisite note, two reflective
+sections and the confidence preamble were shortened, so /continue stays at its budget. Interruption handling needed no new state field (the
+task proposed `in_progress`): `current_phase` already persists through session_state.py, so the rule is only that a test left open is
+re-presented, not replaced, and that the phase is set when a test starts. Not measured by an eval: nothing exercises a resumed session
+yet; the gates suite (unchanged at 1.0) only checks the stop behaviour.

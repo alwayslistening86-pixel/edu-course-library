@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.52.0] — 2026-10-05
+### Changed
+- `course-runner` opens with a numbered session lifecycle (the script call at each step) and says how to resume a session cut off mid-test or mid-diagnostic; the gates eval is unchanged at 1.0 (K-06, K-07)
+
 ## [1.51.0] — 2026-10-05
 ### Changed
 - `tutor-core` gives each phase a 'done when' criterion (lesson, practice, test); eval A/B at 6 samples shows no measurable change (K-01, K-02)
