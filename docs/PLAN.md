@@ -32,7 +32,7 @@ This plan covers the whole repo: the `generic-tutor` engine (scripts, schemas, t
 - No shared library: path handling, JSON load/save, error envelope and CLI parsing are re-implemented per script (≈19 copies of `usage:` handling, hand-rolled argv parsing).
 - `/EDU/` is a documented placeholder resolved by the model, not by code, in every skill invocation.
 - Python version support is undeclared; CI runs 3.12 only; no lint/type/format tooling.
-- Tests are organised by release (`test_v130.py` …) not by module; the fuzz suite is not run in CI.
+- Tests were organised by release (`test_v130.py` …) not by module (renamed by topic in v1.39.2); the fuzz suite is not run in CI.
 
 **Trust / verification**
 - The known residual risk from v1.10.0 is unaddressed: nothing verifies the model actually *called* the state-writing scripts. All state integrity depends on the model following markdown.

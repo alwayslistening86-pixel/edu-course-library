@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.39.2] — 2026-10-05
+### Changed
+- Release-named test files renamed by topic (no test changed). Hash-seed stability of the golden snapshots checked (E-19).
+
 ## [1.39.1] — 2026-10-05
 ### Changed
 - `postcompile_gate` reports misconceptions coverage as one line ("0 of 29 stages …") instead of dumping a per-stage structure, which made the output of the real 29-stage courses unreadable.

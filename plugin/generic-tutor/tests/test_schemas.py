@@ -120,7 +120,7 @@ class RealSchemas(unittest.TestCase):
         self.assertTrue(schema.validate({"pattern": "x"}, "misconceptions"))
 
     def test_legacy_test_fixture_shape_is_flagged(self):
-        # tests/test_scripts.py's Learner fixture uses confidence "medium" and error_patterns ["x"]; the schema must not bless that.
+        # tests/test_regressions.py's Learner fixture uses confidence "medium" and error_patterns ["x"]; the schema must not bless that.
         legacy = {"schema_version": 5, "course_id": "A", "roster_state": "active", "syllabus_status": {}, "current_stage": "S0",
                   "confidence": "medium", "error_patterns": ["x"]}
         self.assertEqual(len(schema.validate(legacy, "subjects")), 2)

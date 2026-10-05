@@ -374,7 +374,7 @@ class MigrationV4Tests(unittest.TestCase):
         self.assertEqual(
             (s["schema_version"], s["cohort_id"], s["notices_acknowledged"]),
             (migrate_schema.SUBJECT_SCHEMA_VERSION, "standalone:c", []),
-        )  # pinned to the constant, not a literal, since 1.4.0 (test_v140.py owns the current-version behavior)
+        )  # pinned to the constant, not a literal, since 1.4.0 (test_adaptive_layer.py owns the current-version behavior)
         self.assertFalse(migrate_schema.migrate_subject(spath, self.path)["wrote"])
 
 

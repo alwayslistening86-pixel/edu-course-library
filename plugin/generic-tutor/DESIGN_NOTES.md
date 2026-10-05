@@ -1413,3 +1413,11 @@ question that reuses a test's structure with new numbers passes, which is the in
 ## 5 Oct 2026 - v1.39.1: readable misconceptions advisory
 
 Found reading the gate output for the real library: the advisory serialised a per-stage dict (hundreds of characters per stage). The detail is still in validate_structure.py's output; the gate prints the count.
+
+## 5 Oct 2026 - v1.39.2: test files renamed by topic (E-26, partial)
+
+Release-named test files (test_v130 ... test_scripts) are now named for what they cover: test_course_rules, test_adaptive_layer,
+test_mastery_and_gate, test_sqlite_history, test_record_stage_result, test_regressions. No test was moved or removed (count
+unchanged). Earlier notes in this file keep the old names, since they describe the state at that release. The proposed
+unit/integration directory split is not done: with ~50 files a flat directory is still easy to navigate and the move would break every
+relative import in the fixtures for no behavioural gain.

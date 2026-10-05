@@ -430,6 +430,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 | A-07 | ✅ done (checks) | `tutorlib/overlap.py`, blocking gate check, `worksheet_check.py`; an eval of paraphrase-level leakage is not built |
 | K-26 | ✅ done | `stage-recap` runs `worksheet_check.py` before handing over the worksheet |
+| E-19 | ✅ done | golden snapshots identical under 6 different `PYTHONHASHSEED` values; outputs are sorted |
+| E-26 | 🟡 partial | files renamed by topic; directory split deliberately not done (see DESIGN_NOTES v1.39.2) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
@@ -446,7 +448,7 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | Workstream | Tasks | Done | Partial | Deferred / dropped | Open |
 |---|---|---|---|---|---|
 | R Repo | 18 | 14 | 1 | 0 | 3 |
-| E Engine | 26 | 17 | 6 | 0 | 3 |
+| E Engine | 26 | 18 | 7 | 0 | 1 |
 | S Schemas | 14 | 8 | 3 | 0 | 3 |
 | K Skills | 36 | 13 | 4 | 1 | 18 |
 | C Commands | 15 | 10 | 0 | 0 | 5 |
@@ -458,4 +460,4 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 7 | 0 | 0 | 3 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **116** | **23** | **2** | **76** |
+| **Total** | **217** | **117** | **24** | **2** | **74** |
