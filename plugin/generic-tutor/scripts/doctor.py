@@ -87,6 +87,8 @@ def check_courses(courses_dir):
         errs = []
         for kind in ("course", "curriculum_map", "rubric"):
             errs += schema.validate_file(os.path.join(cdir, f"{kind}.json"), kind)
+        if os.path.isfile(os.path.join(cdir, "question_bank.json")):
+            errs += schema.validate_file(os.path.join(cdir, "question_bank.json"), "question_bank")
         for mis in glob.glob(os.path.join(cdir, "stages", "*", "misconceptions.json")):
             errs += schema.validate_file(mis, "misconceptions")
         if "error" in v or not v.get("clean", False) or errs:

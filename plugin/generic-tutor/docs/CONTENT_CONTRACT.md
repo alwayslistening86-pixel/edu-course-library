@@ -11,6 +11,7 @@ What the engine expects of a course library, and what it promises back. The libr
   stages/<stage_id>/lesson.md, practice.md, test.md      required for every id in course.json.stage_ladder
   stages/<stage_id>/misconceptions.json                  optional; if present, schema misconceptions.json (non-empty array)
   exam/exam.md             required only when course.json.exam.enabled
+  question_bank.json       optional   schema: question_bank.json - questions with marks, items, mark scheme and model answer; enables /mock
   connectors.md            optional   records which suggested connectors are connected
   change.md                optional   dated records of detected source changes (facts and sources only)
 ```

@@ -17,6 +17,7 @@ without bluffing in either direction:
                - otherwise                                             -> early
                - a course whose coverage is not `full`, or not itemised, is capped at `building` / `not_enough_evidence`
   strength   low / medium / high - how much evidence stands behind the band (total observations: <10, <40, 40+)
+  mocks      the last three mock papers (date, percentage) are listed in the evidence for context; they do NOT move the band
   caveats    always stated: practice conditions are not exam conditions; mastery is an estimate from few observations;
              a specification gap; unobserved items are counted as unknown, not as weak or strong
 
@@ -90,13 +91,17 @@ def assess(learner_dir, courses_dir, course_id):
         caveats.append("Some specification items were declared out of scope for this learner's selected options.")
     if unresolved:
         caveats.append(f"{unresolved} diagnosed error(s) are still unresolved.")
+    mocks = [m for m in subj.get("mock_results", []) if isinstance(m, dict) and isinstance(m.get("percent"), (int, float))][-3:]
+    if mocks:
+        caveats.append("Mock papers are shown beside the band, not inside it: different papers differ in difficulty, and grade boundaries are not held here.")
     strength = "low" if total_obs < 10 else "medium" if total_obs < 40 else "high"
     return {"course_id": course_id, "band": band, "strength": strength,
             "evidence": {"stages_passed": passed, "stages_total": len(ladder), "items_total": cov.get("items_total"),
                          "items_taught": cov.get("items_taught"), "coverage_status": cov.get("computed_status"),
                          "items_observed": len(observed), "items_taught_listed": len(taught_items),
                          "mean_observed_mastery": round(mean_p, 3) if mean_p is not None else None,
-                         "total_observations": total_obs, "unresolved_errors": unresolved},
+                         "total_observations": total_obs, "unresolved_errors": unresolved,
+                         "recent_mocks": [{"date": m.get("date"), "percent": m["percent"], "minutes": m.get("minutes")} for m in mocks]},
             "weakest_items": weakest, "caveats": caveats}
 
 

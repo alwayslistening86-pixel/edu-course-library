@@ -32,6 +32,7 @@
       "exit": 0,
       "stderr_tail": [],
       "stdout": {
+        "backup": "<TMP>/courses/old/course.json.pre-migrate-vunversioned.bak",
         "changed_fields": [
           "schema_version: None -> 4",
           "standalone: added as false",

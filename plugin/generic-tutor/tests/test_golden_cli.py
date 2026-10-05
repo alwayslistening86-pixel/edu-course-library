@@ -79,6 +79,12 @@ CASES = {
     "plan_estimate": ([("plan_estimate.py", ["{L}", "{C}", "--today", "2026-10-04"])], []),
     "plan_target": ([("plan_target.py", ["set", SUBJ, "2026-12-01", "2026-10-04"]), ("plan_estimate.py", ["{L}", "{C}", "--today", "2026-10-04"]),
                      ("plan_target.py", ["clear", SUBJ]), ("plan_target.py", ["set", SUBJ, "2026-01-01", "2026-10-04"])], [SUBJ]),
+    "assemble_paper": ([("assemble_paper.py", ["{C}", "mathA", "--marks", "12", "--seed", "2"]), ("assemble_paper.py", ["{C}", "solo"])], []),
+    "record_mock": ([("record_mock.py", [SUBJ, "40", "30", "50", "2026-10-04", "S1-Q1"]), ("record_mock.py", [SUBJ, "10", "11", "5", "2026-10-04"])], [SUBJ]),
+    "dashboard_html": ([("dashboard_html.py", ["{L}", "{C}", "{T}/exports/amy.html", "--today", "2026-10-04"])], []),
+    "profile_set": ([("profile_set.py", ["{P}/student_profile.json", "preferences.style", "brief", "2026-10-04"]),
+                     ("profile_set.py", ["{P}/student_profile.json", "preferences.tone", "loud", "2026-10-04"]),
+                     ("profile_set.py", ["{P}/student_profile.json", "session_slot", "0", "2026-10-04"])], ["{P}/student_profile.json"]),
     "status": ([("status.py", ["{L}", "{C}"])], []),
     "invariants": ([("invariants.py", ["{L}", "{C}"])], []),
     "resolve_root": ([("resolve_root.py", ["--root", "{T}"]), ("resolve_root.py", ["--root", "{T}/missing"])], []),
@@ -119,8 +125,8 @@ class GoldenCoverage(unittest.TestCase):
         scripts = sorted(f for f in os.listdir(gs.SCRIPTS) if f.endswith(".py"))
         covered = {s for steps, _ in CASES.values() for s, _a in steps}
         # bootstrap: covered by deploy tests; doctor: output embeds the interpreter version, covered by test_doctor_status
-        # backup/restore: output embeds a wall-clock file name, covered by test_backup_restore
-        exempt = {"bootstrap_scripts.py", "doctor.py", "backup_profile.py", "restore_profile.py"}
+        # backup/restore: output embeds a wall-clock file name, covered by test_backup_restore; profile_init reads stdin (test_profile_set.Init)
+        exempt = {"bootstrap_scripts.py", "doctor.py", "backup_profile.py", "restore_profile.py", "profile_init.py"}
         self.assertEqual([s for s in scripts if s not in covered and s not in exempt], [])
 
 

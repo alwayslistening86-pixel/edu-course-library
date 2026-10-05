@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PLUGIN = os.path.dirname(HERE)
 sys.path.insert(0, PLUGIN)
 
-from evals import backends, criteria, diagnostics, gates, grading, harness, injection, safety  # noqa: E402
+from evals import accessibility, backends, criteria, diagnostics, gates, grading, harness, injection, safety  # noqa: E402
 
 
 class Cases(unittest.TestCase):
@@ -90,6 +90,14 @@ class Scoring(unittest.TestCase):
         r = harness.run(grading, slip, backends.Scripted(lambda s, p: json.dumps({"decision": next(seq)})), samples=3, workers=1)
         self.assertEqual((r["scored"], r["ambiguous"], r["accuracy"]), (1, [], 1.0))
 
+    def test_sample_accuracy_is_finer_than_majority_accuracy(self):
+        slip = [c for c in self.cases if c["kind"] == "answer_only"][:1]       # acceptable: needs_reasoning only
+        seq = iter(["needs_reasoning", "needs_reasoning", "pass", "needs_reasoning"])
+        r = harness.run(grading, slip, backends.Scripted(lambda s, p: json.dumps({"decision": next(seq)})), samples=4, workers=1)
+        self.assertEqual(r["accuracy"], 1.0)                 # the majority is right ...
+        self.assertEqual(r["sample_accuracy"], 0.75)         # ... but one sample in four was not
+        self.assertEqual(r["critical_samples"], 1)
+
     def test_unparseable_and_erroring_backends_are_counted_not_crashed(self):
         def boom(system, prompt):
             raise RuntimeError("down")
@@ -131,7 +139,7 @@ if __name__ == "__main__":
     unittest.main()
 
 
-SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria)
+SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria, accessibility)
 
 
 class AllSuites(unittest.TestCase):
@@ -235,3 +243,31 @@ class Criteria(unittest.TestCase):
         bad = harness.run(criteria, self.cases, harness.scripted_backend(criteria, self.cases, "always-wrong"), 1, 2)
         self.assertEqual(bad["accuracy"], 0.0)
         self.assertGreater(bad["critical_failures"], 0)
+
+
+class Accessibility(unittest.TestCase):
+    def test_gold_texts_satisfy_every_mode_and_wrong_text_fails_the_modes_it_should(self):
+        for c in accessibility.build_cases():
+            m = accessibility.analyse(accessibility.GOLD[c["topic"]], c)
+            self.assertEqual(accessibility.violations(m, c["mode"]), [], c["id"])
+        c = next(x for x in accessibility.build_cases() if x["id"] == "accessibility/photosynthesis/dyslexia")
+        v = accessibility.violations(accessibility.analyse(accessibility.WRONG, c), "dyslexia")
+        self.assertTrue(any("average sentence" in x for x in v) and any("ALL-CAPS" in x for x in v) and any("italics" in x for x in v))
+
+    def test_control_mode_only_checks_the_concepts(self):
+        c = next(x for x in accessibility.build_cases() if x["mode"] == "none" and x["topic"] == "contract")
+        dense = "An offer, acceptance, consideration and intention to create legal relations are required, expressed in one long unbroken sentence " * 3
+        self.assertEqual(accessibility.violations(accessibility.analyse(dense, c), "none"), [])
+        self.assertTrue(accessibility.violations(accessibility.analyse("Contracts are agreements.", c), "none"))
+
+    def test_losing_the_concept_in_the_name_of_simplicity_is_caught(self):
+        c = next(x for x in accessibility.build_cases() if x["id"] == "accessibility/fractions/plain")
+        v = accessibility.violations(accessibility.analyse("Fractions are fun.\n\n1. Add them.", c), "plain")
+        self.assertTrue(any("missing concept" in x for x in v))
+
+    def test_unexplained_term_detection(self):
+        c = next(x for x in accessibility.build_cases() if x["id"] == "accessibility/photosynthesis/plain")
+        bad = accessibility.analyse("Chlorophyll absorbs light. Carbon dioxide and glucose and oxygen are involved.", c)
+        self.assertEqual(bad["unexplained_terms"], ["chlorophyll"])
+        good = accessibility.analyse("Chlorophyll (the green pigment) absorbs light. Carbon dioxide, glucose and oxygen too.", c)
+        self.assertEqual(good["unexplained_terms"], [])

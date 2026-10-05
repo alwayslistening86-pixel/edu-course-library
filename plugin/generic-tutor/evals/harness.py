@@ -5,7 +5,7 @@ Eval harness (A-01): run a suite's cases through a backend N times, score, repor
                           [--model sonnet] [--samples 3] [--workers 4] [--limit K] [--out report.json]
     python -m evals check <report.json> [baseline.json]
 
-Suites (grading, safety, injection, diagnostics, gates, criteria; each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
+Suites (grading, safety, injection, diagnostics, gates, criteria, accessibility; each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
 override): grading, safety, injection, diagnostics, gates. Backends:
     claude        the `claude` CLI, model-in-the-loop (manual / nightly; uses quota)
     oracle        a perfect responder built from each case's reference label (sanity: must score 100%)
@@ -28,7 +28,7 @@ import sys
 
 from evals import backends
 
-SUITES = ("grading", "safety", "injection", "diagnostics", "gates", "criteria")
+SUITES = ("grading", "safety", "injection", "diagnostics", "gates", "criteria", "accessibility")
 AGREEMENT_FLOOR = 0.67
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -60,7 +60,7 @@ def score(cases, results):
     per_kind = collections.defaultdict(lambda: [0, 0])
     confusion = collections.Counter()
     a1_hits = a1_total = exact_hits = critical_cases = critical_samples = errored = 0
-    crit_hits = crit_total = 0
+    crit_hits = crit_total = sample_hits = sample_total = 0
     ambiguous, rows = [], []
     for case in cases:
         runs = results[case["id"]]
@@ -72,6 +72,8 @@ def score(cases, results):
         ok = majority in exp["acceptable"]
         exact = majority == exp["decision"]
         crit_here = sum(1 for d in decisions if d in critical)
+        sample_total += len(decisions)
+        sample_hits += sum(1 for d in decisions if d in exp["acceptable"])
         critical_samples += crit_here
         all_acceptable = bool(runs) and all(d in exp["acceptable"] for d in decisions)
         rows.append({"id": case["id"], "kind": case["kind"], "expected": exp["decision"], "acceptable": exp["acceptable"],
@@ -106,6 +108,8 @@ def score(cases, results):
         "confusion": {f"{e} -> {a}": n for (e, a), n in sorted(confusion.items(), key=str)},
         "a1_accuracy_vs_oracle": round(a1_hits / a1_total, 3) if a1_total else None,
         "criterion_accuracy": round(crit_hits / crit_total, 3) if crit_total else None,
+        # finer than `accuracy`: the share of ALL samples (not majority votes) that were acceptable; use it to compare two skill versions
+        "sample_accuracy": round(sample_hits / sample_total, 3) if sample_total else None,
         "rows": rows,
     }
 
@@ -121,6 +125,8 @@ def scripted_backend(suite, cases, mode):
 
     def fn(system, prompt):
         c = index[prompt]
+        if hasattr(suite, "oracle_text"):                  # suites whose reply is free text, scored by code
+            return suite.oracle_text(c, wrong=(mode == "always-wrong"))
         if mode == "oracle":
             return oracle_reply(c)
         crit = c.get("critical") or []
@@ -204,7 +210,7 @@ def main(argv):
             with open(out, "w", encoding="utf-8") as f:
                 f.write(json.dumps(reports[name], indent=2) + "\n")
     keys = ("suite", "backend", "samples", "skill_hash", "cases", "scored", "accuracy", "exact_accuracy", "critical_failures",
-            "critical_samples", "errored_cases", "a1_accuracy_vs_oracle", "criterion_accuracy", "ambiguous")
+            "critical_samples", "errored_cases", "a1_accuracy_vs_oracle", "criterion_accuracy", "sample_accuracy", "ambiguous")
     print(json.dumps({n: {k: r[k] for k in keys} for n, r in reports.items()}, indent=2))
     return 0
 

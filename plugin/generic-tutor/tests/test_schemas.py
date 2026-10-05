@@ -67,6 +67,9 @@ class RealSchemas(unittest.TestCase):
                 continue  # deliberately pre-migration shape
             for kind in ("course", "curriculum_map", "rubric"):
                 out.append((kind, f"{self.fx['C']}/{c}/{kind}.json"))
+            qb = f"{self.fx['C']}/{c}/question_bank.json"
+            if os.path.isfile(qb):
+                out.append(("question_bank", qb))
             mis = f"{self.fx['C']}/{c}/stages/S1/misconceptions.json"
             if os.path.isfile(mis):
                 out.append(("misconceptions", mis))

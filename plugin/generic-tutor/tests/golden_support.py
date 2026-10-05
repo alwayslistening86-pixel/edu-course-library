@@ -60,6 +60,21 @@ def build_course(courses, cid, *, level=2, stages=("S1", "S2", "S3"), standalone
     _w(os.path.join(base, "rubric.json"), rub)
 
 
+def add_question_bank(courses, cid, n_per_stage=4):
+    """A deterministic bank for tests of the exam tools (kept out of build_fixture so other goldens do not change)."""
+    qs = []
+    for si, st in enumerate(("S1", "S2", "S3"), 1):
+        for k in range(1, n_per_stage + 1):
+            marks = 2 + (k % 3)                                      # 3, 4, 2, 3 ...
+            qs.append({"id": f"{st}-Q{k}", "stage_id": st, "item_ids": [f"{st}.1"] if k % 2 else [f"{st}.1", f"X{si}{k}"],
+                       "marks": marks, "calculator": (k % 2 == 0) if k < 4 else None, "command_word": "Calculate", "difficulty": 1 + (k % 4),
+                       "prompt": f"Question {k} on {st}: work out the value.",
+                       "mark_scheme": [{"id": "M1", "marks": 1, "type": "M", "descriptor": "valid method"},
+                                       {"id": "A1", "marks": marks - 1, "type": "A", "descriptor": "correct answer"}],
+                       "model_answer": "42", "source": "self-authored for tests"})
+    _w(os.path.join(courses, cid, "question_bank.json"), {"schema_version": 1, "questions": qs})
+
+
 def build_fixture(tmp):
     courses = os.path.join(tmp, "courses")
     learner = os.path.join(tmp, "profile", "amy")
@@ -69,6 +84,7 @@ def build_fixture(tmp):
         {"pattern": "Thinks multiplying always makes a number bigger, so 3 x 1/2 is greater than 3.",
          "correction": "Multiplying by a fraction below 1 makes the result smaller: 3 x 1/2 = 1 1/2.",
          "source": "plausible, not board-documented"}])
+    add_question_bank(courses, "mathA")
     build_course(courses, "mathB", level=3)
     build_course(courses, "solo", standalone=True, stages=("S1", "S2"))
     build_course(courses, "design", level=2, stages=("S1", "S2"), practical={"S2": ["share_images"]})

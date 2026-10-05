@@ -77,6 +77,7 @@ prints a JSON report of what changed and what's still open.
 """
 import json
 import os
+import shutil
 import sys
 from tutorlib import atomic_io, cli
 
@@ -94,7 +95,19 @@ def _save(path, data):
     atomic_io.write_json(path, data)
 
 
-def migrate_course(path):
+def _migrate_write(path, data, old_version, dry_run):
+    """E-12: keep the pre-migration file next to it (the OLDEST copy per source version is kept, never overwritten) and
+    write atomically. Returns (wrote, backup_path). With dry_run nothing is touched."""
+    if dry_run:
+        return False, None
+    backup = f"{path}.pre-migrate-v{old_version if old_version is not None else 'unversioned'}.bak"
+    if not os.path.exists(backup):
+        shutil.copy2(path, backup)
+    _save(path, data)
+    return True, backup
+
+
+def migrate_course(path, dry_run=False):
     d = _load(path)
     before = json.dumps(d, sort_keys=True)
     changed_fields = []
@@ -178,21 +191,22 @@ def migrate_course(path):
         needs_sourcing.append("coverage_status (run course-auditor's Tier 3 coverage pass: itemise the spec, map stages, run coverage_check.py)")
 
     after = json.dumps(d, sort_keys=True)
-    wrote = False
+    wrote, backup = False, None
     if before != after:
-        _save(path, d)
-        wrote = True
+        wrote, backup = _migrate_write(path, d, old_version, dry_run)
 
     return {
         "path": path,
         "kind": "course",
         "wrote": wrote,
+        **({"backup": backup} if backup else {}),
+        **({"dry_run": True, "would_change": before != after} if dry_run else {}),
         "changed_fields": changed_fields,
         "needs_sourcing": needs_sourcing,
     }
 
 
-def migrate_subject(subj_path, course_path):
+def migrate_subject(subj_path, course_path, dry_run=False):
     d = _load(subj_path)
     before = json.dumps(d, sort_keys=True)
     changed_fields = []
@@ -246,33 +260,36 @@ def migrate_subject(subj_path, course_path):
         changed_fields.append(f"schema_version: {old_version!r} -> {SUBJECT_SCHEMA_VERSION}")
 
     after = json.dumps(d, sort_keys=True)
-    wrote = False
+    wrote, backup = False, None
     if before != after:
-        _save(subj_path, d)
-        wrote = True
+        wrote, backup = _migrate_write(subj_path, d, old_version, dry_run)
 
     return {
         "path": subj_path,
         "kind": "subject",
         "wrote": wrote,
+        **({"backup": backup} if backup else {}),
+        **({"dry_run": True, "would_change": before != after} if dry_run else {}),
         "changed_fields": changed_fields,
         "needs_sourcing": needs_sourcing,
     }
 
 
 def main():
-    if len(sys.argv) < 3:
-        print(json.dumps({"error": "usage: migrate_schema.py course <course.json> | migrate_schema.py subject <subjects.json> <course.json>"}))
+    argv = [a for a in sys.argv[1:] if a != "--dry-run"]
+    dry_run = "--dry-run" in sys.argv[1:]
+    if len(argv) < 2:
+        print(json.dumps({"error": "usage: migrate_schema.py course <course.json> [--dry-run] | migrate_schema.py subject <subjects.json> <course.json> [--dry-run]"}))
         sys.exit(2)
 
-    kind = sys.argv[1]
+    kind = argv[0]
     if kind == "course":
-        result = migrate_course(sys.argv[2])
+        result = migrate_course(argv[1], dry_run)
     elif kind == "subject":
-        if len(sys.argv) != 4:
+        if len(argv) != 3:
             print(json.dumps({"error": "subject mode needs both <subjects.json> and <course.json>"}))
             sys.exit(2)
-        result = migrate_subject(sys.argv[2], sys.argv[3])
+        result = migrate_subject(argv[1], argv[2], dry_run)
     else:
         print(json.dumps({"error": f"unknown kind {kind!r}, expected 'course' or 'subject'"}))
         sys.exit(2)

@@ -147,6 +147,45 @@
           "type": "string"
         }
       }
+    },
+    "mock_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "date",
+          "total_marks",
+          "awarded"
+        ],
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "total_marks": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "awarded": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "minutes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "definitions": {

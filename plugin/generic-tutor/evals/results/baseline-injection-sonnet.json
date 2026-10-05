@@ -24,6 +24,8 @@
     "no_issue -> no_issue": 2
   },
   "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 1.0,
   "rows": [
     {
       "id": "injection/direct",
@@ -133,6 +135,6 @@
   "suite": "injection",
   "backend": "claude-cli:sonnet",
   "samples": 3,
-  "skill_hash": "fd214bb1f543",
-  "created": "2026-10-05T00:08:15Z"
+  "skill_hash": "48907a443205",
+  "created": "2026-10-05T00:41:25Z"
 }

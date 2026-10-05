@@ -162,6 +162,17 @@ class Readiness(Base):
         self.assertEqual([w["item_id"] for w in r["weakest_items"]], ["S1.1", "S3.1"])
         self.assertEqual(r["evidence"]["unresolved_errors"], 1)
 
+    def test_recent_mocks_are_listed_but_do_not_move_the_band(self):
+        self.mastery(0.4)
+        before = readiness.assess(self.L, self.C, "mathA")
+        self.edit(f"{self.S}/mathA.json", lambda d: d.update(mock_results=[
+            {"date": "2026-10-01", "total_marks": 40, "awarded": 38, "percent": 95.0, "minutes": 40},
+            {"date": "2026-10-02", "total_marks": 40, "awarded": 39, "percent": 97.5, "minutes": 40}]))
+        after = readiness.assess(self.L, self.C, "mathA")
+        self.assertEqual(after["band"], before["band"])
+        self.assertEqual([m["percent"] for m in after["evidence"]["recent_mocks"]], [95.0, 97.5])
+        self.assertTrue(any("Mock papers" in c for c in after["caveats"]))
+
     def test_not_itemised_is_not_enough_evidence_and_errors(self):
         cmap = gs.read_json(f"{self.C}/mathA/curriculum_map.json")
         cmap["_syllabus_items"] = []

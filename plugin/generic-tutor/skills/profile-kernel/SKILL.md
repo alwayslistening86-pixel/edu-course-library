@@ -6,9 +6,9 @@ description: Multi-learner profile system for the tutor — handles /run, /add-p
 # Profile Kernel (roster-capped, level-ledger, capability declarations, isolated by folder)
 
 **Contract**
-- **Owns:** `student_profile.json` (intake, `/profile` edits, consent, capabilities), `access.json`, the session-slot advance (`slot_advance.py`), deployment of scripts (`bootstrap_scripts.py`); `highest_level_cleared` is raised only by `journey-planner` and lowered only by `resume_enrollment.py`.
+- **Owns:** `student_profile.json` (created by `profile_init.py`, changed only by `profile_set.py`: intake answers, `/profile` edits, consent, capabilities), `access.json`, the session-slot advance (`slot_advance.py`), deployment of scripts (`bootstrap_scripts.py`); `highest_level_cleared` is raised only by `journey-planner` and lowered only by `resume_enrollment.py`.
 - **Reads:** `resolve_root.py` (data root), `verify_session.py` (last session's completeness).
-- **Calls:** `bootstrap_scripts.py`, `resolve_root.py`, `slot_advance.py`, `verify_session.py`, `apply_capabilities.py`.
+- **Calls:** `bootstrap_scripts.py`, `resolve_root.py`, `slot_advance.py`, `verify_session.py`, `apply_capabilities.py`, `profile_init.py` (create), `profile_set.py` (every later change).
 - **Emits:** "Running profile: …", plain statements of what consent means and what will not be remembered, the last-session audit when something is missing.
 - **Never:** reads or writes another learner's folder; guesses a close user id; creates a profile on `/run`; sets a capability or credit on the learner's behalf; back-fills a grade the audit found missing.
 - **Failure modes:** data-root problems reported by `resolve_root.py` → tell the learner exactly and stop; unknown user id → offer `/add-profile`.
@@ -73,7 +73,7 @@ The global profile schema (with `capabilities`, `highest_level_cleared`, roster 
 - **`revoked`** — don't write anything, to either the global profile or any subject file, for the rest of this session. To actually remove data already stored, see `data-erasure`.
 
 ## Write rules
-- A course-facing skill may only write to the currently active learner's own `subjects/<course_id>.json` — never another course's file, never another learner's folder, never `student_profile.json` directly except through `/profile` (including capability declarations), intake, `slot_advance.py` (which touches only `session_slot` and its timestamp), or `resume_enrollment.py` when reopening a level (which touches only `highest_level_cleared`, and only lowers it).
+- A course-facing skill may only write to the currently active learner's own `subjects/<course_id>.json` — never another course's file, never another learner's folder, never `student_profile.json` directly except through `profile_init.py` / `profile_set.py` (intake, `/profile`, capability declarations, consent), `slot_advance.py` (which touches only `session_slot` and its timestamp), or `resume_enrollment.py` when reopening a level (which touches only `highest_level_cleared`, and only lowers it).
 - If something a course observes seems to generalize across subjects, surface it to the learner and ask before writing it to the global profile — don't write cross-subject signals silently.
 - Append-only for `error_patterns` (entries are resolved, never deleted).
 - Don't downgrade a `syllabus_status` entry on a single weak moment — only on a genuine test result. `confidence` moves only through `confidence_update.py`.

@@ -1,0 +1,203 @@
+{
+  "cases": 12,
+  "scored": 6,
+  "ambiguous": [
+    "accessibility/photosynthesis/dyslexia",
+    "accessibility/photosynthesis/both",
+    "accessibility/contract/plain",
+    "accessibility/contract/both",
+    "accessibility/fractions/plain",
+    "accessibility/fractions/both"
+  ],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "dyslexia": {
+      "correct": 2,
+      "n": 2,
+      "accuracy": 1.0
+    },
+    "none": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "plain": {
+      "correct": 1,
+      "n": 1,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "meets -> meets": 6
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 0.806,
+  "rows": [
+    {
+      "id": "accessibility/photosynthesis/dyslexia",
+      "kind": "dyslexia",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/photosynthesis/plain",
+      "kind": "plain",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/photosynthesis/both",
+      "kind": "both",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/photosynthesis/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/contract/dyslexia",
+      "kind": "dyslexia",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/contract/plain",
+      "kind": "plain",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/contract/both",
+      "kind": "both",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/contract/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/fractions/dyslexia",
+      "kind": "dyslexia",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/fractions/plain",
+      "kind": "plain",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/fractions/both",
+      "kind": "both",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "misses",
+      "agreement": 0.67,
+      "correct": false,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "accessibility/fractions/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    }
+  ],
+  "suite": "accessibility",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "ebe5741f184c",
+  "created": "2026-10-05T00:44:08Z"
+}

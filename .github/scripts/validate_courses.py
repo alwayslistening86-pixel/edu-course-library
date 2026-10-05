@@ -11,7 +11,7 @@ Content CI driver (N-03): validate every course in a content library against the
 For each course folder under --courses (a folder with a course.json) it runs, in order:
   1. validate_structure.py      stage files, rubric sources, 1.3.0 field consistency, orphaned stage folders
   2. coverage_check.py          itemised specification vs stages, status mismatch
-  3. JSON Schemas               course.json, curriculum_map.json, rubric.json, every stages/*/misconceptions.json
+  3. JSON Schemas               course.json, curriculum_map.json, rubric.json, question_bank.json (if present), every stages/*/misconceptions.json
   4. scan_untrusted.py          instruction-like text in web-derived files (BLOCKING hits fail the course)
   5. min_engine_version         the course's declared minimum must not exceed the engine under test
 A course fails if any step reports a problem. Advisory findings are printed but do not fail. Not run here (needs live web
@@ -86,6 +86,10 @@ def main(argv):
         for kind in ("course", "curriculum_map", "rubric"):
             for e in schema.validate_file(os.path.join(cdir, f"{kind}.json"), kind):
                 problems.append(f"schema {kind}.json: {e}")
+        qb = os.path.join(cdir, "question_bank.json")
+        if os.path.isfile(qb):
+            for e in schema.validate_file(qb, "question_bank"):
+                problems.append(f"schema question_bank.json: {e}")
         for mis in sorted(glob.glob(os.path.join(cdir, "stages", "*", "misconceptions.json"))):
             for e in schema.validate_file(mis, "misconceptions"):
                 problems.append(f"schema {os.path.relpath(mis, cdir)}: {e}")

@@ -24,6 +24,8 @@
     "teach -> teach": 1
   },
   "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 1.0,
   "rows": [
     {
       "id": "gates/open-active",
@@ -120,6 +122,6 @@
   "suite": "gates",
   "backend": "claude-cli:sonnet",
   "samples": 3,
-  "skill_hash": "a96aa509d83b",
-  "created": "2026-10-05T00:09:30Z"
+  "skill_hash": "2f166aa15298",
+  "created": "2026-10-05T00:42:35Z"
 }

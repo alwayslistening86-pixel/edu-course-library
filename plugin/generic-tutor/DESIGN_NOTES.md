@@ -1304,3 +1304,19 @@ needed, tight >= needed) are design defaults. Retrieval warm-up is a few lines i
 test path: it reuses the existing review machinery, writes nothing to `syllabus_status`, and is skipped silently when nothing
 is due. Not done: triage by marks-per-hour (there are no per-item mark weights in the data), and learner-facing display of the
 target in `/status`.
+
+## 5 Oct 2026 - v1.29.0: accessibility rules, exam simulation, dashboard, profile write path, migration backups (tasks K-04, L-18, L-08, K-31, N-07, U-03, C-09, C-11, E-12)
+
+Accessibility is the first change measured BEFORE and AFTER with the eval harness. The first comparison used per-case majority
+votes and said "no improvement" (0.67 vs 0.58, within noise on 12 cases); looking at violation classes per sample told a different
+story (mode cases, 36 samples per arm: compliant 18 -> 25; italics 3 -> 0, no steps 3 -> 0, unexplained terms 8 -> 2, over-long
+blocks 11 -> 10). Two metric bugs were found on the way: bold markers hid "Term** (explanation)" from the explained-at-first-use
+check, and a required concept was lexical ("numerator") when a plain-language reply can legitimately say "top number". Lesson
+recorded in the evals README: compare skill versions on sample_accuracy and violation classes over >=30 samples, never on
+majority-vote accuracy alone. An explicit "count the sentences" instruction did not move the block-length violations (11 -> 10);
+that rule is only partly followed and says so honestly here rather than in the skill.
+Exam simulation follows the project's honesty rules: the paper carries no mark scheme, no grade boundaries are claimed (they are
+per series and not held here), time cannot be enforced and the skill says so, and a mock never touches syllabus_status. No course
+has a question bank yet (the compiler does not write one), so /mock is infrastructure until content exists; drafting banks is
+deliberately not automated because marks and schemes must come from sourced material. profile_init/profile_set close the last
+free-hand JSON write on learner data (profile edits were model-written); the whitelist excludes ids, ledgers and counters.

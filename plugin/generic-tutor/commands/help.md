@@ -16,7 +16,9 @@ Explain the tutor's commands briefly, adapting to where the learner is (no profi
 | `/plan` | how your sessions are shared across courses (no dates) |
 | `/continue <course>` | learn: lesson, practice, test |
 | `/review [course] [stage]` | run due flashcards (interleaved across courses, weakest first) |
+| `/mock <course> [marks]` | a practice paper from the course question bank, marked honestly (practice, not a grade) |
 | `/readiness <course>` | an honest "am I ready?" — evidence and caveats, never a grade |
+| `/dashboard` | a private one-page HTML progress report you can open or print |
 | `/status` | where you are and what to do next |
 | `/drop <course>` | pause a course and free its roster slot |
 | `/audit` | maintenance check of every course |

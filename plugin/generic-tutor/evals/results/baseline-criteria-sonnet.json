@@ -45,6 +45,7 @@
   },
   "a1_accuracy_vs_oracle": null,
   "criterion_accuracy": 1.0,
+  "sample_accuracy": 1.0,
   "rows": [
     {
       "id": "criteria/caparo/all-correct",
@@ -284,6 +285,6 @@
   "suite": "criteria",
   "backend": "claude-cli:sonnet",
   "samples": 3,
-  "skill_hash": "1bc3916dcba4",
-  "created": "2026-10-05T00:24:25Z"
+  "skill_hash": "2f48efff5489",
+  "created": "2026-10-05T00:43:23Z"
 }

@@ -17,6 +17,17 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.29.0] — 2026-10-05
+### Added
+- **Accessibility modes with concrete rules** (`tutor-core`): `dyslexia_mode` (short sentences, at most three sentences per block incl. list items and examples, numbered steps, bold only for the key term, no italics/ALL CAPS, chunking) and `plain_language_mode` (everyday words, every technical term explained at first use, concrete example first). They change wording only, never content or marking standard. Measured with a new deterministic `accessibility` eval (replies are scored by code, no marker): on mode cases, compliant replies rose 18 → 25 of 36 samples; italics, missing steps and unexplained terms mostly disappeared; over-long blocks did not change.
+- **`/mock <course>`** — exam simulation: `assemble_paper.py` builds a timed-style paper from an optional per-course `question_bank.json` (new schema; deterministic per seed, spread across stages and items, no mark scheme or answers in the paper, no grade boundaries claimed), `record_mock.py` records the result, and the new `exam-simulator` skill administers and marks it with the normal grading rules. Mocks are practice: they never change `syllabus_status`. `/readiness` lists recent mock percentages beside (not inside) its band.
+- **`/dashboard`** (`dashboard_html.py`): one self-contained HTML page (no scripts, no network, escaped, light/dark, phone-width) with progress, reviews due, readiness with caveats, weak items, unresolved mistakes by cause, recent mocks.
+- **`profile_init.py` / `profile_set.py`**: the one validated write path for creating a profile and changing settings (whitelist, schema check, atomic, locked, ledgered, consent-aware, `--dry-run`). Learner words travel on stdin. `/profile` and `/add-profile` no longer hand-edit JSON.
+- **Migrations keep a backup**: `migrate_schema.py` writes `<file>.pre-migrate-v<old>.bak` (oldest copy per source version kept) and supports `--dry-run`.
+- Doctor and the content CI validate `question_bank.json`.
+### Evals
+- Seven suites now (added `criteria`, `accessibility`); all baselines re-recorded after the `tutor-core` change; no regressions (grading, safety, injection, diagnostics, gates, criteria all 100%, 0 critical failures). `sample_accuracy` added for comparing skill versions.
+
 ## [1.28.0] — 2026-10-05
 ### Added
 - **Deadline-aware planning, opt-in** (`plan_estimate.py`, `plan_target.py`; ADR 0009). The planner no longer sums per-stage estimates by hand (a field the compiler never wrote): the script gives per-course remaining slots (3 per stage by default, plus ~10% review, overridable with `slot_estimates` / `slots_per_stage`) and a weeks projection from the learner's `sessions_per_week`. If a learner gives a real exam date, `plan_target.py set` stores it as an optional `target` (the only calendar date in the system) and `plan_estimate.py --today` reports `on_track` / `tight` / `short` / `expired` with the options that would close a shortfall. Nothing is scheduled on a calendar; the tutor never asks for a date unprompted.

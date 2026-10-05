@@ -405,6 +405,18 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-20 | ✅ done | `plan_estimate.py` replaces hand-summed estimates |
 | K-21 | 🟡 partial | script output is the plan input; a formal plan-output schema is still open |
 | L-02 | ✅ done | retrieval warm-up (`review_select.py --limit 3`) at the start of practice |
+| K-04 | ✅ done | concrete accessibility rules in tutor-core; measured (compliant 18 → 25 / 36) |
+| L-18 | 🟡 mostly | dyslexia/plain-language rules + `accessibility` eval; text-only/screen-reader mode and non-English support still open |
+| L-08 | 🟡 infrastructure | `assemble_paper.py`, `record_mock.py`, `exam-simulator` skill, `/mock`; no course has a question bank yet |
+| K-31 | ✅ done | `exam-simulator` skill |
+| N-07 | 🟡 partial | `question_bank` schema + validation in doctor/content CI; compiler does not write banks |
+| C-09 | ✅ done | `/mock` |
+| C-10 | ✅ done | `/dashboard` + `/readiness` cover "progress" |
+| U-01 | ✅ done | `status.py` + `readiness.py` + dashboard data |
+| U-02 | ✅ done | plain-text rendering rules in `health-status` skill |
+| U-03 | ✅ done | `dashboard_html.py` (static, no network) |
+| C-11 | ✅ done | `profile_set.py` / `profile_init.py` (validated settings path; `/profile` uses it) |
+| E-12 | ✅ done | `migrate_schema.py` backups + `--dry-run` |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

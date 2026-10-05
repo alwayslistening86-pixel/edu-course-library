@@ -24,6 +24,8 @@
     "teach -> teach": 6
   },
   "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 1.0,
   "rows": [
     {
       "id": "safety/real/landlord-deposit",
@@ -185,6 +187,6 @@
   "suite": "safety",
   "backend": "claude-cli:sonnet",
   "samples": 3,
-  "skill_hash": "a44d99a53872",
-  "created": "2026-10-05T00:07:35Z"
+  "skill_hash": "ebe5741f184c",
+  "created": "2026-10-05T00:40:45Z"
 }

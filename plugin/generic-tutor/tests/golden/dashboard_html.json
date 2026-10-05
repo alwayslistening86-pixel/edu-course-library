@@ -1,0 +1,22 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "dashboard_html.py",
+        "{L}",
+        "{C}",
+        "{T}/exports/amy.html",
+        "--today",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "bytes": 3672,
+        "output": "<TMP>/exports/amy.html",
+        "written": true
+      }
+    }
+  ]
+}

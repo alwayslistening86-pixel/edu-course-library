@@ -44,6 +44,8 @@
     "slip -> slip": 3
   },
   "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 0.978,
   "rows": [
     {
       "id": "diagnostics/slip/01",
@@ -244,6 +246,6 @@
   "suite": "diagnostics",
   "backend": "claude-cli:sonnet",
   "samples": 3,
-  "skill_hash": "0577a4d6542b",
-  "created": "2026-10-05T00:10:21Z"
+  "skill_hash": "749381ab0a17",
+  "created": "2026-10-05T00:42:07Z"
 }

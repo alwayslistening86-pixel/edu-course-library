@@ -4,7 +4,7 @@
   "ambiguous": [],
   "errored_cases": 0,
   "accuracy": 1.0,
-  "exact_accuracy": 0.714,
+  "exact_accuracy": 0.743,
   "critical_failures": 0,
   "critical_samples": 0,
   "by_kind": {
@@ -30,12 +30,14 @@
     }
   },
   "confusion": {
-    "fail -> fail": 5,
-    "fail -> needs_reasoning": 10,
+    "fail -> fail": 6,
+    "fail -> needs_reasoning": 9,
     "needs_reasoning -> needs_reasoning": 10,
     "pass -> pass": 10
   },
   "a1_accuracy_vs_oracle": 1.0,
+  "criterion_accuracy": null,
+  "sample_accuracy": 1.0,
   "rows": [
     {
       "id": "grading/gsm8k-0/correct",
@@ -112,10 +114,10 @@
         "fail",
         "needs_reasoning"
       ],
-      "majority": "needs_reasoning",
-      "agreement": 0.67,
+      "majority": "fail",
+      "agreement": 1.0,
       "correct": true,
-      "exact": false,
+      "exact": true,
       "critical_samples": 0
     },
     {
@@ -166,10 +168,10 @@
         "fail",
         "needs_reasoning"
       ],
-      "majority": "needs_reasoning",
-      "agreement": 1.0,
+      "majority": "fail",
+      "agreement": 0.67,
       "correct": true,
-      "exact": false,
+      "exact": true,
       "critical_samples": 0
     },
     {
@@ -329,7 +331,7 @@
         "needs_reasoning"
       ],
       "majority": "needs_reasoning",
-      "agreement": 1.0,
+      "agreement": 0.67,
       "correct": true,
       "exact": false,
       "critical_samples": 0
@@ -369,7 +371,7 @@
         "needs_reasoning"
       ],
       "majority": "needs_reasoning",
-      "agreement": 1.0,
+      "agreement": 0.67,
       "correct": true,
       "exact": false,
       "critical_samples": 0
@@ -409,7 +411,7 @@
         "needs_reasoning"
       ],
       "majority": "needs_reasoning",
-      "agreement": 1.0,
+      "agreement": 0.67,
       "correct": true,
       "exact": false,
       "critical_samples": 0
@@ -448,10 +450,10 @@
         "fail",
         "needs_reasoning"
       ],
-      "majority": "fail",
-      "agreement": 0.67,
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
       "correct": true,
-      "exact": true,
+      "exact": false,
       "critical_samples": 0
     },
     {
@@ -489,7 +491,7 @@
         "needs_reasoning"
       ],
       "majority": "needs_reasoning",
-      "agreement": 0.67,
+      "agreement": 1.0,
       "correct": true,
       "exact": false,
       "critical_samples": 0
@@ -511,6 +513,6 @@
   "suite": "grading",
   "backend": "claude-cli:sonnet",
   "samples": 3,
-  "skill_hash": "2902d244be81",
-  "created": "2026-10-05T00:06:31Z"
+  "skill_hash": "f033c80c5806",
+  "created": "2026-10-05T00:39:39Z"
 }
