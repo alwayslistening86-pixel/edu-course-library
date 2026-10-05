@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.39.2",
+  "plugin_version": "1.40.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -8,6 +8,7 @@
     "bootstrap_scripts.py",
     "cohort_status.py",
     "confidence_update.py",
+    "confirm_access.py",
     "coverage_check.py",
     "dashboard_html.py",
     "deck_add.py",

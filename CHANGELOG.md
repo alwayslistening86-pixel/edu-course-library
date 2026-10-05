@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.40.0] — 2026-10-05
+### Added
+- `confirm_access.py`: records the one-time "isolated or shared folder?" answer in `<folder>/access.json`. `gate_check.py` gate 1 now accepts a confirmed `courses/access.json` for every course, so a library whose courses ship as `pending_confirmation` (54 of the 62 real ones) asks once instead of once per course. A course's own confirmed status still counts; garbage or unconfirmed files never unlock.
+
 ## [1.39.2] — 2026-10-05
 ### Changed
 - Release-named test files renamed by topic (no test changed). Hash-seed stability of the golden snapshots checked (E-19).

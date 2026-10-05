@@ -1421,3 +1421,13 @@ test_mastery_and_gate, test_sqlite_history, test_record_stage_result, test_regre
 unchanged). Earlier notes in this file keep the old names, since they describe the state at that release. The proposed
 unit/integration directory split is not done: with ~50 files a flat directory is still easy to navigate and the move would break every
 relative import in the fixtures for no behavioural gain.
+
+## 5 Oct 2026 - v1.40.0: library-level folder confirmation
+
+Running gate_check over the real library with a fresh learner: 54 of 62 courses blocked at gate 1 because course.json still says
+pending_confirmation, and the only remedy was a hand-edit of course.json by the model, repeated per course. The question being asked
+is about the folder connection, not the course, and profile-kernel already treats the profile folder's answer as one-time. So the
+answer is now stored once per folder by a script, and gate 1 accepts it. Nothing is relaxed without an explicit, dated answer. After
+gate 1, 35 of 62 real courses pass for a brand-new learner; the other 27 stop at gate 3 on declared prerequisites (for example an
+A-level requires its GCSE completed here), which follows from the no-prior-credit policy (course-compiler Step 0.6) and is the
+owner's decision, not changed here.

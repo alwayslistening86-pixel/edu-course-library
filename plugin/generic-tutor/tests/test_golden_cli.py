@@ -98,6 +98,8 @@ CASES = {
                        ("practice_pick.py", ["next", SUBJ, "{C}/mathA/stages/S1/practice.md", "S1"]), ("practice_pick.py", ["used", SUBJ, "S1", "fixed", "0"])], [SUBJ]),
     "recent_activity": ([("recent_activity.py", ["{L}"]), ("record_stage_result.py", ["apply", SUBJ, "{C}/mathA/course.json", "S2", "pass"]),
                          ("recent_activity.py", ["{L}", "--last", "1"]), ("recent_activity.py", ["{L}", "--last", "0"])], []),
+    "confirm_access": ([("confirm_access.py", ["{C}", "isolated", "2026-10-04"]), ("confirm_access.py", ["{C}", "shared", "2026-10-05"]), ("confirm_access.py", ["{C}", "maybe", "2026-10-05"]),
+                         ("confirm_access.py", ["{T}/none", "isolated", "2026-10-05"])], ["{C}/access.json"]),
     "status": ([("status.py", ["{L}", "{C}"])], []),
     "invariants": ([("invariants.py", ["{L}", "{C}"])], []),
     "resolve_root": ([("resolve_root.py", ["--root", "{T}"]), ("resolve_root.py", ["--root", "{T}/missing"])], []),

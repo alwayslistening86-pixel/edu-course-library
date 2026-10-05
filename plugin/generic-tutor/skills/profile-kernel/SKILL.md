@@ -8,7 +8,7 @@ description: Multi-learner profile system for the tutor — handles /run, /add-p
 **Contract**
 - **Owns:** `student_profile.json` (created by `profile_init.py`, changed only by `profile_set.py`: intake answers, `/profile` edits, consent, capabilities), `access.json`, the session-slot advance (`slot_advance.py`), deployment of scripts (`bootstrap_scripts.py`); `highest_level_cleared` is raised only by `journey-planner` and lowered only by `resume_enrollment.py`.
 - **Reads:** `resolve_root.py` (data root), `verify_session.py` (last session's completeness).
-- **Calls:** `bootstrap_scripts.py`, `resolve_root.py`, `slot_advance.py`, `verify_session.py`, `apply_capabilities.py`, `profile_init.py` (create), `profile_set.py` (every later change).
+- **Calls:** `bootstrap_scripts.py`, `resolve_root.py`, `slot_advance.py`, `verify_session.py`, `apply_capabilities.py`, `profile_init.py` (create), `profile_set.py` (later changes), `confirm_access.py`.
 - **Emits:** "Running profile: …", plain statements of what consent means and what will not be remembered, the last-session audit when something is missing.
 - **Never:** reads or writes another learner's folder; guesses a close user id; creates a profile on `/run`; sets a capability or credit on the learner's behalf; back-fills a grade the audit found missing.
 - **Failure modes:** data-root problems reported by `resolve_root.py` → tell the learner exactly and stop; unknown user id → offer `/add-profile`.
@@ -36,7 +36,7 @@ description: Multi-learner profile system for the tutor — handles /run, /add-p
 A learner's session may only ever read or write paths under their own currently-active `/EDU/profile/<user_id>/`. The only things ever read from outside that boundary are a shared course's own content files — and only `course-compiler` (at build time) and `course-runner` (at live-recheck time) ever *write* to `/EDU/courses/`, never a learner's own teaching session, and never another learner's folder.
 
 ## Folder access confirmation
-`/EDU/profile/` deserves exactly the same access confirmation `course-compiler` requires for `/EDU/courses/<course_id>/` — having file access through a shared parent connection is not the same as the person having deliberately isolated it. On first-ever load, before intake begins, ask plainly: *"Do you want `/EDU/profile/` connected as its own isolated folder, or to proceed under the shared connection as-is?"* Record the answer in `/EDU/profile/access.json` (`{"status": "pending_confirmation | isolated_confirmed | shared_confirmed"}`) and don't proceed to intake until it's answered. This is one-time per installation, not per learner.
+`/EDU/profile/` deserves exactly the same access confirmation `course-compiler` requires for `/EDU/courses/<course_id>/` — having file access through a shared parent connection is not the same as the person having deliberately isolated it. On first-ever load, before intake begins, ask plainly: *"Do you want `/EDU/profile/` connected as its own isolated folder, or to proceed under the shared connection as-is?"* Record the answer with `confirm_access.py <the /EDU/profile/ dir> isolated|shared <today>` (writes `access.json`) and don't proceed to intake until it's answered. One-time per installation, not per learner.
 
 ## Landing logic (what happens when this system is opened)
 **Before even the `/EDU/profile/` check below, run the bootstrap script — don't hand-derive whether the deployed scripts need updating:**

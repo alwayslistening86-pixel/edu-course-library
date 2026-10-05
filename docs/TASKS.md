@@ -433,6 +433,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-19 | ✅ done | golden snapshots identical under 6 different `PYTHONHASHSEED` values; outputs are sorted |
 | E-26 | 🟡 partial | files renamed by topic; directory split deliberately not done (see DESIGN_NOTES v1.39.2) |
 
+| P-12 | 🟡 partial | one-time folder-access confirmation by script (`confirm_access.py`); detection of a wrong folder is in `resolve_root.py`/`/doctor` |
+
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
 1. **Foundations:** R-01, R-02, R-03, R-04, R-06, R-07, R-10, R-14, R-18, X-07, X-10
@@ -452,7 +454,7 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | S Schemas | 14 | 8 | 3 | 0 | 3 |
 | K Skills | 36 | 13 | 4 | 1 | 18 |
 | C Commands | 15 | 10 | 0 | 0 | 5 |
-| P Plugin surface | 19 | 10 | 1 | 0 | 8 |
+| P Plugin surface | 19 | 10 | 2 | 0 | 7 |
 | V Trust & verification | 10 | 7 | 0 | 1 | 2 |
 | L Learning design | 22 | 9 | 3 | 0 | 10 |
 | A Assessment & evals | 14 | 7 | 2 | 0 | 5 |
@@ -460,4 +462,4 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 7 | 0 | 0 | 3 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **117** | **24** | **2** | **74** |
+| **Total** | **217** | **117** | **25** | **2** | **73** |

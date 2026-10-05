@@ -38,6 +38,7 @@ from cohort_status import (  # noqa: E402
     LIVE_STATES, compute_cohorts, is_complete, is_standalone, is_suspended, practical_stages,
     prerequisites_status, standalone_cohort_id, withheld_stages,
 )
+import confirm_access  # noqa: E402
 import coverage_check  # noqa: E402
 
 
@@ -90,11 +91,16 @@ def _evaluate_gates(course_json_path, subjects_json_path, profile_subjects_dir, 
     # Gate 1: folder_access
     folder_status = (course.get("folder_access") or {}).get("status")
     g1_pass = folder_status in ("isolated_confirmed", "shared_confirmed")
+    via_library = False
+    if not g1_pass:
+        lib = confirm_access.library_status(courses_dir) if courses_dir else None
+        if lib:
+            g1_pass, via_library, folder_status = True, True, lib
     gates["1_folder_access"] = {
         "status": "pass" if g1_pass else "blocked",
         "value": folder_status,
-        "detail": "folder_access.status must be isolated_confirmed or shared_confirmed"
-                   if not g1_pass else "confirmed",
+        "detail": ("confirmed for the whole library (courses/access.json)" if via_library else "confirmed") if g1_pass
+                  else "folder_access.status must be isolated_confirmed or shared_confirmed (or run confirm_access.py once for the library)",
     }
     if not g1_pass:
         return {"can_proceed": False, "first_blocking_gate": "1_folder_access", "gates": gates}

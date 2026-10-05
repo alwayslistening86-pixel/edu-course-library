@@ -17,6 +17,9 @@ Aggregate facts only — no course text. Produced by running this repo's own too
 | `misconceptions.json` | **none of the 1,253 stages has one** (the diagnostic and remediation paths cite them) |
 | Audit stamps | 22 courses carry a `last_audited_plugin_version` from an earlier release, 40 carry none; 21 were never live-rechecked (`audit_status.py`) |
 
+## What a brand-new learner can start (gate_check over all 62, fresh profile)
+After the library-level folder confirmation, 35 courses can start immediately (all level-2 and standalone ones); 27 are held at gate 3 by `requires_complete` prerequisites (A-levels need their GCSEs, degrees need A-levels). That is the designed no-prior-credit policy (`course-compiler` Step 0.6): a learner who already holds a GCSE still has to complete it here first. 17 courses carry a due learner notice and 16 require a coverage disclosure at session start.
+
 ## Test integrity (checked 5 Oct 2026, v1.39.0)
 Across all 1,253 stages no graded test item (806 stages with several, 447 with one scenario) appears word for word in that stage's `practice.md` or `lesson.md`. 15 stages in 4 courses share a 20-word run between test and practice (templated question stems and shared data tables, not copied items). The gate now blocks a verbatim item and notes shared runs.
 
