@@ -12,7 +12,7 @@ Errors (exit 1):
   - a command missing from commands/help.md's table
   - a relative markdown link (in repo docs) whose target doesn't exist
 Warnings (printed, exit 0 unless --strict):
-  - a skill heading carrying a private "vN" version (K-35)
+  - a skill heading carrying a private "vN" version, or "(v1.2.3)" / `DESIGN_NOTES.md` release-history prose in a skill (K-35)
 
 Usage: python3 tools/lint_docs.py [repo_root] [--strict]
 """
@@ -101,6 +101,9 @@ def lint(root):
         h = re.search(r"^# .*\bv\d+\b", text, re.M)
         if h:
             warnings.append(f"skill {s}: private version in heading ({h.group(0)[:60]!r})")
+        hist = re.search(r"\(v\d+\.\d+(?:\.\d+)?\)|`DESIGN_NOTES\.md`", text)
+        if hist:
+            warnings.append(f"skill {s}: release-history prose ({hist.group(0)!r}); history belongs in CHANGELOG / DESIGN_NOTES, not in a skill")
 
     # versions
     versions = {"plugin.json": json.loads(_read(os.path.join(plug, ".claude-plugin", "plugin.json")))["version"]}

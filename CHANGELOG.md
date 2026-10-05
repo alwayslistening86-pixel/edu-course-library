@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.55.0] — 2026-10-05
+### Changed
+- release-history prose removed from skills ('(v1.3.0)' tags, DESIGN_NOTES pointers); the docs lint now flags it (K-35)
+
 ## [1.54.0] — 2026-10-05
 ### Changed
 - `audit_run.py`: the whole deterministic audit as one JSON report (structure, schema, injection and test-integrity, rubric wording, change.md shape, audit status) with a diff against the previous report; `course-auditor` Tier 1 is now a table that starts from it (K-13, K-14)

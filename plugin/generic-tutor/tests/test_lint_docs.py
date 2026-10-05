@@ -60,6 +60,14 @@ class SeededFaults(unittest.TestCase):
         errors, _ = lint_docs.lint(self.d)
         self.assertTrue(any("nope_script.py" in e for e in errors))
 
+    def test_release_history_prose_in_a_skill_is_flagged(self):
+        self._append("skills/tutor-core/SKILL.md", "\nThis rule was added in a later release (v1.9.9) after a bug.\n")
+        _, warnings = lint_docs.lint(self.d)
+        self.assertTrue(any("release-history prose" in w for w in warnings))
+        self._append("skills/stage-recap/SKILL.md", "\nSee `DESIGN_NOTES.md` for why.\n")
+        _, warnings = lint_docs.lint(self.d)
+        self.assertEqual(sum("release-history prose" in w for w in warnings), 2)
+
     def test_command_includes_missing_skill(self):
         self._append("commands/plan.md", "\n@${CLAUDE_PLUGIN_ROOT}/skills/ghost/SKILL.md\n")
         errors, _ = lint_docs.lint(self.d)

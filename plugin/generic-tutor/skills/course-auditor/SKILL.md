@@ -89,7 +89,7 @@ Its `computed_status` (`full` / `partial` / `unverified`), `uncovered_items`, `p
 
 `full` still only means *declared coverage*: itemised, mapped, and named in the lessons. The audit cannot verify how well a lesson teaches an item, or what is actually taught in a session — say so in the report rather than implying more.
 
-## Tier 3 — adaptive-layer integrity (v1.4.0; reported first, then written on confirmation)
+## Tier 3 — adaptive-layer integrity (reported first, then written on confirmation)
 Two checks over what `error_log.py`, `diagnostic_gate.py`, `remediation_state.py` and `confidence_update.py` accumulate during real teaching — this is the feed that keeps the adaptive layer honest over time, not a one-off at build time.
 
 **1. Cohort-wide rollup — which stages/items carry a persistently high remediation or `escalate` rate.** Walk every learner's `subjects/*.json` for a course, tally `remediation` entries by `stage_id` (attempts ≥ 2; `escalated: true` separately) and unresolved `error_patterns` by `(stage_id, cause)`. Report it as an unclear lesson, not a slow learner. A stage with a disproportionate share of escalations across multiple learners is a candidate for expanding that stage's `lesson.md` (same remedy path as a coverage gap), never for lowering the bar on its test.

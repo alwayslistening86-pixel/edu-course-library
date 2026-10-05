@@ -41,7 +41,7 @@ Loaded by `/add-profile` and `/profile`. Moved verbatim from `SKILL.md`; the fie
 }
 ```
 
-### `capabilities` — practical units by declaration (v1.3.0)
+### `capabilities` — practical units by declaration
 What the learner says they can do outside the conversation, which some courses' practical stages need (`course.json.practical_stages`). The only one defined today is `share_images`: the learner can share images of their own work, such as CAD screenshots, drawings or photos of a model. It's a declaration, not a check: ask plainly, record the learner's answer and the date, and never set it on their behalf or infer it. Absent means not declared. Ask about it at intake, or when a learner adds a course with practical stages, and let them change it any time through `/profile`.
 
 **Whenever a capability is declared or withdrawn**, bring every one of the learner's enrolments into line. For each `subjects/<course_id>.json` whose course has `practical_stages`, run:
@@ -66,7 +66,7 @@ Set once at intake, adjustable later via `/profile`. This is the hard cap `cours
   "schema_version": 5,
   "course_id": "aqa_gcse_maths_8300",
   "roster_state": "active | dormant | test_pending_convergence | dropped",
-  "cohort_id": "integer — a cached copy of this course's own academic_level, written once by course-compiler at enrollment and never changed afterward; course-runner's phase-convergence gate groups by this field, not globally, so courses at different levels never block each other's testing. For a standalone course (v1.3.0) it is the string \"standalone:<course_id>\": each standalone enrolment is its own cohort",
+  "cohort_id": "integer — a cached copy of this course's own academic_level, written once by course-compiler at enrollment and never changed afterward; course-runner's phase-convergence gate groups by this field, not globally, so courses at different levels never block each other's testing. For a standalone course it is the string \"standalone:<course_id>\": each standalone enrolment is its own cohort",
   "syllabus_status": {
     "S1": "pass | fail | unsat | withheld"
   },
@@ -92,7 +92,7 @@ Field ownership (code, not prose, owns these; never hand-edit): `confidence` (a 
 Two things moved deliberately since the original single-file design:
 - **`last_live_recheck` now lives on the shared `course.json`**, not here — currency is a fact about the content, true for every learner enrolled, and checking it once benefits everyone rather than being duplicated per learner for no reason.
 - **`stage_progress` is replaced by the flatter `syllabus_status` tri-state map** (`pass | fail | unsat`, defaulting to `unsat`), which is what the roster, convergence, and journey-planner logic actually reads to decide readiness.
-- **v1.3.0 adds a fourth value, `withheld`**. It is only ever written by `apply_capabilities.py`, and only on a practical stage whose capability the learner hasn't declared. It counts as done for completion, so the course can finish **theory-only**, and a theory-only completion satisfies prerequisites. `notices_acknowledged` records which course notices the learner has already been told.
+- **A fourth value, `withheld`**. It is only ever written by `apply_capabilities.py`, and only on a practical stage whose capability the learner hasn't declared. It counts as done for completion, so the course can finish **theory-only**, and a theory-only completion satisfies prerequisites. `notices_acknowledged` records which course notices the learner has already been told.
 
 ## Displaying a full profile
 When the learner asks to see their overall profile or progress, read the currently active learner's `student_profile.json` plus every file under their own `subjects/`, and present a combined, read-time-only view — never another learner's folder, even if their `user_id` is known. Always surface `highest_level_cleared` and current roster occupancy (e.g. "2 of 2 incomplete-course slots in use") plainly, since both directly determine what the learner can do next. Also show declared `capabilities`, and mark any course that is running theory-only. Standalone courses hold roster slots like any other unfinished course, but have no level and never affect `highest_level_cleared`; list them as "standalone". Something like:

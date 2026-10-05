@@ -1561,3 +1561,10 @@ failures, 109 advisory notes, every course "audit recommended" (never_audited or
 so the content repo never carries audit output; the script refuses an --out inside it. K-13 asked for a skill under 90 lines; the table is in
 but the file is still 124 lines because the judgment tiers (grounding, coverage, adaptive layer, duplicate merge) are real content, not
 duplicates, and cutting them would remove behaviour. K-14's "human summary" is the existing Report shape section, now led by the diff.
+
+## 5 Oct 2026 - v1.55.0: skills carry no release history (K-35)
+
+Sixteen "(v1.x.y)" tags and a few DESIGN_NOTES pointers came out of the skills; they cost context on every command and describe a past the model
+does not need. Left in place: the auditor's migration table, where plugin versions are the data (which schema version a plugin release wrote), and plain
+mentions like "from 1.2.0" inside it. The lint warns on the tag form and on `DESIGN_NOTES.md` references, and CI runs it strict, so the
+prose cannot grow back unnoticed.
