@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.40.0",
+  "plugin_version": "1.41.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -40,6 +40,7 @@
     "resume_enrollment.py",
     "review_math.py",
     "review_select.py",
+    "roster_apply.py",
     "roster_check.py",
     "scan_untrusted.py",
     "session_state.py",

@@ -1,0 +1,167 @@
+{
+  "files_after": {
+    "profile/amy/student_profile.json": {
+      "capabilities": {},
+      "consent": {
+        "status": "granted"
+      },
+      "highest_level_cleared": 1,
+      "learner_id": "amy",
+      "roster": {
+        "max_incomplete_courses": 3
+      },
+      "schema_version": 2,
+      "session_slot": 5,
+      "session_slot_advanced_at": "<TS>"
+    },
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    },
+    "profile/amy/subjects/solo.json": {
+      "cohort_id": "standalone:solo",
+      "confidence": 0.5,
+      "course_id": "solo",
+      "current_phase": "practice",
+      "current_stage": "S1",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "dropped",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "unsat",
+        "S2": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "roster_apply.py",
+        "lock",
+        "{P}",
+        "mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "lock",
+        "locked": [
+          "mathA"
+        ],
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "roster_apply.py",
+        "lock",
+        "{P}",
+        "design"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "design: roster_state is 'dropped', only a live course can be locked",
+        "written": false
+      }
+    },
+    {
+      "cmd": [
+        "roster_apply.py",
+        "advance",
+        "{P}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "advance",
+        "blocking": [
+          "mathA"
+        ],
+        "cleared_cohorts": [],
+        "from": 1,
+        "skipped_cohorts": [],
+        "stopped_at": 2,
+        "to": 1,
+        "woke": [],
+        "written": false
+      }
+    },
+    {
+      "cmd": [
+        "roster_apply.py",
+        "drop",
+        "{P}",
+        "{C}",
+        "solo"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "drop",
+        "course_id": "solo",
+        "previous_state": "active",
+        "woke": [
+          "mathA"
+        ],
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "roster_apply.py",
+        "drop",
+        "{P}",
+        "{C}",
+        "solo"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "drop",
+        "already_dropped": true,
+        "course_id": "solo",
+        "woke": [],
+        "written": false
+      }
+    },
+    {
+      "cmd": [
+        "roster_apply.py",
+        "drop",
+        "{P}",
+        "{C}",
+        "ghost"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: ghost is not enrolled"
+      }
+    }
+  ]
+}

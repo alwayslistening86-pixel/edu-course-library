@@ -435,6 +435,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 | P-12 | 🟡 partial | one-time folder-access confirmation by script (`confirm_access.py`); detection of a wrong folder is in `resolve_root.py`/`/doctor` |
 
+| K-19 | ✅ done | `drop.md` split earlier; planner now has no hand writes: `roster_apply.py drop/advance/lock` (v1.41.0) |
+| K-16 | ✅ done | profile-kernel SKILL is 83 lines; schema blocks live in `profile-schema.md`; `confirm_access.py` replaces the hand-written access file |
+| K-18 | ✅ done | `/erase` needs the typed phrase `ERASE <user_id>`; `/restore` and `/backup` read back which learner; no destructive command infers the learner |
+
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
 1. **Foundations:** R-01, R-02, R-03, R-04, R-06, R-07, R-10, R-14, R-18, X-07, X-10
@@ -452,7 +456,7 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | R Repo | 18 | 14 | 1 | 0 | 3 |
 | E Engine | 26 | 18 | 7 | 0 | 1 |
 | S Schemas | 14 | 8 | 3 | 0 | 3 |
-| K Skills | 36 | 13 | 4 | 1 | 18 |
+| K Skills | 36 | 16 | 4 | 1 | 15 |
 | C Commands | 15 | 10 | 0 | 0 | 5 |
 | P Plugin surface | 19 | 10 | 2 | 0 | 7 |
 | V Trust & verification | 10 | 7 | 0 | 1 | 2 |
@@ -462,4 +466,4 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 7 | 0 | 0 | 3 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **117** | **25** | **2** | **73** |
+| **Total** | **217** | **120** | **25** | **2** | **70** |

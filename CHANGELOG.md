@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.41.0] — 2026-10-05
+### Added
+- `roster_apply.py drop|advance|lock`: the roster and level-ledger edits the skills used to describe as hand edits (set a course `dropped` and wake what it unblocked; raise `highest_level_cleared` and wake what that unlocks; mark courses `dormant` when a new or resumed course locks them) are now one locked, ledgered, consent-aware script that takes its decisions from `roster_check` / `cohort_status`. `journey-planner`, `/drop`, and `course-compiler` call it, and the lifecycle fuzz now drives it (1,000 random sequences, 0 invariant violations). (K-19)
+
 ## [1.40.0] — 2026-10-05
 ### Added
 - `confirm_access.py`: records the one-time "isolated or shared folder?" answer in `<folder>/access.json`. `gate_check.py` gate 1 now accepts a confirmed `courses/access.json` for every course, so a library whose courses ship as `pending_confirmation` (54 of the 62 real ones) asks once instead of once per course. A course's own confirmed status still counts; garbage or unconfirmed files never unlock.

@@ -1431,3 +1431,12 @@ answer is now stored once per folder by a script, and gate 1 accepts it. Nothing
 gate 1, 35 of 62 real courses pass for a brand-new learner; the other 27 stop at gate 3 on declared prerequisites (for example an
 A-level requires its GCSE completed here), which follows from the no-prior-credit policy (course-compiler Step 0.6) and is the
 owner's decision, not changed here.
+
+## 5 Oct 2026 - v1.41.0: roster_apply.py (K-19)
+
+The level-lock invariants (nothing live above the lowest unfinished level, nothing dormant that should be awake, the ledger only
+falling on a resume) were enforced by scripts that *computed* the answer and a model that *applied* it by editing JSON, several files
+per operation. The lifecycle fuzz had been simulating that model in test code. The simulation is now the script: the fuzz calls
+roster_apply, so what is fuzzed is what ships. The decision functions are unchanged (roster_check, cohort_status.level_walk), so
+the behaviour the fuzz already validated is preserved; what moved is who performs the writes. The remaining hand edit of roster_state
+is creating an enrollment (compiler step 8), which still writes a whole new file.
