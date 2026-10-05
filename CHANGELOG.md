@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.35.0] — 2026-10-05
+### Added
+- `audit_status.py`: the "audit recommended" check as a read-only script (old schema, never audited, audited under an earlier major.minor, never live-rechecked); `course-auditor` calls it. (K-15)
+
 ## [1.34.0] — 2026-10-05
 ### Added
 - `deck_add.py`: new review cards enter the deck only through it (quality limits, duplicate skip, per-stage and deck caps, standard scheduling defaults, consent-aware); `stage-recap` calls it instead of hand-editing the deck. (K-22, K-23, K-25)

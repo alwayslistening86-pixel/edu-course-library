@@ -116,7 +116,7 @@ def build_fixture(tmp):
 
 def normalise(value, tmp):
     if isinstance(value, dict):
-        return {k: normalise(v, tmp) for k, v in value.items()}
+        return {k: ("<VERSION>" if k == "engine_version" and v else normalise(v, tmp)) for k, v in value.items()}
     if isinstance(value, list):
         return [normalise(v, tmp) for v in value]
     if isinstance(value, str):

@@ -100,7 +100,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-12 🟡 | course-compiler: explicit copyright/paraphrase policy (quote limits, no verbatim mark schemes) aligned with private-repo reason | Policy section; N-06 check | N-06 | S | 2 |
 | K-13 🟡 | **course-auditor**: restructure Tier 1/2/3 into a table (check · script · auto-fix? · report format); drop prose duplicates | Skill < 90 lines | S-08 | M | 2 |
 | K-14 🟡 | course-auditor: define a machine-readable audit report (JSON) and a human summary; store last report for diffing | Schema + example | S-05 | M | 2 |
-| K-15 🟡 | course-auditor: automatic-stub rule ("audit recommended") defined by a script, not prose | `audit_status.py` (or flag in gate_check) | E-17 | S | 2 |
+| K-15 ✅ | course-auditor: automatic-stub rule ("audit recommended") defined by a script, not prose | `audit_status.py` (or flag in gate_check) | E-17 | S | 2 |
 | K-16 🟡 | **profile-kernel**: remove duplicated schema blocks (→ links), keep only behaviour: landing, `/run`, intake, consent | Skill < 90 lines | S-02,S-05 | M | 2 |
 | K-17 🟡 | profile-kernel: intake rewritten as a short spec (questions, validation, what is stored) and moved into a `intake` sub-section/skill; handles returning learners editing answers | Intake testable via script `intake_validate.py` | S-05 | M | 2 |
 | K-18 🟡 | profile-kernel: define multi-learner "who am I?" safety — confirm active learner at session start and before destructive commands | Confirmation wording specified | — | S | 2 |

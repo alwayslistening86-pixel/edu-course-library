@@ -92,6 +92,7 @@ CASES = {
     "history_report": ([("item_mastery.py", ["observe", SUBJ, "S1.1", "true", "5"]), ("error_log.py", ["append", SUBJ, "S2", "S2.1", "practice", "slip", "NONE", "x", "6"]),
                         ("history_report.py", ["mastery", "{L}"]), ("history_report.py", ["errors", "{L}"]), ("history_report.py", ["ease", "{L}"]),
                         ("history_report.py", ["bogus", "{L}"])], []),
+    "audit_status": ([("audit_status.py", ["{C}"]), ("audit_status.py", ["{T}/nope"])], []),
     "status": ([("status.py", ["{L}", "{C}"])], []),
     "invariants": ([("invariants.py", ["{L}", "{C}"])], []),
     "resolve_root": ([("resolve_root.py", ["--root", "{T}"]), ("resolve_root.py", ["--root", "{T}/missing"])], []),

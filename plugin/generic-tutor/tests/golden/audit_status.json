@@ -1,0 +1,70 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "audit_status.py",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "affected": [
+          {
+            "course_id": "broken",
+            "reasons": [
+              "never_audited"
+            ]
+          },
+          {
+            "course_id": "design",
+            "reasons": [
+              "never_audited"
+            ]
+          },
+          {
+            "course_id": "mathA",
+            "reasons": [
+              "never_audited"
+            ]
+          },
+          {
+            "course_id": "mathB",
+            "reasons": [
+              "never_audited"
+            ]
+          },
+          {
+            "course_id": "old",
+            "reasons": [
+              "old_schema",
+              "never_audited",
+              "never_rechecked"
+            ]
+          },
+          {
+            "course_id": "solo",
+            "reasons": [
+              "never_audited"
+            ]
+          }
+        ],
+        "affected_count": 6,
+        "audit_recommended": true,
+        "courses_checked": 6,
+        "engine_version": "<VERSION>"
+      }
+    },
+    {
+      "cmd": [
+        "audit_status.py",
+        "{T}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "courses_dir does not exist: <TMP>/nope"
+      }
+    }
+  ]
+}
