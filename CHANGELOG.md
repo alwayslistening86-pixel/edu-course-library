@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.36.0] — 2026-10-05
+### Added
+- `tutor-core`: hint ladder (nudge → cue → one worked step → full solution only on request; none in a test) and criterion-referenced, next-action feedback. New `hints` eval suite measures it by code: before the rules 6 of 54 early-turn replies stated the final answer (91.7 % of samples acceptable, 6 of 24 cases ambiguous); after, 0 of 54 (100 %, none ambiguous). 72 samples per run, sonnet, six problems: an easy set, so read it as "no longer leaks", not "teaches well". (L-16)
+
 ## [1.35.1] — 2026-10-05
 ### Fixed
 - Found by running the engine over the real course library (`docs/CONTENT_SURVEY.md`): the injection scanner blocked a legitimate GCSE English lesson (*post* used as a noun), reported the shipped stage-test script call 1,262 times, and `course.json` rejected a course-wide notice with `stages: null`. All 62 real courses now validate.

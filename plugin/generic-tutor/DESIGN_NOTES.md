@@ -1379,3 +1379,10 @@ blocks shipping, one schema too strict for a documented value) and produced 1,26
 Lesson: a blocking rule needs a precision check against real prose, not only a recall check against attack strings; the injection
 tests now include teaching sentences that contain the trigger verbs as nouns. The scanner is still regex-based and will have
 other false positives; it blocks only on four high-confidence rules and everything else stays advisory.
+
+## 5 Oct 2026 - v1.36.0: hint ladder (L-16)
+
+Measured before and after, same cases and sample count: leaks of the final answer at turns 1-3 went 6/54 -> 0/54 and the
+six cases the model split on became unanimous. The suite checks only what code can decide (answer token present, a question
+handed back, nudge length, answer given when explicitly asked); whether a hint is *good* is not measured. The rungs are
+guidance, not a counter: no script tracks which rung a learner is on, because the conversation already carries it.

@@ -200,7 +200,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-13 🟡 | Practice variety: guard against repeated identical items (`practice.md` item bank with rotation tracking) | Rotation state in subjects file; tests | S-09 | M | 4 |
 | L-14 🟡 | Revisit review algorithm with real data: after N months of `review_log`, evaluate SM-2-lite vs alternatives offline; decide binary vs graded recall | Report in docs; ADR | E-16 | M | 5 |
 | L-15 🟡 | Confidence model: separate *calibration* (does learner's self-rated confidence match results?) from the system's `confidence` number; optionally ask for self-rating pre-answer | Design note + opt-in | A-05 | M | 4 |
-| L-16 🟡 | Feedback style rules: specific, criterion-referenced, next-action oriented; no answer-leaking in hints; hint ladder (nudge → cue → partial → full) | Rules + eval cases | K-01 | M | 3 |
+| L-16 ✅ | Feedback style rules: specific, criterion-referenced, next-action oriented; no answer-leaking in hints; hint ladder (nudge → cue → partial → full) | Rules + eval cases | K-01 | M | 3 |
 | L-17 🟡 | Metacognition prompts at stage end (what was hard, what to revisit) feeding `last_session_summary` | Short protocol | K-32 | S | 4 |
 | L-18 🟢 | Accessibility output modes implemented as concrete formatting contracts (chunk size, glossary, sentence length, no dense tables) and a text-only/screen-reader-friendly mode | Eval checks mode compliance | A-01 | M | 4 |
 | L-19 🟡 | Language support: non-English-first learners (glossary in home language optional), spelling variants (en-GB focus) | Optional `locale`/`home_language` field | S-09 | M | 5 |

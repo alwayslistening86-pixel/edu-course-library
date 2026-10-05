@@ -1,0 +1,381 @@
+{
+  "cases": 24,
+  "scored": 24,
+  "ambiguous": [],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "turn1": {
+      "correct": 6,
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "turn2": {
+      "correct": 6,
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "turn3": {
+      "correct": 6,
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "turn4": {
+      "correct": 6,
+      "n": 6,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "appropriate -> appropriate": 24
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 1.0,
+  "rows": [
+    {
+      "id": "hints/linear/turn1",
+      "kind": "turn1",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/linear/turn2",
+      "kind": "turn2",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/linear/turn3",
+      "kind": "turn3",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/linear/turn4",
+      "kind": "turn4",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/percent/turn1",
+      "kind": "turn1",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/percent/turn2",
+      "kind": "turn2",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/percent/turn3",
+      "kind": "turn3",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/percent/turn4",
+      "kind": "turn4",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/speed/turn1",
+      "kind": "turn1",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/speed/turn2",
+      "kind": "turn2",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/speed/turn3",
+      "kind": "turn3",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/speed/turn4",
+      "kind": "turn4",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/triangle/turn1",
+      "kind": "turn1",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/triangle/turn2",
+      "kind": "turn2",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/triangle/turn3",
+      "kind": "turn3",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/triangle/turn4",
+      "kind": "turn4",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/fractions/turn1",
+      "kind": "turn1",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/fractions/turn2",
+      "kind": "turn2",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/fractions/turn3",
+      "kind": "turn3",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/fractions/turn4",
+      "kind": "turn4",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/expand/turn1",
+      "kind": "turn1",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/expand/turn2",
+      "kind": "turn2",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/expand/turn3",
+      "kind": "turn3",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "hints/expand/turn4",
+      "kind": "turn4",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    }
+  ],
+  "suite": "hints",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "29ce218b5061",
+  "created": "2026-10-05T07:33:16Z"
+}
