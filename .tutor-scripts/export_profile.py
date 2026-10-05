@@ -25,7 +25,7 @@ import sqlite3
 import sys
 import zipfile
 
-from tutorlib import cli, paths
+from tutorlib import atomic_io, cli, paths
 
 FORMAT_VERSION = 1
 
@@ -91,7 +91,7 @@ def export(profile_root, user_id, out_zip, plugin_version=None):
         z.writestr("manifest.json", json.dumps(manifest, indent=2) + "\n")
         for n, b in sorted(entries.items()):
             z.writestr(n, b)
-    os.replace(tmp, out_zip)
+    atomic_io.replace(tmp, out_zip)
     return {"exported": True, "output": out_zip, "file_count": len(entries), "history_tables": history_tables}
 
 

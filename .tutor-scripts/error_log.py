@@ -248,7 +248,7 @@ def main():
                 sys.exit(2)
             argv = list(sys.argv[3:11])
             if argv[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
-                argv[5] = sys.stdin.read().strip()
+                argv[5] = cli.read_stdin().strip()
             result = append(subjects_path, *argv)
         elif cmd == "resolve":
             if len(sys.argv) not in (5, 6):

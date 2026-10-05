@@ -21,7 +21,7 @@ import sys
 import readiness
 import status
 from cohort_status import LIVE_STATES
-from tutorlib import cli, paths
+from tutorlib import atomic_io, cli, paths
 
 BAND_TEXT = {"not_enough_evidence": "Not enough evidence yet", "early": "Early", "building": "Building", "solid": "Solid"}
 
@@ -130,7 +130,7 @@ def main(argv):
     tmp = out + ".part"
     with open(tmp, "w", encoding="utf-8") as f:
         f.write(doc)
-    os.replace(tmp, out)
+    atomic_io.replace(tmp, out)
     return cli.emit({"written": True, "output": out, "bytes": len(doc.encode("utf-8"))})
 
 

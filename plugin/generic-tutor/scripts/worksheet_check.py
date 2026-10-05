@@ -40,7 +40,7 @@ def main(argv):
     if len(argv) != 1:
         print(json.dumps({"error": "usage: worksheet_check.py <stage test.md>  (worksheet text on stdin)"}))
         return 2
-    return cli.emit(check(argv[0], sys.stdin.read()))
+    return cli.emit(check(argv[0], cli.read_stdin()))
 
 
 if __name__ == "__main__":

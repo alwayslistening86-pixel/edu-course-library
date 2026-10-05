@@ -20,7 +20,7 @@ import os
 import sqlite3
 import sys
 
-from tutorlib import cli, filelock, ids, ledger, paths
+from tutorlib import atomic_io, cli, filelock, ids, ledger, paths
 
 _COURSE_TABLES = ("error_events", "item_mastery", "item_mastery_log", "review_cards", "confidence_events")
 
@@ -102,7 +102,7 @@ def purge(profile_root, user_id, what, course_id=None, confirm=None):
             with open(tmp, "w", encoding="utf-8") as f:
                 for e in keep:
                     f.write(json.dumps(e, ensure_ascii=False, sort_keys=True) + "\n")
-            os.replace(tmp, lp)
+            atomic_io.replace(tmp, lp)
     return {**plan, "purged": True}
 
 

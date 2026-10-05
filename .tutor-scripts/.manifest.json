@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.44.0",
+  "plugin_version": "1.45.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",

@@ -25,7 +25,7 @@ import sys
 import zipfile
 
 import backup_profile
-from tutorlib import cli, ids, paths
+from tutorlib import atomic_io, cli, ids, paths
 
 SUPPORTED_FORMAT = backup_profile.FORMAT_VERSION
 
@@ -108,12 +108,12 @@ def restore(profile_root, zip_path, user_id=None, replace=False, dry_run=False, 
             aside = target + ".replaced.tmp"
             if os.path.exists(aside):
                 shutil.rmtree(aside)
-            os.replace(target, aside)
+            atomic_io.replace(target, aside)
         try:
-            os.replace(tmp, target)
+            atomic_io.replace(tmp, target)
         except Exception:
             if aside:
-                os.replace(aside, target)
+                atomic_io.replace(aside, target)
             raise
         if aside:
             shutil.rmtree(aside, ignore_errors=True)

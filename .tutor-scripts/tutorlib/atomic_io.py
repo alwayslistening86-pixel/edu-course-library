@@ -13,6 +13,20 @@ json.dump(indent=2, ensure_ascii=False) followed by a single "\\n".
 import json
 import os
 import tempfile
+import time
+
+
+def replace(src, dst, attempts=8, delay=0.05):
+    """os.replace, retried briefly on PermissionError. On Windows the destination can be held open for a moment by a sync client,
+    indexer or antivirus scanner; the write has already succeeded in the temp file, so waiting is safe. Other platforms see no change."""
+    for attempt in range(attempts):
+        try:
+            os.replace(src, dst)
+            return
+        except PermissionError:
+            if attempt == attempts - 1:
+                raise
+            time.sleep(delay * (attempt + 1))
 
 
 def write_json(path, data, *, backup=False):
@@ -29,7 +43,7 @@ def write_json(path, data, *, backup=False):
             f.write("\n")
             f.flush()
             os.fsync(f.fileno())
-        os.replace(tmp, path)
+        replace(tmp, path)
     except BaseException:
         try:
             os.unlink(tmp)
@@ -46,7 +60,7 @@ def _copy_atomic(src, dst):
             out.write(inp.read())
             out.flush()
             os.fsync(out.fileno())
-        os.replace(tmp, dst)
+        replace(tmp, dst)
     except BaseException:
         try:
             os.unlink(tmp)

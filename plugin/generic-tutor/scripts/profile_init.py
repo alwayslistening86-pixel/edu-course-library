@@ -57,7 +57,7 @@ def main(argv):
         print(json.dumps({"error": "usage: profile_init.py <profile_root> <user_id> <today YYYY-MM-DD>  (answers as JSON on stdin)"}))
         return 2
     try:
-        raw = sys.stdin.read().strip()
+        raw = cli.read_stdin().strip()
         answers = json.loads(raw) if raw else {}
     except ValueError:
         return cli.emit({"created": False, "error": "stdin is not valid JSON"})

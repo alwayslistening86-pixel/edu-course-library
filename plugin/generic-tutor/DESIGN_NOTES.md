@@ -1462,3 +1462,12 @@ event id as the whole primary key and `INSERT OR REPLACE`, and ids are only uniq
 (it is per course); only the analytics history lost or re-attributed rows, which is why nothing visible broke. The fix is a keyed schema
 (v2) with an in-place migration through the existing user_version mechanism rather than migrate_schema.py (which handles JSON files). The
 purge script is deliberately two operations, not a menu: wiping analytics without touching progress, and removing one course.
+
+## 5 Oct 2026 - v1.45.0: Windows hardening (simulated)
+
+Every test so far ran on Linux, while the real library is deployed on Windows (D:\Dad\EDU). Three known Windows-only failure modes were
+closed: default stdin decoding (cp1252) corrupting non-ASCII text on its way into learner and deck files; usage text raising
+UnicodeEncodeError on narrow consoles; os.replace failing with PermissionError when OneDrive or antivirus has the target open. The tests
+reproduce the first two with PYTHONIOENCODING and the third with a mocked os.replace, so they prove the code paths, not Windows itself.
+Still unverified on Windows: the lock-file sidecars on a synced folder, SQLite on a OneDrive folder (journaling over sync can corrupt it;
+keep the data folder out of synced locations or accept the risk), and long path names.

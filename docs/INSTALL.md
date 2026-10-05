@@ -16,6 +16,9 @@ Needs **Python 3.10 or newer** on the machine that runs the session; the scripts
 Check with `python3 --version` (Windows: `py -3 --version`). `/doctor` reports the Python version it is running under and flags one that is too old; if `python3` cannot be found at all nothing can run, and the session will report the failed command: install Python from python.org (or your package manager) and start a new session.
 If your system only has `py -3`, tell the session once ("use py -3 for python3"); the commands name `python3` because that is the common case.
 
+## Windows notes
+The plugin has not been run on Windows by its maintainer's CI (only simulated: legacy console code pages and briefly locked files are covered by tests). Keep the data folder (the one holding `profile/`) **outside** OneDrive, Dropbox and similar synced folders where you can: a sync client holding files open slows or fails saves, and SQLite history files can be damaged by sync. Backups are best kept in a synced or off-machine location only if you accept that they contain personal data. Paths with spaces are fine.
+
 ## Permissions
 The plugin runs its scripts from the data folder's `.tutor-scripts/`. In Claude Code, to stop a prompt for every script call, allow that one directory rather than all of Python:
 

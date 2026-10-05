@@ -26,7 +26,7 @@ import sys
 import tempfile
 import zipfile
 
-from tutorlib import cli, paths
+from tutorlib import atomic_io, cli, paths
 
 FORMAT_VERSION = 1
 SKIP_SUFFIXES = (".lock", ".part", ".tmp")
@@ -108,7 +108,7 @@ def backup(profile_root, user_id, out_dir=None, now=None, label=None):
         z.writestr("manifest.json", json.dumps(manifest, indent=2) + "\n")
         for n, b in sorted(entries.items()):
             z.writestr(n, b)
-    os.replace(tmp, zip_path)
+    atomic_io.replace(tmp, zip_path)
     return {"backed_up": True, "user_id": user_id, "zip_path": zip_path, "file_count": len(entries),
             "bytes": os.path.getsize(zip_path), "created_at": manifest["created_at"]}
 

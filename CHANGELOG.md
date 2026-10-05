@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.45.0] — 2026-10-05
+### Fixed
+- Windows robustness (the maintainer's deployment is Windows): text piped to a script (session notes, review cards, worksheets, intake answers, error notes) is now decoded as UTF-8 regardless of the console code page, so £, accents and dashes survive; `--help` no longer crashes on a console that cannot show a character; and every atomic write (progress files, backups, exports, dashboard, restore swap) retries briefly when a sync client or antivirus holds the destination, instead of failing the save. Verified here only by simulating a legacy code page and a locked file; not run on Windows.
+
 ## [1.44.0] — 2026-10-05
 ### Fixed
 - **History database lost events across courses.** `error_events` and `review_cards` were keyed by `id` alone, and ids repeat between courses (`err_<date>_<stage>_001`, a card `S1-c1`), so one course's event or card silently replaced another's and `resolve` could close the other course's errors. History schema v2 keys them by `(course_id, id)` and adds `course_id` to `review_log`; existing databases migrate in place on first use. Events already overwritten under v1 cannot be recovered.

@@ -135,7 +135,7 @@ def main():
         print(json.dumps({"error": "usage: deck_add.py <deck.json> <course_id> <stage_id> [--max-per-stage N]  (cards as a JSON list on stdin)"}))
         sys.exit(2)
     try:
-        cards = json.load(sys.stdin)
+        cards = json.loads(cli.read_stdin())
     except ValueError as e:
         print(json.dumps({"error": f"stdin is not valid JSON: {e}"}))
         sys.exit(1)

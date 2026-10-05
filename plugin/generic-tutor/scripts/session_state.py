@@ -128,7 +128,7 @@ def main(argv):
         if len(argv) == 4 and argv[0] == "notice":
             return cli.emit(ack_notice(argv[1], argv[2], argv[3]))
         if len(argv) == 3 and argv[0] == "note":
-            return cli.emit(write_note(argv[1], argv[2], sys.stdin.read()))
+            return cli.emit(write_note(argv[1], argv[2], cli.read_stdin()))
     except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         return 1

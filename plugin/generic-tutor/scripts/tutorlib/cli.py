@@ -87,6 +87,14 @@ def _install_envelope():
     atexit.register(_flush)
 
 
+def read_stdin():
+    """All of stdin as text, decoded as UTF-8 whatever the platform's locale says (Windows pipes default to a legacy code page,
+    which would mangle accents and currency signs in course or learner text). A leading BOM is dropped; bad bytes become U+FFFD."""
+    import sys
+    data = sys.stdin.buffer.read() if hasattr(sys.stdin, "buffer") else sys.stdin.read().encode("utf-8")
+    return data.decode("utf-8-sig", errors="replace")
+
+
 def strip_envelope():
     """Remove `--envelope` from sys.argv and, if it was there, wrap this process's output (E-10)."""
     import sys
@@ -104,6 +112,11 @@ def handle_help(doc, argv=None):
     """
     import sys
     argv = sys.argv if argv is None else argv
+    for stream in (sys.stdout, sys.stderr):                      # usage text may contain characters a legacy console code page lacks
+        try:
+            stream.reconfigure(errors="replace")
+        except (AttributeError, ValueError):
+            pass
     if argv is sys.argv:
         strip_envelope()
     if len(argv) < 2 or argv[1] not in ("-h", "--help"):
