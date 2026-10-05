@@ -17,6 +17,13 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.26.0] — 2026-10-05
+### Added
+- **Smarter review sessions** (`review_select.py`): due cards chosen and ordered by the script — most overdue first, then the items the learner knows least, then lowest ease — dealt round-robin across courses (interleaving), capped per session with the remainder reported. `/review [course] [stage]` can scope a session. The `review-scheduler` skill now calls it instead of "gather every due card".
+- **Practice that targets weakness** (`next_items.py`): picks which syllabus items practice should exercise — weakest first (low mastery, unresolved errors, never-observed), ~70% from the current stage and ~30% from earlier stages, presented interleaved. `item_mastery` is now used to *select*, not only to pace. Wired into `course-runner`'s Practice step for itemised courses.
+- **`/readiness <course>`** (`readiness.py`): an honest, bounded answer to "am I ready?" — a band (not enough evidence / early / building / solid), the strength of the evidence behind it, the weakest items, and caveats; never a grade, mark or percentage. Coverage gaps cap the band. Added to the `health-status` skill and `/help`.
+- Tests for all three (`tests/test_learning_tools.py`) and golden CLI cases.
+
 ## [1.25.0] — 2026-10-04
 ### Changed
 - **Every skill now opens with a Contract block** (Owns / Reads / Calls / Emits / Never / Failure modes) — the eight older skills gained one, written from what the scripts actually own. The docs lint fails if a skill lacks one, lacks a field, or names a script that doesn't exist.

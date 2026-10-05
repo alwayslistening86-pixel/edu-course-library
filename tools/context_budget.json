@@ -3,17 +3,18 @@
   "add-profile": 25778,
   "audit": 27031,
   "backup": 2973,
-  "continue": 52801,
-  "doctor": 2996,
+  "continue": 54265,
+  "doctor": 3822,
   "drop": 5243,
   "erase": 3137,
   "export": 2000,
-  "help": 1521,
+  "help": 1672,
   "list-courses": 1672,
   "plan": 12227,
   "profile": 23671,
+  "readiness": 3822,
   "restore": 3171,
-  "review": 6563,
+  "review": 7471,
   "run": 14168,
-  "status": 2847
+  "status": 3673
 }

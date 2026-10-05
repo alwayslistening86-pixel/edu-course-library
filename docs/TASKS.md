@@ -385,6 +385,12 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | A-09 | ✅ done | gates suite on real `gate_check.py` output, 7 cases |
 | A-10 | ✅ done | `python -m evals check` + policy in `evals/README.md` (not yet a CI gate: model runs are manual) |
 | X-01 | ✅ evals | injection suite, 8 cases (6 attack styles + 2 clean), canary-based detection |
+| L-03 | 🟡 partial | interleaving: review round-robin across courses; practice item mix current/prior (70/30). Mixed-topic learner-initiated review beyond scope flags not done |
+| L-04 | ✅ done | `/review [course] [stage]` scoping via `review_select.py` |
+| L-05 | ✅ done | deterministic ordering + session cap + remainder reported |
+| L-07 | ✅ done | `next_items.py` selects practice items from item_mastery + errors; wired into course-runner Practice |
+| L-10 | ✅ done | `readiness.py` + `/readiness` (band, strength, caveats; no grade) |
+| C-13 | ✅ done | review options |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

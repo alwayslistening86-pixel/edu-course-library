@@ -1254,3 +1254,18 @@ differently from my label; both were genuinely ambiguous as written, so the scen
 and the rule recorded in `diagnostics.py`: when samples agree against the label, suspect the label first, but never tune a
 case toward the model's answer without that reason. A harness bug worth recording: a backend outage originally produced
 "accuracy: None" (no data) instead of a failure; no usable reply is now an errored case that counts against accuracy.
+
+## 5 Oct 2026 - v1.26.0: selection, interleaving and readiness (tasks L-03, L-04, L-05, L-07, L-10, C-13)
+
+The tutor already measured per-item mastery, errors and review state but used them only as pacing hints. Three small,
+deterministic scripts turn them into decisions, following docs/PEDAGOGY.md (spacing, retrieval and interleaving are the
+better-evidenced mechanics; the gaps were that review was a flat list and practice ignored what the learner was weak on).
+Choices worth recording: review ordering puts overdue before weak-first so the spacing schedule is respected, and weakness
+is the tie-breaker within a day; round-robin across courses is what makes a mixed session, at the cost of a slightly
+longer gap for a very overdue card in a minority course when `--limit` bites; `next_items` keeps >=1 prior item whenever
+prior items exist and the set has 3+ items, because a ratio that rounds to zero would silently turn interleaving off. The
+70/30 split and the weakness weights are design defaults, not fitted values (stated in the script docstring). Readiness is
+deliberately a band, never a number or a grade: the evidence (a handful of BKT observations on synthetic-sized practice) does
+not support a prediction, and `/readiness` says so every time via the caveats. Not done: exam simulation and past-paper
+timing (needs a question-bank format, N-07), and evaluating whether these selections improve learning (needs real learner
+data; the evals cover tutor behaviour, not outcomes).

@@ -1,0 +1,80 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "review_select.py",
+        "{L}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "due_total": 1,
+        "remaining_due": 0,
+        "scope": {
+          "course": null,
+          "courses_skipped_not_live": [
+            "design",
+            "mathB"
+          ],
+          "item": null,
+          "limit": 20,
+          "stage": null
+        },
+        "selected": [
+          {
+            "back": "b",
+            "card_id": "k1",
+            "course_id": "mathA",
+            "front": "f",
+            "item_id": "S1.1",
+            "item_mastery": 0.3,
+            "overdue_by": 0,
+            "stage_id": "S1"
+          }
+        ],
+        "selected_count": 1,
+        "slot": 5
+      }
+    },
+    {
+      "cmd": [
+        "review_select.py",
+        "{L}",
+        "{C}",
+        "--course",
+        "mathA",
+        "--limit",
+        "1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "due_total": 1,
+        "remaining_due": 0,
+        "scope": {
+          "course": "mathA",
+          "courses_skipped_not_live": [],
+          "item": null,
+          "limit": 1,
+          "stage": null
+        },
+        "selected": [
+          {
+            "back": "b",
+            "card_id": "k1",
+            "course_id": "mathA",
+            "front": "f",
+            "item_id": "S1.1",
+            "item_mastery": 0.3,
+            "overdue_by": 0,
+            "stage_id": "S1"
+          }
+        ],
+        "selected_count": 1,
+        "slot": 5
+      }
+    }
+  ]
+}

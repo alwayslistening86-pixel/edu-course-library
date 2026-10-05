@@ -8,7 +8,7 @@ description: Runs due spaced-repetition flashcards, on demand via /review or aut
 **Contract**
 - **Owns:** presenting due cards and rescheduling them (`review_math.py apply` writes the scheduling fields).
 - **Reads:** `<course>_review_deck.json`, `student_profile.json.session_slot`.
-- **Calls:** `review_math.py`.
+- **Calls:** `review_select.py` (which cards, in what order), `review_math.py` (rescheduling).
 - **Emits:** one card at a time, a brief correction on a miss, nothing else.
 - **Never:** authors cards (`stage-recap` does); touches `syllabus_status` or `confidence`; schedules by date; re-teaches on a miss.
 - **Failure modes:** no deck yet → nothing to review, not an error; `written: false` → the review still happened, it just will not be remembered.
@@ -56,7 +56,11 @@ Lives alongside the course's own micro-profile, under the same learner-isolation
 - The script guarantees a correct recall always lengthens the interval by at least one slot (a card can no longer get stuck at interval 1 after repeated lapses), and ease recovers slightly on each correct recall so a lapse is a setback, not a permanent penalty. Intervals are capped (30 sessions, `MAX_INTERVAL_SESSIONS` in the script) so a well-known card is still revisited within a term rather than drifting a year out.
 
 ## Running a review pass
-1. Gather every due card, across every deck belonging to courses currently eligible for slots (per `journey-planner`).
+1. **Select the cards with the script, don't gather them by hand:**
+   ```
+   python3 /EDU/.tutor-scripts/review_select.py <the learner's folder> <the /EDU/courses/ dir> [--course <id>] [--stage <id>] [--item <id>] [--limit N]
+   ```
+   It returns the due cards (front and back included) already ordered — most overdue first, then the items the learner knows least, then lowest ease — and dealt round-robin across courses so one subject cannot take the whole session, capped at `--limit` (default 20) with `remaining_due` telling you how many are left for next time. Pass `--course` / `--stage` / `--item` when the learner asks to review one topic (`/review <course>`). It only includes courses eligible for slots (per `journey-planner`).
 2. Present them plainly, one at a time — right/wrong, brief explanation why, move on. This is retrieval practice, not a new teaching moment; don't re-lecture on a miss, just correct it and reschedule.
 3. For each card just reviewed, call `review_math.py apply` (above) with its card_id and the recall outcome — it writes the four updated fields onto the card itself.
 4. A review pass never writes to `syllabus_status` or `confidence` — it's a different kind of signal from a graded stage test, and conflating the two would undermine the honesty of what a "pass" actually means elsewhere in this system. A recurring miss on the same card is exactly what `error_patterns` (owned by `course-runner`) is for; surface a genuinely recurring one there instead.

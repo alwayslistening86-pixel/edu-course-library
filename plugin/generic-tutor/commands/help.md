@@ -15,7 +15,8 @@ Explain the tutor's commands briefly, adapting to where the learner is (no profi
 | `/list-courses` | every course with its status, level and prerequisites |
 | `/plan` | how your sessions are shared across courses (no dates) |
 | `/continue <course>` | learn: lesson, practice, test |
-| `/review` | run due flashcards |
+| `/review [course] [stage]` | run due flashcards (interleaved across courses, weakest first) |
+| `/readiness <course>` | an honest "am I ready?" — evidence and caveats, never a grade |
 | `/status` | where you are and what to do next |
 | `/drop <course>` | pause a course and free its roster slot |
 | `/audit` | maintenance check of every course |
