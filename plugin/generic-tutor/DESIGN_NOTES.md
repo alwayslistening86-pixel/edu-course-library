@@ -1523,3 +1523,14 @@ The toolkit had its own walk-up for the data folder; it now asks tutorlib.paths.
 (flag, EDU_TOOLKIT_ROOT, EDU_ROOT, deployed location). The flag is carried as an environment variable because the toolkit modules import
 `core` under a different module name from `toolkit.core`, so setting state on one object does not reach the others (found by running
 the command, not by the first unit test). Not done: making the tkinter GUI show errors instead of silently doing nothing; no display here to check it.
+
+## 5 Oct 2026 - v1.51.0: phase success criteria (K-01, K-02)
+
+Each phase bullet in tutor-core now ends in a "done when": lesson (explain it back plus a check question), practice (a new similar
+question right without prompting), test (every rubric criterion judged on the actual work). The stance/criteria separation the task
+described is not built as two sections; the criteria sit with the phase they end. K-02 needed nothing: tutor-core already speaks of
+confidence qualitatively and defers to confidence_update.py.
+Measured against the committed baselines at 3 samples, hints showed one leaked answer in 54 and accessibility 0.83 against 1.0; a paired
+run of the old and new text at 6 samples settled it: hints sample accuracy 0.986 (old) vs 0.972 (new) is one sample, accessibility
+0.722 vs 0.764 (new is not worse). The other six suites showed no change. Lesson reinforced: a 3-sample check against an old baseline flags noise;
+decide with an A/B at the same sample count.

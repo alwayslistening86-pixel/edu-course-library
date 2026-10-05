@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.51.0] — 2026-10-05
+### Changed
+- `tutor-core` gives each phase a 'done when' criterion (lesson, practice, test); eval A/B at 6 samples shows no measurable change (K-01, K-02)
+
 ## [1.50.0] — 2026-10-05
 ### Changed
 - toolkit uses the plugin's root resolver and accepts `--root <folder>` (E-23, partial: the GUI's error surfacing is untested here)
