@@ -18,6 +18,8 @@ python3 plugin/generic-tutor/scripts/bootstrap_scripts.py plugin/generic-tutor/s
 
 Golden CLI snapshots: `tests/golden/*.json` pin every script's output. If a change to script output is intended, regenerate with `cd plugin/generic-tutor && UPDATE_GOLDEN=1 python3 -m unittest tests.test_golden_cli`, then review the diff.
 
+Evals (dev-only, manual): `cd plugin/generic-tutor && python3 -m evals run --suite all --backend claude --samples 3 --out /tmp/run` then `python3 -m evals check /tmp/run/<suite>.json`; offline sanity: `--backend oracle`. See `plugin/generic-tutor/evals/README.md`. Skill-text changes should come with a fresh `check`.
+
 ## Rules
 - Python floor is 3.10; no third-party runtime dependencies.
 - Deterministic logic belongs in scripts, not skill prose. Skills say *when* to call a script; scripts own state writes.

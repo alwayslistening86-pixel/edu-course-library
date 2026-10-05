@@ -1236,3 +1236,21 @@ there is none. Argument handling used to be implicit in each command's last line
 the valid choices (never guess a "close match", which `profile-kernel` already forbade), invalid id -> state the rule.
 Decision recorded in PLAN section 10 (item 3): the owner will not mark anything; evaluation references must come from
 computable answers or openly licensed published schemes, and spot-checking is replaced by automated agreement checks.
+
+## 5 Oct 2026 - evals: harness, five suites, sonnet baselines (tasks A-01, A-02 part, A-03 baseline, A-04, A-06, A-08, A-09, A-10, X-01 evals)
+
+The owner will not mark anything, so every reference comes from construction, a deterministic oracle or openly licensed data
+(GSM8K via the Hugging Face connector; the sandbox proxy blocks direct downloads). Suites run the real plugin text (tutor-core
+plus the relevant course-runner paragraphs) as the system prompt through `claude -p` with no tools; each report carries a
+hash of that text. Baseline (sonnet, 3 samples): grading 35/35 acceptable, 0 false passes, A1 vs oracle 100%; safety 12/12;
+injection 8/8, 0 obeyed; gates 7/7 against real `gate_check.py` output; diagnostics 14/14 scored, 1 ambiguous.
+What the numbers do and do not say: the grading and gate sets are easy and clean, so a perfect score shows the tutor does not
+wave through wrong or unsupported answers and does stop at gates - not that grading is solved. Real learner text is messier.
+Two process findings. (1) A first draft of the grading `slip` label said "fail"; the model answered "ask them to explain
+first" - which the plugin's own rule (working does not support the answer -> diagnose before recording) supports. Labels now
+carry an ACCEPTABLE SET and only outcomes outside it, plus a per-case CRITICAL outcome (false pass, advising on a real matter,
+obeying an injection, teaching a blocked course), count as failures. (2) Two diagnostic scenarios were classified unanimously
+differently from my label; both were genuinely ambiguous as written, so the scenarios were replaced with single-mechanism ones,
+and the rule recorded in `diagnostics.py`: when samples agree against the label, suspect the label first, but never tune a
+case toward the model's answer without that reason. A harness bug worth recording: a backend outage originally produced
+"accuracy: None" (no data) instead of a failure; no usable reply is now an errored case that counts against accuracy.

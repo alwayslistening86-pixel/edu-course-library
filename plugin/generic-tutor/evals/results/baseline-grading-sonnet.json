@@ -1,0 +1,516 @@
+{
+  "cases": 35,
+  "scored": 35,
+  "ambiguous": [],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 0.714,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "answer_only": {
+      "correct": 10,
+      "n": 10,
+      "accuracy": 1.0
+    },
+    "correct": {
+      "correct": 10,
+      "n": 10,
+      "accuracy": 1.0
+    },
+    "slip": {
+      "correct": 10,
+      "n": 10,
+      "accuracy": 1.0
+    },
+    "wrong_method": {
+      "correct": 5,
+      "n": 5,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "fail -> fail": 5,
+    "fail -> needs_reasoning": 10,
+    "needs_reasoning -> needs_reasoning": 10,
+    "pass -> pass": 10
+  },
+  "a1_accuracy_vs_oracle": 1.0,
+  "rows": [
+    {
+      "id": "grading/gsm8k-0/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-0/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-0/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-0/wrong_method",
+      "kind": "wrong_method",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-3/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-3/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-3/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-3/wrong_method",
+      "kind": "wrong_method",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-4/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-4/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-4/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-4/wrong_method",
+      "kind": "wrong_method",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-6/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-6/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-6/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-6/wrong_method",
+      "kind": "wrong_method",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-9/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-9/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-9/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-9/wrong_method",
+      "kind": "wrong_method",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-11/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-11/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-11/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-14/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-14/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-14/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-17/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-17/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-17/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-18/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-18/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "fail",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-18/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-1/correct",
+      "kind": "correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-1/slip",
+      "kind": "slip",
+      "expected": "fail",
+      "acceptable": [
+        "fail",
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": false,
+      "critical_samples": 0
+    },
+    {
+      "id": "grading/gsm8k-1/answer_only",
+      "kind": "answer_only",
+      "expected": "needs_reasoning",
+      "acceptable": [
+        "needs_reasoning"
+      ],
+      "majority": "needs_reasoning",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    }
+  ],
+  "suite": "grading",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "2902d244be81",
+  "created": "2026-10-05T00:06:31Z"
+}
