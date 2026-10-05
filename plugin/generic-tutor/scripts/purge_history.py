@@ -97,11 +97,11 @@ def purge(profile_root, user_id, what, course_id=None, confirm=None):
                 con.close()
         lp = os.path.join(d, ledger.LEDGER_NAME)
         if os.path.exists(lp):
-            keep = [e for e in ledger.read(d) if e.get("course_id") != course_id and "corrupt" not in e]
+            keep = [row for row in ledger.read(d) if row.get("course_id") != course_id and "corrupt" not in row]
             tmp = lp + ".tmp"
             with open(tmp, "w", encoding="utf-8") as f:
-                for e in keep:
-                    f.write(json.dumps(e, ensure_ascii=False, sort_keys=True) + "\n")
+                for row in keep:
+                    f.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
             atomic_io.replace(tmp, lp)
     return {**plan, "purged": True}
 
