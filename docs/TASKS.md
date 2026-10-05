@@ -440,6 +440,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-18 | ✅ done | `/erase` needs the typed phrase `ERASE <user_id>`; `/restore` and `/backup` read back which learner; no destructive command infers the learner |
 
 | A-11 | ✅ done (adapted) | `rubric_lint.py` checks wording/threshold/locator; mark allocation not applicable to the real rubric shape |
+| P-10 | ✅ done | `docs/INTEGRATIONS.md`: operator, data sent, trust level, how to decline |
+| P-11 | ✅ done | already specified: a connector not marked `connected` is treated as unavailable (runner) and the course runs from model knowledge with a caveat; documented for learners in `INTEGRATIONS.md` |
+| X-06 | ✅ done | review recorded (source, licence, operator unverified, data sent, no credentials) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
@@ -460,12 +463,12 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | S Schemas | 14 | 8 | 3 | 0 | 3 |
 | K Skills | 36 | 16 | 4 | 1 | 15 |
 | C Commands | 15 | 10 | 0 | 0 | 5 |
-| P Plugin surface | 19 | 10 | 2 | 0 | 7 |
+| P Plugin surface | 19 | 12 | 2 | 0 | 5 |
 | V Trust & verification | 10 | 7 | 0 | 1 | 2 |
 | L Learning design | 22 | 9 | 3 | 0 | 10 |
 | A Assessment & evals | 14 | 8 | 2 | 0 | 4 |
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
-| X Security & privacy | 10 | 7 | 0 | 0 | 3 |
+| X Security & privacy | 10 | 8 | 0 | 0 | 2 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **121** | **25** | **2** | **69** |
+| **Total** | **217** | **124** | **25** | **2** | **66** |
