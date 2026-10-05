@@ -96,7 +96,7 @@ class Isolation(unittest.TestCase):
         a_subj, a_deck = f"{mixed_fx['S']}/mathA.json", f"{mixed_fx['S']}/mathA_review_deck.json"
         t_subj, t_deck = f"{mixed_fx['S']}/twin.json", f"{mixed_fx['S']}/twin_review_deck.json"
         r_mixed = []
-        for (script, a_args), (_, t_args) in zip(ops(a_subj, a_deck, "mathA"), ops(t_subj, t_deck, "twin")):
+        for (script, a_args), (_, t_args) in zip(ops(a_subj, a_deck, "mathA"), ops(t_subj, t_deck, "twin"), strict=True):
             for args, course in ((a_args, "mathA"), (t_args, "twin")):
                 argv = [sys.executable, os.path.join(gs.SCRIPTS, script)] + [a.format(**mixed_fx) for a in args]
                 p = subprocess.run(argv, input=CARDS if script == "deck_add.py" else None, capture_output=True, text=True, cwd=mixed_tmp)
