@@ -431,19 +431,21 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 ## Task counts
 
-| Workstream | Tasks |
-|---|---|
-| R Repo | 18 |
-| E Engine | 26 |
-| S Schemas | 14 |
-| K Skills | 36 |
-| C Commands | 15 |
-| P Plugin surface | 18 |
-| V Trust & verification | 10 |
-| L Learning design | 22 |
-| A Assessment & evals | 14 |
-| U Learner visibility | 7 |
-| N Content pipeline | 14 |
-| X Security & privacy | 10 |
-| D Documentation | 12 |
-| **Total** | **217** |
+Derived by `tools/tasks_status.py` from the tables and the progress log above; regenerate with `--write`.
+
+| Workstream | Tasks | Done | Partial | Deferred / dropped | Open |
+|---|---|---|---|---|---|
+| R Repo | 18 | 14 | 1 | 0 | 3 |
+| E Engine | 26 | 17 | 6 | 0 | 3 |
+| S Schemas | 14 | 8 | 3 | 0 | 3 |
+| K Skills | 36 | 12 | 4 | 1 | 19 |
+| C Commands | 15 | 10 | 0 | 0 | 5 |
+| P Plugin surface | 19 | 7 | 0 | 0 | 12 |
+| V Trust & verification | 10 | 6 | 0 | 1 | 3 |
+| L Learning design | 22 | 9 | 3 | 0 | 10 |
+| A Assessment & evals | 14 | 6 | 2 | 0 | 6 |
+| U Learner visibility | 7 | 3 | 0 | 0 | 4 |
+| N Content pipeline | 14 | 3 | 2 | 0 | 9 |
+| X Security & privacy | 10 | 6 | 0 | 0 | 4 |
+| D Documentation | 12 | 8 | 1 | 0 | 3 |
+| **Total** | **217** | **109** | **22** | **2** | **84** |

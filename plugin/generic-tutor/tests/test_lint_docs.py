@@ -9,6 +9,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = os.path.dirname(os.path.dirname(ROOT))
 sys.path.insert(0, os.path.join(REPO, "tools"))
 import lint_docs  # noqa: E402
+import tasks_status  # noqa: E402
 
 
 class RealRepo(unittest.TestCase):
@@ -16,6 +17,18 @@ class RealRepo(unittest.TestCase):
         errors, warnings = lint_docs.lint(REPO)
         self.assertEqual(errors, [])
         self.assertEqual(warnings, [])
+
+
+class TaskCounts(unittest.TestCase):
+    def test_counts_in_tasks_md_are_current(self):
+        with open(os.path.join(REPO, "docs", "TASKS.md"), encoding="utf-8") as f:
+            keep, current = tasks_status.split(f.read())
+        self.assertEqual(current, tasks_status.render(tasks_status.counts(keep)), "run: python3 tools/tasks_status.py --write")
+
+    def test_parser_reads_the_log_last_row_wins(self):
+        text = "| R-01 🟡 | t | d |\n| R-02 🟡 | t | d |\n## Progress\n| R-01 | 🟡 partial | x |\n| R-01 | ✅ done | y |\n\n## Suggested first sprint\n"
+        t = tasks_status.counts(text + "\n## Task counts\n")
+        self.assertEqual((t["R"]["done"], t["R"]["open"]), (1, 1))
 
 
 class SeededFaults(unittest.TestCase):
