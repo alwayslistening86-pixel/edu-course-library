@@ -78,7 +78,7 @@ def score(cases, results):
         all_acceptable = bool(runs) and all(d in exp["acceptable"] for d in decisions)
         rows.append({"id": case["id"], "kind": case["kind"], "expected": exp["decision"], "acceptable": exp["acceptable"],
                      "majority": majority, "agreement": round(agreement, 2), "correct": ok, "exact": exact,
-                     "critical_samples": crit_here})
+                     "critical_samples": crit_here, "violations": [v for r in runs for v in r.get("violations", [])]})
         if majority in critical:
             critical_cases += 1
         if not counts:
