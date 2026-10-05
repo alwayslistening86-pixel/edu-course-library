@@ -17,6 +17,12 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.28.0] — 2026-10-05
+### Added
+- **Deadline-aware planning, opt-in** (`plan_estimate.py`, `plan_target.py`; ADR 0009). The planner no longer sums per-stage estimates by hand (a field the compiler never wrote): the script gives per-course remaining slots (3 per stage by default, plus ~10% review, overridable with `slot_estimates` / `slots_per_stage`) and a weeks projection from the learner's `sessions_per_week`. If a learner gives a real exam date, `plan_target.py set` stores it as an optional `target` (the only calendar date in the system) and `plan_estimate.py --today` reports `on_track` / `tight` / `short` / `expired` with the options that would close a shortfall. Nothing is scheduled on a calendar; the tutor never asks for a date unprompted.
+- **Retrieval warm-up** at the start of practice: two or three due recall cards from earlier stages (`review_select.py --limit 3`) before new material.
+- Optional `slots_per_stage` / `slot_estimates` in `course.json`; optional `target` in progress files (both in the schemas).
+
 ## [1.27.0] — 2026-10-05
 ### Added
 - **Content contract** (`plugin/generic-tutor/docs/CONTENT_CONTRACT.md`): what a course library must contain, the rules the engine enforces on it, and how to validate it in CI.

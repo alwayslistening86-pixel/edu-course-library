@@ -401,6 +401,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | D-03 | ✅ done | `docs/USER_GUIDE.md` |
 | D-06 | ✅ done | README rewritten (<60 lines, no rotting counts) |
 | D-10 | ✅ done | `docs/RUNBOOK.md` |
+| L-12 | ✅ done | opt-in `target` date: `plan_target.py` + `plan_estimate.py` feasibility bands; ADR 0009; planner/`/plan` updated |
+| K-20 | ✅ done | `plan_estimate.py` replaces hand-summed estimates |
+| K-21 | 🟡 partial | script output is the plan input; a formal plan-output schema is still open |
+| L-02 | ✅ done | retrieval warm-up (`review_select.py --limit 3`) at the start of practice |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

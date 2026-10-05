@@ -1292,3 +1292,15 @@ the bookkeeping rubric had a "debits equal credits" criterion that contradicted 
 account" block beside it, so a careful grader could reasonably deny it. Replacing it with an independent criterion gave
 18/18, per-criterion accuracy 1.0, 0 critical samples. Recorded as a baseline; three samples per case is a small sample, and
 the lone critical sample before the fix cannot be attributed with certainty to the construction flaw.
+
+## 5 Oct 2026 - v1.28.0: opt-in deadline planning and retrieval warm-up (tasks L-12, K-20, L-02)
+
+The planner's step 2 told the model to sum "course.json's per-stage estimate", a field nothing ever wrote; the arithmetic was
+prose and the input did not exist. `plan_estimate.py` makes it a script with a stated default (3 slots per remaining stage:
+lesson, practice, test; +10% review) that a course can override. Deadline support was an owner-delegated decision (PLAN
+section 10, item 4): one optional date per course, never requested unprompted, only compared against the learner's own stated
+rate; a past date is "expired" (reported, ignored) rather than silently acted on. The comparison bands (on_track >= 1.25x
+needed, tight >= needed) are design defaults. Retrieval warm-up is a few lines in course-runner, deliberately outside the
+test path: it reuses the existing review machinery, writes nothing to `syllabus_status`, and is skipped silently when nothing
+is due. Not done: triage by marks-per-hour (there are no per-item mark weights in the data), and learner-facing display of the
+target in `/status`.

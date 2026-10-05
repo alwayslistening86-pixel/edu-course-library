@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.27.0",
+  "plugin_version": "1.28.0",
   "files": [
     "apply_capabilities.py",
     "backup_profile.py",
@@ -17,6 +17,8 @@
     "item_mastery.py",
     "migrate_schema.py",
     "next_items.py",
+    "plan_estimate.py",
+    "plan_target.py",
     "postcompile_gate.py",
     "prereq_check.py",
     "readiness.py",

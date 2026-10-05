@@ -8,9 +8,9 @@ description: Computes and recomputes how a learner's weekly session capacity is 
 **Contract**
 - **Owns:** the slot plan (advice only, nothing persisted), `/drop` (see `drop.md`), and raising `highest_level_cleared` when a whole level completes.
 - **Reads:** `cohort_status.py` output (eligibility, bottleneck, `all_complete`, `level_ledger`), `roster_check.py`.
-- **Calls:** `cohort_status.py`, `roster_check.py`.
+- **Calls:** `cohort_status.py`, `roster_check.py`, `plan_estimate.py`, `plan_target.py` (only when the learner gives a date).
 - **Emits:** a sequence ("next N sessions: mostly X, review folded in") — never a calendar; approximate remaining time stated as an estimate.
-- **Never:** stores or reasons about dates or weekdays; promises completion by a date; re-decides level-lock or convergence; sums eligibility by hand.
+- **Never:** stores a date unless the learner volunteers a real deadline (one optional `target`, via `plan_target.py`); schedules sessions on a calendar or reasons about weekdays; promises completion by a date; re-decides level-lock or convergence; sums eligibility by hand.
 - **Failure modes:** no eligible courses → say what is blocking (dormant, suspended, nothing enrolled).
 
 ## Invocation
@@ -28,7 +28,11 @@ A course only receives slots if its `subjects/<course_id>.json.roster_state` is 
    python3 /EDU/.tutor-scripts/cohort_status.py <the learner's profile subjects/ dir> <the /EDU/courses/ dir>
    ```
    Its output is already grouped by `cohort_id`, already restricted to eligible members (`active`/`test_pending_convergence`, not suspended), and already names each cohort's `bottleneck` (the eligible, not-yet-`test_pending_convergence` member with the most stages remaining) and whether it's `converged`. A learner can have more than one cohort active at once (e.g. a freshly-added low-level course running alongside the current lock-floor level); the script already keeps bottleneck identification **within each cohort separately** — never pool cohorts together when reading its output.
-2. **Estimate remaining slots per course** — for finer-grained weighting than the script's plain stage-count, sum, across stages not yet `pass` in `syllabus_status`, each stage's rough slot cost (`course.json`'s per-stage estimate, set at compile time from lesson/practice/test length against an assumed pace — an estimate, explicitly labeled as one, not a commitment). This is genuinely a soft, approximate number feeding a soft weighting heuristic (steps 6–7 say so plainly already), not a correctness-critical gate, so summing it by hand from the small set of eligible courses' `course.json` files is fine.
+2. **Estimate remaining slots per course — run the script, don't sum by hand:**
+   ```
+   python3 /EDU/.tutor-scripts/plan_estimate.py <the learner's folder> <the /EDU/courses/ dir> --today <today's date, ISO>
+   ```
+   Per live course it gives stages remaining and an estimated slot count (3 per remaining stage unless the course sets `slot_estimates` / `slots_per_stage`, plus ~10% for review), the learner's `sessions_per_week`, and a rough `weeks_remaining_estimate`. These are labelled estimates; say so. `combined` is the total across courses for the step-5 split.
 3. **Within each cohort, use the script's `bottleneck`** to weight the majority of that cohort's share of this round's `sessions_per_week` toward it.
 4. **Everything else in `test_pending_convergence`** (in any cohort) gets only enough slots to keep its `review-scheduler` cadence alive (see `course-runner`'s phase-convergence section) — not a full share, since it has no new content to advance right now.
 5. **Split `sessions_per_week` across cohorts** in rough proportion to each cohort's remaining estimated slots (step 2) before applying steps 3–4 within each — a learner with one small low-level course and one large current-floor course shouldn't have the small one starved just because it happens to share the plan with a bigger one in a different cohort.
@@ -36,7 +40,9 @@ A course only receives slots if its `subjects/<course_id>.json.roster_state` is 
 7. **Report the plan as a sequence, not a schedule**: "next N sessions: mostly Chemistry (bottleneck), a Contract Law review block folded in every other session" — never "Tuesday: Chemistry."
 
 ## Feasibility, stated plainly
-If a course carries a genuine external deadline the learner has mentioned, this skill can only ever report *approximate* readiness ("at your current rate, roughly N weeks out") — it does not, and should not, promise a date. If the estimated remaining slots for the whole eligible set clearly can't be covered at the stated `sessions_per_week` in any reasonable timeframe the learner cares about, say so directly rather than quietly under-planning around it.
+**Deadline-aware planning is opt-in.** If — and only if — the learner mentions a real external date for a course (an exam, a resit), offer to record it: `python3 /EDU/.tutor-scripts/plan_target.py set <subjects.json> <YYYY-MM-DD> <today>` (and `clear` when they drop it). That one stored date is the only calendar date in the system and is not a schedule; nothing is placed on a calendar. Never ask for a date unprompted, and never infer one.
+
+With a target set, `plan_estimate.py … --today <today>` adds a `target` block to the course: `days_left`, `slots_available` at the learner's stated rate, and `feasibility` — `on_track`, `tight`, `short` (with `shortfall_slots`) or `expired` (a date well in the past: ignored; offer to clear it) or `unknown` (no rate on file). Report it plainly and approximately ("at two sessions a week you have room for about 12 sessions before then; this course needs about 7 more"), never as a promise. When `short`, lay out the `options` it returns (more sessions, accept that later stages won't be reached before the date, move the date) and let the learner choose; do not quietly re-plan around the shortfall or trim a course's content. Without a target there is no deadline maths: only the rate-based "roughly N weeks" estimate.
 
 ## `/drop <course_id>`
 Dropping a course (ordinary and suspended-course cases, waking what a drop unblocked) is described in `drop.md` in this folder; `/drop` loads it. Read it before dropping anything.

@@ -10,3 +10,4 @@ One short file per decision: context/why, decision, consequences. New decisions 
 - [0007](0007-no-placement-no-attestation.md) — No placement diagnostic and no attestation of prior credit
 - [0008](0008-no-hash-chained-audit.md) — No hash-chained audit log
 - [0001](0001-hooks-and-platform-support.md) — Hooks, platform support and plugin validation
+- [0009](0009-optional-target-date.md) — An optional, learner-stated target date (amends 0002)

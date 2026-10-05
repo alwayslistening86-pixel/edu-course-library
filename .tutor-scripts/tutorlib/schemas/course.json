@@ -175,6 +175,17 @@
     "min_engine_version": {
       "type": "string",
       "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "slots_per_stage": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "slot_estimates": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      }
     }
   }
 }

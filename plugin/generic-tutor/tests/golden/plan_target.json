@@ -1,0 +1,118 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "plan_target.py",
+        "set",
+        "{S}/mathA.json",
+        "<DATE>",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "set",
+        "target": {
+          "date": "<DATE>",
+          "set_on": "<DATE>"
+        },
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "plan_estimate.py",
+        "{L}",
+        "{C}",
+        "--today",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "assumptions": {
+          "default_slots_per_stage": 3,
+          "note": "rough estimates: no dates are promised and nothing is scheduled",
+          "on_track_margin": 1.25,
+          "review_overhead": 0.1
+        },
+        "combined": {
+          "slots_remaining_estimate": 14,
+          "weeks_remaining_estimate": null
+        },
+        "courses": [
+          {
+            "course_id": "mathA",
+            "slots_remaining_estimate": 7,
+            "stages_remaining": 2,
+            "target": {
+              "date": "<DATE>",
+              "days_left": 58,
+              "feasibility": "unknown",
+              "note": "no availability.sessions_per_week in the profile, so no rate to project"
+            },
+            "weeks_remaining_estimate": null
+          },
+          {
+            "course_id": "solo",
+            "slots_remaining_estimate": 7,
+            "stages_remaining": 2,
+            "weeks_remaining_estimate": null
+          }
+        ],
+        "sessions_per_week": null
+      }
+    },
+    {
+      "cmd": [
+        "plan_target.py",
+        "clear",
+        "{S}/mathA.json"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "clear",
+        "had_target": true,
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "plan_target.py",
+        "set",
+        "{S}/mathA.json",
+        "<DATE>",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "<DATE> is already in the past (today is <DATE>)"
+      }
+    }
+  ]
+}
