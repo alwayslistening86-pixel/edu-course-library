@@ -444,6 +444,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-11 | ✅ done | already specified: a connector not marked `connected` is treated as unavailable (runner) and the course runs from model knowledge with a caveat; documented for learners in `INTEGRATIONS.md` |
 | X-06 | ✅ done | review recorded (source, licence, operator unverified, data sent, no credentials) |
 
+| X-05 | ✅ done | `purge_history.py` (history only / one course), typed confirmation, dry run first |
+| E-15 | ✅ done (v2) | history DB schema v2 with in-place migration; see CHANGELOG 1.44.0 |
+
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
 1. **Foundations:** R-01, R-02, R-03, R-04, R-06, R-07, R-10, R-14, R-18, X-07, X-10
@@ -469,6 +472,6 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | A Assessment & evals | 14 | 8 | 2 | 0 | 4 |
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
-| X Security & privacy | 10 | 8 | 0 | 0 | 2 |
+| X Security & privacy | 10 | 9 | 0 | 0 | 1 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **124** | **25** | **2** | **66** |
+| **Total** | **217** | **125** | **25** | **2** | **65** |

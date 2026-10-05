@@ -59,7 +59,8 @@ def ease(con, course=None):
     cards = con.execute(f"SELECT c.id, c.course_id, c.stage_id, c.interval_sessions, c.ease, c.lapses FROM review_cards c{w} ORDER BY c.course_id, c.id", args).fetchall()
     out = []
     for c in cards:
-        log = con.execute("SELECT correct, old_ease, new_ease FROM review_log WHERE card_id = ? ORDER BY slot, id", (c["id"],)).fetchall()
+        log = con.execute("SELECT correct, old_ease, new_ease FROM review_log WHERE card_id = ? AND (course_id = ? OR course_id IS NULL) ORDER BY slot, id",
+                          (c["id"], c["course_id"])).fetchall()
         if not log:
             continue
         out.append({

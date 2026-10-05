@@ -17,6 +17,12 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.44.0] — 2026-10-05
+### Fixed
+- **History database lost events across courses.** `error_events` and `review_cards` were keyed by `id` alone, and ids repeat between courses (`err_<date>_<stage>_001`, a card `S1-c1`), so one course's event or card silently replaced another's and `resolve` could close the other course's errors. History schema v2 keys them by `(course_id, id)` and adds `course_id` to `review_log`; existing databases migrate in place on first use. Events already overwritten under v1 cannot be recovered.
+### Added
+- `purge_history.py`: selective deletion short of `/erase` — `history` (analytics database and write ledger only) or one `course` (its enrolment, deck, history rows and ledger lines), each behind a typed `PURGE …` phrase and a dry run first. (X-05)
+
 ## [1.43.0] — 2026-10-05
 ### Added
 - `rubric_lint.py` (A-11): advisory wording lint for rubric criteria (too few/many, too short, vague "understands" wording, duplicates, missing pass threshold or source locator, stages whose criteria are all topic labels). `postcompile_gate` notes label-only stages. On the real library: 50 of 1,253 stages have only label-like criteria.

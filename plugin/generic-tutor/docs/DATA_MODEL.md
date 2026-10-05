@@ -89,7 +89,7 @@ Keys starting `_` are metadata (`_meta`, `_items_source{document,url,version,ite
 
 ## `tutor.sqlite3`
 
-Append-only history, never read back into teaching decisions (JSON is authoritative). Tables: `error_events`, `item_mastery`, `item_mastery_log`, `review_cards`, `review_log`, `confidence_events`. No `user_version` yet (E-15). Not included in `/export` yet (K-28); removed by `/erase` only because it lives inside the learner folder (K-27).
+Append-only history, never read back into teaching decisions (JSON is authoritative). Tables: `error_events`, `item_mastery`, `item_mastery_log`, `review_cards`, `review_log`, `confidence_events`. `PRAGMA user_version` is 2 (history schema; a newer database is refused). v2 keys `error_events` and `review_cards` by `(course_id, id)` and records `course_id` on `review_log`; v1 keyed them by `id` alone, so two courses producing the same id overwrote each other. A v1 database is migrated in place on first use (`sqlite_store._migrate_v1_to_v2`, tested in `tests/test_history_keys.py`). Included in `/export`; removed by `/erase`; `purge_history.py` can clear it without erasing progress.
 
 ## Versioning policy (S-10)
 

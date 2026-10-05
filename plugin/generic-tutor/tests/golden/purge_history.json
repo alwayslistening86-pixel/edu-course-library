@@ -1,0 +1,91 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "purge_history.py",
+        "{R}",
+        "amy",
+        "history"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "dry_run": true,
+        "files": [],
+        "purged": false,
+        "required_confirmation": "PURGE amy history",
+        "what": "history"
+      }
+    },
+    {
+      "cmd": [
+        "purge_history.py",
+        "{R}",
+        "amy",
+        "course",
+        "mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_id": "mathA",
+        "dry_run": true,
+        "files": [
+          "subjects/mathA.json",
+          "subjects/mathA_review_deck.json"
+        ],
+        "history_rows": {},
+        "ledger_lines": 0,
+        "purged": false,
+        "required_confirmation": "PURGE amy mathA",
+        "what": "course"
+      }
+    },
+    {
+      "cmd": [
+        "purge_history.py",
+        "{R}",
+        "amy",
+        "course",
+        "ghost"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "'ghost' is not enrolled for 'amy'",
+        "purged": false
+      }
+    },
+    {
+      "cmd": [
+        "purge_history.py",
+        "{R}",
+        "amy",
+        "history",
+        "--confirm",
+        "nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "confirmation must be exactly 'PURGE amy history'",
+        "files": [],
+        "purged": false,
+        "what": "history"
+      }
+    },
+    {
+      "cmd": [
+        "purge_history.py",
+        "{R}",
+        "amy"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: purge_history.py <profile_root> <user_id> history | course <course_id> [--confirm \"PURGE <user_id> history|<course_id>\"]"
+      }
+    }
+  ]
+}

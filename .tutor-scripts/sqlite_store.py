@@ -69,7 +69,7 @@ SCHEMA = """
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE IF NOT EXISTS error_events (
-  id                TEXT PRIMARY KEY,
+  id                TEXT NOT NULL,
   course_id         TEXT NOT NULL,
   stage_id          TEXT NOT NULL,
   item_id           TEXT,
@@ -83,7 +83,8 @@ CREATE TABLE IF NOT EXISTS error_events (
   slot              INTEGER NOT NULL,
   resolved          INTEGER NOT NULL DEFAULT 0 CHECK (resolved IN (0,1)),
   resolved_at_slot  INTEGER,
-  created_at        TEXT NOT NULL DEFAULT (datetime('now'))
+  created_at        TEXT NOT NULL DEFAULT (datetime('now')),
+  PRIMARY KEY (course_id, id)
 );
 CREATE INDEX IF NOT EXISTS idx_error_events_lookup ON error_events (course_id, stage_id, item_id, cause);
 CREATE INDEX IF NOT EXISTS idx_error_events_unresolved ON error_events (course_id, resolved) WHERE resolved = 0;
@@ -112,7 +113,7 @@ CREATE TABLE IF NOT EXISTS item_mastery_log (
 CREATE INDEX IF NOT EXISTS idx_item_mastery_log_item ON item_mastery_log (course_id, item_id, slot);
 
 CREATE TABLE IF NOT EXISTS review_cards (
-  id                TEXT PRIMARY KEY,
+  id                TEXT NOT NULL,
   course_id         TEXT NOT NULL,
   stage_id          TEXT NOT NULL,
   item_id           TEXT,
@@ -122,12 +123,14 @@ CREATE TABLE IF NOT EXISTS review_cards (
   interval_sessions INTEGER NOT NULL,
   due_at_slot       INTEGER NOT NULL,
   ease              REAL NOT NULL,
-  lapses            INTEGER NOT NULL DEFAULT 0
+  lapses            INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (course_id, id)
 );
 CREATE INDEX IF NOT EXISTS idx_review_cards_due ON review_cards (course_id, due_at_slot);
 
 CREATE TABLE IF NOT EXISTS review_log (
   id                INTEGER PRIMARY KEY AUTOINCREMENT,
+  course_id         TEXT,
   card_id           TEXT NOT NULL,
   correct           INTEGER NOT NULL CHECK (correct IN (0,1)),
   old_interval      INTEGER NOT NULL,
@@ -138,6 +141,7 @@ CREATE TABLE IF NOT EXISTS review_log (
   created_at        TEXT NOT NULL DEFAULT (datetime('now'))
 );
 CREATE INDEX IF NOT EXISTS idx_review_log_card ON review_log (card_id, slot);
+CREATE INDEX IF NOT EXISTS idx_review_log_course ON review_log (course_id, card_id, slot);
 
 CREATE TABLE IF NOT EXISTS confidence_events (
   id                INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -173,22 +177,58 @@ def _course_id_from_path(subjects_or_deck_path):
 
 
 # PRAGMA user_version of the history DB (E-15). 0 = created before versioning (same tables; stamped on first use).
-DB_SCHEMA_VERSION = 1
+DB_SCHEMA_VERSION = 2
 
 
 class NewerDatabase(RuntimeError):
     pass
 
 
+def _has_column(con, table, column):
+    return any(r[1] == column for r in con.execute(f"PRAGMA table_info({table})"))
+
+
+def _migrate_v1_to_v2(con):
+    """v1 keyed error_events and review_cards by id alone, so two courses producing the same id (err_<date>_<stage>_001, a card "S1-c1")
+    overwrote each other's rows. v2 keys them by (course_id, id) and records course_id on review_log. Existing rows are kept as they are
+    (a row already overwritten under v1 cannot be recovered)."""
+    con.execute("BEGIN IMMEDIATE")
+    try:
+        for table, indexes in (("error_events", ("idx_error_events_lookup", "idx_error_events_unresolved")), ("review_cards", ("idx_review_cards_due",))):
+            cols = [r[1] for r in con.execute(f"PRAGMA table_info({table})")]
+            con.execute(f"ALTER TABLE {table} RENAME TO {table}_v1")
+            for ix in indexes:
+                con.execute(f"DROP INDEX IF EXISTS {ix}")
+            ddl = _table_ddl(table)
+            con.execute(ddl)
+            con.execute(f"INSERT INTO {table} ({', '.join(cols)}) SELECT {', '.join(cols)} FROM {table}_v1")
+            con.execute(f"DROP TABLE {table}_v1")
+        if not _has_column(con, "review_log", "course_id"):
+            con.execute("ALTER TABLE review_log ADD COLUMN course_id TEXT")
+        con.execute("UPDATE review_log SET course_id = (SELECT course_id FROM review_cards c WHERE c.id = review_log.card_id) WHERE course_id IS NULL")
+        con.execute("COMMIT")
+    except Exception:
+        con.execute("ROLLBACK")
+        raise
+
+
+def _table_ddl(table):
+    start = SCHEMA.index(f"CREATE TABLE IF NOT EXISTS {table} (")
+    return SCHEMA[start:SCHEMA.index(");", start) + 1].replace("IF NOT EXISTS ", "")
+
+
 def _connect(any_profile_path):
     db_path = learner_db_path(any_profile_path)
-    con = sqlite3.connect(db_path, timeout=5)
+    con = sqlite3.connect(db_path, timeout=5, isolation_level=None)
     version = con.execute("PRAGMA user_version").fetchone()[0]
     if version > DB_SCHEMA_VERSION:
         con.close()
         raise NewerDatabase(
             f"{db_path} is history schema v{version}, newer than this plugin understands (v{DB_SCHEMA_VERSION}); "
             "update the generic-tutor plugin")
+    existing = {r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+    if "review_log" in existing and not _has_column(con, "review_log", "course_id"):
+        _migrate_v1_to_v2(con)
     con.executescript(SCHEMA)
     if version < DB_SCHEMA_VERSION:
         con.execute(f"PRAGMA user_version = {DB_SCHEMA_VERSION}")
@@ -257,11 +297,12 @@ def log_error_event(subjects_path, entry):
 def resolve_error_events(subjects_path, entry_ids, resolved_at_slot):
     if not entry_ids:
         return {"ok": True, "updated": 0}
+    course_id = _course_id_from_path(subjects_path)
     con = _connect(subjects_path)
     try:
         con.executemany(
-            "UPDATE error_events SET resolved = 1, resolved_at_slot = ? WHERE id = ?",
-            [(int(resolved_at_slot), eid) for eid in entry_ids],
+            "UPDATE error_events SET resolved = 1, resolved_at_slot = ? WHERE course_id = ? AND id = ?",
+            [(int(resolved_at_slot), course_id, eid) for eid in entry_ids],
         )
         con.commit()
     finally:
@@ -306,7 +347,7 @@ def upsert_review_card(subjects_path, card):
                (id, course_id, stage_id, item_id, criterion, front, back,
                 interval_sessions, due_at_slot, ease, lapses)
                VALUES (?,?,?,?,?,?,?,?,?,?,?)
-               ON CONFLICT(id) DO UPDATE SET
+               ON CONFLICT(course_id, id) DO UPDATE SET
                  interval_sessions = excluded.interval_sessions,
                  due_at_slot = excluded.due_at_slot,
                  ease = excluded.ease,
@@ -325,13 +366,14 @@ def upsert_review_card(subjects_path, card):
 
 @_safe()
 def log_review_pass(subjects_path, card_id, correct, old_interval, new_interval, old_ease, new_ease, slot):
+    course_id = _course_id_from_path(subjects_path)
     con = _connect(subjects_path)
     try:
         con.execute(
             """INSERT INTO review_log
-               (card_id, correct, old_interval, new_interval, old_ease, new_ease, slot)
-               VALUES (?,?,?,?,?,?,?)""",
-            (card_id, int(bool(correct)), int(old_interval), int(new_interval), old_ease, new_ease, int(slot)),
+               (course_id, card_id, correct, old_interval, new_interval, old_ease, new_ease, slot)
+               VALUES (?,?,?,?,?,?,?,?)""",
+            (course_id, card_id, int(bool(correct)), int(old_interval), int(new_interval), old_ease, new_ease, int(slot)),
         )
         con.commit()
     finally:

@@ -1454,3 +1454,11 @@ The task asked for "mark allocation per criterion", which the real data does not
 the runner's grading advice mentions are absent from every real rubric. The lint therefore checks what is true of the real files
 (wording, count, threshold, locator). It is advisory because the repair needs sourced material the engine cannot invent. The
 runner's "wherever rubric.json gives you M/A/B tags" remains conditional and harmless, but it describes data that does not exist today.
+
+## 5 Oct 2026 - v1.44.0: history keys (found by writing the purge tests) and selective purge (X-05)
+
+Writing the per-course purge test, a second course's error rows were missing from the database. Cause: the v1 tables used the
+event id as the whole primary key and `INSERT OR REPLACE`, and ids are only unique within a course. JSON progress was never affected
+(it is per course); only the analytics history lost or re-attributed rows, which is why nothing visible broke. The fix is a keyed schema
+(v2) with an in-place migration through the existing user_version mechanism rather than migrate_schema.py (which handles JSON files). The
+purge script is deliberately two operations, not a menu: wiping analytics without touching progress, and removing one course.

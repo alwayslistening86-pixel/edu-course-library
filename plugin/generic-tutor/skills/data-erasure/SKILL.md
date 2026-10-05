@@ -8,7 +8,7 @@ description: Permanently deletes the active learner's data on request via /erase
 **Contract**
 - **Owns:** deletion of `/EDU/profile/<user_id>/` (nothing else).
 - **Reads:** the dry-run report (`erase_profile.py --dry-run`).
-- **Calls:** `erase_profile.py`.
+- **Calls:** `erase_profile.py`, `purge_history.py` (when the learner wants less than everything gone).
 - **Emits:** what will be removed, the exact phrase to type, then the result.
 - **Never:** deletes on an inferred or one-word request; touches `/EDU/courses/`; touches another learner; deletes by any means other than the script.
 
@@ -26,6 +26,9 @@ description: Permanently deletes the active learner's data on request via /erase
    python3 /EDU/.tutor-scripts/erase_profile.py <the /EDU/profile/ dir> <active user_id> --confirm "ERASE <user_id>"
    ```
 4. Report the result from the script's output (`erased: true`, file count). If it returns an `error`, say what it said and that nothing was deleted.
+
+## Less than everything (`/erase history` or `/erase course <course_id>`)
+If the learner wants only the analytics history gone, or one course removed, use `purge_history.py <the /EDU/profile/ dir> <active user_id> history` or `… course <course_id>`. Same discipline: run it without `--confirm` first, read back what it would remove, ask the learner to type the exact `required_confirmation` phrase (`PURGE <user_id> history` / `PURGE <user_id> <course_id>`), then repeat with `--confirm`. `history` keeps all progress; `course` deletes that enrolment (suggest `/drop` if they only want a pause).
 
 ## What is removed / kept
 Removed: the learner's entire folder — `student_profile.json`, every `subjects/<course_id>.json`, every review deck, `tutor.sqlite3` (the history database) and any lock/backup files in it. This is stronger than `consent.status: "revoked"`, which only stops future writes (enforced in code by every script).
