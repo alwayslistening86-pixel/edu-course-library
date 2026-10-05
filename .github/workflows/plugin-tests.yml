@@ -2,7 +2,7 @@ name: generic-tutor plugin tests
 
 on:
   push:
-    branches: [main]
+    branches: ["**"]          # every branch, so a long-running branch gets feedback before it has a pull request
     paths:
       - "plugin/generic-tutor/**"
       - ".tutor-scripts/**"
