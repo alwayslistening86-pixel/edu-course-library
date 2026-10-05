@@ -1367,9 +1367,9 @@ reason so the model can rewrite once. Retiring cards and a cloze type (L-06) are
 
 ## 5 Oct 2026 - v1.35.0: audit_status.py (K-15)
 
-The auditor's "version-check stub" was a sentence describing a comparison nobody ran, and no course carries
-last_audited_plugin_version yet, so every course reports never_audited until the first /audit stamps it (that write remains the
-audit's job: passive detection, active fixes). Patch releases are ignored on purpose: a patch never changes what an audit checks.
+The auditor's "version-check stub" was a sentence describing a comparison nobody ran, and (written before
+the real library was checked; 22 of 62 courses do carry a stamp, from earlier releases) stamping stays the audit's job: passive
+detection, active fixes. Patch releases are ignored on purpose: a patch never changes what an audit checks.
 Golden snapshots now mask engine_version so a release bump does not churn them.
 
 ## 5 Oct 2026 - v1.35.1: first run over the real library
