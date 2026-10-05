@@ -426,6 +426,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-18 | ✅ done | upgrade, roll-back and uninstall paths, including what stays in the data folder |
 | X-07 | ✅ done | `tools/scan_repo.py` (credentials, non-reserved e-mail addresses, private-content paths in tracked files) with tests; CI step |
 
+| V-10 | ✅ done | `recent_activity.py` + `/status audit`; template-coverage test |
+
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
 1. **Foundations:** R-01, R-02, R-03, R-04, R-06, R-07, R-10, R-14, R-18, X-07, X-10
@@ -446,11 +448,11 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | K Skills | 36 | 12 | 4 | 1 | 19 |
 | C Commands | 15 | 10 | 0 | 0 | 5 |
 | P Plugin surface | 19 | 10 | 1 | 0 | 8 |
-| V Trust & verification | 10 | 6 | 0 | 1 | 3 |
+| V Trust & verification | 10 | 7 | 0 | 1 | 2 |
 | L Learning design | 22 | 9 | 3 | 0 | 10 |
 | A Assessment & evals | 14 | 6 | 2 | 0 | 6 |
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 7 | 0 | 0 | 3 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **113** | **23** | **2** | **79** |
+| **Total** | **217** | **114** | **23** | **2** | **78** |

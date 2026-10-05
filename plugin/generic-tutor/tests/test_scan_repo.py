@@ -31,7 +31,7 @@ class Scan(unittest.TestCase):
         key = "sk-ant-" + "a" * 30
         d = make_repo({
             "notes.md": f"token {key}\n",
-            "docs/a.md": "contact someone.real@gmail.com or noreply@anthropic.com or test@example.com\n",
+            "docs/a.md": "contact someone.real@" + "gmail.com or noreply@anthropic.com or test@example.com\n",
             "courses/x/course.json": "{}",
             "profile/amy/student_profile.json": "{}",
             "tests/h.sqlite3": "x",

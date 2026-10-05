@@ -8,7 +8,7 @@ description: Runs /status (where the active learner stands and what to do next),
 **Contract**
 - **Owns:** nothing — both commands are read-only.
 - **Reads:** via `status.py` and `doctor.py` only.
-- **Calls:** `status.py`, `doctor.py`, `readiness.py`, `dashboard_html.py`.
+- **Calls:** `status.py`, `recent_activity.py`, `doctor.py`, `readiness.py`, `dashboard_html.py`.
 - **Emits:** a short plain-language summary; for `/doctor`, failures first, each with its suggested fix.
 - **Never:** edits a learner file, deletes a lock, redeploys scripts or "fixes" anything on its own; reads or shows another learner's data in `/status`.
 - **Failure modes:** a script `error` (no profile, no data root) is shown verbatim with the one next step it implies (`/run <id>`, `/add-profile`, connect the folder).
@@ -25,6 +25,8 @@ Present, in this order, in a few lines (not a data dump):
 4. **Reviews due** — `due_reviews_total`, and `unresolved_errors` only if non-zero.
 5. **Next step** — `next_action.command` and its reason, as a suggestion.
 If `consent` is `limited` or `revoked`, add one line saying what is not being remembered.
+
+**`/status audit`** ("what have you saved about me?"): run `python3 /EDU/.tutor-scripts/recent_activity.py <the active learner's folder> [--last N]` and read out its `activity` sentences, newest first, with the session number. Say that only ids and numbers are logged, never answers or messages, and flag anything marked NOT saved with the consent setting that caused it.
 
 ## `/doctor`
 Does not need an active learner. Run:

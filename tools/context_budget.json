@@ -4,8 +4,8 @@
   "audit": 27322,
   "backup": 2973,
   "continue": 56600,
-  "dashboard": 4551,
-  "doctor": 4676,
+  "dashboard": 4946,
+  "doctor": 5071,
   "drop": 5243,
   "erase": 3137,
   "export": 2000,
@@ -14,9 +14,9 @@
   "mock": 4570,
   "plan": 13474,
   "profile": 25356,
-  "readiness": 4676,
+  "readiness": 5071,
   "restore": 3171,
   "review": 7471,
   "run": 14344,
-  "status": 4527
+  "status": 5055
 }

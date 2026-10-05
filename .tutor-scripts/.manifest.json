@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.37.0",
+  "plugin_version": "1.38.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -30,6 +30,7 @@
     "profile_init.py",
     "profile_set.py",
     "readiness.py",
+    "recent_activity.py",
     "record_mock.py",
     "record_stage_result.py",
     "remediation_state.py",

@@ -17,6 +17,11 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.38.0] — 2026-10-05
+### Added
+- `/status audit` (`recent_activity.py`): the learner's write ledger as plain sentences — what the tutor saved, in which session, and what was NOT saved because of consent. Only ids and numbers are logged, never answers or messages. (V-10)
+- `tools/scan_repo.py` (credentials, e-mail addresses, private-content paths in tracked files), `tools/tasks_status.py` (TASKS.md counts derived, checked in CI), `docs/INSTALL.md`.
+
 ## [1.37.0] — 2026-10-05
 ### Added
 - `practice_pick.py next|used`: tracks which written practice items a learner has met (`practice_used` in the progress file, optional, no migration) and says `use_fixed:<n>` or `generate_new`, so a repeated stage or a retry after a failed test no longer replays the same prompts. Real stages hold only 1–5 written items (`docs/CONTENT_SURVEY.md`). `course-runner` calls it. (L-13)

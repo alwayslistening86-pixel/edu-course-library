@@ -1395,3 +1395,10 @@ edits to wording but not renumbering; a renumbered file would show some items as
 never. Generated items are only counted, not stored: storing their text would put course-derived prose in learner data. The state is an
 optional field with a schema entry and no version bump, the same way session_slot was added. Context cost: /continue was already at its ratchet,
 so equivalent prose was cut from course-runner (the ownership list that duplicated the Contract, and wordier coverage text).
+
+## 5 Oct 2026 - v1.38.0: audit readout (V-10)
+
+The ledger existed for the verifier; a learner could not see it. recent_activity.py renders it with one template per logged
+(script, function) and a test that fails when a new logged writer has no template, so a readout can never silently fall back to
+"something was updated". It adds nothing the ledger does not already hold. The four health-status commands share one skill, so the
+audit paragraph raised all four context budgets by 400-500 characters (deliberately re-ratcheted, not trimmed: it is a new user-facing capability).
