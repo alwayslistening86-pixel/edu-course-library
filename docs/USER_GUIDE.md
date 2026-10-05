@@ -5,7 +5,7 @@ For the person running the tutor (a learner, or a parent/tutor setting it up). C
 ## 1. What you need
 - Claude Cowork (or Claude Code) with the **generic-tutor** plugin installed (see the README).
 - **Python 3.10 or newer** on the same machine. Check with `python3 --version` (Windows: `py -3 --version`). The plugin's scripts use it.
-- A folder you connect to the session that contains **`courses/`** (your course library). A `profile/` folder is created for learners on first use.
+- A folder you connect to the session that contains **`courses/`** (your course library). A `profile/` folder is created for learners on first use. The first time you start, the tutor asks once whether that folder is connected on its own or as part of a larger shared connection; your answer is remembered for the whole library.
 
 ## 2. First time
 1. **Check the setup:** type `/doctor`. It reports anything missing (no `courses/`, scripts not deployed) and how to fix it. Warnings about "no profile yet" are normal on a new install.
@@ -17,7 +17,7 @@ For the person running the tutor (a learner, or a parent/tutor setting it up). C
 - `/run alex` — starts the session: deploys/updates the plugin's scripts, advances the session counter, and **checks the last session's bookkeeping** (if something was missed it tells you).
 - `/continue gcse_maths` — teaches the next piece: **lesson → practice → test**. Tests only open when everything in your level is ready (so courses move together). A failed test leads to a targeted re-teach, not a repeat.
 - `/review` — due flashcards, hardest and most overdue first, mixed across courses (`/review gcse_maths` for one course).
-- `/status` — where you are and what to do next. `/readiness gcse_maths` — an honest "am I ready?": evidence, weak items and caveats, never a predicted grade.
+- `/status` — where you are and what to do next. `/status audit` — what the tutor has saved about you lately, in plain sentences (and anything it did *not* save because of your privacy setting). `/readiness gcse_maths` — an honest "am I ready?": evidence, weak items and caveats, never a predicted grade.
 
 ## 4. What the tutor will and won't do
 - It teaches from a **sourced specification** and tells you when a course does not cover the whole spec.
