@@ -4,7 +4,7 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 
 ## [Unreleased] — redesign programme (see `docs/PLAN.md`)
 ### Added
-- **Evaluation harness** (`plugin/generic-tutor/evals/`, dev-only, excluded from the plugin build): five suites — `grading`, `safety`, `injection`, `diagnostics`, `gates` — run through the `claude` CLI (`python -m evals run --suite all --backend claude`) or offline sanity backends. Reference answers never need a human marker: they come from construction, deterministic oracles and openly licensed data (GSM8K, MIT). Baselines for sonnet are committed under `evals/results/`; `python -m evals check` compares a new run with them and fails on any rise in critical failures.
+- **Evaluation harness** (`plugin/generic-tutor/evals/`, dev-only, excluded from the plugin build): six suites — `grading`, `criteria`, `safety`, `injection`, `diagnostics`, `gates` — run through the `claude` CLI (`python -m evals run --suite all --backend claude`) or offline sanity backends. Reference answers never need a human marker: they come from construction, deterministic oracles and openly licensed data (GSM8K, MIT). Baselines for sonnet are committed under `evals/results/`; `python -m evals check` compares a new run with them and fails on any rise in critical failures.
 - `docs/adr/0001` (hooks are Claude Code-only), `docs/PEDAGOGY.md`, `CHANGELOG.md`.
 - Planning docs: `docs/PLAN.md`, `docs/TASKS.md`, `docs/DATA_MODEL.md`, `docs/GLOSSARY.md`, `docs/PRIVACY.md`.
 - `tools/lint_docs.py` (script references, command↔skill wiring, versions, links) with tests.

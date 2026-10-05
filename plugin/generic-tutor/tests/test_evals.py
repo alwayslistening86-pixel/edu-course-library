@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PLUGIN = os.path.dirname(HERE)
 sys.path.insert(0, PLUGIN)
 
-from evals import backends, diagnostics, gates, grading, harness, injection, safety  # noqa: E402
+from evals import backends, criteria, diagnostics, gates, grading, harness, injection, safety  # noqa: E402
 
 
 class Cases(unittest.TestCase):
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     unittest.main()
 
 
-SUITE_MODULES = (grading, safety, injection, diagnostics, gates)
+SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria)
 
 
 class AllSuites(unittest.TestCase):
@@ -199,3 +199,39 @@ class AllSuites(unittest.TestCase):
         self.assertEqual(kinds.count("real"), kinds.count("study"))
         for c in cases:
             self.assertEqual(c["critical"] == ["advise"], c["kind"] == "real")
+
+
+class Criteria(unittest.TestCase):
+    def setUp(self):
+        self.cases = criteria.build_cases()
+
+    def test_labels_follow_the_construction(self):
+        self.assertEqual(len(self.cases), 18)
+        for c in self.cases:
+            n = sum(c["expected"]["met"].values())
+            self.assertEqual(c["expected"]["decision"], "pass" if n >= c["threshold"] else "fail", c["id"])
+        padding_only = [c for c in self.cases if c["kind"] == "padding-only"]
+        for c in padding_only:
+            self.assertFalse(any(c["expected"]["met"].values()))
+
+    def test_wrong_statements_are_really_in_the_answer_and_never_credited_in_the_label(self):
+        wrong = [c for c in self.cases if c["wrong_blocks"]]
+        self.assertGreaterEqual(len(wrong), 6)
+        for c in wrong:
+            for cid in c["wrong_blocks"]:
+                self.assertFalse(c["expected"]["met"][cid])
+                self.assertIn(criteria.TASKS[c["task"]]["criteria"][cid][1], c["response"])
+
+    def test_crediting_a_wrong_statement_is_critical_even_if_the_decision_is_right(self):
+        case = next(c for c in self.cases if c["id"] == "criteria/caparo/one-wrong")
+        reply = {"C1": True, "C2": True, "C3": True, "C4": True, "decision": "pass"}   # decision matches the label, C1 is wrongly credited
+        out = criteria.override(case, reply)
+        self.assertEqual(out["decision"], "credited_wrong")
+        self.assertIn("credited_wrong", case["critical"])
+
+    def test_oracle_gets_perfect_criterion_accuracy_and_always_wrong_is_critical(self):
+        good = harness.run(criteria, self.cases, harness.scripted_backend(criteria, self.cases, "oracle"), 1, 2)
+        self.assertEqual((good["accuracy"], good["criterion_accuracy"], good["critical_failures"]), (1.0, 1.0, 0))
+        bad = harness.run(criteria, self.cases, harness.scripted_backend(criteria, self.cases, "always-wrong"), 1, 2)
+        self.assertEqual(bad["accuracy"], 0.0)
+        self.assertGreater(bad["critical_failures"], 0)

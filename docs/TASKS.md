@@ -397,6 +397,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | R-17 | ✅ done | same workflow is the documented entry point |
 | S-12 | ✅ done | `misconceptions` schema + checked by `/doctor` and the content CI (not yet inside `postcompile_gate`) |
 | N-13 | 🟡 partial | template still a skeleton with placeholders; fixture proves a filled course validates |
+| A-03 | 🟡 more | `criteria` suite added (18 cases, extended answers vs discrete criteria, wrong-statement credit is critical): 18/18, 0 critical; still missing: units/multi-part numerics, real learner text |
+| D-03 | ✅ done | `docs/USER_GUIDE.md` |
+| D-06 | ✅ done | README rewritten (<60 lines, no rotting counts) |
+| D-10 | ✅ done | `docs/RUNBOOK.md` |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

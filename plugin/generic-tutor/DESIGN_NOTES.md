@@ -1281,3 +1281,14 @@ not do live-web verification (grounding, coverage re-derivation): that needs jud
 The earlier smoke test of the driver was replaced by one that seeds each fault class and asserts the course fails.
 Not done: the content repository's own workflow file (it lives in that repository; the snippet is in the contract), and
 schemas for `change.md` (S-11) and `exam/exam.md`.
+
+## 5 Oct 2026 - evals: criteria suite (A-03 expansion)
+
+Extended answers cannot be given a numeric oracle, so the reference is built in: each answer is assembled from sentence blocks
+per criterion (the correct statement, a classic-error statement, or nothing) plus true padding, so which criteria it earns is
+known by construction. The failure it hunts is the one a grading tutor is most prone to: crediting a point that is stated but
+wrong. First run (sonnet, 3 samples): 16 scored, 2 ambiguous, 1 critical sample. The ambiguity traced to my construction -
+the bookkeeping rubric had a "debits equal credits" criterion that contradicted the deliberately wrong "credit the inventory
+account" block beside it, so a careful grader could reasonably deny it. Replacing it with an independent criterion gave
+18/18, per-criterion accuracy 1.0, 0 critical samples. Recorded as a baseline; three samples per case is a small sample, and
+the lone critical sample before the fix cannot be attributed with certainty to the construction flaw.

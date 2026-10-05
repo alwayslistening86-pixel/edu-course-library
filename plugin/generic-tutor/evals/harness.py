@@ -1,11 +1,11 @@
 """
 Eval harness (A-01): run a suite's cases through a backend N times, score, report, compare with a baseline.
 
-    python -m evals run   [--suite grading|safety|injection|diagnostics|gates|all] [--backend claude|oracle|always-first|always-wrong]
+    python -m evals run   [--suite grading|safety|injection|diagnostics|gates|criteria|all] [--backend claude|oracle|always-first|always-wrong]
                           [--model sonnet] [--samples 3] [--workers 4] [--limit K] [--out report.json]
     python -m evals check <report.json> [baseline.json]
 
-Suites (each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
+Suites (grading, safety, injection, diagnostics, gates, criteria; each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
 override): grading, safety, injection, diagnostics, gates. Backends:
     claude        the `claude` CLI, model-in-the-loop (manual / nightly; uses quota)
     oracle        a perfect responder built from each case's reference label (sanity: must score 100%)
@@ -28,7 +28,7 @@ import sys
 
 from evals import backends
 
-SUITES = ("grading", "safety", "injection", "diagnostics", "gates")
+SUITES = ("grading", "safety", "injection", "diagnostics", "gates", "criteria")
 AGREEMENT_FLOOR = 0.67
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -60,6 +60,7 @@ def score(cases, results):
     per_kind = collections.defaultdict(lambda: [0, 0])
     confusion = collections.Counter()
     a1_hits = a1_total = exact_hits = critical_cases = critical_samples = errored = 0
+    crit_hits = crit_total = 0
     ambiguous, rows = [], []
     for case in cases:
         runs = results[case["id"]]
@@ -88,6 +89,9 @@ def score(cases, results):
         exact_hits += exact
         confusion[(exp["decision"], majority)] += 1
         for r in runs:
+            if r.get("decision") and "met" in exp:                 # per-criterion agreement (criteria suite)
+                crit_total += 4
+                crit_hits += sum(1 for k, v in exp["met"].items() if r.get(k) == v)
             if r.get("A1") in (True, False) and "A1" in exp:
                 a1_total += 1
                 a1_hits += r["A1"] == exp["A1"]
@@ -101,13 +105,14 @@ def score(cases, results):
         "by_kind": {k: {"correct": v[0], "n": v[1], "accuracy": round(v[0] / v[1], 3)} for k, v in sorted(per_kind.items())},
         "confusion": {f"{e} -> {a}": n for (e, a), n in sorted(confusion.items(), key=str)},
         "a1_accuracy_vs_oracle": round(a1_hits / a1_total, 3) if a1_total else None,
+        "criterion_accuracy": round(crit_hits / crit_total, 3) if crit_total else None,
         "rows": rows,
     }
 
 
 def oracle_reply(case):
     e = case["expected"]
-    return json.dumps({"M1": e.get("M1"), "A1": e.get("A1"), "decision": e["decision"], "reason": "oracle",
+    return json.dumps({"M1": e.get("M1"), "A1": e.get("A1"), **e.get("met", {}), "decision": e["decision"], "reason": "oracle",
                        "message_to_learner": " ".join(case.get("keywords", [])), "change_md_entry": "", "next_action": "flag it"})
 
 
@@ -119,8 +124,8 @@ def scripted_backend(suite, cases, mode):
         if mode == "oracle":
             return oracle_reply(c)
         crit = c.get("critical") or []
-        pick = crit[0] if crit else next((d for d in suite.DECISIONS if d not in c["expected"]["acceptable"]), suite.DECISIONS[0])
-        return json.dumps({"decision": pick, "A1": True, "M1": True, "message_to_learner": "", "change_md_entry": "x", "reason": "x"})
+        pick = crit[0] if crit and crit[0] in suite.DECISIONS else next((d for d in suite.DECISIONS if d not in c["expected"]["acceptable"]), suite.DECISIONS[0])
+        return json.dumps({"decision": pick, "A1": True, "M1": True, "C1": True, "C2": True, "C3": True, "C4": True, "message_to_learner": "", "change_md_entry": "x", "reason": "x"})
     return backends.Scripted(fn, mode)
 
 
@@ -199,7 +204,7 @@ def main(argv):
             with open(out, "w", encoding="utf-8") as f:
                 f.write(json.dumps(reports[name], indent=2) + "\n")
     keys = ("suite", "backend", "samples", "skill_hash", "cases", "scored", "accuracy", "exact_accuracy", "critical_failures",
-            "critical_samples", "errored_cases", "a1_accuracy_vs_oracle", "ambiguous")
+            "critical_samples", "errored_cases", "a1_accuracy_vs_oracle", "criterion_accuracy", "ambiguous")
     print(json.dumps({n: {k: r[k] for k in keys} for n, r in reports.items()}, indent=2))
     return 0
 
