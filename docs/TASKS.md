@@ -428,6 +428,9 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 | V-10 | ✅ done | `recent_activity.py` + `/status audit`; template-coverage test |
 
+| A-07 | ✅ done (checks) | `tutorlib/overlap.py`, blocking gate check, `worksheet_check.py`; an eval of paraphrase-level leakage is not built |
+| K-26 | ✅ done | `stage-recap` runs `worksheet_check.py` before handing over the worksheet |
+
 ## Suggested first sprint (Phase 0, ~1–2 weeks)
 
 1. **Foundations:** R-01, R-02, R-03, R-04, R-06, R-07, R-10, R-14, R-18, X-07, X-10
@@ -445,14 +448,14 @@ Derived by `tools/tasks_status.py` from the tables and the progress log above; r
 | R Repo | 18 | 14 | 1 | 0 | 3 |
 | E Engine | 26 | 17 | 6 | 0 | 3 |
 | S Schemas | 14 | 8 | 3 | 0 | 3 |
-| K Skills | 36 | 12 | 4 | 1 | 19 |
+| K Skills | 36 | 13 | 4 | 1 | 18 |
 | C Commands | 15 | 10 | 0 | 0 | 5 |
 | P Plugin surface | 19 | 10 | 1 | 0 | 8 |
 | V Trust & verification | 10 | 7 | 0 | 1 | 2 |
 | L Learning design | 22 | 9 | 3 | 0 | 10 |
-| A Assessment & evals | 14 | 6 | 2 | 0 | 6 |
+| A Assessment & evals | 14 | 7 | 2 | 0 | 5 |
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 7 | 0 | 0 | 3 |
 | D Documentation | 12 | 8 | 1 | 0 | 3 |
-| **Total** | **217** | **114** | **23** | **2** | **78** |
+| **Total** | **217** | **116** | **23** | **2** | **76** |

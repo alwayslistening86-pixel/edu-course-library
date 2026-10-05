@@ -8,7 +8,7 @@ description: Fires automatically the moment a stage test genuinely passes — ne
 **Contract**
 - **Owns:** seeding review cards for a just-passed stage (appended to the course's deck) and handing over an untracked take-home worksheet.
 - **Reads:** the stage's `rubric.json` criteria, the learner's `error_patterns` for that stage, `misconceptions.json`.
-- **Calls:** `deck_add.py` (validates, dedupes, caps, writes the cards); `review-scheduler` takes over.
+- **Calls:** `deck_add.py` (validates, dedupes, caps, writes the cards), `worksheet_check.py` (worksheet vs the stage test); `review-scheduler` takes over.
 - **Emits:** flashcards in the deck and a worksheet file with a full answer key.
 - **Never:** fires on a failed test; tracks or grades the worksheet; reproduces test items in the worksheet; writes outside the deck.
 - **Failure modes:** deck file missing → create it with the standard shape; card tags it cannot derive → `null`, never forced.
@@ -28,7 +28,7 @@ Draft a small set of cards from the just-passed stage's `rubric.json` criteria a
 ### 2. Take-home worksheet — untracked, handed off, forgotten
 A short set of extra practice items in the same spirit as the stage's `practice.md`, using reserved seed material where the compiler set any aside for this purpose, or freshly constructed in the same spirit otherwise. **Always include a full answer key** — since nothing about this is discussed back with the system, an unanswered worksheet is close to useless for a learner checking their own work alone.
 
-Generate it as a small document via the environment's document-creation tooling and hand it to the learner as a file (not an artifact, not a persistent object) — this is a one-off courtesy, not a system feature with a lifecycle.
+Before handing it over, pipe the worksheet text to `worksheet_check.py <stage test.md>`; if it reports a copied test item, change those questions' values or context and check again. Generate it as a small document via the environment's document-creation tooling and hand it to the learner as a file (not an artifact, not a persistent object) — this is a one-off courtesy, not a system feature with a lifecycle.
 
 **This output is never tracked, anywhere, by design.** It does not touch `syllabus_status`, `error_patterns`, `confidence`, or any review deck. The system does not know, and never asks, whether the learner opens it, attempts it, or ignores it entirely. This is the one deliberate exception to the rule that everything else in this plugin eventually feeds back into some piece of state — homework is explicitly not expected to ever be done; it exists purely as an extra opportunity, and adding any tracking to it would misrepresent what it's for.
 

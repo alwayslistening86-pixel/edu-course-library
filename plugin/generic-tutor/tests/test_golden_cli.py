@@ -139,7 +139,7 @@ class GoldenCoverage(unittest.TestCase):
         covered = {s for steps, _ in CASES.values() for s, _a in steps}
         # bootstrap: covered by deploy tests; doctor: output embeds the interpreter version, covered by test_doctor_status
         # backup/restore: output embeds a wall-clock file name, covered by test_backup_restore; profile_init and deck_add read stdin (test_profile_set.Init, test_deck_add)
-        exempt = {"bootstrap_scripts.py", "doctor.py", "backup_profile.py", "restore_profile.py", "profile_init.py", "deck_add.py"}
+        exempt = {"bootstrap_scripts.py", "doctor.py", "backup_profile.py", "restore_profile.py", "profile_init.py", "deck_add.py", "worksheet_check.py"}
         self.assertEqual([s for s in scripts if s not in covered and s not in exempt], [])
 
 

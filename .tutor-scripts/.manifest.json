@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.38.0",
+  "plugin_version": "1.39.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -47,7 +47,8 @@
     "status.py",
     "validate_schema.py",
     "validate_structure.py",
-    "verify_session.py"
+    "verify_session.py",
+    "worksheet_check.py"
   ],
   "packages": [
     "toolkit",

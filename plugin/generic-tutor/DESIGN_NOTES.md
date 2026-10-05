@@ -1402,3 +1402,10 @@ The ledger existed for the verifier; a learner could not see it. recent_activity
 (script, function) and a test that fails when a new logged writer has no template, so a readout can never silently fall back to
 "something was updated". It adds nothing the ledger does not already hold. The four health-status commands share one skill, so the
 audit paragraph raised all four context budgets by 400-500 characters (deliberately re-ratcheted, not trimmed: it is a new user-facing capability).
+
+## 5 Oct 2026 - v1.39.0: test integrity (A-07, K-26)
+
+First attempt measured n-gram overlap and found hundreds of hits, nearly all templated stems ("What does this return in
+Oracle? (If it fails, give the error and why.)") or shared tables. Whole-item containment instead finds zero on the real library,
+so it can block without crying wolf, while the long-run count stays advisory. Limits: it catches copying, not paraphrase; a worksheet
+question that reuses a test's structure with new numbers passes, which is the intended boundary.

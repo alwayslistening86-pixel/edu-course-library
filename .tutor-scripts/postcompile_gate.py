@@ -43,6 +43,10 @@ be taught right now:
                                  folder that doesn't exist) — these are data
                                  integrity bugs, not content-quality gaps.
 
+    - test items in practice/lesson  a graded item from a stage's test.md that appears word for word
+                                 in that stage's practice.md or lesson.md (the learner could read the
+                                 test beforehand; tutorlib/overlap.py).
+
   ADVISORY (reported, never blocking):
     - orphaned_stage_dirs       content on disk course.json doesn't know
                                  about — a real thing to clean up, but not a
@@ -86,11 +90,37 @@ import json
 import os
 import sys
 
-from tutorlib import cli, untrusted
+from tutorlib import cli, overlap, untrusted
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import validate_structure  # noqa: E402
 import coverage_check  # noqa: E402
+
+
+def _integrity(course_dir):
+    """A-07: (blocking, advisory) notes on stage tests that the learner could read beforehand."""
+    blocking, advisory = [], []
+    sdir = os.path.join(course_dir, "stages")
+    if not os.path.isdir(sdir):
+        return blocking, advisory
+    for st in sorted(os.listdir(sdir)):
+        try:
+            with open(os.path.join(sdir, st, "test.md"), encoding="utf-8") as f:
+                items = overlap.test_items(f.read())
+        except OSError:
+            continue
+        for other in ("practice", "lesson"):
+            try:
+                with open(os.path.join(sdir, st, other + ".md"), encoding="utf-8") as f:
+                    text = f.read()
+            except OSError:
+                continue
+            same = overlap.verbatim_items(items, text)
+            if same:
+                blocking.append(f"stages/{st}: {len(same)} test item(s) appear word for word in {other}.md")
+            elif items and overlap.long_runs(" ".join(items), text) > 0:
+                advisory.append(f"stages/{st}: test and {other}.md share a run of 20+ words (check it is a template, not the answer)")
+    return blocking, advisory
 
 
 def _gate(course_dir):
@@ -128,7 +158,10 @@ def _gate(course_dir):
             "possible embedded instructions in course files (web content must never carry instructions): "
             + "; ".join(f"{f} line {x['line']} [{x['rule']}]" for f, fs in injected.items() for x in fs[:3]))
 
-    advisory_notes = []
+    leak_block, leak_note = _integrity(course_dir)
+    blocking_reasons.extend(leak_block)
+
+    advisory_notes = list(leak_note)
     for f, fs in scan.items():
         for x in fs:
             if x["severity"] == untrusted.ADVISORY:
