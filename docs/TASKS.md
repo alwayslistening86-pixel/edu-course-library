@@ -391,6 +391,12 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-07 | ✅ done | `next_items.py` selects practice items from item_mastery + errors; wired into course-runner Practice |
 | L-10 | ✅ done | `readiness.py` + `/readiness` (band, strength, caveats; no grade) |
 | C-13 | ✅ done | review options |
+| N-01 | ✅ done | `plugin/generic-tutor/docs/CONTENT_CONTRACT.md` |
+| N-02 | ✅ done | `min_engine_version` + gate 0 (`tutorlib/version.py`) |
+| N-03 | ✅ done | `validate_courses.py --courses/--engine` + reusable `validate-courses.yml`; the caller workflow lives in the content repo |
+| R-17 | ✅ done | same workflow is the documented entry point |
+| S-12 | ✅ done | `misconceptions` schema + checked by `/doctor` and the content CI (not yet inside `postcompile_gate`) |
+| N-13 | 🟡 partial | template still a skeleton with placeholders; fixture proves a filled course validates |
 | S-02 | ✅ done | `profile-kernel` subjects schema corrected to v5 (numeric `confidence`, structured `error_patterns`, `item_mastery`, `remediation`, ownership note) |
 
 ## Suggested first sprint (Phase 0, ~1–2 weeks)

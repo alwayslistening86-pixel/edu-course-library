@@ -67,6 +67,9 @@ class RealSchemas(unittest.TestCase):
                 continue  # deliberately pre-migration shape
             for kind in ("course", "curriculum_map", "rubric"):
                 out.append((kind, f"{self.fx['C']}/{c}/{kind}.json"))
+            mis = f"{self.fx['C']}/{c}/stages/S1/misconceptions.json"
+            if os.path.isfile(mis):
+                out.append(("misconceptions", mis))
         return out
 
     def test_all_kinds_have_a_fixture(self):
@@ -107,6 +110,11 @@ class RealSchemas(unittest.TestCase):
             bad = copy.deepcopy(subj)
             mutate(bad)
             self.assertTrue(schema.validate(bad, "subjects"), why)
+
+    def test_misconceptions_schema_rejects_empty_and_incomplete_entries(self):
+        self.assertEqual(schema.validate([], "misconceptions")[0].split(":")[1].strip()[:4], "fewe")
+        self.assertTrue(schema.validate([{"pattern": "a wrong idea about fractions", "correction": "the right idea"}], "misconceptions"))
+        self.assertTrue(schema.validate({"pattern": "x"}, "misconceptions"))
 
     def test_legacy_test_fixture_shape_is_flagged(self):
         # tests/test_scripts.py's Learner fixture uses confidence "medium" and error_patterns ["x"]; the schema must not bless that.

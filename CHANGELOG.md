@@ -17,6 +17,14 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.27.0] — 2026-10-05
+### Added
+- **Content contract** (`plugin/generic-tutor/docs/CONTENT_CONTRACT.md`): what a course library must contain, the rules the engine enforces on it, and how to validate it in CI.
+- **Reusable content-CI workflow** (`.github/workflows/validate-courses.yml`): the private courses repository can call it (`uses: alwayslistening86-pixel/edu-course-library/.github/workflows/validate-courses.yml@<tag>`). The driver `validate_courses.py` now takes `--courses <dir> --engine <dir>` (the old single-argument form still works) and checks, per course: structure, coverage, JSON Schemas (`course`, `curriculum_map`, `rubric`, every `misconceptions.json`), instruction-like text (blocking), and `min_engine_version`.
+- **`min_engine_version`** in `course.json`: an install older than a course requires stops at a new gate 0 with "update the plugin" (never blocks when the running version cannot be determined). Schema pattern enforced.
+- `misconceptions` JSON Schema (non-empty array of `{pattern, correction, source}`).
+- `/doctor` now validates each course's curriculum map, rubric and misconceptions against their schemas too.
+
 ## [1.26.0] — 2026-10-05
 ### Added
 - **Smarter review sessions** (`review_select.py`): due cards chosen and ordered by the script — most overdue first, then the items the learner knows least, then lowest ease — dealt round-robin across courses (interleaving), capped per session with the remainder reported. `/review [course] [stage]` can scope a session. The `review-scheduler` skill now calls it instead of "gather every due card".

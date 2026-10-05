@@ -65,6 +65,10 @@ def build_fixture(tmp):
     learner = os.path.join(tmp, "profile", "amy")
     subjects = os.path.join(learner, "subjects")
     build_course(courses, "mathA", level=2)
+    _w(os.path.join(courses, "mathA", "stages", "S1", "misconceptions.json"), [
+        {"pattern": "Thinks multiplying always makes a number bigger, so 3 x 1/2 is greater than 3.",
+         "correction": "Multiplying by a fraction below 1 makes the result smaller: 3 x 1/2 = 1 1/2.",
+         "source": "plausible, not board-documented"}])
     build_course(courses, "mathB", level=3)
     build_course(courses, "solo", standalone=True, stages=("S1", "S2"))
     build_course(courses, "design", level=2, stages=("S1", "S2"), practical={"S2": ["share_images"]})

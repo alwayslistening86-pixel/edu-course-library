@@ -1269,3 +1269,15 @@ deliberately a band, never a number or a grade: the evidence (a handful of BKT o
 not support a prediction, and `/readiness` says so every time via the caveats. Not done: exam simulation and past-paper
 timing (needs a question-bank format, N-07), and evaluating whether these selections improve learning (needs real learner
 data; the evals cover tutor behaviour, not outcomes).
+
+## 5 Oct 2026 - v1.27.0: content contract, reusable content CI, min_engine_version (tasks N-01, N-02, N-03, S-12 part)
+
+The engine and the (private) content library are developed apart, and the only interface was implicit in the scripts. The
+contract is now written down and executable: one driver runs the same structure/coverage/schema/injection/version checks the
+engine uses at runtime, and a reusable workflow lets the content repository run it without copying code (it checks out the
+public engine at a pinned ref). `min_engine_version` lets content move ahead of an installed plugin safely; an unknown
+engine version never blocks, because blocking on uncertainty would strand a working install. The driver deliberately does
+not do live-web verification (grounding, coverage re-derivation): that needs judgement and network, and stays in `/audit`.
+The earlier smoke test of the driver was replaced by one that seeds each fault class and asserts the course fails.
+Not done: the content repository's own workflow file (it lives in that repository; the snippet is in the contract), and
+schemas for `change.md` (S-11) and `exam/exam.md`.

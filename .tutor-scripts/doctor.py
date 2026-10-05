@@ -21,6 +21,7 @@ Checks, each reported as {name, status: ok|warn|fail, detail, fix}:
 Read-only (the writability probe creates and removes one temp file). Output
 {root, ok, summary{ok,warn,fail}, checks[]}; exit 0 when no check failed, 1 otherwise.
 """
+import glob
 import json
 import os
 import sys
@@ -83,7 +84,11 @@ def check_courses(courses_dir):
             continue
         n += 1
         v = validate_structure.validate(cdir)
-        errs = schema.validate_file(os.path.join(cdir, "course.json"), "course")
+        errs = []
+        for kind in ("course", "curriculum_map", "rubric"):
+            errs += schema.validate_file(os.path.join(cdir, f"{kind}.json"), kind)
+        for mis in glob.glob(os.path.join(cdir, "stages", "*", "misconceptions.json")):
+            errs += schema.validate_file(mis, "misconceptions")
         if "error" in v or not v.get("clean", False) or errs:
             bad.append(cid)
     if bad:

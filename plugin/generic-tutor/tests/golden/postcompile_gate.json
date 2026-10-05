@@ -11,7 +11,7 @@
       "stderr_tail": [],
       "stdout": {
         "advisory_notes": [
-          "misconceptions status: {'stages_covered': 0, 'stages_total': 3, 'per_stage': {'S1': {'present': False}, 'S2': {'present': False}, 'S3': {'present': False}}}"
+          "misconceptions status: {'stages_covered': 1, 'stages_total': 3, 'per_stage': {'S1': {'present': True, 'well_formed': True, 'entry_count': 1, 'malformed_entry_indices': []}, 'S2': {'present': False}, 'S3': {'present': False}}}"
         ],
         "blocking_reasons": [],
         "can_ship": true,
@@ -45,7 +45,10 @@
           "misconceptions_status": {
             "per_stage": {
               "S1": {
-                "present": false
+                "entry_count": 1,
+                "malformed_entry_indices": [],
+                "present": true,
+                "well_formed": true
               },
               "S2": {
                 "present": false
@@ -54,7 +57,7 @@
                 "present": false
               }
             },
-            "stages_covered": 0,
+            "stages_covered": 1,
             "stages_total": 3
           },
           "missing_rubric_entries": [],

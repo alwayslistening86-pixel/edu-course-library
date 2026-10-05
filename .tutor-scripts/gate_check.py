@@ -31,7 +31,7 @@ import json
 import os
 import sys
 
-from tutorlib import cli
+from tutorlib import cli, version
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import (  # noqa: E402
@@ -77,6 +77,15 @@ def _evaluate_gates(course_json_path, subjects_json_path, profile_subjects_dir, 
             subj = None  # treat unreadable as missing -> defensive-create case, not a hard error
 
     gates = {}
+
+    # Gate 0 (N-02): the course declares a minimum engine version this install does not meet. Only present when declared.
+    if course.get("min_engine_version"):
+        ok, have = version.check_min(course["min_engine_version"])
+        if not ok:
+            gates["0_engine_version"] = {
+                "status": "blocked", "value": have,
+                "detail": f"this course needs generic-tutor {course['min_engine_version']} or newer; this install is {have} - update the plugin"}
+            return {"can_proceed": False, "first_blocking_gate": "0_engine_version", "gates": gates}
 
     # Gate 1: folder_access
     folder_status = (course.get("folder_access") or {}).get("status")

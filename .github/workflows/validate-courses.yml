@@ -1,0 +1,44 @@
+name: validate-courses
+
+# Reusable workflow: a content repository (edu-courses-private or any library) calls this to validate its courses
+# against THIS engine. In the content repository:
+#
+#   jobs:
+#     validate:
+#       uses: alwayslistening86-pixel/edu-course-library/.github/workflows/validate-courses.yml@main
+#       with:
+#         engine_ref: main        # tag or branch of the engine to validate against (pin a tag for reproducible CI)
+#         courses_path: courses   # folder in the content repo that holds the course folders
+#
+# It checks out the engine (public) and the calling repository, then runs .github/scripts/validate_courses.py.
+
+on:
+  workflow_call:
+    inputs:
+      engine_ref:
+        type: string
+        default: main
+      courses_path:
+        type: string
+        default: courses
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the content repository
+        uses: actions/checkout@v4
+        with:
+          path: content
+      - name: Check out the engine
+        uses: actions/checkout@v4
+        with:
+          repository: alwayslistening86-pixel/edu-course-library
+          ref: ${{ inputs.engine_ref || 'main' }}
+          path: engine
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate every course
+        run: python3 engine/.github/scripts/validate_courses.py --courses "content/${{ inputs.courses_path || 'courses' }}" --engine engine

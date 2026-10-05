@@ -49,6 +49,7 @@
         "kinds": [
           "course",
           "curriculum_map",
+          "misconceptions",
           "review_deck",
           "rubric",
           "student_profile",
@@ -65,7 +66,7 @@
       "exit": 2,
       "stderr_tail": [],
       "stdout": {
-        "error": "usage: validate_schema.py <course|curriculum_map|review_deck|rubric|student_profile|subjects> <file> | --kinds"
+        "error": "usage: validate_schema.py <course|curriculum_map|misconceptions|review_deck|rubric|student_profile|subjects> <file> | --kinds"
       }
     }
   ]

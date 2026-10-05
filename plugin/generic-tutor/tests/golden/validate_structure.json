@@ -15,7 +15,10 @@
         "misconceptions_status": {
           "per_stage": {
             "S1": {
-              "present": false
+              "entry_count": 1,
+              "malformed_entry_indices": [],
+              "present": true,
+              "well_formed": true
             },
             "S2": {
               "present": false
@@ -24,7 +27,7 @@
               "present": false
             }
           },
-          "stages_covered": 0,
+          "stages_covered": 1,
           "stages_total": 3
         },
         "missing_rubric_entries": [],
