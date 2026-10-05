@@ -79,5 +79,5 @@ def scan_path(path):
         except OSError:
             continue
         if found:
-            out[os.path.relpath(t, path) if os.path.isdir(path) else os.path.basename(t)] = found
+            out[os.path.relpath(t, path).replace(os.sep, "/") if os.path.isdir(path) else os.path.basename(t)] = found
     return out

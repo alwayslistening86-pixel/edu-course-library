@@ -1471,3 +1471,11 @@ UnicodeEncodeError on narrow consoles; os.replace failing with PermissionError w
 reproduce the first two with PYTHONIOENCODING and the third with a mocked os.replace, so they prove the code paths, not Windows itself.
 Still unverified on Windows: the lock-file sidecars on a synced folder, SQLite on a OneDrive folder (journaling over sync can corrupt it;
 keep the data folder out of synced locations or accept the risk), and long path names.
+
+## 5 Oct 2026 - v1.45.1: first CI runs
+
+The branch had never had a CI run (the workflow only triggered on main pushes and pull requests); workflow_dispatch and an all-branch
+push trigger gave the first real results. Linux was green on three Python versions. Real findings: one mypy error in code written that
+day, and 30 Windows failures, of which 28 were golden snapshots (backslashes in reported paths), one a POSIX-path assumption in a test, and
+one a path in an injection-scan message. None was a data-integrity bug; two changed script output (forward slashes) and are the
+only behaviour change here.

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.45.1] — 2026-10-05
+### Fixed
+- Found by the first CI runs (Linux 3.10/3.12/3.13 green; a mypy error in `purge_history.py`; 30 failures on Windows). Reported file paths in script output (injection-scan findings, erase inventory, purge plan) now always use `/`, so messages and snapshots are identical on every platform. Windows-only test assumptions (POSIX root paths, golden snapshots, symlink creation) corrected. CI now also runs on every branch push and has an informational Windows job.
+
 ## [1.45.0] — 2026-10-05
 ### Fixed
 - Windows robustness (the maintainer's deployment is Windows): text piped to a script (session notes, review cards, worksheets, intake answers, error notes) is now decoded as UTF-8 regardless of the console code page, so £, accents and dashes survive; `--help` no longer crashes on a console that cannot show a character; and every atomic write (progress files, backups, exports, dashboard, restore swap) retries briefly when a sync client or antivirus holds the destination, instead of failing the save. Verified here only by simulating a legacy code page and a locked file; not run on Windows.

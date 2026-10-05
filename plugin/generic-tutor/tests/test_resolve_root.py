@@ -19,8 +19,8 @@ class Resolve(unittest.TestCase):
         self.addCleanup(shutil.rmtree, self.d, True)
 
     def test_precedence_explicit_then_env_then_location(self):
-        self.assertEqual(paths.resolve_root("/a/b", env={"EDU_ROOT": "/c"}), "/a/b")
-        self.assertEqual(paths.resolve_root(None, env={"EDU_ROOT": "/c"}), "/c")
+        self.assertEqual(paths.resolve_root("/a/b", env={"EDU_ROOT": "/c"}), os.path.abspath("/a/b"))
+        self.assertEqual(paths.resolve_root(None, env={"EDU_ROOT": "/c"}), os.path.abspath("/c"))
         deployed = os.path.join(self.d, "EDU", ".tutor-scripts", "tutorlib", "paths.py")
         self.assertEqual(paths.resolve_root(None, env={}, here=deployed), os.path.join(self.d, "EDU"))
         self.assertIsNone(paths.resolve_root(None, env={}, here=os.path.join(self.d, "src", "scripts", "tutorlib", "paths.py")))

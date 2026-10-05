@@ -67,7 +67,7 @@ def purge(profile_root, user_id, what, course_id=None, confirm=None):
         subj = [n for n in (f"{course_id}.json", f"{course_id}_review_deck.json") if os.path.exists(os.path.join(d, "subjects", n))]
         if not subj:
             return {"purged": False, "error": f"{course_id!r} is not enrolled for {user_id!r}"}
-        plan = {"what": "course", "course_id": course_id, "files": [os.path.join("subjects", n) for n in subj],
+        plan = {"what": "course", "course_id": course_id, "files": ["subjects/" + n for n in subj],
                 "history_rows": _count_rows(db, course_id) if os.path.exists(db) else {}, "ledger_lines": _ledger_lines(d, course_id)}
     for rel in plan["files"]:
         if os.path.islink(os.path.join(d, rel)):

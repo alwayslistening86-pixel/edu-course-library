@@ -30,7 +30,7 @@ def _inventory(d):
     for dp, _dn, fn in os.walk(d):
         for f in fn:
             full = os.path.join(dp, f)
-            files.append({"path": os.path.relpath(full, d), "bytes": os.path.getsize(full) if not os.path.islink(full) else 0})
+            files.append({"path": os.path.relpath(full, d).replace(os.sep, "/"), "bytes": os.path.getsize(full) if not os.path.islink(full) else 0})
     return sorted(files, key=lambda x: x["path"])
 
 

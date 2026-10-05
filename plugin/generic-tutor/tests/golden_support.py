@@ -121,6 +121,8 @@ def normalise(value, tmp):
         return [normalise(v, tmp) for v in value]
     if isinstance(value, str):
         s = value.replace(os.path.realpath(tmp), "<TMP>").replace(tmp, "<TMP>")
+        if "<TMP>" in s:
+            s = s.replace("\\", "/")                  # Windows separators: one snapshot for every platform
         s = _TS.sub("<TS>", s)
         return _DATE.sub("<DATE>", s)
     return value
@@ -146,7 +148,7 @@ def snapshot_files(paths, fx, tmp):
     out = {}
     for p in paths:
         full = p.format(**fx)
-        rel = os.path.relpath(full, tmp)
+        rel = os.path.relpath(full, tmp).replace(os.sep, "/")
         out[rel] = normalise(read_json(full), tmp) if os.path.isfile(full) else None
     return out
 
