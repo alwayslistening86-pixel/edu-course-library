@@ -55,7 +55,8 @@ class Guard(Base):
 
     def test_revoked_consent_blocks_every_write_but_not_reads(self):
         self.assertEqual(self.tool("Write", file_path=self.p("profile", "cy", "notes.md"), content="x")[0], "deny")
-        self.assertEqual(self.tool("Bash", command=f"echo hi > {self.p('profile', 'cy', 'n.txt')}".replace(self.root + "/", ""))[0], "deny")
+        self.assertEqual(self.tool("Bash", command="echo hi > profile/cy/n.txt")[0], "deny")
+        self.assertEqual(self.tool("Bash", command="echo hi > profile\\cy\\n.txt")[0], "deny")                    # a backslash path is the same path
         self.assertEqual(self.tool("Read", file_path=self.p("profile", "cy", "notes.md"))[0], "allow")
 
     def test_another_learners_folder_is_off_limits_once_a_learner_is_pinned(self):

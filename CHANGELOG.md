@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.74.2] — 2026-10-06
+### Changed
+- Hook guard: read backslash paths in shell commands as the same paths (found by the Windows CI job, which had failed on every push since the hooks landed in 1.66.0)
+
 ## [1.74.1] — 2026-10-06
 ### Changed
 - K-22 follow-up: the activity log has a plain sentence for a retired card

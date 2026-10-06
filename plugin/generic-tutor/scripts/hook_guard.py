@@ -112,6 +112,7 @@ def decide_path(path, root, st, writing):
 
 
 def decide_bash(command, root, st):
+    command = command.replace("\\", "/")                      # Windows-style paths in a command read the same as forward-slash ones
     learners = set(PROFILE_REF.findall(command))
     pinned = st.get("learner")
     for lid in sorted(learners):
