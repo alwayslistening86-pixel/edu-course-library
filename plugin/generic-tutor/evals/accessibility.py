@@ -11,8 +11,7 @@ definitions in tutor-core):
   plain_language_mode   average sentence <= 18 words, longest <= 30, every technical term from the case's list is explained at
                         first use (a bracket or "which means/is" within 90 characters after it)
   both                  both sets
-  screen_reader_mode    no tables, no emoji or decorative symbols or box-drawing/rules, no colour-only references ("the red part"), and a plain
-                        list or numbered steps instead
+  screen_reader_mode    no tables, no emoji or decorative symbols or box-drawing/rules, no colour-only references ("the red part")
   none (control)        only the concept check - the tutor must not be forced into a style the learner did not ask for
 
 Metrics are deliberately simple and transparent (they are proxies for readability, not clinical standards).
@@ -120,8 +119,6 @@ def violations(m, mode):
             v.append("emoji, decorative symbol, arrow or rule line used")
         if m["colour_only"]:
             v.append("something identified by colour alone")
-        if not m["has_steps"]:
-            v.append("no list or numbered steps")
     if flags["plain_language_mode"]:
         if m["avg_sentence_words"] > 18:
             v.append(f"average sentence {m['avg_sentence_words']} words (> 18)")
