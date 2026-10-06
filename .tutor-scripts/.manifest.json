@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.69.0",
+  "plugin_version": "1.70.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -36,6 +36,7 @@
     "postcompile_gate.py",
     "practice_pick.py",
     "prereq_check.py",
+    "prereq_pointer.py",
     "profile_init.py",
     "profile_set.py",
     "purge_history.py",

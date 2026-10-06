@@ -1,0 +1,43 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "prereq_pointer.py",
+        "{L}",
+        "{C}",
+        "mathA",
+        "S3"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "candidates": [
+          {
+            "command": "/review mathA S2",
+            "course_id": "mathA",
+            "kind": "earlier_stage",
+            "stage_id": "S2",
+            "why": "no record points anywhere: the stage just before"
+          }
+        ],
+        "course_id": "mathA",
+        "stage_id": "S3"
+      }
+    },
+    {
+      "cmd": [
+        "prereq_pointer.py",
+        "{L}",
+        "{C}",
+        "mathA",
+        "S9"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "'S9' is not a stage of mathA"
+      }
+    }
+  ]
+}

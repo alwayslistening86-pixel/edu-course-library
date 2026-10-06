@@ -37,6 +37,7 @@ CASES = {
                           ("calibration.py", ["record", SUBJ, "S1", "4", "pass", "2026-10-06"]),
                           ("calibration.py", ["record", SUBJ, "S2", "9", "fail", "2026-10-06"]),
                           ("calibration.py", ["report", SUBJ])], [SUBJ]),
+    "prereq_pointer": ([("prereq_pointer.py", ["{L}", "{C}", "mathA", "S3"]), ("prereq_pointer.py", ["{L}", "{C}", "mathA", "S9"])], []),
     "enrich_plan": ([("enrich_plan.py", ["{C}"]), ("enrich_plan.py", ["{C}", "--course", "nope"])], []),
     "exam_to_bank": ([("exam_to_bank.py", ["{C}/mathA"])], []),
     "error_log_flow": ([("error_log.py", ["append", SUBJ, "S2", "S2.1", "practice", "misconception", "MC-1", "thinks x", "6"]),

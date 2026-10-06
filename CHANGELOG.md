@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.70.0] — 2026-10-06
+### Changed
+- L-21: prereq_pointer.py suggests where to go back to when the cause is missing_prerequisite (weak earlier stages and prerequisite courses, from the learner's own record, each with the command to type); the runner uses it at the second remediation attempt
+
 ## [1.69.0] — 2026-10-06
 ### Changed
 - L-15, L-17: opt-in self-rating calibration (calibration.py: optin / record / report, signal-class, never a gate) and a two-question reflection after each stage test that goes into the session note
