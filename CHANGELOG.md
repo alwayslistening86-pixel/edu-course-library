@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.67.0] — 2026-10-06
+### Changed
+- L-20, L-03: session_plan.py turns the learner's session_minutes into a plan and a stop-point answer (never mid-test, stop before a test that will not fit); the runner asks about time at phase ends. L-03 closed: the 70/30 current/prior mix already lives in next_items.py
+
 ## [1.66.0] — 2026-10-06
 ### Changed
 - P-05..P-08: optional Claude Code hooks (hooks/hooks.json, scripts/hook_guard.py): deploy scripts and name the learners at session start; deny hand edits of script-owned files, writes under a revoked learner, another learner's folder, and course edits during teaching commands; show the write verifier's findings at stop. Claude Code only; nothing depends on them

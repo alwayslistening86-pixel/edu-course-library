@@ -385,7 +385,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | A-09 | ✅ done | gates suite on real `gate_check.py` output, 7 cases |
 | A-10 | ✅ done | `python -m evals check` + policy in `evals/README.md` (not yet a CI gate: model runs are manual) |
 | X-01 | ✅ evals | injection suite, 8 cases (6 attack styles + 2 clean), canary-based detection |
-| L-03 | 🟡 partial | interleaving: review round-robin across courses; practice item mix current/prior (70/30). Mixed-topic learner-initiated review beyond scope flags not done |
+| L-03 | ✅ done | `next_items.py` mixes practice 70% current stage / 30% weakest earlier items (`CURRENT_SHARE`, items tagged `pool: current\|prior`); review rotates across courses. Learner-initiated mixed-topic review is not built |
 | L-04 | ✅ done | `/review [course] [stage]` scoping via `review_select.py` |
 | L-05 | ✅ done | deterministic ordering + session cap + remainder reported |
 | L-07 | ✅ done | `next_items.py` selects practice items from item_mastery + errors; wired into course-runner Practice |
@@ -413,6 +413,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-06 | ✅ done | PreToolUse hook denies hand edits of script-owned files, another learner's folder and course edits during teaching commands; matrix test with a hook simulator plus a live check (v1.66.0) |
 | P-07 | ✅ done | PreToolUse blocks every write under a revoked learner, tested in the matrix (v1.66.0) |
 | P-08 | ✅ done | Stop hook shows the write verifier's findings; the events themselves are the ledger lines scripts already write (v1.66.0) |
+| L-20 | ✅ done | `session_plan.py` (phase split, remaining time, `stop_before_test` / `wrap_up` / `over_time` / `finish_the_test`) and a runner step that asks about time at phase ends. The tutor has no clock, so elapsed time is the learner's estimate (v1.67.0) |
 | N-07 | 🟡 partial | `question_bank` schema + validation in doctor/content CI; compiler does not write banks |
 | C-09 | ✅ done | `/mock` |
 | C-10 | ✅ done | `/dashboard` + `/readiness` cover "progress" |
@@ -508,7 +509,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 1 | Finish the engine | E-09 E-26 S-09 R-15 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
 | 2 | Skill clarity | K-05 K-09 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
-| 4 | Learning design | L-03 L-06 L-08 L-09 L-11 L-15 L-17 L-18 L-20 L-21 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
+| 4 | Learning design | L-06 L-08 L-09 L-11 L-15 L-17 L-18 L-21 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-02 A-03 A-05 A-12 A-13 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
 | 6 | Content pipeline | N-04 N-05 N-06 N-08 N-09 N-10 N-11 N-12 N-13 N-14 K-10 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
 
@@ -525,7 +526,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
 | 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
 | 3 Assessment & evals | 17 | 13 | 2 | 2 |
-| 4 Learning design | 34 | 15 | 5 | 14 |
+| 4 Learning design | 34 | 17 | 4 | 13 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
 
 ### What remains, by wave
@@ -535,7 +536,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 | Finish the engine | 4 | 4 |
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 3 | 2 |
-| 4 | Learning design | 17 | 5 |
+| 4 | Learning design | 15 | 4 |
 | 5 | Measurement | 8 | 2 |
 | 6 | Content pipeline | 15 | 2 |
 
@@ -550,10 +551,10 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | C Commands | 15 | 15 | 0 | 0 | 0 |
 | P Plugin surface | 19 | 16 | 2 | 0 | 1 |
 | V Trust & verification | 10 | 7 | 0 | 2 | 1 |
-| L Learning design | 22 | 9 | 3 | 0 | 10 |
+| L Learning design | 22 | 11 | 2 | 0 | 9 |
 | A Assessment & evals | 14 | 8 | 2 | 0 | 4 |
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
-| **Total** | **217** | **166** | **16** | **3** | **32** |
+| **Total** | **217** | **168** | **15** | **3** | **31** |
