@@ -17,6 +17,14 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.74.1] — 2026-10-06
+### Changed
+- K-22 follow-up: the activity log has a plain sentence for a retired card
+
+## [1.74.0] — 2026-10-06
+### Changed
+- K-22: deck lifecycle. deck_add.py gains retire (remove named cards; the deck-full message used to say retire with no way to) and mature (long-known cards worth retiring); review-scheduler documents create, session cap and retire
+
 ## [1.73.0] — 2026-10-06
 ### Changed
 - L-18: a third accessibility flag, screen_reader_mode (plain text a screen reader reads in order: no tables, emoji, arrows or rule lines, no colour-only references, maths in words); settable through /profile and intake; accessibility eval gains a reader mode and a compare-two-things topic

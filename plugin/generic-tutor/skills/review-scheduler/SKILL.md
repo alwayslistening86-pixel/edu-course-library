@@ -17,7 +17,7 @@ description: Runs due spaced-repetition flashcards, on demand via /review or aut
 `/review` runs a due-card session on demand for the active learner, across all their active courses. It also runs automatically, without a separate command, whenever `course-runner` needs to fill a course's slots while that course sits in `roster_state: test_pending_convergence` — see the phase-convergence section of `course-runner`.
 
 ## This skill does not create content
-Cards are authored entirely by `stage-recap`, at the moment a stage's test genuinely passes, from that stage's rubric criteria and key facts. This skill only stores, schedules, and presents them — keeping the "who writes graded/teaching content" boundary consistent with the rest of the plugin (this file is scheduling logic, not subject knowledge, the same separation `tutor-core` already draws for itself).
+Cards are authored by `stage-recap` when a stage's test genuinely passes, from that stage's rubric criteria and key facts. This skill only stores, schedules and presents them: scheduling logic, not subject knowledge.
 
 ## Deck file (`/EDU/profile/<active_user_id>/subjects/<course_id>_review_deck.json`)
 Lives alongside the course's own micro-profile, under the same learner-isolation rules as everything else in `/EDU/profile/`.
@@ -43,7 +43,7 @@ Lives alongside the course's own micro-profile, under the same learner-isolation
 ```
 `due_at_slot` is a session-slot count, not a date — consistent with `journey-planner` having no calendar concept anywhere in the system. **The current slot is `student_profile.json.session_slot`** (advanced once per session by `slot_advance.py` at `/run`; `gate_check.py` also echoes it as `current_slot`). Read it from disk — never estimate it from conversation history.
 
-`item_id`/`criterion` (added alongside the pre-existing `stage_id`) name the specific syllabus item and rubric criterion a card exercises, when `stage-recap` can derive one cleanly at authoring time — the same taxonomy `error_log.py` tags entries with, so a card and the error that motivated it can be traced to the same item/criterion pair. Both are optional and independently nullable: a card built straight from a rubric criterion that doesn't map to one clean item, or a generic stage-level card, is still valid with one or both left `null` — `stage_id` remains the floor every card always carries. This skill does not derive or validate these fields itself; it stores whatever `stage-recap` hands it, unchanged, the same relationship it already has with `stage_id`.
+`item_id`/`criterion` name the syllabus item and rubric criterion a card exercises (the taxonomy `error_log.py` uses, so a card and the error behind it trace to the same pair). Both are nullable: `stage_id` is the floor every card carries. This skill stores what `stage-recap` hands it, unchanged.
 
 ## Scheduling (SM-2-lite; simple on purpose) — run the script, don't re-derive the arithmetic
 - New card: `interval_sessions = 1`, `ease = 2.3`, `lapses = 0`, `due_at_slot` = the current slot + 1 (no script call needed for a brand-new card — there's nothing to compute yet).
@@ -64,6 +64,11 @@ Lives alongside the course's own micro-profile, under the same learner-isolation
 2. Present them plainly, one at a time — right/wrong, brief explanation why, move on. This is retrieval practice, not a new teaching moment; don't re-lecture on a miss, just correct it and reschedule.
 3. For each card just reviewed, call `review_math.py apply` (above) with its card_id and the recall outcome — it writes the four updated fields onto the card itself.
 4. A review pass never writes to `syllabus_status` or `confidence` — it's a different kind of signal from a graded stage test, and conflating the two would undermine the honesty of what a "pass" actually means elsewhere in this system. A recurring miss on the same card is exactly what `error_patterns` (owned by `course-runner`) is for; surface a genuinely recurring one there instead.
+
+## Deck lifecycle
+- **Created** by `deck_add.py` when `stage-recap` seeds a passed stage (no deck, no problem). It rejects bad, duplicate or over-cap cards (12 per stage per call, 300 per deck).
+- **A session** is at most `review_select.py --limit` cards (default 20); the rest wait, reported as `remaining_due`.
+- **Retire** a card when the learner asks to stop seeing it, or when the deck is full: `deck_add.py mature <deck.json>` lists the long-known ones (interval 20+ sessions, no lapses); offer them, and on a yes `deck_add.py retire <deck.json> <card_id>...`. Never retire or delete a deck without that yes.
 
 ## What this skill does not do
 Does not author cards, does not grade a stage, does not touch `syllabus_status`, does not schedule by date. If a course has no deck yet (no stage has passed there), there's simply nothing to review for it — that's expected, not an error.

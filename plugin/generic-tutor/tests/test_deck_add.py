@@ -81,5 +81,56 @@ class Add(unittest.TestCase):
         self.assertEqual(p.returncode, 1)
 
 
+class Lifecycle(Add):
+    """K-22: retire and mature."""
+    def fill(self):
+        deck_add.add(self.deck, "solo", "S1", [self.card(i) for i in range(1, 5)])
+        d = gs.read_json(self.deck)
+        d["cards"][0].update(interval_sessions=25, lapses=0)
+        d["cards"][1].update(interval_sessions=30, lapses=2)          # old but lapsed: not mature
+        d["cards"][2].update(interval_sessions=21, lapses=0)
+        with open(self.deck, "w") as f:
+            json.dump(d, f)
+
+    def test_mature_lists_only_long_known_cards_without_lapses(self):
+        self.fill()
+        r = deck_add.mature(self.deck)
+        self.assertEqual([c["id"] for c in r["mature"]], ["S1-c1", "S1-c3"])
+        self.assertIn("error", deck_add.mature(self.deck + ".none"))
+
+    def test_retire_removes_only_the_named_cards_and_reports_unknowns(self):
+        self.fill()
+        r = deck_add.retire(self.deck, ["S1-c1", "S1-c3", "S1-c99"])
+        self.assertEqual((r["retired"], r["unknown"], r["deck_size"], r["written"]), (["S1-c1", "S1-c3"], ["S1-c99"], 2, True))
+        d = gs.read_json(self.deck)
+        self.assertEqual([c["id"] for c in d["cards"]], ["S1-c2", "S1-c4"])
+        self.assertEqual(schema.validate(d, "review_deck"), [])
+        self.assertFalse(deck_add.retire(self.deck, ["S1-c99"])["written"])
+        self.assertIn("error", deck_add.retire(self.deck + ".none", ["x"]))
+
+    def test_retiring_makes_room_in_a_full_deck(self):
+        self.fill()
+        d = gs.read_json(self.deck)
+        d["cards"] += [{"id": f"X-c{i}", "stage_id": "X", "item_id": None, "criterion": None, "front": f"filler {i}", "back": "b",
+                        "interval_sessions": 1, "ease": 2.3, "lapses": 0, "due_at_slot": 9} for i in range(deck_add.MAX_DECK - 4)]
+        with open(self.deck, "w") as f:
+            json.dump(d, f)
+        self.assertIn("deck is full", deck_add.add(self.deck, "solo", "S2", [self.card(77)])["rejected"][0]["reason"])
+        deck_add.retire(self.deck, ["S1-c1"])
+        self.assertEqual(deck_add.add(self.deck, "solo", "S2", [self.card(77)])["added"], ["S2-c1"])
+
+    def test_retire_consent_and_cli(self):
+        self.fill()
+        pf = f"{self.fx['L']}/student_profile.json"
+        p = gs.read_json(pf)
+        p["consent"]["status"] = "revoked"
+        with open(pf, "w") as f:
+            json.dump(p, f)
+        self.assertEqual(deck_add.retire(self.deck, ["S1-c1"])["action"], "not_persisted")
+        self.assertEqual(len(gs.read_json(self.deck)["cards"]), 4)
+        out = subprocess.run([sys.executable, os.path.join(gs.SCRIPTS, "deck_add.py"), "mature", self.deck], capture_output=True, text=True)
+        self.assertEqual(json.loads(out.stdout)["deck_size"], 4)
+
+
 if __name__ == "__main__":
     unittest.main()
