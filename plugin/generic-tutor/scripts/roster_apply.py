@@ -2,13 +2,15 @@
 """
 roster_apply.py -- the roster and level-ledger changes that used to be hand-edited by the model, as one script (K-19).
 
-    python3 roster_apply.py drop    <profile_dir> <courses_dir> <course_id>
+    python3 roster_apply.py drop    <profile_dir> <courses_dir> <course_id> [--preview]
     python3 roster_apply.py advance <profile_dir> <courses_dir>
     python3 roster_apply.py lock    <profile_dir> <course_id> [<course_id> ...]
 
   drop     roster_state -> "dropped" for an active / test_pending_convergence / dormant course (everything else in its file is
            kept), then wakes every dormant course `roster_check.py` lists in `wake_now` (dormant -> active). Refuses a course that is
            complete, already dropped, missing, or grounding-suspended (that case is the auditor's erase flow, not a drop).
+           --preview does every check and reports `would_wake` on a scratch copy of the profile; nothing real is written (C-04: show
+           the consequence, get a yes, then run it without the flag).
   advance  after a course completes: walks `highest_level_cleared` up as far as `cohort_status.level_walk` allows (it never lowers
            it), writes the new value, then wakes what the higher ledger unlocked. No change when nothing new has cleared.
   lock     marks the listed live courses dormant (the "adding this course locks those" consequence reported by
@@ -20,7 +22,9 @@ written atomically under its lock, the whole operation holds the profile file's 
 """
 import json
 import os
+import shutil
 import sys
+import tempfile
 
 import roster_check
 from cohort_status import LIVE_STATES, compute_cohorts, is_complete, is_suspended, level_walk
@@ -100,6 +104,17 @@ def drop(profile_dir, courses_dir, course_id):
     return {"action": "drop", "course_id": course_id, "previous_state": current, "woke": woke, "written": True}
 
 
+def drop_preview(profile_dir, courses_dir, course_id):
+    """What `drop` would do, computed by running it on a throwaway copy of the profile (the ledger lives in the copy too)."""
+    with tempfile.TemporaryDirectory() as tmp:
+        copy = os.path.join(tmp, "profile")
+        shutil.copytree(profile_dir, copy)
+        r = drop(copy, courses_dir, course_id)
+    if "error" in r or r.get("written") is False:
+        return r
+    return {"action": "drop_preview", "course_id": course_id, "previous_state": r["previous_state"], "would_wake": r["woke"], "written": False}
+
+
 def advance(profile_dir, courses_dir):
     refused = _guard(profile_dir)
     if refused:
@@ -150,6 +165,8 @@ def lock(profile_dir, course_ids):
 
 def main(argv):
     try:
+        if len(argv) == 5 and argv[0] == "drop" and argv[4] == "--preview":
+            return cli.emit(drop_preview(argv[1], argv[2], argv[3]))
         if len(argv) == 4 and argv[0] == "drop":
             return cli.emit(drop(argv[1], argv[2], argv[3]))
         if len(argv) == 3 and argv[0] == "advance":
@@ -159,7 +176,7 @@ def main(argv):
     except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         return 1
-    print(json.dumps({"error": "usage: roster_apply.py drop <profile_dir> <courses_dir> <course_id> | advance <profile_dir> <courses_dir> | lock <profile_dir> <course_id>..."}))
+    print(json.dumps({"error": "usage: roster_apply.py drop <profile_dir> <courses_dir> <course_id> [--preview] | advance <profile_dir> <courses_dir> | lock <profile_dir> <course_id>..."}))
     return 2
 
 

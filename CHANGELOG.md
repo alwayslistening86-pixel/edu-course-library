@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.61.0] — 2026-10-06
+### Changed
+- C-04: /drop previews its consequence (roster_apply drop --preview) before the confirmed drop
+
 ## [1.60.0] — 2026-10-06
 ### Changed
 - `/audit` takes `--report-only`, `--course <id>` and `--tier N`; `audit_run.py --course` scopes the deterministic report to one course (C-12)

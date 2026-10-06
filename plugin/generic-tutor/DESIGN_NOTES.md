@@ -1604,3 +1604,8 @@ characters, the only deliberate increase in this change: the filters are new beh
 --course is the only flag that needed code (audit_run scopes its report and refuses to treat the other courses as removed when diffing); --report-only
 and --tier are rules for the model about what to apply, written into the command. A one-course report is not a library baseline, so the
 command says not to save it as one. The auditor skill's duplicate-merge prose was tightened to pay for the flag text.
+
+## 6 Oct 2026 - v1.61.0: /drop previews before it acts (C-04)
+
+`roster_apply.py drop --preview` runs the real drop on a throwaway copy of the profile, so `would_wake` is exactly what the drop would do and nothing
+real is written. The skill's order is now preview, one-line consequence, clear yes, drop. The separate-skill half of the task was already done by K-19.

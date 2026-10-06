@@ -8,4 +8,4 @@ argument-hint: [course_id]
 
 Run the `/drop` flow described in the Journey Planner skill for course_id: $1. If course_id is at grounding_status suspended_ungrounded, follow the Course Auditor skill's suspension-drop procedure instead.
 
-**Arguments:** `$1` = a course id the learner is enrolled in. If it is missing, list their enrolled, not-yet-dropped courses and ask. Explain the consequence (roster slot freed, progress preserved; or, for a suspended course, the no-trace discard) and get a clear yes before dropping.
+**Arguments:** `$1` = a course id the learner is enrolled in. If it is missing, list their enrolled, not-yet-dropped courses and ask. Preview first (`--preview` in the skill), explain the consequence (slot freed, progress preserved, courses that would wake; or, for a suspended course, the no-trace discard) and get a clear yes before dropping.

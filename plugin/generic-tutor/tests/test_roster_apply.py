@@ -54,6 +54,15 @@ class Drop(Base):
         self.assertEqual(self.sj("mathB")["roster_state"], "active")
         self.assertEqual(schema.validate(self.sj("mathA"), "subjects"), [])
 
+    def test_preview_reports_the_consequence_and_writes_nothing(self):
+        before = (self.sj("mathA"), self.sj("mathB"))
+        r = ra.drop_preview(self.P, self.C, "mathA")
+        self.assertEqual((r["action"], r["written"], r["previous_state"]), ("drop_preview", False, "active"))
+        self.assertIn("mathB", r["would_wake"])
+        self.assertEqual((self.sj("mathA"), self.sj("mathB")), before)
+        self.assertIn("error", ra.drop_preview(self.P, self.C, "nope"))
+        self.assertTrue(ra.drop_preview(self.P, self.C, "design")["already_dropped"])
+
     def test_refusals(self):
         self.assertIn("error", ra.drop(self.P, self.C, "nope"))
         self.assertIn("error", ra.drop(self.P, self.C, "../x"))
