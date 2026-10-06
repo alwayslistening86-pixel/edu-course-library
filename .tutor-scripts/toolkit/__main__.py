@@ -12,6 +12,7 @@ import sys
 COMMANDS = {
     "backup": "backup",
     "health": "health",
+    "status": "summary",
     "progress": "progress",
     "review-due": "review_due",
     "errors": "errors",

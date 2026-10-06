@@ -29,6 +29,7 @@ import core  # noqa: E402
 import backup  # noqa: E402
 import health  # noqa: E402
 import progress  # noqa: E402
+import summary  # noqa: E402
 import review_due  # noqa: E402
 import errors  # noqa: E402
 import export_anki  # noqa: E402
@@ -74,7 +75,7 @@ class ToolkitApp:
         self.learners = core.list_learners(self.edu_root)
 
         root_window.title("generic-tutor toolkit")
-        root_window.geometry("320x330")
+        root_window.geometry("320x370")
         root_window.resizable(False, False)
 
         frame = ttk.Frame(root_window, padding=12)
@@ -90,6 +91,7 @@ class ToolkitApp:
                       foreground="#a33").pack(pady=(0, 12))
 
         buttons = [
+            ("Status", self.show_status),
             ("Progress", self.show_progress),
             ("Review due", self.show_review_due),
             ("Errors", self.show_errors),
@@ -109,6 +111,14 @@ class ToolkitApp:
             messagebox.showinfo("No learner selected", "No learner profile found under profile/ yet.")
             return None
         return lid
+
+    def show_status(self):
+        lid = self._learner()
+        if not lid:
+            return
+        _open_text_window(self.root_window, f"Status — {lid}",
+                           _fmt(summary.snapshot(lid, root=self.edu_root)),
+                           on_refresh=lambda: _fmt(summary.snapshot(lid, root=self.edu_root)))
 
     def show_progress(self):
         lid = self._learner()

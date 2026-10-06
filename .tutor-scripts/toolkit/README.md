@@ -33,6 +33,7 @@ second place to actually study.
 |---|---|
 | `backup` | zip a learner's `profile/<id>/` folder |
 | `health` | schema versions, deployed scripts version, suspended / attention courses |
+| `status` | the same one-screen summary as `/status` (roster, stages, confidence, reviews due, next step) |
 | `progress` | roster state, stage, confidence, lowest-mastery items per course |
 | `review-due` | cards due now (read-only) |
 | `errors` | the error log grouped by cause and course |
@@ -51,6 +52,9 @@ To restore a backup use `restore_profile.py` (dry run by default), not the toolk
   recompiled; this can't be.
 - **Health** — schema versions, which scripts version is actually deployed
   on this machine, and which courses are suspended or need attention.
+- **Status** — the same one-screen summary `/status` gives (roster, stages passed,
+  confidence, reviews due, suggested next step), computed by the plugin's own
+  `status.py`, so the two can never disagree.
 - **Progress** — roster state, current stage, confidence, and a summary of
   per-item mastery (lowest items first) for each enrolled course.
 - **Review due** — what the spaced-repetition deck says is due right now,

@@ -428,6 +428,26 @@ class AnkiNotes(unittest.TestCase):
         with zipfile.ZipFile(r["apkg_path"]) as z:
             self.assertEqual(json.loads(z.read("media")), {})
 
+
+class ToolkitStatus(unittest.TestCase):
+    """U-04: the toolkit's status view is the plugin's own status.py, so it matches /status exactly."""
+
+    def test_matches_the_status_script_and_is_wired_into_cli_and_gui(self):
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import golden_support
+        import summary
+        import status as status_script
+        tmp = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, tmp, True)
+        fx = golden_support.build_fixture(tmp)
+        got = summary.snapshot("amy", root=tmp)
+        self.assertEqual(got, status_script.build(fx["L"], fx["C"]))
+        self.assertIn("error", summary.snapshot("nobody", root=tmp))
+        with open(os.path.join(TOOLKIT, "__main__.py"), encoding="utf-8") as f:
+            self.assertIn('"status": "summary"', f.read())
+        with open(os.path.join(TOOLKIT, "gui.pyw"), encoding="utf-8") as f:
+            self.assertIn('("Status", self.show_status)', f.read())
+
 if __name__ == "__main__":
     unittest.main()
 

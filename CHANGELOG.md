@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.72.0] — 2026-10-06
+### Changed
+- U-04: the toolkit gains a status view (CLI and GUI button) that calls the plugin's own status.py, so it always matches /status. K-30 closed: health-status already is the learner-facing readout skill
+
 ## [1.71.0] — 2026-10-06
 ### Changed
 - U-07, U-05: Anki export escapes every field (no media or script can ride along), exports {{c1::...}} fronts as cloze notes and makes tags space-safe; progress is framed as learning and next steps, with a test that the dashboard has no gamified wording
