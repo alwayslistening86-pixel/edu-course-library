@@ -17,6 +17,12 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.63.0] — 2026-10-06
+
+Why: the plan is to enrich courses after the build through `/audit`, but the auditor only reported missing misconceptions and could not make a bank. A pilot on `gcse_psychology` found the second problem: the sandbox's egress proxy blocks `aqa.org.uk` and `filestore.aqa.org.uk` (WebSearch works, WebFetch does not), so examiner-report passages cannot be read here and a "documented" misconception would have to rest on a search summary. The skill now says to write `plausible, not board-documented` or omit in that case. What does not need the web: 62 of 62 courses have an `exam/exam.md`, and over the library 369 ready-made items carry answer keys. `exam_to_bank.py` converts the 286 that convert cleanly (mark points, levels guides, multiple choice) and lists the other 83 with reasons (65 code-output items, 16 whose scheme is free prose, 2 that are instructions to the tutor); 30 courses have no ready-made items at all and need items authored. Not eval-measured: no suite covers the audit, so this is untested against a model run.
+### Changed
+- Audit enrichment tier: enrich_plan.py (what each course lacks, where to look) and exam_to_bank.py (starter question bank from a course's own exam/exam.md, no invented content); the auditor skill gains the pass, with a rule against claiming sources it could not read
+
 ## [1.62.0] — 2026-10-06
 ### Changed
 - C-15: command argument hints use one convention (snake_case placeholders, --kebab flags); /audit and /list-courses declare theirs; a test holds it

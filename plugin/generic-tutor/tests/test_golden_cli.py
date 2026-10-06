@@ -30,6 +30,8 @@ CASES = {
     "diagnostic_gate": ([("diagnostic_gate.py", [SUBJ, "S1", "S1.1", "true", "false"]),
                          ("diagnostic_gate.py", [SUBJ, "S1", "S1.1", "false", "false"]),
                          ("diagnostic_gate.py", [SUBJ, "S1", "S1.1", "false", "true"])], []),
+    "enrich_plan": ([("enrich_plan.py", ["{C}"]), ("enrich_plan.py", ["{C}", "--course", "nope"])], []),
+    "exam_to_bank": ([("exam_to_bank.py", ["{C}/mathA"])], []),
     "error_log_flow": ([("error_log.py", ["append", SUBJ, "S2", "S2.1", "practice", "misconception", "MC-1", "thinks x", "6"]),
                         ("error_log.py", ["append", SUBJ, "S2", "S2.1", "practice", "misconception", "NONE", "again", "7"]),
                         ("error_log.py", ["query", SUBJ]),
