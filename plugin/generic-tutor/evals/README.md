@@ -40,6 +40,13 @@ The `claude` backend runs `claude -p` with no tools, no slash commands, no MCP a
 ## Cost (A-13)
 Every report has a `cost` block: calls, mean and 95th-percentile seconds per call (real only for the `claude` backend), the system text's size in characters (the skill under test: a skill that grows shows up here) and the mean prompt size. `check` lists a change in `system_chars` or `mean_seconds` against the baseline as `cost_changed`; it does not fail on it. Per-command context size is `tools/context_budget.py`; turns per stage need real sessions and are not measured.
 
+## Simulated learners (A-05)
+`evals/simulate.py` needs no model: it plays simulated learners (20 items, hidden known/unknown state, 10% slip, 20% guess, 15% chance of learning an unknown item per attempt) against three practice-selection policies and reports the share of items known at the end, how much practice went to items not yet known, and how far the engine's BKT estimate ends up from the truth. `python3 evals/simulate.py` prints the table; `tests/test_simulate.py` keeps the engine's rule ahead of random and round-robin.
+
+Result at 300 seeds: the engine's rule (weakest first, `next_items.weakness`) ends with 0.54 of items known after 40 steps against 0.48 (random) and 0.49 (round-robin), and 0.82 against 0.67 and 0.68 after 100 steps. Its estimate is worse on the items it has not drilled (error 0.45 against 0.31 at 40 steps, 0.26 against 0.20 at 100) because it spends its practice where learners are failing, not on confirming what they know. Raising the never-tried bonus changed little, so the rule was left alone; the cost is that "items observed" in `/readiness` is the honest measure of how much the estimate rests on.
+
+**What it cannot show:** every effect is an assumption of the simulator. It catches a rule that is worse than random or an estimate that drifts; it says nothing about whether real people learn this way. The question the task also named, whether confidence-based pacing helps, is not tested here: any answer would come from the simulator's own learning model, so it would be circular. That needs real learners.
+
 ## Regression policy (A-10)
 A pull request that changes a skill used by a suite attaches the output of `python3 -m evals check` for a fresh run, or says why not. Any rise in critical failures (per case or per sample), errored cases, or accuracy more than 0.05 below the baseline needs an explanation. Baselines are `results/baseline-<suite>-sonnet.json`.
 

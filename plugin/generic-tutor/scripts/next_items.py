@@ -36,6 +36,11 @@ SCAFFOLD_LOW, SCAFFOLD_HIGH = 0.4, 0.7        # p_mastery bands for worked-examp
 LEVELS = ("none", "partial", "full")
 
 
+def weakness(p, observed, n_err=0):
+    """How much an item needs practice: low mastery, unresolved errors, and a small bonus for never having been tried."""
+    return (1 - p) + ERROR_WEIGHT * n_err + (0.0 if observed else UNSEEN_BONUS)
+
+
 def scaffold_for(p, n_err):
     """How much worked example an item gets: full below SCAFFOLD_LOW, partial below SCAFFOLD_HIGH, else none; an unresolved error raises it one level."""
     level = 2 if p < SCAFFOLD_LOW else 1 if p < SCAFFOLD_HIGH else 0
@@ -72,7 +77,7 @@ def choose(learner_dir, courses_dir, course_id, count=6):
         m = mastery.get(item_id) if isinstance(mastery.get(item_id), dict) else None
         p = m.get("p_mastery", P_INIT) if m else P_INIT
         n_err = unresolved.get(item_id, 0)
-        w = (1 - p) + ERROR_WEIGHT * n_err + (UNSEEN_BONUS if not m else 0.0)
+        w = weakness(p, bool(m), n_err)
         why = [f"mastery {p:.2f}" + ("" if m else " (not yet observed)")]
         if n_err:
             why.append(f"{n_err} unresolved error(s)")
