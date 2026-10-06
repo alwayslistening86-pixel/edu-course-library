@@ -68,6 +68,7 @@ jobs:
           Write-Output "---- failing tests ----"
           Select-String -Path ../../win-test.log -Pattern '^(FAIL|ERROR): ' | ForEach-Object { $_.Line }
           Select-String -Path ../../win-test.log -Pattern '^[-+] ' | Select-Object -First 40 | ForEach-Object { $_.Line }
+          Select-String -Path ../../win-test.log -Pattern '^(FAIL|ERROR): ' -Context 0,14 | Select-Object -First 6 | ForEach-Object { $_.ToString() }
           Select-String -Path ../../win-test.log -Pattern '^(Ran |FAILED|OK)' | ForEach-Object { $_.Line }
           exit $code
 
