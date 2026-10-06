@@ -2,7 +2,7 @@
 
 Inventory of every persisted file, derived from the **scripts** (the executable truth), cross-checked against the skills. `/EDU/` below is the install's data root. When a skill and a script disagree, the script wins and the skill is a bug (tracked as S-xx).
 
-Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scripts/tutorlib/schemas/` (deployed with the scripts): `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric`. Check any file with `validate_schema.py <kind> <file>`. `tests/test_schemas.py` validates every file the scripts write. This file explains ownership and intent; the schemas are the executable definition. Not yet schematised: `misconceptions.json` (S-12), `change.md` (S-11), `access.json`, the manifest, SQLite tables.
+Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scripts/tutorlib/schemas/` (deployed with the scripts): `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric`, `misconceptions`, `question_bank`, `access`, `manifest`. `schemas/outputs/` holds shapes of script output that skills may quote (`plan_estimate`). Check any file with `validate_schema.py <kind> <file>`. `tests/test_schemas.py` validates every file the scripts write. This file explains ownership and intent; the schemas are the executable definition. Not schematised: `change.md` (checked by `change_log.py`), SQLite tables (checked by `sqlite_store.py`).
 
 ## Layout and ownership
 

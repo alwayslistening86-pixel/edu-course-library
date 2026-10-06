@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "plan_estimate.py output: the numbers /plan may quote (it never invents others)",
+  "type": "object",
+  "required": ["assumptions", "courses", "combined", "sessions_per_week"],
+  "properties": {
+    "assumptions": {"type": "object", "required": ["default_slots_per_stage", "review_overhead", "on_track_margin", "note"]},
+    "sessions_per_week": {"type": ["number", "null"]},
+    "courses": {"type": "array", "items": {"type": "object", "required": ["course_id", "stages_remaining", "slots_remaining_estimate", "weeks_remaining_estimate"],
+      "properties": {
+        "course_id": {"type": "string", "minLength": 1},
+        "stages_remaining": {"type": "integer", "minimum": 0},
+        "slots_remaining_estimate": {"type": "integer", "minimum": 0},
+        "weeks_remaining_estimate": {"type": ["number", "null"]},
+        "target": {"type": "object", "required": ["feasibility"], "properties": {
+          "feasibility": {"enum": ["on_track", "tight", "short", "expired", "unknown"]},
+          "shortfall_slots": {"type": "integer", "minimum": 0}}}}}},
+    "combined": {"type": "object", "required": ["slots_remaining_estimate", "weeks_remaining_estimate"]}
+  }
+}

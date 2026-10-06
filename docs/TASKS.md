@@ -340,7 +340,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | E-11 | 🟡 partial | exit-code convention (0/1/2) implemented via `tutorlib/cli.py` and pinned by goldens (v1.16.0); stable error-code enum still open |
 | E-10 | 🟡 partial | `cli.emit` shared emitter; `{ok,data,error{code,message}}` envelope still open |
 | E-17 | ✅ done | `LIVE_STATES` / `SLOT_STATES` / `is_suspended` single-sourced in `cohort_status.py`; guard test; goldens unchanged (v1.16.1). `is_complete` was already shared; JSON-load helpers still duplicated (→ tutorlib IO) |
-| S-05 | 🟡 mostly | 6 schemas (profile, subjects, deck, course, curriculum_map, rubric) in `tutorlib/schemas/`; misconceptions/change.md/access/manifest/sqlite not yet |
+| S-05 | ✅ done | schemas for every persisted JSON file: profile, subjects, deck, course, curriculum_map, rubric, misconceptions, question_bank, access, manifest (`change.md` and SQLite have their own checkers); `confirm_access.py` writes through `state.save`; a test validates files written by the scripts (v1.64.0) |
 | S-06 | ✅ done | `tutorlib/schema.py` stdlib validator + `validate_schema.py` |
 | S-07 | ✅ done | `tests/test_schemas.py`: all fixtures and script-written files conform; bad shapes rejected |
 | S-09 | 🟡 partial | six writers refuse newer `schema_version` (`tutorlib/state.py`); migration framework (ordered named migrations) still open |
@@ -403,7 +403,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | D-10 | ✅ done | `docs/RUNBOOK.md` |
 | L-12 | ✅ done | opt-in `target` date: `plan_target.py` + `plan_estimate.py` feasibility bands; ADR 0009; planner/`/plan` updated |
 | K-20 | ✅ done | `plan_estimate.py` replaces hand-summed estimates |
-| K-21 | 🟡 partial | script output is the plan input; a formal plan-output schema is still open |
+| K-21 | ✅ done | `schemas/outputs/plan_estimate.json` fixes the shape of the numbers /plan may quote; the planner skill says to quote only returned fields; a test validates real output (v1.64.0) |
 | L-02 | ✅ done | retrieval warm-up (`review_select.py --limit 3`) at the start of practice |
 | K-04 | ✅ done | concrete accessibility rules in tutor-core; measured (compliant 18 → 25 / 36) |
 | L-18 | 🟡 mostly | dyslexia/plain-language rules + `accessibility` eval; text-only/screen-reader mode and non-English support still open |
@@ -501,7 +501,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 
 | Wave | Theme | Tasks | Why this order |
 |---|---|---|---|
-| 1 | Finish the engine | E-09 E-23 E-26 S-05 S-09 R-15 K-21 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
+| 1 | Finish the engine | E-09 E-23 E-26 S-09 R-15 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
 | 2 | Skill clarity | K-05 K-09 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-05 P-06 P-07 P-08 P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-03 L-06 L-08 L-09 L-11 L-15 L-17 L-18 L-20 L-21 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
@@ -517,9 +517,9 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 
 | Phase | Tasks | Done | Partial | Open or deferred |
 |---|---|---|---|---|
-| 0 Foundations | 36 | 34 | 2 | 0 |
+| 0 Foundations | 36 | 35 | 1 | 0 |
 | 1 Engine hardening | 35 | 31 | 4 | 0 |
-| 2 Plugin surface & trust | 76 | 65 | 5 | 6 |
+| 2 Plugin surface & trust | 76 | 66 | 4 | 6 |
 | 3 Assessment & evals | 17 | 13 | 2 | 2 |
 | 4 Learning design | 34 | 15 | 5 | 14 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
@@ -528,7 +528,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 
 | Wave | Theme | Not yet done | Of which started |
 |---|---|---|---|
-| 1 | Finish the engine | 7 | 7 |
+| 1 | Finish the engine | 5 | 5 |
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 7 | 2 |
 | 4 | Learning design | 17 | 5 |
@@ -541,8 +541,8 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 |---|---|---|---|---|---|
 | R Repo | 18 | 17 | 1 | 0 | 0 |
 | E Engine | 26 | 23 | 3 | 0 | 0 |
-| S Schemas | 14 | 12 | 2 | 0 | 0 |
-| K Skills | 36 | 29 | 3 | 1 | 3 |
+| S Schemas | 14 | 13 | 1 | 0 | 0 |
+| K Skills | 36 | 30 | 2 | 1 | 3 |
 | C Commands | 15 | 15 | 0 | 0 | 0 |
 | P Plugin surface | 19 | 12 | 2 | 0 | 5 |
 | V Trust & verification | 10 | 7 | 0 | 2 | 1 |
@@ -552,4 +552,4 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
-| **Total** | **217** | **159** | **19** | **3** | **36** |
+| **Total** | **217** | **161** | **17** | **3** | **36** |

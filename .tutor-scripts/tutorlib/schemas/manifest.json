@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": ".tutor-scripts/.manifest.json (written by bootstrap_scripts.py)",
+  "type": "object",
+  "required": ["plugin_version", "files"],
+  "properties": {
+    "plugin_version": {"type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$"},
+    "files": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "packages": {"type": "array", "items": {"type": "string", "minLength": 1}}
+  }
+}

@@ -73,7 +73,25 @@ class RealSchemas(unittest.TestCase):
             mis = f"{self.fx['C']}/{c}/stages/S1/misconceptions.json"
             if os.path.isfile(mis):
                 out.append(("misconceptions", mis))
+        # files written by their own scripts into scratch folders
+        import bootstrap_scripts
+        import confirm_access
+        acc = os.path.join(self.tmp, "accessdir")
+        os.makedirs(acc)
+        confirm_access.confirm(acc, "shared", "2026-10-06")
+        out.append(("access", os.path.join(acc, "access.json")))
+        dep = os.path.join(self.tmp, "deployed")
+        bootstrap_scripts.bootstrap(os.path.join(os.path.dirname(HERE), "scripts"), os.path.join(os.path.dirname(HERE), ".claude-plugin", "plugin.json"), dep)
+        out.append(("manifest", os.path.join(dep, ".manifest.json")))
         return out
+
+    def test_plan_estimate_output_matches_its_schema(self):
+        r = gs.run_step("plan_estimate.py", ["{L}", "{C}"], self.fx, self.tmp)
+        self.assertEqual(r["exit"], 0)
+        self.assertEqual(schema.validate_output(r["stdout"], "plan_estimate"), [])
+        bad = dict(r["stdout"])
+        bad.pop("courses")
+        self.assertTrue(schema.validate_output(bad, "plan_estimate"))
 
     def test_all_kinds_have_a_fixture(self):
         self.assertEqual(sorted({k for k, _ in self.fixture_files()}), schema.kinds())

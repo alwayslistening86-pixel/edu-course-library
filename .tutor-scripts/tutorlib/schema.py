@@ -35,6 +35,15 @@ def load(kind):
         return json.load(f)
 
 
+def validate_output(instance, name):
+    """Errors for a script's JSON *output* against `schemas/outputs/<name>.json` (the shapes skills are allowed to quote)."""
+    with open(os.path.join(SCHEMA_DIR, "outputs", f"{name}.json"), encoding="utf-8") as f:
+        sch = json.load(f)
+    errors = []
+    _check(instance, sch, sch, "", errors)
+    return errors
+
+
 def _resolve(ref, root):
     node = root
     for part in ref.lstrip("#/").split("/"):

@@ -15,7 +15,7 @@ import json
 import os
 import sys
 
-from tutorlib import atomic_io, cli
+from tutorlib import cli, state
 
 STATUS = {"isolated": "isolated_confirmed", "shared": "shared_confirmed"}
 
@@ -37,7 +37,7 @@ def confirm(folder, choice, today_iso):
                 previous = json.load(f).get("status")
         except (OSError, ValueError, AttributeError):
             previous = None
-    atomic_io.write_json(path, {"status": STATUS[choice], "confirmed_on": today_iso})
+    state.save(path, {"status": STATUS[choice], "confirmed_on": today_iso}, "access")
     return {"folder": folder, "status": STATUS[choice], "previous_status": previous, "written": True}
 
 
