@@ -17,6 +17,7 @@ from evals.hints import PROBLEMS, states_answer
 NAME = "fading"
 DECISIONS = ("appropriate", "inappropriate")
 BANDS = ("full", "partial", "none")
+_INVITE = re.compile(r"\b(try|go ahead|have a go|your turn|attempt|solve|work (it|this) out|give it a|over to you|see what you)\b", re.I)
 _WORKED = re.compile(r"(=|^\s*\d+[.)]\s|^\s*step\s*\d)", re.I | re.M)
 
 
@@ -38,7 +39,7 @@ def violations(text, case):
     if case["band"] == "none":
         if n > 1:
             v.append(f"scaffold none but {n} worked lines: the learner should attempt it cold")
-        if "?" not in text and "try" not in text.lower():
+        if "?" not in text and not _INVITE.search(text):
             v.append("scaffold none but the learner is not invited to try")
     return v
 
