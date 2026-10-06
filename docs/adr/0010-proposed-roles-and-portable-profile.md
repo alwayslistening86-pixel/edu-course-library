@@ -1,6 +1,7 @@
 # ADR 0010 — Proposed: role-separated models and a portable profile medium
 
-Status: **proposed, not started** (parked on 6 Oct 2026; revisit once the build list and a real-use period are behind us)
+Status: **proposed, not started** (parked on 6 Oct 2026; revisit once the build list and a real-use period are behind us).
+Owner's stance (6 Oct 2026): the **portable profile** is the settled answer to multi-user (the USB stick is one example; the principle is that learner state travels with the learner, not with the machine); a **local UX** is now a likely addition, not something to keep refusing; the **role split** is the hardest of the three and comes last. A cloud model (Claude) must remain a full fallback *teacher*, not only an examiner, whenever no local model is set up.
 
 ## Where this came from
 A conversation the owner had with another assistant, which compared this project with other open tutors and suggested three additions. Its ranking of other projects is unverified and was written from this project's own documents, so it is not evidence of anything; the ideas are what is kept.
