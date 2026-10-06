@@ -11,4 +11,4 @@ One short file per decision: context/why, decision, consequences. New decisions 
 - [0008](0008-no-hash-chained-audit.md) — No hash-chained audit log
 - [0001](0001-hooks-and-platform-support.md) — Hooks, platform support and plugin validation
 - [0009](0009-optional-target-date.md) — An optional, learner-stated target date (amends 0002)
-- [0010](0010-proposed-roles-and-portable-profile.md) — Proposed, not started: role-separated models and a portable profile medium
+- [0010](0010-proposed-roles-and-portable-profile.md) — Direction accepted, design pending: portable profile, local UX, role-separated models (tasks B-01 to B-06)

@@ -292,6 +292,19 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 ---
 
+## B — Surfaces & deployment (direction accepted 6 Oct 2026; build patterns still to be designed)
+
+These come from the owner's review of three ideas (ADR 0010): learner state that travels with the learner, a local user interface over the scripts, and models given different roles. They are no longer being dismissed. They are also not yet designed: each task below starts with a design step (a short ADR or design note with the build pattern, the risks and how it will be measured), and nothing should be built before that. Order matters: B-01 first, B-02 next, the role work last.
+
+| ID | Task | Done when | Dep | Size | Ph |
+|---|---|---|---|---|---|
+| B-01 🟡 | **Portable profile.** Design, then build: resolve the data root from any mounted folder or drive; a "this is a valid profile" check before a session starts; safe-eject and interrupted-write guidance; an option to encrypt the live profile; a position on what the medium may be (USB, plain folder, never a synced folder). Multi-user is many single-user profiles plus one shared engine, not tenancy | Design note, then tests on a simulated removable folder, including an unplug mid-write | E-07, X-08 | L | 6 |
+| B-02 🟡 | **Local UX** over the existing scripts. Design the surface first (what a session looks like, where Claude or a local model plugs in as the teaching voice). First version is deterministic only: multiple-choice and numeric items, review cards, status, practice items and recorded results through the same scripts, with no model in the bookkeeping | Design note; a UI that completes a deterministic stage loop against the scripts | B-01 | L | 6 |
+| B-03 🟡 | **Local-model eval backend**: run every eval suite on a small local model, record the results, and decide which rules hold before it is allowed to teach | A backend in the eval harness; a baseline per suite | A-14 | M | 6 |
+| B-04 🟡 | **Practice-judgment rule** (ADR): practice-phase judgments such as why an answer was wrong write `error_log`, `item_mastery` and `confidence`. Decide who may make them when the teaching model is not the examiner (script-marked items, proposals checked by a script, or deferred to the examiner) | ADR accepted | B-02 | M | 6 |
+| B-05 🟡 | **Role policy**: tutor voice, examiner and staff channel as a table of which role may call which script, enforced by the hook guard and by the scripts; Claude stays a full fallback teacher when no local model is set up; the examiner being offline is stated plainly | Policy table in code with tests; student mode cannot install or edit | B-03, B-04 | L | 6 |
+| B-06 🟡 | **Fleet and children's data** notes: how course content reaches many machines (private repo, licensing), how engine updates reach them, what a school deployment owes in data protection. A design note for the owner, not legal advice | Note reviewed by the owner | B-01 | S | 6 |
+
 ## Progress
 
 | Task | Status | Notes |
@@ -522,6 +535,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-02 A-03 A-05 A-12 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
 | 6 | Content pipeline | N-04 N-05 N-06 N-08 N-09 N-10 N-11 N-12 N-13 N-14 K-10 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
+| 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
 ## Where we are
@@ -538,6 +552,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 3 Assessment & evals | 17 | 14 | 2 | 1 |
 | 4 Learning design | 34 | 27 | 2 | 5 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
+| 6 Surfaces & deployment | 6 | 0 | 0 | 6 |
 
 ### What remains, by wave
 
@@ -549,6 +564,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 4 | Learning design | 5 | 2 |
 | 5 | Measurement | 7 | 2 |
 | 6 | Content pipeline | 15 | 2 |
+| 7 | Surfaces & deployment | 6 | 0 |
 
 ### By workstream
 
@@ -567,4 +583,5 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
-| **Total** | **217** | **178** | **13** | **4** | **22** |
+| B Surfaces & deployment | 6 | 0 | 0 | 0 | 6 |
+| **Total** | **223** | **178** | **13** | **4** | **28** |

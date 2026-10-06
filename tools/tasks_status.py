@@ -16,9 +16,9 @@ import os
 import re
 import sys
 
-ORDER = "R E S K C P V L A U N X D".split()
+ORDER = "R E S K C P V L A U N X D B".split()
 NAMES = {"R": "Repo", "E": "Engine", "S": "Schemas", "K": "Skills", "C": "Commands", "P": "Plugin surface", "V": "Trust & verification",
-         "L": "Learning design", "A": "Assessment & evals", "U": "Learner visibility", "N": "Content pipeline", "X": "Security & privacy", "D": "Documentation"}
+         "L": "Learning design", "A": "Assessment & evals", "U": "Learner visibility", "N": "Content pipeline", "X": "Security & privacy", "D": "Documentation", "B": "Surfaces & deployment"}
 _ID = re.compile(r"^\|\s*([A-Z])-(\d{2})\b([^|]*)\|(.*)$")
 STATES = ("done", "partial", "deferred", "dropped", "open")
 
@@ -61,7 +61,7 @@ def parse(text):
     return sorted(tasks), status
 
 
-PHASES = {0: "Foundations", 1: "Engine hardening", 2: "Plugin surface & trust", 3: "Assessment & evals", 4: "Learning design", 5: "Content & ecosystem"}
+PHASES = {0: "Foundations", 1: "Engine hardening", 2: "Plugin surface & trust", 3: "Assessment & evals", 4: "Learning design", 5: "Content & ecosystem", 6: "Surfaces & deployment"}
 _ROW = re.compile(r"^\|\s*([A-Z]-\d{2})[^|]*\|.*\|\s*[SMLX]*\s*\|\s*(\d)\s*\|\s*$")
 _WAVE = re.compile(r"^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*([A-Z]-\d{2}(?:\s+[A-Z]-\d{2})*)\s*\|")
 
