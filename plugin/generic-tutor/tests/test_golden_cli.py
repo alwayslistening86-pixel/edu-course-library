@@ -110,7 +110,7 @@ CASES = {
     "purge_history": ([("purge_history.py", ["{R}", "amy", "history"]), ("purge_history.py", ["{R}", "amy", "course", "mathA"]), ("purge_history.py", ["{R}", "amy", "course", "ghost"]),
                         ("purge_history.py", ["{R}", "amy", "history", "--confirm", "nope"]), ("purge_history.py", ["{R}", "amy"])], []),
     "change_log": ([("change_log.py", ["{C}/mathA"]), ("change_log.py", ["{C}/nope"])], []),
-    "audit_run": ([("audit_run.py", ["{C}", "--today", "2026-10-05"]), ("audit_run.py", ["{T}/nope"])], []),
+    "audit_run": ([("audit_run.py", ["{C}", "--today", "2026-10-05"]), ("audit_run.py", ["{C}", "--course", "mathA"]), ("audit_run.py", ["{C}", "--course", "ghost"]), ("audit_run.py", ["{T}/nope"])], []),
     "list_courses": ([("list_courses.py", ["{L}", "{C}"]), ("list_courses.py", ["{L}", "{C}", "--status", "dormant", "--compact"]), ("list_courses.py", ["{L}", "{C}", "--level", "x"])], []),
     "status": ([("status.py", ["{L}", "{C}"])], []),
     "invariants": ([("invariants.py", ["{L}", "{C}"])], []),

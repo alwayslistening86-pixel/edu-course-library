@@ -53,6 +53,13 @@ class Report(unittest.TestCase):
         self.assertTrue(any("missing stage files" in n for n in ch["broken"]["resolved"]), ch.get("broken"))
         self.assertNotIn("solo", ch)                                            # untouched courses do not appear
 
+    def test_scope_to_one_course(self):
+        r = audit_run.run(self.C, "2026-10-05", only="mathA")
+        self.assertEqual((list(r["courses"]), r["scope"], r["courses_checked"]), (["mathA"], "mathA", 1))
+        self.assertIn("error", audit_run.run(self.C, only="ghost"))
+        full = audit_run.run(self.C, "2026-10-05")
+        self.assertEqual(audit_run.run(self.C, "2026-10-06", previous=full, only="mathA")["changes"], {})   # other courses are not reported as removed
+
     def test_cli_saves_outside_the_library_and_refuses_inside(self):
         import subprocess
         script = os.path.join(gs.SCRIPTS, "audit_run.py")

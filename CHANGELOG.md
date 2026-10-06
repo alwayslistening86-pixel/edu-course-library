@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.60.0] — 2026-10-06
+### Changed
+- `/audit` takes `--report-only`, `--course <id>` and `--tier N`; `audit_run.py --course` scopes the deterministic report to one course (C-12)
+
 ## [1.59.0] — 2026-10-06
 ### Changed
 - `/list-courses` is a script (`list_courses.py`) with filters `--status`, `--level`, `--standalone`, `--compact`; the model presents its rows instead of rebuilding the list from files (C-14)

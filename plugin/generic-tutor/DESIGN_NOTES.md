@@ -1598,3 +1598,9 @@ With 62 real courses the listing is the first thing a learner sees, and it was a
 enrolment. The script reuses cohort_status and coverage_check so "complete" and "prerequisites met" are the gates' own answers, adds the
 filters the task asked for, and a compact form (id, level, state, progress) for the whole library. Its context budget rose by 101
 characters, the only deliberate increase in this change: the filters are new behaviour.
+
+## 5 Oct 2026 - v1.60.0: /audit flags (C-12)
+
+--course is the only flag that needed code (audit_run scopes its report and refuses to treat the other courses as removed when diffing); --report-only
+and --tier are rules for the model about what to apply, written into the command. A one-course report is not a library baseline, so the
+command says not to save it as one. The auditor skill's duplicate-merge prose was tightened to pay for the flag text.

@@ -1,6 +1,6 @@
 {
   "name": "generic-tutor",
-  "version": "1.59.0",
+  "version": "1.60.0",
   "description": "A generic academic tutor: canonical course content, per-learner progress tracking, spaced-repetition review, enrollment gating (level-lock/roster-cap/phase-convergence), a diagnostic adaptive-teaching layer with per-item BKT mastery and rubric-criterion tagging, a blocking post-compile structural gate, and an optional read-only client-side toolkit (GUI + CLI) for backup, health, and progress checks without opening a session.",
   "author": {
     "name": "Ian",

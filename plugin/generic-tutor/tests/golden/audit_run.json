@@ -143,6 +143,63 @@
     {
       "cmd": [
         "audit_run.py",
+        "{C}",
+        "--course",
+        "mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "courses": {
+          "mathA": {
+            "advisory_count": 2,
+            "audit_reasons": [
+              "never_audited"
+            ],
+            "blocking": [],
+            "can_ship": true,
+            "change_log": {
+              "entries": 0,
+              "problems": []
+            },
+            "rubric": {
+              "findings": 12,
+              "label_only_stages": 3
+            },
+            "schema_invalid": []
+          }
+        },
+        "courses_checked": 1,
+        "engine_version": "<VERSION>",
+        "report_version": 1,
+        "scope": "mathA",
+        "today": null,
+        "totals": {
+          "advisory_findings": 2,
+          "audit_recommended": 1,
+          "blocked": 0,
+          "blocking_findings": 0,
+          "can_ship": 1,
+          "schema_invalid": 0
+        }
+      }
+    },
+    {
+      "cmd": [
+        "audit_run.py",
+        "{C}",
+        "--course",
+        "ghost"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: no course 'ghost' under <TMP>/courses"
+      }
+    },
+    {
+      "cmd": [
+        "audit_run.py",
         "{T}/nope"
       ],
       "exit": 1,

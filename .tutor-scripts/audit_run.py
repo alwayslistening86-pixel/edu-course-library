@@ -2,11 +2,11 @@
 """
 audit_run.py -- the whole deterministic audit of a course library as one JSON report, with a diff against the previous report (K-14). Read-only.
 
-    python3 audit_run.py <courses_dir> [--today YYYY-MM-DD] [--out <report.json>] [--compare <previous report.json>]
+    python3 audit_run.py <courses_dir> [--course <course_id>] [--today YYYY-MM-DD] [--out <report.json>] [--compare <previous report.json>]
 
 Runs, per course folder, everything the course-auditor's mechanical tiers check: `postcompile_gate` (structure, coverage, injection scan,
 test-integrity, rubric and change.md notes), `validate_schema --course-dir`, `rubric_lint`, `change_log` and `audit_status`'s reasons. Nothing is fixed or
-written in the library. `--out` saves the report (put it OUTSIDE the courses folder, e.g. `<edu root>/audit/last_report.json`); `--compare`
+written in the library. `--course` limits the audit to one course folder (its report then covers only that course, so do not save it as the library baseline). `--out` saves the report (put it OUTSIDE the courses folder, e.g. `<edu root>/audit/last_report.json`); `--compare`
 adds `changes` listing, per course, problems that are new and problems that are gone since the earlier report.
 
 Report: {report_version, engine_version, today, courses_checked, totals{can_ship, blocked, schema_invalid, audit_recommended, blocking_findings, advisory_findings},
@@ -57,12 +57,16 @@ def problems_of(entry):
     return out
 
 
-def run(courses_dir, today=None, previous=None):
+def run(courses_dir, today=None, previous=None, only=None):
     if not os.path.isdir(courses_dir):
         return {"error": f"FileNotFoundError: courses_dir does not exist: {courses_dir}"}
     engine = version.engine_version()
     courses = {}
+    if only is not None and not os.path.isfile(os.path.join(courses_dir, only, "course.json")):
+        return {"error": f"FileNotFoundError: no course {only!r} under {courses_dir}"}
     for cid in sorted(os.listdir(courses_dir)):
+        if only is not None and cid != only:
+            continue
         cdir = os.path.join(courses_dir, cid)
         if os.path.isfile(os.path.join(cdir, "course.json")):
             courses[cid] = audit_course(cdir, engine)
@@ -72,10 +76,10 @@ def run(courses_dir, today=None, previous=None):
         "blocking_findings": sum(len(c["blocking"]) for c in courses.values()), "advisory_findings": sum(c["advisory_count"] for c in courses.values()),
     }
     report = {"report_version": REPORT_VERSION, "engine_version": ".".join(map(str, engine)) if engine else None, "today": today,
-              "courses_checked": len(courses), "totals": totals, "courses": courses}
+              "courses_checked": len(courses), "totals": totals, "courses": courses, **({"scope": only} if only else {})}
     if previous is not None:
         changes = {}
-        for cid in sorted(set(courses) | set(previous.get("courses", {}))):
+        for cid in sorted(set(courses) | (set(previous.get("courses", {})) if only is None else set())):
             now = problems_of(courses[cid]) if cid in courses else set()
             before = problems_of(previous["courses"][cid]) if cid in previous.get("courses", {}) else set()
             if now != before or (cid in courses) != (cid in previous.get("courses", {})):
@@ -91,7 +95,7 @@ def run(courses_dir, today=None, previous=None):
 def main(argv):
     args = list(argv)
     opts = {}
-    for flag in ("--today", "--out", "--compare"):
+    for flag in ("--today", "--out", "--compare", "--course"):
         if flag in args:
             i = args.index(flag)
             if i + 1 >= len(args):
@@ -100,7 +104,7 @@ def main(argv):
             opts[flag] = args[i + 1]
             del args[i:i + 2]
     if len(args) != 1:
-        print(json.dumps({"error": "usage: audit_run.py <courses_dir> [--today YYYY-MM-DD] [--out <report.json>] [--compare <previous.json>]"}))
+        print(json.dumps({"error": "usage: audit_run.py <courses_dir> [--course <id>] [--today YYYY-MM-DD] [--out <report.json>] [--compare <previous.json>]"}))
         return 2
     previous = None
     if "--compare" in opts:
@@ -110,7 +114,7 @@ def main(argv):
         except (OSError, ValueError) as e:
             print(json.dumps({"error": f"FileNotFoundError: cannot read the previous report: {e}"}))
             return 1
-    report = run(args[0], opts.get("--today"), previous)
+    report = run(args[0], opts.get("--today"), previous, opts.get("--course"))
     if "error" not in report and "--out" in opts:
         out = os.path.abspath(opts["--out"])
         if os.path.commonpath([out, os.path.abspath(args[0])]) == os.path.abspath(args[0]):
