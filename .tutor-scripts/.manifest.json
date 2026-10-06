@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.58.0",
+  "plugin_version": "1.59.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -24,6 +24,7 @@
     "history_report.py",
     "invariants.py",
     "item_mastery.py",
+    "list_courses.py",
     "migrate_schema.py",
     "next_items.py",
     "plan_estimate.py",

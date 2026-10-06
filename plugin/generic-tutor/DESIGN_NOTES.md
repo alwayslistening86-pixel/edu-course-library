@@ -1591,3 +1591,10 @@ A count across skills and commands showed the one real inconsistency: "enrollmen
 whose newest script is enrol.py. Prose now says enrol/enrolment; identifiers (resume_enrollment.py and similar) keep their names because renaming a
 deployed script breaks every skill and learner's habit for no benefit. stage, phase, slot, cohort and roster were already used consistently (their definitions
 are in the glossary and the counts show no competing synonyms); "micro-profile" survives in a few places and the glossary now ties it to "enrolment".
+
+## 5 Oct 2026 - v1.59.0: /list-courses as a script (C-14)
+
+With 62 real courses the listing is the first thing a learner sees, and it was assembled by the model from up to 62 course files plus every
+enrolment. The script reuses cohort_status and coverage_check so "complete" and "prerequisites met" are the gates' own answers, adds the
+filters the task asked for, and a compact form (id, level, state, progress) for the whole library. Its context budget rose by 101
+characters, the only deliberate increase in this change: the filters are new behaviour.

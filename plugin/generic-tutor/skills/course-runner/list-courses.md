@@ -1,6 +1,10 @@
 # Listing courses (`/list-courses`)
 
-Loaded by `/list-courses` (and read from `SKILL.md` when a learner asks for course status). Everything below is moved verbatim from the former Invocation section.
+Loaded by `/list-courses` (and read from `SKILL.md` when a learner asks for course status).
 
-## Invocation
-This skill runs via `/continue <course_id>` (to teach) or `/list-courses` (to see status across all courses — including each course's `coverage_status`: `full`, `partial` with items-taught-of-items-itemised, or `unverified`, so a learner can see at a glance which courses are known to cover their specification and which are not). `/list-courses` also shows, per course: **standalone** (instead of a level) or the level with its `level_basis` — a `declared` level is always labelled "declared", never shown as if it came from a framework; its prerequisites (`requires_complete`, any-of entries as "one of …") and, for the active learner, whether each is met; any practical stages and the capability they need; and, for the learner's own enrolments, **theory-only** where practical stages are withheld (a complete theory-only course is shown as "complete (theory-only)"). Courses in `/EDU/_historic/` are not courses for learning and are not listed. A natural-language "let's carry on with Contract Law" should get redirected to `/continue ou_contract_law` rather than triggering this skill on inferred intent.
+## `/list-courses [--status S] [--level N] [--standalone] [--compact]`
+Run `python3 /EDU/.tutor-scripts/list_courses.py <the active learner's folder> <the /EDU/courses/ dir> [flags]` and present its rows; do not rebuild the list from files. Flags: `--status` (`active`, `dormant`, `test_pending_convergence`, `dropped`, `complete`, `not_enrolled`), `--level N`, `--standalone`, `--compact` (id, level, state, stages passed of total). Unknown flags or values: say what is accepted and run nothing.
+
+Show, per course: the level, or **standalone** instead; a level whose `level_basis` is `declared` is always labelled "declared", never presented as coming from a framework. The learner's state (a finished theory-only course reads "complete (theory-only)"); stages passed of total; coverage as `full`, `partial` (items taught of itemised) or `unverified`, so it is clear which courses are known to cover their specification; prerequisites (any-of entries as "one of …") and whether each is met; practical stages; `grounding_status` if suspended. End with the counts by state.
+
+Courses in `/EDU/_historic/` are not for learning and are not listed. A natural-language "let's carry on with Contract Law" is redirected to `/continue <course_id>`, not run as a listing.

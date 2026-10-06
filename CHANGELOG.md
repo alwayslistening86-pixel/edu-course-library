@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.59.0] — 2026-10-06
+### Changed
+- `/list-courses` is a script (`list_courses.py`) with filters `--status`, `--level`, `--standalone`, `--compact`; the model presents its rows instead of rebuilding the list from files (C-14)
+
 ## [1.58.0] — 2026-10-06
 ### Changed
 - one spelling in skill prose (enrol / enrolment; 27 US spellings changed, script names untouched), an Enrolment entry in the glossary, and a lint that flags the US form (K-34)

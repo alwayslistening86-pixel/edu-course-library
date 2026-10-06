@@ -26,7 +26,7 @@ class Split(unittest.TestCase):
         self.assertIn("profile-schema.md", read("profile-kernel", "SKILL.md"))
 
     def test_moved_key_content_lives_in_the_reference_files(self):
-        self.assertIn("coverage_status", read("course-runner", "list-courses.md"))
+        self.assertIn("list_courses.py", read("course-runner", "list-courses.md"))
         self.assertIn("roster_apply.py drop", read("journey-planner", "drop.md"))
         self.assertIn("wakes every dormant course that the drop unblocked", read("journey-planner", "drop.md"))
         self.assertIn("may discard it at any time", read("course-auditor", "suspension.md"))
