@@ -21,6 +21,7 @@ Samples that disagree outside the acceptable set mark a case **ambiguous**; ambi
 | `accessibility` (K-04/L-18) | Do `dyslexia_mode` / `plain_language_mode` change how the tutor writes, without dropping content? | deterministic text metrics on the reply: sentence length, block length, italics/ALL-CAPS, steps, terms explained at first use, required concepts present; a no-mode control | none (compliance only) |
 | `hints` (L-16) | Does it give a hint ladder, not the answer, until the learner asks to be shown? | 6 problems with a known final answer × 4 conversation turns; the answer is looked for as a whole token in the reply | stating the answer before the learner asked (turns 1–3) |
 | `recheck` (K-08) | Does it call a source change 'material' only for a new version/issue, changed graded criteria or threshold, or items added/removed/moved? | 14 constructed pairs (7 material, 7 not: rehosting, rewording, typo, cover page, layout, restyle) | missing a material change |
+| `fading` (L-11) | Does the amount of worked example follow the item's `scaffold` band? | the 6 hints problems × 3 bands (full / partial / none); deterministic counts of worked lines, a handed-back question, and the answer token | stating the answer to the learner's own problem |
 | `gates` (A-09) | Does the tutor stop, and say why, when `gate_check.py` blocks? | states created in a temp library and the REAL `gate_check.py` run on them | **teaching** a blocked course |
 
 ## Running

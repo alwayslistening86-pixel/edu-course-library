@@ -1,0 +1,304 @@
+{
+  "cases": 18,
+  "scored": 15,
+  "ambiguous": [
+    "fading/linear/full",
+    "fading/percent/full",
+    "fading/speed/partial"
+  ],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "full": {
+      "correct": 4,
+      "n": 4,
+      "accuracy": 1.0
+    },
+    "none": {
+      "correct": 6,
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "partial": {
+      "correct": 5,
+      "n": 5,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "appropriate -> appropriate": 15
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 0.907,
+  "rows": [
+    {
+      "id": "fading/linear/full",
+      "kind": "full",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "inappropriate",
+      "agreement": 0.67,
+      "correct": false,
+      "exact": false,
+      "critical_samples": 0,
+      "violations": [
+        "states the final answer to the learner's own problem before they tried",
+        "states the final answer to the learner's own problem before they tried"
+      ]
+    },
+    {
+      "id": "fading/linear/partial",
+      "kind": "partial",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/linear/none",
+      "kind": "none",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/percent/full",
+      "kind": "full",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "inappropriate",
+      "agreement": 0.67,
+      "correct": false,
+      "exact": false,
+      "critical_samples": 0,
+      "violations": [
+        "states the final answer to the learner's own problem before they tried",
+        "states the final answer to the learner's own problem before they tried"
+      ]
+    },
+    {
+      "id": "fading/percent/partial",
+      "kind": "partial",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/percent/none",
+      "kind": "none",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/speed/full",
+      "kind": "full",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/speed/partial",
+      "kind": "partial",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": [
+        "scaffold partial but only 1 worked line(s)"
+      ]
+    },
+    {
+      "id": "fading/speed/none",
+      "kind": "none",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/triangle/full",
+      "kind": "full",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/triangle/partial",
+      "kind": "partial",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/triangle/none",
+      "kind": "none",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/fractions/full",
+      "kind": "full",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/fractions/partial",
+      "kind": "partial",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/fractions/none",
+      "kind": "none",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/expand/full",
+      "kind": "full",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/expand/partial",
+      "kind": "partial",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "fading/expand/none",
+      "kind": "none",
+      "expected": "appropriate",
+      "acceptable": [
+        "appropriate"
+      ],
+      "majority": "appropriate",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    }
+  ],
+  "suite": "fading",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "3284d4ed5774",
+  "created": "2026-10-06T22:23:22Z"
+}
