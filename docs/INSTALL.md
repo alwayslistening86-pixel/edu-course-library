@@ -40,3 +40,16 @@ Install the previous version (`claude plugin install generic-tutor@edu-course-li
 
 ## Uninstall
 `claude plugin uninstall generic-tutor`. This removes the plugin only. **Your data folder stays exactly as it is**: `profile/` (learner progress), `courses/`, `.tutor-scripts/`, `backups/`. Delete those yourself if you want them gone; to remove one learner properly use `/erase` (which also clears that learner's history database) rather than deleting files by hand. Backups may contain personal data: keep them outside any synced or shared folder.
+
+## Optional hooks (Claude Code only)
+Installing the plugin in Claude Code also switches on `hooks/hooks.json`; Cowork ignores it. They are a safety net, not a requirement: the scripts enforce consent, paths and ownership on their own.
+
+| When | What it does |
+|---|---|
+| Session start | Deploys `.tutor-scripts/` into the data folder, names the learners it found and reminds the model to run `/run <name>` first |
+| You run a slash command | Remembers whether it is a teaching command (`/continue`, `/review`, `/mock`, ...) or an authoring one (`/add-course`, `/audit`) |
+| Before a file or shell call | Refuses: hand edits of script-owned files; any write under a learner who has revoked consent; another learner's folder than the one the session started with; course-file edits during a teaching command. Running a deployed script is always allowed |
+| Session end | Shows what the write verifier found (possible missing state writes); never blocks, never repairs |
+
+To switch them off, disable the plugin's hooks in Claude Code's `/hooks` menu. Checked live on Claude Code with a real session (a denied `Write` and a denied shell redirect, scripts deployed at start); not checked on Cowork, which does not run hooks.
+

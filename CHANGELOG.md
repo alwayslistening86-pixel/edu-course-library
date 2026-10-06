@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.66.0] — 2026-10-06
+### Changed
+- P-05..P-08: optional Claude Code hooks (hooks/hooks.json, scripts/hook_guard.py): deploy scripts and name the learners at session start; deny hand edits of script-owned files, writes under a revoked learner, another learner's folder, and course edits during teaching commands; show the write verifier's findings at stop. Claude Code only; nothing depends on them
+
 ## [1.65.0] — 2026-10-06
 ### Changed
 - E-23: the toolkit GUI shows errors instead of failing silently (a .pyw has no console): handler and startup errors become a plain-language dialog; tested with a stubbed tkinter

@@ -47,7 +47,7 @@ class Codes(unittest.TestCase):
 
 class EndToEnd(unittest.TestCase):
     def test_every_script_accepts_the_flag(self):
-        for name in sorted(f for f in os.listdir(SCRIPTS) if f.endswith(".py")):
+        for name in sorted(f for f in os.listdir(SCRIPTS) if f.endswith(".py") and f != "hook_guard.py"):   # hook_guard speaks the hook protocol, not the CLI one
             p = subprocess.run([sys.executable, os.path.join(SCRIPTS, name), "--envelope"], capture_output=True, text=True, timeout=30)
             try:
                 out = json.loads(p.stdout)

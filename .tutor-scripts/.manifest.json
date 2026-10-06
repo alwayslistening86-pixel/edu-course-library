@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.65.0",
+  "plugin_version": "1.66.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -24,6 +24,7 @@
     "export_profile.py",
     "gate_check.py",
     "history_report.py",
+    "hook_guard.py",
     "invariants.py",
     "item_mastery.py",
     "list_courses.py",

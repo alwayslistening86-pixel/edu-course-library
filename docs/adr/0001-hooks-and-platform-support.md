@@ -31,3 +31,7 @@ Source: a documentation lookup done by a research subagent against the official 
 - Hooks absent on Cowork: confirm on an actual install and against https://claude.com/docs/plugins/platform-support.
 - Exact `hooks.json` schema accepted by `claude plugin validate` for the version in use.
 - Whether Cowork exposes any equivalent (scheduled tasks, connectors) usable for reconciliation.
+
+## Update, v1.66.0
+Hooks are implemented (`hooks/hooks.json`, `scripts/hook_guard.py`) and were exercised in a live Claude Code session: SessionStart deployed the scripts, PreToolUse denied a `Write` to `student_profile.json` and a shell redirect into `subjects/`. `claude plugin validate --strict` accepts the config. Still unverified: Cowork's behaviour (assumed to ignore the file) and Windows paths in the guard.
+
