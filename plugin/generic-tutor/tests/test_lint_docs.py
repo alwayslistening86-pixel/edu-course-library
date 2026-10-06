@@ -68,6 +68,15 @@ class SeededFaults(unittest.TestCase):
         _, warnings = lint_docs.lint(self.d)
         self.assertEqual(sum("release-history prose" in w for w in warnings), 2)
 
+    def test_us_spelling_of_enrolment_is_flagged_but_script_names_are_not(self):
+        self._append("skills/tutor-core/SKILL.md", "\nSee `resume_enrollment.py` for the enrollment flow.\n")
+        _, warnings = lint_docs.lint(self.d)
+        self.assertTrue(any("US spelling" in w for w in warnings))
+        text = "\nOnly `resume_enrollment.py` here.\n"
+        self._append("skills/stage-recap/SKILL.md", text)
+        flagged = [w for w in lint_docs.lint(self.d)[1] if "US spelling" in w]
+        self.assertFalse(any("stage-recap" in w for w in flagged))
+
     def test_command_includes_missing_skill(self):
         self._append("commands/plan.md", "\n@${CLAUDE_PLUGIN_ROOT}/skills/ghost/SKILL.md\n")
         errors, _ = lint_docs.lint(self.d)

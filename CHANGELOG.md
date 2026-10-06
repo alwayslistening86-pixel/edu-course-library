@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.58.0] — 2026-10-06
+### Changed
+- one spelling in skill prose (enrol / enrolment; 27 US spellings changed, script names untouched), an Enrolment entry in the glossary, and a lint that flags the US form (K-34)
+
 ## [1.57.0] — 2026-10-06
 ### Changed
 - profile intake is specified as a question-to-key table with valid values and one `profile_init.py` call; the duplicated profile JSON blocks in profile-kernel are replaced by pointers to the schemas (K-16, K-17)

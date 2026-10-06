@@ -77,7 +77,7 @@ The global profile schema (with `capabilities`, `highest_level_cleared`, roster 
 - If something a course observes seems to generalize across subjects, surface it to the learner and ask before writing it to the global profile — don't write cross-subject signals silently.
 - Append-only for `error_patterns` (entries are resolved, never deleted).
 - Don't downgrade a `syllabus_status` entry on a single weak moment — only on a genuine test result. `confidence` moves only through `confidence_update.py`.
-- `roster_state` transitions (`dormant`, `test_pending_convergence`, `dropped`) are owned by `journey-planner` and `course-runner` respectively; `profile-kernel` only ever reads them for display. `cohort_id` is owned by `course-compiler` alone, written once at enrollment and never touched again by any skill, including this one.
+- `roster_state` transitions (`dormant`, `test_pending_convergence`, `dropped`) are owned by `journey-planner` and `course-runner` respectively; `profile-kernel` only ever reads them for display. `cohort_id` is owned by `course-compiler` alone, written once at enrolment and never touched again by any skill, including this one.
 
 ## What this deliberately avoids
 No merge-scoring formulas, no confidence-weighted arbitration, no hash-chained audit, no placement diagnostic, no attestation of external prior credit (both explained fully in `course-compiler`, for the same underlying reason: this system can only trust what it verified itself). Cross-subject and cross-learner bleed is prevented structurally, by folder and file boundaries — not by an algorithm arbitrating conflicting signals after the fact.

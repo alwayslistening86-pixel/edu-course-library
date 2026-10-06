@@ -5,6 +5,7 @@
 | **Stage** | One unit of a course's ladder (`S1`, `S2`, …). Has a lesson, practice and test. |
 | **Phase** | Where a learner is inside a stage: `lesson`, `practice` or `test`. |
 | **Slot / session slot** | One study session. Time is counted in slots, never dates. `student_profile.json.session_slot` advances once per `/run`. |
+| **Enrolment** | A learner's progress file for one course (`subjects/<course_id>.json`), created by `enrol.py`; also called the micro-profile in older text. UK spelling in prose; script and field names such as `resume_enrollment.py` keep their original spelling. |
 | **Roster** | The courses a learner holds incomplete at once; capped by `roster.max_incomplete_courses`. Dormant (level-locked) courses count. |
 | **Roster state** | Per-enrolment: `active`, `dormant`, `test_pending_convergence`, `dropped`. Completion is derived, not stored. |
 | **Level / level lock** | A course's `academic_level`. Courses above the lowest unfinished level (and above `highest_level_cleared`) stay `dormant`. |

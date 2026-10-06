@@ -27,7 +27,7 @@ Set once at intake, adjustable later via `/profile`. This is the hard cap `cours
 ## Micro-profile schema (`<active_user_id>/subjects/<course_id>.json`)
 Fields, types and owners: `DATA_MODEL.md` and `scripts/tutorlib/schemas/subjects.json`. Created only by `enrol.py`; every later change goes through the script that owns the field, never a hand edit (`confidence_update.py`, `error_log.py`, `item_mastery.py`, `remediation_state.py`, `record_stage_result.py`, `session_state.py`, `roster_apply.py`).
 
-- **`cohort_id`** is a cached copy of the course's own `academic_level`, written once at enrollment; the phase-convergence gate groups by it, so courses at different levels never block each other's testing. A standalone course gets `"standalone:<course_id>"`: each standalone enrolment is its own cohort.
+- **`cohort_id`** is a cached copy of the course's own `academic_level`, written once at enrolment; the phase-convergence gate groups by it, so courses at different levels never block each other's testing. A standalone course gets `"standalone:<course_id>"`: each standalone enrolment is its own cohort.
 - **`syllabus_status`** maps each stage to `pass | fail | unsat | withheld`. `withheld` is written only by `apply_capabilities.py`, on a practical stage whose capability the learner has not declared; it counts as done, so the course can finish **theory-only**, and that still satisfies prerequisites.
 - `last_live_recheck` lives on the shared `course.json`, not here: currency is a fact about the content.
 

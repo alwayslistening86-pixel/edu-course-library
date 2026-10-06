@@ -1584,3 +1584,10 @@ The task proposed a new intake_validate.py; profile_init.py already validates ev
 the spec is the table of question, key and valid values that mirrors those rules, plus the instruction to make one call. The two JSON schema blocks in
 profile-schema.md (global and micro-profile) came out in favour of pointers to DATA_MODEL.md and the executable schemas: they had already
 drifted once (S-02) and the table now carries what a model needs at intake time. /add-profile's budget was held by that removal.
+
+## 5 Oct 2026 - v1.58.0: terminology pass (K-34)
+
+A count across skills and commands showed the one real inconsistency: "enrollment" 40 times against "enrolment" 16, in a UK-audience product
+whose newest script is enrol.py. Prose now says enrol/enrolment; identifiers (resume_enrollment.py and similar) keep their names because renaming a
+deployed script breaks every skill and learner's habit for no benefit. stage, phase, slot, cohort and roster were already used consistently (their definitions
+are in the glossary and the counts show no competing synonyms); "micro-profile" survives in a few places and the glossary now ties it to "enrolment".
