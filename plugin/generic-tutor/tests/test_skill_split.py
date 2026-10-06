@@ -49,6 +49,30 @@ class Split(unittest.TestCase):
         self.assertEqual(includes("audit"), {"course-auditor/SKILL.md", "course-auditor/suspension.md"})
 
 
+class CommandNaming(unittest.TestCase):
+    """C-15: file names are lower-case hyphenated; argument hints use snake_case placeholders and --kebab flags; every command that reads
+    its arguments declares them."""
+    def _commands(self):
+        d = os.path.join(ROOT, "commands")
+        for fn in sorted(os.listdir(d)):
+            with open(os.path.join(d, fn), encoding="utf-8") as f:
+                yield fn, f.read()
+
+    def test_names_and_hints(self):
+        for fn, text in self._commands():
+            self.assertRegex(fn, r"^[a-z]+(-[a-z]+)*\.md$")
+            m = re.search(r"^argument-hint:\s*(.*)$", text, re.M)
+            if m:
+                for tok in re.findall(r"[<\[]([^\]>]+)[\]>]", m.group(1)):
+                    for word in tok.split():
+                        self.assertRegex(word, r"^(--[a-z]+(-[a-z]+)*|[a-z]+(_[a-z]+)*|[A-Z]|\d|[a-z]+(_[a-z]+)*\.[a-z]+)$", f"{fn}: {word}")
+
+    def test_commands_that_read_arguments_declare_them(self):
+        for fn, text in self._commands():
+            if re.search(r"\$1|\$ARGUMENTS|passing any arguments", text):
+                self.assertRegex(text, r"(?m)^argument-hint:", fn)
+
+
 class GeneratedDocs(unittest.TestCase):
     def test_commands_reference_is_up_to_date(self):
         import sys

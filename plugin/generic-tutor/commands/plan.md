@@ -1,6 +1,6 @@
 ---
 description: Compute or recompute the slot-based (non-calendar) session plan across all unlocked, active courses
-argument-hint: [course_id] [target-date]
+argument-hint: [course_id] [target_date]
 ---
 
 @${CLAUDE_PLUGIN_ROOT}/skills/journey-planner/SKILL.md

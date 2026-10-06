@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.62.0] — 2026-10-06
+### Changed
+- C-15: command argument hints use one convention (snake_case placeholders, --kebab flags); /audit and /list-courses declare theirs; a test holds it
+
 ## [1.61.0] — 2026-10-06
 ### Changed
 - C-04: /drop previews its consequence (roster_apply drop --preview) before the confirmed drop

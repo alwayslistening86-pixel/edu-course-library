@@ -20,7 +20,7 @@ python3 /EDU/.tutor-scripts/backup_profile.py <the /EDU/profile/ dir> <active us
 ```
 Tell the learner where the zip is (`zip_path`), how many files and how big. Explain in one sentence that it is a full copy of their progress and history (personal data), kept **outside** their learner folder by design so `/erase` does not delete it, and that for real protection they should copy it somewhere off this machine/folder (another drive or cloud storage they trust). Suggest a backup before `/audit` repairs, before upgrading the plugin, and now and then.
 
-## `/restore <path-to-backup.zip>`
+## `/restore <backup_zip>`
 1. **Dry run first**, always:
    ```
    python3 /EDU/.tutor-scripts/restore_profile.py <the /EDU/profile/ dir> <backup.zip> --dry-run
