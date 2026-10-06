@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.68.0] — 2026-10-06
+### Changed
+- L-11: worked examples fade with the item. next_items.py gives each practice item a scaffold (full / partial / none from p_mastery, raised a level by an unresolved error); tutor-core says how much worked example each means and never of the learner's own problem. New fading eval suite: sample accuracy 0.63 -> 0.91 (54 samples per arm, partial band 0/4 -> 5/5); hints and accessibility unchanged at equal sample counts
+
 ## [1.67.0] — 2026-10-06
 ### Changed
 - L-20, L-03: session_plan.py turns the learner's session_minutes into a plan and a stop-point answer (never mid-test, stop before a test that will not fit); the runner asks about time at phase ends. L-03 closed: the 70/30 current/prior mix already lives in next_items.py
