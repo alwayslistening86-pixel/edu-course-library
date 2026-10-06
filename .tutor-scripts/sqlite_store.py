@@ -155,6 +155,21 @@ CREATE TABLE IF NOT EXISTS confidence_events (
   created_at        TEXT NOT NULL DEFAULT (datetime('now'))
 );
 CREATE INDEX IF NOT EXISTS idx_confidence_events_course ON confidence_events (course_id, slot);
+
+CREATE TABLE IF NOT EXISTS grading_results (
+  id                INTEGER PRIMARY KEY AUTOINCREMENT,
+  course_id         TEXT NOT NULL,
+  stage_id          TEXT NOT NULL,
+  attempt           INTEGER NOT NULL,
+  criterion_index   INTEGER NOT NULL,
+  met               INTEGER NOT NULL CHECK (met IN (0,1)),
+  marks_awarded     INTEGER NOT NULL,
+  marks_available   INTEGER NOT NULL,
+  rubric_hash       TEXT NOT NULL,
+  slot              INTEGER NOT NULL,
+  created_at        TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_grading_results_stage ON grading_results (course_id, stage_id, attempt);
 """
 
 
@@ -177,7 +192,7 @@ def _course_id_from_path(subjects_or_deck_path):
 
 
 # PRAGMA user_version of the history DB (E-15). 0 = created before versioning (same tables; stamped on first use).
-DB_SCHEMA_VERSION = 2
+DB_SCHEMA_VERSION = 3   # v3 adds grading_results (additive: nothing existing changes)
 
 
 class NewerDatabase(RuntimeError):
@@ -379,6 +394,25 @@ def log_review_pass(subjects_path, card_id, correct, old_interval, new_interval,
     finally:
         con.close()
     return {"ok": True}
+
+
+@_safe()
+def log_grading(subjects_path, stage_id, rows, slot):
+    """One test attempt's per-criterion outcomes. `rows` = [(criterion_index, met, marks_awarded, marks_available, rubric_hash)].
+    Only indexes, booleans and numbers are stored, never the learner's answer text or the rubric's wording (V-09)."""
+    course_id = _course_id_from_path(subjects_path)
+    con = _connect(subjects_path)
+    try:
+        attempt = con.execute("SELECT COALESCE(MAX(attempt), 0) + 1 FROM grading_results WHERE course_id = ? AND stage_id = ?",
+                              (course_id, stage_id)).fetchone()[0]
+        con.executemany(
+            """INSERT INTO grading_results (course_id, stage_id, attempt, criterion_index, met, marks_awarded, marks_available, rubric_hash, slot)
+               VALUES (?,?,?,?,?,?,?,?,?)""",
+            [(course_id, stage_id, attempt, i, int(bool(m)), a, o, h, int(slot)) for i, m, a, o, h in rows])
+        con.commit()
+    finally:
+        con.close()
+    return {"ok": True, "attempt": attempt}
 
 
 @_safe()

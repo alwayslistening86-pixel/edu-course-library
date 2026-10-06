@@ -90,7 +90,7 @@ Keys starting `_` are metadata (`_meta`, `_items_source{document,url,version,ite
 
 ## `tutor.sqlite3`
 
-Append-only history, never read back into teaching decisions (JSON is authoritative). Tables: `error_events`, `item_mastery`, `item_mastery_log`, `review_cards`, `review_log`, `confidence_events`. `PRAGMA user_version` is 2 (history schema; a newer database is refused). v2 keys `error_events` and `review_cards` by `(course_id, id)` and records `course_id` on `review_log`; v1 keyed them by `id` alone, so two courses producing the same id overwrote each other. A v1 database is migrated in place on first use (`sqlite_store._migrate_v1_to_v2`, tested in `tests/test_history_keys.py`). Included in `/export`; removed by `/erase`; `purge_history.py` can clear it without erasing progress.
+Append-only history, never read back into teaching decisions (JSON is authoritative). Tables: `error_events`, `item_mastery`, `item_mastery_log`, `review_cards`, `review_log`, `confidence_events`, `grading_results` (per stage test, per rubric criterion: met, marks awarded and available, a hash of the rubric entry; indexes and numbers only, never answer text; written by `record_grading.py`). `PRAGMA user_version` is 3 (history schema; a newer database is refused; v3 only adds `grading_results`). v2 keys `error_events` and `review_cards` by `(course_id, id)` and records `course_id` on `review_log`; v1 keyed them by `id` alone, so two courses producing the same id overwrote each other. A v1 database is migrated in place on first use (`sqlite_store._migrate_v1_to_v2`, tested in `tests/test_history_keys.py`). Included in `/export`; removed by `/erase`; `purge_history.py` can clear it without erasing progress.
 
 ## Versioning policy (S-10)
 

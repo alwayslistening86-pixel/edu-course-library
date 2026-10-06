@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.77.0] — 2026-10-06
+### Changed
+- V-09: record_grading.py keeps, per stage test, which rubric criteria were met and the marks, with a hash of the rubric entry (history schema v3, additive); no answer text or rubric wording is stored; the runner calls it before recording the result
+
 ## [1.76.0] — 2026-10-06
 ### Changed
 - A-05: simulated-learner evals (evals/simulate.py): the engine's weakest-first rule vs random and round-robin, with the numbers and the limits written down; next_items exposes weakness() so the simulator ranks with the engine's own function

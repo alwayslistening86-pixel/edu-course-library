@@ -22,7 +22,7 @@ import sys
 
 from tutorlib import atomic_io, cli, filelock, ids, ledger, paths
 
-_COURSE_TABLES = ("error_events", "item_mastery", "item_mastery_log", "review_cards", "confidence_events")
+_COURSE_TABLES = ("error_events", "item_mastery", "item_mastery_log", "review_cards", "confidence_events", "grading_results")
 
 
 def _targets_history(d):

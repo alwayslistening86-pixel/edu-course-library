@@ -24,6 +24,7 @@ _TEMPLATES = {
     ("remediation_state.py", "reset"): "Cleared the remediation count for stage {stage} in {course}.",
     ("review_math.py", "apply"): "Rescheduled a review card in {course}.",
     ("deck_add.py", "add"): "Added review cards to the {course} deck.",
+    ("record_grading.py", "record"): "Kept the per-criterion marks for a {course} stage test (no answer text).",
     ("deck_add.py", "retire"): "Retired review cards from the {course} deck.",
     ("session_state.py", "set_phase"): "Changed the phase of your current stage in {course}.",
     ("session_state.py", "set_roster"): "Changed the study state of {course}.",

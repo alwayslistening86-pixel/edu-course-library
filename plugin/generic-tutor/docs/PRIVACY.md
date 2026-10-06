@@ -6,7 +6,7 @@
 | Profile: name, education level, learning difficulties, accessibility needs, goals, availability | `profile/<id>/student_profile.json` | **High** (may reveal health/support needs) |
 | Progress, confidence, error history with free-text notes, session summaries | `profile/<id>/subjects/*.json` | Medium–High |
 | Review decks | `profile/<id>/subjects/*_review_deck.json` | Low–Medium |
-| Append-only history (errors, mastery trend, review log, confidence events) | `profile/<id>/tutor.sqlite3` | Medium–High |
+| Append-only history (errors, mastery trend, review log, confidence events, per-criterion marks; no answer text) | `profile/<id>/tutor.sqlite3` | Medium–High |
 | Backups / exports the plugin produces | wherever the learner saves them | same as the source data |
 
 Nothing in this repo is personal data; `profile/*/` is git-ignored. Course content is shared, not personal.

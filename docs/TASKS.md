@@ -428,6 +428,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | P-08 | ✅ done | Stop hook shows the write verifier's findings; the events themselves are the ledger lines scripts already write (v1.66.0) |
 | U-04 | ✅ done | `python -m toolkit status <learner>` and a Status button in the GUI, both calling `status.py`, so the numbers cannot differ from `/status`; read-only; GUI wiring checked by test, not seen on a display (v1.72.0) |
 | K-30 | ➖ dropped | no separate skill: `health-status` already gives the four readouts (where am I and coverage in `/status`, weak items and readiness in `/readiness`, the page in `/dashboard`). A second skill would duplicate it and add context |
+| V-09 | ✅ done | `record_grading.py`: per test attempt and rubric criterion, met / marks awarded / marks available and a hash of the rubric entry, in a new `grading_results` history table (schema v3, additive). Decision: **no answer text and no rubric wording is stored** (the privacy promise in /status audit says answers are never logged); a later audit can tell a rubric changed under an old result. Signal-class (full consent only); purged with the course (v1.77.0) |
 | A-05 | ✅ done (selection only) | `evals/simulate.py` plays simulated learners against three selection policies; the engine's weakest-first rule ends with more items known (0.54 vs 0.48 at 40 steps, 0.82 vs 0.67 at 100) but a worse estimate on items it has not drilled (0.45 vs 0.31); rule left alone. Confidence-based pacing is not tested: any result would come from the simulator's own learning model, so it needs real learners (v1.76.0) |
 | A-13 | ✅ done | eval reports carry `cost` (calls, mean / p95 seconds, system and prompt chars); `check` lists changes as `cost_changed`; per-command context stays in `context_budget.py`. Turns per stage need real sessions and are not measured (v1.75.0) |
 | K-22 | ✅ done | `deck_add.py retire` / `mature` (the deck-full rejection told the tutor to retire cards but nothing could); review-scheduler has a deck-lifecycle section: creation, dedupe and caps, session cap (`review_select --limit`), retire only on the learner's yes (v1.74.0) |
@@ -534,7 +535,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 2 | Skill clarity | K-05 K-09 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
-| 5 | Measurement | A-03 A-12 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
+| 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
 | 6 | Content pipeline | N-04 N-05 N-06 N-08 N-09 N-10 N-11 N-12 N-13 N-14 K-10 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
@@ -550,7 +551,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 0 Foundations | 36 | 35 | 1 | 0 |
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
 | 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
-| 3 Assessment & evals | 17 | 15 | 1 | 1 |
+| 3 Assessment & evals | 17 | 16 | 1 | 0 |
 | 4 Learning design | 34 | 28 | 2 | 4 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
 | 6 Surfaces & deployment | 6 | 0 | 0 | 6 |
@@ -563,7 +564,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 3 | 2 |
 | 4 | Learning design | 5 | 2 |
-| 5 | Measurement | 5 | 1 |
+| 5 | Measurement | 4 | 1 |
 | 6 | Content pipeline | 15 | 2 |
 | 7 | Surfaces & deployment | 6 | 0 |
 
@@ -577,7 +578,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | K Skills | 36 | 31 | 1 | 2 | 2 |
 | C Commands | 15 | 15 | 0 | 0 | 0 |
 | P Plugin surface | 19 | 16 | 2 | 0 | 1 |
-| V Trust & verification | 10 | 7 | 0 | 2 | 1 |
+| V Trust & verification | 10 | 8 | 0 | 2 | 0 |
 | L Learning design | 22 | 16 | 1 | 0 | 5 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
 | U Learner visibility | 7 | 6 | 0 | 0 | 1 |
@@ -585,4 +586,4 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 6 | 0 | 0 | 0 | 6 |
-| **Total** | **223** | **180** | **12** | **4** | **27** |
+| **Total** | **223** | **181** | **12** | **4** | **26** |
