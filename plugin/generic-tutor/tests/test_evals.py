@@ -138,6 +138,26 @@ class Check(unittest.TestCase):
 SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints, recheck, fading)
 
 
+class Cost(unittest.TestCase):
+    """A-13: every report carries what the run cost."""
+    def test_report_has_cost_and_check_notes_a_change(self):
+        cases = hints.build_cases()
+        r = harness.run(hints, cases, harness.scripted_backend(hints, cases, "oracle"), 2, 2)
+        c = r["cost"]
+        self.assertEqual(c["calls"], len(cases) * 2)
+        self.assertEqual(c["system_chars"], len(hints.system_text()))
+        self.assertGreater(c["mean_prompt_chars"], 100)
+        self.assertGreaterEqual(c["p95_seconds"], c["mean_seconds"])
+        import json
+        import tempfile
+        with tempfile.TemporaryDirectory() as t:
+            new, base = os.path.join(t, "n.json"), os.path.join(t, "b.json")
+            json.dump(r, open(new, "w"))
+            json.dump({**r, "cost": {**c, "system_chars": c["system_chars"] - 500}}, open(base, "w"))
+            out = harness.check(new, base)
+        self.assertEqual(out["cost_changed"], {"system_chars": (c["system_chars"] - 500, c["system_chars"])})
+
+
 class AllSuites(unittest.TestCase):
     def test_every_suite_builds_and_has_the_interface(self):
         for m in SUITE_MODULES:

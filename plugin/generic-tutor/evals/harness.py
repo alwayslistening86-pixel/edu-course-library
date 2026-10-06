@@ -25,6 +25,7 @@ import importlib
 import json
 import os
 import sys
+import time
 
 from evals import backends
 
@@ -45,14 +46,15 @@ def run_case(suite, backend, system, case, samples):
     prompt = suite.build_prompt(case)
     out = []
     for _ in range(samples):
+        started = time.monotonic()
         try:
             parsed = suite.parse_response(backend.complete(system, prompt))
         except Exception as e:  # noqa: BLE001 - one failed call must not sink the run
-            out.append({"decision": None, "error": f"{type(e).__name__}: {e}"})
+            out.append({"decision": None, "error": f"{type(e).__name__}: {e}", "seconds": round(time.monotonic() - started, 3)})
             continue
         if parsed and hasattr(suite, "override"):
             parsed = suite.override(case, parsed)
-        out.append(parsed or {"decision": None, "error": "unparseable reply"})
+        out.append({**(parsed or {"decision": None, "error": "unparseable reply"}), "seconds": round(time.monotonic() - started, 3)})
     return out
 
 
@@ -114,6 +116,16 @@ def score(cases, results):
     }
 
 
+def cost(system, cases, suite, results):
+    """What a run cost (A-13): wall-clock per call, and how much text each call put in front of the model. The system text is the skill under test,
+    so a skill that grows shows up here. Seconds are meaningful for the claude backend only (scripted backends answer instantly)."""
+    secs = sorted(r["seconds"] for runs in results.values() for r in runs if "seconds" in r)
+    prompts = [len(suite.build_prompt(c)) for c in cases]
+    return {"calls": len(secs), "mean_seconds": round(sum(secs) / len(secs), 3) if secs else None,
+            "p95_seconds": secs[min(len(secs) - 1, int(0.95 * len(secs)))] if secs else None,
+            "system_chars": len(system), "mean_prompt_chars": round(sum(prompts) / len(prompts)) if prompts else None}
+
+
 def oracle_reply(case):
     e = case["expected"]
     return json.dumps({"M1": e.get("M1"), "A1": e.get("A1"), **e.get("met", {}), "decision": e["decision"], "reason": "oracle",
@@ -143,6 +155,7 @@ def run(suite, cases, backend, samples=1, workers=4):
         for fut in cf.as_completed(futs):
             results[futs[fut]["id"]] = fut.result()
     report = score(cases, results)
+    report["cost"] = cost(system, cases, suite, results)
     report.update({"suite": suite.NAME, "backend": backend.name, "samples": samples, "skill_hash": skill_hash(suite),
                    "created": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")})
     return report
@@ -165,7 +178,10 @@ def check(report_path, baseline_path=None, tolerance=0.05):
     if new.get("errored_cases", 0) > base.get("errored_cases", 0):
         problems.append(f"errored cases rose from {base.get('errored_cases', 0)} to {new['errored_cases']}")
     keys = ("suite", "accuracy", "exact_accuracy", "critical_failures", "critical_samples", "skill_hash", "backend")
-    return {"ok": not problems, "problems": problems, "skill_hash_changed": new.get("skill_hash") != base.get("skill_hash"),
+    cost_note = None
+    if isinstance(new.get("cost"), dict) and isinstance(base.get("cost"), dict):
+        cost_note = {k: (base["cost"].get(k), new["cost"].get(k)) for k in ("system_chars", "mean_seconds") if base["cost"].get(k) != new["cost"].get(k)}
+    return {"ok": not problems, "problems": problems, "cost_changed": cost_note, "skill_hash_changed": new.get("skill_hash") != base.get("skill_hash"),
             "baseline": {k: base.get(k) for k in keys}, "new": {k: new.get(k) for k in keys}}
 
 

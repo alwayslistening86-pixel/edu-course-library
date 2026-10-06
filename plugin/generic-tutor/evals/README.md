@@ -37,6 +37,9 @@ The `claude` backend runs `claude -p` with no tools, no slash commands, no MCP a
 ## Comparing two versions of a skill
 `accuracy` is a majority vote per case and moves in coarse steps; to compare two skill texts use **`sample_accuracy`** (the share of all samples that were acceptable) over at least 30 samples per arm, and look at *which* rule classes changed, not just the headline. Example (accessibility rules added to tutor-core, mode cases only, 36 samples per arm): compliant replies 18 -> 25; italics, missing steps and unexplained terms mostly disappeared; over-long blocks did not change (11 -> 10). A headline majority-vote comparison on the same data had pointed the other way, within noise - which is why this section exists.
 
+## Cost (A-13)
+Every report has a `cost` block: calls, mean and 95th-percentile seconds per call (real only for the `claude` backend), the system text's size in characters (the skill under test: a skill that grows shows up here) and the mean prompt size. `check` lists a change in `system_chars` or `mean_seconds` against the baseline as `cost_changed`; it does not fail on it. Per-command context size is `tools/context_budget.py`; turns per stage need real sessions and are not measured.
+
 ## Regression policy (A-10)
 A pull request that changes a skill used by a suite attaches the output of `python3 -m evals check` for a fresh run, or says why not. Any rise in critical failures (per case or per sample), errored cases, or accuracy more than 0.05 below the baseline needs an explanation. Baselines are `results/baseline-<suite>-sonnet.json`.
 
