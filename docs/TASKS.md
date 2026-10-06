@@ -390,7 +390,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | C-01 | ✅ done | `docs/COMMANDS.md` generated from front-matter + staleness test |
 | C-02 | ✅ done | missing/invalid-argument handling written into the 8 commands that take arguments |
 | A-01 | ✅ done | `evals/` harness: 5 suites, `claude` + offline backends, report + `check` (dev-only) |
-| A-02 | 🟡 partial | GSM8K (MIT) sample + self-authored scenarios; no sample *courses* yet, no non-maths domain |
+| A-02 | ✅ done | three self-authored sample courses in `evals/fixtures/courses/` (maths level 2, humanities-style level 2, a standalone law-style course with IRAC): each passes the compile gate, coverage is full, the rubric lint is clean, banks made by `exam_to_bank.py`; tests run a learner through all three with the real scripts. Original content, no board wording (`evals/fixtures/README.md`) |
 | A-03 | 🟡 baseline | grading suite baseline recorded (sonnet): 35/35 acceptable, 0 false passes; set is easy - borderline, units, multi-part and extended-writing cases still to add |
 | A-04 | ✅ done | diagnostics suite, 15 scenarios, 5 causes × 3; baseline 14/14 scored, 1 ambiguous |
 | A-06 | ✅ done | automated consistency protocol: N-sample agreement, acceptable sets, ambiguous set excluded, authoring rule recorded |
@@ -533,7 +533,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 2 | Skill clarity | K-05 K-09 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
-| 5 | Measurement | A-02 A-03 A-05 A-12 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
+| 5 | Measurement | A-03 A-05 A-12 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
 | 6 | Content pipeline | N-04 N-05 N-06 N-08 N-09 N-10 N-11 N-12 N-13 N-14 K-10 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
@@ -549,7 +549,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 0 Foundations | 36 | 35 | 1 | 0 |
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
 | 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
-| 3 Assessment & evals | 17 | 14 | 2 | 1 |
+| 3 Assessment & evals | 17 | 15 | 1 | 1 |
 | 4 Learning design | 34 | 27 | 2 | 5 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
 | 6 Surfaces & deployment | 6 | 0 | 0 | 6 |
@@ -562,7 +562,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 3 | 2 |
 | 4 | Learning design | 5 | 2 |
-| 5 | Measurement | 7 | 2 |
+| 5 | Measurement | 6 | 1 |
 | 6 | Content pipeline | 15 | 2 |
 | 7 | Surfaces & deployment | 6 | 0 |
 
@@ -578,10 +578,10 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | P Plugin surface | 19 | 16 | 2 | 0 | 1 |
 | V Trust & verification | 10 | 7 | 0 | 2 | 1 |
 | L Learning design | 22 | 16 | 1 | 0 | 5 |
-| A Assessment & evals | 14 | 9 | 2 | 0 | 3 |
+| A Assessment & evals | 14 | 10 | 1 | 0 | 3 |
 | U Learner visibility | 7 | 6 | 0 | 0 | 1 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 6 | 0 | 0 | 0 | 6 |
-| **Total** | **223** | **178** | **13** | **4** | **28** |
+| **Total** | **223** | **179** | **12** | **4** | **28** |

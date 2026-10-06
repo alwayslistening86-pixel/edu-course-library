@@ -28,3 +28,8 @@ def parse_json_object(text, allowed_key, allowed_values):
         if d.get(allowed_key) in allowed_values:
             return d
     return None
+
+
+def fixture_courses_dir():
+    """The self-authored sample courses (A-02): a library any suite can point the real scripts at, with no private content."""
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures", "courses")
