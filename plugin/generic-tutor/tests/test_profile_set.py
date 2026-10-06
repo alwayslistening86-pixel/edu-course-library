@@ -36,6 +36,7 @@ class Settings(Base):
         for field, value, check in (
             ("preferences.style", "brief", lambda d: d["preferences"]["style"] == "brief"),
             ("preferences.accessibility.dyslexia_mode", "true", lambda d: d["preferences"]["accessibility"]["dyslexia_mode"] is True),
+            ("preferences.accessibility.screen_reader_mode", "true", lambda d: d["preferences"]["accessibility"]["screen_reader_mode"] is True),
             ("availability.sessions_per_week", "4", lambda d: d["availability"]["sessions_per_week"] == 4),
             ("learning_signals.pace", "slow", lambda d: d["learning_signals"]["pace"] == "slow"),
             ("identity.display_name", "Alex", lambda d: d["identity"]["display_name"] == "Alex"),

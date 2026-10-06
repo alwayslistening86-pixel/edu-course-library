@@ -406,7 +406,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | K-21 | ✅ done | `schemas/outputs/plan_estimate.json` fixes the shape of the numbers /plan may quote; the planner skill says to quote only returned fields; a test validates real output (v1.64.0) |
 | L-02 | ✅ done | retrieval warm-up (`review_select.py --limit 3`) at the start of practice |
 | K-04 | ✅ done | concrete accessibility rules in tutor-core; measured (compliant 18 → 25 / 36) |
-| L-18 | 🟡 mostly | dyslexia/plain-language rules + `accessibility` eval; text-only/screen-reader mode and non-English support still open |
+| L-18 | ✅ done | three flags with concrete rules in tutor-core (dyslexia, plain language, screen reader), settable by `profile_set.py` / intake, checked by the `accessibility` eval. Reader mode, 3 samples x 4 topics, old text vs new: 3/4 -> 4/4 cases; the old text's decorative-symbol and colour-only slips (4 of 12 samples) -> 0 of 12; other modes unchanged within noise (v1.73.0). Non-English support is L-19, not here |
 | L-08 | 🟡 infrastructure | `assemble_paper.py`, `record_mock.py`, `exam-simulator` skill, `/mock`; no course has a question bank yet |
 | K-31 | ✅ done | `exam-simulator` skill |
 | P-05 | ✅ done | SessionStart hook deploys `.tutor-scripts/` and names the learners (`hook_guard.py`, v1.66.0); seen working in a live Claude Code session |
@@ -517,7 +517,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 1 | Finish the engine | E-09 E-26 S-09 R-15 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
 | 2 | Skill clarity | K-05 K-09 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
-| 4 | Learning design | L-06 L-08 L-09 L-18 K-22 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
+| 4 | Learning design | L-06 L-08 L-09 K-22 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-02 A-03 A-05 A-12 A-13 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
 | 6 | Content pipeline | N-04 N-05 N-06 N-08 N-09 N-10 N-11 N-12 N-13 N-14 K-10 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
 
@@ -534,7 +534,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
 | 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
 | 3 Assessment & evals | 17 | 13 | 2 | 2 |
-| 4 Learning design | 34 | 25 | 4 | 5 |
+| 4 Learning design | 34 | 26 | 3 | 5 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
 
 ### What remains, by wave
@@ -544,7 +544,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 | Finish the engine | 4 | 4 |
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 3 | 2 |
-| 4 | Learning design | 7 | 4 |
+| 4 | Learning design | 6 | 3 |
 | 5 | Measurement | 8 | 2 |
 | 6 | Content pipeline | 15 | 2 |
 
@@ -559,10 +559,10 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | C Commands | 15 | 15 | 0 | 0 | 0 |
 | P Plugin surface | 19 | 16 | 2 | 0 | 1 |
 | V Trust & verification | 10 | 7 | 0 | 2 | 1 |
-| L Learning design | 22 | 15 | 2 | 0 | 5 |
+| L Learning design | 22 | 16 | 1 | 0 | 5 |
 | A Assessment & evals | 14 | 8 | 2 | 0 | 4 |
 | U Learner visibility | 7 | 6 | 0 | 0 | 1 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
-| **Total** | **217** | **175** | **15** | **4** | **23** |
+| **Total** | **217** | **176** | **14** | **4** | **23** |

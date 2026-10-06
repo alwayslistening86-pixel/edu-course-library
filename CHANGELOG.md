@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.73.0] — 2026-10-06
+### Changed
+- L-18: a third accessibility flag, screen_reader_mode (plain text a screen reader reads in order: no tables, emoji, arrows or rule lines, no colour-only references, maths in words); settable through /profile and intake; accessibility eval gains a reader mode and a compare-two-things topic
+
 ## [1.72.0] — 2026-10-06
 ### Changed
 - U-04: the toolkit gains a status view (CLI and GUI button) that calls the plugin's own status.py, so it always matches /status. K-30 closed: health-status already is the learner-facing readout skill
