@@ -1577,3 +1577,10 @@ Foundation and Higher text side by side). The copyright policy reuses the 15-wor
 used and applies it to every course file. It is policy for the model, not a check: the long-quoted-span detector I tried on the 62 real
 courses fired 171 times on 20 courses, almost all of it quoted test scenarios, so it cannot tell a copied passage from a scenario in quotes. A real
 check (N-06) needs the source text next to the course text, which this repo does not hold.
+
+## 5 Oct 2026 - v1.57.0: intake spec (K-17)
+
+The task proposed a new intake_validate.py; profile_init.py already validates every answer with profile_set's rules and refuses unknown keys, so
+the spec is the table of question, key and valid values that mirrors those rules, plus the instruction to make one call. The two JSON schema blocks in
+profile-schema.md (global and micro-profile) came out in favour of pointers to DATA_MODEL.md and the executable schemas: they had already
+drifted once (S-02) and the table now carries what a model needs at intake time. /add-profile's budget was held by that removal.

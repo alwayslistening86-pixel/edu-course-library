@@ -1,45 +1,9 @@
 # Profile schemas, ledger, and displaying a profile
 
-Loaded by `/add-profile` and `/profile`. Moved verbatim from `SKILL.md`; the field-by-field owners are in `${CLAUDE_PLUGIN_ROOT}/docs/DATA_MODEL.md`.
+Loaded by `/add-profile` and `/profile`. The field-by-field owners are in `${CLAUDE_PLUGIN_ROOT}/docs/DATA_MODEL.md`.
 
 ## Global profile schema (`<user_id>/student_profile.json`)
-```json
-{
-  "schema_version": 2,
-  "learner_id": "string",
-  "consent": { "status": "granted|revoked|limited" },
-  "identity": {
-    "display_name": "string?",
-    "education_level": "string",
-    "locale": "en-GB"
-  },
-  "preferences": {
-    "style": "brief|detailed",
-    "tone": "neutral|friendly|formal|playful",
-    "accessibility": { "dyslexia_mode": false, "plain_language_mode": false }
-  },
-  "learning_signals": {
-    "pace": "fast|standard|slow",
-    "working_memory_support_needed": "none|some|significant",
-    "verbal_load_sensitivity": "none|some|significant",
-    "spatial_support_needed": "none|some|significant",
-    "notes": "free text"
-  },
-  "goals": ["string"],
-  "availability": {
-    "sessions_per_week": 2,
-    "session_minutes": 60
-  },
-  "roster": {
-    "max_incomplete_courses": 2
-  },
-  "highest_level_cleared": 0,
-  "capabilities": { "share_images": { "declared": true, "on": "ISO date" } },
-  "session_slot": 0,
-  "session_slot_advanced_at": "ISO UTC timestamp (slot_advance.py's double-/run guard)",
-  "last_updated": "ISO date"
-}
-```
+The fields, types and owners are in `${CLAUDE_PLUGIN_ROOT}/docs/DATA_MODEL.md` and, executably, in `scripts/tutorlib/schemas/student_profile.json` (`validate_schema.py student_profile <file>`); `intake.md` maps each intake question to its key. Created only by `profile_init.py` and changed only by `profile_set.py`.
 
 ### `capabilities` — practical units by declaration
 What the learner says they can do outside the conversation, which some courses' practical stages need (`course.json.practical_stages`). The only one defined today is `share_images`: the learner can share images of their own work, such as CAD screenshots, drawings or photos of a model. It's a declaration, not a check: ask plainly, record the learner's answer and the date, and never set it on their behalf or infer it. Absent means not declared. Ask about it at intake, or when a learner adds a course with practical stages, and let them change it any time through `/profile`.
@@ -61,38 +25,11 @@ A single scalar, never a set. It only ever increases by clearing — with one de
 Set once at intake, adjustable later via `/profile`. This is the hard cap `course-compiler` and `journey-planner` both check before a new course may be added. Raising the cap later doesn't retroactively unlock anything already gated by the level-lock — the two mechanisms are independent.
 
 ## Micro-profile schema (`<active_user_id>/subjects/<course_id>.json`)
-```json
-{
-  "schema_version": 5,
-  "course_id": "aqa_gcse_maths_8300",
-  "roster_state": "active | dormant | test_pending_convergence | dropped",
-  "cohort_id": "integer — a cached copy of this course's own academic_level, written once by course-compiler at enrollment and never changed afterward; course-runner's phase-convergence gate groups by this field, not globally, so courses at different levels never block each other's testing. For a standalone course it is the string \"standalone:<course_id>\": each standalone enrolment is its own cohort",
-  "syllabus_status": {
-    "S1": "pass | fail | unsat | withheld"
-  },
-  "notices_acknowledged": [ { "id": "notice id", "on": "ISO date" } ],
-  "current_stage": "S1",
-  "current_phase": "lesson | practice | test",
-  "exam_status": "locked | available | passed",
-  "confidence": 0.5,
-  "error_patterns": [
-    { "id": "err_…", "stage_id": "S1", "item_id": "…", "source_phase": "practice|test",
-      "cause": "slip|missing_prerequisite|misconception|misapplied_procedure|comprehension",
-      "misconception_id": "string|null", "rubric_criterion": "string|null", "note": "string",
-      "slot": 0, "resolved": false, "resolved_at_slot": null }
-  ],
-  "item_mastery": { "<item_id>": { "p_mastery": 0.0, "observations": 0 } },
-  "remediation": { "<stage_id>": { "attempts": 0, "last_cause": "string|null", "escalated": false, "escalated_at_slot": null } },
-  "last_session_summary": "one or two sentences",
-  "last_updated": "ISO date"
-}
-```
-Field ownership (code, not prose, owns these; never hand-edit): `confidence` (a number in [0, 1], default 0.5 = unknown) by `confidence_update.py`; `error_patterns` by `error_log.py`; `item_mastery` by `item_mastery.py`; `remediation` by `remediation_state.py`; `syllabus_status`/`current_stage` by `record_stage_result.py`. Authoritative field shapes are defined by those scripts and `migrate_schema.py` (`SUBJECT_SCHEMA_VERSION`).
+Fields, types and owners: `DATA_MODEL.md` and `scripts/tutorlib/schemas/subjects.json`. Created only by `enrol.py`; every later change goes through the script that owns the field, never a hand edit (`confidence_update.py`, `error_log.py`, `item_mastery.py`, `remediation_state.py`, `record_stage_result.py`, `session_state.py`, `roster_apply.py`).
 
-Two things moved deliberately since the original single-file design:
-- **`last_live_recheck` now lives on the shared `course.json`**, not here — currency is a fact about the content, true for every learner enrolled, and checking it once benefits everyone rather than being duplicated per learner for no reason.
-- **`stage_progress` is replaced by the flatter `syllabus_status` tri-state map** (`pass | fail | unsat`, defaulting to `unsat`), which is what the roster, convergence, and journey-planner logic actually reads to decide readiness.
-- **A fourth value, `withheld`**. It is only ever written by `apply_capabilities.py`, and only on a practical stage whose capability the learner hasn't declared. It counts as done for completion, so the course can finish **theory-only**, and a theory-only completion satisfies prerequisites. `notices_acknowledged` records which course notices the learner has already been told.
+- **`cohort_id`** is a cached copy of the course's own `academic_level`, written once at enrollment; the phase-convergence gate groups by it, so courses at different levels never block each other's testing. A standalone course gets `"standalone:<course_id>"`: each standalone enrolment is its own cohort.
+- **`syllabus_status`** maps each stage to `pass | fail | unsat | withheld`. `withheld` is written only by `apply_capabilities.py`, on a practical stage whose capability the learner has not declared; it counts as done, so the course can finish **theory-only**, and that still satisfies prerequisites.
+- `last_live_recheck` lives on the shared `course.json`, not here: currency is a fact about the content.
 
 ## Displaying a full profile
 When the learner asks to see their overall profile or progress, read the currently active learner's `student_profile.json` plus every file under their own `subjects/`, and present a combined, read-time-only view — never another learner's folder, even if their `user_id` is known. Always surface `highest_level_cleared` and current roster occupancy (e.g. "2 of 2 incomplete-course slots in use") plainly, since both directly determine what the learner can do next. Also show declared `capabilities`, and mark any course that is running theory-only. Standalone courses hold roster slots like any other unfinished course, but have no level and never affect `highest_level_cleared`; list them as "standalone". Something like:
