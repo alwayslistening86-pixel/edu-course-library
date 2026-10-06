@@ -120,6 +120,23 @@ class NextItems(Base):
         self.assertEqual(next_items.choose(self.L, self.C, "mathA", 4), next_items.choose(self.L, self.C, "mathA", 4))
 
 
+class Scaffold(unittest.TestCase):
+    """L-11: worked-example fading bands."""
+    def test_bands_and_the_error_bump(self):
+        f = next_items.scaffold_for
+        self.assertEqual([f(0.1, 0), f(0.39, 0), f(0.4, 0), f(0.69, 0), f(0.7, 0), f(0.95, 0)], ["full", "full", "partial", "partial", "none", "none"])
+        self.assertEqual([f(0.9, 1), f(0.5, 2), f(0.2, 1)], ["partial", "full", "full"])
+
+    def test_every_chosen_item_carries_one(self):
+        import tempfile
+        tmp = os.path.realpath(tempfile.mkdtemp())
+        self.addCleanup(__import__("shutil").rmtree, tmp, True)
+        fx = gs.build_fixture(tmp)
+        r = next_items.choose(fx["L"], fx["C"], "mathA", 4)
+        self.assertTrue(r["items"])
+        self.assertTrue(all(i["scaffold"] in next_items.LEVELS for i in r["items"]))
+
+
 class Readiness(Base):
     def mastery(self, p, obs=6, items=("S1.1", "S2.1", "S3.1")):
         self.edit(f"{self.S}/mathA.json", lambda d: d.update(item_mastery={i: {"p_mastery": p, "observations": obs} for i in items}))

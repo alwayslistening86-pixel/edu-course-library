@@ -15,8 +15,10 @@ weakest items from stages already passed, so earlier learning keeps being retrie
                  weakest items (never fewer than 1 prior item when prior items exist and --count >= 3)
   fallbacks      if one pool is short, the other fills the gap; ties break by item id (stable)
 
-Read-only. Output: {course_id, current_stage, items[{item_id, stage_id, pool: current|prior, weakness, p_mastery, observations,
-unresolved_errors, reason}], itemised}. Courses that are not itemised return `itemised: false` and no items (the tutor then
+Read-only. Each item also carries `scaffold` (full | partial | none): how much worked example to give before the learner tries it (p_mastery under 0.4 full, under 0.7
+partial, else none; an unresolved error on the item raises it one level).
+Output: {course_id, current_stage, items[{item_id, stage_id, pool: current|prior, weakness, p_mastery, observations,
+unresolved_errors, scaffold, reason}], itemised}. Courses that are not itemised return `itemised: false` and no items (the tutor then
 falls back to the stage's own practice file).
 """
 import json
@@ -30,6 +32,14 @@ from tutorlib import cli
 CURRENT_SHARE = 0.7
 ERROR_WEIGHT = 0.25
 UNSEEN_BONUS = 0.1
+SCAFFOLD_LOW, SCAFFOLD_HIGH = 0.4, 0.7        # p_mastery bands for worked-example fading (L-11)
+LEVELS = ("none", "partial", "full")
+
+
+def scaffold_for(p, n_err):
+    """How much worked example an item gets: full below SCAFFOLD_LOW, partial below SCAFFOLD_HIGH, else none; an unresolved error raises it one level."""
+    level = 2 if p < SCAFFOLD_LOW else 1 if p < SCAFFOLD_HIGH else 0
+    return LEVELS[min(2, level + (1 if n_err else 0))]
 
 
 def _load(path):
@@ -67,7 +77,8 @@ def choose(learner_dir, courses_dir, course_id, count=6):
         if n_err:
             why.append(f"{n_err} unresolved error(s)")
         return {"item_id": item_id, "stage_id": stage_id, "pool": pool, "weakness": round(w, 4), "p_mastery": round(p, 4),
-                "observations": (m or {}).get("observations", 0), "unresolved_errors": n_err, "reason": ", ".join(why)}
+                "observations": (m or {}).get("observations", 0), "unresolved_errors": n_err, "scaffold": scaffold_for(p, n_err),
+                "reason": ", ".join(why)}
 
     seen, current, prior = set(), [], []
     idx = ladder.index(cur)

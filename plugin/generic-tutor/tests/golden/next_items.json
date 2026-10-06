@@ -24,6 +24,7 @@
             "p_mastery": 0.3,
             "pool": "current",
             "reason": "mastery 0.30 (not yet observed)",
+            "scaffold": "full",
             "stage_id": "S2",
             "unresolved_errors": 0,
             "weakness": 0.8
@@ -34,6 +35,7 @@
             "p_mastery": 0.3,
             "pool": "prior",
             "reason": "mastery 0.30 (not yet observed)",
+            "scaffold": "full",
             "stage_id": "S1",
             "unresolved_errors": 0,
             "weakness": 0.8
