@@ -1568,3 +1568,12 @@ Sixteen "(v1.x.y)" tags and a few DESIGN_NOTES pointers came out of the skills; 
 does not need. Left in place: the auditor's migration table, where plugin versions are the data (which schema version a plugin release wrote), and plain
 mentions like "from 1.2.0" inside it. The lint warns on the tag form and on `DESIGN_NOTES.md` references, and CI runs it strict, so the
 prose cannot grow back unnoticed.
+
+## 5 Oct 2026 - v1.56.0: compiler option table and copyright policy (K-11, K-12)
+
+Step 0.5's numbered list becomes a six-row table; the added cases are the ones real specifications produce (several awarding bodies, tiers,
+"all of them", a different selection for an existing specification). The real library already follows the tier rule (stage files carry
+Foundation and Higher text side by side). The copyright policy reuses the 15-word, one-per-source limit the scholar-voice rule already
+used and applies it to every course file. It is policy for the model, not a check: the long-quoted-span detector I tried on the 62 real
+courses fired 171 times on 20 courses, almost all of it quoted test scenarios, so it cannot tell a copied passage from a scenario in quotes. A real
+check (N-06) needs the source text next to the course text, which this repo does not hold.

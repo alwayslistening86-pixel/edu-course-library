@@ -86,12 +86,16 @@ python3 /EDU/.tutor-scripts/prereq_check.py <courses/<course_id>/course.json> <t
 If `met` is `false`, refuse to enrol: name every entry in `unmet` (for an any-of entry, say "one of …"), and stop — no provisional enrolment. If `missing_courses` is non-empty, say plainly that those prerequisite courses haven't been built yet, so this course cannot be reached until they are. A theory-only completion (see Step 7) satisfies a prerequisite. When building a **new** course, record the prerequisites the owner has set; never add one on your own judgement, and never point one at a course that doesn't exist (validate_structure.py reports that as `missing_prerequisite_courses`).
 
 ## Step 0.5 — Check for optional components, and require a choice before building
-Many real specifications aren't a single fixed path — set texts, option units, elective papers.
-1. Check the chosen source for optional/selectable components.
-2. If any exist, list the real choices and require the learner to pick explicitly — never assume a "typical" selection.
-3. Record the choice in `course.json` under `selected_options`.
-4. Build only the chosen path — nothing from the unselected options. A course here represents one learner's actual study path, not the exam board's full breadth.
-5. If the source has no optional components, skip this step and say so in the final report.
+Many specifications aren't one fixed path. Check the chosen source for optional or selectable components and act by this table (never assume a "typical" selection; record the choice in `course.json` under `selected_options`; build only the chosen path):
+
+| Situation | What to do |
+|---|---|
+| No optional components | Skip this step; say so in the final report. |
+| Set texts, option units or elective papers | List the real choices; the learner picks explicitly; build only those. |
+| Several awarding bodies offer the subject | One course per body and specification code; the learner picks the body. Never merge bodies into one course. |
+| Tiers (e.g. Foundation / Higher) | Build both tiers in the stage files, labelled, and record the learner's tier in `selected_options`. |
+| The learner is unsure or says "all of them" | Explain what the options are and ask again. Build everything only where the specification makes it compulsory. |
+| A different selection for the same specification | A new course (the dedupe check compares `selected_options`), not an edit of the old one. |
 
 **Practical stages.** If the chosen path includes assessed work that can only be shown through something the learner produces outside the conversation (CAD drawings, photos of a made object, a physical prototype), mark each such stage in `course.json.practical_stages` with the capabilities it needs, e.g. `{"S08": ["share_images"]}`. The only capability defined today is `share_images` (the learner can share images of their work). A practical stage is offered only to a learner who has declared every capability it needs; everyone else studies the course theory-only. Build practical stages exactly like any other stage (lesson, practice, test, rubric from the source). Their tests are marked against the board's own criteria from what the learner shares, and are practice, not certified coursework: say so in the stage's lesson. Don't mark a stage practical just because it involves hands-on skill that can be discussed or answered in writing.
 
@@ -120,7 +124,7 @@ If a learner has a genuine prior credential, the only path this system offers is
 
 **3. Draft `course.json`** — see schema below.
 
-**4. Capture `rubric.json`'s criteria faithfully, in Claude's own words — never reproduce the source's literal text.** Published mark schemes are typically still copyrighted even when freely readable, so this is paraphrase-and-structure, never copy-and-paste. Rubrics aren't always point-based — capture whichever shape the source actually uses (numeric threshold or holistic competency descriptor). If a stage's rubric can't be traced to the source with confidence, that stage cannot have a test written yet — report it as a gap, don't fill it in.
+**4. Capture `rubric.json`'s criteria faithfully, in Claude's own words — never reproduce the source's literal text.** Published mark schemes are typically still copyrighted even when freely readable, so this is paraphrase-and-structure, never copy-and-paste. **Copyright policy for every course file:** a quotation from a specification, mark scheme, examiner report or textbook is attributed, under 15 words, and at most one per source per stage; syllabus item titles and rubric criteria are paraphrases; practice and test questions are original (never a reproduced past-paper question), though they may match a paper's style; a mark-scheme line is never copied. Rubrics aren't always point-based — capture whichever shape the source actually uses (numeric threshold or holistic competency descriptor). If a stage's rubric can't be traced to the source with confidence, that stage cannot have a test written yet — report it as a gap, don't fill it in.
 
 **4.5. Itemize the whole syllabus, and map every item to a stage, in `curriculum_map.json`.** Grading standard and content coverage are two different things that both need to trace to the source, and a course is only worth a learner's time if it teaches the *whole* declared specification, not a representative slice of each area. So:
 1. **Itemize the source spec into its own atomic items** — `_syllabus_items`: one entry per item, using **the specification's own numbering as the `id`** wherever it has one (OCR `7.01a`, an AQA section number, a numbered learning outcome), a short **paraphrased** `title` (never a copy of the spec's wording — same copyright discipline as the rubric), the `topic_area` it sits in, and an optional `tier`. If the spec has no numbering, assign stable ids yourself (`T3-04`) and say so in `_items_source`. Record where the list came from in `_items_source` (`document`, `url`, `version`, `itemised_on` = today's date) — this is what `/audit` re-fetches to detect drift.

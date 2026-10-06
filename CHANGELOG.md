@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.56.0] — 2026-10-06
+### Changed
+- `course-compiler`: a decision table for optional components, tiers and multiple awarding bodies (K-11) and one explicit copyright policy for every course file (K-12)
+
 ## [1.55.0] — 2026-10-05
 ### Changed
 - release-history prose removed from skills ('(v1.3.0)' tags, DESIGN_NOTES pointers); the docs lint now flags it (K-35)
