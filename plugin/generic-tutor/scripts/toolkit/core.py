@@ -90,6 +90,20 @@ def edu_root():
     return paths.resolve_root(_root_override, env=env) or _DEFAULT_EDU_ROOT
 
 
+def describe_error(exc):
+    """A plain-language message for an exception raised inside the GUI (a .pyw has no console, so Tk would otherwise swallow it)."""
+    name = type(exc).__name__
+    detail = str(exc).strip() or "no further detail"
+    hint = ""
+    if isinstance(exc, (FileNotFoundError, NotADirectoryError)):
+        hint = " Check that the EDU folder is the one that holds profile/ and courses/ (set EDU_TOOLKIT_ROOT or run from .tutor-scripts/)."
+    elif isinstance(exc, (ValueError, KeyError)):
+        hint = " A file may be damaged; /doctor in your Claude session will say which."
+    elif isinstance(exc, PermissionError):
+        hint = " The folder may be locked by a sync tool or another program."
+    return f"{name}: {detail}.{hint}"
+
+
 def profile_dir(learner_id, root=None):
     return os.path.join(root or edu_root(), "profile", learner_id)
 

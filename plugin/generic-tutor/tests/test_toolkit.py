@@ -323,6 +323,73 @@ class TestBootstrapPackages(unittest.TestCase):
         self.assertTrue(os.path.isfile(marker))
 
 
+
+class GuiErrorSurface(unittest.TestCase):
+    """E-23: a .pyw has no console, so an error inside a handler must reach the user as a dialog. tkinter is replaced by a stub."""
+
+    def test_describe_error_is_plain_and_actionable(self):
+        self.assertIn("EDU_TOOLKIT_ROOT", core.describe_error(FileNotFoundError("no such folder")))
+        self.assertIn("/doctor", core.describe_error(ValueError("bad json")))
+        self.assertIn("locked", core.describe_error(PermissionError("denied")))
+        self.assertTrue(core.describe_error(RuntimeError("")).startswith("RuntimeError: no further detail"))
+
+    def _load_gui(self, boom_on_start=False):
+        import importlib.machinery
+        import importlib.util
+        import types
+        shown = []
+        stub = types.ModuleType("tkinter")
+
+        class Any:
+            def __init__(self, *a, **k):
+                pass
+
+            def __getattr__(self, name):
+                return lambda *a, **k: Any()
+
+        class Tk(Any):
+            report_callback_exception = None
+
+            def mainloop(self):
+                self.ran = True
+
+        stub.Tk = Tk
+        stub.Toplevel = stub.Frame = stub.StringVar = Any
+        mb = types.SimpleNamespace(showerror=lambda title, msg: shown.append((title, msg)), showinfo=lambda *a: None)
+        stub.messagebox, stub.ttk, stub.scrolledtext = mb, Any(), Any()
+        saved = {k: sys.modules.get(k) for k in ("tkinter", "tkinter.ttk", "tkinter.scrolledtext", "tkinter.messagebox")}
+        sys.modules.update({"tkinter": stub, "tkinter.ttk": stub.ttk, "tkinter.scrolledtext": stub.scrolledtext, "tkinter.messagebox": mb})
+        self.addCleanup(lambda: [sys.modules.__setitem__(k, v) if v else sys.modules.pop(k, None) for k, v in saved.items()])
+        loader = importlib.machinery.SourceFileLoader("gui_under_test", os.path.join(TOOLKIT, "gui.pyw"))
+        spec = importlib.util.spec_from_loader("gui_under_test", loader)
+        gui = importlib.util.module_from_spec(spec)
+        loader.exec_module(gui)
+        if boom_on_start:
+            gui.core = types.SimpleNamespace(edu_root=lambda: (_ for _ in ()).throw(FileNotFoundError("no EDU folder")),
+                                             describe_error=core.describe_error)
+        return gui, shown, Tk
+
+    def test_startup_failure_is_shown_not_swallowed(self):
+        gui, shown, _ = self._load_gui(boom_on_start=True)
+        gui.main()
+        self.assertEqual(len(shown), 1)
+        self.assertIn("could not start", shown[0][0])
+        self.assertIn("no EDU folder", shown[0][1])
+
+    def test_handler_errors_are_routed_to_a_dialog(self):
+        gui, shown, Tk = self._load_gui()
+        captured = {}
+        orig = Tk.mainloop
+
+        def spy(self):
+            captured["handler"] = self.report_callback_exception
+            orig(self)
+        Tk.mainloop = spy
+        gui.main()
+        captured["handler"](ValueError, ValueError("bad"), None)
+        self.assertEqual(shown[0][0], "Something went wrong")
+        self.assertIn("ValueError: bad", shown[0][1])
+
 if __name__ == "__main__":
     unittest.main()
 

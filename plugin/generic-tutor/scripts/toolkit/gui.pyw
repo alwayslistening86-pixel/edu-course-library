@@ -178,7 +178,17 @@ class ToolkitApp:
 
 def main():
     root_window = tk.Tk()
-    ToolkitApp(root_window)
+
+    def _surface(exc_type, exc, tb):          # Tk calls this for an error inside a button handler; without it a .pyw fails silently
+        messagebox.showerror("Something went wrong", core.describe_error(exc))
+
+    root_window.report_callback_exception = _surface
+    try:
+        ToolkitApp(root_window)
+    except Exception as exc:                  # startup (e.g. no EDU folder found)
+        messagebox.showerror("The toolkit could not start", core.describe_error(exc))
+        root_window.destroy()
+        return
     root_window.mainloop()
 
 

@@ -465,7 +465,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | R-14 | ✅ done | third-party actions pinned by commit SHA with the version in a comment; Dependabot (weekly) keeps them current. The Claude CLI installed in the validate job is still unpinned |
 | V-07 | ➖ dropped | a hash chain would only detect tampering by the machine's owner, who can already edit every file; the ledger exists to catch a model skipping a script call, which `verify_session.py` does without it |
 | S-09 | 🟡 partial (by decision) | migration stays one idempotent normaliser, now with a schema post-check (`valid_after`); per-version steps deliberately not built (DESIGN_NOTES v1.49.0) |
-| E-23 | 🟡 partial | toolkit uses `tutorlib.paths.resolve_root` and takes `--root`; GUI error surfaces untested (no display) |
+| E-23 | ✅ done | toolkit uses `tutorlib.paths.resolve_root` and takes `--root`; GUI handler and startup errors now show a plain-language dialog (`core.describe_error`), tested by running `gui.pyw`'s `main()` against a stub tkinter. Not seen on a real display (v1.65.0) |
 | E-02 | ✅ done | `tutorlib`: atomic_io, filelock, consent, ids, paths, cli (envelope inside), state, schema, ledger, untrusted, version, overlap |
 | E-08 | ✅ done | every operation that turns an id into a path goes through `tutorlib.ids` / `paths` (erase, export, backup, restore, purge, init, enrol, roster) |
 | S-13 | ✅ done | id rules enforced wherever an id becomes a path or a command argument; SQL uses parameters |
@@ -501,7 +501,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 
 | Wave | Theme | Tasks | Why this order |
 |---|---|---|---|
-| 1 | Finish the engine | E-09 E-23 E-26 S-09 R-15 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
+| 1 | Finish the engine | E-09 E-26 S-09 R-15 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
 | 2 | Skill clarity | K-05 K-09 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-05 P-06 P-07 P-08 P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-03 L-06 L-08 L-09 L-11 L-15 L-17 L-18 L-20 L-21 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
@@ -518,7 +518,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | Phase | Tasks | Done | Partial | Open or deferred |
 |---|---|---|---|---|
 | 0 Foundations | 36 | 35 | 1 | 0 |
-| 1 Engine hardening | 35 | 31 | 4 | 0 |
+| 1 Engine hardening | 35 | 32 | 3 | 0 |
 | 2 Plugin surface & trust | 76 | 66 | 4 | 6 |
 | 3 Assessment & evals | 17 | 13 | 2 | 2 |
 | 4 Learning design | 34 | 15 | 5 | 14 |
@@ -528,7 +528,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 
 | Wave | Theme | Not yet done | Of which started |
 |---|---|---|---|
-| 1 | Finish the engine | 5 | 5 |
+| 1 | Finish the engine | 4 | 4 |
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 7 | 2 |
 | 4 | Learning design | 17 | 5 |
@@ -540,7 +540,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | Workstream | Tasks | Done | Partial | Deferred / dropped | Open |
 |---|---|---|---|---|---|
 | R Repo | 18 | 17 | 1 | 0 | 0 |
-| E Engine | 26 | 23 | 3 | 0 | 0 |
+| E Engine | 26 | 24 | 2 | 0 | 0 |
 | S Schemas | 14 | 13 | 1 | 0 | 0 |
 | K Skills | 36 | 30 | 2 | 1 | 3 |
 | C Commands | 15 | 15 | 0 | 0 | 0 |
@@ -552,4 +552,4 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
-| **Total** | **217** | **161** | **17** | **3** | **36** |
+| **Total** | **217** | **162** | **16** | **3** | **36** |

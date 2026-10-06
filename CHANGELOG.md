@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.65.0] — 2026-10-06
+### Changed
+- E-23: the toolkit GUI shows errors instead of failing silently (a .pyw has no console): handler and startup errors become a plain-language dialog; tested with a stubbed tkinter
+
 ## [1.64.0] — 2026-10-06
 ### Changed
 - S-05, K-21: schemas for access.json and the deployed manifest (confirm_access now writes through state.save), plus a schema for plan_estimate output that /plan quotes from
