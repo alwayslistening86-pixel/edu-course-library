@@ -10,6 +10,7 @@ Errors (exit 1):
   - a skill without a **Contract** block (Owns/Reads/Calls/Emits/Never), or one naming a script that doesn't exist
   - disagreeing versions between plugin.json, .tutor-scripts/.manifest.json and pyproject.toml
   - a command missing from commands/help.md's table
+  - the toolkit README's command table differs from `toolkit/__main__.py` COMMANDS
   - a relative markdown link (in repo docs) whose target doesn't exist
 Warnings (printed, exit 0 unless --strict):
   - a skill heading carrying a private "vN" version, or "(v1.2.3)" / `DESIGN_NOTES.md` release-history prose in a skill (K-35)
@@ -126,6 +127,15 @@ def lint(root):
                 versions["marketplace.json"] = entry["version"]
     if len(set(versions.values())) > 1:
         errors.append(f"version mismatch: {versions}")
+
+    # toolkit README lists exactly the commands __main__.py dispatches
+    tk = os.path.join(plug, "scripts", "toolkit")
+    if os.path.isfile(os.path.join(tk, "__main__.py")):
+        code = set(re.findall(r'^\s+"([\w-]+)":\s*"\w+",', _read(os.path.join(tk, "__main__.py")), re.M))
+        block = re.search(r"<!-- toolkit-commands -->(.*?)<!-- /toolkit-commands -->", _read(os.path.join(tk, "README.md")), re.S)
+        listed = set(re.findall(r"^\| `([\w-]+)` \|", block.group(1), re.M)) if block else set()
+        if code != listed:
+            errors.append(f"toolkit README commands {sorted(listed)} != __main__.COMMANDS {sorted(code)}")
 
     # relative markdown links in repo docs
     md_files = [os.path.join(root, f) for f in ("README.md", "CONTRIBUTING.md", "CLAUDE.md")]

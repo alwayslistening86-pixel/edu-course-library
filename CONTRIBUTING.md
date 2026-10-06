@@ -10,6 +10,8 @@ Personal project, but changes follow the same rules so the history stays trustwo
 6. Schema change: add a migration and a test; note the rollback path in the PR.
 7. No learner data, no copyrighted exam-board text.
 
+Per-artefact checklists (script, schema, skill, command, eval case, task): [`docs/CONTRIBUTING-DEV.md`](docs/CONTRIBUTING-DEV.md).
+
 ## Releasing
 1. Run `python3 tools/bump_version.py X.Y.Z --changelog "summary"`: it edits `plugin.json`, `marketplace.json` and `pyproject.toml` together (the docs lint fails if they disagree), refreshes `.tutor-scripts/`, and adds the `## [X.Y.Z]` section CI requires to `CHANGELOG.md`.
 2. All checks green on `main`: tests (3.10/3.12/3.13), lint, docs-lint, plugin-validate.
