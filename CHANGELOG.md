@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.69.0] — 2026-10-06
+### Changed
+- L-15, L-17: opt-in self-rating calibration (calibration.py: optin / record / report, signal-class, never a gate) and a two-question reflection after each stage test that goes into the session note
+
 ## [1.68.0] — 2026-10-06
 ### Changed
 - L-11: worked examples fade with the item. next_items.py gives each practice item a scaffold (full / partial / none from p_mastery, raised a level by an unresolved error); tutor-core says how much worked example each means and never of the learner's own problem. New fading eval suite: sample accuracy 0.63 -> 0.91 (54 samples per arm, partial band 0/4 -> 5/5); hints and accessibility unchanged at equal sample counts

@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.68.0",
+  "plugin_version": "1.69.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -7,6 +7,7 @@
     "audit_status.py",
     "backup_profile.py",
     "bootstrap_scripts.py",
+    "calibration.py",
     "change_log.py",
     "cohort_status.py",
     "confidence_update.py",

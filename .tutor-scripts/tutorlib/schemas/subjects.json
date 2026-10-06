@@ -153,8 +153,17 @@
       "additionalProperties": {
         "type": "object",
         "properties": {
-          "fixed": {"type": "array", "items": {"type": "integer", "minimum": 1}},
-          "generated": {"type": "integer", "minimum": 0}
+          "fixed": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "generated": {
+            "type": "integer",
+            "minimum": 0
+          }
         }
       }
     },
@@ -192,6 +201,45 @@
             "type": "array",
             "items": {
               "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "calibration": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "stage_id",
+              "rating",
+              "result",
+              "on"
+            ],
+            "properties": {
+              "stage_id": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "result": {
+                "enum": [
+                  "pass",
+                  "fail"
+                ]
+              },
+              "on": {
+                "type": "string"
+              }
             }
           }
         }
