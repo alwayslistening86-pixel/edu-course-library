@@ -62,7 +62,7 @@
       "exit": 1,
       "stderr_tail": [],
       "stdout": {
-        "error": "'session_slot' is not a setting this tool changes (allowed: ['availability.session_minutes', 'availability.sessions_per_week', 'capabilities.share_images', 'consent.status', 'goals', 'identity.display_name', 'identity.education_level', 'identity.locale', 'learning_signals.notes', 'learning_signals.pace', 'learning_signals.spatial_support_needed', 'learning_signals.verbal_load_sensitivity', 'learning_signals.working_memory_support_needed', 'preferences.accessibility.dyslexia_mode', 'preferences.accessibility.plain_language_mode', 'preferences.style', 'preferences.tone', 'roster.max_incomplete_courses'])"
+        "error": "'session_slot' is not a setting this tool changes (allowed: ['availability.session_minutes', 'availability.sessions_per_week', 'capabilities.share_images', 'consent.status', 'goals', 'identity.display_name', 'identity.education_level', 'identity.locale', 'learning_signals.notes', 'learning_signals.pace', 'learning_signals.spatial_support_needed', 'learning_signals.verbal_load_sensitivity', 'learning_signals.working_memory_support_needed', 'preferences.accessibility.dyslexia_mode', 'preferences.accessibility.plain_language_mode', 'preferences.accessibility.screen_reader_mode', 'preferences.style', 'preferences.tone', 'roster.max_incomplete_courses'])"
       }
     }
   ]

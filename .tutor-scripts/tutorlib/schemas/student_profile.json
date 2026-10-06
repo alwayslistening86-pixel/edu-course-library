@@ -11,7 +11,7 @@
     "preferences": {"type": "object", "properties": {
       "style": {"enum": ["brief", "detailed"]},
       "tone": {"enum": ["neutral", "friendly", "formal", "playful"]},
-      "accessibility": {"type": "object", "properties": {"dyslexia_mode": {"type": "boolean"}, "plain_language_mode": {"type": "boolean"}}}}},
+      "accessibility": {"type": "object", "properties": {"dyslexia_mode": {"type": "boolean"}, "plain_language_mode": {"type": "boolean"}, "screen_reader_mode": {"type": "boolean"}}}}},
     "learning_signals": {"type": "object", "properties": {
       "pace": {"enum": ["fast", "standard", "slow"]},
       "working_memory_support_needed": {"enum": ["none", "some", "significant"]},

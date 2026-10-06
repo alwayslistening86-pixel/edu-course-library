@@ -1,5 +1,5 @@
 """
-Accessibility suite (A-xx for K-04 / L-18): do the profile's accessibility modes actually change how the tutor writes?
+Accessibility suite (K-04 / L-18): do the profile's accessibility modes actually change how the tutor writes?
 
 Checked by CODE on the reply text, so no one marks anything. A reply `meets` when every measurable rule of the active mode holds
 AND the explanation still contains its required concepts (simplifying must not make it wrong or empty). Rules (see the mode
@@ -11,6 +11,8 @@ definitions in tutor-core):
   plain_language_mode   average sentence <= 18 words, longest <= 30, every technical term from the case's list is explained at
                         first use (a bracket or "which means/is" within 90 characters after it)
   both                  both sets
+  screen_reader_mode    no tables, no emoji or decorative symbols or box-drawing/rules, no colour-only references ("the red part"), and a plain
+                        list or numbered steps instead
   none (control)        only the concept check - the tutor must not be forced into a style the learner did not ask for
 
 Metrics are deliberately simple and transparent (they are proxies for readability, not clinical standards).
@@ -38,13 +40,22 @@ TOPICS = {
         "concepts": [["common denominator", "same denominator", "common multiple", "bottom numbers match", "same bottom number", "bottom number the same", "same number on the bottom"], ["numerator", "top number", "top part", "tops"], ["add"]],
         "terms": ["denominator"], "acronyms": [],
     },
+    "mitosis": {
+        "ask": "Compare mitosis and meiosis.",
+        "concepts": [["mitosis"], ["meiosis"], ["two"], ["four"]],
+        "terms": [], "acronyms": [],
+    },
 }
 MODES = {
-    "dyslexia": {"dyslexia_mode": True, "plain_language_mode": False},
-    "plain": {"dyslexia_mode": False, "plain_language_mode": True},
-    "both": {"dyslexia_mode": True, "plain_language_mode": True},
-    "none": {"dyslexia_mode": False, "plain_language_mode": False},
+    "dyslexia": {"dyslexia_mode": True, "plain_language_mode": False, "screen_reader_mode": False},
+    "plain": {"dyslexia_mode": False, "plain_language_mode": True, "screen_reader_mode": False},
+    "both": {"dyslexia_mode": True, "plain_language_mode": True, "screen_reader_mode": False},
+    "reader": {"dyslexia_mode": False, "plain_language_mode": False, "screen_reader_mode": True},
+    "none": {"dyslexia_mode": False, "plain_language_mode": False, "screen_reader_mode": False},
 }
+_TABLE = re.compile(r"^\s*\|.*\|\s*$|^\s*\|?\s*:?-{3,}:?\s*\|", re.M)
+_DECOR = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF\u2190-\u21FF\u2500-\u259F]|^\\s*(?:[-_*=]{3,})\\s*$", re.M)
+_COLOUR = re.compile(r"\b(?:red|green|blue|yellow|orange|purple|pink)\s+(?:line|text|part|box|arrow|bar|section|word|area)s?\b|\b(?:highlighted|shown|marked) in (?:red|green|blue|yellow|orange|purple|pink)\b", re.I)
 
 
 def sentences(text):
@@ -82,7 +93,8 @@ def analyse(text, case):
                 unexplained.append(term)
     return {"avg_sentence_words": round(sum(counts) / len(counts), 1), "max_sentence_words": max(counts),
             "max_paragraph_sentences": max(para_sents), "caps_words": caps, "italic_markers": italics, "has_steps": has_steps,
-            "missing_concepts": missing, "unexplained_terms": unexplained}
+            "missing_concepts": missing, "unexplained_terms": unexplained,
+            "table_lines": len(_TABLE.findall(text)), "decorative": len(_DECOR.findall(text)), "colour_only": len(_COLOUR.findall(text))}
 
 
 def violations(m, mode):
@@ -101,6 +113,15 @@ def violations(m, mode):
             v.append(f"ALL-CAPS words: {m['caps_words']}")
         if not m["has_steps"]:
             v.append("no numbered/bulleted steps")
+    if flags["screen_reader_mode"]:
+        if m["table_lines"]:
+            v.append("table used (a screen reader reads it cell by cell)")
+        if m["decorative"]:
+            v.append("emoji, decorative symbol, arrow or rule line used")
+        if m["colour_only"]:
+            v.append("something identified by colour alone")
+        if not m["has_steps"]:
+            v.append("no list or numbered steps")
     if flags["plain_language_mode"]:
         if m["avg_sentence_words"] > 18:
             v.append(f"average sentence {m['avg_sentence_words']} words (> 18)")
@@ -130,7 +151,7 @@ def system_text():
 def build_prompt(case):
     flags = MODES[case["mode"]]
     return (f"Learner profile (preferences.accessibility): dyslexia_mode = {str(flags['dyslexia_mode']).lower()}, "
-            f"plain_language_mode = {str(flags['plain_language_mode']).lower()}. The learner is in the lesson phase of a stage.\n\n"
+            f"plain_language_mode = {str(flags['plain_language_mode']).lower()}, screen_reader_mode = {str(flags['screen_reader_mode']).lower()}. The learner is in the lesson phase of a stage.\n\n"
             f"Learner: {case['ask']}\n\nWrite your reply to the learner now (the lesson explanation only, about 120-200 words). "
             "Reply with the explanation text only, with no preamble.")
 
@@ -160,6 +181,10 @@ GOLD = {
                   "2. Change each fraction to use that bottom number.\n3. Keep the bottom number the same.\n"
                   "4. Add the numerator (the top number) of each fraction.\n5. Simplify the answer if you can."),
 }
+GOLD["mitosis"] = ("Mitosis and meiosis are two ways a cell divides.\n\n"
+                   "1. Mitosis makes two identical cells. It is used for growth and repair.\n"
+                   "2. Meiosis makes four different cells. They are the sex cells (gametes).\n"
+                   "3. Mitosis divides once. Meiosis divides twice.")
 WRONG = ("PHOTOSYNTHESIS is *fundamentally* a multi-stage biochemical process by which autotrophic organisms, encompassing terrestrial and aquatic "
          "plants as well as certain bacteria, transduce electromagnetic radiation into chemical potential energy stored in carbohydrate molecules, "
          "a phenomenon that requires consideration of numerous interacting variables and that is discussed at length in advanced texts, "

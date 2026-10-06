@@ -11,6 +11,7 @@ change, with a whitelist, validation, atomic write, file lock, ledger line, cons
   preferences.tone                          neutral | friendly | formal | playful
   preferences.accessibility.dyslexia_mode   true | false
   preferences.accessibility.plain_language_mode   true | false
+  preferences.accessibility.screen_reader_mode    true | false
   learning_signals.pace                     fast | standard | slow
   learning_signals.working_memory_support_needed | verbal_load_sensitivity | spatial_support_needed    none | some | significant
   learning_signals.notes                    text (<= 500 characters)
@@ -40,7 +41,7 @@ ENUMS = {
     "learning_signals.spatial_support_needed": ("none", "some", "significant"),
     "consent.status": ("granted", "limited", "revoked"),
 }
-BOOLS = {"preferences.accessibility.dyslexia_mode", "preferences.accessibility.plain_language_mode", "capabilities.share_images"}
+BOOLS = {"preferences.accessibility.dyslexia_mode", "preferences.accessibility.plain_language_mode", "preferences.accessibility.screen_reader_mode", "capabilities.share_images"}
 INTS = {"availability.sessions_per_week": (1, 21), "availability.session_minutes": (5, 240), "roster.max_incomplete_courses": (1, 20)}
 TEXTS = {"learning_signals.notes": 500, "identity.display_name": 80, "identity.education_level": 80, "identity.locale": 20}
 ALLOWED = set(ENUMS) | BOOLS | set(INTS) | set(TEXTS) | {"goals"}
