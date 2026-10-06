@@ -9,5 +9,5 @@ any change here, package it (`zip -r generic-tutor.plugin . -x '*.DS_Store'`
 from inside `plugin/generic-tutor/`) and install/update it through Cowork's
 plugin UI in the normal way. `.claude-plugin/plugin.json`'s `version` field is
 the single source of truth for which release is checked in here; bump it on
-every change, and add a dated entry to `DESIGN_NOTES.md` inside the plugin
-folder the same way every prior version has been documented.
+every change, and add a `CHANGELOG.md` entry at the repo root (history up to v1.61.0 is in
+`docs/history/DESIGN_NOTES.md`).

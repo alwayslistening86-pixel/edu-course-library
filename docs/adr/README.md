@@ -1,6 +1,6 @@
 # Architecture decision records
 
-One short file per decision: context/why, decision, consequences. New decisions get the next number. `DESIGN_NOTES.md` keeps the long-form history.
+One short file per decision: context/why, decision, consequences. New decisions get the next number. `docs/history/DESIGN_NOTES.md` is the frozen long-form history up to v1.61.0.
 
 - [0002](0002-slot-based-scheduling.md) — Time is counted in session slots, never dates
 - [0003](0003-sm2-lite-over-fsrs.md) — Keep SM-2-lite for review; do not adopt FSRS

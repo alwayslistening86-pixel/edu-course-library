@@ -1,6 +1,6 @@
 # ADR 0003 — Keep SM-2-lite for review; do not adopt FSRS
 
-Status: accepted (recorded retrospectively from `plugin/generic-tutor/DESIGN_NOTES.md`)
+Status: accepted (recorded retrospectively from `docs/history/DESIGN_NOTES.md`)
 
 ## Decision
 Keep SM-2-lite for review; do not adopt FSRS.

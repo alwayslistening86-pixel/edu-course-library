@@ -1,6 +1,6 @@
 # ADR 0004 — JSON is authoritative; SQLite is append-only history
 
-Status: accepted (recorded retrospectively from `plugin/generic-tutor/DESIGN_NOTES.md`)
+Status: accepted (recorded retrospectively from `docs/history/DESIGN_NOTES.md`)
 
 ## Decision
 JSON is authoritative; SQLite is append-only history.

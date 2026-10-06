@@ -1,6 +1,6 @@
 # ADR 0005 — Deterministic logic and state writes live in scripts, not prose
 
-Status: accepted (recorded retrospectively from `plugin/generic-tutor/DESIGN_NOTES.md`)
+Status: accepted (recorded retrospectively from `docs/history/DESIGN_NOTES.md`)
 
 ## Decision
 Deterministic logic and state writes live in scripts, not prose.

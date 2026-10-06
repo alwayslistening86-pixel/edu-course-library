@@ -108,7 +108,7 @@ def lint(root):
             warnings.append(f"skill {s}: US spelling {us.group(0)!r}; prose uses 'enrol' / 'enrolment' (script names keep their spelling)")
         hist = re.search(r"\(v\d+\.\d+(?:\.\d+)?\)|`DESIGN_NOTES\.md`", text)
         if hist:
-            warnings.append(f"skill {s}: release-history prose ({hist.group(0)!r}); history belongs in CHANGELOG / DESIGN_NOTES, not in a skill")
+            warnings.append(f"skill {s}: release-history prose ({hist.group(0)!r}); history belongs in CHANGELOG, not in a skill")
 
     # versions
     versions = {"plugin.json": json.loads(_read(os.path.join(plug, ".claude-plugin", "plugin.json")))["version"]}

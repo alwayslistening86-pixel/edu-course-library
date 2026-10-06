@@ -20,10 +20,10 @@ Per-artefact checklists for [CONTRIBUTING.md](../CONTRIBUTING.md). Each item nam
 ## Change a skill
 - [ ] Prose says *when* to call a script; deterministic rules go in a script.
 - [ ] Keep the **Contract** block (Owns/Reads/Calls/Emits/Never) true; docs lint checks it.
-- [ ] No release history in skill prose (that is `DESIGN_NOTES.md`); British "enrolment".
+- [ ] No release history in skill prose (that is `CHANGELOG.md`); British "enrolment".
 - [ ] `python3 tools/context_budget.py --check`: the budget only goes down unless a new user-facing capability justifies a ratchet raise, stated in the PR.
 - [ ] If a suite covers the skill (see `evals/README.md`), compare old and new at the same sample count and attach the result.
-- [ ] Version bump plus a `DESIGN_NOTES.md` entry.
+- [ ] Version bump plus a `CHANGELOG.md` entry; a lasting decision also gets an ADR.
 
 ## Add or change a command
 - [ ] `commands/<name>.md` with `description` and, if it takes arguments, `argument-hint`; `@`-include only the skill files it needs.

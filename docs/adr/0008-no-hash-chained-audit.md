@@ -1,6 +1,6 @@
 # ADR 0008 — No hash-chained audit log
 
-Status: accepted (recorded retrospectively from `plugin/generic-tutor/DESIGN_NOTES.md`)
+Status: accepted (recorded retrospectively from `docs/history/DESIGN_NOTES.md`)
 
 ## Decision
 No hash-chained audit log.

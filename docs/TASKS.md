@@ -323,7 +323,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-04 | ✅ done | `docs/adr/0001-hooks-and-platform-support.md` — hooks are Claude Code-only; verifier is primary (provisional, items to verify listed) |
 | D-02 | ✅ done | `docs/ARCHITECTURE.md` |
 | D-09 | ✅ done | ADRs 0002–0008 retrospectively recorded; index in `docs/adr/README.md` |
-| D-01 | 🟡 partial | changelog + ADRs created; `DESIGN_NOTES.md` deliberately left in place as long-form history (links depend on it) |
+| D-01 | ✅ done | `DESIGN_NOTES.md` frozen at v1.61.0 and archived to `docs/history/`; CHANGELOG carries the why from now on, lasting decisions get ADRs; contributor docs, PR template and lint message updated |
 | K-00 | 🟡 partial | `docs/SKILL_CONTRACT.md` template; lint rule to be added once skills adopt it |
 | E-02 | 🟡 partial | `tutorlib` package created with `atomic_io`, `filelock`; `paths`, `consent`, `envelope`, `cli` modules still to come |
 | E-03 | ✅ done | all 10 JSON writers atomic; format byte-identical; tests (v1.13.0) |
@@ -499,7 +499,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | Wave | Theme | Tasks | Why this order |
 |---|---|---|---|
 | 1 | Finish the engine | E-09 E-23 E-26 S-05 S-09 R-15 K-21 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
-| 2 | Skill clarity | K-03 K-05 K-09 C-15 D-01 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
+| 2 | Skill clarity | K-03 K-05 K-09 C-15 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-05 P-06 P-07 P-08 P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-03 L-06 L-08 L-09 L-11 L-15 L-17 L-18 L-20 L-21 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-02 A-03 A-05 A-12 A-13 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
@@ -514,7 +514,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 
 | Phase | Tasks | Done | Partial | Open or deferred |
 |---|---|---|---|---|
-| 0 Foundations | 36 | 33 | 3 | 0 |
+| 0 Foundations | 36 | 34 | 2 | 0 |
 | 1 Engine hardening | 35 | 31 | 4 | 0 |
 | 2 Plugin surface & trust | 76 | 64 | 5 | 7 |
 | 3 Assessment & evals | 17 | 12 | 2 | 3 |
@@ -526,7 +526,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | Wave | Theme | Not yet done | Of which started |
 |---|---|---|---|
 | 1 | Finish the engine | 7 | 7 |
-| 2 | Skill clarity | 5 | 2 |
+| 2 | Skill clarity | 4 | 1 |
 | 3 | Optional Claude Code hooks | 7 | 2 |
 | 4 | Learning design | 17 | 5 |
 | 5 | Measurement | 8 | 2 |
@@ -548,5 +548,5 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | U Learner visibility | 7 | 3 | 0 | 0 | 4 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
-| D Documentation | 12 | 11 | 1 | 0 | 0 |
-| **Total** | **217** | **156** | **20** | **3** | **38** |
+| D Documentation | 12 | 12 | 0 | 0 | 0 |
+| **Total** | **217** | **157** | **19** | **3** | **38** |

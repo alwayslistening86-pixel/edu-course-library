@@ -5,7 +5,7 @@ Run from the plugin root:
     python3 -m unittest discover tests -v
 
 Each test builds its fixtures in a temp dir, so nothing here touches a real /EDU folder.
-The tests are named after the defect they pin down (see DESIGN_NOTES.md, v1.1.2).
+The tests are named after the defect they pin down (see docs/history/DESIGN_NOTES.md, v1.1.2).
 """
 import datetime
 import json

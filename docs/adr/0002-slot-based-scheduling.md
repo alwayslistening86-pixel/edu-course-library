@@ -1,6 +1,6 @@
 # ADR 0002 — Time is counted in session slots, never dates
 
-Status: accepted (recorded retrospectively from `plugin/generic-tutor/DESIGN_NOTES.md`)
+Status: accepted (recorded retrospectively from `docs/history/DESIGN_NOTES.md`)
 
 ## Decision
 Time is counted in session slots, never dates.

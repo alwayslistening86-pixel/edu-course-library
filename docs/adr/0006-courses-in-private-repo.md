@@ -1,6 +1,6 @@
 # ADR 0006 — Course content lives in a private companion repo
 
-Status: accepted (recorded retrospectively from `plugin/generic-tutor/DESIGN_NOTES.md`)
+Status: accepted (recorded retrospectively from `docs/history/DESIGN_NOTES.md`)
 
 ## Decision
 Course content lives in a private companion repo.
