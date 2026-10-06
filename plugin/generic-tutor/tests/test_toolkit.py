@@ -390,6 +390,44 @@ class GuiErrorSurface(unittest.TestCase):
         self.assertEqual(shown[0][0], "Something went wrong")
         self.assertIn("ValueError: bad", shown[0][1])
 
+
+class AnkiNotes(unittest.TestCase):
+    """U-07: tags, cloze, and the media-free guarantee (note_parts needs no Anki library)."""
+
+    def test_basic_card_is_escaped_and_tagged(self):
+        import export_anki
+        kind, fields, tags = export_anki.note_parts({"front": "Is x < 5? <img src=a.png>", "back": "Yes & no", "stage_id": "S1", "item_id": "S1.1",
+                                                     "criterion": "M1 method"}, "mathA")
+        self.assertEqual(kind, "basic")
+        self.assertEqual(fields, ["Is x &lt; 5? &lt;img src=a.png&gt;", "Yes &amp; no"])
+        self.assertEqual(tags, ["mathA", "S1", "S1.1", "M1_method"])
+        self.assertNotIn("<", "".join(fields))                                    # nothing can render as media or script
+
+    def test_cloze_deletions_are_kept_intact(self):
+        import export_anki
+        kind, fields, _ = export_anki.note_parts({"front": "The {{c1::mitochondrion}} makes ATP", "back": "Respiration"}, "bio")
+        self.assertEqual((kind, fields[0]), ("cloze", "The {{c1::mitochondrion}} makes ATP"))
+
+    def test_missing_optional_tag_parts_are_skipped(self):
+        import export_anki
+        self.assertEqual(export_anki.note_parts({"front": "a", "back": "b"}, "c")[2], ["c"])
+
+    @unittest.skipUnless(__import__("importlib").util.find_spec("genanki"), "genanki not installed")
+    def test_a_real_apkg_is_written_with_no_media(self):
+        import zipfile
+        import export_anki
+        tmp = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, tmp, True)
+        os.makedirs(os.path.join(tmp, "profile", "amy", "subjects"))
+        with open(os.path.join(tmp, "profile", "amy", "subjects", "c1_review_deck.json"), "w") as f:
+            json.dump({"cards": [{"id": "k1", "front": "Q {{c1::x}}", "back": "b", "stage_id": "S1"}, {"id": "k2", "front": "f", "back": "b"}]}, f)
+        with open(os.path.join(tmp, "profile", "amy", "subjects", "c1.json"), "w") as f:
+            json.dump({}, f)
+        r = export_anki.export_decks("amy", root=tmp, course_ids=["c1"], out_dir=tmp)
+        self.assertEqual((r["card_count"], r["deck_count"]), (2, 1))
+        with zipfile.ZipFile(r["apkg_path"]) as z:
+            self.assertEqual(json.loads(z.read("media")), {})
+
 if __name__ == "__main__":
     unittest.main()
 

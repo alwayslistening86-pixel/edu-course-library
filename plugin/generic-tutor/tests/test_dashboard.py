@@ -105,5 +105,23 @@ class Page(unittest.TestCase):
         self.assertEqual(snapshot(), before)
 
 
+
+class Framing(unittest.TestCase):
+    """U-05: progress is framed as learning and next steps, never as streaks, points or rankings."""
+    BANNED = ("streak", "badge", "leaderboard", "ranking", "points earned", "you are behind", "you're behind", "xp")
+
+    def test_the_dashboard_uses_no_gamified_language(self):
+        tmp = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, tmp, True)
+        fx = gs.build_fixture(tmp)
+        doc, err = dashboard_html.build(fx["L"], fx["C"], "2026-10-04")
+        text = doc.lower()
+        for w in self.BANNED:
+            self.assertNotIn(w, text, w)
+
+    def test_the_status_skill_states_the_rule(self):
+        with open(os.path.join(os.path.dirname(HERE), "skills", "health-status", "SKILL.md"), encoding="utf-8") as f:
+            self.assertIn("No streaks", f.read())
+
 if __name__ == "__main__":
     unittest.main()

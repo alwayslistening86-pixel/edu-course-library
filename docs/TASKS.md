@@ -413,6 +413,8 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | P-06 | ✅ done | PreToolUse hook denies hand edits of script-owned files, another learner's folder and course edits during teaching commands; matrix test with a hook simulator plus a live check (v1.66.0) |
 | P-07 | ✅ done | PreToolUse blocks every write under a revoked learner, tested in the matrix (v1.66.0) |
 | P-08 | ✅ done | Stop hook shows the write verifier's findings; the events themselves are the ledger lines scripts already write (v1.66.0) |
+| U-05 | ✅ done | health-status skill states the framing rule (stages passed of total, items covered, coverage, what is due; no streaks, points, badges, rankings, "behind" language); a test checks the generated dashboard for gamified words (v1.71.0) |
+| U-07 | ✅ done | Anki export: tags course/stage/item/criterion (spaces made safe), `{{c1::...}}` fronts exported as cloze notes, every field HTML-escaped so a card can never carry an image, audio or script reference, and the .apkg's media list is empty (tested against real genanki). A dedicated card-type field waits for L-06 (v1.71.0) |
 | L-21 | ✅ done | `prereq_pointer.py`: up to three candidates (weak earlier stages; prerequisite courses by state: `/review`, `/continue`, `/add-course`) from the learner's own mastery, errors and results, used at the second remediation attempt. Item-level links (N-08) would sharpen it (v1.70.0) |
 | L-15 | ✅ done | `calibration.py` (opt-in; 1-5 self-rating before a test stored with the result; `report` gives overconfident / underconfident / well_calibrated after 5 ratings, never changes `confidence` or gates); runner offers it once. No eval: the model's side is one question (v1.69.0) |
 | L-17 | ✅ done | runner step 7b: after a test, pass or fail, ask what was hardest and what to look at first next time; the learner's words go into the session note (`session_state.py note`, 400 characters). Skill text only, no eval (v1.69.0) |
@@ -513,7 +515,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 1 | Finish the engine | E-09 E-26 S-09 R-15 | Small, scriptable, testable; removes the last hand-wired plumbing before skills are rewritten on top of it |
 | 2 | Skill clarity | K-05 K-09 | Prose restructures; each should be measured by an eval where one exists, and the context budget only goes down |
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
-| 4 | Learning design | L-06 L-08 L-09 L-18 K-22 K-24 K-30 N-07 U-04 U-05 U-07 | Teaching features; each needs a documented skill section plus tests or evals |
+| 4 | Learning design | L-06 L-08 L-09 L-18 K-22 K-24 K-30 N-07 U-04 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-02 A-03 A-05 A-12 A-13 A-14 V-09 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
 | 6 | Content pipeline | N-04 N-05 N-06 N-08 N-09 N-10 N-11 N-12 N-13 N-14 K-10 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
 
@@ -530,7 +532,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
 | 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
 | 3 Assessment & evals | 17 | 13 | 2 | 2 |
-| 4 Learning design | 34 | 21 | 4 | 9 |
+| 4 Learning design | 34 | 23 | 4 | 7 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
 
 ### What remains, by wave
@@ -540,7 +542,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 | Finish the engine | 4 | 4 |
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 3 | 2 |
-| 4 | Learning design | 11 | 4 |
+| 4 | Learning design | 9 | 4 |
 | 5 | Measurement | 8 | 2 |
 | 6 | Content pipeline | 15 | 2 |
 
@@ -557,8 +559,8 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | V Trust & verification | 10 | 7 | 0 | 2 | 1 |
 | L Learning design | 22 | 15 | 2 | 0 | 5 |
 | A Assessment & evals | 14 | 8 | 2 | 0 | 4 |
-| U Learner visibility | 7 | 3 | 0 | 0 | 4 |
+| U Learner visibility | 7 | 5 | 0 | 0 | 2 |
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
-| **Total** | **217** | **172** | **15** | **3** | **27** |
+| **Total** | **217** | **174** | **15** | **3** | **25** |

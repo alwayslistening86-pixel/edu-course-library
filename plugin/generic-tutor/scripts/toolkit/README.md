@@ -36,7 +36,7 @@ second place to actually study.
 | `progress` | roster state, stage, confidence, lowest-mastery items per course |
 | `review-due` | cards due now (read-only) |
 | `errors` | the error log grouped by cause and course |
-| `export-anki` | write an `.apkg` from the review deck(s) |
+| `export-anki` | write an `.apkg` from the review deck(s): tagged by course, stage, item and criterion; `{{c1::...}}` fronts become cloze cards; text only, no media |
 <!-- /toolkit-commands -->
 
 To restore a backup use `restore_profile.py` (dry run by default), not the toolkit.

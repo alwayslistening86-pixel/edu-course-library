@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.71.0] — 2026-10-06
+### Changed
+- U-07, U-05: Anki export escapes every field (no media or script can ride along), exports {{c1::...}} fronts as cloze notes and makes tags space-safe; progress is framed as learning and next steps, with a test that the dashboard has no gamified wording
+
 ## [1.70.0] — 2026-10-06
 ### Changed
 - L-21: prereq_pointer.py suggests where to go back to when the cause is missing_prerequisite (weak earlier stages and prerequisite courses, from the learner's own record, each with the command to type); the runner uses it at the second remediation attempt

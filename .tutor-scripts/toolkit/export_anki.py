@@ -32,6 +32,7 @@ Usage:
 """
 import datetime
 import hashlib
+import html
 import json
 import os
 import sys
@@ -59,6 +60,36 @@ def _stable_id(*parts):
     return int(h[:8], 16)
 
 
+CLOZE_MARK = "{{c1::"
+
+
+def _tag(t):
+    """Anki tags cannot contain spaces."""
+    return "_".join(str(t).split())
+
+
+def note_parts(card, course_id):
+    """(kind, fields, tags) for one card, with no Anki dependency so it can be tested anywhere.
+
+    kind "cloze" when the front carries a `{{c1::...}}` deletion (the Back becomes Anki's "Extra"), else "basic". Every field is HTML-escaped: Anki
+    renders fields as HTML, so card text such as "x < 5" or a pasted tag must show as text, and nothing here can ever become an image, audio or
+    script reference (the export is media-free by construction; the .apkg carries no media files). Tags: course, stage, item, criterion.
+    """
+    front, back = html.escape(str(card["front"]), quote=False), html.escape(str(card["back"]), quote=False)
+    tags = [_tag(t) for t in (course_id, card.get("stage_id"), card.get("item_id"), card.get("criterion")) if t]
+    return ("cloze" if CLOZE_MARK in front else "basic"), [front, back], tags
+
+
+def _cloze_model():
+    return genanki.Model(
+        _stable_id("generic-tutor", "cloze-model", "v1"),
+        "generic-tutor cloze",
+        fields=[{"name": "Text"}, {"name": "Extra"}],
+        templates=[{"name": "Cloze", "qfmt": "{{cloze:Text}}", "afmt": "{{cloze:Text}}<br>{{Extra}}"}],
+        model_type=genanki.Model.CLOZE,
+    )
+
+
 def _model():
     return genanki.Model(
         _stable_id("generic-tutor", "basic-model", "v1"),
@@ -82,7 +113,7 @@ def export_decks(learner_id, root=None, course_ids=None, out_dir=None):
         return {"error": f"no such learner profile: {pdir}"}
 
     courses = course_ids or core.list_enrolled_courses(learner_id, root)
-    model = _model()
+    model, cloze_model = _model(), _cloze_model()
     decks = []
     exported_courses = []
     skipped_courses = []
@@ -103,8 +134,8 @@ def export_decks(learner_id, root=None, course_ids=None, out_dir=None):
 
         anki_deck = genanki.Deck(_stable_id("generic-tutor", "deck", course_id), f"EDU export::{course_id}")
         for card in cards:
-            tags = [str(t) for t in (course_id, card.get("stage_id"), card.get("item_id"), card.get("criterion")) if t]
-            anki_deck.add_note(genanki.Note(model=model, fields=[card["front"], card["back"]], tags=tags))
+            kind, fields, tags = note_parts(card, course_id)
+            anki_deck.add_note(genanki.Note(model=cloze_model if kind == "cloze" else model, fields=fields, tags=tags))
         decks.append(anki_deck)
         exported_courses.append(course_id)
         total_cards += len(cards)
