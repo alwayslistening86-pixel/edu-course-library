@@ -295,7 +295,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 ## B — Surfaces & deployment (direction accepted 6 Oct 2026; build patterns still to be designed)
 
-These come from the owner's review of three ideas (ADR 0010): learner state that travels with the learner, a local user interface over the scripts, and models given different roles. They are no longer being dismissed. They are also not yet designed: each task below starts with a design step (a short ADR or design note with the build pattern, the risks and how it will be measured), and nothing should be built before that. Order matters: B-01 first, B-02 next, the role work last.
+These come from the owner's review of three ideas (ADR 0010): learner state that travels with the learner, a local user interface over the scripts, and models given different roles. They are no longer being dismissed. They are also not yet designed: each task below starts with a design step (a short ADR or design note with the build pattern, the risks and how it will be measured), and nothing should be built before that. Order matters: B-01 first, B-02 next, the role work last. `docs/WAVE7.md` breaks each into micro-tasks (B-01.1 and so on, 51 in all), with the owner decisions each needs and what would make us stop; the micro-tasks live there so the counts here do not move.
 
 | ID | Task | Done when | Dep | Size | Ph |
 |---|---|---|---|---|---|
