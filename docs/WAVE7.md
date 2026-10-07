@@ -130,7 +130,7 @@ If the voice that teaches is not the examiner, who is allowed to say why an answ
 | B-04.5 | design | Spawn build micro-tasks from the ADR | Listed here before any is started | B-04.4 |
 
 ### B-04.5: the build tasks from ADR 0012
-Each is its own small pull request. None is started. Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
+Each is its own small pull request. Done: a, h, i, j, k. Looked at and found to need a decision first: d and e (see the notes after the table). Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
 
 | ID | Change | Test that proves it | Scenario |
 |---|---|---|---|
@@ -144,7 +144,12 @@ Each is its own small pull request. None is started. Every one changes only what
 | B-04.5h | A length cap and a scan on error notes and session summaries | A note with a phone number, or over the cap, refused | S5 |
 | B-04.5i | Remediation causes limited to the five | A sixth value refused | S11 |
 | B-04.5j | Every writing script consults consent, enumerated by a test | The test fails if one does not | S12 |
-| B-04.5k | Keyed item types and a marking script (same work as B-02.3) | B-02.3's edge-case table | S2 |
+| B-04.5k | Keyed item types and a marking script (same work as B-02.3). **Done, v1.95.0** | B-02.3's edge-case table | S2 |
+
+**Findings when 5d and 5e were opened (8 Oct 2026, nothing built).**
+- **5d cannot be built as written.** Entries in `misconceptions.json` have no id (`pattern`, `correction`, `source` only), so "the id must exist" has nothing to check against, and `error_log.py append` is given only the subjects file, not the course folder, so it cannot find the file. Options: (1) define the id as a stage-and-position tag such as `MC-<stage>-<n>` (1-based place in that stage's file), which needs no schema change but breaks if a compiler reorders the list; (2) add an optional `id` to the schema and have the compiler write stable ones; either way `error_log.py` needs the course folder (an optional `--course-dir`, and the skills pass it). Recommendation: (2), because positions drift.
+- **5e cannot be built as written.** `pass_threshold` in `rubric.json` is free prose (the linter only demands six words), so there is no number to compare a grading record against. What a script can check today is weaker: that a grading record exists for this stage from this test. Even that must be waived when consent does not allow signal data (no record is written then), and for a stage with no rubric entry. A numeric check needs a new optional `pass_marks` (or fraction) per rubric entry, written by the compiler only where the issuing body publishes one; that is a content decision.
+- Both therefore wait for an owner choice; 5b, 5c, 5f and 5g are not blocked by this.
 
 ## B-05 Role policy (seven micro-tasks)
 
