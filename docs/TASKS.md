@@ -255,7 +255,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | N-10 🟡 | Currency monitor: scheduled (manual or CI in private repo) check of spec version/issue per course → report only | `currency_report.py` | N-04 | M | 5 |
 | N-11 🟡 | Content changelog and provenance per course (`change.md` structured, S-11) surfaced in `/list-courses` | Display + tests | S-11 | S | 5 |
 | N-12 ✅ | Course import/export between libraries (portable course bundle, no learner data) | Bundle format + tests | N-01 | M | 5 |
-| N-13 🟡 | Template refresh: `_template/` produces a schema-valid skeleton; includes `misconceptions.json` example and `exam_technique.md` stub | `validate_structure` passes on filled template | S-03 | S | 2 |
+| N-13 ✅ | Template refresh: `_template/` produces a schema-valid skeleton; includes `misconceptions.json` example and `exam_technique.md` stub | `validate_structure` passes on filled template | S-03 | S | 2 |
 | N-14 🟡 | Decide fate of "historic" vs "staging" courses in contract (states, transitions, who can move them) | Contract section | N-01 | S | 2 |
 
 ## X — Security & privacy
@@ -410,7 +410,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | N-03 | ✅ done | `validate_courses.py --courses/--engine` + reusable `validate-courses.yml`; the caller workflow lives in the content repo |
 | R-17 | ✅ done | same workflow is the documented entry point |
 | S-12 | ✅ done | `misconceptions` schema + checked by `/doctor` and the content CI (not yet inside `postcompile_gate`) |
-| N-13 | 🟡 partial | template still a skeleton with placeholders; fixture proves a filled course validates |
+| N-13 | ✅ done | the template's option lists (`currency`, `level_basis`) and the empty rubric `source` blocks were invalid as shipped; they are placeholders now. A test fills the template and runs `validate_structure`, `validate_schema`, `coverage_check` and `postcompile_gate` on it, so template drift fails CI. `postcompile_gate` now blocks any `{{PLACEHOLDER}}` left in a course file (0 hits across the 63 library courses). `_template/optional/` holds `exam_technique.md` and `command_words.json` stubs; nothing in the tutor reads those two files yet (N-05) (v1.84.0) |
 | A-03 | 🟡 more | `criteria` suite added (18 cases, extended answers vs discrete criteria, wrong-statement credit is critical): 18/18, 0 critical; still missing: units/multi-part numerics, real learner text |
 | D-03 | ✅ done | `docs/USER_GUIDE.md` |
 | D-06 | ✅ done | README rewritten (<60 lines, no rotting counts) |
@@ -543,7 +543,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
-| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-13 N-14 L-22 U-06 X-08 | Needs decisions about sourcing. The largest gap, `misconceptions.json` (0 of 1,253 stages), needs no new code: it is an audit enrichment run (course-auditor Tier 3) over courses built before compile step 4.75, run where the board sites are reachable |
+| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-14 L-22 U-06 X-08 | Needs decisions about sourcing. The largest gap, `misconceptions.json` (0 of 1,253 stages), needs no new code: it is an audit enrichment run (course-auditor Tier 3) over courses built before compile step 4.75, run where the board sites are reachable |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 B-07 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
@@ -557,7 +557,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 |---|---|---|---|---|
 | 0 Foundations | 36 | 35 | 1 | 0 |
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
-| 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
+| 2 Plugin surface & trust | 76 | 71 | 3 | 2 |
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
 | 4 Learning design | 34 | 28 | 2 | 4 |
 | 5 Content & ecosystem | 19 | 9 | 1 | 9 |
@@ -572,7 +572,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 3 | Optional Claude Code hooks | 3 | 2 |
 | 4 | Learning design | 5 | 2 |
 | 5 | Measurement | 4 | 1 |
-| 6 | Content pipeline | 9 | 2 |
+| 6 | Content pipeline | 8 | 1 |
 | 7 | Surfaces & deployment | 7 | 0 |
 
 ### By workstream
@@ -589,8 +589,8 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | L Learning design | 22 | 17 | 1 | 0 | 4 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
 | U Learner visibility | 7 | 6 | 0 | 0 | 1 |
-| N Content pipeline | 14 | 7 | 2 | 0 | 5 |
+| N Content pipeline | 14 | 8 | 1 | 0 | 5 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **224** | **187** | **12** | **4** | **21** |
+| **Total** | **224** | **188** | **11** | **4** | **21** |
