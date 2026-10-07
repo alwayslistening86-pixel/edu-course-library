@@ -2,6 +2,25 @@
 
 Written 7 Oct 2026 at v1.93.0. This turns B-01 to B-07 (see `docs/TASKS.md`, ADR 0010) into steps small enough to finish and check one at a time. The B-tasks stay the unit of record in `TASKS.md`; the micro-tasks below (B-01.1, B-01.2 and so on) live only here, so the live task counts do not move. Nothing in Wave 7 is built yet.
 
+## Progress (updated 7 Oct 2026, v1.93.1)
+The owner accepted the recommendations and defaults for D1 to D11 on 7 Oct 2026, so none of them blocks work. Everything below that needs no machine and no real learner has started.
+
+| Done (merged) | What it is |
+|---|---|
+| B-01.1 | `docs/adr/0011-portable-profile.md` |
+| B-02.1 | `docs/wave7/B-02-local-interface-design.md` |
+| B-04.1, B-04.2 | `docs/wave7/B-04-practice-judgments.md` (32 rows, classed) |
+| B-04.3 | `docs/wave7/B-04-failure-scenarios.md` (twelve scenarios) |
+| B-04.4 | `docs/adr/0012-practice-judgments.md` (D7 recorded) |
+| B-05.2 | `docs/wave7/B-05-script-roles.md` (all 70 scripts) |
+| B-06.1 | `docs/wave7/B-06-personal-data.md` (38 items, 15 gaps) |
+| B-06.2 | `docs/wave7/B-06-course-delivery.md` |
+| B-04.5 | the eleven build tasks, listed below |
+
+Next, with no machine needed: B-01.2 (separate profile root), B-02.3 (script-markable item types), the B-04 build tasks (small, independent), B-05.1 (role threat model), B-06.3 and B-06.4, B-03.2 to B-03.5 (offline parts of the local-model backend). Still needing the owner or a machine: B-01.10, B-02.10, B-03.6 and B-03.7, B-06.5.
+
+The inventories found work outside Wave 7 too, tracked here so it is not lost: the 15 personal-data gaps in `B-06-personal-data.md` (erase and purge leave backups, exports, migration copies and signal data behind; error notes have no cap), and a stale line in `PRIVACY.md` saying the history database is missing from `/export` (it is included).
+
 ## How every micro-task is done
 
 One micro-task is one pull request. It is one of five kinds, and the kind decides what "done" means.
@@ -109,6 +128,23 @@ If the voice that teaches is not the examiner, who is allowed to say why an answ
 | B-04.3 | design | Failure scenarios for each class when the voice is a small model (wrong cause recorded, mastery inflated, a miss hidden) and how each would be measured | Scenarios written; measures named | B-04.2 |
 | B-04.4 | decision | ADR 0012 and D7 | ADR accepted | D7, B-04.3 |
 | B-04.5 | design | Spawn build micro-tasks from the ADR | Listed here before any is started | B-04.4 |
+
+### B-04.5: the build tasks from ADR 0012
+Each is its own small pull request. None is started. Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
+
+| ID | Change | Test that proves it | Scenario |
+|---|---|---|---|
+| B-04.5a | Boolean inputs accept only `true` or `false`; anything else is an error | Parsing test for `diagnostic_gate`, `item_mastery observe`, `review_math apply` | S6 |
+| B-04.5b | The skill text agrees with itself on when an error is logged | A replayed-session test comparing wrong answers served with errors logged | S3 |
+| B-04.5c | Error tags must equal the item the script last served | Mismatched tag refused; matching accepted | S4 |
+| B-04.5d | A misconception id must exist in that stage's `misconceptions.json` | Unknown id refused | S1, S4 |
+| B-04.5e | A stage `pass` needs a matching grading record at or above the threshold | `apply pass` with no or failing record refused | S7 |
+| B-04.5f | Phase and roster moves forward need evidence of the work | Forward move without evidence refused | S8 |
+| B-04.5g | A mock records marks and errors but not mastery or gate counts | Mock error leaves `item_mastery` unchanged | S9 |
+| B-04.5h | A length cap and a scan on error notes and session summaries | A note with a phone number, or over the cap, refused | S5 |
+| B-04.5i | Remediation causes limited to the five | A sixth value refused | S11 |
+| B-04.5j | Every writing script consults consent, enumerated by a test | The test fails if one does not | S12 |
+| B-04.5k | Keyed item types and a marking script (same work as B-02.3) | B-02.3's edge-case table | S2 |
 
 ## B-05 Role policy (seven micro-tasks)
 
