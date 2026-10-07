@@ -38,6 +38,16 @@
               "required": [],
               "unmet": []
             },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
+            },
             "stages_passed": 0,
             "stages_total": 3,
             "standalone": false,
@@ -66,6 +76,16 @@
               "required": [],
               "unmet": []
             },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
+            },
             "stages_passed": 1,
             "stages_total": 2,
             "standalone": false,
@@ -91,6 +111,16 @@
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
             },
             "stages_passed": 1,
             "stages_total": 3,
@@ -118,6 +148,16 @@
               "required": [],
               "unmet": []
             },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": null,
+              "last_change": null,
+              "last_live_recheck": null,
+              "material_vintage": null,
+              "source_document": null,
+              "source_version": null
+            },
             "stages_passed": 0,
             "stages_total": 1,
             "standalone": false,
@@ -144,6 +184,16 @@
               "required": [],
               "unmet": []
             },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
+            },
             "stages_passed": 0,
             "stages_total": 3,
             "standalone": false,
@@ -169,6 +219,16 @@
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
             },
             "stages_passed": 0,
             "stages_total": 2,

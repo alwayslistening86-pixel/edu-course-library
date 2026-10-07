@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.87.0] — 2026-10-07
+### Changed
+- N-11: /list-courses now shows each course's provenance: the source it was itemised from (document, version, date), when it was built, its last logged change and the last live recheck. All values may be missing and are shown as such; the compact listing is unchanged. Why: a learner or owner could not tell from the listing how old a course's source was or whether it had changed since.
+
 ## [1.86.0] — 2026-10-07
 ### Changed
 - N-15: a new course is compiled into a hidden courses/.build-<id>/ folder and published by publish_course.py, which runs the post-compile gate and renames it into place only if it passes. A failed or abandoned compile is never listed or enrollable, an existing course is never overwritten, and /doctor reports leftover build folders. Why: until now the folder was a live course the moment the compiler started writing it.
