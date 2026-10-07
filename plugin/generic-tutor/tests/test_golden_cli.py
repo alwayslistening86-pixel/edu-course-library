@@ -118,6 +118,7 @@ CASES = {
     "enrol": ([("enrol.py", ["{P}", "{C}", "mathA", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "ghost", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "mathB", "maybe", "2026-10-05"]),
                ("enrol.py", ["{P}"])], []),
     "rubric_lint": ([("rubric_lint.py", ["{C}/mathA"]), ("rubric_lint.py", ["{C}/nope"])], []),
+    "paraphrase_check": ([("paraphrase_check.py", ["{C}/mathA"]), ("paraphrase_check.py", ["{C}/nope"]), ("paraphrase_check.py", [])], []),
     "purge_history": ([("purge_history.py", ["{R}", "amy", "history"]), ("purge_history.py", ["{R}", "amy", "course", "mathA"]), ("purge_history.py", ["{R}", "amy", "course", "ghost"]),
                         ("purge_history.py", ["{R}", "amy", "history", "--confirm", "nope"]), ("purge_history.py", ["{R}", "amy"])], []),
     "change_log": ([("change_log.py", ["{C}/mathA"]), ("change_log.py", ["{C}/nope"])], []),

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.81.0] — 2026-10-07
+### Changed
+- N-06: paraphrase_check.py flags over-long quotations, more than one quotation per stage and (given source text) verbatim runs of 8+ words in stage files, rubric criteria and item titles; advisory and read-only. Why: the quotation policy had no check, and a public repo cannot rely on prose alone.
+
 ## [1.80.0] — 2026-10-07
 ### Changed
 - L-19: tutor-core writes in the learner's spelling (identity.locale) and glosses key terms in identity.home_language; new locale eval suite (sample accuracy 0.889 -> 0.972 against the old prose). Why: a tutor that ignores locale/home language reads as foreign to the learner it serves.
