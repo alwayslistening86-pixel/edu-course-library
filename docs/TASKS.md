@@ -304,6 +304,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | B-04 🟡 | **Practice-judgment rule** (ADR): practice-phase judgments such as why an answer was wrong write `error_log`, `item_mastery` and `confidence`. Decide who may make them when the teaching model is not the examiner (script-marked items, proposals checked by a script, or deferred to the examiner) | ADR accepted | B-02 | M | 6 |
 | B-05 🟡 | **Role policy**: tutor voice, examiner and staff channel as a table of which role may call which script, enforced by the hook guard and by the scripts; Claude stays a full fallback teacher when no local model is set up; the examiner being offline is stated plainly | Policy table in code with tests; student mode cannot install or edit | B-03, B-04 | L | 6 |
 | B-06 🟡 | **Fleet and children's data** notes: how course content reaches many machines (private repo, licensing), how engine updates reach them, what a school deployment owes in data protection. A design note for the owner, not legal advice | Note reviewed by the owner | B-01 | S | 6 |
+| B-07 🟡 | **Shared, anonymised pattern pool** (design first). A learner who opts in can contribute the *spirit* of what went wrong, not their answer: per criterion, a short description of the error pattern written without names or specifics, with no learner id, no dates and no course-specific identifiers, released only as a reviewed export bundle and only for patterns seen from several learners. Local storage stays in the learner's own history (`grading_results` could gain a short pattern note); sharing is a separate opt-in export step, never an automatic push. The pooled result feeds the audit's misconception proposals and the item-quality checks (A-12). Needs a separate consent class (default off), a re-identification and children's-data review (small cohorts such as one family or one class are the risk), and a decision on who holds the pool | Design note and consent model accepted; an export that a learner can read before sending | B-01, V-09 | M | 6 |
 
 ## Progress
 
@@ -537,7 +538,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
 | 6 | Content pipeline | N-04 N-05 N-06 N-08 N-09 N-10 N-11 N-12 N-13 N-14 K-10 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
-| 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
+| 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 B-07 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
 ## Where we are
@@ -554,7 +555,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
 | 4 Learning design | 34 | 28 | 2 | 4 |
 | 5 Content & ecosystem | 19 | 3 | 1 | 15 |
-| 6 Surfaces & deployment | 6 | 0 | 0 | 6 |
+| 6 Surfaces & deployment | 7 | 0 | 0 | 7 |
 
 ### What remains, by wave
 
@@ -566,7 +567,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 4 | Learning design | 5 | 2 |
 | 5 | Measurement | 4 | 1 |
 | 6 | Content pipeline | 15 | 2 |
-| 7 | Surfaces & deployment | 6 | 0 |
+| 7 | Surfaces & deployment | 7 | 0 |
 
 ### By workstream
 
@@ -585,5 +586,5 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | N Content pipeline | 14 | 3 | 2 | 0 | 9 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
-| B Surfaces & deployment | 6 | 0 | 0 | 0 | 6 |
-| **Total** | **223** | **181** | **12** | **4** | **26** |
+| B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
+| **Total** | **224** | **181** | **12** | **4** | **27** |

@@ -35,3 +35,14 @@ A conversation the owner had with another assistant, which compared this project
 
 ## Not decided
 Nothing here changes current behaviour.
+
+## Added 7 Oct 2026: a shared, anonymised pattern pool (task B-07)
+The owner's idea: answer data can be anonymised (the spirit of an answer, not the verbatim text, and no user ids), which turns it into a shared resource, with a learner's profile letting their data flow into the pool when they choose.
+
+Assessment: sound, and it is the route to the real data that A-03, A-12 and L-14 are waiting for, and to evidence-based misconception entries (the audit already proposes new ones from patterns that recur across learners). The parts that need care:
+- **Removing ids is not anonymising.** Free text carries names, schools, places and writing style. A model-written description of the *pattern* ("added the denominators") is far safer than any form of the answer, and is close to what `error_events.note` already is. Verbatim answers, even scrubbed, are not proposed.
+- **Small groups re-identify.** A family or one class contributing a rare pattern is identifiable by the pattern alone. Release only patterns seen from several learners, and show the learner the export before it leaves.
+- **Local first, share second.** The local record (`grading_results`, possibly with a short pattern note) stays on the learner's own medium. Sharing is a separate export they can read and choose to send, never an automatic push, with its own consent class that is off by default.
+- **Who holds the pool** is a real decision (the private content repository is one candidate) and children's data raises duties code does not settle.
+Nothing is built. It is tracked as B-07 and depends on B-01 and the grading record from V-09.
+
