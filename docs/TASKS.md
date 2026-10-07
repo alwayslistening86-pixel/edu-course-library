@@ -254,7 +254,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | N-09 🟢 | Misconception seeding pipeline: for each course, generate candidates from examiner reports/sources, human-review queue, sourced entries only | Queue format + reviewer checklist; first course seeded | A-04 | L | 5 |
 | N-10 🟡 | Currency monitor: scheduled (manual or CI in private repo) check of spec version/issue per course → report only | `currency_report.py` | N-04 | M | 5 |
 | N-11 🟡 | Content changelog and provenance per course (`change.md` structured, S-11) surfaced in `/list-courses` | Display + tests | S-11 | S | 5 |
-| N-12 🟡 | Course import/export between libraries (portable course bundle, no learner data) | Bundle format + tests | N-01 | M | 5 |
+| N-12 ✅ | Course import/export between libraries (portable course bundle, no learner data) | Bundle format + tests | N-01 | M | 5 |
 | N-13 🟡 | Template refresh: `_template/` produces a schema-valid skeleton; includes `misconceptions.json` example and `exam_technique.md` stub | `validate_structure` passes on filled template | S-03 | S | 2 |
 | N-14 🟡 | Decide fate of "historic" vs "staging" courses in contract (states, transitions, who can move them) | Contract section | N-01 | S | 2 |
 
@@ -433,6 +433,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | V-09 | ✅ done | `record_grading.py`: per test attempt and rubric criterion, met / marks awarded / marks available and a hash of the rubric entry, in a new `grading_results` history table (schema v3, additive). Decision: **no answer text and no rubric wording is stored** (the privacy promise in /status audit says answers are never logged); a later audit can tell a rubric changed under an old result. Signal-class (full consent only); purged with the course (v1.77.0) |
 | N-04 | ✅ done | `verify_sources.py`: every cited URL fetched once; status (ok / dead / blocked / error), HTTP code, size and a SHA-256 kept in `source_snapshots.json` (schema `source_snapshots`), previous hash and `changed` remembered, last good hash kept through an outage; **page text is hashed and discarded**, local and private addresses refused. Tested against a local server, not a real board site (this sandbox blocks them) (v1.78.0) |
 | N-06 | ✅ done | `paraphrase_check.py <course_dir> [--source FILE]...`: advisory findings `long_quote` (15+ words), `many_quotes` (more than one 4+-word quotation per stage) and, given source text files, `verbatim_run` (8+ consecutive shared words outside quotes) across stage .md files, rubric criteria and item titles; read-only, wording only, a clean report is not proof of originality (v1.81.0) |
+| N-12 | ✅ done | `course_bundle.py export|import`: one deterministic zip per course (sorted, fixed timestamps, sha256 manifest), no learner data (learner file names refused both ways). Import verifies hashes, rejects unlisted members, unsafe paths, newer formats and size overflows, builds in a staging folder, requires `validate_structure` clean and no BLOCKING `scan_untrusted` finding, refuses an existing id without `--replace` and keeps the old course if a replace fails (v1.82.0) |
 | N-10 | ✅ done | `currency_report.py`: reads the snapshots and `last_live_recheck`; flags dead / changed / never / stale / blocked, most urgent first; report only, no network. A scheduled run of `verify_sources.py` is the owner's to set up in the private repo (v1.78.0) |
 | K-10 | ✅ done | compile gate: a cited source that is not an http(s) URL blocks; snapshot coverage, dead and changed sources are advice. Checked against the 62 real courses first: none newly blocked (v1.78.0) |
 | A-05 | ✅ done (selection only) | `evals/simulate.py` plays simulated learners against three selection policies; the engine's weakest-first rule ends with more items known (0.54 vs 0.48 at 40 steps, 0.82 vs 0.67 at 100) but a worse estimate on items it has not drilled (0.45 vs 0.31); rule left alone. Confidence-based pacing is not tested: any result would come from the simulator's own learning model, so it needs real learners (v1.76.0) |
@@ -542,7 +543,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
-| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-12 N-13 N-14 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
+| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-13 N-14 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 B-07 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
@@ -559,7 +560,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
 | 4 Learning design | 34 | 28 | 2 | 4 |
-| 5 Content & ecosystem | 19 | 8 | 1 | 10 |
+| 5 Content & ecosystem | 19 | 9 | 1 | 9 |
 | 6 Surfaces & deployment | 7 | 0 | 0 | 7 |
 
 ### What remains, by wave
@@ -571,7 +572,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 3 | Optional Claude Code hooks | 3 | 2 |
 | 4 | Learning design | 5 | 2 |
 | 5 | Measurement | 4 | 1 |
-| 6 | Content pipeline | 10 | 2 |
+| 6 | Content pipeline | 9 | 2 |
 | 7 | Surfaces & deployment | 7 | 0 |
 
 ### By workstream
@@ -588,8 +589,8 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | L Learning design | 22 | 17 | 1 | 0 | 4 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
 | U Learner visibility | 7 | 6 | 0 | 0 | 1 |
-| N Content pipeline | 14 | 6 | 2 | 0 | 6 |
+| N Content pipeline | 14 | 7 | 2 | 0 | 5 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **224** | **186** | **12** | **4** | **22** |
+| **Total** | **224** | **187** | **12** | **4** | **21** |
