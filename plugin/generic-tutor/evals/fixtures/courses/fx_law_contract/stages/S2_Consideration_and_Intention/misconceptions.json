@@ -1,0 +1,12 @@
+[
+  {
+    "pattern": "Believes any promise is enforceable once it is made.",
+    "correction": "A promise needs consideration, something of value given in exchange, unless it is made in a deed.",
+    "source": "plausible, not board-documented"
+  },
+  {
+    "pattern": "Treats a payment for something already done as good consideration.",
+    "correction": "Consideration usually has to be given in return for the promise; something finished beforehand is past consideration.",
+    "source": "plausible, not board-documented"
+  }
+]

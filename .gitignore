@@ -1,15 +1,15 @@
 # Course content and learner data are never committed here: courses live in a
 # separate, private content repository (docs/adr/0006), learner profiles stay local.
-courses/
-_staging/
-_historic/
+/courses/
+/_staging/
+/_historic/
 *.plugin
 *.pyc
 __pycache__/
 .DS_Store
 
 # Per-learner progress - never committed.
-profile/
+/profile/
 
 # Local download landing spot for files Claude sends into the chat - not repo content.
 Claude outputs/

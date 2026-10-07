@@ -1,0 +1,55 @@
+{
+  "stage_rubrics": {
+    "S1_Persuasive_Techniques": {
+      "criteria": [
+        "Names the technique accurately, using its correct term.",
+        "Quotes or points to the exact words used.",
+        "Explains the intended effect on the reader, not just what the writer did."
+      ],
+      "pass_threshold": "At least 60% of this test's marks (the course's own standard for secure work).",
+      "source": {
+        "issuing_body": "generic-tutor sample fixtures",
+        "document": "Self-authored sample specification (not an exam board's)",
+        "reference": "S1_Persuasive_Techniques",
+        "urls": [
+          "https://example.org/generic-tutor-fixtures"
+        ]
+      }
+    },
+    "S2_Writing_a_Persuasive_Paragraph": {
+      "criteria": [
+        "States one clear point at the start.",
+        "Supports it with at least one reason and one example.",
+        "Uses at least two persuasive techniques deliberately and appropriately for the audience."
+      ],
+      "pass_threshold": "At least 60% of this test's marks (the course's own standard for secure work).",
+      "source": {
+        "issuing_body": "generic-tutor sample fixtures",
+        "document": "Self-authored sample specification (not an exam board's)",
+        "reference": "S2_Writing_a_Persuasive_Paragraph",
+        "urls": [
+          "https://example.org/generic-tutor-fixtures"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Answers are marked against each question's own mark scheme, point by point.",
+      "A pass needs at least half of the available marks across the paper."
+    ],
+    "pass_threshold": "At least 50% of the paper's marks (the course's own standard).",
+    "source": {
+      "issuing_body": "generic-tutor sample fixtures",
+      "document": "Self-authored sample specification (not an exam board's)",
+      "reference": "exam",
+      "urls": [
+        "https://example.org/generic-tutor-fixtures"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://example.org/generic-tutor-fixtures"
+  ],
+  "source_notes": "Sample course for evals and tests. Persuasive writing content is original and generic."
+}

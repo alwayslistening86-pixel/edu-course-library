@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "source_note": "starter bank converted from exam/exam.md; extend through the audit's enrichment pass",
+  "questions": [
+    {
+      "id": "exam-1",
+      "stage_id": "exam",
+      "marks": 6,
+      "prompt": "A bookshop displays a novel marked 12 pounds. A customer takes it to the till and offers 12 pounds. Using IRAC, advise whether the shop must sell.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "issue: is the display an offer"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "rule: a display is generally an invitation to treat"
+        },
+        {
+          "id": "3",
+          "marks": 2,
+          "type": "B",
+          "descriptor": "applies it: the customer's offer at the till can be accepted or refused"
+        },
+        {
+          "id": "4",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "the shop need not sell"
+        },
+        {
+          "id": "5",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "clear conclusion"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    },
+    {
+      "id": "exam-2",
+      "stage_id": "exam",
+      "marks": 3,
+      "prompt": "Explain why a promise to give a gift is generally not enforceable.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "consideration is needed"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "a gift gives nothing in exchange"
+        },
+        {
+          "id": "3",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "so there is nothing to enforce"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    },
+    {
+      "id": "exam-3",
+      "stage_id": "exam",
+      "marks": 6,
+      "prompt": "Leo says 'I will sell you my bike for 150.' Mia replies 'Would you take 120?' Leo says no. Mia then says 'Then I accept 150.' Using IRAC, advise whether a contract exists.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "issue: effect of a counter-offer"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "rule: a counter-offer ends the original offer"
+        },
+        {
+          "id": "3",
+          "marks": 2,
+          "type": "B",
+          "descriptor": "applies it: 'Would you take 120?' may only be a request for information, but Leo's refusal confirms the 150 offer stayed open, so Mia's later acceptance can still be valid, unless the question was a counter-offer"
+        },
+        {
+          "id": "4",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "the better view depends on whether the question was a counter-offer or an enquiry"
+        },
+        {
+          "id": "5",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "conclusion with that reasoning"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    }
+  ]
+}

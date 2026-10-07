@@ -1,0 +1,12 @@
+[
+  {
+    "pattern": "Lists techniques by name without saying what they do to the reader.",
+    "correction": "A technique is only worth noting for its effect: say what the reader is meant to think or feel and how the words do that.",
+    "source": "plausible, not board-documented"
+  },
+  {
+    "pattern": "Calls any question a rhetorical question.",
+    "correction": "A rhetorical question is asked to make a point, not to get an answer; a genuine question expects a reply.",
+    "source": "plausible, not board-documented"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "pattern": "Adds the numerators and the denominators separately, so 1/2 + 1/3 becomes 2/5.",
+    "correction": "The denominator names the size of the pieces. Rewrite over a common denominator first: 1/2 + 1/3 = 3/6 + 2/6 = 5/6.",
+    "source": "plausible, not board-documented"
+  },
+  {
+    "pattern": "Finds a common denominator but forgets to change the numerators to match.",
+    "correction": "Whatever the denominator is multiplied by, the numerator is multiplied by the same number, so the fraction keeps its value.",
+    "source": "plausible, not board-documented"
+  }
+]

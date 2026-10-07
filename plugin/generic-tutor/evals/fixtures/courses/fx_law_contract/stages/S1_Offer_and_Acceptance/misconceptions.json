@@ -1,0 +1,12 @@
+[
+  {
+    "pattern": "Treats every price tag or advert as a binding offer.",
+    "correction": "Generally a display or advert only invites offers; the customer's offer is accepted or refused by the seller.",
+    "source": "plausible, not board-documented"
+  },
+  {
+    "pattern": "Thinks a reply that adds a term still counts as acceptance.",
+    "correction": "Acceptance must match the offer; a new term makes a counter-offer, which ends the original offer.",
+    "source": "plausible, not board-documented"
+  }
+]

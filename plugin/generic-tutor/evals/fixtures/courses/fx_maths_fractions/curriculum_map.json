@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage"
+  },
+  "_items_source": {
+    "document": "Self-authored sample specification",
+    "url": "https://example.org/generic-tutor-fixtures",
+    "version": "1",
+    "itemised_on": "2026-10-06"
+  },
+  "_syllabus_items": [
+    {
+      "id": "MF1.1",
+      "title": "Common denominators",
+      "topic_area": "Adding fractions with different denominators"
+    },
+    {
+      "id": "MF1.2",
+      "title": "Adding and simplifying",
+      "topic_area": "Adding fractions with different denominators"
+    },
+    {
+      "id": "MF2.1",
+      "title": "Percentage of an amount",
+      "topic_area": "Percentages of amounts and percentage change"
+    },
+    {
+      "id": "MF2.2",
+      "title": "Percentage change",
+      "topic_area": "Percentages of amounts and percentage change"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S1_Adding_Fractions": {
+    "covers_syllabus_refs": [
+      "MF1.1",
+      "MF1.2"
+    ],
+    "syllabus_topic": "Adding fractions with different denominators",
+    "covers_items": [
+      "MF1.1",
+      "MF1.2"
+    ]
+  },
+  "S2_Percentages_of_Amounts": {
+    "covers_syllabus_refs": [
+      "MF2.1",
+      "MF2.2"
+    ],
+    "syllabus_topic": "Percentages of amounts and percentage change",
+    "covers_items": [
+      "MF2.1",
+      "MF2.2"
+    ]
+  }
+}
