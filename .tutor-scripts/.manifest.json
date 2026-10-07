@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.81.0",
+  "plugin_version": "1.82.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -12,6 +12,7 @@
     "cohort_status.py",
     "confidence_update.py",
     "confirm_access.py",
+    "course_bundle.py",
     "coverage_check.py",
     "currency_report.py",
     "dashboard_html.py",

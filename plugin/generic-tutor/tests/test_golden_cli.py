@@ -119,6 +119,7 @@ CASES = {
                ("enrol.py", ["{P}"])], []),
     "rubric_lint": ([("rubric_lint.py", ["{C}/mathA"]), ("rubric_lint.py", ["{C}/nope"])], []),
     "paraphrase_check": ([("paraphrase_check.py", ["{C}/mathA"]), ("paraphrase_check.py", ["{C}/nope"]), ("paraphrase_check.py", [])], []),
+    "course_bundle": ([("course_bundle.py", ["export", "{C}/nope", "{T}/out.zip"]), ("course_bundle.py", ["import", "{T}/lib", "{C}/mathA/course.json"]), ("course_bundle.py", [])], []),
     "purge_history": ([("purge_history.py", ["{R}", "amy", "history"]), ("purge_history.py", ["{R}", "amy", "course", "mathA"]), ("purge_history.py", ["{R}", "amy", "course", "ghost"]),
                         ("purge_history.py", ["{R}", "amy", "history", "--confirm", "nope"]), ("purge_history.py", ["{R}", "amy"])], []),
     "change_log": ([("change_log.py", ["{C}/mathA"]), ("change_log.py", ["{C}/nope"])], []),

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.82.0] — 2026-10-07
+### Changed
+- N-12: course_bundle.py exports a course as a verified, deterministic zip without learner data and imports one into another library only after hash, path, size, structure and untrusted-text checks. Why: sharing a course between libraries should not mean copying folders by hand and trusting them.
+
 ## [1.81.0] — 2026-10-07
 ### Changed
 - N-06: paraphrase_check.py flags over-long quotations, more than one quotation per stage and (given source text) verbatim runs of 8+ words in stage files, rubric criteria and item titles; advisory and read-only. Why: the quotation policy had no check, and a public repo cannot rely on prose alone.
