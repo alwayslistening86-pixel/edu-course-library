@@ -8,7 +8,7 @@ description: Computes and recomputes how a learner's weekly session capacity is 
 **Contract**
 - **Owns:** the slot plan (advice only, nothing persisted), `/drop` (see `drop.md`), and raising `highest_level_cleared` when a whole level completes.
 - **Reads:** `cohort_status.py` output (eligibility, bottleneck, `all_complete`, `level_ledger`), `roster_check.py`.
-- **Calls:** `cohort_status.py`, `roster_check.py`, `roster_apply.py` (drop, advance), `plan_estimate.py`, `plan_target.py` (only when the learner gives a date).
+- **Calls:** `cohort_status.py`, `roster_check.py`, `roster_apply.py` (drop, advance), `plan_estimate.py`, `plan_target.py` (only with a date), `goal_map.py`.
 - **Emits:** a sequence ("next N sessions: mostly X, review folded in") — never a calendar; approximate remaining time stated as an estimate.
 - **Never:** stores a date unless the learner volunteers a real deadline (one optional `target`, via `plan_target.py`); schedules sessions on a calendar or reasons about weekdays; promises completion by a date; re-decides level-lock or convergence; sums eligibility by hand.
 - **Failure modes:** no eligible courses → say what is blocking (dormant, suspended, nothing enrolled).
@@ -16,8 +16,11 @@ description: Computes and recomputes how a learner's weekly session capacity is 
 ## Invocation
 `/plan` runs once automatically as the final step of first-ever onboarding (after every initial course has been added), and again any time the learner explicitly re-runs it — after adding or dropping a course, or after a change to `availability.sessions_per_week`. It does not run silently mid-session; a re-plan is always visible and explicit, the same way every other state change in this system is.
 
+## Goals (L-22)
+When the learner has `goals` or asks how they are doing against them, read `goals.md` here.
+
 ## Why there are no dates anywhere in this file
-Capacity is expressed purely as a rate — `sessions_per_week` — used only for rough arithmetic projection ("at this rate, roughly N weeks remaining"), never for placing anything on a calendar. Everything else this skill manages is a plain sequence of **session slots**: slot 1, slot 2, slot 3… A missed week doesn't make anything "late"; it just means the next slot happens whenever it happens. This keeps the framing honest about a fact that's true regardless of how carefully anyone plans: a learner could always move faster or slower than the plan assumes, and the system should never imply a false precision about *when* something happens — only *how much* is left and in *what order*.
+Capacity is expressed purely as a rate — `sessions_per_week` — used only for rough arithmetic projection ("at this rate, roughly N weeks remaining"), never for placing anything on a calendar. Everything else this skill manages is a plain sequence of **session slots**: slot 1, slot 2, slot 3… A missed week doesn't make anything "late"; it just means the next slot happens whenever it happens. A learner can always move faster or slower than any plan assumes, so never imply precision about *when* — only *how much* is left and in *what order*.
 
 ## What determines eligibility to draw a slot at all
 A course only receives slots if its `subjects/<course_id>.json.roster_state` is `active` or `test_pending_convergence` **and** its bound `course.json.grounding_status` is not `suspended_ungrounded`. `dormant` (level-locked), `dropped`, suspended, and **complete** courses draw nothing. Completeness (every stage `pass`, plus `exam_status: passed` if `course.json.exam.enabled`) is derived by `cohort_status.py`/`roster_check.py` on every call rather than stored as a `roster_state` value, so a finished course automatically stops occupying a roster slot and stops holding its cohort's convergence gate — there is no transition to forget to write. This means eligibility is entirely downstream of `course-compiler`'s level-lock and `course-runner`'s convergence gate — this skill doesn't re-decide either; it only allocates among whatever `cohort_status.py` (below) already reports as eligible. Don't compute this list by hand — the suspended-course exclusion specifically is the kind of check that's drifted out of a hand-derivation before, so let the script be the one place it's decided.

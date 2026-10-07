@@ -61,6 +61,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | `error_patterns[]` | `{id, stage_id, item_id, source_phase, cause, misconception_id, rubric_criterion, note, slot, resolved, resolved_at_slot}` | `error_log.py` |
 | `item_mastery{item_id}` | `{p_mastery, observations, …}` | `item_mastery.py` |
 | `remediation{stage_id}` | `{attempts, last_cause, escalated, escalated_at_slot}` | `remediation_state.py` |
+| `goal_map` | `[{goal, items[], set_on}]` — optional: which syllabus items each of the learner's goals means (the tutor's reading, confirmed with the learner); up to 60 items per goal | `goal_map.py set/clear` (progress class); read by `goal_map.py report` |
 | `target` | `{date: YYYY-MM-DD, set_on}` — optional learner-stated deadline | `plan_target.py` (progress class); the only calendar date stored; read by `plan_estimate.py` |
 | `practice_used{stage_id}` | `{fixed: [item numbers], generated: n}` — optional | `practice_pick.py used` |
 | `calibration{enabled, entries[{stage_id, rating 1-5, result, on}]}` | optional, opt-in self-rating before tests, newest 50 | `calibration.py` (signal class) |

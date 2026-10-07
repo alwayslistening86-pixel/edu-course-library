@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.89.0] — 2026-10-07
+### Changed
+- L-22: a learner's goals can now be tied to the syllabus. The tutor proposes which items each goal means, the learner confirms, and goal_map.py stores it and reports progress against it: items taught versus still to come in teaching order, the next stage, observed mastery, weak spots and anything the course does not teach. It says plainly that taught is not learned and that the mapping is the tutor's reading of the goal. Why: goals were collected at intake and then never used.
+
 ## [1.88.1] — 2026-10-07
 ### Changed
 - Fix an intermittent Windows failure in the file lock (it failed test_parallel_error_log_appends_all_land twice in CI): on Windows a lock file another process is deleting reports PermissionError rather than FileExistsError, which crashed the script instead of waiting, and a failed unlock could leave a lock behind. Both are now retried; elsewhere a real permission error still surfaces at once, and a lock timeout now names the underlying error. Why: a progress write must wait its turn, not fail, when two scripts touch the same learner file.

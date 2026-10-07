@@ -133,6 +133,32 @@
     "last_updated": {
       "type": "string"
     },
+    "goal_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "goal",
+          "items"
+        ],
+        "properties": {
+          "goal": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "set_on": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "target": {
       "type": "object",
       "required": [
