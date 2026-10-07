@@ -3,7 +3,7 @@
 deck_add.py -- the one place new review cards enter a deck (K-22, K-23, K-25).
 
     python3 deck_add.py <deck.json> <course_id> <stage_id> [--max-per-stage N] <<'EOF'
-    [{"front": "...", "back": "...", "item_id": "S1.1", "criterion": "M1"}, ...]
+    [{"front": "...", "back": "...", "item_id": "S1.1", "criterion": "M1", "card_type": "cloze"}, ...]
     EOF
     python3 deck_add.py retire <deck.json> <card_id> [<card_id> ...]
     python3 deck_add.py mature <deck.json>
@@ -15,6 +15,8 @@ rejected with its reason and the rest are still added:
   length    front <= 200 characters, back <= 400
   one ask   a front holds one question (at most one "?"), and is not a bare list of answers ("a) ... b) ...")
   dedupe    a front already in the deck for this course (ignoring case, spacing and punctuation) is skipped
+  type      optional card_type: basic (default), cloze ({{c1::..}} in the front), explain_why (front asks why/how), worked_step
+            (front shows the steps so far and asks for the next); a card that does not fit its declared type is rejected
   caps      at most --max-per-stage new cards per call (default 12); at most 300 cards in a deck
 New cards get interval 1, ease 2.3, lapses 0, due at the learner's session_slot + 1, and the id `<stage>-c<N>` (next free N).
 The deck is created in the standard shape if missing. Consent: scheduling class (limited keeps it; revoked writes nothing).
@@ -29,7 +31,7 @@ import os
 import re
 import sys
 
-from tutorlib import cli, consent, filelock, ledger, state
+from tutorlib import cards as cardtypes, cli, consent, filelock, ledger, state
 import sqlite_store
 
 MAX_FRONT = 200
@@ -58,6 +60,9 @@ def check_card(card):
         return f"front is {len(card['front'])} characters (max {MAX_FRONT})"
     if len(card["back"]) > MAX_BACK:
         return f"back is {len(card['back'])} characters (max {MAX_BACK})"
+    bad_type = cardtypes.check_type(card)
+    if bad_type:
+        return bad_type
     if card["front"].count("?") > 1:
         return "front asks more than one question"
     if re.search(r"(^|\s)\(?a[).]\s.*\(?b[).]\s", card["front"], re.I | re.S):
@@ -111,6 +116,8 @@ def add(deck_path, course_id, stage_id, cards, max_per_stage=DEFAULT_MAX_PER_STA
         new = {"id": f"{stage_id}-c{n}", "stage_id": stage_id, "item_id": card.get("item_id"), "criterion": card.get("criterion"),
                "front": card["front"].strip(), "back": card["back"].strip(), "interval_sessions": 1, "ease": EASE_DEFAULT,
                "lapses": 0, "due_at_slot": slot + 1}
+        if cardtypes.type_of(card) != "basic":
+            new["card_type"] = card["card_type"]
         taken.add(new["id"])
         seen.add(_norm(new["front"]))
         added.append(new)

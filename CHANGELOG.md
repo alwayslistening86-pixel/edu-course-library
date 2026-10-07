@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.93.0] — 2026-10-07
+### Changed
+- L-06: review cards have types. A card may now be basic (the default), cloze, explain_why or worked_step. deck_add.py rejects a card that does not fit its declared type, review_select.py returns the type, a prompt with cloze blanks shown as [...] and the cloze answers, the Anki export tags the two non-cloze types, and stage-recap and review-scheduler say how to author and present each. Why: every card was a question and an answer, which suits facts but not reasons or procedures. The field is optional and absent means basic, so existing decks need no migration. Whether the tutor presents each type well is not evaluated yet.
+
 ## [1.92.0] — 2026-10-07
 ### Changed
 - L-09: the tutor can now use a course's exam guidance. exam_guidance.py returns the course's exam_technique.md and command-word definitions (or says it holds none), and tutor-core is told to quote only that: never invent mark allocations, time per mark or what examiners look for, never present its own heuristics as the board's, and never teach technique inside a test answer. Why: N-05 made the files checkable but nothing read them, and a tutor guessing exam technique would be believed. No course carries the files yet, so until the audit enrichment run adds some, the tutor will say it holds no board guidance. Also re-checked the wellbeing, safety and locale suites after the wording trims (no critical failures).

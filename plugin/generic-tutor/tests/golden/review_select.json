@@ -24,13 +24,16 @@
         },
         "selected": [
           {
+            "answers": [],
             "back": "b",
             "card_id": "k1",
+            "card_type": "basic",
             "course_id": "mathA",
             "front": "f",
             "item_id": "S1.1",
             "item_mastery": 0.3,
             "overdue_by": 0,
+            "prompt": "f",
             "stage_id": "S1"
           }
         ],
@@ -62,13 +65,16 @@
         },
         "selected": [
           {
+            "answers": [],
             "back": "b",
             "card_id": "k1",
+            "card_type": "basic",
             "course_id": "mathA",
             "front": "f",
             "item_id": "S1.1",
             "item_mastery": 0.3,
             "overdue_by": 0,
+            "prompt": "f",
             "stage_id": "S1"
           }
         ],
