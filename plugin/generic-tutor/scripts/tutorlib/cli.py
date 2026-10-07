@@ -26,6 +26,17 @@ def emit(result):
     return 1 if isinstance(result, dict) and "error" in result else 0
 
 
+def parse_bool(raw, name="value"):
+    """True or False for the words `true` / `false` (any case, spaces ignored); anything else raises ValueError.
+    A flag that is silently read as false when mistyped ("yes", "1", "ture") records a right answer as a wrong one (ADR 0012)."""
+    text = str(raw).strip().lower()
+    if text == "true":
+        return True
+    if text == "false":
+        return False
+    raise ValueError(f"{name} must be true or false, got {raw!r}")
+
+
 ERROR_CODES = ("E_USAGE", "E_CONSENT", "E_SCHEMA", "E_LOCKED", "E_NOT_FOUND", "E_INVALID_INPUT", "E_INTERNAL")
 
 
