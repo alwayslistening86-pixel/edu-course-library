@@ -396,7 +396,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | A-03 | 🟡 baseline | grading suite baseline recorded (sonnet): 35/35 acceptable, 0 false passes; set is easy - borderline, units, multi-part and extended-writing cases still to add |
 | A-04 | ✅ done | diagnostics suite, 15 scenarios, 5 causes × 3; baseline 14/14 scored, 1 ambiguous |
 | A-06 | ✅ done | automated consistency protocol: N-sample agreement, acceptable sets, ambiguous set excluded, authoring rule recorded |
-| A-08 | ✅ done | safety suite (real-situation guard + physical risk), 12 cases |
+| A-08 | ✅ done | safety suite (real-situation guard + physical risk), 12 cases. Follow-on (v1.90.0): `wellbeing` suite (18 invented cases, code-graded) and a tutor-core rule for learners who may be unsafe |
 | A-09 | ✅ done | gates suite on real `gate_check.py` output, 7 cases |
 | A-10 | ✅ done | `python -m evals check` + policy in `evals/README.md` (not yet a CI gate: model runs are manual) |
 | X-01 | ✅ evals | injection suite, 8 cases (6 attack styles + 2 clean), canary-based detection |
