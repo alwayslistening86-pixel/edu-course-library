@@ -1,0 +1,199 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "goal_map.py",
+        "items",
+        "{L}",
+        "{C}",
+        "mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_id": "mathA",
+        "goal_map": [],
+        "goals": [],
+        "item_count": 3,
+        "items": [
+          {
+            "id": "S1.1",
+            "stage": "S1",
+            "title": "Item S1",
+            "topic_area": "T"
+          },
+          {
+            "id": "S2.1",
+            "stage": "S2",
+            "title": "Item S2",
+            "topic_area": "T"
+          },
+          {
+            "id": "S3.1",
+            "stage": "S3",
+            "title": "Item S3",
+            "topic_area": "T"
+          }
+        ],
+        "topic_areas": {
+          "T": 3
+        }
+      }
+    },
+    {
+      "cmd": [
+        "goal_map.py",
+        "report",
+        "{L}",
+        "{C}",
+        "mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "caveats": [
+          "'Taught' means the stage that teaches an item has been passed, not that the item is learned; mastery figures use only items the learner has been observed on.",
+          "Which items a goal covers is the tutor's reading of its wording, confirmed with the learner; change it any time."
+        ],
+        "course_id": "mathA",
+        "goals": [],
+        "unmapped_goals": []
+      }
+    },
+    {
+      "cmd": [
+        "goal_map.py",
+        "items",
+        "{L}",
+        "{C}",
+        "nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "cannot read 'nope': it needs a course.json and an itemised curriculum_map.json"
+      }
+    },
+    {
+      "cmd": [
+        "goal_map.py",
+        "set",
+        "{S}/mathA.json",
+        "{C}/mathA",
+        "pass it",
+        "[\"S1.1\", \"S2.1\"]",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "set",
+        "goal": "pass it",
+        "item_count": 2,
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "goal_map.py",
+        "set",
+        "{S}/mathA.json",
+        "{C}/mathA",
+        "bad",
+        "[\"zzz\"]",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "not syllabus items of this course: ['zzz']"
+      }
+    },
+    {
+      "cmd": [
+        "goal_map.py",
+        "report",
+        "{L}",
+        "{C}",
+        "mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "caveats": [
+          "'Taught' means the stage that teaches an item has been passed, not that the item is learned; mastery figures use only items the learner has been observed on.",
+          "Which items a goal covers is the tutor's reading of its wording, confirmed with the learner; change it any time."
+        ],
+        "course_id": "mathA",
+        "goals": [
+          {
+            "goal": "pass it",
+            "items_mapped": 2,
+            "mean_observed_mastery": null,
+            "next_stage": "S2",
+            "not_taught_by_this_course": [],
+            "observed": 0,
+            "remaining": 1,
+            "remaining_in_teaching_order": [
+              {
+                "item": "S2.1",
+                "stage": "S2",
+                "title": "Item S2"
+              }
+            ],
+            "taught": 1,
+            "weakest_taught": []
+          }
+        ],
+        "unmapped_goals": []
+      }
+    },
+    {
+      "cmd": [
+        "goal_map.py",
+        "clear",
+        "{S}/mathA.json"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "clear",
+        "removed": 1,
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "goal_map.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: goal_map.py items <learner> <courses> <course> [--area A] | set <subjects.json> <course_dir> \"<goal>\" '<[ids]>' <today> | clear <subjects.json> [\"<goal>\"] | report <learner> <courses> <course>"
+      }
+    }
+  ]
+}
