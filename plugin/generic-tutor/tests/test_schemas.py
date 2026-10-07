@@ -74,6 +74,11 @@ class RealSchemas(unittest.TestCase):
             mis = f"{self.fx['C']}/{c}/stages/S1/misconceptions.json"
             if os.path.isfile(mis):
                 out.append(("misconceptions", mis))
+        cw = os.path.join(self.tmp, "command_words.json")
+        with open(cw, "w", encoding="utf-8") as f:
+            json.dump({"source": "Board guide, section 3", "command_words": [
+                {"word": "Explain", "meaning": "Give reasons that link cause to effect.", "earns_marks_by": "Each linked reason earns a mark."}]}, f)
+        out.append(("command_words", cw))
         # files written by their own scripts into scratch folders
         import bootstrap_scripts
         import confirm_access

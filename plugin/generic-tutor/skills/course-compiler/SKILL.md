@@ -139,6 +139,8 @@ Write `course.json.coverage_status` = the script's `computed_status` (`full` onl
 
 **4.75. Source `misconceptions.json` per stage, where real documented material exists — optional, but check for it, don't skip the check.** Exam boards routinely publish, in examiner reports (AQA/OCR/Edexcel release these after every series) or the specification's own commentary, the two or three most common ways candidates get a specific area wrong — not guesses, documented patterns from real cohorts. This is content, not bookkeeping, and needs the same sourcing discipline as `rubric.json`: 2-4 entries per stage, each `{"pattern", "correction", "source"}`, written in Claude's own words (paraphrase, never copied text). Search for the stage's specific examiner-report commentary the same way you searched for its mark scheme. **Where no real documented source turns up for a plausible-sounding error, either omit the entry or write its `source` as the literal string `"plausible, not board-documented"` — never let it read as if the board said it when it didn't.** A stage with genuinely no sourceable misconception content ships without the file; `validate_structure.py` treats it as non-blocking, and a later `course-auditor` pass can add real entries once `error_patterns` data shows what's actually recurring. Write each to `stages/<stage_id>/misconceptions.json`.
 
+**4.8. Exam technique and command words, only if the board publishes them.** Copy the stubs from `/EDU/_template/optional/` to the course root, fill them in your own words, and name the document read as the source. If the board publishes neither, write nothing. Then run `validate_structure.py`; a malformed file blocks the gate.
+
 **5. For each stage, draft lesson → practice → test, in that order:**
 - **Lesson**: begins with a **"Syllabus items taught here"** section listing, by id, every item this stage's `covers_items` claims, each with one plain line on what learning it means (`coverage_check.py` requires each claimed id to appear here). Then plain explanation, opening scenario/question, no framework. The lesson file is the *plan and floor* for the stage, not a ceiling — `course-runner` treats the itemised list, not the length of `lesson.md`, as what must be taught. If this is a "study under a scholar" build, weave in their genuine framing or a brief attributed quotation (well under 15 words, one per source) — never a reproduced passage.
 - **Practice**: 3ish low-stakes scenarios from the seed material, framework exercised, no grading.
@@ -148,13 +150,11 @@ Reserve some seed items specifically for `test.md` and, per `stage-recap`, for t
 **6. Draft `exam/exam.md`** as a cumulative scenario spanning multiple stages, from seed material where it naturally combines concepts, or constructed deliberately otherwise.
 
 ## Step 6.5 — Suggest relevant connectors, with explicit permission
-Once the source is chosen and before finishing, check whether any real connectors would meaningfully help this specific subject. Use whatever connector/plugin discovery is available — never guess from memory whether something like this exists.
-1. Find and list every relevant option, not just one.
-2. Present the full list and explain what each would actually add to this course specifically.
-3. Never connect anything without explicit permission — same principle as the folder-access gate.
-4. Record the outcome in `connectors.md` inside the course's own folder.
-5. If nothing relevant exists, say so plainly — not every subject needs one.
-6. Asked once per course, at build time.
+Once the source is chosen and before finishing, check whether any real connectors would meaningfully help this subject.  Use real connector discovery, never memory.
+1. List every relevant option and say what each would add to this course.
+2. Never connect anything without explicit permission, as with the folder-access gate.
+3. Record the outcome in `connectors.md` in the course folder. If nothing relevant exists, say so plainly.
+4. Asked once per course, at build time.
 
 **7. Write the course content into `/EDU/courses/.build-<course_id>/`**, a hidden build folder no listing or enrolment can see, in the shape `course-runner` expects (`course.json`, `rubric.json`, `curriculum_map.json`, `stages/`, `exam/`). A build folder left by an interrupted compile: continue it only if it is this same build, else `publish_course.py discard /EDU/courses <course_id>` first.
 
@@ -167,12 +167,12 @@ It runs `postcompile_gate.py` (structure, coverage, injection scan, leftover `{{
 **8. Enrol the learner.** Run `python3 /EDU/.tutor-scripts/enrol.py <the learner's profile dir> <the /EDU/courses/ dir> <course_id> <candidate_state> <today>`, with Step 0.25's `candidate_state` (`active` or `dormant`; never your own choice). It writes the progress file (cohort, all-`unsat` stages, first stage, empty ledgers), marks practical stages `withheld` where the learner lacks the capability, and refuses a duplicate or a full roster; both enrolment paths use it, so they leave identical state. **If Step 0.25 listed `courses_that_would_lock`, then run** `roster_apply.py lock <the learner's profile dir> <those ids>`. If `enrol.py` reports `theory_only: true`, tell the learner plainly which stages are withheld, that declaring the capability (`/profile`) unlocks them any time, and that finishing the rest completes the course **theory-only** (which still satisfies any prerequisite).
 
 **9. Report back honestly**, including everything the original process reported, plus:
-- **Post-compile gate:** `can_ship`, and if it required an override, the exact reason given — never omit an override from this report.
-- Which sourcing shape this was (standardized qualification vs. specific cited instance).
-- Whether the course is standalone; otherwise `academic_level`, `level_source` and `level_basis` (say plainly when a level is *declared* rather than from a framework), and — if Step 0.25 found a lock consequence — exactly which existing courses will move to `dormant` and why, restated for the record even though the learner already confirmed it before the build started.
-- Whether this reused an existing canonical course (Step -0.5) rather than building fresh.
+- **Post-compile gate:** `can_ship`, and any override's exact reason; never omit one.
+- The sourcing shape (standardized qualification vs. specific cited instance).
+- Whether the course is standalone; otherwise `academic_level`, `level_source` and `level_basis` (say plainly when a level is *declared* rather than from a framework), and — if Step 0.25 found a lock consequence — exactly which existing courses will move to `dormant` and why, restated even though the learner confirmed it before the build.
+- Whether this reused an existing canonical course (Step -0.5).
 - Prerequisites (`requires_complete`), any practical stages and the capability each needs (and whether this learner starts theory-only), and any `learner_notices` written.
-- **Coverage:** `coverage_status`, how many spec items were itemised and how many the stages teach, every item declared out of scope with its reason, and — if not `full` — the exact list of uncovered items. Never describe a `partial` or `unverified` course as covering the specification.
+- **Coverage:** `coverage_status`, how many spec items were itemised and how many the stages teach, every item declared out of scope with its reason, and — if not `full` — the exact list of uncovered items. Never describe a `partial` or `unverified` course as covering the spec.
 
 ## `course.json` schema
 ```json

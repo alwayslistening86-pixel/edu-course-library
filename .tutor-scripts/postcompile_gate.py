@@ -46,6 +46,10 @@ be taught right now:
                                  folder that doesn't exist) — these are data
                                  integrity bugs, not content-quality gaps.
 
+    - exam_technique.md / command_words.json  present but malformed (N-05): no Source line, no content,
+                                 fails schemas/command_words.json, or a command word listed twice. Absent is fine:
+                                 they are written only where the issuing body publishes guidance.
+
     - test items in practice/lesson  a graded item from a stage's test.md that appears word for word
                                  in that stage's practice.md or lesson.md (the learner could read the
                                  test beforehand; tutorlib/overlap.py).
@@ -217,6 +221,9 @@ def _gate(course_dir):
         covered, total = misc_status.get("stages_covered"), misc_status.get("stages_total")
         advisory_notes.append(f"misconceptions: {covered} of {total} stages have a sourced misconceptions.json"
                               if isinstance(misc_status, dict) and covered is not None else f"misconceptions status: {misc_status}")
+    for name, st in (structure.get("exam_guidance_status") or {}).items():
+        if st.get("present") and not st.get("well_formed"):
+            blocking_reasons.append(f"{name}: present but malformed ({'; '.join(st.get('problems') or [])[:120]})")
     urls = verify_sources.collect_urls(course_dir)
     bad = [u for u in urls if not verify_sources.is_http_url(u)]
     if bad:

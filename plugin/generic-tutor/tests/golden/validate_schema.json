@@ -48,6 +48,7 @@
       "stdout": {
         "kinds": [
           "access",
+          "command_words",
           "course",
           "curriculum_map",
           "manifest",
@@ -70,7 +71,7 @@
       "exit": 2,
       "stderr_tail": [],
       "stdout": {
-        "error": "usage: validate_schema.py <access|course|curriculum_map|manifest|misconceptions|question_bank|review_deck|rubric|source_snapshots|student_profile|subjects> <file> | --kinds | --course-dir <course_dir>"
+        "error": "usage: validate_schema.py <access|command_words|course|curriculum_map|manifest|misconceptions|question_bank|review_deck|rubric|source_snapshots|student_profile|subjects> <file> | --kinds | --course-dir <course_dir>"
       }
     },
     {

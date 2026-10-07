@@ -247,7 +247,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | N-02 🟡 | Versioned compatibility: `course.json` declares `min_engine_version`; gate_check refuses incompatible courses with a clear message | Field + check + test | N-01 | S | 2 |
 | N-03 🟢 | Reusable GitHub Action (and CLI) for the private repo: structure + coverage + schema + rubric-lint + copyright heuristics | `uses:` works from private repo | S-05,A-11 | M | 5 |
 | N-04 🟡 | Source verification helper: URL liveness, snapshot hash/date capture for spec documents (stored as metadata only) | `verify_sources.py` | N-01 | M | 5 |
-| N-05 🟡 | Compiler output includes optional `exam_technique.md` and `command_words.json` where the board publishes them | Template + compile step | K-09 | M | 5 |
+| N-05 ✅ | Compiler output includes optional `exam_technique.md` and `command_words.json` where the board publishes them | Template + compile step | K-09 | M | 5 |
 | N-06 ✅ | Copyright heuristics: detect long verbatim runs vs. source excerpts supplied to compiler; warn | `paraphrase_check.py` | K-12 | M | 5 |
 | N-07 🟡 | Question bank structure for exam assembly (tagged by item, marks, difficulty, calculator/non-calculator) | Schema + template | S-05 | M | 4 |
 | N-08 🟡 | Prerequisite graph at item level (not just course level) to power remediation links and planning | `curriculum_map` extension + migration | S-09 | L | 5 |
@@ -411,6 +411,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | N-03 | ✅ done | `validate_courses.py --courses/--engine` + reusable `validate-courses.yml`; the caller workflow lives in the content repo |
 | R-17 | ✅ done | same workflow is the documented entry point |
 | S-12 | ✅ done | `misconceptions` schema + checked by `/doctor` and the content CI (not yet inside `postcompile_gate`) |
+| N-05 | ✅ done | `command_words` schema; `validate_structure.exam_guidance_status` reports both optional files; `postcompile_gate` blocks one that is present but malformed (no Source line, empty, bad schema, duplicate word); compiler Step 4.8 says when to write them. The tutor does not use them yet (L-09). No course has them: they need the audit enrichment run |
 | N-13 | ✅ done | the template's option lists (`currency`, `level_basis`) and the empty rubric `source` blocks were invalid as shipped; they are placeholders now. A test fills the template and runs `validate_structure`, `validate_schema`, `coverage_check` and `postcompile_gate` on it, so template drift fails CI. `postcompile_gate` now blocks any `{{PLACEHOLDER}}` left in a course file (0 hits across the 63 library courses). `_template/optional/` holds `exam_technique.md` and `command_words.json` stubs; nothing in the tutor reads those two files yet (N-05) (v1.84.0) |
 | N-14 | ✅ done | `CONTENT_CONTRACT.md` now has a *Course lifecycle* section: live, retiring, not-a-course, retired (`_historic/`) and owner scratch (`_staging/`), who moves what (only the owner moves folders; no skill or script does) and the `currency: historical` vs `_historic/` distinction. Two gaps the work exposed are closed: scans of the library listed any folder with a `course.json`, including a leftover `.import-x.tmp` (now `paths.course_ids` applies the id rule at all seven scan sites), and the auditor's `lifecycle: retiring` was prose with no code behind it (now a schema enum, `enrol.py` refuses new enrolments, `/list-courses` shows it). Building in `_staging/` and publishing by rename is N-15 (v1.85.0) |
 | N-15 | ✅ done | the compiler writes into a hidden `courses/.build-<id>/` and `publish_course.py publish` runs `postcompile_gate` then renames it into place, so a course appears whole or not at all and a failed or abandoned compile is never listed or enrollable; an existing course is never overwritten; `--override "<reason>"` ships a known gap and is reported; `discard` removes only a `.build-` folder; `/doctor` reports leftover `.build-`/`.import-` folders. Compiler steps 7-7.5 rewritten within the `/add-course` budget (v1.86.0) |
@@ -566,7 +567,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 2 Plugin surface & trust | 76 | 72 | 3 | 1 |
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
 | 4 Learning design | 34 | 28 | 2 | 4 |
-| 5 Content & ecosystem | 20 | 13 | 1 | 6 |
+| 5 Content & ecosystem | 20 | 14 | 1 | 5 |
 | 6 Surfaces & deployment | 7 | 0 | 0 | 7 |
 
 ### What remains, by wave
@@ -578,7 +579,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 3 | Optional Claude Code hooks | 3 | 2 |
 | 4 | Learning design | 5 | 2 |
 | 5 | Measurement | 4 | 1 |
-| 6 | Content pipeline | 4 | 1 |
+| 6 | Content pipeline | 3 | 1 |
 | 7 | Surfaces & deployment | 7 | 0 |
 
 ### By workstream
@@ -595,8 +596,8 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | L Learning design | 22 | 18 | 1 | 0 | 3 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
 | U Learner visibility | 7 | 7 | 0 | 0 | 0 |
-| N Content pipeline | 15 | 11 | 1 | 0 | 3 |
+| N Content pipeline | 15 | 12 | 1 | 0 | 2 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **225** | **193** | **11** | **4** | **17** |
+| **Total** | **225** | **194** | **11** | **4** | **16** |

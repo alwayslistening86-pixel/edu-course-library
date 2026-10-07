@@ -12,6 +12,14 @@
         "clean": true,
         "course_dir": "<TMP>/courses/mathA",
         "empty_source_entries": [],
+        "exam_guidance_status": {
+          "command_words": {
+            "present": false
+          },
+          "exam_technique": {
+            "present": false
+          }
+        },
         "misconceptions_status": {
           "per_stage": {
             "S1": {
@@ -49,6 +57,14 @@
         "clean": false,
         "course_dir": "<TMP>/courses/broken",
         "empty_source_entries": [],
+        "exam_guidance_status": {
+          "command_words": {
+            "present": false
+          },
+          "exam_technique": {
+            "present": false
+          }
+        },
         "misconceptions_status": {
           "per_stage": {
             "S1": {
