@@ -203,7 +203,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-16 ✅ | Feedback style rules: specific, criterion-referenced, next-action oriented; no answer-leaking in hints; hint ladder (nudge → cue → partial → full) | Rules + eval cases | K-01 | M | 3 |
 | L-17 🟡 | Metacognition prompts at stage end (what was hard, what to revisit) feeding `last_session_summary` | Short protocol | K-32 | S | 4 |
 | L-18 🟢 | Accessibility output modes implemented as concrete formatting contracts (chunk size, glossary, sentence length, no dense tables) and a text-only/screen-reader-friendly mode | Eval checks mode compliance | A-01 | M | 4 |
-| L-19 🟡 | Language support: non-English-first learners (glossary in home language optional), spelling variants (en-GB focus) | Optional `locale`/`home_language` field | S-09 | M | 5 |
+| L-19 ✅ | Language support: non-English-first learners (glossary in home language optional), spelling variants (en-GB focus) | Optional `locale`/`home_language` field | S-09 | M | 5 |
 | L-20 🟡 | Session length awareness: respect `session_minutes` (pacing checkpoints, stop-points that leave state consistent) | Checkpoint protocol in runner | K-07 | M | 4 |
 | L-21 🟡 | Prerequisite remediation across courses: when diagnosis says `missing_prerequisite`, point to concrete earlier stage/course with a one-click `/continue` suggestion | Mapping via `curriculum_map` prerequisites | N-08 | M | 4 |
 | L-22 🟡 | Goal alignment: translate learner `goals` into prioritised syllabus items; show coverage vs goal | `goal_map.py` | L-10 | M | 5 |
@@ -421,6 +421,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | L-02 | ✅ done | retrieval warm-up (`review_select.py --limit 3`) at the start of practice |
 | K-04 | ✅ done | concrete accessibility rules in tutor-core; measured (compliant 18 → 25 / 36) |
 | L-18 | ✅ done | three flags with concrete rules in tutor-core (dyslexia, plain language, screen reader), settable by `profile_set.py` / intake, checked by the `accessibility` eval. Reader mode, 3 samples x 4 topics, old text vs new: 3/4 -> 4/4 cases; the old text's decorative-symbol and colour-only slips (4 of 12 samples) -> 0 of 12; other modes unchanged within noise (v1.73.0). Non-English support is L-19, not here |
+| L-19 | ✅ done | `identity.locale` picks the spelling (American for en-US, British otherwise) and `identity.home_language` gets a short gloss of each key term, in tutor-core; `profile_set` accepts the field; `locale` eval suite. 3 samples, old text vs new: sample accuracy 0.889 -> 0.972 (v1.80.0) |
 | L-08 | 🟡 infrastructure | `assemble_paper.py`, `record_mock.py`, `exam-simulator` skill, `/mock`; no course has a question bank yet |
 | K-31 | ✅ done | `exam-simulator` skill |
 | P-05 | ✅ done | SessionStart hook deploys `.tutor-scripts/` and names the learners (`hook_guard.py`, v1.66.0); seen working in a live Claude Code session |
@@ -541,7 +542,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
-| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-12 N-13 N-14 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
+| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-12 N-13 N-14 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 B-07 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
@@ -558,7 +559,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
 | 4 Learning design | 34 | 28 | 2 | 4 |
-| 5 Content & ecosystem | 19 | 7 | 1 | 11 |
+| 5 Content & ecosystem | 19 | 8 | 1 | 10 |
 | 6 Surfaces & deployment | 7 | 0 | 0 | 7 |
 
 ### What remains, by wave
@@ -570,7 +571,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 3 | Optional Claude Code hooks | 3 | 2 |
 | 4 | Learning design | 5 | 2 |
 | 5 | Measurement | 4 | 1 |
-| 6 | Content pipeline | 11 | 2 |
+| 6 | Content pipeline | 10 | 2 |
 | 7 | Surfaces & deployment | 7 | 0 |
 
 ### By workstream
@@ -584,11 +585,11 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | C Commands | 15 | 15 | 0 | 0 | 0 |
 | P Plugin surface | 19 | 16 | 2 | 0 | 1 |
 | V Trust & verification | 10 | 8 | 0 | 2 | 0 |
-| L Learning design | 22 | 16 | 1 | 0 | 5 |
+| L Learning design | 22 | 17 | 1 | 0 | 4 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
 | U Learner visibility | 7 | 6 | 0 | 0 | 1 |
 | N Content pipeline | 14 | 6 | 2 | 0 | 6 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **224** | **185** | **12** | **4** | **23** |
+| **Total** | **224** | **186** | **12** | **4** | **22** |
