@@ -1,5 +1,7 @@
 # What the content repo actually holds (survey of 5 Oct 2026)
 
+> A point-in-time survey of the author's own private course library (5 Oct 2026), kept as history and as an example of running the engine's checks over a real library. It is not part of the engine and the numbers will not be refreshed here.
+
 Aggregate facts only — no course text. Produced by running this repo's own tools (`validate_courses.py`, `postcompile_gate.py`,
 `coverage_check.py`, `validate_structure.py`, `audit_status.py`) over the private content repo. Re-run them to refresh; do not hand-edit counts.
 

@@ -1,13 +1,5 @@
 # plugin/generic-tutor
 
-Source of truth for the `generic-tutor` Cowork plugin, tracked here so it gets
-real version control and backup instead of living only in an ephemeral cloud
-session's plugin cache.
+The source of the `generic-tutor` plugin for Claude (Cowork and Claude Code): `skills/`, `commands/`, `scripts/`, `hooks/`, `tests/`, `evals/` and shipped `docs/`.
 
-This is the **source**, not what's necessarily installed right now — after
-any change here, package it (`zip -r generic-tutor.plugin . -x '*.DS_Store'`
-from inside `plugin/generic-tutor/`) and install/update it through Cowork's
-plugin UI in the normal way. `.claude-plugin/plugin.json`'s `version` field is
-the single source of truth for which release is checked in here; bump it on
-every change, and add a `CHANGELOG.md` entry at the repo root (history up to v1.61.0 is in
-`docs/history/DESIGN_NOTES.md`).
+Install it from the repository root (`claude plugin marketplace add ...`, see the main README and `docs/INSTALL.md`), or build the zip with `python3 tools/build_plugin.py`. `.claude-plugin/plugin.json`'s `version` is the single source of truth for the release; change it only with `python3 tools/bump_version.py` (it edits every version carrier, refreshes the deployed script copy and adds the changelog heading). History is in `CHANGELOG.md` at the repository root, and older history in `docs/history/`. How to work on it: `CONTRIBUTING.md`, `docs/CONTRIBUTING-DEV.md`.

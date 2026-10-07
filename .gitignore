@@ -1,7 +1,5 @@
-# 30 Sep 2026: courses/, _staging/, and _historic/ moved to the private
-# edu-courses-private repo (copyrighted exam-board-derived content has no
-# business in a public repo). Kept here on disk -- this is what the running
-# system actually reads from -- just no longer tracked by this repo's git.
+# Course content and learner data are never committed here: courses live in a
+# separate, private content repository (docs/adr/0006), learner profiles stay local.
 courses/
 _staging/
 _historic/
@@ -10,9 +8,8 @@ _historic/
 __pycache__/
 .DS_Store
 
-# Personal per-learner progress, once real learners exist here - never committed.
-# (access.json above this directory is a folder-access flag, not learner data, and stays tracked.)
-profile/*/
+# Per-learner progress - never committed.
+profile/
 
 # Local download landing spot for files Claude sends into the chat - not repo content.
 Claude outputs/
