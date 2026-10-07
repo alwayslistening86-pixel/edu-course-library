@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.79.0] — 2026-10-07
+### Changed
+- The engine no longer assumes one country: the README, plugin keyword and the real-situation guard in tutor-core are country-neutral (no library course ids, no pound sums, no named UK advice service); the safety eval gains four non-UK cases (US and Indian, real and study) and scores 26 of 26 over 3 samples
+
 ## [1.78.0] — 2026-10-07
 ### Changed
 - N-04, N-10, K-10: verify_sources.py (are cited sources reachable and unchanged: status, size and a hash, never page text; stored as source_snapshots.json), currency_report.py (which courses need their sources looked at again, no network) and a source-quality check in the compile gate (a cited source must be an http(s) URL; snapshot, dead and changed counts as advice)
