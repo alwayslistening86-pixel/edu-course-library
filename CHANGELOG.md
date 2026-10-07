@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.88.0] — 2026-10-07
+### Changed
+- U-06: a printable progress summary a learner can choose to share with a tutor or parent (dashboard_html.py --summary-for): it names its recipient, shows progress, coverage and the readiness band, leaves out next steps, weakest items, mistake causes and mock detail, and is refused when consent is revoked. Both progress pages now print cleanly and take their language tag from the learner's locale instead of a fixed en-GB. Why: sharing progress should be a deliberate, minimal act by the learner, not a copy of everything the tutor knows.
+
 ## [1.87.0] — 2026-10-07
 ### Changed
 - N-11: /list-courses now shows each course's provenance: the source it was itemised from (document, version, date), when it was built, its last logged change and the last live recheck. All values may be missing and are shown as such; the compact listing is unchanged. Why: a learner or owner could not tell from the listing how old a course's source was or whether it had changed since.
