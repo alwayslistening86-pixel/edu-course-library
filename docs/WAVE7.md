@@ -130,7 +130,7 @@ If the voice that teaches is not the examiner, who is allowed to say why an answ
 | B-04.5 | design | Spawn build micro-tasks from the ADR | Listed here before any is started | B-04.4 |
 
 ### B-04.5: the build tasks from ADR 0012
-Each is its own small pull request. Done: a, h, i, j, k. Looked at and found to need a decision first: d and e (see the notes after the table). Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
+Each is its own small pull request. Done: a, g, h, i, j, k. Looked at and found to need a decision first: d and e (see the notes after the table). Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
 
 | ID | Change | Test that proves it | Scenario |
 |---|---|---|---|
