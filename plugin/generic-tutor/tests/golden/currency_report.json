@@ -1,0 +1,73 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "currency_report.py",
+        "{C}",
+        "--today",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "checked_on": "<DATE>",
+        "counts": {
+          "blocked": 0,
+          "changed": 0,
+          "dead": 0,
+          "never": 6,
+          "stale": 1
+        },
+        "courses": [
+          {
+            "course_id": "broken",
+            "flags": [
+              "never"
+            ],
+            "urls": 0
+          },
+          {
+            "course_id": "design",
+            "flags": [
+              "never"
+            ],
+            "urls": 0
+          },
+          {
+            "course_id": "mathA",
+            "flags": [
+              "never"
+            ],
+            "urls": 0
+          },
+          {
+            "course_id": "mathB",
+            "flags": [
+              "never"
+            ],
+            "urls": 0
+          },
+          {
+            "course_id": "old",
+            "days_since_live_recheck": null,
+            "flags": [
+              "never",
+              "stale"
+            ],
+            "urls": 0
+          },
+          {
+            "course_id": "solo",
+            "flags": [
+              "never"
+            ],
+            "urls": 0
+          }
+        ],
+        "courses_needing_attention": 6,
+        "stale_days": 120
+      }
+    }
+  ]
+}

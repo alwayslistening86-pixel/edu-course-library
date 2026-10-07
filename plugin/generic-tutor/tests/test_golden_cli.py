@@ -38,6 +38,7 @@ CASES = {
                           ("calibration.py", ["record", SUBJ, "S2", "9", "fail", "2026-10-06"]),
                           ("calibration.py", ["report", SUBJ])], [SUBJ]),
     "prereq_pointer": ([("prereq_pointer.py", ["{L}", "{C}", "mathA", "S3"]), ("prereq_pointer.py", ["{L}", "{C}", "mathA", "S9"])], []),
+    "currency_report": ([("currency_report.py", ["{C}", "--today", "2026-10-07"])], []),
     "enrich_plan": ([("enrich_plan.py", ["{C}"]), ("enrich_plan.py", ["{C}", "--course", "nope"])], []),
     "exam_to_bank": ([("exam_to_bank.py", ["{C}/mathA"])], []),
     "error_log_flow": ([("error_log.py", ["append", SUBJ, "S2", "S2.1", "practice", "misconception", "MC-1", "thinks x", "6"]),
@@ -163,7 +164,7 @@ class GoldenCoverage(unittest.TestCase):
         covered = {s for steps, _ in CASES.values() for s, _a in steps}
         # bootstrap: covered by deploy tests; doctor: output embeds the interpreter version, covered by test_doctor_status
         # backup/restore: output embeds a wall-clock file name, covered by test_backup_restore; profile_init and deck_add read stdin (test_profile_set.Init, test_deck_add)
-        exempt = {"bootstrap_scripts.py", "doctor.py", "backup_profile.py", "restore_profile.py", "profile_init.py", "deck_add.py", "worksheet_check.py", "hook_guard.py", "record_grading.py"}
+        exempt = {"bootstrap_scripts.py", "doctor.py", "backup_profile.py", "restore_profile.py", "profile_init.py", "deck_add.py", "worksheet_check.py", "hook_guard.py", "record_grading.py", "verify_sources.py"}
         self.assertEqual([s for s in scripts if s not in covered and s not in exempt], [])
 
 

@@ -12,7 +12,8 @@
       "stdout": {
         "advisory_notes": [
           "rubric: 3 stage(s) have only topic-label criteria, nothing observable to grade against (first: S1); run rubric_lint.py for detail",
-          "misconceptions: 1 of 3 stages have a sourced misconceptions.json"
+          "misconceptions: 1 of 3 stages have a sourced misconceptions.json",
+          "sources: 0 of 1 cited URLs have a snapshot (verify_sources.py --write)"
         ],
         "blocking_reasons": [],
         "can_ship": true,
@@ -81,7 +82,8 @@
       "stdout": {
         "advisory_notes": [
           "rubric: 3 stage(s) have only topic-label criteria, nothing observable to grade against (first: S1); run rubric_lint.py for detail",
-          "misconceptions: 0 of 3 stages have a sourced misconceptions.json"
+          "misconceptions: 0 of 3 stages have a sourced misconceptions.json",
+          "sources: 0 of 1 cited URLs have a snapshot (verify_sources.py --write)"
         ],
         "blocking_reasons": [
           "missing stage files: ['S2/test.md']"

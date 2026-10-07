@@ -97,6 +97,7 @@ import change_log  # noqa: E402
 import rubric_lint  # noqa: E402
 import validate_structure  # noqa: E402
 import coverage_check  # noqa: E402
+import verify_sources  # noqa: E402
 
 
 def _integrity(course_dir):
@@ -183,6 +184,21 @@ def _gate(course_dir):
         covered, total = misc_status.get("stages_covered"), misc_status.get("stages_total")
         advisory_notes.append(f"misconceptions: {covered} of {total} stages have a sourced misconceptions.json"
                               if isinstance(misc_status, dict) and covered is not None else f"misconceptions status: {misc_status}")
+    urls = verify_sources.collect_urls(course_dir)
+    bad = [u for u in urls if not verify_sources.is_http_url(u)]
+    if bad:
+        blocking_reasons.append(f"cited source is not an http(s) URL: {bad[0][:80]}" + (f" (+{len(bad) - 1} more)" if len(bad) > 1 else ""))
+    if urls:
+        snaps = verify_sources.load_snapshots(course_dir)["snapshots"]
+        have = [u for u in urls if u in snaps]
+        dead = [u for u in have if snaps[u].get("status") == "dead"]
+        changed = [u for u in have if snaps[u].get("changed")]
+        note = f"sources: {len(have)} of {len(urls)} cited URLs have a snapshot (verify_sources.py --write)"
+        if dead:
+            note += f"; {len(dead)} dead (first: {dead[0][:60]})"
+        if changed:
+            note += f"; {len(changed)} changed since the last check"
+        advisory_notes.append(note)
     computed_coverage = coverage.get("computed_status")
     if "error" in coverage:
         advisory_notes.append(f"coverage_check.py could not run: {coverage['error']}")

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.78.0] — 2026-10-07
+### Changed
+- N-04, N-10, K-10: verify_sources.py (are cited sources reachable and unchanged: status, size and a hash, never page text; stored as source_snapshots.json), currency_report.py (which courses need their sources looked at again, no network) and a source-quality check in the compile gate (a cited source must be an http(s) URL; snapshot, dead and changed counts as advice)
+
 ## [1.77.0] — 2026-10-06
 ### Changed
 - V-09: record_grading.py keeps, per stage test, which rubric criteria were met and the marks, with a hash of the rubric entry (history schema v3, additive); no answer text or rubric wording is stored; the runner calls it before recording the result

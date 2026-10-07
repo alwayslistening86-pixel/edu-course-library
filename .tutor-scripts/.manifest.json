@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.77.0",
+  "plugin_version": "1.78.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -13,6 +13,7 @@
     "confidence_update.py",
     "confirm_access.py",
     "coverage_check.py",
+    "currency_report.py",
     "dashboard_html.py",
     "deck_add.py",
     "diagnostic_gate.py",
@@ -63,6 +64,7 @@
     "validate_schema.py",
     "validate_structure.py",
     "verify_session.py",
+    "verify_sources.py",
     "worksheet_check.py"
   ],
   "packages": [

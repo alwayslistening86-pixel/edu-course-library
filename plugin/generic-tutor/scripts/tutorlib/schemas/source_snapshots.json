@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "courses/<id>/source_snapshots.json (written by verify_sources.py): metadata about cited sources, never their text",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "snapshots"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "snapshots": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "status",
+          "checked_on"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "ok",
+              "dead",
+              "blocked",
+              "error"
+            ]
+          },
+          "http": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "truncated": {
+            "type": "boolean"
+          },
+          "checked_on": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "changed": {
+            "type": "boolean"
+          },
+          "previous_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "changed_on": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

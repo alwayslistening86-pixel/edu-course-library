@@ -1,6 +1,7 @@
 """S-05/S-06/S-07: JSON Schemas, the stdlib validator, and conformance of everything the scripts write."""
 import copy
 import glob
+import json
 import os
 import sys
 import tempfile
@@ -83,6 +84,15 @@ class RealSchemas(unittest.TestCase):
         dep = os.path.join(self.tmp, "deployed")
         bootstrap_scripts.bootstrap(os.path.join(os.path.dirname(HERE), "scripts"), os.path.join(os.path.dirname(HERE), ".claude-plugin", "plugin.json"), dep)
         out.append(("manifest", os.path.join(dep, ".manifest.json")))
+        import verify_sources
+        snap_course = os.path.join(self.tmp, "snapcourse")
+        os.makedirs(snap_course)
+        with open(os.path.join(snap_course, "course.json"), "w") as f:
+            json.dump({"stage_ladder": []}, f)
+        with open(os.path.join(snap_course, "rubric.json"), "w") as f:
+            json.dump({"source_urls": ["https://example.org/a", "https://example.org/b"]}, f)
+        verify_sources.verify(snap_course, "2026-10-07", write=True, fetcher=lambda u: {"status": "ok", "http": 200, "sha256": "a" * 64, "bytes": 5} if u.endswith("a") else {"status": "dead", "http": 404})
+        out.append(("source_snapshots", os.path.join(snap_course, "source_snapshots.json")))
         return out
 
     def test_plan_estimate_output_matches_its_schema(self):
