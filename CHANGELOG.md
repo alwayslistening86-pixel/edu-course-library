@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.84.0] — 2026-10-07
+### Changed
+- N-13: the course template stays a valid skeleton (option lists and empty rubric sources became placeholders; optional exam_technique.md and command_words.json stubs added under _template/optional/), a test fills it and runs every course gate, and postcompile_gate now blocks any {{PLACEHOLDER}} left in a course file. Why: nothing caught template text shipping inside a course, and the template had drifted from the schema.
+
 ## [1.83.0] — 2026-10-07
 ### Changed
 - enrich_plan.py no longer counts learner-observed misconceptions as board-documented: any source starting with the plausible label counts as plausible, and entries noting the library's own data are reported separately (learner_observed_entries). Why: the audit may write that note, and the exact-match check had been filing those entries under board-documented, overstating sourced coverage.
