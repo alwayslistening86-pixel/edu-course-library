@@ -33,7 +33,7 @@ learner ──► Claude (Cowork/Code) ── reads ──► commands/ skills/ 
 | Remediation | `remediation_state.py` |
 | Review scheduling | `review_math.py` |
 | Coverage | `coverage_check.py` |
-| Structure / post-compile gate | `validate_structure.py`, `postcompile_gate.py` |
+| Structure / post-compile gate / publishing | `validate_structure.py`, `postcompile_gate.py`, `publish_course.py` |
 | Migration | `migrate_schema.py` |
 | History DB | `sqlite_store.py` |
 | Grading, teaching, discovery, compiling, audit judgment | the model, guided by skills |

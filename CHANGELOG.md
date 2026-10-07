@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.86.0] — 2026-10-07
+### Changed
+- N-15: a new course is compiled into a hidden courses/.build-<id>/ folder and published by publish_course.py, which runs the post-compile gate and renames it into place only if it passes. A failed or abandoned compile is never listed or enrollable, an existing course is never overwritten, and /doctor reports leftover build folders. Why: until now the folder was a live course the moment the compiler started writing it.
+
 ## [1.85.0] — 2026-10-07
 ### Changed
 - N-14: the content contract now defines the course lifecycle (live, retiring, not-a-course, retired in _historic/, owner scratch in _staging/) and who moves what. Every scan of the courses folder applies the course-id rule (a leftover .import-x.tmp or stray folder was being listed as a course), and the auditor's lifecycle: retiring is now real: a schema enum, enrol.py refuses new enrolments to a retiring course, /list-courses shows it. The new optional field needs no migration (absent means live).

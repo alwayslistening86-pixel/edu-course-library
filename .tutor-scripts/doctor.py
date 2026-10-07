@@ -91,6 +91,10 @@ def check_courses(courses_dir):
             errs += schema.validate_file(mis, "misconceptions")
         if "error" in v or not v.get("clean", False) or errs:
             bad.append(cid)
+    unfinished = sorted(d for d in os.listdir(courses_dir) if d.startswith((".build-", ".import-")))
+    if unfinished:   # N-15: an interrupted compile or import; invisible to the library, but worth clearing
+        return _c("courses", "warn", f"unfinished build(s) in courses/: {', '.join(unfinished[:5])}",
+                  "finish it, or run publish_course.py discard <courses dir> <course id> (a .import-*.tmp folder can simply be deleted)")
     if bad:
         return _c("courses", "warn", f"{len(bad)} of {n} courses need attention: {', '.join(bad[:10])}", "run /audit")
     return _c("courses", "ok", f"{n} course(s) structurally clean")

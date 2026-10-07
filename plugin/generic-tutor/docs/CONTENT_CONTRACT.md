@@ -24,15 +24,16 @@ A course is in exactly one of these places. The engine decides what each means; 
 |---|---|---|
 | `courses/<id>/`, `course.json` without `lifecycle` (or `"live"`) | **Live.** | Listed, audited, taught subject to the gates, open to new enrolments. |
 | `courses/<id>/`, `"lifecycle": "retiring"` in `course.json` | **Retiring**: a duplicate being phased out. | As live, except `enrol.py` refuses new enrolments and `/list-courses` labels it. Learners already enrolled carry on to completion. |
+| `courses/.build-<id>/` | **Being compiled.** | Not a course: invisible to every listing and to enrolment until `publish_course.py publish` renames it into place. |
 | `courses/` entry that is not a valid id or has no `course.json` | **Not a course.** | Ignored everywhere, never an error. |
 | `_historic/<id>/` (next to `courses/`) | **Retired** by the library owner. | Never read, listed or taught. |
 | `_staging/` (next to `courses/`) | **Owner scratch space**: build and migration tooling, work in progress. | Never read or written. |
 
 - **Transitions.** live to retiring: the auditor's duplicate merge sets `lifecycle: retiring` in `course.json` when enrolled learners are far enough through a duplicate copy that they should finish on it. Retiring to retired, and retired back to live: the library owner moves the folder between `courses/` and `_historic/` by hand. The auditor, a skill or the model never moves, renames or deletes a course folder; once the last enrolled learner has finished or moved, the auditor only tells the owner the copy can go.
 - **A retired course and its learners.** A move touches no learner file. A learner enrolled in a retired course stops at the first gate with a `read_error` (the course cannot be read); their progress is untouched, and moving the folder back restores teaching.
-- **Who adds a course.** The compiler and `course_bundle.py import`, both into `courses/<id>/`, the latter only when asked.
+- **Who adds a course.** `publish_course.py publish` (the compiler's last step) and `course_bundle.py import` (only when asked). The only folders a script removes are its own `.build-` and `.import-` scratch folders; never a course.
 - **`currency: "historical"` is a different thing.** It is a field meaning the underlying subject is frozen or discontinued, so the live recheck is skipped permanently (gate 4). Such a course is still live and still taught. A course in `_historic/` is one the owner has retired. The words are similar; neither implies the other.
-- **A compile is visible while it runs.** The compiler writes straight into `courses/<id>/` (step 7) and runs the post-compile gate before enrolling anyone (step 8). Until the gate passes, the folder is already a live course to `/list-courses`. `_staging/` is not used for this today; building elsewhere and publishing by rename is tracked as N-15.
+- **A compile is invisible until it passes.** The compiler writes into `courses/.build-<id>/` and `publish_course.py publish` runs the post-compile gate, then renames the folder to `courses/<id>/` in one step, so a course appears whole or not at all and a failed or abandoned compile never shows in `/list-courses` or can be enrolled in. `publish_course.py discard` removes a leftover build folder, and `/doctor` reports one. An interrupted `course_bundle.py import` leaves a `.import-<id>.tmp` folder the same way. Neither is a course. `_staging/` is not used for this.
 
 ## Rules the engine enforces
 1. **Sourced rubric or no course.** Every ladder stage has a rubric entry whose `source` names issuing body, document and reference. The compiler never authors criteria.
