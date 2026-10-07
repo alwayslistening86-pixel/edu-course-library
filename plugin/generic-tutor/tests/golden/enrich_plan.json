@@ -15,6 +15,7 @@
             "exam_technique": false,
             "misconceptions": {
               "documented_entries": 0,
+              "learner_observed_entries": 0,
               "plausible_entries": 0,
               "stages_with_file": 0,
               "stages_without": 3
@@ -36,6 +37,7 @@
             "exam_technique": false,
             "misconceptions": {
               "documented_entries": 0,
+              "learner_observed_entries": 0,
               "plausible_entries": 0,
               "stages_with_file": 0,
               "stages_without": 2
@@ -57,6 +59,7 @@
             "exam_technique": false,
             "misconceptions": {
               "documented_entries": 0,
+              "learner_observed_entries": 0,
               "plausible_entries": 1,
               "stages_with_file": 1,
               "stages_without": 2
@@ -81,6 +84,7 @@
             "exam_technique": false,
             "misconceptions": {
               "documented_entries": 0,
+              "learner_observed_entries": 0,
               "plausible_entries": 0,
               "stages_with_file": 0,
               "stages_without": 3
@@ -102,6 +106,7 @@
             "exam_technique": false,
             "misconceptions": {
               "documented_entries": 0,
+              "learner_observed_entries": 0,
               "plausible_entries": 0,
               "stages_with_file": 0,
               "stages_without": 1
@@ -123,6 +128,7 @@
             "exam_technique": false,
             "misconceptions": {
               "documented_entries": 0,
+              "learner_observed_entries": 0,
               "plausible_entries": 0,
               "stages_with_file": 0,
               "stages_without": 2

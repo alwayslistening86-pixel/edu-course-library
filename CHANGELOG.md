@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.83.0] — 2026-10-07
+### Changed
+- enrich_plan.py no longer counts learner-observed misconceptions as board-documented: any source starting with the plausible label counts as plausible, and entries noting the library's own data are reported separately (learner_observed_entries). Why: the audit may write that note, and the exact-match check had been filing those entries under board-documented, overstating sourced coverage.
+
 ## [1.82.0] — 2026-10-07
 ### Changed
 - N-12: course_bundle.py exports a course as a verified, deterministic zip without learner data and imports one into another library only after hash, path, size, structure and untrusted-text checks. Why: sharing a course between libraries should not mean copying folders by hand and trusting them.

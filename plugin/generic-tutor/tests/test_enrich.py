@@ -83,6 +83,15 @@ class Plan(unittest.TestCase):
         m = ep.run(self.tmp)["courses"]["c1"]["misconceptions"]
         self.assertEqual((m["stages_with_file"], m["stages_without"], m["documented_entries"], m["plausible_entries"]), (1, 1, 1, 1))
 
+    def test_a_learner_observed_entry_is_not_counted_as_board_documented(self):
+        note = ep.PLAUSIBLE + " \u2014 recurring in this library's own data"
+        with open(os.path.join(self.cd, "stages", "S01", "misconceptions.json"), "w") as f:
+            json.dump([{"pattern": "p" * 12, "correction": "c" * 12, "source": note},
+                       {"pattern": "p" * 12, "correction": "c" * 12, "source": ep.PLAUSIBLE.upper()},
+                       {"pattern": "p" * 12, "correction": "c" * 12, "source": "OCR report 2022 Q4"}], f)
+        m = ep.run(self.tmp)["courses"]["c1"]["misconceptions"]
+        self.assertEqual((m["documented_entries"], m["plausible_entries"], m["learner_observed_entries"]), (1, 2, 1))
+
     def test_unknown_course_and_totals(self):
         self.assertIn("error", ep.run(self.tmp, "nope"))
         self.assertEqual(ep.run(self.tmp)["totals"]["without_question_bank"], 1)

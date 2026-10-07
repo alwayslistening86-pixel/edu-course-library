@@ -543,7 +543,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
-| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-13 N-14 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
+| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-13 N-14 L-22 U-06 X-08 | Needs decisions about sourcing. The largest gap, `misconceptions.json` (0 of 1,253 stages), needs no new code: it is an audit enrichment run (course-auditor Tier 3) over courses built before compile step 4.75, run where the board sites are reachable |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 B-07 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
