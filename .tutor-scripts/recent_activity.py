@@ -33,6 +33,8 @@ _TEMPLATES = {
     ("session_state.py", "write_note"): "Saved a short summary of your last session in {course}.",
     ("plan_target.py", "set_target"): "Saved your target date for {course}.",
     ("plan_target.py", "clear_target"): "Removed your target date for {course}.",
+    ("goal_map.py", "set_goal"): "Saved which topics one of your goals means in {course}.",
+    ("goal_map.py", "clear_goal"): "Removed a goal's topic mapping in {course}.",
     ("record_mock.py", "record"): "Saved a mock-paper result for {course}.",
     ("practice_pick.py", "mark_used"): "Noted which practice question you were given in {course}.",
     ("resume_enrollment.py", "resume"): "Resumed {course}.",
