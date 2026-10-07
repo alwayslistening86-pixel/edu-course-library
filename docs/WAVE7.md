@@ -12,6 +12,7 @@ The owner accepted the recommendations and defaults for D1 to D11 on 7 Oct 2026,
 | B-04.1, B-04.2 | `docs/wave7/B-04-practice-judgments.md` (32 rows, classed) |
 | B-04.3 | `docs/wave7/B-04-failure-scenarios.md` (twelve scenarios) |
 | B-04.4 | `docs/adr/0012-practice-judgments.md` (D7 recorded) |
+| B-05.1 | `docs/wave7/B-05-threat-model.md` (roles are enforceable in the local interface and under separate OS accounts; advice only in a shell session, with the hook guard's bypasses pinned by a test) |
 | B-05.2 | `docs/wave7/B-05-script-roles.md` (all 70 scripts) |
 | B-06.1 | `docs/wave7/B-06-personal-data.md` (38 items, 15 gaps) |
 | B-06.2 | `docs/wave7/B-06-course-delivery.md` |
