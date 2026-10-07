@@ -74,7 +74,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 
 ## `*_review_deck.json` (v1)
 
-`{schema_version, course_id, cards[{id, stage_id, item_id|null, criterion|null, front, back, interval_sessions, due_at_slot, ease, lapses}]}`. New cards are written only by `deck_add.py` (front ≤200 / back ≤400 characters, one question per front, duplicate fronts skipped, ≤12 per stage and ≤300 per deck). Scheduling fields owned by `review_math.py apply`; cards created by stage-recap (new card: interval 1, ease 2.3, lapses 0, due = current slot + 1).
+`{schema_version, course_id, cards[{id, stage_id, item_id|null, criterion|null, front, back, card_type?, interval_sessions, due_at_slot, ease, lapses}]}`. `card_type` is optional: `basic` (the default when absent), `cloze`, `explain_why` or `worked_step` (rules in `tutorlib/cards.py`; `deck_add.py` rejects a card that does not fit its type). New cards are written only by `deck_add.py` (front ≤200 / back ≤400 characters, one question per front, duplicate fronts skipped, ≤12 per stage and ≤300 per deck). Scheduling fields owned by `review_math.py apply`; cards created by stage-recap (new card: interval 1, ease 2.3, lapses 0, due = current slot + 1).
 
 ## `course.json` (v4)
 

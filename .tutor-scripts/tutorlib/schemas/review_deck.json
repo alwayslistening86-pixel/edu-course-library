@@ -10,6 +10,7 @@
       "id": {"type": "string", "minLength": 1}, "stage_id": {"type": "string"},
       "item_id": {"type": ["string", "null"]}, "criterion": {"type": ["string", "null"]},
       "front": {"type": "string"}, "back": {"type": "string"},
+      "card_type": {"enum": ["basic", "cloze", "explain_why", "worked_step"]},
       "interval_sessions": {"type": "integer", "minimum": 1}, "ease": {"type": "number", "minimum": 1},
       "lapses": {"type": "integer", "minimum": 0}, "due_at_slot": {"type": "integer", "minimum": 0}}}}
   }
