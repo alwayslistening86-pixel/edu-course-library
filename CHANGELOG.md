@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.92.0] — 2026-10-07
+### Changed
+- L-09: the tutor can now use a course's exam guidance. exam_guidance.py returns the course's exam_technique.md and command-word definitions (or says it holds none), and tutor-core is told to quote only that: never invent mark allocations, time per mark or what examiners look for, never present its own heuristics as the board's, and never teach technique inside a test answer. Why: N-05 made the files checkable but nothing read them, and a tutor guessing exam technique would be believed. No course carries the files yet, so until the audit enrichment run adds some, the tutor will say it holds no board guidance. Also re-checked the wellbeing, safety and locale suites after the wording trims (no critical failures).
+
 ## [1.91.0] — 2026-10-07
 ### Changed
 - N-05: the optional exam_technique.md and command_words.json now have a checked shape. validate_structure reports whether each exists and is well formed, the post-compile gate blocks one that is present but malformed (no Source line, no content, wrong schema, a word listed twice), and the compiler gets a short step saying to write them only where the board publishes guidance. Why: they were stubs with nothing checking them, so a half-filled file could ship. Nothing reads them in a session yet (L-09).

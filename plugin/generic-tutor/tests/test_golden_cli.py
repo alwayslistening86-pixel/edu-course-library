@@ -118,6 +118,7 @@ CASES = {
     "enrol": ([("enrol.py", ["{P}", "{C}", "mathA", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "ghost", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "mathB", "maybe", "2026-10-05"]),
                ("enrol.py", ["{P}"])], []),
     "rubric_lint": ([("rubric_lint.py", ["{C}/mathA"]), ("rubric_lint.py", ["{C}/nope"])], []),
+    "exam_guidance": ([("exam_guidance.py", ["{C}/mathA", "--word", "Explain"]), ("exam_guidance.py", ["{C}/nope"]), ("exam_guidance.py", [])], []),
     "paraphrase_check": ([("paraphrase_check.py", ["{C}/mathA"]), ("paraphrase_check.py", ["{C}/nope"]), ("paraphrase_check.py", [])], []),
     "goal_map": ([("goal_map.py", ["items", "{L}", "{C}", "mathA"]), ("goal_map.py", ["report", "{L}", "{C}", "mathA"]), ("goal_map.py", ["items", "{L}", "{C}", "nope"]),
                   ("goal_map.py", ["set", "{S}/mathA.json", "{C}/mathA", "pass it", "[\"S1.1\", \"S2.1\"]", "2026-10-07"]),
