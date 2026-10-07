@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.79.0",
+  "plugin_version": "1.81.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -32,6 +32,7 @@
     "list_courses.py",
     "migrate_schema.py",
     "next_items.py",
+    "paraphrase_check.py",
     "plan_estimate.py",
     "plan_target.py",
     "postcompile_gate.py",
