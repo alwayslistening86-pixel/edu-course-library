@@ -46,6 +46,10 @@ class CourseIds(unittest.TestCase):
         self.assertEqual(audit_status.audit_status(self.courses)["courses_checked"], 1)
         self.assertEqual(list(enrich_plan.run(self.courses)["courses"]), ["fx_maths_fractions"])
         self.assertTrue(all(r["course_id"] == "fx_maths_fractions" for r in currency_report.run(self.courses)["courses"]))
+        check = doctor.check_courses(self.courses)       # the leftover import folder is reported, not counted as a course
+        self.assertEqual(check["status"], "warn")
+        self.assertIn(".import-fx_maths_fractions.tmp", check["detail"])
+        shutil.rmtree(os.path.join(self.courses, ".import-fx_maths_fractions.tmp"))
         self.assertIn("1 course(s)", doctor.check_courses(self.courses)["detail"])
 
     def test_a_real_course_with_a_valid_but_unusual_id_is_still_listed(self):

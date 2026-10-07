@@ -257,7 +257,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | N-12 ✅ | Course import/export between libraries (portable course bundle, no learner data) | Bundle format + tests | N-01 | M | 5 |
 | N-13 ✅ | Template refresh: `_template/` produces a schema-valid skeleton; includes `misconceptions.json` example and `exam_technique.md` stub | `validate_structure` passes on filled template | S-03 | S | 2 |
 | N-14 ✅ | Decide fate of "historic" vs "staging" courses in contract (states, transitions, who can move them) | Contract section | N-01 | S | 2 |
-| N-15 🟡 | Compile into a hidden build folder and publish by rename once the post-compile gate passes, so a half-built or failed compile is never visible to `/list-courses` or enrolment | Compiler steps 7-8 rewritten; interrupted compile leaves no live course; test | N-14 | M | 5 |
+| N-15 ✅ | Compile into a hidden build folder and publish by rename once the post-compile gate passes, so a half-built or failed compile is never visible to `/list-courses` or enrolment | Compiler steps 7-8 rewritten; interrupted compile leaves no live course; test | N-14 | M | 5 |
 
 ## X — Security & privacy
 
@@ -413,6 +413,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | S-12 | ✅ done | `misconceptions` schema + checked by `/doctor` and the content CI (not yet inside `postcompile_gate`) |
 | N-13 | ✅ done | the template's option lists (`currency`, `level_basis`) and the empty rubric `source` blocks were invalid as shipped; they are placeholders now. A test fills the template and runs `validate_structure`, `validate_schema`, `coverage_check` and `postcompile_gate` on it, so template drift fails CI. `postcompile_gate` now blocks any `{{PLACEHOLDER}}` left in a course file (0 hits across the 63 library courses). `_template/optional/` holds `exam_technique.md` and `command_words.json` stubs; nothing in the tutor reads those two files yet (N-05) (v1.84.0) |
 | N-14 | ✅ done | `CONTENT_CONTRACT.md` now has a *Course lifecycle* section: live, retiring, not-a-course, retired (`_historic/`) and owner scratch (`_staging/`), who moves what (only the owner moves folders; no skill or script does) and the `currency: historical` vs `_historic/` distinction. Two gaps the work exposed are closed: scans of the library listed any folder with a `course.json`, including a leftover `.import-x.tmp` (now `paths.course_ids` applies the id rule at all seven scan sites), and the auditor's `lifecycle: retiring` was prose with no code behind it (now a schema enum, `enrol.py` refuses new enrolments, `/list-courses` shows it). Building in `_staging/` and publishing by rename is N-15 (v1.85.0) |
+| N-15 | ✅ done | the compiler writes into a hidden `courses/.build-<id>/` and `publish_course.py publish` runs `postcompile_gate` then renames it into place, so a course appears whole or not at all and a failed or abandoned compile is never listed or enrollable; an existing course is never overwritten; `--override "<reason>"` ships a known gap and is reported; `discard` removes only a `.build-` folder; `/doctor` reports leftover `.build-`/`.import-` folders. Compiler steps 7-7.5 rewritten within the `/add-course` budget (v1.86.0) |
 | A-03 | 🟡 more | `criteria` suite added (18 cases, extended answers vs discrete criteria, wrong-statement credit is critical): 18/18, 0 critical; still missing: units/multi-part numerics, real learner text |
 | D-03 | ✅ done | `docs/USER_GUIDE.md` |
 | D-06 | ✅ done | README rewritten (<60 lines, no rotting counts) |
@@ -545,7 +546,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
-| 6 | Content pipeline | N-05 N-08 N-09 N-11 N-15 L-22 U-06 X-08 | Needs decisions about sourcing. The largest gap, `misconceptions.json` (0 of 1,253 stages), needs no new code: it is an audit enrichment run (course-auditor Tier 3) over courses built before compile step 4.75, run where the board sites are reachable |
+| 6 | Content pipeline | N-05 N-08 N-09 N-11 L-22 U-06 X-08 | Needs decisions about sourcing. The largest gap, `misconceptions.json` (0 of 1,253 stages), needs no new code: it is an audit enrichment run (course-auditor Tier 3) over courses built before compile step 4.75, run where the board sites are reachable |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 B-07 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
@@ -562,7 +563,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 2 Plugin surface & trust | 76 | 72 | 3 | 1 |
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
 | 4 Learning design | 34 | 28 | 2 | 4 |
-| 5 Content & ecosystem | 20 | 9 | 1 | 10 |
+| 5 Content & ecosystem | 20 | 10 | 1 | 9 |
 | 6 Surfaces & deployment | 7 | 0 | 0 | 7 |
 
 ### What remains, by wave
@@ -574,7 +575,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 3 | Optional Claude Code hooks | 3 | 2 |
 | 4 | Learning design | 5 | 2 |
 | 5 | Measurement | 4 | 1 |
-| 6 | Content pipeline | 8 | 1 |
+| 6 | Content pipeline | 7 | 1 |
 | 7 | Surfaces & deployment | 7 | 0 |
 
 ### By workstream
@@ -591,8 +592,8 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | L Learning design | 22 | 17 | 1 | 0 | 4 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
 | U Learner visibility | 7 | 6 | 0 | 0 | 1 |
-| N Content pipeline | 15 | 9 | 1 | 0 | 5 |
+| N Content pipeline | 15 | 10 | 1 | 0 | 4 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **225** | **189** | **11** | **4** | **21** |
+| **Total** | **225** | **190** | **11** | **4** | **20** |

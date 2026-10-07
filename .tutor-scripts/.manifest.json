@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.85.0",
+  "plugin_version": "1.86.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -42,6 +42,7 @@
     "prereq_pointer.py",
     "profile_init.py",
     "profile_set.py",
+    "publish_course.py",
     "purge_history.py",
     "readiness.py",
     "recent_activity.py",

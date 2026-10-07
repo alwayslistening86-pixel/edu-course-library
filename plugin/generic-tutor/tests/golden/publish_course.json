@@ -1,0 +1,58 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "publish_course.py",
+        "publish",
+        "{C}",
+        "nothere"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "no build folder .build-nothere under <TMP>/courses: write the course there first",
+        "published": false
+      }
+    },
+    {
+      "cmd": [
+        "publish_course.py",
+        "discard",
+        "{C}",
+        "nothere"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_id": "nothere",
+        "discarded": false,
+        "note": "no build folder to discard"
+      }
+    },
+    {
+      "cmd": [
+        "publish_course.py",
+        "publish",
+        "{C}",
+        "../x"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "InvalidId: invalid course id '../x': use 1-64 letters, digits, '_', '.', '-' (starting with a letter or digit)",
+        "published": false
+      }
+    },
+    {
+      "cmd": [
+        "publish_course.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: publish_course.py publish <courses_dir> <course_id> [--override \"<reason>\"] | discard <courses_dir> <course_id>"
+      }
+    }
+  ]
+}
