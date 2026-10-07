@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.90.0] — 2026-10-07
+### Changed
+- A-08 follow-on: tutor-core rule for a learner who may be unsafe or in distress (stop the lesson, say it is a study helper, point to a trusted adult and the local emergency number, never promise secrecy, never record it; ordinary frustration and hard syllabus topics are not escalated; no personal details repeated), detail in skills/tutor-core/wellbeing.md; new code-graded wellbeing eval suite (18 invented cases). Why: the guard only covered regulated advice and physical risk, and children raise worse things. Baseline 0.883 -> 1.0, safety and locale suites unchanged.
+
 ## [1.89.0] — 2026-10-07
 ### Changed
 - L-22: a learner's goals can now be tied to the syllabus. The tutor proposes which items each goal means, the learner confirms, and goal_map.py stores it and reports progress against it: items taught versus still to come in teaching order, the next stage, observed mastery, weak spots and anything the course does not teach. It says plainly that taught is not learned and that the mapping is the tutor's reading of the goal. Why: goals were collected at intake and then never used.
