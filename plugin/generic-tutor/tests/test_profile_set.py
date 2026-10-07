@@ -40,6 +40,7 @@ class Settings(Base):
             ("availability.sessions_per_week", "4", lambda d: d["availability"]["sessions_per_week"] == 4),
             ("learning_signals.pace", "slow", lambda d: d["learning_signals"]["pace"] == "slow"),
             ("identity.display_name", "Alex", lambda d: d["identity"]["display_name"] == "Alex"),
+            ("identity.home_language", "Polish", lambda d: d["identity"]["home_language"] == "Polish"),
             ("goals", '["GCSE maths grade 6", "learn contract law"]', lambda d: len(d["goals"]) == 2),
             ("roster.max_incomplete_courses", "3", lambda d: d["roster"]["max_incomplete_courses"] == 3),
         ):

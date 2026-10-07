@@ -34,7 +34,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | `schema_version` | int | profile-kernel | 2 |
 | `learner_id` | string | profile-kernel | = folder name |
 | `consent.status` | `granted\|limited\|revoked` | profile-kernel | enforced in code by every writer via `tutorlib/consent.py` (v1.14.0) |
-| `identity.{display_name,education_level,locale}` | string | intake | |
+| `identity.{display_name,education_level,locale,home_language}` | string | intake, `/profile` | `locale` sets the spelling variant; `home_language` (optional) turns on glosses of key terms |
 | `preferences.{style,tone,accessibility{dyslexia_mode,plain_language_mode,screen_reader_mode}}` | enums/bools | intake, `/profile` | |
 | `learning_signals.{pace,working_memory_support_needed,verbal_load_sensitivity,spatial_support_needed,notes}` | enums/string | intake; cross-subject writes need learner OK | |
 | `goals` | string[] | intake | |

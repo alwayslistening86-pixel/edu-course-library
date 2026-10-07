@@ -19,6 +19,7 @@ change, with a whitelist, validation, atomic write, file lock, ledger line, cons
   roster.max_incomplete_courses             1-20 (lowering it never removes a course; it only limits future additions)
   goals                                     JSON list of strings (<= 10 items, each <= 120 characters)
   identity.display_name | identity.education_level    text (<= 80)        identity.locale   text (<= 20)
+  identity.home_language                    text (<= 40; optional, the learner's first language)
   capabilities.share_images                 true | false   (stored as {declared, on}; then run apply_capabilities.py for each course)
   consent.status                            granted | limited | revoked   (the learner's own control: always allowed)
 
@@ -43,7 +44,7 @@ ENUMS = {
 }
 BOOLS = {"preferences.accessibility.dyslexia_mode", "preferences.accessibility.plain_language_mode", "preferences.accessibility.screen_reader_mode", "capabilities.share_images"}
 INTS = {"availability.sessions_per_week": (1, 21), "availability.session_minutes": (5, 240), "roster.max_incomplete_courses": (1, 20)}
-TEXTS = {"learning_signals.notes": 500, "identity.display_name": 80, "identity.education_level": 80, "identity.locale": 20}
+TEXTS = {"learning_signals.notes": 500, "identity.display_name": 80, "identity.education_level": 80, "identity.locale": 20, "identity.home_language": 40}
 ALLOWED = set(ENUMS) | BOOLS | set(INTS) | set(TEXTS) | {"goals"}
 
 
