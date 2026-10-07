@@ -189,6 +189,15 @@
           "generated": {
             "type": "integer",
             "minimum": 0
+          },
+          "bank": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "bank_last": {
+            "type": "string"
           }
         }
       }
