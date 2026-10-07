@@ -1,6 +1,6 @@
 # ADR 0010 — Role-separated models, a portable profile and a local UX (direction accepted, design pending)
 
-Status: **direction accepted; build patterns not yet designed; not started** (6 Oct 2026). These ideas are no longer being dismissed. They are tracked as tasks B-01 to B-06 in `docs/TASKS.md` (Wave 7). Every one of those tasks starts with a design step, and this ADR will be expanded into detailed build patterns before any code is written.
+Status: **direction accepted; build patterns not yet designed; not started** (6 Oct 2026). These ideas are no longer being dismissed. They are tracked as tasks B-01 to B-06 in `docs/TASKS.md` (Wave 7). Every one of those tasks starts with a design step, and this ADR will be expanded into detailed build patterns before any code is written. The step-by-step plan is `docs/WAVE7.md`.
 Owner's stance (6 Oct 2026): the **portable profile** is the settled answer to multi-user (the USB stick is one example; the principle is that learner state travels with the learner, not with the machine); a **local UX** is now a likely addition, not something to keep refusing; the **role split** is the hardest of the three and comes last. A cloud model (Claude) must remain a full fallback *teacher*, not only an examiner, whenever no local model is set up.
 
 ## Where this came from
