@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PLUGIN = os.path.dirname(HERE)
 sys.path.insert(0, PLUGIN)
 
-from evals import accessibility, backends, criteria, diagnostics, fading, gates, grading, harness, hints, injection, recheck, safety  # noqa: E402
+from evals import accessibility, backends, criteria, diagnostics, fading, gates, grading, harness, hints, injection, locale, recheck, safety  # noqa: E402
 
 
 class Cases(unittest.TestCase):
@@ -135,7 +135,7 @@ class Check(unittest.TestCase):
         self.assertEqual(b["cases"], 35)
 
 
-SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints, recheck, fading)
+SUITE_MODULES = (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints, recheck, fading, locale)
 
 
 class Cost(unittest.TestCase):

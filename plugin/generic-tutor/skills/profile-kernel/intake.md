@@ -17,7 +17,7 @@ Collect the answers, then make **one** call: `python3 /EDU/.tutor-scripts/profil
 
 | Question | Key | Valid values |
 |---|---|---|
-| 1 level / context | `identity.education_level`, `identity.display_name`, `identity.locale` | text, at most 80 / 80 / 20 characters |
+| 1 level / context | `identity.education_level`, `identity.display_name`, `identity.locale`, `identity.home_language` (optional) | text, at most 80 / 80 / 20 / 40 characters |
 | 2 explanation preference | `preferences.style` | `brief` or `detailed` |
 | 3 support needs | `learning_signals.working_memory_support_needed`, `…verbal_load_sensitivity`, `…spatial_support_needed`, `…pace` | `none`/`some`/`significant`; pace `fast`/`standard`/`slow`; free notes in `learning_signals.notes` (500 characters) |
 | 4 accessibility | `preferences.accessibility.dyslexia_mode`, `…plain_language_mode`, `…screen_reader_mode` | true or false |
