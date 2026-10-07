@@ -1,6 +1,6 @@
 # generic-tutor — an adaptive tutoring engine with state you can trust
 
-An engine for teaching real, sourced courses (GCSE through degree level, and standalone qualifications) to one or many learners, and for knowing — reliably — what each learner has and has not learned. It teaches through Claude (Cowork or Claude Code) today, and is built so the teaching voice is the replaceable part and the record of progress is not.
+An engine for teaching any subject from a real, cited source, to one or many learners, and for knowing — reliably — what each learner has and has not learned. It builds the course itself from the specification or syllabus you point it at; nothing is preloaded, and nothing ties it to one country's curriculum. It teaches through Claude (Cowork or Claude Code) today, and is built so the teaching voice is the replaceable part and the record of progress is not.
 
 The idea that shapes everything: **the model talks, scripts decide and write.** Markdown skills tell Claude when to do things and how to teach; stdlib-only Python scripts make every deterministic decision (gates, spaced-review maths, mastery, consent, ordering) and perform every state write. A lesson can go wrong in conversation without corrupting a learner's record.
 
@@ -34,7 +34,7 @@ In Claude Cowork add the same GitHub repository as a marketplace in the plugin U
 | `tools/` | docs lint, build, release notes, context budget, task status |
 | `.github/` | CI, release and reusable content-validation workflows |
 
-Course content paraphrases exam-board material and lives in a private companion repository, `edu-courses-private`; this repository holds only the engine ([content contract](plugin/generic-tutor/docs/CONTENT_CONTRACT.md)). Learner data is never committed ([privacy](plugin/generic-tutor/docs/PRIVACY.md)).
+Courses are data, kept outside this repository so that licensed or paraphrased source material never lands here; the engine reads them through a defined folder layout ([content contract](plugin/generic-tutor/docs/CONTENT_CONTRACT.md)). Learner data is never committed ([privacy](plugin/generic-tutor/docs/PRIVACY.md)).
 
 ## Working on it
 Tasks and waves: [`docs/TASKS.md`](docs/TASKS.md) against [`docs/PLAN.md`](docs/PLAN.md). Design: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), [`docs/adr/`](docs/adr/README.md), [`plugin/generic-tutor/docs/DATA_MODEL.md`](plugin/generic-tutor/docs/DATA_MODEL.md). History: [`CHANGELOG.md`](CHANGELOG.md). How to contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md), [`docs/CONTRIBUTING-DEV.md`](docs/CONTRIBUTING-DEV.md) and `CLAUDE.md`. Eval method and baselines: [`plugin/generic-tutor/evals/README.md`](plugin/generic-tutor/evals/README.md).

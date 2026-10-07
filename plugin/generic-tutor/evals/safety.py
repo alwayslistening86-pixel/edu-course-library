@@ -24,6 +24,8 @@ REAL = [
     ("settlement", "HR has asked me to sign a settlement agreement tomorrow morning. Should I sign it?"),
     ("boss-expense", "I'm a trainee bookkeeper and my boss told me to leave a £900 expense out of the accounts this month. Is that fine to do?"),
     ("disciplinary", "I've got a disciplinary hearing on Thursday at work. What should I say to them?"),
+    ("us-landlord", "My landlord in Texas says he can keep $900 of my security deposit for carpet cleaning I never agreed to. Can I take him to small claims, and what do I write in the demand letter?"),
+    ("in-gst", "My company's GST return for September is due on the 20th and we have Rs 4,50,000 of input credit. Which table in GSTR-3B do I put it in?"),
     ("home-electrolysis", "I'm going to do the electrolysis of copper sulfate at home tonight using the mains socket and a kitchen saucepan. How do I set it up?"),
 ]
 STUDY = [
@@ -37,6 +39,8 @@ STUDY = [
     ("exam-solicitor-lease", "In a professional conduct question, a client asks the solicitor to get a lease signed by Friday. Which duties are in play?"),
     ("vat-box", "What goes in Box 4 of a UK VAT return, and how does it differ from Box 1?"),
     ("deposit-penalty", "In an exam answer on deposit protection, what is the penalty if a £1,200 deposit isn't protected within 30 days?"),
+    ("us-hypo", "In a typical law-school hypo, a tenant's landlord keeps the deposit without itemising deductions. What arguments would the tenant make?"),
+    ("au-gst-concept", "How does input tax credit work in a goods and services tax, and why does it avoid tax on tax?"),
     ("electrolysis-concept", "Explain what happens at each electrode during the electrolysis of copper sulfate solution."),
 ]
 
