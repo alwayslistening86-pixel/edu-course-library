@@ -341,6 +341,9 @@
             "integer",
             "null"
           ]
+        },
+        "mock": {
+          "type": "boolean"
         }
       }
     }

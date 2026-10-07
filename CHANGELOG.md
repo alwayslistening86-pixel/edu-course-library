@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.95.1] — 2026-10-07
+### Changed
+- B-04.5g: errors diagnosed during a mock are logged with error_log.py append --mock: kept (and still shown as unresolved so the weak item is practised) but they no longer move item_mastery or count towards recurrence or the diagnostic gate. Why: the exam-simulator skill always said a mock changes no progress state; the code disagreed (scenario S9). Optional mock field on error_patterns entries; no migration needed. Limit: the history database cannot tell a mock error apart.
+
 ## [1.95.0] — 2026-10-07
 ### Changed
 - B-02.3 / B-04.5k: question-bank items can carry an answer key (mcq, numeric with tolerance and units, short answer); tutorlib/marking.py is a pure marking function, mark_answer.py is the read-only script, and /mock uses it for keyed questions instead of the model's judgment. exam_to_bank.py writes an mcq key only for a clean single-answer item. Papers never show the key (an mcq's options are shown). Why: ADR 0012 class 1, a model that could be wrong or lenient no longer decides correctness where a script can.

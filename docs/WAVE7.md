@@ -130,7 +130,7 @@ If the voice that teaches is not the examiner, who is allowed to say why an answ
 | B-04.5 | design | Spawn build micro-tasks from the ADR | Listed here before any is started | B-04.4 |
 
 ### B-04.5: the build tasks from ADR 0012
-Each is its own small pull request. Done: a, h, i, j, k. Looked at and found to need a decision first: d and e (see the notes after the table). Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
+Each is its own small pull request. Done: a, g, h, i, j, k. Looked at and found to need a decision first: d and e (see the notes after the table). Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
 
 | ID | Change | Test that proves it | Scenario |
 |---|---|---|---|
@@ -140,7 +140,7 @@ Each is its own small pull request. Done: a, h, i, j, k. Looked at and found to 
 | B-04.5d | A misconception id must exist in that stage's `misconceptions.json` | Unknown id refused | S1, S4 |
 | B-04.5e | A stage `pass` needs a matching grading record at or above the threshold | `apply pass` with no or failing record refused | S7 |
 | B-04.5f | Phase and roster moves forward need evidence of the work | Forward move without evidence refused | S8 |
-| B-04.5g | A mock records marks and errors but not mastery or gate counts | Mock error leaves `item_mastery` unchanged | S9 |
+| B-04.5g | A mock records marks and errors but not mastery or gate counts. **Done, v1.95.1** (`error_log.py append --mock`; the history database still records source_phase `test`, so it cannot tell a mock error apart) | Mock error leaves `item_mastery` unchanged | S9 |
 | B-04.5h | A length cap and a scan on error notes and session summaries | A note with a phone number, or over the cap, refused | S5 |
 | B-04.5i | Remediation causes limited to the five | A sixth value refused | S11 |
 | B-04.5j | Every writing script consults consent, enumerated by a test | The test fails if one does not | S12 |
