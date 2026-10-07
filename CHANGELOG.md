@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.94.0] — 2026-10-07
+### Changed
+- B-01.2: learner folders can live outside the data root (EDU_PROFILE_ROOT or resolve_root --profile-root; default unchanged). doctor, the toolkit and the hook guard follow it, so consent and script-owned-file protection hold on a separate drive. Why: ADR 0011 needs the profile on its own removable drive while courses and scripts stay with the engine.
+
 ## [1.93.3] — 2026-10-07
 ### Changed
 - B-04.5h and B-04.5i (ADR 0012): free text a script stores is screened, and a remediation cause must be one of the five. An error note is capped at 400 characters and refused if it contains an email address, web address or phone number; a session summary is refused for the same; remediation_state.py record refuses a cause that is not slip, missing_prerequisite, misconception, misapplied_procedure or comprehension. Why: notes were stored in the progress file, the history database, backups and exports with no limit or check, and remediation stored any string as the cause so its escalation advice could not match the error log. Refusals write nothing and name the problem without repeating the value. The screen catches contact details only, not names or disclosures, which stay the tutor's own rule.
