@@ -15,6 +15,7 @@
           "scripts not deployed (.tutor-scripts/ missing) - run /run so the plugin can deploy them"
         ],
         "profile": "<TMP>/profile",
+        "profile_separate": false,
         "root": "<TMP>",
         "tutor_scripts": "<TMP>/.tutor-scripts",
         "valid": false

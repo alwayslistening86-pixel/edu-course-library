@@ -17,7 +17,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
     change.md                          written by: course-runner / course-auditor (free text today; S-11)
     stages/<stage_id>/{lesson,practice,test}.md, misconceptions.json (optional)
     exam/exam.md                       only if course.json.exam.enabled
-  profile/
+  profile/               (or the folder named by $EDU_PROFILE_ROOT; learner folders can live on another drive, courses and scripts stay under the root)
     access.json            {"status": "isolated_confirmed|shared_confirmed", "confirmed_on"}   written by: confirm_access.py (profile/ and courses/ each)
     <user_id>/
       student_profile.json schema v2   written by: profile_init.py / profile_set.py (intake, /profile), slot_advance.py, resume_enrollment.py, roster_apply.py (highest_level_cleared)

@@ -17,7 +17,7 @@ The owner accepted the recommendations and defaults for D1 to D11 on 7 Oct 2026,
 | B-06.2 | `docs/wave7/B-06-course-delivery.md` |
 | B-04.5 | the eleven build tasks, listed below |
 
-Next, with no machine needed: B-01.2 (separate profile root), B-02.3 (script-markable item types), the B-04 build tasks (small, independent), B-05.1 (role threat model), B-06.3 and B-06.4, B-03.2 to B-03.5 (offline parts of the local-model backend). Still needing the owner or a machine: B-01.10, B-02.10, B-03.6 and B-03.7, B-06.5.
+Done since: B-01.2 (v1.94.0). Next, with no machine needed: B-02.3 (script-markable item types), the B-04 build tasks (small, independent), B-05.1 (role threat model), B-06.3 and B-06.4, B-03.2 to B-03.5 (offline parts of the local-model backend). Still needing the owner or a machine: B-01.10, B-02.10, B-03.6 and B-03.7, B-06.5.
 
 The inventories found work outside Wave 7 too, tracked here so it is not lost: the 15 personal-data gaps in `B-06-personal-data.md` (erase and purge leave backups, exports, migration copies and signal data behind; error notes have no cap), and a stale line in `PRIVACY.md` saying the history database is missing from `/export` (it is included).
 
@@ -44,7 +44,7 @@ Rules that hold throughout:
 ## What the code looks like today (the starting facts)
 
 These shape the plan, and each is checked against the code.
-- The data root is one folder holding `courses/`, `profile/<id>/` and `.tutor-scripts/` (`tutorlib/paths.py`). There is no separate profile root, so a profile on another drive needs a code change first (B-01.2).
+- The data root is one folder holding `courses/`, `profile/<id>/` and `.tutor-scripts/` (`tutorlib/paths.py`). A separate profile root is supported since v1.94.0 (`EDU_PROFILE_ROOT`, or `resolve_root.py --profile-root`); the default is still `<root>/profile`.
 - JSON writes are atomic (temp file then rename); history is SQLite with a rollback journal; locks are files holding a process id and a timestamp, broken after a timeout (`tutorlib/filelock.py`). A lock carries no machine name, which matters when a stick moves between machines (B-01.5).
 - Schema migration writes a `.pre-migrate-*.bak` copy first (`migrate_schema.py`); an older engine refuses a newer file (`state.load`).
 - Question banks hold prompts, marks and **mark schemes for a marker** (`question_bank.json`). They carry no machine-checkable answer key, so "multiple choice and numeric, marked by script" needs a new item type first (B-02.3). Stage tests are graded against a rubric by the model today.

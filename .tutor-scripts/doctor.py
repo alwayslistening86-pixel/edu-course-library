@@ -159,7 +159,7 @@ def run(root, learner=None):
     if os.path.isdir(root):
         checks.append(check_deployed(root))
         checks.append(check_courses(os.path.join(root, "courses")))
-        pdir = os.path.join(root, "profile")
+        pdir = paths.profile_root(root)
         if os.path.isdir(pdir):
             for uid in sorted(os.listdir(pdir)):
                 ldir = os.path.join(pdir, uid)
