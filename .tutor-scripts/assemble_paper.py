@@ -28,6 +28,15 @@ TOLERANCE = 3
 MINUTES_PER_MARK = 1.2
 
 
+def _shown(q):
+    """What the learner may see of a question: never the answer key, but a multiple-choice question's options (the key holds them)."""
+    out = {k: q.get(k) for k in ("id", "stage_id", "item_ids", "marks", "calculator", "command_word", "prompt")}
+    key = q.get("key", {})
+    if key.get("kind") == "mcq" and key["options"][0] not in q["prompt"]:         # an item written with its options in the prompt needs no second copy
+        out["options"] = key["options"]
+    return out
+
+
 def assemble(courses_dir, course_id, marks=DEFAULT_MARKS, minutes=None, stages=None, seed=0, calculator="any", exclude=()):
     path = os.path.join(courses_dir, course_id, "question_bank.json")
     if not os.path.isfile(path):
@@ -67,7 +76,7 @@ def assemble(courses_dir, course_id, marks=DEFAULT_MARKS, minutes=None, stages=N
     if abs(total - marks) > TOLERANCE:
         notes.append(f"The bank could not reach {marks} marks within +/-{TOLERANCE}; this paper has {total}.")
     return {"course_id": course_id, "seed": seed, "total_marks": total, "minutes_suggested": mins,
-            "questions": [{k: q.get(k) for k in ("id", "stage_id", "item_ids", "marks", "calculator", "command_word", "prompt")} for q in chosen],
+            "questions": [_shown(q) for q in chosen],
             "items_covered": sorted(covered_items), "stages_covered": sorted(covered_stages), "notes": notes}
 
 

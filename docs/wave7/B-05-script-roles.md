@@ -1,10 +1,10 @@
 # B-05.2 — Script inventory and proposed roles
 
-> Checked at v1.93.0: all 70 top-level scripts have a row, and every `file:line` citation points at a line that exists. Roles are proposals for owner review, not decisions; nothing here changes behaviour.
+> Checked at v1.95.0: all 71 top-level scripts have a row (`mark_answer.py` was added after the first pass and sits at the end of Table 1), and every `file:line` citation points at a line that exists. Roles are proposals for owner review, not decisions; nothing here changes behaviour.
 
 Status: **proposal for owner review** (7 Oct 2026). Nothing here changes behaviour. It feeds the B-05 policy table (`docs/TASKS.md`, B-05; `docs/adr/0010-proposed-roles-and-portable-profile.md`).
 
-Source note: this is micro-task B-05.2 of `docs/WAVE7.md`; the research that produced it worked from `docs/TASKS.md` (B-03 to B-07) and ADR 0010 before that plan was merged. Every row below comes from the script's own docstring and code in `plugin/generic-tutor/scripts/` (70 top-level `.py` files; `scripts/toolkit/` and `scripts/tutorlib/` are not covered).
+Source note: this is micro-task B-05.2 of `docs/WAVE7.md`; the research that produced it worked from `docs/TASKS.md` (B-03 to B-07) and ADR 0010 before that plan was merged. Every row below comes from the script's own docstring and code in `plugin/generic-tutor/scripts/` (71 top-level `.py` files; `scripts/toolkit/` and `scripts/tutorlib/` are not covered).
 
 ## How to read this
 
@@ -24,7 +24,7 @@ Source note: this is micro-task B-05.2 of `docs/WAVE7.md`; the research that pro
 
 Consent classes in code (`tutorlib/consent.py`) are noted where relevant: progress and scheduling persist under `granted` and `limited`; signal persists under `granted` only.
 
-## Table 1 — every script (70)
+## Table 1 — every script (71)
 
 | # | Script | Purpose (from docstring) | Class | Writes (paths) | Caller | Proposed roles | Reason / flag |
 |---|---|---|---|---|---|---|---|
@@ -98,6 +98,7 @@ Consent classes in code (`tutorlib/consent.py`) are noted where relevant: progre
 | 68 | verify_session.py | Did the model make all the state writes a session implies | R | none | learner (profile-kernel `/run` audit of last session; hook Stop) | any | Read-only ledger check |
 | 69 | verify_sources.py | Are a course's cited sources still there and unchanged (network) | C | `--write`: `<course>/source_snapshots.json`; default writes nothing; only hashes kept | staff (auditor) | staff | Needs network; writes course metadata with the flag |
 | 70 | worksheet_check.py | Does a take-home worksheet give away the stage test | R | none | learner (stage-recap) | examiner, staff | Reads the graded `test.md`; hold-back material, kept off tutor-voice |
+| 71 | mark_answer.py | Marks one learner answer against a question's answer key, by script | R | none | learner (exam-simulator) | any | Pure marking; recording the result is a separate writing step (ADR 0012 class 1) |
 
 ## Table 2 — sub-commands and flags whose write behaviour differs
 
@@ -160,18 +161,18 @@ Consent classes in code (`tutorlib/consent.py`) are noted where relevant: progre
 | restore_profile.py | `--dry-run` | no | | staff | |
 | restore_profile.py | default / `--replace` | yes | learner folder (replace also writes a safety zip) | staff | |
 
-## (a) Summary count (checked against Table 1: 70 rows, one per script)
+## (a) Summary count (checked against Table 1: 71 rows, one per script)
 
 | Class | Count | Scripts |
 |---|---|---|
-| R reads only | 32 | assemble_paper, audit_status, change_log, cohort_status, coverage_check, currency_report, diagnostic_gate, enrich_plan, exam_guidance, gate_check, history_report, invariants, list_courses, next_items, paraphrase_check, plan_estimate, postcompile_gate, prereq_check, prereq_pointer, readiness, recent_activity, resolve_root, review_select, roster_check, rubric_lint, scan_untrusted, session_plan, status, validate_schema, validate_structure, verify_session, worksheet_check |
+| R reads only | 33 | assemble_paper, audit_status, change_log, cohort_status, coverage_check, currency_report, diagnostic_gate, enrich_plan, exam_guidance, gate_check, history_report, invariants, list_courses, mark_answer, next_items, paraphrase_check, plan_estimate, postcompile_gate, prereq_check, prereq_pointer, readiness, recent_activity, resolve_root, review_select, roster_check, rubric_lint, scan_untrusted, session_plan, status, validate_schema, validate_structure, verify_session, worksheet_check |
 | R* reads only, but writes a derived file or probe | 3 | audit_run (`--out` report), dashboard_html (HTML page), doctor (temporary probe file) |
 | P writes progress state | 19 | apply_capabilities, calibration, confidence_update, deck_add, enrol, error_log, goal_map, item_mastery, plan_target, practice_pick, record_grading, record_mock, record_stage_result, remediation_state, resume_enrollment, review_math, roster_apply, session_state, sqlite_store |
 | L writes learner profile or consent | 4 | confirm_access, profile_init, profile_set, slot_advance |
 | C writes course content | 5 | course_bundle, exam_to_bank, migrate_schema, publish_course, verify_sources |
 | B writes backups or erases | 5 | backup_profile, erase_profile, export_profile, purge_history, restore_profile |
 | I installs or deploys | 2 | bootstrap_scripts, hook_guard |
-| **Total** | **70** | |
+| **Total** | **71** | |
 
 Proposed role sets (whole-script, Table 1): `any` 18, `examiner` 17, `staff` 25, `examiner + staff` 10. No script is proposed for `tutor-voice` alone, and none allows `tutor-voice` unless it is `any` (so tutor-voice may call only read-only scripts, plus the read-only sub-commands in Table 2). Of the 18 `any`, 17 are read-only status or decision scripts and one (hook_guard) is hook infrastructure, not model-called.
 

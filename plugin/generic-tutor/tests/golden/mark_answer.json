@@ -1,0 +1,96 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "mark_answer.py",
+        "{C}/mathA/question_bank.json",
+        "S1-Q1",
+        "42.3 m"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "correct": true,
+        "kind": "numeric",
+        "marks_available": 3,
+        "marks_awarded": 3,
+        "question_id": "S1-Q1",
+        "reason": "within_tolerance"
+      }
+    },
+    {
+      "cmd": [
+        "mark_answer.py",
+        "{C}/mathA/question_bank.json",
+        "S1-Q1",
+        "42"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "correct": false,
+        "kind": "numeric",
+        "marks_available": 3,
+        "marks_awarded": 0,
+        "question_id": "S1-Q1",
+        "reason": "missing_unit"
+      }
+    },
+    {
+      "cmd": [
+        "mark_answer.py",
+        "{C}/mathA/question_bank.json",
+        "S1-Q3",
+        "Forty-Two."
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "correct": true,
+        "kind": "short",
+        "marks_available": 2,
+        "marks_awarded": 2,
+        "question_id": "S1-Q3",
+        "reason": "accepted"
+      }
+    },
+    {
+      "cmd": [
+        "mark_answer.py",
+        "{C}/mathA/question_bank.json",
+        "S1-Q2",
+        "42"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "question 'S1-Q2' has no answer key: it needs the examiner, not a script"
+      }
+    },
+    {
+      "cmd": [
+        "mark_answer.py",
+        "{C}/mathA/question_bank.json",
+        "nope",
+        "42"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "no such question 'nope' in the bank"
+      }
+    },
+    {
+      "cmd": [
+        "mark_answer.py",
+        "{C}/mathA/question_bank.json"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: mark_answer.py <question_bank.json> <question_id> <answer>"
+      }
+    }
+  ]
+}
