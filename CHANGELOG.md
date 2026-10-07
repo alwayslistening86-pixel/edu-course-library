@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.88.1] — 2026-10-07
+### Changed
+- Fix an intermittent Windows failure in the file lock (it failed test_parallel_error_log_appends_all_land twice in CI): on Windows a lock file another process is deleting reports PermissionError rather than FileExistsError, which crashed the script instead of waiting, and a failed unlock could leave a lock behind. Both are now retried; elsewhere a real permission error still surfaces at once, and a lock timeout now names the underlying error. Why: a progress write must wait its turn, not fail, when two scripts touch the same learner file.
+
 ## [1.88.0] — 2026-10-07
 ### Changed
 - U-06: a printable progress summary a learner can choose to share with a tutor or parent (dashboard_html.py --summary-for): it names its recipient, shows progress, coverage and the readiness band, leaves out next steps, weakest items, mistake causes and mock detail, and is refused when consent is revoked. Both progress pages now print cleanly and take their language tag from the learner's locale instead of a fixed en-GB. Why: sharing progress should be a deliberate, minimal act by the learner, not a copy of everything the tutor knows.
