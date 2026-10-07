@@ -13,3 +13,4 @@ One short file per decision: context/why, decision, consequences. New decisions 
 - [0009](0009-optional-target-date.md) — An optional, learner-stated target date (amends 0002)
 - [0010](0010-proposed-roles-and-portable-profile.md) — Direction accepted, design pending: portable profile, local UX, role-separated models (tasks B-01 to B-06)
 - [0011](0011-portable-profile.md) — The portable profile: medium, two roots, and what the engine promises (design accepted, nothing built)
+- [0012](0012-practice-judgments.md) — Who may make a practice-phase judgment that becomes a record (rule accepted, nothing built)
