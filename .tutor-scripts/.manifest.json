@@ -1,11 +1,12 @@
 {
-  "plugin_version": "1.95.1",
+  "plugin_version": "1.96.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
     "audit_run.py",
     "audit_status.py",
     "backup_profile.py",
+    "bank_pick.py",
     "bootstrap_scripts.py",
     "calibration.py",
     "change_log.py",

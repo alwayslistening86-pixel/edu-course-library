@@ -1,0 +1,183 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "practice_used": {
+        "S1": {
+          "bank": [
+            "S1-Q1"
+          ],
+          "bank_last": "S1-Q1",
+          "fixed": [],
+          "generated": 0
+        }
+      },
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "bank_pick.py",
+        "next",
+        "{S}/mathA.json",
+        "{C}/mathA/question_bank.json",
+        "S1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "keyed_total": 2,
+        "question": {
+          "command_word": "Calculate",
+          "id": "S1-Q1",
+          "item_ids": [
+            "S1.1"
+          ],
+          "marks": 3,
+          "prompt": "Question 1 on S1: work out the value."
+        },
+        "recommendation": "ask:S1-Q1",
+        "remaining": 2,
+        "stage_id": "S1",
+        "used": 0
+      }
+    },
+    {
+      "cmd": [
+        "bank_pick.py",
+        "used",
+        "{S}/mathA.json",
+        "{C}/mathA/question_bank.json",
+        "S1",
+        "S1-Q1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "used",
+        "already_recorded": false,
+        "bank": [
+          "S1-Q1"
+        ],
+        "question_id": "S1-Q1",
+        "stage_id": "S1",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "bank_pick.py",
+        "used",
+        "{S}/mathA.json",
+        "{C}/mathA/question_bank.json",
+        "S1",
+        "S1-Q1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "used",
+        "already_recorded": true,
+        "bank": [
+          "S1-Q1"
+        ],
+        "question_id": "S1-Q1",
+        "stage_id": "S1",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "bank_pick.py",
+        "used",
+        "{S}/mathA.json",
+        "{C}/mathA/question_bank.json",
+        "S1",
+        "S1-Q2"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "'S1-Q2' is not a keyed question of stage 'S1' in this bank"
+      }
+    },
+    {
+      "cmd": [
+        "bank_pick.py",
+        "next",
+        "{S}/mathA.json",
+        "{C}/mathA/question_bank.json",
+        "S1",
+        "--prefer",
+        "S1.1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "keyed_total": 2,
+        "question": {
+          "command_word": "Calculate",
+          "id": "S1-Q3",
+          "item_ids": [
+            "S1.1"
+          ],
+          "marks": 2,
+          "prompt": "Question 3 on S1: work out the value."
+        },
+        "recommendation": "ask:S1-Q3",
+        "remaining": 1,
+        "stage_id": "S1",
+        "used": 1
+      }
+    },
+    {
+      "cmd": [
+        "bank_pick.py",
+        "next",
+        "{S}/mathA.json",
+        "{C}/mathA/question_bank.json",
+        "S2"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "keyed_total": 0,
+        "question": null,
+        "recommendation": "no_keyed_questions",
+        "remaining": 0,
+        "stage_id": "S2",
+        "used": 0
+      }
+    },
+    {
+      "cmd": [
+        "bank_pick.py",
+        "next",
+        "{S}/mathA.json"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: bank_pick.py next <subjects.json> <question_bank.json> <stage_id> [--prefer item,item] | used <subjects.json> <question_bank.json> <stage_id> <question_id>"
+      }
+    }
+  ]
+}

@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.96.0] — 2026-10-07
+### Changed
+- B-02.4: bank_pick.py offers the next keyed question-bank item for a stage (never the key, mcq options shown, weak items first with --prefer) and records that it was met under practice_used[stage].bank / bank_last; it refuses ids that are not keyed questions of that stage. course-runner points practice at it, with marking by mark_answer.py. Why: ADR 0012 class 1 needs a way to put script-markable questions in front of a learner; bank_last is also the 'last served' fact later checks (B-04.5c) can use. Optional additive fields, no migration. Limit: only questions that carry a key are offered; unkeyed ones still need the examiner.
+
 ## [1.95.1] — 2026-10-07
 ### Changed
 - B-04.5g: errors diagnosed during a mock are logged with error_log.py append --mock: kept (and still shown as unresolved so the weak item is practised) but they no longer move item_mastery or count towards recurrence or the diagnostic gate. Why: the exam-simulator skill always said a mock changes no progress state; the code disagreed (scenario S9). Optional mock field on error_patterns entries; no migration needed. Limit: the history database cannot tell a mock error apart.

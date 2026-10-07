@@ -37,6 +37,7 @@ _TEMPLATES = {
     ("goal_map.py", "clear_goal"): "Removed a goal's topic mapping in {course}.",
     ("record_mock.py", "record"): "Saved a mock-paper result for {course}.",
     ("practice_pick.py", "mark_used"): "Noted which practice question you were given in {course}.",
+    ("bank_pick.py", "mark_used"): "Noted which practice question you were given in {course}.",
     ("resume_enrollment.py", "resume"): "Resumed {course}.",
     ("slot_advance.py", "advance"): "Counted this as a new study session.",
     ("profile_set.py", "set_value"): "Changed a setting in your profile.",
