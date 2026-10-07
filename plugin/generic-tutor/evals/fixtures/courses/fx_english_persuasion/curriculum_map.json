@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage"
+  },
+  "_items_source": {
+    "document": "Self-authored sample specification",
+    "url": "https://example.org/generic-tutor-fixtures",
+    "version": "1",
+    "itemised_on": "2026-10-06"
+  },
+  "_syllabus_items": [
+    {
+      "id": "EP1.1",
+      "title": "Naming techniques",
+      "topic_area": "Recognising persuasive techniques"
+    },
+    {
+      "id": "EP1.2",
+      "title": "Explaining effect",
+      "topic_area": "Recognising persuasive techniques"
+    },
+    {
+      "id": "EP2.1",
+      "title": "Point and reason",
+      "topic_area": "Writing a persuasive paragraph"
+    },
+    {
+      "id": "EP2.2",
+      "title": "Choosing techniques",
+      "topic_area": "Writing a persuasive paragraph"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S1_Persuasive_Techniques": {
+    "covers_syllabus_refs": [
+      "EP1.1",
+      "EP1.2"
+    ],
+    "syllabus_topic": "Recognising persuasive techniques",
+    "covers_items": [
+      "EP1.1",
+      "EP1.2"
+    ]
+  },
+  "S2_Writing_a_Persuasive_Paragraph": {
+    "covers_syllabus_refs": [
+      "EP2.1",
+      "EP2.2"
+    ],
+    "syllabus_topic": "Writing a persuasive paragraph",
+    "covers_items": [
+      "EP2.1",
+      "EP2.2"
+    ]
+  }
+}

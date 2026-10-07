@@ -69,6 +69,17 @@ class FixtureCourses(unittest.TestCase):
             with open(subj) as f:
                 self.assertEqual(set(json.load(f)["syllabus_status"].values()), {"pass"})
 
+    def test_the_fixtures_are_not_git_ignored(self):
+        """A broad ignore rule once hid evals/fixtures/courses from git, so CI ran without them. Skipped where git is absent."""
+        import subprocess
+        try:
+            r = subprocess.run(["git", "check-ignore", "-q", os.path.join(FX, COURSES[0], "course.json")], capture_output=True, cwd=ROOT)
+        except OSError:
+            self.skipTest("git not available")
+        if r.returncode == 128:
+            self.skipTest("not a git checkout")
+        self.assertEqual(r.returncode, 1, "evals/fixtures/courses is matched by a .gitignore rule")
+
     def test_no_exam_board_wording_or_private_data_slipped_in(self):
         banned = ("AQA", "OCR ", "Edexcel", "Pearson", "SQE", "mark scheme for")
         for dp, _, fns in os.walk(FX):

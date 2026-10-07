@@ -1,0 +1,57 @@
+{
+  "stage_rubrics": {
+    "S1_Offer_and_Acceptance": {
+      "criteria": [
+        "Identifies the legal issue that the facts raise.",
+        "States the rule on offers and invitations to treat or on acceptance accurately.",
+        "Applies the rule to the facts given rather than restating it.",
+        "Reaches a clear conclusion that follows from the application."
+      ],
+      "pass_threshold": "At least 60% of this test's marks (the course's own standard for secure work).",
+      "source": {
+        "issuing_body": "generic-tutor sample fixtures",
+        "document": "Self-authored sample specification (not an exam board's)",
+        "reference": "S1_Offer_and_Acceptance",
+        "urls": [
+          "https://example.org/generic-tutor-fixtures"
+        ]
+      }
+    },
+    "S2_Consideration_and_Intention": {
+      "criteria": [
+        "Identifies the legal issue that the facts raise.",
+        "States the rule on consideration or intention accurately.",
+        "Applies it to the facts given.",
+        "Reaches a clear conclusion that follows from the application."
+      ],
+      "pass_threshold": "At least 60% of this test's marks (the course's own standard for secure work).",
+      "source": {
+        "issuing_body": "generic-tutor sample fixtures",
+        "document": "Self-authored sample specification (not an exam board's)",
+        "reference": "S2_Consideration_and_Intention",
+        "urls": [
+          "https://example.org/generic-tutor-fixtures"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Answers are marked against each question's own mark scheme, point by point.",
+      "A pass needs at least half of the available marks across the paper."
+    ],
+    "pass_threshold": "At least 50% of the paper's marks (the course's own standard).",
+    "source": {
+      "issuing_body": "generic-tutor sample fixtures",
+      "document": "Self-authored sample specification (not an exam board's)",
+      "reference": "exam",
+      "urls": [
+        "https://example.org/generic-tutor-fixtures"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://example.org/generic-tutor-fixtures"
+  ],
+  "source_notes": "Sample course for evals and tests. Generic contract principles written as a sample only; not a statement of any real jurisdiction's law."
+}

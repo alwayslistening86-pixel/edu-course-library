@@ -27,3 +27,4 @@ Evals (dev-only, manual): `cd plugin/generic-tutor && python3 -m evals run --sui
 - Schema change ⇒ migration in `migrate_schema.py` plus a test.
 - Reference tasks by ID from `docs/TASKS.md` in branch names, commits and PR titles (e.g. `E-03: atomic JSON writes`).
 - Never put learner data or real exam-board material in this repo.
+- Merging and releasing are delegated to Claude (maintainer decision, 7 Oct 2026). Open a pull request from a feature branch, merge it only when every CI job is green (Windows included) and local checks pass, and use a merge commit when the per-task history is worth keeping, a squash otherwise. After a merge that changes the plugin, tag `generic-tutor--v<version>` on `main` so the release workflow attaches the zip; check the release run, and check main's CI after every merge. Never merge on red, never push to `main` directly.

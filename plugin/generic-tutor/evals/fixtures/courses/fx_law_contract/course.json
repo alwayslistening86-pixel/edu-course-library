@@ -1,0 +1,29 @@
+{
+  "schema_version": 4,
+  "name": "Sample: Contract basics, a law-style course (self-authored)",
+  "requires_complete": [],
+  "standalone": true,
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "Self-authored sample content written for generic-tutor's evals and tests, 2026. Not taken from any exam board or publisher; every example and question is original.",
+  "academic_level": null,
+  "level_source": "none: a sample course, not a qualification",
+  "level_basis": "standalone",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-10-06",
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S1_Offer_and_Acceptance",
+    "S2_Consideration_and_Intention"
+  ],
+  "linear": true,
+  "framework": "IRAC",
+  "practical_stages": {},
+  "learner_notices": [],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  }
+}

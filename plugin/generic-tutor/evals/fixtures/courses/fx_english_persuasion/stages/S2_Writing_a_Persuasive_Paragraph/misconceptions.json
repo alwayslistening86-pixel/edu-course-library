@@ -1,0 +1,12 @@
+[
+  {
+    "pattern": "Piles on techniques with no clear point, so the paragraph is hard to follow.",
+    "correction": "Decide the single point first; use techniques only to support it.",
+    "source": "plausible, not board-documented"
+  },
+  {
+    "pattern": "Writes to the wrong audience, such as slang in a letter to a head teacher.",
+    "correction": "Decide who the reader is and match tone and technique to them.",
+    "source": "plausible, not board-documented"
+  }
+]

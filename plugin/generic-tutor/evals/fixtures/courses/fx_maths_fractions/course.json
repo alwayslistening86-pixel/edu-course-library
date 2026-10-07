@@ -1,0 +1,29 @@
+{
+  "schema_version": 4,
+  "name": "Sample: Fractions and percentages (self-authored)",
+  "requires_complete": [],
+  "standalone": false,
+  "folder_access": {
+    "status": "isolated_confirmed"
+  },
+  "currency": "live",
+  "material_vintage": "Self-authored sample content written for generic-tutor's evals and tests, 2026. Not taken from any exam board or publisher; every example and question is original.",
+  "academic_level": 2,
+  "level_source": "sample level for tests; not a real qualification",
+  "level_basis": "declared",
+  "grounding_status": "verified",
+  "last_live_recheck": "2026-10-06",
+  "coverage_status": "full",
+  "stage_ladder": [
+    "S1_Adding_Fractions",
+    "S2_Percentages_of_Amounts"
+  ],
+  "linear": true,
+  "framework": null,
+  "practical_stages": {},
+  "learner_notices": [],
+  "exam": {
+    "enabled": true,
+    "requires_all_stage_tests_passed": true
+  }
+}

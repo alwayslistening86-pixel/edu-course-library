@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "source_note": "starter bank converted from exam/exam.md; extend through the audit's enrichment pass",
+  "questions": [
+    {
+      "id": "exam-1",
+      "stage_id": "exam",
+      "marks": 4,
+      "prompt": "Read: 'Will you stand by while our park disappears? Be brave, be loud, be there.' Name two techniques and explain the effect of one.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "rhetorical question, quoted"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "rule of three ('brave, loud, there'), quoted"
+        },
+        {
+          "id": "3",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "effect of one technique explained"
+        },
+        {
+          "id": "4",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "effect tied to the reader's feelings or action"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    },
+    {
+      "id": "exam-2",
+      "stage_id": "exam",
+      "marks": 3,
+      "prompt": "Explain why a persuasive letter to a councillor should sound different from a persuasive text to a friend.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "the audience differs"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "a councillor needs reasoned, polite, formal points"
+        },
+        {
+          "id": "3",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "a friend can be addressed informally with warmer or stronger language"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    },
+    {
+      "id": "exam-3",
+      "stage_id": "exam",
+      "marks": 4,
+      "prompt": "Write two sentences persuading a neighbour to join a litter-picking morning.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "a clear point"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "a reason"
+        },
+        {
+          "id": "3",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "at least one deliberate technique"
+        },
+        {
+          "id": "4",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "an invitation to act"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    }
+  ]
+}

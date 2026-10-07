@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "source_note": "starter bank converted from exam/exam.md; extend through the audit's enrichment pass",
+  "questions": [
+    {
+      "id": "exam-1",
+      "stage_id": "exam",
+      "marks": 3,
+      "prompt": "Work out 3/5 + 1/4.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "M",
+          "descriptor": "common denominator 20 (12/20 + 5/20)"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "M",
+          "descriptor": "numerators added"
+        },
+        {
+          "id": "3",
+          "marks": 1,
+          "type": "A",
+          "descriptor": "17/20"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    },
+    {
+      "id": "exam-2",
+      "stage_id": "exam",
+      "marks": 3,
+      "prompt": "A jacket costing 90 pounds is reduced by 20%. Work out the sale price.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "M",
+          "descriptor": "20% of 90 = 18 (or 90 x 0.8)"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "M",
+          "descriptor": "90 - 18"
+        },
+        {
+          "id": "3",
+          "marks": 1,
+          "type": "A",
+          "descriptor": "72 pounds"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    },
+    {
+      "id": "exam-3",
+      "stage_id": "exam",
+      "marks": 1,
+      "prompt": "Which statement is correct? Choose every correct option.\n   A. 1/2 + 1/4 = 3/4\n   B. 1/2 + 1/4 = 2/6\n   C. 1/3 + 1/3 = 2/3\n   D. 1/5 + 1/5 = 2/10",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "B",
+          "descriptor": "selects exactly option(s) A, C and no others"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    },
+    {
+      "id": "exam-4",
+      "stage_id": "exam",
+      "marks": 3,
+      "prompt": "A pay rise takes a wage from 400 pounds to 430 pounds a week. Work out the percentage increase.",
+      "mark_scheme": [
+        {
+          "id": "1",
+          "marks": 1,
+          "type": "M",
+          "descriptor": "change = 30"
+        },
+        {
+          "id": "2",
+          "marks": 1,
+          "type": "M",
+          "descriptor": "30/400 x 100"
+        },
+        {
+          "id": "3",
+          "marks": 1,
+          "type": "A",
+          "descriptor": "7.5%"
+        }
+      ],
+      "source": "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
+    }
+  ]
+}

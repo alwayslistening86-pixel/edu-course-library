@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "purpose": "instructional_index_plus_itemised_coverage"
+  },
+  "_items_source": {
+    "document": "Self-authored sample specification",
+    "url": "https://example.org/generic-tutor-fixtures",
+    "version": "1",
+    "itemised_on": "2026-10-06"
+  },
+  "_syllabus_items": [
+    {
+      "id": "LC1.1",
+      "title": "Offer or invitation",
+      "topic_area": "Offer and acceptance"
+    },
+    {
+      "id": "LC1.2",
+      "title": "Acceptance",
+      "topic_area": "Offer and acceptance"
+    },
+    {
+      "id": "LC2.1",
+      "title": "Consideration",
+      "topic_area": "Consideration and intention to create legal relations"
+    },
+    {
+      "id": "LC2.2",
+      "title": "Intention",
+      "topic_area": "Consideration and intention to create legal relations"
+    }
+  ],
+  "_declared_exclusions": [],
+  "S1_Offer_and_Acceptance": {
+    "covers_syllabus_refs": [
+      "LC1.1",
+      "LC1.2"
+    ],
+    "syllabus_topic": "Offer and acceptance",
+    "covers_items": [
+      "LC1.1",
+      "LC1.2"
+    ]
+  },
+  "S2_Consideration_and_Intention": {
+    "covers_syllabus_refs": [
+      "LC2.1",
+      "LC2.2"
+    ],
+    "syllabus_topic": "Consideration and intention to create legal relations",
+    "covers_items": [
+      "LC2.1",
+      "LC2.2"
+    ]
+  }
+}

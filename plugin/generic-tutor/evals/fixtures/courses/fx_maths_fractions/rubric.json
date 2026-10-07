@@ -1,0 +1,55 @@
+{
+  "stage_rubrics": {
+    "S1_Adding_Fractions": {
+      "criteria": [
+        "Rewrites both fractions over a common denominator before adding.",
+        "Adds the numerators and keeps the denominator unchanged.",
+        "Gives the final answer in simplest form."
+      ],
+      "pass_threshold": "At least 60% of this test's marks (the course's own standard for secure work).",
+      "source": {
+        "issuing_body": "generic-tutor sample fixtures",
+        "document": "Self-authored sample specification (not an exam board's)",
+        "reference": "S1_Adding_Fractions",
+        "urls": [
+          "https://example.org/generic-tutor-fixtures"
+        ]
+      }
+    },
+    "S2_Percentages_of_Amounts": {
+      "criteria": [
+        "Builds the required percentage correctly from 10%, 1% or a fraction.",
+        "Applies an increase or decrease to the original amount, not to the new one.",
+        "States the final amount with its units."
+      ],
+      "pass_threshold": "At least 60% of this test's marks (the course's own standard for secure work).",
+      "source": {
+        "issuing_body": "generic-tutor sample fixtures",
+        "document": "Self-authored sample specification (not an exam board's)",
+        "reference": "S2_Percentages_of_Amounts",
+        "urls": [
+          "https://example.org/generic-tutor-fixtures"
+        ]
+      }
+    }
+  },
+  "exam_rubric": {
+    "criteria": [
+      "Answers are marked against each question's own mark scheme, point by point.",
+      "A pass needs at least half of the available marks across the paper."
+    ],
+    "pass_threshold": "At least 50% of the paper's marks (the course's own standard).",
+    "source": {
+      "issuing_body": "generic-tutor sample fixtures",
+      "document": "Self-authored sample specification (not an exam board's)",
+      "reference": "exam",
+      "urls": [
+        "https://example.org/generic-tutor-fixtures"
+      ]
+    }
+  },
+  "source_urls": [
+    "https://example.org/generic-tutor-fixtures"
+  ],
+  "source_notes": "Sample course for evals and tests. Fractions and percentages content is original and generic."
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "pattern": "Takes a percentage decrease off the new price instead of the original, so a 25% cut and a 25% rise appear to cancel.",
+    "correction": "A percentage always refers to the amount it is taken from. Increasing 100 by 25% gives 125; decreasing 125 by 25% gives 93.75, not 100.",
+    "source": "plausible, not board-documented"
+  },
+  {
+    "pattern": "Divides by the new amount when finding percentage change.",
+    "correction": "Percentage change is the change as a share of the ORIGINAL amount.",
+    "source": "plausible, not board-documented"
+  }
+]
