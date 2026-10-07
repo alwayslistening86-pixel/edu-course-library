@@ -1,0 +1,96 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "rubric_lint.py",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "by_rule": {
+          "label_only_stage": 3,
+          "no_pass_threshold": 3,
+          "short_criterion": 6
+        },
+        "course_dir": "<TMP>/courses/mathA",
+        "finding_count": 12,
+        "findings": [
+          {
+            "detail": "M1; A1",
+            "rule": "label_only_stage",
+            "stage_id": "S1"
+          },
+          {
+            "detail": "M1",
+            "rule": "short_criterion",
+            "stage_id": "S1"
+          },
+          {
+            "detail": "A1",
+            "rule": "short_criterion",
+            "stage_id": "S1"
+          },
+          {
+            "detail": "70%",
+            "rule": "no_pass_threshold",
+            "stage_id": "S1"
+          },
+          {
+            "detail": "M1; A1",
+            "rule": "label_only_stage",
+            "stage_id": "S2"
+          },
+          {
+            "detail": "M1",
+            "rule": "short_criterion",
+            "stage_id": "S2"
+          },
+          {
+            "detail": "A1",
+            "rule": "short_criterion",
+            "stage_id": "S2"
+          },
+          {
+            "detail": "70%",
+            "rule": "no_pass_threshold",
+            "stage_id": "S2"
+          },
+          {
+            "detail": "M1; A1",
+            "rule": "label_only_stage",
+            "stage_id": "S3"
+          },
+          {
+            "detail": "M1",
+            "rule": "short_criterion",
+            "stage_id": "S3"
+          },
+          {
+            "detail": "A1",
+            "rule": "short_criterion",
+            "stage_id": "S3"
+          },
+          {
+            "detail": "70%",
+            "rule": "no_pass_threshold",
+            "stage_id": "S3"
+          }
+        ],
+        "stages_checked": 3
+      }
+    },
+    {
+      "cmd": [
+        "rubric_lint.py",
+        "{C}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: cannot read rubric.json in <TMP>/courses/nope: [Errno 2] No such file or directory: '<TMP>/courses/nope/rubric.json'"
+      }
+    }
+  ]
+}

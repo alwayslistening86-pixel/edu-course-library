@@ -28,9 +28,10 @@ consent.status is "revoked" (nothing may be written) or when inside the
 double-/run window; either way "current_slot" is still reported.
 """
 import argparse
+import sys
 import datetime
 import json
-import sys
+from tutorlib import cli, consent, filelock, ledger, state
 
 DEFAULT_MIN_GAP_MINUTES = 180
 
@@ -39,13 +40,16 @@ def _now():
     return datetime.datetime.now(datetime.timezone.utc)
 
 
+@ledger.logged("slot_advance.py", "path")
+@filelock.locked("path")
 def advance(path, min_gap_minutes=DEFAULT_MIN_GAP_MINUTES, now=None):
     now = now or _now()
     with open(path, "r", encoding="utf-8") as f:
         profile = json.load(f)
     previous = int(profile.get("session_slot", 0))
-    if (profile.get("consent") or {}).get("status") == "revoked":
-        return {"skipped": "consent revoked", "current_slot": previous}
+    allowed, cstatus = consent.check(path, consent.SCHEDULING)
+    if not allowed:
+        return {"skipped": f"consent {cstatus}", "current_slot": previous}
 
     last = profile.get("session_slot_advanced_at")
     if min_gap_minutes > 0 and last:
@@ -65,9 +69,7 @@ def advance(path, min_gap_minutes=DEFAULT_MIN_GAP_MINUTES, now=None):
 
     profile["session_slot"] = previous + 1
     profile["session_slot_advanced_at"] = now.replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(profile, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state.save(path, profile, "student_profile")
     return {"previous_slot": previous, "current_slot": previous + 1}
 
 
@@ -76,8 +78,9 @@ def main():
     ap.add_argument("profile_path")
     ap.add_argument("--min-gap-minutes", type=int, default=DEFAULT_MIN_GAP_MINUTES)
     args = ap.parse_args()
-    print(json.dumps(advance(args.profile_path, args.min_gap_minutes), indent=2))
+    sys.exit(cli.emit(advance(args.profile_path, args.min_gap_minutes)))
 
 
 if __name__ == "__main__":
+    cli.strip_envelope()                      # --help is argparse's own
     main()

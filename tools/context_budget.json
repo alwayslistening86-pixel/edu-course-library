@@ -1,0 +1,22 @@
+{
+  "add-course": 40950,
+  "add-profile": 27463,
+  "audit": 28800,
+  "backup": 2973,
+  "continue": 56600,
+  "dashboard": 4946,
+  "doctor": 5071,
+  "drop": 5243,
+  "erase": 3907,
+  "export": 2000,
+  "help": 1872,
+  "list-courses": 1773,
+  "mock": 4570,
+  "plan": 13474,
+  "profile": 25356,
+  "readiness": 5071,
+  "restore": 3171,
+  "review": 7471,
+  "run": 14344,
+  "status": 5055
+}

@@ -1,0 +1,23 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "migrate_schema.py",
+        "subject",
+        "{S}/mathA.json",
+        "{C}/mathA/course.json"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "changed_fields": [],
+        "kind": "subject",
+        "needs_sourcing": [],
+        "path": "<TMP>/profile/amy/subjects/mathA.json",
+        "valid_after": true,
+        "wrote": false
+      }
+    }
+  ]
+}

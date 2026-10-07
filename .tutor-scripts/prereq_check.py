@@ -23,6 +23,8 @@ import json
 import os
 import sys
 
+from tutorlib import cli
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import prerequisites_status  # noqa: E402
 
@@ -47,8 +49,9 @@ def main():
     if len(sys.argv) != 4:
         print(json.dumps({"error": "usage: prereq_check.py <course.json> <profile subjects dir> <courses dir>"}))
         sys.exit(2)
-    print(json.dumps(check(*sys.argv[1:4]), indent=2))
+    sys.exit(cli.emit(check(*sys.argv[1:4])))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

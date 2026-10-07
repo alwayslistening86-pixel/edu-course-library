@@ -1,0 +1,16 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "exam_to_bank.py",
+        "{C}/mathA"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: no exam/exam.md in <TMP>/courses/mathA"
+      }
+    }
+  ]
+}

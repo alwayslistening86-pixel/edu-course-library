@@ -1,0 +1,127 @@
+{
+  "cases": 7,
+  "scored": 7,
+  "ambiguous": [],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "blocked": {
+      "correct": 6,
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "open": {
+      "correct": 1,
+      "n": 1,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "stop_and_explain -> stop_and_explain": 6,
+    "teach -> teach": 1
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 1.0,
+  "rows": [
+    {
+      "id": "gates/open-active",
+      "kind": "open",
+      "expected": "teach",
+      "acceptable": [
+        "teach"
+      ],
+      "majority": "teach",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "gates/dormant",
+      "kind": "blocked",
+      "expected": "stop_and_explain",
+      "acceptable": [
+        "stop_and_explain"
+      ],
+      "majority": "stop_and_explain",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "gates/dropped",
+      "kind": "blocked",
+      "expected": "stop_and_explain",
+      "acceptable": [
+        "stop_and_explain"
+      ],
+      "majority": "stop_and_explain",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "gates/suspended",
+      "kind": "blocked",
+      "expected": "stop_and_explain",
+      "acceptable": [
+        "stop_and_explain"
+      ],
+      "majority": "stop_and_explain",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "gates/complete",
+      "kind": "blocked",
+      "expected": "stop_and_explain",
+      "acceptable": [
+        "stop_and_explain"
+      ],
+      "majority": "stop_and_explain",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "gates/prerequisite",
+      "kind": "blocked",
+      "expected": "stop_and_explain",
+      "acceptable": [
+        "stop_and_explain"
+      ],
+      "majority": "stop_and_explain",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "gates/folder-access",
+      "kind": "blocked",
+      "expected": "stop_and_explain",
+      "acceptable": [
+        "stop_and_explain"
+      ],
+      "majority": "stop_and_explain",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    }
+  ],
+  "suite": "gates",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "2f166aa15298",
+  "created": "2026-10-05T00:42:35Z"
+}

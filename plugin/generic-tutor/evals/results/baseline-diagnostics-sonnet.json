@@ -1,0 +1,251 @@
+{
+  "cases": 15,
+  "scored": 14,
+  "ambiguous": [
+    "diagnostics/missing_prerequisite/04"
+  ],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "comprehension": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "misapplied_procedure": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "misconception": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "missing_prerequisite": {
+      "correct": 2,
+      "n": 2,
+      "accuracy": 1.0
+    },
+    "slip": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "comprehension -> comprehension": 3,
+    "misapplied_procedure -> misapplied_procedure": 3,
+    "misconception -> misconception": 3,
+    "missing_prerequisite -> missing_prerequisite": 2,
+    "slip -> slip": 3
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 0.978,
+  "rows": [
+    {
+      "id": "diagnostics/slip/01",
+      "kind": "slip",
+      "expected": "slip",
+      "acceptable": [
+        "slip"
+      ],
+      "majority": "slip",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/slip/02",
+      "kind": "slip",
+      "expected": "slip",
+      "acceptable": [
+        "slip"
+      ],
+      "majority": "slip",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/slip/03",
+      "kind": "slip",
+      "expected": "slip",
+      "acceptable": [
+        "slip"
+      ],
+      "majority": "slip",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/missing_prerequisite/04",
+      "kind": "missing_prerequisite",
+      "expected": "missing_prerequisite",
+      "acceptable": [
+        "missing_prerequisite"
+      ],
+      "majority": "missing_prerequisite",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/missing_prerequisite/05",
+      "kind": "missing_prerequisite",
+      "expected": "missing_prerequisite",
+      "acceptable": [
+        "missing_prerequisite"
+      ],
+      "majority": "missing_prerequisite",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/missing_prerequisite/06",
+      "kind": "missing_prerequisite",
+      "expected": "missing_prerequisite",
+      "acceptable": [
+        "missing_prerequisite"
+      ],
+      "majority": "missing_prerequisite",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/misconception/07",
+      "kind": "misconception",
+      "expected": "misconception",
+      "acceptable": [
+        "misconception"
+      ],
+      "majority": "misconception",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/misconception/08",
+      "kind": "misconception",
+      "expected": "misconception",
+      "acceptable": [
+        "misconception"
+      ],
+      "majority": "misconception",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/misconception/09",
+      "kind": "misconception",
+      "expected": "misconception",
+      "acceptable": [
+        "misconception"
+      ],
+      "majority": "misconception",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/misapplied_procedure/10",
+      "kind": "misapplied_procedure",
+      "expected": "misapplied_procedure",
+      "acceptable": [
+        "misapplied_procedure"
+      ],
+      "majority": "misapplied_procedure",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/misapplied_procedure/11",
+      "kind": "misapplied_procedure",
+      "expected": "misapplied_procedure",
+      "acceptable": [
+        "misapplied_procedure"
+      ],
+      "majority": "misapplied_procedure",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/misapplied_procedure/12",
+      "kind": "misapplied_procedure",
+      "expected": "misapplied_procedure",
+      "acceptable": [
+        "misapplied_procedure"
+      ],
+      "majority": "misapplied_procedure",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/comprehension/13",
+      "kind": "comprehension",
+      "expected": "comprehension",
+      "acceptable": [
+        "comprehension"
+      ],
+      "majority": "comprehension",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/comprehension/14",
+      "kind": "comprehension",
+      "expected": "comprehension",
+      "acceptable": [
+        "comprehension"
+      ],
+      "majority": "comprehension",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "diagnostics/comprehension/15",
+      "kind": "comprehension",
+      "expected": "comprehension",
+      "acceptable": [
+        "comprehension"
+      ],
+      "majority": "comprehension",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    }
+  ],
+  "suite": "diagnostics",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "749381ab0a17",
+  "created": "2026-10-05T00:42:07Z"
+}

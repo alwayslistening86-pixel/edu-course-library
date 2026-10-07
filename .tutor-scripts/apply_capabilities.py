@@ -35,6 +35,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cohort_status import is_complete, practical_stages  # noqa: E402
+from tutorlib import cli, consent, state
 
 
 def _load(path):
@@ -98,14 +99,17 @@ def main():
     new, report = apply(profile, course, subj)
     wrote = False
     if report["changed"] and not dry:
-        with open(subj_path, "w", encoding="utf-8") as f:
-            json.dump(new, f, indent=2, ensure_ascii=False)
-            f.write("\n")
-        wrote = True
+        allowed, cstatus = consent.check(subj_path, consent.PROGRESS)
+        if allowed:
+            state.save(subj_path, new, "subjects")
+            wrote = True
+        else:
+            report["skipped"] = f"consent {cstatus}: progress writes are not persisted"
     report["wrote"] = wrote
     report["dry_run"] = dry
-    print(json.dumps(report, indent=2))
+    sys.exit(cli.emit(report))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

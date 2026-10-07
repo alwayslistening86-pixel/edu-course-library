@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "student_profile.json (schema_version 2)",
+  "type": "object",
+  "required": ["schema_version"],
+  "properties": {
+    "schema_version": {"type": "integer", "minimum": 1},
+    "learner_id": {"type": "string", "minLength": 1},
+    "consent": {"type": "object", "properties": {"status": {"enum": ["granted", "limited", "revoked"]}}},
+    "identity": {"type": "object"},
+    "preferences": {"type": "object", "properties": {
+      "style": {"enum": ["brief", "detailed"]},
+      "tone": {"enum": ["neutral", "friendly", "formal", "playful"]},
+      "accessibility": {"type": "object", "properties": {"dyslexia_mode": {"type": "boolean"}, "plain_language_mode": {"type": "boolean"}, "screen_reader_mode": {"type": "boolean"}}}}},
+    "learning_signals": {"type": "object", "properties": {
+      "pace": {"enum": ["fast", "standard", "slow"]},
+      "working_memory_support_needed": {"enum": ["none", "some", "significant"]},
+      "verbal_load_sensitivity": {"enum": ["none", "some", "significant"]},
+      "spatial_support_needed": {"enum": ["none", "some", "significant"]},
+      "notes": {"type": "string"}}},
+    "goals": {"type": "array", "items": {"type": "string"}},
+    "availability": {"type": "object", "properties": {
+      "sessions_per_week": {"type": "integer", "minimum": 0}, "session_minutes": {"type": "integer", "minimum": 0}}},
+    "roster": {"type": "object", "properties": {"max_incomplete_courses": {"type": "integer", "minimum": 0}}},
+    "highest_level_cleared": {"type": "integer", "minimum": 0},
+    "capabilities": {"type": "object"},
+    "session_slot": {"type": "integer", "minimum": 0},
+    "session_slot_advanced_at": {"type": "string"},
+    "last_updated": {"type": "string"}
+  }
+}

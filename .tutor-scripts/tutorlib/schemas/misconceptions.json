@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "stages/<id>/misconceptions.json",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "pattern",
+      "correction",
+      "source"
+    ],
+    "properties": {
+      "pattern": {
+        "type": "string",
+        "minLength": 10
+      },
+      "correction": {
+        "type": "string",
+        "minLength": 10
+      },
+      "source": {
+        "type": "string",
+        "minLength": 5
+      }
+    }
+  }
+}

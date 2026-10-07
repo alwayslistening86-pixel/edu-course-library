@@ -1,0 +1,41 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "review_math.py",
+        "1",
+        "2.3",
+        "0",
+        "5",
+        "true"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "due_at_slot": 7,
+        "ease": 2.35,
+        "interval_sessions": 2,
+        "lapses": 0
+      }
+    },
+    {
+      "cmd": [
+        "review_math.py",
+        "4",
+        "2.0",
+        "1",
+        "9",
+        "false"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "due_at_slot": 10,
+        "ease": 1.8,
+        "interval_sessions": 1,
+        "lapses": 2
+      }
+    }
+  ]
+}

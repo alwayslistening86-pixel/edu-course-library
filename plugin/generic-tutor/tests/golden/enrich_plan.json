@@ -1,0 +1,166 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "enrich_plan.py",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "courses": {
+          "broken": {
+            "command_words": false,
+            "exam_technique": false,
+            "misconceptions": {
+              "documented_entries": 0,
+              "plausible_entries": 0,
+              "stages_with_file": 0,
+              "stages_without": 3
+            },
+            "question_bank": {
+              "present": false
+            },
+            "ready_made_items": 0,
+            "source_urls": [],
+            "stages": 3,
+            "todo": [
+              "question_bank",
+              "misconceptions",
+              "exam_technique"
+            ]
+          },
+          "design": {
+            "command_words": false,
+            "exam_technique": false,
+            "misconceptions": {
+              "documented_entries": 0,
+              "plausible_entries": 0,
+              "stages_with_file": 0,
+              "stages_without": 2
+            },
+            "question_bank": {
+              "present": false
+            },
+            "ready_made_items": 0,
+            "source_urls": [],
+            "stages": 2,
+            "todo": [
+              "question_bank",
+              "misconceptions",
+              "exam_technique"
+            ]
+          },
+          "mathA": {
+            "command_words": false,
+            "exam_technique": false,
+            "misconceptions": {
+              "documented_entries": 0,
+              "plausible_entries": 1,
+              "stages_with_file": 1,
+              "stages_without": 2
+            },
+            "question_bank": {
+              "marks": 36,
+              "present": true,
+              "questions": 12,
+              "stages_covered": 3,
+              "stages_total": 3
+            },
+            "ready_made_items": 0,
+            "source_urls": [],
+            "stages": 3,
+            "todo": [
+              "misconceptions",
+              "exam_technique"
+            ]
+          },
+          "mathB": {
+            "command_words": false,
+            "exam_technique": false,
+            "misconceptions": {
+              "documented_entries": 0,
+              "plausible_entries": 0,
+              "stages_with_file": 0,
+              "stages_without": 3
+            },
+            "question_bank": {
+              "present": false
+            },
+            "ready_made_items": 0,
+            "source_urls": [],
+            "stages": 3,
+            "todo": [
+              "question_bank",
+              "misconceptions",
+              "exam_technique"
+            ]
+          },
+          "old": {
+            "command_words": false,
+            "exam_technique": false,
+            "misconceptions": {
+              "documented_entries": 0,
+              "plausible_entries": 0,
+              "stages_with_file": 0,
+              "stages_without": 1
+            },
+            "question_bank": {
+              "present": false
+            },
+            "ready_made_items": 0,
+            "source_urls": [],
+            "stages": 1,
+            "todo": [
+              "question_bank",
+              "misconceptions",
+              "exam_technique"
+            ]
+          },
+          "solo": {
+            "command_words": false,
+            "exam_technique": false,
+            "misconceptions": {
+              "documented_entries": 0,
+              "plausible_entries": 0,
+              "stages_with_file": 0,
+              "stages_without": 2
+            },
+            "question_bank": {
+              "present": false
+            },
+            "ready_made_items": 0,
+            "source_urls": [],
+            "stages": 2,
+            "todo": [
+              "question_bank",
+              "misconceptions",
+              "exam_technique"
+            ]
+          }
+        },
+        "totals": {
+          "courses": 6,
+          "stages": 14,
+          "stages_without_misconceptions": 13,
+          "without_exam_technique": 6,
+          "without_question_bank": 5
+        }
+      }
+    },
+    {
+      "cmd": [
+        "enrich_plan.py",
+        "{C}",
+        "--course",
+        "nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "unknown course 'nope'"
+      }
+    }
+  ]
+}

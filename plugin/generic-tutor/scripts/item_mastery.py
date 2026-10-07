@@ -76,6 +76,7 @@ Output: JSON to stdout. `observe` writes the subjects file back in place;
 import json
 import os
 import sys
+from tutorlib import cli, consent, filelock, ledger, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
@@ -87,14 +88,11 @@ P_GUESS = 0.2
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state.save(path, data, "subjects")
 
 
 def _update(p_l, correct, p_slip=P_SLIP, p_guess=P_GUESS, p_transit=P_TRANSIT):
@@ -109,6 +107,8 @@ def _update(p_l, correct, p_slip=P_SLIP, p_guess=P_GUESS, p_transit=P_TRANSIT):
     return max(0.0, min(1.0, new_p)), max(0.0, min(1.0, posterior))
 
 
+@ledger.logged("item_mastery.py", "subjects_path")
+@filelock.locked("subjects_path")
 def observe(subjects_path, item_id, correct, current_slot):
     d = _load(subjects_path)
     mastery = d.setdefault("item_mastery", {})
@@ -126,6 +126,11 @@ def observe(subjects_path, item_id, correct, current_slot):
         "last_slot": int(current_slot),
         "last_correct": bool(correct),
     }
+    allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+    if not allowed:
+        return {"item_id": item_id, "prior": round(prior, 4), "posterior_this_observation": round(posterior, 4),
+                "new_p_mastery": round(new_p, 4), "observations": observations,
+                **consent.skipped(cstatus, consent.SIGNAL)}
     _save(subjects_path, d)
     sqlite_result = sqlite_store.log_item_mastery_observation(
         subjects_path, item_id, correct, prior, posterior, new_p, current_slot
@@ -174,11 +179,12 @@ def main():
         else:
             print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected observe|status"}))
             sys.exit(2)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
+    except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

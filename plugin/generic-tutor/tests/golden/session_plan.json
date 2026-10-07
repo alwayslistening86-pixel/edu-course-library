@@ -1,0 +1,51 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "session_plan.py",
+        "{L}",
+        "--elapsed",
+        "40",
+        "--phase",
+        "practice",
+        "--available",
+        "45"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advice": "stop_before_test",
+        "available_minutes": 45,
+        "can_start_test": false,
+        "elapsed_minutes": 40,
+        "minutes_defaulted": false,
+        "phase": "practice",
+        "phase_minutes": {
+          "lesson": 16,
+          "practice": 18,
+          "test": 11
+        },
+        "remaining": 5,
+        "stop_points": [
+          "after the lesson",
+          "after practice",
+          "after a test result is recorded"
+        ]
+      }
+    },
+    {
+      "cmd": [
+        "session_plan.py",
+        "{L}",
+        "--phase",
+        "exam"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "phase must be one of ('lesson', 'practice', 'test')"
+      }
+    }
+  ]
+}

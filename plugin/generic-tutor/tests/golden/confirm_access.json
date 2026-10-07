@@ -1,0 +1,68 @@
+{
+  "files_after": {
+    "courses/access.json": {
+      "confirmed_on": "<DATE>",
+      "status": "shared_confirmed"
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "confirm_access.py",
+        "{C}",
+        "isolated",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "folder": "<TMP>/courses",
+        "previous_status": null,
+        "status": "isolated_confirmed",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "confirm_access.py",
+        "{C}",
+        "shared",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "folder": "<TMP>/courses",
+        "previous_status": "isolated_confirmed",
+        "status": "shared_confirmed",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "confirm_access.py",
+        "{C}",
+        "maybe",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "choice must be one of ('isolated', 'shared'), got 'maybe'"
+      }
+    },
+    {
+      "cmd": [
+        "confirm_access.py",
+        "{T}/none",
+        "isolated",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: folder does not exist: <TMP>/none"
+      }
+    }
+  ]
+}

@@ -18,12 +18,19 @@ Env: TUTOR_SCRIPTS=<dir> to point at another scripts/ folder; NO_WAKE_ON_DROP=1 
 Covers: one stage ladder, no exams, no suspension, no consent modes, no convergence testing, one learner.
 It exercises the scripts as I read the prose; it cannot show that Claude follows the prose.
 """
-import sys, json, os, tempfile, random, shutil
+import sys
+import json
+import os
+import tempfile
+import random
+import shutil
 S = os.environ.get("TUTOR_SCRIPTS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts"))
 sys.path.insert(0, S)
 from roster_check import compute as roster
 from resume_enrollment import resume as resume_enr
-from cohort_status import compute_cohorts, level_walk, is_complete
+from cohort_status import is_complete
+import enrol
+import roster_apply
 
 def _rj(path):
     with open(path, encoding="utf-8") as f:
@@ -69,16 +76,17 @@ class World:
         os.makedirs(f"{self.C}/{cid}")
         _wj(self.course_path(cid), {"schema_version": 2, "folder_access": {"status": "isolated_confirmed"}, "currency": "historical",
                    "academic_level": level, "stage_ladder": ["S1", "S2"], "grounding_status": "verified", "exam": {"enabled": False}})
-        _wj(self.subj_path(cid), {"course_id": cid, "roster_state": r["candidate_state"], "cohort_id": level,
-                   "syllabus_status": {"S1": "unsat", "S2": "unsat"}, "current_stage": "S1"})
-        for c in r["courses_that_would_lock"]: self.set_state(c, "dormant")
+        res = enrol.enrol(self.P, self.C, cid, r["candidate_state"], "2026-09-18")
+        assert res.get("written"), res
+        if r["courses_that_would_lock"]: roster_apply.lock(self.P, r["courses_that_would_lock"])
         return f"add {cid}@L{level} -> {r['candidate_state']}, locks {r['courses_that_would_lock']}"
 
     def drop(self, cid):
-        self.set_state(cid, "dropped")
-        w = [] if os.environ.get("NO_WAKE_ON_DROP") else self.rc()["wake_now"]
-        for c in w: self.set_state(c, "active")
-        return f"drop {cid}, woke {w}"
+        if os.environ.get("NO_WAKE_ON_DROP"):
+            self.set_state(cid, "dropped")
+            return f"drop {cid}, woke []"
+        res = roster_apply.drop(self.P, self.C, cid)
+        return f"drop {cid}, woke {res.get('woke')}" if "error" not in res else f"drop {cid} REFUSED {res['error']}"
 
     def resume(self, cid):
         r0 = self.rc()
@@ -93,20 +101,16 @@ class World:
             kw = dict(reopen_profile=self.prof, reopen_to=r["effective_highest_level_cleared"])
         res = resume_enr(self.subj_path(cid), self.course_path(cid), r["candidate_state"], "2026-09-18", **kw)
         if not res["resumed"]: return f"resume {cid} FAILED {res}"
-        for c in r["courses_that_would_lock"]: self.set_state(c, "dormant")
+        if r["courses_that_would_lock"]: roster_apply.lock(self.P, r["courses_that_would_lock"])
         return f"resume {cid}@L{lvl} -> {r['candidate_state']}, reopen {res['reopened_level']}, locks {r['courses_that_would_lock']}"
 
     def finish(self, cid):
         s = self.subj(cid); s["syllabus_status"] = {"S1": "pass", "S2": "pass"}; self.save_subj(cid, s)
-        cohorts, _ = compute_cohorts(f"{self.P}/subjects", self.C)
         stored = self.ledger()
-        walk = level_walk(cohorts, stored)
+        res = roster_apply.advance(self.P, self.C)
         note = f"finish {cid}@L{self.level(cid)}"
-        if walk["to"] > stored:
-            self.set_ledger(walk["to"])
-            w = self.rc()["wake_now"]
-            for c in w: self.set_state(c, "active")
-            note += f", ledger {stored}->{walk['to']}, woke {w}"
+        if res.get("written"):
+            note += f", ledger {stored}->{res['to']}, woke {res['woke']}"
         return note
 
     # -- invariants
@@ -169,3 +173,4 @@ if __name__ == "__main__":
         print(f"\n== {k}: {len(lst)} sequences; shortest ({len(tr)} steps, seed {seed}):")
         for i, t in enumerate(tr, 1): print(f"   {i:>2}. {t}")
         print("   VIOLATION:", errs)
+    sys.exit(1 if fails else 0)

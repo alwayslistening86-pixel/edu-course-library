@@ -66,6 +66,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
+from tutorlib import cli, consent, filelock, ledger, state
 
 
 EASE_DEFAULT = 2.3
@@ -107,16 +108,15 @@ def compute(old_interval, old_ease, old_lapses, current_slot, correct):
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "review_deck")
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state.save(path, data, "review_deck")
 
 
+@ledger.logged("review_math.py", "deck_path")
+@filelock.locked("deck_path")
 def apply(deck_path, card_id, current_slot, correct):
     """Read-modify-write: loads the deck, finds the card, computes the new
     fields with compute(), writes them back onto the card, saves the file,
@@ -138,6 +138,11 @@ def apply(deck_path, card_id, current_slot, correct):
     card["ease"] = result["ease"]
     card["lapses"] = result["lapses"]
     card["due_at_slot"] = result["due_at_slot"]
+    allowed, cstatus = consent.check(deck_path, consent.SCHEDULING)
+    if not allowed:
+        result.update(consent.skipped(cstatus, consent.SCHEDULING))
+        result["card_id"] = card_id
+        return result
     _save(deck_path, d)
 
     log_result = sqlite_store.log_review_pass(
@@ -162,10 +167,10 @@ def main():
         correct = correct_s.strip().lower() == "true"
         try:
             result = apply(deck_path, card_id, current_slot, correct)
-        except (FileNotFoundError, json.JSONDecodeError) as e:
+        except cli.EXPECTED_ERRORS as e:
             print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
             sys.exit(1)
-        print(json.dumps(result, indent=2))
+        sys.exit(cli.emit(result))
         return
 
     if len(args) != 5:
@@ -174,8 +179,9 @@ def main():
     old_interval, old_ease, old_lapses, current_slot, correct_s = args
     correct = correct_s.strip().lower() == "true"
     result = compute(old_interval, old_ease, old_lapses, current_slot, correct)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

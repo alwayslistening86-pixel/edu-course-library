@@ -1,0 +1,290 @@
+{
+  "cases": 18,
+  "scored": 18,
+  "ambiguous": [],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "all-correct": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "one-omitted": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "one-wrong": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "padding-only": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "two-omitted": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "wrong-plus-omit": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "fail -> fail": 9,
+    "pass -> pass": 9
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": 1.0,
+  "sample_accuracy": 1.0,
+  "rows": [
+    {
+      "id": "criteria/caparo/all-correct",
+      "kind": "all-correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/caparo/one-omitted",
+      "kind": "one-omitted",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/caparo/two-omitted",
+      "kind": "two-omitted",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/caparo/one-wrong",
+      "kind": "one-wrong",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/caparo/wrong-plus-omit",
+      "kind": "wrong-plus-omit",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/caparo/padding-only",
+      "kind": "padding-only",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/ledger/all-correct",
+      "kind": "all-correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/ledger/one-omitted",
+      "kind": "one-omitted",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/ledger/two-omitted",
+      "kind": "two-omitted",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/ledger/one-wrong",
+      "kind": "one-wrong",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/ledger/wrong-plus-omit",
+      "kind": "wrong-plus-omit",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/ledger/padding-only",
+      "kind": "padding-only",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/osmosis/all-correct",
+      "kind": "all-correct",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/osmosis/one-omitted",
+      "kind": "one-omitted",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/osmosis/two-omitted",
+      "kind": "two-omitted",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/osmosis/one-wrong",
+      "kind": "one-wrong",
+      "expected": "pass",
+      "acceptable": [
+        "pass"
+      ],
+      "majority": "pass",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/osmosis/wrong-plus-omit",
+      "kind": "wrong-plus-omit",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    },
+    {
+      "id": "criteria/osmosis/padding-only",
+      "kind": "padding-only",
+      "expected": "fail",
+      "acceptable": [
+        "fail"
+      ],
+      "majority": "fail",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0
+    }
+  ],
+  "suite": "criteria",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "2f48efff5489",
+  "created": "2026-10-05T00:43:23Z"
+}

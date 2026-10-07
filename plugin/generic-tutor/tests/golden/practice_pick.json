@@ -1,0 +1,150 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "practice_used": {
+        "S1": {
+          "fixed": [
+            1
+          ],
+          "generated": 1
+        }
+      },
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "practice_pick.py",
+        "next",
+        "{S}/mathA.json",
+        "{C}/mathA/stages/S1/practice.md",
+        "S1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "fixed_total": 0,
+        "generated_count": 0,
+        "recommendation": "generate_new",
+        "stage_id": "S1",
+        "unused_fixed": [],
+        "used_fixed": []
+      }
+    },
+    {
+      "cmd": [
+        "practice_pick.py",
+        "used",
+        "{S}/mathA.json",
+        "S1",
+        "fixed",
+        "1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "used",
+        "fixed": [
+          1
+        ],
+        "generated": 0,
+        "kind": "fixed",
+        "stage_id": "S1",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "practice_pick.py",
+        "used",
+        "{S}/mathA.json",
+        "S1",
+        "fixed",
+        "1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "used",
+        "already_recorded": true,
+        "kind": "fixed",
+        "stage_id": "S1",
+        "written": false
+      }
+    },
+    {
+      "cmd": [
+        "practice_pick.py",
+        "used",
+        "{S}/mathA.json",
+        "S1",
+        "generated"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "used",
+        "fixed": [
+          1
+        ],
+        "generated": 1,
+        "kind": "generated",
+        "stage_id": "S1",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "practice_pick.py",
+        "next",
+        "{S}/mathA.json",
+        "{C}/mathA/stages/S1/practice.md",
+        "S1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "fixed_total": 0,
+        "generated_count": 1,
+        "recommendation": "generate_new",
+        "stage_id": "S1",
+        "unused_fixed": [],
+        "used_fixed": []
+      }
+    },
+    {
+      "cmd": [
+        "practice_pick.py",
+        "used",
+        "{S}/mathA.json",
+        "S1",
+        "fixed",
+        "0"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "a fixed item needs its item number (a positive integer)"
+      }
+    }
+  ]
+}

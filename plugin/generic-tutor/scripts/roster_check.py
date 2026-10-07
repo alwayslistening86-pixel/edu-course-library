@@ -8,8 +8,7 @@ Definitions (must match profile-kernel.md and course-compiler.md exactly):
   - roster_occupancy = count of subjects/*.json with roster_state in
     {active, test_pending_convergence} AND the bound course is not complete
     (every stage passed, exam passed if enabled - a finished course no longer
-    holds an incomplete slot) AND the bound course's
-    grounding_status != "suspended_ungrounded" (a suspended course does not
+    holds an incomplete slot) AND the bound course is not grounding-suspended (a suspended course does not
     count against roster.max_incomplete_courses - course-auditor.md, fixed
     for real in v1.0.1 after this exact check was missing in two places).
   - level_lock_floor = the lowest academic_level among the learner's other
@@ -44,8 +43,10 @@ import json
 import os
 import sys
 
+from tutorlib import cli
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from cohort_status import is_complete, is_standalone  # noqa: E402
+from cohort_status import SLOT_STATES, is_complete, is_standalone, is_suspended  # noqa: E402
 
 
 def _load_json(path):
@@ -106,11 +107,11 @@ def compute(profile_dir, courses_dir, candidate_level=None, resume=False, resume
                 continue
             course_id = subj.get("course_id") or fn[:-5]
             roster_state = subj.get("roster_state")
-            if roster_state not in ("active", "test_pending_convergence", "dormant"):
+            if roster_state not in SLOT_STATES:
                 continue
             course = _load_json(os.path.join(courses_dir, course_id, "course.json"))
             grounding_status = course.get("grounding_status") if "__error__" not in course else None
-            if grounding_status == "suspended_ungrounded":
+            if is_suspended(grounding_status):
                 continue
             # A finished course no longer holds an "incomplete" slot (the cap is on incomplete courses).
             if "__error__" not in course and is_complete(course, subj):
@@ -256,8 +257,9 @@ def main():
         sys.exit(2)
     profile_dir, courses_dir = args[0], args[1]
     candidate = args[2] if len(args) == 3 else None
-    print(json.dumps(compute(profile_dir, courses_dir, candidate, resume, course_id), indent=2))
+    sys.exit(cli.emit(compute(profile_dir, courses_dir, candidate, resume, course_id)))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

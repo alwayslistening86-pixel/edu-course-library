@@ -1,0 +1,33 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "change_log.py",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "built_on": null,
+        "course_dir": "<TMP>/courses/mathA",
+        "entries": [],
+        "entry_count": 0,
+        "first_date": null,
+        "last_date": null,
+        "problems": []
+      }
+    },
+    {
+      "cmd": [
+        "change_log.py",
+        "{C}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: no such course folder <TMP>/courses/nope"
+      }
+    }
+  ]
+}

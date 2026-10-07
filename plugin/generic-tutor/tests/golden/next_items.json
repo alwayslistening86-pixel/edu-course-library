@@ -1,0 +1,51 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "next_items.py",
+        "{L}",
+        "{C}",
+        "mathA",
+        "--count",
+        "4"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "count": 2,
+        "course_id": "mathA",
+        "current_stage": "S2",
+        "itemised": true,
+        "items": [
+          {
+            "item_id": "S2.1",
+            "observations": 0,
+            "p_mastery": 0.3,
+            "pool": "current",
+            "reason": "mastery 0.30 (not yet observed)",
+            "scaffold": "full",
+            "stage_id": "S2",
+            "unresolved_errors": 0,
+            "weakness": 0.8
+          },
+          {
+            "item_id": "S1.1",
+            "observations": 0,
+            "p_mastery": 0.3,
+            "pool": "prior",
+            "reason": "mastery 0.30 (not yet observed)",
+            "scaffold": "full",
+            "stage_id": "S1",
+            "unresolved_errors": 0,
+            "weakness": 0.8
+          }
+        ],
+        "pools": {
+          "current_available": 1,
+          "prior_available": 1
+        }
+      }
+    }
+  ]
+}

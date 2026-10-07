@@ -29,6 +29,7 @@ import core  # noqa: E402
 import backup  # noqa: E402
 import health  # noqa: E402
 import progress  # noqa: E402
+import summary  # noqa: E402
 import review_due  # noqa: E402
 import errors  # noqa: E402
 import export_anki  # noqa: E402
@@ -74,7 +75,7 @@ class ToolkitApp:
         self.learners = core.list_learners(self.edu_root)
 
         root_window.title("generic-tutor toolkit")
-        root_window.geometry("320x330")
+        root_window.geometry("320x370")
         root_window.resizable(False, False)
 
         frame = ttk.Frame(root_window, padding=12)
@@ -90,6 +91,7 @@ class ToolkitApp:
                       foreground="#a33").pack(pady=(0, 12))
 
         buttons = [
+            ("Status", self.show_status),
             ("Progress", self.show_progress),
             ("Review due", self.show_review_due),
             ("Errors", self.show_errors),
@@ -109,6 +111,14 @@ class ToolkitApp:
             messagebox.showinfo("No learner selected", "No learner profile found under profile/ yet.")
             return None
         return lid
+
+    def show_status(self):
+        lid = self._learner()
+        if not lid:
+            return
+        _open_text_window(self.root_window, f"Status — {lid}",
+                           _fmt(summary.snapshot(lid, root=self.edu_root)),
+                           on_refresh=lambda: _fmt(summary.snapshot(lid, root=self.edu_root)))
 
     def show_progress(self):
         lid = self._learner()
@@ -178,7 +188,17 @@ class ToolkitApp:
 
 def main():
     root_window = tk.Tk()
-    ToolkitApp(root_window)
+
+    def _surface(exc_type, exc, tb):          # Tk calls this for an error inside a button handler; without it a .pyw fails silently
+        messagebox.showerror("Something went wrong", core.describe_error(exc))
+
+    root_window.report_callback_exception = _surface
+    try:
+        ToolkitApp(root_window)
+    except Exception as exc:                  # startup (e.g. no EDU folder found)
+        messagebox.showerror("The toolkit could not start", core.describe_error(exc))
+        root_window.destroy()
+        return
     root_window.mainloop()
 
 

@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "courses/<id>/course.json (schema_version 4)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "name",
+    "stage_ladder",
+    "grounding_status",
+    "coverage_status",
+    "exam",
+    "folder_access"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "requires_complete": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "standalone": {
+      "type": "boolean"
+    },
+    "selected_options": {
+      "type": "object"
+    },
+    "folder_access": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending_confirmation",
+            "isolated_confirmed",
+            "shared_confirmed"
+          ]
+        }
+      }
+    },
+    "currency": {
+      "enum": [
+        "live",
+        "historical"
+      ]
+    },
+    "material_vintage": {
+      "type": "string"
+    },
+    "academic_level": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "level_source": {
+      "type": "string"
+    },
+    "level_basis": {
+      "enum": [
+        "framework",
+        "declared",
+        "standalone"
+      ]
+    },
+    "grounding_status": {
+      "enum": [
+        "verified",
+        "suspended_ungrounded",
+        null
+      ]
+    },
+    "last_live_recheck": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coverage_status": {
+      "enum": [
+        "full",
+        "partial",
+        "unverified"
+      ]
+    },
+    "stage_ladder": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "linear": {
+      "type": "boolean"
+    },
+    "framework": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "practical_stages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "learner_notices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "stages": {
+            "type": ["array", "null"],
+            "items": {
+              "type": "string"
+            }
+          },
+          "since": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "exam": {
+      "type": "object",
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "requires_all_stage_tests_passed": {
+          "type": "boolean"
+        }
+      }
+    },
+    "suspension": {
+      "type": "object"
+    },
+    "min_engine_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "slots_per_stage": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "slot_estimates": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      }
+    }
+  }
+}

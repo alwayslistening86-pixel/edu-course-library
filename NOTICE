@@ -1,0 +1,9 @@
+generic-tutor — third-party attribution
+
+- Safety idea ("real-matter check", generalised in tutor-core "Real situations, not hypotheticals"):
+  adapted in concept from uk-agents/uk-legal-plugins (law-student-uk / irac-practice), Apache-2.0.
+  https://github.com/uk-agents/uk-legal-plugins
+- Bayesian Knowledge Tracing update equations in scripts/item_mastery.py follow Corbett & Anderson (1994);
+  cross-checked against CAHLR/pyBKT (MIT). No code copied.
+- Spaced repetition: SM-2-lite after Wozniak's SM-2 (public algorithm description). ts-fsrs was evaluated and not used.
+- Suggested MCP connectors (uk-legal-mcp, govuk-mcp) are third-party services and not part of this project.

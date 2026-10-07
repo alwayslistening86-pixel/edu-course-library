@@ -1,0 +1,129 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "cohort_status.py",
+        "{S}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "cohorts": {
+          "2": {
+            "all_complete": false,
+            "blocking_members": [
+              "mathA"
+            ],
+            "bottleneck": "mathA",
+            "cohort_id": 2,
+            "converged": false,
+            "eligible_count": 1,
+            "excluded_members": [
+              {
+                "course_id": "design",
+                "reason": "dropped, unfinished"
+              }
+            ],
+            "members": [
+              {
+                "complete": false,
+                "course_id": "design",
+                "eligible": false,
+                "grounding_status": "verified",
+                "remaining_stage_count": 1,
+                "roster_state": "dropped",
+                "standalone": false,
+                "test_ready": false,
+                "theory_only": false
+              },
+              {
+                "complete": false,
+                "course_id": "mathA",
+                "eligible": true,
+                "grounding_status": "verified",
+                "remaining_stage_count": 2,
+                "roster_state": "active",
+                "standalone": false,
+                "test_ready": false,
+                "theory_only": false
+              }
+            ],
+            "vacuously_clear": false,
+            "waiting_on": [
+              "mathA"
+            ]
+          },
+          "3": {
+            "all_complete": false,
+            "blocking_members": [
+              "mathB"
+            ],
+            "bottleneck": null,
+            "cohort_id": 3,
+            "converged": false,
+            "eligible_count": 0,
+            "excluded_members": [],
+            "members": [
+              {
+                "complete": false,
+                "course_id": "mathB",
+                "eligible": false,
+                "grounding_status": "verified",
+                "remaining_stage_count": 3,
+                "roster_state": "dormant",
+                "standalone": false,
+                "test_ready": false,
+                "theory_only": false
+              }
+            ],
+            "vacuously_clear": false,
+            "waiting_on": []
+          },
+          "standalone:solo": {
+            "all_complete": false,
+            "blocking_members": [
+              "solo"
+            ],
+            "bottleneck": "solo",
+            "cohort_id": "standalone:solo",
+            "converged": false,
+            "eligible_count": 1,
+            "excluded_members": [],
+            "members": [
+              {
+                "complete": false,
+                "course_id": "solo",
+                "eligible": true,
+                "grounding_status": "verified",
+                "remaining_stage_count": 2,
+                "roster_state": "active",
+                "standalone": true,
+                "test_ready": false,
+                "theory_only": false
+              }
+            ],
+            "vacuously_clear": false,
+            "waiting_on": [
+              "solo"
+            ]
+          }
+        },
+        "errors": [],
+        "level_ledger": {
+          "blocking": [
+            "mathA"
+          ],
+          "cleared_cohorts": [],
+          "from": 1,
+          "skipped_cohorts": [],
+          "stopped_at": 2,
+          "stored": 1,
+          "suggested_highest_level_cleared": 1,
+          "to": 1
+        }
+      }
+    }
+  ]
+}

@@ -147,6 +147,11 @@ class TestBackup(FakeEduCase):
         result = backup.create_backup("alex", root=self.root, include_courses=["gcse_maths"])
         self.assertEqual(result["included_courses"], ["gcse_maths"])
 
+    def test_backup_default_location_is_outside_the_learner_folder(self):
+        self.make_learner("alex")
+        result = backup.create_backup("alex", root=self.root)
+        self.assertEqual(os.path.dirname(result["zip_path"]), os.path.join(self.root, "backups"))
+
     def test_backup_does_not_rezip_its_own_exports(self):
         self.make_learner("alex")
         backup.create_backup("alex", root=self.root)
@@ -288,7 +293,7 @@ class TestBootstrapPackages(unittest.TestCase):
         os.makedirs(os.path.join(self.src, "not_a_package"))
         with open(os.path.join(self.src, "not_a_package", "stray.py"), "w") as f:
             f.write("")
-        result = bootstrap_scripts.bootstrap(self.src, self.plugin_json, self.target)
+        bootstrap_scripts.bootstrap(self.src, self.plugin_json, self.target)
         self.assertFalse(os.path.isdir(os.path.join(self.target, "not_a_package")))
 
     def test_update_replaces_stale_package_wholesale(self):
@@ -318,5 +323,171 @@ class TestBootstrapPackages(unittest.TestCase):
         self.assertTrue(os.path.isfile(marker))
 
 
+
+class GuiErrorSurface(unittest.TestCase):
+    """E-23: a .pyw has no console, so an error inside a handler must reach the user as a dialog. tkinter is replaced by a stub."""
+
+    def test_describe_error_is_plain_and_actionable(self):
+        self.assertIn("EDU_TOOLKIT_ROOT", core.describe_error(FileNotFoundError("no such folder")))
+        self.assertIn("/doctor", core.describe_error(ValueError("bad json")))
+        self.assertIn("locked", core.describe_error(PermissionError("denied")))
+        self.assertTrue(core.describe_error(RuntimeError("")).startswith("RuntimeError: no further detail"))
+
+    def _load_gui(self, boom_on_start=False):
+        import importlib.machinery
+        import importlib.util
+        import types
+        shown = []
+        stub = types.ModuleType("tkinter")
+
+        class Any:
+            def __init__(self, *a, **k):
+                pass
+
+            def __getattr__(self, name):
+                return lambda *a, **k: Any()
+
+        class Tk(Any):
+            report_callback_exception = None
+
+            def mainloop(self):
+                self.ran = True
+
+        stub.Tk = Tk
+        stub.Toplevel = stub.Frame = stub.StringVar = Any
+        mb = types.SimpleNamespace(showerror=lambda title, msg: shown.append((title, msg)), showinfo=lambda *a: None)
+        stub.messagebox, stub.ttk, stub.scrolledtext = mb, Any(), Any()
+        saved = {k: sys.modules.get(k) for k in ("tkinter", "tkinter.ttk", "tkinter.scrolledtext", "tkinter.messagebox")}
+        sys.modules.update({"tkinter": stub, "tkinter.ttk": stub.ttk, "tkinter.scrolledtext": stub.scrolledtext, "tkinter.messagebox": mb})
+        self.addCleanup(lambda: [sys.modules.__setitem__(k, v) if v else sys.modules.pop(k, None) for k, v in saved.items()])
+        loader = importlib.machinery.SourceFileLoader("gui_under_test", os.path.join(TOOLKIT, "gui.pyw"))
+        spec = importlib.util.spec_from_loader("gui_under_test", loader)
+        gui = importlib.util.module_from_spec(spec)
+        loader.exec_module(gui)
+        if boom_on_start:
+            gui.core = types.SimpleNamespace(edu_root=lambda: (_ for _ in ()).throw(FileNotFoundError("no EDU folder")),
+                                             describe_error=core.describe_error)
+        return gui, shown, Tk
+
+    def test_startup_failure_is_shown_not_swallowed(self):
+        gui, shown, _ = self._load_gui(boom_on_start=True)
+        gui.main()
+        self.assertEqual(len(shown), 1)
+        self.assertIn("could not start", shown[0][0])
+        self.assertIn("no EDU folder", shown[0][1])
+
+    def test_handler_errors_are_routed_to_a_dialog(self):
+        gui, shown, Tk = self._load_gui()
+        captured = {}
+        orig = Tk.mainloop
+
+        def spy(self):
+            captured["handler"] = self.report_callback_exception
+            orig(self)
+        Tk.mainloop = spy
+        gui.main()
+        captured["handler"](ValueError, ValueError("bad"), None)
+        self.assertEqual(shown[0][0], "Something went wrong")
+        self.assertIn("ValueError: bad", shown[0][1])
+
+
+class AnkiNotes(unittest.TestCase):
+    """U-07: tags, cloze, and the media-free guarantee (note_parts needs no Anki library)."""
+
+    def test_basic_card_is_escaped_and_tagged(self):
+        import export_anki
+        kind, fields, tags = export_anki.note_parts({"front": "Is x < 5? <img src=a.png>", "back": "Yes & no", "stage_id": "S1", "item_id": "S1.1",
+                                                     "criterion": "M1 method"}, "mathA")
+        self.assertEqual(kind, "basic")
+        self.assertEqual(fields, ["Is x &lt; 5? &lt;img src=a.png&gt;", "Yes &amp; no"])
+        self.assertEqual(tags, ["mathA", "S1", "S1.1", "M1_method"])
+        self.assertNotIn("<", "".join(fields))                                    # nothing can render as media or script
+
+    def test_cloze_deletions_are_kept_intact(self):
+        import export_anki
+        kind, fields, _ = export_anki.note_parts({"front": "The {{c1::mitochondrion}} makes ATP", "back": "Respiration"}, "bio")
+        self.assertEqual((kind, fields[0]), ("cloze", "The {{c1::mitochondrion}} makes ATP"))
+
+    def test_missing_optional_tag_parts_are_skipped(self):
+        import export_anki
+        self.assertEqual(export_anki.note_parts({"front": "a", "back": "b"}, "c")[2], ["c"])
+
+    @unittest.skipUnless(__import__("importlib").util.find_spec("genanki"), "genanki not installed")
+    def test_a_real_apkg_is_written_with_no_media(self):
+        import zipfile
+        import export_anki
+        tmp = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, tmp, True)
+        os.makedirs(os.path.join(tmp, "profile", "amy", "subjects"))
+        with open(os.path.join(tmp, "profile", "amy", "subjects", "c1_review_deck.json"), "w") as f:
+            json.dump({"cards": [{"id": "k1", "front": "Q {{c1::x}}", "back": "b", "stage_id": "S1"}, {"id": "k2", "front": "f", "back": "b"}]}, f)
+        with open(os.path.join(tmp, "profile", "amy", "subjects", "c1.json"), "w") as f:
+            json.dump({}, f)
+        r = export_anki.export_decks("amy", root=tmp, course_ids=["c1"], out_dir=tmp)
+        self.assertEqual((r["card_count"], r["deck_count"]), (2, 1))
+        with zipfile.ZipFile(r["apkg_path"]) as z:
+            self.assertEqual(json.loads(z.read("media")), {})
+
+
+class ToolkitStatus(unittest.TestCase):
+    """U-04: the toolkit's status view is the plugin's own status.py, so it matches /status exactly."""
+
+    def test_matches_the_status_script_and_is_wired_into_cli_and_gui(self):
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import golden_support
+        import summary
+        import status as status_script
+        tmp = tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, tmp, True)
+        fx = golden_support.build_fixture(tmp)
+        got = summary.snapshot("amy", root=tmp)
+        self.assertEqual(got, status_script.build(fx["L"], fx["C"]))
+        self.assertIn("error", summary.snapshot("nobody", root=tmp))
+        with open(os.path.join(TOOLKIT, "__main__.py"), encoding="utf-8") as f:
+            self.assertIn('"status": "summary"', f.read())
+        with open(os.path.join(TOOLKIT, "gui.pyw"), encoding="utf-8") as f:
+            self.assertIn('("Status", self.show_status)', f.read())
+
 if __name__ == "__main__":
     unittest.main()
+
+
+class RootResolution(unittest.TestCase):
+    def setUp(self):
+        from toolkit import core
+        self.core = core
+        self.saved = (core._root_override, os.environ.get("EDU_TOOLKIT_ROOT"), os.environ.get("EDU_ROOT"))
+        self.addCleanup(self.restore)
+        core.set_root(None)
+        os.environ.pop("EDU_TOOLKIT_ROOT", None)
+        os.environ.pop("EDU_ROOT", None)
+
+    def restore(self):
+        self.core.set_root(self.saved[0])
+        for key, val in zip(("EDU_TOOLKIT_ROOT", "EDU_ROOT"), self.saved[1:], strict=True):
+            if val is None:
+                os.environ.pop(key, None)
+            else:
+                os.environ[key] = val
+
+    def test_precedence_flag_then_toolkit_env_then_plain_env_then_location(self):
+        self.assertEqual(self.core.edu_root(), self.core._DEFAULT_EDU_ROOT)
+        os.environ["EDU_ROOT"] = "/from/env"
+        self.assertEqual(self.core.edu_root(), os.path.abspath("/from/env"))
+        os.environ["EDU_TOOLKIT_ROOT"] = "/from/toolkit/env"
+        self.assertEqual(self.core.edu_root(), os.path.abspath("/from/toolkit/env"))
+        self.core.set_root("/from/flag")
+        self.assertEqual(self.core.edu_root(), os.path.abspath("/from/flag"))
+
+    def test_cli_root_flag_is_accepted_anywhere_and_used(self):
+        import subprocess
+        import tempfile
+        root = tempfile.mkdtemp()
+        self.addCleanup(__import__("shutil").rmtree, root, True)
+        os.makedirs(os.path.join(root, "profile"))
+        for argv in (["--root", root, "health"], ["health", "--root", root]):
+            p = subprocess.run([sys.executable, "-m", "toolkit"] + argv, capture_output=True, text=True, cwd=SCRIPTS, timeout=60)
+            self.assertNotIn("Traceback", p.stderr, argv)
+            self.assertEqual(json.loads(p.stdout)["edu_root"], root, argv)
+        p = subprocess.run([sys.executable, "-m", "toolkit", "--root"], capture_output=True, text=True, cwd=SCRIPTS)
+        self.assertEqual(p.returncode, 2)

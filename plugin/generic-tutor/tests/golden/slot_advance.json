@@ -1,0 +1,48 @@
+{
+  "files_after": {
+    "profile/amy/student_profile.json": {
+      "capabilities": {},
+      "consent": {
+        "status": "granted"
+      },
+      "highest_level_cleared": 1,
+      "learner_id": "amy",
+      "roster": {
+        "max_incomplete_courses": 3
+      },
+      "schema_version": 2,
+      "session_slot": 6,
+      "session_slot_advanced_at": "<TS>"
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "slot_advance.py",
+        "{P}/student_profile.json",
+        "--min-gap-minutes",
+        "0"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "current_slot": 6,
+        "previous_slot": 5
+      }
+    },
+    {
+      "cmd": [
+        "slot_advance.py",
+        "{P}/student_profile.json",
+        "--min-gap-minutes",
+        "99999"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "current_slot": 6,
+        "skipped": "already advanced this sitting"
+      }
+    }
+  ]
+}

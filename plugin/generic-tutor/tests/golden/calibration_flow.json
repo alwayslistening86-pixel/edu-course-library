@@ -1,0 +1,117 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "calibration": {
+        "enabled": true,
+        "entries": [
+          {
+            "on": "<DATE>",
+            "rating": 4,
+            "result": "pass",
+            "stage_id": "S1"
+          }
+        ]
+      },
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "calibration.py",
+        "record",
+        "{S}/mathA.json",
+        "S1",
+        "3",
+        "pass",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "self-rating is not switched on for this course (the learner has not said yes)"
+      }
+    },
+    {
+      "cmd": [
+        "calibration.py",
+        "optin",
+        "{S}/mathA.json",
+        "yes"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "enabled": true,
+        "entries": 0,
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "calibration.py",
+        "record",
+        "{S}/mathA.json",
+        "S1",
+        "4",
+        "pass",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "enabled": true,
+        "entries": 1,
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "calibration.py",
+        "record",
+        "{S}/mathA.json",
+        "S2",
+        "9",
+        "fail",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "rating must be a whole number from 1 to 5"
+      }
+    },
+    {
+      "cmd": [
+        "calibration.py",
+        "report",
+        "{S}/mathA.json"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "enabled": true,
+        "n": 1,
+        "verdict": "too_few"
+      }
+    }
+  ]
+}

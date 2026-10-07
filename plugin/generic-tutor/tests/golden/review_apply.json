@@ -1,0 +1,67 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA_review_deck.json": {
+      "cards": [
+        {
+          "back": "b",
+          "criterion": "M1",
+          "due_at_slot": 8,
+          "ease": 2.35,
+          "front": "f",
+          "id": "k1",
+          "interval_sessions": 2,
+          "item_id": "S1.1",
+          "lapses": 0,
+          "stage_id": "S1"
+        }
+      ],
+      "course_id": "mathA",
+      "schema_version": 1
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "review_math.py",
+        "apply",
+        "{S}/mathA_review_deck.json",
+        "k1",
+        "6",
+        "true"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "card_id": "k1",
+        "due_at_slot": 8,
+        "ease": 2.35,
+        "interval_sessions": 2,
+        "lapses": 0,
+        "sqlite": {
+          "log_review_pass": {
+            "ok": true
+          },
+          "upsert_review_card": {
+            "ok": true
+          }
+        },
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "review_math.py",
+        "apply",
+        "{S}/mathA_review_deck.json",
+        "nope",
+        "6",
+        "true"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "card_id 'nope' not found in <TMP>/profile/amy/subjects/mathA_review_deck.json"
+      }
+    }
+  ]
+}

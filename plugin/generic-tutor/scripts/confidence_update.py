@@ -57,6 +57,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sqlite_store  # noqa: E402
+from tutorlib import cli, consent, filelock, ledger, state
 
 BASE_DELTA = {
     "pass_clean": 0.15,
@@ -103,16 +104,15 @@ def compute(old_confidence, event, misconception=False):
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state.save(path, data, "subjects")
 
 
+@ledger.logged("confidence_update.py", "subjects_path")
+@filelock.locked("subjects_path")
 def apply(subjects_path, event, current_slot, misconception=False):
     """Read-modify-write: loads the current confidence, computes the new
     value with compute(), writes it back into subjects.json, and logs the
@@ -122,6 +122,10 @@ def apply(subjects_path, event, current_slot, misconception=False):
     old_confidence = d.get("confidence", DEFAULT_CONFIDENCE)
     result = compute(old_confidence, event, misconception)
     d["confidence"] = result["new_confidence"]
+    allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+    if not allowed:
+        result.update(consent.skipped(cstatus, consent.SIGNAL))
+        return result
     _save(subjects_path, d)
 
     total_delta = round(result["new_confidence"] - result["old_confidence"], 4)
@@ -166,14 +170,15 @@ def main():
         else:
             print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected compute|apply"}))
             sys.exit(2)
+    except cli.EXPECTED_ERRORS as e:
+        print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
+        sys.exit(1)
     except ValueError as e:
         print(json.dumps({"error": str(e)}))
         sys.exit(2)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
-        sys.exit(1)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

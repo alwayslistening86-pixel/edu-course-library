@@ -1,0 +1,83 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "recent_activity.py",
+        "{L}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "activity": [],
+        "note": "Only ids and numbers are logged, never your answers or messages.",
+        "showing": 0,
+        "total_writes_logged": 0
+      }
+    },
+    {
+      "cmd": [
+        "record_stage_result.py",
+        "apply",
+        "{S}/mathA.json",
+        "{C}/mathA/course.json",
+        "S2",
+        "pass"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "advanced_to": "S3",
+        "current_stage": "S3",
+        "previous_status": "unsat",
+        "result": "pass",
+        "stage_id": "S2",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "recent_activity.py",
+        "{L}",
+        "--last",
+        "1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "activity": [
+          {
+            "session": 5,
+            "text": "Recorded a pass for stage S2 in mathA.",
+            "when": "<TS>"
+          }
+        ],
+        "note": "Only ids and numbers are logged, never your answers or messages.",
+        "showing": 1,
+        "total_writes_logged": 1
+      }
+    },
+    {
+      "cmd": [
+        "recent_activity.py",
+        "{L}",
+        "--last",
+        "0"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "activity": [
+          {
+            "session": 5,
+            "text": "Recorded a pass for stage S2 in mathA.",
+            "when": "<TS>"
+          }
+        ],
+        "note": "Only ids and numbers are logged, never your answers or messages.",
+        "showing": 1,
+        "total_writes_logged": 1
+      }
+    }
+  ]
+}

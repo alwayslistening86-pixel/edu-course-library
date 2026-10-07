@@ -41,6 +41,8 @@ import json
 import os
 import sys
 
+from tutorlib import cli
+
 
 def _load_json(path):
     try:
@@ -87,6 +89,18 @@ def _remaining_stage_count(course_json, subject_json):
     syllabus_status = subject_json.get("syllabus_status", {}) if isinstance(subject_json, dict) else {}
     done = sum(1 for s in ladder if stage_satisfied(course_json, s, syllabus_status.get(s)))
     return max(0, len(ladder) - done)
+
+
+# Single definition of "who may hold or draw a slot" (E-17); every script that asks goes through these.
+SUSPENDED = "suspended_ungrounded"
+TEST_PENDING = "test_pending_convergence"                    # live course waiting for its cohort to converge
+LIVE_STATES = ("active", TEST_PENDING)          # may be taught / draw slots
+SLOT_STATES = LIVE_STATES + ("dormant",)                       # hold a roster slot while unfinished
+
+
+def is_suspended(grounding_status):
+    """A grounding-suspended course is frozen, draws no slots and is free of roster cost."""
+    return grounding_status == SUSPENDED
 
 
 def is_complete(course_json, subject_json):
@@ -156,11 +170,7 @@ def compute_cohorts(subjects_dir, courses_dir):
         # A finished course has nothing left to test-gate on: it must not sit in the cohort as a
         # permanent "not ready" bottleneck (it stays in `members` so highest_level_cleared can
         # still see the whole cohort).
-        eligible = (
-            roster_state in ("active", "test_pending_convergence")
-            and grounding_status != "suspended_ungrounded"
-            and not complete
-        )
+        eligible = roster_state in LIVE_STATES and not is_suspended(grounding_status) and not complete
         remaining = _remaining_stage_count(course, subj) if "__error__" not in course else None
 
         cohorts[cohort_key]["members"].append({
@@ -171,12 +181,12 @@ def compute_cohorts(subjects_dir, courses_dir):
             "theory_only": complete and bool(withheld_stages(course, subj)),
             "standalone": "__error__" not in course and is_standalone(course),
             "eligible": eligible,
-            "test_ready": roster_state == "test_pending_convergence",
+            "test_ready": roster_state == TEST_PENDING,
             "remaining_stage_count": remaining,
         })
 
     # finalize each cohort: convergence + bottleneck
-    for cohort_key, data in cohorts.items():
+    for data in cohorts.values():
         eligible_members = [m for m in data["members"] if m["eligible"]]
         not_ready = [m for m in eligible_members if not m["test_ready"]]
 
@@ -195,7 +205,7 @@ def compute_cohorts(subjects_dir, courses_dir):
                 continue
             if m["roster_state"] == "dropped":
                 excluded.append({"course_id": m["course_id"], "reason": "dropped, unfinished"})
-            elif m["grounding_status"] == "suspended_ungrounded":
+            elif is_suspended(m["grounding_status"]):
                 excluded.append({"course_id": m["course_id"], "reason": "suspended (ungrounded), unfinished"})
             else:
                 blocking.append(m["course_id"])
@@ -286,7 +296,7 @@ def level_walk(cohorts, current_ledger):
             return None
 
     by_level = {}
-    for key, data in cohorts.items():
+    for data in cohorts.values():
         n = _num(data.get("cohort_id"))
         if n is not None:
             by_level[n] = data
@@ -325,8 +335,9 @@ def main():
         stored = profile.get("highest_level_cleared", 0)
         walk = level_walk(cohorts, stored)
         out["level_ledger"] = dict(walk, stored=stored, suggested_highest_level_cleared=max(int(stored or 0), walk["to"]))
-    print(json.dumps(out, indent=2))
+    sys.exit(cli.emit(out))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

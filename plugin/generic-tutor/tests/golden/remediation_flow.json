@@ -1,0 +1,140 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "remediation_state.py",
+        "record",
+        "{S}/mathA.json",
+        "S2",
+        "misconception",
+        "6"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "same_framework_reexplain",
+        "attempts": 1,
+        "cap": 2,
+        "cause": "misconception",
+        "detail": "attempt 1 — re-explain within the current framework, targeted at the classified cause",
+        "escalated": false,
+        "stage_id": "S2"
+      }
+    },
+    {
+      "cmd": [
+        "remediation_state.py",
+        "record",
+        "{S}/mathA.json",
+        "S2",
+        "misconception",
+        "7"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "different_approach_and_check_earlier_stage",
+        "attempts": 2,
+        "cap": 2,
+        "cause": "misconception",
+        "detail": "attempt 2 — switch to a genuinely different worked example or analogy, and check whether this is really an earlier-stage or earlier-course gap (especially if cause is 'missing_prerequisite')",
+        "escalated": false,
+        "stage_id": "S2"
+      }
+    },
+    {
+      "cmd": [
+        "remediation_state.py",
+        "record",
+        "{S}/mathA.json",
+        "S2",
+        "slip",
+        "8"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "escalate",
+        "attempts": 3,
+        "cap": 2,
+        "cause": "slip",
+        "detail": "past attempt 2 — do not run a third system-driven remediation loop. Stage stays test_pending_convergence. Tell the learner plainly this one is taking longer than expected. Logged for course-auditor's cohort-wide rollup.",
+        "escalated": true,
+        "stage_id": "S2"
+      }
+    },
+    {
+      "cmd": [
+        "remediation_state.py",
+        "record",
+        "{S}/mathA.json",
+        "S2",
+        "slip",
+        "9"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "already_escalated",
+        "attempts": 3,
+        "detail": "this stage already escalated; the learner can keep working it informally, but it no longer counts as a system-driven remediation attempt",
+        "stage_id": "S2"
+      }
+    },
+    {
+      "cmd": [
+        "remediation_state.py",
+        "status",
+        "{S}/mathA.json",
+        "S2"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "attempts": 3,
+        "escalated": true,
+        "escalated_at_slot": 8,
+        "last_cause": "slip",
+        "stage_id": "S2"
+      }
+    },
+    {
+      "cmd": [
+        "remediation_state.py",
+        "reset",
+        "{S}/mathA.json",
+        "S2"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "reset",
+        "had_entry": true,
+        "stage_id": "S2"
+      }
+    }
+  ]
+}

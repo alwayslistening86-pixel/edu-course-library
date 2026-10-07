@@ -1,0 +1,39 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "readiness.py",
+        "{L}",
+        "{C}",
+        "mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "band": "not_enough_evidence",
+        "caveats": [
+          "Practice in a session is not exam conditions: timing, pressure and unseen question styles are not measured here.",
+          "Mastery is an estimate from the observations so far, not a measurement; unobserved items are unknown, not strong or weak.",
+          "Only 0 of 3 taught items have been observed so far."
+        ],
+        "course_id": "mathA",
+        "evidence": {
+          "coverage_status": "full",
+          "items_observed": 0,
+          "items_taught": 3,
+          "items_taught_listed": 3,
+          "items_total": 3,
+          "mean_observed_mastery": null,
+          "recent_mocks": [],
+          "stages_passed": 1,
+          "stages_total": 3,
+          "total_observations": 0,
+          "unresolved_errors": 0
+        },
+        "strength": "low",
+        "weakest_items": []
+      }
+    }
+  ]
+}

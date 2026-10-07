@@ -1,0 +1,82 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [],
+      "exam_status": "locked",
+      "item_mastery": {},
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "mock_results": [
+        {
+          "awarded": 30,
+          "date": "<DATE>",
+          "minutes": 50,
+          "percent": 75.0,
+          "questions": [
+            "S1-Q1"
+          ],
+          "total_marks": 40
+        }
+      ],
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "record_mock.py",
+        "{S}/mathA.json",
+        "40",
+        "30",
+        "50",
+        "<DATE>",
+        "S1-Q1"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "record",
+        "mock": {
+          "awarded": 30,
+          "date": "<DATE>",
+          "minutes": 50,
+          "percent": 75.0,
+          "questions": [
+            "S1-Q1"
+          ],
+          "total_marks": 40
+        },
+        "mocks_on_file": 1,
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "record_mock.py",
+        "{S}/mathA.json",
+        "10",
+        "11",
+        "5",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "need 0 <= marks_awarded (11) <= total_marks (10) and total_marks > 0"
+      }
+    }
+  ]
+}

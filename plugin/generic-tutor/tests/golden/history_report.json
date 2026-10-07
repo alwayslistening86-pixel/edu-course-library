@@ -1,0 +1,176 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "item_mastery.py",
+        "observe",
+        "{S}/mathA.json",
+        "S1.1",
+        "true",
+        "5"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "item_id": "S1.1",
+        "new_p_mastery": 0.7098,
+        "observations": 1,
+        "params": {
+          "p_guess": 0.2,
+          "p_init": 0.3,
+          "p_slip": 0.1,
+          "p_transit": 0.15
+        },
+        "posterior_this_observation": 0.6585,
+        "prior": 0.3,
+        "sqlite": {
+          "ok": true
+        }
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S2",
+        "S2.1",
+        "practice",
+        "slip",
+        "NONE",
+        "x",
+        "6"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "appended",
+        "entry": {
+          "cause": "slip",
+          "id": "err_<DATE>_S2_001",
+          "item_id": "S2.1",
+          "misconception_id": null,
+          "note": "x",
+          "resolved": false,
+          "resolved_at_slot": null,
+          "rubric_criterion": null,
+          "slot": 6,
+          "source_phase": "practice",
+          "stage_id": "S2"
+        },
+        "item_mastery": {
+          "item_id": "S2.1",
+          "new_p_mastery": 0.1932,
+          "observations": 1,
+          "params": {
+            "p_guess": 0.2,
+            "p_init": 0.3,
+            "p_slip": 0.1,
+            "p_transit": 0.15
+          },
+          "posterior_this_observation": 0.0508,
+          "prior": 0.3,
+          "sqlite": {
+            "ok": true
+          }
+        },
+        "recurring": false,
+        "sqlite": {
+          "ok": true
+        },
+        "unresolved_same_cause_in_stage": 1,
+        "unresolved_same_item_and_cause": 1
+      }
+    },
+    {
+      "cmd": [
+        "history_report.py",
+        "mastery",
+        "{L}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "items": [
+          {
+            "change": 0.4098,
+            "correct": 1,
+            "course_id": "mathA",
+            "first_p": 0.3,
+            "item_id": "S1.1",
+            "last_correct": true,
+            "last_slot": 5,
+            "latest_p": 0.7098,
+            "observations": 1,
+            "trend": "up"
+          },
+          {
+            "change": -0.1068,
+            "correct": 0,
+            "course_id": "mathA",
+            "first_p": 0.3,
+            "item_id": "S2.1",
+            "last_correct": false,
+            "last_slot": 6,
+            "latest_p": 0.1932,
+            "observations": 1,
+            "trend": "down"
+          }
+        ],
+        "report": "mastery"
+      }
+    },
+    {
+      "cmd": [
+        "history_report.py",
+        "errors",
+        "{L}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "groups": [
+          {
+            "cause": "slip",
+            "count": 1,
+            "course_id": "mathA",
+            "item_id": "S2.1",
+            "last_slot": 6,
+            "misconception_id": null,
+            "open": 1,
+            "recurring": false,
+            "stage_id": "S2"
+          }
+        ],
+        "recurring_groups": 0,
+        "report": "errors"
+      }
+    },
+    {
+      "cmd": [
+        "history_report.py",
+        "ease",
+        "{L}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "cards": [],
+        "report": "ease"
+      }
+    },
+    {
+      "cmd": [
+        "history_report.py",
+        "bogus",
+        "{L}"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "report must be one of ('mastery', 'ease', 'errors'), got 'bogus'"
+      }
+    }
+  ]
+}

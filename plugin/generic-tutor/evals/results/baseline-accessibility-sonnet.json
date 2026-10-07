@@ -1,0 +1,361 @@
+{
+  "cases": 20,
+  "scored": 15,
+  "ambiguous": [
+    "accessibility/photosynthesis/plain",
+    "accessibility/contract/plain",
+    "accessibility/contract/both",
+    "accessibility/fractions/dyslexia",
+    "accessibility/mitosis/dyslexia"
+  ],
+  "errored_cases": 0,
+  "accuracy": 0.867,
+  "exact_accuracy": 0.867,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "both": {
+      "correct": 2,
+      "n": 3,
+      "accuracy": 0.667
+    },
+    "dyslexia": {
+      "correct": 1,
+      "n": 2,
+      "accuracy": 0.5
+    },
+    "none": {
+      "correct": 4,
+      "n": 4,
+      "accuracy": 1.0
+    },
+    "plain": {
+      "correct": 2,
+      "n": 2,
+      "accuracy": 1.0
+    },
+    "reader": {
+      "correct": 4,
+      "n": 4,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "meets -> meets": 13,
+    "meets -> misses": 2
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 0.783,
+  "rows": [
+    {
+      "id": "accessibility/photosynthesis/dyslexia",
+      "kind": "dyslexia",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/photosynthesis/plain",
+      "kind": "plain",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": [
+        "technical term not explained at first use: ['chlorophyll']"
+      ]
+    },
+    {
+      "id": "accessibility/photosynthesis/both",
+      "kind": "both",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/photosynthesis/reader",
+      "kind": "reader",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/photosynthesis/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/contract/dyslexia",
+      "kind": "dyslexia",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "misses",
+      "agreement": 1.0,
+      "correct": false,
+      "exact": false,
+      "critical_samples": 0,
+      "violations": [
+        "paragraph of 5 sentences (> 3)",
+        "no numbered/bulleted steps",
+        "paragraph of 4 sentences (> 3)",
+        "no numbered/bulleted steps",
+        "paragraph of 4 sentences (> 3)"
+      ]
+    },
+    {
+      "id": "accessibility/contract/plain",
+      "kind": "plain",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": [
+        "technical term not explained at first use: ['consideration']"
+      ]
+    },
+    {
+      "id": "accessibility/contract/both",
+      "kind": "both",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "misses",
+      "agreement": 0.67,
+      "correct": false,
+      "exact": false,
+      "critical_samples": 0,
+      "violations": [
+        "paragraph of 7 sentences (> 3)",
+        "no numbered/bulleted steps",
+        "paragraph of 7 sentences (> 3)"
+      ]
+    },
+    {
+      "id": "accessibility/contract/reader",
+      "kind": "reader",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/contract/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/fractions/dyslexia",
+      "kind": "dyslexia",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": [
+        "missing concept: common denominator"
+      ]
+    },
+    {
+      "id": "accessibility/fractions/plain",
+      "kind": "plain",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/fractions/both",
+      "kind": "both",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "misses",
+      "agreement": 1.0,
+      "correct": false,
+      "exact": false,
+      "critical_samples": 0,
+      "violations": [
+        "technical term not explained at first use: ['denominator']",
+        "technical term not explained at first use: ['denominator']",
+        "paragraph of 5 sentences (> 3)",
+        "technical term not explained at first use: ['denominator']"
+      ]
+    },
+    {
+      "id": "accessibility/fractions/reader",
+      "kind": "reader",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/fractions/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/mitosis/dyslexia",
+      "kind": "dyslexia",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "misses",
+      "agreement": 0.67,
+      "correct": false,
+      "exact": false,
+      "critical_samples": 0,
+      "violations": [
+        "paragraph of 5 sentences (> 3)",
+        "paragraph of 5 sentences (> 3)"
+      ]
+    },
+    {
+      "id": "accessibility/mitosis/plain",
+      "kind": "plain",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/mitosis/both",
+      "kind": "both",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/mitosis/reader",
+      "kind": "reader",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "accessibility/mitosis/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    }
+  ],
+  "suite": "accessibility",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "36ce888ecffb",
+  "created": "2026-10-06T23:01:39Z"
+}

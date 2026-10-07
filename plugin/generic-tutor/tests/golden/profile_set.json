@@ -1,0 +1,69 @@
+{
+  "files_after": {
+    "profile/amy/student_profile.json": {
+      "capabilities": {},
+      "consent": {
+        "status": "granted"
+      },
+      "highest_level_cleared": 1,
+      "last_updated": "<DATE>",
+      "learner_id": "amy",
+      "preferences": {
+        "style": "brief"
+      },
+      "roster": {
+        "max_incomplete_courses": 3
+      },
+      "schema_version": 2,
+      "session_slot": 5,
+      "session_slot_advanced_at": "<TS>"
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "profile_set.py",
+        "{P}/student_profile.json",
+        "preferences.style",
+        "brief",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "field": "preferences.style",
+        "new": "brief",
+        "old": null,
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "profile_set.py",
+        "{P}/student_profile.json",
+        "preferences.tone",
+        "loud",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "preferences.tone must be one of ['neutral', 'friendly', 'formal', 'playful']"
+      }
+    },
+    {
+      "cmd": [
+        "profile_set.py",
+        "{P}/student_profile.json",
+        "session_slot",
+        "0",
+        "<DATE>"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "'session_slot' is not a setting this tool changes (allowed: ['availability.session_minutes', 'availability.sessions_per_week', 'capabilities.share_images', 'consent.status', 'goals', 'identity.display_name', 'identity.education_level', 'identity.locale', 'learning_signals.notes', 'learning_signals.pace', 'learning_signals.spatial_support_needed', 'learning_signals.verbal_load_sensitivity', 'learning_signals.working_memory_support_needed', 'preferences.accessibility.dyslexia_mode', 'preferences.accessibility.plain_language_mode', 'preferences.accessibility.screen_reader_mode', 'preferences.style', 'preferences.tone', 'roster.max_incomplete_courses'])"
+      }
+    }
+  ]
+}

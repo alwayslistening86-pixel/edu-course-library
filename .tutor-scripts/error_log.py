@@ -76,6 +76,7 @@ resolve only); query is read-only.
 import json
 import os
 import sys
+from tutorlib import cli, consent, filelock, ledger, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
@@ -85,14 +86,11 @@ CAUSES = ("slip", "missing_prerequisite", "misconception", "misapplied_procedure
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state.save(path, data, "subjects")
 
 
 def _next_id(entries, stage_id, today_iso):
@@ -100,6 +98,8 @@ def _next_id(entries, stage_id, today_iso):
     return f"err_{today_iso}_{stage_id}_{seq:03d}"
 
 
+@ledger.logged("error_log.py", "subjects_path")
+@filelock.locked("subjects_path")
 def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE"):
     if cause not in CAUSES:
         return {"error": f"cause must be one of {CAUSES}, got {cause!r}"}
@@ -130,6 +130,9 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         "resolved_at_slot": None,
     }
     entries.append(entry)
+    allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+    if not allowed:
+        return {"action": "not_persisted", "entry": entry, **consent.skipped(cstatus, consent.SIGNAL)}
     _save(subjects_path, d)
     sqlite_result = sqlite_store.log_error_event(subjects_path, entry)
 
@@ -153,6 +156,8 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
     }
 
 
+@ledger.logged("error_log.py", "subjects_path")
+@filelock.locked("subjects_path")
 def resolve(subjects_path, item_id, current_slot, cause_filter="ANY"):
     d = _load(subjects_path)
     entries = d.get("error_patterns", [])
@@ -174,6 +179,10 @@ def resolve(subjects_path, item_id, current_slot, cause_filter="ANY"):
     mastery_result = None
     sqlite_result = None
     if resolved_ids:
+        allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
+        if not allowed:
+            return {"action": "not_persisted", "item_id": item_id, "entries_resolved": resolved_ids,
+                    "count": len(resolved_ids), **consent.skipped(cstatus, consent.SIGNAL)}
         _save(subjects_path, d)
         mastery_result = item_mastery.observe(subjects_path, item_id, True, current_slot)
         sqlite_result = sqlite_store.resolve_error_events(subjects_path, resolved_ids, current_slot)
@@ -237,7 +246,10 @@ def main():
             if len(sys.argv) not in (10, 11):
                 print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]"}))
                 sys.exit(2)
-            result = append(subjects_path, *sys.argv[3:11])
+            argv = list(sys.argv[3:11])
+            if argv[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
+                argv[5] = cli.read_stdin().strip()
+            result = append(subjects_path, *argv)
         elif cmd == "resolve":
             if len(sys.argv) not in (5, 6):
                 print(json.dumps({"error": "usage: error_log.py resolve <subjects.json> <item_id> <current_slot> [cause|ANY]"}))
@@ -250,11 +262,12 @@ def main():
         else:
             print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected append|resolve|query"}))
             sys.exit(2)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
+    except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

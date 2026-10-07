@@ -43,6 +43,10 @@ be taught right now:
                                  folder that doesn't exist) — these are data
                                  integrity bugs, not content-quality gaps.
 
+    - test items in practice/lesson  a graded item from a stage's test.md that appears word for word
+                                 in that stage's practice.md or lesson.md (the learner could read the
+                                 test beforehand; tutorlib/overlap.py).
+
   ADVISORY (reported, never blocking):
     - orphaned_stage_dirs       content on disk course.json doesn't know
                                  about — a real thing to clean up, but not a
@@ -86,9 +90,40 @@ import json
 import os
 import sys
 
+from tutorlib import cli, overlap, untrusted
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import change_log  # noqa: E402
+import rubric_lint  # noqa: E402
 import validate_structure  # noqa: E402
 import coverage_check  # noqa: E402
+import verify_sources  # noqa: E402
+
+
+def _integrity(course_dir):
+    """A-07: (blocking, advisory) notes on stage tests that the learner could read beforehand."""
+    blocking, advisory = [], []
+    sdir = os.path.join(course_dir, "stages")
+    if not os.path.isdir(sdir):
+        return blocking, advisory
+    for st in sorted(os.listdir(sdir)):
+        try:
+            with open(os.path.join(sdir, st, "test.md"), encoding="utf-8") as f:
+                items = overlap.test_items(f.read())
+        except OSError:
+            continue
+        for other in ("practice", "lesson"):
+            try:
+                with open(os.path.join(sdir, st, other + ".md"), encoding="utf-8") as f:
+                    text = f.read()
+            except OSError:
+                continue
+            same = overlap.verbatim_items(items, text)
+            if same:
+                blocking.append(f"stages/{st}: {len(same)} test item(s) appear word for word in {other}.md")
+            elif items and overlap.long_runs(" ".join(items), text) > 0:
+                advisory.append(f"stages/{st}: test and {other}.md share a run of 20+ words (check it is a template, not the answer)")
+    return blocking, advisory
 
 
 def _gate(course_dir):
@@ -117,12 +152,53 @@ def _gate(course_dir):
     if structure.get("v13_problems"):
         blocking_reasons.append(f"1.3.0 field inconsistencies: {structure['v13_problems']}")
 
-    advisory_notes = []
+    # X-01/X-02: a web-derived course file that carries instruction-like text must not ship unseen.
+    scan = untrusted.scan_path(course_dir)
+    injected = {f: [x for x in fs if x["severity"] == untrusted.BLOCKING] for f, fs in scan.items()}
+    injected = {f: fs for f, fs in injected.items() if fs}
+    if injected:
+        blocking_reasons.append(
+            "possible embedded instructions in course files (web content must never carry instructions): "
+            + "; ".join(f"{f} line {x['line']} [{x['rule']}]" for f, fs in injected.items() for x in fs[:3]))
+
+    rub = rubric_lint.lint(course_dir)
+    label_only = [f["stage_id"] for f in rub.get("findings", []) if f["rule"] == "label_only_stage"]
+    chg = change_log.read(course_dir)
+    leak_block, leak_note = _integrity(course_dir)
+    for prob in chg.get("problems", []):
+        leak_note.append(f"change.md: {prob['rule']} ({prob.get('detail', '')[:60]})")
+    if label_only:
+        leak_note.append(f"rubric: {len(label_only)} stage(s) have only topic-label criteria, nothing observable to grade against "
+                         f"(first: {label_only[0]}); run rubric_lint.py for detail")
+    blocking_reasons.extend(leak_block)
+
+    advisory_notes = list(leak_note)
+    for f, fs in scan.items():
+        for x in fs:
+            if x["severity"] == untrusted.ADVISORY:
+                advisory_notes.append(f"{f} line {x['line']}: {x['rule']} - {x['excerpt']}")
     if structure.get("orphaned_stage_dirs"):
         advisory_notes.append(f"orphaned stage dirs not in stage_ladder: {structure['orphaned_stage_dirs']}")
     misc_status = structure.get("misconceptions_status")
     if misc_status:
-        advisory_notes.append(f"misconceptions status: {misc_status}")
+        covered, total = misc_status.get("stages_covered"), misc_status.get("stages_total")
+        advisory_notes.append(f"misconceptions: {covered} of {total} stages have a sourced misconceptions.json"
+                              if isinstance(misc_status, dict) and covered is not None else f"misconceptions status: {misc_status}")
+    urls = verify_sources.collect_urls(course_dir)
+    bad = [u for u in urls if not verify_sources.is_http_url(u)]
+    if bad:
+        blocking_reasons.append(f"cited source is not an http(s) URL: {bad[0][:80]}" + (f" (+{len(bad) - 1} more)" if len(bad) > 1 else ""))
+    if urls:
+        snaps = verify_sources.load_snapshots(course_dir)["snapshots"]
+        have = [u for u in urls if u in snaps]
+        dead = [u for u in have if snaps[u].get("status") == "dead"]
+        changed = [u for u in have if snaps[u].get("changed")]
+        note = f"sources: {len(have)} of {len(urls)} cited URLs have a snapshot (verify_sources.py --write)"
+        if dead:
+            note += f"; {len(dead)} dead (first: {dead[0][:60]})"
+        if changed:
+            note += f"; {len(changed)} changed since the last check"
+        advisory_notes.append(note)
     computed_coverage = coverage.get("computed_status")
     if "error" in coverage:
         advisory_notes.append(f"coverage_check.py could not run: {coverage['error']}")
@@ -173,8 +249,9 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

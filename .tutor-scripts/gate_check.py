@@ -31,8 +31,14 @@ import json
 import os
 import sys
 
+from tutorlib import cli, version
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from cohort_status import compute_cohorts, is_complete, is_standalone, prerequisites_status, withheld_stages, practical_stages, standalone_cohort_id  # noqa: E402
+from cohort_status import (  # noqa: E402
+    LIVE_STATES, compute_cohorts, is_complete, is_standalone, is_suspended, practical_stages,
+    prerequisites_status, standalone_cohort_id, withheld_stages,
+)
+import confirm_access  # noqa: E402
 import coverage_check  # noqa: E402
 
 
@@ -73,21 +79,35 @@ def _evaluate_gates(course_json_path, subjects_json_path, profile_subjects_dir, 
 
     gates = {}
 
+    # Gate 0 (N-02): the course declares a minimum engine version this install does not meet. Only present when declared.
+    if course.get("min_engine_version"):
+        ok, have = version.check_min(course["min_engine_version"])
+        if not ok:
+            gates["0_engine_version"] = {
+                "status": "blocked", "value": have,
+                "detail": f"this course needs generic-tutor {course['min_engine_version']} or newer; this install is {have} - update the plugin"}
+            return {"can_proceed": False, "first_blocking_gate": "0_engine_version", "gates": gates}
+
     # Gate 1: folder_access
     folder_status = (course.get("folder_access") or {}).get("status")
     g1_pass = folder_status in ("isolated_confirmed", "shared_confirmed")
+    via_library = False
+    if not g1_pass:
+        lib = confirm_access.library_status(courses_dir) if courses_dir else None
+        if lib:
+            g1_pass, via_library, folder_status = True, True, lib
     gates["1_folder_access"] = {
         "status": "pass" if g1_pass else "blocked",
         "value": folder_status,
-        "detail": "folder_access.status must be isolated_confirmed or shared_confirmed"
-                   if not g1_pass else "confirmed",
+        "detail": ("confirmed for the whole library (courses/access.json)" if via_library else "confirmed") if g1_pass
+                  else "folder_access.status must be isolated_confirmed or shared_confirmed (or run confirm_access.py once for the library)",
     }
     if not g1_pass:
         return {"can_proceed": False, "first_blocking_gate": "1_folder_access", "gates": gates}
 
     # Gate 2: grounding
     grounding_status = course.get("grounding_status")
-    g2_pass = grounding_status != "suspended_ungrounded"
+    g2_pass = not is_suspended(grounding_status)
     gates["2_grounding"] = {
         "status": "pass" if g2_pass else "blocked",
         "value": grounding_status,
@@ -107,7 +127,7 @@ def _evaluate_gates(course_json_path, subjects_json_path, profile_subjects_dir, 
         g3 = ("blocked", "course is complete - every stage passed (and exam passed, if enabled)")
     elif roster_state == "dropped":
         g3 = ("blocked", "course is dropped - progress is preserved; resume it via /add-course (re-enters the roster cap)")
-    elif roster_state not in (None, "active", "test_pending_convergence"):
+    elif roster_state is not None and roster_state not in LIVE_STATES:
         g3 = ("blocked", f"unrecognised roster_state {roster_state!r} - refusing to teach")
     else:
         g3 = ("pass", "eligible to teach")
@@ -287,8 +307,9 @@ def main():
         print(json.dumps({"error": "usage: gate_check.py <course.json> <subjects.json|NONE> <profile_subjects_dir> <courses_dir> <today_iso_date>"}))
         sys.exit(2)
     result = evaluate(*sys.argv[1:6])
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

@@ -1,0 +1,218 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "list_courses.py",
+        "{L}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "by_state": {
+          "active": 2,
+          "dormant": 1,
+          "dropped": 1,
+          "not_enrolled": 2
+        },
+        "count": 6,
+        "courses": [
+          {
+            "course_id": "broken",
+            "coverage": {
+              "items_taught": 3,
+              "items_total": 3,
+              "status": "full"
+            },
+            "current_phase": null,
+            "current_stage": null,
+            "grounding_status": "verified",
+            "level": 2,
+            "level_basis": "framework",
+            "name": "Course broken",
+            "practical_stages": [],
+            "prerequisites": {
+              "met": true,
+              "required": [],
+              "unmet": []
+            },
+            "stages_passed": 0,
+            "stages_total": 3,
+            "standalone": false,
+            "state": "not_enrolled",
+            "theory_only": false
+          },
+          {
+            "course_id": "design",
+            "coverage": {
+              "items_taught": 2,
+              "items_total": 2,
+              "status": "full"
+            },
+            "current_phase": "practice",
+            "current_stage": "S2",
+            "grounding_status": "verified",
+            "level": 2,
+            "level_basis": "framework",
+            "name": "Course design",
+            "practical_stages": [
+              "S2"
+            ],
+            "prerequisites": {
+              "met": true,
+              "required": [],
+              "unmet": []
+            },
+            "stages_passed": 1,
+            "stages_total": 2,
+            "standalone": false,
+            "state": "dropped",
+            "theory_only": false
+          },
+          {
+            "course_id": "mathA",
+            "coverage": {
+              "items_taught": 3,
+              "items_total": 3,
+              "status": "full"
+            },
+            "current_phase": "practice",
+            "current_stage": "S2",
+            "grounding_status": "verified",
+            "level": 2,
+            "level_basis": "framework",
+            "name": "Course mathA",
+            "practical_stages": [],
+            "prerequisites": {
+              "met": true,
+              "required": [],
+              "unmet": []
+            },
+            "stages_passed": 1,
+            "stages_total": 3,
+            "standalone": false,
+            "state": "active",
+            "theory_only": false
+          },
+          {
+            "course_id": "old",
+            "coverage": {
+              "items_taught": null,
+              "items_total": null,
+              "status": "unverified"
+            },
+            "current_phase": null,
+            "current_stage": null,
+            "grounding_status": null,
+            "level": 2,
+            "level_basis": null,
+            "name": "Old shape",
+            "practical_stages": [],
+            "prerequisites": {
+              "met": true,
+              "required": [],
+              "unmet": []
+            },
+            "stages_passed": 0,
+            "stages_total": 1,
+            "standalone": false,
+            "state": "not_enrolled",
+            "theory_only": false
+          },
+          {
+            "course_id": "mathB",
+            "coverage": {
+              "items_taught": 3,
+              "items_total": 3,
+              "status": "full"
+            },
+            "current_phase": "practice",
+            "current_stage": "S1",
+            "grounding_status": "verified",
+            "level": 3,
+            "level_basis": "framework",
+            "name": "Course mathB",
+            "practical_stages": [],
+            "prerequisites": {
+              "met": true,
+              "required": [],
+              "unmet": []
+            },
+            "stages_passed": 0,
+            "stages_total": 3,
+            "standalone": false,
+            "state": "dormant",
+            "theory_only": false
+          },
+          {
+            "course_id": "solo",
+            "coverage": {
+              "items_taught": 2,
+              "items_total": 2,
+              "status": "full"
+            },
+            "current_phase": "practice",
+            "current_stage": "S1",
+            "grounding_status": "verified",
+            "level": null,
+            "level_basis": "standalone",
+            "name": "Course solo",
+            "practical_stages": [],
+            "prerequisites": {
+              "met": true,
+              "required": [],
+              "unmet": []
+            },
+            "stages_passed": 0,
+            "stages_total": 2,
+            "standalone": true,
+            "state": "active",
+            "theory_only": false
+          }
+        ]
+      }
+    },
+    {
+      "cmd": [
+        "list_courses.py",
+        "{L}",
+        "{C}",
+        "--status",
+        "dormant",
+        "--compact"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "by_state": {
+          "dormant": 1
+        },
+        "count": 1,
+        "courses": [
+          {
+            "course_id": "mathB",
+            "level": 3,
+            "stages_passed": 0,
+            "stages_total": 3,
+            "state": "dormant"
+          }
+        ]
+      }
+    },
+    {
+      "cmd": [
+        "list_courses.py",
+        "{L}",
+        "{C}",
+        "--level",
+        "x"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "--status and --level need a value (--level an integer)"
+      }
+    }
+  ]
+}

@@ -1,84 +1,43 @@
-# EDU course library
+# generic-tutor — an adaptive tutoring engine with state you can trust
 
-A personal, self-hosted tutoring system built on the **generic-tutor** plugin
-for Claude/Cowork: a real academic course library (62 courses at last count, kept in a
-private companion repo — GCSE through degree level plus several standalone
-qualifications),
-taught interactively by Claude against sourced rubrics and specifications,
-with per-learner progress tracking, spaced-repetition review, and an
-adaptive layer that diagnoses *why* an answer was wrong rather than just
-whether it was right. It also ships an optional read-only desktop
-toolkit — a small GUI/CLI for backup, health and progress checks from
-your own machine, without opening a session.
+An engine for teaching any subject from a real, cited source, to one or many learners, and for knowing — reliably — what each learner has and has not learned. It builds the course itself from the specification or syllabus you point it at; nothing is preloaded, and nothing ties it to one country's curriculum. It teaches through Claude (Cowork or Claude Code) today, and is built so the teaching voice is the replaceable part and the record of progress is not.
 
-This is a working personal project, not a published product. If you've
-ended up here by accident: welcome, feel free to look around, but see
-**License** below before reusing anything.
+The idea that shapes everything: **the model talks, scripts decide and write.** Markdown skills tell Claude when to do things and how to teach; stdlib-only Python scripts make every deterministic decision (gates, spaced-review maths, mastery, consent, ordering) and perform every state write. A lesson can go wrong in conversation without corrupting a learner's record.
 
-## What's in this repo (and what isn't, anymore)
+## What it does
+- **Teaches against a source.** Courses carry a sourced rubric, an itemised specification and a coverage check; a live recheck notices when the source changes. A course that cannot be verified is suspended, never quietly taught.
+- **Tracks and adapts.** Per-learner progress, per-item mastery, a diagnosis of *why* an answer was wrong (slip, missing prerequisite, misconception, wrong procedure, misread), worked examples that fade as mastery grows, interleaved practice, spaced review, a hint ladder that keeps the answer for last, and honest "am I ready?" readouts that never pretend to be a grade.
+- **Keeps itself honest.** Consent enforced in code, atomic writes and locks, a session ledger that flags a missed bookkeeping step, schema and invariant checks, an injection scanner for web-derived content, checksummed backups and erase-on-request. Optional Claude Code hooks add a second net.
+- **Looks after the library.** `/audit` checks structure, grounding and coverage and has an enrichment pass for question banks and misconceptions; `/doctor` checks a learner's setup; a read-only toolkit shows status without opening a session.
+- **Measures itself.** A dev-only eval suite (grading, safety, injection, diagnosis, hints, fading, accessibility, gates and more) scores skill changes against reference answers that need no human marker, and three self-authored sample courses mean none of it needs private content.
 
-As of 30 Sep 2026, the actual course content — `courses/`, `_staging/`,
-`_historic/` — lives in a **private** companion repo, `edu-courses-private`,
-not here. It paraphrases copyrighted exam-board specifications and mark
-schemes, which has no good reason to sit in a public repo. This repo is now
-just the tutor engine: genuinely reusable code, MIT-licensed, with nothing
-copyright-sensitive in it.
+## Where it is going
+Accepted in direction, not yet designed in detail ([ADR 0010](docs/adr/0010-proposed-roles-and-portable-profile.md), tasks B-01 to B-06): a **portable profile** (learner state travels with the learner, so one shared engine serves many people without tenancy), a **local interface** over the scripts, and **role-separated models** (a local tutor voice, a stronger examiner, a staff channel, with Claude as the fallback teacher).
 
+## Honest limits
+Learning outcomes have not been measured; that needs real learners over time. The evals are synthetic and easy. Windows is verified only on CI, and the Cowork surface is untested. The teaching loop is Claude-shaped today.
+
+## Install
 ```
-plugin/generic-tutor/  Source for the generic-tutor Cowork plugin: the tutor engine itself
-                     (skills, scripts, tests) — see its own README/DESIGN_NOTES.md
-.tutor-scripts/      Deployed runtime copy of plugin/generic-tutor/scripts/, kept in sync
-                     by bootstrap_scripts.py — what actually runs against a real install
-.github/             CI: runs the plugin's test suite and checks .tutor-scripts/ hasn't
-                     drifted from the plugin source. scripts/validate_courses.py is
-                     run from the private repo's CI against its own courses/
-profile/             Per-learner progress (empty in this repo — see Privacy below)
+claude plugin marketplace add alwayslistening86-pixel/edu-course-library
+claude plugin install generic-tutor@edu-course-library
 ```
+In Claude Cowork add the same GitHub repository as a marketplace in the plugin UI, then install `generic-tutor`. Needs Python 3.10+ and a connected folder containing `courses/`. Then: `/add-profile <name>` → `/add-course` → `/plan` → each session `/run <name>` and `/continue <course>`. `/help` lists everything; `/doctor` finds problems. Details: [`docs/INSTALL.md`](docs/INSTALL.md), [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md), [`docs/RUNBOOK.md`](docs/RUNBOOK.md).
 
-`courses/`, `_staging/`, and `_historic/` still exist locally on a real
-install (the plugin reads them straight off disk) — they're just no longer
-tracked by *this* repo's git, and their prior history has been removed from
-it too. See `edu-courses-private` (private; access on request) if you're
-me and need them.
+## Repository map
+| Path | What |
+|---|---|
+| `plugin/generic-tutor/` | the plugin: `skills/`, `commands/`, `scripts/`, `hooks/`, `tests/`, `evals/`, shipped `docs/` |
+| `.tutor-scripts/` | deployed copy of the scripts (CI fails if it drifts; never hand-edit) |
+| `.claude-plugin/marketplace.json` | makes this repository installable |
+| `docs/` | plan, task list, architecture, ADRs, pedagogy, install, user guide, runbook |
+| `tools/` | docs lint, build, release notes, context budget, task status |
+| `.github/` | CI, release and reusable content-validation workflows |
 
-## How it works
+Courses are data, kept outside this repository so that licensed or paraphrased source material never lands here; the engine reads them through a defined folder layout ([content contract](plugin/generic-tutor/docs/CONTENT_CONTRACT.md)). Learner data is never committed ([privacy](plugin/generic-tutor/docs/PRIVACY.md)).
 
-1. Install the `generic-tutor` plugin (built from `plugin/generic-tutor/` —
-   package it with `zip -r generic-tutor.plugin .` from inside that folder) into Claude
-   Cowork.
-2. Connect a real course-library folder (containing `courses/` — from the
-   private repo, or your own) to a Cowork session ("Work in a folder").
-3. `/run <learner_id>` to start or resume a learner profile, then
-   `/continue <course_id>` to teach, `/add-course` to compile a new one,
-   `/list-courses`, `/review`, `/audit`, and so on — see the plugin's own
-   `commands/` and `skills/*/SKILL.md` for the full command surface.
-4. Optional: once installed, the toolkit lands at `.tutor-scripts/toolkit/`
-   — see that folder's own README for how to use it.
-
-Course content (wherever it lives) is compiled from real, cited sources
-(exam board specifications, mark schemes, examiner reports) — every rubric
-entry carries a source. A per-item misconceptions layer (schema defined
-since v1.4.0, for common wrong-answer patterns with their own sourced
-corrections) exists but isn't seeded for any course yet — an open backlog
-item, not a claim made about current content.
-
-## Privacy
-
-`profile/` holds per-learner progress once someone actually studies here —
-session state, error history, confidence tracking. That's personal data, so
-any real learner subfolder under `profile/` is git-ignored and never
-committed (see `.gitignore`); this repo currently ships with no learner data
-in it at all.
+## Working on it
+Tasks and waves: [`docs/TASKS.md`](docs/TASKS.md) against [`docs/PLAN.md`](docs/PLAN.md). Design: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), [`docs/adr/`](docs/adr/README.md), [`plugin/generic-tutor/docs/DATA_MODEL.md`](plugin/generic-tutor/docs/DATA_MODEL.md). History: [`CHANGELOG.md`](CHANGELOG.md). How to contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md), [`docs/CONTRIBUTING-DEV.md`](docs/CONTRIBUTING-DEV.md) and `CLAUDE.md`. Eval method and baselines: [`plugin/generic-tutor/evals/README.md`](plugin/generic-tutor/evals/README.md).
 
 ## License
-
-- **The plugin** (`plugin/generic-tutor/` — the tutor engine's code, the
-  only content-bearing thing left in this repo) is **MIT-licensed** — see
-  [`plugin/generic-tutor/LICENSE`](plugin/generic-tutor/LICENSE). Genuinely
-  reusable if you want to build your own course library on top of the same
-  engine.
-- **Course content** (`courses/`, and anything under `profile/`) was **all
-  rights reserved** here and now lives, under the same terms, in the
-  private `edu-courses-private` repo — it paraphrases copyrighted
-  exam-board material for personal study use and isn't offered for reuse or
-  redistribution.
+The plugin (`plugin/generic-tutor/`) is **MIT** — [`plugin/generic-tutor/LICENSE`](plugin/generic-tutor/LICENSE). Course content and learner data are **all rights reserved** and are not in this repository. See [`NOTICE`](NOTICE).

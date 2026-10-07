@@ -59,23 +59,23 @@ Usage:
 Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
-import os
 import sys
+from cohort_status import TEST_PENDING
+from tutorlib import cli, consent, filelock, ledger, state
 
 RESULTS = ("pass", "fail")
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state.save(path, data, "subjects")
 
 
+@ledger.logged("record_stage_result.py", "subjects_path")
+@filelock.locked("subjects_path")
 def apply(subjects_path, course_path, stage_id, result):
     if result not in RESULTS:
         return {"error": f"result must be one of {RESULTS}, got {result!r}"}
@@ -92,16 +92,28 @@ def apply(subjects_path, course_path, stage_id, result):
     syllabus_status[stage_id] = result
 
     advanced_to = None
+    roster_reset = None
     if result == "pass":
         idx = ladder.index(stage_id)
         for candidate in ladder[idx + 1:]:
             if syllabus_status.get(candidate) != "withheld":
                 advanced_to = candidate
                 break
+        current = d.get("current_stage")
+        if advanced_to is not None and current in ladder and ladder.index(current) >= ladder.index(advanced_to):
+            advanced_to = None      # replayed pass for an earlier stage: never move the learner backwards
         if advanced_to is not None:
             d["current_stage"] = advanced_to
             d["current_phase"] = "lesson"
+        # A pass ends this course's wait: it starts its next stage's lesson. Left as test_pending_convergence it would count
+        # as already "ready to test" for that next stage and defeat the cohort convergence rule (cohort_status test_ready).
+        if d.get("roster_state") == TEST_PENDING:
+            d["roster_state"] = "active"
+            roster_reset = "active"
 
+    allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
+    if not allowed:
+        return {"action": "not_persisted", "stage_id": stage_id, "result": result, **consent.skipped(cstatus, consent.PROGRESS)}
     _save(subjects_path, d)
 
     return {
@@ -110,6 +122,7 @@ def apply(subjects_path, course_path, stage_id, result):
         "result": result,
         "advanced_to": advanced_to,
         "current_stage": d.get("current_stage"),
+        **({"roster_state_reset": roster_reset} if roster_reset else {}),
         "written": True,
     }
 
@@ -121,11 +134,12 @@ def main():
     _, _, subjects_path, course_path, stage_id, result = sys.argv
     try:
         out = apply(subjects_path, course_path, stage_id, result)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
+    except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(out, indent=2))
+    sys.exit(cli.emit(out))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

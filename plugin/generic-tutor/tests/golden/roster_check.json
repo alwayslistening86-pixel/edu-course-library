@@ -1,0 +1,212 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "roster_check.py",
+        "{P}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "already_complete": false,
+        "can_add_course": false,
+        "dormant_courses": [
+          {
+            "academic_level": 3,
+            "course_id": "mathB",
+            "should_wake": false,
+            "standalone": false
+          }
+        ],
+        "effective_highest_level_cleared": 1,
+        "eligible_courses": [
+          {
+            "academic_level": 2,
+            "cohort_id": 2,
+            "course_id": "mathA",
+            "roster_state": "active"
+          },
+          {
+            "academic_level": null,
+            "cohort_id": "standalone:solo",
+            "course_id": "solo",
+            "roster_state": "active"
+          }
+        ],
+        "errors": [],
+        "highest_level_cleared": 1,
+        "level_lock_floor": 2,
+        "max_incomplete_courses": 3,
+        "occupying_courses": [
+          {
+            "academic_level": 2,
+            "course_id": "mathA",
+            "locked": false,
+            "roster_state": "active"
+          },
+          {
+            "academic_level": null,
+            "course_id": "solo",
+            "locked": false,
+            "roster_state": "active"
+          },
+          {
+            "academic_level": 3,
+            "course_id": "mathB",
+            "locked": true,
+            "roster_state": "dormant"
+          }
+        ],
+        "reopens_level": false,
+        "roster_occupancy": 3,
+        "unfinished_level_floor": 2,
+        "wake_now": []
+      }
+    },
+    {
+      "cmd": [
+        "roster_check.py",
+        "{P}",
+        "{C}",
+        "3"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "already_complete": false,
+        "can_add_course": false,
+        "candidate_level": 3,
+        "candidate_state": "dormant",
+        "courses_that_would_lock": [],
+        "dormant_courses": [
+          {
+            "academic_level": 3,
+            "course_id": "mathB",
+            "should_wake": false,
+            "standalone": false
+          }
+        ],
+        "effective_highest_level_cleared": 1,
+        "eligible_courses": [
+          {
+            "academic_level": 2,
+            "cohort_id": 2,
+            "course_id": "mathA",
+            "roster_state": "active"
+          },
+          {
+            "academic_level": null,
+            "cohort_id": "standalone:solo",
+            "course_id": "solo",
+            "roster_state": "active"
+          }
+        ],
+        "errors": [],
+        "highest_level_cleared": 1,
+        "level_lock_floor": 2,
+        "lock_consequence": "joins_freely",
+        "locked_behind_level": 2,
+        "max_incomplete_courses": 3,
+        "occupying_courses": [
+          {
+            "academic_level": 2,
+            "course_id": "mathA",
+            "locked": false,
+            "roster_state": "active"
+          },
+          {
+            "academic_level": null,
+            "course_id": "solo",
+            "locked": false,
+            "roster_state": "active"
+          },
+          {
+            "academic_level": 3,
+            "course_id": "mathB",
+            "locked": true,
+            "roster_state": "dormant"
+          }
+        ],
+        "reopens_level": false,
+        "roster_occupancy": 3,
+        "unfinished_level_floor": 2,
+        "wake_now": []
+      }
+    },
+    {
+      "cmd": [
+        "roster_check.py",
+        "{P}",
+        "{C}",
+        "2",
+        "--resume",
+        "--course",
+        "design"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "already_complete": false,
+        "can_add_course": false,
+        "candidate_level": 2,
+        "candidate_state": "active",
+        "courses_that_would_lock": [],
+        "dormant_courses": [
+          {
+            "academic_level": 3,
+            "course_id": "mathB",
+            "should_wake": false,
+            "standalone": false
+          }
+        ],
+        "effective_highest_level_cleared": 1,
+        "eligible_courses": [
+          {
+            "academic_level": 2,
+            "cohort_id": 2,
+            "course_id": "mathA",
+            "roster_state": "active"
+          },
+          {
+            "academic_level": null,
+            "cohort_id": "standalone:solo",
+            "course_id": "solo",
+            "roster_state": "active"
+          }
+        ],
+        "errors": [],
+        "highest_level_cleared": 1,
+        "level_lock_floor": 2,
+        "lock_consequence": "joins_freely",
+        "locked_behind_level": null,
+        "max_incomplete_courses": 3,
+        "occupying_courses": [
+          {
+            "academic_level": 2,
+            "course_id": "mathA",
+            "locked": false,
+            "roster_state": "active"
+          },
+          {
+            "academic_level": null,
+            "course_id": "solo",
+            "locked": false,
+            "roster_state": "active"
+          },
+          {
+            "academic_level": 3,
+            "course_id": "mathB",
+            "locked": true,
+            "roster_state": "dormant"
+          }
+        ],
+        "reopens_level": false,
+        "roster_occupancy": 3,
+        "unfinished_level_floor": 2,
+        "wake_now": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "assemble_paper.py",
+        "{C}",
+        "mathA",
+        "--marks",
+        "12",
+        "--seed",
+        "2"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_id": "mathA",
+        "items_covered": [
+          "S1.1",
+          "S2.1",
+          "S3.1",
+          "X14",
+          "X24",
+          "X34"
+        ],
+        "minutes_suggested": 11,
+        "notes": [
+          "Grade boundaries are published per series by the exam board and are not held here: this paper gives marks, not a grade.",
+          "Time is advisory: the tutor cannot enforce it; the learner should note their own start and finish."
+        ],
+        "questions": [
+          {
+            "calculator": null,
+            "command_word": "Calculate",
+            "id": "S1-Q4",
+            "item_ids": [
+              "S1.1",
+              "X14"
+            ],
+            "marks": 3,
+            "prompt": "Question 4 on S1: work out the value.",
+            "stage_id": "S1"
+          },
+          {
+            "calculator": null,
+            "command_word": "Calculate",
+            "id": "S2-Q4",
+            "item_ids": [
+              "S2.1",
+              "X24"
+            ],
+            "marks": 3,
+            "prompt": "Question 4 on S2: work out the value.",
+            "stage_id": "S2"
+          },
+          {
+            "calculator": null,
+            "command_word": "Calculate",
+            "id": "S3-Q4",
+            "item_ids": [
+              "S3.1",
+              "X34"
+            ],
+            "marks": 3,
+            "prompt": "Question 4 on S3: work out the value.",
+            "stage_id": "S3"
+          }
+        ],
+        "seed": 2,
+        "stages_covered": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "total_marks": 9
+      }
+    },
+    {
+      "cmd": [
+        "assemble_paper.py",
+        "{C}",
+        "solo"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "course 'solo' has no question_bank.json (it is optional; the exam simulator needs one)"
+      }
+    }
+  ]
+}

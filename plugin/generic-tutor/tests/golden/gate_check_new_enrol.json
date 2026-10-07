@@ -1,0 +1,71 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "gate_check.py",
+        "{C}/solo/course.json",
+        "NONE",
+        "{S}",
+        "{C}",
+        "<DATE>"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "can_proceed": true,
+        "coverage": {
+          "computed_status": "full",
+          "declared_status": "full",
+          "detail": "every itemised specification item is mapped to a stage whose lesson names it (declared coverage; see coverage_check.py)",
+          "disclose_to_learner": false,
+          "effective_status": "full",
+          "excluded_items": {},
+          "items_excluded": 0,
+          "items_taught": 2,
+          "items_total": 2,
+          "uncovered_items": []
+        },
+        "current_slot": 5,
+        "first_blocking_gate": null,
+        "gates": {
+          "1_folder_access": {
+            "detail": "confirmed",
+            "status": "pass",
+            "value": "isolated_confirmed"
+          },
+          "2_grounding": {
+            "detail": "grounded",
+            "status": "pass",
+            "value": "verified"
+          },
+          "3_level_lock": {
+            "detail": "eligible to teach",
+            "prerequisites": {
+              "met": true,
+              "required": [],
+              "unmet": []
+            },
+            "status": "pass",
+            "value": null
+          },
+          "4_live_recheck": {
+            "detail": "not checked today (or never) — run the live recheck before proceeding",
+            "needs_recheck": true
+          },
+          "5_phase_convergence": {
+            "detail": "no cohort data available yet (no enrollment or empty cohort)"
+          }
+        },
+        "notices": {
+          "count": 0,
+          "due": []
+        },
+        "practical": {
+          "has_practical_stages": false
+        },
+        "standalone": true
+      }
+    }
+  ]
+}

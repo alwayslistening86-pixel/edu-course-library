@@ -1,0 +1,232 @@
+{
+  "cases": 14,
+  "scored": 14,
+  "ambiguous": [],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "material": {
+      "correct": 7,
+      "n": 7,
+      "accuracy": 1.0
+    },
+    "not_material": {
+      "correct": 7,
+      "n": 7,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "material -> material": 7,
+    "not_material -> not_material": 7
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 1.0,
+  "rows": [
+    {
+      "id": "recheck/material/01",
+      "kind": "material",
+      "expected": "material",
+      "acceptable": [
+        "material"
+      ],
+      "majority": "material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/material/02",
+      "kind": "material",
+      "expected": "material",
+      "acceptable": [
+        "material"
+      ],
+      "majority": "material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/material/03",
+      "kind": "material",
+      "expected": "material",
+      "acceptable": [
+        "material"
+      ],
+      "majority": "material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/material/04",
+      "kind": "material",
+      "expected": "material",
+      "acceptable": [
+        "material"
+      ],
+      "majority": "material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/material/05",
+      "kind": "material",
+      "expected": "material",
+      "acceptable": [
+        "material"
+      ],
+      "majority": "material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/material/06",
+      "kind": "material",
+      "expected": "material",
+      "acceptable": [
+        "material"
+      ],
+      "majority": "material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/material/07",
+      "kind": "material",
+      "expected": "material",
+      "acceptable": [
+        "material"
+      ],
+      "majority": "material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/not_material/08",
+      "kind": "not_material",
+      "expected": "not_material",
+      "acceptable": [
+        "not_material"
+      ],
+      "majority": "not_material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/not_material/09",
+      "kind": "not_material",
+      "expected": "not_material",
+      "acceptable": [
+        "not_material"
+      ],
+      "majority": "not_material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/not_material/10",
+      "kind": "not_material",
+      "expected": "not_material",
+      "acceptable": [
+        "not_material"
+      ],
+      "majority": "not_material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/not_material/11",
+      "kind": "not_material",
+      "expected": "not_material",
+      "acceptable": [
+        "not_material"
+      ],
+      "majority": "not_material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/not_material/12",
+      "kind": "not_material",
+      "expected": "not_material",
+      "acceptable": [
+        "not_material"
+      ],
+      "majority": "not_material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/not_material/13",
+      "kind": "not_material",
+      "expected": "not_material",
+      "acceptable": [
+        "not_material"
+      ],
+      "majority": "not_material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "recheck/not_material/14",
+      "kind": "not_material",
+      "expected": "not_material",
+      "acceptable": [
+        "not_material"
+      ],
+      "majority": "not_material",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    }
+  ],
+  "suite": "recheck",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "e4afcfc3bbde",
+  "created": "2026-10-05T09:58:25Z"
+}

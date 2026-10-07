@@ -1,0 +1,90 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "validate_structure.py",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "clean": true,
+        "course_dir": "<TMP>/courses/mathA",
+        "empty_source_entries": [],
+        "misconceptions_status": {
+          "per_stage": {
+            "S1": {
+              "entry_count": 1,
+              "malformed_entry_indices": [],
+              "present": true,
+              "well_formed": true
+            },
+            "S2": {
+              "present": false
+            },
+            "S3": {
+              "present": false
+            }
+          },
+          "stages_covered": 1,
+          "stages_total": 3
+        },
+        "missing_rubric_entries": [],
+        "missing_stage_files": [],
+        "orphaned_stage_dirs": [],
+        "rubric_issue": null,
+        "stage_ladder_length": 3,
+        "v13_problems": {}
+      }
+    },
+    {
+      "cmd": [
+        "validate_structure.py",
+        "{C}/broken"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "clean": false,
+        "course_dir": "<TMP>/courses/broken",
+        "empty_source_entries": [],
+        "misconceptions_status": {
+          "per_stage": {
+            "S1": {
+              "present": false
+            },
+            "S2": {
+              "present": false
+            },
+            "S3": {
+              "present": false
+            }
+          },
+          "stages_covered": 0,
+          "stages_total": 3
+        },
+        "missing_rubric_entries": [],
+        "missing_stage_files": [
+          "S2/test.md"
+        ],
+        "orphaned_stage_dirs": [],
+        "rubric_issue": null,
+        "stage_ladder_length": 3,
+        "v13_problems": {}
+      }
+    },
+    {
+      "cmd": [
+        "validate_structure.py",
+        "{C}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/nope",
+        "error": "course.json unreadable: FileNotFoundError: [Errno 2] No such file or directory: '<TMP>/courses/nope/course.json'"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "coverage_check.py",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "clean": true,
+        "computed_status": "full",
+        "course_dir": "<TMP>/courses/mathA",
+        "declared_exclusions": {},
+        "declared_status": "full",
+        "items_declared": true,
+        "items_excluded": 0,
+        "items_in_multiple_stages": {},
+        "items_taught": 3,
+        "items_total": 3,
+        "lesson_words_per_stage": {
+          "S1": 7,
+          "S2": 7,
+          "S3": 7
+        },
+        "note": "computed_status 'full' means every itemised item is mapped to a stage whose lesson.md names it, or is declared out of scope with a reason. It does not verify that the items match the live specification (course-auditor Tier 3) or how well any lesson teaches an item.",
+        "problems": {},
+        "stage_ladder_length": 3,
+        "status_mismatch": false,
+        "uncovered_items": []
+      }
+    },
+    {
+      "cmd": [
+        "coverage_check.py",
+        "{C}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/nope",
+        "error": "course.json unreadable: FileNotFoundError: [Errno 2] No such file or directory: '<TMP>/courses/nope/course.json'"
+      }
+    }
+  ]
+}

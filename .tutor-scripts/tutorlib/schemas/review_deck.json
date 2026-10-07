@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "subjects/<course_id>_review_deck.json (schema_version 1)",
+  "type": "object",
+  "required": ["cards"],
+  "properties": {
+    "schema_version": {"type": "integer"},
+    "course_id": {"type": "string"},
+    "cards": {"type": "array", "items": {"type": "object", "required": ["id", "front", "back", "interval_sessions", "ease", "lapses", "due_at_slot"], "properties": {
+      "id": {"type": "string", "minLength": 1}, "stage_id": {"type": "string"},
+      "item_id": {"type": ["string", "null"]}, "criterion": {"type": ["string", "null"]},
+      "front": {"type": "string"}, "back": {"type": "string"},
+      "interval_sessions": {"type": "integer", "minimum": 1}, "ease": {"type": "number", "minimum": 1},
+      "lapses": {"type": "integer", "minimum": 0}, "due_at_slot": {"type": "integer", "minimum": 0}}}}
+  }
+}

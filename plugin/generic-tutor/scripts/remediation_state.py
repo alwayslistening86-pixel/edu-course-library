@@ -66,21 +66,21 @@ Output: JSON to stdout.
 """
 import json
 import sys
+from tutorlib import cli, consent, filelock, ledger, state
 
 CAP = 2  # attempts before escalation — attempt 1 and attempt 2 are system-driven; attempt 3 never fires
 
 
 def _load(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return state.load(path, "subjects")
 
 
 def _save(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    state.save(path, data, "subjects")
 
 
+@ledger.logged("remediation_state.py", "subjects_path")
+@filelock.locked("subjects_path")
 def record(subjects_path, stage_id, cause, current_slot):
     d = _load(subjects_path)
     rem = d.setdefault("remediation", {})
@@ -104,7 +104,6 @@ def record(subjects_path, stage_id, cause, current_slot):
 
     entry["attempts"] += 1
     entry["last_cause"] = cause
-    same_cause_as_last = None  # only meaningful from attempt 2 on; harmless to omit on attempt 1
 
     if entry["attempts"] == 1:
         action = "same_framework_reexplain"
@@ -123,9 +122,12 @@ def record(subjects_path, stage_id, cause, current_slot):
                   "expected. Logged for course-auditor's cohort-wide rollup.")
 
     rem[stage_id] = entry
-    _save(subjects_path, d)
+    allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
+    if allowed:
+        _save(subjects_path, d)
 
     return {
+        **({} if allowed else consent.skipped(cstatus, consent.PROGRESS)),
         "action": action,
         "stage_id": stage_id,
         "attempts": entry["attempts"],
@@ -136,12 +138,17 @@ def record(subjects_path, stage_id, cause, current_slot):
     }
 
 
+@ledger.logged("remediation_state.py", "subjects_path")
+@filelock.locked("subjects_path")
 def reset(subjects_path, stage_id):
     d = _load(subjects_path)
     rem = d.setdefault("remediation", {})
     had_entry = stage_id in rem
     if had_entry:
         rem.pop(stage_id, None)
+        allowed, cstatus = consent.check(subjects_path, consent.PROGRESS)
+        if not allowed:
+            return {"action": "reset", "stage_id": stage_id, "had_entry": had_entry, **consent.skipped(cstatus, consent.PROGRESS)}
         _save(subjects_path, d)
     return {"action": "reset", "stage_id": stage_id, "had_entry": had_entry}
 
@@ -159,7 +166,7 @@ def main():
     if len(sys.argv) < 3:
         print(json.dumps({"error": "usage: remediation_state.py record|reset|status <subjects.json> <stage_id> [cause] [current_slot]"}))
         sys.exit(2)
-    cmd, subjects_path, stage_id = sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None
+    cmd, subjects_path = sys.argv[1], sys.argv[2]
     try:
         if cmd == "record":
             if len(sys.argv) != 6:
@@ -179,11 +186,12 @@ def main():
         else:
             print(json.dumps({"error": f"unknown subcommand {cmd!r}, expected record|reset|status"}))
             sys.exit(2)
-    except (FileNotFoundError, json.JSONDecodeError) as e:
+    except cli.EXPECTED_ERRORS as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)
-    print(json.dumps(result, indent=2))
+    sys.exit(cli.emit(result))
 
 
 if __name__ == "__main__":
+    cli.handle_help(__doc__)
     main()

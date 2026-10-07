@@ -1,0 +1,19 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "invariants.py",
+        "{L}",
+        "{C}"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "ok": true,
+        "problem_count": 0,
+        "problems": []
+      }
+    }
+  ]
+}

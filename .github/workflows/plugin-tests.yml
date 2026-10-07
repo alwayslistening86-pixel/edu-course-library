@@ -2,15 +2,25 @@ name: generic-tutor plugin tests
 
 on:
   push:
-    branches: [main]
+    branches: ["**"]          # every branch, so a long-running branch gets feedback before it has a pull request
     paths:
       - "plugin/generic-tutor/**"
       - ".tutor-scripts/**"
+      - "pyproject.toml"
+      - "tools/**"
+      - ".claude-plugin/**"
+      - "docs/**"
+      - "*.md"
       - ".github/workflows/plugin-tests.yml"
   pull_request:
     paths:
       - "plugin/generic-tutor/**"
       - ".tutor-scripts/**"
+      - "pyproject.toml"
+      - "tools/**"
+      - ".claude-plugin/**"
+      - "docs/**"
+      - "*.md"
       - ".github/workflows/plugin-tests.yml"
   workflow_dispatch: {}
 
@@ -20,12 +30,16 @@ jobs:
     defaults:
       run:
         working-directory: plugin/generic-tutor
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12", "3.13"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python-version }}
 
       # The plugin's test suite is deliberately stdlib-only (unittest, tempfile,
       # sqlite3) -- no requirements.txt, nothing to install. It never touches a
@@ -35,13 +49,99 @@ jobs:
       - name: Run full test suite
         run: python3 -m unittest discover tests -v
 
+  # The real deployment is Windows, so the whole suite also runs on windows-latest (green since v1.45.2).
+  test-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: plugin/generic-tutor
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - name: Run full test suite
+        shell: pwsh
+        run: |
+          python -m unittest discover tests 2>&1 | Tee-Object -FilePath ../../win-test.log | Out-Null
+          $code = $LASTEXITCODE
+          Write-Output "---- failing tests ----"
+          Select-String -Path ../../win-test.log -Pattern '^(FAIL|ERROR): ' | ForEach-Object { $_.Line }
+          Select-String -Path ../../win-test.log -Pattern '^[-+] ' | Select-Object -First 40 | ForEach-Object { $_.Line }
+          Select-String -Path ../../win-test.log -Pattern '^(FAIL|ERROR): ' -Context 0,14 | Select-Object -First 6 | ForEach-Object { $_.ToString() }
+          Select-String -Path ../../win-test.log -Pattern '^(Ran |FAILED|OK)' | ForEach-Object { $_.Line }
+          exit $code
+
+  docs-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - run: python3 tools/lint_docs.py --strict
+      - run: python3 tools/tasks_status.py --check
+      - run: python3 tools/scan_repo.py
+      - name: Command context budget (ratchet)
+        run: python3 tools/context_budget.py --check
+      - name: CHANGELOG has an entry for the current plugin version
+        run: |
+          v=$(python3 -c "import json;print(json.load(open('plugin/generic-tutor/.claude-plugin/plugin.json'))['version'])")
+          grep -q "^## \[$v\]" CHANGELOG.md || { echo "CHANGELOG.md has no '## [$v]' entry"; exit 1; }
+
+  plugin-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+      - run: npm install -g @anthropic-ai/claude-code
+      - name: Validate plugin, skills, commands and marketplace manifests
+        run: |
+          claude plugin validate plugin/generic-tutor --strict
+          claude plugin validate plugin/generic-tutor/skills --strict
+          claude plugin validate plugin/generic-tutor/commands --strict
+          claude plugin validate . --strict
+      - name: Plugin zip builds deterministically
+        run: |
+          python3 tools/build_plugin.py --out /tmp/a.plugin
+          python3 tools/build_plugin.py --out /tmp/b.plugin
+          cmp /tmp/a.plugin /tmp/b.plugin
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - run: pip install ruff==0.15.20 mypy==1.20.2
+      - name: ruff (lint only; formatting is not enforced, see pyproject.toml)
+        run: ruff check plugin .github
+      - name: mypy
+        run: mypy plugin/generic-tutor/scripts
+
+  # Longer composition fuzz than the fixed-seed subset in the unit tests. Seeds are the sequence
+  # numbers 0..N-1, so any failure is reproduced by `python3 tests/fuzz_lifecycle.py N`.
+  fuzz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - name: Lifecycle fuzz (1000 sequences x 25 steps)
+        working-directory: plugin/generic-tutor
+        run: python3 tests/fuzz_lifecycle.py 1000 25
+
   # The deployed runtime copy must match the plugin source exactly (only the
   # generated .manifest.json is allowed to exist on one side), and its recorded
   # version must match plugin.json.
   deployed-sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: .tutor-scripts matches plugin/generic-tutor/scripts
         run: diff -r -x .manifest.json -x __pycache__ plugin/generic-tutor/scripts .tutor-scripts
       - name: Manifest version matches plugin.json

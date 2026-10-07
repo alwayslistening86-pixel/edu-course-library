@@ -1,18 +1,39 @@
 ---
 name: data-erasure
-description: Permanently deletes the active learner's data on request, giving real effect to consent.status "revoked" rather than leaving it as a flag nothing acts on. Requires explicit confirmation — this is irreversible.
+description: Permanently deletes the active learner's data on request via /erase, giving real effect to consent.status "revoked" rather than leaving it as a flag nothing acts on. Deletion is done by erase_profile.py after the learner types an exact confirmation phrase — irreversible.
 ---
 
 # Data Erasure
 
+**Contract**
+- **Owns:** deletion of `/EDU/profile/<user_id>/` (nothing else).
+- **Reads:** the dry-run report (`erase_profile.py --dry-run`).
+- **Calls:** `erase_profile.py`, `purge_history.py` (when the learner wants less than everything gone).
+- **Emits:** what will be removed, the exact phrase to type, then the result.
+- **Never:** deletes on an inferred or one-word request; touches `/EDU/courses/`; touches another learner; deletes by any means other than the script.
+
 ## Invocation
-`/erase`, for the currently active learner only, and only with an explicit confirmation token supplied in the same or a following message — this is a genuinely irreversible action and should be treated with the same weight as any other permanent-deletion request: confirm plainly what will be removed before doing it, and do not proceed on an ambiguous or one-word request alone.
+`/erase`, for the currently active learner only. Never runs on inferred intent.
 
-## What gets removed
-The learner's entire `/EDU/profile/<user_id>/` folder — `student_profile.json`, every `subjects/<course_id>.json`, every review deck. This is a different and stronger action than `consent.status: "revoked"` alone (which, per `profile-kernel`, only stops *future* writes) — erasure removes what's already stored.
+## Procedure
+1. **Show what will go.** Run the script in dry-run mode and read the result to the learner in plain words (profile, N progress files, review decks, and the history database if `has_history_db`):
+   ```
+   python3 /EDU/.tutor-scripts/erase_profile.py <the /EDU/profile/ dir> <active user_id> --dry-run
+   ```
+2. **Ask for the phrase.** The learner must type exactly `ERASE <user_id>` (the script returns it as `required_confirmation`). A "yes", "ok" or any near-miss is not confirmation — say so and ask again; do not proceed.
+3. **Erase** only after the learner has typed the exact phrase. Compare their message to `required_confirmation` yourself; when it matches, run the command with the phrase *from the script's output* — never paste the learner's raw message into the command line:
+   ```
+   python3 /EDU/.tutor-scripts/erase_profile.py <the /EDU/profile/ dir> <active user_id> --confirm "ERASE <user_id>"
+   ```
+4. Report the result from the script's output (`erased: true`, file count). If it returns an `error`, say what it said and that nothing was deleted.
 
-## What doesn't get removed
-Shared course content under `/EDU/courses/` is untouched — it belongs to no single learner and other learners may still be enrolled in it. If this was the only learner enrolled in a given course, that course simply becomes unenrolled, not deleted; `course-auditor` will surface it as having no active enrollments on its next pass, but does not delete course content on that basis alone.
+## Less than everything (`/erase history` or `/erase course <course_id>`)
+If the learner wants only the analytics history gone, or one course removed, use `purge_history.py <the /EDU/profile/ dir> <active user_id> history` or `… course <course_id>`. Same discipline: run it without `--confirm` first, read back what it would remove, ask the learner to type the exact `required_confirmation` phrase (`PURGE <user_id> history` / `PURGE <user_id> <course_id>`), then repeat with `--confirm`. `history` keeps all progress; `course` deletes that enrolment (suggest `/drop` if they only want a pause).
+
+## What is removed / kept
+Removed: the learner's entire folder — `student_profile.json`, every `subjects/<course_id>.json`, every review deck, `tutor.sqlite3` (the history database) and any lock/backup files in it. This is stronger than `consent.status: "revoked"`, which only stops future writes (enforced in code by every script).
+
+Kept: shared course content under `/EDU/courses/` (it belongs to no single learner; a course with no remaining enrolments is surfaced by `course-auditor`, not deleted). Backups (`/backup` writes to `<root>/backups/`, outside the learner folder) and exports the learner saved are **not** deleted — say so plainly and tell them where they are, because they still contain the learner's data.
 
 ## After erasure
-Confirm plainly what was removed. If the learner wants to start again later, that's a fresh `/add-profile` — nothing about this system treats a prior, erased profile as recoverable, by design.
+There is no active profile; the learner starts again with `/add-profile`. Nothing treats an erased profile as recoverable, by design.

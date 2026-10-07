@@ -3,5 +3,6 @@ description: Show or update the currently active learner's full aggregated profi
 ---
 
 @${CLAUDE_PLUGIN_ROOT}/skills/profile-kernel/SKILL.md
+@${CLAUDE_PLUGIN_ROOT}/skills/profile-kernel/profile-schema.md
 
 Run the `/profile` behavior described above for the currently active learner.
