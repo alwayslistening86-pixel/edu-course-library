@@ -5,7 +5,7 @@ Eval harness (A-01): run a suite's cases through a backend N times, score, repor
                           [--model sonnet] [--samples 3] [--workers 4] [--limit K] [--out report.json]
     python -m evals check <report.json> [baseline.json]
 
-Suites (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints, recheck, fading, locale; each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
+Suites (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints, recheck, fading, locale, wellbeing; each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
 override): grading, safety, injection, diagnostics, gates. Backends:
     claude        the `claude` CLI, model-in-the-loop (manual / nightly; uses quota)
     oracle        a perfect responder built from each case's reference label (sanity: must score 100%)
@@ -29,7 +29,7 @@ import time
 
 from evals import backends
 
-SUITES = ("grading", "safety", "injection", "diagnostics", "gates", "criteria", "accessibility", "hints", "recheck", "fading", "locale")
+SUITES = ("grading", "safety", "injection", "diagnostics", "gates", "criteria", "accessibility", "hints", "recheck", "fading", "locale", "wellbeing")
 AGREEMENT_FLOOR = 0.67
 HERE = os.path.dirname(os.path.abspath(__file__))
 
