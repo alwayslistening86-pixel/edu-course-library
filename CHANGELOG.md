@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.93.1] — 2026-10-07
+### Changed
+- Lock waits can be lengthened and say who holds the lock. EDU_LOCK_TIMEOUT (whole seconds, 1 to 600; default unchanged at 10) lets writers queue for longer on slow media, the stale-lock age follows it, and a lock timeout now names the process holding the lock and for how long. Why: the Windows test where twelve writers queue on one lock failed again on a loaded runner with a plain timeout; twelve writers each holding the lock through two JSON writes and a history insert can legitimately outlast ten seconds on a slow disk, and the message gave no way to tell a slow holder from a stuck lock file. The test now gives the queue 120 seconds. No change to behaviour without the variable.
+
 ## [1.93.0] — 2026-10-07
 ### Changed
 - L-06: review cards have types. A card may now be basic (the default), cloze, explain_why or worked_step. deck_add.py rejects a card that does not fit its declared type, review_select.py returns the type, a prompt with cloze blanks shown as [...] and the cloze answers, the Anki export tags the two non-cloze types, and stage-recap and review-scheduler say how to author and present each. Why: every card was a question and an answer, which suits facts but not reasons or procedures. The field is optional and absent means basic, so existing decks need no migration. Whether the tutor presents each type well is not evaluated yet.

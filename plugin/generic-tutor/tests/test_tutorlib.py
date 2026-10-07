@@ -152,6 +152,35 @@ class FileLock(TmpCase):
         self.assertFalse(os.path.exists(self.p("y.json.lock")))
 
 
+class LockWait(TmpCase):
+    def test_default_timeout_and_env_override(self):
+        self.assertEqual(filelock.default_timeout({}), filelock.TIMEOUT_SECONDS)
+        self.assertEqual(filelock.default_timeout({filelock.TIMEOUT_ENV: "45"}), 45.0)
+        for bad in ("", "0", "-3", "abc", "1.5", "601", "999999"):
+            self.assertEqual(filelock.default_timeout({filelock.TIMEOUT_ENV: bad}), filelock.TIMEOUT_SECONDS, bad)
+
+    def test_stale_age_follows_a_longer_wait(self):
+        with mock.patch.dict(os.environ, {filelock.TIMEOUT_ENV: "120"}):
+            self.assertEqual(filelock.file_lock(self.p("x.json")).stale, 240.0)
+        self.assertEqual(filelock.file_lock(self.p("x.json")).stale, filelock.STALE_SECONDS)
+        self.assertEqual(filelock.file_lock(self.p("x.json"), stale=5).stale, 5)
+
+    def test_timeout_message_names_the_holder(self):
+        lock = self.p("x.json.lock")
+        with open(lock, "w") as f:
+            f.write(f"{os.getpid()} {time.time() - 3}\n")
+        with self.assertRaises(filelock.LockTimeout) as cm:
+            filelock.file_lock(self.p("x.json"), timeout=0.1, stale=999).__enter__()
+        self.assertRegex(str(cm.exception), rf"held by process {os.getpid()} for 3\.\d+s")
+
+    def test_timeout_message_survives_an_unreadable_lock(self):
+        with open(self.p("x.json.lock"), "w") as f:
+            f.write("garbage")
+        with self.assertRaises(filelock.LockTimeout) as cm:
+            filelock.file_lock(self.p("x.json"), timeout=0.1, stale=999).__enter__()
+        self.assertNotIn("held by", str(cm.exception))
+
+
 class ConcurrentScriptCalls(TmpCase):
     def test_parallel_error_log_appends_all_land(self):
         subj = self.p("course.json")
@@ -159,9 +188,13 @@ class ConcurrentScriptCalls(TmpCase):
             json.dump({"schema_version": 5, "course_id": "c", "error_patterns": [], "item_mastery": {}}, f)
         script = os.path.join(SCRIPTS, "error_log.py")
         n = 12
+        # Twelve writers queue behind one lock; each holds it for a few JSON writes and a history insert, so on a slow or
+        # loaded disk (a Windows runner with a virus scanner) the last in line can wait longer than the 10 s default.
+        # The test is about no lost entries, not about latency, so it gives the queue time (EDU_LOCK_TIMEOUT).
+        env = {**os.environ, filelock.TIMEOUT_ENV: "120"}
         procs = [subprocess.Popen(
             [sys.executable, script, "append", subj, "S1", f"I{i}", "practice", "slip", "NONE", f"note {i}", str(i)],
-            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) for i in range(n)]
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env) for i in range(n)]
         outs = [p.communicate() for p in procs]
         for (out, err), p in zip(outs, procs, strict=True):
             self.assertEqual(p.returncode, 0, out + err)

@@ -30,7 +30,7 @@ Symptom → meaning → what to do. Start with `/doctor`; it names most of these
 - **A learner file is damaged:** `/restore <latest backup>` (dry-run first). `--user-id copy` restores beside the original so you can compare.
 - **Lost a backup:** old backups are in `backups/` next to `profile/`; each restore also leaves a `…-pre-restore.zip`.
 - **Upgrade went wrong:** scripts are in `.tutor-scripts/` and are rebuilt from the plugin on `/run`; progress files are not touched by upgrades. To roll back, install the previous plugin version; a newer-than-supported progress file is refused rather than rewritten.
-- **Two sessions at once:** writes are locked per file; if one waits too long you'll see a lock timeout — retry.
+- **Two sessions at once:** writes are locked per file; if one waits too long you'll see a lock timeout (it now says which process holds the lock and for how long) — retry. On a slow disk, such as a removable stick, set `EDU_LOCK_TIMEOUT` to a whole number of seconds (1 to 600; the default is 10) to let writers queue for longer.
 
 ## Reporting a problem
 Include the output of `/doctor`, the plugin version (`.tutor-scripts/.manifest.json`), and what you typed. Never paste your profile folder; it holds personal data.
