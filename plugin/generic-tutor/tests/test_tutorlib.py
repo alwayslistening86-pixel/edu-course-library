@@ -90,6 +90,57 @@ class FileLock(TmpCase):
             pass
         self.assertFalse(os.path.exists(lp))
 
+    def _fail_first(self, name, n, exc):
+        """Patch os.<name> to raise `exc` for the first n calls, then behave normally; return the call counter."""
+        real, calls = getattr(os, name), {"n": 0}
+
+        def flaky(*a, **kw):
+            calls["n"] += 1
+            if calls["n"] <= n:
+                raise exc
+            return real(*a, **kw)
+        patcher = mock.patch.object(filelock.os, name, flaky)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        return calls
+
+    def test_windows_style_permission_error_while_creating_is_retried(self):
+        self.addCleanup(setattr, filelock, "PERMISSION_IS_CONTENTION", filelock.PERMISSION_IS_CONTENTION)
+        filelock.PERMISSION_IS_CONTENTION = True
+        calls = self._fail_first("open", 3, PermissionError(13, "Access is denied"))
+        with filelock.file_lock(self.p("x.json"), timeout=5):
+            self.assertTrue(os.path.exists(self.p("x.json.lock")))
+        self.assertGreater(calls["n"], 3)
+        self.assertFalse(os.path.exists(self.p("x.json.lock")))
+
+    def test_a_real_permission_error_elsewhere_still_surfaces_at_once(self):
+        self.addCleanup(setattr, filelock, "PERMISSION_IS_CONTENTION", filelock.PERMISSION_IS_CONTENTION)
+        filelock.PERMISSION_IS_CONTENTION = False
+        self._fail_first("open", 99, PermissionError(13, "Permission denied"))
+        with self.assertRaises(PermissionError):
+            with filelock.file_lock(self.p("x.json"), timeout=5):
+                pass
+
+    def test_a_timeout_names_the_underlying_error(self):
+        self.addCleanup(setattr, filelock, "PERMISSION_IS_CONTENTION", filelock.PERMISSION_IS_CONTENTION)
+        filelock.PERMISSION_IS_CONTENTION = True
+        self._fail_first("open", 10 ** 6, PermissionError(13, "Access is denied"))
+        with self.assertRaises(filelock.LockTimeout) as cm:
+            with filelock.file_lock(self.p("x.json"), timeout=0.2):
+                pass
+        self.assertIn("PermissionError", str(cm.exception))
+
+    def test_a_brief_permission_error_while_unlocking_is_retried_so_no_lock_is_left_behind(self):
+        with filelock.file_lock(self.p("x.json")):
+            calls = self._fail_first("unlink", 2, PermissionError(13, "Access is denied"))
+        self.assertGreaterEqual(calls["n"], 3)
+        self.assertFalse(os.path.exists(self.p("x.json.lock")))
+
+    def test_a_permanent_unlink_failure_does_not_raise(self):
+        with filelock.file_lock(self.p("x.json")):
+            self._fail_first("unlink", 10 ** 6, PermissionError(13, "Access is denied"))
+        # the lock file is left for the stale-lock rule; the caller's work is not turned into an error
+
     def test_decorator_locks_named_argument(self):
         seen = []
 

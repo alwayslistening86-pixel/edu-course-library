@@ -12,6 +12,12 @@ subjects file). A lock older than STALE_SECONDS is assumed to belong to a
 crashed process and is broken. If the lock cannot be acquired within TIMEOUT
 seconds a LockTimeout is raised -- callers surface it as an error rather than
 writing unlocked.
+
+Windows: a lock file that another process is deleting (or that an indexer or
+antivirus scanner briefly holds open) reports PermissionError, not
+FileExistsError, when we try to create it, and the same can make our own
+unlink fail once. Both are contention, not a real permission problem, so on
+Windows they are retried; elsewhere a PermissionError still surfaces at once.
 """
 import functools
 import inspect
@@ -22,6 +28,8 @@ import time
 TIMEOUT_SECONDS = 10.0
 STALE_SECONDS = 60.0
 POLL_SECONDS = 0.02
+UNLINK_ATTEMPTS = 8
+PERMISSION_IS_CONTENTION = os.name == "nt"
 
 _held = threading.local()
 
@@ -55,10 +63,12 @@ class file_lock:
                 os.write(fd, f"{os.getpid()} {time.time()}\n".encode())
                 os.close(fd)
                 break
-            except FileExistsError:
+            except (FileExistsError, PermissionError) as e:
+                if isinstance(e, PermissionError) and not PERMISSION_IS_CONTENTION:
+                    raise
                 self._break_if_stale()
                 if time.monotonic() >= deadline:
-                    raise LockTimeout(f"could not lock {self.target} within {self.timeout}s") from None
+                    raise LockTimeout(f"could not lock {self.target} within {self.timeout}s ({type(e).__name__}: {e})") from None
                 time.sleep(POLL_SECONDS)
         held[self.lock_path] = 1
         return self
@@ -75,11 +85,21 @@ class file_lock:
         held[self.lock_path] -= 1
         if held[self.lock_path] == 0:
             del held[self.lock_path]
+            self._unlink_lock()
+        return False
+
+    def _unlink_lock(self):
+        """Remove the lock file; a brief PermissionError (Windows) is retried, any other failure leaves it to the stale-lock rule."""
+        for attempt in range(UNLINK_ATTEMPTS):
             try:
                 os.unlink(self.lock_path)
+                return
+            except PermissionError:
+                if attempt == UNLINK_ATTEMPTS - 1:
+                    return
+                time.sleep(POLL_SECONDS * (attempt + 1))
             except OSError:
-                pass
-        return False
+                return
 
 
 def locked(param):
