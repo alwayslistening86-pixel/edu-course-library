@@ -76,12 +76,13 @@ resolve only); query is read-only.
 import json
 import os
 import sys
-from tutorlib import cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, contact, filelock, ledger, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
 import sqlite_store  # noqa: E402
 
+NOTE_MAX = 400  # characters; a note names the mistake, it is not a transcript of the exchange
 CAUSES = ("slip", "missing_prerequisite", "misconception", "misapplied_procedure", "comprehension")
 
 
@@ -105,6 +106,12 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         return {"error": f"cause must be one of {CAUSES}, got {cause!r}"}
     if source_phase not in ("practice", "test"):
         return {"error": f"source_phase must be 'practice' or 'test', got {source_phase!r}"}
+    note = " ".join(str(note or "").split())
+    if len(note) > NOTE_MAX:
+        return {"error": f"the note is {len(note)} characters; keep it to {NOTE_MAX} or fewer and describe the mistake, not the conversation"}
+    found = contact.contact_details(note)
+    if found:
+        return {"error": f"the note contains a {' and a '.join(found)}; a note names the mistake and never a way to contact anyone"}
 
     d = _load(subjects_path)
     entries = d.setdefault("error_patterns", [])

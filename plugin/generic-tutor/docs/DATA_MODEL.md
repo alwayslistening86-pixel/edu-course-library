@@ -59,7 +59,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | `current_stage` / `current_phase` | string / `lesson\|practice\|test` | `record_stage_result.py` (stage, and `lesson` on advance); `session_state.py phase` |
 | `exam_status` | `locked\|available\|passed` | `session_state.py exam` (refuses `available` until every stage is satisfied) |
 | `confidence` | float in [0,1], default 0.5 | `confidence_update.py apply` |
-| `error_patterns[]` | `{id, stage_id, item_id, source_phase, cause, misconception_id, rubric_criterion, note, slot, resolved, resolved_at_slot}` | `error_log.py` |
+| `error_patterns[]` | `{id, stage_id, item_id, source_phase, cause, misconception_id, rubric_criterion, note, slot, resolved, resolved_at_slot}` | `error_log.py` (`note` at most 400 characters, whitespace collapsed, and refused if it holds an email address, web address or phone number; `cause` one of five) |
 | `item_mastery{item_id}` | `{p_mastery, observations, …}` | `item_mastery.py` |
 | `remediation{stage_id}` | `{attempts, last_cause, escalated, escalated_at_slot}` | `remediation_state.py` |
 | `goal_map` | `[{goal, items[], set_on}]` — optional: which syllabus items each of the learner's goals means (the tutor's reading, confirmed with the learner); up to 60 items per goal | `goal_map.py set/clear` (progress class); read by `goal_map.py report` |

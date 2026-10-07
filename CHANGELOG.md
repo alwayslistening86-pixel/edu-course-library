@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.93.3] — 2026-10-07
+### Changed
+- B-04.5h and B-04.5i (ADR 0012): free text a script stores is screened, and a remediation cause must be one of the five. An error note is capped at 400 characters and refused if it contains an email address, web address or phone number; a session summary is refused for the same; remediation_state.py record refuses a cause that is not slip, missing_prerequisite, misconception, misapplied_procedure or comprehension. Why: notes were stored in the progress file, the history database, backups and exports with no limit or check, and remediation stored any string as the cause so its escalation advice could not match the error log. Refusals write nothing and name the problem without repeating the value. The screen catches contact details only, not names or disclosures, which stay the tutor's own rule.
+
 ## [1.93.2] — 2026-10-07
 ### Changed
 - B-04.5a (ADR 0012): a mistyped true/false flag is now an error instead of a quiet false. diagnostic_gate.py, item_mastery.py observe and review_math.py (both forms) accept only true or false (any case) and refuse anything else with a message naming the field, writing nothing. Why: they read every other word as false, so a right answer sent as yes, 1 or ture was recorded as a wrong one, lowering mastery and shortening a review interval, with no sign anything had gone wrong.

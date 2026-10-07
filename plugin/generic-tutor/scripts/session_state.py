@@ -24,7 +24,7 @@ import json
 import sys
 
 from cohort_status import LIVE_STATES, stage_satisfied
-from tutorlib import cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, contact, filelock, ledger, state
 
 PHASES = ("lesson", "practice", "test")
 EXAM_ORDER = ("locked", "available", "passed")
@@ -111,6 +111,9 @@ def write_note(subjects_path, today_iso, text):
         return {"error": "the summary is empty"}
     if len(text) > NOTE_MAX:
         return {"error": f"the summary is {len(text)} characters; keep it to {NOTE_MAX} or fewer (one or two sentences)"}
+    found = contact.contact_details(text)
+    if found:
+        return {"error": f"the summary contains a {' and a '.join(found)}; a summary says what was covered and never a way to contact anyone"}
     d = state.load(subjects_path, "subjects")
     d["last_session_summary"] = text
     d["last_updated"] = today_iso
