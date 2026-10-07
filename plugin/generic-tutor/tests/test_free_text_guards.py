@@ -67,7 +67,7 @@ class Notes(unittest.TestCase):
 
     def test_session_summary_is_screened(self):
         before = self.raw()
-        r = session_state.write_note(self.subj, "2026-10-07", "Covered fractions; email is a@b.com")
+        r = session_state.write_note(self.subj, "2026-10-07", "Covered fractions; email is " + "someone" + "@" + "example.net")
         self.assertIn("email address", r["error"])
         self.assertEqual(self.raw(), before)
         self.assertNotIn("error", session_state.write_note(self.subj, "2026-10-07", "Covered adding fractions."))
