@@ -8,21 +8,22 @@ The idea that shapes everything: **the model talks, scripts decide and write.** 
 - **Teaches against a source.** Courses carry a sourced rubric, an itemised specification and a coverage check; a live recheck notices when the source changes. A course that cannot be verified is suspended, never quietly taught.
 - **Tracks and adapts.** Per-learner progress, per-item mastery, a diagnosis of *why* an answer was wrong (slip, missing prerequisite, misconception, wrong procedure, misread), worked examples that fade as mastery grows, interleaved practice, spaced review, a hint ladder that keeps the answer for last, and honest "am I ready?" readouts that never pretend to be a grade.
 - **Keeps itself honest.** Consent enforced in code, atomic writes and locks, a session ledger that flags a missed bookkeeping step, schema and invariant checks, an injection scanner for web-derived content, checksummed backups and erase-on-request. Optional Claude Code hooks add a second net.
-- **Looks after the library.** `/audit` checks structure, grounding and coverage and has an enrichment pass for question banks and misconceptions; `/doctor` checks a learner's setup; a read-only toolkit shows status without opening a session.
+- **Looks after the library.** `/audit` checks structure, grounding and coverage and has an enrichment pass for question banks and misconceptions, each labelled by provenance (board-documented where a board publishes examiner material, learner-observed from the library's own data, or plainly "plausible"); the compile gate refuses leftover template text, and a check flags quotation beyond the paraphrase policy; a course moves between libraries as a verified bundle with no learner data in it; `/doctor` checks a learner's setup; a read-only toolkit shows status without opening a session.
+- **Speaks the learner's language.** Spelling follows the learner's locale, and key terms can be glossed in a home language.
 - **Measures itself.** A dev-only eval suite (grading, safety, injection, diagnosis, hints, fading, accessibility, gates and more) scores skill changes against reference answers that need no human marker, and three self-authored sample courses mean none of it needs private content.
 
 ## Where it is going
 Accepted in direction, not yet designed in detail ([ADR 0010](docs/adr/0010-proposed-roles-and-portable-profile.md), tasks B-01 to B-06): a **portable profile** (learner state travels with the learner, so one shared engine serves many people without tenancy), a **local interface** over the scripts, and **role-separated models** (a local tutor voice, a stronger examiner, a staff channel, with Claude as the fallback teacher).
 
 ## Honest limits
-Learning outcomes have not been measured; that needs real learners over time. The evals are synthetic and easy. Windows is verified only on CI, and the Cowork surface is untested. The teaching loop is Claude-shaped today.
+Learning outcomes have not been measured; that needs real learners over time. Sourced misconceptions exist only where a source publishes them, and courses built before that step need an audit enrichment run. The evals are synthetic and easy. Windows is verified only on CI, and the Cowork surface is untested. The teaching loop is Claude-shaped today.
 
 ## Install
 ```
 claude plugin marketplace add alwayslistening86-pixel/edu-course-library
 claude plugin install generic-tutor@edu-course-library
 ```
-In Claude Cowork add the same GitHub repository as a marketplace in the plugin UI, then install `generic-tutor`. Needs Python 3.10+ and a connected folder containing `courses/`. Then: `/add-profile <name>` → `/add-course` → `/plan` → each session `/run <name>` and `/continue <course>`. `/help` lists everything; `/doctor` finds problems. Details: [`docs/INSTALL.md`](docs/INSTALL.md), [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md), [`docs/RUNBOOK.md`](docs/RUNBOOK.md).
+Each version is also on the [Releases page](https://github.com/alwayslistening86-pixel/edu-course-library/releases) as a `.plugin` zip. In Claude Cowork add the same GitHub repository as a marketplace in the plugin UI, then install `generic-tutor`. Needs Python 3.10+ and a connected folder containing `courses/`. Then: `/add-profile <name>` → `/add-course` → `/plan` → each session `/run <name>` and `/continue <course>`. `/help` lists everything; `/doctor` finds problems. Details: [`docs/INSTALL.md`](docs/INSTALL.md), [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md), [`docs/RUNBOOK.md`](docs/RUNBOOK.md).
 
 ## Repository map
 | Path | What |
