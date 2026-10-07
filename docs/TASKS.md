@@ -193,7 +193,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-06 🟡 | Card types: basic, cloze, "explain-why", worked-step; schema + presentation rules | Schema extension + migration | S-09 | M | 4 |
 | L-07 🟡 | Use `item_mastery` to drive *what to practise next* (selection algorithm), not only pacing hints | `next_items.py` + skill step; ablation eval | A-05 | L | 4 |
 | L-08 🟢 | **Exam simulation**: timed paper assembled from test/exam bank with mark scheme, timing guidance, honest marking, grade-boundary estimate with uncertainty | Skill K-31 + `assemble_paper.py` | N-07 | L | 4 |
-| L-09 🟢 | Exam technique content: command-word handling, mark-allocation heuristics, time per mark — as a per-course optional file `exam_technique.md` | Template + compiler step | N-05 | M | 4 |
+| L-09 ✅ | Exam technique content: command-word handling, mark-allocation heuristics, time per mark — as a per-course optional file `exam_technique.md` | Template + compiler step | N-05 | M | 4 |
 | L-10 🟢 | Readiness estimate: per-course, from item mastery + coverage + recent test results, presented with a confidence band and caveats | `readiness.py`; wording rules | L-07 | M | 4 |
 | L-11 🟡 | Worked-example fading policy: define when to give full/partial/no worked example by mastery band | Policy in tutor-core + eval | K-01 | S | 4 |
 | L-12 🟢 | Opt-in **deadline-aware planning**: learner may state an exam date; planner computes slots-needed vs slots-available and triage priorities without storing a calendar (date stored only as a single optional field with expiry) | ADR approving or rejecting; if approved, script + tests | — | L | 4 |
@@ -412,6 +412,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | R-17 | ✅ done | same workflow is the documented entry point |
 | S-12 | ✅ done | `misconceptions` schema + checked by `/doctor` and the content CI (not yet inside `postcompile_gate`) |
 | N-05 | ✅ done | `command_words` schema; `validate_structure.exam_guidance_status` reports both optional files; `postcompile_gate` blocks one that is present but malformed (no Source line, empty, bad schema, duplicate word); compiler Step 4.8 says when to write them. The tutor does not use them yet (L-09). No course has them: they need the audit enrichment run |
+| L-09 | ✅ done | `exam_guidance.py` (read-only) hands the tutor a course's `exam_technique.md` / `command_words.json`, or says plainly that the course holds none; `tutor-core/exam-technique.md` says to quote only that and never invent mark allocations, timings or what examiners look for, and not to teach technique inside a test. No course has the files yet, so today the tutor will say it holds no board guidance |
 | N-13 | ✅ done | the template's option lists (`currency`, `level_basis`) and the empty rubric `source` blocks were invalid as shipped; they are placeholders now. A test fills the template and runs `validate_structure`, `validate_schema`, `coverage_check` and `postcompile_gate` on it, so template drift fails CI. `postcompile_gate` now blocks any `{{PLACEHOLDER}}` left in a course file (0 hits across the 63 library courses). `_template/optional/` holds `exam_technique.md` and `command_words.json` stubs; nothing in the tutor reads those two files yet (N-05) (v1.84.0) |
 | N-14 | ✅ done | `CONTENT_CONTRACT.md` now has a *Course lifecycle* section: live, retiring, not-a-course, retired (`_historic/`) and owner scratch (`_staging/`), who moves what (only the owner moves folders; no skill or script does) and the `currency: historical` vs `_historic/` distinction. Two gaps the work exposed are closed: scans of the library listed any folder with a `course.json`, including a leftover `.import-x.tmp` (now `paths.course_ids` applies the id rule at all seven scan sites), and the auditor's `lifecycle: retiring` was prose with no code behind it (now a schema enum, `enrol.py` refuses new enrolments, `/list-courses` shows it). Building in `_staging/` and publishing by rename is N-15 (v1.85.0) |
 | N-15 | ✅ done | the compiler writes into a hidden `courses/.build-<id>/` and `publish_course.py publish` runs `postcompile_gate` then renames it into place, so a course appears whole or not at all and a failed or abandoned compile is never listed or enrollable; an existing course is never overwritten; `--override "<reason>"` ships a known gap and is reported; `discard` removes only a `.build-` folder; `/doctor` reports leftover `.build-`/`.import-` folders. Compiler steps 7-7.5 rewritten within the `/add-course` budget (v1.86.0) |
@@ -566,7 +567,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
 | 2 Plugin surface & trust | 76 | 72 | 3 | 1 |
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
-| 4 Learning design | 34 | 28 | 2 | 4 |
+| 4 Learning design | 34 | 29 | 2 | 3 |
 | 5 Content & ecosystem | 20 | 14 | 1 | 5 |
 | 6 Surfaces & deployment | 7 | 0 | 0 | 7 |
 
@@ -577,7 +578,7 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 | Finish the engine | 4 | 4 |
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 3 | 2 |
-| 4 | Learning design | 5 | 2 |
+| 4 | Learning design | 4 | 2 |
 | 5 | Measurement | 4 | 1 |
 | 6 | Content pipeline | 3 | 1 |
 | 7 | Surfaces & deployment | 7 | 0 |
@@ -593,11 +594,11 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | C Commands | 15 | 15 | 0 | 0 | 0 |
 | P Plugin surface | 19 | 16 | 2 | 0 | 1 |
 | V Trust & verification | 10 | 8 | 0 | 2 | 0 |
-| L Learning design | 22 | 18 | 1 | 0 | 3 |
+| L Learning design | 22 | 19 | 1 | 0 | 2 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
 | U Learner visibility | 7 | 7 | 0 | 0 | 0 |
 | N Content pipeline | 15 | 12 | 1 | 0 | 2 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **225** | **194** | **11** | **4** | **16** |
+| **Total** | **225** | **195** | **11** | **4** | **15** |
