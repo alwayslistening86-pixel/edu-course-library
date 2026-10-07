@@ -2,7 +2,7 @@
 
 Inventory of every persisted file, derived from the **scripts** (the executable truth), cross-checked against the skills. `/EDU/` below is the install's data root. When a skill and a script disagree, the script wins and the skill is a bug (tracked as S-xx).
 
-Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scripts/tutorlib/schemas/` (deployed with the scripts): `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric`, `misconceptions`, `question_bank`, `access`, `manifest`. `schemas/outputs/` holds shapes of script output that skills may quote (`plan_estimate`). Check any file with `validate_schema.py <kind> <file>`. `tests/test_schemas.py` validates every file the scripts write. This file explains ownership and intent; the schemas are the executable definition. Not schematised: `change.md` (checked by `change_log.py`), SQLite tables (checked by `sqlite_store.py`).
+Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scripts/tutorlib/schemas/` (deployed with the scripts): `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric`, `misconceptions`, `question_bank`, `command_words`, `access`, `manifest`. `schemas/outputs/` holds shapes of script output that skills may quote (`plan_estimate`). Check any file with `validate_schema.py <kind> <file>`. `tests/test_schemas.py` validates every file the scripts write. This file explains ownership and intent; the schemas are the executable definition. Not schematised: `change.md` (checked by `change_log.py`), SQLite tables (checked by `sqlite_store.py`).
 
 ## Layout and ownership
 
@@ -13,6 +13,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
     curriculum_map.json                written by: course-compiler; coverage_check.py reads
     rubric.json                        written by: course-compiler only; every entry sourced
     connectors.md                      written by: course-compiler (Step 6.5)
+    exam_technique.md, command_words.json   optional; written by: course-compiler (Step 4.8) only where the board publishes guidance; read by validate_structure (`exam_guidance_status`), blocking at the gate only if present and malformed
     change.md                          written by: course-runner / course-auditor (free text today; S-11)
     stages/<stage_id>/{lesson,practice,test}.md, misconceptions.json (optional)
     exam/exam.md                       only if course.json.exam.enabled

@@ -48,7 +48,7 @@ import json
 import os
 import sys
 
-from tutorlib import cli
+from tutorlib import cli, schema
 
 
 def _load_json(path):
@@ -137,6 +137,7 @@ def validate(course_dir):
 
     v13 = _v13_problems(course, ladder, os.path.dirname(os.path.abspath(course_dir)))
     misconceptions = _misconceptions_status(course_dir, ladder)
+    exam_guidance = _exam_guidance_status(course_dir)
 
     clean = not (missing_files or orphaned_stage_dirs or missing_rubric_entries or empty_source_entries or rubric_issue or v13)
 
@@ -151,6 +152,7 @@ def validate(course_dir):
         "empty_source_entries": empty_source_entries,
         "v13_problems": v13,
         "misconceptions_status": misconceptions,
+        "exam_guidance_status": exam_guidance,
     }
 
 
@@ -256,6 +258,46 @@ def _misconceptions_status(course_dir, ladder):
         "stages_total": len(ladder),
         "per_stage": per_stage,
     }
+
+
+def _exam_guidance_status(course_dir):
+    """N-05, non-blocking: the optional course-root `exam_technique.md` and `command_words.json`, written only where the
+    issuing body publishes guidance. Reports whether each exists and is well-formed; a missing file is never a failure.
+    exam_technique.md needs a `Source:` line naming a document and at least one non-heading line of content; command_words.json
+    must satisfy schemas/command_words.json and name each word once."""
+    out = {}
+    p = os.path.join(course_dir, "exam_technique.md")
+    if not os.path.isfile(p):
+        out["exam_technique"] = {"present": False}
+    else:
+        try:
+            with open(p, encoding="utf-8") as f:
+                lines = [ln.strip() for ln in f.read().splitlines()]
+        except (OSError, UnicodeDecodeError) as e:
+            out["exam_technique"] = {"present": True, "well_formed": False, "problems": [f"unreadable: {e}"]}
+            lines = None
+        if lines is not None:
+            problems = []
+            src = [ln for ln in lines if ln.lower().startswith("source:")]
+            if not src or len(src[0].split(":", 1)[1].strip()) < 5:
+                problems.append("no `Source:` line naming the document the guidance came from")
+            body = [ln for ln in lines if ln and not ln.startswith(("#", "<!--", "Source:", "source:"))]
+            if len(body) < 2:
+                problems.append("almost no content below the headings")
+            out["exam_technique"] = {"present": True, "well_formed": not problems, "problems": problems}
+    p = os.path.join(course_dir, "command_words.json")
+    if not os.path.isfile(p):
+        out["command_words"] = {"present": False}
+    else:
+        errors = schema.validate_file(p, "command_words")
+        words = []
+        if not errors:
+            words = [e["word"].strip().lower() for e in _load_json(p)["command_words"]]
+            dup = sorted({w for w in words if words.count(w) > 1})
+            if dup:
+                errors = [f"word listed more than once: {dup}"]
+        out["command_words"] = {"present": True, "well_formed": not errors, "count": len(words), "problems": errors[:5]}
+    return out
 
 
 def main():
