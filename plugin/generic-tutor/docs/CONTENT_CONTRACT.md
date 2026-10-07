@@ -15,7 +15,24 @@ What the engine expects of a course library, and what it promises back. The libr
   connectors.md            optional   records which suggested connectors are connected
   change.md                optional   dated records of detected source changes (facts and sources only); format below
 ```
-`<course_id>` is 1-64 letters, digits, `_`, `.`, `-`, starting with a letter or digit. Anything else in a course folder is ignored by the engine. `_staging/` and `_historic/` next to `courses/` are **not** courses: the engine never lists, teaches or counts them (staging = being compiled, historic = retired).
+`<course_id>` is 1-64 letters, digits, `_`, `.`, `-`, starting with a letter or digit. Anything else in a course folder is ignored by the engine. A folder in `courses/` is a course only if its name is a valid id **and** it holds a `course.json`; every script that scans the library applies that one rule (`tutorlib.paths.course_ids`), so a leftover `.import-<id>.tmp`, a `_scratch` folder or a stray directory is never listed, audited or counted. See *Course lifecycle* below for `_staging/` and `_historic/`.
+
+## Course lifecycle
+A course is in exactly one of these places. The engine decides what each means; people move courses between them.
+
+| Place | Meaning | Engine behaviour |
+|---|---|---|
+| `courses/<id>/`, `course.json` without `lifecycle` (or `"live"`) | **Live.** | Listed, audited, taught subject to the gates, open to new enrolments. |
+| `courses/<id>/`, `"lifecycle": "retiring"` in `course.json` | **Retiring**: a duplicate being phased out. | As live, except `enrol.py` refuses new enrolments and `/list-courses` labels it. Learners already enrolled carry on to completion. |
+| `courses/` entry that is not a valid id or has no `course.json` | **Not a course.** | Ignored everywhere, never an error. |
+| `_historic/<id>/` (next to `courses/`) | **Retired** by the library owner. | Never read, listed or taught. |
+| `_staging/` (next to `courses/`) | **Owner scratch space**: build and migration tooling, work in progress. | Never read or written. |
+
+- **Transitions.** live to retiring: the auditor's duplicate merge sets `lifecycle: retiring` in `course.json` when enrolled learners are far enough through a duplicate copy that they should finish on it. Retiring to retired, and retired back to live: the library owner moves the folder between `courses/` and `_historic/` by hand. The auditor, a skill or the model never moves, renames or deletes a course folder; once the last enrolled learner has finished or moved, the auditor only tells the owner the copy can go.
+- **A retired course and its learners.** A move touches no learner file. A learner enrolled in a retired course stops at the first gate with a `read_error` (the course cannot be read); their progress is untouched, and moving the folder back restores teaching.
+- **Who adds a course.** The compiler and `course_bundle.py import`, both into `courses/<id>/`, the latter only when asked.
+- **`currency: "historical"` is a different thing.** It is a field meaning the underlying subject is frozen or discontinued, so the live recheck is skipped permanently (gate 4). Such a course is still live and still taught. A course in `_historic/` is one the owner has retired. The words are similar; neither implies the other.
+- **A compile is visible while it runs.** The compiler writes straight into `courses/<id>/` (step 7) and runs the post-compile gate before enrolling anyone (step 8). Until the gate passes, the folder is already a live course to `/list-courses`. `_staging/` is not used for this today; building elsewhere and publishing by rename is tracked as N-15.
 
 ## Rules the engine enforces
 1. **Sourced rubric or no course.** Every ladder stage has a rubric entry whose `source` names issuing body, document and reference. The compiler never authors criteria.

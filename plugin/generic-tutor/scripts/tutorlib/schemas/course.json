@@ -63,6 +63,12 @@
         "historical"
       ]
     },
+    "lifecycle": {
+      "enum": [
+        "live",
+        "retiring"
+      ]
+    },
     "material_vintage": {
       "type": "string"
     },

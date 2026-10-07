@@ -76,9 +76,9 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 
 ## `course.json` (v4)
 
-Fields: `schema_version, name, requires_complete[(id | [any-of ids])], standalone, selected_options?, folder_access{status}, currency (live|historical), material_vintage, academic_level (int|null), level_source, level_basis (framework|declared|standalone), grounding_status (verified|suspended_ungrounded; `null` = unmigrated, set by `migrate_schema.py`, resolved by auditor Tier 3), last_live_recheck, coverage_status (full|partial|unverified; **derived** by `coverage_check.py`), stage_ladder[], linear, framework, practical_stages{stage_id: [capability]}, learner_notices[{id,text,stages,since}], exam{enabled, requires_all_stage_tests_passed}`; optional `suspension{…}` when suspended.
+Fields: `schema_version, name, requires_complete[(id | [any-of ids])], standalone, selected_options?, folder_access{status}, currency (live|historical), lifecycle? (live|retiring; absent = live), material_vintage, academic_level (int|null), level_source, level_basis (framework|declared|standalone), grounding_status (verified|suspended_ungrounded; `null` = unmigrated, set by `migrate_schema.py`, resolved by auditor Tier 3), last_live_recheck, coverage_status (full|partial|unverified; **derived** by `coverage_check.py`), stage_ladder[], linear, framework, practical_stages{stage_id: [capability]}, learner_notices[{id,text,stages,since}], exam{enabled, requires_all_stage_tests_passed}`; optional `suspension{…}` when suspended.
 
-Known issue: `_template/course.json` embeds prose in value positions (`"currency": "live | historical — …"`), so it is a skeleton, not a valid instance until filled (S-03).
+`_template/course.json` is a skeleton: every value to fill is a `{{PLACEHOLDER}}`, and the post-compile gate blocks any left in a course (N-13).
 
 ## `curriculum_map.json`
 
