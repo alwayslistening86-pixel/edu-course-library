@@ -111,7 +111,7 @@ def evaluate(subjects_path, stage_id, item_id, explicit_confusion, reasoning_mis
     entries = d.get("error_patterns", [])
     if not isinstance(entries, list):
         entries = []
-    unresolved_stage = [e for e in entries if isinstance(e, dict) and e.get("stage_id") == stage_id and not e.get("resolved")]
+    unresolved_stage = [e for e in entries if isinstance(e, dict) and e.get("stage_id") == stage_id and not e.get("resolved") and not e.get("mock")]   # a mock paper never triggers a diagnostic
 
     same_item_misses = sum(1 for e in unresolved_stage if e.get("item_id") == item_id)
     trigger_a = same_item_misses >= 2

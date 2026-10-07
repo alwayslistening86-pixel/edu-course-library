@@ -30,7 +30,8 @@ Each entry, appended to subjects/<course_id>.json's `error_patterns` list:
              model's own words",
     "slot": 214,
     "resolved": false,
-    "resolved_at_slot": null
+    "resolved_at_slot": null,
+    "mock": true            (only when logged with --mock; absent otherwise)
   }
 
 `rubric_criterion` (added alongside the pre-existing `stage_id`/`item_id`)
@@ -62,9 +63,13 @@ of one call without a second script invocation.
 
 Subcommands:
     append  <subjects.json> <stage_id> <item_id> <source_phase> <cause> \
-            <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]
+            <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock]
     resolve <subjects.json> <item_id> <current_slot> [cause|ANY]
     query   <subjects.json> [stage_id|ALL]
+
+`--mock` (a mock paper, ADR 0012 / B-04.5g): the error is recorded, and still shows as unresolved so the weak item gets practised, but it
+does not move `item_mastery` and is not counted towards `recurring` or `diagnostic_gate.py`'s triggers. A practice paper changes no
+progress estimate; the history database cannot tell a mock error apart (it records source_phase `test`).
 
 `append`'s output includes `recurring`: true once this exact (item_id, cause)
 pair has two or more *unresolved* entries — this is one of diagnostic_gate.py's
@@ -101,7 +106,7 @@ def _next_id(entries, stage_id, today_iso):
 
 @ledger.logged("error_log.py", "subjects_path")
 @filelock.locked("subjects_path")
-def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE"):
+def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE", mock=False):
     if cause not in CAUSES:
         return {"error": f"cause must be one of {CAUSES}, got {cause!r}"}
     if source_phase not in ("practice", "test"):
@@ -136,6 +141,8 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         "resolved": False,
         "resolved_at_slot": None,
     }
+    if mock:
+        entry["mock"] = True
     entries.append(entry)
     allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
     if not allowed:
@@ -145,13 +152,14 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
 
     unresolved_same_pair = sum(
         1 for e in entries
-        if isinstance(e, dict) and e.get("item_id") == item_id and e.get("cause") == cause and not e.get("resolved")
+        if isinstance(e, dict) and e.get("item_id") == item_id and e.get("cause") == cause and not e.get("resolved") and not e.get("mock")
     )
     cause_count_in_stage = sum(
         1 for e in entries
-        if isinstance(e, dict) and e.get("stage_id") == stage_id and e.get("cause") == cause and not e.get("resolved")
+        if isinstance(e, dict) and e.get("stage_id") == stage_id and e.get("cause") == cause and not e.get("resolved") and not e.get("mock")
     )
-    mastery_result = item_mastery.observe(subjects_path, item_id, False, current_slot)
+    mastery_result = ({"updated": False, "skipped": "mock paper: a practice paper changes no mastery estimate"} if mock
+                      else item_mastery.observe(subjects_path, item_id, False, current_slot))
     return {
         "action": "appended",
         "entry": entry,
@@ -250,13 +258,14 @@ def main():
     cmd, subjects_path = sys.argv[1], sys.argv[2]
     try:
         if cmd == "append":
-            if len(sys.argv) not in (10, 11):
-                print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]"}))
+            rest = [a for a in sys.argv[3:] if a != "--mock"]
+            mock = len(rest) != len(sys.argv[3:])
+            if len(rest) not in (7, 8):
+                print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock]"}))
                 sys.exit(2)
-            argv = list(sys.argv[3:11])
-            if argv[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
-                argv[5] = cli.read_stdin().strip()
-            result = append(subjects_path, *argv)
+            if rest[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
+                rest[5] = cli.read_stdin().strip()
+            result = append(subjects_path, *rest, mock=mock)
         elif cmd == "resolve":
             if len(sys.argv) not in (5, 6):
                 print(json.dumps({"error": "usage: error_log.py resolve <subjects.json> <item_id> <current_slot> [cause|ANY]"}))
