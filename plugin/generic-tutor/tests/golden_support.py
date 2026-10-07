@@ -72,6 +72,8 @@ def add_question_bank(courses, cid, n_per_stage=4):
                        "mark_scheme": [{"id": "M1", "marks": 1, "type": "M", "descriptor": "valid method"},
                                        {"id": "A1", "marks": marks - 1, "type": "A", "descriptor": "correct answer"}],
                        "model_answer": "42", "source": "self-authored for tests"})
+    qs[0]["key"] = {"kind": "numeric", "value": "42", "tolerance": {"abs": "0.5"}, "units": ["m"]}   # keyed questions (B-02.3)
+    qs[2]["key"] = {"kind": "short", "accepted": ["forty-two", "forty two"]}
     _w(os.path.join(courses, cid, "question_bank.json"), {"schema_version": 1, "questions": qs})
 
 

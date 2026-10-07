@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.95.0] — 2026-10-07
+### Changed
+- B-02.3 / B-04.5k: question-bank items can carry an answer key (mcq, numeric with tolerance and units, short answer); tutorlib/marking.py is a pure marking function, mark_answer.py is the read-only script, and /mock uses it for keyed questions instead of the model's judgment. exam_to_bank.py writes an mcq key only for a clean single-answer item. Papers never show the key (an mcq's options are shown). Why: ADR 0012 class 1, a model that could be wrong or lenient no longer decides correctness where a script can.
+
 ## [1.94.0] — 2026-10-07
 ### Changed
 - B-01.2: learner folders can live outside the data root (EDU_PROFILE_ROOT or resolve_root --profile-root; default unchanged). doctor, the toolkit and the hook guard follow it, so consent and script-owned-file protection hold on a separate drive. Why: ADR 0011 needs the profile on its own removable drive while courses and scripts stay with the engine.

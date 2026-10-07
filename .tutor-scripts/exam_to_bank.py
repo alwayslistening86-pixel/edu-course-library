@@ -15,7 +15,7 @@ import os
 import re
 import sys
 
-from tutorlib import atomic_io, cli, schema
+from tutorlib import atomic_io, cli, marking, schema
 
 SOURCE = "this course's own exam/exam.md (original, tutor-authored; not a board paper)"
 POINT = re.compile(r"\b([MABC])(\d+)\b\s+")
@@ -58,6 +58,18 @@ def _scheme(key_text, marks):
     return None
 
 
+def _mcq_key(raw, correct):
+    """An mcq answer key when exactly one option is correct and the options read cleanly as A., B., C. ... in order; else None (the item stays examiner-marked)."""
+    if not re.fullmatch(r"[A-Z]", correct.strip()):
+        return None
+    found = re.findall(r"(?m)^\s+([A-Z])\.\s+(\S.*?)\s*$", raw)
+    letters = [letter for letter, _ in found]
+    if not 2 <= len(found) <= 10 or letters != [chr(65 + i) for i in range(len(found))] or correct.strip() not in letters:
+        return None
+    key = {"kind": "mcq", "options": [text for _, text in found], "correct": correct.strip()}
+    return key if not marking.check_key(key) else None
+
+
 def propose(course_dir):
     path = os.path.join(course_dir, "exam", "exam.md")
     try:
@@ -72,9 +84,13 @@ def propose(course_dir):
         m = re.search(r"\[(\d+)\s*marks?\]\s*$", raw.strip(), re.I)
         mc = re.match(r"Correct:\s*([A-Z](?:\s*,\s*[A-Z])*)\b", (keys.get(n) or "").strip())
         if not m and mc and re.search(r"(?m)^\s+A\.\s", raw):          # multiple choice: one mark, exactly the listed options
-            qs.append({"id": f"exam-{n}", "stage_id": "exam", "marks": 1, "prompt": re.sub(r"^\[[^\]]+\]\s*", "", raw.strip()),
-                       "mark_scheme": [{"id": "1", "marks": 1, "type": "B", "descriptor": f"selects exactly option(s) {mc.group(1)} and no others"}],
-                       "source": SOURCE})
+            q = {"id": f"exam-{n}", "stage_id": "exam", "marks": 1, "prompt": re.sub(r"^\[[^\]]+\]\s*", "", raw.strip()),
+                 "mark_scheme": [{"id": "1", "marks": 1, "type": "B", "descriptor": f"selects exactly option(s) {mc.group(1)} and no others"}],
+                 "source": SOURCE}
+            key = _mcq_key(raw, mc.group(1))
+            if key:
+                q["key"] = key                                     # a script can now mark it (B-02.3)
+            qs.append(q)
             continue
         if raw.lstrip().startswith("```") or "\n```" in raw:
             skipped.append({"item": n, "reason": "contains a code block"})

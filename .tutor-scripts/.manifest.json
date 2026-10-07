@@ -1,5 +1,5 @@
 {
-  "plugin_version": "1.94.0",
+  "plugin_version": "1.95.0",
   "files": [
     "apply_capabilities.py",
     "assemble_paper.py",
@@ -33,6 +33,7 @@
     "invariants.py",
     "item_mastery.py",
     "list_courses.py",
+    "mark_answer.py",
     "migrate_schema.py",
     "next_items.py",
     "paraphrase_check.py",
