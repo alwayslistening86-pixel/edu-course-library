@@ -78,10 +78,8 @@ def check_courses(courses_dir):
     if not os.path.isdir(courses_dir):
         return _c("courses", "warn", "no courses/ folder", None)
     bad, n = [], 0
-    for cid in sorted(os.listdir(courses_dir)):
+    for cid in paths.course_ids(courses_dir):
         cdir = os.path.join(courses_dir, cid)
-        if not os.path.isfile(os.path.join(cdir, "course.json")):
-            continue
         n += 1
         v = validate_structure.validate(cdir)
         errs = []

@@ -21,6 +21,20 @@ def ensure_within(base, path):
     return rp
 
 
+def course_ids(courses_dir):
+    """Sorted ids of the folders in `courses_dir` that are courses: a valid course id holding a course.json.
+    Anything else (a `.import-x.tmp` staging folder, `_scratch`, a stray folder) is not a course (CONTENT_CONTRACT.md)."""
+    out = []
+    for name in os.listdir(courses_dir):
+        try:
+            ids.validate(name, "course id")
+        except ValueError:
+            continue
+        if os.path.isfile(os.path.join(courses_dir, name, "course.json")):
+            out.append(name)
+    return sorted(out)
+
+
 def learner_dir(profile_root, user_id):
     """<profile_root>/<user_id>, validated; refuses a learner folder that is itself a symlink."""
     ids.validate(user_id, "user_id")

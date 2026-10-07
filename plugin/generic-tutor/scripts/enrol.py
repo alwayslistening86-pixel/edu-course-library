@@ -51,6 +51,8 @@ def enrol(profile_dir, courses_dir, course_id, roster_state, today_iso):
         return {"error": f"FileNotFoundError: cannot read {course_path} or {profile_path}: {e}"}
     if not isinstance(course.get("stage_ladder"), list) or not course["stage_ladder"]:
         return {"error": f"{course_id} has no stage_ladder"}
+    if course.get("lifecycle") == "retiring":   # N-14: learners already enrolled carry on; nobody new joins
+        return {"error": f"{course_id} is being retired (lifecycle: retiring): no new enrolments; its current learners carry on"}
     if not is_standalone(course) and not isinstance(course.get("academic_level"), int):
         return {"error": f"{course_id} has no academic_level and is not standalone: cannot choose a cohort"}
     allowed, cstatus = consent.check(subj_path, consent.PROGRESS)

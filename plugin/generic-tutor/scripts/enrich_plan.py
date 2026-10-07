@@ -15,7 +15,7 @@ import os
 import re
 import sys
 
-from tutorlib import cli
+from tutorlib import cli, paths
 
 PLAUSIBLE = "plausible, not board-documented"
 OWN_DATA = "own data"      # the audit may write "plausible, not board-documented - recurring in this library's own data"
@@ -88,7 +88,7 @@ def plan_course(course_dir):
 def run(courses_dir, only=None):
     if not os.path.isdir(courses_dir):
         return {"error": f"FileNotFoundError: no courses folder at {courses_dir}"}
-    ids = sorted(d for d in os.listdir(courses_dir) if os.path.isfile(os.path.join(courses_dir, d, "course.json")))
+    ids = paths.course_ids(courses_dir)
     if only:
         if only not in ids:
             return {"error": f"unknown course {only!r}"}

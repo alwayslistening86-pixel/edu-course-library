@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.85.0] — 2026-10-07
+### Changed
+- N-14: the content contract now defines the course lifecycle (live, retiring, not-a-course, retired in _historic/, owner scratch in _staging/) and who moves what. Every scan of the courses folder applies the course-id rule (a leftover .import-x.tmp or stray folder was being listed as a course), and the auditor's lifecycle: retiring is now real: a schema enum, enrol.py refuses new enrolments to a retiring course, /list-courses shows it. The new optional field needs no migration (absent means live).
+
 ## [1.84.0] — 2026-10-07
 ### Changed
 - N-13: the course template stays a valid skeleton (option lists and empty rubric sources became placeholders; optional exam_technique.md and command_words.json stubs added under _template/optional/), a test fills it and runs every course gate, and postcompile_gate now blocks any {{PLACEHOLDER}} left in a course file. Why: nothing caught template text shipping inside a course, and the template had drifted from the schema.
