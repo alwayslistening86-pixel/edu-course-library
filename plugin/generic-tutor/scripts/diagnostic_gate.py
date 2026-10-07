@@ -153,17 +153,19 @@ def evaluate(subjects_path, stage_id, item_id, explicit_confusion, reasoning_mis
     }
 
 
-def _bool(s):
-    return str(s).strip().lower() == "true"
-
-
 def main():
     if len(sys.argv) != 6:
         print(json.dumps({"error": "usage: diagnostic_gate.py <subjects.json> <stage_id> <item_id> <explicit_confusion:true|false> <reasoning_mismatch:true|false>"}))
         sys.exit(2)
     subjects_path, stage_id, item_id, confusion_s, mismatch_s = sys.argv[1:6]
     try:
-        result = evaluate(subjects_path, stage_id, item_id, _bool(confusion_s), _bool(mismatch_s))
+        confusion = cli.parse_bool(confusion_s, "explicit_confusion")
+        mismatch = cli.parse_bool(mismatch_s, "reasoning_mismatch")
+    except ValueError as e:
+        print(json.dumps({"error": str(e)}))
+        sys.exit(1)
+    try:
+        result = evaluate(subjects_path, stage_id, item_id, confusion, mismatch)
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
         sys.exit(1)

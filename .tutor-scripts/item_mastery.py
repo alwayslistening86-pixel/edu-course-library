@@ -158,10 +158,6 @@ def status(subjects_path, item_filter="ALL"):
     return {"items": mastery, "count": len(mastery)}
 
 
-def _bool(s):
-    return str(s).strip().lower() == "true"
-
-
 def main():
     if len(sys.argv) < 3:
         print(json.dumps({"error": "usage: item_mastery.py observe|status <subjects.json> ..."}))
@@ -172,7 +168,12 @@ def main():
             if len(sys.argv) != 6:
                 print(json.dumps({"error": "usage: item_mastery.py observe <subjects.json> <item_id> <correct:true|false> <current_slot>"}))
                 sys.exit(2)
-            result = observe(subjects_path, sys.argv[3], _bool(sys.argv[4]), sys.argv[5])
+            try:
+                correct = cli.parse_bool(sys.argv[4], "correct")
+            except ValueError as e:
+                print(json.dumps({"error": str(e)}))
+                sys.exit(1)
+            result = observe(subjects_path, sys.argv[3], correct, sys.argv[5])
         elif cmd == "status":
             item_filter = sys.argv[3] if len(sys.argv) > 3 else "ALL"
             result = status(subjects_path, item_filter)

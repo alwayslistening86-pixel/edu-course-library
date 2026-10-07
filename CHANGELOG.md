@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.93.2] — 2026-10-07
+### Changed
+- B-04.5a (ADR 0012): a mistyped true/false flag is now an error instead of a quiet false. diagnostic_gate.py, item_mastery.py observe and review_math.py (both forms) accept only true or false (any case) and refuse anything else with a message naming the field, writing nothing. Why: they read every other word as false, so a right answer sent as yes, 1 or ture was recorded as a wrong one, lowering mastery and shortening a review interval, with no sign anything had gone wrong.
+
 ## [1.93.1] — 2026-10-07
 ### Changed
 - Lock waits can be lengthened and say who holds the lock. EDU_LOCK_TIMEOUT (whole seconds, 1 to 600; default unchanged at 10) lets writers queue for longer on slow media, the stale-lock age follows it, and a lock timeout now names the process holding the lock and for how long. Why: the Windows test where twelve writers queue on one lock failed again on a loaded runner with a plain timeout; twelve writers each holding the lock through two JSON writes and a history insert can legitimately outlast ten seconds on a slow disk, and the message gave no way to tell a slow holder from a stuck lock file. The test now gives the queue 120 seconds. No change to behaviour without the variable.
