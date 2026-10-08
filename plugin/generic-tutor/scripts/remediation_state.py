@@ -68,6 +68,8 @@ import json
 import sys
 from tutorlib import cli, consent, filelock, ledger, state
 
+from error_log import CAUSES  # noqa: E402  (the one list of causes; a different string here would never match an error entry)
+
 CAP = 2  # attempts before escalation — attempt 1 and attempt 2 are system-driven; attempt 3 never fires
 
 
@@ -82,6 +84,8 @@ def _save(path, data):
 @ledger.logged("remediation_state.py", "subjects_path")
 @filelock.locked("subjects_path")
 def record(subjects_path, stage_id, cause, current_slot):
+    if cause not in CAUSES:
+        return {"error": f"cause must be one of {CAUSES}, got {cause!r}"}
     d = _load(subjects_path)
     rem = d.setdefault("remediation", {})
     if not isinstance(rem, dict):

@@ -21,6 +21,20 @@ def ensure_within(base, path):
     return rp
 
 
+def course_ids(courses_dir):
+    """Sorted ids of the folders in `courses_dir` that are courses: a valid course id holding a course.json.
+    Anything else (a `.import-x.tmp` staging folder, `_scratch`, a stray folder) is not a course (CONTENT_CONTRACT.md)."""
+    out = []
+    for name in os.listdir(courses_dir):
+        try:
+            ids.validate(name, "course id")
+        except ValueError:
+            continue
+        if os.path.isfile(os.path.join(courses_dir, name, "course.json")):
+            out.append(name)
+    return sorted(out)
+
+
 def learner_dir(profile_root, user_id):
     """<profile_root>/<user_id>, validated; refuses a learner folder that is itself a symlink."""
     ids.validate(user_id, "user_id")
@@ -48,19 +62,33 @@ def resolve_root(explicit=None, env=None, here=None):
     return None
 
 
-def layout(root):
-    """Standard locations under a root, plus anything wrong with them."""
+def profile_root(root, explicit=None, env=None):
+    """Where learner folders live (B-01.2): `explicit`, else $EDU_PROFILE_ROOT, else <root>/profile.
+
+    A separate profile root lets the learner's data sit on its own drive while courses and scripts stay with the engine.
+    Returns an absolute path, or None when there is neither a root nor an explicit profile root.
+    """
+    env = os.environ if env is None else env
+    chosen = explicit or env.get("EDU_PROFILE_ROOT")
+    if chosen:
+        return os.path.abspath(chosen)
+    return os.path.join(root, "profile") if root else None
+
+
+def layout(root, profile=None):
+    """Standard locations under a root, plus anything wrong with them. `profile` is an explicit profile root (see profile_root)."""
     problems = []
     out = {"root": root}
     if not root or not os.path.isdir(root):
         return {**out, "courses": None, "profile": None, "tutor_scripts": None, "valid": False,
                 "problems": [f"data root not found: {root!r}"]}
-    out.update({"courses": os.path.join(root, "courses"), "profile": os.path.join(root, "profile"),
+    out.update({"courses": os.path.join(root, "courses"), "profile": profile_root(root, profile),
                 "tutor_scripts": os.path.join(root, DEPLOY_DIR_NAME)})
     if not os.path.isdir(out["courses"]):
         problems.append("no courses/ folder - connect the folder that contains your courses (or the private courses repo)")
     if not os.path.isdir(out["profile"]):
         problems.append("no profile/ folder yet - first run: /add-profile creates it")
+    out["profile_separate"] = out["profile"] != os.path.join(root, "profile")
     if not os.path.isdir(out["tutor_scripts"]):
         problems.append("scripts not deployed (.tutor-scripts/ missing) - run /run so the plugin can deploy them")
     return {**out, "valid": not problems, "problems": problems}

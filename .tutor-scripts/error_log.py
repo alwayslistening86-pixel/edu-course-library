@@ -30,7 +30,8 @@ Each entry, appended to subjects/<course_id>.json's `error_patterns` list:
              model's own words",
     "slot": 214,
     "resolved": false,
-    "resolved_at_slot": null
+    "resolved_at_slot": null,
+    "mock": true            (only when logged with --mock; absent otherwise)
   }
 
 `rubric_criterion` (added alongside the pre-existing `stage_id`/`item_id`)
@@ -62,9 +63,21 @@ of one call without a second script invocation.
 
 Subcommands:
     append  <subjects.json> <stage_id> <item_id> <source_phase> <cause> \
-            <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]
+            <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--no-observe] [--course-dir <course folder>]
     resolve <subjects.json> <item_id> <current_slot> [cause|ANY]
     query   <subjects.json> [stage_id|ALL]
+
+`--mock` (a mock paper, ADR 0012 / B-04.5g): the error is recorded, and still shows as unresolved so the weak item gets practised, but it
+does not move `item_mastery` and is not counted towards `recurring` or `diagnostic_gate.py`'s triggers. A practice paper changes no
+progress estimate; the history database cannot tell a mock error apart (it records source_phase `test`).
+
+`--no-observe` (B-04.5b): this wrong answer was already counted by `item_mastery.py observe <item> false`, which the skill runs on every wrong answer
+whether or not it is then diagnosed and logged; the entry is recorded without counting the same miss a second time.
+
+`append` checks the entry against the course (B-04.5c/d): an item id must be one of the course's syllabus items, and a misconception id must be the
+`id` of an entry in that stage's misconceptions.json; otherwise nothing is written and the error says what to use instead. The course folder is
+`--course-dir`, else <data root>/courses/<course id> when the data root is found; if no folder is found the check is skipped and the result's
+`course_check` says so. See tutorlib/coursecheck.py.
 
 `append`'s output includes `recurring`: true once this exact (item_id, cause)
 pair has two or more *unresolved* entries — this is one of diagnostic_gate.py's
@@ -76,12 +89,13 @@ resolve only); query is read-only.
 import json
 import os
 import sys
-from tutorlib import cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, contact, coursecheck, filelock, ledger, state
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import item_mastery  # noqa: E402
 import sqlite_store  # noqa: E402
 
+NOTE_MAX = 400  # characters; a note names the mistake, it is not a transcript of the exchange
 CAUSES = ("slip", "missing_prerequisite", "misconception", "misapplied_procedure", "comprehension")
 
 
@@ -100,11 +114,21 @@ def _next_id(entries, stage_id, today_iso):
 
 @ledger.logged("error_log.py", "subjects_path")
 @filelock.locked("subjects_path")
-def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE"):
+def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE", mock=False, course_dir=None, observe=True):
     if cause not in CAUSES:
         return {"error": f"cause must be one of {CAUSES}, got {cause!r}"}
     if source_phase not in ("practice", "test"):
         return {"error": f"source_phase must be 'practice' or 'test', got {source_phase!r}"}
+    note = " ".join(str(note or "").split())
+    if len(note) > NOTE_MAX:
+        return {"error": f"the note is {len(note)} characters; keep it to {NOTE_MAX} or fewer and describe the mistake, not the conversation"}
+    found = contact.contact_details(note)
+    if found:
+        return {"error": f"the note contains a {' and a '.join(found)}; a note names the mistake and never a way to contact anyone"}
+
+    refusal, warnings, check_note = coursecheck.check_entry(coursecheck.course_dir_for(subjects_path, course_dir), stage_id, item_id, misconception_id)
+    if refusal:
+        return {"error": refusal}
 
     d = _load(subjects_path)
     entries = d.setdefault("error_patterns", [])
@@ -129,6 +153,8 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         "resolved": False,
         "resolved_at_slot": None,
     }
+    if mock:
+        entry["mock"] = True
     entries.append(entry)
     allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
     if not allowed:
@@ -138,13 +164,18 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
 
     unresolved_same_pair = sum(
         1 for e in entries
-        if isinstance(e, dict) and e.get("item_id") == item_id and e.get("cause") == cause and not e.get("resolved")
+        if isinstance(e, dict) and e.get("item_id") == item_id and e.get("cause") == cause and not e.get("resolved") and not e.get("mock")
     )
     cause_count_in_stage = sum(
         1 for e in entries
-        if isinstance(e, dict) and e.get("stage_id") == stage_id and e.get("cause") == cause and not e.get("resolved")
+        if isinstance(e, dict) and e.get("stage_id") == stage_id and e.get("cause") == cause and not e.get("resolved") and not e.get("mock")
     )
-    mastery_result = item_mastery.observe(subjects_path, item_id, False, current_slot)
+    if mock:
+        mastery_result = {"updated": False, "skipped": "mock paper: a practice paper changes no mastery estimate"}
+    elif not observe:
+        mastery_result = {"updated": False, "skipped": "already counted by item_mastery.py observe (--no-observe)"}
+    else:
+        mastery_result = item_mastery.observe(subjects_path, item_id, False, current_slot)
     return {
         "action": "appended",
         "entry": entry,
@@ -153,6 +184,8 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         "unresolved_same_cause_in_stage": cause_count_in_stage,
         "item_mastery": mastery_result,
         "sqlite": sqlite_result,
+        **({"course_check": check_note} if check_note else {}),
+        **({"warnings": warnings} if warnings else {}),
     }
 
 
@@ -243,13 +276,22 @@ def main():
     cmd, subjects_path = sys.argv[1], sys.argv[2]
     try:
         if cmd == "append":
-            if len(sys.argv) not in (10, 11):
-                print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]"}))
+            rest, course_dir = list(sys.argv[3:]), None
+            if "--course-dir" in rest:
+                i = rest.index("--course-dir")
+                if i + 1 >= len(rest):
+                    print(json.dumps({"error": "--course-dir needs a folder"}))
+                    sys.exit(2)
+                course_dir = rest[i + 1]
+                del rest[i:i + 2]
+            mock, observe = "--mock" in rest, "--no-observe" not in rest
+            rest = [a for a in rest if a not in ("--mock", "--no-observe")]
+            if len(rest) not in (7, 8):
+                print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--no-observe] [--course-dir <course folder>]"}))
                 sys.exit(2)
-            argv = list(sys.argv[3:11])
-            if argv[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
-                argv[5] = cli.read_stdin().strip()
-            result = append(subjects_path, *argv)
+            if rest[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
+                rest[5] = cli.read_stdin().strip()
+            result = append(subjects_path, *rest, mock=mock, course_dir=course_dir, observe=observe)
         elif cmd == "resolve":
             if len(sys.argv) not in (5, 6):
                 print(json.dumps({"error": "usage: error_log.py resolve <subjects.json> <item_id> <current_slot> [cause|ANY]"}))

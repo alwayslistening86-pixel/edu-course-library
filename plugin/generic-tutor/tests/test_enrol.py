@@ -38,6 +38,31 @@ class Enrol(unittest.TestCase):
         self.assertEqual(schema.validate(d, "subjects"), [])
         self.assertEqual((d["syllabus_status"], d["confidence"], d["current_phase"], d["exam_status"]), ({"A1": "unsat", "A2": "unsat"}, 0.5, "lesson", "locked"))
 
+    def set_lifecycle(self, value):
+        path = f"{self.C}/fresh/course.json"
+        d = gs.read_json(path)
+        d["lifecycle"] = value
+        with open(path, "w") as f:
+            json.dump(d, f)
+
+    def test_a_retiring_course_takes_no_new_enrolments(self):
+        self.set_lifecycle("retiring")
+        r = enrol.enrol(self.P, self.C, "fresh", "active", "2026-10-05")
+        self.assertIn("retiring", r["error"])
+        self.assertFalse(os.path.exists(f"{self.S}/fresh.json"))
+
+    def test_a_live_course_still_enrols_and_a_bad_lifecycle_is_a_schema_error(self):
+        self.set_lifecycle("live")
+        self.assertTrue(enrol.enrol(self.P, self.C, "fresh", "active", "2026-10-05")["written"])
+        self.set_lifecycle("archived")
+        self.assertTrue(schema.validate(gs.read_json(f"{self.C}/fresh/course.json"), "course"))
+
+    def test_list_courses_shows_the_lifecycle(self):
+        import list_courses
+        self.set_lifecycle("retiring")
+        rows = {r["course_id"]: r for r in list_courses.build(self.P, self.C)["courses"]}
+        self.assertEqual((rows["fresh"]["lifecycle"], rows["solo"]["lifecycle"]), ("retiring", "live"))
+
     def test_standalone_gets_its_own_cohort_and_dormant_is_honoured(self):
         r = enrol.enrol(self.P, self.C, "solo", "dormant", "2026-10-05")
         self.assertEqual((r["cohort_id"], r["roster_state"]), ("standalone:solo", "dormant"))

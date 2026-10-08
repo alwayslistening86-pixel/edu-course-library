@@ -108,6 +108,10 @@
           "observations": {
             "type": "integer",
             "minimum": 0
+          },
+          "consecutive_misses": {
+            "type": "integer",
+            "minimum": 0
           }
         }
       }
@@ -133,6 +137,32 @@
     "last_updated": {
       "type": "string"
     },
+    "goal_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "goal",
+          "items"
+        ],
+        "properties": {
+          "goal": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "set_on": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "target": {
       "type": "object",
       "required": [
@@ -146,6 +176,13 @@
         "set_on": {
           "type": "string"
         }
+      }
+    },
+    "grading_used": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
       }
     },
     "practice_used": {
@@ -163,6 +200,15 @@
           "generated": {
             "type": "integer",
             "minimum": 0
+          },
+          "bank": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "bank_last": {
+            "type": "string"
           }
         }
       }
@@ -315,6 +361,9 @@
             "integer",
             "null"
           ]
+        },
+        "mock": {
+          "type": "boolean"
         }
       }
     }

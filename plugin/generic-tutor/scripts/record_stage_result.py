@@ -52,6 +52,13 @@ model, exactly as `gate_check.py`/`error_log.py`/`review_math.py` never
 decide the judgment call that precedes their own writes either. It only
 gives that judgment, once made, a durable, code-enforced effect.
 
+**A pass needs a grading record (B-04.5e, ADR 0012).** `apply ... pass` is refused unless `record_grading.py` has recorded this stage's test since the
+last result was written for it (`grading_used` in the progress file remembers which attempt a result consumed, so one record cannot back two results), and,
+when the stage's rubric entry carries a `pass_percent` (only where the issuing body publishes one), unless the recorded marks reach that percentage. A refusal
+writes nothing and says what to do. The check is skipped, with the reason in `grading_check`, when it cannot apply: signal-class data is not being kept
+(consent limited), the course has no rubric entry for the stage, or the history database cannot be read. Repeating a pass that is already recorded changes
+nothing and is not re-checked. A `fail` is never refused; it consumes the latest record so it cannot later back a pass.
+
 Usage:
     python3 record_stage_result.py apply <subjects.json> <course.json> \
         <stage_id> <pass|fail>
@@ -59,7 +66,10 @@ Usage:
 Output: JSON to stdout. Writes subjects.json in place on success.
 """
 import json
+import os
 import sys
+
+import sqlite_store
 from cohort_status import TEST_PENDING
 from tutorlib import cli, consent, filelock, ledger, state
 
@@ -68,6 +78,36 @@ RESULTS = ("pass", "fail")
 
 def _load(path):
     return state.load(path, "subjects")
+
+
+def _grading_gate(subjects_path, course_path, stage_id, used):
+    """(refusal or None, evidence dict or None, note or None, attempt or None): may a pass for this stage be recorded now?"""
+    allowed, _ = consent.check(subjects_path, consent.SIGNAL)
+    if not allowed:
+        return None, None, "not checked: grading records are not kept under this consent", None
+    try:
+        with open(os.path.join(os.path.dirname(os.path.abspath(course_path)), "rubric.json"), encoding="utf-8") as f:
+            entry = (json.load(f).get("stage_rubrics") or {}).get(stage_id)
+    except (OSError, ValueError):
+        entry = None
+    if not isinstance(entry, dict):
+        return None, None, "not checked: the course has no rubric entry for this stage", None
+    latest = sqlite_store.latest_grading(subjects_path, stage_id)
+    if not latest.get("ok"):
+        return None, None, f"not checked: the history database could not be read ({latest.get('error')})", None
+    attempt = latest.get("attempt")
+    if attempt is None:
+        return f"stage {stage_id} has no grading record: grade its test and run record_grading.py first, then record the result", None, None, None
+    if attempt <= used:
+        return (f"the latest grading record for stage {stage_id} (attempt {attempt}) was already used for an earlier result: "
+                "grade this test and run record_grading.py first"), None, None, None
+    available = latest.get("available") or 0
+    percent = round(100 * (latest.get("awarded") or 0) / available, 1) if available else None
+    evidence = {"attempt": attempt, "awarded": latest.get("awarded"), "available": available, "percent": percent}
+    need = entry.get("pass_percent")
+    if isinstance(need, int) and (percent is None or percent < need):
+        return f"the recorded marks for stage {stage_id} are {evidence['awarded']} of {available} ({percent}%), below the pass mark of {need}%", evidence, None, attempt
+    return None, evidence, None, attempt
 
 
 def _save(path, data):
@@ -89,6 +129,20 @@ def apply(subjects_path, course_path, stage_id, result):
 
     syllabus_status = d.setdefault("syllabus_status", {})
     previous = syllabus_status.get(stage_id)
+
+    evidence = check_note = grading_attempt = None
+    grading_used = d.setdefault("grading_used", {})
+    if result == "pass" and previous != "pass":
+        refusal, evidence, check_note, grading_attempt = _grading_gate(subjects_path, course_path, stage_id, int(grading_used.get(stage_id) or 0))
+        if refusal:
+            return {"error": refusal}
+    elif result == "fail":
+        latest = sqlite_store.latest_grading(subjects_path, stage_id)
+        grading_attempt = latest.get("attempt") if latest.get("ok") else None
+    if grading_attempt:
+        grading_used[stage_id] = max(int(grading_used.get(stage_id) or 0), grading_attempt)
+    if not grading_used:
+        d.pop("grading_used", None)
     syllabus_status[stage_id] = result
 
     advanced_to = None
@@ -123,6 +177,8 @@ def apply(subjects_path, course_path, stage_id, result):
         "advanced_to": advanced_to,
         "current_stage": d.get("current_stage"),
         **({"roster_state_reset": roster_reset} if roster_reset else {}),
+        **({"grading": evidence} if evidence else {}),
+        **({"grading_check": check_note} if check_note else {}),
         "written": True,
     }
 

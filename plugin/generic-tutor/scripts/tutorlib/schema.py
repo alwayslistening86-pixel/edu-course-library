@@ -122,7 +122,22 @@ def validate(instance, kind):
     schema = load(kind)
     errors = []
     _check(instance, schema, schema, "", errors)
+    if kind == "question_bank" and not errors:
+        errors += _key_problems(instance)
+    if kind == "misconceptions" and not errors:
+        ids = [e["id"] for e in instance if "id" in e]
+        errors += [f"misconception id {i!r} is used more than once" for i in sorted({i for i in ids if ids.count(i) > 1})]
     return errors
+
+
+def _key_problems(bank):
+    """Semantic checks the structural schema cannot express: every answer key must be well formed (tutorlib/marking.py)."""
+    from tutorlib import marking
+    out = []
+    for q in bank["questions"]:
+        if "key" in q:
+            out += [f"question {q['id']!r}: {p}" for p in marking.check_key(q["key"])]
+    return out
 
 
 def validate_file(path, kind):

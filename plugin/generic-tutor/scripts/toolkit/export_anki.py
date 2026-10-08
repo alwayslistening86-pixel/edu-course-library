@@ -73,10 +73,12 @@ def note_parts(card, course_id):
 
     kind "cloze" when the front carries a `{{c1::...}}` deletion (the Back becomes Anki's "Extra"), else "basic". Every field is HTML-escaped: Anki
     renders fields as HTML, so card text such as "x < 5" or a pasted tag must show as text, and nothing here can ever become an image, audio or
-    script reference (the export is media-free by construction; the .apkg carries no media files). Tags: course, stage, item, criterion.
+    script reference (the export is media-free by construction; the .apkg carries no media files). Tags: course, stage, item, criterion, and type_explain_why / type_worked_step.
     """
     front, back = html.escape(str(card["front"]), quote=False), html.escape(str(card["back"]), quote=False)
     tags = [_tag(t) for t in (course_id, card.get("stage_id"), card.get("item_id"), card.get("criterion")) if t]
+    if card.get("card_type") in ("explain_why", "worked_step"):  # L-06: cloze is already its own Anki note kind
+        tags.append(f"type_{card['card_type']}")
     return ("cloze" if CLOZE_MARK in front else "basic"), [front, back], tags
 
 

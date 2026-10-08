@@ -120,16 +120,19 @@ def observe(subjects_path, item_id, correct, current_slot):
     new_p, posterior = _update(prior, correct)
 
     observations = (entry.get("observations", 0) + 1) if isinstance(entry, dict) else 1
+    prior_run = int(entry.get("consecutive_misses", 0) or 0) if isinstance(entry, dict) else 0
+    consecutive_misses = 0 if correct else prior_run + 1                      # a miss needs no cause to be counted (B-04.5b)
     mastery[item_id] = {
         "p_mastery": round(new_p, 4),
         "observations": observations,
         "last_slot": int(current_slot),
         "last_correct": bool(correct),
+        "consecutive_misses": consecutive_misses,
     }
     allowed, cstatus = consent.check(subjects_path, consent.SIGNAL)
     if not allowed:
         return {"item_id": item_id, "prior": round(prior, 4), "posterior_this_observation": round(posterior, 4),
-                "new_p_mastery": round(new_p, 4), "observations": observations,
+                "new_p_mastery": round(new_p, 4), "observations": observations, "consecutive_misses": consecutive_misses,
                 **consent.skipped(cstatus, consent.SIGNAL)}
     _save(subjects_path, d)
     sqlite_result = sqlite_store.log_item_mastery_observation(
@@ -142,6 +145,7 @@ def observe(subjects_path, item_id, correct, current_slot):
         "posterior_this_observation": round(posterior, 4),
         "new_p_mastery": round(new_p, 4),
         "observations": observations,
+        "consecutive_misses": consecutive_misses,
         "params": {"p_init": P_INIT, "p_transit": P_TRANSIT, "p_slip": P_SLIP, "p_guess": P_GUESS},
         "sqlite": sqlite_result,
     }
@@ -158,10 +162,6 @@ def status(subjects_path, item_filter="ALL"):
     return {"items": mastery, "count": len(mastery)}
 
 
-def _bool(s):
-    return str(s).strip().lower() == "true"
-
-
 def main():
     if len(sys.argv) < 3:
         print(json.dumps({"error": "usage: item_mastery.py observe|status <subjects.json> ..."}))
@@ -172,7 +172,12 @@ def main():
             if len(sys.argv) != 6:
                 print(json.dumps({"error": "usage: item_mastery.py observe <subjects.json> <item_id> <correct:true|false> <current_slot>"}))
                 sys.exit(2)
-            result = observe(subjects_path, sys.argv[3], _bool(sys.argv[4]), sys.argv[5])
+            try:
+                correct = cli.parse_bool(sys.argv[4], "correct")
+            except ValueError as e:
+                print(json.dumps({"error": str(e)}))
+                sys.exit(1)
+            result = observe(subjects_path, sys.argv[3], correct, sys.argv[5])
         elif cmd == "status":
             item_filter = sys.argv[3] if len(sys.argv) > 3 else "ALL"
             result = status(subjects_path, item_filter)

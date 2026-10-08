@@ -11,16 +11,19 @@ list_courses.py -- every course in the library with the learner's standing in it
 
 Row fields (full form): course_id, name, level (int|null), standalone, level_basis, state (the learner's roster_state, `complete` when finished,
 or `not_enrolled`), current_stage, current_phase, stages_passed, stages_total, theory_only, coverage {status, items_taught, items_total},
-prerequisites {required, met, unmet}, practical_stages, grounding_status. Rows sort by level (standalone last) then id. Counts by state
+prerequisites {required, met, unmet}, practical_stages, grounding_status, lifecycle (live|retiring),
+provenance {source_document, source_version, itemised_on, material_vintage, built_on, last_change{date,title}|null, changes, last_live_recheck}
+(full form only; every value may be null). Rows sort by level (standalone last) then id. Counts by state
 are returned with the rows. The computation reuses cohort_status / coverage_check, so "complete" and "met" mean what the gates mean.
 """
 import json
 import os
 import sys
 
+import change_log
 import coverage_check
 from cohort_status import is_complete, is_standalone, prerequisites_status, withheld_stages
-from tutorlib import cli
+from tutorlib import cli, paths
 
 STATES = ("active", "dormant", "test_pending_convergence", "dropped", "complete", "not_enrolled")
 
@@ -34,6 +37,22 @@ def _load(path):
         return None
 
 
+def _short(value, limit=160):
+    return value if not isinstance(value, str) or len(value) <= limit else value[:limit - 1].rstrip() + "…"
+
+
+def provenance(course_dir, course):
+    """Where a course came from and how current it is: itemised source, build date, last change (from change.md), last live recheck."""
+    src = (_load(os.path.join(course_dir, "curriculum_map.json")) or {}).get("_items_source")
+    src = src if isinstance(src, dict) else {}
+    log = change_log.read(course_dir)
+    entries = log.get("entries") or []
+    last = {"date": entries[-1]["date"], "title": entries[-1]["title"]} if entries else None
+    return {"source_document": _short(src.get("document")), "source_version": _short(src.get("version")), "itemised_on": src.get("itemised_on"),
+            "material_vintage": _short(course.get("material_vintage")), "built_on": log.get("built_on"), "last_change": last,
+            "changes": log.get("entry_count", 0), "last_live_recheck": course.get("last_live_recheck")}
+
+
 def build(learner_dir, courses_dir, status=None, level=None, standalone_only=False, compact=False):
     if not os.path.isdir(courses_dir):
         return {"error": f"FileNotFoundError: courses_dir does not exist: {courses_dir}"}
@@ -41,9 +60,8 @@ def build(learner_dir, courses_dir, status=None, level=None, standalone_only=Fal
         return {"error": f"--status must be one of {STATES}"}
     sdir = os.path.join(learner_dir, "subjects")
     rows = []
-    for cid in sorted(os.listdir(courses_dir)):
-        cpath = os.path.join(courses_dir, cid, "course.json")
-        course = _load(cpath)
+    for cid in paths.course_ids(courses_dir):
+        course = _load(os.path.join(courses_dir, cid, "course.json"))
         if course is None:
             continue
         subj = _load(os.path.join(sdir, f"{cid}.json"))
@@ -71,7 +89,8 @@ def build(learner_dir, courses_dir, status=None, level=None, standalone_only=Fal
                 "theory_only": bool(subj and withheld_stages(course, subj)),
                 "coverage": {"status": cov.get("computed_status") or cov.get("declared_status"), "items_taught": cov.get("items_taught"), "items_total": cov.get("items_total")},
                 "prerequisites": {"required": prereq.get("required", []), "met": prereq.get("met"), "unmet": prereq.get("unmet", [])},
-                "practical_stages": sorted((course.get("practical_stages") or {}).keys()), "grounding_status": course.get("grounding_status"),
+                "practical_stages": sorted((course.get("practical_stages") or {}).keys()), "grounding_status": course.get("grounding_status"), "lifecycle": course.get("lifecycle", "live"),
+                "provenance": provenance(os.path.join(courses_dir, cid), course),
             })
         rows.append(row)
     rows.sort(key=lambda r: (r["level"] is None, r["level"] if r["level"] is not None else 0, r["course_id"]))

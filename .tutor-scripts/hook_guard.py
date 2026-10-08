@@ -32,8 +32,17 @@ TEACHING = {"continue", "review", "mock", "readiness", "status", "plan", "run", 
 WRITE_TOOLS = {"Write", "Edit", "MultiEdit", "NotebookEdit"}
 OWNED_TOP = {"student_profile.json", ".session_ledger.jsonl"}
 BASH_WRITE = re.compile(r"(>>?|\btee\b|\bsed\s+-i|\brm\b|\bmv\b|\bcp\b|\btruncate\b|\bdd\b|\bsqlite3\b|\bln\b)")
-PROFILE_REF = re.compile(r"profile/([A-Za-z0-9][A-Za-z0-9._-]*)")
+LEARNER_ID = r"([A-Za-z0-9][A-Za-z0-9._-]*)"
 SCRIPT_CALL = re.compile(r"\.tutor-scripts/[\w./-]+\.py")
+
+
+def profile_prefix(root):
+    """Regex group naming where learner folders sit in a command: `profile`, plus the separate profile root when EDU_PROFILE_ROOT sets one."""
+    prefixes = ["profile"]
+    pr = paths.profile_root(root) if root else None
+    if pr and pr != os.path.join(root, "profile"):
+        prefixes.append(re.escape(pr.replace("\\", "/").rstrip("/")))
+    return "(?:" + "|".join(prefixes) + ")/"
 
 
 def _state_path(session_id):
@@ -75,8 +84,11 @@ def classify(path, root):
     """(area, learner, owned): where a path sits under the data root."""
     try:
         rel = os.path.relpath(os.path.realpath(path), os.path.realpath(root))
+        prel = os.path.relpath(os.path.realpath(path), os.path.realpath(paths.profile_root(root)))
     except ValueError:
         return None, None, False
+    if not prel.startswith(os.pardir) and os.path.realpath(paths.profile_root(root)) != os.path.realpath(os.path.join(root, "profile")):
+        rel = os.path.join("profile", prel)               # a separate profile root classifies exactly like <root>/profile
     parts = rel.split(os.sep)
     if parts[0] == "courses":
         return "courses", None, False
@@ -102,7 +114,7 @@ def decide_path(path, root, st, writing):
         pinned = st.get("learner")
         if pinned and learner != pinned:
             return _deny(f"This session is working with learner '{pinned}'; '{learner}' is another learner's folder. Leave it alone (or start a new session for them).")
-        if writing and consent.status_for(os.path.join(root, "profile", learner, "student_profile.json")) == "revoked":
+        if writing and consent.status_for(os.path.join(paths.profile_root(root), learner, "student_profile.json")) == "revoked":
             return _deny(f"Learner '{learner}' has revoked consent: nothing may be written under their folder.")
     if writing and owned:
         return _deny("This file is written by a script, never by hand. Use the script that owns it (see docs/DATA_MODEL.md), or ask for /doctor if it looks wrong.")
@@ -113,7 +125,8 @@ def decide_path(path, root, st, writing):
 
 def decide_bash(command, root, st):
     command = command.replace("\\", "/")                      # Windows-style paths in a command read the same as forward-slash ones
-    learners = set(PROFILE_REF.findall(command))
+    prefix = profile_prefix(root)
+    learners = set(re.findall(prefix + LEARNER_ID, command))
     pinned = st.get("learner")
     for lid in sorted(learners):
         if pinned and lid != pinned:
@@ -122,9 +135,9 @@ def decide_bash(command, root, st):
         return {"decision": "allow", "learner": next(iter(learners), None) if len(learners) == 1 else None}
     if BASH_WRITE.search(command):
         for lid in learners:
-            if consent.status_for(os.path.join(root, "profile", lid, "student_profile.json")) == "revoked":
+            if consent.status_for(os.path.join(paths.profile_root(root), lid, "student_profile.json")) == "revoked":
                 return _deny(f"Learner '{lid}' has revoked consent: nothing may be written under their folder.")
-            if re.search(r"profile/" + re.escape(lid) + r"/(student_profile\.json|subjects/|tutor\.sqlite3|\.session_ledger)", command):
+            if re.search(prefix + re.escape(lid) + r"/(student_profile\.json|subjects/|tutor\.sqlite3|\.session_ledger)", command):
                 return _deny("That file is written by a script, never by shell redirection or editing. Use the script that owns it.")
         if st.get("command") in TEACHING and re.search(r"\bcourses/", command):
             return _deny(f"/{st['command']} is a teaching command and does not edit course files.")
@@ -152,7 +165,7 @@ def command_of(prompt):
 
 
 def learners_in(root):
-    pd = os.path.join(root, "profile")
+    pd = paths.profile_root(root)
     try:
         return sorted(d for d in os.listdir(pd) if os.path.isfile(os.path.join(pd, d, "student_profile.json")))
     except OSError:
@@ -179,7 +192,7 @@ def stop(ev, root, st):
         return {}
     import verify_session
     from tutorlib import ledger
-    learner_dir = os.path.join(root, "profile", lid)
+    learner_dir = os.path.join(paths.profile_root(root), lid)
     try:
         with open(os.path.join(learner_dir, "student_profile.json"), encoding="utf-8") as f:
             slot = int(json.load(f).get("session_slot", 0))

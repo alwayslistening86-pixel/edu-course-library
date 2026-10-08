@@ -123,5 +123,59 @@ class Framing(unittest.TestCase):
         with open(os.path.join(os.path.dirname(HERE), "skills", "health-status", "SKILL.md"), encoding="utf-8") as f:
             self.assertIn("No streaks", f.read())
 
+class Summary(Page):
+    """U-06: the printable summary a learner chooses to share."""
+
+    def add_mistake(self):
+        self.edit(f"{self.S}/mathA.json", lambda d: d.update(error_patterns=[{"cause": "misconception", "resolved": False, "note": "x"}]))
+
+    def summary(self, who="Ms Okafor (tutor)"):
+        doc, err = dashboard_html.build(self.L, self.C, "2026-10-04", who)
+        self.assertIsNone(err)
+        return doc
+
+    def test_it_names_its_recipient_and_keeps_the_essentials(self):
+        doc = self.summary()
+        for needle in ("Progress summary: amy", "Prepared for Ms Okafor (tutor) on 2026-10-04", "Course mathA", "1 of 3 stages passed",
+                       "Readiness:", "not a grade", "prepared by the learner to share with Ms Okafor"):
+            self.assertIn(needle, doc)
+
+    def test_it_leaves_out_what_the_full_page_shows_about_mistakes_and_next_steps(self):
+        self.add_mistake()
+        full, short = self.html(), self.summary()
+        self.assertIn("Unresolved mistakes by cause", full)
+        for hidden in ("Unresolved mistakes by cause", "Next step", "Reviews due", "Weakest items", "Mock paper", "roster", "Session "):
+            self.assertNotIn(hidden, short, hidden)
+
+    def test_the_recipient_is_escaped(self):
+        doc = self.summary('<script>alert(1)</script> & "co"')
+        self.assertNotIn("<script>alert", doc)
+        self.assertIn("&lt;script&gt;", doc)
+
+    def test_revoked_consent_refuses_a_summary_but_not_the_private_page(self):
+        self.edit(f"{self.L}/student_profile.json", lambda d: d.setdefault("consent", {}).update(status="revoked"))
+        doc, err = dashboard_html.build(self.L, self.C, "2026-10-04", "a tutor")
+        self.assertIsNone(doc)
+        self.assertIn("consent is revoked", err)
+
+    def test_both_forms_have_a_print_stylesheet_and_a_neutral_language_tag(self):
+        for doc in (self.html(), self.summary()):
+            self.assertIn("@media print", doc)
+            self.assertIn('<html lang="en">', doc)
+        self.edit(f"{self.L}/student_profile.json", lambda d: d.setdefault("identity", {}).update(locale="en-US"))
+        self.assertIn('<html lang="en-US">', self.html())
+
+    def test_cli_needs_a_real_recipient_and_writes_outside_the_learner_folder(self):
+        out = os.path.join(self.tmp, "exports", "amy-summary.html")
+        self.assertEqual(dashboard_html.main([self.L, self.C, out, "--summary-for", "  "]), 2)
+        self.assertEqual(dashboard_html.main([self.L, self.C, out, "--summary-for"]), 2)
+        self.assertEqual(dashboard_html.main([self.L, self.C, out, "--summary-for", "a tutor", "--today", "2026-10-04"]), 0)
+        with open(out, encoding="utf-8") as f:
+            self.assertIn("Prepared for a tutor", f.read())
+        inside = os.path.join(self.L, "summary.html")
+        self.assertEqual(dashboard_html.main([self.L, self.C, inside, "--summary-for", "a tutor"]), 1)  # same refusal as the full page
+        self.assertFalse(os.path.exists(inside))
+
+
 if __name__ == "__main__":
     unittest.main()

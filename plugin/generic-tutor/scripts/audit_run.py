@@ -22,7 +22,7 @@ import change_log
 import postcompile_gate
 import rubric_lint
 import validate_schema
-from tutorlib import cli, version
+from tutorlib import cli, paths, version
 
 REPORT_VERSION = 1
 
@@ -64,12 +64,10 @@ def run(courses_dir, today=None, previous=None, only=None):
     courses = {}
     if only is not None and not os.path.isfile(os.path.join(courses_dir, only, "course.json")):
         return {"error": f"FileNotFoundError: no course {only!r} under {courses_dir}"}
-    for cid in sorted(os.listdir(courses_dir)):
+    for cid in paths.course_ids(courses_dir):
         if only is not None and cid != only:
             continue
-        cdir = os.path.join(courses_dir, cid)
-        if os.path.isfile(os.path.join(cdir, "course.json")):
-            courses[cid] = audit_course(cdir, engine)
+        courses[cid] = audit_course(os.path.join(courses_dir, cid), engine)
     totals = {
         "can_ship": sum(1 for c in courses.values() if c["can_ship"]), "blocked": sum(1 for c in courses.values() if not c["can_ship"]),
         "schema_invalid": sum(1 for c in courses.values() if c["schema_invalid"]), "audit_recommended": sum(1 for c in courses.values() if c["audit_reasons"]),

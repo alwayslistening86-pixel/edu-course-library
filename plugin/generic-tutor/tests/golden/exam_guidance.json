@@ -1,0 +1,50 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "exam_guidance.py",
+        "{C}/mathA",
+        "--word",
+        "Explain"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "caveat": "Own-words summary of what the issuing body published, as read by the compiler; not the board's wording, and not a promise of marks. Where a file is unavailable, say the course holds no board guidance on it rather than inventing any.",
+        "command_words": {
+          "available": false
+        },
+        "course_dir": "<TMP>/courses/mathA",
+        "lookup": {
+          "found": false,
+          "word": "Explain"
+        },
+        "technique": {
+          "available": false
+        }
+      }
+    },
+    {
+      "cmd": [
+        "exam_guidance.py",
+        "{C}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: no such course folder <TMP>/courses/nope"
+      }
+    },
+    {
+      "cmd": [
+        "exam_guidance.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: exam_guidance.py <course_dir> [--word WORD]"
+      }
+    }
+  ]
+}

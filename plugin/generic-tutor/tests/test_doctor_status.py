@@ -83,6 +83,7 @@ class Doctor(Base):
 
     def test_missing_writes_from_last_session_are_reported(self):
         gs.run_step("slot_advance.py", ["{P}/student_profile.json", "--min-gap-minutes", "0"], self.fx, self.tmp)
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         gs.run_step("record_stage_result.py", ["apply", "{S}/mathA.json", "{C}/mathA/course.json", "S2", "pass"], self.fx, self.tmp)
         gs.run_step("slot_advance.py", ["{P}/student_profile.json", "--min-gap-minutes", "0"], self.fx, self.tmp)
         self.assertEqual(self.by_name(doctor.run(self.tmp))["last-session:amy"]["status"], "warn")

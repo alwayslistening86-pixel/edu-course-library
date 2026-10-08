@@ -104,8 +104,14 @@ def describe_error(exc):
     return f"{name}: {detail}.{hint}"
 
 
+def profile_root(root=None):
+    """Folder holding the learner folders: <root>/profile, or $EDU_PROFILE_ROOT when the profile lives elsewhere (B-01.2)."""
+    from tutorlib import paths
+    return paths.profile_root(root or edu_root())
+
+
 def profile_dir(learner_id, root=None):
-    return os.path.join(root or edu_root(), "profile", learner_id)
+    return os.path.join(profile_root(root), learner_id)
 
 
 def subjects_dir(learner_id, root=None):
@@ -150,7 +156,7 @@ def list_learners(root=None):
     learner_ids, sorted. An empty result means no real profile exists yet
     (or EDU_ROOT is resolved wrong) — callers should say so plainly, not
     treat it as an error."""
-    pdir = os.path.join(root or edu_root(), "profile")
+    pdir = profile_root(root)
     if not os.path.isdir(pdir):
         return []
     out = []

@@ -30,12 +30,23 @@
             "grounding_status": "verified",
             "level": 2,
             "level_basis": "framework",
+            "lifecycle": "live",
             "name": "Course broken",
             "practical_stages": [],
             "prerequisites": {
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
             },
             "stages_passed": 0,
             "stages_total": 3,
@@ -55,6 +66,7 @@
             "grounding_status": "verified",
             "level": 2,
             "level_basis": "framework",
+            "lifecycle": "live",
             "name": "Course design",
             "practical_stages": [
               "S2"
@@ -63,6 +75,16 @@
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
             },
             "stages_passed": 1,
             "stages_total": 2,
@@ -82,12 +104,23 @@
             "grounding_status": "verified",
             "level": 2,
             "level_basis": "framework",
+            "lifecycle": "live",
             "name": "Course mathA",
             "practical_stages": [],
             "prerequisites": {
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
             },
             "stages_passed": 1,
             "stages_total": 3,
@@ -107,12 +140,23 @@
             "grounding_status": null,
             "level": 2,
             "level_basis": null,
+            "lifecycle": "live",
             "name": "Old shape",
             "practical_stages": [],
             "prerequisites": {
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": null,
+              "last_change": null,
+              "last_live_recheck": null,
+              "material_vintage": null,
+              "source_document": null,
+              "source_version": null
             },
             "stages_passed": 0,
             "stages_total": 1,
@@ -132,12 +176,23 @@
             "grounding_status": "verified",
             "level": 3,
             "level_basis": "framework",
+            "lifecycle": "live",
             "name": "Course mathB",
             "practical_stages": [],
             "prerequisites": {
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
             },
             "stages_passed": 0,
             "stages_total": 3,
@@ -157,12 +212,23 @@
             "grounding_status": "verified",
             "level": null,
             "level_basis": "standalone",
+            "lifecycle": "live",
             "name": "Course solo",
             "practical_stages": [],
             "prerequisites": {
               "met": true,
               "required": [],
               "unmet": []
+            },
+            "provenance": {
+              "built_on": null,
+              "changes": 0,
+              "itemised_on": "<DATE>",
+              "last_change": null,
+              "last_live_recheck": "<DATE>",
+              "material_vintage": "2026 spec",
+              "source_document": "Spec",
+              "source_version": "1"
             },
             "stages_passed": 0,
             "stages_total": 2,
