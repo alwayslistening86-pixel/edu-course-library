@@ -32,6 +32,13 @@ python3 -m evals run --suite all --backend always-wrong  # sanity: must look bad
 python3 -m evals run --suite safety --backend claude --model sonnet --samples 3 --out evals/results/run.json
 python3 -m evals check evals/results/run.json            # compare with results/baseline-<suite>-sonnet.json
 ```
+The `local` backend runs a model served on this machine through the common chat-completions format (Ollama, the llama.cpp server and others), standard library only:
+```
+python3 -m evals run --suite safety --backend local --model <name> --samples 3 --out /tmp/run/safety.json            # default url http://127.0.0.1:11434/v1
+python3 -m evals run --suite safety --backend local --model <name> --url http://127.0.0.1:8080/v1 --temperature 0 --seed 0 --timeout 300
+```
+It refuses any `--url` whose host is not `localhost` or a literal loopback address (the prompts would leave the machine) unless `--allow-remote` is given on purpose. It ignores proxy environment variables, refuses redirects and accepts no credentials in the URL. A failure names its cause: nothing listening (with a hint to start a server), a timeout, an HTTP error with the server's own words, a reply that is not chat-completions JSON, or an empty reply. Temperature and seed default to 0 so repeat runs agree as far as the server allows; it records them (`backend.settings`) but they are not yet written into the report (that is B-03.3), so note the model, temperature and seed beside any result you keep. The word-list checks were written for a cloud model; reading real replies to see whether they are fair for a smaller one is B-03.7 and needs a person.
+
 The `claude` backend runs `claude -p` with no tools, no slash commands, no MCP and no session persistence, in an empty temp directory, with the plugin's own text (tutor-core + the Test paragraphs of course-runner) as the system prompt. The report records a hash of that text, so every result is tied to a skill version.
 
 ## Comparing two versions of a skill
