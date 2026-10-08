@@ -98,7 +98,7 @@ CASES = {
                      ("profile_set.py", ["{P}/student_profile.json", "preferences.tone", "loud", "2026-10-04"]),
                      ("profile_set.py", ["{P}/student_profile.json", "session_slot", "0", "2026-10-04"])], ["{P}/student_profile.json"]),
     "session_state": ([("session_state.py", ["phase", SUBJ, "test"]), ("session_state.py", ["phase", SUBJ, "exam"]),
-                       ("session_state.py", ["roster", SUBJ, "test_pending_convergence"]), ("session_state.py", ["roster", SUBJ, "dormant"]),
+                       ("session_state.py", ["roster", SUBJ, "test_pending_convergence"]), ("session_state.py", ["phase", SUBJ, "test"]), ("session_state.py", ["roster", SUBJ, "dormant"]),
                        ("session_state.py", ["notice", SUBJ, "n1", "2026-10-04"]), ("session_state.py", ["notice", SUBJ, "n1", "2026-10-04"]),
                        ("session_state.py", ["exam", SUBJ, "{C}/mathA/course.json", "available"])], [SUBJ]),
     "history_report": ([("item_mastery.py", ["observe", SUBJ, "S1.1", "true", "5"]), ("error_log.py", ["append", SUBJ, "S2", "S2.1", "practice", "slip", "NONE", "x", "6"]),

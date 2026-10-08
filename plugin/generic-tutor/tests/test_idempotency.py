@@ -69,6 +69,7 @@ class Repeat(unittest.TestCase):
         self.assertEqual(self.get()["syllabus_status"]["S2"], "pass")
 
     def test_phase_and_target_set_to_same_value_are_stable(self):
+        gs.run_step("session_state.py", ["roster", self.s, "test_pending_convergence"], self.fx, self.tmp)
         self.twice("session_state.py", ["phase", self.s, "test"])
         self.assertEqual(self.get()["current_phase"], "test")
         self.twice("plan_target.py", ["set", self.s, "2026-12-01", "2026-10-04"])
