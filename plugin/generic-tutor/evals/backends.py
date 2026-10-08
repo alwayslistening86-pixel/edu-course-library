@@ -114,10 +114,10 @@ class LocalChat(Backend):
             detail = e.read().decode("utf-8", "replace").strip()[:300] if hasattr(e, "read") else ""
             raise RuntimeError(f"the model server answered HTTP {e.code} at {self.url}: {detail or e.reason}") from None
         except (socket.timeout, TimeoutError):
-            raise RuntimeError(f"the model server at {self.url} did not answer within {self.timeout}s") from None
+            raise RuntimeError(f"the model server at {self.url} did not answer within {self.timeout}s (the model may still be loading, or no server is running; on Windows a closed port can take a couple of seconds to be refused)") from None
         except urllib.error.URLError as e:
             if isinstance(e.reason, (socket.timeout, TimeoutError)):
-                raise RuntimeError(f"the model server at {self.url} did not answer within {self.timeout}s") from None
+                raise RuntimeError(f"the model server at {self.url} did not answer within {self.timeout}s (the model may still be loading, or no server is running; on Windows a closed port can take a couple of seconds to be refused)") from None
             raise RuntimeError(f"no model server reachable at {self.url} ({e.reason}); start one (for example `ollama serve`) or pass --url") from None
         try:
             text = json.loads(raw)["choices"][0]["message"]["content"]

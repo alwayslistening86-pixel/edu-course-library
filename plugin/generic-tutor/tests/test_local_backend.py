@@ -94,7 +94,7 @@ class Calls(Base):
             s.bind(("127.0.0.1", 0))
             port = s.getsockname()[1]
         with self.assertRaises(RuntimeError) as cm:
-            backends.LocalChat("m", f"http://127.0.0.1:{port}/v1", timeout=2).complete("s", "p")
+            backends.LocalChat("m", f"http://127.0.0.1:{port}/v1", timeout=30).complete("s", "p")      # Windows takes about two seconds to refuse a closed port: do not race it
         self.assertIn("no model server reachable", str(cm.exception))
 
     def test_a_slow_model_times_out_with_a_clear_message(self):
