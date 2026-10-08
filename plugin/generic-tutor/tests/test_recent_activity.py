@@ -38,6 +38,7 @@ class Activity(unittest.TestCase):
 
     def test_sentences_and_order(self):
         self.step("error_log.py", "append", self.s, "S2", "S2.1", "practice", "slip", "NONE", "x", "6")
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         self.step("record_stage_result.py", "apply", self.s, self.c, "S2", "pass")
         r = ra.build(self.fx["L"])
         texts = [a["text"] for a in r["activity"]]

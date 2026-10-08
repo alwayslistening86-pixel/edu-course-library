@@ -134,15 +134,26 @@ def normalise(value, tmp):
     return value
 
 
-def run_step(script, args, fx, tmp):
+def run_step(script, args, fx, tmp, stdin=None):
     argv = [sys.executable, os.path.join(SCRIPTS, script)] + [a.format(**fx) for a in args]
-    p = subprocess.run(argv, capture_output=True, text=True, cwd=tmp)
+    p = subprocess.run(argv, capture_output=True, text=True, cwd=tmp, input=stdin)
     try:
         out = json.loads(p.stdout)
     except ValueError:
         out = p.stdout
     err = p.stderr.strip().splitlines()[-1:] if p.returncode not in (0, 1) else []
     return normalise({"exit": p.returncode, "stdout": out, "stderr_tail": err}, tmp)
+
+
+def grade(fx, tmp, course_id, stage_id, slot=1, marks=1, of=1):
+    """Record a full-marks grading attempt for a stage, as course-runner does before a result is recorded (B-04.5e).
+    One result per criterion of the stage's rubric entry; `marks` of `of` each."""
+    rubric = read_json(os.path.join(fx["C"], course_id, "rubric.json"))
+    n = len(rubric["stage_rubrics"][stage_id]["criteria"])
+    results = json.dumps([{"criterion": i, "met": marks == of, "marks": marks, "of": of} for i in range(1, n + 1)])
+    r = run_step("record_grading.py", [f"{{S}}/{course_id}.json", f"{{C}}/{course_id}/course.json", stage_id, str(slot)], fx, tmp, stdin=results)
+    assert r["exit"] == 0, r
+    return r
 
 
 def read_json(path):

@@ -153,6 +153,7 @@ CASES = {
 }
 
 UPDATE = bool(os.environ.get("UPDATE_GOLDEN"))
+PRE_GRADED = {"record_stage_result": ("S2",), "recent_activity": ("S2",), "verify_session": ("S2",)}      # a pass needs its test graded first (B-04.5e)
 
 
 class GoldenCLI(unittest.TestCase):
@@ -164,6 +165,8 @@ def _make(name, steps, files):
         with tempfile.TemporaryDirectory() as tmp:
             tmp = os.path.realpath(tmp)
             fx = gs.build_fixture(tmp)
+            for stage in PRE_GRADED.get(name, ()):
+                gs.grade(fx, tmp, "mathA", stage)
             actual = {"steps": [{"cmd": [s] + a, **gs.run_step(s, a, fx, tmp)} for s, a in steps],
                       "files_after": gs.snapshot_files(files, fx, tmp)}
             actual = gs.normalise(actual, tmp)
