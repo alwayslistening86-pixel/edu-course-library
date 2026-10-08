@@ -35,13 +35,10 @@
         "{S}/mathA.json",
         "test"
       ],
-      "exit": 0,
+      "exit": 1,
       "stderr_tail": [],
       "stdout": {
-        "action": "phase",
-        "new": "test",
-        "old": "practice",
-        "written": true
+        "error": "this course is 'active'; it enters its test only from 'test_pending_convergence' (session_state.py roster <subjects.json> test_pending_convergence), once its lesson and practice are done"
       }
     },
     {
@@ -70,6 +67,23 @@
         "action": "roster",
         "new": "test_pending_convergence",
         "old": "active",
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "session_state.py",
+        "phase",
+        "{S}/mathA.json",
+        "test"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "phase",
+        "gate": "cohort convergence not checked: the courses folder was not found",
+        "new": "test",
+        "old": "practice",
         "written": true
       }
     },

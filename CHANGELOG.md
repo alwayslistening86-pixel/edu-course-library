@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.99.0] — 2026-10-08
+### Changed
+- B-04.5f: session_state.py phase <subjects> test is refused unless the course is in test_pending_convergence and its cohort has converged (cohort_status.py), naming the courses still being waited on; resuming a test already in progress is always allowed; the courses folder is --courses-dir or found from the data root, and if it cannot be found the cohort check is skipped and the result says so. Why: ADR 0012 class 2 (scenario S8), a phase move forward needs the evidence the cohort rule already asks for, so a test can no longer be entered by assertion. Behaviour change: scripts or sessions that set the test phase from an active course must first move it to test_pending_convergence.
+
 ## [1.98.0] — 2026-10-08
 ### Changed
 - B-04.5c, B-04.5d: error_log.py append checks an entry against the course: the item must be one of the course's syllabus items (a different stage's item is accepted with a warning, as practice interleaves) and a misconception id must be the id of an entry in that stage's misconceptions.json; otherwise nothing is written and the error names the valid ones. misconceptions.json entries take an optional stable id (unique per file); misconception_ids.py adds ids to older files without changing or reordering anything. The course folder is --course-dir or found from the data root; if not found the check is skipped and the result says so. Why: ADR 0012 class 2, the voice proposes and a script writes only what it can verify (scenarios S1, S4).
