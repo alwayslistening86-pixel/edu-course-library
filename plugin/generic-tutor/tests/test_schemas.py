@@ -127,6 +127,7 @@ class RealSchemas(unittest.TestCase):
             ("slot_advance.py", ["{L}/student_profile.json", "--min-gap-minutes", "0"]),
             ("resume_enrollment.py", ["{S}/design.json", "{C}/design/course.json", "active", "2026-10-04"]),
         ]
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         for script, args in flows:
             r = gs.run_step(script, args, self.fx, self.tmp)
             self.assertEqual(r["exit"], 0, (script, r))

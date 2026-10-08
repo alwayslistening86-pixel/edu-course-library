@@ -131,7 +131,7 @@ If the voice that teaches is not the examiner, who is allowed to say why an answ
 | B-04.5 | design | Spawn build micro-tasks from the ADR | Listed here before any is started | B-04.4 |
 
 ### B-04.5: the build tasks from ADR 0012
-Each is its own small pull request. Done: a, b, c, d, f, g, h, i, j, k (c, d and f after the owner took the recommended options in `docs/wave7/B-04-5-decisions.md`). Still to build: e (PR open). Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
+Each is its own small pull request. Done: a, b, c, d, e, f, g, h, i, j, k (c to f after the owner took the recommended options in `docs/wave7/B-04-5-decisions.md`). All done. Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
 
 | ID | Change | Test that proves it | Scenario |
 |---|---|---|---|

@@ -9,10 +9,16 @@
       "exit": 0,
       "stderr_tail": [],
       "stdout": {
-        "activity": [],
+        "activity": [
+          {
+            "session": 5,
+            "text": "Kept the per-criterion marks for a mathA stage test (no answer text).",
+            "when": "<TS>"
+          }
+        ],
         "note": "Only ids and numbers are logged, never your answers or messages.",
-        "showing": 0,
-        "total_writes_logged": 0
+        "showing": 1,
+        "total_writes_logged": 1
       }
     },
     {
@@ -29,6 +35,12 @@
       "stdout": {
         "advanced_to": "S3",
         "current_stage": "S3",
+        "grading": {
+          "attempt": 1,
+          "available": 2,
+          "awarded": 2,
+          "percent": 100.0
+        },
         "previous_status": "unsat",
         "result": "pass",
         "stage_id": "S2",
@@ -54,7 +66,7 @@
         ],
         "note": "Only ids and numbers are logged, never your answers or messages.",
         "showing": 1,
-        "total_writes_logged": 1
+        "total_writes_logged": 2
       }
     },
     {
@@ -76,7 +88,7 @@
         ],
         "note": "Only ids and numbers are logged, never your answers or messages.",
         "showing": 1,
-        "total_writes_logged": 1
+        "total_writes_logged": 2
       }
     }
   ]

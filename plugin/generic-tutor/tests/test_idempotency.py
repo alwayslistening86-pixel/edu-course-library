@@ -53,6 +53,7 @@ class Repeat(unittest.TestCase):
         with open(self.c, "w") as f:
             json.dump(course, f)
         for stage in ("S2", "S3"):
+            gs.grade(self.fx, self.tmp, "mathA", stage)
             gs.run_step("record_stage_result.py", ["apply", self.s, self.c, stage, "pass"], self.fx, self.tmp)
         self.assertEqual(self.get()["current_stage"], "S4")
         before = self.get()["current_stage"]
@@ -61,6 +62,7 @@ class Repeat(unittest.TestCase):
         self.assertIsNone(b["advanced_to"])
 
     def test_pass_twice_in_a_row_is_stable(self):
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         a, b = self.twice("record_stage_result.py", ["apply", self.s, self.c, "S2", "pass"])
         self.assertEqual(a["advanced_to"], "S3")
         self.assertEqual(self.get()["current_stage"], "S3")

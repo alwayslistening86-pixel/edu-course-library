@@ -64,6 +64,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | `remediation{stage_id}` | `{attempts, last_cause, escalated, escalated_at_slot}` | `remediation_state.py` |
 | `goal_map` | `[{goal, items[], set_on}]` — optional: which syllabus items each of the learner's goals means (the tutor's reading, confirmed with the learner); up to 60 items per goal | `goal_map.py set/clear` (progress class); read by `goal_map.py report` |
 | `target` | `{date: YYYY-MM-DD, set_on}` — optional learner-stated deadline | `plan_target.py` (progress class); the only calendar date stored; read by `plan_estimate.py` |
+| `grading_used{stage_id}` | integer: the latest `record_grading.py` attempt a stage result consumed — optional | `record_stage_result.py` (a pass needs a newer, unused grading record) |
 | `practice_used{stage_id}` | `{fixed: [item numbers], generated: n}` — optional | `practice_pick.py used` |
 | `calibration{enabled, entries[{stage_id, rating 1-5, result, on}]}` | optional, opt-in self-rating before tests, newest 50 | `calibration.py` (signal class) |
 | `notices_acknowledged[]` | `{id, on}` | `session_state.py notice` |
@@ -88,7 +89,7 @@ Keys starting `_` are metadata (`_meta`, `_items_source{document,url,version,ite
 
 ## `rubric.json`
 
-`{stage_rubrics{stage_id:{criteria[], pass_threshold, source{issuing_body, document, reference}}}, exam_rubric{criteria, pass_threshold, source}}`. Every entry sourced; compiler never authors criteria.
+`{stage_rubrics{stage_id:{criteria[], pass_threshold, pass_percent?, source{issuing_body, document, reference}}}, exam_rubric{criteria, pass_threshold, source}}`. Every entry sourced; compiler never authors criteria. `pass_threshold` is prose; the optional integer `pass_percent` (1 to 100) is written only where the issuing body publishes a numeric pass mark, never invented, and `record_stage_result.py` refuses a pass whose recorded marks fall below it.
 
 ## `tutor.sqlite3`
 

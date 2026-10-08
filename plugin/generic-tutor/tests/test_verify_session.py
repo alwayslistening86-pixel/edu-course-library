@@ -48,6 +48,7 @@ class Session(unittest.TestCase):
     # --- complete sessions: no findings -------------------------------------------------------------
     def test_complete_pass_session_is_clean(self):
         self.start()
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         self.call("record_stage_result.py", ["apply", S, COURSE, "S2", "pass"])
         self.call("confidence_update.py", ["apply", S, "pass_clean", "6"])
         self.seed_cards("S2")
@@ -62,6 +63,7 @@ class Session(unittest.TestCase):
 
     def test_remediated_pass_variant_is_clean(self):
         self.start()
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         self.call("record_stage_result.py", ["apply", S, COURSE, "S2", "pass"])
         self.call("confidence_update.py", ["apply", S, "pass_remediated", "6"])
         self.call("remediation_state.py", ["reset", S, "S2"])
@@ -100,6 +102,7 @@ class Session(unittest.TestCase):
             with self.subTest(name):
                 self.tearDown_fixture()
                 self.start()
+                gs.grade(self.fx, self.tmp, "mathA", "S2")
                 for script, args in steps:
                     self.call(script, args)
                 if seed:
@@ -122,13 +125,14 @@ class Session(unittest.TestCase):
     # --- ledger behaviour ---------------------------------------------------------------------------
     def test_ledger_lines_carry_slot_and_detail(self):
         self.start()
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         self.call("record_stage_result.py", ["apply", S, COURSE, "S2", "pass"])
         lines = ledger.read(self.fx["L"])
-        self.assertEqual([e["script"] for e in lines], ["slot_advance.py", "record_stage_result.py"])
-        self.assertEqual(lines[1]["slot"], 6)
-        self.assertEqual(lines[1]["detail"]["stage_id"], "S2")
-        self.assertEqual(lines[1]["detail"]["result"], "pass")
-        self.assertEqual(lines[1]["course_id"], "mathA")
+        self.assertEqual([e["script"] for e in lines], ["slot_advance.py", "record_grading.py", "record_stage_result.py"])
+        self.assertEqual(lines[2]["slot"], 6)
+        self.assertEqual(lines[2]["detail"]["stage_id"], "S2")
+        self.assertEqual(lines[2]["detail"]["result"], "pass")
+        self.assertEqual(lines[2]["course_id"], "mathA")
 
     def test_revoked_consent_writes_no_ledger_and_limited_still_does(self):
         prof = self.fx["L"] + "/student_profile.json"
@@ -141,6 +145,7 @@ class Session(unittest.TestCase):
         d["consent"]["status"] = "limited"
         with open(prof, "w") as f:
             json.dump(d, f)
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         self.call("record_stage_result.py", ["apply", S, COURSE, "S2", "pass"])
         self.assertEqual(len(ledger.read(self.fx["L"])), 1)
 
@@ -151,6 +156,7 @@ class Session(unittest.TestCase):
         with open(prof, "w") as f:
             json.dump(d, f)
         self.start()
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         self.call("record_stage_result.py", ["apply", S, COURSE, "S2", "pass"])
         self.call("confidence_update.py", ["apply", S, "pass_clean", "6"])  # skipped under limited
         entries = ledger.read(self.fx["L"])
@@ -159,6 +165,7 @@ class Session(unittest.TestCase):
 
     def test_cli_previous_flag_and_exit(self):
         self.start()
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         self.call("record_stage_result.py", ["apply", S, COURSE, "S2", "pass"])
         self.start()  # next session: slot 7
         r = self.call("verify_session.py", ["{L}", "--previous"])

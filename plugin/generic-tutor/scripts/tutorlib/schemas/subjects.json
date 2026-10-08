@@ -178,6 +178,13 @@
         }
       }
     },
+    "grading_used": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
     "practice_used": {
       "type": "object",
       "additionalProperties": {

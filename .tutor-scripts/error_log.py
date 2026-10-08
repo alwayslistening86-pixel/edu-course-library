@@ -63,13 +63,16 @@ of one call without a second script invocation.
 
 Subcommands:
     append  <subjects.json> <stage_id> <item_id> <source_phase> <cause> \
-            <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--course-dir <course folder>]
+            <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--no-observe] [--course-dir <course folder>]
     resolve <subjects.json> <item_id> <current_slot> [cause|ANY]
     query   <subjects.json> [stage_id|ALL]
 
 `--mock` (a mock paper, ADR 0012 / B-04.5g): the error is recorded, and still shows as unresolved so the weak item gets practised, but it
 does not move `item_mastery` and is not counted towards `recurring` or `diagnostic_gate.py`'s triggers. A practice paper changes no
 progress estimate; the history database cannot tell a mock error apart (it records source_phase `test`).
+
+`--no-observe` (B-04.5b): this wrong answer was already counted by `item_mastery.py observe <item> false`, which the skill runs on every wrong answer
+whether or not it is then diagnosed and logged; the entry is recorded without counting the same miss a second time.
 
 `append` checks the entry against the course (B-04.5c/d): an item id must be one of the course's syllabus items, and a misconception id must be the
 `id` of an entry in that stage's misconceptions.json; otherwise nothing is written and the error says what to use instead. The course folder is
@@ -111,7 +114,7 @@ def _next_id(entries, stage_id, today_iso):
 
 @ledger.logged("error_log.py", "subjects_path")
 @filelock.locked("subjects_path")
-def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE", mock=False, course_dir=None):
+def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_id, note, current_slot, rubric_criterion="NONE", mock=False, course_dir=None, observe=True):
     if cause not in CAUSES:
         return {"error": f"cause must be one of {CAUSES}, got {cause!r}"}
     if source_phase not in ("practice", "test"):
@@ -167,8 +170,12 @@ def append(subjects_path, stage_id, item_id, source_phase, cause, misconception_
         1 for e in entries
         if isinstance(e, dict) and e.get("stage_id") == stage_id and e.get("cause") == cause and not e.get("resolved") and not e.get("mock")
     )
-    mastery_result = ({"updated": False, "skipped": "mock paper: a practice paper changes no mastery estimate"} if mock
-                      else item_mastery.observe(subjects_path, item_id, False, current_slot))
+    if mock:
+        mastery_result = {"updated": False, "skipped": "mock paper: a practice paper changes no mastery estimate"}
+    elif not observe:
+        mastery_result = {"updated": False, "skipped": "already counted by item_mastery.py observe (--no-observe)"}
+    else:
+        mastery_result = item_mastery.observe(subjects_path, item_id, False, current_slot)
     return {
         "action": "appended",
         "entry": entry,
@@ -277,14 +284,14 @@ def main():
                     sys.exit(2)
                 course_dir = rest[i + 1]
                 del rest[i:i + 2]
-            mock = "--mock" in rest
-            rest = [a for a in rest if a != "--mock"]
+            mock, observe = "--mock" in rest, "--no-observe" not in rest
+            rest = [a for a in rest if a not in ("--mock", "--no-observe")]
             if len(rest) not in (7, 8):
-                print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--course-dir <course folder>]"}))
+                print(json.dumps({"error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--no-observe] [--course-dir <course folder>]"}))
                 sys.exit(2)
             if rest[5] == "@stdin":   # the note is learner-derived free text: read it from stdin, never from a shell argument
                 rest[5] = cli.read_stdin().strip()
-            result = append(subjects_path, *rest, mock=mock, course_dir=course_dir)
+            result = append(subjects_path, *rest, mock=mock, course_dir=course_dir, observe=observe)
         elif cmd == "resolve":
             if len(sys.argv) not in (5, 6):
                 print(json.dumps({"error": "usage: error_log.py resolve <subjects.json> <item_id> <current_slot> [cause|ANY]"}))

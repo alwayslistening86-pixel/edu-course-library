@@ -108,6 +108,10 @@
           "observations": {
             "type": "integer",
             "minimum": 0
+          },
+          "consecutive_misses": {
+            "type": "integer",
+            "minimum": 0
           }
         }
       }
@@ -172,6 +176,13 @@
         "set_on": {
           "type": "string"
         }
+      }
+    },
+    "grading_used": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
       }
     },
     "practice_used": {
