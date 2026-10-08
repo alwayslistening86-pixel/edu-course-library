@@ -1,0 +1,251 @@
+{
+  "files_after": {
+    "profile/amy/subjects/mathA.json": {
+      "cohort_id": 2,
+      "confidence": 0.5,
+      "course_id": "mathA",
+      "current_phase": "practice",
+      "current_stage": "S2",
+      "error_patterns": [
+        {
+          "cause": "misconception",
+          "id": "err_<DATE>_S1_001",
+          "item_id": "S1.1",
+          "misconception_id": "MC-S1-1",
+          "note": "n",
+          "resolved": false,
+          "resolved_at_slot": null,
+          "rubric_criterion": null,
+          "slot": 9,
+          "source_phase": "practice",
+          "stage_id": "S1"
+        },
+        {
+          "cause": "slip",
+          "id": "err_<DATE>_S1_002",
+          "item_id": "S2.1",
+          "misconception_id": null,
+          "note": "n",
+          "resolved": false,
+          "resolved_at_slot": null,
+          "rubric_criterion": null,
+          "slot": 9,
+          "source_phase": "practice",
+          "stage_id": "S1"
+        }
+      ],
+      "exam_status": "locked",
+      "item_mastery": {
+        "S1.1": {
+          "last_correct": false,
+          "last_slot": 9,
+          "observations": 1,
+          "p_mastery": 0.1932
+        },
+        "S2.1": {
+          "last_correct": false,
+          "last_slot": 9,
+          "observations": 1,
+          "p_mastery": 0.1932
+        }
+      },
+      "last_session_summary": "",
+      "last_updated": "<DATE>",
+      "notices_acknowledged": [],
+      "remediation": {},
+      "roster_state": "active",
+      "schema_version": 5,
+      "syllabus_status": {
+        "S1": "pass",
+        "S2": "unsat",
+        "S3": "unsat"
+      }
+    }
+  },
+  "steps": [
+    {
+      "cmd": [
+        "misconception_ids.py",
+        "{C}/mathA",
+        "--write"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/mathA",
+        "files": [
+          {
+            "added": [
+              "MC-S1-1"
+            ],
+            "stage": "S1",
+            "total": 1
+          }
+        ],
+        "skipped": [],
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S1",
+        "S9.9",
+        "practice",
+        "slip",
+        "NONE",
+        "n",
+        "9",
+        "NONE",
+        "--course-dir",
+        "{C}/mathA"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "item 'S9.9' is not an item of this course; use an item id from next_items.py (or NONE)"
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S1",
+        "S1.1",
+        "practice",
+        "slip",
+        "MC-S1-9",
+        "n",
+        "9",
+        "NONE",
+        "--course-dir",
+        "{C}/mathA"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "misconception id 'MC-S1-9' is not in stage S1's misconceptions.json (known: MC-S1-1); use one of those, or NONE for a new kind of mistake"
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S1",
+        "S1.1",
+        "practice",
+        "misconception",
+        "MC-S1-1",
+        "n",
+        "9",
+        "NONE",
+        "--course-dir",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "appended",
+        "entry": {
+          "cause": "misconception",
+          "id": "err_<DATE>_S1_001",
+          "item_id": "S1.1",
+          "misconception_id": "MC-S1-1",
+          "note": "n",
+          "resolved": false,
+          "resolved_at_slot": null,
+          "rubric_criterion": null,
+          "slot": 9,
+          "source_phase": "practice",
+          "stage_id": "S1"
+        },
+        "item_mastery": {
+          "item_id": "S1.1",
+          "new_p_mastery": 0.1932,
+          "observations": 1,
+          "params": {
+            "p_guess": 0.2,
+            "p_init": 0.3,
+            "p_slip": 0.1,
+            "p_transit": 0.15
+          },
+          "posterior_this_observation": 0.0508,
+          "prior": 0.3,
+          "sqlite": {
+            "ok": true
+          }
+        },
+        "recurring": false,
+        "sqlite": {
+          "ok": true
+        },
+        "unresolved_same_cause_in_stage": 1,
+        "unresolved_same_item_and_cause": 1
+      }
+    },
+    {
+      "cmd": [
+        "error_log.py",
+        "append",
+        "{S}/mathA.json",
+        "S1",
+        "S2.1",
+        "practice",
+        "slip",
+        "NONE",
+        "n",
+        "9",
+        "NONE",
+        "--course-dir",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "action": "appended",
+        "entry": {
+          "cause": "slip",
+          "id": "err_<DATE>_S1_002",
+          "item_id": "S2.1",
+          "misconception_id": null,
+          "note": "n",
+          "resolved": false,
+          "resolved_at_slot": null,
+          "rubric_criterion": null,
+          "slot": 9,
+          "source_phase": "practice",
+          "stage_id": "S1"
+        },
+        "item_mastery": {
+          "item_id": "S2.1",
+          "new_p_mastery": 0.1932,
+          "observations": 1,
+          "params": {
+            "p_guess": 0.2,
+            "p_init": 0.3,
+            "p_slip": 0.1,
+            "p_transit": 0.15
+          },
+          "posterior_this_observation": 0.0508,
+          "prior": 0.3,
+          "sqlite": {
+            "ok": true
+          }
+        },
+        "recurring": false,
+        "sqlite": {
+          "ok": true
+        },
+        "unresolved_same_cause_in_stage": 1,
+        "unresolved_same_item_and_cause": 1,
+        "warnings": [
+          "item S2.1 belongs to stage S2, logged under S1"
+        ]
+      }
+    }
+  ]
+}

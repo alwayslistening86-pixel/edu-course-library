@@ -24,6 +24,7 @@ EXEMPT = {
     "course_bundle.py": "moves course content; refuses learner-data file names by design",
     "erase_profile.py": "the learner's right to erasure; deletes, never records",
     "exam_to_bank.py": "course content authoring (staff); no learner data",
+    "misconception_ids.py": "course content authoring (staff): adds ids to a course's misconceptions.json; no learner data",
     "export_profile.py": "the learner's own right to their data (/export); writes a zip outside the folder",
     "migrate_schema.py": "rewrites existing files to a newer shape after a backup; adds no new learner data",
     "publish_course.py": "course publishing (staff); no learner data",

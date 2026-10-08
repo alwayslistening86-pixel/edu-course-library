@@ -11,6 +11,11 @@
       "source"
     ],
     "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,39}$",
+        "description": "Optional stable id (for example MC-S1-1) that error_log.py checks a logged misconception_id against. Never renumber an id once learners' errors may carry it."
+      },
       "pattern": {
         "type": "string",
         "minLength": 10
