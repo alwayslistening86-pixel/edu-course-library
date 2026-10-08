@@ -5,7 +5,7 @@ For the person running the tutor (a learner, or a parent/tutor setting it up). C
 ## 1. What you need
 - Claude Cowork (or Claude Code) with the **generic-tutor** plugin installed (see the README).
 - **Python 3.10 or newer** on the same machine. Check with `python3 --version` (Windows: `py -3 --version`). The plugin's scripts use it.
-- A folder you connect to the session that contains **`courses/`** (your course library). A `profile/` folder is created for learners on first use. The first time you start, the tutor asks once whether that folder is connected on its own or as part of a larger shared connection; your answer is remembered for the whole library.
+- A folder you connect to the session with an empty **`courses/`** folder inside it (your course library: it starts empty and `/add-course` builds each course into it). A `profile/` folder is created for learners on first use. The first time you start, the tutor asks once whether that folder is connected on its own or as part of a larger shared connection; your answer is remembered for the whole library.
 
 ## 2. First time
 1. **Check the setup:** type `/doctor`. It reports anything missing (no `courses/`, scripts not deployed) and how to fix it. Warnings about "no profile yet" are normal on a new install.
