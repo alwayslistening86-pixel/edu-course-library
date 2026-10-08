@@ -18,7 +18,7 @@ The owner accepted the recommendations and defaults for D1 to D11 on 7 Oct 2026,
 | B-06.2 | `docs/wave7/B-06-course-delivery.md` |
 | B-04.5 | the eleven build tasks, listed below |
 
-Done since: B-01.2 (v1.94.0), B-02.3 and B-04.5k (v1.95.0, keyed item types and `mark_answer.py`; practice items outside the question bank are not keyed yet, B-02.4). Next, with no machine needed: the B-04 build tasks (small, independent), B-05.1 (role threat model), B-06.3 and B-06.4, B-03.2 to B-03.5 (offline parts of the local-model backend). Still needing the owner or a machine: B-01.10, B-02.10, B-03.6 and B-03.7, B-06.5.
+Done since: B-03.2 (v1.97.0, the local chat-completions eval backend; tested against a fake server only, no real model has been run), B-01.2 (v1.94.0), B-02.3 and B-04.5k (v1.95.0, keyed item types and `mark_answer.py`; practice items outside the question bank are not keyed yet, B-02.4). Next, with no machine needed: the B-04 build tasks (small, independent), B-05.1 (role threat model), B-06.3 and B-06.4, B-03.2 to B-03.5 (offline parts of the local-model backend). Still needing the owner or a machine: B-01.10, B-02.10, B-03.6 and B-03.7, B-06.5.
 
 The inventories found work outside Wave 7 too, tracked here so it is not lost: the 15 personal-data gaps in `B-06-personal-data.md` (erase and purge leave backups, exports, migration copies and signal data behind; error notes have no cap), and a stale line in `PRIVACY.md` saying the history database is missing from `/export` (it is included).
 

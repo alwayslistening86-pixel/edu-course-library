@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.97.0] — 2026-10-08
+### Changed
+- B-03.2: the eval harness has a local backend (python -m evals run --backend local --model NAME [--url ...]) for a model served on this machine through the common chat-completions format (Ollama, llama.cpp server). Standard library only; refuses a non-loopback url unless --allow-remote, ignores proxy variables, refuses redirects, no credentials in the url; each failure says what went wrong. Why: owner decision D5, so the safety and wellbeing rules can be measured on a small local model before a child uses one. Limit: tested against a fake server only; settings are exposed but not yet written into reports (B-03.3).
+
 ## [1.96.0] — 2026-10-07
 ### Changed
 - B-02.4: bank_pick.py offers the next keyed question-bank item for a stage (never the key, mcq options shown, weak items first with --prefer) and records that it was met under practice_used[stage].bank / bank_last; it refuses ids that are not keyed questions of that stage. course-runner points practice at it, with marking by mark_answer.py. Why: ADR 0012 class 1 needs a way to put script-markable questions in front of a learner; bank_last is also the 'last served' fact later checks (B-04.5c) can use. Optional additive fields, no migration. Limit: only questions that carry a key are offered; unkeyed ones still need the examiner.
