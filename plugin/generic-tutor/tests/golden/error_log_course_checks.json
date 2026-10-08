@@ -37,12 +37,14 @@
       "exam_status": "locked",
       "item_mastery": {
         "S1.1": {
+          "consecutive_misses": 1,
           "last_correct": false,
           "last_slot": 9,
           "observations": 1,
           "p_mastery": 0.1932
         },
         "S2.1": {
+          "consecutive_misses": 1,
           "last_correct": false,
           "last_slot": 9,
           "observations": 1,
@@ -164,6 +166,7 @@
           "stage_id": "S1"
         },
         "item_mastery": {
+          "consecutive_misses": 1,
           "item_id": "S1.1",
           "new_p_mastery": 0.1932,
           "observations": 1,
@@ -221,6 +224,7 @@
           "stage_id": "S1"
         },
         "item_mastery": {
+          "consecutive_misses": 1,
           "item_id": "S2.1",
           "new_p_mastery": 0.1932,
           "observations": 1,

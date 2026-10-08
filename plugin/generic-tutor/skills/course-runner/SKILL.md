@@ -20,7 +20,7 @@ description: Resumes and teaches an existing course via /continue, and lists cou
 4. **Live recheck:** only if `needs_recheck`; always write `last_live_recheck` afterwards.
 4b. **Time:** ask once how long the learner has today (default: their `session_minutes`). At the end of each phase ask roughly how long it has been and run `session_plan.py <the learner's folder> --elapsed N --phase <the phase about to start> [--available N]`. `stop_before_test`, `wrap_up` or `over_time`: offer to stop at the next stop point (never mid-test: `finish_the_test`), then step 8. The learner may always carry on.
 5. **Teach the current phase** (see Running a stage): lesson → practice (warm-up `review_select.py`, items from `next_items.py` and `practice_pick.py`) → test, which only a converged cohort reaches (`session_state.py roster` / `phase`).
-6. **After each wrong answer in practice or test:** `diagnostic_gate.py`, then `error_log.py append`; a right answer after an error: `error_log.py resolve`.
+6. **After each wrong answer in practice or test:** `item_mastery.py observe <subjects.json> <item_id> false <slot>` (always), then `diagnostic_gate.py`; if it fires, elicit, then `error_log.py append … --no-observe`. A right answer after a miss: `error_log.py resolve` if an error was logged, else `item_mastery.py observe … true`.
 7. **After a test:** `record_grading.py <subjects.json> <course.json> <stage_id> <slot>` (per-criterion marks on stdin: criterion number, met, marks, of; never answer text), `record_stage_result.py apply`, `confidence_update.py apply`; on a pass also `remediation_state.py reset` and `stage-recap`; on a fail, `remediation_state.py record`.
 7a. **Self-rating (optional):** offer once, `calibration.py optin <subjects.json> yes|no`. If yes, ask before each test how sure they are of passing (1–5) and, after grading, `calibration.py record <subjects.json> <stage_id> <1-5> pass|fail <today>`. `report` (overconfident / underconfident) is for a conversation, never a gate.
 7b. **Reflect (after a test, pass or fail):** ask two short questions, one at a time: what was hardest, and what to look at first next time. Their words go into the note.
@@ -127,23 +127,23 @@ This sets `syllabus_status[stage_id]` and, on a genuine pass, advances `current_
 ## Diagnosing during practice, not just after a failed test
 The adaptive branch for practice: respond to what is going wrong before a test fails.
 
-**Run the gate, don't guess whether a moment is worth stopping for:**
+**Count every wrong answer first** (`item_mastery.py observe <subjects.json> <item_id> false <slot>`; no cause needed), **then run the gate rather than guess:**
 ```
 python3 /EDU/.tutor-scripts/diagnostic_gate.py <subjects.json> <stage_id> <item_id> <explicit_confusion:true|false> <reasoning_mismatch:true|false>
 ```
-Pass `explicit_confusion: true` when the learner has said, in any words, that they're confused or stuck. Pass `reasoning_mismatch: true` whenever a right answer comes with wrong or absent reasoning (the learner's explanation, unprompted or asked for, does not support the answer). The script itself checks two conditions from `error_log.py`'s data (two unresolved misses on the same item; a recurring `cause` in this stage), so don't track those by hand. If `fire` is `false`, keep teaching normally: the branch is deliberately narrow.
+Pass `explicit_confusion: true` when the learner says, in any words, that they're confused or stuck. Pass `reasoning_mismatch: true` whenever a right answer comes with wrong or absent reasoning (the learner's explanation, unprompted or asked for, does not support the answer). The script itself checks two misses in a row on the item and a recurring `cause` in this stage, so don't track those by hand. If `fire` is `false`, keep teaching: the branch is deliberately narrow.
 
-**When it fires:** always **elicit before explaining** — ask what the learner did or thought, don't just tell them what's wrong. Their answer is what lets you classify `cause` against the script's `taxonomy` (one of `slip`, `missing_prerequisite`, `misconception`, `misapplied_procedure`, `comprehension` — the script returns the full table, including the right response and the wrong one to avoid, for each). This classification is a real judgment call; the script only decided the moment was worth stopping for, it never guesses the cause for you.
+**When it fires:** always **elicit before explaining** — ask what the learner did or thought, don't just tell them what's wrong. Their answer lets you classify `cause` against the script's `taxonomy` (`slip`, `missing_prerequisite`, `misconception`, `misapplied_procedure` or `comprehension`, each with the right response and the one to avoid). That is a real judgment call; the script only decided the moment was worth stopping for.
 
 **Log what you found:**
 ```
-python3 /EDU/.tutor-scripts/error_log.py append <subjects.json> <stage_id> <item_id> <practice|test> <cause> <misconception_id|NONE> @stdin <current_slot> <<'NOTE'
+python3 /EDU/.tutor-scripts/error_log.py append <subjects.json> <stage_id> <item_id> <practice|test> <cause> <misconception_id|NONE> @stdin <current_slot> --no-observe <<'NOTE'
 <free-text note>
 NOTE
 ```
-**The note is passed on stdin through a quoted heredoc (`@stdin` … `<<'NOTE'`), never inside shell quotes** — it contains the learner's own words, and a stray quote or `$(…)` in a shell argument would run as a command. Write the note as your own short description of the mistake rather than pasting the learner's text.
+**The note is passed on stdin through a quoted heredoc (`@stdin` … `<<'NOTE'`), never inside shell quotes** — it holds the learner's words, and a stray quote or `$(…)` in a shell argument would run as a command. Describe the mistake; don't paste theirs.
 
-`misconception_id` is the `id` of the matching entry in `stages/<stage_id>/misconceptions.json` (see "misconceptions.json" below), else `NONE`; the script refuses an unknown id or item and names the valid ones. Respond according to the taxonomy's `right_response` for the classified cause — never a generic re-explanation regardless of cause, that's exactly the failure mode this branch exists to avoid.
+`misconception_id` is the `id` of the matching entry in `stages/<stage_id>/misconceptions.json` (see "misconceptions.json" below), else `NONE`; the script refuses an unknown id or item and names the valid ones. Respond with the taxonomy's `right_response` for the cause, never a generic re-explanation: that is the failure this branch exists to avoid.
 
 **When a later attempt on the same item is correct and confident**, resolve it rather than leaving a permanent black mark:
 ```

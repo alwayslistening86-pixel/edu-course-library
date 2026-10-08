@@ -10,6 +10,7 @@
       "exam_status": "locked",
       "item_mastery": {
         "S1.1": {
+          "consecutive_misses": 1,
           "last_correct": false,
           "last_slot": 6,
           "observations": 2,
@@ -42,6 +43,7 @@
       "exit": 0,
       "stderr_tail": [],
       "stdout": {
+        "consecutive_misses": 0,
         "item_id": "S1.1",
         "new_p_mastery": 0.7098,
         "observations": 1,
@@ -70,6 +72,7 @@
       "exit": 0,
       "stderr_tail": [],
       "stdout": {
+        "consecutive_misses": 1,
         "item_id": "S1.1",
         "new_p_mastery": 0.349,
         "observations": 2,
@@ -98,6 +101,7 @@
         "count": 1,
         "items": {
           "S1.1": {
+            "consecutive_misses": 1,
             "last_correct": false,
             "last_slot": 6,
             "observations": 2,

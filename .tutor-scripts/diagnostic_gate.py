@@ -114,7 +114,10 @@ def evaluate(subjects_path, stage_id, item_id, explicit_confusion, reasoning_mis
     unresolved_stage = [e for e in entries if isinstance(e, dict) and e.get("stage_id") == stage_id and not e.get("resolved") and not e.get("mock")]   # a mock paper never triggers a diagnostic
 
     same_item_misses = sum(1 for e in unresolved_stage if e.get("item_id") == item_id)
-    trigger_a = same_item_misses >= 2
+    mastery = d.get("item_mastery") if isinstance(d.get("item_mastery"), dict) else {}
+    entry = mastery.get(item_id) if isinstance(mastery.get(item_id), dict) else {}
+    run = int(entry.get("consecutive_misses", 0) or 0)                      # wrong answers in a row, counted by item_mastery.py with no cause needed
+    trigger_a = same_item_misses >= 2 or run >= 2
 
     cause_counts = {}
     for e in unresolved_stage:
@@ -126,7 +129,7 @@ def evaluate(subjects_path, stage_id, item_id, explicit_confusion, reasoning_mis
 
     reasons = []
     if trigger_a:
-        reasons.append(f"two-or-more unresolved misses on item {item_id!r} in stage {stage_id!r} ({same_item_misses})")
+        reasons.append(f"two-or-more misses on item {item_id!r} in stage {stage_id!r} ({max(same_item_misses, run)})")
     if trigger_b:
         reasons.append(f"recurring cause {recurring_cause!r} in stage {stage_id!r} ({cause_counts[recurring_cause]} unresolved entries)")
     if explicit_confusion:
