@@ -183,15 +183,18 @@ class PassEndsTheWait(Base):
         r = rsr.apply(self.s, self.c, "S2", "fail")
         self.assertNotIn("roster_state_reset", r)
         self.assertEqual(self.get()["roster_state"], "test_pending_convergence")      # the failed course stays the bottleneck
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         r = rsr.apply(self.s, self.c, "S2", "pass")
         self.assertEqual(r["roster_state_reset"], "active")
         self.assertEqual((self.get()["roster_state"], self.get()["current_stage"], self.get()["current_phase"]), ("active", "S3", "lesson"))
 
     def test_pass_does_not_touch_other_states(self):
         import record_stage_result as rsr
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         rsr.apply(self.s, self.c, "S2", "pass")
         self.assertEqual(self.get()["roster_state"], "active")
         self.edit(lambda d: d.update(roster_state="dropped"))
+        gs.grade(self.fx, self.tmp, "mathA", "S3")
         rsr.apply(self.s, self.c, "S3", "pass")
         self.assertEqual(self.get()["roster_state"], "dropped")
 
@@ -203,6 +206,7 @@ class PassEndsTheWait(Base):
         self.edit(lambda d: d.update(roster_state="active"), peer)      # a same-cohort peer still mid-lesson
         cohorts, _ = cohort_status.compute_cohorts(self.fx["S"], self.fx["C"])
         self.assertFalse(cohorts["2"]["converged"])
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         rsr.apply(self.s, self.c, "S2", "pass")
         cohorts, _ = cohort_status.compute_cohorts(self.fx["S"], self.fx["C"])
         mathA = next(m for m in cohorts["2"]["members"] if m["course_id"] == "mathA")

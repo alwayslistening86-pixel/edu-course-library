@@ -63,7 +63,13 @@ class FixtureCourses(unittest.TestCase):
             subj, cj = os.path.join(learner, "subjects", f"{c}.json"), os.path.join(courses, c, "course.json")
             with open(cj) as f:
                 ladder = json.load(f)["stage_ladder"]
+            import record_grading
             for sid in ladder:
+                with open(os.path.join(os.path.dirname(cj), "rubric.json"), encoding="utf-8") as f:
+                    entry = (json.load(f).get("stage_rubrics") or {}).get(sid)
+                if entry:                                                    # a stage with a rubric entry needs its test graded first (B-04.5e)
+                    graded = record_grading.record(subj, cj, sid, 1, [{"criterion": i, "met": True, "marks": 1, "of": 1} for i in range(1, len(entry["criteria"]) + 1)])
+                    self.assertTrue(graded.get("written"), (c, sid, graded))
                 out = record_stage_result.apply(subj, cj, sid, "pass")
                 self.assertTrue(out.get("written"), (c, sid, out))
             with open(subj) as f:

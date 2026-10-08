@@ -8,6 +8,9 @@
       "current_stage": "S3",
       "error_patterns": [],
       "exam_status": "locked",
+      "grading_used": {
+        "S2": 1
+      },
       "item_mastery": {},
       "last_session_summary": "",
       "last_updated": "<DATE>",
@@ -37,6 +40,12 @@
       "stdout": {
         "advanced_to": "S3",
         "current_stage": "S3",
+        "grading": {
+          "attempt": 1,
+          "available": 2,
+          "awarded": 2,
+          "percent": 100.0
+        },
         "previous_status": "unsat",
         "result": "pass",
         "stage_id": "S2",

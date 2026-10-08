@@ -415,6 +415,25 @@ def log_grading(subjects_path, stage_id, rows, slot):
     return {"ok": True, "attempt": attempt}
 
 
+def latest_grading(subjects_path, stage_id):
+    """Read-only: the most recent test attempt recorded for this stage (B-04.5e). Never raises.
+    {"ok": True, "attempt": n, "awarded": a, "available": b, "rubric_hash": h} or {"ok": True, "attempt": None}; {"ok": False, "error": ...} if the database cannot be read."""
+    try:
+        course_id = _course_id_from_path(subjects_path)
+        con = _connect(subjects_path)
+        try:
+            row = con.execute("SELECT MAX(attempt) FROM grading_results WHERE course_id = ? AND stage_id = ?", (course_id, stage_id)).fetchone()
+            if row[0] is None:
+                return {"ok": True, "attempt": None}
+            agg = con.execute("SELECT SUM(marks_awarded), SUM(marks_available), MAX(rubric_hash) FROM grading_results WHERE course_id = ? AND stage_id = ? AND attempt = ?",
+                              (course_id, stage_id, row[0])).fetchone()
+            return {"ok": True, "attempt": row[0], "awarded": agg[0], "available": agg[1], "rubric_hash": agg[2]}
+        finally:
+            con.close()
+    except Exception as e:  # noqa: BLE001 - deliberately broad, like _safe: a history problem must not crash a result write
+        return {"ok": False, "error": f"{type(e).__name__}: {e}"}
+
+
 @_safe()
 def log_confidence_event(subjects_path, event_type, misconception, delta, confidence_after, slot):
     course_id = _course_id_from_path(subjects_path)
