@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.100.0] — 2026-10-08
+### Changed
+- B-04.5e: record_stage_result.py apply ... pass is refused unless record_grading.py has recorded that stage's test and no earlier result already used the record (grading_used in the progress file), naming what to do; where a rubric entry carries the new optional pass_percent (1-100, written only where the issuing body publishes a number) the recorded marks must reach it. Skipped with a stated reason when grading is not kept under the learner's consent, the stage has no rubric entry, or the history database cannot be read; repeating a recorded pass is not re-checked and a fail is never refused. Why: ADR 0012 class 2 (scenario S7), a stage can no longer be passed by assertion. Behaviour change: a session that records a pass without grading the test first is now refused; course-runner already grades first.
+
 ## [1.99.0] — 2026-10-08
 ### Changed
 - B-04.5f: session_state.py phase <subjects> test is refused unless the course is in test_pending_convergence and its cohort has converged (cohort_status.py), naming the courses still being waited on; resuming a test already in progress is always allowed; the courses folder is --courses-dir or found from the data root, and if it cannot be found the cohort check is skipped and the result says so. Why: ADR 0012 class 2 (scenario S8), a phase move forward needs the evidence the cohort rule already asks for, so a test can no longer be entered by assertion. Behaviour change: scripts or sessions that set the test phase from an active course must first move it to test_pending_convergence.
