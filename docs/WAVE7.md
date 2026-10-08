@@ -131,12 +131,12 @@ If the voice that teaches is not the examiner, who is allowed to say why an answ
 | B-04.5 | design | Spawn build micro-tasks from the ADR | Listed here before any is started | B-04.4 |
 
 ### B-04.5: the build tasks from ADR 0012
-Each is its own small pull request. Done: a, c, d, f, g, h, i, j, k (c, d and f after the owner took the recommended options in `docs/wave7/B-04-5-decisions.md`). Still to build: b and e. Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
+Each is its own small pull request. Done: a, b, c, d, f, g, h, i, j, k (c, d and f after the owner took the recommended options in `docs/wave7/B-04-5-decisions.md`). Still to build: e (PR open). Every one changes only what its test names; none changes behaviour for a learner except by refusing something that was wrong to accept.
 
 | ID | Change | Test that proves it | Scenario |
 |---|---|---|---|
 | B-04.5a | Boolean inputs accept only `true` or `false`; anything else is an error | Parsing test for `diagnostic_gate`, `item_mastery observe`, `review_math apply` | S6 |
-| B-04.5b | The skill text agrees with itself on when an error is logged | A replayed-session test comparing wrong answers served with errors logged | S3 |
+| B-04.5b | The skill text agrees with itself on when an error is logged. **Done, v1.101.0** (`item_mastery.py observe` counts every miss; the gate reads it) | A replayed-session test comparing wrong answers served with errors logged | S3 |
 | B-04.5c | Error tags must equal the item the script last served | Mismatched tag refused; matching accepted | S4 |
 | B-04.5d | A misconception id must exist in that stage's `misconceptions.json` | Unknown id refused | S1, S4 |
 | B-04.5e | A stage `pass` needs a matching grading record at or above the threshold | `apply pass` with no or failing record refused | S7 |
