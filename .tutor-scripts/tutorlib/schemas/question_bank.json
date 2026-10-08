@@ -36,6 +36,12 @@
             }
           },
           "model_answer": {"type": "string"},
+          "key": {
+            "type": "object",
+            "required": ["kind"],
+            "properties": {"kind": {"enum": ["mcq", "numeric", "short"]}},
+            "description": "Optional machine-checkable answer key (B-02.3). tutorlib/marking.py defines the three shapes and checks them; a keyed question can be marked by mark_answer.py without a model."
+          },
           "source": {"type": "string", "minLength": 3}
         }
       }

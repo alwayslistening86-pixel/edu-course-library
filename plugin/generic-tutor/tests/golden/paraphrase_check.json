@@ -1,0 +1,41 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "paraphrase_check.py",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "by_rule": {},
+        "course_dir": "<TMP>/courses/mathA",
+        "finding_count": 0,
+        "findings": [],
+        "sources_checked": 0
+      }
+    },
+    {
+      "cmd": [
+        "paraphrase_check.py",
+        "{C}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: <TMP>/courses/nope is not a directory"
+      }
+    },
+    {
+      "cmd": [
+        "paraphrase_check.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: paraphrase_check.py <course_dir> [--source FILE]... [--min-run N>=4]"
+      }
+    }
+  ]
+}

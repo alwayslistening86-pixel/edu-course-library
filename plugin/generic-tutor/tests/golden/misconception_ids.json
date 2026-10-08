@@ -1,0 +1,92 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "misconception_ids.py",
+        "{C}/mathA"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/mathA",
+        "files": [
+          {
+            "added": [
+              "MC-S1-1"
+            ],
+            "stage": "S1",
+            "total": 1
+          }
+        ],
+        "skipped": [],
+        "written": false
+      }
+    },
+    {
+      "cmd": [
+        "misconception_ids.py",
+        "{C}/mathA",
+        "--write"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/mathA",
+        "files": [
+          {
+            "added": [
+              "MC-S1-1"
+            ],
+            "stage": "S1",
+            "total": 1
+          }
+        ],
+        "skipped": [],
+        "written": true
+      }
+    },
+    {
+      "cmd": [
+        "misconception_ids.py",
+        "{C}/mathA",
+        "--write"
+      ],
+      "exit": 0,
+      "stderr_tail": [],
+      "stdout": {
+        "course_dir": "<TMP>/courses/mathA",
+        "files": [
+          {
+            "added": [],
+            "stage": "S1",
+            "total": 1
+          }
+        ],
+        "skipped": [],
+        "written": false
+      }
+    },
+    {
+      "cmd": [
+        "misconception_ids.py",
+        "{T}/nope"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "FileNotFoundError: no such course folder <TMP>/nope"
+      }
+    },
+    {
+      "cmd": [
+        "misconception_ids.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: misconception_ids.py <course_dir> [--write]"
+      }
+    }
+  ]
+}

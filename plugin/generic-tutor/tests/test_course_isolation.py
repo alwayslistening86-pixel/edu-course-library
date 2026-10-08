@@ -34,10 +34,12 @@ def ops(subj, deck, course):
         ("review_math.py", ["apply", deck, "S1-c1", "10", "false"]),
         ("error_log.py", ["resolve", subj, "S1.1", "11"]),
         ("practice_pick.py", ["used", subj, "S1", "generated"]),
+        ("record_grading.py", [subj, f"{{C}}/{course}/course.json", "S1", "9"]),
         ("record_stage_result.py", ["apply", subj, f"{{C}}/{course}/course.json", "S1", "pass"]),
     ]
 
 
+GRADES = json.dumps([{"criterion": 1, "met": True, "marks": 1, "of": 1}, {"criterion": 2, "met": True, "marks": 1, "of": 1}])
 CARDS = json.dumps([{"front": "What is the first fact?", "back": "One."}, {"front": "What is the second fact?", "back": "Two."}])
 
 
@@ -49,7 +51,7 @@ def run_ops(fx, tmp, course, only=None):
         if only is not None and script not in only:
             continue
         argv = [sys.executable, os.path.join(gs.SCRIPTS, script)] + [a.format(**fx) for a in args]
-        p = subprocess.run(argv, input=CARDS if script == "deck_add.py" else None, capture_output=True, text=True, cwd=tmp)
+        p = subprocess.run(argv, input=CARDS if script == "deck_add.py" else GRADES if script == "record_grading.py" else None, capture_output=True, text=True, cwd=tmp)
         results.append((script, p.returncode))
     return results
 
@@ -99,7 +101,7 @@ class Isolation(unittest.TestCase):
         for (script, a_args), (_, t_args) in zip(ops(a_subj, a_deck, "mathA"), ops(t_subj, t_deck, "twin"), strict=True):
             for args, course in ((a_args, "mathA"), (t_args, "twin")):
                 argv = [sys.executable, os.path.join(gs.SCRIPTS, script)] + [a.format(**mixed_fx) for a in args]
-                p = subprocess.run(argv, input=CARDS if script == "deck_add.py" else None, capture_output=True, text=True, cwd=mixed_tmp)
+                p = subprocess.run(argv, input=CARDS if script == "deck_add.py" else GRADES if script == "record_grading.py" else None, capture_output=True, text=True, cwd=mixed_tmp)
                 if course == "twin":
                     r_mixed.append((script, p.returncode))
         self.assertEqual(r_alone, r_mixed)

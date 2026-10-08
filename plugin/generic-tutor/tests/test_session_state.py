@@ -34,12 +34,17 @@ class Base(unittest.TestCase):
         with open(path, "w") as f:
             json.dump(d, f)
 
+    def pending(self):
+        """The legitimate route to a test: the course first waits in test_pending_convergence."""
+        self.edit(lambda d: d.update(roster_state="test_pending_convergence"))
+
     def consent(self, status):
         self.edit(lambda d: d["consent"].update(status=status), f"{self.fx['L']}/student_profile.json")
 
 
 class Phase(Base):
     def test_phase_changes_only_the_phase(self):
+        self.pending()
         before = self.get()
         r = ss.set_phase(self.s, "test")
         self.assertEqual((r["old"], r["new"], r["written"]), ("practice", "test", True))
@@ -106,6 +111,7 @@ class Note(Base):
         self.assertNotEqual(self.get()["last_session_summary"], "kept out")
 
     def test_progress_class_survives_limited_but_not_revoked(self):
+        self.pending()
         self.consent("limited")
         self.assertTrue(ss.set_phase(self.s, "test")["written"])
         self.consent("revoked")
@@ -113,8 +119,45 @@ class Note(Base):
         self.assertEqual(self.get()["current_phase"], "test")
 
 
+class TestGate(Base):
+    """B-04.5f: entering a stage test needs the evidence the cohort rule asks for."""
+
+    def test_an_active_course_cannot_jump_to_its_test_and_nothing_is_written(self):
+        before = self.get()
+        r = ss.set_phase(self.s, "test")
+        self.assertIn("test_pending_convergence", r["error"])
+        self.assertEqual(self.get(), before)
+
+    def test_lesson_and_practice_are_unrestricted_and_so_is_resuming_a_test(self):
+        self.assertTrue(ss.set_phase(self.s, "lesson")["written"])
+        self.assertTrue(ss.set_phase(self.s, "practice")["written"])
+        self.edit(lambda d: d.update(roster_state="active", current_phase="test"))      # a test cut off earlier
+        r = ss.set_phase(self.s, "test")                                                # resuming it: already in test, so no gate
+        self.assertNotIn("error", r)
+        self.assertEqual((r["old"], r["new"]), ("test", "test"))
+
+    def test_the_cohort_must_have_converged(self):
+        self.pending()
+        mate = f"{self.fx['S']}/mathB.json"
+        self.assertTrue(os.path.exists(mate))                                           # the fixture's second course: a missing file must fail, not skip
+        self.edit(lambda d: d.update(cohort_id=2, roster_state="active"), mate)
+        self.edit(lambda d: d.update(cohort_id=2))
+        r = ss.set_phase(self.s, "test", self.fx["C"])
+        self.assertIn("still waiting on mathB", r.get("error", ""), r)
+        self.edit(lambda d: d.update(roster_state="test_pending_convergence"), mate)
+        r = ss.set_phase(self.s, "test", self.fx["C"])
+        self.assertEqual(r.get("gate"), "cohort converged", r)
+
+    def test_without_a_findable_courses_folder_the_roster_rule_still_applies_and_the_gap_is_said(self):
+        self.pending()
+        r = ss.set_phase(self.s, "test")
+        self.assertIn("not checked", r["gate"])
+        self.assertTrue(r["written"])
+
+
 class Cli(Base):
     def test_cli_and_ledger(self):
+        self.pending()
         ok = gs.run_step("session_state.py", ["phase", "{S}/mathA.json", "test"], self.fx, self.tmp)
         self.assertEqual(ok["exit"], 0)
         self.assertEqual(gs.run_step("session_state.py", ["phase", "{S}/mathA.json", "nope"], self.fx, self.tmp)["exit"], 1)
@@ -140,15 +183,18 @@ class PassEndsTheWait(Base):
         r = rsr.apply(self.s, self.c, "S2", "fail")
         self.assertNotIn("roster_state_reset", r)
         self.assertEqual(self.get()["roster_state"], "test_pending_convergence")      # the failed course stays the bottleneck
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         r = rsr.apply(self.s, self.c, "S2", "pass")
         self.assertEqual(r["roster_state_reset"], "active")
         self.assertEqual((self.get()["roster_state"], self.get()["current_stage"], self.get()["current_phase"]), ("active", "S3", "lesson"))
 
     def test_pass_does_not_touch_other_states(self):
         import record_stage_result as rsr
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         rsr.apply(self.s, self.c, "S2", "pass")
         self.assertEqual(self.get()["roster_state"], "active")
         self.edit(lambda d: d.update(roster_state="dropped"))
+        gs.grade(self.fx, self.tmp, "mathA", "S3")
         rsr.apply(self.s, self.c, "S3", "pass")
         self.assertEqual(self.get()["roster_state"], "dropped")
 
@@ -160,6 +206,7 @@ class PassEndsTheWait(Base):
         self.edit(lambda d: d.update(roster_state="active"), peer)      # a same-cohort peer still mid-lesson
         cohorts, _ = cohort_status.compute_cohorts(self.fx["S"], self.fx["C"])
         self.assertFalse(cohorts["2"]["converged"])
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         rsr.apply(self.s, self.c, "S2", "pass")
         cohorts, _ = cohort_status.compute_cohorts(self.fx["S"], self.fx["C"])
         mathA = next(m for m in cohorts["2"]["members"] if m["course_id"] == "mathA")

@@ -17,6 +17,114 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.101.0] — 2026-10-08
+### Changed
+- B-04.5b: every wrong answer is counted by item_mastery.py observe (no cause needed) into a per-item consecutive_misses; diagnostic_gate trigger (a) reads it, so two misses fire the gate even when no error is ever logged. error_log.py append gains --no-observe so a logged miss is not counted twice. Why: the old gate counted only logged errors, and an error was logged only after a cause was diagnosed, so the first misses were invisible (scenario S3).
+
+## [1.100.0] — 2026-10-08
+### Changed
+- B-04.5e: record_stage_result.py apply ... pass is refused unless record_grading.py has recorded that stage's test and no earlier result already used the record (grading_used in the progress file), naming what to do; where a rubric entry carries the new optional pass_percent (1-100, written only where the issuing body publishes a number) the recorded marks must reach it. Skipped with a stated reason when grading is not kept under the learner's consent, the stage has no rubric entry, or the history database cannot be read; repeating a recorded pass is not re-checked and a fail is never refused. Why: ADR 0012 class 2 (scenario S7), a stage can no longer be passed by assertion. Behaviour change: a session that records a pass without grading the test first is now refused; course-runner already grades first.
+
+## [1.99.0] — 2026-10-08
+### Changed
+- B-04.5f: session_state.py phase <subjects> test is refused unless the course is in test_pending_convergence and its cohort has converged (cohort_status.py), naming the courses still being waited on; resuming a test already in progress is always allowed; the courses folder is --courses-dir or found from the data root, and if it cannot be found the cohort check is skipped and the result says so. Why: ADR 0012 class 2 (scenario S8), a phase move forward needs the evidence the cohort rule already asks for, so a test can no longer be entered by assertion. Behaviour change: scripts or sessions that set the test phase from an active course must first move it to test_pending_convergence.
+
+## [1.98.0] — 2026-10-08
+### Changed
+- B-04.5c, B-04.5d: error_log.py append checks an entry against the course: the item must be one of the course's syllabus items (a different stage's item is accepted with a warning, as practice interleaves) and a misconception id must be the id of an entry in that stage's misconceptions.json; otherwise nothing is written and the error names the valid ones. misconceptions.json entries take an optional stable id (unique per file); misconception_ids.py adds ids to older files without changing or reordering anything. The course folder is --course-dir or found from the data root; if not found the check is skipped and the result says so. Why: ADR 0012 class 2, the voice proposes and a script writes only what it can verify (scenarios S1, S4).
+
+## [1.97.0] — 2026-10-08
+### Changed
+- B-03.2: the eval harness has a local backend (python -m evals run --backend local --model NAME [--url ...]) for a model served on this machine through the common chat-completions format (Ollama, llama.cpp server). Standard library only; refuses a non-loopback url unless --allow-remote, ignores proxy variables, refuses redirects, no credentials in the url; each failure says what went wrong. Why: owner decision D5, so the safety and wellbeing rules can be measured on a small local model before a child uses one. Limit: tested against a fake server only; settings are exposed but not yet written into reports (B-03.3).
+
+## [1.96.0] — 2026-10-07
+### Changed
+- B-02.4: bank_pick.py offers the next keyed question-bank item for a stage (never the key, mcq options shown, weak items first with --prefer) and records that it was met under practice_used[stage].bank / bank_last; it refuses ids that are not keyed questions of that stage. course-runner points practice at it, with marking by mark_answer.py. Why: ADR 0012 class 1 needs a way to put script-markable questions in front of a learner; bank_last is also the 'last served' fact later checks (B-04.5c) can use. Optional additive fields, no migration. Limit: only questions that carry a key are offered; unkeyed ones still need the examiner.
+
+## [1.95.1] — 2026-10-07
+### Changed
+- B-04.5g: errors diagnosed during a mock are logged with error_log.py append --mock: kept (and still shown as unresolved so the weak item is practised) but they no longer move item_mastery or count towards recurrence or the diagnostic gate. Why: the exam-simulator skill always said a mock changes no progress state; the code disagreed (scenario S9). Optional mock field on error_patterns entries; no migration needed. Limit: the history database cannot tell a mock error apart.
+
+## [1.95.0] — 2026-10-07
+### Changed
+- B-02.3 / B-04.5k: question-bank items can carry an answer key (mcq, numeric with tolerance and units, short answer); tutorlib/marking.py is a pure marking function, mark_answer.py is the read-only script, and /mock uses it for keyed questions instead of the model's judgment. exam_to_bank.py writes an mcq key only for a clean single-answer item. Papers never show the key (an mcq's options are shown). Why: ADR 0012 class 1, a model that could be wrong or lenient no longer decides correctness where a script can.
+
+## [1.94.0] — 2026-10-07
+### Changed
+- B-01.2: learner folders can live outside the data root (EDU_PROFILE_ROOT or resolve_root --profile-root; default unchanged). doctor, the toolkit and the hook guard follow it, so consent and script-owned-file protection hold on a separate drive. Why: ADR 0011 needs the profile on its own removable drive while courses and scripts stay with the engine.
+
+## [1.93.3] — 2026-10-07
+### Changed
+- B-04.5h and B-04.5i (ADR 0012): free text a script stores is screened, and a remediation cause must be one of the five. An error note is capped at 400 characters and refused if it contains an email address, web address or phone number; a session summary is refused for the same; remediation_state.py record refuses a cause that is not slip, missing_prerequisite, misconception, misapplied_procedure or comprehension. Why: notes were stored in the progress file, the history database, backups and exports with no limit or check, and remediation stored any string as the cause so its escalation advice could not match the error log. Refusals write nothing and name the problem without repeating the value. The screen catches contact details only, not names or disclosures, which stay the tutor's own rule.
+
+## [1.93.2] — 2026-10-07
+### Changed
+- B-04.5a (ADR 0012): a mistyped true/false flag is now an error instead of a quiet false. diagnostic_gate.py, item_mastery.py observe and review_math.py (both forms) accept only true or false (any case) and refuse anything else with a message naming the field, writing nothing. Why: they read every other word as false, so a right answer sent as yes, 1 or ture was recorded as a wrong one, lowering mastery and shortening a review interval, with no sign anything had gone wrong.
+
+## [1.93.1] — 2026-10-07
+### Changed
+- Lock waits can be lengthened and say who holds the lock. EDU_LOCK_TIMEOUT (whole seconds, 1 to 600; default unchanged at 10) lets writers queue for longer on slow media, the stale-lock age follows it, and a lock timeout now names the process holding the lock and for how long. Why: the Windows test where twelve writers queue on one lock failed again on a loaded runner with a plain timeout; twelve writers each holding the lock through two JSON writes and a history insert can legitimately outlast ten seconds on a slow disk, and the message gave no way to tell a slow holder from a stuck lock file. The test now gives the queue 120 seconds. No change to behaviour without the variable.
+
+## [1.93.0] — 2026-10-07
+### Changed
+- L-06: review cards have types. A card may now be basic (the default), cloze, explain_why or worked_step. deck_add.py rejects a card that does not fit its declared type, review_select.py returns the type, a prompt with cloze blanks shown as [...] and the cloze answers, the Anki export tags the two non-cloze types, and stage-recap and review-scheduler say how to author and present each. Why: every card was a question and an answer, which suits facts but not reasons or procedures. The field is optional and absent means basic, so existing decks need no migration. Whether the tutor presents each type well is not evaluated yet.
+
+## [1.92.0] — 2026-10-07
+### Changed
+- L-09: the tutor can now use a course's exam guidance. exam_guidance.py returns the course's exam_technique.md and command-word definitions (or says it holds none), and tutor-core is told to quote only that: never invent mark allocations, time per mark or what examiners look for, never present its own heuristics as the board's, and never teach technique inside a test answer. Why: N-05 made the files checkable but nothing read them, and a tutor guessing exam technique would be believed. No course carries the files yet, so until the audit enrichment run adds some, the tutor will say it holds no board guidance. Also re-checked the wellbeing, safety and locale suites after the wording trims (no critical failures).
+
+## [1.91.0] — 2026-10-07
+### Changed
+- N-05: the optional exam_technique.md and command_words.json now have a checked shape. validate_structure reports whether each exists and is well formed, the post-compile gate blocks one that is present but malformed (no Source line, no content, wrong schema, a word listed twice), and the compiler gets a short step saying to write them only where the board publishes guidance. Why: they were stubs with nothing checking them, so a half-filled file could ship. Nothing reads them in a session yet (L-09).
+
+## [1.90.0] — 2026-10-07
+### Changed
+- A-08 follow-on: tutor-core rule for a learner who may be unsafe or in distress (stop the lesson, say it is a study helper, point to a trusted adult and the local emergency number, never promise secrecy, never record it; ordinary frustration and hard syllabus topics are not escalated; no personal details repeated), detail in skills/tutor-core/wellbeing.md; new code-graded wellbeing eval suite (18 invented cases). Why: the guard only covered regulated advice and physical risk, and children raise worse things. Baseline 0.883 -> 1.0, safety and locale suites unchanged.
+
+## [1.89.0] — 2026-10-07
+### Changed
+- L-22: a learner's goals can now be tied to the syllabus. The tutor proposes which items each goal means, the learner confirms, and goal_map.py stores it and reports progress against it: items taught versus still to come in teaching order, the next stage, observed mastery, weak spots and anything the course does not teach. It says plainly that taught is not learned and that the mapping is the tutor's reading of the goal. Why: goals were collected at intake and then never used.
+
+## [1.88.1] — 2026-10-07
+### Changed
+- Fix an intermittent Windows failure in the file lock (it failed test_parallel_error_log_appends_all_land twice in CI): on Windows a lock file another process is deleting reports PermissionError rather than FileExistsError, which crashed the script instead of waiting, and a failed unlock could leave a lock behind. Both are now retried; elsewhere a real permission error still surfaces at once, and a lock timeout now names the underlying error. Why: a progress write must wait its turn, not fail, when two scripts touch the same learner file.
+
+## [1.88.0] — 2026-10-07
+### Changed
+- U-06: a printable progress summary a learner can choose to share with a tutor or parent (dashboard_html.py --summary-for): it names its recipient, shows progress, coverage and the readiness band, leaves out next steps, weakest items, mistake causes and mock detail, and is refused when consent is revoked. Both progress pages now print cleanly and take their language tag from the learner's locale instead of a fixed en-GB. Why: sharing progress should be a deliberate, minimal act by the learner, not a copy of everything the tutor knows.
+
+## [1.87.0] — 2026-10-07
+### Changed
+- N-11: /list-courses now shows each course's provenance: the source it was itemised from (document, version, date), when it was built, its last logged change and the last live recheck. All values may be missing and are shown as such; the compact listing is unchanged. Why: a learner or owner could not tell from the listing how old a course's source was or whether it had changed since.
+
+## [1.86.0] — 2026-10-07
+### Changed
+- N-15: a new course is compiled into a hidden courses/.build-<id>/ folder and published by publish_course.py, which runs the post-compile gate and renames it into place only if it passes. A failed or abandoned compile is never listed or enrollable, an existing course is never overwritten, and /doctor reports leftover build folders. Why: until now the folder was a live course the moment the compiler started writing it.
+
+## [1.85.0] — 2026-10-07
+### Changed
+- N-14: the content contract now defines the course lifecycle (live, retiring, not-a-course, retired in _historic/, owner scratch in _staging/) and who moves what. Every scan of the courses folder applies the course-id rule (a leftover .import-x.tmp or stray folder was being listed as a course), and the auditor's lifecycle: retiring is now real: a schema enum, enrol.py refuses new enrolments to a retiring course, /list-courses shows it. The new optional field needs no migration (absent means live).
+
+## [1.84.0] — 2026-10-07
+### Changed
+- N-13: the course template stays a valid skeleton (option lists and empty rubric sources became placeholders; optional exam_technique.md and command_words.json stubs added under _template/optional/), a test fills it and runs every course gate, and postcompile_gate now blocks any {{PLACEHOLDER}} left in a course file. Why: nothing caught template text shipping inside a course, and the template had drifted from the schema.
+
+## [1.83.0] — 2026-10-07
+### Changed
+- enrich_plan.py no longer counts learner-observed misconceptions as board-documented: any source starting with the plausible label counts as plausible, and entries noting the library's own data are reported separately (learner_observed_entries). Why: the audit may write that note, and the exact-match check had been filing those entries under board-documented, overstating sourced coverage.
+
+## [1.82.0] — 2026-10-07
+### Changed
+- N-12: course_bundle.py exports a course as a verified, deterministic zip without learner data and imports one into another library only after hash, path, size, structure and untrusted-text checks. Why: sharing a course between libraries should not mean copying folders by hand and trusting them.
+
+## [1.81.0] — 2026-10-07
+### Changed
+- N-06: paraphrase_check.py flags over-long quotations, more than one quotation per stage and (given source text) verbatim runs of 8+ words in stage files, rubric criteria and item titles; advisory and read-only. Why: the quotation policy had no check, and a public repo cannot rely on prose alone.
+
+## [1.80.0] — 2026-10-07
+### Changed
+- L-19: tutor-core writes in the learner's spelling (identity.locale) and glosses key terms in identity.home_language; new locale eval suite (sample accuracy 0.889 -> 0.972 against the old prose). Why: a tutor that ignores locale/home language reads as foreign to the learner it serves.
+
 ## [1.79.0] — 2026-10-07
 ### Changed
 - The engine no longer assumes one country: the README, plugin keyword and the real-situation guard in tutor-core are country-neutral (no library course ids, no pound sums, no named UK advice service); the safety eval gains four non-UK cases (US and Indian, real and study) and scores 26 of 26 over 3 samples

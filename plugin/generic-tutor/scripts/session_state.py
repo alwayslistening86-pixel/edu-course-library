@@ -2,7 +2,7 @@
 """
 session_state.py -- the remaining per-session fields of a progress file, written by script instead of by hand (K-32, V-09 groundwork).
 
-    python3 session_state.py phase  <subjects.json> lesson|practice|test
+    python3 session_state.py phase  <subjects.json> lesson|practice|test [--courses-dir <dir>]
     python3 session_state.py roster <subjects.json> active|test_pending_convergence
     python3 session_state.py exam   <subjects.json> <course.json> locked|available|passed
     python3 session_state.py notice <subjects.json> <notice_id> <today YYYY-MM-DD>
@@ -10,7 +10,11 @@ session_state.py -- the remaining per-session fields of a progress file, written
 
 Before this, `current_phase`, the live roster states, `exam_status`, `notices_acknowledged` and `last_session_summary` were written
 by the model editing JSON; every other progress field already had a script owner. Rules enforced here:
-  phase    only lesson / practice / test; never changes `current_stage` or `syllabus_status`
+  phase    only lesson / practice / test; never changes `current_stage` or `syllabus_status`. Entering `test` (B-04.5f) needs the evidence the
+           cohort rule asks for: the course is in `test_pending_convergence` and every eligible course of its cohort is too (cohort_status.py's
+           `converged`); otherwise nothing is written and the error names the courses still being waited on. Setting `test` again while already in
+           `test` (resuming a cut-off test) is always allowed. The courses folder is `--courses-dir`, else <data root>/courses; if it cannot be found
+           the convergence check is skipped and the result says so (the roster check still applies).
   roster   only active <-> test_pending_convergence; a dormant / dropped enrolment cannot be moved here (journey-planner and
            resume_enrollment.py own those), and a dropped course stays dropped
   exam     `available` only when the course has an exam and every stage is pass / withheld; `passed` only from `available`;
@@ -21,10 +25,12 @@ Everything is atomic, locked, ledgered and consent-aware (phase / roster / exam 
 """
 import datetime
 import json
+import os
 import sys
 
+import cohort_status
 from cohort_status import LIVE_STATES, stage_satisfied
-from tutorlib import cli, consent, filelock, ledger, state
+from tutorlib import cli, consent, contact, filelock, ledger, paths, state
 
 PHASES = ("lesson", "practice", "test")
 EXAM_ORDER = ("locked", "available", "passed")
@@ -39,15 +45,41 @@ def _persist(path, data, kind, result):
     return {**result, "written": True}
 
 
+def _test_gate(subjects_path, subj, courses_dir):
+    """(refusal or None, note or None): may this course enter its stage test now?"""
+    roster = subj.get("roster_state")
+    if roster != cohort_status.TEST_PENDING:
+        return (f"this course is {roster!r}; it enters its test only from {cohort_status.TEST_PENDING!r} "
+                f"(session_state.py roster <subjects.json> {cohort_status.TEST_PENDING}), once its lesson and practice are done"), None
+    if courses_dir is None:
+        root = paths.resolve_root()
+        courses_dir = os.path.join(root, "courses") if root else None
+    if not courses_dir or not os.path.isdir(courses_dir):
+        return None, "cohort convergence not checked: the courses folder was not found"
+    cohorts, _ = cohort_status.compute_cohorts(os.path.dirname(os.path.abspath(subjects_path)), courses_dir)
+    course_id = subj.get("course_id") or os.path.splitext(os.path.basename(subjects_path))[0]
+    cohort = next((c for c in cohorts.values() if any(m["course_id"] == course_id for m in c["members"])), None)
+    if cohort is None:
+        return None, "cohort convergence not checked: this course is not in any cohort (see cohort_status.py errors)"
+    if not cohort["converged"]:
+        return f"the cohort is not ready to test: still waiting on {', '.join(cohort['waiting_on']) or 'a member'}", None
+    return None, "cohort converged"
+
+
 @ledger.logged("session_state.py", "subjects_path")
 @filelock.locked("subjects_path")
-def set_phase(subjects_path, phase):
+def set_phase(subjects_path, phase, courses_dir=None):
     if phase not in PHASES:
         return {"error": f"phase must be one of {list(PHASES)}"}
     d = state.load(subjects_path, "subjects")
     old = d.get("current_phase")
+    note = None
+    if phase == "test" and old != "test":
+        refusal, note = _test_gate(subjects_path, d, courses_dir)
+        if refusal:
+            return {"error": refusal}
     d["current_phase"] = phase
-    return _persist(subjects_path, d, consent.PROGRESS, {"action": "phase", "old": old, "new": phase})
+    return _persist(subjects_path, d, consent.PROGRESS, {"action": "phase", "old": old, "new": phase, **({"gate": note} if note else {})})
 
 
 @ledger.logged("session_state.py", "subjects_path")
@@ -111,6 +143,9 @@ def write_note(subjects_path, today_iso, text):
         return {"error": "the summary is empty"}
     if len(text) > NOTE_MAX:
         return {"error": f"the summary is {len(text)} characters; keep it to {NOTE_MAX} or fewer (one or two sentences)"}
+    found = contact.contact_details(text)
+    if found:
+        return {"error": f"the summary contains a {' and a '.join(found)}; a summary says what was covered and never a way to contact anyone"}
     d = state.load(subjects_path, "subjects")
     d["last_session_summary"] = text
     d["last_updated"] = today_iso
@@ -119,8 +154,8 @@ def write_note(subjects_path, today_iso, text):
 
 def main(argv):
     try:
-        if len(argv) == 3 and argv[0] == "phase":
-            return cli.emit(set_phase(argv[1], argv[2]))
+        if argv[:1] == ["phase"] and len(argv) in (3, 5) and (len(argv) == 3 or argv[3] == "--courses-dir"):
+            return cli.emit(set_phase(argv[1], argv[2], argv[4] if len(argv) == 5 else None))
         if len(argv) == 3 and argv[0] == "roster":
             return cli.emit(set_roster(argv[1], argv[2]))
         if len(argv) == 4 and argv[0] == "exam":

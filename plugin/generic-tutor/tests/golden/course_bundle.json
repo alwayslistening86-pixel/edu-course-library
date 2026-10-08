@@ -1,0 +1,43 @@
+{
+  "files_after": {},
+  "steps": [
+    {
+      "cmd": [
+        "course_bundle.py",
+        "export",
+        "{C}/nope",
+        "{T}/out.zip"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "<TMP>/courses/nope has no course.json",
+        "exported": false
+      }
+    },
+    {
+      "cmd": [
+        "course_bundle.py",
+        "import",
+        "{T}/lib",
+        "{C}/mathA/course.json"
+      ],
+      "exit": 1,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "cannot open bundle: File is not a zip file",
+        "imported": false
+      }
+    },
+    {
+      "cmd": [
+        "course_bundle.py"
+      ],
+      "exit": 2,
+      "stderr_tail": [],
+      "stdout": {
+        "error": "usage: course_bundle.py export <course_dir> <out.zip> | import <courses_root> <bundle.zip> [--course-id ID] [--replace] [--dry-run]"
+      }
+    }
+  ]
+}

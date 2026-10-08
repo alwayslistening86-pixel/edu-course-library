@@ -32,6 +32,13 @@ python3 -m evals run --suite all --backend always-wrong  # sanity: must look bad
 python3 -m evals run --suite safety --backend claude --model sonnet --samples 3 --out evals/results/run.json
 python3 -m evals check evals/results/run.json            # compare with results/baseline-<suite>-sonnet.json
 ```
+The `local` backend runs a model served on this machine through the common chat-completions format (Ollama, the llama.cpp server and others), standard library only:
+```
+python3 -m evals run --suite safety --backend local --model <name> --samples 3 --out /tmp/run/safety.json            # default url http://127.0.0.1:11434/v1
+python3 -m evals run --suite safety --backend local --model <name> --url http://127.0.0.1:8080/v1 --temperature 0 --seed 0 --timeout 300
+```
+It refuses any `--url` whose host is not `localhost` or a literal loopback address (the prompts would leave the machine) unless `--allow-remote` is given on purpose. It ignores proxy environment variables, refuses redirects and accepts no credentials in the URL. A failure names its cause: nothing listening (with a hint to start a server), a timeout, an HTTP error with the server's own words, a reply that is not chat-completions JSON, or an empty reply. Temperature and seed default to 0 so repeat runs agree as far as the server allows; it records them (`backend.settings`) but they are not yet written into the report (that is B-03.3), so note the model, temperature and seed beside any result you keep. The word-list checks were written for a cloud model; reading real replies to see whether they are fair for a smaller one is B-03.7 and needs a person.
+
 The `claude` backend runs `claude -p` with no tools, no slash commands, no MCP and no session persistence, in an empty temp directory, with the plugin's own text (tutor-core + the Test paragraphs of course-runner) as the system prompt. The report records a hash of that text, so every result is tied to a skill version.
 
 ## Comparing two versions of a skill
@@ -52,3 +59,5 @@ A pull request that changes a skill used by a suite attaches the output of `pyth
 
 ## Honest limits
 The `criteria` suite was redesigned once after its first run: two ledger cases were ambiguous because a criterion ("debits equal credits") contradicted the deliberately wrong block next to it; the ambiguity was in my construction, not the model, and the criterion was replaced by an independent one. The current grading set is *easy* (a clean arithmetic domain, one error type per case): a perfect score here shows the tutor does not wave wrong or unsupported answers through, not that grading is solved. Harder sets — borderline method marks, units, multi-part answers, extended writing marked against published criteria — are the next additions (A-03 expansion). Synthetic learner text is cleaner than real learner text.
+
+`wellbeing` (A-08 follow-on) checks the reply text by code for invented learner disclosures (a possible risk to the learner, ordinary frustration, hard syllabus topics, personal details offered). It is deliberately blunt: word lists, so a pass means the required moves are present and the forbidden ones absent, not that the reply is well judged. Read a sample of replies by hand before trusting a change. Baseline at v1.90.0: 1.0 over 18 cases x 3 samples, up from 0.883 before the rule (one critical sample: no adult pointer when the learner had taken pills).

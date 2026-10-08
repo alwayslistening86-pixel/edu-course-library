@@ -98,7 +98,7 @@ CASES = {
                      ("profile_set.py", ["{P}/student_profile.json", "preferences.tone", "loud", "2026-10-04"]),
                      ("profile_set.py", ["{P}/student_profile.json", "session_slot", "0", "2026-10-04"])], ["{P}/student_profile.json"]),
     "session_state": ([("session_state.py", ["phase", SUBJ, "test"]), ("session_state.py", ["phase", SUBJ, "exam"]),
-                       ("session_state.py", ["roster", SUBJ, "test_pending_convergence"]), ("session_state.py", ["roster", SUBJ, "dormant"]),
+                       ("session_state.py", ["roster", SUBJ, "test_pending_convergence"]), ("session_state.py", ["phase", SUBJ, "test"]), ("session_state.py", ["roster", SUBJ, "dormant"]),
                        ("session_state.py", ["notice", SUBJ, "n1", "2026-10-04"]), ("session_state.py", ["notice", SUBJ, "n1", "2026-10-04"]),
                        ("session_state.py", ["exam", SUBJ, "{C}/mathA/course.json", "available"])], [SUBJ]),
     "history_report": ([("item_mastery.py", ["observe", SUBJ, "S1.1", "true", "5"]), ("error_log.py", ["append", SUBJ, "S2", "S2.1", "practice", "slip", "NONE", "x", "6"]),
@@ -118,6 +118,28 @@ CASES = {
     "enrol": ([("enrol.py", ["{P}", "{C}", "mathA", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "ghost", "active", "2026-10-05"]), ("enrol.py", ["{P}", "{C}", "mathB", "maybe", "2026-10-05"]),
                ("enrol.py", ["{P}"])], []),
     "rubric_lint": ([("rubric_lint.py", ["{C}/mathA"]), ("rubric_lint.py", ["{C}/nope"])], []),
+    "bank_pick": ([("bank_pick.py", ["next", SUBJ, "{C}/mathA/question_bank.json", "S1"]), ("bank_pick.py", ["used", SUBJ, "{C}/mathA/question_bank.json", "S1", "S1-Q1"]),
+                   ("bank_pick.py", ["used", SUBJ, "{C}/mathA/question_bank.json", "S1", "S1-Q1"]), ("bank_pick.py", ["used", SUBJ, "{C}/mathA/question_bank.json", "S1", "S1-Q2"]),
+                   ("bank_pick.py", ["next", SUBJ, "{C}/mathA/question_bank.json", "S1", "--prefer", "S1.1"]), ("bank_pick.py", ["next", SUBJ, "{C}/mathA/question_bank.json", "S2"]),
+                   ("bank_pick.py", ["next", SUBJ])], [SUBJ]),
+    "misconception_ids": ([("misconception_ids.py", ["{C}/mathA"]), ("misconception_ids.py", ["{C}/mathA", "--write"]), ("misconception_ids.py", ["{C}/mathA", "--write"]),
+                           ("misconception_ids.py", ["{T}/nope"]), ("misconception_ids.py", [])], []),
+    "error_log_course_checks": ([("misconception_ids.py", ["{C}/mathA", "--write"]),
+                                 ("error_log.py", ["append", SUBJ, "S1", "S9.9", "practice", "slip", "NONE", "n", "9", "NONE", "--course-dir", "{C}/mathA"]),
+                                 ("error_log.py", ["append", SUBJ, "S1", "S1.1", "practice", "slip", "MC-S1-9", "n", "9", "NONE", "--course-dir", "{C}/mathA"]),
+                                 ("error_log.py", ["append", SUBJ, "S1", "S1.1", "practice", "misconception", "MC-S1-1", "n", "9", "NONE", "--course-dir", "{C}/mathA"]),
+                                 ("error_log.py", ["append", SUBJ, "S1", "S2.1", "practice", "slip", "NONE", "n", "9", "NONE", "--course-dir", "{C}/mathA"])], [SUBJ]),
+    "mark_answer": ([("mark_answer.py", ["{C}/mathA/question_bank.json", "S1-Q1", "42.3 m"]), ("mark_answer.py", ["{C}/mathA/question_bank.json", "S1-Q1", "42"]),
+                     ("mark_answer.py", ["{C}/mathA/question_bank.json", "S1-Q3", "Forty-Two."]), ("mark_answer.py", ["{C}/mathA/question_bank.json", "S1-Q2", "42"]),
+                     ("mark_answer.py", ["{C}/mathA/question_bank.json", "nope", "42"]), ("mark_answer.py", ["{C}/mathA/question_bank.json"])], []),
+    "exam_guidance": ([("exam_guidance.py", ["{C}/mathA", "--word", "Explain"]), ("exam_guidance.py", ["{C}/nope"]), ("exam_guidance.py", [])], []),
+    "paraphrase_check": ([("paraphrase_check.py", ["{C}/mathA"]), ("paraphrase_check.py", ["{C}/nope"]), ("paraphrase_check.py", [])], []),
+    "goal_map": ([("goal_map.py", ["items", "{L}", "{C}", "mathA"]), ("goal_map.py", ["report", "{L}", "{C}", "mathA"]), ("goal_map.py", ["items", "{L}", "{C}", "nope"]),
+                  ("goal_map.py", ["set", "{S}/mathA.json", "{C}/mathA", "pass it", "[\"S1.1\", \"S2.1\"]", "2026-10-07"]),
+                  ("goal_map.py", ["set", "{S}/mathA.json", "{C}/mathA", "bad", "[\"zzz\"]", "2026-10-07"]),
+                  ("goal_map.py", ["report", "{L}", "{C}", "mathA"]), ("goal_map.py", ["clear", "{S}/mathA.json"]), ("goal_map.py", [])], ["{S}/mathA.json"]),
+    "course_bundle": ([("course_bundle.py", ["export", "{C}/nope", "{T}/out.zip"]), ("course_bundle.py", ["import", "{T}/lib", "{C}/mathA/course.json"]), ("course_bundle.py", [])], []),
+    "publish_course": ([("publish_course.py", ["publish", "{C}", "nothere"]), ("publish_course.py", ["discard", "{C}", "nothere"]), ("publish_course.py", ["publish", "{C}", "../x"]), ("publish_course.py", [])], []),
     "purge_history": ([("purge_history.py", ["{R}", "amy", "history"]), ("purge_history.py", ["{R}", "amy", "course", "mathA"]), ("purge_history.py", ["{R}", "amy", "course", "ghost"]),
                         ("purge_history.py", ["{R}", "amy", "history", "--confirm", "nope"]), ("purge_history.py", ["{R}", "amy"])], []),
     "change_log": ([("change_log.py", ["{C}/mathA"]), ("change_log.py", ["{C}/nope"])], []),
@@ -131,6 +153,7 @@ CASES = {
 }
 
 UPDATE = bool(os.environ.get("UPDATE_GOLDEN"))
+PRE_GRADED = {"record_stage_result": ("S2",), "recent_activity": ("S2",), "verify_session": ("S2",)}      # a pass needs its test graded first (B-04.5e)
 
 
 class GoldenCLI(unittest.TestCase):
@@ -142,6 +165,8 @@ def _make(name, steps, files):
         with tempfile.TemporaryDirectory() as tmp:
             tmp = os.path.realpath(tmp)
             fx = gs.build_fixture(tmp)
+            for stage in PRE_GRADED.get(name, ()):
+                gs.grade(fx, tmp, "mathA", stage)
             actual = {"steps": [{"cmd": [s] + a, **gs.run_step(s, a, fx, tmp)} for s, a in steps],
                       "files_after": gs.snapshot_files(files, fx, tmp)}
             actual = gs.normalise(actual, tmp)

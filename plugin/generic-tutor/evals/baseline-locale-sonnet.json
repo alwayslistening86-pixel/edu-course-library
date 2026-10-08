@@ -1,0 +1,224 @@
+{
+  "cases": 12,
+  "scored": 11,
+  "ambiguous": [
+    "locale/depreciation/gloss"
+  ],
+  "errored_cases": 0,
+  "accuracy": 1.0,
+  "exact_accuracy": 1.0,
+  "critical_failures": 0,
+  "critical_samples": 0,
+  "by_kind": {
+    "gb": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "gloss": {
+      "correct": 2,
+      "n": 2,
+      "accuracy": 1.0
+    },
+    "none": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    },
+    "us": {
+      "correct": 3,
+      "n": 3,
+      "accuracy": 1.0
+    }
+  },
+  "confusion": {
+    "meets -> meets": 11
+  },
+  "a1_accuracy_vs_oracle": null,
+  "criterion_accuracy": null,
+  "sample_accuracy": 0.972,
+  "rows": [
+    {
+      "id": "locale/photosynthesis/gb",
+      "kind": "gb",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/photosynthesis/us",
+      "kind": "us",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/photosynthesis/gloss",
+      "kind": "gloss",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/photosynthesis/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/fractions/gb",
+      "kind": "gb",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/fractions/us",
+      "kind": "us",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/fractions/gloss",
+      "kind": "gloss",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/fractions/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/depreciation/gb",
+      "kind": "gb",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/depreciation/us",
+      "kind": "us",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    },
+    {
+      "id": "locale/depreciation/gloss",
+      "kind": "gloss",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 0.67,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": [
+        "missing concept: year"
+      ]
+    },
+    {
+      "id": "locale/depreciation/none",
+      "kind": "none",
+      "expected": "meets",
+      "acceptable": [
+        "meets"
+      ],
+      "majority": "meets",
+      "agreement": 1.0,
+      "correct": true,
+      "exact": true,
+      "critical_samples": 0,
+      "violations": []
+    }
+  ],
+  "cost": {
+    "calls": 36,
+    "mean_seconds": 7.559,
+    "p95_seconds": 9.774,
+    "system_chars": 12357,
+    "mean_prompt_chars": 440
+  },
+  "suite": "locale",
+  "backend": "claude-cli:sonnet",
+  "samples": 3,
+  "skill_hash": "75341d2440da",
+  "created": "2026-10-07T03:44:01Z"
+}

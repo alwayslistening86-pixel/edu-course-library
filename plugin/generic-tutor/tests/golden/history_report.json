@@ -13,6 +13,7 @@
       "exit": 0,
       "stderr_tail": [],
       "stdout": {
+        "consecutive_misses": 0,
         "item_id": "S1.1",
         "new_p_mastery": 0.7098,
         "observations": 1,
@@ -46,6 +47,7 @@
       "stderr_tail": [],
       "stdout": {
         "action": "appended",
+        "course_check": "not checked: the course folder was not found",
         "entry": {
           "cause": "slip",
           "id": "err_<DATE>_S2_001",
@@ -60,6 +62,7 @@
           "stage_id": "S2"
         },
         "item_mastery": {
+          "consecutive_misses": 1,
           "item_id": "S2.1",
           "new_p_mastery": 0.1932,
           "observations": 1,

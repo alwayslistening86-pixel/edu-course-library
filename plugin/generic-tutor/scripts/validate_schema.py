@@ -10,7 +10,7 @@ kind: student_profile | subjects | review_deck | course | curriculum_map | rubri
 Output: {"kind", "file", "valid", "errors": [...]}. Exit 0 valid, 1 invalid/unreadable, 2 usage.
 
 `--course-dir` checks every schema-covered file of one course in a single call: course.json, curriculum_map.json, rubric.json, each
-stage's misconceptions.json and question_bank.json when present. Output: {"course_dir", "valid", "files_checked", "invalid": [{file, kind, errors[:5]}]}.
+stage's misconceptions.json, question_bank.json and command_words.json when present. Output: {"course_dir", "valid", "files_checked", "invalid": [{file, kind, errors[:5]}]}.
 """
 import json
 import os
@@ -22,7 +22,7 @@ from tutorlib import cli, schema
 def check_course_dir(course_dir):
     if not os.path.isdir(course_dir):
         return {"error": f"FileNotFoundError: no such course folder {course_dir}"}
-    targets = [("course.json", "course"), ("curriculum_map.json", "curriculum_map"), ("rubric.json", "rubric"), ("question_bank.json", "question_bank")]
+    targets = [("course.json", "course"), ("curriculum_map.json", "curriculum_map"), ("rubric.json", "rubric"), ("question_bank.json", "question_bank"), ("command_words.json", "command_words")]
     stages = os.path.join(course_dir, "stages")
     if os.path.isdir(stages):
         targets += [(f"stages/{st}/misconceptions.json", "misconceptions") for st in sorted(os.listdir(stages))]

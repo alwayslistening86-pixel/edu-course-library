@@ -16,8 +16,8 @@ Replaces "gather every due card and present them" with a deterministic selection
              (spacing is the benefit of review; blocking by subject loses the contrast)
   cap        --limit (default 20) cards; the rest are reported as `remaining_due`, not dropped
 
-Each selected card is returned with its front/back so the caller does not need to open the deck files. Read-only.
-Output: {slot, selected[{course_id, card_id, stage_id, item_id, front, back, overdue_by, item_mastery}], selected_count,
+Each selected card is returned with its front/back (and `prompt`: the text to show, with cloze deletions blanked; `answers`: the deleted text) so the caller does not need to open the deck files. Read-only.
+Output: {slot, selected[{course_id, card_id, stage_id, item_id, front, back, card_type, prompt, answers, overdue_by, item_mastery}], selected_count,
 remaining_due, due_total, scope}.
 """
 import json
@@ -26,7 +26,7 @@ import sys
 
 from cohort_status import LIVE_STATES, is_complete, is_suspended
 from item_mastery import P_INIT
-from tutorlib import cli
+from tutorlib import cards as cardtypes, cli
 
 DEFAULT_LIMIT = 20
 
@@ -70,7 +70,8 @@ def select(learner_dir, courses_dir, course=None, stage=None, item=None, limit=D
             m = mastery.get(card.get("item_id")) if card.get("item_id") else None
             p = m.get("p_mastery", P_INIT) if isinstance(m, dict) else P_INIT
             due.append({"course_id": cid, "card_id": card.get("id"), "stage_id": card.get("stage_id"), "item_id": card.get("item_id"),
-                        "front": card.get("front"), "back": card.get("back"), "overdue_by": slot - card["due_at_slot"],
+                        "front": card.get("front"), "back": card.get("back"),
+                        "card_type": cardtypes.type_of(card), "prompt": cardtypes.prompt_for(card), "answers": cardtypes.answers_for(card), "overdue_by": slot - card["due_at_slot"],
                         "item_mastery": round(p, 4), "_ease": card.get("ease", 2.3), "_lapses": card.get("lapses", 0)})
     due.sort(key=lambda c: (-c["overdue_by"], c["item_mastery"], c["_ease"], -c["_lapses"], c["course_id"], str(c["card_id"])))
     # deal round-robin across courses, keeping each course's own priority order

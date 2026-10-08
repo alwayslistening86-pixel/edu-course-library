@@ -90,6 +90,57 @@ class FileLock(TmpCase):
             pass
         self.assertFalse(os.path.exists(lp))
 
+    def _fail_first(self, name, n, exc):
+        """Patch os.<name> to raise `exc` for the first n calls, then behave normally; return the call counter."""
+        real, calls = getattr(os, name), {"n": 0}
+
+        def flaky(*a, **kw):
+            calls["n"] += 1
+            if calls["n"] <= n:
+                raise exc
+            return real(*a, **kw)
+        patcher = mock.patch.object(filelock.os, name, flaky)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        return calls
+
+    def test_windows_style_permission_error_while_creating_is_retried(self):
+        self.addCleanup(setattr, filelock, "PERMISSION_IS_CONTENTION", filelock.PERMISSION_IS_CONTENTION)
+        filelock.PERMISSION_IS_CONTENTION = True
+        calls = self._fail_first("open", 3, PermissionError(13, "Access is denied"))
+        with filelock.file_lock(self.p("x.json"), timeout=5):
+            self.assertTrue(os.path.exists(self.p("x.json.lock")))
+        self.assertGreater(calls["n"], 3)
+        self.assertFalse(os.path.exists(self.p("x.json.lock")))
+
+    def test_a_real_permission_error_elsewhere_still_surfaces_at_once(self):
+        self.addCleanup(setattr, filelock, "PERMISSION_IS_CONTENTION", filelock.PERMISSION_IS_CONTENTION)
+        filelock.PERMISSION_IS_CONTENTION = False
+        self._fail_first("open", 99, PermissionError(13, "Permission denied"))
+        with self.assertRaises(PermissionError):
+            with filelock.file_lock(self.p("x.json"), timeout=5):
+                pass
+
+    def test_a_timeout_names_the_underlying_error(self):
+        self.addCleanup(setattr, filelock, "PERMISSION_IS_CONTENTION", filelock.PERMISSION_IS_CONTENTION)
+        filelock.PERMISSION_IS_CONTENTION = True
+        self._fail_first("open", 10 ** 6, PermissionError(13, "Access is denied"))
+        with self.assertRaises(filelock.LockTimeout) as cm:
+            with filelock.file_lock(self.p("x.json"), timeout=0.2):
+                pass
+        self.assertIn("PermissionError", str(cm.exception))
+
+    def test_a_brief_permission_error_while_unlocking_is_retried_so_no_lock_is_left_behind(self):
+        with filelock.file_lock(self.p("x.json")):
+            calls = self._fail_first("unlink", 2, PermissionError(13, "Access is denied"))
+        self.assertGreaterEqual(calls["n"], 3)
+        self.assertFalse(os.path.exists(self.p("x.json.lock")))
+
+    def test_a_permanent_unlink_failure_does_not_raise(self):
+        with filelock.file_lock(self.p("x.json")):
+            self._fail_first("unlink", 10 ** 6, PermissionError(13, "Access is denied"))
+        # the lock file is left for the stale-lock rule; the caller's work is not turned into an error
+
     def test_decorator_locks_named_argument(self):
         seen = []
 
@@ -101,6 +152,35 @@ class FileLock(TmpCase):
         self.assertFalse(os.path.exists(self.p("y.json.lock")))
 
 
+class LockWait(TmpCase):
+    def test_default_timeout_and_env_override(self):
+        self.assertEqual(filelock.default_timeout({}), filelock.TIMEOUT_SECONDS)
+        self.assertEqual(filelock.default_timeout({filelock.TIMEOUT_ENV: "45"}), 45.0)
+        for bad in ("", "0", "-3", "abc", "1.5", "601", "999999"):
+            self.assertEqual(filelock.default_timeout({filelock.TIMEOUT_ENV: bad}), filelock.TIMEOUT_SECONDS, bad)
+
+    def test_stale_age_follows_a_longer_wait(self):
+        with mock.patch.dict(os.environ, {filelock.TIMEOUT_ENV: "120"}):
+            self.assertEqual(filelock.file_lock(self.p("x.json")).stale, 240.0)
+        self.assertEqual(filelock.file_lock(self.p("x.json")).stale, filelock.STALE_SECONDS)
+        self.assertEqual(filelock.file_lock(self.p("x.json"), stale=5).stale, 5)
+
+    def test_timeout_message_names_the_holder(self):
+        lock = self.p("x.json.lock")
+        with open(lock, "w") as f:
+            f.write(f"{os.getpid()} {time.time() - 3}\n")
+        with self.assertRaises(filelock.LockTimeout) as cm:
+            filelock.file_lock(self.p("x.json"), timeout=0.1, stale=999).__enter__()
+        self.assertRegex(str(cm.exception), rf"held by process {os.getpid()} for 3\.\d+s")
+
+    def test_timeout_message_survives_an_unreadable_lock(self):
+        with open(self.p("x.json.lock"), "w") as f:
+            f.write("garbage")
+        with self.assertRaises(filelock.LockTimeout) as cm:
+            filelock.file_lock(self.p("x.json"), timeout=0.1, stale=999).__enter__()
+        self.assertNotIn("held by", str(cm.exception))
+
+
 class ConcurrentScriptCalls(TmpCase):
     def test_parallel_error_log_appends_all_land(self):
         subj = self.p("course.json")
@@ -108,9 +188,13 @@ class ConcurrentScriptCalls(TmpCase):
             json.dump({"schema_version": 5, "course_id": "c", "error_patterns": [], "item_mastery": {}}, f)
         script = os.path.join(SCRIPTS, "error_log.py")
         n = 12
+        # Twelve writers queue behind one lock; each holds it for a few JSON writes and a history insert, so on a slow or
+        # loaded disk (a Windows runner with a virus scanner) the last in line can wait longer than the 10 s default.
+        # The test is about no lost entries, not about latency, so it gives the queue time (EDU_LOCK_TIMEOUT).
+        env = {**os.environ, filelock.TIMEOUT_ENV: "120"}
         procs = [subprocess.Popen(
             [sys.executable, script, "append", subj, "S1", f"I{i}", "practice", "slip", "NONE", f"note {i}", str(i)],
-            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True) for i in range(n)]
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env) for i in range(n)]
         outs = [p.communicate() for p in procs]
         for (out, err), p in zip(outs, procs, strict=True):
             self.assertEqual(p.returncode, 0, out + err)

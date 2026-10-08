@@ -13,17 +13,29 @@
     "S2": {
       "criteria": ["{{CRITERION_1_FROM_SOURCE}}", "{{CRITERION_2_FROM_SOURCE}}"],
       "pass_threshold": "{{PASS_THRESHOLD_FROM_SOURCE}}",
-      "source": { "issuing_body": "", "document": "", "reference": "" }
+      "source": {
+        "issuing_body": "{{ISSUING_BODY}}",
+        "document": "{{EXACT_DOCUMENT_TITLE_SPEC_CODE_OR_SERIES}}",
+        "reference": "{{PAGE_ITEM_NUMBER_OR_URL}}"
+      }
     },
     "S3": {
       "criteria": ["{{CRITERION_1_FROM_SOURCE}}", "{{CRITERION_2_FROM_SOURCE}}"],
       "pass_threshold": "{{PASS_THRESHOLD_FROM_SOURCE}}",
-      "source": { "issuing_body": "", "document": "", "reference": "" }
+      "source": {
+        "issuing_body": "{{ISSUING_BODY}}",
+        "document": "{{EXACT_DOCUMENT_TITLE_SPEC_CODE_OR_SERIES}}",
+        "reference": "{{PAGE_ITEM_NUMBER_OR_URL}}"
+      }
     }
   },
   "exam_rubric": {
     "criteria": ["{{CUMULATIVE_CRITERION_1_FROM_SOURCE}}", "{{CUMULATIVE_CRITERION_2_FROM_SOURCE}}"],
     "pass_threshold": "{{PASS_THRESHOLD_FROM_SOURCE}}",
-    "source": { "issuing_body": "", "document": "", "reference": "" }
+    "source": {
+        "issuing_body": "{{ISSUING_BODY}}",
+        "document": "{{EXACT_DOCUMENT_TITLE_SPEC_CODE_OR_SERIES}}",
+        "reference": "{{PAGE_ITEM_NUMBER_OR_URL}}"
+      }
   }
 }

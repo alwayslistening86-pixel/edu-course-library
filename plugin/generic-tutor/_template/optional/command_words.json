@@ -1,0 +1,7 @@
+{
+  "_note": "OPTIONAL. Copy to the course root as command_words.json ONLY where the issuing body publishes its command-word definitions. Own-words meanings; `source` names the document you read. Remove this key when copying.",
+  "source": "{{DOCUMENT_AND_SECTION_THE_DEFINITIONS_CAME_FROM}}",
+  "command_words": [
+    { "word": "{{COMMAND_WORD_e.g._Explain}}", "meaning": "{{WHAT_THE_SOURCE_SAYS_THE_WORD_ASKS_FOR_IN_YOUR_OWN_WORDS}}", "earns_marks_by": "{{WHAT_A_FULL_ANSWER_TYPICALLY_NEEDS}}" }
+  ]
+}

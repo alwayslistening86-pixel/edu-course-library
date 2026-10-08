@@ -29,6 +29,12 @@
       "stdout": {
         "advanced_to": "S3",
         "current_stage": "S3",
+        "grading": {
+          "attempt": 1,
+          "available": 2,
+          "awarded": 2,
+          "percent": 100.0
+        },
         "previous_status": "unsat",
         "result": "pass",
         "stage_id": "S2",
@@ -73,8 +79,16 @@
       "exit": 0,
       "stderr_tail": [],
       "stdout": {
-        "findings": [],
-        "ledger_entries": 0,
+        "findings": [
+          {
+            "course_id": null,
+            "message": "state was written in a session whose slot was never advanced (/run not executed this session?)",
+            "rule": "no-slot-advance",
+            "severity": "warning",
+            "stage_id": null
+          }
+        ],
+        "ledger_entries": 1,
         "ok": true,
         "slot": 5
       }

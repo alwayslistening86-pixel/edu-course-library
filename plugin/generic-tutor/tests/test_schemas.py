@@ -74,6 +74,11 @@ class RealSchemas(unittest.TestCase):
             mis = f"{self.fx['C']}/{c}/stages/S1/misconceptions.json"
             if os.path.isfile(mis):
                 out.append(("misconceptions", mis))
+        cw = os.path.join(self.tmp, "command_words.json")
+        with open(cw, "w", encoding="utf-8") as f:
+            json.dump({"source": "Board guide, section 3", "command_words": [
+                {"word": "Explain", "meaning": "Give reasons that link cause to effect.", "earns_marks_by": "Each linked reason earns a mark."}]}, f)
+        out.append(("command_words", cw))
         # files written by their own scripts into scratch folders
         import bootstrap_scripts
         import confirm_access
@@ -122,6 +127,7 @@ class RealSchemas(unittest.TestCase):
             ("slot_advance.py", ["{L}/student_profile.json", "--min-gap-minutes", "0"]),
             ("resume_enrollment.py", ["{S}/design.json", "{C}/design/course.json", "active", "2026-10-04"]),
         ]
+        gs.grade(self.fx, self.tmp, "mathA", "S2")
         for script, args in flows:
             r = gs.run_step(script, args, self.fx, self.tmp)
             self.assertEqual(r["exit"], 0, (script, r))

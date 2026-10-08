@@ -36,12 +36,19 @@ be taught right now:
     - empty_source_entries      a rubric entry with a citation key present
                                  but blank — same hard precondition, the
                                  citation-shaped-but-empty case.
+    - unfilled placeholders      {{COURSE_NAME}}-style template text left in any
+                                 course .md or .json file (N-13): the course
+                                 would teach or cite the placeholder itself.
     - v13_problems              any structural inconsistency in the 1.3.0
                                  fields (bad practical_stages/learner_notices
                                  references, standalone/level_basis
                                  mismatches, a prerequisite naming a course
                                  folder that doesn't exist) — these are data
                                  integrity bugs, not content-quality gaps.
+
+    - exam_technique.md / command_words.json  present but malformed (N-05): no Source line, no content,
+                                 fails schemas/command_words.json, or a command word listed twice. Absent is fine:
+                                 they are written only where the issuing body publishes guidance.
 
     - test items in practice/lesson  a graded item from a stage's test.md that appears word for word
                                  in that stage's practice.md or lesson.md (the learner could read the
@@ -88,6 +95,7 @@ validate_structure.py and coverage_check.py, which this wraps.
 """
 import json
 import os
+import re
 import sys
 
 from tutorlib import cli, overlap, untrusted
@@ -98,6 +106,31 @@ import rubric_lint  # noqa: E402
 import validate_structure  # noqa: E402
 import coverage_check  # noqa: E402
 import verify_sources  # noqa: E402
+
+
+# N-13: template text that was never filled in, e.g. {{COURSE_NAME}} or {{...}}. Needs 3+ capitals so maths such as {{n}} or x^{{2}} is not caught.
+PLACEHOLDER = re.compile(r"\{\{(?:[A-Z][A-Z0-9_]{2,}|\.\.\.)[^{}\n]*\}\}")
+PLACEHOLDER_SCAN_SUFFIXES = (".md", ".json")
+
+
+def _placeholders(course_dir):
+    """['<file> line N: <excerpt>', ...] for every unfilled template placeholder in the course's own files."""
+    out = []
+    for root, dirs, names in os.walk(course_dir):
+        dirs[:] = sorted(d for d in dirs if not d.startswith("."))
+        for n in sorted(names):
+            if not n.endswith(PLACEHOLDER_SCAN_SUFFIXES):
+                continue
+            full = os.path.join(root, n)
+            try:
+                with open(full, encoding="utf-8", errors="replace") as f:
+                    for i, line in enumerate(f, 1):
+                        m = PLACEHOLDER.search(line)
+                        if m:
+                            out.append(f"{os.path.relpath(full, course_dir).replace(os.sep, '/')} line {i}: {m.group(0)[:50]}")
+            except OSError:
+                continue
+    return out
 
 
 def _integrity(course_dir):
@@ -152,6 +185,10 @@ def _gate(course_dir):
     if structure.get("v13_problems"):
         blocking_reasons.append(f"1.3.0 field inconsistencies: {structure['v13_problems']}")
 
+    unfilled = _placeholders(course_dir)
+    if unfilled:
+        blocking_reasons.append(f"unfilled template placeholders ({len(unfilled)}): " + "; ".join(unfilled[:3]) + (" ..." if len(unfilled) > 3 else ""))
+
     # X-01/X-02: a web-derived course file that carries instruction-like text must not ship unseen.
     scan = untrusted.scan_path(course_dir)
     injected = {f: [x for x in fs if x["severity"] == untrusted.BLOCKING] for f, fs in scan.items()}
@@ -184,6 +221,9 @@ def _gate(course_dir):
         covered, total = misc_status.get("stages_covered"), misc_status.get("stages_total")
         advisory_notes.append(f"misconceptions: {covered} of {total} stages have a sourced misconceptions.json"
                               if isinstance(misc_status, dict) and covered is not None else f"misconceptions status: {misc_status}")
+    for name, st in (structure.get("exam_guidance_status") or {}).items():
+        if st.get("present") and not st.get("well_formed"):
+            blocking_reasons.append(f"{name}: present but malformed ({'; '.join(st.get('problems') or [])[:120]})")
     urls = verify_sources.collect_urls(course_dir)
     bad = [u for u in urls if not verify_sources.is_http_url(u)]
     if bad:

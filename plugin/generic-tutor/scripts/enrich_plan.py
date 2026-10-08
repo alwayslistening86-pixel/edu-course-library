@@ -4,7 +4,7 @@ enrich_plan.py -- what each course still lacks of the optional content layers, a
 
     python3 enrich_plan.py <courses_dir> [--course <course_id>]
 
-Per course: `misconceptions` (stages with / without a file, entries that are board-documented vs "plausible, not board-documented"),
+Per course: `misconceptions` (stages with / without a file, entries that are board-documented vs "plausible, not board-documented", of which some recurred in the library's own data),
 `question_bank` (absent, or question and mark totals), `exam_technique` and `command_words` (present or not), `ready_made_items` (numbered items in
 `exam/exam.md` that a bank could be built from, which still need mark schemes), and `source_urls` (the URLs the course's own rubric cites: the
 starting point for finding examiner reports). `todo` lists the layers worth a pass, most useful first. The numbers decide where to look; writing
@@ -15,9 +15,10 @@ import os
 import re
 import sys
 
-from tutorlib import cli
+from tutorlib import cli, paths
 
 PLAUSIBLE = "plausible, not board-documented"
+OWN_DATA = "own data"      # the audit may write "plausible, not board-documented - recurring in this library's own data"
 
 
 def _json(path):
@@ -34,7 +35,7 @@ def plan_course(course_dir):
     if not ladder:                                    # older shape: the ladder lives in the stages folder
         sd = os.path.join(course_dir, "stages")
         ladder = sorted(os.listdir(sd)) if os.path.isdir(sd) else []
-    with_file, without, documented, plausible = [], [], 0, 0
+    with_file, without, documented, plausible, observed = [], [], 0, 0, 0
     for st in ladder:
         data = _json(os.path.join(course_dir, "stages", st, "misconceptions.json"))
         if not isinstance(data, list):
@@ -42,8 +43,10 @@ def plan_course(course_dir):
             continue
         with_file.append(st)
         for e in data:
-            if isinstance(e, dict) and e.get("source") == PLAUSIBLE:
+            src = str(e.get("source") or "").strip().lower() if isinstance(e, dict) else ""
+            if src.startswith(PLAUSIBLE):   # never board-documented, with or without a note after the label
                 plausible += 1
+                observed += OWN_DATA in src
             elif isinstance(e, dict) and e.get("source"):
                 documented += 1
     qb = _json(os.path.join(course_dir, "question_bank.json"))
@@ -64,7 +67,7 @@ def plan_course(course_dir):
     out = {
         "stages": len(ladder),
         "misconceptions": {"stages_with_file": len(with_file), "stages_without": len(without), "documented_entries": documented,
-                           "plausible_entries": plausible},
+                           "plausible_entries": plausible, "learner_observed_entries": observed},
         "question_bank": bank,
         "exam_technique": os.path.isfile(os.path.join(course_dir, "exam_technique.md")),
         "command_words": os.path.isfile(os.path.join(course_dir, "command_words.json")),
@@ -85,7 +88,7 @@ def plan_course(course_dir):
 def run(courses_dir, only=None):
     if not os.path.isdir(courses_dir):
         return {"error": f"FileNotFoundError: no courses folder at {courses_dir}"}
-    ids = sorted(d for d in os.listdir(courses_dir) if os.path.isfile(os.path.join(courses_dir, d, "course.json")))
+    ids = paths.course_ids(courses_dir)
     if only:
         if only not in ids:
             return {"error": f"unknown course {only!r}"}

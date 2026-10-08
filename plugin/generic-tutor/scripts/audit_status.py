@@ -18,7 +18,7 @@ import os
 import sys
 
 from migrate_schema import COURSE_SCHEMA_VERSION
-from tutorlib import cli, version
+from tutorlib import cli, paths, version
 
 
 def course_reasons(course, engine):
@@ -43,10 +43,9 @@ def audit_status(courses_dir, scripts_dir=None):
         return {"error": f"courses_dir does not exist: {courses_dir}"}
     engine = version.engine_version(scripts_dir)
     rows = []
-    for cid in sorted(os.listdir(courses_dir)):
+    course_ids = paths.course_ids(courses_dir)
+    for cid in course_ids:
         path = os.path.join(courses_dir, cid, "course.json")
-        if not os.path.isfile(path):
-            continue
         try:
             with open(path, encoding="utf-8") as f:
                 course = json.load(f)
@@ -55,8 +54,7 @@ def audit_status(courses_dir, scripts_dir=None):
             reasons = ["unreadable"]
         if reasons:
             rows.append({"course_id": cid, "reasons": reasons})
-    checked = sum(1 for c in os.listdir(courses_dir) if os.path.isfile(os.path.join(courses_dir, c, "course.json")))
-    return {"engine_version": ".".join(map(str, engine)) if engine else None, "courses_checked": checked,
+    return {"engine_version": ".".join(map(str, engine)) if engine else None, "courses_checked": len(course_ids),
             "audit_recommended": bool(rows), "affected_count": len(rows), "affected": rows}
 
 

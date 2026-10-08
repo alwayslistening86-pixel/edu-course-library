@@ -37,6 +37,7 @@
       "exam_status": "locked",
       "item_mastery": {
         "S2.1": {
+          "consecutive_misses": 0,
           "last_correct": true,
           "last_slot": 8,
           "observations": 3,
@@ -74,6 +75,7 @@
       "stderr_tail": [],
       "stdout": {
         "action": "appended",
+        "course_check": "not checked: the course folder was not found",
         "entry": {
           "cause": "misconception",
           "id": "err_<DATE>_S2_001",
@@ -88,6 +90,7 @@
           "stage_id": "S2"
         },
         "item_mastery": {
+          "consecutive_misses": 1,
           "item_id": "S2.1",
           "new_p_mastery": 0.1932,
           "observations": 1,
@@ -128,6 +131,7 @@
       "stderr_tail": [],
       "stdout": {
         "action": "appended",
+        "course_check": "not checked: the course folder was not found",
         "entry": {
           "cause": "misconception",
           "id": "err_<DATE>_S2_002",
@@ -142,6 +146,7 @@
           "stage_id": "S2"
         },
         "item_mastery": {
+          "consecutive_misses": 2,
           "item_id": "S2.1",
           "new_p_mastery": 0.1747,
           "observations": 2,
@@ -236,6 +241,7 @@
         ],
         "item_id": "S2.1",
         "item_mastery": {
+          "consecutive_misses": 0,
           "item_id": "S2.1",
           "new_p_mastery": 0.5647,
           "observations": 3,
@@ -272,7 +278,7 @@
       "exit": 2,
       "stderr_tail": [],
       "stdout": {
-        "error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE]"
+        "error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--no-observe] [--course-dir <course folder>]"
       }
     },
     {

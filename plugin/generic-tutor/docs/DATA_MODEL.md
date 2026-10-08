@@ -2,7 +2,7 @@
 
 Inventory of every persisted file, derived from the **scripts** (the executable truth), cross-checked against the skills. `/EDU/` below is the install's data root. When a skill and a script disagree, the script wins and the skill is a bug (tracked as S-xx).
 
-Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scripts/tutorlib/schemas/` (deployed with the scripts): `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric`, `misconceptions`, `question_bank`, `access`, `manifest`. `schemas/outputs/` holds shapes of script output that skills may quote (`plan_estimate`). Check any file with `validate_schema.py <kind> <file>`. `tests/test_schemas.py` validates every file the scripts write. This file explains ownership and intent; the schemas are the executable definition. Not schematised: `change.md` (checked by `change_log.py`), SQLite tables (checked by `sqlite_store.py`).
+Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scripts/tutorlib/schemas/` (deployed with the scripts): `student_profile`, `subjects`, `review_deck`, `course`, `curriculum_map`, `rubric`, `misconceptions`, `question_bank`, `command_words`, `access`, `manifest`. `schemas/outputs/` holds shapes of script output that skills may quote (`plan_estimate`). Check any file with `validate_schema.py <kind> <file>`. `tests/test_schemas.py` validates every file the scripts write. This file explains ownership and intent; the schemas are the executable definition. `question_bank.json` questions may carry an optional `key` (kinds `mcq`, `numeric`, `short`; shapes and the marking rules in `tutorlib/marking.py`); a keyed question is marked by `mark_answer.py`, never by the model's judgment. Not schematised: `change.md` (checked by `change_log.py`), SQLite tables (checked by `sqlite_store.py`).
 
 ## Layout and ownership
 
@@ -13,10 +13,11 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
     curriculum_map.json                written by: course-compiler; coverage_check.py reads
     rubric.json                        written by: course-compiler only; every entry sourced
     connectors.md                      written by: course-compiler (Step 6.5)
+    exam_technique.md, command_words.json   optional; written by: course-compiler (Step 4.8) only where the board publishes guidance; read by validate_structure (`exam_guidance_status`), blocking at the gate only if present and malformed
     change.md                          written by: course-runner / course-auditor (free text today; S-11)
     stages/<stage_id>/{lesson,practice,test}.md, misconceptions.json (optional)
     exam/exam.md                       only if course.json.exam.enabled
-  profile/
+  profile/               (or the folder named by $EDU_PROFILE_ROOT; learner folders can live on another drive, courses and scripts stay under the root)
     access.json            {"status": "isolated_confirmed|shared_confirmed", "confirmed_on"}   written by: confirm_access.py (profile/ and courses/ each)
     <user_id>/
       student_profile.json schema v2   written by: profile_init.py / profile_set.py (intake, /profile), slot_advance.py, resume_enrollment.py, roster_apply.py (highest_level_cleared)
@@ -34,7 +35,7 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | `schema_version` | int | profile-kernel | 2 |
 | `learner_id` | string | profile-kernel | = folder name |
 | `consent.status` | `granted\|limited\|revoked` | profile-kernel | enforced in code by every writer via `tutorlib/consent.py` (v1.14.0) |
-| `identity.{display_name,education_level,locale}` | string | intake | |
+| `identity.{display_name,education_level,locale,home_language}` | string | intake, `/profile` | `locale` sets the spelling variant; `home_language` (optional) turns on glosses of key terms |
 | `preferences.{style,tone,accessibility{dyslexia_mode,plain_language_mode,screen_reader_mode}}` | enums/bools | intake, `/profile` | |
 | `learning_signals.{pace,working_memory_support_needed,verbal_load_sensitivity,spatial_support_needed,notes}` | enums/string | intake; cross-subject writes need learner OK | |
 | `goals` | string[] | intake | |
@@ -58,10 +59,12 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 | `current_stage` / `current_phase` | string / `lesson\|practice\|test` | `record_stage_result.py` (stage, and `lesson` on advance); `session_state.py phase` |
 | `exam_status` | `locked\|available\|passed` | `session_state.py exam` (refuses `available` until every stage is satisfied) |
 | `confidence` | float in [0,1], default 0.5 | `confidence_update.py apply` |
-| `error_patterns[]` | `{id, stage_id, item_id, source_phase, cause, misconception_id, rubric_criterion, note, slot, resolved, resolved_at_slot}` | `error_log.py` |
-| `item_mastery{item_id}` | `{p_mastery, observations, …}` | `item_mastery.py` |
+| `error_patterns[]` | `{id, stage_id, item_id, source_phase, cause, misconception_id, rubric_criterion, note, slot, resolved, resolved_at_slot}` | `error_log.py` (`note` at most 400 characters, whitespace collapsed, and refused if it holds an email address, web address or phone number; `cause` one of five; an item id must be one of the course's syllabus items and a `misconception_id` must be the `id` of an entry in that stage's `misconceptions.json` (entries carry an optional stable `id`; `misconception_ids.py` adds them), checked against the course folder when it can be found; an optional `mock: true` when logged with `--mock` from a mock paper: the error is kept and still counts as unresolved, but moves no mastery and no diagnostic trigger) |
+| `item_mastery{item_id}` | `{p_mastery, observations, consecutive_misses, …}` | `item_mastery.py` |
 | `remediation{stage_id}` | `{attempts, last_cause, escalated, escalated_at_slot}` | `remediation_state.py` |
+| `goal_map` | `[{goal, items[], set_on}]` — optional: which syllabus items each of the learner's goals means (the tutor's reading, confirmed with the learner); up to 60 items per goal | `goal_map.py set/clear` (progress class); read by `goal_map.py report` |
 | `target` | `{date: YYYY-MM-DD, set_on}` — optional learner-stated deadline | `plan_target.py` (progress class); the only calendar date stored; read by `plan_estimate.py` |
+| `grading_used{stage_id}` | integer: the latest `record_grading.py` attempt a stage result consumed — optional | `record_stage_result.py` (a pass needs a newer, unused grading record) |
 | `practice_used{stage_id}` | `{fixed: [item numbers], generated: n}` — optional | `practice_pick.py used` |
 | `calibration{enabled, entries[{stage_id, rating 1-5, result, on}]}` | optional, opt-in self-rating before tests, newest 50 | `calibration.py` (signal class) |
 | `notices_acknowledged[]` | `{id, on}` | `session_state.py notice` |
@@ -72,13 +75,13 @@ Machine-readable JSON Schemas (draft 2020-12) live in `plugin/generic-tutor/scri
 
 ## `*_review_deck.json` (v1)
 
-`{schema_version, course_id, cards[{id, stage_id, item_id|null, criterion|null, front, back, interval_sessions, due_at_slot, ease, lapses}]}`. New cards are written only by `deck_add.py` (front ≤200 / back ≤400 characters, one question per front, duplicate fronts skipped, ≤12 per stage and ≤300 per deck). Scheduling fields owned by `review_math.py apply`; cards created by stage-recap (new card: interval 1, ease 2.3, lapses 0, due = current slot + 1).
+`{schema_version, course_id, cards[{id, stage_id, item_id|null, criterion|null, front, back, card_type?, interval_sessions, due_at_slot, ease, lapses}]}`. `card_type` is optional: `basic` (the default when absent), `cloze`, `explain_why` or `worked_step` (rules in `tutorlib/cards.py`; `deck_add.py` rejects a card that does not fit its type). New cards are written only by `deck_add.py` (front ≤200 / back ≤400 characters, one question per front, duplicate fronts skipped, ≤12 per stage and ≤300 per deck). Scheduling fields owned by `review_math.py apply`; cards created by stage-recap (new card: interval 1, ease 2.3, lapses 0, due = current slot + 1).
 
 ## `course.json` (v4)
 
-Fields: `schema_version, name, requires_complete[(id | [any-of ids])], standalone, selected_options?, folder_access{status}, currency (live|historical), material_vintage, academic_level (int|null), level_source, level_basis (framework|declared|standalone), grounding_status (verified|suspended_ungrounded; `null` = unmigrated, set by `migrate_schema.py`, resolved by auditor Tier 3), last_live_recheck, coverage_status (full|partial|unverified; **derived** by `coverage_check.py`), stage_ladder[], linear, framework, practical_stages{stage_id: [capability]}, learner_notices[{id,text,stages,since}], exam{enabled, requires_all_stage_tests_passed}`; optional `suspension{…}` when suspended.
+Fields: `schema_version, name, requires_complete[(id | [any-of ids])], standalone, selected_options?, folder_access{status}, currency (live|historical), lifecycle? (live|retiring; absent = live), material_vintage, academic_level (int|null), level_source, level_basis (framework|declared|standalone), grounding_status (verified|suspended_ungrounded; `null` = unmigrated, set by `migrate_schema.py`, resolved by auditor Tier 3), last_live_recheck, coverage_status (full|partial|unverified; **derived** by `coverage_check.py`), stage_ladder[], linear, framework, practical_stages{stage_id: [capability]}, learner_notices[{id,text,stages,since}], exam{enabled, requires_all_stage_tests_passed}`; optional `suspension{…}` when suspended.
 
-Known issue: `_template/course.json` embeds prose in value positions (`"currency": "live | historical — …"`), so it is a skeleton, not a valid instance until filled (S-03).
+`_template/course.json` is a skeleton: every value to fill is a `{{PLACEHOLDER}}`, and the post-compile gate blocks any left in a course (N-13).
 
 ## `curriculum_map.json`
 
@@ -86,7 +89,7 @@ Keys starting `_` are metadata (`_meta`, `_items_source{document,url,version,ite
 
 ## `rubric.json`
 
-`{stage_rubrics{stage_id:{criteria[], pass_threshold, source{issuing_body, document, reference}}}, exam_rubric{criteria, pass_threshold, source}}`. Every entry sourced; compiler never authors criteria.
+`{stage_rubrics{stage_id:{criteria[], pass_threshold, pass_percent?, source{issuing_body, document, reference}}}, exam_rubric{criteria, pass_threshold, source}}`. Every entry sourced; compiler never authors criteria. `pass_threshold` is prose; the optional integer `pass_percent` (1 to 100) is written only where the issuing body publishes a numeric pass mark, never invented, and `record_stage_result.py` refuses a pass whose recorded marks fall below it.
 
 ## `tutor.sqlite3`
 

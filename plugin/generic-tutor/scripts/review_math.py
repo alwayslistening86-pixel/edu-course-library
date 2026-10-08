@@ -164,11 +164,14 @@ def main():
             print(json.dumps({"error": "usage: review_math.py apply <deck.json> <card_id> <current_slot> <correct:true|false>"}))
             sys.exit(2)
         deck_path, card_id, current_slot, correct_s = args[1:5]
-        correct = correct_s.strip().lower() == "true"
         try:
+            correct = cli.parse_bool(correct_s, "correct")
             result = apply(deck_path, card_id, current_slot, correct)
         except cli.EXPECTED_ERRORS as e:
             print(json.dumps({"error": f"{type(e).__name__}: {e}"}))
+            sys.exit(1)
+        except ValueError as e:
+            print(json.dumps({"error": str(e)}))
             sys.exit(1)
         sys.exit(cli.emit(result))
         return
@@ -177,7 +180,11 @@ def main():
         print(json.dumps({"error": "usage: review_math.py <old_interval> <old_ease> <old_lapses> <current_slot> <correct:true|false> | apply <deck.json> <card_id> <current_slot> <correct:true|false>"}))
         sys.exit(2)
     old_interval, old_ease, old_lapses, current_slot, correct_s = args
-    correct = correct_s.strip().lower() == "true"
+    try:
+        correct = cli.parse_bool(correct_s, "correct")
+    except ValueError as e:
+        print(json.dumps({"error": str(e)}))
+        sys.exit(1)
     result = compute(old_interval, old_ease, old_lapses, current_slot, correct)
     sys.exit(cli.emit(result))
 

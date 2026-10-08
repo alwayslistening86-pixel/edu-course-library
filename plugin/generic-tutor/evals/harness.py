@@ -1,13 +1,16 @@
 """
 Eval harness (A-01): run a suite's cases through a backend N times, score, report, compare with a baseline.
 
-    python -m evals run   [--suite grading|safety|injection|diagnostics|gates|criteria|all] [--backend claude|oracle|always-first|always-wrong]
+    python -m evals run   [--suite grading|safety|injection|diagnostics|gates|criteria|all] [--backend claude|local|oracle|always-first|always-wrong]
                           [--model sonnet] [--samples 3] [--workers 4] [--limit K] [--out report.json]
+                          [--url http://127.0.0.1:11434/v1] [--temperature 0] [--seed 0] [--timeout 180] [--allow-remote]   (local backend)
     python -m evals check <report.json> [baseline.json]
 
-Suites (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints, recheck, fading; each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
+Suites (grading, safety, injection, diagnostics, gates, criteria, accessibility, hints, recheck, fading, locale, wellbeing; each module defines NAME, DECISIONS, build_cases, system_text, build_prompt, parse_response and optionally
 override): grading, safety, injection, diagnostics, gates. Backends:
     claude        the `claude` CLI, model-in-the-loop (manual / nightly; uses quota)
+    local         a model served on this machine through the common chat-completions format (Ollama, llama.cpp server); --model names it;
+                  refuses a non-local --url unless --allow-remote is given (B-03.2)
     oracle        a perfect responder built from each case's reference label (sanity: must score 100%)
     always-wrong  answers the first CRITICAL decision of every case, or else something outside the acceptable set
                   (sanity: the harness must show it is bad and count the critical failures)
@@ -29,7 +32,7 @@ import time
 
 from evals import backends
 
-SUITES = ("grading", "safety", "injection", "diagnostics", "gates", "criteria", "accessibility", "hints", "recheck", "fading")
+SUITES = ("grading", "safety", "injection", "diagnostics", "gates", "criteria", "accessibility", "hints", "recheck", "fading", "locale", "wellbeing")
 AGREEMENT_FLOOR = 0.67
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -196,10 +199,15 @@ def main(argv):
     if argv[:1] != ["run"]:
         print(__doc__)
         return 2
-    args = {"--backend": "oracle", "--model": "sonnet", "--samples": "1", "--limit": None, "--suite": "grading", "--workers": "4", "--out": None}
+    args = {"--backend": "oracle", "--model": "sonnet", "--samples": "1", "--limit": None, "--suite": "grading", "--workers": "4", "--out": None,
+            "--url": backends.DEFAULT_LOCAL_URL, "--temperature": "0", "--seed": "0", "--timeout": "180"}
+    flags = {"--allow-remote": False}
     rest, i = argv[1:], 0
     while i < len(rest):
-        if rest[i] in args and i + 1 < len(rest):
+        if rest[i] in flags:
+            flags[rest[i]] = True
+            i += 1
+        elif rest[i] in args and i + 1 < len(rest):
             args[rest[i]] = rest[i + 1]
             i += 2
         else:
@@ -214,6 +222,13 @@ def main(argv):
             cases = cases[:int(args["--limit"])]
         if args["--backend"] == "claude":
             backend = backends.ClaudeCli(args["--model"])
+        elif args["--backend"] == "local":
+            try:
+                backend = backends.LocalChat(args["--model"], args["--url"], timeout=float(args["--timeout"]), temperature=float(args["--temperature"]),
+                                             seed=int(args["--seed"]), allow_remote=flags["--allow-remote"])
+            except ValueError as e:
+                print(f"local backend: {e}")
+                return 2
         elif args["--backend"] in ("oracle", "always-wrong"):
             backend = scripted_backend(suite, cases, args["--backend"])
         else:

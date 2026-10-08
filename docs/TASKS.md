@@ -190,10 +190,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-03 🟢 | Interleaved practice: mix prior-stage items into practice set at a defined ratio, tagged for later analysis | Ratio constant; `select_interleave.py` | L-02 | M | 4 |
 | L-04 🟢 | Learner-initiated mixed review by topic/stage/weak-items (`/review --topic`) | Selection uses item mastery + due cards | C-13 | M | 4 |
 | L-05 🟡 | Review session caps and prioritisation (overdue first, then low-ease, then new) with deterministic ordering | Script returns ordered list; tests | K-22 | M | 4 |
-| L-06 🟡 | Card types: basic, cloze, "explain-why", worked-step; schema + presentation rules | Schema extension + migration | S-09 | M | 4 |
+| L-06 ✅ | Card types: basic, cloze, "explain-why", worked-step; schema + presentation rules | Schema extension + migration | S-09 | M | 4 |
 | L-07 🟡 | Use `item_mastery` to drive *what to practise next* (selection algorithm), not only pacing hints | `next_items.py` + skill step; ablation eval | A-05 | L | 4 |
 | L-08 🟢 | **Exam simulation**: timed paper assembled from test/exam bank with mark scheme, timing guidance, honest marking, grade-boundary estimate with uncertainty | Skill K-31 + `assemble_paper.py` | N-07 | L | 4 |
-| L-09 🟢 | Exam technique content: command-word handling, mark-allocation heuristics, time per mark — as a per-course optional file `exam_technique.md` | Template + compiler step | N-05 | M | 4 |
+| L-09 ✅ | Exam technique content: command-word handling, mark-allocation heuristics, time per mark — as a per-course optional file `exam_technique.md` | Template + compiler step | N-05 | M | 4 |
 | L-10 🟢 | Readiness estimate: per-course, from item mastery + coverage + recent test results, presented with a confidence band and caveats | `readiness.py`; wording rules | L-07 | M | 4 |
 | L-11 🟡 | Worked-example fading policy: define when to give full/partial/no worked example by mastery band | Policy in tutor-core + eval | K-01 | S | 4 |
 | L-12 🟢 | Opt-in **deadline-aware planning**: learner may state an exam date; planner computes slots-needed vs slots-available and triage priorities without storing a calendar (date stored only as a single optional field with expiry) | ADR approving or rejecting; if approved, script + tests | — | L | 4 |
@@ -203,10 +203,10 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | L-16 ✅ | Feedback style rules: specific, criterion-referenced, next-action oriented; no answer-leaking in hints; hint ladder (nudge → cue → partial → full) | Rules + eval cases | K-01 | M | 3 |
 | L-17 🟡 | Metacognition prompts at stage end (what was hard, what to revisit) feeding `last_session_summary` | Short protocol | K-32 | S | 4 |
 | L-18 🟢 | Accessibility output modes implemented as concrete formatting contracts (chunk size, glossary, sentence length, no dense tables) and a text-only/screen-reader-friendly mode | Eval checks mode compliance | A-01 | M | 4 |
-| L-19 🟡 | Language support: non-English-first learners (glossary in home language optional), spelling variants (en-GB focus) | Optional `locale`/`home_language` field | S-09 | M | 5 |
+| L-19 ✅ | Language support: non-English-first learners (glossary in home language optional), spelling variants (en-GB focus) | Optional `locale`/`home_language` field | S-09 | M | 5 |
 | L-20 🟡 | Session length awareness: respect `session_minutes` (pacing checkpoints, stop-points that leave state consistent) | Checkpoint protocol in runner | K-07 | M | 4 |
 | L-21 🟡 | Prerequisite remediation across courses: when diagnosis says `missing_prerequisite`, point to concrete earlier stage/course with a one-click `/continue` suggestion | Mapping via `curriculum_map` prerequisites | N-08 | M | 4 |
-| L-22 🟡 | Goal alignment: translate learner `goals` into prioritised syllabus items; show coverage vs goal | `goal_map.py` | L-10 | M | 5 |
+| L-22 ✅ | Goal alignment: translate learner `goals` into prioritised syllabus items; show coverage vs goal | `goal_map.py` | L-10 | M | 5 |
 
 ## A — Assessment quality & evaluation
 
@@ -236,7 +236,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | U-03 🟢 | Optional HTML dashboard artifact generated from the report (read-only, no learner data leaves the machine) | Artifact template; privacy review | U-01,X-04 | M | 4 |
 | U-04 🟡 | Toolkit GUI parity with `/status` and `/progress`; keep read-only | GUI screens added | U-01 | M | 4 |
 | U-05 🟡 | Streak-free motivation: progress framing that avoids gamification (stage milestones, coverage %) | Wording guidelines | L-01 | S | 4 |
-| U-06 🟡 | Export progress as a printable summary (PDF via existing doc tooling) for parents/tutors, with consent check | Output option on `/export` | K-29 | M | 5 |
+| U-06 ✅ | Export progress as a printable summary (PDF via existing doc tooling) for parents/tutors, with consent check | Output option on `/export` | K-29 | M | 5 |
 | U-07 🟡 | Anki export upgrade: include tags (stage, item, criterion), cloze support, media-free guarantee | `export_anki.py` updated + tests | L-06 | S | 4 |
 
 ## N — Content pipeline (private repo contract)
@@ -247,16 +247,17 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 | N-02 🟡 | Versioned compatibility: `course.json` declares `min_engine_version`; gate_check refuses incompatible courses with a clear message | Field + check + test | N-01 | S | 2 |
 | N-03 🟢 | Reusable GitHub Action (and CLI) for the private repo: structure + coverage + schema + rubric-lint + copyright heuristics | `uses:` works from private repo | S-05,A-11 | M | 5 |
 | N-04 🟡 | Source verification helper: URL liveness, snapshot hash/date capture for spec documents (stored as metadata only) | `verify_sources.py` | N-01 | M | 5 |
-| N-05 🟡 | Compiler output includes optional `exam_technique.md` and `command_words.json` where the board publishes them | Template + compile step | K-09 | M | 5 |
-| N-06 🟡 | Copyright heuristics: detect long verbatim runs vs. source excerpts supplied to compiler; warn | `paraphrase_check.py` | K-12 | M | 5 |
+| N-05 ✅ | Compiler output includes optional `exam_technique.md` and `command_words.json` where the board publishes them | Template + compile step | K-09 | M | 5 |
+| N-06 ✅ | Copyright heuristics: detect long verbatim runs vs. source excerpts supplied to compiler; warn | `paraphrase_check.py` | K-12 | M | 5 |
 | N-07 🟡 | Question bank structure for exam assembly (tagged by item, marks, difficulty, calculator/non-calculator) | Schema + template | S-05 | M | 4 |
 | N-08 🟡 | Prerequisite graph at item level (not just course level) to power remediation links and planning | `curriculum_map` extension + migration | S-09 | L | 5 |
 | N-09 🟢 | Misconception seeding pipeline: for each course, generate candidates from examiner reports/sources, human-review queue, sourced entries only | Queue format + reviewer checklist; first course seeded | A-04 | L | 5 |
 | N-10 🟡 | Currency monitor: scheduled (manual or CI in private repo) check of spec version/issue per course → report only | `currency_report.py` | N-04 | M | 5 |
-| N-11 🟡 | Content changelog and provenance per course (`change.md` structured, S-11) surfaced in `/list-courses` | Display + tests | S-11 | S | 5 |
-| N-12 🟡 | Course import/export between libraries (portable course bundle, no learner data) | Bundle format + tests | N-01 | M | 5 |
-| N-13 🟡 | Template refresh: `_template/` produces a schema-valid skeleton; includes `misconceptions.json` example and `exam_technique.md` stub | `validate_structure` passes on filled template | S-03 | S | 2 |
-| N-14 🟡 | Decide fate of "historic" vs "staging" courses in contract (states, transitions, who can move them) | Contract section | N-01 | S | 2 |
+| N-11 ✅ | Content changelog and provenance per course (`change.md` structured, S-11) surfaced in `/list-courses` | Display + tests | S-11 | S | 5 |
+| N-12 ✅ | Course import/export between libraries (portable course bundle, no learner data) | Bundle format + tests | N-01 | M | 5 |
+| N-13 ✅ | Template refresh: `_template/` produces a schema-valid skeleton; includes `misconceptions.json` example and `exam_technique.md` stub | `validate_structure` passes on filled template | S-03 | S | 2 |
+| N-14 ✅ | Decide fate of "historic" vs "staging" courses in contract (states, transitions, who can move them) | Contract section | N-01 | S | 2 |
+| N-15 ✅ | Compile into a hidden build folder and publish by rename once the post-compile gate passes, so a half-built or failed compile is never visible to `/list-courses` or enrolment | Compiler steps 7-8 rewritten; interrupted compile leaves no live course; test | N-14 | M | 5 |
 
 ## X — Security & privacy
 
@@ -294,7 +295,7 @@ Standard for every skill: add a **contract block** (Owns · Reads · Calls · Em
 
 ## B — Surfaces & deployment (direction accepted 6 Oct 2026; build patterns still to be designed)
 
-These come from the owner's review of three ideas (ADR 0010): learner state that travels with the learner, a local user interface over the scripts, and models given different roles. They are no longer being dismissed. They are also not yet designed: each task below starts with a design step (a short ADR or design note with the build pattern, the risks and how it will be measured), and nothing should be built before that. Order matters: B-01 first, B-02 next, the role work last.
+These come from the owner's review of three ideas (ADR 0010): learner state that travels with the learner, a local user interface over the scripts, and models given different roles. They are no longer being dismissed. They are also not yet designed: each task below starts with a design step (a short ADR or design note with the build pattern, the risks and how it will be measured), and nothing should be built before that. Order matters: B-01 first, B-02 next, the role work last. `docs/WAVE7.md` breaks each into micro-tasks (B-01.1 and so on, 51 in all), with the owner decisions each needs and what would make us stop; the micro-tasks live there so the counts here do not move.
 
 | ID | Task | Done when | Dep | Size | Ph |
 |---|---|---|---|---|---|
@@ -395,7 +396,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | A-03 | 🟡 baseline | grading suite baseline recorded (sonnet): 35/35 acceptable, 0 false passes; set is easy - borderline, units, multi-part and extended-writing cases still to add |
 | A-04 | ✅ done | diagnostics suite, 15 scenarios, 5 causes × 3; baseline 14/14 scored, 1 ambiguous |
 | A-06 | ✅ done | automated consistency protocol: N-sample agreement, acceptable sets, ambiguous set excluded, authoring rule recorded |
-| A-08 | ✅ done | safety suite (real-situation guard + physical risk), 12 cases |
+| A-08 | ✅ done | safety suite (real-situation guard + physical risk), 12 cases. Follow-on (v1.90.0): `wellbeing` suite (18 invented cases, code-graded) and a tutor-core rule for learners who may be unsafe |
 | A-09 | ✅ done | gates suite on real `gate_check.py` output, 7 cases |
 | A-10 | ✅ done | `python -m evals check` + policy in `evals/README.md` (not yet a CI gate: model runs are manual) |
 | X-01 | ✅ evals | injection suite, 8 cases (6 attack styles + 2 clean), canary-based detection |
@@ -410,7 +411,15 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | N-03 | ✅ done | `validate_courses.py --courses/--engine` + reusable `validate-courses.yml`; the caller workflow lives in the content repo |
 | R-17 | ✅ done | same workflow is the documented entry point |
 | S-12 | ✅ done | `misconceptions` schema + checked by `/doctor` and the content CI (not yet inside `postcompile_gate`) |
-| N-13 | 🟡 partial | template still a skeleton with placeholders; fixture proves a filled course validates |
+| N-05 | ✅ done | `command_words` schema; `validate_structure.exam_guidance_status` reports both optional files; `postcompile_gate` blocks one that is present but malformed (no Source line, empty, bad schema, duplicate word); compiler Step 4.8 says when to write them. The tutor does not use them yet (L-09). No course has them: they need the audit enrichment run |
+| L-09 | ✅ done | `exam_guidance.py` (read-only) hands the tutor a course's `exam_technique.md` / `command_words.json`, or says plainly that the course holds none; `tutor-core/exam-technique.md` says to quote only that and never invent mark allocations, timings or what examiners look for, and not to teach technique inside a test. No course has the files yet, so today the tutor will say it holds no board guidance |
+| L-06 | ✅ done | optional `card_type` on a review card: basic (default), cloze, explain_why, worked_step. `tutorlib/cards.py` owns what each needs; `deck_add.py` rejects a card misfiled under its type; `review_select.py` returns `card_type`, a `prompt` with cloze blanks shown as `[...]` and the cloze `answers`; the Anki export tags the two non-cloze types; review-scheduler and stage-recap say how to author and present each. Absent = basic, so existing decks need no migration. Not evaluated: whether the tutor presents each type well needs real sessions |
+| N-13 | ✅ done | the template's option lists (`currency`, `level_basis`) and the empty rubric `source` blocks were invalid as shipped; they are placeholders now. A test fills the template and runs `validate_structure`, `validate_schema`, `coverage_check` and `postcompile_gate` on it, so template drift fails CI. `postcompile_gate` now blocks any `{{PLACEHOLDER}}` left in a course file (0 hits across the 63 library courses). `_template/optional/` holds `exam_technique.md` and `command_words.json` stubs; nothing in the tutor reads those two files yet (N-05) (v1.84.0) |
+| N-14 | ✅ done | `CONTENT_CONTRACT.md` now has a *Course lifecycle* section: live, retiring, not-a-course, retired (`_historic/`) and owner scratch (`_staging/`), who moves what (only the owner moves folders; no skill or script does) and the `currency: historical` vs `_historic/` distinction. Two gaps the work exposed are closed: scans of the library listed any folder with a `course.json`, including a leftover `.import-x.tmp` (now `paths.course_ids` applies the id rule at all seven scan sites), and the auditor's `lifecycle: retiring` was prose with no code behind it (now a schema enum, `enrol.py` refuses new enrolments, `/list-courses` shows it). Building in `_staging/` and publishing by rename is N-15 (v1.85.0) |
+| N-15 | ✅ done | the compiler writes into a hidden `courses/.build-<id>/` and `publish_course.py publish` runs `postcompile_gate` then renames it into place, so a course appears whole or not at all and a failed or abandoned compile is never listed or enrollable; an existing course is never overwritten; `--override "<reason>"` ships a known gap and is reported; `discard` removes only a `.build-` folder; `/doctor` reports leftover `.build-`/`.import-` folders. Compiler steps 7-7.5 rewritten within the `/add-course` budget (v1.86.0) |
+| N-11 | ✅ done | `/list-courses` rows (full form) carry `provenance`: itemised source document and version, `itemised_on`, `material_vintage`, `built_on` and the last change with its title and the entry count (from `change.md` via `change_log.py`), and `last_live_recheck`. Every value may be null; long source strings are capped at 160 characters for display; the compact form is unchanged. Run against all 62 real courses: 62 have an itemised source, 40 have a change log (v1.87.0) |
+| U-06 | ✅ done | `dashboard_html.py --summary-for "<recipient>"` makes a printable summary the learner chooses to share with a tutor or parent: it names its recipient, shows per-course progress, coverage and the readiness band with caveats, and omits the next step, weakest items, mistake causes and mock detail; refused when consent is `revoked`; both forms get a print stylesheet; the page language follows `identity.locale` (it was hard-coded en-GB). Not guardian oversight (PRIVACY.md keeps that out of scope): on request only, nothing is sent anywhere, the skill says never to offer one unprompted. A PDF is the reader's browser's Print to PDF; no PDF tooling is added (v1.88.0) |
+| L-22 | ✅ done | `goal_map.py items|set|clear|report`: the tutor proposes which syllabus items each of the learner's `goals` means (read from the itemised course; big courses list topic areas first), the learner confirms, and the script validates (known ids only, at most 60 per goal) and stores it as `goal_map` in the learner's subjects file (progress class, atomic, locked, ledgered, schema-checked). `report` gives per goal: items taught (stage passed) versus remaining in teaching order, the next stage, observed mastery of the taught items, weakest taught items, items no stage teaches, and unmapped goals; it says that taught is not learned and the mapping is the tutor's reading. The flow lives in `journey-planner/goals.md` to hold the `/plan` budget. Optional field, so no migration (v1.89.0) |
 | A-03 | 🟡 more | `criteria` suite added (18 cases, extended answers vs discrete criteria, wrong-statement credit is critical): 18/18, 0 critical; still missing: units/multi-part numerics, real learner text |
 | D-03 | ✅ done | `docs/USER_GUIDE.md` |
 | D-06 | ✅ done | README rewritten (<60 lines, no rotting counts) |
@@ -421,6 +430,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | L-02 | ✅ done | retrieval warm-up (`review_select.py --limit 3`) at the start of practice |
 | K-04 | ✅ done | concrete accessibility rules in tutor-core; measured (compliant 18 → 25 / 36) |
 | L-18 | ✅ done | three flags with concrete rules in tutor-core (dyslexia, plain language, screen reader), settable by `profile_set.py` / intake, checked by the `accessibility` eval. Reader mode, 3 samples x 4 topics, old text vs new: 3/4 -> 4/4 cases; the old text's decorative-symbol and colour-only slips (4 of 12 samples) -> 0 of 12; other modes unchanged within noise (v1.73.0). Non-English support is L-19, not here |
+| L-19 | ✅ done | `identity.locale` picks the spelling (American for en-US, British otherwise) and `identity.home_language` gets a short gloss of each key term, in tutor-core; `profile_set` accepts the field; `locale` eval suite. 3 samples, old text vs new: sample accuracy 0.889 -> 0.972 (v1.80.0) |
 | L-08 | 🟡 infrastructure | `assemble_paper.py`, `record_mock.py`, `exam-simulator` skill, `/mock`; no course has a question bank yet |
 | K-31 | ✅ done | `exam-simulator` skill |
 | P-05 | ✅ done | SessionStart hook deploys `.tutor-scripts/` and names the learners (`hook_guard.py`, v1.66.0); seen working in a live Claude Code session |
@@ -431,6 +441,8 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | K-30 | ➖ dropped | no separate skill: `health-status` already gives the four readouts (where am I and coverage in `/status`, weak items and readiness in `/readiness`, the page in `/dashboard`). A second skill would duplicate it and add context |
 | V-09 | ✅ done | `record_grading.py`: per test attempt and rubric criterion, met / marks awarded / marks available and a hash of the rubric entry, in a new `grading_results` history table (schema v3, additive). Decision: **no answer text and no rubric wording is stored** (the privacy promise in /status audit says answers are never logged); a later audit can tell a rubric changed under an old result. Signal-class (full consent only); purged with the course (v1.77.0) |
 | N-04 | ✅ done | `verify_sources.py`: every cited URL fetched once; status (ok / dead / blocked / error), HTTP code, size and a SHA-256 kept in `source_snapshots.json` (schema `source_snapshots`), previous hash and `changed` remembered, last good hash kept through an outage; **page text is hashed and discarded**, local and private addresses refused. Tested against a local server, not a real board site (this sandbox blocks them) (v1.78.0) |
+| N-06 | ✅ done | `paraphrase_check.py <course_dir> [--source FILE]...`: advisory findings `long_quote` (15+ words), `many_quotes` (more than one 4+-word quotation per stage) and, given source text files, `verbatim_run` (8+ consecutive shared words outside quotes) across stage .md files, rubric criteria and item titles; read-only, wording only, a clean report is not proof of originality (v1.81.0) |
+| N-12 | ✅ done | `course_bundle.py export|import`: one deterministic zip per course (sorted, fixed timestamps, sha256 manifest), no learner data (learner file names refused both ways). Import verifies hashes, rejects unlisted members, unsafe paths, newer formats and size overflows, builds in a staging folder, requires `validate_structure` clean and no BLOCKING `scan_untrusted` finding, refuses an existing id without `--replace` and keeps the old course if a replace fails (v1.82.0) |
 | N-10 | ✅ done | `currency_report.py`: reads the snapshots and `last_live_recheck`; flags dead / changed / never / stale / blocked, most urgent first; report only, no network. A scheduled run of `verify_sources.py` is the owner's to set up in the private repo (v1.78.0) |
 | K-10 | ✅ done | compile gate: a cited source that is not an http(s) URL blocks; snapshot coverage, dead and changed sources are advice. Checked against the 62 real courses first: none newly blocked (v1.78.0) |
 | A-05 | ✅ done (selection only) | `evals/simulate.py` plays simulated learners against three selection policies; the engine's weakest-first rule ends with more items known (0.54 vs 0.48 at 40 steps, 0.82 vs 0.67 at 100) but a worse estimate on items it has not drilled (0.45 vs 0.31); rule left alone. Confidence-based pacing is not tested: any result would come from the simulator's own learning model, so it needs real learners (v1.76.0) |
@@ -512,7 +524,7 @@ These come from the owner's review of three ideas (ADR 0010): learner state that
 | K-14 | ✅ done | `audit_run.py` JSON report + diff against the last report; human summary led by the diff (v1.54.0) |
 | K-35 | ✅ done | 16 version tags and history pointers removed from skills; docs lint flags new ones (v1.55.0) |
 | K-11 | ✅ done (adapted) | option/tier/awarding-body decision table in the compiler; no script fixtures (the choice is made in conversation) (v1.56.0) |
-| K-12 | ✅ done (policy) | one quotation/paraphrase policy for all course files; automated detection is N-06 and needs source text |
+| K-12 | ✅ done (policy) | one quotation/paraphrase policy for all course files; automated detection is `paraphrase_check.py` (N-06) |
 | K-17 | ✅ done (adapted) | intake question→key→valid-values table; `profile_init.py` already validates (no new script needed) (v1.57.0) |
 | K-34 | ✅ done (adapted) | one spelling in prose, glossary entry, lint for the US form; other core terms were already consistent (v1.58.0) |
 | C-14 | ✅ done | `list_courses.py` + `--status/--level/--standalone/--compact` (v1.59.0) |
@@ -540,7 +552,7 @@ Everything not done sits in exactly one wave (`tools/tasks_status.py --check` fa
 | 3 | Optional Claude Code hooks | P-12 P-14 P-16 | Claude Code only (Cowork has no hooks, ADR 0001); a safety net on top of scripts that already enforce the rules |
 | 4 | Learning design | L-06 L-08 L-09 K-24 N-07 | Teaching features; each needs a documented skill section plus tests or evals |
 | 5 | Measurement | A-03 A-12 A-14 L-14 | Needs real learner data or several model tiers; some items cannot start until the system has been used for a while |
-| 6 | Content pipeline | N-05 N-06 N-08 N-09 N-11 N-12 N-13 N-14 L-19 L-22 U-06 X-08 | Needs decisions about writing into the private content repo and about sourcing; the largest gap is `misconceptions.json` (0 of 1,253 stages) |
+| 6 | Content pipeline | N-05 N-08 N-09 X-08 | Needs decisions about sourcing. The largest gap, `misconceptions.json` (0 of 1,253 stages), needs no new code: it is an audit enrichment run (course-auditor Tier 3) over courses built before compile step 4.75, run where the board sites are reachable |
 | 7 | Surfaces & deployment | B-01 B-02 B-03 B-04 B-05 B-06 B-07 | Direction accepted, build patterns not yet designed (design step first in every task). B-01 then B-02; the role work comes last. See ADR 0010 |
 
 
@@ -554,10 +566,10 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 |---|---|---|---|---|
 | 0 Foundations | 36 | 35 | 1 | 0 |
 | 1 Engine hardening | 35 | 32 | 3 | 0 |
-| 2 Plugin surface & trust | 76 | 70 | 4 | 2 |
+| 2 Plugin surface & trust | 76 | 72 | 3 | 1 |
 | 3 Assessment & evals | 17 | 16 | 1 | 0 |
-| 4 Learning design | 34 | 28 | 2 | 4 |
-| 5 Content & ecosystem | 19 | 6 | 1 | 12 |
+| 4 Learning design | 34 | 30 | 2 | 2 |
+| 5 Content & ecosystem | 20 | 14 | 1 | 5 |
 | 6 Surfaces & deployment | 7 | 0 | 0 | 7 |
 
 ### What remains, by wave
@@ -567,9 +579,9 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | 1 | Finish the engine | 4 | 4 |
 | 2 | Skill clarity | 2 | 1 |
 | 3 | Optional Claude Code hooks | 3 | 2 |
-| 4 | Learning design | 5 | 2 |
+| 4 | Learning design | 3 | 2 |
 | 5 | Measurement | 4 | 1 |
-| 6 | Content pipeline | 12 | 2 |
+| 6 | Content pipeline | 3 | 1 |
 | 7 | Surfaces & deployment | 7 | 0 |
 
 ### By workstream
@@ -583,11 +595,11 @@ Derived by `tools/tasks_status.py` from the tables, the progress log and the wav
 | C Commands | 15 | 15 | 0 | 0 | 0 |
 | P Plugin surface | 19 | 16 | 2 | 0 | 1 |
 | V Trust & verification | 10 | 8 | 0 | 2 | 0 |
-| L Learning design | 22 | 16 | 1 | 0 | 5 |
+| L Learning design | 22 | 20 | 1 | 0 | 1 |
 | A Assessment & evals | 14 | 11 | 1 | 0 | 2 |
-| U Learner visibility | 7 | 6 | 0 | 0 | 1 |
-| N Content pipeline | 14 | 5 | 2 | 0 | 7 |
+| U Learner visibility | 7 | 7 | 0 | 0 | 0 |
+| N Content pipeline | 15 | 12 | 1 | 0 | 2 |
 | X Security & privacy | 10 | 9 | 1 | 0 | 0 |
 | D Documentation | 12 | 12 | 0 | 0 | 0 |
 | B Surfaces & deployment | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **224** | **184** | **12** | **4** | **24** |
+| **Total** | **225** | **196** | **11** | **4** | **14** |

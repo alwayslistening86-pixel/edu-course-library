@@ -78,10 +78,8 @@ def check_courses(courses_dir):
     if not os.path.isdir(courses_dir):
         return _c("courses", "warn", "no courses/ folder", None)
     bad, n = [], 0
-    for cid in sorted(os.listdir(courses_dir)):
+    for cid in paths.course_ids(courses_dir):
         cdir = os.path.join(courses_dir, cid)
-        if not os.path.isfile(os.path.join(cdir, "course.json")):
-            continue
         n += 1
         v = validate_structure.validate(cdir)
         errs = []
@@ -93,6 +91,10 @@ def check_courses(courses_dir):
             errs += schema.validate_file(mis, "misconceptions")
         if "error" in v or not v.get("clean", False) or errs:
             bad.append(cid)
+    unfinished = sorted(d for d in os.listdir(courses_dir) if d.startswith((".build-", ".import-")))
+    if unfinished:   # N-15: an interrupted compile or import; invisible to the library, but worth clearing
+        return _c("courses", "warn", f"unfinished build(s) in courses/: {', '.join(unfinished[:5])}",
+                  "finish it, or run publish_course.py discard <courses dir> <course id> (a .import-*.tmp folder can simply be deleted)")
     if bad:
         return _c("courses", "warn", f"{len(bad)} of {n} courses need attention: {', '.join(bad[:10])}", "run /audit")
     return _c("courses", "ok", f"{n} course(s) structurally clean")
@@ -157,7 +159,7 @@ def run(root, learner=None):
     if os.path.isdir(root):
         checks.append(check_deployed(root))
         checks.append(check_courses(os.path.join(root, "courses")))
-        pdir = os.path.join(root, "profile")
+        pdir = paths.profile_root(root)
         if os.path.isdir(pdir):
             for uid in sorted(os.listdir(pdir)):
                 ldir = os.path.join(pdir, uid)

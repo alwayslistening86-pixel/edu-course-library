@@ -19,7 +19,7 @@ import os
 import sys
 
 import verify_sources
-from tutorlib import cli
+from tutorlib import cli, paths
 
 STALE_DAYS = 120
 ORDER = ("dead", "changed", "never", "stale", "blocked")
@@ -72,11 +72,10 @@ def run(courses_dir, today=None, stale_days=STALE_DAYS):
         return {"error": f"FileNotFoundError: no courses folder at {courses_dir}"}
     today = today or datetime.date.today().isoformat()
     rows = []
-    for cid in sorted(os.listdir(courses_dir)):
-        if os.path.isfile(os.path.join(courses_dir, cid, "course.json")):
-            st = course_status(os.path.join(courses_dir, cid), today, stale_days)
-            if st["flags"]:
-                rows.append({"course_id": cid, **st})
+    for cid in paths.course_ids(courses_dir):
+        st = course_status(os.path.join(courses_dir, cid), today, stale_days)
+        if st["flags"]:
+            rows.append({"course_id": cid, **st})
     rows.sort(key=lambda r: (ORDER.index(r["flags"][0]), r["course_id"]))
     counts = {k: sum(k in r["flags"] for r in rows) for k in ORDER}
     return {"checked_on": today, "stale_days": stale_days, "courses_needing_attention": len(rows), "counts": counts, "courses": rows}
