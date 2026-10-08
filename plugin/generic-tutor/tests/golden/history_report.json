@@ -46,6 +46,7 @@
       "stderr_tail": [],
       "stdout": {
         "action": "appended",
+        "course_check": "not checked: the course folder was not found",
         "entry": {
           "cause": "slip",
           "id": "err_<DATE>_S2_001",

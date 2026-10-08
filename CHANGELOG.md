@@ -17,6 +17,10 @@ User-visible history of the generic-tutor plugin, newest first. The reasoning be
 ### Changed
 - Private `vN` removed from four skill headings.
 
+## [1.98.0] — 2026-10-08
+### Changed
+- B-04.5c, B-04.5d: error_log.py append checks an entry against the course: the item must be one of the course's syllabus items (a different stage's item is accepted with a warning, as practice interleaves) and a misconception id must be the id of an entry in that stage's misconceptions.json; otherwise nothing is written and the error names the valid ones. misconceptions.json entries take an optional stable id (unique per file); misconception_ids.py adds ids to older files without changing or reordering anything. The course folder is --course-dir or found from the data root; if not found the check is skipped and the result says so. Why: ADR 0012 class 2, the voice proposes and a script writes only what it can verify (scenarios S1, S4).
+
 ## [1.97.0] — 2026-10-08
 ### Changed
 - B-03.2: the eval harness has a local backend (python -m evals run --backend local --model NAME [--url ...]) for a model served on this machine through the common chat-completions format (Ollama, llama.cpp server). Standard library only; refuses a non-loopback url unless --allow-remote, ignores proxy variables, refuses redirects, no credentials in the url; each failure says what went wrong. Why: owner decision D5, so the safety and wellbeing rules can be measured on a small local model before a child uses one. Limit: tested against a fake server only; settings are exposed but not yet written into reports (B-03.3).

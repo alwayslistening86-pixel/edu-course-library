@@ -34,3 +34,6 @@ Written 8 Oct 2026 at v1.95.1 while building the B-04.5 tasks of `docs/WAVE7.md`
 
 ## What I need from the owner
 A one-word answer per item is enough: **5b** 1/2/3, **5c** 1/2/3, **5d** 1/2, **5e** 1/2, **5f** 1/2/3. If no answer comes I will build only the recommended choice for 5d, 5c(2) and 5f(1), which are the least invasive, and leave 5b and 5e as they are.
+
+## Outcome of the owner's answer (8 Oct 2026)
+The owner took the recommended option for each item. Built so far (v1.98.0): **5d(2)** and **5c(2)** together. `misconceptions.json` entries take an optional stable `id` (schema, unique per file, `misconception_ids.py` adds them to older files without changing or reordering anything); `error_log.py append` refuses an item that is not one of the course's syllabus items and a misconception id that is not an `id` in that stage's file, and names the valid ones. One deliberate difference from the text above: an item that belongs to a different stage than the one given is **accepted with a warning**, not refused, because interleaved practice (next_items.py mixes in earlier stages) legitimately revisits them. The course folder is `--course-dir`, else found from the data root; if neither works the check is skipped and the result says so, so a install without a findable course is no worse than before. Still to build in the agreed order: 5f(1), 5e(2), 5b(2).

@@ -143,7 +143,7 @@ NOTE
 ```
 **The note is passed on stdin through a quoted heredoc (`@stdin` … `<<'NOTE'`), never inside shell quotes** — it contains the learner's own words, and a stray quote or `$(…)` in a shell argument would run as a command. Write the note as your own short description of the mistake rather than pasting the learner's text.
 
-Match `misconception_id` to `stages/<stage_id>/misconceptions.json` when the diagnosed cause matches a known entry there (see "misconceptions.json" below); `NONE` when it's novel. Respond according to the taxonomy's `right_response` for the classified cause — never a generic re-explanation regardless of cause, that's exactly the failure mode this branch exists to avoid.
+`misconception_id` is the `id` of the matching entry in `stages/<stage_id>/misconceptions.json` (see "misconceptions.json" below), else `NONE`; the script refuses an unknown id or item and names the valid ones. Respond according to the taxonomy's `right_response` for the classified cause — never a generic re-explanation regardless of cause, that's exactly the failure mode this branch exists to avoid.
 
 **When a later attempt on the same item is correct and confident**, resolve it rather than leaving a permanent black mark:
 ```

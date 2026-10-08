@@ -124,6 +124,9 @@ def validate(instance, kind):
     _check(instance, schema, schema, "", errors)
     if kind == "question_bank" and not errors:
         errors += _key_problems(instance)
+    if kind == "misconceptions" and not errors:
+        ids = [e["id"] for e in instance if "id" in e]
+        errors += [f"misconception id {i!r} is used more than once" for i in sorted({i for i in ids if ids.count(i) > 1})]
     return errors
 
 

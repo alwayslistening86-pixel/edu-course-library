@@ -74,6 +74,7 @@
       "stderr_tail": [],
       "stdout": {
         "action": "appended",
+        "course_check": "not checked: the course folder was not found",
         "entry": {
           "cause": "misconception",
           "id": "err_<DATE>_S2_001",
@@ -128,6 +129,7 @@
       "stderr_tail": [],
       "stdout": {
         "action": "appended",
+        "course_check": "not checked: the course folder was not found",
         "entry": {
           "cause": "misconception",
           "id": "err_<DATE>_S2_002",
@@ -272,7 +274,7 @@
       "exit": 2,
       "stderr_tail": [],
       "stdout": {
-        "error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock]"
+        "error": "usage: error_log.py append <subjects.json> <stage_id> <item_id> <source_phase> <cause> <misconception_id|NONE> <note> <current_slot> [rubric_criterion|NONE] [--mock] [--course-dir <course folder>]"
       }
     },
     {
